@@ -10,7 +10,8 @@
     "dev:ssr": "ng run miamigoanimal:serve-ssr",
     "serve:ssr": "node dist/miamigoanimal/server/main.js",
     "build:ssr": "ng build && ng run miamigoanimal:server",
-    "prerender": "ng run miamigoanimal:prerender"
+    "prerender": "ng run miamigoanimal:prerender",
+    "serve:prerender": "http-server -c-1 dist/miamigoanimal/browser"
   },
   "private": true,
   "dependencies": {
