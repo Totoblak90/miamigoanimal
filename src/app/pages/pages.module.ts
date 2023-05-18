@@ -8,6 +8,8 @@ import { AdiestramientoComponent } from './adiestramiento/adiestramiento.compone
 import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { PerrosComponent } from './perros/perros.component';
 import { GatosComponent } from './gatos/gatos.component';
+import { ComponentsModule } from '../components/components.module';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -17,11 +19,13 @@ import { GatosComponent } from './gatos/gatos.component';
     AdiestramientoComponent,
     SobreMiComponent,
     PerrosComponent,
-    GatosComponent
+    GatosComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    ComponentsModule
   ]
 })
 export class PagesModule { }
