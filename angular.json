@@ -39,7 +39,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/miamigoanimal",
+            "outputPath": "dist/miamigoanimal/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -119,6 +119,61 @@
             ],
             "scripts": []
           }
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/miamigoanimal/server",
+            "main": "server.ts",
+            "tsConfig": "tsconfig.server.json",
+            "inlineStyleLanguage": "scss"
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "media"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "sourceMap": true,
+              "extractLicenses": false,
+              "vendorChunk": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve-ssr": {
+          "builder": "@nguniversal/builders:ssr-dev-server",
+          "configurations": {
+            "development": {
+              "browserTarget": "miamigoanimal:build:development",
+              "serverTarget": "miamigoanimal:server:development"
+            },
+            "production": {
+              "browserTarget": "miamigoanimal:build:production",
+              "serverTarget": "miamigoanimal:server:production"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "prerender": {
+          "builder": "@nguniversal/builders:prerender",
+          "options": {
+            "routes": [
+              "/"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "miamigoanimal:build:production",
+              "serverTarget": "miamigoanimal:server:production"
+            },
+            "development": {
+              "browserTarget": "miamigoanimal:build:development",
+              "serverTarget": "miamigoanimal:server:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
