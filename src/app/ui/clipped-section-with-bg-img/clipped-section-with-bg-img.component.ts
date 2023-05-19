@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class ClippedSectionWithBgImgComponent {
   @Input() selectedBg: 'default' | 'cat' | 'dog' = 'default'
-  @Input() skewSide: 'up' | 'down' = 'up'
+  @Input() skewSide: 'up' | 'down' | 'none' = 'none'
 
   get selectedClasses(): {[key: string]: boolean} {
     const cssClasses: {[key: string]: boolean} = {}

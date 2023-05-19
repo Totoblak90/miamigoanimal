@@ -52,3 +52,11 @@
     transform: skewY(-7deg);
   }
 }
+
+.skew-none {
+  transform: skewY(0deg);
+
+  & > * {
+    transform: skewY(0deg);
+  }
+}
