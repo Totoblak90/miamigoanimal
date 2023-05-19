@@ -1,0 +1,7 @@
+[build]
+  publish = "dist/miamigoanimal/browser"
+  command = "ng run prerender"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
