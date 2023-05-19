@@ -26,20 +26,19 @@
         &--back {
             transform: rotateY(180deg);
 
-            &-1 {
+            &-cat {
                 background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
             }
 
-            &-2 {
+            &-extra {
                 background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
             }
 
-            &-3 {
+            &-dog {
                 background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
             }
         }
     }
-
 
     &:hover &__side--front {
         transform: rotateY(-180deg);
@@ -60,19 +59,19 @@
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
 
-        &--1 {
+        &--cat {
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
-            // url(../img/nat-5.jpg);
+            url(../../assets/destacados-gatos.jpg);
         }
 
-        &--2 {
+        &--extra {
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
-            // url(../img/nat-6.jpg);
+            url(../../assets/destacados-extra.jpg);
         }
 
-        &--3 {
+        &--dog {
             background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark),
-            // url(../img/nat-7.jpg);
+            url(../../assets/destacados-perros.jpg);
         }
     }
 
@@ -94,19 +93,19 @@
         -webkit-box-decoration-break: clone;
         box-decoration-break: clone;
 
-        &--1 {
+        &--cat {
             background-image: linear-gradient(to right bottom,
             rgba($color-secondary-light, .85),
             rgba($color-secondary-dark, .85));
         }
 
-        &--2 {
+        &--extra {
             background-image: linear-gradient(to right bottom,
             rgba($color-primary-light, .85),
             rgba($color-primary-dark, .85));
         }
 
-        &--3 {
+        &--dog {
             background-image: linear-gradient(to right bottom,
             rgba($color-tertiary-light, .85),
             rgba($color-tertiary-dark, .85));

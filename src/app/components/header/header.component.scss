@@ -4,11 +4,6 @@
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba($color-primary-light, 0.8),
-      rgba($color-primary-dark, 0.8)),
-  url(../../../assets/hero.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -52,4 +47,28 @@
       transform: translate(-50%, -50%);
       text-align: center;
   }
+}
+
+.bg-default {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)),
+  url(../../../assets/hero.jpg);
+}
+
+.bg-dog {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-tertiary-light, 0.8),
+      rgba($color-tertiary-dark, 0.8)),
+  url(../../../assets/hero.jpg);
+}
+
+.bg-cat {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-secondary-light, 0.8),
+      rgba($color-secondary-dark, 0.8)),
+  url(../../../assets/hero.jpg);
 }

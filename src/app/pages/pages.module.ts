@@ -9,7 +9,6 @@ import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { PerrosComponent } from './perros/perros.component';
 import { GatosComponent } from './gatos/gatos.component';
 import { ComponentsModule } from '../components/components.module';
-import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -20,7 +19,6 @@ import { HomeComponent } from './home/home.component';
     SobreMiComponent,
     PerrosComponent,
     GatosComponent,
-    HomeComponent
   ],
   imports: [
     CommonModule,
