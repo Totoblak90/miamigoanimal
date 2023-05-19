@@ -3,21 +3,52 @@
 
 .section-clipped-with-bg-img {
   padding: 20rem 0;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba($color-primary-light, 0.8),
-      rgba($color-primary-dark, 0.8)),
-  url(../../../assets/destacados-extra.jpg);
-  background-size: cover;
-  transform: skewY(-7deg);
-  margin-top: -10rem;
 
-  & > * {
-      transform: skewY(7deg);
-  }
+  background-size: cover;
+  margin-top: -10rem;
 
   @include respond(tab-port) {
       padding: 10rem 0;
   }
 
+}
+
+.bg-cat {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-secondary-light, 0.8),
+      rgba($color-secondary-dark, 0.8)),
+  url(../../../assets/clipped-section-cat.jpg);
+}
+
+.bg-dog {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-tertiary-light, 0.8),
+      rgba($color-tertiary-dark, 0.8)),
+  url(../../../assets/clipped-section-dog.jpg);
+}
+
+.bg-default {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)),
+  url(../../../assets/destacados-extra.jpg);
+}
+
+.skew-up {
+  transform: skewY(-7deg);
+
+  & > * {
+    transform: skewY(7deg);
+  }
+}
+
+.skew-down {
+  transform: skewY(7deg);
+
+  & > * {
+    transform: skewY(-7deg);
+  }
 }

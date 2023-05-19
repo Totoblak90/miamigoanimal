@@ -6,4 +6,16 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./clipped-section-with-bg-img.component.scss']
 })
 export class ClippedSectionWithBgImgComponent {
+  @Input() selectedBg: 'default' | 'cat' | 'dog' = 'default'
+  @Input() skewSide: 'up' | 'down' = 'up'
+
+  get selectedClasses(): {[key: string]: boolean} {
+    const cssClasses: {[key: string]: boolean} = {}
+
+    cssClasses[`bg-${this.selectedBg}`] = true
+    cssClasses[`skew-${this.skewSide}`] = true
+
+    return cssClasses
+  }
+
 }
