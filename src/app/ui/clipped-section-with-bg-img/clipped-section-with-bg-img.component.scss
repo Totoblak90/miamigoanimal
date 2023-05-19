@@ -38,18 +38,18 @@
 }
 
 .skew-up {
-  transform: skewY(-7deg);
+  transform: skewY(-3deg);
 
   & > * {
-    transform: skewY(7deg);
+    transform: skewY(3deg);
   }
 }
 
 .skew-down {
-  transform: skewY(7deg);
+  transform: skewY(3deg);
 
   & > * {
-    transform: skewY(-7deg);
+    transform: skewY(-3deg);
   }
 }
 
