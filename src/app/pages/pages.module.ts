@@ -9,6 +9,9 @@ import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { PerrosComponent } from './perros/perros.component';
 import { GatosComponent } from './gatos/gatos.component';
 import { ComponentsModule } from '../components/components.module';
+import { TerminosComponent } from './terminos/terminos.component';
+import { PoliticasComponent } from './politicas/politicas.component';
+import { CookiesComponent } from './cookies/cookies.component';
 
 
 @NgModule({
@@ -19,6 +22,9 @@ import { ComponentsModule } from '../components/components.module';
     SobreMiComponent,
     PerrosComponent,
     GatosComponent,
+    TerminosComponent,
+    PoliticasComponent,
+    CookiesComponent
   ],
   imports: [
     CommonModule,

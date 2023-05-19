@@ -6,6 +6,9 @@ import { AdiestramientoComponent } from './adiestramiento/adiestramiento.compone
 import { PerrosComponent } from './perros/perros.component';
 import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { SaludComponent } from './salud/salud.component';
+import { TerminosComponent } from './terminos/terminos.component';
+import { PoliticasComponent } from './politicas/politicas.component';
+import { CookiesComponent } from './cookies/cookies.component';
 
 const routes: Routes = [
   {
@@ -17,6 +20,10 @@ const routes: Routes = [
     component: AlimentacionComponent
   },
   {
+    path: 'cookies',
+    component: CookiesComponent
+  },
+  {
     path: 'gatos',
     component: GatosComponent
   },
@@ -25,12 +32,20 @@ const routes: Routes = [
     component: PerrosComponent
   },
   {
+    path: 'politicas',
+    component: PoliticasComponent
+  },
+  {
     path: 'salud',
     component: SaludComponent
   },
   {
     path: 'sobre-mi',
     component: SobreMiComponent
+  },
+  {
+    path: 'terminos',
+    component: TerminosComponent
   },
   {
     path: '',
