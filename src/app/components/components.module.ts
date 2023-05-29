@@ -3,6 +3,10 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PopupComponent } from './popup/popup.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { SimpleBoxComponent } from './simple-box/simple-box.component';
+import { BgVideoComponent } from './bg-video/bg-video.component';
+import { ClippedSectionWithBgImgComponent } from './clipped-section-with-bg-img/clipped-section-with-bg-img.component';
 
 
 
@@ -10,7 +14,11 @@ import { PopupComponent } from './popup/popup.component';
   declarations: [
     HeaderComponent,
     FooterComponent,
-    PopupComponent
+    PopupComponent,
+    NavigationComponent,
+    SimpleBoxComponent,
+    BgVideoComponent,
+    ClippedSectionWithBgImgComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +26,11 @@ import { PopupComponent } from './popup/popup.component';
   exports: [
     HeaderComponent,
     FooterComponent,
-    PopupComponent
+    PopupComponent,
+    NavigationComponent,
+    SimpleBoxComponent,
+    BgVideoComponent,
+    ClippedSectionWithBgImgComponent
   ]
 })
 export class ComponentsModule { }

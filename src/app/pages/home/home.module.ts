@@ -5,7 +5,6 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { ComponentsModule } from 'src/app/components/components.module';
 import { HighlitedArticlesComponent } from './highlited-articles/highlited-articles.component';
-import { UiModule } from 'src/app/ui/ui.module';
 import { CatsAndDogsPresentationComponent } from './cats-and-dogs-presentation/cats-and-dogs-presentation.component';
 import { OtherCategoriesComponent } from './other-categories/other-categories.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
@@ -16,8 +15,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    ComponentsModule,
-    UiModule
+    ComponentsModule
   ]
 })
 export class HomeModule { }
