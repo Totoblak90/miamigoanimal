@@ -2,9 +2,9 @@
   <div class="footer__logo-box">
 
       <picture class="footer__logo">
-          <source srcset="../../../assets/logo.webp 4x, ../../../assets/logo.webp 7x"
+          <source srcset="{{ logoUrl }} 4x, {{ logoUrl }} 7x"
                   media="(max-width: 37.5em)">
-          <img srcset="../../../assets/logo.webp 4x, ../../../assets/logo.webp 7x" alt="Full logo" src="../../../assets/logo.webp">
+          <img srcset="{{ logoUrl }} 4x, {{ logoUrl }} 7x" alt="Full logo" [src]="logoUrl">
       </picture>
 
   </div>
