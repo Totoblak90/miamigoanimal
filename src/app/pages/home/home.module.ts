@@ -9,13 +9,14 @@ import { CatsAndDogsPresentationComponent } from './cats-and-dogs-presentation/c
 import { OtherCategoriesComponent } from './other-categories/other-categories.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 
-
 @NgModule({
-  declarations: [HomeComponent, HighlitedArticlesComponent, CatsAndDogsPresentationComponent, OtherCategoriesComponent, TestimonialsComponent],
-  imports: [
-    CommonModule,
-    HomeRoutingModule,
-    ComponentsModule
-  ]
+  declarations: [
+    HomeComponent,
+    HighlitedArticlesComponent,
+    CatsAndDogsPresentationComponent,
+    OtherCategoriesComponent,
+    TestimonialsComponent,
+  ],
+  imports: [CommonModule, HomeRoutingModule, ComponentsModule],
 })
-export class HomeModule { }
+export class HomeModule {}

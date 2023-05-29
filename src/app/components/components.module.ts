@@ -7,6 +7,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { SimpleBoxComponent } from './simple-box/simple-box.component';
 import { BgVideoComponent } from './bg-video/bg-video.component';
 import { ClippedSectionWithBgImgComponent } from './clipped-section-with-bg-img/clipped-section-with-bg-img.component';
+import { FlippingCardComponent } from './flipping-card/flipping-card.component';
 
 
 
@@ -18,7 +19,8 @@ import { ClippedSectionWithBgImgComponent } from './clipped-section-with-bg-img/
     NavigationComponent,
     SimpleBoxComponent,
     BgVideoComponent,
-    ClippedSectionWithBgImgComponent
+    ClippedSectionWithBgImgComponent,
+    FlippingCardComponent
   ],
   imports: [
     CommonModule
@@ -30,7 +32,8 @@ import { ClippedSectionWithBgImgComponent } from './clipped-section-with-bg-img/
     NavigationComponent,
     SimpleBoxComponent,
     BgVideoComponent,
-    ClippedSectionWithBgImgComponent
+    ClippedSectionWithBgImgComponent,
+    FlippingCardComponent
   ]
 })
 export class ComponentsModule { }

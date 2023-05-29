@@ -9,176 +9,39 @@
   <div class="row u-margin-bottom-big">
 
       <div class="col-1-of-3">
-         <div class="card">
-             <div class="card__side card__side--front">
-                  <div class="card__picture card__picture--dog">
-                      &nbsp;
-                  </div>
-                  <h4 class="card__heading">
-                      <span class="card__heading-span card__heading-span--dog">Variedad</span>
-                  </h4>
-                  <div class="card__details">
-                      <ul>
-                          <li>Alimentación</li>
-                          <li>Ejercicio</li>
-                          <li>Salud</li>
-                          <li>Higiene</li>
-                          <li>Longitud: +1500 palabras</li>
-                      </ul>
-                  </div>
-             </div>
-             <div class="card__side card__side--back card__side--back-dog">
-                  <div class="card__cta">
-                      <a href="#popup" class="btn btn--white">Ver!</a>
-                  </div>
-              </div>
-         </div>
+        <flipping-card cardTitle="Variedad" [topics]="['Alimentacion', 'Ejercicio', 'Salud', 'Higiene', 'Longitud: +1500 palabras']" type="dog"></flipping-card>
       </div>
 
 
       <div class="col-1-of-3">
-          <div class="card">
-              <div class="card__side card__side--front">
-                  <div class="card__picture card__picture--cat">
-                      &nbsp;
-                  </div>
-                  <h4 class="card__heading">
-                      <span class="card__heading-span card__heading-span--cat">Variedad</span>
-                  </h4>
-                  <div class="card__details">
-                      <ul>
-                          <li>Historia</li>
-                          <li>Razas</li>
-                          <li>Salud</li>
-                          <li>Alimentación</li>
-                          <li>Longitud: +1500 palabras</li>
-                      </ul>
-                  </div>
-
-              </div>
-              <div class="card__side card__side--back card__side--back-cat">
-                  <div class="card__cta">
-                      <a href="#popup" class="btn btn--white">Ver!</a>
-                  </div>
-              </div>
-          </div>
+        <flipping-card cardTitle="Variedad" [topics]="['Historia', 'Razas', 'Salud', 'Alimentación', 'Longitud: +1500 palabras']" type="cat"></flipping-card>
       </div>
 
 
       <div class="col-1-of-3">
-          <div class="card">
-              <div class="card__side card__side--front">
-                  <div class="card__picture card__picture--dog">
-                      &nbsp;
-                  </div>
-                  <h4 class="card__heading">
-                      <span class="card__heading-span card__heading-span--dog">Variedad</span>
-                  </h4>
-                  <div class="card__details">
-                      <ul>
-                          <li>Razas populares</li>
-                          <li>Consejos perro nuevo</li>
-                          <li>Pug Carlino</li>
-                          <li>Longitud: +1500 palabras</li>
-                      </ul>
-                  </div>
-
-              </div>
-              <div class="card__side card__side--back card__side--back-dog">
-                  <div class="card__cta">
-                      <a href="#popup" class="btn btn--white">Ver!</a>
-                  </div>
-              </div>
-          </div>
+        <flipping-card cardTitle="Variedad" [topics]="['Razas populares', 'Consejos perro nuevo', 'Pug Carlino', 'Longitud: +1500 palabras']" type="dog"></flipping-card>
       </div>
 
   </div>
 
   <div class="row u-margin-bottom-big">
-
     <div class="col-1-of-3">
-       <div class="card">
-           <div class="card__side card__side--front">
-                <div class="card__picture card__picture--dog">
-                    &nbsp;
-                </div>
-                <h4 class="card__heading">
-                    <span class="card__heading-span card__heading-span--dog">Variedad</span>
-                </h4>
-                <div class="card__details">
-                    <ul>
-                        <li>Como elegir la raza adecuada</li>
-                        <li>Salud</li>
-                        <li>Adiestramiento y socialización</li>
-                        <li>Consejos para viajes</li>
-                        <li>Longitud: +1500 palabras</li>
-                    </ul>
-                </div>
-           </div>
-           <div class="card__side card__side--back card__side--back-dog">
-                <div class="card__cta">
-                    <a href="#popup" class="btn btn--white">Ver!</a>
-                </div>
-            </div>
-       </div>
+      <flipping-card
+            cardTitle="Variedad"
+            [topics]="['Como elegir la raza adecuada', 'Salud', 'Adiestramiento y socialización', 'Consejos para viajes', 'Longitud: +1500 palabras']"
+            type="dog"
+      ></flipping-card>
     </div>
 
 
     <div class="col-1-of-3">
-        <div class="card">
-            <div class="card__side card__side--front">
-                <div class="card__picture card__picture--cat">
-                    &nbsp;
-                </div>
-                <h4 class="card__heading">
-                    <span class="card__heading-span card__heading-span--cat">Adopción</span>
-                </h4>
-                <div class="card__details">
-                    <ul>
-                        <li>Beneficios</li>
-                        <li>¿Como?</li>
-                        <li>Pasos</li>
-                        <li>Requisitos</li>
-                        <li>Longitud: +1500 palabras</li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="card__side card__side--back card__side--back-cat">
-                <div class="card__cta">
-                    <a href="#popup" class="btn btn--white">Ver!</a>
-                </div>
-            </div>
-        </div>
+      <flipping-card cardTitle="Adopción" [topics]="['Beneficios', '¿Como?', 'Pasos', 'Requisitos', 'Longitud: +1500 palabras']" type="cat"></flipping-card>
     </div>
 
 
     <div class="col-1-of-3">
-        <div class="card">
-            <div class="card__side card__side--front">
-                <div class="card__picture card__picture--dog">
-                    &nbsp;
-                </div>
-                <h4 class="card__heading">
-                    <span class="card__heading-span card__heading-span--dog">Razas populares</span>
-                </h4>
-                <div class="card__details">
-                    <ul>
-                        <li>Para compañía</li>
-                        <li>Para familias</li>
-                        <li>Para departamentos</li>
-                        <li>Para adiestramiento</li>
-                        <li>Longitud: +1500 palabras</li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="card__side card__side--back card__side--back-dog">
-                <div class="card__cta">
-                    <a href="#popup" class="btn btn--white">Ver!</a>
-                </div>
-            </div>
-        </div>
+      <flipping-card cardTitle="Razas populares" [topics]="['Para compañía', 'Para familias', 'Para departamentos', 'Para adiestramiento', 'Longitud: +1500 palabras']" type="dog">
+      </flipping-card>
     </div>
 
   </div>
