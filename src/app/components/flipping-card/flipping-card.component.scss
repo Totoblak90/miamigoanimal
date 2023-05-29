@@ -30,15 +30,15 @@
           transform: rotateY(180deg);
 
           &-cat {
-              background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+              background-image: linear-gradient(to right bottom, $color-cat-light, $color-cat-dark);
           }
 
           &-extra {
-              background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+              background-image: linear-gradient(to right bottom, $color-extra-light, $color-extra-dark);
           }
 
           &-dog {
-              background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+              background-image: linear-gradient(to right bottom, $color-dog-light, $color-dog-dark);
           }
       }
   }
@@ -63,17 +63,17 @@
       border-top-right-radius: 3px;
 
       &--cat {
-          background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
+          background-image: linear-gradient(to right bottom, $color-cat-light, $color-cat-dark),
           url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/destacados-gatos.webp?raw=true);
       }
 
       &--extra {
-          background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
+          background-image: linear-gradient(to right bottom, $color-extra-light, $color-extra-dark),
           url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/destacados-extra.webp?raw=true);
       }
 
       &--dog {
-          background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark),
+          background-image: linear-gradient(to right bottom, $color-dog-light, $color-dog-dark),
           url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/destacados-perros.webp?raw=true);
       }
   }
@@ -98,20 +98,20 @@
 
       &--cat {
           background-image: linear-gradient(to right bottom,
-          rgba($color-secondary-light, .85),
-          rgba($color-secondary-dark, .85));
+          rgba($color-cat-light, .85),
+          rgba($color-cat-dark, .85));
       }
 
       &--extra {
           background-image: linear-gradient(to right bottom,
-          rgba($color-primary-light, .85),
-          rgba($color-primary-dark, .85));
+          rgba($color-extra-light, .85),
+          rgba($color-extra-dark, .85));
       }
 
       &--dog {
           background-image: linear-gradient(to right bottom,
-          rgba($color-tertiary-light, .85),
-          rgba($color-tertiary-dark, .85));
+          rgba($color-dog-light, .85),
+          rgba($color-dog-dark, .85));
       }
   }
 

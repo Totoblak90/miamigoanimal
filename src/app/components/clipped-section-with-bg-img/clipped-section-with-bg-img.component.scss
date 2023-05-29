@@ -16,24 +16,24 @@
 .bg-cat {
   background-image: linear-gradient(
       to right bottom,
-      rgba($color-secondary-light, 0.8),
-      rgba($color-secondary-dark, 0.8)),
+      rgba($color-cat-light, 0.8),
+      rgba($color-cat-dark, 0.8)),
   url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/clipped-section-cat.webp?raw=true);
 }
 
 .bg-dog {
   background-image: linear-gradient(
       to right bottom,
-      rgba($color-tertiary-light, 0.8),
-      rgba($color-tertiary-dark, 0.8)),
+      rgba($color-dog-light, 0.8),
+      rgba($color-dog-dark, 0.8)),
   url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/clipped-section-dog.webp?raw=true);
 }
 
 .bg-default {
   background-image: linear-gradient(
       to right bottom,
-      rgba($color-primary-light, 0.8),
-      rgba($color-primary-dark, 0.8)),
+      rgba($color-extra-light, 0.8),
+      rgba($color-extra-dark, 0.8)),
   url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/destacados-extra.webp?raw=true);
 }
 

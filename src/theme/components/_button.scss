@@ -43,11 +43,11 @@
     }
 
     &--green {
-        background-color: $color-primary;
+        background-color: $color-extra;
         color: $color-white;
 
         &::after {
-            background-color: $color-primary;
+            background-color: $color-extra;
         }
     }
 
@@ -74,16 +74,16 @@
     &:link,
     &:visited {
         font-size: $default-font-size;
-        color: $color-secondary-dark;
+        color: $color-cat-dark;
         display: inline-block;
         text-decoration: none;
-        border-bottom: 1px solid $color-secondary-dark;
+        border-bottom: 1px solid $color-cat-dark;
         padding: 3px;
         transition: all .2s;
     }
 
     &:hover {
-        background-color: $color-secondary-dark;
+        background-color: $color-cat-dark;
         color: $color-white;
         box-shadow: 0 1rem 2rem rgba($color-black, .15);
         transform: translateY(-2px);

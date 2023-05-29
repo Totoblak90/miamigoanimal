@@ -40,8 +40,8 @@
 .bg-default {
   background-image: linear-gradient(
       to right bottom,
-      rgba($color-primary-light, 0.8),
-      rgba($color-primary-dark, 0.8)),
+      rgba($color-extra-light, 0.8),
+      rgba($color-extra-dark, 0.8)),
   url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-both.webp?raw=true);
 
   background-position: center;
@@ -51,8 +51,8 @@
   only screen and (min-width: 125em) {
     background-image: linear-gradient(
       to right bottom,
-      rgba($color-primary-light, 0.8),
-      rgba($color-primary-dark, 0.8)),
+      rgba($color-extra-light, 0.8),
+      rgba($color-extra-dark, 0.8)),
     url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-both.webp?raw=true);
   }
 }
@@ -60,8 +60,8 @@
 .bg-dog {
   background-image: linear-gradient(
       to right bottom,
-      rgba($color-tertiary-light, 0.8),
-      rgba($color-tertiary-dark, 0.8)),
+      rgba($color-dog-light, 0.8),
+      rgba($color-dog-dark, 0.8)),
   url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-dog.webp?raw=true);
 
   background-position: bottom;
@@ -71,8 +71,8 @@
   only screen and (min-width: 125em) {
     background-image: linear-gradient(
       to right bottom,
-      rgba($color-primary-light, 0.8),
-      rgba($color-primary-dark, 0.8)),
+      rgba($color-extra-light, 0.8),
+      rgba($color-extra-dark, 0.8)),
     url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-dog.webp?raw=true);
   }
 }
@@ -80,8 +80,8 @@
 .bg-cat {
   background-image: linear-gradient(
       to right bottom,
-      rgba($color-secondary-light, 0.8),
-      rgba($color-secondary-dark, 0.8)),
+      rgba($color-cat-light, 0.8),
+      rgba($color-cat-dark, 0.8)),
   url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-cat.webp?raw=true);
 
   background-position: center;
@@ -91,8 +91,8 @@
   only screen and (min-width: 125em) {
     background-image: linear-gradient(
       to right bottom,
-      rgba($color-primary-light, 0.8),
-      rgba($color-primary-dark, 0.8)),
+      rgba($color-extra-light, 0.8),
+      rgba($color-extra-dark, 0.8)),
     url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-cat.webp?raw=true);
   }
 }
