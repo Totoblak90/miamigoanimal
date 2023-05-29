@@ -1,11 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AlimentacionComponent } from './alimentacion/alimentacion.component';
-import { GatosComponent } from './gatos/gatos.component';
-import { AdiestramientoComponent } from './adiestramiento/adiestramiento.component';
-import { PerrosComponent } from './perros/perros.component';
-import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
-import { SaludComponent } from './salud/salud.component';
+
 import { TerminosComponent } from './terminos/terminos.component';
 import { PoliticasComponent } from './politicas/politicas.component';
 import { CookiesComponent } from './cookies/cookies.component';
@@ -13,11 +8,11 @@ import { CookiesComponent } from './cookies/cookies.component';
 const routes: Routes = [
   {
     path: 'adiestramiento',
-    component: AdiestramientoComponent
+    loadChildren: () => import('./adiestramiento/adiestramiento.module').then(m => m.AdiestramientoModule)
   },
   {
     path: 'alimentacion',
-    component: AlimentacionComponent
+    loadChildren: () => import('./alimentacion/alimentacion.module').then(m => m.AlimentacionModule)
   },
   {
     path: 'cookies',
@@ -25,11 +20,11 @@ const routes: Routes = [
   },
   {
     path: 'gatos',
-    component: GatosComponent
+    loadChildren: () => import('./gatos/gatos.module').then(m => m.GatosModule)
   },
   {
     path: 'perros',
-    component: PerrosComponent
+    loadChildren: () => import('./perros/perros.module').then(m => m.PerrosModule)
   },
   {
     path: 'politicas',
@@ -37,11 +32,11 @@ const routes: Routes = [
   },
   {
     path: 'salud',
-    component: SaludComponent
+    loadChildren: () => import('./salud/salud.module').then(m => m.SaludModule)
   },
   {
     path: 'sobre-mi',
-    component: SobreMiComponent
+    loadChildren: () => import('./sobre-mi/sobre-mi.module').then(m => m.SobreMiModule)
   },
   {
     path: 'terminos',
