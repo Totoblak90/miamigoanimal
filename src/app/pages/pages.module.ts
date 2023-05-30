@@ -16,12 +16,6 @@ import { CookiesComponent } from './cookies/cookies.component';
 
 @NgModule({
   declarations: [
-    AlimentacionComponent,
-    SaludComponent,
-    AdiestramientoComponent,
-    SobreMiComponent,
-    PerrosComponent,
-    GatosComponent,
     TerminosComponent,
     PoliticasComponent,
     CookiesComponent

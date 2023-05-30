@@ -9,7 +9,7 @@ import { MetaService } from 'src/app/services/meta.service';
 export class PerrosComponent {
 
   constructor(private metaSrv: MetaService) {
-    this._setMetaTags()
+    this._setMetaTags();
   }
 
   private _setMetaTags() {
@@ -18,5 +18,7 @@ export class PerrosComponent {
       'Encuentra toda la información que necesitas sobre perros, desde cómo elegir la raza perfecta hasta consejos de salud y comportamiento.'
     );
   }
+
+
 
 }

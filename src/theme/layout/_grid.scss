@@ -1,3 +1,7 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+
+
 .row {
     max-width: $grid-width;
     margin: 0 auto;
@@ -59,4 +63,15 @@
         width: calc(3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + 2 * #{$gutter-horizontal});
     }
 
+}
+
+.grid-4-cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  row-gap: 2rem;
+  column-gap: 3rem;
+
+  @include respond(big-desktop) {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
 }

@@ -1,0 +1,59 @@
+@import "../../../theme/abstracts/mixins";
+@import "../../../theme/abstracts/variables";
+
+.pet-box {
+  background-color: rgba($color-white, .8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, .3);
+  transition: transform .3s;
+  color: $color-white;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 350px;
+  overflow-y: auto;
+
+  @include respond(tab-port) {
+      padding: 2rem;
+  }
+
+  &__icon {
+      font-size: 6rem;
+      margin-bottom: .5rem;
+      display: inline-block;
+      background-image: linear-gradient(to right, $color-extra-light, $color-extra-dark);
+      -webkit-background-clip: text;
+      color: transparent;
+
+      @include respond(tab-port) {
+          margin-bottom: 0;
+      }
+  }
+
+  &__details {
+    padding: 1.5;
+
+    ul {
+        list-style: none;
+        width: 80%;
+        margin: 0 auto;
+
+        li {
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 1rem;
+
+            &:not(:last-child) {
+                border-bottom: 1px solid $color-grey-light-2;
+            }
+        }
+    }
+}
+
+  &:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+  }
+}

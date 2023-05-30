@@ -9,6 +9,9 @@ import { BgVideoComponent } from './bg-video/bg-video.component';
 import { ClippedSectionWithBgImgComponent } from './clipped-section-with-bg-img/clipped-section-with-bg-img.component';
 import { FlippingCardComponent } from './flipping-card/flipping-card.component';
 import { TestimonialCardComponent } from './testimonial-card/testimonial-card.component';
+import { PetCardComponent } from './pet-card/pet-card.component';
+import { SpinnerComponent } from './spinner/spinner.component';
+import { PipesModule } from '../pipes/pipes.module';
 
 
 
@@ -22,10 +25,13 @@ import { TestimonialCardComponent } from './testimonial-card/testimonial-card.co
     BgVideoComponent,
     ClippedSectionWithBgImgComponent,
     FlippingCardComponent,
-    TestimonialCardComponent
+    TestimonialCardComponent,
+    PetCardComponent,
+    SpinnerComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    PipesModule
   ],
   exports: [
     HeaderComponent,
@@ -36,7 +42,9 @@ import { TestimonialCardComponent } from './testimonial-card/testimonial-card.co
     BgVideoComponent,
     ClippedSectionWithBgImgComponent,
     FlippingCardComponent,
-    TestimonialCardComponent
+    TestimonialCardComponent,
+    PetCardComponent,
+    SpinnerComponent
   ]
 })
 export class ComponentsModule { }
