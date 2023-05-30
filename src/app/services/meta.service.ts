@@ -12,14 +12,16 @@ export class MetaService {
   constructor(private title: Title, private meta: Meta, private rendererFactory: RendererFactory2,  @Inject(DOCUMENT) private document: Document) {}
 
   setMetaTags(title: string, description: string, author = 'Tobias Blaksley', follow = true, keywords = 'Mi amigo animal, Perros, Gatos', canonical= '') {
+    if (!title) { title = 'Mi amigo animal - Consejos y Guías Detalladas para tus Mascotas'}
+    if (!description) { description = `Ya sea que seas un nuevo dueño de mascota o un experto, aquí encontrarás todo lo que necesitas saber sobre el perros y gatos. Descubre nuestros recursos y únete a nuestra comunidad de amantes de las mascotas.` }
+
     this.title.setTitle(title);
-
-    if (follow) { this.meta.updateTag({ name: 'robots', content: 'index, follow' }) }
-    else { this.meta.updateTag({ name: 'robots', content: 'nofollow' }) }
-
     this.meta.updateTag({ name: 'description', content: description })
     this.meta.updateTag({ name: 'author', content: author || 'Tobias Blaksley' })
     this.meta.updateTag({ name: 'keywords', content: keywords })
+
+    if (follow) { this.meta.updateTag({ name: 'robots', content: 'index, follow' }) }
+    else { this.meta.updateTag({ name: 'robots', content: 'nofollow' }) }
 
     this.removeCanonical('rel=\'canonical\'');
     this.addCanonical({ rel: 'canonical', href: canonical || window.location.href });

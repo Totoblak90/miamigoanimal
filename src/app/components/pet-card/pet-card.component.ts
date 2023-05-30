@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, Input, OnDestroy, ViewChild } from '@angular/core';
 import { Dog } from 'src/app/interfaces/dog.interface';
 
 @Component({
@@ -6,7 +6,7 @@ import { Dog } from 'src/app/interfaces/dog.interface';
   templateUrl: './pet-card.component.html',
   styleUrls: ['./pet-card.component.scss']
 })
-export class PetCardComponent implements AfterViewInit {
+export class PetCardComponent implements AfterViewInit, OnDestroy {
   @Input() pet: Dog | undefined;
   @ViewChild('scrollContainer') scrollContainer: ElementRef | undefined;
   scrollInterval: any;
@@ -29,9 +29,9 @@ export class PetCardComponent implements AfterViewInit {
       if (this.scrollContainer) {
         const container = this.scrollContainer.nativeElement;
         if (container.scrollTop + container.clientHeight >= container.scrollHeight) {
-          this.scrollDirection = -3; // change direction to up
+          this.scrollDirection = -2; // change direction to up
         } else if (container.scrollTop === 0) {
-          this.scrollDirection = 3; // change direction to down
+          this.scrollDirection = 2; // change direction to down
         }
         container.scrollTop += this.scrollDirection;
       }
@@ -40,5 +40,9 @@ export class PetCardComponent implements AfterViewInit {
 
   stopScrolling() {
     clearInterval(this.scrollInterval);
+  }
+
+  ngOnDestroy(): void {
+    // clearInterval(this.scrollInterval);
   }
 }

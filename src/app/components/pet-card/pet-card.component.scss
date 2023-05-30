@@ -20,19 +20,6 @@
       padding: 2rem;
   }
 
-  &__icon {
-      font-size: 6rem;
-      margin-bottom: .5rem;
-      display: inline-block;
-      background-image: linear-gradient(to right, $color-extra-light, $color-extra-dark);
-      -webkit-background-clip: text;
-      color: transparent;
-
-      @include respond(tab-port) {
-          margin-bottom: 0;
-      }
-  }
-
   &__details {
     padding: 1.5;
 
@@ -51,7 +38,7 @@
             }
         }
     }
-}
+  }
 
   &:hover {
       transform: translateY(-1.5rem) scale(1.03);

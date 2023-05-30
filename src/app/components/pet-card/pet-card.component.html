@@ -1,16 +1,18 @@
 <div *ngIf="pet" class="pet-box" [style.background-image]="backgroundImage" #scrollContainer (mouseenter)="stopScrolling()" (mouseleave)="startScrolling()">
-    <i class="pet-box__icon icon-basic-world"></i>
     <h3 class="heading-tertiary u-margin-bottom-small">{{ pet.name }}</h3>
+
     <div class="pet-box__details u-margin-bottom-medium">
       <ul>
         <li>Peso: {{ pet.weight.metric }}kg</li>
       </ul>
     </div>
+
     <div class="pet-box__details u-margin-bottom-medium">
       <ul>
         <li>Altura: {{ pet.height.metric }}cm</li>
       </ul>
     </div>
+
     <div class="pet-box__details u-margin-bottom-medium">
       <ul>
         <p class="paragraph u-margin-bottom-small">Temperamento:</p>
