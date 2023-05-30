@@ -3,12 +3,18 @@
     <h2 class="heading-secondary">Razas de gato</h2>
   </div>
 
-  <form class="search row form" [formGroup]="searchCatForm">
-    <div class="form__group">
-      <label class="form__label">Buscar raza</label>
-      <input class="form__input" type="text" placeholder="Buscar raza de gato" formControlName="searchTerm">
+  <div class="row">
+    <div class="form-container">
+      <div class="form-container__form">
+        <form class="search row form" [formGroup]="searchCatForm">
+          <div class="form__group">
+            <label class="form__label">Buscar raza</label>
+            <input class="form__input" type="text" placeholder="Buscar raza de gato" formControlName="searchTerm">
+          </div>
+        </form>
+      </div>
     </div>
-  </form>
+  </div>
 
   <div class="grid-4-cols row" *ngIf="!searching">
     <pet-card *ngFor="let dog of catList" [pet]="dog"></pet-card>

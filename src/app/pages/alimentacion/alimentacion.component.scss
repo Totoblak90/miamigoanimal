@@ -1,0 +1,11 @@
+@import "../../../theme/abstracts/mixins";
+@import "../../../theme/abstracts/variables";
+
+.section-video {
+  position: relative;
+  padding: 15rem 0;
+
+  @include respond(tab-port) {
+      padding: 10rem 0;
+  }
+}

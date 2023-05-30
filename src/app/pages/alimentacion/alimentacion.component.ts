@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MetaService } from 'src/app/services/meta.service';
 
 @Component({
   selector: 'app-alimentacion',
@@ -6,5 +7,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./alimentacion.component.scss']
 })
 export class AlimentacionComponent {
+
+  constructor(private metaSrv: MetaService) {
+    this._setMetaTags();
+  }
+
+  private _setMetaTags() {
+    this.metaSrv.setMetaTags(
+      'Alimentación - Guía de Alimentación para Perros y Gatos',
+      'Encontrá todo lo referente a la alimentación de tu mascota. Aprendé a alimentar a tu mascota de la mejor manera.',
+      'Tobias Blaksley',
+      true,
+      'alimentación para mascotas, alimento para perros, alimento para gatos, alimentación de mascotas'
+    );
+  }
 
 }

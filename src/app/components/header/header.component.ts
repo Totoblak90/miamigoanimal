@@ -9,7 +9,7 @@ export class HeaderComponent {
   @Input() mainTitle: string = '';
   @Input() secondaryTitle = '';
   @Input() cta?: string = '';
-  @Input() bckColour?: 'default' | 'dog' | 'cat' = 'default';
+  @Input() bckColour?: 'default' | 'dog' | 'cat' | 'health' | 'train' | 'food' = 'default';
 
   get backgroundColour(): string {
 

@@ -29,6 +29,30 @@
   url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/clipped-section-dog.webp?raw=true);
 }
 
+.bg-health {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-health-light, 0.8),
+      rgba($color-health-dark, 0.8)),
+  url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/destacados-extra.webp?raw=true);
+}
+
+.bg-food {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-food-light, 0.8),
+      rgba($color-food-dark, 0.8)),
+  url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/destacados-extra.webp?raw=true);
+}
+
+.bg-train {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-training-light, 0.8),
+      rgba($color-training-dark, 0.8)),
+  url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/destacados-extra.webp?raw=true);
+}
+
 .bg-default {
   background-image: linear-gradient(
       to right bottom,

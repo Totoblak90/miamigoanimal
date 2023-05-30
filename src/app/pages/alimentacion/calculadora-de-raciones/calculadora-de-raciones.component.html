@@ -1,0 +1,62 @@
+<section class="section-form-container">
+  <div class="row">
+    <div class="form-container">
+      <div class="form-container__form">
+        <form [formGroup]="rationsForm" (ngSubmit)="calculateRations()" class="form">
+
+          <div class="u-margin-bottom-medium">
+            <h2 class="heading-secondary">Calculadora de raciones</h2>
+          </div>
+
+          <div class="form__group">
+            <div class="form__radio-group">
+
+              <input type="radio" class="form__radio-input" id="dog" name="animalType" formControlName="animalType" value="dog"/>
+              <label for="dog" class="form__radio-label"> <span class="form__radio-button"></span> Perro </label>
+
+            </div>
+
+            <div class="form__radio-group">
+              <input type="radio" class="form__radio-input" id="cat" name="animalType" formControlName="animalType" value="cat"/>
+              <label for="cat" class="form__radio-label"> <span class="form__radio-button"></span> Gato </label>
+            </div>
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="weight">Peso (kg)</label>
+            <input class="form__input" type="number" formControlName="weight"/>
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="size">Tamaño</label>
+
+            <div class="form__radio-group">
+              <input type="radio" class="form__radio-input" id="small" name="size" formControlName="size" value="small"/>
+              <label for="small" class="form__radio-label"> <span class="form__radio-button"></span> Pequeño </label>
+            </div>
+
+            <div class="form__radio-group">
+              <input type="radio" class="form__radio-input" id="medium" name="size" formControlName="size" value="medium"/>
+              <label for="medium" class="form__radio-label"> <span class="form__radio-button"></span> Mediano </label>
+            </div>
+
+            <div class="form__radio-group">
+              <input type="radio" class="form__radio-input" id="large" name="size" formControlName="size" value="large"/>
+              <label for="large" class="form__radio-label"> <span class="form__radio-button"></span> Grande </label>
+            </div>
+
+          </div>
+
+          <div class="form__group">
+            <button type="submit" class="btn btn--green" [class.disabled]="rationsForm.invalid" [disabled]="rationsForm.invalid">
+              Calcular &rarr;
+            </button>
+          </div>
+        </form>
+      </div>
+      <div *ngIf="rations">
+        <h3 class="heading-tertiary">Raciones Diarias Recomendadas: {{ rations }} gramos (aprox)</h3>
+      </div>
+    </div>
+  </div>
+</section>

@@ -12,6 +12,7 @@ import { TestimonialCardComponent } from './testimonial-card/testimonial-card.co
 import { PetCardComponent } from './pet-card/pet-card.component';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { PipesModule } from '../pipes/pipes.module';
+import { BgImageCardComponent } from './bg-image-card/bg-image-card.component';
 
 
 
@@ -28,6 +29,7 @@ import { PipesModule } from '../pipes/pipes.module';
     TestimonialCardComponent,
     PetCardComponent,
     SpinnerComponent,
+    BgImageCardComponent,
   ],
   imports: [
     CommonModule,
@@ -44,7 +46,8 @@ import { PipesModule } from '../pipes/pipes.module';
     FlippingCardComponent,
     TestimonialCardComponent,
     PetCardComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    BgImageCardComponent,
   ]
 })
 export class ComponentsModule { }

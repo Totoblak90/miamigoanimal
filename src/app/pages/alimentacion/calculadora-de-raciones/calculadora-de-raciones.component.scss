@@ -1,0 +1,7 @@
+@import "../../../../theme/abstracts/mixins";
+@import "../../../../theme/abstracts/variables";
+
+.disabled {
+  cursor: not-allowed;
+  background-color: $color-grey-dark-2;
+}
