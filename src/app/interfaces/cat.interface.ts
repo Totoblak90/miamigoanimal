@@ -36,6 +36,7 @@ export class Cat {
   wikipedia_url?:      string;
   hypoallergenic?:     number;
   reference_image_id?: string;
+  image?:              string;
 
   constructor(data: any) {
     Object.assign(this, data);

@@ -43,9 +43,9 @@ export class PetCardComponent implements AfterViewInit, OnDestroy {
           'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-dog.webp?raw=true',
           'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/perro-en-taza.webp?raw=true',
         ]
-        this.dogImage = this.catImage = dogImages[Math.floor(Math.random() * dogImages.length)];
+        this.dogImage = dogImages[Math.floor(Math.random() * dogImages.length)];
       }
-      return `linear-gradient(to right bottom, rgba(41, 152, 255, 0.5), rgba(86, 67, 250, 0.5)), url(${this.dog.image?.url || this.dogImage})`;
+      return `linear-gradient(to right bottom, rgba(41, 152, 255, 0.5), rgba(86, 67, 250, 0.5)), url(${this.dog.image?.url || this.dog.image || this.dogImage})`;
     }
     else if (this.cat)
     {
@@ -62,10 +62,10 @@ export class PetCardComponent implements AfterViewInit, OnDestroy {
           'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/varios-gato-4.webp?raw=true',
           'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/varios-gato-5.webp?raw=true',
         ]
-        this.catImage = this.catImage = catImages[Math.floor(Math.random() * catImages.length)];
+        this.catImage = catImages[Math.floor(Math.random() * catImages.length)];
       }
 
-      return `linear-gradient(to right bottom, rgba(255, 185, 0, 0.5), rgba(255, 119, 48, 0.5)), url(${this.catImage})`;
+      return `linear-gradient(to right bottom, rgba(255, 185, 0, 0.5), rgba(255, 119, 48, 0.5)), url(${this.cat.image  || this.catImage})`;
     }
     else
     {
@@ -91,9 +91,9 @@ export class PetCardComponent implements AfterViewInit, OnDestroy {
       if (this.scrollContainer) {
         const container = this.scrollContainer.nativeElement;
         if (container.scrollTop + container.clientHeight >= container.scrollHeight) {
-          this.scrollDirection = -2; // change direction to up
+          this.scrollDirection = -1; // change direction to up
         } else if (container.scrollTop === 0) {
-          this.scrollDirection = 2; // change direction to down
+          this.scrollDirection = 1; // change direction to down
         }
         container.scrollTop += this.scrollDirection;
       }
