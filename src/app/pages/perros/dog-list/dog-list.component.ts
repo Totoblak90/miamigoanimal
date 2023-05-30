@@ -2,6 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { Subject, catchError, debounceTime, of, switchMap, take, takeUntil } from 'rxjs';
 import { Dog } from 'src/app/interfaces/dog.interface';
+import { MetaService } from 'src/app/services/meta.service';
 import { PerrosService } from 'src/app/services/perros.service';
 
 @Component({
@@ -24,7 +25,16 @@ export class DogListComponent implements OnInit, OnDestroy {
 
   private _destroy$ = new Subject<void>();
 
-  constructor(private perrosService: PerrosService, private formBuilder: FormBuilder) {
+  constructor(private perrosService: PerrosService, private formBuilder: FormBuilder, private meta: MetaService) {
+    this.onSearchTermChange()
+  }
+
+
+  ngOnInit(): void {
+    this.searchDogs()
+  }
+
+  private onSearchTermChange() {
     this.searchDogForm.get('searchTerm')?.valueChanges
                       .pipe(
                         takeUntil(this._destroy$),
@@ -39,11 +49,6 @@ export class DogListComponent implements OnInit, OnDestroy {
                         if (!term) return this.searchDogs(this.currentPage);
                         this.searchDogsByBreedName(term.toLowerCase())
                       })
-  }
-
-
-  ngOnInit(): void {
-    this.searchDogs()
   }
 
   private searchDogs(page = 0, load = true) {
