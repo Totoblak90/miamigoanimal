@@ -1,20 +1,19 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { Subject, catchError, debounceTime, of, switchMap, take, takeUntil } from 'rxjs';
-import { Dog } from 'src/app/interfaces/dog.interface';
-import { MetaService } from 'src/app/services/meta.service';
-import { PerrosService } from 'src/app/services/perros.service';
+import { Cat } from 'src/app/interfaces/cat.interface';
+import { GatosService } from 'src/app/services/gatos.service';
 
 @Component({
-  selector: 'dog-list',
-  templateUrl: './dog-list.component.html',
-  styleUrls: ['./dog-list.component.scss']
+  selector: 'cat-list',
+  templateUrl: './cat-list.component.html',
+  styleUrls: ['./cat-list.component.scss']
 })
-export class DogListComponent implements OnInit, OnDestroy {
+export class CatListComponent {
 
-  dogList: Dog[] = [];
+  catList: Cat[] = [];
 
-  searchDogForm: FormGroup = this.formBuilder.group({ searchTerm: '' })
+  searchCatForm: FormGroup = this.formBuilder.group({ searchTerm: '' })
 
   searching = true;
   errorMessage = '';
@@ -23,17 +22,17 @@ export class DogListComponent implements OnInit, OnDestroy {
 
   private _destroy$ = new Subject<void>();
 
-  constructor(private perrosService: PerrosService, private formBuilder: FormBuilder, private meta: MetaService) {
+  constructor(private gatosService: GatosService, private formBuilder: FormBuilder) {
     this.onSearchTermChange()
   }
 
 
   ngOnInit(): void {
-    this.searchDogs()
+    this.searchCats()
   }
 
   private onSearchTermChange() {
-    this.searchDogForm.get('searchTerm')?.valueChanges
+    this.searchCatForm.get('searchTerm')?.valueChanges
                       .pipe(
                         takeUntil(this._destroy$),
                         debounceTime(400),
@@ -44,30 +43,30 @@ export class DogListComponent implements OnInit, OnDestroy {
                       )
                       .subscribe((term: string) => {
                         this.errorMessage = '';
-                        if (!term) return this.searchDogs(this.currentPage);
-                        this.searchDogsByBreedName(term.toLowerCase())
+                        if (!term) return this.searchCats(this.currentPage);
+                        this.searchCatsByBreedName(term.toLowerCase())
                       })
   }
 
-  private searchDogs(page = 0, load = true) {
+  private searchCats(page = 0, load = true) {
     if (load) this.searching = true;
-    this.perrosService.getDogBreeds(page)
-    .pipe(
-      take(1),
-      switchMap((dl) => {
-        this.dogList = dl;
-        this.errorMessage = '';
-        this.searching = false;
-        return of(dl)
-      })
-    )
-    .subscribe()
+    this.gatosService.getCatBreeds(page)
+          .pipe(
+            take(1),
+            switchMap((cl) => {
+              this.catList = cl;
+              this.errorMessage = '';
+              this.searching = false;
+              return of(cl)
+            })
+          )
+          .subscribe()
   }
 
-  private searchDogsByBreedName(breedName: string) {
+  private searchCatsByBreedName(breedName: string) {
     this.searching = true;
     this.errorMessage = ''
-    this.perrosService.searchByName(breedName)
+    this.gatosService.searchByName(breedName)
       .pipe(
         take(1),
         catchError(err => {
@@ -82,12 +81,12 @@ export class DogListComponent implements OnInit, OnDestroy {
             if (!dl.length)
             {
               this.errorMessage = 'Sin resultados'
-              this.dogList = []
+              this.catList = []
             }
             else
             {
               this.errorMessage = '';
-              this.dogList = dl
+              this.catList = dl
             }
           },
         }
@@ -97,12 +96,12 @@ export class DogListComponent implements OnInit, OnDestroy {
   prevPage() {
     if (this.currentPage === 0) return;
     this.currentPage--;
-    this.searchDogs(this.currentPage);
+    this.searchCats(this.currentPage);
   }
 
   nextPage() {
     this.currentPage++;
-    this.searchDogs(this.currentPage);
+    this.searchCats(this.currentPage);
   }
 
 

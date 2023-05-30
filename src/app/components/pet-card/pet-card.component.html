@@ -1,15 +1,15 @@
-<div *ngIf="pet" class="pet-box" [style.background-image]="backgroundImage" #scrollContainer (mouseenter)="stopScrolling()" (mouseleave)="startScrolling()">
-    <h3 class="heading-tertiary u-margin-bottom-small">{{ pet.name }}</h3>
+<div *ngIf="dog" class="pet-box" [style.background-image]="backgroundImage" #scrollContainer (mouseenter)="stopScrolling()" (mouseleave)="startScrolling()">
+    <h3 class="heading-tertiary u-margin-bottom-small">{{ dog.name }}</h3>
 
     <div class="pet-box__details u-margin-bottom-medium">
       <ul>
-        <li>Peso: {{ pet.weight.metric }}kg</li>
+        <li>Peso: {{ dog.weight?.metric }}kg</li>
       </ul>
     </div>
 
-    <div class="pet-box__details u-margin-bottom-medium">
+    <div class="pet-box__details u-margin-bottom-medium" *ngIf="dog.height">
       <ul>
-        <li>Altura: {{ pet.height.metric }}cm</li>
+        <li>Altura: {{ dog.height.metric }}cm</li>
       </ul>
     </div>
 
@@ -20,4 +20,21 @@
       </ul>
     </div>
 
+</div>
+
+<div *ngIf="cat" class="pet-box" [style.background-image]="backgroundImage" #scrollContainer (mouseenter)="stopScrolling()" (mouseleave)="startScrolling()">
+  <h3 class="heading-tertiary u-margin-bottom-small">{{ cat.name }}</h3>
+
+  <div class="pet-box__details u-margin-bottom-medium">
+    <ul>
+      <li>Peso: {{ cat.weight?.metric }}kg</li>
+    </ul>
+  </div>
+
+  <div class="pet-box__details u-margin-bottom-medium">
+    <ul>
+      <p class="paragraph u-margin-bottom-small">Temperamento:</p>
+      <li *ngFor="let temp of temperList">{{ temp | translateTemp }}</li>
+    </ul>
+  </div>
 </div>
