@@ -56,7 +56,7 @@ export class DogListComponent implements OnInit, OnDestroy {
       take(1),
       switchMap((dl) => {
         this.dogList = dl;
-        this.errorMessage = '';
+        this.errorMessage = !dl.length ? 'Sin resultados' : '';
         this.searching = false;
         return of(dl)
       })

@@ -71,8 +71,8 @@
   only screen and (min-width: 125em) {
     background-image: linear-gradient(
       to right bottom,
-      rgba($color-extra-light, 0.8),
-      rgba($color-extra-dark, 0.8)),
+      rgba($color-dog-light, 0.8),
+      rgba($color-dog-dark, 0.8)),
     url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-dog.webp?raw=true);
   }
 }
@@ -91,8 +91,68 @@
   only screen and (min-width: 125em) {
     background-image: linear-gradient(
       to right bottom,
-      rgba($color-extra-light, 0.8),
-      rgba($color-extra-dark, 0.8)),
+      rgba($color-cat-light, 0.8),
+      rgba($color-cat-dark, 0.8)),
     url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-cat.webp?raw=true);
+  }
+
+  .bg-food {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-food-light, 0.8),
+        rgba($color-food-dark, 0.8)),
+    url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-cat.webp?raw=true);
+
+    background-position: center;
+
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+    only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+    only screen and (min-width: 125em) {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-food-light, 0.8),
+        rgba($color-food-dark, 0.8)),
+      url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-cat.webp?raw=true);
+    }
+  }
+
+  .bg-train {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-training-light, 0.8),
+        rgba($color-training-dark, 0.8)),
+    url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-cat.webp?raw=true);
+
+    background-position: center;
+
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+    only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+    only screen and (min-width: 125em) {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-training-light, 0.8),
+        rgba($color-training-dark, 0.8)),
+      url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-cat.webp?raw=true);
+    }
+  }
+
+  .bg-health {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-health-light, 0.8),
+        rgba($color-health-dark, 0.8)),
+    url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-cat.webp?raw=true);
+
+    background-position: center;
+
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+    only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+    only screen and (min-width: 125em) {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-health-light, 0.8),
+        rgba($color-health-dark, 0.8)),
+      url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-cat.webp?raw=true);
+    }
   }
 }

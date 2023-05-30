@@ -55,7 +55,7 @@ export class CatListComponent {
             take(1),
             switchMap((cl) => {
               this.catList = cl;
-              this.errorMessage = '';
+              this.errorMessage = !cl.length ? 'Sin resultados' : '';
               this.searching = false;
               return of(cl)
             })

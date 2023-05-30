@@ -17,6 +17,9 @@ export class HeaderComponent {
       default: 'bg-default',
       dog: 'bg-dog',
       cat: 'bg-cat',
+      health: 'bg-health',
+      train: 'bg-train',
+      food: 'bg-food'
     }
 
     return cssClass[this.bckColour || 'default']
