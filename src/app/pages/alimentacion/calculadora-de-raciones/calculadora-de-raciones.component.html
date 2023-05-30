@@ -54,9 +54,7 @@
           </div>
         </form>
       </div>
-      <div *ngIf="rations">
-        <h3 class="heading-tertiary">Raciones Diarias Recomendadas: {{ rations }} gramos (aprox)</h3>
-      </div>
     </div>
   </div>
 </section>
+<popup-food-rations *ngIf="rations() > 0"></popup-food-rations>

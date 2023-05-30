@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, Renderer2, ViewChild } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { AlimentacionService } from 'src/app/services/alimentacion.service';
 
 @Component({
   selector: 'calculadora-de-raciones',
@@ -12,12 +13,10 @@ export class CalculadoraDeRacionesComponent {
     weight: ['', [Validators.required, Validators.min(0)]],
     size: ['small', Validators.required]
   });
-  rations: number = 0;
+  rations = this.alimentacionService.foodRations;
 
-  constructor(private fb: FormBuilder) { }
 
-  ngOnInit() {
-  }
+  constructor(private fb: FormBuilder, private alimentacionService: AlimentacionService) { }
 
   calculateRations() {
     const animalType = this.rationsForm.get('animalType')?.value;
@@ -26,19 +25,19 @@ export class CalculadoraDeRacionesComponent {
 
     if (animalType === 'dog') {
       // Aquí puedes ajustar la fórmula según tus necesidades
-      this.rations = weight * 30 + 70;
+      this.rations.set(weight * 30 + 70);
     } else if (animalType === 'cat') {
       // Aquí puedes ajustar la fórmula según tus necesidades
-      this.rations = weight * 20 + 70;
+      this.rations.set(weight * 20 + 70);
     }
 
     // Ajustar las raciones según el tamaño del animal
-    if (size === 'small') {
-      this.rations *= 1;
-    } else if (size === 'medium') {
-      this.rations *= 1.5;
+    if (size === 'medium') {
+      this.rations.set(this.rations() * 1.5)
     } else if (size === 'large') {
-      this.rations *= 2;
+      this.rations.set(this.rations() * 2);
     }
+
   }
+
 }

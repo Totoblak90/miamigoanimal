@@ -4,4 +4,5 @@
 .disabled {
   cursor: not-allowed;
   background-color: $color-grey-dark-2;
+  pointer-events: none;
 }

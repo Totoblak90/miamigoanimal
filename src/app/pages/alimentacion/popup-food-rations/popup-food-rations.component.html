@@ -1,0 +1,24 @@
+<div #popupFoodRations class="popup">
+  <div class="popup__content">
+      <div class="popup__left">
+          <img src="https://github.com/Totoblak90/miamigoanimal-images1/blob/master/clipped-section-dog.webp?raw=true" alt="Tour photo" class="popup__img">
+          <img src="https://github.com/Totoblak90/miamigoanimal-images1/blob/master/clipped-section-cat.webp?raw=true" alt="Tour photo" class="popup__img">
+      </div>
+      <div class="popup__right">
+          <button (click)="closePopup()" class="popup__close">&times;</button>
+          <p class="paragraph u-margin-bottom-small"> Raciones Diarias Recomendadas: {{ rations() }} gramos (aprox)</p>
+
+          <p class="paragraph">
+            <strong>
+              Este cálculo es solo a modo informativo.
+              No es una sugerencia, siempre se debe consultar a un profesional para determinar la cantidad de alimento que debe consumir tu mascota.
+              Este cálculo es solo a modo informativo.
+            </strong>
+          </p>
+
+          <button (click)="closePopup()" class="btn btn--green">Cerrar</button>
+      </div>
+  </div>
+</div>
+
+

@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { PopupComponent } from './popup/popup.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { SimpleBoxComponent } from './simple-box/simple-box.component';
 import { BgVideoComponent } from './bg-video/bg-video.component';
@@ -13,6 +12,7 @@ import { PetCardComponent } from './pet-card/pet-card.component';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { PipesModule } from '../pipes/pipes.module';
 import { BgImageCardComponent } from './bg-image-card/bg-image-card.component';
+import { PopupDisclaimerComponent } from './popup-disclaimer/popup-disclaimer.component';
 
 
 
@@ -20,7 +20,7 @@ import { BgImageCardComponent } from './bg-image-card/bg-image-card.component';
   declarations: [
     HeaderComponent,
     FooterComponent,
-    PopupComponent,
+    PopupDisclaimerComponent,
     NavigationComponent,
     SimpleBoxComponent,
     BgVideoComponent,
@@ -38,7 +38,7 @@ import { BgImageCardComponent } from './bg-image-card/bg-image-card.component';
   exports: [
     HeaderComponent,
     FooterComponent,
-    PopupComponent,
+    PopupDisclaimerComponent,
     NavigationComponent,
     SimpleBoxComponent,
     BgVideoComponent,
