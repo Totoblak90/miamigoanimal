@@ -23,8 +23,8 @@ export class ConoceLasMejoresRazasDePerrosGuiaCompletaYActualizadaComponent {
 
   private _setMetaTags() {
     this.meta.setMetaTags(
-      'Adopta a los gatitos más tiernos y juguetones Encuentra tu compañero felino ideal',
-      '¿Estás buscando a tu compañero felino perfecto, a tu mascota ideal? No busques más, ¡adopta un gatito! No sólo es una experiencia gratificante, sino que también proporciona un hogar cariñoso a un amigo peludo necesitado. En este artículo, te guiaremos por el proceso de encontrar una protectora de confianza, explorar una selección de gatitos monos y juguetones, prepararte para los gastos de adopción y cumplir los requisitos necesarios para adoptar en Madrid. ¡Prepárate para conocer a tu nuevo mejor amigo peludo!',
+      'Conoce las mejores razas de perros : guía completa y actualizada',
+      'Descubre nuestra guía completa y actualizada sobre las mejores razas de perros. Aprende sobre sus características, temperamentos y cuidados para encontrar tu compañero perfecto.',
     )
   }
 
