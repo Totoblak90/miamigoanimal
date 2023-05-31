@@ -23,7 +23,7 @@ export class TodoLoQueNecesitasSaberSobreGatosRazasCuidadosYCuriosidadesComponen
   private _setMetaTags() {
     this.meta.setMetaTags(
       'Gatos: Razas, cuidados, curiosidades y más',
-      'Descubre todo sobre los gatos: desde las diferentes razas hasta los cuidados esenciales y curiosidades fascinantes. ¡Aprende más y conviértete en el dueño perfecto para tu felino!',
+      'Descubre todo sobre los gatos: razas, cuidados esenciales y curiosidades fascinantes. ¡Conviértete en el dueño perfecto para tu felino!',
     )
   }
 

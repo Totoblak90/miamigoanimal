@@ -23,7 +23,7 @@ export class DescubreLosMejoresCuidadosParaTusPerritosComponent {
   private _setMetaTags() {
     this.meta.setMetaTags(
       'Descubre los mejores cuidados para tus perritos',
-      '¿Buscas el mejor cuidado para tus perritos? Descubre nuestra selección de cuidadores de confianza, capacitados para brindarle a tu mascota el amor y atención que se merece. ¡Conócelos ahora!',
+      '¿Buscas el mejor cuidado para tus perritos? Descubre nuestra selección de cuidadores de confianza. ¡Conócelos ahora!',
     )
   }
 

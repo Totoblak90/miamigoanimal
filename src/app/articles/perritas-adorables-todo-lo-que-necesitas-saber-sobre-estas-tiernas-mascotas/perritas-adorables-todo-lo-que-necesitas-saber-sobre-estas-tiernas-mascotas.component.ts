@@ -23,7 +23,7 @@ export class PerritasAdorablesTodoLoQueNecesitasSaberSobreEstasTiernasMascotasCo
   private _setMetaTags() {
     this.meta.setMetaTags(
       'Perritas adorables: Todo lo que necesitas saber sobre estas tiernas mascotas',
-      '¿Amas a las perritas adorables? Aquí encontrarás todo lo que necesitas saber sobre estas tiernas mascotas: desde su cuidado y alimentación hasta consejos para su entrenamiento. ¡Descubre más ahora!',
+      '¿Amas a las perritas adorables? Aquí encontrarás todo lo que necesitas saber sobre estas tiernas mascotas. ¡Descubre más ahora!',
     )
   }
 

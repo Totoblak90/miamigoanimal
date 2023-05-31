@@ -23,7 +23,7 @@ export class ConoceLasMejoresRazasDePerrosGuiaCompletaYActualizadaComponent {
   private _setMetaTags() {
     this.meta.setMetaTags(
       'Conoce las mejores razas de perros : guía completa y actualizada',
-      'Descubre nuestra guía completa y actualizada sobre las mejores razas de perros. Aprende sobre sus características, temperamentos y cuidados para encontrar tu compañero perfecto.',
+      'Descubre nuestra guía completa sobre las mejores razas de perros. Aprende sobre sus características y cuidados. ¡Encuentra tu compañero perfecto!',
     )
   }
 

@@ -23,7 +23,7 @@ export class AdoptaALosGatitosMasTiernosYJuguetonesEncuentraTuCompaneroFelinoIde
   private _setMetaTags() {
     this.meta.setMetaTags(
       'Adopta a los gatitos más tiernos y juguetones. Encuentra tu compañero felino ideal',
-      'Adopta a los gatitos más tiernos y juguetones con nuestra guía. Te ayudamos a encontrar tu compañero felino ideal, conociendo sus personalidades y necesidades. ¡Descúbrelo ya!',
+      'Adopta a los gatitos más tiernos y juguetones con nuestra guía. Encuentra tu compañero felino ideal y conoce sus personalidades. ¡Descúbrelo ya!',
     )
   }
 }

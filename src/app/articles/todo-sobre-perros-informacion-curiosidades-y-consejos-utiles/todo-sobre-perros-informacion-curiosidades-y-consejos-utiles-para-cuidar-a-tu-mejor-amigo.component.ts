@@ -23,7 +23,7 @@ export class TodoSobrePerrosInformacionCuriosidadesYConsejosUtilesParaCuidarATuM
   private _setMetaTags() {
     this.meta.setMetaTags(
       'Perros: información curiosidades y consejos útiles para cuidar a tu mejor amigo',
-      'Descubre todo sobre los perros: información relevante, curiosidades fascinantes y consejos útiles para cuidar a tu mejor amigo. ¡Aprende más y conviértete en el dueño que tu perro merece!',
+      'Descubre todo sobre los perros: información relevante, curiosidades y consejos útiles. ¡Conviértete en el dueño que tu perro merece!',
     )
   }
 
