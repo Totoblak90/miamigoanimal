@@ -17,7 +17,7 @@ export class AlimentacionComponent {
   private _setMetaTags() {
     this.metaSrv.setMetaTags(
       'Alimentación - Guía de Alimentación para Perros y Gatos',
-      'Encontrá todo lo referente a la alimentación de tu mascota. Aprendé a alimentar a tu mascota de la mejor manera.',
+      'Encuentra todo sobre la alimentación de mascotas y aprende a nutrir a tu perro o gato de la mejor manera. ¡Mejora la dieta de tu mascota hoy!',
       'Tobias Blaksley',
       true,
       'alimentación para mascotas, alimento para perros, alimento para gatos, alimentación de mascotas, barf, BARF'

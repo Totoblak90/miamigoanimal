@@ -44,7 +44,7 @@ export class SaludComponent {
   private _setMetaTags() {
     this.metaSrv.setMetaTags(
       'Consejos para Mantener a tus Mascotas Saludables - Mi amigo animal',
-      'En nuestra sección de salud de perros y gatos, encontrarás todo lo que necesitas para cuidar de la salud de tu mascota. Aprende a entender las necesidades de tu mejor amigo.'
+      'En nuestra sección de salud, encuentra todo lo que necesitas para cuidar la salud de tu perro o gato. Aprende a entender las necesidades de tu mascota.'
     );
   }
 
