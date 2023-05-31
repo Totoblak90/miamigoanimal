@@ -24,7 +24,43 @@ export class ArticlesService {
       destacado: true,
       creation: '31/5/2023, 16:21:18',
       title: 'Conoce las mejores razas de perros. Guía completa y actualizada',
-    }
+    },
+    {
+      url: 'descubre-los-mejores-cuidados-para-tus-perritos',
+      categories: ['Perros'],
+      'card-heading': 'Cachorros, Variedad',
+      sections: ['Alimentación', 'Ejercicio', 'Salud', 'Higiene', 'Longitud: +1500 palabras'],
+      destacado: true,
+      creation: '31/5/2023, 15:31:18',
+      title: 'Cachorros: Descubre los mejores cuidados para tus perritos',
+    },
+    {
+      url: 'perritas-adorables-todo-lo-que-necesitas-saber-sobre-estas-tiernas-mascotas',
+      categories: ['Perros'],
+      'card-heading': 'Variedad',
+      sections: ['Razas populares', 'Consejos perro nuevo', 'Pug Carlino', 'Longitud: +1500 palabras'],
+      destacado: true,
+      creation: '31/5/2023, 18:00:00',
+      title: 'Conoce las mejores razas de perros. Guía completa y actualizada',
+    },
+    {
+      url: 'todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo',
+      categories: ['Perros'],
+      'card-heading': 'Consejos útiles',
+      sections: ['Como elegir la raza adecuada', 'Salud', 'Adiestramiento', 'Consejos para viajes', 'Longitud: +1500 palabras'],
+      destacado: true,
+      creation: '31/5/2023, 18:23:00',
+      title: 'Perros: Información curiosidades y consejos útiles para cuidar a tu mejor amigo',
+    },
+    {
+      url: 'todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades',
+      categories: ['Gatos'],
+      'card-heading': 'Historia, Salud',
+      sections: ['Historia', 'Razas', 'Salud', 'Alimentación', 'Longitud: +1500 palabras'],
+      destacado: true,
+      creation: '31/5/2023, 18:40:18',
+      title: 'Gatos: Razas, cuidados, curiosidades y más',
+    },
   ])
 
   constructor() {

@@ -8,6 +8,10 @@ import { HighlitedArticlesComponent } from './__highlited-articles/highlited-art
 import { LastArticlesComponent } from './__last-articles/last-articles.component';
 import { ConoceLasMejoresRazasDePerrosGuiaCompletaYActualizadaComponent } from './conoce-las-mejores-razas-de-perros-guia-completa-y-actualizada/conoce-las-mejores-razas-de-perros-guia-completa-y-actualizada.component';
 import { IndexComponent } from './__index/index.component';
+import { DescubreLosMejoresCuidadosParaTusPerritosComponent } from './descubre-los-mejores-cuidados-para-tus-perritos/descubre-los-mejores-cuidados-para-tus-perritos.component';
+import { PerritasAdorablesTodoLoQueNecesitasSaberSobreEstasTiernasMascotasComponent } from './perritas-adorables-todo-lo-que-necesitas-saber-sobre-estas-tiernas-mascotas/perritas-adorables-todo-lo-que-necesitas-saber-sobre-estas-tiernas-mascotas.component';
+import { TodoSobrePerrosInformacionCuriosidadesYConsejosUtilesParaCuidarATuMejorAmigoComponent } from './todo-sobre-perros-informacion-curiosidades-y-consejos-utiles/todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo.component';
+import { TodoLoQueNecesitasSaberSobreGatosRazasCuidadosYCuriosidadesComponent } from './todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades/todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades.component';
 
 
 @NgModule({
@@ -16,7 +20,11 @@ import { IndexComponent } from './__index/index.component';
     HighlitedArticlesComponent,
     LastArticlesComponent,
     ConoceLasMejoresRazasDePerrosGuiaCompletaYActualizadaComponent,
-    IndexComponent
+    IndexComponent,
+    DescubreLosMejoresCuidadosParaTusPerritosComponent,
+    PerritasAdorablesTodoLoQueNecesitasSaberSobreEstasTiernasMascotasComponent,
+    TodoSobrePerrosInformacionCuriosidadesYConsejosUtilesParaCuidarATuMejorAmigoComponent,
+    TodoLoQueNecesitasSaberSobreGatosRazasCuidadosYCuriosidadesComponent
   ],
   imports: [
     CommonModule,

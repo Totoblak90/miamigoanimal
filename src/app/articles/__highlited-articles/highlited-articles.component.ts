@@ -35,7 +35,7 @@ export class HighlitedArticlesComponent {
             return article.destacado
           })
           .sort((a, b) => a.creation > b.creation ? 1 : -1)
-          .slice(0, 3)
+          .slice(0, 6)
   }
 
   constructor(private articlesService: ArticlesService) { }
