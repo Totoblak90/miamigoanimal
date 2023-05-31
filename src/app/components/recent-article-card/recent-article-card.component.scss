@@ -1,0 +1,41 @@
+@import "../../../theme/abstracts/mixins";
+@import "../../../theme/abstracts/variables";
+
+.image-card {
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+  transition: transform .3s;
+  max-height: 300px;
+  overflow-y: auto;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &::-webkit-scrollbar {
+    width: 1px;
+  }
+
+  &::-webkit-scrollbar-track {
+      opacity: 0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    opacity: 0;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    opacity: 0;
+  }
+
+  @include respond(tab-port) {
+      padding: 2rem;
+  }
+
+  &:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+  }
+}

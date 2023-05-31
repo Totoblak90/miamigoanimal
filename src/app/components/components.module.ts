@@ -15,6 +15,7 @@ import { BgImageCardComponent } from './bg-image-card/bg-image-card.component';
 import { PopupDisclaimerComponent } from './popup-disclaimer/popup-disclaimer.component';
 import { AccordionComponent } from './accordion/accordion.component';
 import { IframeCardComponent } from './iframe-card/iframe-card.component';
+import { RecentArticleCardComponent } from './recent-article-card/recent-article-card.component';
 
 
 
@@ -34,6 +35,7 @@ import { IframeCardComponent } from './iframe-card/iframe-card.component';
     BgImageCardComponent,
     AccordionComponent,
     IframeCardComponent,
+    RecentArticleCardComponent,
   ],
   imports: [
     CommonModule,
@@ -54,6 +56,7 @@ import { IframeCardComponent } from './iframe-card/iframe-card.component';
     BgImageCardComponent,
     AccordionComponent,
     IframeCardComponent,
+    RecentArticleCardComponent,
   ]
 })
 export class ComponentsModule { }

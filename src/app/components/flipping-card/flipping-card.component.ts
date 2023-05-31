@@ -10,6 +10,7 @@ export class FlippingCardComponent {
   @Input() cardTitle = '';
   @Input() topics: string[] = [];
   @Input() type: 'cat' | 'dog' | 'extra' = 'extra';
+  @Input() href = '';
 
   constructor(private utilitiesSrv: UtilitiesService) { }
 

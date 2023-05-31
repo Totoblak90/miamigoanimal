@@ -16,7 +16,6 @@ export class IframeCardComponent {
   }
 
   handleError() {
-    console.log(this.videoId)
     this.videoError = true;
   }
 }

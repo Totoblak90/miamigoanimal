@@ -1,0 +1,37 @@
+@import "../../../theme/abstracts/mixins";
+@import "../../../theme/abstracts/variables";
+
+.index-container {
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+  transition: transform .3s;
+}
+
+.button-container {
+  border-radius: 3px;
+  color: $color-white;
+}
+
+.button {
+  background-color: $color-grey-light-1;
+  color: $color-grey-dark-2;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+
+  &:not(:last-child) {
+    border-bottom: 3px solid $color-grey-dark-2;
+  }
+}
+
+.button:hover {
+  background-color: $color-grey-dark-2;
+  color: $color-grey-light-1;
+}

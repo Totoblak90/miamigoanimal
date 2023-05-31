@@ -14,7 +14,7 @@
   </div>
   <div [class]="'card__side card__side--back card__side--back-' + type">
        <div class="card__cta">
-           <a href="#popup" class="btn btn--white">Ver!</a>
+           <a [href]="href ? 'post/' + href : ''" class="btn btn--white">Ver!</a>
        </div>
    </div>
 </div>
