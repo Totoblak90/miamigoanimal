@@ -40,6 +40,5 @@ export class HeaderComponent implements OnInit {
     this.selectedImage =  this.bckColour === 'cat' ? this.utilitiesSrv.selectImage( this.bckColour ) :
                           this.bckColour === 'dog' ? this.utilitiesSrv.selectImage( this.bckColour ) :
                           ''
-
   }
 }

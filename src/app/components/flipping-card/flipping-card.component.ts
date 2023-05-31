@@ -12,9 +12,13 @@ export class FlippingCardComponent {
   @Input() type: 'cat' | 'dog' | 'extra' = 'extra';
   @Input() href = '';
 
-  constructor(private utilitiesSrv: UtilitiesService) { }
+  selectedImage: string = '';
 
-  get cardPicture() {
-    return this.utilitiesSrv.selectImage(this.type);
+  constructor(private utilitiesSrv: UtilitiesService) {}
+
+  ngOnInit() {
+    this.selectedImage =  this.type === 'cat' ? this.utilitiesSrv.selectImage( this.type ) :
+                          this.type === 'dog' ? this.utilitiesSrv.selectImage( this.type ) :
+                          ''
   }
 }

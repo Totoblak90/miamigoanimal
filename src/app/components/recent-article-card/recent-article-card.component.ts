@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { UtilitiesService } from 'src/app/services/utilities.service';
 
 @Component({
@@ -6,16 +6,20 @@ import { UtilitiesService } from 'src/app/services/utilities.service';
   templateUrl: './recent-article-card.component.html',
   styleUrls: ['./recent-article-card.component.scss']
 })
-export class RecentArticleCardComponent {
+export class RecentArticleCardComponent implements OnInit {
 
   @Input() type: 'cat' | 'dog' | 'extra' = 'extra';
   @Input() title: string = '';
   @Input() description: string = '';
 
+  selectedImage: string = '';
+
   constructor(private utilitiesSrv: UtilitiesService) {}
 
-  get cardPicture() {
-    return this.utilitiesSrv.selectImage(this.type);
+  ngOnInit() {
+    this.selectedImage =  this.type === 'cat' ? this.utilitiesSrv.selectImage( this.type ) :
+                          this.type === 'dog' ? this.utilitiesSrv.selectImage( this.type ) :
+                          ''
   }
 
 }

@@ -1,0 +1,33 @@
+<main class="separate-section">
+  <div class="row">
+
+    <div class="col-3-of-4">
+
+      <ng-content></ng-content>
+
+    </div>
+
+    <div class="col-1-of-4">
+
+      <div class="u-center-text u-margin-bottom-small">
+        <h2 class="heading-secondary">
+          Destacados
+        </h2>
+      </div>
+
+      <highlited-articles-for-posts [filters]="filters"></highlited-articles-for-posts>
+
+      <div class="u-center-text u-margin-bottom-small">
+        <h2 class="heading-secondary">
+          Recientes
+        </h2>
+      </div>
+
+      <last-articles-for-posts [filters]="filters" [type]="type"></last-articles-for-posts>
+
+    </div>
+
+  </div>
+
+</main>
+
