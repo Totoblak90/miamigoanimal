@@ -1,2 +1,206 @@
 <app-header mainTitle="Mi Amigo Animal" secondaryTitle="Consejos y Guías Detalladas para tus Mascotas" bckColour="train"></app-header>
-<main class="separate-section"></main>
+
+<main class="separate-section">
+
+  <section class="u-margin-bottom-xxl">
+
+    <div class="row">
+      <div class="u-center-text">
+
+        <h2 class="heading-secondary u-margin-bottom-small">Entrena a tu Mascota con Amor y Respeto</h2>
+
+        <p class="paragraph">
+          El adiestramiento de tus mascotas no solo mejora su comportamiento, sino que también fortalece tu relación con ellas.
+          Aquí te proporcionamos una guía completa para el adiestramiento de perros y gatos, incluyendo consejos prácticos, técnicas y estrategias eficaces.
+        </p>
+
+        <p class="paragraph">
+          Recuerda, tanto para el adiestramiento de perros como de gatos, la paciencia y la consistencia son clave.
+          Es importante recompensar a tu mascota por su buen comportamiento para fomentar la repetición de ese comportamiento en el futuro.
+          También es importante recordar que cada mascota es única y que lo que funciona para una puede no funcionar para otra.
+          Si estás teniendo dificultades con el adiestramiento, puede ser útil buscar la ayuda de un profesional.
+        </p>
+
+        <p class="paragraph">
+          <strong>
+            Asegúrate de que el adiestramiento sea una experiencia positiva y divertida tanto para ti como para tu mascota.
+            Esto no solo ayudará a fortalecer tu vínculo con tu mascota, sino que también hará que el adiestramiento sea más efectivo. ¡Buena suerte!
+          </strong>
+        </p>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section  class="separate-section">
+
+    <article>
+
+      <clipped-section-with-bg-img selectedBg="train" >
+
+        <div class="u-center-text u-margin-bottom-medium">
+          <h2 class="heading-secondary">FAQS</h2>
+        </div>
+
+        <div class="row color-white">
+
+          <div class="col-1-of-2">
+            <div class="u-center-text u-margin-bottom-medium">
+              <h3 class="heading-tertiary">Perros</h3>
+            </div>
+            <accordion [faq]="faqsDogs"></accordion>
+          </div>
+
+          <div class="col-1-of-2">
+            <div class="u-center-text u-margin-bottom-medium">
+              <h3 class="heading-tertiary">Gatos</h3>
+            </div>
+            <accordion [faq]="faqsCats"></accordion>
+          </div>
+
+        </div>
+
+      </clipped-section-with-bg-img>
+
+    </article>
+
+  </section>
+
+  <section class="u-margin-bottom-big">
+
+    <div class="u-center-text">
+      <h2 class="heading-secondary u-margin-bottom-small">Adiestramiento de perros</h2>
+    </div>
+
+    <div class="u-margin-bottom-medium">
+      <iframe-card videoId="DIAGDxTBnM0"></iframe-card>
+    </div>
+
+    <p class="paragraph">
+      Los perros son animales sociales que aprenden rápidamente y responden bien al adiestramiento.
+      Con un enfoque coherente y positivo, puedes enseñar a tu perro desde comandos básicos como «sentado» y «quieto» hasta trucos más avanzados.
+    </p>
+
+    <h3 class="heading-tertiary">
+      Adiestramiento básico para perros
+    </h3>
+
+    <p class="paragraph">
+      El adiestramiento básico para perros es fundamental para cualquier dueño de perro. Ya sea que hayas adoptado un cachorro o un perro adulto, aquí están algunos de los aspectos más esenciales a considerar:
+    </p>
+
+    <ul class="u-margin-bottom-medium">
+      <li class="paragraph">
+        Comandos Básicos: El primer paso en el adiestramiento de un perro es enseñarle los comandos básicos como «sentado», «quieto», «ven» y «no».
+        Estos comandos no solo son útiles en la vida diaria, sino que también pueden ser esenciales para la seguridad de tu perro.
+      </li>
+      <li class="paragraph">
+        Socialización: La socialización es un aspecto crucial del adiestramiento canino.
+        Exponer a tu perro a diferentes personas, perros y situaciones puede ayudarlo a sentirse más cómodo en una variedad de entornos.
+      </li>
+      <li class="paragraph">
+        Adiestramiento en Casa: Este es especialmente importante para los cachorros, pero los perros adultos también pueden necesitar refrescar su adiestramiento en casa.
+        Esto incluye enseñar a tu perro dónde y cuándo hacer sus necesidades.
+      </li>
+    </ul>
+
+    <h3 class="heading-tertiary">
+      Adiestramiento avanzado para perros
+    </h3>
+
+    <p class="paragraph">
+      Una vez que tu perro ha dominado los comandos básicos, puedes empezar a trabajar en habilidades más avanzadas.
+      Estas pueden variar desde trucos divertidos hasta habilidades útiles que pueden hacer la vida más fácil y segura para ti y tu perro.
+    </p>
+
+    <ul>
+      <li class="paragraph">
+        Comandos Avanzados: Estos pueden incluir comandos como «queda», «busca» o incluso «trae las llaves».
+        Los comandos avanzados pueden ser útiles en situaciones específicas y también pueden ser una forma divertida de estimular mentalmente a tu perro.
+      </li>
+      <li class="paragraph">
+        Trucos: Enseñar a tu perro a hacer trucos, como dar la pata, rodar o jugar al muerto, puede ser una excelente manera de divertirte con tu perro y
+        también de impresionar a tus amigos.
+      </li>
+    </ul>
+  </section>
+
+  <section class="u-margin-bottom-big">
+
+    <div class="u-center-text">
+      <h2 class="heading-secondary u-margin-bottom-small">Adiestramiento de gatos</h2>
+    </div>
+
+    <div class="u-margin-bottom-medium">
+      <iframe-card videoId="n31zgGFYK-s"></iframe-card>
+    </div>
+
+    <p class="paragraph">
+      Aunque los gatos son conocidos por su independencia, también pueden aprender a seguir comandos y a cambiar comportamientos no deseados.
+      Con paciencia y refuerzo positivo, puedes trabajar con tu gato para mejorar su comportamiento.
+    </p>
+
+    <h3 class="heading-tertiary">
+      Adiestramiento básico para gatos
+    </h3>
+
+    <p class="paragraph">
+      Contrariamente a la creencia popular, los gatos también pueden ser adiestrados. Aquí están algunos de los aspectos más esenciales del adiestramiento básico para gatos:
+    </p>
+
+    <ul class="u-margin-bottom-medium">
+      <li class="paragraph">
+        Uso del Arenero: Uno de los primeros comportamientos que debes enseñar a tu gato es el uso correcto del arenero.
+        Esto puede prevenir problemas de comportamiento en el futuro y asegurar una convivencia higiénica.
+      </li>
+      <li class="paragraph">
+        Comandos Básicos: Los gatos pueden aprender a seguir comandos simples como «no» y «ven».
+        Esto puede ser útil para prevenir comportamientos no deseados y también para mantener a tu gato seguro.
+      </li>
+    </ul>
+
+    <h3 class="heading-tertiary">
+      Adiestramiento avanzado para gatos
+    </h3>
+
+    <p class="paragraph">
+      Al igual que los perros, los gatos también pueden aprender habilidades y trucos más avanzados.
+      Esto no solo puede ser divertido para ti y tu gato, sino que también puede estimular mentalmente a tu gato y prevenir el aburrimiento.
+    </p>
+
+    <ul>
+      <li class="paragraph">
+        Trucos: Los gatos pueden aprender una variedad de trucos, desde dar la pata hasta saltar a través de aros.
+        Esto puede ser una excelente manera de interactuar con tu gato y también de proporcionarle una forma de ejercicio mental y físico.
+      </li>
+      <li class="paragraph">
+        Comandos Avanzados: Al igual que con los perros, los gatos también pueden aprender comandos avanzados.
+        Esto puede incluir cosas como «quedarse» en una posición específica, «buscar» juguetes o incluso aprender a utilizar un rascador en lugar de tus muebles.
+      </li>
+    </ul>
+  </section>
+
+  <section class="u-margin-bottom-big">
+    <div class="u-center-text">
+      <h2 class="heading-secondary u-margin-bottom-small">Herramientas para el adiestramiento</h2>
+    </div>
+
+    <p class="paragraph">
+      El adiestramiento de perros y gatos puede ser más fácil con las herramientas adecuadas.
+      Desde clickers hasta golosinas especiales, aquí te proporcionamos una guía para las herramientas que pueden ayudarte a adiestrar a tu mascota.
+    </p>
+  </section>
+
+  <section class="u-margin-bottom-big">
+    <div class="u-center-text">
+      <h2 class="heading-secondary u-margin-bottom-small">Consejos para un adiestramiento exitoso</h2>
+    </div>
+
+    <p class="paragraph">
+      Para concluir, ofrecemos una lista de consejos para ayudarte a tener éxito en el adiestramiento de tu perro o gato,
+      independientemente del comportamiento que estés tratando de enseñar.
+    </p>
+  </section>
+
+</main>

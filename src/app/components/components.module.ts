@@ -14,6 +14,7 @@ import { PipesModule } from '../pipes/pipes.module';
 import { BgImageCardComponent } from './bg-image-card/bg-image-card.component';
 import { PopupDisclaimerComponent } from './popup-disclaimer/popup-disclaimer.component';
 import { AccordionComponent } from './accordion/accordion.component';
+import { IframeCardComponent } from './iframe-card/iframe-card.component';
 
 
 
@@ -32,6 +33,7 @@ import { AccordionComponent } from './accordion/accordion.component';
     SpinnerComponent,
     BgImageCardComponent,
     AccordionComponent,
+    IframeCardComponent,
   ],
   imports: [
     CommonModule,
@@ -51,6 +53,7 @@ import { AccordionComponent } from './accordion/accordion.component';
     SpinnerComponent,
     BgImageCardComponent,
     AccordionComponent,
+    IframeCardComponent,
   ]
 })
 export class ComponentsModule { }
