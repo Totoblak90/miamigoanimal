@@ -24,7 +24,7 @@
 
           <div class="form__group">
             <label class="form__label" for="weight">Peso (kg)</label>
-            <input class="form__input" type="number" formControlName="weight"/>
+            <input class="form__input" type="number" formControlName="weight" min="0"/>
           </div>
 
           <div class="form__group">
@@ -48,7 +48,7 @@
           </div>
 
           <div class="form__group">
-            <button type="submit" class="btn btn--green" [class.disabled]="rationsForm.invalid" [disabled]="rationsForm.invalid">
+            <button type="submit" class="btn btn--green" [class.disabled]="buttonDisabled" [disabled]="buttonDisabled">
               Calcular &rarr;
             </button>
           </div>

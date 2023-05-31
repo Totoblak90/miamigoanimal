@@ -15,6 +15,10 @@ export class CalculadoraDeRacionesComponent {
   });
   rations = this.alimentacionService.foodRations;
 
+  get buttonDisabled() {
+    return this.rationsForm.invalid || this.rationsForm.get('weight')?.value <= 0;
+   }
+
 
   constructor(private fb: FormBuilder, private alimentacionService: AlimentacionService) { }
 
