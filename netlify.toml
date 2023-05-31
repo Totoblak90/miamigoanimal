@@ -1,6 +1,13 @@
 [build]
   publish = "dist/miamigoanimal/browser"
   command = "npm run prerender"
+
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/assets/sitemap.xml"
+  status = 301
+
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
