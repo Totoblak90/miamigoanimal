@@ -9,8 +9,8 @@
       <div class="form-container__form">
         <form class="search row form" [formGroup]="searchCatForm">
           <div class="form__group">
-            <label class="form__label">Buscar raza</label>
-            <input class="form__input" type="text" placeholder="Buscar raza de gato" formControlName="searchTerm">
+            <label class="form__label" for="searchTerm">Buscar raza</label>
+            <input class="form__input" type="search" placeholder="Buscar raza de gato" formControlName="searchTerm" id="searchTerm" name="searchTerm">
           </div>
         </form>
       </div>

@@ -10,8 +10,8 @@
 
         <form class="search row form" [formGroup]="searchDogForm">
           <div class="form__group">
-            <label class="form__label">Buscar raza</label>
-            <input class="form__input" type="text" placeholder="Buscar raza de perro" formControlName="searchTerm">
+            <label class="form__label" for="searchTerm">Buscar raza</label>
+            <input class="form__input" type="search" placeholder="Buscar raza de perro" formControlName="searchTerm" name="searchTerm" id="searchTerm">
           </div>
         </form>
 

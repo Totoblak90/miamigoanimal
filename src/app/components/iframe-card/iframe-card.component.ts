@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 export class IframeCardComponent {
 
   @Input() videoId: string = '';
+  @Input() videoDescription = ''
   videoError: boolean = false;
 
   get videoUrl() {
