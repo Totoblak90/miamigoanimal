@@ -13,6 +13,7 @@ import { SpinnerComponent } from './spinner/spinner.component';
 import { PipesModule } from '../pipes/pipes.module';
 import { BgImageCardComponent } from './bg-image-card/bg-image-card.component';
 import { PopupDisclaimerComponent } from './popup-disclaimer/popup-disclaimer.component';
+import { AccordionComponent } from './accordion/accordion.component';
 
 
 
@@ -30,6 +31,7 @@ import { PopupDisclaimerComponent } from './popup-disclaimer/popup-disclaimer.co
     PetCardComponent,
     SpinnerComponent,
     BgImageCardComponent,
+    AccordionComponent,
   ],
   imports: [
     CommonModule,
@@ -48,6 +50,7 @@ import { PopupDisclaimerComponent } from './popup-disclaimer/popup-disclaimer.co
     PetCardComponent,
     SpinnerComponent,
     BgImageCardComponent,
+    AccordionComponent,
   ]
 })
 export class ComponentsModule { }

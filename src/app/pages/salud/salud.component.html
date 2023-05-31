@@ -1,1 +1,232 @@
-<app-header mainTitle="Mi Amigo Animal" secondaryTitle="Consejos y Guías Detalladas para tus Mascotas" bckColour="health"></app-header>
+<app-header mainTitle="Salud" secondaryTitle="Consejos para Mantener a tus Mascotas Saludables" bckColour="health"></app-header>
+
+<main class="u-margin-top-big">
+  <section class="separate-section">
+    <div class="u-center-text u-margin-bottom-big">
+      <h2 class="heading-secondary">Aprende a entender las necesidades de tu mejor amigo</h2>
+      <h3 class="heading-tertiary">En nuestra sección de salud de perros y gatos, encontrarás todo lo que necesitas para cuidar de la salud de tu mascota</h3>
+    </div>
+
+    <div class="row">
+      <p class="paragraph">
+        La salud de nuestras mascotas es primordial.
+        Ya sea que tengas un perro o un gato, es importante comprender sus necesidades de salud y cómo puedes ayudar a mantenerlos en su mejor estado.
+        Aquí, exploraremos aspectos clave de la salud de perros y gatos, desde el cuidado preventivo hasta el manejo de enfermedades comunes.
+      </p>
+    </div>
+  </section>
+
+  <section  class="separate-section">
+
+    <article>
+
+      <clipped-section-with-bg-img selectedBg="health" >
+
+        <div class="u-center-text u-margin-bottom-medium">
+          <h2 class="heading-secondary">FAQS</h2>
+        </div>
+
+        <div class="row color-white">
+
+          <div class="col-1-of-2">
+            <div class="u-center-text u-margin-bottom-medium">
+              <h3 class="heading-tertiary">Perros</h3>
+            </div>
+            <faqs-health [faqs]="faqsDogs"></faqs-health>
+          </div>
+
+          <div class="col-1-of-2">
+            <div class="u-center-text u-margin-bottom-medium">
+              <h3 class="heading-tertiary">Gatos</h3>
+            </div>
+            <faqs-health [faqs]="faqsCats"></faqs-health>
+          </div>
+
+        </div>
+
+      </clipped-section-with-bg-img>
+
+    </article>
+
+  </section>
+
+  <section class="u-margin-bottom-big">
+
+    <article>
+
+        <div class="u-center-text u-margin-bottom-medium">
+          <h2 class="heading-secondary">Cuidado preventivo</h2>
+        </div>
+
+        <div class="row flex align-center justify-center">
+          <bg-image-card imageUrl="https://github.com/Totoblak90/miamigoanimal-images1/blob/master/health-policia-viejo.webp?raw=true"></bg-image-card>
+        </div>
+
+        <div class="row">
+
+          <h3 class="heading-tertiary u-margin-bottom-small">Perros:</h3>
+          <p class="paragraph">
+            El cuidado preventivo es una parte esencial del mantenimiento de la salud de tu perro.
+            Incluye vacunas regulares para proteger contra enfermedades como la rabia, parvovirus y moquillo.
+            Además, los chequeos regulares con el veterinario pueden ayudar a identificar problemas de salud antes de que se conviertan en condiciones más graves.
+            También es importante la desparasitación regular y el control de pulgas y garrapatas.
+          </p>
+
+          <h3 class="heading-tertiary u-margin-bottom-small">Gatos:</h3>
+          <p class="paragraph">
+            Al igual que los perros, los gatos necesitan vacunas regulares, desparasitación y controles veterinarios.
+            Las vacunas protegen contra enfermedades como la rabia, el virus de la inmunodeficiencia felina (FIV) y la leucemia felina (FeLV).
+            La prevención de pulgas y garrapatas también es esencial para mantener a tu gato saludable.
+          </p>
+
+        </div>
+
+    </article>
+
+  </section>
+
+  <section class="u-margin-bottom-big">
+
+    <article>
+
+        <div class="u-center-text u-margin-bottom-medium">
+          <h2 class="heading-secondary">Nutrición</h2>
+        </div>
+
+        <div class="row">
+
+          <p class="paragraph">
+            La nutrición adecuada es fundamental para la salud de perros y gatos.
+            Tanto los perros como los gatos necesitan una dieta equilibrada que incluya proteínas, carbohidratos, grasas, vitaminas y minerales.
+            Los perros son omnívoros y pueden beneficiarse de una variedad de alimentos, mientras que los gatos son carnívoros obligados y necesitan una dieta rica en proteínas.
+          </p>
+
+          <p class="paragraph">
+            Es importante proporcionar a tu mascota alimentos de alta calidad que estén formulados para su etapa de vida y tamaño.
+            Además, hay que tener cuidado con los alimentos humanos que pueden ser tóxicos para las mascotas, como el chocolate, la cebolla y el ajo.
+          </p>
+
+        </div>
+
+    </article>
+
+  </section>
+
+  <section class="u-margin-bottom-big">
+
+    <article>
+
+        <div class="u-center-text u-margin-bottom-medium">
+          <h2 class="heading-secondary">Enfermedades comunes</h2>
+        </div>
+
+        <div class="row flex align-center justify-center">
+          <bg-image-card imageUrl="https://github.com/Totoblak90/miamigoanimal-images1/blob/master/health-gato-operado.webp?raw=true"></bg-image-card>
+        </div>
+
+        <div class="row">
+
+          <h3 class="heading-tertiary u-margin-bottom-small">Perros:</h3>
+          <p class="paragraph">
+            Los perros pueden sufrir una serie de problemas de salud, que van desde condiciones menores hasta enfermedades crónicas.
+            Algunas de las enfermedades más comunes en perros incluyen la artritis, la enfermedad dental, la diabetes, la enfermedad del corazón y ciertos tipos de cáncer.
+            Es importante llevar a tu perro a chequeos regulares y prestar atención a cualquier cambio en su comportamiento o apariencia física.
+          </p>
+
+          <h3 class="heading-tertiary u-margin-bottom-small">Gatos:</h3>
+          <p class="paragraph">
+            Al igual que los perros, los gatos pueden padecer una serie de enfermedades.
+            Estas pueden incluir enfermedades renales, enfermedades dentales, diabetes, enfermedades del corazón y ciertos tipos de cáncer.
+            La detección temprana y el tratamiento son clave para manejar estas condiciones,
+            por lo que es importante llevar a tu gato al veterinario regularmente y estar atento a cualquier cambio en su comportamiento o apariencia física.
+          </p>
+
+        </div>
+
+    </article>
+
+  </section>
+
+  <section class="u-margin-bottom-big">
+
+    <article>
+
+        <div class="u-center-text u-margin-bottom-medium">
+          <h2 class="heading-secondary">Salud mental</h2>
+        </div>
+
+        <div class="row flex align-center justify-center">
+          <bg-image-card imageUrl="https://github.com/Totoblak90/miamigoanimal-images1/blob/master/health-salud-mental.webp?raw=true"></bg-image-card>
+        </div>
+
+        <div class="row">
+
+          <p class="paragraph">
+            Finalmente, no podemos olvidarnos de la salud mental de nuestras mascotas.
+            Los perros y gatos pueden experimentar estrés y ansiedad, lo que puede afectar su salud física. Proporcionar un entorno seguro y enriquecedor,
+            junto con mucho ejercicio y estimulación mental, puede ayudar a mantener a tu mascota mentalmente saludable.
+          </p>
+
+          <h3 class="heading-tertiary u-margin-bottom-small">Perros:</h3>
+          <p class="paragraph">
+            El estrés y la ansiedad en los perros pueden manifestarse de diversas maneras, incluyendo comportamientos destructivos,
+            ladridos excesivos, y cambios en el apetito o en los hábitos de sueño. El entrenamiento, la socialización y el juego regular pueden ayudar a aliviar estos problemas.
+          </p>
+          <p class="paragraph">
+            Además, los perros necesitan rutina y estructura.
+            Mantener una rutina diaria regular y proporcionar a tu perro un lugar seguro para descansar puede ayudar a reducir el estrés.
+            En casos de ansiedad grave, es posible que tu perro necesite tratamiento con medicamentos o terapia conductual profesional.
+          </p>
+
+          <h3 class="heading-tertiary u-margin-bottom-small">Gatos:</h3>
+          <p class="paragraph">
+            Los gatos también pueden experimentar estrés y ansiedad, que pueden manifestarse en comportamientos como marcar con orina, esconderse,
+            y cambios en los hábitos de alimentación y de sueño. Los gatos necesitan un entorno tranquilo y seguro, con lugares para esconderse y para escalar.
+            También pueden beneficiarse del juego regular y de la interacción con su dueño.
+          </p>
+          <p class="paragraph">
+            Además, los gatos son animales territoriales y pueden estresarse si sienten que su territorio está amenazado.
+            Esto puede ser un problema particularmente en hogares con más de un gato. Proporcionar a cada gato su propio espacio y recursos, como comederos y cajas de arena,
+            puede ayudar a reducir el estrés.
+          </p>
+
+        </div>
+
+    </article>
+
+  </section>
+
+  <section class="u-margin-bottom-big">
+
+    <article>
+
+        <div class="u-center-text u-margin-bottom-medium">
+          <h2 class="heading-secondary">Conclusión</h2>
+        </div>
+
+        <div class="row">
+
+          <p class="paragraph">
+            Cuidar la salud de tu perro o gato es una responsabilidad importante.
+            Ya sea a través del cuidado preventivo, una nutrición adecuada, el manejo de enfermedades comunes, o la atención a su salud mental,
+            cada aspecto de su cuidado es crucial para su bienestar general.
+          </p>
+
+          <p class="paragraph">
+            <strong>
+              Recuerda, la mejor fuente de información sobre la salud de tu mascota es tu veterinario.
+              No dudes en hacer preguntas y buscar su consejo cuando se trata de la salud de tu amigo de cuatro patas.
+              Después de todo, nadie conoce mejor a tu mascota que tú, y tu atención y cuidado pueden hacer una gran diferencia en su vida.
+            </strong>
+          </p>
+
+        </div>
+
+    </article>
+
+  </section>
+
+
+
+
+</main>

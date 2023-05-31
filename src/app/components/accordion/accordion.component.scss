@@ -1,0 +1,39 @@
+@import "../../../theme/abstracts/mixins";
+@import "../../../theme/abstracts/variables";
+
+.accordion {
+  border-radius: 3px;
+  overflow: hidden;
+  color: $color-grey-dark-2;
+}
+
+.accordion-button {
+  background-color: $color-grey-light-1;
+  color: $color-grey-dark-2;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.accordion-button.active, .accordion-button:hover {
+  background-color: $color-grey-light-2;
+}
+
+.accordion-collapse {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out, opacity 0.2s ease-out;
+  opacity: 0;
+}
+
+.accordion-collapse.show {
+  opacity: 1;
+  max-height: 500px; /* Ajusta este valor según el contenido de tu acordeón */
+  padding: 18px;
+}
