@@ -1,6 +1,5 @@
 import { DOCUMENT } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, Inject, QueryList, ViewChildren } from '@angular/core';
-import { ArticlesService } from 'src/app/services/articles.service';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
 
@@ -16,7 +15,7 @@ export class AdoptaALosGatitosMasTiernosYJuguetonesEncuentraTuCompaneroFelinoIde
     return [...this.document.getElementsByTagName('h2')]
   }
 
-  constructor(private meta: MetaService, private articlesService: ArticlesService, private navigationService: NavigationService, @Inject(DOCUMENT) private document: Document) {
+  constructor(private meta: MetaService, private navigationService: NavigationService, @Inject(DOCUMENT) private document: Document) {
     this._setMetaTags();
     this.navigationService.navigationBg.set('cat');
   }

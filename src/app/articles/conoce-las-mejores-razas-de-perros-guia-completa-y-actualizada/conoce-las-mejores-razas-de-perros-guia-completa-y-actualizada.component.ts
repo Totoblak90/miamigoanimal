@@ -1,6 +1,5 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, Inject } from '@angular/core';
-import { ArticlesService } from 'src/app/services/articles.service';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
 
@@ -16,7 +15,7 @@ export class ConoceLasMejoresRazasDePerrosGuiaCompletaYActualizadaComponent {
     return [...this.document.getElementsByTagName('h2')]
   }
 
-  constructor(private meta: MetaService, private articlesService: ArticlesService, private navigationService: NavigationService, @Inject(DOCUMENT) private document: Document) {
+  constructor(private meta: MetaService, private navigationService: NavigationService, @Inject(DOCUMENT) private document: Document) {
     this._setMetaTags();
     this.navigationService.navigationBg.set('dog');
   }
