@@ -157,3 +157,23 @@
     url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/health-hero.webp?raw=true);
   }
 }
+
+.bg-yo {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-extra-light, 0.8),
+      rgba($color-extra-dark, 0.8)),
+  url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/yo.webp?raw=true);
+
+  background-position: center;
+
+  @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+  only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+  only screen and (min-width: 125em) {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-extra-light, 0.8),
+      rgba($color-extra-dark, 0.8)),
+    url(https://github.com/Totoblak90/miamigoanimal-images1/blob/master/yo.webp?raw=true);
+  }
+}

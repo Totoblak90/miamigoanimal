@@ -9,7 +9,7 @@ export class HeaderComponent {
   @Input() mainTitle: string = '';
   @Input() secondaryTitle = '';
   @Input() cta?: string = '';
-  @Input() bckColour?: 'default' | 'dog' | 'cat' | 'health' | 'train' | 'food' = 'default';
+  @Input() bckColour?: 'default' | 'dog' | 'cat' | 'health' | 'train' | 'food' | 'yo' = 'default';
 
   get backgroundColour(): string {
 
@@ -19,7 +19,8 @@ export class HeaderComponent {
       cat: 'bg-cat',
       health: 'bg-health',
       train: 'bg-train',
-      food: 'bg-food'
+      food: 'bg-food',
+      yo: 'bg-yo'
     }
 
     return cssClass[this.bckColour || 'default']
