@@ -8,65 +8,26 @@
 
   <div class="row u-margin-bottom-big">
 
-    <div class="col-1-of-3">
+    <div class="col-1-of-3" *ngFor="let article of arrangedArticles.slice(0, 3)">
       <flipping-card
-        cardTitle="Razas populares"
-        [topics]="['Para compañía', 'Para familias', 'Para departamentos', 'Para adiestramiento', 'Longitud: +1500 palabras']"
-        type="dog"
-        href="conoce-las-mejores-razas-de-perros-guia-completa-y-actualizada"
+            [cardTitle]="article['card-heading']"
+            [topics]="article.sections"
+            [type]="article.categories.includes('Gatos') ? 'cat' : 'dog'"
+            [href]="article.url"
       ></flipping-card>
     </div>
-
-    <div class="col-1-of-3">
-      <flipping-card
-        cardTitle="Adopción"
-        [topics]="['Beneficios', '¿Como?', 'Pasos', 'Requisitos', 'Longitud: +1500 palabras']"
-        type="cat"
-        href="adopta-a-los-gatitos-mas-tiernos-y-juguetones-encuentra-tu-companero-felino-ideal"
-      ></flipping-card>
-    </div>
-
-    <div class="col-1-of-3">
-      <flipping-card
-        cardTitle="Cachorros, Variedad"
-        [topics]="['Alimentacion', 'Ejercicio', 'Salud', 'Higiene', 'Longitud: +1500 palabras']"
-        type="dog"
-        href="descubre-los-mejores-cuidados-para-tus-perritos"
-      ></flipping-card>
-    </div>
-
 
   </div>
 
   <div class="row u-margin-bottom-big">
-    <div class="col-1-of-3">
+    <div class="col-1-of-3" *ngFor="let article of arrangedArticles.slice(3, 7)">
       <flipping-card
-            cardTitle="Consejos útiles"
-            [topics]="['Como elegir la raza adecuada', 'Salud', 'Adiestramiento y socialización', 'Consejos para viajes', 'Longitud: +1500 palabras']"
-            type="dog"
-            href="todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo"
+            [cardTitle]="article['card-heading']"
+            [topics]="article.sections"
+            [type]="article.categories.includes('Gatos') ? 'cat' : 'dog'"
+            [href]="article.url"
       ></flipping-card>
     </div>
-
-    <div class="col-1-of-3">
-      <flipping-card
-        cardTitle="Historia, Salud"
-        [topics]="['Historia', 'Razas', 'Salud', 'Alimentación', 'Longitud: +1500 palabras']"
-        type="cat"
-        href="todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades"
-      ></flipping-card>
-    </div>
-
-
-    <div class="col-1-of-3">
-      <flipping-card
-        cardTitle="Variedad"
-        [topics]="['Razas populares', 'Consejos perro nuevo', 'Pug Carlino', 'Longitud: +1500 palabras']"
-        type="dog"
-        href="perritas-adorables-todo-lo-que-necesitas-saber-sobre-estas-tiernas-mascotas"
-      ></flipping-card>
-    </div>
-
 
   </div>
 
