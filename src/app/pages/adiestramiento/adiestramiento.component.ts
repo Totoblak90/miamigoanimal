@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavigationService } from 'src/app/services/navigation.service';
 
 @Component({
   selector: 'app-adiestramiento',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./adiestramiento.component.scss']
 })
 export class AdiestramientoComponent {
+
+  constructor(private navigationService: NavigationService) {
+    this.navigationService.navigationBg.set('train');
+  }
 
 }

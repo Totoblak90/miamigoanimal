@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
+import { NavigationService } from 'src/app/services/navigation.service';
 
 @Component({
   selector: 'app-home',
@@ -8,8 +9,9 @@ import { MetaService } from 'src/app/services/meta.service';
 })
 export class HomeComponent {
 
-  constructor(private metaSrv: MetaService) {
+  constructor(private metaSrv: MetaService, private navigationService: NavigationService) {
     this._setMetaTags();
+    this.navigationService.navigationBg.set('extra');
   }
 
   private _setMetaTags() {

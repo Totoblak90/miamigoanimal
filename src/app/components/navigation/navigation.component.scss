@@ -37,7 +37,6 @@
       position: fixed;
       top: 6.5rem;
       right: 6.5rem;
-      background-image: radial-gradient($color-extra-light, $color-extra-dark);
       z-index: 1000;
       transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
 
@@ -166,4 +165,28 @@
       top: 0;
       transform: rotate(-135deg);
   }
+}
+
+.navigation__background--dog {
+  background-image: radial-gradient($color-dog-light, $color-dog-dark);
+}
+
+.navigation__background--cat {
+  background-image: radial-gradient($color-cat-light, $color-cat-dark);
+}
+
+.navigation__background--health {
+  background-image: radial-gradient($color-health-light, $color-health-dark);
+}
+
+.navigation__background--food {
+  background-image: radial-gradient($color-food-light, $color-food-dark);
+}
+
+.navigation__background--train {
+  background-image: radial-gradient($color-training-light, $color-training-dark);
+}
+
+.navigation__background--extra {
+  background-image: radial-gradient($color-extra-light, $color-extra-dark);
 }

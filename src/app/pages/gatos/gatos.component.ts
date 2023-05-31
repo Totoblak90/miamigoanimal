@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
+import { NavigationService } from 'src/app/services/navigation.service';
 
 @Component({
   selector: 'app-gatos',
@@ -8,8 +9,9 @@ import { MetaService } from 'src/app/services/meta.service';
 })
 export class GatosComponent {
 
-  constructor(private metaSrv: MetaService) {
-    this._setMetaTags()
+  constructor(private metaSrv: MetaService, private navigationService: NavigationService) {
+    this._setMetaTags();
+    this.navigationService.navigationBg.set('cat');
   }
 
   private _setMetaTags() {

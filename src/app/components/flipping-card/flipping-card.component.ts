@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { UtilitiesService } from 'src/app/services/utilities.service';
 
 @Component({
   selector: 'flipping-card',
@@ -9,4 +10,10 @@ export class FlippingCardComponent {
   @Input() cardTitle = '';
   @Input() topics: string[] = [];
   @Input() type: 'cat' | 'dog' | 'extra' = 'extra';
+
+  constructor(private utilitiesSrv: UtilitiesService) { }
+
+  get cardPicture() {
+    return this.utilitiesSrv.selectImage(this.type);
+  }
 }
