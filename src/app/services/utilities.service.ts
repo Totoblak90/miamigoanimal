@@ -6,11 +6,16 @@ import { Injectable } from '@angular/core';
 export class UtilitiesService {
 
   private dogImages = [
-    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/destacados-perros.webp?raw=true',
-    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/clipped-section-dog.webp?raw=true',
     'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-dog.webp?raw=true',
-    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/perro-en-taza.webp?raw=true',
-    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/destacados-extra.webp?raw=true'
+    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/perro-1.webp?raw=true',
+    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/perro-2.webp?raw=true',
+    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/perro-3.webp?raw=true',
+    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/perro-4.webp?raw=true',
+    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/perro-5.webp?raw=true',
+    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/perro-6.webp?raw=true',
+    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/perro-7.webp?raw=true',
+    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/perro-8.webp?raw=true',
+    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/perro-9.webp?raw=true',
   ];
 
   private catImages = [
@@ -19,11 +24,9 @@ export class UtilitiesService {
     'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/gato-en-sillon.webp?raw=true',
     'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/gato-negro-en-taza.webp?raw=true',
     'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/hero-cat.webp?raw=true',
-    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/varios-gato-1.webp?raw=true',
     'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/varios-gato-3.webp?raw=true',
     'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/varios-gato-4.webp?raw=true',
     'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/varios-gato-5.webp?raw=true',
-    'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/destacados-extra.webp?raw=true'
   ];
 
   private extraImage = 'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/destacados-extra.webp?raw=true';
