@@ -11,7 +11,6 @@ export class HighlitedArticlesComponent {
   highlitedArticles = this.articlesService.articlesDB()
 
   get arrangedArticles() {
-    console.log(this.highlitedArticles)
     return this.highlitedArticles
           .filter(article =>  article.destacado)
           .sort((a, b) => new Date(a.creation) > new Date(b.creation) ? 1 : -1)

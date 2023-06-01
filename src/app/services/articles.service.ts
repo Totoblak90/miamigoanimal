@@ -93,7 +93,6 @@ export class ArticlesService {
   constructor() {
     let date = new Date();
     let dateString = date.toLocaleString();
-    console.log(dateString);
   }
 
   filterArticleList(article: Article, term: string) {
