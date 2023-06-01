@@ -73,7 +73,7 @@ export class ArticlesService {
     {
       url: 'bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica',
       categories: ['Perros'],
-      'card-heading': 'Bulldog iglés',
+      'card-heading': 'Bulldog Inglés',
       sections: ['Historia', 'Higiene', 'Salud', 'Curiosidades', 'Longitud: -1500 palabras'],
       destacado: false,
       creation: '31/5/2023, 23:06:00',
@@ -82,7 +82,7 @@ export class ArticlesService {
     {
       url: 'el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades',
       categories: ['Perros'],
-      'card-heading': 'Bulldog iglés',
+      'card-heading': 'Bulldog Inglés',
       sections: ['Características', 'Cuidados', 'Curiosidades', 'Costo', 'Longitud: -1500 palabras'],
       destacado: false,
       creation: '31/5/2023, 23:22:00',
@@ -94,5 +94,12 @@ export class ArticlesService {
     let date = new Date();
     let dateString = date.toLocaleString();
     console.log(dateString);
+  }
+
+  filterArticleList(article: Article, term: string) {
+    return  article.title.toLowerCase().includes(term.toLowerCase()) ||
+            article.sections.join(' ').toLowerCase().includes(term.toLowerCase()) ||
+            article.categories.join(' ').toLowerCase().includes(term.toLowerCase()) ||
+            article['card-heading'].toLowerCase().includes(term.toLowerCase())
   }
 }

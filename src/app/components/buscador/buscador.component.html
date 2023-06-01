@@ -1,0 +1,15 @@
+
+<form class="search row form" [formGroup]="searchArticlesForm">
+  <div class="form__group">
+    <label class="form__label" for="searchTerm">Buscar artículo</label>
+    <input (blur)="resetSearch()" class="form__input" type="search" placeholder="Buscar artículo" formControlName="searchTerm" id="searchTerm" name="searchTerm" autocomplete="off">
+  </div>
+  <div class="search-results" *ngIf="searchResults.length">
+    <ul>
+      <li *ngFor="let article of searchResults">
+        <a class="btn-plain" [href]="'post/' + article.url">{{ article.title }}</a>
+      </li>
+    </ul>
+  </div>
+</form>
+

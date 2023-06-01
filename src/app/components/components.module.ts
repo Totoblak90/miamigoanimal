@@ -16,6 +16,8 @@ import { PopupDisclaimerComponent } from './popup-disclaimer/popup-disclaimer.co
 import { AccordionComponent } from './accordion/accordion.component';
 import { IframeCardComponent } from './iframe-card/iframe-card.component';
 import { RecentArticleCardComponent } from './recent-article-card/recent-article-card.component';
+import { BuscadorComponent } from './buscador/buscador.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -36,10 +38,12 @@ import { RecentArticleCardComponent } from './recent-article-card/recent-article
     AccordionComponent,
     IframeCardComponent,
     RecentArticleCardComponent,
+    BuscadorComponent,
   ],
   imports: [
     CommonModule,
-    PipesModule
+    PipesModule,
+    ReactiveFormsModule
   ],
   exports: [
     HeaderComponent,
@@ -57,6 +61,7 @@ import { RecentArticleCardComponent } from './recent-article-card/recent-article
     AccordionComponent,
     IframeCardComponent,
     RecentArticleCardComponent,
+    BuscadorComponent,
   ]
 })
 export class ComponentsModule { }

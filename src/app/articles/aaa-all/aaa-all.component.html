@@ -1,0 +1,43 @@
+<app-header
+  mainTitle="Buscá"
+  secondaryTitle="entre todos nuestros artículos sobre mascotas"
+  bckColour="default"
+></app-header>
+
+<main class="separate-section">
+
+  <div class="row">
+    <div class="form-container">
+      <div class="form-container__form">
+        <form class="search row form" [formGroup]="searchArticlesForm">
+          <div class="form__group">
+            <label class="form__label" for="searchTerm">Buscar artículo</label>
+            <input class="form__input" type="search" placeholder="Buscar artículo" formControlName="searchTerm" id="searchTerm" name="searchTerm">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="search-grid">
+      <div *ngFor="let article of pagedArticles">
+        <flipping-card
+                  [cardTitle]="article['card-heading']"
+                  [topics]="article.sections"
+                  [type]="article.categories.includes('Gatos') ? 'cat' : 'dog'"
+                  [href]="article.url"
+        ></flipping-card>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="article-pagination">
+      <button class="btn btn--green" (click)="previousPage()">&#xab;</button>
+      <p class="paragraph u-margin-bottom-none"> {{ currentPage + 1 }} </p>
+      <button class="btn btn--green" (click)="nextPage()">&#xbb;</button>
+    </div>
+  </div>
+
+</main>

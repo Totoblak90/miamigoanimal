@@ -19,14 +19,16 @@
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
   }
 
-  &__logo-box {
+  &__search-box {
       position: absolute;
-      top: 4rem;
+      top: 3rem;
       left: 4rem;
-  }
+      width: 40%;
 
-  &__logo {
-      height: 3.5rem;
+      @include respond(phone) {
+        width: auto;
+        left: 1rem !important;
+      }
   }
 
   &__text-box {
