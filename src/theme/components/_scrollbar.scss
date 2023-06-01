@@ -22,3 +22,21 @@
   }
 
 }
+
+.no-scrollbar {
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  &::-webkit-scrollbar-track {
+      opacity: 0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    opacity: 0;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    opacity: 0;
+  }
+}

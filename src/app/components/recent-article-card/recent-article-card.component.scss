@@ -15,22 +15,6 @@
   background-repeat: no-repeat;
   background-position: center;
 
-  &::-webkit-scrollbar {
-    width: 1px;
-  }
-
-  &::-webkit-scrollbar-track {
-      opacity: 0;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    opacity: 0;
-  }
-
-  &::-webkit-scrollbar-thumb:hover {
-    opacity: 0;
-  }
-
   @include respond(tab-port) {
       padding: 2rem;
   }
