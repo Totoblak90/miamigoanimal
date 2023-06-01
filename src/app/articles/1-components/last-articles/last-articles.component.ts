@@ -30,7 +30,7 @@ export class LastArticlesComponent {
             return article
           })
           .sort((a, b) => a.creation > b.creation ? 1 : -1)
-          .slice(0, 4)
+          .slice(0, 6)
   }
 
   constructor(private articlesService: ArticlesService) {}

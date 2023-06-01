@@ -47,7 +47,7 @@ export class ArticlesService {
       url: 'todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo',
       categories: ['Perros'],
       'card-heading': 'Consejos útiles',
-      sections: ['Como elegir la raza adecuada', 'Salud', 'Adiestramiento', 'Consejos para viajes', 'Longitud: +1500 palabras'],
+      sections: ['Raza adecuada', 'Salud', 'Adiestramiento', 'Viajes', 'Longitud: +1500 palabras'],
       destacado: true,
       creation: '31/5/2023, 18:23:00',
       title: 'Perros: Información curiosidades y consejos útiles para cuidar a tu mejor amigo',
@@ -69,6 +69,24 @@ export class ArticlesService {
       destacado: false,
       creation: '31/5/2023, 21:17:00',
       title: 'Bulldog Francés: Todo sobre esta adorable raza de perros',
+    },
+    {
+      url: 'bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica',
+      categories: ['Perros'],
+      'card-heading': 'Bulldog iglés',
+      sections: ['Historia', 'Higiene', 'Salud', 'Curiosidades', 'Longitud: -1500 palabras'],
+      destacado: false,
+      creation: '31/5/2023, 23:06:00',
+      title: 'Bulldog Inglés: Características y curiosidades de esta raza icónica',
+    },
+    {
+      url: 'el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades',
+      categories: ['Perros'],
+      'card-heading': 'Bulldog iglés',
+      sections: ['Características', 'Cuidados', 'Curiosidades', 'Costo', 'Longitud: -1500 palabras'],
+      destacado: false,
+      creation: '31/5/2023, 23:22:00',
+      title: 'Bulldog Inglés: Características, cuidados y curiosidades',
     },
   ])
 
