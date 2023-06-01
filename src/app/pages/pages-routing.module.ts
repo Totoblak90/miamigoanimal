@@ -43,11 +43,18 @@ const routes: Routes = [
     component: TerminosComponent
   },
   {
-    path: '',
-    pathMatch: 'full',
+    path: 'home',
     loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
   },
-
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'home',
+  },
+  {
+    path: '**',
+    redirectTo: 'home'
+  }
 ];
 
 @NgModule({
