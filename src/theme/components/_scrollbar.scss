@@ -1,0 +1,24 @@
+.light-scrollbar {
+/* Estilo para la barra de desplazamiento */
+  ::-webkit-scrollbar {
+    width: 5px; /* Ancho de la barra de desplazamiento */
+  }
+
+  /* Estilo para el track (la pista por donde se desplaza la barra) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color de fondo del track */
+    border-radius: 10px; /* Redondea las esquinas del track */
+  }
+
+  /* Estilo para la handle (la barra de desplazamiento en sí) */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Color de la barra de desplazamiento */
+    border-radius: 10px; /* Redondea las esquinas de la barra */
+  }
+
+  /* Cambia el color de la barra de desplazamiento al pasar el mouse */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+}

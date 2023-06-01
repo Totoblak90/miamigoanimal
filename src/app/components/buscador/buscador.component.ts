@@ -16,8 +16,7 @@ export class BuscadorComponent {
   searchResults: Article[] = [];
 
   constructor(private fb: FormBuilder, private articlesService: ArticlesService) {
-    this.subscribeToSearchTermChange()
-
+    this.subscribeToSearchTermChange();
   }
 
   private subscribeToSearchTermChange() {
