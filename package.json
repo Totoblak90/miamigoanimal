@@ -3,17 +3,17 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start:dev": "ng serve",
+    "start:dev": "set NODE_ENV=development && ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "dev:ssr": "ng run miamigoanimal:serve-ssr",
+    "dev:ssr": "set NODE_ENV=development &&  ng run miamigoanimal:serve-ssr",
     "serve:ssr": "node dist/miamigoanimal/server/main.js",
     "build:ssr": "ng build && ng run miamigoanimal:server",
     "prerender": "ng run miamigoanimal:prerender",
     "serve:prerender": "http-server -c-1 dist/miamigoanimal/browser",
     "prepare": "npm run build:ssr",
-    "start": "npm run serve:ssr"
+    "start": "set NODE_ENV=development && npm run serve:ssr"
   },
   "private": true,
   "dependencies": {

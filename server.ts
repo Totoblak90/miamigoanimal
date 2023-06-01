@@ -21,6 +21,17 @@ export function app(): express.Express {
   server.set('view engine', 'html');
   server.set('views', distFolder);
 
+  // @ts-ignore
+  if (process.env['NODE_ENV'] === 'production') {
+    server.use((req, res, next) => {
+      if (req.headers['x-forwarded-proto'] == 'http') {
+        res.redirect(`https://${req.headers.host}${req.url}`);
+      } else {
+        next();
+      }
+    });
+  }
+
   // Example Express Rest API endpoints
   // server.get('/api/**', (req, res) => { });
   // Serve static files from /browser
