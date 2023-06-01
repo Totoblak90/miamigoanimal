@@ -17,7 +17,7 @@ export class GatosComponent {
   private _setMetaTags() {
     this.metaSrv.setMetaTags(
       'Descubre el mundo felino',
-      '¿Amante de los gatos? Navega por nuestra extensa biblioteca de artículos y recursos. Conviértete en el dueño que tu gato necesita.'
+      '¿Amante de los gatos? Navega por nuestra extensa biblioteca de artículos y recursos. Conviértete en el dueño que tu gato necesita.',
     );
   }
 }

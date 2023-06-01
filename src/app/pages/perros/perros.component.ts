@@ -18,9 +18,6 @@ export class PerrosComponent {
     this.metaSrv.setMetaTags(
       'Tu guía completa sobre perros',
       'Encuentra toda la información que necesitas sobre perros, desde cómo elegir la raza perfecta hasta consejos de salud y comportamiento.',
-      'Tobias Blaksley',
-      true,
-      'Perros, guía de perros, razas de perros'
     );
   }
 

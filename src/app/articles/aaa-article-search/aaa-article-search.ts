@@ -40,7 +40,7 @@ export class AaaArticleSearchComponent {
     private meta: MetaService,
     private navigationService: NavigationService,
     private articlesService: ArticlesService,
-    private fb: FormBuilder,
+    private fb: FormBuilder
   ) {
     this._setMetaTags();
     this.navigationService.navigationBg.set('extra');
@@ -54,7 +54,7 @@ export class AaaArticleSearchComponent {
   private _setMetaTags() {
     this.meta.setMetaTags(
       '¡Buscá entre todos nuestros artículos sobre mascotas!',
-      'Explora nuestros artículos y encuentra todo lo que necesitas saber sobre tus mascotas. ¡La información que buscas, al alcance de tu mano!',
+      'Explora nuestros artículos y encuentra todo lo que necesitas saber sobre tus mascotas. ¡La información que buscas, al alcance de tu mano!'
     )
   }
 

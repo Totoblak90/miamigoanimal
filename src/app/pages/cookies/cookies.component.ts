@@ -9,7 +9,7 @@ import { MetaService } from 'src/app/services/meta.service';
 export class CookiesComponent {
 
   constructor(private meta: MetaService) {
-    this.meta.setMetaTags('', '', '', false);
+    this.meta.setMetaTags('', '', '', false, 'Tobias Blaksley');
   }
 
 }
