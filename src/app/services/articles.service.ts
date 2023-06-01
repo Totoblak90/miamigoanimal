@@ -61,6 +61,15 @@ export class ArticlesService {
       creation: '31/5/2023, 18:40:18',
       title: 'Gatos: Razas, cuidados, curiosidades y más',
     },
+    {
+      url: 'bulldog-frances-todo-lo-que-necesitas-saber-sobre-esta-adorable-raza-de-perros',
+      categories: ['Perros'],
+      'card-heading': 'Bulldog francés',
+      sections: ['Mantenimiento', 'Personalidad', 'Salud', 'Longitud: +1500 palabras'],
+      destacado: false,
+      creation: '31/5/2023, 21:17:00',
+      title: 'Bulldog Francés: Todo sobre esta adorable raza de perros',
+    },
   ])
 
   constructor() {

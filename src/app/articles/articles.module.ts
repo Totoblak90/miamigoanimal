@@ -13,6 +13,7 @@ import { TodoSobrePerrosInformacionCuriosidadesYConsejosUtilesParaCuidarATuMejor
 import { TodoLoQueNecesitasSaberSobreGatosRazasCuidadosYCuriosidadesComponent } from './todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades/todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades.component';
 import { LastArticlesComponent } from './1-components/last-articles/last-articles.component';
 import { ArticleSkeletonComponent } from './1-components/article-skeleton/article-skeleton.component';
+import { BulldogFrancesTodoLoQueNecesitasSaberSobreEstaAdorableRazaDePerrosComponent } from './bulldog-frances-todo-lo-que-necesitas-saber-sobre-esta-adorable-raza-de-perros/bulldog-frances-todo-lo-que-necesitas-saber-sobre-esta-adorable-raza-de-perros.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { ArticleSkeletonComponent } from './1-components/article-skeleton/articl
     HighlitedArticlesComponent,
     LastArticlesComponent,
     IndexComponent,
-    ArticleSkeletonComponent
+    ArticleSkeletonComponent,
+    BulldogFrancesTodoLoQueNecesitasSaberSobreEstaAdorableRazaDePerrosComponent
   ],
   imports: [
     CommonModule,
