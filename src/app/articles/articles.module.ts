@@ -16,7 +16,7 @@ import { ArticleSkeletonComponent } from './1-components/article-skeleton/articl
 import { BulldogFrancesTodoLoQueNecesitasSaberSobreEstaAdorableRazaDePerrosComponent } from './bulldog-frances-todo-lo-que-necesitas-saber-sobre-esta-adorable-raza-de-perros/bulldog-frances-todo-lo-que-necesitas-saber-sobre-esta-adorable-raza-de-perros.component';
 import { BulldogInglesCaracteristicasCuidadosYCuriosidadesDeEstaRazaIconicaComponent } from './bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica/bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica.component';
 import { ElBulldogInglesCaracteristicasCuidadosYCuriosidadesComponent } from './el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades/el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades.component';
-import { AaaAllComponent } from './aaa-all/aaa-all.component';
+import { AaaArticleSearchComponent } from './aaa-article-search/aaa-article-search';
 import { ReactiveFormsModule } from '@angular/forms';
 
 
@@ -35,7 +35,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     BulldogFrancesTodoLoQueNecesitasSaberSobreEstaAdorableRazaDePerrosComponent,
     BulldogInglesCaracteristicasCuidadosYCuriosidadesDeEstaRazaIconicaComponent,
     ElBulldogInglesCaracteristicasCuidadosYCuriosidadesComponent,
-    AaaAllComponent,
+    AaaArticleSearchComponent,
   ],
   imports: [
     CommonModule,

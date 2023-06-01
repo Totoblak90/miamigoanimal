@@ -5,11 +5,11 @@ import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
 
 @Component({
-  selector: 'app-aaa-all',
-  templateUrl: './aaa-all.component.html',
-  styleUrls: ['./aaa-all.component.scss']
+  selector: 'aaa-article-search',
+  templateUrl: './aaa-article-search.component.html',
+  styleUrls: ['./aaa-article-search.component.scss']
 })
-export class AaaAllComponent {
+export class AaaArticleSearchComponent {
 
   searchArticlesForm: FormGroup = this.fb.group({
     searchTerm: ['']

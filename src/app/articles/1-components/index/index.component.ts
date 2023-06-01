@@ -8,9 +8,9 @@ import { Component, Input } from '@angular/core';
 export class IndexComponent {
 
 
-  @Input() titleList: HTMLTitleElement[] = []
+  @Input() titleList: HTMLHeadingElement[] = []
 
-  scrollTo(element: HTMLTitleElement) {
+  scrollTo(element: HTMLHeadingElement) {
     element.scrollIntoView({behavior: "smooth"});
   }
 

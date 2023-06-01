@@ -1,5 +1,5 @@
-import { DOCUMENT } from '@angular/common';
-import { Inject, Injectable, Renderer2, RendererFactory2 } from '@angular/core';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { Inject, Injectable, PLATFORM_ID, Renderer2, RendererFactory2 } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
 @Injectable({
@@ -9,7 +9,12 @@ export class MetaService {
 
   private renderer: Renderer2 = this.rendererFactory.createRenderer(null, null);
 
-  constructor(private title: Title, private meta: Meta, private rendererFactory: RendererFactory2,  @Inject(DOCUMENT) private document: Document) {}
+  constructor(
+    private title: Title, private meta: Meta,
+    private rendererFactory: RendererFactory2,
+    @Inject(DOCUMENT) private document: Document,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {}
 
   setMetaTags(title: string, description: string, author = 'Tobias Blaksley', follow = true, keywords = 'Mi amigo animal, Perros, Gatos', canonical= '') {
     if (!title) { title = 'Mi amigo animal - Consejos y Guías Detalladas para tus Mascotas'}
@@ -24,7 +29,10 @@ export class MetaService {
     else { this.meta.updateTag({ name: 'robots', content: 'nofollow' }) }
 
     this.removeCanonical('rel=\'canonical\'');
-    this.addCanonical({ rel: 'canonical', href: canonical || window.location.href });
+
+    if (isPlatformBrowser(this.platformId)) {
+      this.addCanonical({ rel: 'canonical', href: canonical || window.location.href });
+    }
 
   }
 

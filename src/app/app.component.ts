@@ -1,4 +1,5 @@
-import { Component, OnInit, Renderer2 } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { Component, Inject, OnInit, PLATFORM_ID, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,31 +9,37 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
 export class AppComponent implements OnInit {
   title = 'miamigoanimal';
 
-  constructor(private renderer: Renderer2) {}
+  constructor(private renderer: Renderer2, @Inject(PLATFORM_ID) private platformId: Object) {}
 
   ngOnInit(): void {
     this.toggleDisclaimer();
   }
 
   private toggleDisclaimer() {
-    const termsAccepted = localStorage.getItem('disclaimer');
-    let shouldShowPopup = true;
-
-    if (termsAccepted)
+    if (isPlatformBrowser(this.platformId))
     {
 
-      const expirationDate = new Date(JSON.parse(termsAccepted).date);
+      const termsAccepted = localStorage.getItem('disclaimer');
+      let shouldShowPopup = true;
 
-      if (expirationDate)
+      if (termsAccepted)
       {
-        const expirationMonth = expirationDate.getMonth();
-        const actualMonth = new Date().getMonth();
-        shouldShowPopup = expirationMonth !== actualMonth;
+
+        const expirationDate = new Date(JSON.parse(termsAccepted).date);
+
+        if (expirationDate)
+        {
+          const expirationMonth = expirationDate.getMonth();
+          const actualMonth = new Date().getMonth();
+          shouldShowPopup = expirationMonth !== actualMonth;
+        }
+
       }
+
+      if (shouldShowPopup) { this.showPopup(); }
 
     }
 
-    if (shouldShowPopup) { this.showPopup(); }
   }
 
   private showPopup(): void {

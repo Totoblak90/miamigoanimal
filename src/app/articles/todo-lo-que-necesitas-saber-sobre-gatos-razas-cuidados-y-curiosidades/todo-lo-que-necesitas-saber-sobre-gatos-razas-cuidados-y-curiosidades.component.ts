@@ -1,5 +1,5 @@
-import { DOCUMENT } from '@angular/common';
-import { Component, Inject } from '@angular/core';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
 
@@ -11,11 +11,18 @@ import { NavigationService } from 'src/app/services/navigation.service';
 export class TodoLoQueNecesitasSaberSobreGatosRazasCuidadosYCuriosidadesComponent {
 
   get titleList() {
-    // @ts-ignore
-    return [...this.document.getElementsByTagName('h2')]
+    if (isPlatformBrowser(this.platformId)) {
+      return Array.from(this.document.getElementsByTagName('h2'))
+    }
+    return [];
   }
 
-  constructor(private meta: MetaService, private navigationService: NavigationService, @Inject(DOCUMENT) private document: Document) {
+  constructor(
+    private meta: MetaService,
+    private navigationService: NavigationService,
+    @Inject(DOCUMENT) private document: Document,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {
     this._setMetaTags();
     this.navigationService.navigationBg.set('cat');
   }

@@ -1,4 +1,5 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { Component, ElementRef, Inject, PLATFORM_ID, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { AlimentacionService } from 'src/app/services/alimentacion.service';
 
@@ -17,17 +18,23 @@ export class PopupDisclaimerComponent {
 
   constructor(
     private router: Router,
-    private alimentacionService: AlimentacionService
+    private alimentacionService: AlimentacionService,
+    @Inject(PLATFORM_ID) private platformId: Object
   ) {}
 
   saveLocalhost() {
-    localStorage.setItem('disclaimer', JSON.stringify({
-      accepted: true,
-      date: new Date()
-    }))
+    if (isPlatformBrowser(this.platformId))
+    {
 
-    this.popupDisclaimer?.nativeElement.remove()
-    this.router.navigate(['/']);
+      localStorage.setItem('disclaimer', JSON.stringify({
+        accepted: true,
+        date: new Date()
+      }))
+
+      this.popupDisclaimer?.nativeElement.remove()
+      this.router.navigate(['/']);
+
+    }
   }
 
 }
