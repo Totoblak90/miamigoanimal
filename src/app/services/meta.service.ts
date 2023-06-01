@@ -2,7 +2,6 @@ import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { Inject, Injectable, PLATFORM_ID, Renderer2, RendererFactory2 } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { Router } from '@angular/router';
-import { REQUEST } from '@nguniversal/express-engine/tokens';
 
 @Injectable({
   providedIn: 'root'
@@ -19,13 +18,9 @@ export class MetaService {
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
 
-  setMetaTags(
-    title: string,
-    description: string,
-    canonical = '',
-    follow = true,
-    author = 'Tobias Blaksley',
-  ) {
+  setMetaTags( title = '', description = '', canonical = '', follow = true, author = 'Tobias Blaksley', )
+  {
+
     if (!title) { title = 'Mi amigo animal - Consejos y Guías Detalladas para tus Mascotas'}
     if (!description) { description = `Ya sea que seas un nuevo dueño de mascota o un experto, aquí encontrarás todo lo que necesitas saber sobre el perros y gatos. Descubre nuestros recursos y únete a nuestra comunidad de amantes de las mascotas.` }
     if (!canonical) { canonical = 'https://miamigoanimal.com' + this.router.url }
@@ -67,7 +62,6 @@ export class MetaService {
   private addCanonical(tag: any) {
     if (isPlatformBrowser(this.platformId))
     {
-
       const link = this.renderer.createElement('link');
       Object.keys(tag).forEach(key => { this.renderer.setAttribute(link, key, tag[key]); });
       this.renderer.appendChild(this.document.head, link);

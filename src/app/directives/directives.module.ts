@@ -1,18 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { InputRefDirective } from './input-ref.directive';
-
-
+import { AppShellRenderDirective } from './app-shell-render.directive';
 
 @NgModule({
-  declarations: [
-    InputRefDirective
-  ],
-  imports: [
-    CommonModule
-  ],
-  exports: [
-    InputRefDirective
-  ]
+  declarations: [AppShellRenderDirective],
+  imports: [CommonModule],
+  exports: [AppShellRenderDirective],
 })
-export class DirectivesModule { }
+export class DirectivesModule {}

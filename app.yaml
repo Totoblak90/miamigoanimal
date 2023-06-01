@@ -1,0 +1,8 @@
+runtime: nodejs18
+
+instance_class: F1  # Esta es la clase de instancia más pequeña y económica.
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 0  # Esto permite que el número de instancias se reduzca a cero cuando no hay tráfico.
+  max_instances: 1  # Esto limita el número de instancias a valor especificado.

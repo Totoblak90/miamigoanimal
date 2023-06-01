@@ -28,6 +28,11 @@ export function app(): express.Express {
     maxAge: '1y'
   }));
 
+  // Add this before your universal route handler
+  server.get('/sitemap.xml', (req, res) => {
+    res.redirect('/assets/sitemap.xml');
+  });
+
   // All regular routes use the Universal engine
   server.get('*', (req, res) => {
     res.render(indexHtml, { req, providers: [{ provide: APP_BASE_HREF, useValue: req.baseUrl }] });
