@@ -1,0 +1,15 @@
+@import "../../../theme/abstracts/mixins";
+@import "../../../theme/abstracts/variables";
+
+.social-icons-container {
+
+  & a:not(:last-child) {
+    display: inline-block;
+    margin-bottom: calc($gutter-vertical / 2);
+
+    @include respond(tab-port) {
+        margin-bottom: calc($gutter-vertical-small / 2);
+    }
+  }
+
+}

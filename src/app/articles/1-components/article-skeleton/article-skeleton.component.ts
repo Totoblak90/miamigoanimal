@@ -9,5 +9,7 @@ export class ArticleSkeletonComponent {
 
   @Input() filters: ('Gatos' | 'Perros' | 'Salud' | 'Adiestramiento' | 'Alimentacion')[] = [];
   @Input() type: 'cat' | 'dog' = 'dog';
+  @Input() title = '';
+  @Input() description = '';
 
 }

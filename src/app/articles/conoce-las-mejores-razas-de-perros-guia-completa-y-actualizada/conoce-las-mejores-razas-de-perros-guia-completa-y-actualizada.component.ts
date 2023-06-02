@@ -10,6 +10,9 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class ConoceLasMejoresRazasDePerrosGuiaCompletaYActualizadaComponent {
 
+  title = 'Conoce las mejores razas de perros : guía completa y actualizada'
+  description = 'Descubre nuestra guía completa sobre las mejores razas de perros. Aprende sobre sus características y cuidados. ¡Encuentra tu compañero perfecto!'
+
   get titleList() {
     if (isPlatformBrowser(this.platformId)) {
       return Array.from(this.document.getElementsByTagName('h2'))
@@ -23,15 +26,8 @@ export class ConoceLasMejoresRazasDePerrosGuiaCompletaYActualizadaComponent {
     @Inject(DOCUMENT) private document: Document,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {
-    this._setMetaTags();
+    this.meta.setMetaTags(this.title, this.description)
     this.navigationService.navigationBg.set('dog');
-  }
-
-  private _setMetaTags() {
-    this.meta.setMetaTags(
-      'Conoce las mejores razas de perros : guía completa y actualizada',
-      'Descubre nuestra guía completa sobre las mejores razas de perros. Aprende sobre sus características y cuidados. ¡Encuentra tu compañero perfecto!',
-    )
   }
 
 }

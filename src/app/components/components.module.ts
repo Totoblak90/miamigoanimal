@@ -18,6 +18,7 @@ import { IframeCardComponent } from './iframe-card/iframe-card.component';
 import { RecentArticleCardComponent } from './recent-article-card/recent-article-card.component';
 import { BuscadorComponent } from './buscador/buscador.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SocialIconsComponent } from './social-icons/social-icons.component';
 
 
 
@@ -39,6 +40,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     IframeCardComponent,
     RecentArticleCardComponent,
     BuscadorComponent,
+    SocialIconsComponent,
   ],
   imports: [
     CommonModule,
@@ -62,6 +64,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     IframeCardComponent,
     RecentArticleCardComponent,
     BuscadorComponent,
+    SocialIconsComponent,
   ]
 })
 export class ComponentsModule { }

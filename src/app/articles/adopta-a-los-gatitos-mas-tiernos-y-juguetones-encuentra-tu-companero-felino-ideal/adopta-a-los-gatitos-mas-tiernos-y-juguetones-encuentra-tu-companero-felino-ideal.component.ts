@@ -10,6 +10,9 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class AdoptaALosGatitosMasTiernosYJuguetonesEncuentraTuCompaneroFelinoIdealComponent{
 
+  title = 'Adopta a los gatitos más tiernos y juguetones. Encuentra tu compañero felino ideal'
+  description = 'Adopta a los gatitos más tiernos y juguetones con nuestra guía. Encuentra tu compañero felino ideal y conoce sus personalidades. ¡Descúbrelo ya!'
+
   get titleList() {
     if (isPlatformBrowser(this.platformId)) {
       return Array.from(this.document.getElementsByTagName('h2'))
@@ -23,14 +26,7 @@ export class AdoptaALosGatitosMasTiernosYJuguetonesEncuentraTuCompaneroFelinoIde
     @Inject(DOCUMENT) private document: Document,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {
-    this._setMetaTags();
+    this.meta.setMetaTags(this.title, this.description)
     this.navigationService.navigationBg.set('cat');
-  }
-
-  private _setMetaTags() {
-    this.meta.setMetaTags(
-      'Adopta a los gatitos más tiernos y juguetones. Encuentra tu compañero felino ideal',
-      'Adopta a los gatitos más tiernos y juguetones con nuestra guía. Encuentra tu compañero felino ideal y conoce sus personalidades. ¡Descúbrelo ya!',
-    )
   }
 }
