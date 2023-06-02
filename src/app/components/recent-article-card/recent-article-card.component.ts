@@ -17,9 +17,7 @@ export class RecentArticleCardComponent implements OnInit {
   constructor(private utilitiesSrv: UtilitiesService) {}
 
   ngOnInit() {
-    this.selectedImage =  this.type === 'cat' ? this.utilitiesSrv.selectImage( this.type ) :
-                          this.type === 'dog' ? this.utilitiesSrv.selectImage( this.type ) :
-                          ''
+    this.selectedImage =  this.utilitiesSrv.selectImage( this.type )
   }
 
 }

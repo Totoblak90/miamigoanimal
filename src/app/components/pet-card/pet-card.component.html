@@ -22,7 +22,7 @@
 
 </div>
 
-<div *ngIf="cat" class="pet-box" [style.background-image]="backgroundImage" #scrollContainer (mouseenter)="stopScrolling()" (mouseleave)="startScrolling()">
+<div *ngIf="cat" class="pet-box no-scrollbar" [style.background-image]="backgroundImage" #scrollContainer (mouseenter)="stopScrolling()" (mouseleave)="startScrolling()">
   <h3 class="heading-tertiary u-margin-bottom-small">{{ cat.name }}</h3>
 
   <div class="pet-box__details u-margin-bottom-medium">

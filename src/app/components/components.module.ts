@@ -19,6 +19,11 @@ import { RecentArticleCardComponent } from './recent-article-card/recent-article
 import { BuscadorComponent } from './buscador/buscador.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SocialIconsComponent } from './social-icons/social-icons.component';
+import { HighlitedArticlesComponent } from './highlited-articles/highlited-articles.component';
+import { LastArticlesComponent } from './recent-articles-list/recent-articles-list.component';
+import { IndexComponent } from './index/index.component';
+import { ArticleSkeletonComponent } from './article-skeleton/article-skeleton.component';
+import { RecentArticlesSectionComponent } from './recent-articles-section/recent-articles-section.component';
 
 
 
@@ -41,11 +46,16 @@ import { SocialIconsComponent } from './social-icons/social-icons.component';
     RecentArticleCardComponent,
     BuscadorComponent,
     SocialIconsComponent,
+    HighlitedArticlesComponent,
+    LastArticlesComponent,
+    IndexComponent,
+    ArticleSkeletonComponent,
+    RecentArticlesSectionComponent
   ],
   imports: [
     CommonModule,
     PipesModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   exports: [
     HeaderComponent,
@@ -65,6 +75,11 @@ import { SocialIconsComponent } from './social-icons/social-icons.component';
     RecentArticleCardComponent,
     BuscadorComponent,
     SocialIconsComponent,
+    HighlitedArticlesComponent,
+    LastArticlesComponent,
+    IndexComponent,
+    ArticleSkeletonComponent,
+    RecentArticlesSectionComponent
   ]
 })
 export class ComponentsModule { }

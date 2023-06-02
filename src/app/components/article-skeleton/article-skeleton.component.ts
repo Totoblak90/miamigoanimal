@@ -8,6 +8,5 @@ import { Component, Input } from '@angular/core';
 export class ArticleSkeletonComponent {
 
   @Input() filters: ('Gatos' | 'Perros' | 'Salud' | 'Adiestramiento' | 'Alimentacion')[] = [];
-  @Input() type: 'cat' | 'dog' = 'dog';
 
 }

@@ -1,0 +1,5 @@
+<ng-container *ngIf="arrangedArticles.length">
+  <a *ngFor="let article of arrangedArticles" class="u-margin-bottom-medium btn-none" [href]="'post/' + article.url">
+    <recent-article-card [title]="article.title" [type]="article.categories.includes('Perros') ? 'dog' : 'cat'"></recent-article-card>
+  </a>
+</ng-container>
