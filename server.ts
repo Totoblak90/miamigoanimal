@@ -21,7 +21,7 @@ export function app(): express.Express {
   server.set('view engine', 'html');
   server.set('views', distFolder);
 
-  // @ts-ignore
+
   if (process.env['NODE_ENV'] === 'production') {
     server.use((req, res, next) => {
       if (req.headers['x-forwarded-proto'] == 'http') {
@@ -40,8 +40,12 @@ export function app(): express.Express {
   }));
 
   // Add this before your universal route handler
+  server.get('/robots.txt', (req, res) => {
+    res.sendFile('robots.txt', { root: distFolder });
+  });
+
   server.get('/sitemap.xml', (req, res) => {
-    res.redirect('/assets/sitemap.xml');
+    res.sendFile('sitemap.xml', { root: distFolder });
   });
 
   // All regular routes use the Universal engine
