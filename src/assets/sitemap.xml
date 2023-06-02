@@ -1,23 +1,75 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+
     <url>
         <loc>https://www.miamigoanimal.com/home</loc>
     </url>
+
     <url>
         <loc>https://www.miamigoanimal.com/perros</loc>
     </url>
+
     <url>
         <loc>https://www.miamigoanimal.com/gatos</loc>
     </url>
+
     <url>
         <loc>https://www.miamigoanimal.com/alimentacion</loc>
     </url>
+
     <url>
         <loc>https://www.miamigoanimal.com/salud</loc>
     </url>
+
     <url>
         <loc>https://www.miamigoanimal.com/adiestramiento</loc>
     </url>
+
     <url>
         <loc>https://www.miamigoanimal.com/sobre-mi</loc>
     </url>
+
+    <url>
+        <loc>https://www.miamigoanimal.com/post/search-post</loc>
+    </url>
+
+    <url>
+        <loc>https://www.miamigoanimal.com/post/todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades</loc>
+    </url>
+
+    <url>
+        <loc>https://www.miamigoanimal.com/post/todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo</loc>
+    </url>
+
+    <url>
+        <loc>https://www.miamigoanimal.com/post/perritas-adorables-todo-lo-que-necesitas-saber-sobre-estas-tiernas-mascotas</loc>
+    </url>
+
+    <url>
+        <loc>https://www.miamigoanimal.com/post/descubre-los-mejores-cuidados-para-tus-perritos</loc>
+    </url>
+
+    <url>
+        <loc>https://www.miamigoanimal.com/post/conoce-las-mejores-razas-de-perros-guia-completa-y-actualizada</loc>
+    </url>
+
+    <url>
+        <loc>https://www.miamigoanimal.com/post/adopta-a-los-gatitos-mas-tiernos-y-juguetones-encuentra-tu-companero-felino-ideal</loc>
+    </url>
+
+    <url>
+        <loc>https://www.miamigoanimal.com/post/el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades</loc>
+    </url>
+
+    <url>
+        <loc>https://www.miamigoanimal.com/post/bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica</loc>
+    </url>
+
+    <url>
+        <loc>https://www.miamigoanimal.com/post/bulldog-frances-todo-lo-que-necesitas-saber-sobre-esta-adorable-raza-de-perros</loc>
+    </url>
+
+
+
 </urlset>
