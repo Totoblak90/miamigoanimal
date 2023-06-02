@@ -10,6 +10,9 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class DescubreLosMejoresCuidadosParaTusPerritosComponent {
 
+  title = 'Descubre los mejores cuidados para tus perritos'
+  description = '¿Buscas el mejor cuidado para tus perritos? Descubre nuestra selección de cuidadores de confianza. ¡Conócelos ahora!'
+
   get titleList() {
     if (isPlatformBrowser(this.platformId)) {
       return Array.from(this.document.getElementsByTagName('h2'))
@@ -23,15 +26,8 @@ export class DescubreLosMejoresCuidadosParaTusPerritosComponent {
     @Inject(DOCUMENT) private document: Document,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {
-    this._setMetaTags();
+    this.meta.setMetaTags(this.title, this.description)
     this.navigationService.navigationBg.set('dog');
-  }
-
-  private _setMetaTags() {
-    this.meta.setMetaTags(
-      'Descubre los mejores cuidados para tus perritos',
-      '¿Buscas el mejor cuidado para tus perritos? Descubre nuestra selección de cuidadores de confianza. ¡Conócelos ahora!',
-    )
   }
 
 }

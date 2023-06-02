@@ -6,3 +6,9 @@
     display: none;
   }
 }
+
+.not-on-desktop {
+  @include respond(big-desktop) {
+    display: none;
+  }
+}

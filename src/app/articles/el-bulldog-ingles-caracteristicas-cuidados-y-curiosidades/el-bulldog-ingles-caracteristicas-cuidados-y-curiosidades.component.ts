@@ -10,6 +10,9 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class ElBulldogInglesCaracteristicasCuidadosYCuriosidadesComponent {
 
+  title = 'Bulldog inglés: Características, cuidados y curiosidades'
+  description = 'Descubre todo sobre el Bulldog inglés. Aprende sobre su historia, personalidad, cuidados y por qué son tan amados. ¡Conviértete en el dueño perfecto!'
+
   get titleList() {
     if (isPlatformBrowser(this.platformId)) {
       return Array.from(this.document.getElementsByTagName('h2'))
@@ -23,15 +26,8 @@ export class ElBulldogInglesCaracteristicasCuidadosYCuriosidadesComponent {
     @Inject(DOCUMENT) private document: Document,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {
-    this._setMetaTags();
+    this.meta.setMetaTags(this.title, this.description);
     this.navigationService.navigationBg.set('dog');
-  }
-
-  private _setMetaTags() {
-    this.meta.setMetaTags(
-      'Bulldog inglés: Características, cuidados y curiosidades',
-      'Descubre todo sobre el Bulldog inglés. Aprende sobre su historia, personalidad, cuidados y por qué son tan amados. ¡Conviértete en el dueño perfecto!',
-    )
   }
 
 }

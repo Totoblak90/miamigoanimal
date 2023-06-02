@@ -6,4 +6,5 @@ export interface Article {
     destacado: boolean,
     creation: string | Date,
     title: string,
+    description?: string,
 }

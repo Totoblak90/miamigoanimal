@@ -10,6 +10,9 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class PerritasAdorablesTodoLoQueNecesitasSaberSobreEstasTiernasMascotasComponent {
 
+  title = 'Perritas adorables: Todo lo que necesitas saber sobre estas tiernas mascotas'
+  description = '¿Amas a las perritas adorables? Aquí encontrarás todo lo que necesitas saber sobre estas tiernas mascotas. ¡Descubre más ahora!'
+
   get titleList() {
     if (isPlatformBrowser(this.platformId)) {
       return Array.from(this.document.getElementsByTagName('h2'))
@@ -23,15 +26,8 @@ export class PerritasAdorablesTodoLoQueNecesitasSaberSobreEstasTiernasMascotasCo
     @Inject(DOCUMENT) private document: Document,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {
-    this._setMetaTags();
+    this.meta.setMetaTags(this.title, this.description)
     this.navigationService.navigationBg.set('dog');
-  }
-
-  private _setMetaTags() {
-    this.meta.setMetaTags(
-      'Perritas adorables: Todo lo que necesitas saber sobre estas tiernas mascotas',
-      '¿Amas a las perritas adorables? Aquí encontrarás todo lo que necesitas saber sobre estas tiernas mascotas. ¡Descubre más ahora!',
-    )
   }
 
 }

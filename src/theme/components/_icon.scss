@@ -2,6 +2,7 @@
   font-size: 4rem;
   display: inline-block;
   background-image: linear-gradient(to right, $color-extra-light, $color-extra-dark);
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   margin-right: 1rem;

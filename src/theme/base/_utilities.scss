@@ -39,6 +39,9 @@
 .u-margin-top-big { margin-top: 8rem !important; }
 .u-margin-top-huge { margin-top: 10rem !important; }
 
+.u-margin-right-small { margin-right: 1.5rem; }
+
+
 .flex { display: flex; }
 .align-center { align-items: center; }
 .justify-center { justify-content: center; }
@@ -54,4 +57,12 @@
   @include respond(tab-port) {
       padding: 20rem 0;
   }
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.alt-icon-color {
+  background-image: linear-gradient(to right, $color-dog-light, $color-dog-dark) !important;
 }

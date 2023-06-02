@@ -10,6 +10,9 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class TodoSobrePerrosInformacionCuriosidadesYConsejosUtilesParaCuidarATuMejorAmigoComponent {
 
+  title = 'Perros: información curiosidades y consejos útiles para cuidar a tu mejor amigo'
+  description = 'Descubre todo sobre los perros: información relevante, curiosidades y consejos útiles. ¡Conviértete en el dueño que tu perro merece!'
+
   get titleList() {
     if (isPlatformBrowser(this.platformId)) {
       return Array.from(this.document.getElementsByTagName('h2'))
@@ -23,15 +26,8 @@ export class TodoSobrePerrosInformacionCuriosidadesYConsejosUtilesParaCuidarATuM
     @Inject(DOCUMENT) private document: Document,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {
-    this._setMetaTags();
+    this.meta.setMetaTags(this.title, this.description)
     this.navigationService.navigationBg.set('dog');
-  }
-
-  private _setMetaTags() {
-    this.meta.setMetaTags(
-      'Perros: información curiosidades y consejos útiles para cuidar a tu mejor amigo',
-      'Descubre todo sobre los perros: información relevante, curiosidades y consejos útiles. ¡Conviértete en el dueño que tu perro merece!',
-    )
   }
 
 }
