@@ -17,7 +17,7 @@ export class SocialIconsComponent {
   currentUrl = 'www.miamigoanimal.com' + this.router.url;
 
   get showAltColor() {
-    return this.navigationSrv.navigationBg() == 'extra' || this.navigationSrv.navigationBg() == 'food'
+    return this.navigationSrv.navigationBg() === 'extra' || this.navigationSrv.navigationBg() === 'food' || this.navigationSrv.navigationBg() === 'dog'
   }
 
   constructor(
