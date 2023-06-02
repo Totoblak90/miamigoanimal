@@ -66,3 +66,11 @@
 .alt-icon-color {
   background-image: linear-gradient(to right, $color-dog-light, $color-dog-dark) !important;
 }
+
+.u-translate-up-small {
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    transform: translateY(-1rem) scale(1.03);
+  }
+}
