@@ -14,13 +14,10 @@ export function app(): express.Express {
   const indexHtml = existsSync(join(distFolder, 'index.original.html')) ? 'index.original.html' : 'index';
 
   // Our Universal express-engine (found @ https://github.com/angular/universal/tree/main/modules/express-engine)
-  server.engine('html', ngExpressEngine({
-    bootstrap: AppServerModule
-  }));
+  server.engine('html', ngExpressEngine({ bootstrap: AppServerModule }));
 
   server.set('view engine', 'html');
   server.set('views', distFolder);
-
 
   if (process.env['NODE_ENV'] === 'production') {
     server.use((req, res, next) => {
@@ -35,9 +32,7 @@ export function app(): express.Express {
   // Example Express Rest API endpoints
   // server.get('/api/**', (req, res) => { });
   // Serve static files from /browser
-  server.get('*.*', express.static(distFolder, {
-    maxAge: '1y'
-  }));
+  server.get('*.*', express.static(distFolder, { maxAge: '1y' }));
 
   // Add this before your universal route handler
   server.get('/robots.txt', (req, res) => {
