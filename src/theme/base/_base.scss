@@ -37,3 +37,9 @@ body {
     background-color: $color-extra;
     color: $color-white;
 }
+
+a {
+  display: inline-block !important;
+  min-width: 48px !important;
+  min-height: 48px !important;
+}

@@ -1,10 +1,11 @@
-<!-- <div *ngIf="share" class="share-container u-margin-bottom-small">
-  <span class="heading-secondary inline-block" [class]="showAltColor ? 'alt-icon-color' : ''">Compartí!</span>
-</div> -->
-
 <div class="social-icons-container" *ngIf="collapsed">
 
-  <i *ngIf="!uncollapse" class="fa-solid fa-share icon u-pointer" [class]="showAltColor ? 'alt-icon-color' : ''" (click)="uncollapse = !uncollapse"></i>
+  <i
+    *ngIf="!uncollapse"
+    class="fa-solid fa-share icon u-pointer"
+    [class]="showAltColor ? 'alt-icon-color' : ''"
+    (click)="uncollapse = !uncollapse"
+  ></i>
 
   <span *ngIf="uncollapse">
 
@@ -12,16 +13,20 @@
         (click)="toggleCollapse($event, 'twitter')"
         class="fade-in"
         [class.fade-out]="fadeOutIcons"
+        aria-label="Compartir en Twitter"
     >
       <i class="fa-brands fa-twitter icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
+      <span class="visually-hidden">Compartir en Twitter</span>
     </a>
 
     <a  href="https://www.facebook.com/sharer/sharer.php?u={{currentUrl}}" target="_blank" rel="nofollow"
         (click)="toggleCollapse($event, 'fb')"
         class="fade-in"
         [class.fade-out]="fadeOutIcons"
+        aria-label="Compartir en Facebook"
     >
       <i class="fa-brands fa-facebook icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
+      <span class="visually-hidden">Compartir en Facebook</span>
     </a>
 
     <a  href="https://www.linkedin.com/shareArticle?mini=true&url={{currentUrl}}&title={{title}}&summary={{description}}&source='Mi amigo animal'"
@@ -29,15 +34,19 @@
         (click)="toggleCollapse($event, 'lkd')"
         class="fade-in"
         [class.fade-out]="fadeOutIcons"
+        aria-label="Compartir en LinkedIn"
     >
       <i class="fa-brands fa-linkedin icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
+      <span class="visually-hidden">Compartir en Linkedin</span>
     </a>
 
     <a  href="https://www.youtube.com/@ExpertoAnimal"  target="_blank"
         (click)="toggleCollapse($event, 'youtube')" class="fade-in"
         [class.fade-out]="fadeOutIcons"
+        aria-label="Compartir en YouTube"
     >
       <i class="fa-brands fa-youtube icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
+      <span class="visually-hidden">Compartir en Youtube</span>
     </a>
 
     <span
@@ -60,20 +69,39 @@
     <i class="fa-solid fa-share icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
   </span>
 
-  <a href="https://twitter.com/share?url={{currentUrl}}&text={{description}}&via=tobiblaksley" target="_blank" rel="nofollow">
+  <a
+    href="https://twitter.com/share?url={{currentUrl}}&text={{description}}&via=tobiblaksley"
+    target="_blank"
+    rel="nofollow"
+    aria-label="Compartir en Twitter"
+  >
     <i class="fa-brands fa-twitter icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
+    <span class="visually-hidden">Compartir en Twitter</span>
   </a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u={{currentUrl}}" target="_blank" rel="nofollow">
+  <a
+    href="https://www.facebook.com/sharer/sharer.php?u={{currentUrl}}"
+    target="_blank"
+    rel="nofollow"
+    aria-label="Compartir en Facebook"
+  >
     <i class="fa-brands fa-facebook icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
+    <span class="visually-hidden">Compartir en Facebook</span>
   </a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{currentUrl}}&title={{title}}&summary={{description}}&source='Mi amigo animal'" target="_blank" rel="nofollow">
+  <a
+    href="https://www.linkedin.com/shareArticle?mini=true&url={{currentUrl}}&title={{title}}&summary={{description}}&source='Mi amigo animal'"
+    target="_blank"
+    rel="nofollow"
+    aria-label="Compartir en LinkedIn"
+  >
     <i class="fa-brands fa-linkedin icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
+    <span class="visually-hidden">Compartir en Linkedin</span>
   </a>
 
-  <a href="https://www.youtube.com/@ExpertoAnimal"  target="_blank">
+  <a href="https://www.youtube.com/@ExpertoAnimal"  target="_blank" aria-label="Comparit en Youtube">
     <i class="fa-brands fa-youtube icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
+    <span class="visually-hidden">Compartir en Youtube</span>
   </a>
 
 </div>
