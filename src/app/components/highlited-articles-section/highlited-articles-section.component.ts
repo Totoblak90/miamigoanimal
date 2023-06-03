@@ -1,12 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ArticlesService } from 'src/app/services/articles.service';
 
 @Component({
-  selector: 'highlited-articles',
-  templateUrl: './highlited-articles.component.html',
-  styleUrls: ['./highlited-articles.component.scss']
+  selector: 'highlited-articles-section',
+  templateUrl: './highlited-articles-section.component.html',
+  styleUrls: ['./highlited-articles-section.component.scss']
 })
-export class HighlitedArticlesComponent {
+export class HighlitedArticlesSectionComponent {
+
+  @Input() showAll = false;
 
   highlitedArticles = this.articlesService.articlesDB()
 

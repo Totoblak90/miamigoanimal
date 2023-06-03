@@ -3,10 +3,10 @@ import { ArticlesService } from 'src/app/services/articles.service';
 
 @Component({
   selector: 'highlited-articles-for-posts',
-  templateUrl: './highlited-articles.component.html',
-  styleUrls: ['./highlited-articles.component.scss']
+  templateUrl: './highlited-articles-posts.component.html',
+  styleUrls: ['./highlited-articles-posts.component.scss']
 })
-export class HighlitedArticlesComponent {
+export class HighlitedArticlesPostsComponent {
 
   @Input() filters: ('Gatos' | 'Perros' | 'Salud' | 'Adiestramiento' | 'Alimentacion')[] = []
 
