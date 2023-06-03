@@ -1,4 +1,5 @@
 import { Component, Inject, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { UtilitiesService } from 'src/app/services/utilities.service';
 
 @Component({
@@ -34,7 +35,16 @@ export class HeaderComponent implements OnInit {
 
   }
 
-  constructor(private utilitiesSrv: UtilitiesService) {}
+  get showSocialIcons() {
+
+    return  !this.router.url.includes('post') ||
+            !this.router.url.includes('cookies') ||
+            !this.router.url.includes('politicas') ||
+            !this.router.url.includes('terminos')
+
+  }
+
+  constructor(private utilitiesSrv: UtilitiesService, private router: Router) {}
 
   ngOnInit() {
     this.selectedImage =  this.bckColour === 'cat' ? this.utilitiesSrv.selectImage( this.bckColour ) :

@@ -40,7 +40,7 @@ export class MetaService {
     this.meta.updateTag({ name: 'author', content: author || 'Tobias Blaksley' })
 
     if (follow) { this.meta.updateTag({ name: 'robots', content: 'index, follow' }) }
-    else { this.meta.updateTag({ name: 'robots', content: 'nofollow' }) }
+    else { this.meta.updateTag({ name: 'robots', content: 'noindex, follow' }) }
   }
 
   private addTwitterTags(title: string, description: string) {

@@ -83,17 +83,14 @@ export class ArticlesService {
       url: 'el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades',
       categories: ['Perros'],
       'card-heading': 'Bulldog Inglés',
-      sections: ['Características', 'Cuidados', 'Curiosidades', 'Costo', 'Longitud: -1500 palabras'],
+      sections: ['Características', 'Cuidados', 'Curiosidades', 'Costo', 'Longitud: +1500 palabras'],
       destacado: false,
       creation: '31/5/2023, 23:22:00',
       title: 'Bulldog Inglés: Características, cuidados y curiosidades',
     },
   ])
 
-  constructor() {
-    let date = new Date();
-    let dateString = date.toLocaleString();
-  }
+  constructor() {}
 
   filterArticleList(article: Article, term: string) {
     return  article.title.toLowerCase().includes(term.toLowerCase()) ||

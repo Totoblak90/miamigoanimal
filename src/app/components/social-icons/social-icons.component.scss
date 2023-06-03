@@ -13,7 +13,7 @@ span.heading-secondary {
 }
 
 .social-icons-container {
-  z-index: 10;
+  z-index: 1000;
 
 
   & a:not(:last-child) {
@@ -25,4 +25,47 @@ span.heading-secondary {
     }
   }
 
+  & .share-icon-box {
+    display: inline-block;
+    margin-right: 1rem;
+    border-right: 1px solid black;
+    z-index: 1000;
+  }
+
+}
+
+.fade-in {
+  z-index: 1000;
+  pointer-events: all;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-out {
+  z-index: 1000;
+  pointer-events: none;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
 }
