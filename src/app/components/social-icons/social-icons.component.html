@@ -9,31 +9,46 @@
   <span *ngIf="uncollapse">
 
     <a  href="https://twitter.com/share?url={{currentUrl}}&text={{description}}&via=tobiblaksley" target="_blank" rel="nofollow"
-        (click)="toggleCollapse($event, 'twitter')" class="fade-in"
+        (click)="toggleCollapse($event, 'twitter')"
+        class="fade-in"
+        [class.fade-out]="fadeOutIcons"
     >
       <i class="fa-brands fa-twitter icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
     </a>
 
     <a  href="https://www.facebook.com/sharer/sharer.php?u={{currentUrl}}" target="_blank" rel="nofollow"
-        (click)="toggleCollapse($event, 'fb')" class="fade-in"
+        (click)="toggleCollapse($event, 'fb')"
+        class="fade-in"
+        [class.fade-out]="fadeOutIcons"
     >
       <i class="fa-brands fa-facebook icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
     </a>
 
     <a  href="https://www.linkedin.com/shareArticle?mini=true&url={{currentUrl}}&title={{title}}&summary={{description}}&source='Mi amigo animal'"
         target="_blank" rel="nofollow"
-        (click)="toggleCollapse($event, 'lkd')" class="fade-in"
+        (click)="toggleCollapse($event, 'lkd')"
+        class="fade-in"
+        [class.fade-out]="fadeOutIcons"
     >
       <i class="fa-brands fa-linkedin icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
     </a>
 
     <a  href="https://www.youtube.com/@ExpertoAnimal"  target="_blank"
         (click)="toggleCollapse($event, 'youtube')" class="fade-in"
+        [class.fade-out]="fadeOutIcons"
     >
       <i class="fa-brands fa-youtube icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
     </a>
 
-    <span class="icon u-pointer" [class]="showAltColor ? 'alt-icon-color' : ''" (click)="uncollapse = false">&times;</span>
+    <span
+      #closeButton
+      class="icon u-pointer fade-in"
+      [class.fade-out]="fadeOutIcons"
+      [class.alt-icon-color]="showAltColor"
+      (click)="closeShareBox(closeButton)"
+    >
+      &times;
+    </span>
 
   </span>
 
@@ -41,7 +56,7 @@
 
 <div class="social-icons-container" *ngIf="!collapsed">
 
-  <span class="share-icon-box u-pointer">
+  <span class="share-icon-box">
     <i class="fa-solid fa-share icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
   </span>
 

@@ -1,4 +1,4 @@
-import { Component, Input, Renderer2 } from '@angular/core';
+import { Component, ElementRef, Input, Renderer2, ViewChild } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import { NavigationService } from 'src/app/services/navigation.service';
@@ -10,6 +10,8 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class SocialIconsComponent {
 
+  @ViewChild('closeButton') closeButton: ElementRef<HTMLSpanElement> | undefined;
+
   @Input() collapsed = false;
   @Input() title = '';
   @Input() description = '';
@@ -17,6 +19,8 @@ export class SocialIconsComponent {
   uncollapse = false;
 
   currentUrl = 'www.miamigoanimal.com' + this.router.url;
+
+  fadeOutIcons = false;
 
   get showAltColor() {
     return this.navigationSrv.navigationBg() === 'extra' || this.navigationSrv.navigationBg() === 'food' || this.navigationSrv.navigationBg() === 'dog'
@@ -65,7 +69,21 @@ export class SocialIconsComponent {
     a.target = '_blank';
     a.click();
 
-    setTimeout(() => { this.uncollapse = false; }, 300);
+    setTimeout(() => { this.closeShareBox(this.closeButton?.nativeElement) }, 50);
+  }
+
+  closeShareBox(el?: HTMLSpanElement) {
+    if (!el) {
+      this.fadeOutIcons = false;
+      this.uncollapse = false;
+      return;
+    }
+
+    this.fadeOutIcons = true;
+    el.onanimationend = () => {
+      this.fadeOutIcons = false;
+      this.uncollapse = false;
+    }
   }
 
 }

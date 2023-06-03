@@ -53,9 +53,7 @@ span.heading-secondary {
 }
 
 .fade-out {
-  z-index: 1000;
-  pointer-events: none;
-  animation: fadeIn 0.5s ease-in-out;
+  animation: fadeOut 0.5s ease-in-out;
 }
 
 @keyframes fadeOut {
