@@ -24,6 +24,10 @@ export class LastArticlesComponent {
               if (article.categories.includes(this.filters[i])) {
                 return true; // Incluir este artículo
               }
+
+              if (article.sections.includes(this.filters[i])) {
+                return true; // Incluir este artículo
+              }
             }
 
             return false // No incluir este artículo

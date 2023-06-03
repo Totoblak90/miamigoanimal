@@ -8,13 +8,16 @@ import { ArticlesService } from 'src/app/services/articles.service';
 })
 export class HighlitedArticlesSectionComponent {
 
+  @Input() spacing: 'normal' | 'large' = 'normal'
   @Input() showAll = false;
+  @Input() filters: ('Gatos' | 'Perros' | 'Salud' | 'Adiestramiento' | 'Alimentacion')[] = []
 
   highlitedArticles = this.articlesService.articlesDB()
 
   get arrangedArticles() {
     return this.highlitedArticles
           .filter(article =>  article.destacado)
+          .filter(article => article.categories.join(' ').toLowerCase().includes(this.filters.join(' ').toLowerCase()))
           .sort((a, b) => new Date(a.creation) > new Date(b.creation) ? 1 : -1)
           .slice(0, 6)
   }
