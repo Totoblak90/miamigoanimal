@@ -24,27 +24,7 @@
 
       <clipped-section-with-bg-img selectedBg="health" >
 
-        <div class="u-center-text u-margin-bottom-medium">
-          <h2 class="heading-secondary">Preguntas frecuentes</h2>
-        </div>
-
-        <div class="row color-white">
-
-          <div class="col-1-of-2">
-            <div class="u-center-text u-margin-bottom-medium">
-              <h3 class="heading-tertiary">Perros</h3>
-            </div>
-            <accordion [faq]="faqsDogs"></accordion>
-          </div>
-
-          <div class="col-1-of-2">
-            <div class="u-center-text u-margin-bottom-medium">
-              <h3 class="heading-tertiary">Gatos</h3>
-            </div>
-            <accordion [faq]="faqsCats"></accordion>
-          </div>
-
-        </div>
+        <preguntas-frecuentes-section [faqs1]="faqsDogs" faqs1Title="Perros" [faqs2]="faqsCats" faqs2Title="Gatos"></preguntas-frecuentes-section>
 
       </clipped-section-with-bg-img>
 

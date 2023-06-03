@@ -1,0 +1,45 @@
+@import "../../../theme/abstracts/mixins";
+@import "../../../theme/abstracts/variables";
+
+.faqs-button {
+  border-radius: 3px;
+  background-color: $color-grey-light-1;
+  color: $color-grey-dark-2;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fade-in {
+  animation: fadeIn ease 0.5s;
+}
+
+.fade-out {
+  animation: fadeOut ease 0.2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

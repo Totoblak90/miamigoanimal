@@ -1,4 +1,7 @@
 <div class="accordion u-margin-bottom-small" *ngFor="let item of faq; let i = index">
-  <button class="accordion-button" (click)="toggleAccordion(i)" [ngClass]="{'active': activeIndex === i}"><h3 class="heading-tertiary">{{item.question}}</h3></button>
+  <button class="accordion-button" (click)="toggleAccordion(i)" [ngClass]="{'active': activeIndex === i}">
+    <h4 class="heading-tertiary">{{item.question}}</h4>
+    <i class="fa-solid fa-chevron-down"></i>
+  </button>
   <div class="accordion-collapse paragraph" [ngClass]="{'show': activeIndex === i}">{{item.answer}}</div>
 </div>
