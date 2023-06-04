@@ -48,7 +48,7 @@ export class MetaService {
     this.meta.addTag({ name: 'twitter:site', content: '@tobiblaksley' })
     this.meta.addTag({ name: 'twitter:title', content: title })
     this.meta.addTag({ name: 'twitter:description', content: description })
-    this.meta.addTag({ name: 'twitter:image', content: 'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/destacados-extra.webp?raw=true' })
+    this.meta.addTag({ name: 'twitter:image', content: 'http://34.36.69.199/destacados-extra.webp' })
   }
 
   private addFacebookTags(title: string, description: string, canonical: string) {
@@ -56,7 +56,7 @@ export class MetaService {
         this.meta.addTag({ property: 'og:url', content: canonical })
         this.meta.addTag({ property: 'og:title', content: title })
         this.meta.addTag({ property: 'og:description', content: description })
-        this.meta.addTag({ property: 'og:image', content: 'https://github.com/Totoblak90/miamigoanimal-images1/blob/master/destacados-extra.webp?raw=true'})
+        this.meta.addTag({ property: 'og:image', content: 'http://34.36.69.199/destacados-extra.webp'})
   }
 
   private addCanonical(tag: any) {
