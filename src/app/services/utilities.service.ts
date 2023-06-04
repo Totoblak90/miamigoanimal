@@ -6,30 +6,30 @@ import { Injectable } from '@angular/core';
 export class UtilitiesService {
 
   private dogImages = [
-    'http://34.36.69.199/hero-dog.webp',
-    'http://34.36.69.199/perro-1.webp',
-    'http://34.36.69.199/perro-2.webp',
-    'http://34.36.69.199/perro-3.webp',
-    'http://34.36.69.199/perro-4.webp',
-    'http://34.36.69.199/perro-5.webp',
-    'http://34.36.69.199/perro-6.webp',
-    'http://34.36.69.199/perro-7.webp',
-    'http://34.36.69.199/perro-8.webp',
-    'http://34.36.69.199/perro-9.webp',
+    'https://34.36.144.117/hero-dog.webp',
+    'https://34.36.144.117/perro-1.webp',
+    'https://34.36.144.117/perro-2.webp',
+    'https://34.36.144.117/perro-3.webp',
+    'https://34.36.144.117/perro-4.webp',
+    'https://34.36.144.117/perro-5.webp',
+    'https://34.36.144.117/perro-6.webp',
+    'https://34.36.144.117/perro-7.webp',
+    'https://34.36.144.117/perro-8.webp',
+    'https://34.36.144.117/perro-9.webp',
   ];
 
   private catImages = [
-    'http://34.36.69.199/destacados-gatos.webp',
-    'http://34.36.69.199/clipped-section-cat.webp',
-    'http://34.36.69.199/gato-en-sillon.webp',
-    'http://34.36.69.199/gato-negro-en-taza.webp',
-    'http://34.36.69.199/hero-cat.webp',
-    'http://34.36.69.199/varios-gato-3.webp',
-    'http://34.36.69.199/varios-gato-4.webp',
-    'http://34.36.69.199/varios-gato-5.webp',
+    'https://34.36.144.117/destacados-gatos.webp',
+    'https://34.36.144.117/clipped-section-cat.webp',
+    'https://34.36.144.117/gato-en-sillon.webp',
+    'https://34.36.144.117/gato-negro-en-taza.webp',
+    'https://34.36.144.117/hero-cat.webp',
+    'https://34.36.144.117/varios-gato-3.webp',
+    'https://34.36.144.117/varios-gato-4.webp',
+    'https://34.36.144.117/varios-gato-5.webp',
   ];
 
-  private extraImage = 'http://34.36.69.199/destacados-extra.webp';
+  private extraImage = 'https://34.36.144.117/destacados-extra.webp';
 
   constructor() { }
 
