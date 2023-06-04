@@ -1,4 +1,5 @@
-import { Component, Inject, Input, OnInit } from '@angular/core';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { Component, Inject, Input, OnInit, PLATFORM_ID, Renderer2 } from '@angular/core';
 import { Router } from '@angular/router';
 import { UtilitiesService } from 'src/app/services/utilities.service';
 
@@ -44,11 +45,45 @@ export class HeaderComponent implements OnInit {
 
   }
 
-  constructor(private utilitiesSrv: UtilitiesService, private router: Router) {}
+  constructor(
+    private utilitiesSrv: UtilitiesService,
+    private router: Router,
+    private renderer: Renderer2,
+    @Inject(DOCUMENT) private document: Document,
+    @Inject(PLATFORM_ID) private platformId: Object,
+  ) {}
 
   ngOnInit() {
     this.selectedImage =  this.bckColour === 'cat' ? this.utilitiesSrv.selectImage( this.bckColour ) :
                           this.bckColour === 'dog' ? this.utilitiesSrv.selectImage( this.bckColour ) :
                           ''
+
+    if (isPlatformBrowser(this.platformId)) { this.preloadImage(); }
   }
+
+  private preloadImage() {
+    const images: {[key in 'default' | 'dog' | 'cat' | 'health' | 'train' | 'food' | 'yo']?: string} = 
+    {
+      cat: this.selectedImage.split('url(')[1].slice(0, this.selectedImage.split('url(')[1].length - 1),
+      dog: this.selectedImage.split('url(')[1].slice(0, this.selectedImage.split('url(')[1].length - 1),
+      default: 'https://miamigoanimal.b-cdn.net/alimentacion-hero.webp',
+      health: 'https://miamigoanimal.b-cdn.net/health-hero.webp',
+      train: 'https://miamigoanimal.b-cdn.net/training-1.webp',
+      food: 'https://miamigoanimal.b-cdn.net/yo-2.webp'
+    };
+
+    if (this.bckColour && this.bckColour in images) {
+      this.createHref(images[this.bckColour]!);
+    }
+  }
+
+
+  private createHref(url: string) {
+      const linkElement = this.renderer.createElement('link');
+      this.renderer.setAttribute(linkElement, 'rel', 'preload');
+      this.renderer.setAttribute(linkElement, 'as', 'image');
+      this.renderer.setAttribute(linkElement, 'href', url);
+      this.renderer.appendChild(this.document.head, linkElement);
+  }
+
 }
