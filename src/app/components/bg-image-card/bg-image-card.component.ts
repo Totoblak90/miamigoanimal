@@ -6,6 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./bg-image-card.component.scss']
 })
 export class BgImageCardComponent {
-  @Input() imageUrl = 'https://34.36.144.117/destacados-perros.webp'
+  @Input() imageUrl = 'https://miamigoanimal.b-cdn.net/destacados-perros.webp'
 
 }

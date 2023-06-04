@@ -6,30 +6,30 @@ import { Injectable } from '@angular/core';
 export class UtilitiesService {
 
   private dogImages = [
-    'https://34.36.144.117/hero-dog.webp',
-    'https://34.36.144.117/perro-1.webp',
-    'https://34.36.144.117/perro-2.webp',
-    'https://34.36.144.117/perro-3.webp',
-    'https://34.36.144.117/perro-4.webp',
-    'https://34.36.144.117/perro-5.webp',
-    'https://34.36.144.117/perro-6.webp',
-    'https://34.36.144.117/perro-7.webp',
-    'https://34.36.144.117/perro-8.webp',
-    'https://34.36.144.117/perro-9.webp',
+    'https://miamigoanimal.b-cdn.net/hero-dog.webp',
+    'https://miamigoanimal.b-cdn.net/perro-1.webp',
+    'https://miamigoanimal.b-cdn.net/perro-2.webp',
+    'https://miamigoanimal.b-cdn.net/perro-3.webp',
+    'https://miamigoanimal.b-cdn.net/perro-4.webp',
+    'https://miamigoanimal.b-cdn.net/perro-5.webp',
+    'https://miamigoanimal.b-cdn.net/perro-6.webp',
+    'https://miamigoanimal.b-cdn.net/perro-7.webp',
+    'https://miamigoanimal.b-cdn.net/perro-8.webp',
+    'https://miamigoanimal.b-cdn.net/perro-9.webp',
   ];
 
   private catImages = [
-    'https://34.36.144.117/destacados-gatos.webp',
-    'https://34.36.144.117/clipped-section-cat.webp',
-    'https://34.36.144.117/gato-en-sillon.webp',
-    'https://34.36.144.117/gato-negro-en-taza.webp',
-    'https://34.36.144.117/hero-cat.webp',
-    'https://34.36.144.117/varios-gato-3.webp',
-    'https://34.36.144.117/varios-gato-4.webp',
-    'https://34.36.144.117/varios-gato-5.webp',
+    'https://miamigoanimal.b-cdn.net/destacados-gatos.webp',
+    'https://miamigoanimal.b-cdn.net/clipped-section-cat.webp',
+    'https://miamigoanimal.b-cdn.net/gato-en-sillon.webp',
+    'https://miamigoanimal.b-cdn.net/gato-negro-en-taza.webp',
+    'https://miamigoanimal.b-cdn.net/hero-cat.webp',
+    'https://miamigoanimal.b-cdn.net/varios-gato-3.webp',
+    'https://miamigoanimal.b-cdn.net/varios-gato-4.webp',
+    'https://miamigoanimal.b-cdn.net/varios-gato-5.webp',
   ];
 
-  private extraImage = 'https://34.36.144.117/destacados-extra.webp';
+  private extraImage = 'https://miamigoanimal.b-cdn.net/destacados-extra.webp';
 
   constructor() { }
 
