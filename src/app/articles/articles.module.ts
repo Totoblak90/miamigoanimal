@@ -14,6 +14,9 @@ import { BulldogInglesCaracteristicasCuidadosYCuriosidadesDeEstaRazaIconicaCompo
 import { ElBulldogInglesCaracteristicasCuidadosYCuriosidadesComponent } from './el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades/el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades.component';
 import { AaaArticleSearchComponent } from './aaa-article-search/aaa-article-search';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ConoceTodoAcercaDelPerroSanBernardoComponent } from './conoce-todo-acerca-del-perro-san-bernardo/conoce-todo-acerca-del-perro-san-bernardo.component';
+import { DescubreElBoyeroDeBernaComponent } from './descubre-el-boyero-de-berna/descubre-el-boyero-de-berna.component';
+import { PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent } from './pastor-aleman-caracteristicas-cuidados-y-curiosidades/pastor-aleman-caracteristicas-cuidados-y-curiosidades.component';
 
 
 @NgModule({
@@ -28,6 +31,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     BulldogInglesCaracteristicasCuidadosYCuriosidadesDeEstaRazaIconicaComponent,
     ElBulldogInglesCaracteristicasCuidadosYCuriosidadesComponent,
     AaaArticleSearchComponent,
+    ConoceTodoAcercaDelPerroSanBernardoComponent,
+    DescubreElBoyeroDeBernaComponent,
+    PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent,
   ],
   imports: [
     CommonModule,

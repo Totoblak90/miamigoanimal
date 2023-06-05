@@ -121,6 +121,25 @@
         <priority>1.0</priority>
     </url>
 
+    <url>
+        <loc>https://www.miamigoanimal.com/post/conoce-todo-acerca-del-perro-san-bernardo</loc>
+        <lastmod>2023-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
 
+    <url>
+        <loc>https://www.miamigoanimal.com/post/descubre-el-boyero-de-berna</loc>
+        <lastmod>2023-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://www.miamigoanimal.com/post/pastor-aleman-caracteristicas-cuidados-y-curiosidades</loc>
+        <lastmod>2023-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
 
 </urlset>

@@ -39,7 +39,9 @@ body {
 }
 
 a {
-  display: inline-block !important;
-  min-width: 48px !important;
-  min-height: 48px !important;
+  @include respond(tab-port) {
+    display: inline-block !important;
+    min-width: 48px !important;
+    min-height: 48px !important;
+  }
 }
