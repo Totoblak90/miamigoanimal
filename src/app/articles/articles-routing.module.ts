@@ -19,6 +19,7 @@ import { AaaArticleSearchComponent } from './aaa-article-search/aaa-article-sear
 import { DescubreElBoyeroDeBernaComponent } from './descubre-el-boyero-de-berna/descubre-el-boyero-de-berna.component';
 import { PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent } from './pastor-aleman-caracteristicas-cuidados-y-curiosidades/pastor-aleman-caracteristicas-cuidados-y-curiosidades.component';
 import { PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent } from './perro-salchicha-caracteristicas-cuidados-y-curiosidades/perro-salchicha-caracteristicas-cuidados-y-curiosidades.component';
+import { DescubreTodoSobreLosGatosPersaLaRazaMasPopularComponent } from './descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular/descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular.component';
 
 const routes: Routes = [
   {
@@ -73,7 +74,10 @@ const routes: Routes = [
     path: 'perro-salchicha-caracteristicas-cuidados-y-curiosidades',
     component: PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent
   },
-
+  {
+    path: 'descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular',
+    component: DescubreTodoSobreLosGatosPersaLaRazaMasPopularComponent
+  },
 
   {
     path: 'search-post',
