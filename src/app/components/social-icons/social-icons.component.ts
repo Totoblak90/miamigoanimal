@@ -18,7 +18,7 @@ export class SocialIconsComponent {
 
   uncollapse = false;
 
-  currentUrl = 'www.miamigoanimal.com' + this.router.url;
+  currentUrl = 'www.esferamascota.com' + this.router.url;
 
   fadeOutIcons = false;
 

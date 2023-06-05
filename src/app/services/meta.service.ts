@@ -23,7 +23,7 @@ export class MetaService {
 
     if (!title) { title = 'Esfera mascota - Consejos y Guías Detalladas para tus Mascotas'}
     if (!description) { description = `Ya sea que seas un nuevo dueño de mascota o un experto, aquí encontrarás todo lo que necesitas saber sobre el perros y gatos. Descubre nuestros recursos y únete a nuestra comunidad de amantes de las mascotas.` }
-    if (!canonical) { canonical = 'https://miamigoanimal.com' + this.router.url }
+    if (!canonical) { canonical = 'https://esferamascota.com' + this.router.url }
 
     this.addBasicTags(title, description, author, follow);
     this.addTwitterTags(title, description);

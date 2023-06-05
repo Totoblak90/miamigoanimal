@@ -20,7 +20,7 @@ export function app(): express.Express {
   server.use(bodyParser.json());
 
 
-  const distFolder = join(process.cwd(), 'dist/miamigoanimal/browser');
+  const distFolder = join(process.cwd(), 'dist/esferamascota/browser');
   const indexHtml = existsSync(join(distFolder, 'index.original.html')) ? 'index.original.html' : 'index';
 
 

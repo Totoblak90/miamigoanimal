@@ -1,5 +1,5 @@
 {
-  "name": "miamigoanimal",
+  "name": "esferamascota",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,11 +7,11 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "dev:ssr": "set NODE_ENV=development &&  ng run miamigoanimal:serve-ssr",
-    "serve:ssr": "node dist/miamigoanimal/server/main.js",
-    "build:ssr": "ng build && ng run miamigoanimal:server",
-    "prerender": "ng run miamigoanimal:prerender",
-    "serve:prerender": "http-server -c-1 dist/miamigoanimal/browser",
+    "dev:ssr": "set NODE_ENV=development &&  ng run esferamascota:serve-ssr",
+    "serve:ssr": "node dist/esferamascota/server/main.js",
+    "build:ssr": "ng build && ng run esferamascota:server",
+    "prerender": "ng run esferamascota:prerender",
+    "serve:prerender": "http-server -c-1 dist/esferamascota/browser",
     "prepare": "npm run build:ssr",
     "start": "set NODE_ENV=development && npm run serve:ssr"
   },

@@ -3,140 +3,142 @@
 
 
     <url>
-        <loc>https://www.miamigoanimal.com/home</loc>
+        <loc>https://esferamascota.com/home</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/perros</loc>
+        <loc>https://esferamascota.com/perros</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/gatos</loc>
+        <loc>https://esferamascota.com/gatos</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/alimentacion</loc>
+        <loc>https://esferamascota.com/alimentacion</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/salud</loc>
+        <loc>https://esferamascota.com/salud</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/adiestramiento</loc>
+        <loc>https://esferamascota.com/adiestramiento</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/sobre-mi</loc>
+        <loc>https://esferamascota.com/sobre-mi</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/post/search-post</loc>
+        <loc>https://esferamascota.com/post/search-post</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/post/todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades</loc>
+        <loc>https://esferamascota.com/post/todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/post/todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo</loc>
+        <loc>https://esferamascota.com/post/todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/post/perritas-adorables-todo-lo-que-necesitas-saber-sobre-estas-tiernas-mascotas</loc>
+        <loc>https://esferamascota.com/post/perritas-adorables-todo-lo-que-necesitas-saber-sobre-estas-tiernas-mascotas</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/post/descubre-los-mejores-cuidados-para-tus-perritos</loc>
+        <loc>https://esferamascota.com/post/descubre-los-mejores-cuidados-para-tus-perritos</loc>
+        <lastmod>2023-06-03</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Sin solicitar indexación -->
+
+    <url>
+        <loc>https://esferamascota.com/post/conoce-las-mejores-razas-de-perros-guia-completa-y-actualizada</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/post/conoce-las-mejores-razas-de-perros-guia-completa-y-actualizada</loc>
+        <loc>https://esferamascota.com/post/adopta-a-los-gatitos-mas-tiernos-y-juguetones-encuentra-tu-companero-felino-ideal</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/post/adopta-a-los-gatitos-mas-tiernos-y-juguetones-encuentra-tu-companero-felino-ideal</loc>
+        <loc>https://esferamascota.com/post/el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/post/el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades</loc>
+        <loc>https://esferamascota.com/post/bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/post/bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica</loc>
+        <loc>https://esferamascota.com/post/bulldog-frances-todo-lo-que-necesitas-saber-sobre-esta-adorable-raza-de-perros</loc>
         <lastmod>2023-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/post/bulldog-frances-todo-lo-que-necesitas-saber-sobre-esta-adorable-raza-de-perros</loc>
-        <lastmod>2023-06-03</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-
-    <url>
-        <loc>https://www.miamigoanimal.com/post/conoce-todo-acerca-del-perro-san-bernardo</loc>
+        <loc>https://esferamascota.com/post/conoce-todo-acerca-del-perro-san-bernardo</loc>
         <lastmod>2023-06-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/post/descubre-el-boyero-de-berna</loc>
+        <loc>https://esferamascota.com/post/descubre-el-boyero-de-berna</loc>
         <lastmod>2023-06-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.miamigoanimal.com/post/pastor-aleman-caracteristicas-cuidados-y-curiosidades</loc>
+        <loc>https://esferamascota.com/post/pastor-aleman-caracteristicas-cuidados-y-curiosidades</loc>
         <lastmod>2023-06-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>

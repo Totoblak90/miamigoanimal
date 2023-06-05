@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "miamigoanimal": {
+    "esferamascota": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -39,7 +39,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/miamigoanimal/browser",
+            "outputPath": "dist/esferamascota/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -90,10 +90,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "miamigoanimal:build:production"
+              "browserTarget": "esferamascota:build:production"
             },
             "development": {
-              "browserTarget": "miamigoanimal:build:development"
+              "browserTarget": "esferamascota:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -101,7 +101,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "miamigoanimal:build"
+            "browserTarget": "esferamascota:build"
           }
         },
         "test": {
@@ -129,7 +129,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/miamigoanimal/server",
+            "outputPath": "dist/esferamascota/server",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json",
             "inlineStyleLanguage": "scss"
@@ -152,12 +152,12 @@
           "builder": "@nguniversal/builders:ssr-dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "miamigoanimal:build:development",
-              "serverTarget": "miamigoanimal:server:development"
+              "browserTarget": "esferamascota:build:development",
+              "serverTarget": "esferamascota:server:development"
             },
             "production": {
-              "browserTarget": "miamigoanimal:build:production",
-              "serverTarget": "miamigoanimal:server:production"
+              "browserTarget": "esferamascota:build:production",
+              "serverTarget": "esferamascota:server:production"
             }
           },
           "defaultConfiguration": "development"
@@ -169,12 +169,12 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "miamigoanimal:build:production",
-              "serverTarget": "miamigoanimal:server:production"
+              "browserTarget": "esferamascota:build:production",
+              "serverTarget": "esferamascota:server:production"
             },
             "development": {
-              "browserTarget": "miamigoanimal:build:development",
-              "serverTarget": "miamigoanimal:server:development"
+              "browserTarget": "esferamascota:build:development",
+              "serverTarget": "esferamascota:server:development"
             }
           },
           "defaultConfiguration": "production"

@@ -10,8 +10,8 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class ConoceTodoAcercaDelPerroSanBernardoComponent {
 
-  title = '🐶 Conoce Todo Acerca del Perro San Bernardo - MiAmigoAnimal.com'
-  description = '¡Descubre todo lo que necesitas saber sobre el San Bernardo! Historiá, características y cuidados. ¡Conoce más aquí en MiAmigoAnimal.com!'
+  title = '🐶 Conoce Todo Acerca del Perro San Bernardo - esferamascota.com'
+  description = '¡Descubre todo lo que necesitas saber sobre el San Bernardo! Historiá, características y cuidados. ¡Conoce más aquí en esferamascota.com!'
 
   get titleList() {
     if (isPlatformBrowser(this.platformId)) {

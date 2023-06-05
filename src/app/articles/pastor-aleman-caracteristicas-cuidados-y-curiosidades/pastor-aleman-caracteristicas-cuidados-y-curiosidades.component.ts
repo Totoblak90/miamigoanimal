@@ -10,7 +10,7 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent {
 
-  title = 'Pastor Alemán: Características, Cuidados y Curiosidades 🐶 - MiamigoAnimal.com'
+  title = 'Pastor Alemán: Características, Cuidados y Curiosidades 🐶 - esferamascota.com'
   description = 'Conoce todo sobre el Pastor Alemán: sus características, cuidados esenciales y curiosidades. Desde la historia hasta los cuidados necesarios. ¡Descúbrelo! 🐶'
 
   get titleList() {

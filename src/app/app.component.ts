@@ -7,7 +7,7 @@ import { Component, Inject, OnInit, PLATFORM_ID, Renderer2 } from '@angular/core
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'miamigoanimal';
+  title = 'esferamascota';
 
   constructor(private renderer: Renderer2, @Inject(PLATFORM_ID) private platformId: Object) {}
 
