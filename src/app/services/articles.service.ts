@@ -83,14 +83,7 @@ export class ArticlesService {
       url: 'perritas-adorables-todo-lo-que-necesitas-saber-sobre-estas-tiernas-mascotas',
       categories: ['Perros', 'Adiestramiento', 'Alimentacion'],
       'card-heading': 'Variedad',
-      sections: [
-        'Pug',
-        'Chow Chow',
-        'Samoyedo',
-        'Shar Pei',
-        'Bichón Maltés',
-        'Pomerania',
-      ],
+      sections: ['Pug', 'Chow Chow', 'Samoyedo', 'Shar Pei', 'Pomerania'],
       destacado: true,
       creation: '31/5/2023, 18:00:00',
       title:
@@ -299,7 +292,7 @@ export class ArticlesService {
     },
     {
       url: 'perro-salchicha-caracteristicas-cuidados-y-curiosidades',
-      categories: ['Perros', "Salud", "Alimentacion"],
+      categories: ['Perros', 'Salud', 'Alimentacion'],
       'card-heading': 'Perro Salchicha',
       sections: [
         'Historia',
@@ -310,8 +303,7 @@ export class ArticlesService {
       ],
       destacado: false,
       creation: '05/06/2023, 16:35:00',
-      title:
-        'Perro Salchicha: Características, Cuidados y Curiosidades | Esfera Mascota 🐶',
+      title: 'Perro Salchicha: Características, Cuidados y Curiosidades 🐶',
       buscador: [
         'dachsund',
         'teckel',
@@ -326,6 +318,29 @@ export class ArticlesService {
         'Caza de tejones',
         'Guerras mundiales',
         'Enfermedades comunes',
+      ],
+    },
+    {
+      url: 'descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular',
+      categories: ['Gatos', 'Salud'],
+      'card-heading': 'Gato Persa',
+      sections: [
+        'Salud',
+        'Historia',
+        'Características',
+        'Cuidados',
+        'Problemas comunes',
+      ],
+      destacado: true,
+      creation: '05/06/2023, 18:27:00',
+      title: 'Descubre Todo Sobre Los Gatos Persas, ¡La Raza Más Popular! 🐱',
+      buscador: [
+        'Raza persa',
+        'Origen persa',
+        'Características físicas persas',
+        'Cuidado gato persa',
+        'Salud gato persa',
+        'Gatos persas famosos',
       ],
     },
   ]);

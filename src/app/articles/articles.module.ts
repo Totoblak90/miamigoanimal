@@ -18,6 +18,7 @@ import { ConoceTodoAcercaDelPerroSanBernardoComponent } from './conoce-todo-acer
 import { DescubreElBoyeroDeBernaComponent } from './descubre-el-boyero-de-berna/descubre-el-boyero-de-berna.component';
 import { PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent } from './pastor-aleman-caracteristicas-cuidados-y-curiosidades/pastor-aleman-caracteristicas-cuidados-y-curiosidades.component';
 import { PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent } from './perro-salchicha-caracteristicas-cuidados-y-curiosidades/perro-salchicha-caracteristicas-cuidados-y-curiosidades.component';
+import { DescubreTodoSobreLosGatosPersaLaRazaMasPopularComponent } from './descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular/descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent } from './p
     DescubreElBoyeroDeBernaComponent,
     PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent,
     PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent,
+    DescubreTodoSobreLosGatosPersaLaRazaMasPopularComponent,
   ],
   imports: [
     CommonModule,
