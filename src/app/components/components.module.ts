@@ -26,6 +26,7 @@ import { RecentArticlesSectionComponent } from './recent-articles-section/recent
 import { HighlitedArticlesSectionComponent } from './highlited-articles-section/highlited-articles-section.component';
 import { HighlitedArticlesPostsComponent } from './highlited-articles-posts/highlited-articles-posts.component';
 import { PreguntasFrecuentesSectionComponent } from './preguntas-frecuentes-section/preguntas-frecuentes-section.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 
 
@@ -54,7 +55,8 @@ import { PreguntasFrecuentesSectionComponent } from './preguntas-frecuentes-sect
     ArticleSkeletonComponent,
     RecentArticlesSectionComponent,
     HighlitedArticlesSectionComponent,
-    PreguntasFrecuentesSectionComponent
+    PreguntasFrecuentesSectionComponent,
+    ContactFormComponent
   ],
   imports: [
     CommonModule,
@@ -85,7 +87,8 @@ import { PreguntasFrecuentesSectionComponent } from './preguntas-frecuentes-sect
     ArticleSkeletonComponent,
     RecentArticlesSectionComponent,
     HighlitedArticlesSectionComponent,
-    PreguntasFrecuentesSectionComponent
+    PreguntasFrecuentesSectionComponent,
+    ContactFormComponent
   ]
 })
 export class ComponentsModule { }

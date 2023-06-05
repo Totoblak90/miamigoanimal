@@ -1,0 +1,18 @@
+@import "../../../theme/abstracts/mixins";
+@import "../../../theme/abstracts/variables";
+
+.disabled {
+  cursor: not-allowed;
+  background-color: $color-grey-dark-2;
+  pointer-events: none;
+}
+
+.error-message {
+  color: $color-health-light;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-top: .7rem;
+  display: block;
+  transition: all .3s;
+}

@@ -9,3 +9,6 @@ automatic_scaling:
 
 env_variables:
   NODE_ENV: 'production'
+  MAIL_PASSWORD: Vildom90
+  MAIL_ADMIN: tobias.blaksley@hotmail.com
+

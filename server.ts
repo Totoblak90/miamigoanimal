@@ -3,15 +3,26 @@ import 'zone.js/node';
 import { APP_BASE_HREF } from '@angular/common';
 import { ngExpressEngine } from '@nguniversal/express-engine';
 import * as express from 'express';
+import * as bodyParser from 'body-parser';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { AppServerModule } from './src/main.server';
 
+import { configDotenv } from 'dotenv';
+configDotenv();
+
+// Routes
+import { routerContactForm } from 'server/routes/contact-form.routes';
+
 // The Express app is exported so that it can be used by serverless Functions.
 export function app(): express.Express {
   const server = express();
+  server.use(bodyParser.json());
+
+
   const distFolder = join(process.cwd(), 'dist/miamigoanimal/browser');
   const indexHtml = existsSync(join(distFolder, 'index.original.html')) ? 'index.original.html' : 'index';
+
 
   // Our Universal express-engine (found @ https://github.com/angular/universal/tree/main/modules/express-engine)
   server.engine('html', ngExpressEngine({ bootstrap: AppServerModule }));
@@ -28,6 +39,9 @@ export function app(): express.Express {
       }
     });
   }
+
+
+  server.use('/api/contact-form', routerContactForm)
 
   // Example Express Rest API endpoints
   // server.get('/api/**', (req, res) => { });

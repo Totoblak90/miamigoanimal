@@ -62,10 +62,11 @@ export class HeaderComponent implements OnInit {
   }
 
   private preloadImage() {
-    const images: {[key in 'default' | 'dog' | 'cat' | 'health' | 'train' | 'food' | 'yo']?: string} =
+
+    const images: {[key in 'default' | 'dog' | 'cat' | 'health' | 'train' | 'food' | 'yo']: string} =
     {
-      cat: this.selectedImage.split('url(')[1].slice(0, this.selectedImage.split('url(')[1].length - 1),
-      dog: this.selectedImage.split('url(')[1].slice(0, this.selectedImage.split('url(')[1].length - 1),
+      cat: this.selectedImage.split('url(')[1]?.slice(0, this.selectedImage.split('url(')[1]?.length - 1),
+      dog: this.selectedImage.split('url(')[1]?.slice(0, this.selectedImage.split('url(')[1]?.length - 1),
       default: 'https://miamigoanimal.b-cdn.net/hero-both.webp',
       health: 'https://miamigoanimal.b-cdn.net/health-hero.webp',
       train: 'https://miamigoanimal.b-cdn.net/training-1.webp',
@@ -73,9 +74,8 @@ export class HeaderComponent implements OnInit {
       yo: 'https://miamigoanimal.b-cdn.net/yo-2.webp'
     };
 
-    if (this.bckColour && this.bckColour in images) {
-      this.createHref(images[this.bckColour]!);
-    }
+    if (this.bckColour && this.bckColour in images) { this.createHref(images[this.bckColour]!); }
+
   }
 
 

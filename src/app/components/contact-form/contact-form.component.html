@@ -1,0 +1,51 @@
+<section class="section-form-container">
+  <div class="row">
+      <div class="form-container">
+          <div class="form-container__form">
+              <form action="#" class="form" [formGroup]="contactForm" (ngSubmit)="sendMail()">
+                  <div class="u-margin-bottom-medium">
+                      <h2 class="heading-secondary">
+                          Contacto
+                      </h2>
+                  </div>
+
+                  <div class="form__group">
+                      <input type="text" class="form__input" placeholder="Nombre completo" id="name-contact-form" name="name-contact-form" autocomplete="off" formControlName="name">
+                      <label for="name-contact-form" class="form__label">Nombre completo</label>
+                      <p class="error-message" *ngIf="contactForm.get('name')?.hasError('required') && contactForm.get('name')?.touched">
+                        Este campo es requerido
+                      </p>
+                  </div>
+
+                  <div class="form__group">
+                      <input type="email" class="form__input" placeholder="Email" id="email-contact-form" name="email-contact-form" autocomplete="off" formControlName="email">
+                      <label for="email-contact-form" class="form__label">Email</label>
+                      <p class="error-message" *ngIf="contactForm.get('email')?.hasError('required') && contactForm.get('email')?.touched">
+                        Este campo es requerido
+                      </p>
+                      <p class="error-message" *ngIf="contactForm.get('email')?.hasError('pattern') && contactForm.get('email')?.touched">
+                        El formato es incorrecto
+                      </p>
+                  </div>
+
+                  <div class="form__group">
+                    <textarea class="form__input" placeholder="Mensaje" id="mensaje-contact-form" name="mensaje-contact-form" autocomplete="off" rows="5" formControlName="message"></textarea>
+                    <label for="mensaje-contact-form" class="form__label">Mensaje</label>
+                    <p class="error-message" *ngIf="contactForm.get('message')?.hasError('required') && contactForm.get('message')?.touched">
+                      Este campo es requerido
+                    </p>
+                    <p class="error-message" *ngIf="contactForm.get('message')?.hasError('minlength') && contactForm.get('message')?.touched">
+                      Debe contener al menos 10 caracteres
+                    </p>
+                  </div>
+
+                  <div class="form__group">
+                      <button class="btn btn--green" [class.disabled]="buttonDisabled" [disabled]="buttonDisabled" type="submit">Enviar &rarr;</button>
+                  </div>
+
+                  <p class="paragraph" *ngIf="showSuccessMessage">Email enviado correctamente</p>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
