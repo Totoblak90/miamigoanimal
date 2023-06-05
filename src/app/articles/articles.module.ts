@@ -17,6 +17,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ConoceTodoAcercaDelPerroSanBernardoComponent } from './conoce-todo-acerca-del-perro-san-bernardo/conoce-todo-acerca-del-perro-san-bernardo.component';
 import { DescubreElBoyeroDeBernaComponent } from './descubre-el-boyero-de-berna/descubre-el-boyero-de-berna.component';
 import { PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent } from './pastor-aleman-caracteristicas-cuidados-y-curiosidades/pastor-aleman-caracteristicas-cuidados-y-curiosidades.component';
+import { PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent } from './perro-salchicha-caracteristicas-cuidados-y-curiosidades/perro-salchicha-caracteristicas-cuidados-y-curiosidades.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent } from './pas
     ConoceTodoAcercaDelPerroSanBernardoComponent,
     DescubreElBoyeroDeBernaComponent,
     PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent,
+    PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent,
   ],
   imports: [
     CommonModule,

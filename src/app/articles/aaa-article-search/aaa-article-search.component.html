@@ -6,24 +6,8 @@
 
 <main class="separate-section">
 
-  <div class="row">
-    <p class="paragraph">
-      El buscador se encuentra en fase beta. Disculpá las molestias.
-      <br>
-      Puede buscar por:
-    </p>
-    <ul>
-      <li class="paragraph">
-        Categoría - ("Perros", "Gatos", "Salud", "Alimentación", "Adiestramiento");
-      </li>
-      <li class="paragraph">
-        Tópicos del artículo;
-      </li>
-      <li class="paragraph">
-        Raza
-      </li>
-    </ul>
-
+  <div class="u-margin-bottom-big u-center-text">
+    <h2 class="heading-secondary">Encontrá lo que estás buscando</h2>
   </div>
 
   <div class="row">
@@ -37,6 +21,13 @@
         </form>
       </div>
     </div>
+  </div>
+
+  <div class="row" *ngIf="searchArticlesForm.get('searchTerm')?.value">
+    <h3 class="heading-tertiary">
+      Resultados para "<strong>{{ searchArticlesForm.get('searchTerm')?.value || '' }}</strong>":
+      <span>{{ pagedArticles.length }}</span>
+    </h3>
   </div>
 
   <div class="row">

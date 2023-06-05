@@ -7,10 +7,10 @@
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 52rem;
+  height: max-content;
 
   &__side {
-      height: 52rem;
+      height: max-content;
       transition: all .8s ease;
       position: absolute;
       top: 0;

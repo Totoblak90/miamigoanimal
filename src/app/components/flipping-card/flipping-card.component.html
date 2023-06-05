@@ -3,12 +3,12 @@
        <div class="card__picture" [style.background-image]="selectedImage">
            &nbsp;
        </div>
-       <h4 class="card__heading">
+       <p class="card__heading">
            <span [class]="'card__heading-span card__heading-span--' + type">{{ cardTitle }}</span>
-       </h4>
+       </p>
        <div class="card__details">
            <ul>
-               <li *ngFor="let topic of topics">{{ topic }}</li>
+               <li *ngFor="let topic of topics">{{ topic | titlecase }}</li>
            </ul>
        </div>
   </div>

@@ -18,6 +18,7 @@ import { ConoceTodoAcercaDelPerroSanBernardoComponent } from './conoce-todo-acer
 import { AaaArticleSearchComponent } from './aaa-article-search/aaa-article-search';
 import { DescubreElBoyeroDeBernaComponent } from './descubre-el-boyero-de-berna/descubre-el-boyero-de-berna.component';
 import { PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent } from './pastor-aleman-caracteristicas-cuidados-y-curiosidades/pastor-aleman-caracteristicas-cuidados-y-curiosidades.component';
+import { PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent } from './perro-salchicha-caracteristicas-cuidados-y-curiosidades/perro-salchicha-caracteristicas-cuidados-y-curiosidades.component';
 
 const routes: Routes = [
   {
@@ -67,6 +68,10 @@ const routes: Routes = [
   {
     path: 'pastor-aleman-caracteristicas-cuidados-y-curiosidades',
     component: PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent
+  },
+  {
+    path: 'perro-salchicha-caracteristicas-cuidados-y-curiosidades',
+    component: PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent
   },
 
 
