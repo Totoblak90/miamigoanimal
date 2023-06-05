@@ -1,5 +1,2 @@
 User-agent: *
-Disallow: /cookies/
-Disallow: /politicas/
-Disallow: /terminos/
 Disallow: /post/search-post

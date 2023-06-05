@@ -7,6 +7,7 @@ import { Dog } from '../interfaces/dog.interface';
   providedIn: 'root',
 })
 export class PerrosService {
+
   private apiUrl = 'https://api.thedogapi.com/v1/';
   private headers = new HttpHeaders({
     'Content-type': 'application/json',
