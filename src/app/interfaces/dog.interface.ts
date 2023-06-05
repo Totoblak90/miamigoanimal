@@ -10,6 +10,10 @@ export class Dog {
   origin?:             string;
   reference_image_id?: string;
   image?:              Image;
+  searchTerms?:        string[];
+  country_code?:        string;
+  description?:         string;
+  history?:             string;
 
   constructor(data: any) {
     Object.assign(this, data);
