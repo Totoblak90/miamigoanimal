@@ -33,7 +33,7 @@ export class AdiestramientoComponent {
 
   private _setMetaTags() {
     this.meta.setMetaTags(
-      'Entrena a tu Mascota con Amor y Respeto - Mi amigo animal',
+      'Entrena a tu Mascota con Amor y Respeto - Esfera mascota',
       'Descubre técnicas efectivas de adiestramiento para mascotas. Mejora la conducta de tu perro o gato y fortalece tu vínculo con ellos. ¡Empieza hoy!',
     );
   }

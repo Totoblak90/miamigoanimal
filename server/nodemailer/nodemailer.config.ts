@@ -23,7 +23,7 @@ export const sendMail = async function(name: string, reciever: string, message: 
     let mailOptions = {
       from: '"Tobias Blaksley" <tobias.blaksley@hotmail.com>', // dirección del remitente
       to: '"Tobias Blaksley" <tobias.blaksley@hotmail.com>', // lista de receptores
-      subject: 'Contacto de mi amigo animal', // Línea de asunto
+      subject: 'Contacto de Esfera mascota', // Línea de asunto
       text: message, // cuerpo de texto plano
       // html: '<b>Hola mundo?</b>' // cuerpo de html
     };

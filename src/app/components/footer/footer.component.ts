@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
-  logoUrl = 'https://miamigoanimal.b-cdn.net/logo.webp'
+  logoUrl = 'https://esferamascota.b-cdn.net/logo.webp'
 }

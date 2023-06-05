@@ -16,7 +16,7 @@ export class HomeComponent {
 
   private _setMetaTags() {
     this.metaSrv.setMetaTags(
-      'Consejos y Guías Detalladas para tus Mascotas - Mi amigo animal',
+      'Consejos y Guías Detalladas para tus Mascotas - Esfera mascota',
       'Para todos los amantes de las mascotas, descubre todo sobre perros y gatos. Explora nuestros recursos y únete a nuestra comunidad.'
     );
   }

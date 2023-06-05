@@ -6,30 +6,30 @@ import { Injectable } from '@angular/core';
 export class UtilitiesService {
 
   private dogImages = [
-    'https://miamigoanimal.b-cdn.net/hero-dog.webp',
-    'https://miamigoanimal.b-cdn.net/perro-1.webp',
-    'https://miamigoanimal.b-cdn.net/perro-2.webp',
-    'https://miamigoanimal.b-cdn.net/perro-3.webp',
-    'https://miamigoanimal.b-cdn.net/perro-4.webp',
-    'https://miamigoanimal.b-cdn.net/perro-5.webp',
-    'https://miamigoanimal.b-cdn.net/perro-6.webp',
-    'https://miamigoanimal.b-cdn.net/perro-7.webp',
-    'https://miamigoanimal.b-cdn.net/perro-8.webp',
-    'https://miamigoanimal.b-cdn.net/perro-9.webp',
+    'https://esferamascota.b-cdn.net/hero-dog.webp',
+    'https://esferamascota.b-cdn.net/perro-1.webp',
+    'https://esferamascota.b-cdn.net/perro-2.webp',
+    'https://esferamascota.b-cdn.net/perro-3.webp',
+    'https://esferamascota.b-cdn.net/perro-4.webp',
+    'https://esferamascota.b-cdn.net/perro-5.webp',
+    'https://esferamascota.b-cdn.net/perro-6.webp',
+    'https://esferamascota.b-cdn.net/perro-7.webp',
+    'https://esferamascota.b-cdn.net/perro-8.webp',
+    'https://esferamascota.b-cdn.net/perro-9.webp',
   ];
 
   private catImages = [
-    'https://miamigoanimal.b-cdn.net/destacados-gatos.webp',
-    'https://miamigoanimal.b-cdn.net/clipped-section-cat.webp',
-    'https://miamigoanimal.b-cdn.net/gato-en-sillon.webp',
-    'https://miamigoanimal.b-cdn.net/gato-negro-en-taza.webp',
-    'https://miamigoanimal.b-cdn.net/hero-cat.webp',
-    'https://miamigoanimal.b-cdn.net/varios-gato-3.webp',
-    'https://miamigoanimal.b-cdn.net/varios-gato-4.webp',
-    'https://miamigoanimal.b-cdn.net/varios-gato-5.webp',
+    'https://esferamascota.b-cdn.net/destacados-gatos.webp',
+    'https://esferamascota.b-cdn.net/clipped-section-cat.webp',
+    'https://esferamascota.b-cdn.net/gato-en-sillon.webp',
+    'https://esferamascota.b-cdn.net/gato-negro-en-taza.webp',
+    'https://esferamascota.b-cdn.net/hero-cat.webp',
+    'https://esferamascota.b-cdn.net/varios-gato-3.webp',
+    'https://esferamascota.b-cdn.net/varios-gato-4.webp',
+    'https://esferamascota.b-cdn.net/varios-gato-5.webp',
   ];
 
-  private extraImage = 'https://miamigoanimal.b-cdn.net/destacados-extra.webp';
+  private extraImage = 'https://esferamascota.b-cdn.net/destacados-extra.webp';
 
   constructor() { }
 

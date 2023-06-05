@@ -43,7 +43,7 @@ export class SaludComponent {
 
   private _setMetaTags() {
     this.metaSrv.setMetaTags(
-      'Consejos para Mantener a tus Mascotas Saludables - Mi amigo animal',
+      'Consejos para Mantener a tus Mascotas Saludables - Esfera mascota',
       'En nuestra sección de salud, encuentra todo lo que necesitas para cuidar la salud de tu perro o gato. Aprende a entender las necesidades de tu mascota.'
     );
   }

@@ -55,7 +55,7 @@ export class SocialIconsComponent {
         url = `https://twitter.com/share?url=${this.currentUrl}&text=${this.description}&via=tobiblaksley`;
         break;
       case 'lkd':
-        url = `https://www.linkedin.com/shareArticle?mini=true&url=${this.currentUrl}&title=${this.title}&summary=${this.description}&source='Mi amigo animal'`;
+        url = `https://www.linkedin.com/shareArticle?mini=true&url=${this.currentUrl}&title=${this.title}&summary=${this.description}&source='Esfera mascota'`;
         break;
       case 'fb':
         url = `https://www.facebook.com/sharer/sharer.php?u=${this.currentUrl}`;

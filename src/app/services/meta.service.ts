@@ -21,7 +21,7 @@ export class MetaService {
   setMetaTags( title = '', description = '', canonical = '', follow = true, author = 'Tobias Blaksley', )
   {
 
-    if (!title) { title = 'Mi amigo animal - Consejos y Guías Detalladas para tus Mascotas'}
+    if (!title) { title = 'Esfera mascota - Consejos y Guías Detalladas para tus Mascotas'}
     if (!description) { description = `Ya sea que seas un nuevo dueño de mascota o un experto, aquí encontrarás todo lo que necesitas saber sobre el perros y gatos. Descubre nuestros recursos y únete a nuestra comunidad de amantes de las mascotas.` }
     if (!canonical) { canonical = 'https://miamigoanimal.com' + this.router.url }
 
@@ -48,7 +48,7 @@ export class MetaService {
     this.meta.addTag({ name: 'twitter:site', content: '@tobiblaksley' })
     this.meta.addTag({ name: 'twitter:title', content: title })
     this.meta.addTag({ name: 'twitter:description', content: description })
-    this.meta.addTag({ name: 'twitter:image', content: 'https://miamigoanimal.b-cdn.net/destacados-extra.webp' })
+    this.meta.addTag({ name: 'twitter:image', content: 'https://esferamascota.b-cdn.net/destacados-extra.webp' })
   }
 
   private addFacebookTags(title: string, description: string, canonical: string) {
@@ -56,7 +56,7 @@ export class MetaService {
         this.meta.addTag({ property: 'og:url', content: canonical })
         this.meta.addTag({ property: 'og:title', content: title })
         this.meta.addTag({ property: 'og:description', content: description })
-        this.meta.addTag({ property: 'og:image', content: 'https://miamigoanimal.b-cdn.net/destacados-extra.webp'})
+        this.meta.addTag({ property: 'og:image', content: 'https://esferamascota.b-cdn.net/destacados-extra.webp'})
   }
 
   private addCanonical(tag: any) {
