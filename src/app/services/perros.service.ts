@@ -55,1762 +55,2281 @@ export class PerrosService {
   }
 
   // Mapeo de lista de perros
-  private dogList: Dog[] = [
-    {
-      weight: {
-        imperial: '6 - 13',
-        metric: '3 - 6',
-      },
-      height: {
-        imperial: '9 - 11.5',
-        metric: '23 - 29',
-      },
-      id: 1,
-      name: 'Affenpinscher',
-      bred_for: 'Caza de roedores pequeños, perro faldero',
-      breed_group: 'Grupo de juguetes',
-      life_span: '10 - 12 años',
-      temperament:
-        'Terco, Curioso, Juguetón, Aventurero, Activo, Amante de la diversión',
-      origin: 'Alemania, Francia',
-      reference_image_id: 'BJa4kxc4X',
-      image: {
-        id: 'BJa4kxc4X',
-        width: 1600,
-        height: 1199,
-        url: 'https://cdn2.thedogapi.com/images/BJa4kxc4X.jpg',
-      },
-      searchTerms: ['Affenpinscher', 'perro pequeño', 'caza de roedores'],
-      description:
-        'El Affenpinscher es una raza de perro pequeño originaria de Alemania y Francia. Es conocido por ser un perro de caza de roedores y también como perro faldero. Es terco, curioso, juguetón, aventurero, activo y amante de la diversión.',
-      country_code: 'DE',
-      history:
-        'El Affenpinscher tiene su origen en Alemania y Francia en el siglo XVII. Fue criado inicialmente para cazar roedores en las cocinas y establos.',
-      categoria_de_tamanio: 'Pequeño',
-      perks: [
-        'No necesita mucho espacio',
-        'Requiere poco aseo',
-        'Necesita ejercicio moderado',
-      ],
-      color: 'Negro, Gris, Plata, Rojo',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: ['Necesita estimulación mental regular'],
-      popularidad: 'Moderada',
-      enfermedades_comunes: ['Problemas dentales', 'Luxación de rótula'],
-    },
-    {
-      weight: {
-        imperial: '50 - 60',
-        metric: '23 - 27',
-      },
-      height: {
-        imperial: '25 - 27',
-        metric: '64 - 69',
-      },
-      id: 2,
-      name: 'Sabueso afgano',
-      country_code: 'AG',
-      bred_for: 'Caza y persecución',
-      breed_group: 'Sabueso',
-      life_span: '10 - 13 años',
-      temperament: 'Distante, Payaso, Digno, Independiente, Feliz',
-      origin: 'Afganistán, Irán, Pakistán',
-      reference_image_id: 'hMyT4CDXR',
-      image: {
-        id: 'hMyT4CDXR',
-        width: 606,
-        height: 380,
-        url: 'https://cdn2.thedogapi.com/images/hMyT4CDXR.jpg',
-      },
-      searchTerms: ['Sabueso afgano', 'perro de caza', 'perro de persecución'],
-      description:
-        'El Sabueso afgano, también conocido como Afghan Hound, es una raza de perro de caza y persecución originaria de Afganistán, Irán y Pakistán. Se caracteriza por su apariencia distante, su temperamento de payaso y su dignidad. Es un perro independiente y feliz.',
-      history:
-        'El Sabueso afgano es una de las razas de perros más antiguas, originaria de las regiones montañosas de Afganistán. Tradicionalmente se utilizaba para la caza en terrenos difíciles.',
-      categoria_de_tamanio: 'Grande',
-      perks: [
-        'Necesita espacio para correr',
-        'Requiere aseo regular',
-        'Necesita ejercicio regular',
-      ],
-      color: 'Varía - Blanco, Negro, Rojo, Crema, Gris, Multicolor',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Bajo',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Alta',
-      necesidades_especiales: ['Necesita mucha estimulación mental y física'],
-      popularidad: 'Moderada',
-      enfermedades_comunes: ['Problemas de la vista', 'Hipotiroidismo'],
-    },
-    {
-      weight: {
-        imperial: '44 - 66',
-        metric: '20 - 30',
-      },
-      height: {
-        imperial: '30',
-        metric: '76',
-      },
-      id: 3,
-      name: 'Perro de caza africano',
-      bred_for: 'Un animal salvaje en manada',
-      life_span: '11 años',
-      temperament: 'Salvaje, Trabajador, Dedicado',
-      origin: 'África',
-      reference_image_id: 'rkiByec47',
-      image: {
-        id: 'rkiByec47',
-        width: 500,
-        height: 335,
-        url: 'https://cdn2.thedogapi.com/images/rkiByec47.jpg',
-      },
-      searchTerms: ['Perro de caza africano', 'perro de caza en manada'],
-      description:
-        'El Perro de caza africano, o African Hunting Dog, es un animal salvaje que se encuentra en manadas. Aunque su origen específico es desconocido, se sabe que es un perro salvaje, trabajador y dedicado.',
-      country_code: 'AF',
-      history:
-        'El Perro de caza africano es una raza salvaje originaria de África, conocida por su habilidad para cazar en manadas.',
-      categoria_de_tamanio: 'Grande',
-      perks: [
-        'Necesita espacio para correr',
-        'Requiere poco aseo',
-        'Necesita ejercicio regular',
-      ],
-      color: 'Varía - Blanco, Negro, Marrón, Manchado',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Bajo',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: ['Necesita mucha estimulación mental y física'],
-      popularidad: 'Baja',
-      enfermedades_comunes: [
-        'Problemas de la vista',
-        'Enfermedades infecciosas',
-      ],
-    },
-    {
-      weight: {
-        imperial: '40 - 65',
-        metric: '18 - 29',
-      },
-      height: {
-        imperial: '21 - 23',
-        metric: '53 - 58',
-      },
-      id: 4,
-      name: 'Airedale Terrier',
-      bred_for: 'Caza de tejones y nutrias',
-      life_span: '10 - 13 años',
-      temperament:
-        'Sociable, Amigable, Alerta, Confiado, Inteligente, Valiente',
-      origin: 'Reino Unido, Inglaterra',
-      reference_image_id: '1-7cgoZSh',
-      image: {
-        id: '1-7cgoZSh',
-        width: 645,
-        height: 430,
-        url: 'https://cdn2.thedogapi.com/images/1-7cgoZSh.jpg',
-      },
-      searchTerms: [
-        'Airedale Terrier',
-        'perro de caza',
-        'caza de tejones',
-        'caza de nutrias',
-      ],
-      description:
-        'El Airedale Terrier es un perro de caza utilizado para la caza de tejones y nutrias. Originario del Reino Unido e Inglaterra, pertenece al grupo de los terrier. Es un perro sociable, amigable, alerta, confiado, inteligente y valiente.',
-      country_code: 'UK',
-      history:
-        'El Airedale Terrier, originario del Reino Unido e Inglaterra, fue criado originalmente para la caza de tejones y nutrias.',
-      categoria_de_tamanio: 'Mediano',
-      perks: [
-        'Excelente perro de caza',
-        'Requiere aseo regular',
-        'Necesita ejercicio regular',
-      ],
-      color: 'Negro y marrón',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Alto',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Alta',
-      necesidades_especiales: ['Necesita estimulación mental y física'],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [
-        'Displasia de cadera',
-        'Problemas de piel',
-        'Alergias',
-      ],
-    },
-    {
-      weight: {
-        imperial: '90 - 120',
-        metric: '41 - 54',
-      },
-      height: {
-        imperial: '28 - 34',
-        metric: '71 - 86',
-      },
-      id: 5,
-      name: 'Perro de Akbash',
-      bred_for: 'Guardia de ovejas',
-      life_span: '10 - 12 años',
-      temperament: 'Leal, Independiente, Inteligente, Valiente',
-      reference_image_id: '26pHT3Qk7',
-      image: {
-        id: '26pHT3Qk7',
-        width: 600,
-        height: 471,
-        url: 'https://cdn2.thedogapi.com/images/26pHT3Qk7.jpg',
-      },
-      searchTerms: ['Perro de Akbash', 'guardia de ovejas'],
-      description:
-        'El Perro de Akbash es una raza utilizada para la guardia de ovejas. Es conocido por ser leal, independiente, inteligente y valiente.',
-      country_code: 'TR',
-      history:
-        'El Perro de Akbash es originario de Turquía, donde fue criado para ser un perro de guardia de ovejas.',
-      categoria_de_tamanio: 'Grande',
-      perks: [
-        'Excelente perro de guardia',
-        'Requiere aseo mínimo',
-        'Necesita mucho ejercicio',
-      ],
-      color: 'Blanco',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Alta',
-      necesidades_especiales: ['Necesita mucho ejercicio y espacio'],
-      popularidad: 'Baja',
-      enfermedades_comunes: [
-        'Displasia de cadera',
-        'Problemas cardíacos',
-        'Obesidad',
-      ],
-    },
-    {
-      weight: {
-        imperial: '65 - 115',
-        metric: '29 - 52',
-      },
-      height: {
-        imperial: '24 - 28',
-        metric: '61 - 71',
-      },
-      id: 6,
-      name: 'Akita',
-      bred_for: 'Caza de osos',
-      breed_group: 'Trabajo',
-      life_span: '10 - 14 años',
-      temperament:
-        'Dócil, Alerta, Sensible, Digno, Compuesto, Amistoso, Receptivo, Fiel, Valiente',
-      reference_image_id: 'BFRYBufpm',
-      image: {
-        id: 'BFRYBufpm',
-        width: 1280,
-        height: 853,
-        url: 'https://cdn2.thedogapi.com/images/BFRYBufpm.jpg',
-      },
-      searchTerms: ['Akita', 'perro de caza', 'caza de osos'],
-      description:
-        'El Akita es una raza de perro utilizada para la caza de osos. Pertenece al grupo de trabajo y se caracteriza por ser dócil, alerta, sensible, digno, compuesto, amistoso, receptivo, fiel y valiente.',
-      country_code: 'JP',
-      history:
-        'El Akita es originario de Japón, donde se le utilizaba originalmente para la caza de osos.',
-      categoria_de_tamanio: 'Grande',
-      perks: [
-        'Excelente perro de guardia',
-        'Requiere aseo mínimo',
-        'Necesita mucho ejercicio',
-      ],
-      color: 'Varios colores',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: ['Necesita mucho ejercicio y espacio'],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [
-        'Displasia de cadera',
-        'Problemas de tiroides',
-        'Obesidad',
-      ],
-    },
-    {
-      weight: {
-        imperial: '55 - 90',
-        metric: '25 - 41',
-      },
-      height: {
-        imperial: '18 - 24',
-        metric: '46 - 61',
-      },
-      id: 7,
-      name: 'Alapaha Blue Blood Bulldog',
-      description:
-        'El Bulldog Alapaha Blue Blood es una raza bien desarrollada y exagerada, con una cabeza amplia y orejas caídas naturales. El hocico prominente está cubierto por labios superiores sueltos. Los ojos prominentes están bien separados. El pelaje del Alapaha es relativamente corto y bastante rígido. Los colores preferidos son merle azul, merle marrón o merle rojo, todos recortados en blanco o chocolate y blanco. También se prefieren los ojos de vidrio (azules) o los ojos de mármol (marrón y azul mezclados en un solo ojo). Las orejas y la cola nunca se cortan. El cuerpo es robusto y muy musculoso. Las caderas bien musculadas son más estrechas que el pecho. La espalda recta tiene la misma longitud que la altura del perro en los hombros. Las uñas delanteras nunca se retiran y las patas son parecidas a las de un gato.',
-      bred_for: 'Guardia',
-      breed_group: 'Mixto',
-      life_span: '12 - 13 años',
-      history: '',
-      temperament: 'Cariñoso, Protector, Adiestrable, Devoto, Responsable',
-      reference_image_id: '33mJ-V3RX',
-      image: {
-        id: '33mJ-V3RX',
-        width: 1828,
-        height: 2065,
-        url: 'https://cdn2.thedogapi.com/images/33mJ-V3RX.jpg',
-      },
-      searchTerms: ['Bulldog Alapaha Blue Blood', 'bulldog', 'guardia'],
-      country_code: 'US',
-      categoria_de_tamanio: 'Mediano',
-      perks: [
-        'Excelente perro de guardia',
-        'Requiere aseo mínimo',
-        'Necesita mucho ejercicio',
-      ],
-      color:
-        'Merle azul, merle marrón, merle rojo, blanco o chocolate y blanco',
-      nivel_de_energia: 'Moderado',
-      facilidad_de_entrenamiento: 'Alto',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: ['Necesita mucho ejercicio y espacio'],
-      popularidad: 'Baja',
-      enfermedades_comunes: ['Problemas oculares', 'Problemas de cadera'],
-    },
-    {
-      weight: {
-        imperial: '38 - 50',
-        metric: '17 - 23',
-      },
-      height: {
-        imperial: '23 - 26',
-        metric: '58 - 66',
-      },
-      id: 8,
-      name: 'Husky de Alaska',
-      bred_for: 'Tirar de trineos',
-      breed_group: 'Mixto',
-      life_span: '10 - 13 años',
-      temperament: 'Amistoso, Enérgico, Leal, Gentil, Confiado',
-      reference_image_id: '-HgpNnGXl',
-      image: {
-        id: '-HgpNnGXl',
-        width: 500,
-        height: 500,
-        url: 'https://cdn2.thedogapi.com/images/-HgpNnGXl.jpg',
-      },
-      searchTerms: ['Husky de Alaska', 'perro de trineo'],
-      description:
-        'El Husky de Alaska es una raza mixta utilizada para tirar de trineos. Se caracteriza por ser amistoso, enérgico, leal, gentil y confiado.',
-      origin: 'Estados Unidos',
-      country_code: 'US',
-      history: '',
-      categoria_de_tamanio: 'Grande',
-      perks: [
-        'Bueno para el clima frío',
-        'Requiere ejercicio regular',
-        'Leal y enérgico',
-      ],
-      color: 'Variado',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Requiere mucho ejercicio y espacio',
-        'Necesita estimulación mental',
-      ],
-      popularidad: 'Alta',
-      enfermedades_comunes: ['Problemas oculares', 'Displasia de cadera'],
-    },
-    {
-      weight: {
-        imperial: '65 - 100',
-        metric: '29 - 45',
-      },
-      height: {
-        imperial: '23 - 25',
-        metric: '58 - 64',
-      },
-      id: 9,
-      name: 'Malamute de Alaska',
-      bred_for: 'Transporte de carga pesada, Tirar de trineos',
-      breed_group: 'Trabajo',
-      life_span: '12 - 15 años',
-      temperament: 'Amistoso, Cariñoso, Devoto, Leal, Digno, Juguetón',
-      reference_image_id: 'dW5UucTIW',
-      image: {
-        id: 'dW5UucTIW',
-        width: 1023,
-        height: 769,
-        url: 'https://cdn2.thedogapi.com/images/dW5UucTIW.jpg',
-      },
-      searchTerms: [
-        'Malamute de Alaska',
-        'perro de trineo',
-        'transporte de carga',
-      ],
-      description:
-        'El Malamute de Alaska es una raza utilizada para el transporte de carga pesada y para tirar de trineos. Es amistoso, cariñoso, devoto, leal, digno y juguetón.',
-      origin: 'Estados Unidos',
-      country_code: 'US',
-      history: '',
-      categoria_de_tamanio: 'Grande',
-      perks: [
-        'Bueno para el clima frío',
-        'Requiere ejercicio regular',
-        'Leal y juguetón',
-      ],
-      color: 'Variado',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Requiere mucho ejercicio y espacio',
-        'Necesita estimulación mental',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
-    },
-    {
-      weight: {
-        imperial: '60 - 120',
-        metric: '27 - 54',
-      },
-      height: {
-        imperial: '22 - 27',
-        metric: '56 - 69',
-      },
-      id: 10,
-      name: 'Bulldog americano',
-      bred_for: '',
-      breed_group: 'Trabajo',
-      life_span: '10 - 12 años',
-      temperament:
-        'Amistoso, Asertivo, Enérgico, Leal, Gentil, Confiado, Dominante',
-      origin: 'Estados Unidos',
-      reference_image_id: 'pk1AAdloG',
-      image: {
-        id: 'pk1AAdloG',
-        width: 1669,
-        height: 1377,
-        url: 'https://cdn2.thedogapi.com/images/pk1AAdloG.jpg',
-      },
-      searchTerms: ['Bulldog americano'],
-      country_code: 'US',
-      description:
-        'El Bulldog americano es una raza de trabajo conocida por su amistad, asertividad, energía, lealtad, gentileza, confianza y dominancia.',
-      history: '',
-      categoria_de_tamanio: 'Grande',
-      perks: [
-        'Bueno para el entrenamiento de obediencia',
-        'Requiere ejercicio regular',
-        'Leal y amistoso',
-      ],
-      color: 'Variado',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Requiere mucho ejercicio y espacio',
-        'Necesita estimulación mental',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
-    },
-    {
-      weight: {
-        imperial: '30 - 150',
-        metric: '14 - 68',
-      },
-      height: {
-        imperial: '14 - 17',
-        metric: '36 - 43',
-      },
-      id: 11,
-      name: 'American Bully',
-      bred_for: 'Perro de compañía familiar',
-      breed_group: '',
-      life_span: '8 – 15 años',
-      temperament:
-        'Fuerte de voluntad, Testarudo, Amistoso, Payaso, Cariñoso, Leal, Obediente, Inteligente, Valiente',
-      origin: 'Estados Unidos',
-      reference_image_id: 'sqQJDtbpY',
-      image: {
-        id: 'sqQJDtbpY',
-        width: 1024,
-        height: 683,
-        url: 'https://cdn2.thedogapi.com/images/sqQJDtbpY.jpg',
-      },
-      searchTerms: ['American Bully', 'perro de compañía'],
-      country_code: 'US',
-      description:
-        'El American Bully es una raza originaria de Estados Unidos y se destaca por su fuerte voluntad, testarudez, amistad, payasadas, cariño, lealtad, obediencia, inteligencia y valentía.',
-      history: '',
-      categoria_de_tamanio: 'Mediano',
-      perks: [
-        'Bueno para compañía',
-        'Necesita espacio para jugar y ejercitarse',
-        'Bueno con niños',
-      ],
-      color: 'Variado',
-      nivel_de_energia: 'Moderado',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Requiere mucho ejercicio y espacio',
-        'Necesita estimulación mental',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: ['Displasia de cadera', 'Alergias'],
-    },
-    {
-      weight: {
-        imperial: '20 - 40',
-        metric: '9 - 18',
-      },
-      height: {
-        imperial: '15 - 19',
-        metric: '38 - 48',
-      },
-      id: 12,
-      name: 'Perro esquimal americano',
-      bred_for: 'Artista de circo',
-      breed_group: 'No deportivo',
-      life_span: '12 - 15 años',
-      temperament: 'Amistoso, Alerta, Reservado, Inteligente, Protector',
-      origin: 'Estados Unidos',
-      reference_image_id: 'Bymjyec4m',
-      image: {
-        id: 'Bymjyec4m',
-        width: 1000,
-        height: 802,
-        url: 'https://cdn2.thedogapi.com/images/Bymjyec4m.jpg',
-      },
-      searchTerms: ['Perro esquimal americano', 'artista de circo'],
-      country_code: 'US',
-      description:
-        'El Perro esquimal americano es una raza no deportiva que se destacaba como artista de circo. Es amistoso, alerta, reservado, inteligente y protector.',
-      history: '',
-      categoria_de_tamanio: 'Mediano',
-      perks: [
-        'Bueno para compañía',
-        'Necesita ejercicio moderado',
-        'Bueno con niños',
-      ],
-      color: 'Blanco',
-      nivel_de_energia: 'Moderado',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Requiere mucho ejercicio y estimulación mental',
-        'Necesita atención y cuidado del pelaje',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: ['Displasia de cadera', 'Problemas de oído'],
-    },
-    {
-      weight: {
-        imperial: '7 - 10',
-        metric: '3 - 5',
-      },
-      height: {
-        imperial: '9 - 12',
-        metric: '23 - 30',
-      },
-      id: 13,
-      name: 'Perro esquimal americano (miniatura)',
-      bred_for: 'Compañía',
-      breed_group: 'No deportivo',
-      life_span: '13 – 15 años',
-      temperament: 'Amistoso, Alerta, Reservado, Inteligente, Protector',
-      origin: 'Estados Unidos',
-      reference_image_id: '_gn8GLrE6',
-      image: {
-        id: '_gn8GLrE6',
-        width: 730,
-        height: 487,
-        url: 'https://cdn2.thedogapi.com/images/_gn8GLrE6.jpg',
-      },
-      searchTerms: ['Perro esquimal americano (miniatura)', 'compañía'],
-      country_code: 'US',
-      description:
-        'El Perro esquimal americano en su versión miniatura es una raza criada principalmente para ser una compañía agradable. Es amistoso, alerta, reservado, inteligente y protector.',
-      history: '',
-      categoria_de_tamanio: 'Pequeño',
-      perks: ['Compañía agradable', 'Amistoso', 'Inteligente'],
-      color: '',
-      nivel_de_energia: 'Moderado',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [],
-    },
-    {
-      weight: {
-        imperial: '65 - 75',
-        metric: '29 - 34',
-      },
-      height: {
-        imperial: '21 - 28',
-        metric: '53 - 71',
-      },
-      id: 14,
-      name: 'Sabueso americano',
-      bred_for: 'Caza de zorros, perro rastreador',
-      breed_group: 'Sabueso',
-      life_span: '8 - 15 años',
-      temperament:
-        'Amable, de temperamento dulce, leal, independiente, inteligente, cariñoso',
-      origin: 'Estados Unidos',
-      reference_image_id: 'S14n1x9NQ',
-      image: {
-        id: 'S14n1x9NQ',
-        width: 3000,
-        height: 2400,
-        url: 'https://cdn2.thedogapi.com/images/S14n1x9NQ.jpg',
-      },
-      searchTerms: ['Sabueso americano', 'perro de caza', 'perro rastreador'],
-      country_code: 'US',
-      description:
-        'El Sabueso americano es una raza de sabueso criada para la caza de zorros y como perro rastreador. Es amable, de temperamento dulce, leal, independiente, inteligente y cariñoso.',
-      history: '',
-      categoria_de_tamanio: 'Grande',
-      perks: [
-        'Caza de zorros',
-        'Perro rastreador',
-        'Amable',
-        'Leal',
-        'Independiente',
-        'Inteligente',
-        'Cariñoso',
-      ],
-      color: '',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [],
-    },
-    {
-      weight: {
-        imperial: '30 - 60',
-        metric: '14 - 27',
-      },
-      height: {
-        imperial: '17 - 21',
-        metric: '43 - 53',
-      },
-      id: 15,
-      name: 'American Pit Bull Terrier',
-      bred_for: 'Combates',
-      breed_group: 'Terrier',
-      life_span: '10 - 15 años',
-      temperament:
-        'Fuerte de voluntad, Testarudo, Amistoso, Payaso, Cariñoso, Leal, Obediente, Inteligente, Valiente',
-      origin: 'Estados Unidos',
-      reference_image_id: 'HkC31gcNm',
-      image: {
-        id: 'HkC31gcNm',
-        width: 300,
-        height: 244,
-        url: 'https://cdn2.thedogapi.com/images/HkC31gcNm.png',
-      },
-      searchTerms: ['American Pit Bull Terrier', 'perro de combate'],
-      country_code: 'US',
-      description:
-        'El American Pit Bull Terrier es una raza criada originalmente para peleas de perros. A pesar de su pasado, es fuerte de voluntad, testarudo, amistoso, payaso, cariñoso, leal, obediente, inteligente y valiente.',
-      history: 'No disponible',
-      categoria_de_tamanio: 'Mediano',
-      perks: [
-        'Fuerte de voluntad',
-        'Testarudo',
-        'Amistoso',
-        'Payaso',
-        'Cariñoso',
-        'Leal',
-        'Obediente',
-        'Inteligente',
-        'Valiente',
-      ],
-      color: 'No disponible',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [],
-    },
-    {
-      weight: {
-        imperial: '50 - 60',
-        metric: '23 - 27',
-      },
-      height: {
-        imperial: '17 - 19',
-        metric: '43 - 48',
-      },
-      id: 16,
-      name: 'American Staffordshire Terrier',
-      bred_for: '',
-      breed_group: 'Terrier',
-      life_span: '12 - 15 años',
-      temperament: 'Tenaz, Amistoso, Devoto, Leal, Atento, Valiente',
-      origin: 'Estados Unidos',
-      reference_image_id: 'rJIakgc4m',
-      image: {
-        id: 'rJIakgc4m',
-        width: 357,
-        height: 500,
-        url: 'https://cdn2.thedogapi.com/images/rJIakgc4m.jpg',
-      },
-      searchTerms: ['American Staffordshire Terrier'],
-      country_code: 'US',
-      description:
-        'El American Staffordshire Terrier es una raza de terrier que se caracteriza por su tenacidad, amistad, devoción, lealtad, atención y valentía.',
-      history: '',
-      categoria_de_tamanio: 'Mediano',
-      perks: ['Tenaz', 'Amistoso', 'Devoto', 'Leal', 'Atento', 'Valiente'],
-      color: '',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [],
-    },
-    {
-      weight: {
-        imperial: '25 - 45',
-        metric: '11 - 20',
-      },
-      height: {
-        imperial: '15 - 18',
-        metric: '38 - 46',
-      },
-      id: 17,
-      name: 'Spaniel de agua americano',
-      bred_for: 'Búsqueda y recuperación de aves',
-      breed_group: 'Deportivo',
-      life_span: '10 - 12 años',
-      temperament:
-        'Amistoso, Enérgico, Obediente, Inteligente, Protector, Adiestrable',
-      origin: 'Estados Unidos',
-      reference_image_id: 'SkmRJl9VQ',
-      image: {
-        id: 'SkmRJl9VQ',
-        width: 1600,
-        height: 1264,
-        url: 'https://cdn2.thedogapi.com/images/SkmRJl9VQ.jpg',
-      },
-      searchTerms: [
-        'Spaniel de agua americano',
-        'perro de búsqueda y recuperación',
-      ],
-      country_code: 'US',
-      description:
-        'El Spaniel de agua americano es una raza deportiva criada para la búsqueda y recuperación de aves. Es amistoso, enérgico, obediente, inteligente, protector y adiestrable.',
-      history: '',
-      categoria_de_tamanio: 'Mediano',
-      perks: [
-        'Amistoso',
-        'Enérgico',
-        'Obediente',
-        'Inteligente',
-        'Protector',
-        'Adiestrable',
-      ],
-      color: '',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Alto',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [],
-    },
-    {
-      weight: {
-        imperial: '48 - 55',
-        metric: '22 - 25',
-      },
-      height: {
-        imperial: '20 - 22',
-        metric: '51 - 56',
-      },
-      id: 19,
-      name: 'Appenzeller Sennenhund',
-      bred_for: 'Pastoreo de ganado, tirar de carros y proteger la granja',
-      breed_group: 'Pastor',
-      life_span: '12 – 14 años',
-      temperament: 'Confiable, Intrépido, Enérgico, Vivo, Seguro de sí mismo',
-      origin: 'Suiza', // El Appenzeller Sennenhund es originario de Suiza
-      reference_image_id: 'HkNkxlqEX',
-      image: {
-        id: 'HkNkxlqEX',
-        width: 400,
-        height: 600,
-        url: 'https://cdn2.thedogapi.com/images/HkNkxlqEX.jpg',
-      },
-      searchTerms: [
-        'Appenzeller Sennenhund',
-        'pastoreo de ganado',
-        'tirar de carros',
-        'proteger la granja',
-      ],
-      country_code: 'CH', // El Appenzeller Sennenhund es originario de Suiza
-      description:
-        'El Appenzeller Sennenhund es una raza versátil criada para el pastoreo de ganado, el tirado de carros y la protección de la granja. Es confiable, intrépido, enérgico, vivo y seguro de sí mismo.',
-      history:
-        'El Appenzeller Sennenhund es una raza antigua de perro de montaña de los Alpes suizos.',
-      categoria_de_tamanio: 'Mediano',
-      perks: [
-        'Confiable',
-        'Intrépido',
-        'Enérgico',
-        'Vivo',
-        'Seguro de sí mismo',
-      ],
-      color: 'Negro, Marrón, Blanco',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Excelente',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Requiere ejercicio diario intenso',
-        'Requiere entrenamiento de socialización desde una edad temprana',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [
-        'Displasia de cadera',
-        'Gastric Dilatation-Volvulus (GDV)',
-        'Displasia de codo',
-      ],
-    },
-    {
-      weight: {
-        imperial: '44 - 62',
-        metric: '20 - 28',
-      },
-      height: {
-        imperial: '17 - 20',
-        metric: '43 - 51',
-      },
-      id: 21,
-      name: 'Perro pastor australiano',
-      country_code: 'AU',
-      bred_for: 'Pastoreo de ganado, pruebas de pastoreo',
-      breed_group: 'Pastoreo',
-      life_span: '12 - 14 años',
-      temperament: 'Cauteloso, Enérgico, Leal, Obediente, Protector, Valiente',
-      origin: 'Australia',
-      reference_image_id: 'IBkYVm4v1',
-      image: {
-        id: 'IBkYVm4v1',
-        width: 736,
-        height: 850,
-        url: 'https://cdn2.thedogapi.com/images/IBkYVm4v1.jpg',
-      },
-      searchTerms: [
-        'Perro pastor australiano',
-        'pastoreo de ganado',
-        'pruebas de pastoreo',
-      ],
-      description:
-        'El perro pastor australiano es una raza originaria de Australia. Se crió originalmente para el pastoreo de ganado y pruebas de pastoreo. Son perros cautelosos, enérgicos, leales, obedientes, protectores y valientes.',
-      history:
-        'El perro pastor australiano se desarrolló en Australia para el pastoreo de ganado y las pruebas de pastoreo.',
-      categoria_de_tamanio: 'Mediano',
-      perks: [
-        'Cauteloso',
-        'Enérgico',
-        'Leal',
-        'Obediente',
-        'Protector',
-        'Valiente',
-      ],
-      color: 'Azul merle, negro, rojo merle, rojo sólido', // Los colores comunes de esta raza
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Alto',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Necesita ejercicio diario y mental',
-        'Requiere socialización temprana',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [
-        'Displasia de cadera',
-        'Displasia de codo',
-        'Atrofia progresiva de retina',
-      ],
-    },
-    {
-      weight: {
-        imperial: '31 - 46',
-        metric: '14 - 21',
-      },
-      height: {
-        imperial: '17 - 20',
-        metric: '43 - 51',
-      },
-      id: 22,
-      name: 'Australian Kelpie',
-      country_code: 'AU',
-      bred_for: 'Perro de granja, pastoreo de ganado',
-      breed_group: 'Pastoreo',
-      life_span: '10 - 13 años',
-      temperament: 'Amigable, Enérgico, Alerta, Leal, Inteligente, Ansioso',
-      origin: 'Australia',
-      reference_image_id: 'Hyq1ge9VQ',
-      image: {
-        id: 'Hyq1ge9VQ',
-        width: 800,
-        height: 533,
-        url: 'https://cdn2.thedogapi.com/images/Hyq1ge9VQ.jpg',
-      },
-      searchTerms: [
-        'Australian Kelpie',
-        'perro de granja',
-        'pastoreo de ganado',
-      ],
-      description:
-        'El Australian Kelpie es un perro originario de Australia. Se crió para ser un perro de granja y para el pastoreo de ganado. Son perros amigables, enérgicos, alertas, leales, inteligentes y ansiosos.',
-      history:
-        'El Australian Kelpie fue criado en Australia para ser un perro de granja y para el pastoreo de ganado.',
-      categoria_de_tamanio: 'Mediano',
-      perks: [
-        'Amigable',
-        'Enérgico',
-        'Alerta',
-        'Leal',
-        'Inteligente',
-        'Ansioso',
-      ],
-      color: 'Negro, Marrón, Rojo, Gris', // Colores comunes de esta raza
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Alto',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Necesita ejercicio diario y mental',
-        'Requiere socialización temprana',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [
-        'Displasia de cadera',
-        'Atrofia progresiva de retina',
-      ],
-    },
-    {
-      weight: {
-        imperial: '35 - 65',
-        metric: '16 - 29',
-      },
-      height: {
-        imperial: '18 - 23',
-        metric: '46 - 58',
-      },
-      id: 23,
-      name: 'Pastor australiano',
-      country_code: 'AU',
-      bred_for: 'Pastoreo de ovejas',
-      breed_group: 'Pastoreo',
-      life_span: '12 - 16 años',
-      temperament: 'De buen carácter, Cariñoso, Inteligente, Activo, Protector',
-      origin: 'Australia',
-      reference_image_id: 'B1-llgq4m',
-      image: {
-        id: 'B1-llgq4m',
-        width: 1200,
-        height: 733,
-        url: 'https://cdn2.thedogapi.com/images/B1-llgq4m.jpg',
-      },
-      searchTerms: ['Pastor australiano', 'pastoreo de ovejas'],
-      description:
-        'El pastor australiano es un perro de pastoreo originario de Australia. Se crió para el pastoreo de ovejas. Son perros de buen carácter, cariñosos, inteligentes, activos y protectores.',
-      history:
-        'El pastor australiano fue criado en Australia para pastoreo de ovejas.',
-      categoria_de_tamanio: 'Mediano',
-      perks: [
-        'De buen carácter',
-        'Cariñoso',
-        'Inteligente',
-        'Activo',
-        'Protector',
-      ],
-      color: 'Multicolor, Azul merle, Rojo merle', // Colores comunes de esta raza
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Alto',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Necesita ejercicio diario y mental',
-        'Requiere socialización temprana',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [
-        'Displasia de cadera',
-        'Atrofia progresiva de retina',
-      ],
-    },
-    {
-      weight: {
-        imperial: '14 - 16',
-        metric: '6 - 7',
-      },
-      height: {
-        imperial: '10 - 11',
-        metric: '25 - 28',
-      },
-      id: 24,
-      name: 'Terrier australiano',
-      country_code: 'AU',
-      bred_for: 'Pastoreo de ganado, caza de serpientes y roedores',
-      breed_group: 'Terrier',
-      life_span: '15 años',
-      temperament:
-        'Animado, Alerta, Leal, Compañero, de Temperamento Equilibrado, Valiente',
-      origin: 'Australia',
-      reference_image_id: 'r1Ylge5Vm',
-      image: {
-        id: 'r1Ylge5Vm',
-        width: 1081,
-        height: 720,
-        url: 'https://cdn2.thedogapi.com/images/r1Ylge5Vm.jpg',
-      },
-      searchTerms: [
-        'Terrier australiano',
-        'pastoreo de ganado',
-        'caza de serpientes',
-        'caza de roedores',
-      ],
-      description:
-        'El terrier australiano es un perro originario de Australia. Se crió para el pastoreo de ganado, la caza de serpientes y la caza de roedores. Son perros animados, alertas, leales, compañeros, de temperamento equilibrado y valientes.',
-      history:
-        'El terrier australiano fue criado en Australia para pastoreo de ganado, caza de serpientes y roedores.',
-      categoria_de_tamanio: 'Pequeño',
-      perks: [
-        'Animado',
-        'Alerta',
-        'Leal',
-        'Compañero',
-        'De temperamento equilibrado',
-        'Valiente',
-      ],
-      color: 'Azul, rojo', // Colores comunes de esta raza
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Necesita ejercicio diario y mental',
-        'Requiere socialización temprana',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: ['Alergias de piel', 'Problemas dentales'],
-    },
-    {
-      weight: {
-        imperial: '14 - 16',
-        metric: '6 - 7',
-      },
-      height: {
-        imperial: '10 - 11',
-        metric: '25 - 28',
-      },
-      id: 24,
-      name: 'Terrier australiano',
-      bred_for: 'Pastoreo de ganado, caza de serpientes y roedores',
-      breed_group: 'Terrier',
-      life_span: '15 años',
-      temperament:
-        'Animado, Alerta, Leal, Compañero, de Temperamento Equilibrado, Valiente',
-      origin: 'Australia', // Traducido de 'Origin'
-      reference_image_id: 'r1Ylge5Vm',
-      image: {
-        id: 'r1Ylge5Vm',
-        width: 1081,
-        height: 720,
-        url: 'https://cdn2.thedogapi.com/images/r1Ylge5Vm.jpg',
-      },
-      searchTerms: [
-        'Terrier australiano',
-        'pastoreo de ganado',
-        'caza de serpientes',
-        'caza de roedores',
-      ],
-      country_code: 'AU',
-      description:
-        'El terrier australiano es un perro originario de Australia. Se crió para el pastoreo de ganado, la caza de serpientes y la caza de roedores. Son perros animados, alertas, leales, compañeros, de temperamento equilibrado y valientes.',
-      history:
-        'Criado en Australia para pastorear ganado y cazar serpientes y roedores.',
-      categoria_de_tamanio: 'Pequeño',
-      perks: [
-        'Animado',
-        'Alerta',
-        'Leal',
-        'Compañero',
-        'De temperamento equilibrado',
-        'Valiente',
-      ],
-      color: 'Variable', // Este es un valor por defecto, ya que no tenemos la información exacta
-      nivel_de_energia: 'Alto', // Este es un valor por defecto, basado en el temperamento del perro
-      facilidad_de_entrenamiento: 'Moderado', // Este es un valor por defecto, basado en el temperamento del perro
-      salud_general: 'Buena', // Este es un valor por defecto, asumiendo que la raza no tiene problemas de salud notorios
-      compatibilidad_con_otros_animales: 'Moderada', // Este es un valor por defecto, asumiendo que el perro es un Terrier
-      necesidades_especiales: ['Necesita ejercicio regular'], // Este es un valor por defecto, basado en el nivel de energía del perro
-      popularidad: 'Moderada', // Este es un valor por defecto, asumiendo que la raza es conocida pero no extremadamente popular
-      enfermedades_comunes: ['Ninguna notable'], // Este es un valor por defecto, asumiendo que la raza no tiene problemas de salud notorios
-    },
-    {
-      weight: {
-        imperial: '33 - 55',
-        metric: '15 - 25',
-      },
-      height: {
-        imperial: '23 - 29',
-        metric: '58 - 74',
-      },
-      id: 25,
-      name: 'Azawakh',
-      bred_for: 'Protección de ganado, caza',
-      breed_group: 'Levantador',
-      life_span: '10 - 13 años',
-      temperament: 'Distante, Cariñoso, Atento, Resistente, Feroz, Refinado',
-      origin: 'África Occidental', // Según mi conocimiento, Azawakh es originario de África Occidental
-      reference_image_id: 'SkvZgx94m',
-      image: {
-        id: 'SkvZgx94m',
-        width: 1024,
-        height: 768,
-        url: 'https://cdn2.thedogapi.com/images/SkvZgx94m.jpg',
-      },
-      searchTerms: ['Azawakh', 'protección de ganado', 'caza'],
-      country_code: 'ML', // ML es el código del país de Mali, de donde se cree que proviene la raza Azawakh.
-      description:
-        'El Azawakh es una raza de perro utilizada para la protección de ganado y la caza. Son perros distantes, cariñosos, atentos, resistentes, feroces y refinados.',
-      history:
-        'El Azawakh es una antigua raza de perros de caza del Sahel, región del África Occidental.', // Un poco de historia basada en lo que sé sobre la raza.
-      categoria_de_tamanio: 'Grande',
-      perks: [
-        'Distante',
-        'Cariñoso',
-        'Atento',
-        'Resistente',
-        'Feroz',
-        'Refinado',
-      ],
-      color: 'Varios', // Los Azawakhs vienen en una variedad de colores.
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Necesita ejercicio diario debido a su alto nivel de energía',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [
-        'Osteocondritis disecante',
-        'Hipotiroidismo',
-        'Epilepsia',
-      ], // Algunas enfermedades comunes para la raza Azawakh.
-    },
-    {
-      weight: {
-        imperial: '40 - 65',
-        metric: '18 - 29',
-      },
-      height: {
-        imperial: '20 - 26',
-        metric: '51 - 66',
-      },
-      id: 26,
-      name: 'Barbet',
-      bred_for: 'Caza de aves acuáticas',
-      breed_group: 'Grupo de Perros de Caza', // Aunque no se mencionó originalmente, los Barbet generalmente se clasifican como perros de caza
-      life_span: '13 – 15 años',
-      temperament: 'Obediente, Compañero, Inteligente, Alegre',
-      origin: 'Francia', // Según mi conocimiento, Barbet es originario de Francia
-      reference_image_id: 'HyWGexcVQ',
-      image: {
-        id: 'HyWGexcVQ',
-        width: 853,
-        height: 1280,
-        url: 'https://cdn2.thedogapi.com/images/HyWGexcVQ.jpg',
-      },
-      searchTerms: ['Barbet', 'caza de aves acuáticas'],
-      country_code: 'FR', // FR es el código de país de Francia, de donde es originario el Barbet.
-      description:
-        'El Barbet es una raza de perro utilizada para la caza de aves acuáticas. Son perros obedientes, compañeros, inteligentes y alegres.',
-      history: 'El Barbet es una raza de perros de agua francesa muy antigua.', // Un poco de historia basada en lo que sé sobre la raza.
-      categoria_de_tamanio: 'Mediano',
-      perks: ['Obediente', 'Compañero', 'Inteligente', 'Alegre'],
-      color: 'Varios', // Los Barbets vienen en una variedad de colores.
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Alto',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Alta',
-      necesidades_especiales: [
-        'Necesita ejercicio diario debido a su alto nivel de energía',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'], // Algunas enfermedades comunes para la raza Barbet.
-    },
-    {
-      weight: {
-        imperial: '22 - 24',
-        metric: '10 - 11',
-      },
-      height: {
-        imperial: '16 - 17',
-        metric: '41 - 43',
-      },
-      id: 28,
-      name: 'Basenji',
-      bred_for: 'Caza',
-      breed_group: 'Levantador',
-      life_span: '10 - 12 años',
-      temperament: 'Cariñoso, Enérgico, Alerta, Curioso, Juguetón, Inteligente',
-      origin: 'Congo', // Basenji es originario del Congo
-      reference_image_id: 'H1dGlxqNQ',
-      image: {
-        id: 'H1dGlxqNQ',
-        width: 740,
-        height: 493,
-        url: 'https://cdn2.thedogapi.com/images/H1dGlxqNQ.jpg',
-      },
-      searchTerms: ['Basenji', 'caza'],
-      country_code: 'CG', // CG es el código de país del Congo, de donde es originario el Basenji.
-      description:
-        'El Basenji es un perro de caza. Son perros cariñosos, enérgicos, alertas, curiosos, juguetones e inteligentes.',
-      history:
-        'El Basenji es una raza de perros muy antigua, originaria de la zona central de África. Han sido compañeros de caza de los humanos desde tiempos muy antiguos.',
-      categoria_de_tamanio: 'Pequeño',
-      perks: [
-        'Cariñoso',
-        'Enérgico',
-        'Alerta',
-        'Curioso',
-        'Juguetón',
-        'Inteligente',
-      ],
-      color: 'Rojo, Negro, Tricolor', // Los Basenjis suelen ser de estos colores.
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Necesita ejercicio físico y mental diario debido a su alto nivel de energía y curiosidad',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: ['Síndrome de Fanconi', 'Distrofia corneal'], // Algunas enfermedades comunes para la raza Basenji.
-    },
-    {
-      weight: {
-        imperial: '35 - 40',
-        metric: '16 - 18',
-      },
-      height: {
-        imperial: '13 - 15',
-        metric: '33 - 38',
-      },
-      id: 29,
-      name: 'Basset Bleu de Gascogne',
-      bred_for: 'Caza a pie',
-      breed_group: 'Levantador',
-      life_span: '10 - 14 años',
-      temperament: 'Cariñoso, Animado, Ágil, Curioso, Feliz, Activo',
-      origin: 'Francia', // Basset Bleu de Gascogne es originario de Francia
-      reference_image_id: 'BkMQll94X',
-      image: {
-        id: 'BkMQll94X',
-        width: 1280,
-        height: 853,
-        url: 'https://cdn2.thedogapi.com/images/BkMQll94X.jpg',
-      },
-      searchTerms: ['Basset Bleu de Gascogne', 'caza a pie'],
-      country_code: 'FR', // FR es el código de país de Francia, de donde es originario el Basset Bleu de Gascogne.
-      description:
-        'El Basset Bleu de Gascogne es una raza de perro utilizada para la caza a pie. Son perros cariñosos, animados, ágiles, curiosos, felices y activos.',
-      history:
-        'El Basset Bleu de Gascogne es una raza muy antigua de perros franceses, originalmente utilizada para la caza a pie en la región de Gascuña.',
-      categoria_de_tamanio: 'Pequeño',
-      perks: ['Cariñoso', 'Animado', 'Ágil', 'Curioso', 'Feliz', 'Activo'],
-      color: 'Azul', // Los Basset Bleu de Gascogne son típicamente de color azul.
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Necesita ejercicio físico y mental diario debido a su alto nivel de energía y su instinto de caza',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: ['Obesidad', 'Otitis'], // Algunas enfermedades comunes para la raza Basset Bleu de Gascogne.
-    },
-    {
-      weight: {
-        imperial: '50 - 65',
-        metric: '23 - 29',
-      },
-      height: {
-        imperial: '14',
-        metric: '36',
-      },
-      id: 30,
-      name: 'Basset Hound',
-      bred_for: 'Caza por olfato',
-      breed_group: 'Levantador',
-      life_span: '12 - 15 años',
-      temperament:
-        'Tenaz, Amigable, Cariñoso, Devoto, de Temperamento Dulce, Gentil',
-      origin: 'Francia', // Basset Hound es originario de Francia
-      reference_image_id: 'Sy57xx9EX',
-      image: {
-        id: 'Sy57xx9EX',
-        width: 1024,
-        height: 640,
-        url: 'https://cdn2.thedogapi.com/images/Sy57xx9EX.jpg',
-      },
-      searchTerms: ['Basset Hound', 'caza por olfato'],
-      country_code: 'FR', // FR es el código de país de Francia, de donde es originario el Basset Hound.
-      description:
-        'El Basset Hound es una raza de perro utilizada para la caza por olfato. Son perros tenaces, amigables, cariñosos, devotos, de temperamento dulce y gentil.',
-      history:
-        'El Basset Hound es una raza antigua y famosa de perros de rastreo. Se crió por su habilidad para seguir un olor a través de terrenos difíciles.',
-      categoria_de_tamanio: 'Mediano',
-      perks: [
-        'Tenaz',
-        'Amigable',
-        'Cariñoso',
-        'Devoto',
-        'Temperamento Dulce',
-        'Gentil',
-      ],
-      color: 'Tricolor', // Los Basset Hound son típicamente tricolores: blanco, negro y marrón.
-      nivel_de_energia: 'Moderado',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Alta',
-      necesidades_especiales: [
-        'Requiere mucho ejercicio para mantener un peso saludable debido a su predisposición a la obesidad',
-      ],
-      popularidad: 'Alta',
-      enfermedades_comunes: [
-        'Obesidad',
-        'Problemas de oído debido a sus largas orejas',
-      ], // Algunas enfermedades comunes para la raza Basset Hound.
-    },
-    {
-      weight: {
-        imperial: '20 - 35',
-        metric: '9 - 16',
-      },
-      height: {
-        imperial: '13 - 15',
-        metric: '33 - 38',
-      },
-      id: 31,
-      name: 'Beagle',
-      bred_for: 'Caza de conejos y liebres',
-      breed_group: 'Levantador',
-      life_span: '13 - 16 años',
-      temperament:
-        'Amigable, de Temperamento Equilibrado, Excitable, Determinado, Gentil, Inteligente',
-      origin: 'Inglaterra', // Beagle es originario de Inglaterra
-      reference_image_id: 'Syd4xxqEm',
-      image: {
-        id: 'Syd4xxqEm',
-        width: 1000,
-        height: 667,
-        url: 'https://cdn2.thedogapi.com/images/Syd4xxqEm.jpg',
-      },
-      searchTerms: ['Beagle', 'caza de conejos', 'caza de liebres'],
-      country_code: 'GB', // GB es el código de país de Reino Unido, de donde es originario el Beagle.
-      description:
-        'El Beagle es una raza de perro utilizada para la caza de conejos y liebres. Son perros amigables, de temperamento equilibrado, excitables, determinados, gentiles e inteligentes.',
-      history:
-        'El Beagle es una raza de perro pequeña a mediana, similar en apariencia a la mucho más grande Foxhound. Los Beagles son perros de caza y fueron criados para este propósito principalmente para rastrear liebres, conejos y otras pequeñas presas.',
-      categoria_de_tamanio: 'Mediano',
-      perks: [
-        'Amigable',
-        'Temperamento Equilibrado',
-        'Excitable',
-        'Determinado',
-        'Gentil',
-        'Inteligente',
-      ],
-      color: 'Tricolor', // Los Beagle son típicamente tricolores: blanco, negro y marrón.
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Alta',
-      necesidades_especiales: [
-        'Necesidad de mucho ejercicio y estímulo mental debido a su alta energía e inteligencia',
-      ],
-      popularidad: 'Alta',
-      enfermedades_comunes: [
-        'Obesidad',
-        'Displasia de cadera',
-        'Hipotiroidismo',
-      ], // Algunas enfermedades comunes para la raza Beagle.
-    },
-    {
-      weight: {
-        imperial: '45 - 55',
-        metric: '20 - 25',
-      },
-      height: {
-        imperial: '20 - 22',
-        metric: '51 - 56',
-      },
-      id: 32,
-      name: 'Collie barbudo',
-      bred_for: 'Pastoreo de ovejas',
-      breed_group: 'Pastoreo',
-      life_span: '12 - 14 años',
-      temperament:
-        'Seguro de sí mismo, Robusto, Vivo, Alerta, Inteligente, Activo',
-      origin: 'Escocia', // El Collie Barbudo es originario de Escocia
-      reference_image_id: 'A09F4c1qP',
-      image: {
-        id: 'A09F4c1qP',
-        width: 733,
-        height: 733,
-        url: 'https://cdn2.thedogapi.com/images/A09F4c1qP.jpg',
-      },
-      searchTerms: ['Collie barbudo', 'pastoreo de ovejas'],
-      country_code: 'GB', // GB es el código de país de Reino Unido, de donde es originario el Collie Barbudo.
-      description:
-        'El Collie barbudo es una raza de perro utilizada para el pastoreo de ovejas. Son perros seguros de sí mismos, robustos, vivos, alertas, inteligentes y activos.',
-      history:
-        'El Collie Barbudo, también conocido como "Highland Collie", es una raza de perro de pastoreo que se originó en Escocia. Los Collies Barbudos han estado pastoreando ovejas en las Tierras Altas de Escocia durante siglos.',
-      categoria_de_tamanio: 'Mediano',
-      perks: [
-        'Seguro de sí mismo',
-        'Robusto',
-        'Vivo',
-        'Alerta',
-        'Inteligente',
-        'Activo',
-      ],
-      color: 'Gris', // Los Collie Barbudo son generalmente grises, aunque pueden tener variaciones de color.
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Alto',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Alta',
-      necesidades_especiales: [
-        'Necesita mucho ejercicio y espacio para correr debido a su naturaleza activa y su crianza como perro de pastoreo',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [
-        'Displasia de cadera',
-        'Atrofia progresiva de la retina',
-        'Hipotiroidismo',
-      ], // Algunas enfermedades comunes para la raza Collie Barbudo.
-    },
-    {
-      weight: {
-        imperial: '80 - 110',
-        metric: '36 - 50',
-      },
-      height: {
-        imperial: '24 - 27.5',
-        metric: '61 - 70',
-      },
-      id: 33,
-      name: 'Beauceron',
-      bred_for: 'Pastoreo de jabalíes, caza, guardia',
-      breed_group: 'Pastoreo',
-      life_span: '10 - 12 años',
-      temperament: 'Sin miedo, Amigable, Inteligente, Protector, Calmo',
-      origin: 'Francia', // El Beauceron es originario de Francia
-      reference_image_id: 'HJQ8ge5V7',
-      image: {
-        id: 'HJQ8ge5V7',
-        width: 720,
-        height: 563,
-        url: 'https://cdn2.thedogapi.com/images/HJQ8ge5V7.jpg',
-      },
-      searchTerms: ['Beauceron', 'Pastoreo de jabalíes', 'Caza', 'Guardia'],
-      country_code: 'FR', // FR es el código de país de Francia, de donde es originario el Beauceron.
-      description:
-        'El Beauceron es una raza de perro conocida por su valentía, amabilidad, inteligencia y temperamento calmado. Originalmente se utilizaban para pastorear jabalíes, cazar y como perros guardianes.',
-      history:
-        'El Beauceron, también conocido como Berger de Beauce o Pastor de Beauce, es una raza de perro de pastoreo de origen francés. Se utilizaba para pastorear ovejas y para cazar jabalíes.',
-      categoria_de_tamanio: 'Grande',
-      perks: ['Sin miedo', 'Amigable', 'Inteligente', 'Protector', 'Calmo'],
-      color: 'Negro y fuego', // Los Beaucerons son generalmente negros y fuego, aunque pueden tener variaciones de color.
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Alto',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Necesita mucho ejercicio y entrenamiento debido a su inteligencia y energía',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [
-        'Displasia de cadera',
-        'Hipotiroidismo',
-        'Gastritis',
-      ], // Algunas enfermedades comunes para la raza Beauceron.
-    },
-    {
-      weight: {
-        imperial: '17 - 23',
-        metric: '8 - 10',
-      },
-      height: {
-        imperial: '15 - 16',
-        metric: '38 - 41',
-      },
-      id: 34,
-      name: 'Bedlington Terrier',
-      bred_for: 'Matar ratas, tejones, otras alimañas',
-      breed_group: 'Terrier',
-      life_span: '14 - 16 años',
-      temperament: 'Afectuoso, Enérgico, Inteligente, Buen temperamento',
-      origin: 'Reino Unido', // El Bedlington Terrier es originario del Reino Unido
-      reference_image_id: 'ByK8gx947',
-      image: {
-        id: 'ByK8gx947',
-        width: 804,
-        height: 531,
-        url: 'https://cdn2.thedogapi.com/images/ByK8gx947.jpg',
-      },
-      searchTerms: ['Bedlington Terrier', 'Matar ratas', 'Tejones', 'Alimañas'],
-      country_code: 'GB', // GB es el código de país del Reino Unido, de donde es originario el Bedlington Terrier.
-      description:
-        'El Bedlington Terrier es una raza de perro conocida por su carácter afectuoso, enérgico e inteligente. Originalmente se utilizaban para matar ratas, tejones y otras alimañas.',
-      history:
-        'El Bedlington Terrier es una raza de perro de terrier que se originó en la ciudad de Bedlington, en el norte de Inglaterra. Se utilizaban originalmente como perros cazadores de ratas y tejones.',
-      categoria_de_tamanio: 'Mediano',
-      perks: ['Afectuoso', 'Enérgico', 'Inteligente', 'Buen temperamento'],
-      color: 'Blanco', // Los Bedlington Terriers son comúnmente de color blanco.
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Requiere ejercicio regular debido a su alta energía',
-      ],
-      popularidad: 'Moderada',
-      enfermedades_comunes: [
-        'Problemas de hígado',
-        'Displasia de cadera',
-        'Problemas oculares',
-      ], // Algunas enfermedades comunes para la raza Bedlington Terrier.
-    },
-    {
-      weight: {
-        imperial: '40 - 80',
-        metric: '18 - 36',
-      },
-      height: {
-        imperial: '22 - 26',
-        metric: '56 - 66',
-      },
-      id: 36,
-      name: 'Belgian Malinois',
-      bred_for: 'Pastoreo de ganado',
-      breed_group: 'Pastor',
-      life_span: '12 - 14 años',
-      temperament:
-        'Vigilante, Alerta, Obstinado, Amistoso, Confiable, Trabajador, Activo, Protector',
-      origin: 'Bélgica', // El Belgian Malinois es originario de Bélgica
-      reference_image_id: 'r1f_ll5VX',
-      image: {
-        id: 'r1f_ll5VX',
-        width: 604,
-        height: 453,
-        url: 'https://cdn2.thedogapi.com/images/r1f_ll5VX.jpg',
-      },
-      searchTerms: [
-        'Belgian Malinois',
-        'Pastoreo de ganado',
-        'Vigilante',
-        'Alerta',
-        'Obstinado',
-        'Amistoso',
-        'Confiable',
-        'Trabajador',
-        'Activo',
-        'Protector',
-      ],
-      country_code: 'BE', // BE es el código de país de Bélgica, de donde es originario el Belgian Malinois.
-      description:
-        'El Belgian Malinois es una raza de perro de pastor conocida por su temperamento vigilante, alerta, obstinado, amistoso, confiable, trabajador, activo y protector. Son especialmente conocidos por su papel en el pastoreo de ganado.',
-      history:
-        'El Belgian Malinois es una de las cuatro variedades de perros de pastor belga. Originalmente se criaban para el pastoreo de ganado, pero su versatilidad los ha llevado a diversos roles como perros policiales y de servicio.',
-      categoria_de_tamanio: 'Grande',
-      perks: [
-        'Vigilante',
-        'Alerta',
-        'Obstinado',
-        'Amistoso',
-        'Confiable',
-        'Trabajador',
-        'Activo',
-        'Protector',
-      ],
-      color: 'Marrón', // Los Belgian Malinois son comúnmente de color marrón.
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Alto',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: [
-        'Requiere ejercicio regular debido a su alta energía',
-        'Necesita estimulación mental regular',
-      ],
-      popularidad: 'Alta',
-      enfermedades_comunes: [
-        'Displasia de cadera',
-        'Problemas oculares',
-        'Epilepsia',
-      ], // Algunas enfermedades comunes para la raza Belgian Malinois.
-    },
-    {
-      weight: {
-        imperial: '40 - 65',
-        metric: '18 - 29',
-      },
-      height: {
-        imperial: '22 - 26',
-        metric: '56 - 66',
-      },
-      id: 38,
-      name: 'Belgian Tervuren',
-      bred_for: 'Guardia, trabajo de tracción, trabajo policial.',
-      breed_group: 'Pastor',
-      life_span: '10 - 12 años',
-      temperament: 'Energético, Alerta, Leal, Inteligente, Atento, Protector',
-      origin: 'Bélgica',
-      reference_image_id: 'B1KdxlcNX',
-      image: {
-        id: 'B1KdxlcNX',
-        width: 645,
-        height: 380,
-        url: 'https://cdn2.thedogapi.com/images/B1KdxlcNX.jpg',
-      },
-      searchTerms: ['Belgian Tervuren', 'Pastor', 'Protector'],
-      country_code: 'BE',
-      description:
-        'El Belgian Tervuren es conocido por su energía y su agudo sentido de protección. Es un excelente perro de trabajo y se lleva bien con su familia.',
-      history:
-        'Originarios de Bélgica, fueron criados inicialmente para la guardia y el trabajo de tracción.',
-      categoria_de_tamanio: 'Grande',
-      perks: ['Guardián', 'Trabajador', 'Protector'],
-      color: 'Negro, Marrón, Gris',
-      nivel_de_energia: 'Alto',
-      facilidad_de_entrenamiento: 'Alto',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Moderada',
-      necesidades_especiales: ['Necesidad de ejercicio'],
-      popularidad: 'Moderada',
-      enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
-    },
-    {
-      weight: {
-        imperial: '65 - 120',
-        metric: '29 - 54',
-      },
-      height: {
-        imperial: '23 - 27.5',
-        metric: '58 - 70',
-      },
-      id: 41,
-      name: 'Bernese Mountain Dog',
-      bred_for: 'Trabajo de tracción',
-      breed_group: 'Trabajo',
-      life_span: '7 - 10 años',
-      temperament: 'Cariñoso, Leal, Inteligente, Fiel',
-      origin: 'Suiza',
-      reference_image_id: 'S1fFlx5Em',
-      image: {
-        id: 'S1fFlx5Em',
-        width: 640,
-        height: 427,
-        url: 'https://cdn2.thedogapi.com/images/S1fFlx5Em.jpg',
-      },
-      searchTerms: ['Bernese Mountain Dog', 'Trabajo', 'Fiel'],
-      country_code: 'CH',
-      description:
-        'El Bernese Mountain Dog es conocido por su lealtad y su inteligencia. Son excelentes perros de trabajo y se llevan bien con su familia.',
-      history:
-        'Originarios de Suiza, fueron criados inicialmente para el trabajo de tracción.',
-      categoria_de_tamanio: 'Muy grande',
-      perks: ['Leal', 'Inteligente', 'Fiel'],
-      color: 'Negro, Blanco, Marrón',
-      nivel_de_energia: 'Moderado',
-      facilidad_de_entrenamiento: 'Alto',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Alta',
-      necesidades_especiales: ['Necesidad de ejercicio'],
-      popularidad: 'Alta',
-      enfermedades_comunes: [
-        'Displasia de cadera',
-        'Problemas oculares',
-        'Cáncer',
-      ],
-    },
-    {
-      weight: {
-        imperial: '10 - 18',
-        metric: '5 - 8',
-      },
-      height: {
-        imperial: '9.5 - 11.5',
-        metric: '24 - 29',
-      },
-      id: 42,
-      name: 'Bichon Frise',
-      bred_for: 'Compañía',
-      breed_group: 'No deportivo',
-      life_span: '15 años',
-      temperament: 'Animado, Cariñoso, Alegre, Juguetón, Gentil, Sensible',
-      origin: 'Francia',
-      reference_image_id: 'HkuYlxqEQ',
-      image: {
-        id: 'HkuYlxqEQ',
-        width: 480,
-        height: 360,
-        url: 'https://cdn2.thedogapi.com/images/HkuYlxqEQ.jpg',
-      },
-      searchTerms: ['Bichon Frise', 'Compañía', 'Alegre'],
-      country_code: 'FR',
-      description:
-        'El Bichon Frise es un perro alegre y juguetón, perfecto para la compañía. Son sensibles y requieren una atención constante de su familia.',
-      history:
-        'Originario de Francia, el Bichon Frise fue criado para ser un perro de compañía.',
-      categoria_de_tamanio: 'Pequeño',
-      perks: ['Alegre', 'Juguetón', 'Cariñoso'],
-      color: 'Blanco',
-      nivel_de_energia: 'Moderado',
-      facilidad_de_entrenamiento: 'Moderado',
-      salud_general: 'Buena',
-      compatibilidad_con_otros_animales: 'Alta',
-      necesidades_especiales: [
-        'Necesidad de atención',
-        'Frecuentes visitas al peluquero',
-      ],
-      popularidad: 'Alta',
-      enfermedades_comunes: ['Alergias', 'Problemas de piel'],
-    },
-  ];
+  // private dogList: { [key: number]: Dog } = {
+  //   1: {
+  //     weight: {
+  //       imperial: '6 - 13',
+  //       metric: '3 - 6',
+  //     },
+  //     height: {
+  //       imperial: '9 - 11.5',
+  //       metric: '23 - 29',
+  //     },
+  //     id: 1,
+  //     name: 'Affenpinscher',
+  //     bred_for: 'Caza de roedores pequeños, perro faldero',
+  //     breed_group: 'Grupo de juguetes',
+  //     life_span: '10 - 12 años',
+  //     temperament:
+  //       'Terco, Curioso, Juguetón, Aventurero, Activo, Amante de la diversión',
+  //     origin: 'Alemania, Francia',
+  //     reference_image_id: 'BJa4kxc4X',
+  //     image: {
+  //       id: 'BJa4kxc4X',
+  //       width: 1600,
+  //       height: 1199,
+  //       url: 'https://cdn2.thedogapi.com/images/BJa4kxc4X.jpg',
+  //     },
+  //     searchTerms: ['Affenpinscher', 'perro pequeño', 'caza de roedores'],
+  //     description:
+  //       'El Affenpinscher es una raza de perro pequeño originaria de Alemania y Francia. Es conocido por ser un perro de caza de roedores y también como perro faldero. Es terco, curioso, juguetón, aventurero, activo y amante de la diversión.',
+  //     country_code: 'DE',
+  //     history:
+  //       'El Affenpinscher tiene su origen en Alemania y Francia en el siglo XVII. Fue criado inicialmente para cazar roedores en las cocinas y establos.',
+  //     categoria_de_tamanio: 'Pequeño',
+  //     perks: [
+  //       'No necesita mucho espacio',
+  //       'Requiere poco aseo',
+  //       'Necesita ejercicio moderado',
+  //     ],
+  //     color: 'Negro, Gris, Plata, Rojo',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: ['Necesita estimulación mental regular'],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Problemas dentales', 'Luxación de rótula'],
+  //   },
+  //   2: {
+  //     weight: {
+  //       imperial: '50 - 60',
+  //       metric: '23 - 27',
+  //     },
+  //     height: {
+  //       imperial: '25 - 27',
+  //       metric: '64 - 69',
+  //     },
+  //     id: 2,
+  //     name: 'Sabueso afgano',
+  //     country_code: 'AG',
+  //     bred_for: 'Caza y persecución',
+  //     breed_group: 'Sabueso',
+  //     life_span: '10 - 13 años',
+  //     temperament: 'Distante, Payaso, Digno, Independiente, Feliz',
+  //     origin: 'Afganistán, Irán, Pakistán',
+  //     reference_image_id: 'hMyT4CDXR',
+  //     image: {
+  //       id: 'hMyT4CDXR',
+  //       width: 606,
+  //       height: 380,
+  //       url: 'https://cdn2.thedogapi.com/images/hMyT4CDXR.jpg',
+  //     },
+  //     searchTerms: ['Sabueso afgano', 'perro de caza', 'perro de persecución'],
+  //     description:
+  //       'El Sabueso afgano, también conocido como Afghan Hound, es una raza de perro de caza y persecución originaria de Afganistán, Irán y Pakistán. Se caracteriza por su apariencia distante, su temperamento de payaso y su dignidad. Es un perro independiente y feliz.',
+  //     history:
+  //       'El Sabueso afgano es una de las razas de perros más antiguas, originaria de las regiones montañosas de Afganistán. Tradicionalmente se utilizaba para la caza en terrenos difíciles.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: [
+  //       'Necesita espacio para correr',
+  //       'Requiere aseo regular',
+  //       'Necesita ejercicio regular',
+  //     ],
+  //     color: 'Varía - Blanco, Negro, Rojo, Crema, Gris, Multicolor',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Bajo',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: ['Necesita mucha estimulación mental y física'],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Problemas de la vista', 'Hipotiroidismo'],
+  //   },
+  //   3: {
+  //     weight: {
+  //       imperial: '44 - 66',
+  //       metric: '20 - 30',
+  //     },
+  //     height: {
+  //       imperial: '30',
+  //       metric: '76',
+  //     },
+  //     id: 3,
+  //     name: 'Perro de caza africano',
+  //     bred_for: 'Un animal salvaje en manada',
+  //     life_span: '11 años',
+  //     temperament: 'Salvaje, Trabajador, Dedicado',
+  //     origin: 'África',
+  //     reference_image_id: 'rkiByec47',
+  //     image: {
+  //       id: 'rkiByec47',
+  //       width: 500,
+  //       height: 335,
+  //       url: 'https://cdn2.thedogapi.com/images/rkiByec47.jpg',
+  //     },
+  //     searchTerms: ['Perro de caza africano', 'perro de caza en manada'],
+  //     description:
+  //       'El Perro de caza africano, o African Hunting Dog, es un animal salvaje que se encuentra en manadas. Aunque su origen específico es desconocido, se sabe que es un perro salvaje, trabajador y dedicado.',
+  //     country_code: 'AF',
+  //     history:
+  //       'El Perro de caza africano es una raza salvaje originaria de África, conocida por su habilidad para cazar en manadas.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: [
+  //       'Necesita espacio para correr',
+  //       'Requiere poco aseo',
+  //       'Necesita ejercicio regular',
+  //     ],
+  //     color: 'Varía - Blanco, Negro, Marrón, Manchado',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Bajo',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: ['Necesita mucha estimulación mental y física'],
+  //     popularidad: 'Baja',
+  //     enfermedades_comunes: [
+  //       'Problemas de la vista',
+  //       'Enfermedades infecciosas',
+  //     ],
+  //   },
+  //   4: {
+  //     weight: {
+  //       imperial: '40 - 65',
+  //       metric: '18 - 29',
+  //     },
+  //     height: {
+  //       imperial: '21 - 23',
+  //       metric: '53 - 58',
+  //     },
+  //     id: 4,
+  //     name: 'Airedale Terrier',
+  //     bred_for: 'Caza de tejones y nutrias',
+  //     life_span: '10 - 13 años',
+  //     temperament:
+  //       'Sociable, Amigable, Alerta, Confiado, Inteligente, Valiente',
+  //     origin: 'Reino Unido, Inglaterra',
+  //     reference_image_id: '1-7cgoZSh',
+  //     image: {
+  //       id: '1-7cgoZSh',
+  //       width: 645,
+  //       height: 430,
+  //       url: 'https://cdn2.thedogapi.com/images/1-7cgoZSh.jpg',
+  //     },
+  //     searchTerms: [
+  //       'Airedale Terrier',
+  //       'perro de caza',
+  //       'caza de tejones',
+  //       'caza de nutrias',
+  //     ],
+  //     description:
+  //       'El Airedale Terrier es un perro de caza utilizado para la caza de tejones y nutrias. Originario del Reino Unido e Inglaterra, pertenece al grupo de los terrier. Es un perro sociable, amigable, alerta, confiado, inteligente y valiente.',
+  //     country_code: 'UK',
+  //     history:
+  //       'El Airedale Terrier, originario del Reino Unido e Inglaterra, fue criado originalmente para la caza de tejones y nutrias.',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: [
+  //       'Excelente perro de caza',
+  //       'Requiere aseo regular',
+  //       'Necesita ejercicio regular',
+  //     ],
+  //     color: 'Negro y marrón',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: ['Necesita estimulación mental y física'],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [
+  //       'Displasia de cadera',
+  //       'Problemas de piel',
+  //       'Alergias',
+  //     ],
+  //   },
+  //   5: {
+  //     weight: {
+  //       imperial: '90 - 120',
+  //       metric: '41 - 54',
+  //     },
+  //     height: {
+  //       imperial: '28 - 34',
+  //       metric: '71 - 86',
+  //     },
+  //     id: 5,
+  //     name: 'Perro de Akbash',
+  //     bred_for: 'Guardia de ovejas',
+  //     life_span: '10 - 12 años',
+  //     temperament: 'Leal, Independiente, Inteligente, Valiente',
+  //     reference_image_id: '26pHT3Qk7',
+  //     image: {
+  //       id: '26pHT3Qk7',
+  //       width: 600,
+  //       height: 471,
+  //       url: 'https://cdn2.thedogapi.com/images/26pHT3Qk7.jpg',
+  //     },
+  //     searchTerms: ['Perro de Akbash', 'guardia de ovejas'],
+  //     description:
+  //       'El Perro de Akbash es una raza utilizada para la guardia de ovejas. Es conocido por ser leal, independiente, inteligente y valiente.',
+  //     country_code: 'TR',
+  //     history:
+  //       'El Perro de Akbash es originario de Turquía, donde fue criado para ser un perro de guardia de ovejas.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: [
+  //       'Excelente perro de guardia',
+  //       'Requiere aseo mínimo',
+  //       'Necesita mucho ejercicio',
+  //     ],
+  //     color: 'Blanco',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: ['Necesita mucho ejercicio y espacio'],
+  //     popularidad: 'Baja',
+  //     enfermedades_comunes: [
+  //       'Displasia de cadera',
+  //       'Problemas cardíacos',
+  //       'Obesidad',
+  //     ],
+  //   },
+  //   6: {
+  //     weight: {
+  //       imperial: '65 - 115',
+  //       metric: '29 - 52',
+  //     },
+  //     height: {
+  //       imperial: '24 - 28',
+  //       metric: '61 - 71',
+  //     },
+  //     id: 6,
+  //     name: 'Akita',
+  //     bred_for: 'Caza de osos',
+  //     breed_group: 'Trabajo',
+  //     life_span: '10 - 14 años',
+  //     temperament:
+  //       'Dócil, Alerta, Sensible, Digno, Compuesto, Amistoso, Receptivo, Fiel, Valiente',
+  //     reference_image_id: 'BFRYBufpm',
+  //     image: {
+  //       id: 'BFRYBufpm',
+  //       width: 1280,
+  //       height: 853,
+  //       url: 'https://cdn2.thedogapi.com/images/BFRYBufpm.jpg',
+  //     },
+  //     searchTerms: ['Akita', 'perro de caza', 'caza de osos'],
+  //     description:
+  //       'El Akita es una raza de perro utilizada para la caza de osos. Pertenece al grupo de trabajo y se caracteriza por ser dócil, alerta, sensible, digno, compuesto, amistoso, receptivo, fiel y valiente.',
+  //     country_code: 'JP',
+  //     history:
+  //       'El Akita es originario de Japón, donde se le utilizaba originalmente para la caza de osos.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: [
+  //       'Excelente perro de guardia',
+  //       'Requiere aseo mínimo',
+  //       'Necesita mucho ejercicio',
+  //     ],
+  //     color: 'Varios colores',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: ['Necesita mucho ejercicio y espacio'],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [
+  //       'Displasia de cadera',
+  //       'Problemas de tiroides',
+  //       'Obesidad',
+  //     ],
+  //   },
+  //   7: {
+  //     weight: {
+  //       imperial: '55 - 90',
+  //       metric: '25 - 41',
+  //     },
+  //     height: {
+  //       imperial: '18 - 24',
+  //       metric: '46 - 61',
+  //     },
+  //     id: 7,
+  //     name: 'Alapaha Blue Blood Bulldog',
+  //     description:
+  //       'El Bulldog Alapaha Blue Blood es una raza bien desarrollada y exagerada, con una cabeza amplia y orejas caídas naturales. El hocico prominente está cubierto por labios superiores sueltos. Los ojos prominentes están bien separados. El pelaje del Alapaha es relativamente corto y bastante rígido. Los colores preferidos son merle azul, merle marrón o merle rojo, todos recortados en blanco o chocolate y blanco. También se prefieren los ojos de vidrio (azules) o los ojos de mármol (marrón y azul mezclados en un solo ojo). Las orejas y la cola nunca se cortan. El cuerpo es robusto y muy musculoso. Las caderas bien musculadas son más estrechas que el pecho. La espalda recta tiene la misma longitud que la altura del perro en los hombros. Las uñas delanteras nunca se retiran y las patas son parecidas a las de un gato.',
+  //     bred_for: 'Guardia',
+  //     breed_group: 'Mixto',
+  //     life_span: '12 - 13 años',
+  //     history: '',
+  //     temperament: 'Cariñoso, Protector, Adiestrable, Devoto, Responsable',
+  //     reference_image_id: '33mJ-V3RX',
+  //     image: {
+  //       id: '33mJ-V3RX',
+  //       width: 1828,
+  //       height: 2065,
+  //       url: 'https://cdn2.thedogapi.com/images/33mJ-V3RX.jpg',
+  //     },
+  //     searchTerms: ['Bulldog Alapaha Blue Blood', 'bulldog', 'guardia'],
+  //     country_code: 'US',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: [
+  //       'Excelente perro de guardia',
+  //       'Requiere aseo mínimo',
+  //       'Necesita mucho ejercicio',
+  //     ],
+  //     color:
+  //       'Merle azul, merle marrón, merle rojo, blanco o chocolate y blanco',
+  //     nivel_de_energia: 'Moderado',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: ['Necesita mucho ejercicio y espacio'],
+  //     popularidad: 'Baja',
+  //     enfermedades_comunes: ['Problemas oculares', 'Problemas de cadera'],
+  //   },
+  //   8: {
+  //     weight: {
+  //       imperial: '38 - 50',
+  //       metric: '17 - 23',
+  //     },
+  //     height: {
+  //       imperial: '23 - 26',
+  //       metric: '58 - 66',
+  //     },
+  //     id: 8,
+  //     name: 'Husky de Alaska',
+  //     bred_for: 'Tirar de trineos',
+  //     breed_group: 'Mixto',
+  //     life_span: '10 - 13 años',
+  //     temperament: 'Amistoso, Enérgico, Leal, Gentil, Confiado',
+  //     reference_image_id: '-HgpNnGXl',
+  //     image: {
+  //       id: '-HgpNnGXl',
+  //       width: 500,
+  //       height: 500,
+  //       url: 'https://cdn2.thedogapi.com/images/-HgpNnGXl.jpg',
+  //     },
+  //     searchTerms: ['Husky de Alaska', 'perro de trineo'],
+  //     description:
+  //       'El Husky de Alaska es una raza mixta utilizada para tirar de trineos. Se caracteriza por ser amistoso, enérgico, leal, gentil y confiado.',
+  //     origin: 'Estados Unidos',
+  //     country_code: 'US',
+  //     history: '',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: [
+  //       'Bueno para el clima frío',
+  //       'Requiere ejercicio regular',
+  //       'Leal y enérgico',
+  //     ],
+  //     color: 'Variado',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Requiere mucho ejercicio y espacio',
+  //       'Necesita estimulación mental',
+  //     ],
+  //     popularidad: 'Alta',
+  //     enfermedades_comunes: ['Problemas oculares', 'Displasia de cadera'],
+  //   },
+  //   9: {
+  //     weight: {
+  //       imperial: '65 - 100',
+  //       metric: '29 - 45',
+  //     },
+  //     height: {
+  //       imperial: '23 - 25',
+  //       metric: '58 - 64',
+  //     },
+  //     id: 9,
+  //     name: 'Malamute de Alaska',
+  //     bred_for: 'Transporte de carga pesada, Tirar de trineos',
+  //     breed_group: 'Trabajo',
+  //     life_span: '12 - 15 años',
+  //     temperament: 'Amistoso, Cariñoso, Devoto, Leal, Digno, Juguetón',
+  //     reference_image_id: 'dW5UucTIW',
+  //     image: {
+  //       id: 'dW5UucTIW',
+  //       width: 1023,
+  //       height: 769,
+  //       url: 'https://cdn2.thedogapi.com/images/dW5UucTIW.jpg',
+  //     },
+  //     searchTerms: [
+  //       'Malamute de Alaska',
+  //       'perro de trineo',
+  //       'transporte de carga',
+  //     ],
+  //     description:
+  //       'El Malamute de Alaska es una raza utilizada para el transporte de carga pesada y para tirar de trineos. Es amistoso, cariñoso, devoto, leal, digno y juguetón.',
+  //     origin: 'Estados Unidos',
+  //     country_code: 'US',
+  //     history: '',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: [
+  //       'Bueno para el clima frío',
+  //       'Requiere ejercicio regular',
+  //       'Leal y juguetón',
+  //     ],
+  //     color: 'Variado',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Requiere mucho ejercicio y espacio',
+  //       'Necesita estimulación mental',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+  //   },
+  //   10: {
+  //     weight: {
+  //       imperial: '60 - 120',
+  //       metric: '27 - 54',
+  //     },
+  //     height: {
+  //       imperial: '22 - 27',
+  //       metric: '56 - 69',
+  //     },
+  //     id: 10,
+  //     name: 'Bulldog americano',
+  //     bred_for: '',
+  //     breed_group: 'Trabajo',
+  //     life_span: '10 - 12 años',
+  //     temperament:
+  //       'Amistoso, Asertivo, Enérgico, Leal, Gentil, Confiado, Dominante',
+  //     origin: 'Estados Unidos',
+  //     reference_image_id: 'pk1AAdloG',
+  //     image: {
+  //       id: 'pk1AAdloG',
+  //       width: 1669,
+  //       height: 1377,
+  //       url: 'https://cdn2.thedogapi.com/images/pk1AAdloG.jpg',
+  //     },
+  //     searchTerms: ['Bulldog americano'],
+  //     country_code: 'US',
+  //     description:
+  //       'El Bulldog americano es una raza de trabajo conocida por su amistad, asertividad, energía, lealtad, gentileza, confianza y dominancia.',
+  //     history: '',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: [
+  //       'Bueno para el entrenamiento de obediencia',
+  //       'Requiere ejercicio regular',
+  //       'Leal y amistoso',
+  //     ],
+  //     color: 'Variado',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Requiere mucho ejercicio y espacio',
+  //       'Necesita estimulación mental',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+  //   },
+  //   11: {
+  //     weight: {
+  //       imperial: '30 - 150',
+  //       metric: '14 - 68',
+  //     },
+  //     height: {
+  //       imperial: '14 - 17',
+  //       metric: '36 - 43',
+  //     },
+  //     id: 11,
+  //     name: 'American Bully',
+  //     bred_for: 'Perro de compañía familiar',
+  //     breed_group: '',
+  //     life_span: '8 – 15 años',
+  //     temperament:
+  //       'Fuerte de voluntad, Testarudo, Amistoso, Payaso, Cariñoso, Leal, Obediente, Inteligente, Valiente',
+  //     origin: 'Estados Unidos',
+  //     reference_image_id: 'sqQJDtbpY',
+  //     image: {
+  //       id: 'sqQJDtbpY',
+  //       width: 1024,
+  //       height: 683,
+  //       url: 'https://cdn2.thedogapi.com/images/sqQJDtbpY.jpg',
+  //     },
+  //     searchTerms: ['American Bully', 'perro de compañía'],
+  //     country_code: 'US',
+  //     description:
+  //       'El American Bully es una raza originaria de Estados Unidos y se destaca por su fuerte voluntad, testarudez, amistad, payasadas, cariño, lealtad, obediencia, inteligencia y valentía.',
+  //     history: '',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: [
+  //       'Bueno para compañía',
+  //       'Necesita espacio para jugar y ejercitarse',
+  //       'Bueno con niños',
+  //     ],
+  //     color: 'Variado',
+  //     nivel_de_energia: 'Moderado',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Requiere mucho ejercicio y espacio',
+  //       'Necesita estimulación mental',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Alergias'],
+  //   },
+  //   12: {
+  //     weight: {
+  //       imperial: '20 - 40',
+  //       metric: '9 - 18',
+  //     },
+  //     height: {
+  //       imperial: '15 - 19',
+  //       metric: '38 - 48',
+  //     },
+  //     id: 12,
+  //     name: 'Perro esquimal americano',
+  //     bred_for: 'Artista de circo',
+  //     breed_group: 'No deportivo',
+  //     life_span: '12 - 15 años',
+  //     temperament: 'Amistoso, Alerta, Reservado, Inteligente, Protector',
+  //     origin: 'Estados Unidos',
+  //     reference_image_id: 'Bymjyec4m',
+  //     image: {
+  //       id: 'Bymjyec4m',
+  //       width: 1000,
+  //       height: 802,
+  //       url: 'https://cdn2.thedogapi.com/images/Bymjyec4m.jpg',
+  //     },
+  //     searchTerms: ['Perro esquimal americano', 'artista de circo'],
+  //     country_code: 'US',
+  //     description:
+  //       'El Perro esquimal americano es una raza no deportiva que se destacaba como artista de circo. Es amistoso, alerta, reservado, inteligente y protector.',
+  //     history: '',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: [
+  //       'Bueno para compañía',
+  //       'Necesita ejercicio moderado',
+  //       'Bueno con niños',
+  //     ],
+  //     color: 'Blanco',
+  //     nivel_de_energia: 'Moderado',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Requiere mucho ejercicio y estimulación mental',
+  //       'Necesita atención y cuidado del pelaje',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Problemas de oído'],
+  //   },
+  //   13: {
+  //     weight: {
+  //       imperial: '7 - 10',
+  //       metric: '3 - 5',
+  //     },
+  //     height: {
+  //       imperial: '9 - 12',
+  //       metric: '23 - 30',
+  //     },
+  //     id: 13,
+  //     name: 'Perro esquimal americano (miniatura)',
+  //     bred_for: 'Compañía',
+  //     breed_group: 'No deportivo',
+  //     life_span: '13 – 15 años',
+  //     temperament: 'Amistoso, Alerta, Reservado, Inteligente, Protector',
+  //     origin: 'Estados Unidos',
+  //     reference_image_id: '_gn8GLrE6',
+  //     image: {
+  //       id: '_gn8GLrE6',
+  //       width: 730,
+  //       height: 487,
+  //       url: 'https://cdn2.thedogapi.com/images/_gn8GLrE6.jpg',
+  //     },
+  //     searchTerms: ['Perro esquimal americano (miniatura)', 'compañía'],
+  //     country_code: 'US',
+  //     description:
+  //       'El Perro esquimal americano en su versión miniatura es una raza criada principalmente para ser una compañía agradable. Es amistoso, alerta, reservado, inteligente y protector.',
+  //     history: '',
+  //     categoria_de_tamanio: 'Pequeño',
+  //     perks: ['Compañía agradable', 'Amistoso', 'Inteligente'],
+  //     color: '',
+  //     nivel_de_energia: 'Moderado',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [],
+  //   },
+  //   14: {
+  //     weight: {
+  //       imperial: '65 - 75',
+  //       metric: '29 - 34',
+  //     },
+  //     height: {
+  //       imperial: '21 - 28',
+  //       metric: '53 - 71',
+  //     },
+  //     id: 14,
+  //     name: 'Sabueso americano',
+  //     bred_for: 'Caza de zorros, perro rastreador',
+  //     breed_group: 'Sabueso',
+  //     life_span: '8 - 15 años',
+  //     temperament:
+  //       'Amable, de temperamento dulce, leal, independiente, inteligente, cariñoso',
+  //     origin: 'Estados Unidos',
+  //     reference_image_id: 'S14n1x9NQ',
+  //     image: {
+  //       id: 'S14n1x9NQ',
+  //       width: 3000,
+  //       height: 2400,
+  //       url: 'https://cdn2.thedogapi.com/images/S14n1x9NQ.jpg',
+  //     },
+  //     searchTerms: ['Sabueso americano', 'perro de caza', 'perro rastreador'],
+  //     country_code: 'US',
+  //     description:
+  //       'El Sabueso americano es una raza de sabueso criada para la caza de zorros y como perro rastreador. Es amable, de temperamento dulce, leal, independiente, inteligente y cariñoso.',
+  //     history: '',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: [
+  //       'Caza de zorros',
+  //       'Perro rastreador',
+  //       'Amable',
+  //       'Leal',
+  //       'Independiente',
+  //       'Inteligente',
+  //       'Cariñoso',
+  //     ],
+  //     color: '',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [],
+  //   },
+  //   15: {
+  //     weight: {
+  //       imperial: '30 - 60',
+  //       metric: '14 - 27',
+  //     },
+  //     height: {
+  //       imperial: '17 - 21',
+  //       metric: '43 - 53',
+  //     },
+  //     id: 15,
+  //     name: 'American Pit Bull Terrier',
+  //     bred_for: 'Combates',
+  //     breed_group: 'Terrier',
+  //     life_span: '10 - 15 años',
+  //     temperament:
+  //       'Fuerte de voluntad, Testarudo, Amistoso, Payaso, Cariñoso, Leal, Obediente, Inteligente, Valiente',
+  //     origin: 'Estados Unidos',
+  //     reference_image_id: 'HkC31gcNm',
+  //     image: {
+  //       id: 'HkC31gcNm',
+  //       width: 300,
+  //       height: 244,
+  //       url: 'https://cdn2.thedogapi.com/images/HkC31gcNm.png',
+  //     },
+  //     searchTerms: ['American Pit Bull Terrier', 'perro de combate'],
+  //     country_code: 'US',
+  //     description:
+  //       'El American Pit Bull Terrier es una raza criada originalmente para peleas de perros. A pesar de su pasado, es fuerte de voluntad, testarudo, amistoso, payaso, cariñoso, leal, obediente, inteligente y valiente.',
+  //     history: 'No disponible',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: [
+  //       'Fuerte de voluntad',
+  //       'Testarudo',
+  //       'Amistoso',
+  //       'Payaso',
+  //       'Cariñoso',
+  //       'Leal',
+  //       'Obediente',
+  //       'Inteligente',
+  //       'Valiente',
+  //     ],
+  //     color: 'No disponible',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [],
+  //   },
+  //   16: {
+  //     weight: {
+  //       imperial: '50 - 60',
+  //       metric: '23 - 27',
+  //     },
+  //     height: {
+  //       imperial: '17 - 19',
+  //       metric: '43 - 48',
+  //     },
+  //     id: 16,
+  //     name: 'American Staffordshire Terrier',
+  //     bred_for: '',
+  //     breed_group: 'Terrier',
+  //     life_span: '12 - 15 años',
+  //     temperament: 'Tenaz, Amistoso, Devoto, Leal, Atento, Valiente',
+  //     origin: 'Estados Unidos',
+  //     reference_image_id: 'rJIakgc4m',
+  //     image: {
+  //       id: 'rJIakgc4m',
+  //       width: 357,
+  //       height: 500,
+  //       url: 'https://cdn2.thedogapi.com/images/rJIakgc4m.jpg',
+  //     },
+  //     searchTerms: ['American Staffordshire Terrier'],
+  //     country_code: 'US',
+  //     description:
+  //       'El American Staffordshire Terrier es una raza de terrier que se caracteriza por su tenacidad, amistad, devoción, lealtad, atención y valentía.',
+  //     history: '',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: ['Tenaz', 'Amistoso', 'Devoto', 'Leal', 'Atento', 'Valiente'],
+  //     color: '',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [],
+  //   },
+  //   17: {
+  //     weight: {
+  //       imperial: '25 - 45',
+  //       metric: '11 - 20',
+  //     },
+  //     height: {
+  //       imperial: '15 - 18',
+  //       metric: '38 - 46',
+  //     },
+  //     id: 17,
+  //     name: 'Spaniel de agua americano',
+  //     bred_for: 'Búsqueda y recuperación de aves',
+  //     breed_group: 'Deportivo',
+  //     life_span: '10 - 12 años',
+  //     temperament:
+  //       'Amistoso, Enérgico, Obediente, Inteligente, Protector, Adiestrable',
+  //     origin: 'Estados Unidos',
+  //     reference_image_id: 'SkmRJl9VQ',
+  //     image: {
+  //       id: 'SkmRJl9VQ',
+  //       width: 1600,
+  //       height: 1264,
+  //       url: 'https://cdn2.thedogapi.com/images/SkmRJl9VQ.jpg',
+  //     },
+  //     searchTerms: [
+  //       'Spaniel de agua americano',
+  //       'perro de búsqueda y recuperación',
+  //     ],
+  //     country_code: 'US',
+  //     description:
+  //       'El Spaniel de agua americano es una raza deportiva criada para la búsqueda y recuperación de aves. Es amistoso, enérgico, obediente, inteligente, protector y adiestrable.',
+  //     history: '',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: [
+  //       'Amistoso',
+  //       'Enérgico',
+  //       'Obediente',
+  //       'Inteligente',
+  //       'Protector',
+  //       'Adiestrable',
+  //     ],
+  //     color: '',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [],
+  //   },
+  //   18: {
+  //     weight: {
+  //       imperial: '48 - 55',
+  //       metric: '22 - 25',
+  //     },
+  //     height: {
+  //       imperial: '20 - 22',
+  //       metric: '51 - 56',
+  //     },
+  //     id: 19,
+  //     name: 'Appenzeller Sennenhund',
+  //     bred_for: 'Pastoreo de ganado, tirar de carros y proteger la granja',
+  //     breed_group: 'Pastor',
+  //     life_span: '12 – 14 años',
+  //     temperament: 'Confiable, Intrépido, Enérgico, Vivo, Seguro de sí mismo',
+  //     origin: 'Suiza', // El Appenzeller Sennenhund es originario de Suiza
+  //     reference_image_id: 'HkNkxlqEX',
+  //     image: {
+  //       id: 'HkNkxlqEX',
+  //       width: 400,
+  //       height: 600,
+  //       url: 'https://cdn2.thedogapi.com/images/HkNkxlqEX.jpg',
+  //     },
+  //     searchTerms: [
+  //       'Appenzeller Sennenhund',
+  //       'pastoreo de ganado',
+  //       'tirar de carros',
+  //       'proteger la granja',
+  //     ],
+  //     country_code: 'CH', // El Appenzeller Sennenhund es originario de Suiza
+  //     description:
+  //       'El Appenzeller Sennenhund es una raza versátil criada para el pastoreo de ganado, el tirado de carros y la protección de la granja. Es confiable, intrépido, enérgico, vivo y seguro de sí mismo.',
+  //     history:
+  //       'El Appenzeller Sennenhund es una raza antigua de perro de montaña de los Alpes suizos.',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: [
+  //       'Confiable',
+  //       'Intrépido',
+  //       'Enérgico',
+  //       'Vivo',
+  //       'Seguro de sí mismo',
+  //     ],
+  //     color: 'Negro, Marrón, Blanco',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Excelente',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Requiere ejercicio diario intenso',
+  //       'Requiere entrenamiento de socialización desde una edad temprana',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [
+  //       'Displasia de cadera',
+  //       'Gastric Dilatation-Volvulus (GDV)',
+  //       'Displasia de codo',
+  //     ],
+  //   },
+  //   21: {
+  //     weight: {
+  //       imperial: '44 - 62',
+  //       metric: '20 - 28',
+  //     },
+  //     height: {
+  //       imperial: '17 - 20',
+  //       metric: '43 - 51',
+  //     },
+  //     id: 21,
+  //     name: 'Perro pastor australiano',
+  //     country_code: 'AU',
+  //     bred_for: 'Pastoreo de ganado, pruebas de pastoreo',
+  //     breed_group: 'Pastoreo',
+  //     life_span: '12 - 14 años',
+  //     temperament: 'Cauteloso, Enérgico, Leal, Obediente, Protector, Valiente',
+  //     origin: 'Australia',
+  //     reference_image_id: 'IBkYVm4v1',
+  //     image: {
+  //       id: 'IBkYVm4v1',
+  //       width: 736,
+  //       height: 850,
+  //       url: 'https://cdn2.thedogapi.com/images/IBkYVm4v1.jpg',
+  //     },
+  //     searchTerms: [
+  //       'Perro pastor australiano',
+  //       'pastoreo de ganado',
+  //       'pruebas de pastoreo',
+  //     ],
+  //     description:
+  //       'El perro pastor australiano es una raza originaria de Australia. Se crió originalmente para el pastoreo de ganado y pruebas de pastoreo. Son perros cautelosos, enérgicos, leales, obedientes, protectores y valientes.',
+  //     history:
+  //       'El perro pastor australiano se desarrolló en Australia para el pastoreo de ganado y las pruebas de pastoreo.',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: [
+  //       'Cauteloso',
+  //       'Enérgico',
+  //       'Leal',
+  //       'Obediente',
+  //       'Protector',
+  //       'Valiente',
+  //     ],
+  //     color: 'Azul merle, negro, rojo merle, rojo sólido', // Los colores comunes de esta raza
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Necesita ejercicio diario y mental',
+  //       'Requiere socialización temprana',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [
+  //       'Displasia de cadera',
+  //       'Displasia de codo',
+  //       'Atrofia progresiva de retina',
+  //     ],
+  //   },
+  //   22: {
+  //     weight: {
+  //       imperial: '31 - 46',
+  //       metric: '14 - 21',
+  //     },
+  //     height: {
+  //       imperial: '17 - 20',
+  //       metric: '43 - 51',
+  //     },
+  //     id: 22,
+  //     name: 'Australian Kelpie',
+  //     country_code: 'AU',
+  //     bred_for: 'Perro de granja, pastoreo de ganado',
+  //     breed_group: 'Pastoreo',
+  //     life_span: '10 - 13 años',
+  //     temperament: 'Amigable, Enérgico, Alerta, Leal, Inteligente, Ansioso',
+  //     origin: 'Australia',
+  //     reference_image_id: 'Hyq1ge9VQ',
+  //     image: {
+  //       id: 'Hyq1ge9VQ',
+  //       width: 800,
+  //       height: 533,
+  //       url: 'https://cdn2.thedogapi.com/images/Hyq1ge9VQ.jpg',
+  //     },
+  //     searchTerms: [
+  //       'Australian Kelpie',
+  //       'perro de granja',
+  //       'pastoreo de ganado',
+  //     ],
+  //     description:
+  //       'El Australian Kelpie es un perro originario de Australia. Se crió para ser un perro de granja y para el pastoreo de ganado. Son perros amigables, enérgicos, alertas, leales, inteligentes y ansiosos.',
+  //     history:
+  //       'El Australian Kelpie fue criado en Australia para ser un perro de granja y para el pastoreo de ganado.',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: [
+  //       'Amigable',
+  //       'Enérgico',
+  //       'Alerta',
+  //       'Leal',
+  //       'Inteligente',
+  //       'Ansioso',
+  //     ],
+  //     color: 'Negro, Marrón, Rojo, Gris', // Colores comunes de esta raza
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Necesita ejercicio diario y mental',
+  //       'Requiere socialización temprana',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [
+  //       'Displasia de cadera',
+  //       'Atrofia progresiva de retina',
+  //     ],
+  //   },
+  //   23: {
+  //     weight: {
+  //       imperial: '35 - 65',
+  //       metric: '16 - 29',
+  //     },
+  //     height: {
+  //       imperial: '18 - 23',
+  //       metric: '46 - 58',
+  //     },
+  //     id: 23,
+  //     name: 'Pastor australiano',
+  //     country_code: 'AU',
+  //     bred_for: 'Pastoreo de ovejas',
+  //     breed_group: 'Pastoreo',
+  //     life_span: '12 - 16 años',
+  //     temperament: 'De buen carácter, Cariñoso, Inteligente, Activo, Protector',
+  //     origin: 'Australia',
+  //     reference_image_id: 'B1-llgq4m',
+  //     image: {
+  //       id: 'B1-llgq4m',
+  //       width: 1200,
+  //       height: 733,
+  //       url: 'https://cdn2.thedogapi.com/images/B1-llgq4m.jpg',
+  //     },
+  //     searchTerms: ['Pastor australiano', 'pastoreo de ovejas'],
+  //     description:
+  //       'El pastor australiano es un perro de pastoreo originario de Australia. Se crió para el pastoreo de ovejas. Son perros de buen carácter, cariñosos, inteligentes, activos y protectores.',
+  //     history:
+  //       'El pastor australiano fue criado en Australia para pastoreo de ovejas.',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: [
+  //       'De buen carácter',
+  //       'Cariñoso',
+  //       'Inteligente',
+  //       'Activo',
+  //       'Protector',
+  //     ],
+  //     color: 'Multicolor, Azul merle, Rojo merle', // Colores comunes de esta raza
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Necesita ejercicio diario y mental',
+  //       'Requiere socialización temprana',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [
+  //       'Displasia de cadera',
+  //       'Atrofia progresiva de retina',
+  //     ],
+  //   },
+  //   24: {
+  //     weight: {
+  //       imperial: '14 - 16',
+  //       metric: '6 - 7',
+  //     },
+  //     height: {
+  //       imperial: '10 - 11',
+  //       metric: '25 - 28',
+  //     },
+  //     id: 24,
+  //     name: 'Terrier australiano',
+  //     country_code: 'AU',
+  //     bred_for: 'Pastoreo de ganado, caza de serpientes y roedores',
+  //     breed_group: 'Terrier',
+  //     life_span: '15 años',
+  //     temperament:
+  //       'Animado, Alerta, Leal, Compañero, de Temperamento Equilibrado, Valiente',
+  //     origin: 'Australia',
+  //     reference_image_id: 'r1Ylge5Vm',
+  //     image: {
+  //       id: 'r1Ylge5Vm',
+  //       width: 1081,
+  //       height: 720,
+  //       url: 'https://cdn2.thedogapi.com/images/r1Ylge5Vm.jpg',
+  //     },
+  //     searchTerms: [
+  //       'Terrier australiano',
+  //       'pastoreo de ganado',
+  //       'caza de serpientes',
+  //       'caza de roedores',
+  //     ],
+  //     description:
+  //       'El terrier australiano es un perro originario de Australia. Se crió para el pastoreo de ganado, la caza de serpientes y la caza de roedores. Son perros animados, alertas, leales, compañeros, de temperamento equilibrado y valientes.',
+  //     history:
+  //       'El terrier australiano fue criado en Australia para pastoreo de ganado, caza de serpientes y roedores.',
+  //     categoria_de_tamanio: 'Pequeño',
+  //     perks: [
+  //       'Animado',
+  //       'Alerta',
+  //       'Leal',
+  //       'Compañero',
+  //       'De temperamento equilibrado',
+  //       'Valiente',
+  //     ],
+  //     color: 'Azul, rojo', // Colores comunes de esta raza
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Necesita ejercicio diario y mental',
+  //       'Requiere socialización temprana',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Alergias de piel', 'Problemas dentales'],
+  //   },
+  //   25: {
+  //     weight: {
+  //       imperial: '33 - 55',
+  //       metric: '15 - 25',
+  //     },
+  //     height: {
+  //       imperial: '23 - 29',
+  //       metric: '58 - 74',
+  //     },
+  //     id: 25,
+  //     name: 'Azawakh',
+  //     bred_for: 'Protección de ganado, caza',
+  //     breed_group: 'Levantador',
+  //     life_span: '10 - 13 años',
+  //     temperament: 'Distante, Cariñoso, Atento, Resistente, Feroz, Refinado',
+  //     origin: 'África Occidental', // Según mi conocimiento, Azawakh es originario de África Occidental
+  //     reference_image_id: 'SkvZgx94m',
+  //     image: {
+  //       id: 'SkvZgx94m',
+  //       width: 1024,
+  //       height: 768,
+  //       url: 'https://cdn2.thedogapi.com/images/SkvZgx94m.jpg',
+  //     },
+  //     searchTerms: ['Azawakh', 'protección de ganado', 'caza'],
+  //     country_code: 'ML', // ML es el código del país de Mali, de donde se cree que proviene la raza Azawakh.
+  //     description:
+  //       'El Azawakh es una raza de perro utilizada para la protección de ganado y la caza. Son perros distantes, cariñosos, atentos, resistentes, feroces y refinados.',
+  //     history:
+  //       'El Azawakh es una antigua raza de perros de caza del Sahel, región del África Occidental.', // Un poco de historia basada en lo que sé sobre la raza.
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: [
+  //       'Distante',
+  //       'Cariñoso',
+  //       'Atento',
+  //       'Resistente',
+  //       'Feroz',
+  //       'Refinado',
+  //     ],
+  //     color: 'Varios', // Los Azawakhs vienen en una variedad de colores.
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Necesita ejercicio diario debido a su alto nivel de energía',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [
+  //       'Osteocondritis disecante',
+  //       'Hipotiroidismo',
+  //       'Epilepsia',
+  //     ], // Algunas enfermedades comunes para la raza Azawakh.
+  //   },
+  //   26: {
+  //     weight: {
+  //       imperial: '40 - 65',
+  //       metric: '18 - 29',
+  //     },
+  //     height: {
+  //       imperial: '20 - 26',
+  //       metric: '51 - 66',
+  //     },
+  //     id: 26,
+  //     name: 'Barbet',
+  //     bred_for: 'Caza de aves acuáticas',
+  //     breed_group: 'Grupo de Perros de Caza', // Aunque no se mencionó originalmente, los Barbet generalmente se clasifican como perros de caza
+  //     life_span: '13 – 15 años',
+  //     temperament: 'Obediente, Compañero, Inteligente, Alegre',
+  //     origin: 'Francia', // Según mi conocimiento, Barbet es originario de Francia
+  //     reference_image_id: 'HyWGexcVQ',
+  //     image: {
+  //       id: 'HyWGexcVQ',
+  //       width: 853,
+  //       height: 1280,
+  //       url: 'https://cdn2.thedogapi.com/images/HyWGexcVQ.jpg',
+  //     },
+  //     searchTerms: ['Barbet', 'caza de aves acuáticas'],
+  //     country_code: 'FR', // FR es el código de país de Francia, de donde es originario el Barbet.
+  //     description:
+  //       'El Barbet es una raza de perro utilizada para la caza de aves acuáticas. Son perros obedientes, compañeros, inteligentes y alegres.',
+  //     history: 'El Barbet es una raza de perros de agua francesa muy antigua.', // Un poco de historia basada en lo que sé sobre la raza.
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: ['Obediente', 'Compañero', 'Inteligente', 'Alegre'],
+  //     color: 'Varios', // Los Barbets vienen en una variedad de colores.
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: [
+  //       'Necesita ejercicio diario debido a su alto nivel de energía',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'], // Algunas enfermedades comunes para la raza Barbet.
+  //   },
+  //   28: {
+  //     weight: {
+  //       imperial: '22 - 24',
+  //       metric: '10 - 11',
+  //     },
+  //     height: {
+  //       imperial: '16 - 17',
+  //       metric: '41 - 43',
+  //     },
+  //     id: 28,
+  //     name: 'Basenji',
+  //     bred_for: 'Caza',
+  //     breed_group: 'Levantador',
+  //     life_span: '10 - 12 años',
+  //     temperament: 'Cariñoso, Enérgico, Alerta, Curioso, Juguetón, Inteligente',
+  //     origin: 'Congo', // Basenji es originario del Congo
+  //     reference_image_id: 'H1dGlxqNQ',
+  //     image: {
+  //       id: 'H1dGlxqNQ',
+  //       width: 740,
+  //       height: 493,
+  //       url: 'https://cdn2.thedogapi.com/images/H1dGlxqNQ.jpg',
+  //     },
+  //     searchTerms: ['Basenji', 'caza'],
+  //     country_code: 'CG', // CG es el código de país del Congo, de donde es originario el Basenji.
+  //     description:
+  //       'El Basenji es un perro de caza. Son perros cariñosos, enérgicos, alertas, curiosos, juguetones e inteligentes.',
+  //     history:
+  //       'El Basenji es una raza de perros muy antigua, originaria de la zona central de África. Han sido compañeros de caza de los humanos desde tiempos muy antiguos.',
+  //     categoria_de_tamanio: 'Pequeño',
+  //     perks: [
+  //       'Cariñoso',
+  //       'Enérgico',
+  //       'Alerta',
+  //       'Curioso',
+  //       'Juguetón',
+  //       'Inteligente',
+  //     ],
+  //     color: 'Rojo, Negro, Tricolor', // Los Basenjis suelen ser de estos colores.
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Necesita ejercicio físico y mental diario debido a su alto nivel de energía y curiosidad',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Síndrome de Fanconi', 'Distrofia corneal'], // Algunas enfermedades comunes para la raza Basenji.
+  //   },
+  //   29: {
+  //     weight: {
+  //       imperial: '35 - 40',
+  //       metric: '16 - 18',
+  //     },
+  //     height: {
+  //       imperial: '13 - 15',
+  //       metric: '33 - 38',
+  //     },
+  //     id: 29,
+  //     name: 'Basset Bleu de Gascogne',
+  //     bred_for: 'Caza a pie',
+  //     breed_group: 'Levantador',
+  //     life_span: '10 - 14 años',
+  //     temperament: 'Cariñoso, Animado, Ágil, Curioso, Feliz, Activo',
+  //     origin: 'Francia', // Basset Bleu de Gascogne es originario de Francia
+  //     reference_image_id: 'BkMQll94X',
+  //     image: {
+  //       id: 'BkMQll94X',
+  //       width: 1280,
+  //       height: 853,
+  //       url: 'https://cdn2.thedogapi.com/images/BkMQll94X.jpg',
+  //     },
+  //     searchTerms: ['Basset Bleu de Gascogne', 'caza a pie'],
+  //     country_code: 'FR', // FR es el código de país de Francia, de donde es originario el Basset Bleu de Gascogne.
+  //     description:
+  //       'El Basset Bleu de Gascogne es una raza de perro utilizada para la caza a pie. Son perros cariñosos, animados, ágiles, curiosos, felices y activos.',
+  //     history:
+  //       'El Basset Bleu de Gascogne es una raza muy antigua de perros franceses, originalmente utilizada para la caza a pie en la región de Gascuña.',
+  //     categoria_de_tamanio: 'Pequeño',
+  //     perks: ['Cariñoso', 'Animado', 'Ágil', 'Curioso', 'Feliz', 'Activo'],
+  //     color: 'Azul', // Los Basset Bleu de Gascogne son típicamente de color azul.
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Necesita ejercicio físico y mental diario debido a su alto nivel de energía y su instinto de caza',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Obesidad', 'Otitis'], // Algunas enfermedades comunes para la raza Basset Bleu de Gascogne.
+  //   },
+  //   30: {
+  //     weight: {
+  //       imperial: '50 - 65',
+  //       metric: '23 - 29',
+  //     },
+  //     height: {
+  //       imperial: '14',
+  //       metric: '36',
+  //     },
+  //     id: 30,
+  //     name: 'Basset Hound',
+  //     bred_for: 'Caza por olfato',
+  //     breed_group: 'Levantador',
+  //     life_span: '12 - 15 años',
+  //     temperament:
+  //       'Tenaz, Amigable, Cariñoso, Devoto, de Temperamento Dulce, Gentil',
+  //     origin: 'Francia', // Basset Hound es originario de Francia
+  //     reference_image_id: 'Sy57xx9EX',
+  //     image: {
+  //       id: 'Sy57xx9EX',
+  //       width: 1024,
+  //       height: 640,
+  //       url: 'https://cdn2.thedogapi.com/images/Sy57xx9EX.jpg',
+  //     },
+  //     searchTerms: ['Basset Hound', 'caza por olfato'],
+  //     country_code: 'FR', // FR es el código de país de Francia, de donde es originario el Basset Hound.
+  //     description:
+  //       'El Basset Hound es una raza de perro utilizada para la caza por olfato. Son perros tenaces, amigables, cariñosos, devotos, de temperamento dulce y gentil.',
+  //     history:
+  //       'El Basset Hound es una raza antigua y famosa de perros de rastreo. Se crió por su habilidad para seguir un olor a través de terrenos difíciles.',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: [
+  //       'Tenaz',
+  //       'Amigable',
+  //       'Cariñoso',
+  //       'Devoto',
+  //       'Temperamento Dulce',
+  //       'Gentil',
+  //     ],
+  //     color: 'Tricolor', // Los Basset Hound son típicamente tricolores: blanco, negro y marrón.
+  //     nivel_de_energia: 'Moderado',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: [
+  //       'Requiere mucho ejercicio para mantener un peso saludable debido a su predisposición a la obesidad',
+  //     ],
+  //     popularidad: 'Alta',
+  //     enfermedades_comunes: [
+  //       'Obesidad',
+  //       'Problemas de oído debido a sus largas orejas',
+  //     ], // Algunas enfermedades comunes para la raza Basset Hound.
+  //   },
+  //   31: {
+  //     weight: {
+  //       imperial: '20 - 35',
+  //       metric: '9 - 16',
+  //     },
+  //     height: {
+  //       imperial: '13 - 15',
+  //       metric: '33 - 38',
+  //     },
+  //     id: 31,
+  //     name: 'Beagle',
+  //     bred_for: 'Caza de conejos y liebres',
+  //     breed_group: 'Levantador',
+  //     life_span: '13 - 16 años',
+  //     temperament:
+  //       'Amigable, de Temperamento Equilibrado, Excitable, Determinado, Gentil, Inteligente',
+  //     origin: 'Inglaterra', // Beagle es originario de Inglaterra
+  //     reference_image_id: 'Syd4xxqEm',
+  //     image: {
+  //       id: 'Syd4xxqEm',
+  //       width: 1000,
+  //       height: 667,
+  //       url: 'https://cdn2.thedogapi.com/images/Syd4xxqEm.jpg',
+  //     },
+  //     searchTerms: ['Beagle', 'caza de conejos', 'caza de liebres'],
+  //     country_code: 'GB', // GB es el código de país de Reino Unido, de donde es originario el Beagle.
+  //     description:
+  //       'El Beagle es una raza de perro utilizada para la caza de conejos y liebres. Son perros amigables, de temperamento equilibrado, excitables, determinados, gentiles e inteligentes.',
+  //     history:
+  //       'El Beagle es una raza de perro pequeña a mediana, similar en apariencia a la mucho más grande Foxhound. Los Beagles son perros de caza y fueron criados para este propósito principalmente para rastrear liebres, conejos y otras pequeñas presas.',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: [
+  //       'Amigable',
+  //       'Temperamento Equilibrado',
+  //       'Excitable',
+  //       'Determinado',
+  //       'Gentil',
+  //       'Inteligente',
+  //     ],
+  //     color: 'Tricolor', // Los Beagle son típicamente tricolores: blanco, negro y marrón.
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: [
+  //       'Necesidad de mucho ejercicio y estímulo mental debido a su alta energía e inteligencia',
+  //     ],
+  //     popularidad: 'Alta',
+  //     enfermedades_comunes: [
+  //       'Obesidad',
+  //       'Displasia de cadera',
+  //       'Hipotiroidismo',
+  //     ], // Algunas enfermedades comunes para la raza Beagle.
+  //   },
+  //   32: {
+  //     weight: {
+  //       imperial: '45 - 55',
+  //       metric: '20 - 25',
+  //     },
+  //     height: {
+  //       imperial: '20 - 22',
+  //       metric: '51 - 56',
+  //     },
+  //     id: 32,
+  //     name: 'Collie barbudo',
+  //     bred_for: 'Pastoreo de ovejas',
+  //     breed_group: 'Pastoreo',
+  //     life_span: '12 - 14 años',
+  //     temperament:
+  //       'Seguro de sí mismo, Robusto, Vivo, Alerta, Inteligente, Activo',
+  //     origin: 'Escocia', // El Collie Barbudo es originario de Escocia
+  //     reference_image_id: 'A09F4c1qP',
+  //     image: {
+  //       id: 'A09F4c1qP',
+  //       width: 733,
+  //       height: 733,
+  //       url: 'https://cdn2.thedogapi.com/images/A09F4c1qP.jpg',
+  //     },
+  //     searchTerms: ['Collie barbudo', 'pastoreo de ovejas'],
+  //     country_code: 'GB', // GB es el código de país de Reino Unido, de donde es originario el Collie Barbudo.
+  //     description:
+  //       'El Collie barbudo es una raza de perro utilizada para el pastoreo de ovejas. Son perros seguros de sí mismos, robustos, vivos, alertas, inteligentes y activos.',
+  //     history:
+  //       'El Collie Barbudo, también conocido como "Highland Collie", es una raza de perro de pastoreo que se originó en Escocia. Los Collies Barbudos han estado pastoreando ovejas en las Tierras Altas de Escocia durante siglos.',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: [
+  //       'Seguro de sí mismo',
+  //       'Robusto',
+  //       'Vivo',
+  //       'Alerta',
+  //       'Inteligente',
+  //       'Activo',
+  //     ],
+  //     color: 'Gris', // Los Collie Barbudo son generalmente grises, aunque pueden tener variaciones de color.
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: [
+  //       'Necesita mucho ejercicio y espacio para correr debido a su naturaleza activa y su crianza como perro de pastoreo',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [
+  //       'Displasia de cadera',
+  //       'Atrofia progresiva de la retina',
+  //       'Hipotiroidismo',
+  //     ], // Algunas enfermedades comunes para la raza Collie Barbudo.
+  //   },
+  //   33: {
+  //     weight: {
+  //       imperial: '80 - 110',
+  //       metric: '36 - 50',
+  //     },
+  //     height: {
+  //       imperial: '24 - 27.5',
+  //       metric: '61 - 70',
+  //     },
+  //     id: 33,
+  //     name: 'Beauceron',
+  //     bred_for: 'Pastoreo de jabalíes, caza, guardia',
+  //     breed_group: 'Pastoreo',
+  //     life_span: '10 - 12 años',
+  //     temperament: 'Sin miedo, Amigable, Inteligente, Protector, Calmo',
+  //     origin: 'Francia', // El Beauceron es originario de Francia
+  //     reference_image_id: 'HJQ8ge5V7',
+  //     image: {
+  //       id: 'HJQ8ge5V7',
+  //       width: 720,
+  //       height: 563,
+  //       url: 'https://cdn2.thedogapi.com/images/HJQ8ge5V7.jpg',
+  //     },
+  //     searchTerms: ['Beauceron', 'Pastoreo de jabalíes', 'Caza', 'Guardia'],
+  //     country_code: 'FR', // FR es el código de país de Francia, de donde es originario el Beauceron.
+  //     description:
+  //       'El Beauceron es una raza de perro conocida por su valentía, amabilidad, inteligencia y temperamento calmado. Originalmente se utilizaban para pastorear jabalíes, cazar y como perros guardianes.',
+  //     history:
+  //       'El Beauceron, también conocido como Berger de Beauce o Pastor de Beauce, es una raza de perro de pastoreo de origen francés. Se utilizaba para pastorear ovejas y para cazar jabalíes.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: ['Sin miedo', 'Amigable', 'Inteligente', 'Protector', 'Calmo'],
+  //     color: 'Negro y fuego', // Los Beaucerons son generalmente negros y fuego, aunque pueden tener variaciones de color.
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Necesita mucho ejercicio y entrenamiento debido a su inteligencia y energía',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [
+  //       'Displasia de cadera',
+  //       'Hipotiroidismo',
+  //       'Gastritis',
+  //     ], // Algunas enfermedades comunes para la raza Beauceron.
+  //   },
+  //   34: {
+  //     weight: {
+  //       imperial: '17 - 23',
+  //       metric: '8 - 10',
+  //     },
+  //     height: {
+  //       imperial: '15 - 16',
+  //       metric: '38 - 41',
+  //     },
+  //     id: 34,
+  //     name: 'Bedlington Terrier',
+  //     bred_for: 'Matar ratas, tejones, otras alimañas',
+  //     breed_group: 'Terrier',
+  //     life_span: '14 - 16 años',
+  //     temperament: 'Afectuoso, Enérgico, Inteligente, Buen temperamento',
+  //     origin: 'Reino Unido', // El Bedlington Terrier es originario del Reino Unido
+  //     reference_image_id: 'ByK8gx947',
+  //     image: {
+  //       id: 'ByK8gx947',
+  //       width: 804,
+  //       height: 531,
+  //       url: 'https://cdn2.thedogapi.com/images/ByK8gx947.jpg',
+  //     },
+  //     searchTerms: ['Bedlington Terrier', 'Matar ratas', 'Tejones', 'Alimañas'],
+  //     country_code: 'GB', // GB es el código de país del Reino Unido, de donde es originario el Bedlington Terrier.
+  //     description:
+  //       'El Bedlington Terrier es una raza de perro conocida por su carácter afectuoso, enérgico e inteligente. Originalmente se utilizaban para matar ratas, tejones y otras alimañas.',
+  //     history:
+  //       'El Bedlington Terrier es una raza de perro de terrier que se originó en la ciudad de Bedlington, en el norte de Inglaterra. Se utilizaban originalmente como perros cazadores de ratas y tejones.',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: ['Afectuoso', 'Enérgico', 'Inteligente', 'Buen temperamento'],
+  //     color: 'Blanco', // Los Bedlington Terriers son comúnmente de color blanco.
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Requiere ejercicio regular debido a su alta energía',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: [
+  //       'Problemas de hígado',
+  //       'Displasia de cadera',
+  //       'Problemas oculares',
+  //     ], // Algunas enfermedades comunes para la raza Bedlington Terrier.
+  //   },
+  //   36: {
+  //     weight: {
+  //       imperial: '40 - 80',
+  //       metric: '18 - 36',
+  //     },
+  //     height: {
+  //       imperial: '22 - 26',
+  //       metric: '56 - 66',
+  //     },
+  //     id: 36,
+  //     name: 'Belgian Malinois',
+  //     bred_for: 'Pastoreo de ganado',
+  //     breed_group: 'Pastor',
+  //     life_span: '12 - 14 años',
+  //     temperament:
+  //       'Vigilante, Alerta, Obstinado, Amistoso, Confiable, Trabajador, Activo, Protector',
+  //     origin: 'Bélgica', // El Belgian Malinois es originario de Bélgica
+  //     reference_image_id: 'r1f_ll5VX',
+  //     image: {
+  //       id: 'r1f_ll5VX',
+  //       width: 604,
+  //       height: 453,
+  //       url: 'https://cdn2.thedogapi.com/images/r1f_ll5VX.jpg',
+  //     },
+  //     searchTerms: [
+  //       'Belgian Malinois',
+  //       'Pastoreo de ganado',
+  //       'Vigilante',
+  //       'Alerta',
+  //       'Obstinado',
+  //       'Amistoso',
+  //       'Confiable',
+  //       'Trabajador',
+  //       'Activo',
+  //       'Protector',
+  //     ],
+  //     country_code: 'BE', // BE es el código de país de Bélgica, de donde es originario el Belgian Malinois.
+  //     description:
+  //       'El Belgian Malinois es una raza de perro de pastor conocida por su temperamento vigilante, alerta, obstinado, amistoso, confiable, trabajador, activo y protector. Son especialmente conocidos por su papel en el pastoreo de ganado.',
+  //     history:
+  //       'El Belgian Malinois es una de las cuatro variedades de perros de pastor belga. Originalmente se criaban para el pastoreo de ganado, pero su versatilidad los ha llevado a diversos roles como perros policiales y de servicio.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: [
+  //       'Vigilante',
+  //       'Alerta',
+  //       'Obstinado',
+  //       'Amistoso',
+  //       'Confiable',
+  //       'Trabajador',
+  //       'Activo',
+  //       'Protector',
+  //     ],
+  //     color: 'Marrón', // Los Belgian Malinois son comúnmente de color marrón.
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: [
+  //       'Requiere ejercicio regular debido a su alta energía',
+  //       'Necesita estimulación mental regular',
+  //     ],
+  //     popularidad: 'Alta',
+  //     enfermedades_comunes: [
+  //       'Displasia de cadera',
+  //       'Problemas oculares',
+  //       'Epilepsia',
+  //     ], // Algunas enfermedades comunes para la raza Belgian Malinois.
+  //   },
+  //   38: {
+  //     weight: {
+  //       imperial: '40 - 65',
+  //       metric: '18 - 29',
+  //     },
+  //     height: {
+  //       imperial: '22 - 26',
+  //       metric: '56 - 66',
+  //     },
+  //     id: 38,
+  //     name: 'Belgian Tervuren',
+  //     bred_for: 'Guardia, trabajo de tracción, trabajo policial.',
+  //     breed_group: 'Pastor',
+  //     life_span: '10 - 12 años',
+  //     temperament: 'Energético, Alerta, Leal, Inteligente, Atento, Protector',
+  //     origin: 'Bélgica',
+  //     reference_image_id: 'B1KdxlcNX',
+  //     image: {
+  //       id: 'B1KdxlcNX',
+  //       width: 645,
+  //       height: 380,
+  //       url: 'https://cdn2.thedogapi.com/images/B1KdxlcNX.jpg',
+  //     },
+  //     searchTerms: ['Belgian Tervuren', 'Pastor', 'Protector'],
+  //     country_code: 'BE',
+  //     description:
+  //       'El Belgian Tervuren es conocido por su energía y su agudo sentido de protección. Es un excelente perro de trabajo y se lleva bien con su familia.',
+  //     history:
+  //       'Originarios de Bélgica, fueron criados inicialmente para la guardia y el trabajo de tracción.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: ['Guardián', 'Trabajador', 'Protector'],
+  //     color: 'Negro, Marrón, Gris',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: ['Necesidad de ejercicio'],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+  //   },
+  //   41: {
+  //     weight: {
+  //       imperial: '65 - 120',
+  //       metric: '29 - 54',
+  //     },
+  //     height: {
+  //       imperial: '23 - 27.5',
+  //       metric: '58 - 70',
+  //     },
+  //     id: 41,
+  //     name: 'Bernese Mountain Dog',
+  //     bred_for: 'Trabajo de tracción',
+  //     breed_group: 'Trabajo',
+  //     life_span: '7 - 10 años',
+  //     temperament: 'Cariñoso, Leal, Inteligente, Fiel',
+  //     origin: 'Suiza',
+  //     reference_image_id: 'S1fFlx5Em',
+  //     image: {
+  //       id: 'S1fFlx5Em',
+  //       width: 640,
+  //       height: 427,
+  //       url: 'https://cdn2.thedogapi.com/images/S1fFlx5Em.jpg',
+  //     },
+  //     searchTerms: ['Bernese Mountain Dog', 'Trabajo', 'Fiel'],
+  //     country_code: 'CH',
+  //     description:
+  //       'El Bernese Mountain Dog es conocido por su lealtad y su inteligencia. Son excelentes perros de trabajo y se llevan bien con su familia.',
+  //     history:
+  //       'Originarios de Suiza, fueron criados inicialmente para el trabajo de tracción.',
+  //     categoria_de_tamanio: 'Muy grande',
+  //     perks: ['Leal', 'Inteligente', 'Fiel'],
+  //     color: 'Negro, Blanco, Marrón',
+  //     nivel_de_energia: 'Moderado',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: ['Necesidad de ejercicio'],
+  //     popularidad: 'Alta',
+  //     enfermedades_comunes: [
+  //       'Displasia de cadera',
+  //       'Problemas oculares',
+  //       'Cáncer',
+  //     ],
+  //   },
+  //   42: {
+  //     weight: {
+  //       imperial: '10 - 18',
+  //       metric: '5 - 8',
+  //     },
+  //     height: {
+  //       imperial: '9.5 - 11.5',
+  //       metric: '24 - 29',
+  //     },
+  //     id: 42,
+  //     name: 'Bichon Frise',
+  //     bred_for: 'Compañía',
+  //     breed_group: 'No deportivo',
+  //     life_span: '15 años',
+  //     temperament: 'Animado, Cariñoso, Alegre, Juguetón, Gentil, Sensible',
+  //     origin: 'Francia',
+  //     reference_image_id: 'HkuYlxqEQ',
+  //     image: {
+  //       id: 'HkuYlxqEQ',
+  //       width: 480,
+  //       height: 360,
+  //       url: 'https://cdn2.thedogapi.com/images/HkuYlxqEQ.jpg',
+  //     },
+  //     searchTerms: ['Bichon Frise', 'Compañía', 'Alegre'],
+  //     country_code: 'FR',
+  //     description:
+  //       'El Bichon Frise es un perro alegre y juguetón, perfecto para la compañía. Son sensibles y requieren una atención constante de su familia.',
+  //     history:
+  //       'Originario de Francia, el Bichon Frise fue criado para ser un perro de compañía.',
+  //     categoria_de_tamanio: 'Pequeño',
+  //     perks: ['Alegre', 'Juguetón', 'Cariñoso'],
+  //     color: 'Blanco',
+  //     nivel_de_energia: 'Moderado',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: [
+  //       'Necesidad de atención',
+  //       'Frecuentes visitas al peluquero',
+  //     ],
+  //     popularidad: 'Alta',
+  //     enfermedades_comunes: ['Alergias', 'Problemas de piel'],
+  //   },
+  //   43: {
+  //     weight: {
+  //       imperial: '65 - 100',
+  //       metric: '29 - 45',
+  //     },
+  //     height: {
+  //       imperial: '23 - 27',
+  //       metric: '58 - 69',
+  //     },
+  //     id: 43,
+  //     name: 'Black and Tan Coonhound',
+  //     bred_for: 'Caza de mapaches, caza nocturna',
+  //     breed_group: 'Sabueso',
+  //     life_span: '10 - 12 años',
+  //     temperament:
+  //       'Tranquilo, Gentil, Adaptable, Confiable, De temperamento uniforme, Adorable',
+  //     origin: 'Estados Unidos',
+  //     reference_image_id: 'HJAFgxcNQ',
+  //     image: {
+  //       id: 'HJAFgxcNQ',
+  //       width: 556,
+  //       height: 380,
+  //       url: 'https://cdn2.thedogapi.com/images/HJAFgxcNQ.jpg',
+  //     },
+  //     searchTerms: ['Black and Tan Coonhound', 'Sabueso', 'Caza de mapaches'],
+  //     country_code: 'US',
+  //     description:
+  //       'El Black and Tan Coonhound es conocido por su versatilidad como perro de caza y su increíble sentido del olfato.',
+  //     history:
+  //       'Originario de los Estados Unidos, este perro fue criado originalmente para rastrear mapaches.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: ['Gran olfato', 'Versátil en caza'],
+  //     color: 'Negro y marrón',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: ['Necesita ejercicio regular'],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Obesidad'],
+  //   },
+  //   45: {
+  //     weight: {
+  //       imperial: '80 - 110',
+  //       metric: '36 - 50',
+  //     },
+  //     height: {
+  //       imperial: '23 - 27',
+  //       metric: '58 - 69',
+  //     },
+  //     id: 45,
+  //     name: 'Bloodhound',
+  //     bred_for: 'Rastreo',
+  //     breed_group: 'Sabueso',
+  //     life_span: '8 - 10 años',
+  //     temperament: 'Terco, Afectuoso, Gentil, De temperamento uniforme',
+  //     origin: 'Bélgica',
+  //     reference_image_id: 'Skdcgx9VX',
+  //     image: {
+  //       id: 'Skdcgx9VX',
+  //       width: 586,
+  //       height: 600,
+  //       url: 'https://cdn2.thedogapi.com/images/Skdcgx9VX.jpg',
+  //     },
+  //     searchTerms: ['Bloodhound', 'Sabueso', 'Rastreo'],
+  //     country_code: 'BE',
+  //     description:
+  //       'El Bloodhound es un rastreador infalible, conocido por su habilidad para seguir un olor horas, incluso días, después de que se haya dejado.',
+  //     history:
+  //       'El Bloodhound es una de las razas de perros más antiguas que caza por olfato. Es originario de Bélgica.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: ['Increíble sentido del olfato', 'Persistente en el rastreo'],
+  //     color: 'Negro y fuego, Hígado y fuego',
+  //     nivel_de_energia: 'Moderado',
+  //     facilidad_de_entrenamiento: 'Bajo',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: ['Necesita mucho ejercicio'],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+  //   },
+  //   47: {
+  //     weight: {
+  //       imperial: '45 - 80',
+  //       metric: '20 - 36',
+  //     },
+  //     height: {
+  //       imperial: '21 - 27',
+  //       metric: '53 - 69',
+  //     },
+  //     id: 47,
+  //     name: 'Bluetick Coonhound',
+  //     bred_for: 'Caza con un sentido superior del olfato',
+  //     breed_group: 'Sabueso',
+  //     life_span: '12 - 14 años',
+  //     temperament: 'Amigable, Inteligente, Activo',
+  //     origin: 'Estados Unidos',
+  //     reference_image_id: 'rJxieg9VQ',
+  //     image: {
+  //       id: 'rJxieg9VQ',
+  //       width: 731,
+  //       height: 599,
+  //       url: 'https://cdn2.thedogapi.com/images/rJxieg9VQ.jpg',
+  //     },
+  //     searchTerms: ['Bluetick Coonhound', 'Sabueso', 'Caza'],
+  //     country_code: 'US',
+  //     description:
+  //       'El Bluetick Coonhound es un perro de caza estadounidense conocido por su pelaje moteado en azul que es denso y resistente.',
+  //     history:
+  //       'El Bluetick Coonhound se originó en los Estados Unidos en la década de 1940.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: ['Gran sentido del olfato', 'Buen rastreador'],
+  //     color: 'Azul moteado, Tricolor',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: ['Necesita ejercicio regular'],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Obesidad'],
+  //   },
+  //   48: {
+  //     weight: {
+  //       imperial: '110 - 200',
+  //       metric: '50 - 91',
+  //     },
+  //     height: {
+  //       imperial: '22 - 27',
+  //       metric: '56 - 69',
+  //     },
+  //     id: 48,
+  //     name: 'Boerboel',
+  //     bred_for: 'Proteger el hogar, trabajo en la granja',
+  //     breed_group: 'Trabajo',
+  //     life_span: '10 - 12 años',
+  //     temperament: 'Obediente, Confiado, Inteligente, Dominante, Territorial',
+  //     origin: 'Sudáfrica',
+  //     reference_image_id: 'HyOjge5Vm',
+  //     image: {
+  //       id: 'HyOjge5Vm',
+  //       width: 1200,
+  //       height: 669,
+  //       url: 'https://cdn2.thedogapi.com/images/HyOjge5Vm.jpg',
+  //     },
+  //     searchTerms: ['Boerboel', 'Perro de trabajo', 'Granja'],
+  //     country_code: 'ZA',
+  //     description:
+  //       'El Boerboel es una raza de perro sudafricano, criado para la protección del hogar. Son perros grandes y fuertes, conocidos por su lealtad y su deseo de proteger a su familia.',
+  //     history:
+  //       'El Boerboel se origina en Sudáfrica, donde se utilizaba para proteger las granjas de las fieras salvajes.',
+  //     categoria_de_tamanio: 'Muy grande',
+  //     perks: ['Protector', 'Fuerte', 'Leal'],
+  //     color: 'Brindle, Negro, Marrón',
+  //     nivel_de_energia: 'Moderado',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Baja',
+  //     necesidades_especiales: [
+  //       'Requiere entrenamiento y socialización tempranos',
+  //     ],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Problemas de la piel'],
+  //   },
+  //   50: {
+  //     weight: {
+  //       imperial: '30 - 45',
+  //       metric: '14 - 20',
+  //     },
+  //     height: {
+  //       imperial: '18 - 22',
+  //       metric: '46 - 56',
+  //     },
+  //     id: 50,
+  //     name: 'Border Collie',
+  //     bred_for: 'Pastoreo de ovejas',
+  //     breed_group: 'Pastoreo',
+  //     life_span: '12 - 16 años',
+  //     temperament:
+  //       'Tenaz, Apasionado, Energético, Receptivo, Alerta, Inteligente',
+  //     origin: 'Reino Unido',
+  //     reference_image_id: 'sGQvQUpsp',
+  //     image: {
+  //       id: 'sGQvQUpsp',
+  //       width: 1080,
+  //       height: 1080,
+  //       url: 'https://cdn2.thedogapi.com/images/sGQvQUpsp.jpg',
+  //     },
+  //     searchTerms: ['Border Collie', 'Pastoreo', 'Ovejas'],
+  //     country_code: 'GB',
+  //     description:
+  //       'El Border Collie es una raza de perro de pastoreo inteligente y energética, conocida por su intensidad y su habilidad para trabajar en armonía con los humanos.',
+  //     history:
+  //       'El Border Collie se originó en la frontera entre Escocia e Inglaterra, donde se utilizaba para pastorear ovejas en las colinas y las montañas.',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: ['Inteligente', 'Energético', 'Trabajador'],
+  //     color: 'Negro, Blanco, Marrón',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: ['Requiere ejercicio diario'],
+  //     popularidad: 'Alta',
+  //     enfermedades_comunes: [
+  //       'Displasia de cadera',
+  //       'Atrofia retiniana progresiva',
+  //     ],
+  //   },
+  //   51: {
+  //     weight: {
+  //       imperial: '11.5 - 15.5',
+  //       metric: '5 - 7',
+  //     },
+  //     height: {
+  //       imperial: '11 - 16',
+  //       metric: '28 - 41',
+  //     },
+  //     id: 51,
+  //     name: 'Border Terrier',
+  //     bred_for: 'Captura de zorros, caza de ratas',
+  //     breed_group: 'Terrier',
+  //     life_span: '12 - 14 años',
+  //     temperament:
+  //       'Intrépido, Afectuoso, Alerta, Obediente, Inteligente, de Temperamento Uniforme',
+  //     origin: 'Reino Unido',
+  //     reference_image_id: 'HJOpge9Em',
+  //     image: {
+  //       id: 'HJOpge9Em',
+  //       width: 674,
+  //       height: 450,
+  //       url: 'https://cdn2.thedogapi.com/images/HJOpge9Em.jpg',
+  //     },
+  //     searchTerms: ['Border Terrier', 'Terrier', 'Caza de ratas'],
+  //     country_code: 'GB',
+  //     description:
+  //       'El Border Terrier es un perro valiente y cariñoso, conocido por su destreza en la caza de zorros y ratas.',
+  //     history:
+  //       'Originario de la frontera entre Inglaterra y Escocia, el Border Terrier fue criado para ser un cazador eficiente y un compañero leal.',
+  //     categoria_de_tamanio: 'Pequeño',
+  //     perks: ['Valiente', 'Cariñoso', 'Alerta'],
+  //     color: 'Marrón, Gris, Negro',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Moderado',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: ['Requiere ejercicio diario'],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Problemas de la piel', 'Displasia de cadera'],
+  //   },
+  //   53: {
+  //     weight: {
+  //       imperial: '10 - 25',
+  //       metric: '5 - 11',
+  //     },
+  //     height: {
+  //       imperial: '16 - 17',
+  //       metric: '41 - 43',
+  //     },
+  //     id: 53,
+  //     name: 'Boston Terrier',
+  //     bred_for: 'Caza de ratas, Compañía',
+  //     breed_group: 'No deportivo',
+  //     life_span: '11 - 13 años',
+  //     temperament: 'Amigable, Vivaz, Inteligente',
+  //     origin: 'Estados Unidos',
+  //     reference_image_id: 'rkZRggqVX',
+  //     image: {
+  //       id: 'rkZRggqVX',
+  //       width: 1010,
+  //       height: 673,
+  //       url: 'https://cdn2.thedogapi.com/images/rkZRggqVX.jpg',
+  //     },
+  //     searchTerms: ['Boston Terrier', 'Compañía', 'Caza de ratas'],
+  //     country_code: 'US',
+  //     description:
+  //       'El Boston Terrier es un perro vivaz y amigable, popular por su naturaleza sociable y su inteligencia.',
+  //     history:
+  //       'Originario de los Estados Unidos, el Boston Terrier fue criado como un perro de compañía y para la caza de ratas.',
+  //     categoria_de_tamanio: 'Pequeño',
+  //     perks: ['Amigable', 'Vivaz', 'Inteligente'],
+  //     color: 'Negro, Blanco, Atigrado',
+  //     nivel_de_energia: 'Moderado',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: ['Requiere socialización temprana'],
+  //     popularidad: 'Alta',
+  //     enfermedades_comunes: ['Problemas oculares', 'Sordera'],
+  //   },
+  //   54: {
+  //     weight: {
+  //       imperial: '70 - 110',
+  //       metric: '32 - 50',
+  //     },
+  //     height: {
+  //       imperial: '23.5 - 27.5',
+  //       metric: '60 - 70',
+  //     },
+  //     id: 54,
+  //     name: 'Bouvier des Flandres',
+  //     bred_for: 'Pastoreo de ganado',
+  //     breed_group: 'Pastor',
+  //     life_span: '10 - 15 años',
+  //     temperament: 'Protector, Leal, Gentil, Inteligente, Familiar, Racional',
+  //     origin: 'Bélgica',
+  //     reference_image_id: 'Byd0xl5VX',
+  //     image: {
+  //       id: 'Byd0xl5VX',
+  //       width: 680,
+  //       height: 454,
+  //       url: 'https://cdn2.thedogapi.com/images/Byd0xl5VX.jpg',
+  //     },
+  //     searchTerms: ['Bouvier des Flandres', 'Pastor', 'Pastoreo de ganado'],
+  //     country_code: 'BE',
+  //     description:
+  //       'El Bouvier des Flandres es un perro protector y leal, conocido por su capacidad para pastorear ganado.',
+  //     history:
+  //       'Originario de Bélgica, el Bouvier des Flandres fue criado para ser un eficiente perro pastor.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: ['Protector', 'Leal', 'Gentil'],
+  //     color: 'Negro, Gris, Brindle',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: ['Requiere ejercicio diario'],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Hipotiroidismo'],
+  //   },
+  //   55: {
+  //     weight: {
+  //       imperial: '50 - 70',
+  //       metric: '23 - 32',
+  //     },
+  //     height: {
+  //       imperial: '21.5 - 25',
+  //       metric: '55 - 64',
+  //     },
+  //     id: 55,
+  //     name: 'Boxer',
+  //     bred_for: 'Combate con toros, guardián',
+  //     breed_group: 'Trabajador',
+  //     life_span: '8 - 10 años',
+  //     temperament:
+  //       'Devoto, Valiente, Amigable, Alegre, Energético, Leal, Juguetón, Seguro, Inteligente, Brillante, Valiente, Calmado',
+  //     origin: 'Alemania',
+  //     reference_image_id: 'ry1kWe5VQ',
+  //     image: {
+  //       id: 'ry1kWe5VQ',
+  //       width: 645,
+  //       height: 430,
+  //       url: 'https://cdn2.thedogapi.com/images/ry1kWe5VQ.jpg',
+  //     },
+  //     searchTerms: ['Boxer', 'Trabajador', 'Guardián'],
+  //     country_code: 'DE',
+  //     description:
+  //       'El Boxer es un perro valiente y amigable, conocido por su naturaleza devota y su energía inagotable.',
+  //     history:
+  //       'Originario de Alemania, el Boxer fue criado inicialmente para el combate con toros y como guardián.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: ['Devoto', 'Valiente', 'Amigable'],
+  //     color: 'Marrón, Blanco, Atigrado',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: ['Requiere ejercicio diario'],
+  //     popularidad: 'Alta',
+  //     enfermedades_comunes: ['Alergias', 'Problemas cardíacos'],
+  //   },
+  //   56: {
+  //     weight: {
+  //       imperial: '25 - 40',
+  //       metric: '11 - 18',
+  //     },
+  //     height: {
+  //       imperial: '14 - 18',
+  //       metric: '36 - 46',
+  //     },
+  //     id: 56,
+  //     name: 'Boykin Spaniel',
+  //     bred_for: 'Recuperación de pavos',
+  //     breed_group: 'Deportivo',
+  //     life_span: '10 - 14 años',
+  //     temperament:
+  //       'Amigable, Energético, Sociable, Inteligente, Entusiasta, Adiestrable',
+  //     origin: 'Estados Unidos',
+  //     reference_image_id: 'ryHJZlcNX',
+  //     image: {
+  //       id: 'ryHJZlcNX',
+  //       width: 577,
+  //       height: 634,
+  //       url: 'https://cdn2.thedogapi.com/images/ryHJZlcNX.jpg',
+  //     },
+  //     searchTerms: ['Boykin Spaniel', 'Deportivo', 'Recuperación de pavos'],
+  //     country_code: 'US',
+  //     description:
+  //       'El Boykin Spaniel es un perro amigable y enérgico, conocido por su habilidad para recuperar pavos.',
+  //     history:
+  //       'Originario de los Estados Unidos, el Boykin Spaniel fue criado para la recuperación de pavos en el ámbito deportivo.',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: ['Amigable', 'Energético', 'Sociable'],
+  //     color: 'Marrón, Chocolate',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: ['Requiere ejercicio diario'],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+  //   },
+  //   57: {
+  //     weight: {
+  //       imperial: '55 - 88',
+  //       metric: '25 - 40',
+  //     },
+  //     height: {
+  //       imperial: '21.5 - 26.5',
+  //       metric: '55 - 67',
+  //     },
+  //     id: 57,
+  //     name: 'Bracco Italiano',
+  //     bred_for: 'Perro de caza versátil',
+  //     breed_group: 'Deportivo',
+  //     life_span: '10 - 12 años',
+  //     temperament:
+  //       'Testarudo, Afectuoso, Leal, Juguetón, Sociable, Adiestrable',
+  //     origin: 'Italia',
+  //     reference_image_id: 'S13yZg5VQ',
+  //     image: {
+  //       id: 'S13yZg5VQ',
+  //       width: 750,
+  //       height: 505,
+  //       url: 'https://cdn2.thedogapi.com/images/S13yZg5VQ.jpg',
+  //     },
+  //     searchTerms: ['Bracco Italiano', 'Deportivo', 'Perro de caza'],
+  //     country_code: 'IT',
+  //     description:
+  //       'El Bracco Italiano es un perro afectuoso y leal, conocido por su capacidad como perro de caza versátil.',
+  //     history:
+  //       'Originario de Italia, el Bracco Italiano fue criado para ser un perro de caza versátil.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: ['Afectuoso', 'Leal', 'Sociable'],
+  //     color: 'Blanco, Marrón, Naranja',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: ['Requiere ejercicio diario'],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+  //   },
+  //   58: {
+  //     weight: {
+  //       imperial: '70 - 90',
+  //       metric: '32 - 41',
+  //     },
+  //     height: {
+  //       imperial: '22 - 27',
+  //       metric: '56 - 69',
+  //     },
+  //     id: 58,
+  //     name: 'Briard',
+  //     bred_for: 'Pastoreo, cuidado de ovejas',
+  //     breed_group: 'Pastor',
+  //     life_span: '10 - 12 años',
+  //     temperament: 'Valiente, Leal, Obediente, Inteligente, Fiel, Protector',
+  //     origin: 'Francia',
+  //     reference_image_id: 'rkVlblcEQ',
+  //     image: {
+  //       id: 'rkVlblcEQ',
+  //       width: 768,
+  //       height: 576,
+  //       url: 'https://cdn2.thedogapi.com/images/rkVlblcEQ.jpg',
+  //     },
+  //     searchTerms: ['Briard', 'Pastor', 'Cuidado de ovejas'],
+  //     country_code: 'FR',
+  //     description:
+  //       'El Briard es un perro valiente y leal, conocido por su capacidad de pastoreo y cuidado de ovejas.',
+  //     history:
+  //       'Originario de Francia, el Briard ha sido siempre un perro pastor.',
+  //     categoria_de_tamanio: 'Grande',
+  //     perks: ['Valiente', 'Leal', 'Obediente'],
+  //     color: 'Negro, Gris, Marrón',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: ['Requiere ejercicio diario'],
+  //     popularidad: 'Moderada',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+  //   },
+  //   59: {
+  //     weight: {
+  //       imperial: '30 - 45',
+  //       metric: '14 - 20',
+  //     },
+  //     height: {
+  //       imperial: '17.5 - 20.5',
+  //       metric: '44 - 52',
+  //     },
+  //     id: 59,
+  //     name: 'Brittany',
+  //     bred_for: 'Señalar, recuperar',
+  //     breed_group: 'Deportivo',
+  //     life_span: '12 - 14 años',
+  //     temperament: 'Ágil, Adaptable, Rápido, Inteligente, Atento, Feliz',
+  //     origin: 'Francia',
+  //     reference_image_id: 'HJWZZxc4X',
+  //     image: {
+  //       id: 'HJWZZxc4X',
+  //       width: 900,
+  //       height: 600,
+  //       url: 'https://cdn2.thedogapi.com/images/HJWZZxc4X.jpg',
+  //     },
+  //     searchTerms: ['Brittany', 'Deportivo', 'Señalar'],
+  //     country_code: 'FR',
+  //     description:
+  //       'El Brittany es un perro ágil y rápido, conocido por su habilidad para señalar y recuperar en actividades deportivas.',
+  //     history:
+  //       'Originario de Francia, el Brittany ha sido tradicionalmente un perro deportivo.',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: ['Ágil', 'Adaptable', 'Rápido'],
+  //     color: 'Naranja, Blanco',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Alta',
+  //     necesidades_especiales: ['Requiere ejercicio diario'],
+  //     popularidad: 'Alta',
+  //     enfermedades_comunes: ['Displasia de cadera', 'Epilepsia'],
+  //   },
+  //   61: {
+  //     weight: {
+  //       imperial: '50 - 70',
+  //       metric: '23 - 32',
+  //     },
+  //     height: {
+  //       imperial: '21 - 22',
+  //       metric: '53 - 56',
+  //     },
+  //     id: 61,
+  //     name: 'Bull Terrier',
+  //     bred_for: 'Peleas de toros, lucha',
+  //     breed_group: 'Terrier',
+  //     life_span: '10 - 12 años',
+  //     temperament:
+  //       'Adiestrable, Protector, De buen carácter, Entusiasta, Activo',
+  //     origin: 'Reino Unido',
+  //     reference_image_id: 'VSraIEQGd',
+  //     image: {
+  //       id: 'VSraIEQGd',
+  //       width: 1080,
+  //       height: 1080,
+  //       url: 'https://cdn2.thedogapi.com/images/VSraIEQGd.jpg',
+  //     },
+  //     searchTerms: ['Bull Terrier', 'Terrier', 'Peleas de toros'],
+  //     country_code: 'UK',
+  //     description:
+  //       'El Bull Terrier es un perro activo y entusiasta, anteriormente criado para peleas de toros y lucha, pero ahora es popular como mascota.',
+  //     history:
+  //       'Originario del Reino Unido, el Bull Terrier tiene un pasado de lucha, pero ahora es una raza de perro domesticado.',
+  //     categoria_de_tamanio: 'Mediano',
+  //     perks: ['Adiestrable', 'Protector', 'Entusiasta'],
+  //     color: 'Blanco, Negro, Marrón',
+  //     nivel_de_energia: 'Alto',
+  //     facilidad_de_entrenamiento: 'Alto',
+  //     salud_general: 'Buena',
+  //     compatibilidad_con_otros_animales: 'Moderada',
+  //     necesidades_especiales: ['Requiere ejercicio diario'],
+  //     popularidad: 'Alta',
+  //     enfermedades_comunes: ['Problemas cardiacos', 'Problemas de piel'],
+  //   },
+  // };
 
   // export interface Dog {
   //   weight?:             Measurement;
@@ -1862,336 +2381,15 @@ export class PerrosService {
 
   // Si la raza tiene muchos colores, elegir los 3 más comunes
 
-  //Es muy importante que ninguna categoría quede vacía. Todas deben tener información. La idea no es que los completes con valores por defecto sino que los completes con la información que vos tenés acerca de esa raza de perro, que es mucha ya que tenes todos los textos de internet.
+  // Es muy importante que ninguna categoría quede vacía. Todas deben tener información. La idea no es que los completes con valores por defecto sino que los completes con la información que vos tenés acerca de esa raza de perro, que es mucha ya que tenes todos los textos de internet.
+
+  // Las propiedades de los objetos escribilas sin comillas, salvo que sea necesario.
 
   // Estos serán los criterios que seguiré para completar los objetos que me pases.
 
   // Te voy a pasar 3 objetos para que trabajes:
 
   //   [
-
-  //     {
-  //         "weight": {
-  //             "imperial": "65 - 100",
-  //             "metric": "29 - 45"
-  //         },
-  //         "height": {
-  //             "imperial": "23 - 27",
-  //             "metric": "58 - 69"
-  //         },
-  //         "id": 43,
-  //         "name": "Black and Tan Coonhound",
-  //         "bred_for": "Hunting raccoons, night hunting",
-  //         "breed_group": "Hound",
-  //         "life_span": "10 - 12 years",
-  //         "temperament": "Easygoing, Gentle, Adaptable, Trusting, Even Tempered, Lovable",
-  //         "reference_image_id": "HJAFgxcNQ",
-  //         "image": {
-  //             "id": "HJAFgxcNQ",
-  //             "width": 556,
-  //             "height": 380,
-  //             "url": "https://cdn2.thedogapi.com/images/HJAFgxcNQ.jpg"
-  //         }
-  //     },
-  //     {
-  //         "weight": {
-  //             "imperial": "80 - 110",
-  //             "metric": "36 - 50"
-  //         },
-  //         "height": {
-  //             "imperial": "23 - 27",
-  //             "metric": "58 - 69"
-  //         },
-  //         "id": 45,
-  //         "name": "Bloodhound",
-  //         "bred_for": "Trailing",
-  //         "breed_group": "Hound",
-  //         "life_span": "8 - 10 years",
-  //         "temperament": "Stubborn, Affectionate, Gentle, Even Tempered",
-  //         "reference_image_id": "Skdcgx9VX",
-  //         "image": {
-  //             "id": "Skdcgx9VX",
-  //             "width": 586,
-  //             "height": 600,
-  //             "url": "https://cdn2.thedogapi.com/images/Skdcgx9VX.jpg"
-  //         }
-  //     },
-  //     {
-  //         "weight": {
-  //             "imperial": "45 - 80",
-  //             "metric": "20 - 36"
-  //         },
-  //         "height": {
-  //             "imperial": "21 - 27",
-  //             "metric": "53 - 69"
-  //         },
-  //         "id": 47,
-  //         "name": "Bluetick Coonhound",
-  //         "bred_for": "Hunting with a superior sense of smell.",
-  //         "breed_group": "Hound",
-  //         "life_span": "12 - 14 years",
-  //         "temperament": "Friendly, Intelligent, Active",
-  //         "reference_image_id": "rJxieg9VQ",
-  //         "image": {
-  //             "id": "rJxieg9VQ",
-  //             "width": 731,
-  //             "height": 599,
-  //             "url": "https://cdn2.thedogapi.com/images/rJxieg9VQ.jpg"
-  //         }
-  //     },
-  //     {
-  //         "weight": {
-  //             "imperial": "110 - 200",
-  //             "metric": "50 - 91"
-  //         },
-  //         "height": {
-  //             "imperial": "22 - 27",
-  //             "metric": "56 - 69"
-  //         },
-  //         "id": 48,
-  //         "name": "Boerboel",
-  //         "bred_for": "Guarding the homestead, farm work.",
-  //         "breed_group": "Working",
-  //         "life_span": "10 - 12 years",
-  //         "temperament": "Obedient, Confident, Intelligent, Dominant, Territorial",
-  //         "reference_image_id": "HyOjge5Vm",
-  //         "image": {
-  //             "id": "HyOjge5Vm",
-  //             "width": 1200,
-  //             "height": 669,
-  //             "url": "https://cdn2.thedogapi.com/images/HyOjge5Vm.jpg"
-  //         }
-  //     },
-  //     {
-  //         "weight": {
-  //             "imperial": "30 - 45",
-  //             "metric": "14 - 20"
-  //         },
-  //         "height": {
-  //             "imperial": "18 - 22",
-  //             "metric": "46 - 56"
-  //         },
-  //         "id": 50,
-  //         "name": "Border Collie",
-  //         "bred_for": "Sheep herder",
-  //         "breed_group": "Herding",
-  //         "life_span": "12 - 16 years",
-  //         "temperament": "Tenacious, Keen, Energetic, Responsive, Alert, Intelligent",
-  //         "reference_image_id": "sGQvQUpsp",
-  //         "image": {
-  //             "id": "sGQvQUpsp",
-  //             "width": 1080,
-  //             "height": 1080,
-  //             "url": "https://cdn2.thedogapi.com/images/sGQvQUpsp.jpg"
-  //         }
-  //     },
-  //     {
-  //         "weight": {
-  //             "imperial": "11.5 - 15.5",
-  //             "metric": "5 - 7"
-  //         },
-  //         "height": {
-  //             "imperial": "11 - 16",
-  //             "metric": "28 - 41"
-  //         },
-  //         "id": 51,
-  //         "name": "Border Terrier",
-  //         "bred_for": "Fox bolting, ratting",
-  //         "breed_group": "Terrier",
-  //         "life_span": "12 - 14 years",
-  //         "temperament": "Fearless, Affectionate, Alert, Obedient, Intelligent, Even Tempered",
-  //         "reference_image_id": "HJOpge9Em",
-  //         "image": {
-  //             "id": "HJOpge9Em",
-  //             "width": 674,
-  //             "height": 450,
-  //             "url": "https://cdn2.thedogapi.com/images/HJOpge9Em.jpg"
-  //         }
-  //     },
-  //     {
-  //         "weight": {
-  //             "imperial": "10 - 25",
-  //             "metric": "5 - 11"
-  //         },
-  //         "height": {
-  //             "imperial": "16 - 17",
-  //             "metric": "41 - 43"
-  //         },
-  //         "id": 53,
-  //         "name": "Boston Terrier",
-  //         "bred_for": "Ratting, Companionship",
-  //         "breed_group": "Non-Sporting",
-  //         "life_span": "11 - 13 years",
-  //         "temperament": "Friendly, Lively, Intelligent",
-  //         "reference_image_id": "rkZRggqVX",
-  //         "image": {
-  //             "id": "rkZRggqVX",
-  //             "width": 1010,
-  //             "height": 673,
-  //             "url": "https://cdn2.thedogapi.com/images/rkZRggqVX.jpg"
-  //         }
-  //     },
-  //     {
-  //         "weight": {
-  //             "imperial": "70 - 110",
-  //             "metric": "32 - 50"
-  //         },
-  //         "height": {
-  //             "imperial": "23.5 - 27.5",
-  //             "metric": "60 - 70"
-  //         },
-  //         "id": 54,
-  //         "name": "Bouvier des Flandres",
-  //         "bred_for": "Cattle herding",
-  //         "breed_group": "Herding",
-  //         "life_span": "10 - 15 years",
-  //         "temperament": "Protective, Loyal, Gentle, Intelligent, Familial, Rational",
-  //         "reference_image_id": "Byd0xl5VX",
-  //         "image": {
-  //             "id": "Byd0xl5VX",
-  //             "width": 680,
-  //             "height": 454,
-  //             "url": "https://cdn2.thedogapi.com/images/Byd0xl5VX.jpg"
-  //         }
-  //     },
-  //     {
-  //         "weight": {
-  //             "imperial": "50 - 70",
-  //             "metric": "23 - 32"
-  //         },
-  //         "height": {
-  //             "imperial": "21.5 - 25",
-  //             "metric": "55 - 64"
-  //         },
-  //         "id": 55,
-  //         "name": "Boxer",
-  //         "bred_for": "Bull-baiting, guardian",
-  //         "breed_group": "Working",
-  //         "life_span": "8 - 10 years",
-  //         "temperament": "Devoted, Fearless, Friendly, Cheerful, Energetic, Loyal, Playful, Confident, Intelligent, Bright, Brave, Calm",
-  //         "reference_image_id": "ry1kWe5VQ",
-  //         "image": {
-  //             "id": "ry1kWe5VQ",
-  //             "width": 645,
-  //             "height": 430,
-  //             "url": "https://cdn2.thedogapi.com/images/ry1kWe5VQ.jpg"
-  //         }
-  //     },
-  //     {
-  //         "weight": {
-  //             "imperial": "25 - 40",
-  //             "metric": "11 - 18"
-  //         },
-  //         "height": {
-  //             "imperial": "14 - 18",
-  //             "metric": "36 - 46"
-  //         },
-  //         "id": 56,
-  //         "name": "Boykin Spaniel",
-  //         "bred_for": "Turkey retrieving",
-  //         "breed_group": "Sporting",
-  //         "life_span": "10 - 14 years",
-  //         "temperament": "Friendly, Energetic, Companionable, Intelligent, Eager, Trainable",
-  //         "reference_image_id": "ryHJZlcNX",
-  //         "image": {
-  //             "id": "ryHJZlcNX",
-  //             "width": 577,
-  //             "height": 634,
-  //             "url": "https://cdn2.thedogapi.com/images/ryHJZlcNX.jpg"
-  //         }
-  //     },
-  //     {
-  //         "weight": {
-  //             "imperial": "55 - 88",
-  //             "metric": "25 - 40"
-  //         },
-  //         "height": {
-  //             "imperial": "21.5 - 26.5",
-  //             "metric": "55 - 67"
-  //         },
-  //         "id": 57,
-  //         "name": "Bracco Italiano",
-  //         "bred_for": "Versatile gun dog",
-  //         "breed_group": "Sporting",
-  //         "life_span": "10 - 12 years",
-  //         "temperament": "Stubborn, Affectionate, Loyal, Playful, Companionable, Trainable",
-  //         "reference_image_id": "S13yZg5VQ",
-  //         "image": {
-  //             "id": "S13yZg5VQ",
-  //             "width": 750,
-  //             "height": 505,
-  //             "url": "https://cdn2.thedogapi.com/images/S13yZg5VQ.jpg"
-  //         }
-  //     },
-  //     {
-  //         "weight": {
-  //             "imperial": "70 - 90",
-  //             "metric": "32 - 41"
-  //         },
-  //         "height": {
-  //             "imperial": "22 - 27",
-  //             "metric": "56 - 69"
-  //         },
-  //         "id": 58,
-  //         "name": "Briard",
-  //         "bred_for": "Herding, guarding sheep",
-  //         "breed_group": "Herding",
-  //         "life_span": "10 - 12 years",
-  //         "temperament": "Fearless, Loyal, Obedient, Intelligent, Faithful, Protective",
-  //         "reference_image_id": "rkVlblcEQ",
-  //         "image": {
-  //             "id": "rkVlblcEQ",
-  //             "width": 768,
-  //             "height": 576,
-  //             "url": "https://cdn2.thedogapi.com/images/rkVlblcEQ.jpg"
-  //         }
-  //     },
-  //     {
-  //         "weight": {
-  //             "imperial": "30 - 45",
-  //             "metric": "14 - 20"
-  //         },
-  //         "height": {
-  //             "imperial": "17.5 - 20.5",
-  //             "metric": "44 - 52"
-  //         },
-  //         "id": 59,
-  //         "name": "Brittany",
-  //         "bred_for": "Pointing, retrieving",
-  //         "breed_group": "Sporting",
-  //         "life_span": "12 - 14 years",
-  //         "temperament": "Agile, Adaptable, Quick, Intelligent, Attentive, Happy",
-  //         "reference_image_id": "HJWZZxc4X",
-  //         "image": {
-  //             "id": "HJWZZxc4X",
-  //             "width": 900,
-  //             "height": 600,
-  //             "url": "https://cdn2.thedogapi.com/images/HJWZZxc4X.jpg"
-  //         }
-  //     },
-  //     {
-  //         "weight": {
-  //             "imperial": "50 - 70",
-  //             "metric": "23 - 32"
-  //         },
-  //         "height": {
-  //             "imperial": "21 - 22",
-  //             "metric": "53 - 56"
-  //         },
-  //         "id": 61,
-  //         "name": "Bull Terrier",
-  //         "bred_for": "Bull baiting, Fighting",
-  //         "breed_group": "Terrier",
-  //         "life_span": "10 - 12 years",
-  //         "temperament": "Trainable, Protective, Sweet-Tempered, Keen, Active",
-  //         "reference_image_id": "VSraIEQGd",
-  //         "image": {
-  //             "id": "VSraIEQGd",
-  //             "width": 1080,
-  //             "height": 1080,
-  //             "url": "https://cdn2.thedogapi.com/images/VSraIEQGd.jpg"
-  //         }
-  //     },
   //     {
   //         "weight": {
   //             "imperial": "25 - 33",
@@ -4964,4 +5162,6 @@ export class PerrosService {
   //         }
   //     }
   // ]
+
+  // Tenga en cuenta que los colores y las enfermedades comunes se seleccionaron basándose en la información generalmente asociada con estas razas. La información exacta puede variar y debería consultarse con un especialista en razas de perros o un veterinario para obtener información más precisa.
 }
