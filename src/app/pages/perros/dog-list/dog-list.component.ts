@@ -12,14 +12,35 @@ import { PerrosService } from 'src/app/services/perros.service';
 })
 export class DogListComponent implements OnInit, OnDestroy {
 
-  dogList: Dog[] = [];
+  dogList: {[key: number]: Dog} = this.perrosService.dogListSignal()
 
   searchDogForm: FormGroup = this.formBuilder.group({ searchTerm: '' })
 
-  searching = true;
+  searching = false;
   errorMessage = '';
 
+  sliceInit = 0;
+  sliceEnd = 4;
   currentPage = 0;
+  totalPages = 0;
+
+  get slicedDogList() {
+
+    this.totalPages = Math.ceil(Object.keys(this.dogList).length / 4)
+
+    const keys = Object.keys(this.dogList);
+    const slicedObject: {[key: number]: Dog} = {};
+    const startIndex = this.sliceInit || 0;
+    const endIndex = this.sliceEnd || 4;
+
+
+    for (let i = startIndex; i < endIndex; i++) {
+      const key = keys[i];
+      slicedObject[+key] = this.dogList[+key];
+    }
+
+    return slicedObject;
+  }
 
   private _destroy$ = new Subject<void>();
 
@@ -29,7 +50,7 @@ export class DogListComponent implements OnInit, OnDestroy {
 
 
   ngOnInit(): void {
-    this.searchDogs()
+    this.totalPages = Math.ceil(Object.keys(this.dogList).length / 4)
   }
 
   private onSearchTermChange() {
@@ -44,65 +65,53 @@ export class DogListComponent implements OnInit, OnDestroy {
                       )
                       .subscribe((term: string) => {
                         this.errorMessage = '';
-                        if (!term) return this.searchDogs(this.currentPage);
-                        this.searchDogsByBreedName(term.toLowerCase())
+                        if (!term) {
+                          this.dogList = this.perrosService.dogListSignal()
+                        }
+                        else
+                        {
+                          this.searchDogsByBreedName(term.toLowerCase())
+                        }
                       })
   }
 
-  private searchDogs(page = 0, load = true) {
-    if (load) this.searching = true;
-    this.perrosService.getDogBreeds(page)
-    .pipe(
-      take(1),
-      switchMap((dl) => {
-        this.dogList = dl;
-        this.errorMessage = !dl.length ? 'Sin resultados' : '';
-        this.searching = false;
-        return of(dl)
-      })
-    )
-    .subscribe()
-  }
+  private searchDogsByBreedName(searchTerm: string) {
 
-  private searchDogsByBreedName(breedName: string) {
     this.searching = true;
-    this.errorMessage = ''
-    this.perrosService.searchByName(breedName)
-      .pipe(
-        take(1),
-        catchError(err => {
-          this.errorMessage = 'Error desconocido';
-          return of([])
-        })
-      )
-      .subscribe(
-        {
-          next: dl => {
-            this.searching = false;
-            if (!dl.length)
-            {
-              this.errorMessage = 'Sin resultados'
-              this.dogList = []
-            }
-            else
-            {
-              this.errorMessage = '';
-              this.dogList = dl
-            }
-          },
-        }
-      )
+    this.errorMessage = '';
+    const dogArray = Object.values(this.dogList);
+    const filteredDogs = this.filterBySearchTerm(dogArray, searchTerm)
+    this.dogList = filteredDogs.reduce((obj: {[key: number]: Dog} , dog) => (obj[dog.id] = dog, obj), {});
+    this.searching = false;
+    this.errorMessage = !filteredDogs.length ? 'Sin resultados' : '';
+
   }
 
   prevPage() {
     if (this.currentPage === 0) return;
     this.currentPage--;
-    this.searchDogs(this.currentPage);
+    this.sliceInit -= 4;
+    this.sliceEnd -= 4;
+    this.searching = false;
   }
 
   nextPage() {
-    this.currentPage++;
-    this.searchDogs(this.currentPage);
+    if (this.currentPage < this.totalPages - 1) {
+      this.currentPage++;
+      this.sliceInit += 4;
+      this.sliceEnd += 4;
+      this.searching = false;
+    }
+  }
+
+  private filterBySearchTerm(dogList: Dog[], searchTerm: string): Dog[] {
+    return dogList.filter(dog => {
+      return  dog.name.toLowerCase().includes(searchTerm) ||
+              dog.searchTerms.some(st => st.toLowerCase().includes(searchTerm)) ||
+              dog.temperament.some(t => t.toLowerCase().includes(searchTerm)) ||
+              dog.categoria_de_tamanio.toLowerCase().includes(searchTerm) ||
+              dog.origin.toLowerCase().includes(searchTerm)
+    });
   }
 
 

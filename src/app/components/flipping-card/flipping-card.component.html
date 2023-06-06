@@ -7,14 +7,14 @@
            <span [class]="'card__heading-span card__heading-span--' + type">{{ cardTitle }}</span>
        </p>
        <div class="card__details">
-           <ul>
+           <ul #scrollContainer class="no-scrollbar">
                <li *ngFor="let topic of topics">{{ topic | titlecase }}</li>
            </ul>
        </div>
   </div>
   <div [class]="'card__side card__side--back card__side--back-' + type">
        <div class="card__cta">
-           <a [href]="href ? 'post/' + href : ''" class="btn btn--white">Ver!</a>
+           <a *ngIf="href" [href]="redirection" class="btn btn--white">Ver!</a>
        </div>
    </div>
 </div>

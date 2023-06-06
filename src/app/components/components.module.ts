@@ -27,6 +27,8 @@ import { HighlitedArticlesSectionComponent } from './highlited-articles-section/
 import { HighlitedArticlesPostsComponent } from './highlited-articles-posts/highlited-articles-posts.component';
 import { PreguntasFrecuentesSectionComponent } from './preguntas-frecuentes-section/preguntas-frecuentes-section.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { CalculadoraDeRacionesComponent } from './calculadora-de-raciones/calculadora-de-raciones.component';
+import { PopupFoodRationsComponent } from './popup-food-rations/popup-food-rations.component';
 
 
 
@@ -56,7 +58,9 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     RecentArticlesSectionComponent,
     HighlitedArticlesSectionComponent,
     PreguntasFrecuentesSectionComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    CalculadoraDeRacionesComponent,
+    PopupFoodRationsComponent
   ],
   imports: [
     CommonModule,
@@ -88,7 +92,9 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     RecentArticlesSectionComponent,
     HighlitedArticlesSectionComponent,
     PreguntasFrecuentesSectionComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    CalculadoraDeRacionesComponent,
+    PopupFoodRationsComponent
   ]
 })
 export class ComponentsModule { }
