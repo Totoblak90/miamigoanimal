@@ -33,10 +33,30 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Affenpinscher', 'Perro pequeño', 'Caza de roedores'],
     country_code: 'DE',
-    description:
-      'El Affenpinscher es una raza de perro pequeño originaria de Alemania y Francia. Es conocido por ser un perro de caza de roedores y también como perro faldero. Es terco, curioso, juguetón, aventurero, activo y amante de la diversión.',
-    history:
-      'El Affenpinscher tiene su origen en Alemania y Francia en el siglo XVII. Fue criado inicialmente para cazar roedores en las cocinas y establos. Es un perro pequeño pero valiente y ha sido una compañía leal para muchas personas a lo largo de los años.',
+    description: `
+      El Affenpinscher es una raza de perro pequeña y equilibrada, con un pelaje áspero y denso. Su apariencia general es más importante que cualquier característica individual. Se le conoce como un perro de juguete, con una inteligencia y comportamiento que lo hacen un buen perro de casa. Su cuerpo proporciona una apariencia cuadrada, siendo la altura, medida en la cruz, aproximadamente la misma que la longitud del cuerpo, medida desde el punto del hombro hasta el punto de las nalgas.
+      <br>
+      <br>
+      El Affenpinscher no es delicado de ninguna manera, siendo robusto y compacto, con huesos medianos. La raza es alerta, inquisitiva y muestra una gran lealtad y afecto hacia su dueño y amigos. Generalmente son tranquilos, pero pueden volverse vehementemente emocionados cuando se sienten amenazados o atacados, y son valientes frente a cualquier agresor.
+      <br>
+      <br>
+      La cabeza del Affenpinscher se lleva con confianza y está en proporción con el cuerpo. Tiene la expresión característica de un mono. El cráneo es redondo, no largo, abovedado y tiene una frente prominente. La parada es claramente definida. El hocico es corto y recto, sin curva ascendente, y un puente recto. Los labios son negros y ajustados. La mandíbula inferior sobresale más allá de la mandíbula superior y está ligeramente girada hacia arriba.
+      <br>
+      <br>
+      El Affenpinscher tiene una personalidad parecida a la de un terrier. Tienden a llevarse bien con otros perros y mascotas, especialmente cuando se crían con ellos. Son ocupados, audaces, inquisitivos y obstinados, pero también les encanta hacer travesuras, siendo juguetones y traviesos. Un perro pequeño, agudo e ingenioso que es valiente y confiado. Un defensor sin miedo, el Affenpinscher se convertirá rápidamente en un autoritario si los dueños no dan las reglas adecuadas, límites, limitaciones y constantemente sean el líder de la manada de este perro. Es muy cariñoso y divertido. Este amigable perro pequeño disfruta estando con su familia. Necesita un entrenamiento constante y firme. Asegúrate de que haya algo de variedad en el entrenamiento para que el perro no se aburra. Aprenden comandos muy rápidamente. Algunos pueden ser difíciles de entrenar para ir al baño. No se recomiendan para niños muy pequeños, simplemente porque la mayoría de las personas que poseen la raza los tratan como perros pequeños, careciendo del liderazgo de manada adecuado, lo que provoca comportamientos negativos en el perro. Los niños deben aprender a manejar correctamente a un perro. Los dueños necesitan ser constantemente el líder de la manada del perro para evitar la tendencia a proteger su comida y juguetes. Les gusta hacer senderismo y acampar. Sin liderazgo, puede desafiar imprudentemente a perros grandes y otros animales grandes.
+      <br>
+      <br>
+      Tienden a ladrar e incluso a trepar. Este pequeño perro se lleva mejor con una familia a la que le gusta el entretenimiento.
+    `,
+    history: `
+      La historia del Affenpinscher es un tanto misteriosa debido a su antigüedad, pero se sabe que es una de las razas de juguete más antiguas. Aunque no existen datos exactos sobre su origen, se cree que el Affenpinscher se originó en Alemania. El nombre Affenpinscher se traduce del alemán como "Terrier Mono", un nombre que se le dio debido a su expresión facial similar a la de un mono.
+      <br>
+      <br>
+      El Affenpinscher es ciertamente pariente del Brussels Griffon y probablemente del terrier. Se cree que los primeros Affenpinschers eran más grandes en tamaño, ya que eran perros de granja que trabajaban como ratoneros. Durante los siglos XVIII y XIX, el Affenpinscher fue miniaturizado y se convirtió en un animal de compañía. A pesar de su tamaño reducido, sigue siendo un cazador implacable de ratones y un excelente perro guardián.
+      <br>
+      <br>
+      Hoy en día, el Affenpinscher es principalmente un perro de compañía. Fue admitido en el libro de registro del American Kennel Club en 1936. A pesar de su pequeño tamaño, el Affenpinscher es un perro valiente y confiado, con una personalidad similar a la de un terrier. Son audaces, inquisitivos y obstinados, pero también les encanta hacer travesuras, siendo juguetones y traviesos. Son perros muy afectuosos y divertidos que disfrutan estando con su familia.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'No necesita mucho espacio',
@@ -51,6 +71,21 @@ export const DOG_LIST: { [key: number]: Dog } = {
     necesidades_especiales: ['Necesita estimulación mental regular'],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas dentales', 'Luxación de rótula'],
+    tendencia_a_ladrar: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    tolerancia_a_la_soledad: 'Moderada',
+    bueno_con_ninos: 'Baja',
+    para_primerizos: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Affenpinscher",
+      "https://www.akc.org/dog-breeds/affenpinscher/",
+      "https://www.royalcanin.com/us/dogs/breeds/breed-library/affenpinscher",
+      "https://www.dogbreedinfo.com/affenpinscher.htm",
+      "https://www.ukcdogs.com/affenpinscher"
+    ]
   },
   2: {
     weight: {
@@ -76,11 +111,31 @@ export const DOG_LIST: { [key: number]: Dog } = {
       url: 'https://cdn2.thedogapi.com/images/hMyT4CDXR.jpg',
     },
     searchTerms: ['Sabueso afgano', 'perro de caza', 'perro de persecución'],
-    description:
-      'El Sabueso afgano, también conocido como Afghan Hound, es una raza de perro distinguida y elegante, con un pelaje largo y sedoso que requiere mantenimiento regular. A pesar de su apariencia aristocrática, este perro es conocido por su personalidad juguetona y ocasionalmente cómica. Aunque pueden ser algo distantes con los extraños, los Sabuesos afganos tienden a formar fuertes lazos con sus familias.',
+    description: `
+      El Sabueso Afgano, también conocido como Afghan Hound, es una raza de perro que se distingue por su apariencia elegante y su pelaje largo y sedoso. Esta raza es de tamaño mediano, pero su apariencia da la impresión de fuerza y actividad, combinando velocidad con potencia y agilidad. El Afghan Hound es una mezcla única de sustancia, elegancia y función. La cabeza y el cuello son largos, las orejas son largas y colgantes, y la cola es larga con un anillo o curva en el extremo. La cabeza se lleva con orgullo.
+      <br>
+      <br>
+      El pelaje del Afghan Hound es largo y sedoso en las costillas, los cuartos delanteros y traseros, los flancos y la parte superior de la cabeza, mientras que la cara y la espalda están cubiertas de pelo corto. Los extremos superiores de los huesos pélvicos son prominentes. En la evaluación de esta raza, es importante recordar que el Afghan Hound cazaba su presa en un terreno accidentado lleno de peñascos y barrancos. Para este propósito, se requiere un perro compacto y bien acoplado, en lugar de un perro de carreras de lomo largo cuya primera calidad es la velocidad.
+      <br>
+      <br>
+      Las características que distinguen al Afghan Hound de todos los demás perros son el copete largo y sedoso; la grupa inclinada y la cola baja; los huesos pélvicos prominentes; la cola escasamente cubierta con el anillo o la curva hacia arriba al final; el patrón de pelaje único; y la expresión "oriental" - inescrutable, penetrante y sabia. El Afghan Hound es un pensador independiente y de voluntad fuerte que es digno y distante con los extraños. Sin embargo, con la familia, esta raza puede ser exuberante y juguetona. El Afghan Hound no responde bien a los métodos de entrenamiento duros y prefiere hacer las cosas a su manera. Esta raza tiene un instinto de caza muy bien desarrollado. Se requiere un aseo regular para mantener el glamuroso pelaje del Afghan.
+      <br>
+      <br>
+      El Afghan Hound es una raza que requiere un dueño que entienda y aprecie sus características únicas. Esta raza no es para todos, pero para aquellos que se sienten atraídos por su belleza y personalidad única, el Afghan Hound puede ser un compañero maravilloso y gratificante.
+    `,
     country_code: 'AG',
-    history:
-      'El Sabueso afgano es una de las razas de perros más antiguas y proviene de las regiones montañosas de Afganistán. Tradicionalmente, estos perros eran utilizados por los nómadas para cazar en terrenos difíciles, persiguiendo a su presa con una velocidad y agilidad impresionantes. Aunque la raza fue criada inicialmente para cazar, el Sabueso afgano ha encontrado un lugar en los hogares y en los anillos de exhibición debido a su belleza y a su personalidad única.',
+    history: `
+      La historia del Sabueso Afgano es fascinante y se remonta a miles de años. Esta raza, que se originó en las regiones montañosas de Afganistán, es una de las más antiguas razas de perros domesticados conocidas por el hombre. Los afganos eran perros de caza altamente valorados por las tribus nómadas de Afganistán, Pakistán e Irán.
+      <br>
+      <br>
+      El Sabueso Afgano es una raza que ha sido criada durante siglos para cazar en las duras condiciones de las montañas y desiertos de Afganistán. Su historia se remonta a la época pre-cristiana, y se cree que es una de las razas más antiguas de perros domesticados. Los afganos eran utilizados por las tribus nómadas de Afganistán, Pakistán e Irán para cazar presas grandes y pequeñas. Su habilidad para correr rápido y durante largos períodos de tiempo los hacía perfectos para este propósito.
+      <br>
+      <br>
+      El Sabueso Afgano fue llevado a Inglaterra a finales del siglo XIX y principios del XX por los militares británicos que regresaban de la frontera noroeste de la India, la región donde se encuentra Afganistán hoy en día. Los primeros afganos llegaron a Gran Bretaña con los soldados que regresaban a casa del servicio militar en el Imperio oriental a principios de 1900. Después de que el primer Sabueso Afgano causó sensación en el show de Crystal Palace en 1907, la raza prácticamente desapareció en Inglaterra, en gran parte debido a las dificultades impuestas por la Primera Guerra Mundial. La raza fue revivida en Gran Bretaña después de la Primera Guerra Mundial y se desarrolló a través de dos líneas influyentes, los perros Bell-Murray y los sabuesos Ghazi. Un número de Sabuesos Afganos criados en Gran Bretaña fueron exportados a los Estados Unidos en la década de 1920 y se convirtieron en la base de la raza aquí.
+      <br>
+      <br>
+      El Sabueso Afgano fue reconocido por el United Kennel Club en 1948. Aunque la raza es ahora principalmente un perro de compañía y de show, todavía retiene su alta energía y su instinto de caza.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Necesita espacio para correr',
@@ -98,6 +153,20 @@ export const DOG_LIST: { [key: number]: Dog } = {
     necesidades_especiales: ['Necesita mucha estimulación mental y física'],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas de la vista', 'Hipotiroidismo'],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    bueno_con_ninos: 'Baja',
+    para_primerizos: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Afghan_Hound",
+      "https://www.akc.org/dog-breeds/afghan-hound/",
+      "https://www.royalcanin.com/us/dogs/breeds/breed-library/afghan-hound",
+      "https://www.ukcdogs.com/afghan-hound"
+    ]
   },
   3: {
     weight: {
@@ -123,11 +192,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       url: 'https://cdn2.thedogapi.com/images/rkiByec47.jpg',
     },
     searchTerms: ['Perro de caza africano', 'perro de caza en manada'],
-    description:
-      'El Perro de caza africano, también conocido como African Hunting Dog, es un animal salvaje que se encuentra en manadas. Este perro tiene una apariencia distintiva, caracterizada por sus manchas de colores en su pelaje. Son perros altamente sociables, conocidos por su dedicación al trabajo en equipo al cazar. Su energía y resistencia son notables, siendo perros que requieren gran espacio para correr y jugar.',
+    description: `
+      La raza de perro conocida como "Perro de caza africano" es una raza muy especial y única. También conocido como "Perro salvaje africano" o "Licaón", este perro no es una raza doméstica, sino una especie de cánido salvaje que se encuentra en África, especialmente en sabanas y áreas ligeramente boscosas.
+      <br>
+      <br>
+      El Perro de caza africano es un animal social y altamente inteligente que vive en manadas. Son conocidos por su eficiencia en la caza, con tasas de éxito de hasta el 80%, mucho más altas que las de los grandes felinos de África. Son animales de cuerpo delgado y musculoso, con patas largas y una cola espesa y peluda que a menudo tiene una punta blanca. Su pelaje es corto y multicolor, con mezclas de marrón, negro, blanco y amarillo, y cada perro tiene un patrón único.
+      <br>
+      <br>
+      Estos perros son extremadamente activos y requieren mucho ejercicio. Son corredores rápidos y tienen una resistencia increíble, lo que les permite perseguir a su presa durante largos períodos de tiempo. Son animales muy sociales que viven en manadas de hasta 40 individuos. La estructura social de la manada es compleja, con una jerarquía de dominio que se mantiene en su mayoría por comportamientos de sumisión en lugar de agresión.
+      <br>
+      <br>
+      El Perro de caza africano es un depredador altamente especializado que se alimenta principalmente de antílopes. La manada trabaja junta para acorralar y derribar a su presa, y a diferencia de muchos otros depredadores, comen en un orden específico, comenzando con los cachorros y seguido por los adultos subordinados.
+      <br>
+      <br>
+      Es importante destacar que el Perro de caza africano es una especie en peligro de extinción. Su población ha disminuido debido a la pérdida de hábitat, la persecución por parte de los humanos, la competencia con otros depredadores como los leones y las hienas, y las enfermedades transmitidas por los perros domésticos.
+      <br>
+      <br>
+      Aunque estos perros son fascinantes y hermosos, no son adecuados como mascotas. Son animales salvajes que necesitan mucho espacio para correr y cazar, y tienen necesidades sociales y comportamentales que no pueden ser satisfechas en un entorno doméstico. Además, pueden ser peligrosos para las personas y otros animales si se sienten amenazados o acorralados.
+    `,
     country_code: 'AF',
-    history:
-      'El Perro de caza africano es una raza salvaje originaria de África, conocida por su habilidad para cazar en manadas. Estos perros han sido parte del ecosistema africano durante miles de años y han desarrollado adaptaciones únicas para sobrevivir y cazar eficientemente. Debido a su naturaleza salvaje, estos perros no son generalmente mantenidos como mascotas, aunque hay ejemplos de éxito en algunos entornos de conservación.',
+    history:`
+      La historia del Perro de Caza Africano, también conocido como Licaón, Perro Salvaje Africano, o Lobo Pintado, es fascinante y se remonta a miles de años atrás. Aunque no es una raza de perro en el sentido tradicional, su historia y evolución están profundamente entrelazadas con la de África.
+      <br>
+      <br>
+      El Perro de Caza Africano es una especie única que ha existido en África durante más de un millón de años, según los registros fósiles. Aunque comparten un ancestro común con los lobos y los perros domésticos, se separaron de estas líneas hace millones de años y han seguido su propio camino evolutivo desde entonces. No son perros en el sentido de que no pertenecen a la especie Canis lupus, como los perros domésticos, sino que son la única especie en el género Lycaon.
+      <br>
+      <br>
+      Estos perros son conocidos por su pelaje moteado, que es único para cada individuo, al igual que las huellas dactilares en los humanos. Son animales sociales que viven en manadas, y son famosos por su estilo de caza cooperativo y eficiente.
+      <br>
+      <br>
+      La historia del Perro de Caza Africano está marcada por la supervivencia en un continente a menudo hostil. A lo largo de los siglos, han enfrentado numerosos desafíos, desde cambios en el clima y el hábitat hasta la caza y la persecución por parte de los humanos. A pesar de esto, han demostrado ser increíblemente resilientes y han logrado sobrevivir en algunas de las regiones más salvajes de África.
+      <br>
+      <br>
+      En tiempos más recientes, la historia del Perro de Caza Africano ha sido menos positiva. La especie ha experimentado un declive significativo en las últimas décadas debido a la pérdida de hábitat, la caza furtiva, las enfermedades transmitidas por perros domésticos y otros factores. Hoy en día, se considera una especie en peligro de extinción, con estimaciones que sugieren que quedan menos de 7.000 individuos en estado salvaje.
+      <br>
+      <br>
+      A pesar de estos desafíos, hay esfuerzos en curso para proteger y conservar al Perro de Caza Africano. Los programas de conservación están trabajando para proteger su hábitat, reducir las amenazas y aumentar su población a través de la cría en cautividad y la reintroducción en la naturaleza.
+      <br>
+      <br>
+      La historia del Perro de Caza Africano es una historia de supervivencia y resistencia. Aunque enfrentan un futuro incierto, su historia nos recuerda la importancia de la conservación y la protección de las especies en peligro de extinción.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Necesita espacio para correr',
@@ -149,6 +253,15 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Baja',
     enfermedades_comunes: ['Problemas de la vista', 'Enfermedades infecciosas'],
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_calido: 'Alta',
+    soporta_clima_frio: 'Baja',
+    tolerancia_a_la_soledad: '-',
+    bueno_con_ninos: '-',
+    para_primerizos: '-',
+    casos_famosos: [],
+    fuentes: [ "https://en.wikipedia.org/wiki/African_Hunting_Dog", ]
   },
   4: {
     weight: {
@@ -187,10 +300,25 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'caza de nutrias',
     ],
     country_code: 'UK',
-    description:
-      'El Airedale Terrier es un perro de caza originario del Reino Unido, específicamente de Inglaterra. Se le conoce por su habilidad para cazar tejones y nutrias. Es un perro del grupo Terrier, reconocido por ser sociable, amigable, alerta, confiado, inteligente y valiente. Aunque es un cazador excepcional, el Airedale Terrier también es un compañero leal y cariñoso, lo que lo convierte en una excelente opción para las familias.',
-    history:
-      'El Airedale Terrier tiene sus orígenes en el Reino Unido, específicamente en Inglaterra, donde fue criado con el propósito principal de cazar tejones y nutrias. A lo largo de los años, este perro ha demostrado ser versátil y talentoso, desempeñándose en una variedad de roles que van desde la búsqueda y el rescate hasta el trabajo policial y el deporte canino conocido como agility. Su inteligencia y valentía le han valido un lugar importante en la historia de las razas caninas.',
+    description: `
+      La raza de perro Airedale Terrier, también conocida como el "Rey de los Terriers", es una raza que se originó en el Valle de Aire en South Yorkshire, Inglaterra. Son la raza de terrier más grande y fueron criados originalmente para cazar nutrias, zorros y otros pequeños animales. Su apariencia es majestuosa y su coraje es indiscutible, aunque no son propensos a buscar peleas. Son rápidos, siempre listos para la acción y muy alerta, lo que los convierte en excelentes perros de protección y familia.
+      <br>
+      <br>
+      El Airedale Terrier es un perro bien proporcionado y algo compacto, sin exagerar la longitud de las patas o del cuerpo. Su pelaje es duro, denso y de color negro y canela, y su cola, que suele ser cortada, es moderadamente larga, erecta y de buena resistencia. Aunque originalmente fueron criados como perros de caza y trabajo, ahora se utilizan para múltiples propósitos, desde el trabajo policial hasta ser mascotas familiares.
+      <br>
+      <br>
+      El Airedale Terrier tiene una cabeza bien equilibrada, con un cráneo y un hocico de igual longitud y una parada apenas visible. Sus ojos son oscuros y pequeños, no prominentes, y están llenos de agudeza e inteligencia. Sus orejas son en forma de V, pequeñas pero proporcionadas al tamaño del perro. Su cuello es de longitud y grosor moderados, limpio en la garganta y se ensancha gradualmente hacia el cuerpo.
+      <br>
+      <br>
+      El cuerpo del Airedale Terrier es robusto, con un pecho profundo pero no demasiado ancho. Su espalda es corta, fuerte y nivelada, y sus costillas están bien arqueadas. Su lomo es corto, ancho y muscular, dejando poco espacio entre la última costilla y la articulación de la cadera. Sus patas delanteras son perfectamente rectas con mucho músculo y hueso, y sus patas traseras están bien anguladas con muslos largos y musculosos.
+      <br>
+      <br>
+      El Airedale Terrier es una raza de perro que ha sido reconocida por el United Kennel Club desde 1914. Aunque su apariencia puede ser intimidante, son perros amigables y leales que son excelentes para las familias y los dueños de perros por primera vez.
+    `,
+
+    history: `
+
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de caza',
@@ -209,6 +337,33 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de piel',
       'Alergias',
     ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    bueno_con_ninos: 'Alta',
+    para_primerizos: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Davie',
+        caso: 'Airedale Terrier del presidente de EE.UU. Woodrow Wilson',
+      },
+      {
+        nombre: 'Laddie Boy',
+        caso: 'Airedale Terrier del presidente de EE.UU. Warren G Harding',
+      },
+      {
+        nombre: 'Paul Pry',
+        caso: 'Airedale Terrier del presidente de EE.UU. Calvin Coolidge, originalmente llamado Laddie Buck',
+      },
+    ],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Airedale_Terrier",
+      "https://www.akc.org/dog-breeds/airedale-terrier/",
+      "https://www.royalcanin.com/us/dogs/breeds/breed-library/airedale-terrier",
+      "https://www.ukcdogs.com/airedale-terrier"
+    ]
   },
   5: {
     weight: {
@@ -236,9 +391,9 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: ['Akbash', 'Guardia de ovejas'],
     country_code: 'TR',
     description:
-      'El Akbash es una raza utilizada tradicionalmente para la protección de ovejas. Conocidos por su lealtad, independencia, inteligencia y valentía, estos perros destacan por su distintivo pelaje blanco y su gran tamaño, lo que les permite realizar su trabajo de manera efectiva. Son ideales para entornos de granja donde pueden moverse y trabajar libremente.',
+      'El Akbash es una raza de perro de gran tamaño, conocida por su pelaje blanco puro y su apariencia majestuosa. Los machos pueden pesar hasta 60 kilogramos y alcanzar una altura de 86 centímetros, mientras que las hembras son ligeramente más pequeñas. Esta raza es conocida por su inteligencia, valentía y lealtad, así como por su instinto protector. Aunque pueden ser reservados con los extraños, los Akbash son generalmente amables y afectuosos con su familia. Son perros activos que requieren ejercicio regular, pero también son conocidos por su naturaleza tranquila y su capacidad para adaptarse a una variedad de entornos. Su pelaje denso y de longitud media requiere un mantenimiento regular para mantenerlo en buen estado. Aunque son perros robustos y saludables, pueden ser propensos a ciertas condiciones de salud, como la displasia de cadera y problemas de tiroides.      ',
     history:
-      'Originario de Turquía, el Akbash fue criado con el propósito principal de servir como perro de guardia de ovejas. Con su tamaño, fuerza y valentía, demostró ser invaluable en la protección de los rebaños contra los depredadores. Aunque no es una raza conocida en muchos lugares, sigue siendo un protector confiable y valorado en su país de origen y entre los pastores.',
+      'Se cree que el Akbash es una de las razas de perros más antiguas que existen, con una historia que se remonta a más de tres mil años. Originarios de Turquía, los Akbash fueron criados originalmente para ser perros pastores. Su pelaje blanco les permitía mezclarse con las ovejas que estaban protegiendo, y su tamaño e inteligencia les permitían defender eficazmente su rebaño de los depredadores. A lo largo de los siglos, la raza se ha mantenido relativamente pura, con pocos cambios en su apariencia o temperamento. Los Akbash fueron introducidos en América del Norte en la década de 1970, donde han ganado popularidad tanto como perros de trabajo como de compañía.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente perro de guardia',
@@ -262,6 +417,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas cardíacos',
       'Obesidad',
     ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    tolerancia_a_la_soledad: 'Moderada',
+    bueno_con_ninos: '-',
+    para_primerizos: '-',
+    casos_famosos: [],
   },
   6: {
     weight: {
@@ -299,9 +462,9 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: ['Akita', 'perro de caza', 'caza de osos'],
     country_code: 'JP',
     description:
-      'El Akita es una raza de perro de tamaño grande originaria de Japón, conocida por su pelaje denso que viene en varios colores. Históricamente utilizados para la caza de osos, estos perros son conocidos por ser dóciles, alertas, sensibles, dignos, compuestos, amistosos, receptivos, fieles y valientes. La salud general del Akita es buena, pero pueden presentar algunos problemas comunes como la displasia de cadera, problemas de tiroides y obesidad.',
+      'El Akita es un perro de doble capa, musculoso, de antiguo linaje japonés, famoso por su dignidad, coraje y lealtad. En su tierra natal, son venerados como protectores de la familia y símbolos de buena salud, felicidad y larga vida. Los Akitas son perros de tipo spitz, robustos y de huesos pesados, de estatura imponente. De pie, miden de 24 a 28 pulgadas en el hombro, y tienen un pelaje denso que viene en varios colores, incluyendo el blanco. La cabeza es amplia y masiva, y está equilibrada en la parte trasera por una cola completa que se curva sobre sí misma. Las orejas erectas y los ojos oscuros y brillantes contribuyen a una expresión de alerta, una característica distintiva de la raza. Los Akitas son perros tranquilos y meticulosos. Desconfiados de los extraños y a menudo intolerantes con otros animales, los Akitas compartirán con gusto su lado tonto y afectuoso con la familia y los amigos. Prosperan con la compañía humana. El gran Akita, de pensamiento independiente, está programado para proteger a aquellos a quienes ama. Deben ser socializados desde el nacimiento con personas y otros perros.',
     history:
-      'Originario de Japón, el Akita era inicialmente conocido por su habilidad para cazar osos. A través de los años, esta raza ha demostrado ser valiente y leal, enfrentando desafíos con dignidad y compostura. Los Akitas han jugado un importante papel en la historia y la cultura japonesas, siendo vistos como un símbolo de buena salud, felicidad y larga vida.',
+      'El Akita es una raza de perro que se originó en Japón. Se cree que la raza ha existido desde el siglo XVII, y que fue desarrollada originalmente para cazar osos, ciervos y jabalíes. Durante muchos años, solo los nobles podían poseer la raza. En el siglo XIX, la raza estuvo cerca de la extinción debido a las cruzas con otras razas de perros. Sin embargo, a principios del siglo XX, se hicieron esfuerzos para preservar la raza pura, y en 1931, el Akita fue declarado un monumento natural de Japón. Durante la Segunda Guerra Mundial, la raza estuvo nuevamente en peligro debido a la escasez de alimentos, y los perros fueron sacrificados para usar su piel para la ropa. Después de la guerra, la raza fue nuevamente preservada y se hizo popular en todo el mundo. Hoy en día, el Akita es una raza de perro popular y se le conoce por su lealtad y su naturaleza protectora.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente perro de guardia',
@@ -320,6 +483,27 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Problemas de tiroides',
       'Obesidad',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Hachiko',
+        caso: 'Hachiko es probablemente el Akita más famoso de la historia. Este perro japonés es conocido por su lealtad inquebrantable a su dueño, Hidesaburo Ueno, durante la década de 1920. Todos los días, Hachiko esperaba a su dueño en la estación de tren de Shibuya para volver a casa juntos. Incluso después de la muerte de Ueno, Hachiko continuó esperando en la estación todos los días durante casi 10 años hasta su propia muerte. Su historia ha sido contada en varias películas y libros, y una estatua de bronce de Hachiko se encuentra en la estación de Shibuya en su honor.',
+      },
+      {
+        nombre: 'Kenzo',
+        caso: "Kenzo es un Akita que apareció en la película de 1989 'Hachiko Monogatari', una película japonesa basada en la verdadera historia de Hachiko. Kenzo interpretó a Hachiko en la película.",
+      },
+      {
+        nombre: 'Taro y Jiro',
+        caso: "Taro y Jiro son dos Akitas que se hicieron famosos por su supervivencia en la Antártida. Fueron parte de una expedición japonesa en 1958, y cuando la expedición tuvo que ser evacuada debido a las duras condiciones climáticas, los perros fueron dejados atrás con la esperanza de que el equipo de relevo los recogiera. Sin embargo, debido a las dificultades logísticas, los perros quedaron abandonados. Increíblemente, Taro y Jiro lograron sobrevivir en la Antártida por casi un año hasta que fueron encontrados por una expedición de rescate. Su historia fue contada en la película 'Eight Below'.",
+      },
     ],
   },
   7: {
@@ -356,7 +540,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'El Bulldog Alapaha de Sangre Azul es una raza fuertemente desarrollada y exagerada, con una cabeza ancha y orejas caídas de forma natural. Su prominente hocico está cubierto por labios superiores flojos. Los ojos prominentes están bien separados. Su pelaje es relativamente corto y bastante rígido. Los colores preferidos son merle azul, merle marrón o merle rojo, todos complementados con blanco o chocolate y blanco. También se prefieren los ojos de cristal (azules) o los ojos de mármol (marrón y azul mezclados en un solo ojo). Las orejas y la cola nunca se cortan. Su cuerpo es robusto y muy musculoso. Sus caderas bien musculadas son más estrechas que su pecho. Su espalda recta tiene la misma longitud que la altura del perro en los hombros. Las uñas delanteras nunca se retiran y las patas son similares a las de un gato.',
     country_code: 'US',
     history:
-      'El Bulldog Alapaha de Sangre Azul es originario de Estados Unidos, donde se ha criado principalmente para fines de guardia. Su apariencia distintiva y su naturaleza protectora lo convierten en un perro valorado como compañero y protector de la familia. Los Bulldogs Alapaha de Sangre Azul son descendientes de una raza de perros de trabajo del sur de los Estados Unidos, específicamente en las regiones de Georgia y Alabama. Fueron desarrollados para ser versátiles, capaces de proteger la propiedad y el ganado, y también de trabajar como perros de caza. Aunque son relativamente desconocidos fuera de su región natal, son muy apreciados por su temperamento equilibrado y su fuerte instinto protector.',
+      'El Bulldog Alapaha de Sangre Azul es una raza rara que se cree que desciende de los Bulldogs Ingleses Antiguos que fueron llevados a las Américas en el siglo XVIII, donde se utilizaron en los deportes de sangre de la pelea de toros y la pelea de osos; más tarde se utilizaron como pastores de ganado y cerdos. Durante varias generaciones, la raza fue criada exclusivamente por la familia Lane de Rebecca, Georgia. Eventualmente comenzaron un registro de la raza con un perro llamado Otto, el perro fundador de la operación de cría de la familia. El nombre del perro se ha utilizado ocasionalmente como apodo para la raza. A principios del siglo XXI, se estimaba que existían entre 120 y 150 Bulldogs Alapaha de Sangre Azul.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de guardia',
@@ -380,6 +564,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de cadera',
       'Alergias cutáneas',
     ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: '-',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
   },
   8: {
     weight: {
@@ -404,12 +596,25 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 500,
       url: 'https://cdn2.thedogapi.com/images/-HgpNnGXl.jpg',
     },
-    searchTerms: ['Husky de Alaska', 'perro de trineo'],
+    searchTerms: [
+      'Siberiano',
+      'Husky de Alaska',
+      'Alaskan Husky',
+      'Husky Alaskano',
+      'Huski de Alaska',
+      'Huski Alaskano',
+      'Husky de Alasca',
+      'Huski de Alasca',
+      'Husky Alasca',
+      'Huski Alasca',
+      'Husky Alaskano',
+      'Huski Alaskano',
+    ],
     description:
-      'El Husky de Alaska es una raza de perro de trabajo utilizada principalmente para tirar de trineos en climas fríos. Es conocido por su resistencia y su disposición amistosa. Su pelaje es denso y viene en una variedad de colores y patrones. Los huskies de Alaska son perros inteligentes, pero pueden ser un desafío para los propietarios sin experiencia debido a su naturaleza independiente y su necesidad de ejercicio regular.',
+      'El Husky de Alaska es una raza de perro de trineo de tamaño mediano, desarrollado específicamente por su rendimiento como tal. Los Huskies de Alaska son el tipo de perro más comúnmente utilizado para las carreras de trineo de perros competitivas, tanto en carreras de sprint de corta distancia como en carreras de expedición de larga distancia como la Iditarod Trail Sled Dog Race, la Yukon Quest y la Finnmarkslopet. A diferencia de las razas desarrolladas para el ring de exhibición, el Husky de Alaska es un producto de la selección cuidadosa de rasgos deseables de perros de trineo de varias otras razas, como la aptitud para tirar, la resistencia, la velocidad, la inteligencia, el apetito y la tolerancia al clima extremo. Como resultado de esta cría específica y consciente basada sólo en el rendimiento, los estudios de ADN muestran que los Huskies de Alaska comparten una firma genética y de hecho pueden ser identificados con precisión en las pruebas de raza de ADN.',
     country_code: 'US',
     history:
-      'El Husky de Alaska es una raza que se originó en Estados Unidos, especialmente adaptada para soportar las duras condiciones del Ártico. Fueron criados por los Inuit de Alaska para el trabajo de trineo y la caza. Esta raza es valorada por su fuerza y resistencia, así como por su habilidad para trabajar en equipo. A pesar de su adaptación al frío, los Huskies de Alaska pueden vivir en una variedad de climas siempre y cuando se les proporcione suficiente sombra y agua en climas más cálidos.',
+      'A medida que los comerciantes y colonos europeos llegaron a Alaska, buscaron entretenimiento local y se volcaron a las carreras del medio de transporte local, los perros de trineo. Los perros indígenas encontrados en todo Alaska eran famosos por su gran fuerza y resistencia, pero carecían de velocidad, por lo que se utilizaron varios cruces con razas del Viejo Mundo más rápidas para producir perros de carrera más rápidos, incluyendo importaciones siberianas que dominaban las carreras organizadas localmente en Alaska. Desde principios del siglo XX, varios criadores han recurrido a varios cruces para producir diferentes líneas de perros de carrera. La mayoría de las líneas hoy en día contienen alguna forma de herencia de husky tradicional en sus líneas de sangre, siendo los Malamutes de Alaska y los Huskies Siberianos los más comunes, aunque también se han utilizado los Huskies del Río Mackenzie, los Perros de Groenlandia y los Samoyeds.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Bueno para el clima frío',
@@ -434,6 +639,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Enfermedad de la piel',
     ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    tolerancia_a_la_soledad: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    casos_famosos: [],
   },
   9: {
     weight: {
@@ -467,14 +680,24 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: [
       'Malamute de Alaska',
-      'perro de trineo',
-      'transporte de carga',
+      'Malamute',
+      'Alaskan Malamute',
+      'Malamut de Alaska',
+      'Malamute Alaskano',
+      'Malamut Alaskano',
+      'Alaskan Malamut',
+      'Malamute del Alaska',
+      'Malamut del Alaska',
+      'Perro Malamute',
+      'Perro Malamut',
+      'Perro de Alaska',
+      'Perro Alaskano',
     ],
     country_code: 'US',
     description:
-      'El Malamute de Alaska es una raza fuerte y resistente. Es conocido por ser amistoso y cariñoso con su familia, pero puede ser bastante independiente y terco en ocasiones. Su tamaño y nivel de energía requieren un nivel alto de ejercicio y estimulación mental. Tiene un pelaje grueso que lo hace muy adecuado para climas fríos, pero puede tener dificultades en climas más cálidos.',
+      'El Malamute de Alaska es una raza de perro grande que fue originalmente criada por su fuerza y resistencia para transportar cargas pesadas como perro de trineo y sabueso. Es similar a otras razas árticas como el husky, el spitz, el perro de Groenlandia, el perro esquimal canadiense, el husky siberiano y el samoyedo. El Malamute de Alaska es un perro pesado, con una naturaleza y estructura más formidables que el Husky Siberiano, que está criado para la velocidad. El Malamute de Alaska está criado para la potencia y la resistencia, que es su función original y lo que el estándar de la raza requiere de los criadores de Malamute de Alaska.',
     history:
-      'El Malamute de Alaska es una de las razas más antiguas de perros de trineo, con una historia que se remonta a la tribu inuit de Malamute. Fueron criados específicamente para la tarea de tirar de trineos pesados a través de las condiciones extremas del Ártico. Su fuerza y resistencia han sido apreciadas durante generaciones.',
+      'Se cree que los primeros perros llegaron a las Américas hace 12,000 años, pero las personas y sus perros no se establecieron en el Ártico hasta que llegaron las personas Paleo-Eskimo hace 4,500 años, seguidas por las personas Thule hace 1,000 años, ambas originarias de Siberia. Se pensaba que los Malamutes fueron criados por el pueblo Inupiaq Malimiut de la región de Norton Sound en Alaska. El Malamute ha sido identificado como una raza basal que precede a la aparición de las razas modernas en el siglo XIX. Un estudio en 2013 mostró que el Malamute de Alaska tiene un origen similar al del este de Asia, pero no está claramente relacionado con el perro de Groenlandia y el perro esquimal canadiense, pero contiene una posible mezcla del Husky Siberiano.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente para el clima frío',
@@ -495,6 +718,19 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    tolerancia_a_la_soledad: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    casos_famosos: [
+      {
+        nombre: 'Balto',
+        caso: 'Balto, aunque técnicamente es un Husky Siberiano, a menudo se confunde con un Malamute de Alaska. Balto es famoso por su papel en la carrera del suero a Nome en 1925, donde lideró su equipo de trineo a través de condiciones difíciles para entregar un suero antitoxina diftérica que salvó muchas vidas.',
+      },
+    ],
   },
   10: {
     weight: {
@@ -527,12 +763,26 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1377,
       url: 'https://cdn2.thedogapi.com/images/pk1AAdloG.jpg',
     },
-    searchTerms: ['Bulldog Americano', 'Perro fuerte', 'Bueno para entrenar'],
+    searchTerms: [
+      'Bulldog Americano',
+      'American Bulldog',
+      'Bulldog de America',
+      'Bulldog de EEUU',
+      'Bulldog EEUU',
+      'Bulldog de Estados Unidos',
+      'Bulldog Estados Unidos',
+      'Bulldog USA',
+      'Bulldog de USA',
+      'Bulldog Amerikano',
+      'Bulldog Amercano',
+      'Bulldog Amerikano',
+      'Bulldog Amerikn',
+    ],
     country_code: 'US',
     description:
-      'El Bulldog Americano es una raza de trabajo conocida por su fuerza y determinación. Son reconocidos por su carácter amistoso, asertividad, energía, lealtad, gentileza, confianza y dominio. Aunque pueden parecer robustos, son animales increíblemente amigables y cariñosos. Ideal para dueños activos que pueden proporcionarles el estímulo físico que necesitan.',
+      'El Bulldog Americano es una raza grande y musculosa de tipo mastín que se utilizaba como perros de trabajo, perros de captura y guardianes en granjas y ranchos. La raza desciende del Bulldog Inglés Antiguo, que se cree que llegó a América ya en el siglo XVII, traído por inmigrantes de clase trabajadora de Inglaterra. Durante la Primera y Segunda Guerra Mundial, la raza estuvo al borde de la extinción, con los únicos perros supervivientes mantenidos principalmente en granjas en el sureste. John D. Johnson y Alan Scott son ampliamente reconocidos como los precursores de rescatar la raza de la extinción. El 1 de enero de 1999, el United Kennel Club reconoció por primera vez al Bulldog Americano. En noviembre de 2019, el Bulldog Americano fue añadido al American Kennel Club (AKC) Foundation Stock Service (FSS).',
     history:
-      'El Bulldog Americano se originó en el sur de los Estados Unidos como una raza de trabajo en granjas, utilizada originalmente para la captura de ganado y protección. Esta raza de Bulldog es la descendiente más cercana al antiguo Bulldog, que se utilizaba en Inglaterra para el bullbaiting, una práctica que eventualmente se prohibió por ser inhumana.',
+      'El Bulldog Inglés Antiguo fue preservado por inmigrantes de clase trabajadora que trajeron sus perros de trabajo con ellos al sur de Estados Unidos; se cree que estos perros aparecieron por primera vez ya en el siglo XVII. Los pequeños agricultores y propietarios de ranchos utilizaban este perro de trabajo multifuncional para muchas tareas, incluyendo guardianes de granjas, perros de ganado y perros de captura. Estos perros no eran una raza auténtica según los estándares modernos, como era el caso de la mayoría de los otros perros; los clubes de razas y los registros de razas no existían hasta 1875, al menos dos siglos después de que el Bulldog Inglés Antiguo emigrara por primera vez a América. En los siglos XVII y XVIII, el Bulldog Inglés Antiguo tenía muchas cepas diferentes para la conducción de ganado, la captura de toros, los perros de granja y los perros de carnicero. La captura de toros también era un deporte de sangre común de la época y aunque existen pruebas de que tal deporte emigró a América con los bulldogs de raza traídos por los ingleses de clase trabajadora en tiempos coloniales, las cepas que emigraron a América ciertamente no se vieron afectadas por la prohibición del deporte en 1835 en el Reino Unido, por lo que no se vio la necesidad de un declive en la población del bulldog de tipo antiguo.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Bueno para el entrenamiento de obediencia',
@@ -553,6 +803,59 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Spike y Tyke',
+        caso: 'Personajes de la franquicia Tom y Jerry.',
+      },
+      {
+        nombre: 'Muggshot',
+        caso: 'Personaje jefe de la serie Sly Cooper y ejecutor de los Cinco Diabólicos.',
+      },
+      {
+        nombre: 'Big Trouble y Tory Hesta',
+        caso: "Perros que aparecen en el video 'Bloody Cape' de Deftones.",
+      },
+      {
+        nombre: 'Mel',
+        caso: "Perro del personaje de David Duchovny en la película 'Return to Me' (2000).",
+      },
+      {
+        nombre: 'Snowflake',
+        caso: "Uno de los perros de trineo de Kevin Manley en la película 'Kevin of the North' (2001).",
+      },
+      {
+        nombre: 'Nedd',
+        caso: "Perro en la película 'The Number 23' (2007).",
+      },
+      {
+        nombre: 'Jangers',
+        caso: "Perro del personaje de Tyler Labine en la película 'Tucker & Dale vs. Evil' (2010).",
+      },
+      {
+        nombre: 'Zinga',
+        caso: 'Perro que aparece en el logo de la compañía Zynga.',
+      },
+      {
+        nombre: 'Chance',
+        caso: "Perro protagonista en la película 'Homeward Bound: The Incredible Journey' (1993) y su secuela.",
+      },
+      {
+        nombre: 'Petey',
+        caso: "En la película 'The Little Rascals' (1994), Petey fue interpretado por un Bulldog Americano.",
+      },
+      {
+        nombre: 'Gunner',
+        caso: "Bulldog Americano que es la mascota de la familia en las películas 'Cheaper by the Dozen' (2003) y 'Cheaper by the Dozen 2' (2005).",
+      },
+    ],
   },
   11: {
     weight: {
@@ -587,12 +890,27 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 683,
       url: 'https://cdn2.thedogapi.com/images/sqQJDtbpY.jpg',
     },
-    searchTerms: ['Bully Americano', 'Perro de compañía'],
+    searchTerms: [
+      'Bully Americano',
+      'American Bully',
+      'Perro Bully',
+      'Bully',
+      'Am. Bully',
+      'Bully American',
+      'Bully dog',
+      'American Bully dog',
+      'Bully americano perro',
+      'Bully perro americano',
+      'Bully americano',
+      'Bully de america',
+      'Perro bully de america',
+      'Bully de america perro',
+    ],
     country_code: 'US',
     description:
-      'El Bully Americano es una raza originaria de Estados Unidos, conocida por su carácter fuerte y obstinado, así como su amabilidad y afecto. A menudo se comportan de manera juguetona, a veces incluso cómica, y son leales, obedientes, inteligentes y valientes. Son perros familiares excelentes y se llevan bien con los niños y otras mascotas.',
+      'El American Bully es una raza de perro moderna que se desarrolló como perro de compañía, y se estandarizó y reconoció como raza en 2004 por el American Bully Kennel Club (ABKC). Su estándar de raza publicado describe al perro como dando la "impresión de gran fuerza para su tamaño". Existen varios tipos, que varían desde el tamaño de bolsillo hasta el XXL en tamaño y peso. El temperamento en los perros adultos depende mucho del entrenamiento, y la raza puede ser muy exigente y necesita ser entrenada adecuadamente.',
     history:
-      'El Bully Americano fue creado en las décadas de 1980 y 1990 en Estados Unidos con el objetivo de crear un perro de compañía familiar. Esta raza es una mezcla de varias otras, incluyendo el Bulldog americano, el Bulldog inglés, y varias razas de terrier. A lo largo de los años, se ha ganado el corazón de muchos debido a su lealtad y amor incondicional hacia sus familias.',
+      'El American Bully, como se le conoce ahora, comenzó su desarrollo en la década de 1980, con la mayoría del producto final de comportamiento y estética completado en la década de 1990. Hay consenso en que se utilizaron al menos cinco otras razas para lograr los rasgos físicos más "bully" deseados, así como el tamaño más diminuto de algunas líneas. El American Pit Bull Terrier (APBT) fue la base (raza madre) utilizada para crear el American Bully. El APBT ha mantenido una apariencia y un temperamento característicos durante más de un siglo. Dentro de ese lapso de tiempo, surgieron diferentes cepas de APBT dentro de la raza, cada una con diferentes atributos físicos. Una cepa particular de APBT fue cruzada para crear un físico específico, más corpulento, que los criadores originalmente tergiversaron como American Pit Bull Terriers de raza pura. Eventualmente, suficientes criadores acordaron que estos perros eran lo suficientemente diferentes de los American Pit Bull Terriers como para justificar que admitieran que eran una raza diferente en su totalidad. La línea de sangre de estas razas mixtas se vio influenciada aún más con la cría abiertamente reconocida con el American Bulldog, el Bulldog Inglés y el Olde English Bulldogge para afinar las características físicas deseadas y los rasgos de personalidad.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de compañía',
@@ -614,6 +932,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Alergias a la piel'],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: '-',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: '-',
+    casos_famosos: [],
   },
   12: {
     weight: {
@@ -644,12 +970,27 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 802,
       url: 'https://cdn2.thedogapi.com/images/Bymjyec4m.jpg',
     },
-    searchTerms: ['Perro Esquimal Americano', 'Artista de circo'],
+    searchTerms: [
+      'Perro Esquimal Americano',
+      'American Eskimo Dog',
+      'Spitz Americano',
+      'American Spitz',
+      'Perro de circo',
+      'Circo dog',
+      'Spitz Aleman Americano',
+      'American German Spitz',
+      'Perro Esquimal',
+      'Eskimo Dog',
+      'Perro Eskimo',
+      'Eskimo Perro',
+      'Perro Americano',
+      'American Dog',
+    ],
     country_code: 'US',
     description:
-      'El Perro Esquimal Americano es una raza no deportiva originaria de Estados Unidos, se destacaba como artista de circo. Esta raza es amistosa, alerta, reservada, inteligente y protectora. Aunque su nombre puede sugerir una procedencia esquimal, este perro en realidad tiene raíces en una serie de razas europeas.',
+      'l Perro Esquimal Americano es una raza de perro de compañía, originaria de Alemania. Es un miembro de la familia Spitz y se considera una raza de perro antigua debido a su reciente mezcla con lobos. Los progenitores de la raza fueron los Spitz alemanes, pero debido al sentimiento anti-alemán durante la Primera Guerra Mundial, se le cambió el nombre a "Perro Esquimal Americano". Aunque los modernos Perros Esquimales Americanos han sido exportados como Spitz alemán Gross (o Mittel, dependiendo de la altura del perro), las razas han divergido y los estándares son significativamente diferentes. Además de servir como perro guardián y de compañía, el Perro Esquimal Americano también alcanzó un alto grado de popularidad en los Estados Unidos en las décadas de 1930 y 1940 como artista de circo. Existen tres variedades de tamaño de la raza de Perro Esquimal Americano, el toy, el miniatura y el estándar. Comparten un parecido común con el Spitz japonés, el Spitz danés, el Volpino Italiano, el Spitz alemán, el Spitz indio y los Samoyeds.',
     history:
-      'El Perro Esquimal Americano tiene sus raíces en el norte de Europa, pero se desarrolló en su totalidad en los Estados Unidos. Las razas antecesoras probablemente llegaron a América a través de inmigrantes alemanes y escandinavos en los siglos XIX y XX. Aunque la raza se utilizó en su momento como artista de circo, hoy en día es principalmente apreciada como una excelente mascota y compañera.',
+      'En el norte de Europa, los Spitz más pequeños se desarrollaron eventualmente en las diversas razas de Spitz alemanes. Los inmigrantes europeos trajeron sus mascotas Spitz a los Estados Unidos, especialmente a Nueva York, a principios del siglo XX, "todos ellos descendientes del Spitz alemán más grande, el Keeshond, el Pomerania blanco y el Spitz italiano, el Volpino Italiano". Aunque el blanco no siempre fue un color reconocido en las diversas razas de Spitz alemanes, generalmente era el color preferido en los EE. UU. En una muestra de patriotismo en la época de la Primera Guerra Mundial, los dueños de perros comenzaron a referirse a sus mascotas como Spitz americanos en lugar de Spitz alemanes. Después de la Primera Guerra Mundial, los pequeños perros Spitz llamaron la atención del público estadounidense cuando los perros se convirtieron en populares artistas en el circo estadounidense. En 1917, el Circo Ferroviario de los Hermanos Cooper presentó a los perros. Un perro llamado Stout`s Pal Pierre fue famoso por caminar por una cuerda floja con el Circo Barnum y Bailey en la década de 1930, y también contribuyó a su popularidad, vendieron cachorros después del espectáculo. Debido a la popularidad de los perros de circo, muchos de los actuales Perros Esquimales Americanos pueden rastrear su linaje hasta estos perros de circo.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente para compañía',
@@ -675,6 +1016,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de oído',
       'Problemas oculares',
     ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_calido: 'Baja',
+    soporta_clima_frio: 'Alta',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Moderada',
+    casos_famosos: [],
   },
   13: {
     weight: {
@@ -705,12 +1054,29 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 487,
       url: 'https://cdn2.thedogapi.com/images/_gn8GLrE6.jpg',
     },
-    searchTerms: ['Perro esquimal americano (miniatura)', 'compañía'],
+    searchTerms: [
+      'Perro Esquimal Americano',
+      'American Eskimo Dog',
+      'American Spitz',
+      'German Spitz',
+      'Perro de compañía',
+      'Perro de circo',
+      'Perro Esquimal Americano miniatura',
+      'Miniature American Eskimo Dog',
+      'Spitz alemán',
+      'Spitz americano',
+      'Spitz de circo',
+      'Perro de circo americano',
+      'Perro esquimal',
+      'Esquimal americano',
+      'Perro esquimal miniatura',
+      'Perro esquimal americano miniatura',
+    ],
     country_code: 'US',
     description:
-      'El Perro esquimal americano en su versión miniatura es una raza criada principalmente para ser una compañía agradable. Es amistoso, alerta, reservado, inteligente y protector. A pesar de su tamaño, estos perros son muy enérgicos y requieren ejercicio regular para mantenerse saludables.',
+      'El Perro Esquimal Americano es una raza de perro de compañía, originaria de Alemania y perteneciente a la familia Spitz. Se considera una raza de perro antigua debido a su reciente mezcla con lobos. Los progenitores de la raza fueron los Spitz alemanes, pero debido al sentimiento anti-alemán durante la Primera Guerra Mundial, fue rebautizado como "Perro Esquimal Americano". Aunque los modernos Perros Esquimales Americanos han sido exportados como Spitz alemán Gross (o Mittel, dependiendo de la altura del perro), las razas han divergido y los estándares son significativamente diferentes. Además de servir como perro de vigilancia y compañía, el Perro Esquimal Americano también alcanzó un alto grado de popularidad en los Estados Unidos en los años 1930 y 1940 como intérprete de circo.',
     history:
-      'El Perro esquimal americano en su versión miniatura es una variante de tamaño reducido del Perro esquimal americano. Estos perros fueron criados inicialmente para ser compañía en hogares y para ser presentados en shows y exposiciones. A pesar de su tamaño, son perros robustos y fuertes.',
+      'En el norte de Europa, los Spitz más pequeños se desarrollaron eventualmente en las diversas razas de Spitz alemanas. Los inmigrantes europeos trajeron sus mascotas Spitz a los Estados Unidos, especialmente a Nueva York, a principios de 1900, "todos ellos descendientes del Spitz alemán más grande, el Keeshond, el Pomerania blanco y el Spitz italiano, el Volpino Italiano". Aunque el blanco no siempre fue un color reconocido en las diversas razas de Spitz alemanas, generalmente era el color preferido en los Estados Unidos. En una muestra de patriotismo en la época de la Primera Guerra Mundial, los dueños de perros comenzaron a referirse a sus mascotas como Spitz americanos en lugar de Spitz alemanes. Después de la Primera Guerra Mundial, los pequeños perros Spitz llamaron la atención del público estadounidense cuando los perros se convirtieron en populares artistas en el circo estadounidense. En 1917, el Circo Ferroviario de los Hermanos Cooper presentó a los perros. Un perro llamado Stout`s Pal Pierre fue famoso por caminar en la cuerda floja con el Circo Barnum y Bailey en los años 1930, y también contribuyó a su popularidad, vendieron cachorros después del espectáculo. Debido a la popularidad de los perros de circo, muchos de los actuales Perros Esquimales Americanos pueden rastrear su linaje hasta estos perros de circo.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Compañía agradable',
@@ -730,6 +1096,15 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas oculares', 'Problemas dentales'],
+    tolerancia_a_la_soledad: 'Baja',
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    soporta_clima_frio: 'Alta',
+    para_primerizos: '-',
+    bueno_con_ninos: 'Alta',
+    fuentes: [],
+    casos_famosos: [],
   },
   14: {
     weight: {
@@ -761,12 +1136,25 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 2400,
       url: 'https://cdn2.thedogapi.com/images/S14n1x9NQ.jpg',
     },
-    searchTerms: ['Sabueso americano', 'Perro de caza', 'Perro rastreador'],
+    searchTerms: [
+      'Sabueso americano',
+      'sabueso americano',
+      'American Foxhound',
+      'american foxhound',
+      'Foxhound',
+      'foxhound',
+      'sabueso de america',
+      'Sabueso de America',
+      'perro sabueso americano',
+      'Perro Sabueso Americano',
+      'perro de caza americano',
+      'Perro de Caza Americano',
+    ],
     country_code: 'US',
     description:
-      'El Sabueso americano es una raza de sabueso criada para la caza de zorros y como perro rastreador. Se caracterizan por su temperamento dulce y amabilidad. Son leales y cariñosos con sus dueños, y a la vez, son independientes e inteligentes. Aunque son perros de caza, se adaptan bien a la vida familiar.',
+      'El Sabueso americano es una raza de perro grande y atractiva, con patas delanteras largas y huesos muy rectos. Su cabeza es larga con un cráneo grande ligeramente abovedado. Las orejas son anchas y colgantes, enmarcando la cara. Los ojos son grandes y separados, de color marrón o avellana, con una expresión dulce e implorante. Las orejas son anchas y planas en la cabeza. La cola se coloca moderadamente alta con una ligera curva hacia arriba, pero no se gira hacia adelante sobre la espalda. El pelaje corto y duro puede ser de cualquier color. Este perro es extremadamente enérgico e incansable. Es muy importante que haga mucho ejercicio diario para prevenir la inquietud extrema en interiores. Esta raza no debe ser adoptada como mascota familiar a menos que la familia pueda garantizar mucho ejercicio vigoroso.',
     history:
-      'Los sabuesos americanos se originaron en Estados Unidos durante el siglo XVIII. Fueron criados inicialmente para la caza de zorros debido a su habilidad para rastrear olores. Con el tiempo, también se han utilizado para rastrear otro tipo de presas y en búsquedas y rescates.',
+      'El Sabueso americano desciende directamente de los sabuesos ingleses llevados a América en 1650 y criados más de un siglo después con un sabueso francés enviado como regalo por Lafayette a George Washington. Washington llevó a cabo un programa de cría y a menudo mencionaba a los sabuesos en sus diarios. Las dos razas, francesa e inglesa, en combinación han producido el Sabueso americano. En el siglo XVII, estos perros se utilizaban para buscar indios. Más tarde, sin embargo, se convirtieron en cazadores eficientes e incansables de animales salvajes. El Sabueso americano tiene un excelente olfato y es muy rápido cuando persigue. Tiene una gran resistencia para correr y un ladrido melodioso. El Sabueso americano sigue siendo principalmente un perro de caza y de prueba de campo, tanto en manadas como solo, aunque también ha tenido éxito como perro de compañía para aquellos dueños que proporcionan suficiente ejercicio y actividades.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente para la caza',
@@ -787,6 +1175,18 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Hipotiroidismo', 'Otitis'],
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_calido: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    tolerancia_a_la_soledad: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    fuentes: [
+      'https://www.akc.org/dog-breeds/american-foxhound/',
+      'https://www.dogbreedinfo.com/americanfoxhound.htm',
+    ],
+    casos_famosos: [],
   },
   15: {
     weight: {
@@ -821,12 +1221,26 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 244,
       url: 'https://cdn2.thedogapi.com/images/HkC31gcNm.png',
     },
-    searchTerms: ['Terrier Americano Pit Bull', 'perro de combate'],
+    searchTerms: [
+      'Terrier Americano Pit Bull',
+      'Pit Bull',
+      'American Pit Bull',
+      'Pitbull',
+      'Pit Bull Terrier',
+      'American Pitbull Terrier',
+      'Pitbull Americano',
+      'Pit Bull Americano',
+      'Terrier Pit Bull',
+      'Pit Bull Terrier Americano',
+      'Pitbull Terrier',
+      'Terrier Pitbull',
+      'American Pit Bull Terrier',
+    ],
     country_code: 'US',
     description:
-      'El Terrier Americano Pit Bull es una raza que fue criada originalmente para peleas de perros. Sin embargo, a pesar de su pasado, es un perro fuerte de voluntad, testarudo, amistoso, alegre, cariñoso, leal, obediente, inteligente y valiente. Se adapta bien a la vida familiar y es un excelente protector del hogar.',
+      'El Terrier Americano Pit Bull es una raza de tamaño mediano, sólidamente construida, con un pelaje corto y una musculatura suave y bien definida. Esta raza es a la vez poderosa y atlética. El cuerpo es ligeramente más largo que alto, pero las hembras pueden ser un poco más largas que los machos. La cabeza es de longitud media, con un cráneo ancho y plano, y un hocico ancho y profundo. Los ojos son de tamaño mediano, redondos y están bien separados y bajos en el cráneo. Las orejas son pequeñas a medianas en tamaño, de alta inserción, y pueden ser naturales o cortadas. La cola es relativamente corta, se inserta baja, es gruesa en la base y se estrecha hacia la punta. El pelaje es brillante y suave, pegado al cuerpo y moderadamente rígido al tacto. Esta raza combina fuerza y agilidad con gracia y agilidad y nunca debe parecer voluminosa o musculosa o de huesos finos y largos.',
     history:
-      'La historia de la raza Terrier Americano Pit Bull es un poco controvertida debido a su pasado en las peleas de perros. Sin embargo, es importante destacar que estos perros han demostrado ser leales y afectuosos miembros de la familia cuando se crían en un ambiente amoroso y respetuoso.',
+      'Durante el siglo XIX, los aficionados a los perros en Inglaterra, Irlanda y Escocia comenzaron a experimentar con cruces entre Bulldogs y Terriers, buscando un perro que combinara la valentía del terrier con la fuerza y el atletismo del Bulldog. El resultado fue un perro que encarnaba todas las virtudes atribuidas a los grandes guerreros: fuerza, coraje indomable y gentileza con los seres queridos. Los inmigrantes trajeron estos cruces de bull-and-terrier a los Estados Unidos. Los múltiples talentos del Terrier Americano Pit Bull no pasaron desapercibidos para los granjeros y rancheros que utilizaban a sus APBTs como perros de captura para el ganado y los cerdos semi-salvajes, para cazar, para conducir el ganado, y como compañeros de familia. Hoy en día, el Terrier Americano Pit Bull continúa demostrando su versatilidad, compitiendo con éxito en Obediencia, Rally Obediencia, Rastreo, Agilidad, Lure Coursing, Dock Jumping y Weight Pulls, así como en Conformación.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente protector del hogar',
@@ -847,6 +1261,23 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Alergias',
       'Problemas cardíacos',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    casos_famosos: [
+      {
+        nombre: 'Petey',
+        caso: "Perro famoso de la serie de televisión 'The Little Rascals'",
+      },
+    ],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/american-pit-bull-terrier/',
+      'https://www.ukcdogs.com/american-pit-bull-terrier',
     ],
   },
   16: {
@@ -872,12 +1303,25 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 500,
       url: 'https://cdn2.thedogapi.com/images/rJIakgc4m.jpg',
     },
-    searchTerms: ['Terrier Americano Staffordshire'],
+    searchTerms: [
+      'Terrier Americano Staffordshire',
+      'American Staffordshire Terrier',
+      'AmStaff',
+      'Staffordshire Terrier',
+      'Staffy',
+      'Staffie',
+      'American Staffy',
+      'Terrier americano',
+      'Staffordshire americano',
+      'Terrier de Staffordshire americano',
+      'Terrier americano de staffordshire',
+      'Terrier staffordshire americano',
+    ],
     country_code: 'US',
     description:
-      'El Terrier Americano Staffordshire es una raza robusta y fiable que combina la agilidad con la fuerza. Se destaca por ser tenaz, amistoso, devoto, leal, atento y valiente. Su temperamento equilibrado y su inteligencia lo hacen apto para diversas funciones, desde perro de compañía hasta perro de trabajo.',
+      'El Terrier Americano Staffordshire, conocido por sus admiradores como AmStaffs, son compañeros inteligentes, seguros y de buen carácter. Su coraje es proverbial. Un AmStaff bien socializado y criado responsablemente es un amigo leal y confiable hasta el final. Los AmStaffs son terriers de tipo toro, musculosos y robustos, que miden de 17 a 19 pulgadas a la altura del hombro. La cabeza es ancha, las mandíbulas bien definidas, los pómulos pronunciados y los ojos oscuros y redondos están bien separados. El movimiento del AmStaff es ágil y elegante, con un andar elástico que anuncia la confianza innata de la raza. El pelaje rígido y brillante viene en muchos colores y patrones. Los AmStaffs son descritos por sus dueños como perros muy conscientes de su entorno, dispuestos a cualquier cosa y adorables "perros de personalidad" alrededor de la casa. A los AmStaffs les gustan los desafíos mentales y físicos. Son altamente entrenables, como sugieren sus muchas incursiones en el mundo del espectáculo.',
     history:
-      'El Terrier Americano Staffordshire se originó a partir del Staffordshire Bull Terrier, una raza británica que fue llevada a América en el siglo XIX. En América, los criadores desarrollaron una versión más grande que finalmente se reconoció como una raza separada.',
+      'Hace años en Gran Bretaña, se crearon varias razas de perros para sobresalir en deportes de sangre. Se esperaba que lucharan entre sí, o se soltaban en manadas contra un oso o un toro atado, con espectadores apostando en el resultado. Sin embargo, los criadores americanos querían un animal más pesado que la raza británica, de ahí el nombre de Terrier Americano Staffordshire. Las raíces del Terrier Americano Staffordshire se pueden rastrear a través de los primeros guerreros mastín, a los Bulldogs originales en Inglaterra, que se utilizaban en el sangriento deporte de la pelea de toros. El Terrier Americano Staffordshire fue aceptado en 1936 para su registro en el libro de registro del American Kennel Club como Staffordshire Terriers.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de guardia',
@@ -899,6 +1343,20 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Alergias',
       'Problemas cardíacos',
     ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    casos_famosos: [
+      {
+        nombre: 'Stubby',
+        caso: 'Un Terrier Americano Staffordshire llamado Stubby alcanzó el rango de Sargento y fue el perro más condecorado de la Primera Guerra Mundial.',
+      },
+    ],
+    fuentes: ['https://www.akc.org/dog-breeds/american-staffordshire-terrier/'],
   },
   17: {
     weight: {
@@ -932,13 +1390,27 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: [
       'Spaniel de agua americano',
-      'Perro de búsqueda y recuperación',
+      'spaniel de agua americano',
+      'American Water Spaniel',
+      'american water spaniel',
+      'AWS',
+      'aws',
+      'Spaniel de Agua',
+      'spaniel de agua',
+      'American Spaniel',
+      'american spaniel',
+      'Spaniel Americano',
+      'spaniel americano',
+      'Perro de agua americano',
+      'perro de agua americano',
+      'Perro spaniel americano',
+      'perro spaniel americano',
     ],
     country_code: 'US',
     description:
-      'El Spaniel de agua americano es una raza enérgica y amistosa, especialmente criada para la búsqueda y recuperación de aves. Son perros inteligentes, fáciles de entrenar y conocidos por ser protectores. Son excelentes compañeros para las familias activas.',
+      'El Spaniel de Agua Americano, originario de la región de los Grandes Lagos en el medio oeste de los Estados Unidos, es un perro deportivo, alegre y amante del aire libre con una gran pasión por la caza y la natación. Son perros de tamaño mediano y musculosos, no ostentosos en apariencia o rendimiento, y se reconocen por su lujoso pelaje marrón que puede ser rizado o ondulado. Fueron criados para trabajar en las aguas heladas y las orillas pantanosas de la región de los Grandes Lagos, por lo que están perfectamente equipados para el trabajo: su pelaje es denso e impermeable, sus patas están bien acolchadas, sus dedos son palmeados y su cuerpo es lo suficientemente pequeño como para que el perro pueda entrar y salir de un bote sin desequilibrarlo. Los admiradores de la raza describen a un spaniel alegre, inteligente y versátil, adecuado para una variedad de deportes caninos. Como cazadores, combinan las características de trabajo de los spaniels y los retrievers. La clave para la felicidad del Spaniel de Agua Americano es la actividad, especialmente junto a su humano adorado. Un perro subempleado puede ser ladrador y destructivo.',
     history:
-      'El Spaniel de agua americano se desarrolló en las regiones de los Grandes Lagos en el medio oeste de los Estados Unidos durante la última parte del siglo XIX. Fueron criados por los cazadores de aves para ser perros de trabajo versátiles que pudieran recuperar la presa tanto en tierra como en agua.',
+      'El Spaniel de Agua Americano se originó en el estado de Wisconsin durante el siglo XIX a partir de varias otras razas, incluyendo los Spaniels de Agua irlandeses e ingleses. La raza fue salvada por el Dr. Fred J. Pfeifer, quien estableció el club de la raza y el estándar, y cuyo trabajo llevó al reconocimiento de la raza por parte del United Kennel Club, y más tarde, del American Kennel Club. Aunque son el perro oficial del estado de Wisconsin, siguen siendo una raza rara. Los cazadores necesitaban un perro que pudiera trabajar tanto en tierra como en agua, un cazador versátil hábil en la captura de una variedad de juegos. Los cazadores también querían un perro de caza lo suficientemente compacto como para ser transportado en un pequeño bote, capaz de resistir las frías temperaturas del agua de Wisconsin. Las razas involucradas en la creación del Spaniel de Agua Americano se cree que incluyeron el Spaniel de Agua Inglés, el Spaniel de Agua Irlandés, el Retriever de Pelo Rizado, los perros nativos indios, el Poodle, y ya sea el Sussex Spaniel o otro tipo de spaniel de campo.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Perro de trabajo versátil',
@@ -959,6 +1431,19 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Problemas de tiroides',
       'Problemas oculares',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/american-water-spaniel/',
+      'https://en.wikipedia.org/wiki/American_Water_Spaniel',
+      'https://www.yourpurebredpuppy.com/reviews/americanwaterspaniels.html',
     ],
   },
   18: {
@@ -990,17 +1475,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 600,
       url: 'https://cdn2.thedogapi.com/images/HkNkxlqEX.jpg',
     },
-    searchTerms: [
-      'Appenzeller Sennenhund',
-      'Pastor',
-      'Perro de trabajo',
-      'Perro de montaña',
-    ],
     country_code: 'CH',
-    description:
-      'El Appenzeller Sennenhund, o perro boyero de Appenzell, es una raza de perro boyero que se origina en los Alpes suizos. Es versátil y se le cría para pastorear ganado, tirar de carros y proteger la granja. Posee un temperamento confiable, intrépido, enérgico, vivo y seguro de sí mismo.',
-    history:
-      'El Appenzeller Sennenhund es una raza antigua de perro de montaña que proviene de los Alpes suizos. Durante siglos, estos perros han sido compañeros indispensables para los agricultores, ayudándolos a pastorear ganado, tirar de carros y proteger sus granjas.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de trabajo',
@@ -1022,6 +1497,31 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Dilatación gástrica volvulus (GDV)',
       'Displasia de codo',
+    ],
+    description:
+      'El Appenzeller Sennenhund es una raza de perro de pastoreo de tamaño mediano que es tricolor y casi cuadrado en su construcción. Es muscular y ágil, lo que lo convierte en un buen perro de conducción, vigilancia, guardia, casa o granja. Debido a su versatilidad y disposición, sobresalen en agilidad, obediencia, pastoreo y búsqueda y rescate. El Appenzeller Sennenhund es uno de los cuatro tipos de razas suizas de Sennen y también se conoce como el Perro de Montaña Appenzeller o el Perro de Ganado Appenzell. Es vivaz, de buen carácter, seguro de sí mismo, confiable y sin miedo. Ligeramente sospechoso de los extraños, es un buen perro guardián que no puede ser sobornado. La inteligencia de la raza los convierte en aprendices altamente capaces. Debido a su personalidad y necesidades de ejercicio, no es adecuado para la vida en apartamentos.',
+    history:
+      "El Appenzeller Sennenhund fue descrito por primera vez en 1853 como un perro de ganado de pelo corto, multicolor, de tipo Spitz, que ladra agudamente y se utiliza para guardar la casa y pastorear el ganado en su región natal de Appenzell, Suiza. La cría intencional de Appenzellers puros comenzó en Suiza en 1898. Sennenhund se traduce libremente como 'perro del granjero lechero'. El Appenzeller Sennenhund forma parte de la familia de los Perros de Montaña Suizos que incluye al Gran Perro de Montaña Suizo, el Perro de Montaña Bernés y el Perro de Montaña Entlebucher. El Appenzeller controlará una vaca desobediente corriendo para morderle el talón.",
+    searchTerms: [
+      'Appenzeller Sennenhund',
+      'Appenzeller',
+      'Sennenhund',
+      'Appenzell Mountain Dog',
+      'Appenzell Cattle Dog',
+      'Perro de Montaña Appenzeller',
+      'Perro de Ganado Appenzell',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/appenzeller-sennenhund/',
+      'https://en.wikipedia.org/wiki/Appenzeller_Sennenhund',
     ],
   },
   19: {
@@ -1054,16 +1554,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 850,
       url: 'https://cdn2.thedogapi.com/images/IBkYVm4v1.jpg',
     },
-    searchTerms: [
-      'Pastor Australiano',
-      'Pastoreo de ganado',
-      'Pruebas de pastoreo',
-    ],
     country_code: 'AU',
-    description:
-      'El Pastor Australiano, originario de Australia, fue criado inicialmente para el pastoreo de ganado y pruebas de pastoreo. Conocidos por su cautela, energía, lealtad, obediencia, instinto protector y valentía, estos perros son excelentes compañeros para aquellos que viven un estilo de vida activo.',
-    history:
-      'El Pastor Australiano es una raza de perro que se originó en Australia para el pastoreo de ganado y las pruebas de pastoreo. Su excelente inteligencia y alto nivel de energía los hacen perfectos para esta tarea. A lo largo de los años, han sido apreciados por su versatilidad y su habilidad para trabajar en diferentes tipos de terrenos y condiciones climáticas.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Cauteloso y alerta',
@@ -1090,6 +1581,33 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Displasia de codo',
       'Atrofia progresiva de la retina',
+    ],
+    description:
+      'El Pastor Australiano es un perro de trabajo de tamaño mediano, conocido por su inteligencia, energía y lealtad. Son perros de trabajo versátiles, capaces de aprender rápidamente y de realizar tareas con una eficiencia notable. Su pelaje es resistente al agua y de doble capa, que puede variar en colores que incluyen merle (un patrón moteado con tonos contrastantes de azul o rojo). Son conocidos por su impulso irresistible de pastorear cualquier cosa, desde pájaros hasta niños. Esta raza requiere mucho ejercicio y estimulación mental para mantenerse feliz y saludable. Son perros que se vinculan estrechamente con sus familias y pueden ser territoriales y sobreprotectores con la propiedad de sus dueños.',
+    history:
+      'El Pastor Australiano, a pesar de su nombre, fue desarrollado en los ranchos del oeste de los Estados Unidos. Su linaje se remonta a una línea de los mejores perros pastores de Europa. Su gira mundial comenzó en Europa, cerca de las montañas de los Pirineos. Fue aquí, en las tierras fronterizas entre Francia y España, donde las personas indígenas conocidas como los vascos desarrollaron la raza. Los vascos emigraron a Australia en el siglo XIX y luego a los Estados Unidos, llevando consigo a sus perros de pastor. En los Estados Unidos, estos perros se cruzaron con otras razas de perros de trabajo para crear lo que ahora conocemos como el Pastor Australiano. La raza fue reconocida por el AKC en 1991.',
+    searchTerms: [
+      'Pastor Australiano',
+      'Australian Shepherd',
+      'Aussie',
+      'Pastor de Australia',
+      'Perro pastor australiano',
+      'Pastor australiano merle',
+      'Perro australiano',
+      'Pastor australiano azul',
+      'Pastor australiano rojo',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Australian_Shepherd',
+      'https://www.akc.org/dog-breeds/australian-shepherd/',
     ],
   },
   20: {
@@ -1123,15 +1641,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 533,
       url: 'https://cdn2.thedogapi.com/images/Hyq1ge9VQ.jpg',
     },
-    searchTerms: [
-      'Kelpie Australiano',
-      'Perro de granja',
-      'Pastoreo de ganado',
-    ],
-    description:
-      'El Kelpie Australiano es un perro originario de Australia. Criado específicamente para tareas de granja y pastoreo de ganado, es conocido por su amabilidad, energía, alerta constante, lealtad, inteligencia y disposición ansiosa. Su alta energía y su inteligencia los hacen perfectos para trabajos de pastoreo y otras tareas que requieren un perro alerta y rápido.',
-    history:
-      'El Kelpie Australiano, criado en Australia para las labores de granja y pastoreo de ganado, ha demostrado ser un trabajador incansable y dedicado. Sus habilidades de pastoreo y su resistencia le han ganado un lugar destacado en muchas granjas de todo el mundo. La raza ha evolucionado con el tiempo para adaptarse a los diversos climas y paisajes de Australia, lo que le ha proporcionado un nivel de adaptabilidad y versatilidad poco común.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Amigable con las personas',
@@ -1156,6 +1665,39 @@ export const DOG_LIST: { [key: number]: Dog } = {
     enfermedades_comunes: [
       'Displasia de cadera',
       'Atrofia progresiva de la retina',
+    ],
+    description:
+      'El Kelpie Australiano es una raza de perro lithe y musculoso, conocido por su capacidad para trabajar con ganado durante muchas horas y cubrir largas distancias en calor y polvo sin rendirse. Esta raza es una de las más inteligentes, pero también puede ser una de las más desafiantes para vivir debido a su superior intelecto, independencia, intensidad y pasión por mantenerse ocupado. Los Kelpies Australianos necesitan mucha estimulación física y mental, y sin ella, pueden volverse aburridos e hiperactivos, lo que puede resultar en comportamientos obsesivos y destructivos. Son maestros en escapar (pasando por encima y por debajo de las vallas) y son recolectores celosos de coches, bicicletas, corredores, gatos, otros perros, ganado y niños corriendo, rodeando, pinchando, empujando y mordiendo si la persona, animal u objeto no coopera.',
+    history:
+      'El Kelpie Australiano es una raza de perro de trabajo que se originó en Australia para el manejo de ganado. Aunque su origen exacto es incierto, se cree que los Kelpies son el resultado de cruzar Collies Escoceses con perros Dingos nativos de Australia. Los Kelpies fueron criados para ser perros de trabajo inteligentes, capaces de manejar ganado en grandes extensiones de terreno y en condiciones climáticas extremas. Su nombre proviene de la mitología celta, donde un "kelpie" es una criatura acuática con forma de caballo. En el siglo XIX, los Kelpies se hicieron populares entre los ganaderos australianos por su resistencia, versatilidad y habilidad para trabajar con ganado en vastas áreas de terreno. Aunque son menos conocidos fuera de Australia, los Kelpies han ganado reconocimiento en algunas áreas por su habilidad para trabajar en diversas condiciones y su dedicación a su trabajo.',
+    searchTerms: [
+      'Kelpie Australiano',
+      'Australian Kelpie',
+      'Kelpie',
+      'Perro Kelpie',
+      'Kelpie de Australia',
+      'Perro pastor australiano',
+      'Kelpie australiano',
+      'Kelpie australiana',
+      'Kelpi australiano',
+      'Kelpi australiana',
+      'Kelpie australiano perro',
+      'Kelpie australiano raza',
+      'Raza Kelpie australiano',
+      'Raza australiana Kelpie',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Australian_Kelpie',
+      'https://www.akc.org/dog-breeds/australian-kelpie/',
+      'https://www.yourpurebredpuppy.com/reviews/australiankelpies.html',
     ],
   },
   21: {
@@ -1187,12 +1729,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 733,
       url: 'https://cdn2.thedogapi.com/images/B1-llgq4m.jpg',
     },
-    searchTerms: ['Pastor australiano', 'pastoreo de ovejas'],
     country_code: 'AU',
-    description:
-      'El Pastor Australiano es una raza de perro de pastoreo muy inteligente y enérgica, famoso por su versatilidad y estándar de trabajo alto, lo que lo hace ideal para el pastoreo. Esta raza necesita una cantidad considerable de ejercicio físico y mental diariamente y disfruta participando en actividades con su familia.',
-    history:
-      'A pesar de su nombre, el Pastor Australiano se desarrolló principalmente en los Estados Unidos en el siglo XIX. Originalmente fueron criados por pastores vascos emigrados a los Estados Unidos de Australia, lo que probablemente llevó a su nombre actual. Su linaje incluye una variedad de perros pastores, incluyendo collies y perros de montaña vascos.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Requiere ejercicio diario y mental',
@@ -1212,6 +1749,39 @@ export const DOG_LIST: { [key: number]: Dog } = {
     enfermedades_comunes: [
       'Displasia de cadera',
       'Atrofia progresiva de retina',
+    ],
+    description:
+      'El Pastor Australiano es una raza de perro de tamaño mediano y robusto, conocido por su pelaje hermoso que viene en colores llamativos. Son perros de trabajo, asociados con la vida de los vaqueros y a menudo se ven en rodeos y espectáculos de caballos. Los Pastores Australianos son extremadamente versátiles y, cuando están bien entrenados, pueden aprender casi cualquier cosa, siendo una de las razas más inteligentes. Son perros que requieren una gran cantidad de ejercicio físico y estimulación mental. El pastoreo, la obediencia avanzada, la agilidad, el jogging o el ciclismo, perseguir pelotas y jugar al frisbee son salidas constructivas para su entusiasmo. Los Pastores Australianos son exigentes de tiempo y atención y quieren estar contigo constantemente. Son educados hasta distantes con los extraños. Algunos Pastores Australianos son dominantes con otros perros y perseguirán a los gatos, mientras que otros son de buen carácter con todas las criaturas.',
+    history:
+      'El Pastor Australiano es una raza de perro que, a pesar de su nombre, se desarrolló en el oeste de los Estados Unidos en el siglo XIX. Aunque se desconoce su origen exacto, se cree que los Pastores Australianos son el resultado de cruzar varias razas de perros de pastoreo europeos que fueron traídos a Australia y luego a América. Los Pastores Australianos fueron criados para ser perros de trabajo inteligentes, capaces de manejar ganado en grandes extensiones de terreno y en condiciones climáticas extremas. Aunque son menos conocidos fuera de los Estados Unidos, los Pastores Australianos han ganado reconocimiento en algunas áreas por su habilidad para trabajar en diversas condiciones y su dedicación a su trabajo.',
+    searchTerms: [
+      'Pastor Australiano',
+      'Australian Shepherd',
+      'Aussie',
+      'Perro Pastor Australiano',
+      'Pastor de Australia',
+      'Perro australiano',
+      'Pastor australiano',
+      'Pastor australiana',
+      'Pastor australiano perro',
+      'Pastor australiano perrito',
+      'Pastor australiano cachorro',
+      'Pastor australiano adulto',
+      'Pastor australiano viejo',
+      'Pastor australiano joven',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Australian_Shepherd',
+      'https://www.akc.org/dog-breeds/australian-shepherd/',
+      'https://www.yourpurebredpuppy.com/reviews/australianshepherds.html',
     ],
   },
   22: {
@@ -1244,17 +1814,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 720,
       url: 'https://cdn2.thedogapi.com/images/r1Ylge5Vm.jpg',
     },
-    searchTerms: [
-      'Terrier Australiano',
-      'Pastoreo de ganado',
-      'Caza de serpientes',
-      'Caza de roedores',
-    ],
     country_code: 'AU',
-    description:
-      'El Terrier Australiano es una raza de perro pequeño pero robusto, conocido por su pelaje de distintos colores y su energía interminable. Originalmente criado para trabajar en granjas australianas, estos perros son excelentes cazadores de serpientes y roedores. También son conocidos por su lealtad y su valentía, lo que los hace excelentes compañeros de familia y protectores del hogar.',
-    history:
-      'El Terrier Australiano tiene una rica historia que se remonta a principios del siglo XIX en Australia. Fueron desarrollados por granjeros que necesitaban un perro versátil que pudiera manejar una variedad de tareas, incluyendo el pastoreo de ganado y la caza de serpientes y roedores. Estos perros valientes no solo demostraron ser excelentes trabajadores, sino también compañeros de familia dedicados.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Excelente perro de compañía',
@@ -1275,6 +1835,36 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Alergias de piel', 'Problemas dentales'],
+    description:
+      'El Terrier Australiano es una raza de perro pequeña pero resistente, conocida por su espíritu vivaz, alerta y valiente. Estos perros son conocidos por su confianza en sí mismos y su agresividad natural, características que los hacen excelentes cazadores de ratas y animales de madriguera. A pesar de ser uno de los terriers más sensatos, el Terrier Australiano sigue siendo tan resistente y enérgico como el resto de las razas de terrier. Para vivir felizmente con un Terrier Australiano, es importante entender el temperamento dinámico de los terriers. Estos perros necesitan suficiente compañía diaria, paseos diarios y sesiones de juego diarias con una pelota o un juguete. Aunque son pequeños, los Terriers Australianos son perros guardianes alerta con sentidos agudos y suelen ser reservados o educados con los extraños. Los Terriers Australianos son rápidos para aprender y, aunque tienen sus momentos de independencia, en su mayoría están dispuestos a complacer. Algunos Terriers Australianos son excavadores natos y algunos pueden ser ladradores, aunque en general esta raza es más tranquila que muchos otros terriers.',
+    history:
+      'La historia del Terrier Australiano se remonta a mediados del siglo XIX en Australia, donde se desarrolló a partir de una variedad de terriers británicos traídos al país por colonos. Estos terriers, que incluían al Terrier de Yorkshire, al Terrier de Dandie Dinmont, al Terrier de Skye y al Terrier negro y tostado, se cruzaron entre sí para producir una raza resistente y versátil que pudiera soportar las duras condiciones australianas. El Terrier Australiano fue criado para ser un perro de trabajo versátil, capaz de cazar y matar ratas y serpientes, pastorear ovejas y ganado, y actuar como perro guardián. La raza fue reconocida oficialmente por el Kennel Club de Australia en 1850, y fue una de las primeras razas de perros desarrolladas en Australia que fue reconocida internacionalmente.',
+    searchTerms: [
+      'Terrier Australiano',
+      'Terrier australiano',
+      'Terrier de Australia',
+      'Terrier de australia',
+      'Terrier australiana',
+      'Terrier Australiana',
+      'Terrier Aussie',
+      'Terrier aussie',
+      'Terrier de Down Under',
+      'Terrier de down under',
+      'Terrier de Oz',
+      'Terrier de oz',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    para_primerizos: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/australian-terrier/',
+      'https://www.yourpurebredpuppy.com/reviews/australianterriers.html',
+    ],
   },
   23: {
     weight: {
@@ -1306,12 +1896,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 768,
       url: 'https://cdn2.thedogapi.com/images/SkvZgx94m.jpg',
     },
-    searchTerms: ['Azawakh', 'protección de ganado', 'caza'],
     country_code: 'ML',
-    description:
-      'El Azawakh es una raza de perro que se originó en África Occidental. Son perros que han sido utilizados principalmente para la protección del ganado y la caza. Exhiben un comportamiento distante pero a la vez cariñoso. Son perros atentos, resistentes, feroces y refinados. El Azawakh es conocido por su resistencia y velocidad, siendo capaz de alcanzar velocidades impresionantes en cortos periodos de tiempo.',
-    history:
-      'El Azawakh es una antigua raza de perros de caza del Sahel, región del África Occidental. Han sido los compañeros de las tribus nómadas del Sahel durante siglos. Los perros Azawakh no solo se usaban para la caza, sino que también desempeñaban un papel importante en la protección y vigilancia de los campamentos. A pesar de su apariencia delicada y elegante, los Azawakh son perros increíblemente resistentes que se han adaptado a uno de los lugares más inhóspitos del planeta.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Distante pero cariñoso',
@@ -1333,6 +1918,41 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Osteocondritis disecante',
       'Hipotiroidismo',
       'Epilepsia',
+    ],
+    description:
+      'El Azawakh es un galgo de África Occidental que se origina en los países de Burkina Faso, Mali y Níger. Es un perro alto y elegante, conocido por su resistencia y velocidad. El Azawakh tiene un pelaje corto y fino que puede venir en cualquier color o combinación de colores: rojo, arena clara a leonado, atigrado, parti-color (que puede ser predominantemente blanco), azul, negro y marrón. La cabeza puede tener una máscara negra y puede haber marcas blancas en las patas, el pecho y la punta de la cola. No hay descalificaciones de color o marcas en la raza. Adecuado para su herencia, el Azawakh se destaca como compañero, guardián y corredor de señuelo en los Estados Unidos. Este antiguo perro de caza es tan delgado y largo que su estructura ósea y musculatura se pueden ver claramente debajo de su piel. Las características notables de la raza incluyen su marcha ligera, flexible y ágil, así como su galope de doble suspensión vertical. El Azawakh es de ojos almendrados y delgado. Se mueve con una marcha distintivamente felina y puede encontrarse en una variedad de colores, así como en diversos grados de refinamiento, aunque el formato es básicamente constante.',
+    history:
+      'El Azawakh es una raza antigua que ha estado presente en la región del Sahel de África Occidental durante miles de años. Los pueblos nómadas de esta región, incluyendo los Tuareg y otros grupos étnicos, han utilizado el Azawakh para una variedad de propósitos a lo largo de los siglos, principalmente como guardián y cazador. El Azawakh ha sido criado para ser capaz de soportar las duras condiciones del desierto del Sahara, y es conocido por su increíble resistencia y velocidad. A pesar de su apariencia delgada y elegante, el Azawakh es un perro increíblemente resistente y resistente. La raza fue introducida en Europa en la década de 1970, y desde entonces ha ganado popularidad en todo el mundo, tanto en las exposiciones caninas como en los hogares como mascota.',
+    searchTerms: [
+      'Azawakh',
+      'azawakh',
+      'Azawak',
+      'azawak',
+      'Galgo africano',
+      'galgo africano',
+      'Perro de caza africano',
+      'perro de caza africano',
+      'Perro del Sahara',
+      'perro del Sahara',
+      'Perro de Mali',
+      'perro de Mali',
+      'Perro de Burkina Faso',
+      'perro de Burkina Faso',
+      'Perro de Níger',
+      'perro de Níger',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Baja',
+    soporta_clima_calido: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Azawakh',
+      'https://www.akc.org/dog-breeds/azawakh/',
+      'https://www.yourpurebredpuppy.com/reviews/azawakhs.html',
     ],
   },
   24: {
@@ -1358,12 +1978,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1280,
       url: 'https://cdn2.thedogapi.com/images/HyWGexcVQ.jpg',
     },
-    searchTerms: ['Barbet', 'caza de aves acuáticas'],
-    country_code: 'FR', // FR es el código de país de Francia, de donde es originario el Barbet.
-    description:
-      'El Barbet es una raza de perro francés de tamaño mediano conocida por su pelaje rizado y su aptitud para la caza de aves acuáticas. Son perros obedientes, sociables, inteligentes y alegres, famosos por su naturaleza amigable y su alta energía. Su personalidad vivaz y su agudo instinto de caza los convierten en compañeros ideales para las actividades al aire libre.',
-    history:
-      'El Barbet es una raza de perros de agua francesa muy antigua. Su nombre se deriva de la palabra francesa "barbe", que significa barba, en referencia a la apariencia distintiva de su pelaje. Durante siglos, estos perros han sido apreciados en su Francia natal por su habilidad en la caza de aves acuáticas y su resistencia en condiciones de clima frío y húmedo.',
+    country_code: 'FR', // FR es el código de país de Francia, de donde es originario el Barbet. una raza de perros de agua francesa muy antigua. Su nombre se deriva de la palabra francesa "barbe", que significa barba, en referencia a la apariencia distintiva de su pelaje. Durante siglos, estos perros han sido apreciados en su Francia natal por su habilidad en la caza de aves acuáticas y su resistencia en condiciones de clima frío y húmedo.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente para cazar aves acuáticas',
@@ -1384,6 +1999,27 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'], // Algunas enfermedades comunes para la raza Barbet.
+    description: `El Barbet es una raza de perro mediana originaria de Francia, conocida como perro de agua francés. Es un perro raro, con la mayoría de los Barbets, especialmente aquellos que se muestran en exposiciones caninas, siendo de color negro, marrón, blanco y negro, o marrón y blanco. Es común ver manchas blancas en el pecho y patas o piernas blancas en perros de pelaje negro o marrón. Los Barbets son conocidos por ser amigables, alegres, obedientes e inteligentes. Son rápidos para aprender y necesitan entrenamiento de obediencia de por vida. Son geniales con los niños, las familias y los ancianos. Los Barbets se unirán a su familia y preferirán estar en la misma habitación con la familia en todo momento. Necesitan ejercicio diario para mantener al perro en un estado saludable de mente y cuerpo.`,
+    history: `El Barbet se conectó a través de los siglos en varias capacidades, y como perro de compañía pero más como un perro de trabajo en general. El término Barbet se convirtió a lo largo de los siglos en un nombre genérico para un perro con un pelaje largo, rizado y lanudo. Los Barbets son más conocidos por ser un perro de agua en los pantanos, humedales y estuarios de Francia. Entre finales del siglo XVIII y principios del siglo XIX, el mismo perro era conocido como el Barbet en Francia, el Barbone en Italia, y el Pudel en Alemania; durante casi cien años los barbets y los poodles se consideraron la misma raza.`,
+    searchTerms: [
+      'Barbet',
+      'barbet',
+      'Barbet dog',
+      'perro Barbet',
+      'perro barbet',
+      'French Water Dog',
+      'Perro de agua francés',
+      'perro de agua frances',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: ['https://en.wikipedia.org/wiki/Barbet_(dog)'],
   },
   25: {
     weight: {
@@ -1415,12 +2051,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 493,
       url: 'https://cdn2.thedogapi.com/images/H1dGlxqNQ.jpg',
     },
-    searchTerms: ['Basenji', 'caza'],
     country_code: 'CG',
-    description:
-      'El Basenji es una raza de perro de caza de tamaño pequeño originaria del Congo. Son perros cariñosos, enérgicos, alertas, curiosos, juguetones e inteligentes. Su personalidad vivaz y su agudo instinto de caza los convierten en compañeros ideales para las actividades al aire libre.',
-    history:
-      'El Basenji es una raza de perros muy antigua, originaria del Congo. A menudo se les llama "perros del bosque" y son conocidos por su distintivo ladrido que suena más como un aullido musical. Los Basenjis han sido compañeros de caza de los humanos desde tiempos muy antiguos y se han adaptado bien a una variedad de entornos.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Excelente perro de caza',
@@ -1439,6 +2070,38 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Síndrome de Fanconi', 'Distrofia corneal'],
+    description:
+      "El Basenji es una raza de perro que se originó en el centro de África y es una de las razas más antiguas del mundo. Son perros pequeños pero muy ágiles y son conocidos por su habilidad para trepar árboles. Los Basenjis son únicos en el sentido de que no ladran, sino que hacen un sonido único que a menudo se describe como un yodel, conocido como 'barroo'. Son perros muy independientes y pueden ser reservados. Sin embargo, también son muy afectuosos con sus familias y pueden ser buenos con los niños si se socializan adecuadamente. Los Basenjis son perros limpios que se asean a sí mismos como los gatos y tienen un olor corporal mínimo. Son perros de pelo corto que mudan muy poco, lo que puede ser beneficioso para las personas con alergias. Los Basenjis son perros muy activos que requieren mucho ejercicio. Son conocidos por su curiosidad y su tendencia a meterse en problemas si no se les estimula adecuadamente. Aunque son perros inteligentes, pueden ser un desafío para entrenar debido a su naturaleza independiente.",
+    history:
+      "El Basenji es conocido como el 'Perro del Congo' y es una de las razas de perros más antiguas que existen hoy en día. Se cree que la raza se originó en el centro de África y ha existido durante miles de años. Los Basenjis fueron utilizados por los nativos para la caza y el rastreo. Los perros eran conocidos por su habilidad para trepar árboles y ahuyentar a la presa en la red de los cazadores. Los Basenjis fueron descubiertos por los occidentales en el Congo en el siglo XIX. La raza fue llevada a Inglaterra en la década de 1930 y luego a América. Aunque la raza no es muy común, ha ganado popularidad por su naturaleza única y su apariencia distintiva.",
+    searchTerms: [
+      'Basenji',
+      'Perro del Congo',
+      'Perro africano',
+      'Perro que no ladra',
+      'Perro gato',
+      'Bazenji',
+      'Basengi',
+      'Basenjy',
+      'Basenjii',
+      'Basenjie',
+      'Basenjy',
+      'Basenji dog',
+      'African barkless dog',
+      'Congo dog',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Basenji',
+      'https://www.akc.org/dog-breeds/basenji/',
+    ],
   },
   26: {
     weight: {
@@ -1450,7 +2113,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       metric: '33 - 38',
     },
     id: 26,
-    name: 'Basset Azul de Gascuña', //Traducido al español
+    name: 'Basset Azul de Gascuña',
     bred_for: ['Caza a pie'],
     breed_group: ['Levantador'],
     life_span: '10 - 14 años',
@@ -1463,12 +2126,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 853,
       url: 'https://cdn2.thedogapi.com/images/BkMQll94X.jpg',
     },
-    searchTerms: ['Basset Azul de Gascuña', 'caza a pie'],
     country_code: 'FR',
-    description:
-      'El Basset Azul de Gascuña es una raza de perro pequeño y robusto, originario de Francia. Es conocido por su piel azulada, largas orejas caídas y excelente capacidad para cazar a pie. Son perros cariñosos, animados, ágiles, curiosos, felices y activos, muy populares en su región natal.',
-    history:
-      'El Basset Azul de Gascuña es una raza muy antigua de perros franceses, originalmente utilizada para la caza a pie en la región de Gascuña. La raza es una derivación del Gran Azul de Gascuña, aunque de menor tamaño. Su capacidad para seguir rastros es legendaria en la región.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Excelente perro de caza',
@@ -1487,6 +2145,38 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Obesidad', 'Otitis'],
+    description:
+      'El Basset Azul de Gascuña es una raza de perro de caza de origen francés. Es un perro de tamaño mediano con un cuerpo largo y patas cortas, similar a un Basset Hound. La raza es conocida por su pelaje azul moteado, que es donde obtiene su nombre. Los Bassets Azules de Gascuña son perros de caza y tienen un sentido del olfato muy desarrollado, que utilizan para rastrear presas. Son perros muy activos y requieren mucho ejercicio. A pesar de su naturaleza de caza, también son perros muy amigables y se llevan bien con las personas y otros animales. Son perros inteligentes pero pueden ser un poco obstinados, por lo que la formación puede ser un desafío.',
+    history:
+      'El Basset Azul de Gascuña es una raza muy antigua que se originó en la región de Gascuña en Francia. La raza fue desarrollada para la caza y se utilizaba para rastrear presas como conejos y liebres. Los Bassets Azules de Gascuña son descendientes del Gran Azul de Gascuña, una raza de perro de caza más grande. Se cree que la raza se desarrolló reduciendo el tamaño del Gran Azul de Gascuña para crear un perro que pudiera seguir el rastro de la presa a través de terrenos más difíciles. Aunque la raza es muy popular en Francia, no es muy conocida fuera de su país de origen.',
+    searchTerms: [
+      'Basset Azul de Gascuña',
+      'Basset Azul',
+      'Basset de Gascuña',
+      'Basset Gascuña',
+      'Basset Azul de Gascoña',
+      'Basset Azul Gascoña',
+      'Basset Gascoña',
+      'Blue Gascony Basset',
+      'Gascony Basset',
+      'Blue Basset',
+      'Basset Blue de Gascogne',
+      'Basset Bleu de Gascogne',
+      'Basset Bleu',
+      'Basset Gascogne',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Blue_Gascony_Basset',
+      'https://www.akc.org/dog-breeds/basset-hound/',
+    ],
   },
   27: {
     weight: {
@@ -1518,12 +2208,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 640,
       url: 'https://cdn2.thedogapi.com/images/Sy57xx9EX.jpg',
     },
-    searchTerms: ['Basset Hound', 'caza por olfato'],
     country_code: 'FR',
-    description:
-      'El Basset Hound es una raza de perro de tamaño mediano y patas cortas, conocido por su sentido del olfato agudo. Son perros tenaces, amigables, cariñosos, devotos, de temperamento dulce y gentil, lo que los hace excelentes mascotas familiares. Aunque se crían para cazar, son igualmente felices disfrutando de la compañía de su familia.',
-    history:
-      'El Basset Hound es una raza muy antigua que se originó en Francia. Fueron criados por su increíble habilidad para seguir un olor a través de terrenos difíciles, lo que los hizo muy valiosos para la caza. El Basset Hound que conocemos hoy fue perfeccionado en el siglo XIX para cazar a pie y desde entonces ha ganado popularidad en todo el mundo.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente olfato',
@@ -1542,6 +2227,47 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Obesidad', 'Problemas de oído'],
+    description:
+      'El Basset Hound es una raza de perro que se originó en Francia. Son conocidos por su apariencia distintiva, que incluye un cuerpo largo y bajo, patas cortas y orejas largas y caídas. Los Basset Hounds tienen un pelaje corto y suave que puede ser de una variedad de colores, incluyendo tricolor (negro, blanco y marrón), bicolor (blanco y limón o blanco y marrón), y unicolor (todo marrón o todo limón). Son perros de tamaño mediano, con machos que pesan entre 25 y 34 kg y hembras entre 20 y 29 kg. Los Basset Hounds son conocidos por su temperamento amigable y tranquilo. Son perros de compañía excelentes y se llevan bien con los niños y otros animales. Aunque son tranquilos en casa, los Basset Hounds tienen un fuerte instinto de caza y pueden ser obstinados cuando siguen un rastro. A pesar de su tamaño, son perros bastante activos y requieren ejercicio regular para mantenerse saludables y felices. Los Basset Hounds también son conocidos por su tendencia a ladrar y aullar, especialmente cuando están aburridos o solos.',
+    history:
+      'La historia del Basset Hound se remonta a Francia en el siglo XVI. Se cree que la raza fue desarrollada para la caza de pequeños animales como conejos y liebres. Su cuerpo largo y bajo era ideal para seguir el rastro de estos animales a través de la maleza densa. Aunque originalmente se usaban para la caza, los Basset Hounds se hicieron populares como perros de compañía en el siglo XIX, especialmente en Inglaterra. Fueron importados a Inglaterra en 1866 por Sir Everett Millais, quien es considerado el padre de la raza en ese país. Los Basset Hounds fueron reconocidos oficialmente por el American Kennel Club (AKC) en 1885. A lo largo de los años, la raza ha sido popular tanto en exposiciones caninas como en la cultura popular. Los Basset Hounds han aparecido en varias películas y programas de televisión, y son la mascota oficial de la marca de calzado Hush Puppies.',
+    searchTerms: [
+      'Basset Hound',
+      'Basset',
+      'Bassett Hound',
+      'Bassett',
+      'Baset Hound',
+      'Baset',
+      'Perro Basset',
+      'Perro Basset Hound',
+      'Basset Hound Dog',
+      'Basset Dog',
+    ],
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Fred',
+        caso: "Fred es un Basset Hound que apareció en la serie de televisión 'The Smurfs'.",
+      },
+      {
+        nombre: 'Flash',
+        caso: "Flash es un Basset HHound que apareció en la serie de televisión 'The Dukes of Hazzard'.",
+      },
+      {
+        nombre: 'Droopy',
+        caso: 'Droopy es un personaje de dibujos animados creado por Tex Avery que tiene muchas características de un Basset Hound.',
+      },
+    ],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Basset_Hound',
+      'https://www.akc.org/dog-breeds/basset-hound/',
+    ],
   },
   28: {
     weight: {
@@ -1573,12 +2299,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 667,
       url: 'https://cdn2.thedogapi.com/images/Syd4xxqEm.jpg',
     },
-    searchTerms: ['Beagle', 'Caza de conejos', 'Caza de liebres'],
     country_code: 'GB',
-    description:
-      'El Beagle es una raza de perro originaria de Inglaterra, especialmente valorada por su olfato y habilidad para rastrear presas como conejos y liebres. Son perros de tamaño mediano, amigables, de temperamento equilibrado, excitables, decididos, gentiles e inteligentes. Su inteligencia y nivel de energía los hacen excelentes compañeros, aunque pueden necesitar bastante ejercicio y estimulación mental.',
-    history:
-      'El Beagle es una raza de perro de tamaño pequeño a mediano que se originó en Inglaterra. Es similar en apariencia al Foxhound mucho más grande. Los Beagles son perros de caza, desarrollados principalmente para rastrear liebres, conejos y otras pequeñas presas. A lo largo de la historia, se han valorado por su habilidad para seguir un rastro a través de terrenos difíciles y por su resistencia en el campo.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Amigable y sociable',
@@ -1600,6 +2321,55 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Obesidad', 'Displasia de cadera', 'Hipotiroidismo'],
+    description:
+      'Los Beagles son perros activos y atentos que hacen mascotas muy leales y amorosas. Son perros de caza por naturaleza, lo que los hace muy enérgicos y requieren al menos una hora de ejercicio todos los días. Son perros de manada y disfrutan de la compañía, por lo que son más felices cuando tienen un compañero para jugar. Los Beagles son curiosos, inteligentes y requieren mucha estimulación mental para mantenerse felices y saludables. Son buenos con otros perros y niños, lo que los convierte en una raza de perro familiar muy popular. Sin embargo, debido a su fuerte instinto de caza, pueden distraerse fácilmente cuando están al aire libre, lo que hace que los Beagles sean una de las razas de perros más difíciles de entrenar.',
+
+    history:
+      'Los orígenes de esta antigua raza han sido objeto de conjeturas durante siglos. Algunos expertos dicen que deriva de la palabra gaélica beag ("pequeño"), mientras que otros apuntan al término francés be\'geule, que se refiere al ruido que hacen los perros de caza. Los Beagles fueron reconocidos como raza por el AKC en 1885. En 1888, se formó el National Beagle Club y se celebró el primer field trial. A lo largo de los años, los Beagles han sido una raza de perro muy popular en los Estados Unidos, gracias a su naturaleza amigable y su apariencia adorable.',
+
+    searchTerms: [
+      'Beagle',
+      'beagle',
+      'beagles',
+      'Beagles',
+      'perro beagle',
+      'perros beagle',
+      'raza beagle',
+      'razas beagle',
+      'beagel',
+      'Beagel',
+      'beagels',
+      'Beagels',
+    ],
+
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+
+    casos_famosos: [
+      {
+        nombre: 'Him',
+        caso: 'Beagle propiedad del presidente Lyndon B. Johnson',
+      },
+      {
+        nombre: 'Her',
+        caso: 'Beagle propiedad del presidente Lyndon B. Johnson',
+      },
+      {
+        nombre: 'Edgar',
+        caso: 'Beagle propiedad del presidente Lyndon B. Johnson',
+      },
+    ],
+
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Beagle',
+      'https://www.akc.org/dog-breeds/beagle/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/beagle',
+    ],
   },
   29: {
     weight: {
@@ -1631,12 +2401,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 733,
       url: 'https://cdn2.thedogapi.com/images/A09F4c1qP.jpg',
     },
-    searchTerms: ['Collie Barbudo', 'Pastoreo de ovejas'],
     country_code: 'GB',
-    description:
-      'El Collie Barbudo es una raza de perro robusta y activa originaria de Escocia. Son perros seguros de sí mismos, vivos, alertas e inteligentes, y se han utilizado tradicionalmente para el pastoreo de ovejas. Gracias a su inteligencia y energía, requieren mucho ejercicio y estimulación mental, pero son capaces de aprender rápidamente y adaptarse a una variedad de tareas.',
-    history:
-      'El Collie Barbudo, también conocido como "Highland Collie", es una raza de perro de pastoreo que ha estado en las Tierras Altas de Escocia durante siglos. Se cree que los perros fueron traídos a Escocia por los romanos y los vikingos, y que el Collie Barbudo es el resultado de la mezcla de estos perros con los perros nativos de las Tierras Altas. Durante muchos años, el Collie Barbudo fue esencial para los pastores, ya que era un perro trabajador resistente y confiable.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Seguro de sí mismo',
@@ -1664,6 +2429,23 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Hipotiroidismo',
       'Alergias de piel',
     ],
+    description: "El Collie Barbudo es un perro activo con una constitución sólida y delgada y un temperamento tranquilo y equilibrado. Son perros de cabeza nivelada, alerta, vivaz, seguro de sí mismo y activo. Tienen el temperamento de un perro de trabajo inteligente y estable, sin rastro de nerviosismo. Los Collies Barbudos parecen moverse sin esfuerzo, cubriendo una gran cantidad de terreno con elegancia y gracia. Su andar confirma que fueron hechos para su trabajo. Los expertos elogian la calidad de movimiento de un perro pastor que combina la flexibilidad con la eficiencia. Como compañeros son gentiles y de temperamento uniforme, adaptándose para encajar en casi cualquier hogar. Se sabe que son pacientes con los niños y otros miembros de la familia y su temperamento vivaz y juguetón perdura bien hasta la vejez.",
+
+    history: "El Collie Barbudo es una raza de perro pastor originaria de Escocia. Aunque su historia exacta es en gran parte desconocida, se cree que la raza se desarrolló a partir de perros locales mezclados con perros traídos a Escocia por los romanos y los vikingos. Los Collies Barbudos se utilizaron principalmente para el pastoreo de ovejas y ganado, y se les valoraba por su resistencia y su habilidad para trabajar en todo tipo de condiciones climáticas y terrenos. Aunque la popularidad de la raza disminuyó con la industrialización, un renacimiento en el interés por la raza en el siglo XX llevó a un aumento en su número y a su reconocimiento por parte de los clubes de razas de perros en todo el mundo.",
+
+    searchTerms: ["Collie Barbudo", "Bearded Collie", "Collie con barba", "Collie de pelo largo", "Perro pastor escocés", "Perro escocés", "Collie escocés"],
+
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+
+    casos_famosos: [],
+
+    fuentes: ["https://en.wikipedia.org/wiki/Bearded_Collie", "https://www.akc.org/dog-breeds/bearded-collie/", "https://www.royalcanin.com/us/dogs/breeds/bearded-collie"]
   },
   30: {
     weight: {
@@ -1688,12 +2470,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 563,
       url: 'https://cdn2.thedogapi.com/images/HJQ8ge5V7.jpg',
     },
-    searchTerms: ['Beauceron', 'Pastoreo de jabalíes', 'Caza', 'Guardia'],
     country_code: 'FR',
-    description:
-      'El Beauceron es una raza de perro originaria de Francia, conocida por su valentía, amabilidad, inteligencia y temperamento calmado. Tradicionalmente se utilizaban para pastorear jabalíes, cazar y como perros guardianes. Esta raza es muy versátil y puede adaptarse a varias tareas y situaciones. Sin embargo, requiere un dueño que pueda manejar su nivel de energía y su necesidad de estimulación mental.',
-    history:
-      'El Beauceron, también conocido como Berger de Beauce o Pastor de Beauce, es una raza de perro de pastoreo de origen francés. Se utilizaba para pastorear ovejas y para cazar jabalíes. A lo largo de los siglos, el Beauceron ha demostrado ser una raza muy versátil, capaz de adaptarse a diferentes roles y tareas. Aunque sigue siendo un excelente perro pastor, el Beauceron también ha encontrado su lugar como perro de trabajo, perro de búsqueda y rescate, y perro de terapia.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Sin miedo y protector',
@@ -1722,6 +2499,18 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Dilatación gástrica',
       'Alergias de piel',
     ],
+    description: "El Beauceron es una raza imponente y poderosa, pero también notablemente inteligente, enérgica y versátil en el pastoreo. Imagina el cerebro de un Border Collie en un cuerpo de 100 libras. Son especialmente queridos por las mujeres como un compañero y protector sensible pero audaz. Los Beaucerons son musculosos, robustos y grandes, llegando hasta 27.5 pulgadas de altura al hombro, y sin embargo, son gráciles y equilibrados en todos los aspectos. Sus oscuros abrigos negros presentan atractivos acentos de color rojo ardilla, incluyendo los pies rojos que dan a la raza su apodo francés Bas-Rouge ('medias rojas'). También se ven en un abrigo negro-gris-tan. La cabeza larga está bien cincelada, y los ojos marrones oscuros proyectan una expresión que los aficionados a la raza describen como franca y segura. No son para dueños novatos, que podrían terminar siendo poseídos por su perro dominante en lugar de al revés. Dicho esto, los Beaucerons bien entrenados y socializados son perros guardianes y protectores equilibrados, especialmente buenos con los jóvenes, los pequeños y los indefensos.",
+    history: "El Beauceron, también conocido como Berger de Beauce o Bas Rouge, es un perro pastor francés cuyo nombre se deriva de la vasta región agrícola al suroeste de París. Desde su desarrollo en la Baja Edad Media, el Beauceron ha sido reconocido como una raza por la AKC en 2007. Cada año, el American Kennel Club publica la lista de las 'razas más populares', basada en las estadísticas de registro de ese año. El Beauceron ha sido registrado en el Servicio de Stock de Fundación desde 1998. El Beauceron es una raza francesa distinta de perro pastor.",
+    searchTerms: ["Beauceron", "Berger de Beauce", "Bas Rouge", "perro pastor francés", "perro Beauceron", "raza Beauceron", "Beaucerons"],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: ["https://en.wikipedia.org/wiki/Beauceron", "https://www.akc.org/dog-breeds/beauceron/"]
   },
   31: {
     weight: {
@@ -1746,17 +2535,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 531,
       url: 'https://cdn2.thedogapi.com/images/ByK8gx947.jpg',
     },
-    searchTerms: [
-      'Bedlington Terrier',
-      'Caza de ratas',
-      'Caza de tejones',
-      'Control de plagas',
-    ],
     country_code: 'GB',
-    description:
-      'El Bedlington Terrier es una raza de perro originaria del Reino Unido. Se caracteriza por su naturaleza afectuosa, enérgica e inteligente. Fue criado originalmente para cazar ratas, tejones y otras plagas. A pesar de sus orígenes como perro de caza, es conocido por su buen temperamento y se adapta bien a la vida familiar.',
-    history:
-      'Originario de la ciudad de Bedlington, en el norte de Inglaterra, el Bedlington Terrier es una raza de perro que tradicionalmente se utilizaba para cazar ratas y tejones. Con el tiempo, estos perros han demostrado su versatilidad, adaptándose a diversos roles, desde perros de compañía hasta competidores en eventos deportivos caninos.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Afectuoso y de buen temperamento',
@@ -1784,6 +2563,18 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Enfermedad de Legg-Calvé-Perthes',
     ],
+    description: "El Bedlington Terrier es una raza de perro que es tanto enérgica como afectuosa. A pesar de su apariencia similar a la de un cordero, estos perros son atletas versátiles y compañeros de casa irresistiblemente adorables. Son perros lithe y enérgicos, con un pelaje crujiente y rizado, una espalda arqueada, orejas con borlas, una cola en forma de cimitarra y una cabeza en forma de pera que son características identificativas de esta raza única. Aunque pueden parecer tranquilos y reservados, los Bedlington Terriers son capaces de galopar a alta velocidad. Son perros gráciles y musculosos sin ningún signo de debilidad o aspereza. Debido a su carácter poco exigente, son fáciles de criar y educar y son populares en las familias por su naturaleza tranquila y devota.",
+    history: "El Bedlington Terrier fue reconocido como raza por el AKC en 1886. El primer perro llamado 'Bedlington Terrier' nació en 1825. El perro era Ainsley's Piper, que comenzó a cazar a los 8 meses y continuó derribando a las nutrias y tejones más feroces incluso en su vejez ciega y sin dientes. Joseph Ainsley de Bedlington era el dueño del primer perro conocido como Bedlington Terrier. Se cree que el Bedlington Terrier comparte ciertas similitudes, y por lo tanto posiblemente un ancestro común, con los Terriers Dandie Dinmont, Kerry Blue y Soft Coated Wheaten. Su espalda arqueada sugiere que el Whippet también pudo haber sido utilizado para añadir velocidad y ligereza a la capacidad de rendimiento de la raza.",
+    searchTerms: ["Bedlington Terrier", "Bedlington", "Terrier", "Bedlington Terriers", "Terriers Bedlington", "Bedlington dog", "Bedlington dogs", "Bedlington Terrier dog", "Bedlington Terrier dogs"],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Moderada',
+    casos_famosos: [],
+    fuentes: ["https://en.wikipedia.org/wiki/Bedlington_Terrier", "https://www.akc.org/dog-breeds/bedlington-terrier/", "https://www.royalcanin.com/us/dogs/breeds/bedlington-terrier"]
   },
   32: {
     weight: {
@@ -1817,23 +2608,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 453,
       url: 'https://cdn2.thedogapi.com/images/r1f_ll5VX.jpg',
     },
-    searchTerms: [
-      'Malinois Belga',
-      'Pastoreo de ganado',
-      'Vigilante',
-      'Alerta',
-      'Obstinado',
-      'Amistoso',
-      'Confiable',
-      'Trabajador',
-      'Activo',
-      'Protector',
-    ],
     country_code: 'BE',
-    description:
-      'El Malinois Belga es una raza de perro de pastor originaria de Bélgica. Se caracteriza por ser vigilante, alerta, obstinado, amistoso, confiable, trabajador, activo y protector. Estos perros son especialmente conocidos por su papel en el pastoreo de ganado y son valorados por su versatilidad en diversas funciones, desde el trabajo en la granja hasta la protección y el servicio.',
-    history:
-      'El Malinois Belga es una de las cuatro variedades de perros de pastor belga, junto con el Tervuren, el Groenendael y el Laekenois. Esta raza se crió originalmente en el área alrededor de Malinas, de ahí su nombre, y se desarrolló para pastorear ganado. Sin embargo, su inteligencia, su entrenabilidad y su disposición diligente han llevado a que se utilicen en una variedad de roles más allá del pastoreo, incluyendo como perros policiales, de servicio, de búsqueda y rescate, y en deportes caninos.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Altamente inteligente y entrenable',
@@ -1860,6 +2635,30 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Epilepsia',
       'Síndrome de Wobbler',
     ],
+    description: "El Malinois Belga es una de las cuatro variedades de perros pastor belgas, nombrado por la región belga de Malinas. Es un perro de trabajo de tamaño mediano a grande que es inteligente y extremadamente activo. Son conocidos por su energía y su capacidad para trabajar. Como perro de trabajo, el Malinois Belga se ha destacado en una variedad de roles en la búsqueda y rescate, detección de drogas y explosivos, y como perro de servicio para personas con discapacidades. Son perros de protección y defensa, y son muy leales a su familia. Sin embargo, también pueden ser reservados y cautelosos con los extraños. Tienen un pelaje corto que es fácil de cuidar, y vienen en colores que varían desde el leonado hasta el caoba, a menudo con una máscara negra en la cara.",
+
+    history: "El Malinois Belga se originó en la región de Malinas en Bélgica, donde fue criado para ser un perro pastor. La raza fue reconocida por primera vez en Bélgica en 1891 por el profesor Adolphe Reul, quien es considerado el fundador de la raza. En 1911, la raza fue reconocida por el American Kennel Club (AKC). Durante las dos guerras mundiales, los Malinois fueron utilizados por las fuerzas militares para una variedad de tareas, incluyendo como mensajeros, perros de búsqueda y rescate, y para detectar minas. En la actualidad, los Malinois son utilizados en una variedad de roles de trabajo, incluyendo como perros de policía y de búsqueda y rescate. También son populares como perros de familia y de compañía.",
+
+    searchTerms: ["malinois belga", "belgian malinois", "malinois", "belga malinois", "belgian shepherd malinois", "belgian malinois shepherd", "belgian malinois dog", "malinois dog", "belgian shepherd dog", "malinois belgian", "malinois shepherd", "shepherd malinois"],
+
+    tendencia_a_ladrar: 'Moderada',
+
+    necesidad_de_aseo: 'Baja',
+
+    soporta_clima_frio: 'Alta',
+
+    soporta_clima_calido: 'Moderada',
+
+    para_primerizos: 'Baja',
+
+    bueno_con_ninos: 'Moderada',
+
+    tolerancia_a_la_soledad: 'Baja',
+
+    casos_famosos: [],
+
+    fuentes: ["https://en.wikipedia.org/wiki/Malinois_dog", "https://www.akc.org/dog-breeds/belgian-malinois/"]
+
   },
   33: {
     weight: {
@@ -1891,12 +2690,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 380,
       url: 'https://cdn2.thedogapi.com/images/B1KdxlcNX.jpg',
     },
-    searchTerms: ['Tervuren Belga', 'Pastor', 'Protector'],
     country_code: 'BE',
-    description:
-      'El Tervuren Belga se destaca por su energía y agudo sentido de protección. Es un perro de trabajo excepcional y forma un fuerte vínculo con su familia. Apreciado por su inteligencia y su naturaleza alerta, este perro puede ser un compañero activo y protector.',
-    history:
-      'El Tervuren Belga es una de las cuatro variedades de perros de pastor belgas, junto con el Malinois, el Groenendael y el Laekenois. Esta raza fue criada originalmente en la región de Tervuren en Bélgica para trabajar como perro de guardia y tracción. Su inteligencia, capacidad de trabajo y lealtad también los hacen adecuados para roles como perros policiales, de servicio y de búsqueda y rescate.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente perro guardián y trabajador',
@@ -1921,6 +2715,24 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Epilepsia',
     ],
+    description: "El Tervuren Belga es una de las cuatro variedades de perros de pastor belgas, que se distingue por su largo y lujoso pelaje. Este pelaje, que es generalmente de color caoba con un collar negro, requiere un mantenimiento regular para mantener su apariencia. El Tervuren es un perro de tamaño mediano, bien proporcionado y fuerte, que es ágil y musculoso sin ser voluminoso. Son conocidos por su inteligencia y versatilidad como perro de trabajo, siendo capaces de realizar una variedad de tareas, incluyendo pastoreo, búsqueda y rescate, y obediencia competitiva. A pesar de su capacidad para el trabajo, también son perros de compañía leales y afectuosos que se llevan bien con los niños y otros perros. Sin embargo, pueden ser reservados con los extraños y tienen un fuerte instinto de protección, lo que los convierte en excelentes perros guardianes.",
+
+    history: "El Tervuren Belga lleva el nombre de la aldea de Tervuren, en Bélgica, donde fue criado por primera vez a finales del siglo XIX. Fue desarrollado a partir de los mismos perros de pastor belgas que produjeron las otras tres variedades (el Malinois, el Laekenois y el Groenendael), pero fue criado selectivamente para su distintivo pelaje largo. Aunque originalmente se utilizaba para el pastoreo, su inteligencia y versatilidad pronto lo hicieron popular para una variedad de roles de trabajo. En la actualidad, el Tervuren es apreciado tanto por su habilidad en una variedad de deportes caninos como por su temperamento equilibrado como perro de compañía.",
+
+    searchTerms: ["Tervuren Belga", "Belgian Tervuren", "Tervuren", "Perro de pastor belga", "Belgian Shepherd Dog", "Tervuren dog", "Belgian Tervuren shepherd"],
+
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+
+    casos_famosos: [],
+
+    fuentes: ["https://en.wikipedia.org/wiki/Belgian_Tervuren", "https://www.akc.org/dog-breeds/belgian-tervuren/"]
+
   },
   34: {
     weight: {
@@ -1945,12 +2757,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 427,
       url: 'https://cdn2.thedogapi.com/images/S1fFlx5Em.jpg',
     },
-    searchTerms: ['Perro de Montaña Bernés', 'Trabajo', 'Fiel'],
     country_code: 'CH',
-    description:
-      'El Perro de Montaña Bernés es reconocido por su lealtad, inteligencia y bondad. Son excelentes perros de trabajo, especialmente en tareas de tracción, gracias a su gran tamaño y fuerza. A pesar de su impresionante físico, son cariñosos y pacientes, lo que los hace maravillosos perros familiares.',
-    history:
-      'El Perro de Montaña Bernés es originario de Suiza, y es uno de los cuatro perros de montaña suizos. Se le crió inicialmente para realizar tareas de tracción en granjas, gracias a su tamaño y fuerza. A lo largo de los años, han mantenido su excelente disposición para el trabajo, pero también se han ganado el corazón de muchas familias por su carácter leal y afectuoso.',
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Excelente perro de trabajo',
@@ -1976,6 +2783,19 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Cáncer',
       'Problemas de corazón',
     ],
+    description: "El Perro de Montaña Bernés es una raza grande, fuerte, robusta y ágil. Su cuerpo es ligeramente más largo que alto, y su hueso sustancial y robusto es característico de la raza. Los machos denotan una apariencia masculina y las hembras son distintamente femeninas. El Bernés es autónfido, alerta y vigilante. Son de buen carácter y confiables con sus familias y seguros y aceptantes con extraños. Su pelaje es tricolor con marcas simétricas de negro, óxido y blanco. La base del perro es negra. El perro tiene una llama blanca en el pecho y blanco en la cabeza, los dedos de los pies y la punta de la cola. El óxido está en las mejillas llegando a las comisuras de la boca, sobre cada ojo, en cada lado del pecho, en las cuatro patas y debajo de la cola.",
+    history: "El Perro de Montaña Bernés es uno de los cuatro antiguos Sennenhunds suizos, desarrollado cuando los romanos invasores cruzaron sus mastines con perros locales de guarda de rebaños, y es el único con un pelaje completo. Refinado en la región de Berna, los perros de esta raza se utilizaban habitualmente para múltiples trabajos. Estos incluían: trabajador agrícola general; guardián del rebaño; y perro de tiro. La raza se caracteriza por el clásico y llamativo tricolor de los Sennenhund (color base negro, con marcas de óxido y blanco).",
+    searchTerms: ['Perro de Montaña Bernés', 'Trabajo', 'Fiel', "Perro de Montaña Bernés", "Bernese Mountain Dog", "Berner", "Berner Sennenhund", "Berner Sennen", "Bernese", "Perro de Montaña Bernes", "Perro de Montana Bernes", "Perro de Montana Bernes", "Perro de Montaña Bernese", "Perro de Montana Bernese"],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: ["https://en.wikipedia.org/wiki/Bernese_Mountain_Dog", "https://www.akc.org/dog-breeds/bernese-mountain-dog/", "https://www.royalcanin.com/us/dogs/breeds/breed-library/bernese-mountain-dog", "https://www.dogbreedinfo.com/bernesemountain.htm", "https://www.ukcdogs.com/bernese-mountain-dog"]
+
   },
   35: {
     weight: {
@@ -2007,12 +2827,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 360,
       url: 'https://cdn2.thedogapi.com/images/HkuYlxqEQ.jpg',
     },
-    searchTerms: ['Bichón Frisé', 'Compañía', 'Alegre'],
     country_code: 'FR',
-    description:
-      'El Bichón Frisé es un perro pequeño, alegre y lleno de vida. Su personalidad encantadora y su tamaño pequeño lo hacen perfecto para la compañía. Son muy juguetones y llenos de energía, lo que los hace excelentes para familias con niños. Al mismo tiempo, son perros sensibles que requieren una atención constante y cariño de su familia.',
-    history:
-      'El Bichón Frisé es originario de Francia. Aunque su historia exacta es incierta, se cree que este perro es una mezcla de perros de agua pequeños y perros de juguete. En los siglos XV y XVI, el Bichón Frisé era muy popular entre la nobleza y la aristocracia europea, especialmente en Francia, donde era un perro de compañía muy querido.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Perro pequeño, ideal para vivir en departamentos',
@@ -2039,6 +2854,27 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas dentales',
       'Luxación patelar',
     ],
+    description: `El Bichón Frisé es un perro pequeño y resistente. Cuando el perro está recortado en un corte de espectáculo, el cuerpo da una apariencia redonda. El cráneo es ligeramente redondeado. El hocico es más corto que el cráneo, no es puntiagudo, y tiene una parada ligeramente pronunciada. Los ojos redondos son negros o marrones oscuros. Las orejas son caídas cubiertas de pelo largo. Los dientes deben encontrarse en una mordida de tijera. Las patas son rectas y de hueso medio. Los espolones generalmente se eliminan. La cola se lleva sobre la espalda. El pelaje doble es suave al tacto. El pelaje exterior es de 3 a 4 pulgadas (7-10 cm) de largo y es más grueso y rizado que el suave y denso subpelo. Los colores del pelaje incluyen blanco sólido, crema, gris o albaricoque. El blanco es preferido en el ring de exhibición. El pelaje es hipoalergénico. Los dueños de mascotas generalmente recortan al perro en un corte de cachorro de fácil cuidado que tiene la misma longitud en todo el cuerpo. El perro puede ser mostrado con su pelaje recortado como un caniche o con un pelaje largo y esponjoso con los pies y el hocico recortados.`,
+
+    history: `La existencia de la raza Bichón Frisé ha sido documentada desde el siglo XIV, cuando los marineros franceses los trajeron de Tenerife, una de las Islas Canarias. Se cree que la raza fue llevada allí por comerciantes, utilizando la ruta comercial fenicia, como artículos de trueque. Se cree que el área de origen de la raza es Italia y las áreas alrededor de ese país, donde se encontraron la mayoría de las razas de Bichón. El Bichón Frisé es único entre las razas de Bichón ya que tiene doble capa, teniendo tanto un subpelo como un pelo exterior. Esto le da a la raza su característica apariencia de "pompones de polvo". El Bichón Frisé fue reconocido por el United Kennel Club en 1981.`,
+
+    searchTerms: ['bichon frise', 'bichón frisé', 'bichon', 'frise', 'bichon a poil frise', 'bichon tenerife', 'bichon frize', 'bichon frisse', 'bichon fris'],
+
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+
+    casos_famosos: [],
+
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Bichon_Fris%C3%A9', "https://www.akc.org/dog-breeds/bichon-frise/" ,
+      "https://www.royalcanin.com/us/dogs/breeds/breed-library/bichon-frise", "https://www.dogbreedinfo.com/bichonfrise.htm",
+      "https://www.ukcdogs.com/bichon-frise"
+    ]
   },
   36: {
     weight: {
@@ -2070,12 +2906,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 380,
       url: 'https://cdn2.thedogapi.com/images/HJAFgxcNQ.jpg',
     },
-    searchTerms: ['Sabueso Negro y Tostado', 'Sabueso', 'Caza de mapaches'],
     country_code: 'US',
-    description:
-      'El Sabueso Negro y Tostado es conocido por su versatilidad como perro de caza y su increíble sentido del olfato. Son perros confiables y adorables, famosos por su habilidad para rastrear y cazar. A pesar de su tamaño grande, son gentiles y muy adaptables, lo que los hace adecuados para diferentes tipos de hogares y estilos de vida.',
-    history:
-      'El Sabueso Negro y Tostado es originario de los Estados Unidos, donde fue criado originalmente para rastrear mapaches, especialmente en la caza nocturna. A lo largo de los años, estos perros han demostrado ser extremadamente versátiles en la caza de diferentes tipos de presas, gracias a su resistencia y a su agudo sentido del olfato.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente sentido del olfato, útil para la caza y el rastreo',
@@ -2099,6 +2930,23 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Obesidad',
       'Infecciones del oído, debido a sus orejas largas y caídas',
     ],
+    searchTerms: ['Sabueso Negro y Tostado', 'Sabueso', 'Caza de mapaches', 'sabueso negro y tostado', 'black and tan coonhound', 'coonhound', 'black and tan', 'sabueso', 'black tan coonhound', 'black & tan coonhound', 'blackandtan coonhound', 'blacktan coonhound'],
+    description: `El Sabueso Negro y Tostado es un perro de trabajo resistente, conocido por su agudo sentido del olfato y su persistencia en la pista. Son perros de tamaño mediano a grande, con cuerpos fuertes y musculosos. Tienen orejas largas y caídas y ojos de color avellana o marrón oscuro que transmiten una expresión amigable. Su pelaje es denso y de longitud media, y como su nombre indica, es de color negro y tostado. Son perros amigables y leales, conocidos por su amor por las personas y su naturaleza tranquila en casa. Sin embargo, también son perros de trabajo dedicados que pueden ser obstinados y decididos en la pista.`,
+    history: `El Sabueso Negro y Tostado es una de las pocas razas verdaderamente estadounidenses, con una historia que se remonta a mediados del siglo XVIII. Fueron desarrollados para rastrear mapaches y otras presas de caza mayor, y son conocidos por su capacidad para seguir una pista a través de todo tipo de terreno y condiciones climáticas. La raza fue reconocida por el American Kennel Club en 1945, y desde entonces ha sido valorada tanto por su habilidad en el campo como por su temperamento amigable y su lealtad como mascota de la familia.`,
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Black_and_Tan_Coonhound',
+      'https://www.akc.org/dog-breeds/black-and-tan-coonhound/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/black-and-tan-coonhound',
+      'https://www.dogbreedinfo.com/blackandtancoonhound.htm'
+    ]
   },
   37: {
     weight: {
@@ -2123,12 +2971,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 600,
       url: 'https://cdn2.thedogapi.com/images/Skdcgx9VX.jpg',
     },
-    searchTerms: ['Sabueso de Sangre', 'Sabueso', 'Rastreo'],
     country_code: 'BE',
-    description:
-      'El Sabueso de Sangre es un rastreador infalible, conocido por su habilidad para seguir un olor durante horas, incluso días, después de que se haya dejado. Estos perros son increíblemente persistentes en la pista y no se detienen fácilmente una vez que han encontrado un rastro. A pesar de su determinación en la caza, son perros gentiles y afectuosos en casa.',
-    history:
-      'El Sabueso de Sangre es una de las razas de perros más antiguas que cazan por olfato. Originario de Bélgica, este perro ha sido apreciado por su habilidad para rastrear durante siglos. Han sido usados en todo, desde la caza hasta la búsqueda y rescate, y son conocidos por su habilidad para seguir rastros en casi cualquier condición.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente sentido del olfato, uno de los mejores entre todas las razas de perros',
@@ -2151,6 +2994,18 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Problemas oculares, incluyendo entropión y ectropión',
     ],
+    description: "El Sabueso de Sangre es una raza de perro muy poderosa y masiva. Son perros de rastreo, trazando sus orígenes al antiguo sabueso St. Hubert de Francia, criados por su habilidad de rastreo y caza. Son expertos en rastreo en frío, siguiendo un rastro antiguo, lo que los hace excepcionales perros de rastreo. La piel es delgada al tacto y es extremadamente suelta, siendo más notable en la cabeza y el cuello, donde cuelga en pliegues profundos. El Sabueso de Sangre es amable, paciente, noble, de buenos modales y un perro adorable. Son gentiles, afectuosos y excelentes con los niños, lo que los convierte en un verdadero compañero de buen carácter. Son muy enérgicos al aire libre y bulliciosos cuando son jóvenes, determinados e independientes, los Sabuesos de Sangre necesitan un entrenamiento firme, pero no pesado. Son naturalmente animales gentiles pero no son fáciles de entrenar en obediencia. Si captan un olor a algo, puede ser difícil redirigir su atención de nuevo a ti si estás fuera de su alcance físico. Son capaces de seguir cualquier olor, incluso humano, una habilidad rara en un perro. Esta raza ha sido conocida por seguir con éxito rastros de más de 100 horas de antigüedad. Es tan determinado que se sabe que se queda con el rastro durante más de 100 millas. Los Sabuesos de Sangre nunca pueden ser mantenidos en un patio sin cercas. Hay una buena posibilidad de que el instinto los lleve a vagar si están sin correa. Huyen cuando captan un olor; el instinto los impulsa a encontrar el final del rastro.",
+    history: "El Sabueso de Sangre es un sabueso de rastreo, que traza sus orígenes al antiguo Sabueso de San Huberto de Francia, un tipo de sabueso criado por sus habilidades de rastreo y caza. Son expertos en el rastreo en frío, lo que los convierte en perros de rastreo excepcionales. Esta raza fue reconocida por el United Kennel Club en 1914. El Sabueso de Sangre prospera en la caza más que en la matanza. Se deleita en el rastreo y se ha utilizado para cazar animales, criminales, esclavos fugitivos y niños perdidos.",
+    searchTerms: ['Sabueso de Sangre', 'Sabueso', 'Rastreo', "Sabueso de Sangre", "sabueso de sangre", "Bloodhound", "bloodhound", "Sabueso de sangre", "sabueso de Sangre", "Sabueso De Sangre"],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: ["https://en.wikipedia.org/wiki/Bloodhound", "https://www.akc.org/dog-breeds/bloodhound/", "https://www.royalcanin.com/us/dogs/breeds/breed-library/bloodhound", "https://www.dogbreedinfo.com/bloodhound.htm", "https://www.ukcdogs.com/bloodhound"]
   },
   38: {
     weight: {
@@ -2175,12 +3030,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 599,
       url: 'https://cdn2.thedogapi.com/images/rJxieg9VQ.jpg',
     },
-    searchTerms: ['Coonhound Azul de Virginia', 'Sabueso', 'Caza'],
     country_code: 'US',
-    description:
-      'El Coonhound Azul de Virginia es un perro de caza estadounidense conocido por su pelaje moteado en azul que es denso y resistente. Son perros altamente activos, que requieren mucho ejercicio para mantenerse saludables. Son inteligentes, amigables y buenos con las familias, aunque su alto nivel de energía puede ser demasiado para algunas personas.',
-    history:
-      'El Coonhound Azul de Virginia se originó en los Estados Unidos en la década de 1940. Se desarrolló a partir del Coonhound Francés y el Foxhound Inglés para crear un perro de caza resistente y tenaz con un excelente sentido del olfato. Aunque originalmente fue criado para la caza, este perro también hace un excelente compañero de familia.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente sentido del olfato, usado principalmente para la caza',
@@ -2203,6 +3053,24 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Obesidad, debido a su alta energía y apetito',
     ],
+    description: "El Coonhound Azul de Virginia, también conocido como Bluetick Coonhound, es un perro de apariencia fuerte y musculosa, conocido por su agilidad y velocidad. Tiene un cuerpo bien proporcionado, no torpe ni pesado. Su pelaje es de textura media, pegado al cuerpo, dando una apariencia suave y brillante. Su cabeza es amplia entre las orejas, con un cráneo ligeramente abovedado. Los ojos son bastante grandes, separados y de color marrón oscuro. El Coonhound Azul tiene una expresión típica de ruego, nunca salvaje o temerosa. Este perro es activo, ambicioso y rápido en el rastro. Debería ser un perro de lengua libre en el rastro, con una voz de ladrido, chillido, corte o bugle al golpear y rastrear, con un cambio distinto en el árbol de ladridos, cortando, o una combinación de ambos.",
+
+    history: "Es muy probable que el Bluetick descienda principalmente de los rápidos foxhounds de Inglaterra, con alguna introducción de la sangre de varios sabuesos franceses que se utilizaban para cazar animales de gran tamaño. Los perros franceses eran conocidos por tener un olfato muy agudo. George Washington recibió cinco de estos sabuesos franceses del general Lafayette. Los Blueticks se registraron originalmente en el UKC como ingleses. En 1946, a petición de los aficionados al Bluetick, el UKC comenzó a registrar a los Blueticks como una raza separada.",
+
+    searchTerms: ['Coonhound Azul de Virginia', 'Sabueso', 'Caza', "coonhound azul de virginia", "bluetick coonhound", "coonhound", "bluetick", "coonhound azul", "coonhound virginia", "bluetick virginia", "coonhound azul de virginia con tilde", "coonhound azul de virginia sin tilde", "coonhound azul de virginia errores ortograficos", "coonhound azul de virginia formas coloquiales"],
+
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+
+    casos_famosos: [],
+
+    fuentes: ["https://en.wikipedia.org/wiki/Bluetick_Coonhound", "https://www.akc.org/dog-breeds/bluetick-coonhound/", "https://www.ukcdogs.com/bluetick-coonhound"]
+
   },
   39: {
     weight: {
@@ -2233,12 +3101,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 669,
       url: 'https://cdn2.thedogapi.com/images/HyOjge5Vm.jpg',
     },
-    searchTerms: ['Boerboel', 'Perro de trabajo', 'Granja'],
     country_code: 'ZA',
-    description:
-      'El Boerboel es una raza de perro sudafricano, criado para la protección del hogar. Son perros grandes y fuertes, conocidos por su lealtad y su deseo de proteger a su familia. Requieren un manejo y entrenamiento adecuados debido a su tamaño y su naturaleza dominante.',
-    history:
-      'El Boerboel se origina en Sudáfrica, donde se utilizaba para proteger las granjas de las fieras salvajes. Los Boerboels se criaban para ser lo suficientemente fuertes para mantener a raya a los leones, pero lo suficientemente inteligentes y obedientes para trabajar con los granjeros día tras día.',
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Protector y leal, excelente para proteger el hogar',
@@ -2261,6 +3124,45 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de piel',
       'Problemas oculares',
     ],
+    description: `El Boerboel es un perro grande, fuerte e inteligente de trabajo. Es bien equilibrado con buen desarrollo muscular y movimiento animado. El perro debe ser impresionante e imponente. Los machos aparecen notablemente masculinos y las hembras femeninas. Todas las partes del cuerpo deben estar en proporción entre sí. La cabeza es la característica más importante del Boerboel, ya que representa su carácter total. Es corta, ancha, profunda, cuadrada y muscular con mejillas bien llenas. La parte entre los ojos debe estar bien llena. La parte superior de la cabeza es ancha y plana, con un desarrollo muscular prominente. La cara debe mezclarse simétricamente con la cabeza, y puede ser con o sin una máscara negra. El hocico es negro con grandes orificios nasales que están ampliamente espaciados. El hueso nasal es recto y paralelo a la línea superior de la cabeza que es profunda, ancha y se estrecha ligeramente hacia el frente. El hueso nasal debe ser de 8-10 cm de largo. El labio superior flojo y carnoso debe cubrir el labio inferior, pero no debe colgar más bajo que la mandíbula inferior. Las mandíbulas (mandíbulas) son fuertes, profundas y anchas, y se estrechan ligeramente hacia el frente. Los dientes deben ser blancos, bien desarrollados, correctamente espaciados, con un conjunto completo de 42 dientes y una mordida de tijera. Los ojos anchos y horizontalmente colocados son de cualquier tono de marrón, pero más oscuros que la piel, con párpados firmes y bien pigmentados. Las orejas deben ser de tamaño mediano, en forma de V y deben estar en proporción con la cabeza. Están colocados bastante altos y anchos contra la cabeza. Cuando el perro está alerta, las orejas deben formar una línea recta con la parte superior de la cabeza. La piel del cuello es suelta debajo de la garganta y se vuelve tensa entre las patas delanteras. El cuerpo se estrecha ligeramente hacia el lomo. La línea superior debe ser recta. La espalda es recta, ancha y en proporción, con músculos de la espalda prominentes y un lomo corto. El pecho es muscular, ancho y fuerte. La cola recta y corta está unida alta al cuerpo. Las patas delanteras deben ser perfectamente verticales. Las patas traseras son ligeramente más pequeñas que las patas delanteras. Las grandes patas bien acolchadas son redondas con uñas curvas oscuras. Las patas deben apuntar hacia adelante. Los espolones deben ser removidos. La piel es gruesa, suelta, bien pigmentada con arrugas moderadas en la frente cuando el perro está alerta. El pelaje corto, denso y elegante viene en crema blanca, pálido leonado, negro, marrón rojizo, marrón y todos los tonos de atigrado.`,
+    history: `El desarrollo del Boerboel puede describirse con razón como una verdadera historia de éxito sudafricana y hoy es un faro para aquellos que han hecho una contribución para mejorar la raza. El refinamiento de la raza todavía está en la etapa de desarrollo. Ya se ha escrito mucho sobre el linaje del Boerboel, pero nadie puede afirmar con certeza que se cría a partir de una, dos o más razas de perros. Lo que se confirma por la investigación es que Jan van Riebeeck trajo consigo un "bullenbijter" a su llegada al Cabo. Este perro era una raza grande y fuerte que recordaba al tipo de Mastiff. Aquellos que siguieron a Van Riebeeck al Cabo también trajeron consigo solo los perros más grandes y fuertes y durante un período de décadas solo los más fuertes sobrevivieron en el ahora desolado país. Con la llegada de los colonos británicos en 1820 trajeron entre otros el Bulldog y el tipo de perro Mastiff. (En 1938, el verdadero Bull Mastiff fue importado a Sudáfrica por De Beers para proteger las minas de diamantes). También se sabe que importaron un campeón obtenido de los hotentotes, que jugó un papel en el desarrollo del Boerboel. Los "Boerdogs" (como se les conoce) fueron dispersados por los Voortrekkers durante el Gran Trek y continuaron criándose con ellos. Según la tradición, después de la Guerra Anglo Boer en 1902, estos perros se cruzaron con el Bulldog inglés de patas largas y también con el Bull Mastiff a finales y principios de los años 50. La historia es especialmente conocida entre los agricultores del noreste del Estado Libre, el norte de Natal y en partes de Transvaal.`,
+    searchTerms: [
+      'Boerboel', 'Perro de trabajo', 'Granja',
+      "boerboel",
+      "boerbul",
+      "perro boerboel",
+      "perro boerbul",
+      "raza boerboel",
+      "raza boerbul",
+      "perro sudafricano boerboel",
+      "perro de granja boerboel",
+      "perro mastiff sudafricano",
+      "south african boerboel",
+      "south african mastiff",
+      "african boerboel",
+      "boerboel mastiff",
+      "boerboel dog",
+      "boerboel breed",
+      "boerboel puppy",
+      "boerboel puppies",
+      "boerboel dogs",
+      "boerboel mastiff dogs",
+      "boerboel mastiff breed",
+      "boerboel mastiff puppies",
+      "boerboel mastiff dogs breed"
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Boerboel",
+      "https://www.akc.org/dog-breeds/boerboel/"
+    ]
   },
   40: {
     weight: {
@@ -2292,12 +3194,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1080,
       url: 'https://cdn2.thedogapi.com/images/sGQvQUpsp.jpg',
     },
-    searchTerms: ['Border Collie', 'Pastoreo', 'Ovejas'],
     country_code: 'GB',
-    description:
-      'El Border Collie es una raza de perro de pastoreo altamente inteligente y energética, reconocida por su intensidad y capacidad para trabajar en armonía con los humanos. Es ideal para dueños que pueden proporcionarles suficiente ejercicio mental y físico.',
-    history:
-      'El Border Collie se originó en la frontera entre Escocia e Inglaterra, donde se utilizaba para pastorear ovejas en las colinas y montañas. Son conocidos por su increíble agilidad y su capacidad para controlar el rebaño con su mirada intensa.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Perro de trabajo altamente inteligente y capaz',
@@ -2320,7 +3217,39 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Atrofia retiniana progresiva',
       'Epilepsia',
     ],
+    description: `El Border Collie es una raza de perro de tamaño mediano conocida por su increíble inteligencia y capacidad para el trabajo. Esta raza se originó en la frontera entre Escocia e Inglaterra y fue desarrollada para ayudar a los pastores a manejar sus rebaños. Los Border Collies son famosos por su "ojo", una mirada casi hipnótica que utilizan para controlar a las ovejas y otros animales de granja. Son perros muy enérgicos y necesitan mucho ejercicio y estimulación mental para mantenerse felices y saludables. Los Border Collies son perros de trabajo y prosperan cuando tienen una tarea que realizar. Son perros muy leales y forman fuertes vínculos con sus dueños. Aunque son perros maravillosos, los Border Collies no son para todos. Requieren mucho tiempo, energía y compromiso por parte de sus dueños. Si se les deja solos o se aburren, pueden volverse destructivos.`,
+    history: `El Border Collie tiene sus raíces en el norte de Inglaterra y Escocia. Fueron desarrollados por pastores que necesitaban un perro que pudiera manejar grandes rebaños de ovejas en terrenos difíciles. Los Border Collies son conocidos por su "ojo", una intensa mirada fija que utilizan para controlar a las ovejas. Esta raza fue criada específicamente por su habilidad para trabajar y su inteligencia, en lugar de su apariencia. Los Border Collies son una de las razas de perros más inteligentes y entrenables del mundo. Son capaces de aprender una increíble variedad de comandos y trucos. A lo largo de los años, los Border Collies han demostrado ser increíblemente versátiles. Además de su trabajo tradicional como perros pastores, se utilizan en una variedad de roles, incluyendo perros de búsqueda y rescate, perros de terapia y perros de servicio. También son competidores estelares en una variedad de deportes caninos, incluyendo agilidad, obediencia y pruebas de pastoreo.`,
+    searchTerms: ['Border Collie', 'Pastoreo', 'Ovejas', 'Border Collie', 'border collie', 'bordercollie', 'Bordercollie', 'Collie de la frontera', 'collie de la frontera', 'bordercolli', 'Bordercolli', 'Bordercolie', 'bordercolie'],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Rico',
+        caso: 'Perro que fue estudiado por su capacidad para reconocer más de 200 palabras'
+      },
+      {
+        nombre: 'Chaser',
+        caso: 'Perro que fue estudiado por su capacidad para reconocer más de 1000 palabras'
+      },
+      {
+        nombre: 'Striker',
+        caso: 'Perro que tiene el récord mundial Guinness por el rollo de ventana de coche más rápido'
+      }
+    ],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Border_Collie",
+      "https://www.akc.org/dog-breeds/border-collie/",
+      "https://www.royalcanin.com/us/dogs/breeds/breed-library/border-collie",
+      "https://www.dogbreedinfo.com/bordercollie.htm",
+      "https://www.ukcdogs.com/border-collie"
+    ]
   },
+  // Acá empece a hacer parte por parte y me empezó a dar textos más largos
   41: {
     weight: {
       imperial: '11.5 - 15.5',
@@ -2351,12 +3280,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 450,
       url: 'https://cdn2.thedogapi.com/images/HJOpge9Em.jpg',
     },
-    searchTerms: ['Border Terrier', 'Terrier', 'Caza de ratas'],
     country_code: 'GB',
     description:
-      'El Border Terrier es un perro valiente y cariñoso, reconocido por su destreza en la caza de zorros y ratas. Son perros robustos, ágiles y energéticos, y son conocidos por su lealtad y temperamento uniforme.',
+      'El Border Terrier es una de las razas de terrier más antiguas de Gran Bretaña, desarrollada en el territorio fronterizo que rodea las colinas de Cheviot. Los granjeros y pastores que necesitaban un perro que tuviera patas lo suficientemente largas para seguir a un caballo, pero que fuera lo suficientemente pequeño para seguir a un zorro al suelo, lo mantuvieron puro durante generaciones. El Border Terrier es un perro construido para la resistencia y la agilidad. Es fuerte, con huesos medianos y patas lo suficientemente largas para seguir a un caballo. La raza es bastante estrecha en hombros, cuerpo y cuartos traseros, y está cubierta con una chaqueta intensamente áspera, algo rota y de ajuste ceñido. Su cabeza, parecida a la de una nutria, es distintiva. En proporción, la altura, medida en la cruz, es ligeramente mayor que la distancia desde la cruz hasta la cola. El Border Terrier es alerta, activo, ágil y capaz de deslizarse por aberturas estrechas, así como de viajar rápidamente por cualquier tipo de terreno. Son extremadamente valientes cuando cazan, pero también son de buen carácter, afectuosos, obedientes y fácilmente entrenables. El Border Terrier tiene una capa densa, áspera y recta, con una capa inferior de ajuste ceñido. Se debe exhibir en un estado lo más natural posible. El recorte aceptable incluye arreglar la cabeza, el cuello y los pies. Las condiciones de vida del Border Terrier son flexibles, se adaptará a un apartamento siempre y cuando se le proporcione suficiente ejercicio. Son moderadamente inactivos en interiores y un pequeño patio es suficiente. Necesitan mucho ejercicio, que incluye un largo paseo diario. Los colores aceptables son rojo, trigo, grizzle y tan y azul y tan.',
     history:
-      'Originario de la frontera entre Inglaterra y Escocia, el Border Terrier fue criado para ser un cazador eficiente y un compañero leal. Su tamaño pequeño y su capacidad para correr rápido lo hicieron ideal para seguir a los zorros y las ratas en terrenos difíciles.',
+      'El Border Terrier es una de las razas de terrier más antiguas de Gran Bretaña, desarrollada en el territorio fronterizo que rodea las colinas de Cheviot. Los granjeros y pastores que necesitaban un perro que tuviera patas lo suficientemente largas para seguir a un caballo, pero que fuera lo suficientemente pequeño para seguir a un zorro al suelo, lo mantuvieron puro durante generaciones. El Border Terrier es posiblemente uno de los tipos más antiguos de terriers en Gran Bretaña. Los granjeros tenían problemas con los zorros que mataban a sus animales y el Border Terrier trabajaba junto a ellos para expulsar al zorro de sus madrigueras y matarlos. Eran lo suficientemente pequeños para seguir a un zorro al suelo pero lo suficientemente grandes para seguir a los caballos. Los perros a menudo no eran alimentados por los granjeros con la esperanza de que esto aumentaría su instinto de caza y tendrían que cazar para sobrevivir. Junto con los zorros, cazaban nutrias, martas, el feroz tejón, ratones y ratas. Hoy en día, aunque el Border Terrier es principalmente un perro de compañía, todavía puede servir como un excelente perro de granja, ayudando a controlar las plagas. El Border Terrier fue reconocido por el Kennel Club británico en 1920 y por el American Kennel Club en 1930. Algunos de los talentos del Border Terrier incluyen: caza, rastreo, perro guardián, agilidad, obediencia competitiva y realización de trucos.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Perro de caza valiente y capaz',
@@ -2379,6 +3307,37 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Problemas dentales',
     ],
+    searchTerms: [
+      "Border Terrier",
+      "border terrier",
+      "borderterrier",
+      "terrier de la frontera",
+      "terrier fronterizo",
+      "bordeterrier",
+      "borderterier",
+      "border terier",
+      "borderterier",
+      "terrier",
+      "perro de caza",
+      "perro de granja",
+      "perro británico",
+      "perro de compañía"
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Border_Terrier",
+      "https://www.akc.org/dog-breeds/border-terrier/",
+      "https://www.royalcanin.com/us/dogs/breeds/breed-library/border-terrier",
+      "https://www.dogbreedinfo.com/borderterrier.htm",
+      "https://www.ukcdogs.com/border-terrier"
+    ]
   },
   42: {
     weight: {
@@ -2403,12 +3362,27 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 673,
       url: 'https://cdn2.thedogapi.com/images/rkZRggqVX.jpg',
     },
-    searchTerms: ['Boston Terrier', 'Compañía', 'Caza de ratas'],
     country_code: 'US',
-    description:
-      'El Boston Terrier es un perro vivaz y amigable, conocido por su naturaleza sociable y su inteligencia. Son excelentes perros de compañía y se adaptan bien a la vida familiar. A menudo se les llama "American Gentleman" por su actitud tranquila y respetuosa.',
-    history:
-      'Originario de los Estados Unidos, el Boston Terrier fue criado como un perro de compañía y para la caza de ratas. La raza se originó a finales del siglo XIX y es una mezcla de Bulldog Inglés y el ahora extinto Terrier Blanco Inglés.',
+    description: `
+      La raza de perro Boston Terrier es verdaderamente una raza estadounidense, siendo una versión reducida de los tipos de Bull-and-Terrier que eran tan populares en los primeros días de nuestro país. Las razas que se cree que han influido en el desarrollo del Boston Terrier incluyen el American Pit Bull Terrier, Boxer, English Bull Terrier, French Bulldog y English Bulldog. En los primeros días de la raza, a menudo se les llamaba por varios nombres, incluyendo Round-headed Bull and Terriers, American Bull Terriers y Bullet Heads.
+
+      El Boston Terrier es un perro animado, muy inteligente, de pelo liso, de cabeza corta, de construcción compacta, de cola corta, bien equilibrado. Son de color atigrado, sello o negro. El Boston es un perro robusto y no debe parecer ni delgado ni tosco. El hueso y el músculo deben estar en proporción, así como un realce, al peso y la estructura del perro. La longitud de la pierna debe equilibrarse con la longitud del cuerpo para dar al Boston su llamativo aspecto cuadrado. Las fuertes extremidades están bien giradas. La cola es corta. Ninguna característica es tan prominente que el perro parezca mal proporcionado. Al comparar ejemplares de cada sexo, la única diferencia evidente es un ligero refinamiento en la conformación de la perra. Una combinación proporcional de color y marcas blancas debe ser considerada particularmente en la determinación del valor relativo de la apariencia general a otros puntos.
+
+      El Boston Terrier es un perro amigable y animado. El perro transmite una impresión de determinación, fuerza y actividad; con estilo de alto orden. La raza tiene un excelente carácter y un alto grado de inteligencia, lo que hace del Boston un compañero incomparable.
+
+      El Boston Terrier es bueno para la vida en apartamentos y en el campo. Son relativamente inactivos en interiores y se manejan bien sin un patio. Esta raza es sensible a los extremos del clima.
+
+      El Boston Terrier es un perro de tamaño pequeño a mediano, que pesa entre 10 y 25 libras y mide entre 15 y 17 pulgadas de altura. La raza es conocida por su cabeza cuadrada y su expresión alerta y amable. El pelaje del Boston Terrier es corto, liso y de textura fina, y puede ser de color atigrado, sello o negro, siempre con marcas blancas.
+
+      El Boston Terrier es una raza de perro muy inteligente y bien educada. Son muy sensibles al tono de voz de una persona. A los Boston les gusta aprender y por lo tanto no son difíciles de entrenar. Su inteligencia asegura que recogen las cosas rápidamente. Si los humanos alrededor del perro no muestran el liderazgo que todos los perros necesitan, se volverán voluntariosos ya que comenzarán a creer que están dirigiendo el espectáculo y necesitan decirte qué hacer.
+
+      El Boston Terrier es un perro amigable y animado. El perro transmite una impresión de determinación, fuerza y actividad; con estilo de alto orden. La raza tiene un excelente carácter y un alto grado de inteligencia
+    `,
+    history: `
+      El Boston Terrier fue reconocido por el United Kennel Club en 1914. Originando en la ciudad de Boston, Massachusetts, el Boston Terrier es una de las pocas razas desarrolladas en los Estados Unidos. Los primeros Boston Terriers fueron un cruce entre el Bulldog inglés y el ahora extinto English White Terrier. Alrededor de 1865, los cocheros empleados por la gente rica de Boston comenzaron a cruzar algunos de los perros propiedad de sus empleadores. Uno de estos cruces, entre un English White Terrier y un Bulldog inglés, resultó en un perro llamado Hooper's Judge. Judge pesaba más de 30 libras (13.5 kg). Fue criado en tamaño con una hembra más pequeña y uno de esos cachorros machos fue criado con una hembra aún más pequeña. Su descendencia se cruzó con uno o más Bulldogs franceses, proporcionando la base para el Boston Terrier. Para 1889, la raza se había vuelto lo suficientemente popular en Boston que los aficionados formaron el American Bull Terrier Club, pero este nombre propuesto no fue bien recibido por los amantes del Bull Terrier. Tampoco les gustaba el apodo de la raza, "roundheads". Poco después, la raza fue nombrada Boston Terrier en honor a su lugar de nacimiento. La raza fue reconocida por el AKC en 1893. Fue mostrada por primera vez en Boston en 1870. En los primeros años, el color y las marcas no eran muy importantes, pero para 1900, las marcas distintivas y el color de la raza fueron escritos en el estándar. Terrier solo de nombre, el Boston Terrier se ha suavizado de los perros de pelea de pozo del pasado.
+
+      En resumen, la historia del Boston Terrier es una historia de refinamiento y adaptación, una raza que fue literalmente "hecha en América". Desde sus raíces en los perros de pelea de pozo hasta su estatus actual como una de las razas de compañía más queridas, el Boston Terrier es un testimonio de la habilidad de los criadores de perros para moldear una raza en una forma que se adapte a las cambiantes necesidades y deseos de la sociedad.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno con niños y otros animales',
@@ -2431,6 +3405,33 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Sordera',
       'Problemas respiratorios',
     ],
+    searchTerms: [
+      "boston terrier", "boston bull", "boston bull terrier", "boston", "terrier",
+      "boston terrior", "boston terier", "boston terrire", "boston terrior",
+      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
+      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
+      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
+      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
+      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
+      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
+      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
+      "boston terroir", "boston terroir", "boston terroir", "boston terroir"
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Boston_Terrier",
+      "https://www.akc.org/dog-breeds/boston-terrier/",
+      "https://www.royalcanin.com/us/dogs/breeds/breed-library/boston-terrier",
+      "https://www.dogbreedinfo.com/bostonterrier.htm",
+      "https://www.ukcdogs.com/boston-terrier"
+    ]
   },
   43: {
     weight: {
@@ -2462,12 +3463,31 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 454,
       url: 'https://cdn2.thedogapi.com/images/Byd0xl5VX.jpg',
     },
-    searchTerms: ['Bouvier de Flandes', 'Pastor', 'Pastoreo de ganado'],
     country_code: 'BE',
-    description:
-      'El Bouvier de Flandes es un perro protector y leal, conocido por su capacidad para pastorear ganado. Son perros robustos y resistentes que están bien adaptados a las condiciones climáticas adversas gracias a su doble capa de pelaje. Requieren ejercicio regular y mentalmente estimulante.',
-    history:
-      'Originario de Bélgica, el Bouvier des Flandres fue criado para ser un eficiente perro pastor. La raza ha sido utilizada en diversas capacidades, incluyendo perros de búsqueda y rescate, perros de terapia y perros guía para ciegos.',
+    description: `
+      El Bouvier des Flandres es una raza de perro de gran tamaño, poderosa y de aspecto robusto. Originario de la región agrícola de Flandes, Bélgica, fue utilizado principalmente para el pastoreo y la conducción de ganado. Aunque la llegada de la era de las máquinas y el transporte de ganado por camión parecía presagiar el fin de su utilidad, los aficionados al Bouvier se unieron para salvar a la raza de la extinción. Desde entonces, el Bouvier ha demostrado su valía en una variedad de roles, incluyendo el trabajo policial y militar, como perro guardián personal, perro guía para ciegos y en labores de búsqueda y rescate.
+
+      El Bouvier des Flandres es un perro obediente que puede parecer intimidante, pero en realidad es de naturaleza agradable y gentil. Con la cantidad adecuada de ejercicio, también será tranquilo. Es entusiasta, responsable, de temperamento equilibrado y valiente, lo que lo convierte en un excelente guardián y perro de vigilancia que es fácil de entrenar. Esta raza aprende comandos relativamente rápido, aunque no tan rápido como, por ejemplo, el Pastor Alemán. Requieren un entrenamiento bien equilibrado que sea consistente en su naturaleza. Una vez que aprenden un comando, lo recordarán por el resto de su vida.
+
+      El Bouvier des Flandres es un perro enérgico y activo que tiene una demanda promedio de ejercicio. Necesita salir contigo para largas caminatas diarias o correr al lado de una bicicleta. Cuando caminas a este perro, haz que talonee en la correa. No permitas que camine delante de ti, ya que el instinto le dice a un perro que el líder de la manada va primero. Durante la etapa de crecimiento, el ejercicio debe ser cuidadosamente regulado para que solo sea la caminata, de modo que los huesos, músculos y articulaciones en crecimiento no se estresen demasiado. El perro requiere toda su energía para construir un marco fuerte y saludable.
+
+      El Bouvier des Flandres tiene un pelaje áspero y desaliñado, que le da un aspecto descuidado. Su característico pelaje doble es capaz de resistir el trabajo duro y el clima inclemente. Los pelos de la capa exterior son ásperos y duros; el subpelo es fino, suave y denso. El pelaje exterior es desaliñado sin ser rizado. Es corto en el cráneo. En la parte superior de la espalda, es particularmente cerrado y áspero, siempre permaneciendo áspero. El pelaje puede recortarse ligeramente solo para acentuar la línea del cuerpo. Un recorte excesivo que altere el aspecto natural y robusto debe ser considerado un defecto. El subpelo es una masa densa de pelo fino y cerrado, que se vuelve más espeso en invierno. Junto con el pelaje superior, forma una cubierta resistente al agua.
+
+      El Bouvier des Flandres es un perro compacto, de cuerpo poderoso, de construcción corta y de porte erguido con un aspecto robusto.
+    `,
+    history: `
+      La raza de perro Bouvier des Flandres tiene una historia rica y variada, con raíces en la región de Flandes, que abarca partes de la actual Bélgica, Francia y los Países Bajos.
+
+      El Bouvier des Flandres se originó en la llanura agrícola de Flandes, Bélgica, donde se utilizaba principalmente para el pastoreo y la conducción de ganado. Históricamente, el término "Bouvier" se aplicaba a cualquier perro que trabajara con ganado. Esta raza también ha sido conocida por varios nombres, que incluyen Vuilbaard (Barba Sucia), Koe Hund (Perro de Vaca) y Toucheur de Boeuf (Conductor de Ganado).
+
+      Cuando llegó la era de la maquinaria y resultó más económico transportar el ganado en camiones, parecía que la utilidad de la raza había llegado a su fin. Sin embargo, los aficionados al Bouvier se unieron para salvar a la raza de la extinción, preservando así a este perro de múltiples talentos. Desde entonces, el Bouvier ha demostrado su valía, siendo utilizado para el trabajo policial y militar, como perro guardián personal, como perro guía para ciegos y en labores de búsqueda y rescate. En 1922, el Club National Beige du Bouvier estableció un solo tipo y redactó un estándar de raza con la ayuda de los criadores de Bouvier. La raza fue introducida por primera vez en el continente norteamericano en la década de 1930.
+
+      El origen exacto y el desarrollo de la raza siguen siendo objeto de especulación. Una teoría sostiene que se desarrolló utilizando la sangre de varias de las razas de pastoreo continentales. Otra sostiene que es un descendiente directo del Schnauzer.
+
+      El Bouvier des Flandres fue reconocido por el United Kennel Club en 1948.
+
+      Durante la Primera Guerra Mundial, el Bouvier des Flandres fue utilizado como perro mensajero y de rescate. Como muchas razas durante las guerras mundiales, el Bouvier estuvo a punto de extinguirse. En 1923, un grupo de individuos trabajó para recrear la raza Bouvier y se formó un club de raza en Bélgica. Algunos de los talentos del Bouvier son ser perro guardián, perro guía para ciegos, perro de búsqueda y rescate, trabajo policial, trabajo militar, carretero, agilidad, obediencia competitiva y Schutzhund.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Buena con niños y otros animales',
@@ -2490,6 +3510,31 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Hipotiroidismo',
       'Enfermedades oculares',
     ],
+    searchTerms: [
+      "bouvier des flandres", "bouvier", "flandres", "bouvier de flandres",
+      "bouvier des flanders", "bouvier de flanders", "flanders cattle dog",
+      "vlaamse koehond", "koehond", "vuilbaard", "toucheur de boeuf",
+      "bouvier", "belgian cattle", "belgian bouvier", "bouvier aleman alemán",
+      "herding", "guard", "working", "bouvier des", "bouvier flandres",
+      "bouvier flanders", "bouvier belgium", "bouvier holanda", "bouvier shepherd",
+      "bouvier ganado", "bouvier vaca", "bouvier granja", "bouvier policia ",
+      "bouvier militar", "bouvier rescate"
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      "https://www.akc.org/dog-breeds/bouvier-des-flandres/",
+      "https://en.wikipedia.org/wiki/Bouvier_des_Flandres",
+      "https://www.royalcanin.com/us/dogs/breeds/breed-library/bouvier-des-flandres",
+      "https://www.dogbreedinfo.com/bouvierdesflandres.htm",
+      "https://www.ukcdogs.com/bouvier-des-flandres"
+    ]
   },
   44: {
     weight: {
@@ -5819,7 +6864,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Atrayendo patos a trampas - "tolling"'],
     breed_group: ['Deportivo'],
     life_span: '12 - 15 años',
-    temperament: ['Benevolente', 'Ágil', 'Alerta', 'Inteligente', 'Activo', 'Territorial'],
+    temperament: [
+      'Benevolente',
+      'Ágil',
+      'Alerta',
+      'Inteligente',
+      'Activo',
+      'Territorial',
+    ],
     origin: 'Países Bajos', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'kOMy84GQE',
     image: {
@@ -5830,8 +6882,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Kooikerhondje', 'Perro mediano', 'Perro deportivo'],
     country_code: 'NL', // Añadido basándose en el origen conocido de la raza
-    description: 'El Kooikerhondje es una raza activa y ágil, conocida por su habilidad para atraer patos a las trampas. Son perros inteligentes y alertas, con una actitud benevolente y un fuerte sentido territorial.',
-    history: 'El Kooikerhondje es originario de los Países Bajos, donde se utilizaba para atraer patos a las trampas. Esta práctica, conocida como "tolling", ha sido un rasgo definitorio de esta raza.',
+    description:
+      'El Kooikerhondje es una raza activa y ágil, conocida por su habilidad para atraer patos a las trampas. Son perros inteligentes y alertas, con una actitud benevolente y un fuerte sentido territorial.',
+    history:
+      'El Kooikerhondje es originario de los Países Bajos, donde se utilizaba para atraer patos a las trampas. Esta práctica, conocida como "tolling", ha sido un rasgo definitorio de esta raza.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro deportivo con agilidad y energía',
@@ -5848,10 +6902,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Necesita estímulo mental debido a su inteligencia',
     ],
     popularidad: 'Moderada',
-    enfermedades_comunes: [
-      'Displasia de cadera',
-      'Enfermedades oculares',
-    ],
+    enfermedades_comunes: ['Displasia de cadera', 'Enfermedades oculares'],
   },
   101: {
     weight: {
@@ -5867,7 +6918,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Guardián', 'Caza de animales grandes'],
     breed_group: ['Trabajador'],
     life_span: '8 - 10 años',
-    temperament: ['Cómico', 'Leal', 'Paciente', 'Independiente', 'Inteligente', 'Protector'],
+    temperament: [
+      'Cómico',
+      'Leal',
+      'Paciente',
+      'Independiente',
+      'Inteligente',
+      'Protector',
+    ],
     origin: 'Hungría', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'BykZ7ecVX',
     image: {
@@ -5878,8 +6936,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Kuvasz', 'Perro grande', 'Perro de trabajo'],
     country_code: 'HU', // Añadido basándose en el origen conocido de la raza
-    description: 'El Kuvasz es una raza leal y protectora, conocida por su independencia y su inteligencia. Aunque pueden ser cómicos y pacientes, también son perros grandes y fuertes, capaces de cazar animales grandes y actuar como guardias.',
-    history: 'El Kuvasz es originario de Hungría, donde se criaba para ser un perro de caza y guardián. A pesar de su gran tamaño, el Kuvasz es conocido por su carácter cómico y su lealtad hacia sus dueños.',
+    description:
+      'El Kuvasz es una raza leal y protectora, conocida por su independencia y su inteligencia. Aunque pueden ser cómicos y pacientes, también son perros grandes y fuertes, capaces de cazar animales grandes y actuar como guardias.',
+    history:
+      'El Kuvasz es originario de Hungría, donde se criaba para ser un perro de caza y guardián. A pesar de su gran tamaño, el Kuvasz es conocido por su carácter cómico y su lealtad hacia sus dueños.',
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Excelente perro guardián',
@@ -5896,10 +6956,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Adecuado para climas más fríos debido a su pelaje grueso',
     ],
     popularidad: 'Moderada',
-    enfermedades_comunes: [
-      'Displasia de cadera',
-      'Enfermedades de la piel',
-    ],
+    enfermedades_comunes: ['Displasia de cadera', 'Enfermedades de la piel'],
   },
   102: {
     weight: {
@@ -5915,7 +6972,15 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Recuperación de agua'],
     breed_group: ['Deportivo'],
     life_span: '10 - 13 años',
-    temperament: ['Amable', 'Sociable', 'Ágil', 'Gentil', 'Inteligente', 'Confiable', 'Temperamento uniforme'],
+    temperament: [
+      'Amable',
+      'Sociable',
+      'Ágil',
+      'Gentil',
+      'Inteligente',
+      'Confiable',
+      'Temperamento uniforme',
+    ],
     origin: 'Reino Unido', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'B1uW7l5VX',
     image: {
@@ -5926,8 +6991,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Labrador Retriever', 'Perro mediano', 'Perro deportivo'],
     country_code: 'UK', // Añadido basándose en el origen conocido de la raza
-    description: 'El Labrador Retriever es una raza amable y sociable, conocida por su inteligencia y habilidad para recuperar objetos en el agua. Son perros gentiles y confiables, con un temperamento uniforme que los hace excelentes mascotas familiares.',
-    history: 'Originario del Reino Unido, el Labrador Retriever fue criado inicialmente para recuperar objetos en el agua. Su inteligencia, agilidad y temperamento uniforme los convierten en una opción popular para muchas familias y también se utilizan frecuentemente como perros guía y de servicio.',
+    description:
+      'El Labrador Retriever es una raza amable y sociable, conocida por su inteligencia y habilidad para recuperar objetos en el agua. Son perros gentiles y confiables, con un temperamento uniforme que los hace excelentes mascotas familiares.',
+    history:
+      'Originario del Reino Unido, el Labrador Retriever fue criado inicialmente para recuperar objetos en el agua. Su inteligencia, agilidad y temperamento uniforme los convierten en una opción popular para muchas familias y también se utilizan frecuentemente como perros guía y de servicio.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de familia',
@@ -5944,10 +7011,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Adecuado para vivir tanto en interiores como en exteriores, pero necesita espacio para correr',
     ],
     popularidad: 'Alta',
-    enfermedades_comunes: [
-      'Displasia de cadera',
-      'Problemas oculares',
-    ],
+    enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
   },
   103: {
     weight: {
@@ -5963,7 +7027,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Perro de recuperación de agua en los pantanos de Romagna'],
     breed_group: ['Deportivo'],
     life_span: '14 - 16 años',
-    temperament: ['Entusiasta', 'Leal', 'Sociable', 'Amoroso', 'Activo', 'Adiestrable'],
+    temperament: [
+      'Entusiasta',
+      'Leal',
+      'Sociable',
+      'Amoroso',
+      'Activo',
+      'Adiestrable',
+    ],
     origin: 'Italia', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'ryzzmgqE7',
     image: {
@@ -5974,8 +7045,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Lagotto Romagnolo', 'Perro mediano', 'Perro deportivo'],
     country_code: 'IT', // Añadido basándose en el origen conocido de la raza
-    description: 'El Lagotto Romagnolo es una raza entusiasta y leal, conocida por su habilidad para recuperar objetos en el agua. Son perros sociables y amorosos, con un temperamento activo y adiestrable que los hace excelentes mascotas familiares.',
-    history: 'Originario de Italia, el Lagotto Romagnolo fue criado inicialmente para recuperar objetos en los pantanos de Romagna. Su lealtad, sociabilidad y habilidad para ser adiestrados los convierten en una opción popular para muchas familias.',
+    description:
+      'El Lagotto Romagnolo es una raza entusiasta y leal, conocida por su habilidad para recuperar objetos en el agua. Son perros sociables y amorosos, con un temperamento activo y adiestrable que los hace excelentes mascotas familiares.',
+    history:
+      'Originario de Italia, el Lagotto Romagnolo fue criado inicialmente para recuperar objetos en los pantanos de Romagna. Su lealtad, sociabilidad y habilidad para ser adiestrados los convierten en una opción popular para muchas familias.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Perro de familia entusiasta y amoroso',
@@ -5992,10 +7065,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Adecuado para vivir tanto en interiores como en exteriores, pero necesita espacio para correr',
     ],
     popularidad: 'Moderada',
-    enfermedades_comunes: [
-      'Displasia de cadera',
-      'Enfermedades de la piel',
-    ],
+    enfermedades_comunes: ['Displasia de cadera', 'Enfermedades de la piel'],
   },
   104: {
     weight: {
@@ -6008,7 +7078,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     id: 104,
     name: 'Lancashire Heeler',
-    bred_for: ['Pastoreo de ganado', 'Caza de ratas', 'Conducción de ganado al mercado'],
+    bred_for: [
+      'Pastoreo de ganado',
+      'Caza de ratas',
+      'Conducción de ganado al mercado',
+    ],
     breed_group: ['Grupo de trabajo'], // Añadido basándose en las características de la raza
     life_span: '12 – 15 años',
     temperament: ['Astuto', 'Amigable', 'Alerta', 'Inteligente'],
@@ -6022,8 +7096,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Lancashire Heeler', 'Perro pequeño', 'Perro de trabajo'],
     country_code: 'UK', // Añadido basándose en el origen conocido de la raza
-    description: 'El Lancashire Heeler es una raza inteligente y amigable, conocida por su astucia y alerta. Son perros trabajadores y hacen un excelente trabajo en el pastoreo de ganado, caza de ratas y conducción de ganado al mercado.',
-    history: 'Originario del Reino Unido, el Lancashire Heeler se utilizaba tradicionalmente para el pastoreo de ganado y para llevar al ganado al mercado. Su inteligencia y alerta los hacen ideales para este tipo de trabajo.',
+    description:
+      'El Lancashire Heeler es una raza inteligente y amigable, conocida por su astucia y alerta. Son perros trabajadores y hacen un excelente trabajo en el pastoreo de ganado, caza de ratas y conducción de ganado al mercado.',
+    history:
+      'Originario del Reino Unido, el Lancashire Heeler se utilizaba tradicionalmente para el pastoreo de ganado y para llevar al ganado al mercado. Su inteligencia y alerta los hacen ideales para este tipo de trabajo.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Perro trabajador inteligente y amigable',
@@ -6040,10 +7116,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Necesita una dieta equilibrada y controlada debido a su alta actividad física',
     ],
     popularidad: 'Moderada',
-    enfermedades_comunes: [
-      'Displasia de cadera',
-      'Problemas oculares',
-    ],
+    enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
   },
   105: {
     weight: {
@@ -6059,7 +7132,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Guardián', 'Apariencia'],
     breed_group: ['Trabajo'],
     life_span: '6 - 8 años',
-    temperament: ['Obediente', 'Valiente', 'Leal', 'Sociable', 'Adaptable', 'Amoroso'],
+    temperament: [
+      'Obediente',
+      'Valiente',
+      'Leal',
+      'Sociable',
+      'Adaptable',
+      'Amoroso',
+    ],
     origin: 'Alemania', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'ByrmQlqVm',
     image: {
@@ -6070,8 +7150,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Leonberger', 'Perro grande', 'Perro de trabajo'],
     country_code: 'DE', // Añadido basándose en el origen conocido de la raza
-    description: 'El Leonberger es una raza de perro grande y fuerte, conocida por su temperamento obediente, valiente y amoroso. Son perros de trabajo, excelentes guardianes y son apreciados por su hermosa apariencia.',
-    history: 'Originario de Alemania, el Leonberger se crió para ser un perro guardián. Con su apariencia imponente y su lealtad hacia su familia, ha ganado popularidad en todo el mundo.',
+    description:
+      'El Leonberger es una raza de perro grande y fuerte, conocida por su temperamento obediente, valiente y amoroso. Son perros de trabajo, excelentes guardianes y son apreciados por su hermosa apariencia.',
+    history:
+      'Originario de Alemania, el Leonberger se crió para ser un perro guardián. Con su apariencia imponente y su lealtad hacia su familia, ha ganado popularidad en todo el mundo.',
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Perro de trabajo leal y obediente',
@@ -6089,10 +7171,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Requiere un cuidado regular del pelaje',
     ],
     popularidad: 'Moderada',
-    enfermedades_comunes: [
-      'Displasia de cadera',
-      'Displasia de codo',
-    ],
+    enfermedades_comunes: ['Displasia de cadera', 'Displasia de codo'],
   },
   106: {
     weight: {
@@ -6109,8 +7188,18 @@ export const DOG_LIST: { [key: number]: Dog } = {
     breed_group: ['No deportivo'],
     life_span: '12 - 15 años',
     temperament: [
-      'Estable', 'Intrépido', 'Amigable', 'Devoto', 'Asertivo',
-      'Animado', 'Energético', 'Vivaz', 'Alerta', 'Obediente', 'Juguetón', 'Inteligente'
+      'Estable',
+      'Intrépido',
+      'Amigable',
+      'Devoto',
+      'Asertivo',
+      'Animado',
+      'Energético',
+      'Vivaz',
+      'Alerta',
+      'Obediente',
+      'Juguetón',
+      'Inteligente',
     ],
     origin: 'Tíbet', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'SJp7Qe5EX',
@@ -6122,8 +7211,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Lhasa Apso', 'Perro pequeño', 'Perro de compañía'],
     country_code: 'CN', // Añadido basándose en el origen conocido de la raza
-    description: 'El Lhasa Apso es una pequeña raza de perro conocida por su carácter amigable, devoto y juguetón. Su papel tradicional es ser un perro guardián en el hogar, y son perros llenos de energía y vivacidad.',
-    history: 'Originario del Tíbet, el Lhasa Apso fue criado para ser un perro guardián en los monasterios y los hogares. Es una raza antigua y venerada, y sigue siendo un popular perro de compañía en todo el mundo.',
+    description:
+      'El Lhasa Apso es una pequeña raza de perro conocida por su carácter amigable, devoto y juguetón. Su papel tradicional es ser un perro guardián en el hogar, y son perros llenos de energía y vivacidad.',
+    history:
+      'Originario del Tíbet, el Lhasa Apso fue criado para ser un perro guardián en los monasterios y los hogares. Es una raza antigua y venerada, y sigue siendo un popular perro de compañía en todo el mundo.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Buen perro guardián en el hogar',
@@ -6160,8 +7251,17 @@ export const DOG_LIST: { [key: number]: Dog } = {
     breed_group: ['Juguete'],
     life_span: '15 - 18 años',
     temperament: [
-      'Juguetón', 'Dócil', 'Intrépido', 'Cariñoso', 'De buen carácter',
-      'Vivaz', 'Receptivo', 'Tranquilo', 'Gentil', 'Inteligente', 'Activo'
+      'Juguetón',
+      'Dócil',
+      'Intrépido',
+      'Cariñoso',
+      'De buen carácter',
+      'Vivaz',
+      'Receptivo',
+      'Tranquilo',
+      'Gentil',
+      'Inteligente',
+      'Activo',
     ],
     origin: 'Mediterráneo Central', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'B1SV7gqN7',
@@ -6173,14 +7273,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Maltés', 'Perro pequeño', 'Perro de regazo'],
     country_code: 'MT', // Añadido basándose en el origen conocido de la raza
-    description: 'El maltés es una pequeña raza de perro conocida por su pelaje blanco y lujoso. Son perros juguetones y cariñosos, conocidos por ser excelentes perros de regazo.',
-    history: 'Los malteses son una de las razas más antiguas, con una historia que se remonta a más de 2000 años. Originarios del Mediterráneo central, eran valorados por su compañía y se consideraban un signo de estatus y lujo.',
+    description:
+      'El maltés es una pequeña raza de perro conocida por su pelaje blanco y lujoso. Son perros juguetones y cariñosos, conocidos por ser excelentes perros de regazo.',
+    history:
+      'Los malteses son una de las razas más antiguas, con una historia que se remonta a más de 2000 años. Originarios del Mediterráneo central, eran valorados por su compañía y se consideraban un signo de estatus y lujo.',
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Buen perro de regazo',
       'Excelente como perro de compañía',
       'Se adapta bien a la vida en apartamentos',
-      'Requiere cuidado regular del pelaje'
+      'Requiere cuidado regular del pelaje',
     ],
     color: ['Blanco'], // Añadido basándose en el color conocido de la raza
     nivel_de_energia: 'Moderado',
@@ -6192,10 +7294,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Requiere socialización y entrenamiento temprano',
     ],
     popularidad: 'Alta',
-    enfermedades_comunes: [
-      'Problemas dentales',
-      'Luxación de la rótula',
-    ],
+    enfermedades_comunes: ['Problemas dentales', 'Luxación de la rótula'],
   },
   108: {
     weight: {
@@ -6220,16 +7319,22 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 640,
       url: 'https://cdn2.thedogapi.com/images/BkHHQgcN7.jpg',
     },
-    searchTerms: ['Pastor Americano Miniatura', 'Perro pastor', 'Perro inteligente'],
+    searchTerms: [
+      'Pastor Americano Miniatura',
+      'Perro pastor',
+      'Perro inteligente',
+    ],
     country_code: 'US', // Añadido basándose en el origen conocido de la raza
-    description: 'El Pastor Americano Miniatura es una raza de perro de pastoreo activa y enérgica. Son inteligentes y fáciles de entrenar, lo que los hace excelentes perros de trabajo y compañía.',
-    history: 'El Pastor Americano Miniatura se originó en los Estados Unidos en la década de 1980 como una versión más pequeña del Pastor Australiano. Se crían para el pastoreo y todavía son muy valorados por sus habilidades de trabajo.',
+    description:
+      'El Pastor Americano Miniatura es una raza de perro de pastoreo activa y enérgica. Son inteligentes y fáciles de entrenar, lo que los hace excelentes perros de trabajo y compañía.',
+    history:
+      'El Pastor Americano Miniatura se originó en los Estados Unidos en la década de 1980 como una versión más pequeña del Pastor Australiano. Se crían para el pastoreo y todavía son muy valorados por sus habilidades de trabajo.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Perro de pastoreo',
       'Fácil de entrenar',
       'Inteligente',
-      'Necesita ejercicio regular'
+      'Necesita ejercicio regular',
     ],
     color: ['Negro', 'Azul merle', 'Rojo merle'], // Añadido basándose en los colores comunes de la raza
     nivel_de_energia: 'Alto',
@@ -6239,13 +7344,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     necesidades_especiales: [
       'Requiere ejercicio regular',
       'Requiere estimulación mental',
-      'Puede requerir entrenamiento de pastoreo'
+      'Puede requerir entrenamiento de pastoreo',
     ],
     popularidad: 'Moderada',
-    enfermedades_comunes: [
-      'Displasia de cadera',
-      'Problemas oculares',
-    ],
+    enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
   },
   109: {
     weight: {
@@ -6261,7 +7363,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza de pequeñas plagas'],
     breed_group: ['Juguete'],
     life_span: '15 años',
-    temperament: ['Inteligente', 'Extrovertido', 'Amigable', 'Energético', 'Receptivo', 'Juguetón'],
+    temperament: [
+      'Inteligente',
+      'Extrovertido',
+      'Amigable',
+      'Energético',
+      'Receptivo',
+      'Juguetón',
+    ],
     origin: 'Alemania', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'Hy3H7g94X',
     image: {
@@ -6272,15 +7381,17 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Pinscher Miniatura', 'Perro juguete', 'Perro inteligente'],
     country_code: 'DE', // Añadido basándose en el origen conocido de la raza
-    description: 'El Pinscher Miniatura es una raza de perro pequeña y enérgica. Son inteligentes, juguetones y amigables, lo que los hace excelentes compañeros de familia y mascotas.',
-    history: 'El Pinscher Miniatura se originó en Alemania para cazar pequeñas plagas. A pesar de su tamaño pequeño, son valientes y tienen un gran instinto de caza.',
+    description:
+      'El Pinscher Miniatura es una raza de perro pequeña y enérgica. Son inteligentes, juguetones y amigables, lo que los hace excelentes compañeros de familia y mascotas.',
+    history:
+      'El Pinscher Miniatura se originó en Alemania para cazar pequeñas plagas. A pesar de su tamaño pequeño, son valientes y tienen un gran instinto de caza.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno para familias',
       'Bueno para apartamentos',
       'Inteligente',
       'Energético',
-      'Juguetón'
+      'Juguetón',
     ],
     color: ['Negro', 'Marrón', 'Chocolate'], // Añadido basándose en los colores comunes de la raza
     nivel_de_energia: 'Alto',
@@ -6292,10 +7403,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Requiere estimulación mental',
     ],
     popularidad: 'Alta',
-    enfermedades_comunes: [
-      'Problemas dentales',
-      'Luxación de rótula',
-    ],
+    enfermedades_comunes: ['Problemas dentales', 'Luxación de rótula'],
   },
   110: {
     weight: {
@@ -6311,7 +7419,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza de ratas'],
     breed_group: ['Terrier'],
     life_span: '12 - 14 años',
-    temperament: ['Intrépido', 'Amigable', 'Enérgico', 'Alerta', 'Obediente', 'Inteligente'],
+    temperament: [
+      'Intrépido',
+      'Amigable',
+      'Enérgico',
+      'Alerta',
+      'Obediente',
+      'Inteligente',
+    ],
     origin: 'Alemania', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'SJIUQl9NX',
     image: {
@@ -6322,15 +7437,17 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Schnauzer Miniatura', 'Perro terrier', 'Perro inteligente'],
     country_code: 'DE', // Añadido basándose en el origen conocido de la raza
-    description: 'El Schnauzer Miniatura es una raza de perro pequeña y enérgica. Son inteligentes, obedientes y amigables, lo que los hace excelentes compañeros de familia y mascotas.',
-    history: 'El Schnauzer Miniatura se originó en Alemania para la caza de ratas. A pesar de su tamaño pequeño, son valientes y tienen un gran instinto de caza.',
+    description:
+      'El Schnauzer Miniatura es una raza de perro pequeña y enérgica. Son inteligentes, obedientes y amigables, lo que los hace excelentes compañeros de familia y mascotas.',
+    history:
+      'El Schnauzer Miniatura se originó en Alemania para la caza de ratas. A pesar de su tamaño pequeño, son valientes y tienen un gran instinto de caza.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno para familias',
       'Bueno para apartamentos',
       'Inteligente',
       'Enérgico',
-      'Obediente'
+      'Obediente',
     ],
     color: ['Negro', 'Plata', 'Sal y pimienta'], // Añadido basándose en los colores comunes de la raza
     nivel_de_energia: 'Alto',
@@ -6342,10 +7459,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Requiere estimulación mental',
     ],
     popularidad: 'Alta',
-    enfermedades_comunes: [
-      'Problemas dentales',
-      'Problemas oculares',
-    ],
+    enfermedades_comunes: ['Problemas dentales', 'Problemas oculares'],
   },
   111: {
     weight: {
@@ -6372,14 +7486,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Terranova', 'Perro de trabajo', 'Perro entrenable'],
     country_code: 'CA', // Añadido basándose en el origen conocido de la raza
-    description: 'Los perros de la raza Terranova son conocidos por su buen carácter, amabilidad y capacidad de entrenamiento. Son excelentes perros de trabajo, especialmente en agua.',
-    history: 'El Terranova se originó en Canadá como perro de agua multipropósito y asistente en pesca. Son famosos por su fuerza y su capacidad para nadar.',
+    description:
+      'Los perros de la raza Terranova son conocidos por su buen carácter, amabilidad y capacidad de entrenamiento. Son excelentes perros de trabajo, especialmente en agua.',
+    history:
+      'El Terranova se originó en Canadá como perro de agua multipropósito y asistente en pesca. Son famosos por su fuerza y su capacidad para nadar.',
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Buen nadador',
       'Amigable con los niños',
       'Bueno para rescate acuático',
-      'Fácil de entrenar'
+      'Fácil de entrenar',
     ],
     color: ['Negro', 'Marrón', 'Landseer'], // Añadido basándose en los colores comunes de la raza
     nivel_de_energia: 'Moderado',
@@ -6392,10 +7508,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Necesita natación regular',
     ],
     popularidad: 'Moderada',
-    enfermedades_comunes: [
-      'Displasia de cadera',
-      'Problemas cardíacos',
-    ],
+    enfermedades_comunes: ['Displasia de cadera', 'Problemas cardíacos'],
   },
   112: {
     weight: {
@@ -6411,7 +7524,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza de ratas', 'Salida de zorros'],
     breed_group: ['Terrier'],
     life_span: '12 - 15 años',
-    temperament: ['Seguro de sí mismo', 'Intrépido', 'Animado', 'Sociable', 'Feliz', 'Adorable'],
+    temperament: [
+      'Seguro de sí mismo',
+      'Intrépido',
+      'Animado',
+      'Sociable',
+      'Feliz',
+      'Adorable',
+    ],
     origin: 'Reino Unido', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'B1ADQg94X',
     image: {
@@ -6420,16 +7540,23 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1092,
       url: 'https://cdn2.thedogapi.com/images/B1ADQg94X.jpg',
     },
-    searchTerms: ['Norfolk Terrier', 'Terrier', 'Caza de ratas', 'Salida de zorros'],
+    searchTerms: [
+      'Norfolk Terrier',
+      'Terrier',
+      'Caza de ratas',
+      'Salida de zorros',
+    ],
     country_code: 'GB', // Añadido basándose en el origen conocido de la raza
-    description: 'Los Norfolk Terrier son perros seguros de sí mismos, intrépidos y animados. Son perros pequeños, pero tienen un espíritu valiente y son conocidos por su habilidad para la caza de ratas y la salida de zorros.',
-    history: 'El Norfolk Terrier se originó en el Reino Unido y fue criado principalmente para la caza de ratas y la salida de zorros. A pesar de su pequeño tamaño, es valiente y tiene un temperamento animado.',
+    description:
+      'Los Norfolk Terrier son perros seguros de sí mismos, intrépidos y animados. Son perros pequeños, pero tienen un espíritu valiente y son conocidos por su habilidad para la caza de ratas y la salida de zorros.',
+    history:
+      'El Norfolk Terrier se originó en el Reino Unido y fue criado principalmente para la caza de ratas y la salida de zorros. A pesar de su pequeño tamaño, es valiente y tiene un temperamento animado.',
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Bueno para familias',
       'Bueno para la vida en la ciudad',
       'Requiere poco mantenimiento del pelaje',
-      'Energético y juguetón'
+      'Energético y juguetón',
     ],
     color: ['Rojo', 'Negro y tostado', 'Grisáceo'], // Añadido basándose en los colores comunes de la raza
     nivel_de_energia: 'Alto',
@@ -6442,10 +7569,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Requiere estimulación mental',
     ],
     popularidad: 'Moderada',
-    enfermedades_comunes: [
-      'Problemas dentales',
-      'Problemas cardíacos',
-    ],
+    enfermedades_comunes: ['Problemas dentales', 'Problemas cardíacos'],
   },
   113: {
     weight: {
@@ -6461,7 +7585,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza de ratas', 'Caza de zorros'],
     breed_group: ['Terrier'],
     life_span: '12 - 15 años',
-    temperament: ['Resistente', 'Cariñoso', 'Energético', 'Sensible', 'Inteligente'],
+    temperament: [
+      'Resistente',
+      'Cariñoso',
+      'Energético',
+      'Sensible',
+      'Inteligente',
+    ],
     origin: 'Reino Unido', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'BkgKXlqE7',
     image: {
@@ -6470,16 +7600,23 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 640,
       url: 'https://cdn2.thedogapi.com/images/BkgKXlqE7.jpg',
     },
-    searchTerms: ['Terrier de Norwich', 'Terrier', 'Caza de ratas', 'Caza de zorros'],
+    searchTerms: [
+      'Terrier de Norwich',
+      'Terrier',
+      'Caza de ratas',
+      'Caza de zorros',
+    ],
     country_code: 'GB', // Añadido basándose en el origen conocido de la raza
-    description: 'El Terrier de Norwich es conocido por ser resistente, cariñoso, energético, sensible e inteligente. A pesar de su pequeño tamaño, es un excelente cazador y puede ser un maravilloso compañero de hogar.',
-    history: 'El Terrier de Norwich se originó en el Reino Unido y fue criado principalmente para la caza de ratas y zorros. A pesar de su pequeño tamaño, es resistente y tiene un temperamento cariñoso y enérgico.',
+    description:
+      'El Terrier de Norwich es conocido por ser resistente, cariñoso, energético, sensible e inteligente. A pesar de su pequeño tamaño, es un excelente cazador y puede ser un maravilloso compañero de hogar.',
+    history:
+      'El Terrier de Norwich se originó en el Reino Unido y fue criado principalmente para la caza de ratas y zorros. A pesar de su pequeño tamaño, es resistente y tiene un temperamento cariñoso y enérgico.',
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Bueno para familias',
       'Bueno para la vida en la ciudad',
       'Requiere poco mantenimiento del pelaje',
-      'Energético y juguetón'
+      'Energético y juguetón',
     ],
     color: ['Rojo', 'Negro y tostado', 'Grisáceo'], // Añadido basándose en los colores comunes de la raza
     nivel_de_energia: 'Alto',
@@ -6492,10 +7629,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Requiere estimulación mental',
     ],
     popularidad: 'Moderada',
-    enfermedades_comunes: [
-      'Problemas dentales',
-      'Problemas cardíacos',
-    ],
+    enfermedades_comunes: ['Problemas dentales', 'Problemas cardíacos'],
   },
   114: {
     weight: {
@@ -6511,7 +7645,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Recuperación de aves acuáticas'], // Añadido basándose en el propósito conocido de la raza
     breed_group: ['Deportivo'],
     life_span: '12 - 14 años',
-    temperament: ['Extrovertido', 'Alerta', 'Paciente', 'Inteligente', 'Amoroso'],
+    temperament: [
+      'Extrovertido',
+      'Alerta',
+      'Paciente',
+      'Inteligente',
+      'Amoroso',
+    ],
     origin: 'Canadá', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'SyYtQe5V7',
     image: {
@@ -6520,16 +7660,22 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 420,
       url: 'https://cdn2.thedogapi.com/images/SyYtQe5V7.jpg',
     },
-    searchTerms: ['Retriever de Nueva Escocia', 'Deportivo', 'Recuperación de aves acuáticas'],
+    searchTerms: [
+      'Retriever de Nueva Escocia',
+      'Deportivo',
+      'Recuperación de aves acuáticas',
+    ],
     country_code: 'CA', // Añadido basándose en el origen conocido de la raza
-    description: 'El Retriever de Nueva Escocia es una raza de perro extrovertida, alerta, paciente, inteligente y amorosa. Son conocidos por su habilidad para recuperar aves acuáticas y su amor por el agua.',
-    history: 'Originario de Canadá, el Retriever de Nueva Escocia se utilizó originalmente para recuperar aves acuáticas en la caza. A pesar de su tamaño medio, son fuertes nadadores y tienen una gran resistencia.',
+    description:
+      'El Retriever de Nueva Escocia es una raza de perro extrovertida, alerta, paciente, inteligente y amorosa. Son conocidos por su habilidad para recuperar aves acuáticas y su amor por el agua.',
+    history:
+      'Originario de Canadá, el Retriever de Nueva Escocia se utilizó originalmente para recuperar aves acuáticas en la caza. A pesar de su tamaño medio, son fuertes nadadores y tienen una gran resistencia.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Bueno para familias',
       'Bueno para la vida en el campo',
       'Requiere ejercicio regular',
-      'Ama el agua'
+      'Ama el agua',
     ],
     color: ['Rojo', 'Naranja'], // Añadido basándose en los colores comunes de la raza
     nivel_de_energia: 'Alto',
@@ -6542,10 +7688,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Requiere estimulación mental',
     ],
     popularidad: 'Moderada',
-    enfermedades_comunes: [
-      'Displasia de cadera',
-      'Problemas oculares',
-    ],
+    enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
   },
   115: {
     weight: {
@@ -6561,7 +7704,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Manejo de ovejas', 'Manejo de ganado'],
     breed_group: ['Pastoreo'],
     life_span: '10 - 12 años',
-    temperament: ['Sociable', 'Efervescente', 'Juguetón', 'Adaptable', 'Inteligente', 'Amoroso'],
+    temperament: [
+      'Sociable',
+      'Efervescente',
+      'Juguetón',
+      'Adaptable',
+      'Inteligente',
+      'Amoroso',
+    ],
     origin: 'Inglaterra', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'HkZ57lq4m',
     image: {
@@ -6570,16 +7720,23 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 889,
       url: 'https://cdn2.thedogapi.com/images/HkZ57lq4m.jpg',
     },
-    searchTerms: ['Pastor Inglés Antiguo', 'Pastoreo', 'Manejo de ovejas', 'Manejo de ganado'],
+    searchTerms: [
+      'Pastor Inglés Antiguo',
+      'Pastoreo',
+      'Manejo de ovejas',
+      'Manejo de ganado',
+    ],
     country_code: 'GB', // Añadido basándose en el origen conocido de la raza
-    description: 'El Pastor Inglés Antiguo es un perro sociable, efervescente, juguetón, adaptable, inteligente y amoroso. Es conocido por su habilidad para manejar ovejas y ganado.',
-    history: 'El Pastor Inglés Antiguo es originario de Inglaterra, donde se utilizó principalmente para manejar ovejas y ganado. Con su pelaje largo y abundante, este perro robusto y fuerte es un trabajador nato.',
+    description:
+      'El Pastor Inglés Antiguo es un perro sociable, efervescente, juguetón, adaptable, inteligente y amoroso. Es conocido por su habilidad para manejar ovejas y ganado.',
+    history:
+      'El Pastor Inglés Antiguo es originario de Inglaterra, donde se utilizó principalmente para manejar ovejas y ganado. Con su pelaje largo y abundante, este perro robusto y fuerte es un trabajador nato.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Bueno para familias',
       'Se adapta bien a la vida en el campo o en la ciudad',
       'Requiere ejercicio regular',
-      'Requiere cuidado regular del pelaje'
+      'Requiere cuidado regular del pelaje',
     ],
     color: ['Gris', 'Azul', 'Blanco'], // Añadido basándose en los colores comunes de la raza
     nivel_de_energia: 'Alto',
@@ -6613,7 +7770,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Guardia', 'Compañía'], // Datos suplementarios, ya que esta raza es conocida por ser una excelente mascota y guardián
     breed_group: ['Molosoide'], // Grupo de razas al que pertenece
     life_span: '9 – 14 años',
-    temperament: ['Amigable', 'Alerta', 'Confiado', 'Amoroso', 'Valiente', 'Fuerte'],
+    temperament: [
+      'Amigable',
+      'Alerta',
+      'Confiado',
+      'Amoroso',
+      'Valiente',
+      'Fuerte',
+    ],
     origin: 'Inglaterra', // Añadido basándose en el origen conocido de la raza
     reference_image_id: 'B1d5me547',
     image: {
@@ -6624,8 +7788,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Antiguo Bulldog Inglés', 'Molosoide', 'Guardia', 'Compañía'],
     country_code: 'GB', // Añadido basándose en el origen conocido de la raza
-    description: 'El Antiguo Bulldog Inglés es un perro amigable, alerta, confiado, amoroso, valiente y fuerte. Es conocido por su lealtad y su aptitud como mascota de familia.',
-    history: 'El Antiguo Bulldog Inglés es una reinvención de la raza original del Bulldog Inglés que fue criada para ser más saludable y tener un temperamento más estable.',
+    description:
+      'El Antiguo Bulldog Inglés es un perro amigable, alerta, confiado, amoroso, valiente y fuerte. Es conocido por su lealtad y su aptitud como mascota de familia.',
+    history:
+      'El Antiguo Bulldog Inglés es una reinvención de la raza original del Bulldog Inglés que fue criada para ser más saludable y tener un temperamento más estable.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro guardián',
@@ -6664,7 +7830,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Perro faldero'],
     breed_group: ['Juguete'], // Traducido al español
     life_span: '13 - 17 años',
-    temperament: ['Resistente', 'Amigable', 'Energético', 'Alerta', 'Inteligente', 'Feliz'],
+    temperament: [
+      'Resistente',
+      'Amigable',
+      'Energético',
+      'Alerta',
+      'Inteligente',
+      'Feliz',
+    ],
     origin: 'Francia', // Origen conocido de la raza
     reference_image_id: 'SkJj7e547',
     image: {
@@ -6675,8 +7848,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Papillón', 'Perro faldero', 'Juguete'],
     country_code: 'FR', // Código de país basado en el origen conocido de la raza
-    description: 'El Papillón es un perro resistente, amigable, energético, alerta, inteligente y feliz. A pesar de su tamaño pequeño, es conocido por su resistencia y su energía.',
-    history: 'El Papillón, también conocido como el Spaniel de Mariposa, es una de las razas de perros de juguete más antiguas de Europa. Su nombre, que significa "mariposa" en francés, se refiere a sus distintivas orejas peludas que se asemejan a las alas de una mariposa.',
+    description:
+      'El Papillón es un perro resistente, amigable, energético, alerta, inteligente y feliz. A pesar de su tamaño pequeño, es conocido por su resistencia y su energía.',
+    history:
+      'El Papillón, también conocido como el Spaniel de Mariposa, es una de las razas de perros de juguete más antiguas de Europa. Su nombre, que significa "mariposa" en francés, se refiere a sus distintivas orejas peludas que se asemejan a las alas de una mariposa.',
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Excelente perro de compañía',
@@ -6715,7 +7890,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Perro faldero'],
     breed_group: ['Juguete'], // Traducido al español
     life_span: '14 - 18 años',
-    temperament: ['Opinativo', 'De buen carácter', 'Terco', 'Cariñoso', 'Agresivo', 'Inteligente'],
+    temperament: [
+      'Opinativo',
+      'De buen carácter',
+      'Terco',
+      'Cariñoso',
+      'Agresivo',
+      'Inteligente',
+    ],
     origin: 'China', // Origen conocido de la raza
     reference_image_id: 'ByIiml9Nm',
     image: {
@@ -6726,8 +7908,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Pekinés', 'Perro faldero', 'Juguete'],
     country_code: 'CN', // Código de país basado en el origen conocido de la raza
-    description: 'El Pekinés es un perro opinativo, de buen carácter, terco, cariñoso, agresivo e inteligente. Son conocidos por su pequeño tamaño y su actitud fuerte y decidida.',
-    history: 'El Pekinés es una raza antigua de juguete que se originó en China. Fueron los perros de la realeza y se consideraban un tesoro nacional. Su diseño y personalidad reflejan su estatus real.',
+    description:
+      'El Pekinés es un perro opinativo, de buen carácter, terco, cariñoso, agresivo e inteligente. Son conocidos por su pequeño tamaño y su actitud fuerte y decidida.',
+    history:
+      'El Pekinés es una raza antigua de juguete que se originó en China. Fueron los perros de la realeza y se consideraban un tesoro nacional. Su diseño y personalidad reflejan su estatus real.',
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Bueno para la vida en apartamentos',
@@ -6764,7 +7948,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Conducción de ganado al mercado en el norte de Gales'],
     breed_group: ['Pastoreo'], // Traducido al español
     life_span: '12 - 14 años',
-    temperament: ['Tenaz', 'Extrovertido', 'Amigable', 'Audaz', 'Juguetón', 'Protector'],
+    temperament: [
+      'Tenaz',
+      'Extrovertido',
+      'Amigable',
+      'Audaz',
+      'Juguetón',
+      'Protector',
+    ],
     origin: 'Gales', // Origen conocido de la raza
     reference_image_id: 'rJ6iQeqEm',
     image: {
@@ -6775,8 +7966,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Corgi Galés de Pembroke', 'Perro de pastoreo', 'Corgi'],
     country_code: 'GB', // Código de país basado en el origen conocido de la raza
-    description: 'El Corgi Galés de Pembroke es un perro tenaz, extrovertido, amigable, audaz, juguetón y protector. Son conocidos por su pequeño tamaño y su actitud decidida.',
-    history: 'El Corgi Galés de Pembroke es una raza que se originó en Gales, Reino Unido. Fueron utilizados para conducir ganado al mercado. Son perros de pastoreo eficientes y activos, a pesar de su pequeño tamaño.',
+    description:
+      'El Corgi Galés de Pembroke es un perro tenaz, extrovertido, amigable, audaz, juguetón y protector. Son conocidos por su pequeño tamaño y su actitud decidida.',
+    history:
+      'El Corgi Galés de Pembroke es una raza que se originó en Gales, Reino Unido. Fueron utilizados para conducir ganado al mercado. Son perros de pastoreo eficientes y activos, a pesar de su pequeño tamaño.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno para familias activas',
@@ -6813,7 +8006,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Trabajo de guarda y protección', 'Perro de ganado'], // Añadido basado en el conocimiento común de la raza
     breed_group: ['Trabajo'],
     life_span: '10 - 12 años',
-    temperament: ['Fuerte Voluntad', 'Sospechoso', 'Amable', 'Dominante', 'Calmado'],
+    temperament: [
+      'Fuerte Voluntad',
+      'Sospechoso',
+      'Amable',
+      'Dominante',
+      'Calmado',
+    ],
     origin: 'Islas Canarias', // Origen conocido de la raza
     reference_image_id: 'S1V3Qeq4X',
     image: {
@@ -6822,10 +8021,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 483,
       url: 'https://cdn2.thedogapi.com/images/S1V3Qeq4X.jpg',
     },
-    searchTerms: ['Perro de Presa Canario', 'Perro de Trabajo', 'Perro Guardián'],
+    searchTerms: [
+      'Perro de Presa Canario',
+      'Perro de Trabajo',
+      'Perro Guardián',
+    ],
     country_code: 'ES', // Código de país basado en el origen conocido de la raza
-    description: 'El Perro de Presa Canario es una raza fuerte y dominante, conocida por su voluntad y su temperamento calmado. Son perros grandes y potentes, ideales para el trabajo de protección y como perros de ganado.',
-    history: 'El Perro de Presa Canario se originó en las Islas Canarias, donde se utilizaba para trabajar con el ganado y como perro guardián. Son conocidos por su fuerza y coraje, y son muy apreciados en su tierra natal.',
+    description:
+      'El Perro de Presa Canario es una raza fuerte y dominante, conocida por su voluntad y su temperamento calmado. Son perros grandes y potentes, ideales para el trabajo de protección y como perros de ganado.',
+    history:
+      'El Perro de Presa Canario se originó en las Islas Canarias, donde se utilizaba para trabajar con el ganado y como perro guardián. Son conocidos por su fuerza y coraje, y son muy apreciados en su tierra natal.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente guardián y protector',
@@ -6862,7 +8067,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza de conejos'],
     breed_group: ['Sabueso'],
     life_span: '12 - 14 años',
-    temperament: ['Cariñoso', 'Sociable', 'Juguetón', 'Inteligente', 'Activo', 'Entrenable'],
+    temperament: [
+      'Cariñoso',
+      'Sociable',
+      'Juguetón',
+      'Inteligente',
+      'Activo',
+      'Entrenable',
+    ],
     origin: 'Egipto', // Origen conocido de la raza
     reference_image_id: 'Byz6mgqEQ',
     image: {
@@ -6873,8 +8085,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Perro del Faraón', 'Sabueso', 'Caza de Conejos'],
     country_code: 'EG', // Código de país basado en el origen conocido de la raza
-    description: 'El Perro del Faraón es una raza activa y juguetona, conocida por su inteligencia y su facilidad de entrenamiento. Son perros cariñosos y sociables que adoran la compañía de sus dueños.',
-    history: 'El Perro del Faraón se originó en Egipto, donde se usaba para la caza de conejos. Son conocidos por su velocidad y agilidad, así como por su instinto de caza agudo.',
+    description:
+      'El Perro del Faraón es una raza activa y juguetona, conocida por su inteligencia y su facilidad de entrenamiento. Son perros cariñosos y sociables que adoran la compañía de sus dueños.',
+    history:
+      'El Perro del Faraón se originó en Egipto, donde se usaba para la caza de conejos. Son conocidos por su velocidad y agilidad, así como por su instinto de caza agudo.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente para la caza y el seguimiento',
@@ -6922,8 +8136,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Plott', 'Sabueso', 'Caza de jabalí'],
     country_code: 'US', // Código de país basado en el origen conocido de la raza
-    description: 'El Plott es una raza de perro audaz y alerta, conocida por su lealtad e inteligencia. Son excelentes cazadores de grandes animales como el jabalí y necesitan un dueño que pueda proporcionarles suficiente ejercicio físico y mental.',
-    history: 'El Plott se originó en Estados Unidos, donde se usaba principalmente para la caza de grandes animales como el jabalí. Esta raza fue criada para ser valiente, leal e inteligente, características que aún conserva hoy en día.',
+    description:
+      'El Plott es una raza de perro audaz y alerta, conocida por su lealtad e inteligencia. Son excelentes cazadores de grandes animales como el jabalí y necesitan un dueño que pueda proporcionarles suficiente ejercicio físico y mental.',
+    history:
+      'El Plott se originó en Estados Unidos, donde se usaba principalmente para la caza de grandes animales como el jabalí. Esta raza fue criada para ser valiente, leal e inteligente, características que aún conserva hoy en día.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente para la caza y el seguimiento de grandes animales',
@@ -6960,7 +8176,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Compañía'],
     breed_group: ['Juguete'],
     life_span: '15 años',
-    temperament: ['Extrovertido', 'Amigable', 'Sociable', 'Juguetón', 'Inteligente', 'Activo'],
+    temperament: [
+      'Extrovertido',
+      'Amigable',
+      'Sociable',
+      'Juguetón',
+      'Inteligente',
+      'Activo',
+    ],
     origin: 'Alemania', // Origen conocido de la raza
     reference_image_id: 'HJd0XecNX',
     image: {
@@ -6971,8 +8194,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Pomerania', 'Juguete', 'Compañía'],
     country_code: 'DE', // Código de país basado en el origen conocido de la raza
-    description: 'El Pomerania es una raza de perro extrovertida y amigable. Son juguetones, inteligentes y muy activos. A pesar de su tamaño pequeño, tienen una gran personalidad y son excelentes como perros de compañía.',
-    history: 'El Pomerania se originó en Alemania, donde se criaron para ser perros de compañía. Esta raza ha sido popular durante mucho tiempo debido a su tamaño pequeño, su personalidad encantadora y su hermoso pelaje.',
+    description:
+      'El Pomerania es una raza de perro extrovertida y amigable. Son juguetones, inteligentes y muy activos. A pesar de su tamaño pequeño, tienen una gran personalidad y son excelentes como perros de compañía.',
+    history:
+      'El Pomerania se originó en Alemania, donde se criaron para ser perros de compañía. Esta raza ha sido popular durante mucho tiempo debido a su tamaño pequeño, su personalidad encantadora y su hermoso pelaje.',
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Excelente compañía',
@@ -7009,7 +8234,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Compañía', 'Ejercicio físico moderado'],
     breed_group: ['Juguete'],
     life_span: '12 – 15 años',
-    temperament: ['Inteligente', 'Amigable', 'Entrenable', 'Fiel', 'Energético'],
+    temperament: [
+      'Inteligente',
+      'Amigable',
+      'Entrenable',
+      'Fiel',
+      'Energético',
+    ],
     origin: 'Francia',
     reference_image_id: 'Hkxk4ecVX',
     image: {
@@ -7020,8 +8251,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Caniche Miniatura', 'Caniche', 'Miniatura'],
     country_code: 'FR', // Código de país basado en el origen conocido de la raza
-    description: 'El Caniche Miniatura es una raza de perro inteligente y amigable. Son leales, llenos de energía y muy entrenables, lo que los hace excelentes compañeros para cualquier familia o individuo.',
-    history: 'El Caniche Miniatura se originó en Francia y ha sido un perro de compañía popular durante siglos. Son famosos por su inteligencia y su capacidad para aprender rápidamente.',
+    description:
+      'El Caniche Miniatura es una raza de perro inteligente y amigable. Son leales, llenos de energía y muy entrenables, lo que los hace excelentes compañeros para cualquier familia o individuo.',
+    history:
+      'El Caniche Miniatura se originó en Francia y ha sido un perro de compañía popular durante siglos. Son famosos por su inteligencia y su capacidad para aprender rápidamente.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Gran compañero de la familia',
@@ -7059,7 +8292,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Compañía', 'Ejercicio físico ligero'],
     breed_group: ['Juguete'],
     life_span: '18 años',
-    temperament: ['Inteligente', 'Amigable', 'Entrenable', 'Fiel', 'Energético'],
+    temperament: [
+      'Inteligente',
+      'Amigable',
+      'Entrenable',
+      'Fiel',
+      'Energético',
+    ],
     origin: 'Francia',
     reference_image_id: 'rJFJVxc4m',
     image: {
@@ -7070,8 +8309,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Caniche Juguete', 'Caniche', 'Juguete'],
     country_code: 'FR', // Código de país basado en el origen conocido de la raza
-    description: 'El Caniche Juguete es una versión más pequeña del Caniche, famoso por su inteligencia y personalidad amigable. Son perros de compañía ideales para la vida en apartamentos y hogares más pequeños.',
-    history: 'Originario de Francia, el Caniche Juguete ha sido un favorito en las casas de todo el mundo debido a su tamaño pequeño y su personalidad encantadora. Aunque se crían principalmente como perros de compañía, también han demostrado ser excelentes en la obediencia y la agilidad.',
+    description:
+      'El Caniche Juguete es una versión más pequeña del Caniche, famoso por su inteligencia y personalidad amigable. Son perros de compañía ideales para la vida en apartamentos y hogares más pequeños.',
+    history:
+      'Originario de Francia, el Caniche Juguete ha sido un favorito en las casas de todo el mundo debido a su tamaño pequeño y su personalidad encantadora. Aunque se crían principalmente como perros de compañía, también han demostrado ser excelentes en la obediencia y la agilidad.',
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Ideal para la vida en apartamentos',
@@ -7109,7 +8350,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Perro de regazo'],
     breed_group: ['Juguete'],
     life_span: '12 - 14 años',
-    temperament: ['Dócil', 'Inteligente', 'Encantador', 'Terco', 'Sociable', 'Juguetón', 'Tranquilo', 'Atento'],
+    temperament: [
+      'Dócil',
+      'Inteligente',
+      'Encantador',
+      'Terco',
+      'Sociable',
+      'Juguetón',
+      'Tranquilo',
+      'Atento',
+    ],
     origin: 'China',
     reference_image_id: 'HyJvcl9N7',
     image: {
@@ -7120,8 +8370,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Pug', 'Mops', 'Carlino'],
     country_code: 'CN',
-    description: 'El Pug es una raza de perro con rostro arrugado y un cuerpo pequeño y robusto. Son conocidos por su temperamento alegre y su personalidad amigable y tranquila.',
-    history: 'El Pug es una de las razas de perros más antiguas, originaria de China antes de 400 a.C. Fueron criados como perros de compañía para las clases altas y recibieron un trato real.',
+    description:
+      'El Pug es una raza de perro con rostro arrugado y un cuerpo pequeño y robusto. Son conocidos por su temperamento alegre y su personalidad amigable y tranquila.',
+    history:
+      'El Pug es una de las razas de perros más antiguas, originaria de China antes de 400 a.C. Fueron criados como perros de compañía para las clases altas y recibieron un trato real.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Se lleva bien con niños y otras mascotas',
@@ -7134,9 +8386,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Necesita mantenerse fresco en climas cálidos debido a su pelaje corto y denso', 'Propenso a problemas de salud específicos como la displasia de cadera'],
+    necesidades_especiales: [
+      'Necesita mantenerse fresco en climas cálidos debido a su pelaje corto y denso',
+      'Propenso a problemas de salud específicos como la displasia de cadera',
+    ],
     popularidad: 'Alta',
-    enfermedades_comunes: ['Displasia de cadera', 'Pug Dog Encephalitis', 'Luxación patelar'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Pug Dog Encephalitis',
+      'Luxación patelar',
+    ],
   },
   127: {
     weight: {
@@ -7152,7 +8411,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Pastoreo'],
     breed_group: ['Pastor'],
     life_span: '12 - 16 años',
-    temperament: ['Energético', 'Ágil', 'Leal', 'Obediente', 'Inteligente', 'Fiel'],
+    temperament: [
+      'Energético',
+      'Ágil',
+      'Leal',
+      'Obediente',
+      'Inteligente',
+      'Fiel',
+    ],
     origin: 'Hungría',
     reference_image_id: 'ryPgVl5N7',
     image: {
@@ -7163,23 +8429,32 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Puli', 'Perro pastor húngaro', 'Pulik'],
     country_code: 'HU',
-    description: 'El Puli es un perro de tamaño mediano, famoso por su pelaje de cordones único que puede parecerse a las rastas. Son extremadamente inteligentes y ágiles, lo que los hace excelentes perros de trabajo y de compañía.',
-    history: 'El Puli es una raza antigua de perros de pastoreo de Hungría, conocida desde el siglo IX. Fueron utilizados principalmente por los pastores para cuidar y guiar al ganado, y aún hoy son muy valorados por sus habilidades de pastoreo.',
+    description:
+      'El Puli es un perro de tamaño mediano, famoso por su pelaje de cordones único que puede parecerse a las rastas. Son extremadamente inteligentes y ágiles, lo que los hace excelentes perros de trabajo y de compañía.',
+    history:
+      'El Puli es una raza antigua de perros de pastoreo de Hungría, conocida desde el siglo IX. Fueron utilizados principalmente por los pastores para cuidar y guiar al ganado, y aún hoy son muy valorados por sus habilidades de pastoreo.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Altamente inteligente y fácil de entrenar',
       'Excelente perro de pastoreo y puede ser bueno en deportes de agilidad',
       'Pelo único que requiere un aseo especializado',
-      'Bueno con los niños y otros animales si se socializa desde una edad temprana'
+      'Bueno con los niños y otros animales si se socializa desde una edad temprana',
     ],
     color: ['Negro', 'Gris plata', 'Blanco'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Necesita una gran cantidad de ejercicio y estimulación mental', 'Su pelaje requiere un cuidado y mantenimiento especiales'],
+    necesidades_especiales: [
+      'Necesita una gran cantidad de ejercicio y estimulación mental',
+      'Su pelaje requiere un cuidado y mantenimiento especiales',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Displasia de cadera', 'Atrofia retiniana progresiva', 'Cataratas'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Atrofia retiniana progresiva',
+      'Cataratas',
+    ],
   },
   128: {
     weight: {
@@ -7195,7 +8470,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Pastoreo'],
     breed_group: ['Pastor'],
     life_span: '13 - 15 años',
-    temperament: ['Vivaz', 'Reservado', 'Inteligente', 'Activo', 'Protector', 'Vocal'],
+    temperament: [
+      'Vivaz',
+      'Reservado',
+      'Inteligente',
+      'Activo',
+      'Protector',
+      'Vocal',
+    ],
     origin: 'Hungría',
     reference_image_id: 'SyRe4xcN7',
     image: {
@@ -7206,21 +8488,26 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Pumi', 'Perro pastor húngaro', 'Pumik'],
     country_code: 'HU',
-    description: 'El Pumi es un perro de tamaño mediano, conocido por su personalidad vivaz y su apariencia distintiva con orejas erguidas y pelo rizado. Son perros inteligentes y activos, excelentes para el trabajo de pastoreo.',
-    history: 'El Pumi se originó en Hungría y se utilizó principalmente para el pastoreo de ovejas y ganado. Esta raza se desarrolló a partir de la mezcla de varias razas de perros de pastoreo húngaras y extranjeras.',
+    description:
+      'El Pumi es un perro de tamaño mediano, conocido por su personalidad vivaz y su apariencia distintiva con orejas erguidas y pelo rizado. Son perros inteligentes y activos, excelentes para el trabajo de pastoreo.',
+    history:
+      'El Pumi se originó en Hungría y se utilizó principalmente para el pastoreo de ovejas y ganado. Esta raza se desarrolló a partir de la mezcla de varias razas de perros de pastoreo húngaras y extranjeras.',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Perro de trabajo inteligente y activo',
       'Se destaca en deportes de agilidad y obediencia',
       'Puede ser un buen guardián debido a su naturaleza protectora y vocal',
-      'Requiere ejercicio regular y estimulación mental'
+      'Requiere ejercicio regular y estimulación mental',
     ],
     color: ['Negro', 'Gris', 'Fawn'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Necesita mucho ejercicio y estimulación mental', 'Requiere aseo regular debido a su pelo rizado'],
+    necesidades_especiales: [
+      'Necesita mucho ejercicio y estimulación mental',
+      'Requiere aseo regular debido a su pelo rizado',
+    ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
   },
@@ -7238,7 +8525,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza de ratas', 'Compañía'],
     breed_group: ['Terrier'],
     life_span: '12 - 18 años',
-    temperament: ['Afectuoso', 'Vivaz', 'Curioso', 'Alerta', 'Inteligente', 'Amoroso'],
+    temperament: [
+      'Afectuoso',
+      'Vivaz',
+      'Curioso',
+      'Alerta',
+      'Inteligente',
+      'Amoroso',
+    ],
     origin: 'Estados Unidos',
     reference_image_id: 'HkXWNl9E7',
     image: {
@@ -7249,23 +8543,32 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Terrier Rata', 'Rat Terrier', 'Terrier americano'],
     country_code: 'US',
-    description: 'El Terrier Rata es un perro de tamaño pequeño a mediano, conocido por su naturaleza enérgica y su habilidad para cazar ratas. Son perros inteligentes y afectuosos, lo que los hace excelentes mascotas para la familia.',
-    history: 'El Terrier Rata se originó en Estados Unidos y se utilizó principalmente para cazar ratas y otros roedores. Esta raza es una mezcla de varias razas de terrier, incluyendo el Fox Terrier y el Bull Terrier.',
+    description:
+      'El Terrier Rata es un perro de tamaño pequeño a mediano, conocido por su naturaleza enérgica y su habilidad para cazar ratas. Son perros inteligentes y afectuosos, lo que los hace excelentes mascotas para la familia.',
+    history:
+      'El Terrier Rata se originó en Estados Unidos y se utilizó principalmente para cazar ratas y otros roedores. Esta raza es una mezcla de varias razas de terrier, incluyendo el Fox Terrier y el Bull Terrier.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Perro inteligente y enérgico',
       'Excelente para cazar ratas y otros roedores',
       'Puede ser un buen perro guardián debido a su naturaleza alerta',
-      'Requiere ejercicio moderado y estimulación mental'
+      'Requiere ejercicio moderado y estimulación mental',
     ],
     color: ['Blanco', 'Negro', 'Marrón'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Necesita ejercicio regular y estimulación mental', 'Requiere aseo regular debido a su pelo corto'],
+    necesidades_especiales: [
+      'Necesita ejercicio regular y estimulación mental',
+      'Requiere aseo regular debido a su pelo corto',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares', 'Alergias'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Problemas oculares',
+      'Alergias',
+    ],
   },
   130: {
     weight: {
@@ -7278,10 +8581,22 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     id: 130,
     name: 'Sabueso Rojo',
-    bred_for: ['Caza de mapaches', 'Caza de ciervos', 'Caza de osos', 'Caza de pumas'],
+    bred_for: [
+      'Caza de mapaches',
+      'Caza de ciervos',
+      'Caza de osos',
+      'Caza de pumas',
+    ],
     breed_group: ['Sabueso'],
     life_span: '10 - 12 años',
-    temperament: ['Afectuoso', 'Energético', 'Independiente', 'Sociable', 'Familiar', 'Imperturbable'],
+    temperament: [
+      'Afectuoso',
+      'Energético',
+      'Independiente',
+      'Sociable',
+      'Familiar',
+      'Imperturbable',
+    ],
     origin: 'Estados Unidos',
     reference_image_id: 'HJMzEl5N7',
     image: {
@@ -7292,23 +8607,32 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Sabueso Rojo', 'Redbone Coonhound'],
     country_code: 'US',
-    description: 'El Sabueso Rojo es un perro de tamaño mediano a grande, conocido por su pelaje rojo y su habilidad para cazar. A pesar de su independencia, son perros afectuosos y se llevan bien con las familias.',
-    history: 'Originario de Estados Unidos, el Sabueso Rojo se desarrolló para la caza de mapaches, ciervos, osos y pumas. Su resistencia y su olfato agudo lo convierten en un cazador excepcional.',
+    description:
+      'El Sabueso Rojo es un perro de tamaño mediano a grande, conocido por su pelaje rojo y su habilidad para cazar. A pesar de su independencia, son perros afectuosos y se llevan bien con las familias.',
+    history:
+      'Originario de Estados Unidos, el Sabueso Rojo se desarrolló para la caza de mapaches, ciervos, osos y pumas. Su resistencia y su olfato agudo lo convierten en un cazador excepcional.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente cazador',
       'Bueno para familias',
       'Se lleva bien con otros perros',
-      'Necesita ejercicio regular'
+      'Necesita ejercicio regular',
     ],
     color: ['Rojo'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Necesita ejercicio regular', 'Requiere un ambiente donde pueda explorar y olfatear'],
+    necesidades_especiales: [
+      'Necesita ejercicio regular',
+      'Requiere un ambiente donde pueda explorar y olfatear',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Displasia de cadera', 'Problemas de la piel', 'Obesidad'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Problemas de la piel',
+      'Obesidad',
+    ],
   },
   131: {
     weight: {
@@ -7324,7 +8648,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza de animales grandes', 'Guardia'],
     breed_group: ['Sabueso'],
     life_span: '10 - 12 años',
-    temperament: ['Fuerte voluntad', 'Travieso', 'Leal', 'Digno', 'Sensible', 'Inteligente'],
+    temperament: [
+      'Fuerte voluntad',
+      'Travieso',
+      'Leal',
+      'Digno',
+      'Sensible',
+      'Inteligente',
+    ],
     origin: 'Zimbabwe',
     reference_image_id: 'By9zNgqE7',
     image: {
@@ -7335,8 +8666,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Rhodesian Ridgeback', 'Perro Crestado Rodesiano'],
     country_code: 'ZW',
-    description: 'El Rhodesian Ridgeback es un perro de gran tamaño, conocido por su cresta de pelo que corre a lo largo de su espalda en dirección opuesta al resto de su pelaje. Son perros leales y dignos, con una fuerte voluntad y una naturaleza algo traviesa.',
-    history: 'Originario de Zimbabwe, el Rhodesian Ridgeback se desarrolló para la caza de animales grandes y como perro de guardia. Su cresta distintiva es una característica única que los distingue de otras razas.',
+    description:
+      'El Rhodesian Ridgeback es un perro de gran tamaño, conocido por su cresta de pelo que corre a lo largo de su espalda en dirección opuesta al resto de su pelaje. Son perros leales y dignos, con una fuerte voluntad y una naturaleza algo traviesa.',
+    history:
+      'Originario de Zimbabwe, el Rhodesian Ridgeback se desarrolló para la caza de animales grandes y como perro de guardia. Su cresta distintiva es una característica única que los distingue de otras razas.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Bueno como perro de guardia',
@@ -7349,7 +8682,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Necesita mucho ejercicio', 'Requiere socialización temprana'],
+    necesidades_especiales: [
+      'Necesita mucho ejercicio',
+      'Requiere socialización temprana',
+    ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas de tiroides'],
   },
@@ -7367,7 +8703,18 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Conducción de ganado', 'Guardián', 'Tiro'],
     breed_group: ['Trabajo'],
     life_span: '8 - 10 años',
-    temperament: ['Estable', 'Bondadoso', 'Impasible', 'Devoto', 'Alerta', 'Obediente', 'Confiable', 'Seguro de sí mismo', 'Calmo', 'Valiente'],
+    temperament: [
+      'Estable',
+      'Bondadoso',
+      'Impasible',
+      'Devoto',
+      'Alerta',
+      'Obediente',
+      'Confiable',
+      'Seguro de sí mismo',
+      'Calmo',
+      'Valiente',
+    ],
     origin: 'Alemania',
     reference_image_id: 'r1xXEgcNX',
     image: {
@@ -7376,10 +8723,19 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 595,
       url: 'https://cdn2.thedogapi.com/images/r1xXEgcNX.jpg',
     },
-    searchTerms: ['Rottweiler', 'Rotweiler', 'Rotwailer', 'Rottwailer', 'Rott', 'Rottie'],
+    searchTerms: [
+      'Rottweiler',
+      'Rotweiler',
+      'Rotwailer',
+      'Rottwailer',
+      'Rott',
+      'Rottie',
+    ],
     country_code: 'DE',
-    description: 'El Rottweiler es una raza de perro conocida por su tamaño considerable y su capacidad como perro de trabajo, guardián y guía. Son perros seguros de sí mismos, tranquilos y valientes, conocidos por su devoción y obediencia.',
-    history: 'Originarios de Alemania, los Rottweilers fueron utilizados originalmente para conducir ganado y como perros de tiro. Su fuerza, resistencia y confiabilidad los hicieron ideales para estas tareas.',
+    description:
+      'El Rottweiler es una raza de perro conocida por su tamaño considerable y su capacidad como perro de trabajo, guardián y guía. Son perros seguros de sí mismos, tranquilos y valientes, conocidos por su devoción y obediencia.',
+    history:
+      'Originarios de Alemania, los Rottweilers fueron utilizados originalmente para conducir ganado y como perros de tiro. Su fuerza, resistencia y confiabilidad los hicieron ideales para estas tareas.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente perro guardián',
@@ -7392,7 +8748,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Necesita mucha socialización', 'Requiere ejercicio regular y estimulación mental'],
+    necesidades_especiales: [
+      'Necesita mucha socialización',
+      'Requiere ejercicio regular y estimulación mental',
+    ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas cardiacos'],
   },
@@ -7421,8 +8780,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Juguete Ruso', 'Russian Toy'],
     country_code: 'RU',
-    description: 'El Juguete Ruso es una raza pequeña y ligera con una personalidad animada y sociable. Son perros inteligentes y adaptables que se llevan bien en una variedad de hogares y situaciones.',
-    history: 'Originario de Rusia, el Juguete Ruso fue criado inicialmente como un perro de compañía en la alta sociedad rusa. Su tamaño pequeño y su carácter amigable los hicieron muy populares.',
+    description:
+      'El Juguete Ruso es una raza pequeña y ligera con una personalidad animada y sociable. Son perros inteligentes y adaptables que se llevan bien en una variedad de hogares y situaciones.',
+    history:
+      'Originario de Rusia, el Juguete Ruso fue criado inicialmente como un perro de compañía en la alta sociedad rusa. Su tamaño pequeño y su carácter amigable los hicieron muy populares.',
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Excelente perro de compañía',
@@ -7435,7 +8796,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Requiere cuidado regular del pelo', 'Necesita socialización temprana'],
+    necesidades_especiales: [
+      'Requiere cuidado regular del pelo',
+      'Necesita socialización temprana',
+    ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas dentales', 'Luxación de la rótula'],
   },
@@ -7464,8 +8828,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['San Bernardo', 'Saint Bernard'],
     country_code: 'CH',
-    description: 'El San Bernardo es una raza grande y poderosa, conocida por su amabilidad y paciencia. Son excelentes perros de trabajo y son famosos por su papel en las operaciones de búsqueda y rescate en la montaña.',
-    history: 'El San Bernardo se originó en Suiza y fue criado originalmente por monjes en el Hospicio del Gran San Bernardo para ayudar en las operaciones de búsqueda y rescate. Su resistencia y su naturaleza amigable los hicieron perfectos para este papel.',
+    description:
+      'El San Bernardo es una raza grande y poderosa, conocida por su amabilidad y paciencia. Son excelentes perros de trabajo y son famosos por su papel en las operaciones de búsqueda y rescate en la montaña.',
+    history:
+      'El San Bernardo se originó en Suiza y fue criado originalmente por monjes en el Hospicio del Gran San Bernardo para ayudar en las operaciones de búsqueda y rescate. Su resistencia y su naturaleza amigable los hicieron perfectos para este papel.',
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Excelente perro de rescate y trabajo',
@@ -7478,7 +8844,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Requiere bastante espacio', 'Necesita socialización temprana', 'Requiere cepillado regular'],
+    necesidades_especiales: [
+      'Requiere bastante espacio',
+      'Necesita socialización temprana',
+      'Requiere cepillado regular',
+    ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas cardíacos'],
   },
@@ -7507,8 +8877,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Saluki'],
     country_code: 'ME',
-    description: 'El Saluki es una raza antigua, conocida por su velocidad y resistencia. A menudo se les ve en las carreras de galgos y son excelentes perros de caza debido a su agudo sentido de la vista.',
-    history: 'El Saluki es una de las razas de perros más antiguas del mundo, con una historia que se remonta a los tiempos antiguos en el Medio Oriente. Fueron valorados por su velocidad y resistencia, lo que los convirtió en excelentes perros de caza.',
+    description:
+      'El Saluki es una raza antigua, conocida por su velocidad y resistencia. A menudo se les ve en las carreras de galgos y son excelentes perros de caza debido a su agudo sentido de la vista.',
+    history:
+      'El Saluki es una de las razas de perros más antiguas del mundo, con una historia que se remonta a los tiempos antiguos en el Medio Oriente. Fueron valorados por su velocidad y resistencia, lo que los convirtió en excelentes perros de caza.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Muy rápido y ágil',
@@ -7521,7 +8893,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Requiere mucho ejercicio', 'Necesita espacio para correr', 'Requiere socialización temprana'],
+    necesidades_especiales: [
+      'Requiere mucho ejercicio',
+      'Necesita espacio para correr',
+      'Requiere socialización temprana',
+    ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas cardíacos', 'Problemas oculares'],
   },
@@ -7539,7 +8915,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Pastoreo de renos', 'Guardián', 'Tiro'],
     breed_group: ['Trabajo'],
     life_span: '12 - 14 años',
-    temperament: ['Terco', 'Amigable', 'Sociable', 'Vivaz', 'Alerta', 'Juguetón'],
+    temperament: [
+      'Terco',
+      'Amigable',
+      'Sociable',
+      'Vivaz',
+      'Alerta',
+      'Juguetón',
+    ],
     origin: 'Rusia',
     reference_image_id: 'S1T8Ee9Nm',
     image: {
@@ -7550,8 +8933,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Samoyedo'],
     country_code: 'RU',
-    description: 'El Samoyedo es una raza versátil, capaz de pastorear, tirar de trineos y ser un compañero leal. Son conocidos por su pelaje blanco y esponjoso, así como por su naturaleza amigable y juguetón.',
-    history: 'Los Samoyedos se originaron en Rusia y fueron criados por la tribu nómada Samoyedic. Se utilizaban para pastorear renos, cazar y tirar de trineos. Son una de las razas de perros más antiguas.',
+    description:
+      'El Samoyedo es una raza versátil, capaz de pastorear, tirar de trineos y ser un compañero leal. Son conocidos por su pelaje blanco y esponjoso, así como por su naturaleza amigable y juguetón.',
+    history:
+      'Los Samoyedos se originaron en Rusia y fueron criados por la tribu nómada Samoyedic. Se utilizaban para pastorear renos, cazar y tirar de trineos. Son una de las razas de perros más antiguas.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Amigable y sociable',
@@ -7565,9 +8950,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Necesita mucho ejercicio', 'Necesita mucho cuidado del pelaje'],
+    necesidades_especiales: [
+      'Necesita mucho ejercicio',
+      'Necesita mucho cuidado del pelaje',
+    ],
     popularidad: 'Alta',
-    enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares', 'Diabetes'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Problemas oculares',
+      'Diabetes',
+    ],
   },
   137: {
     weight: {
@@ -7583,7 +8975,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Perro vigilante de barcazas'],
     breed_group: ['No deportivo'],
     life_span: '13 - 15 años',
-    temperament: ['Sin miedo', 'Ágil', 'Curioso', 'Independiente', 'Confiado', 'Fiel'],
+    temperament: [
+      'Sin miedo',
+      'Ágil',
+      'Curioso',
+      'Independiente',
+      'Confiado',
+      'Fiel',
+    ],
     origin: 'Bélgica',
     reference_image_id: 'SyBvVgc47',
     image: {
@@ -7594,8 +8993,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Schipperke'],
     country_code: 'BE',
-    description: 'El Schipperke es un pequeño perro belga conocido por su curiosidad, confianza y temperamento fiel. Aunque pequeños, son valientes y hacen excelentes perros vigilantes.',
-    history: 'Originario de Bélgica, el Schipperke se utilizaba como perro de vigilancia en las barcazas que navegaban por los canales del país. Su nombre significa "pequeño capitán" en flamenco.',
+    description:
+      'El Schipperke es un pequeño perro belga conocido por su curiosidad, confianza y temperamento fiel. Aunque pequeños, son valientes y hacen excelentes perros vigilantes.',
+    history:
+      'Originario de Bélgica, el Schipperke se utilizaba como perro de vigilancia en las barcazas que navegaban por los canales del país. Su nombre significa "pequeño capitán" en flamenco.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno para la vigilancia',
@@ -7637,8 +9038,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Lebrel Escocés'],
     country_code: 'GB',
-    description: 'El Lebrel Escocés es una raza de perro grande y amigable conocida por su habilidad para la caza de ciervos. Son perros dóciles y gentiles, conocidos por su dignidad y amabilidad.',
-    history: 'El Lebrel Escocés, como su nombre indica, es originario de Escocia. Fueron criados para la caza de ciervos, lo que requiere velocidad, resistencia y un buen sentido del olfato.',
+    description:
+      'El Lebrel Escocés es una raza de perro grande y amigable conocida por su habilidad para la caza de ciervos. Son perros dóciles y gentiles, conocidos por su dignidad y amabilidad.',
+    history:
+      'El Lebrel Escocés, como su nombre indica, es originario de Escocia. Fueron criados para la caza de ciervos, lo que requiere velocidad, resistencia y un buen sentido del olfato.',
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Bueno para la caza',
@@ -7669,7 +9072,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza de alimañas'],
     breed_group: ['Terrier'],
     life_span: '11 - 13 años',
-    temperament: ['Animado', 'Alerta', 'Independiente', 'Juguetón', 'Rápido', 'Seguro de sí mismo'],
+    temperament: [
+      'Animado',
+      'Alerta',
+      'Independiente',
+      'Juguetón',
+      'Rápido',
+      'Seguro de sí mismo',
+    ],
     origin: 'Escocia',
     reference_image_id: 'Bklnce5NX',
     image: {
@@ -7680,8 +9090,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Terrier Escocés'],
     country_code: 'GB',
-    description: 'El Terrier Escocés es una raza pequeña pero robusta, conocida por su personalidad animada y su habilidad para cazar alimañas. Son perros independientes, juguetones y seguros de sí mismos, con un pelaje característicamente duro y denso.',
-    history: 'El Terrier Escocés es una raza antigua que se originó en Escocia para la caza de alimañas. Su pequeño tamaño y su valentía los hacían ideales para cazar en las rocosas tierras altas escocesas.',
+    description:
+      'El Terrier Escocés es una raza pequeña pero robusta, conocida por su personalidad animada y su habilidad para cazar alimañas. Son perros independientes, juguetones y seguros de sí mismos, con un pelaje característicamente duro y denso.',
+    history:
+      'El Terrier Escocés es una raza antigua que se originó en Escocia para la caza de alimañas. Su pequeño tamaño y su valentía los hacían ideales para cazar en las rocosas tierras altas escocesas.',
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno para la caza de alimañas',
@@ -7694,7 +9106,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Requiere ejercicio regular', 'Cuidado del pelaje'],
+    necesidades_especiales: [
+      'Requiere ejercicio regular',
+      'Cuidado del pelaje',
+    ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas de piel', 'Displasia de cadera'],
   },
@@ -7752,7 +9167,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Requiere ejercicio regular', 'Estimulación mental'],
+    necesidades_especiales: [
+      'Requiere ejercicio regular',
+      'Estimulación mental',
+    ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas de tiroides'],
   },
@@ -7936,13 +9354,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Tirar de trineos'],
     breed_group: ['Grupo de trabajo'],
     life_span: '12 años',
-    temperament: [
-      'Extrovertido',
-      'Amigable',
-      'Alerta',
-      'Dulce',
-      'Inteligente',
-    ],
+    temperament: ['Extrovertido', 'Amigable', 'Alerta', 'Dulce', 'Inteligente'],
     origin: 'Siberia, Rusia',
     reference_image_id: 'S17ZilqNm',
     image: {
@@ -7969,7 +9381,9 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Necesita ejercicio regular y estimulación mental'],
+    necesidades_especiales: [
+      'Necesita ejercicio regular y estimulación mental',
+    ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
   },
@@ -8021,7 +9435,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Necesita cuidado regular del pelaje', 'Necesita estimulación mental'],
+    necesidades_especiales: [
+      'Necesita cuidado regular del pelaje',
+      'Necesita estimulación mental',
+    ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas de piel', 'Displasia de cadera'],
   },
@@ -8073,9 +9490,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Necesita ejercicio regular', 'Necesita estimulación mental y física'],
+    necesidades_especiales: [
+      'Necesita ejercicio regular',
+      'Necesita estimulación mental y física',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Problemas de piel', 'Displasia de cadera', 'Problemas oculares'],
+    enfermedades_comunes: [
+      'Problemas de piel',
+      'Displasia de cadera',
+      'Problemas oculares',
+    ],
   },
   147: {
     weight: {
@@ -8125,9 +9549,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Requiere ejercicio regular', 'Cepillado regular del pelaje'],
+    necesidades_especiales: [
+      'Requiere ejercicio regular',
+      'Cepillado regular del pelaje',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Problemas de piel', 'Problemas oculares', 'Displasia de cadera'],
+    enfermedades_comunes: [
+      'Problemas de piel',
+      'Problemas oculares',
+      'Displasia de cadera',
+    ],
   },
   148: {
     weight: {
@@ -8224,7 +9655,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Requiere ejercicio regular', 'Necesita espacio para correr'],
+    necesidades_especiales: [
+      'Requiere ejercicio regular',
+      'Necesita espacio para correr',
+    ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
   },
@@ -8277,7 +9711,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Requiere ejercicio regular', 'Socialización temprana'],
+    necesidades_especiales: [
+      'Requiere ejercicio regular',
+      'Socialización temprana',
+    ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Cataratas', 'Alergias'],
   },
@@ -8329,9 +9766,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Excelente',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Requiere ejercicio regular', 'Socialización temprana'],
+    necesidades_especiales: [
+      'Requiere ejercicio regular',
+      'Socialización temprana',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares', 'Alergias'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Problemas oculares',
+      'Alergias',
+    ],
   },
   152: {
     weight: {
@@ -8348,7 +9792,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     breed_group: ['Trabajador'],
     life_span: '13 - 15 años',
     temperament: [
-      'Adiestrable', 'De buen carácter', 'Devoto', 'Vivaz', 'Juguetón', 'Inteligente'
+      'Adiestrable',
+      'De buen carácter',
+      'Devoto',
+      'Vivaz',
+      'Juguetón',
+      'Inteligente',
     ],
     origin: 'Alemania',
     reference_image_id: 'tmzeu6ID_',
@@ -8369,16 +9818,23 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Requiere de ejercicio regular',
       'Excelente con los niños',
       'Adiestrable',
-      'Requiere socialización temprana'
+      'Requiere socialización temprana',
     ],
     color: ['Negro', 'Gris', 'Blanco'],
     nivel_de_energia: 'Moderado',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Excelente',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Necesita ejercicio regular', 'Requiere socialización'],
+    necesidades_especiales: [
+      'Necesita ejercicio regular',
+      'Requiere socialización',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Displasia de cadera', 'Problemas de la piel', 'Alergias'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Problemas de la piel',
+      'Alergias',
+    ],
   },
   153: {
     weight: {
@@ -8395,7 +9851,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     breed_group: ['Pastor'],
     life_span: '12 - 14 años',
     temperament: [
-      'Intrépido', 'Amistoso', 'Energético', 'Alerta', 'Inteligente', 'Vigilante'
+      'Intrépido',
+      'Amistoso',
+      'Energético',
+      'Alerta',
+      'Inteligente',
+      'Vigilante',
     ],
     origin: 'Suecia',
     reference_image_id: 'HJ-Dix94Q',
@@ -8405,7 +9866,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 851,
       url: 'https://cdn2.thedogapi.com/images/HJ-Dix94Q.jpg',
     },
-    searchTerms: ['Perro de los Visigodos Sueco', 'Perro de pastoreo', 'Energético'],
+    searchTerms: [
+      'Perro de los Visigodos Sueco',
+      'Perro de pastoreo',
+      'Energético',
+    ],
     country_code: 'SE',
     description:
       'El Perro de los Visigodos Sueco es una raza pequeña, pero robusta y enérgica, conocida por sus habilidades de pastoreo. Son perros inteligentes y alertas, con una naturaleza intrépida. Estos perros son amistosos y se llevan bien con las personas y otros animales. Son animales de compañía ideales para familias activas y pueden ser excelentes perros de trabajo.',
@@ -8416,16 +9881,23 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Requiere de ejercicio regular',
       'Excelente con los niños',
       'Adiestrable',
-      'Requiere socialización temprana'
+      'Requiere socialización temprana',
     ],
     color: ['Gris', 'Rojo', 'Negro'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Necesita ejercicio regular', 'Requiere socialización'],
+    necesidades_especiales: [
+      'Necesita ejercicio regular',
+      'Requiere socialización',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Displasia de cadera', 'Atrofia retinal progresiva', 'Luxación de rótula'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Atrofia retinal progresiva',
+      'Luxación de rótula',
+    ],
   },
   154: {
     weight: {
@@ -8442,7 +9914,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     breed_group: ['Sabueso'],
     life_span: '10 - 12 años',
     temperament: [
-      'Protector', 'Leal', 'Independiente', 'Inteligente', 'Amoroso', 'Familiar'
+      'Protector',
+      'Leal',
+      'Independiente',
+      'Inteligente',
+      'Amoroso',
+      'Familiar',
     ],
     origin: 'Tailandia',
     reference_image_id: 'zv89hR-O8',
@@ -8470,9 +9947,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Necesita ejercicio y estimulación mental', 'Requiere socialización'],
+    necesidades_especiales: [
+      'Necesita ejercicio y estimulación mental',
+      'Requiere socialización',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Dermatitis por alergia a las pulgas', 'Displasia de cadera', 'Problemas de la piel'],
+    enfermedades_comunes: [
+      'Dermatitis por alergia a las pulgas',
+      'Displasia de cadera',
+      'Problemas de la piel',
+    ],
   },
   155: {
     weight: {
@@ -8489,7 +9973,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     breed_group: ['Trabajador'],
     life_span: '10 - 14 años',
     temperament: [
-      'Fuerte voluntad', 'Tenaz', 'Distante', 'Terco', 'Inteligente', 'Protector'
+      'Fuerte voluntad',
+      'Tenaz',
+      'Distante',
+      'Terco',
+      'Inteligente',
+      'Protector',
     ],
     origin: 'Tíbet',
     reference_image_id: 'SkM9sec47',
@@ -8518,9 +10007,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Bajo',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Baja',
-    necesidades_especiales: ['Necesita socialización y entrenamiento temprano', 'Requiere mantenimiento del pelaje'],
+    necesidades_especiales: [
+      'Necesita socialización y entrenamiento temprano',
+      'Requiere mantenimiento del pelaje',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares', 'Hipotiroidismo'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Problemas oculares',
+      'Hipotiroidismo',
+    ],
   },
   156: {
     weight: {
@@ -8537,7 +10033,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     breed_group: ['No deportivo'],
     life_span: '12 - 15 años',
     temperament: [
-      'Caprichoso', 'Reservado', 'Asertivo', 'Independiente', 'Juguetón', 'Inteligente', 'Feliz'
+      'Caprichoso',
+      'Reservado',
+      'Asertivo',
+      'Independiente',
+      'Juguetón',
+      'Inteligente',
+      'Feliz',
     ],
     origin: 'Tíbet',
     reference_image_id: 'Hyjcol947',
@@ -8566,7 +10068,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Requiere socialización temprana', 'Requiere cepillado regular'],
+    necesidades_especiales: [
+      'Requiere socialización temprana',
+      'Requiere cepillado regular',
+    ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas oculares', 'Luxación de rótula'],
   },
@@ -8581,10 +10086,23 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     id: 157,
     name: 'Terrier Tibetano',
-    bred_for: ['Amuletos de buena suerte', 'Mascotas', 'Perros guardianes', 'Perros de pastoreo', 'Compañeros'],
+    bred_for: [
+      'Amuletos de buena suerte',
+      'Mascotas',
+      'Perros guardianes',
+      'Perros de pastoreo',
+      'Compañeros',
+    ],
     breed_group: ['No deportivo'],
     life_span: '12 - 15 años',
-    temperament: ['Cariñoso', 'Energético', 'Amigable', 'Reservado', 'Gentil', 'Sensible'],
+    temperament: [
+      'Cariñoso',
+      'Energético',
+      'Amigable',
+      'Reservado',
+      'Gentil',
+      'Sensible',
+    ],
     origin: 'Tíbet',
     reference_image_id: '6f5n_42mB',
     image: {
@@ -8612,7 +10130,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Requiere socialización temprana', 'Requiere mucho ejercicio', 'Requiere cepillado regular'],
+    necesidades_especiales: [
+      'Requiere socialización temprana',
+      'Requiere mucho ejercicio',
+      'Requiere cepillado regular',
+    ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
   },
@@ -8630,7 +10152,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Compañía', 'Juegos', 'Guardián'],
     breed_group: ['Juguete'],
     life_span: '12 - 15 años',
-    temperament: ['Amigable', 'Animado', 'Alerta', 'Leal', 'Juguetón', 'Inteligente'],
+    temperament: [
+      'Amigable',
+      'Animado',
+      'Alerta',
+      'Leal',
+      'Juguetón',
+      'Inteligente',
+    ],
     origin: 'Estados Unidos',
     reference_image_id: 'B17ase9V7',
     image: {
@@ -8658,7 +10187,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Requiere socialización temprana', 'Requiere ejercicio moderado'],
+    necesidades_especiales: [
+      'Requiere socialización temprana',
+      'Requiere ejercicio moderado',
+    ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas dentales', 'Luxación de rótula'],
   },
@@ -8676,7 +10208,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza', 'Seguimiento', 'Deportes de campo'],
     breed_group: ['Sabueso'],
     life_span: '10 - 13 años',
-    temperament: ['Astuto', 'Cariñoso', 'Seguro', 'Inteligente', 'Amoroso', 'Adiestrable'],
+    temperament: [
+      'Astuto',
+      'Cariñoso',
+      'Seguro',
+      'Inteligente',
+      'Amoroso',
+      'Adiestrable',
+    ],
     origin: 'Estados Unidos',
     reference_image_id: 'SkRpsgc47',
     image: {
@@ -8685,7 +10224,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1080,
       url: 'https://cdn2.thedogapi.com/images/SkRpsgc47.jpg',
     },
-    searchTerms: ['Coonhound Walker de Árbol', 'Perro de caza', 'Perro adiestrable'],
+    searchTerms: [
+      'Coonhound Walker de Árbol',
+      'Perro de caza',
+      'Perro adiestrable',
+    ],
     country_code: 'US',
     description:
       'El Coonhound Walker de Árbol es un perro grande, inteligente y cariñoso. Son seguros y son muy adiestrables, lo que los hace excelentes para la caza y los deportes de campo. A pesar de su tamaño, son perros amorosos y hacen grandes mascotas para la familia.',
@@ -8704,9 +10247,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Requiere mucha actividad física', 'Requiere entrenamiento temprano'],
+    necesidades_especiales: [
+      'Requiere mucha actividad física',
+      'Requiere entrenamiento temprano',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Displasia de cadera', 'Otitis', 'Problemas de obesidad'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Otitis',
+      'Problemas de obesidad',
+    ],
   },
   160: {
     weight: {
@@ -8749,9 +10299,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Requiere mucha actividad física', 'Requiere socialización temprana'],
+    necesidades_especiales: [
+      'Requiere mucha actividad física',
+      'Requiere socialización temprana',
+    ],
     popularidad: 'Alta',
-    enfermedades_comunes: ['Displasia de cadera', 'Atrofia progresiva de retina', 'Epilepsia'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Atrofia progresiva de retina',
+      'Epilepsia',
+    ],
   },
   161: {
     weight: {
@@ -8767,7 +10324,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Rastreo de presas grandes', 'Perro de caza versátil'],
     breed_group: ['Deportivo'],
     life_span: '12 - 15 años',
-    temperament: ['Estable', 'Reservado', 'Obstinado', 'Energético', 'Alerta', 'Inteligente', 'Poderoso', 'Rápido'],
+    temperament: [
+      'Estable',
+      'Reservado',
+      'Obstinado',
+      'Energético',
+      'Alerta',
+      'Inteligente',
+      'Poderoso',
+      'Rápido',
+    ],
     origin: 'Alemania',
     reference_image_id: 'SyU12l9V7',
     image: {
@@ -8776,7 +10342,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 954,
       url: 'https://cdn2.thedogapi.com/images/SyU12l9V7.jpg',
     },
-    searchTerms: ['Weimaraner', 'Perro deportivo', 'Perro obstinado', 'Perro rápido'],
+    searchTerms: [
+      'Weimaraner',
+      'Perro deportivo',
+      'Perro obstinado',
+      'Perro rápido',
+    ],
     country_code: 'DE',
     description:
       'El Weimaraner es un perro de tamaño grande conocido por su inteligencia y energía. Son perros poderosos y rápidos, con un temperamento estable pero pueden ser reservados. Aunque son obstinados, son alertas y buenos perros de trabajo.',
@@ -8794,9 +10365,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Requiere mucha actividad física', 'Requiere socialización temprana'],
+    necesidades_especiales: [
+      'Requiere mucha actividad física',
+      'Requiere socialización temprana',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Displasia de cadera', 'Dilatación gástrica volvulus', 'Distiquiasis'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Dilatación gástrica volvulus',
+      'Distiquiasis',
+    ],
   },
   162: {
     weight: {
@@ -8812,7 +10390,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Desalojar y recuperar pájaros'],
     breed_group: ['Deportivo'],
     life_span: '12 - 15 años',
-    temperament: ['Obstinado', 'Amigable', 'Cariñoso', 'Leal', 'Juguetón', 'Activo'],
+    temperament: [
+      'Obstinado',
+      'Amigable',
+      'Cariñoso',
+      'Leal',
+      'Juguetón',
+      'Activo',
+    ],
     origin: 'Gales',
     reference_image_id: 'BJ1gnx5Vm',
     image: {
@@ -8821,7 +10406,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 944,
       url: 'https://cdn2.thedogapi.com/images/BJ1gnx5Vm.jpg',
     },
-    searchTerms: ['Springer Spaniel Galés', 'Perro deportivo', 'Perro obstinado', 'Perro juguetón'],
+    searchTerms: [
+      'Springer Spaniel Galés',
+      'Perro deportivo',
+      'Perro obstinado',
+      'Perro juguetón',
+    ],
     country_code: 'GB',
     description:
       'El Springer Spaniel Galés es un perro de tamaño mediano conocido por ser amigable, cariñoso y leal. A pesar de su temperamento a veces obstinado, es un perro muy juguetón y activo que disfruta desalojar y recuperar pájaros.',
@@ -8839,9 +10429,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Requiere mucha actividad física', 'Requiere socialización temprana'],
+    necesidades_especiales: [
+      'Requiere mucha actividad física',
+      'Requiere socialización temprana',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares', 'Otitis'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Problemas oculares',
+      'Otitis',
+    ],
   },
   163: {
     weight: {
@@ -8857,7 +10454,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza de zorros, tejones y ratas'],
     breed_group: ['Terrier'],
     life_span: '13 - 15 años',
-    temperament: ['Trabajador', 'Alegre', 'Amigable', 'Energético', 'Independiente'],
+    temperament: [
+      'Trabajador',
+      'Alegre',
+      'Amigable',
+      'Energético',
+      'Independiente',
+    ],
     origin: 'Escocia',
     reference_image_id: 'Bkdx2g5Em',
     image: {
@@ -8866,7 +10469,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1032,
       url: 'https://cdn2.thedogapi.com/images/Bkdx2g5Em.jpg',
     },
-    searchTerms: ['West Highland White Terrier', 'Terrier', 'Perro amigable', 'Perro independiente'],
+    searchTerms: [
+      'West Highland White Terrier',
+      'Terrier',
+      'Perro amigable',
+      'Perro independiente',
+    ],
     country_code: 'GB',
     description:
       'El West Highland White Terrier, también conocido como Westie, es un perro pequeño, energético y trabajador. Son conocidos por su pelaje blanco brillante, su naturaleza amigable y su independencia. Son excelentes cazadores de zorros, tejones y ratas.',
@@ -8884,9 +10492,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Requiere ejercicio y estimulación mental', 'Necesita un buen aseo debido a su pelaje blanco'],
+    necesidades_especiales: [
+      'Requiere ejercicio y estimulación mental',
+      'Necesita un buen aseo debido a su pelaje blanco',
+    ],
     popularidad: 'Alta',
-    enfermedades_comunes: ['Problemas de piel', 'Displasia de cadera', 'Enfermedad de Legg-Calvé-Perthes'],
+    enfermedades_comunes: [
+      'Problemas de piel',
+      'Displasia de cadera',
+      'Enfermedad de Legg-Calvé-Perthes',
+    ],
   },
   164: {
     weight: {
@@ -8902,7 +10517,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza de liebres', 'Carreras'],
     breed_group: ['Sabueso'],
     life_span: '12 - 15 años',
-    temperament: ['Amigable', 'Afectuoso', 'Vivaz', 'Gentil', 'Inteligente', 'Tranquilo'],
+    temperament: [
+      'Amigable',
+      'Afectuoso',
+      'Vivaz',
+      'Gentil',
+      'Inteligente',
+      'Tranquilo',
+    ],
     origin: 'Reino Unido',
     reference_image_id: 'Hyv-ne94m',
     image: {
@@ -8929,9 +10551,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: ['Requiere ejercicio y estimulación mental', 'Necesita un abrigo en climas fríos debido a su pelaje corto y delgado'],
+    necesidades_especiales: [
+      'Requiere ejercicio y estimulación mental',
+      'Necesita un abrigo en climas fríos debido a su pelaje corto y delgado',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Sensibilidad al frío', 'Problemas cardiacos', 'Problemas oculares'],
+    enfermedades_comunes: [
+      'Sensibilidad al frío',
+      'Problemas cardiacos',
+      'Problemas oculares',
+    ],
   },
   165: {
     weight: {
@@ -8947,7 +10576,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Pastoreo', 'Guardia', 'Servicio'], // Asumiendo por la raza
     breed_group: ['Pastor'], // Asumiendo por la raza
     life_span: '12 – 14 años', // Ya está en español
-    temperament: ['Seguro de sí mismo', 'Reservado', 'Intrépido', 'Alerta', 'Sociable', 'Entusiasta'], // Traducción de los adjetivos
+    temperament: [
+      'Seguro de sí mismo',
+      'Reservado',
+      'Intrépido',
+      'Alerta',
+      'Sociable',
+      'Entusiasta',
+    ], // Traducción de los adjetivos
     origin: 'Estados Unidos', // Asumiendo por la raza
     reference_image_id: 'r14M3e9E7',
     image: {
@@ -8963,15 +10599,27 @@ export const DOG_LIST: { [key: number]: Dog } = {
     history:
       'El Pastor Blanco proviene de los Pastores Alemanes de capa blanca. Fueron reconocidos como una raza distinta en los Estados Unidos en la década de 1970. Originalmente se criaron para tareas de pastoreo, pero su inteligencia y valentía los han hecho populares para otros roles como perros de servicio, perros de terapia, y perros de búsqueda y rescate.',
     categoria_de_tamanio: 'Grande',
-    perks: ['Excelente perro de servicio', 'Bueno para tareas de guardia', 'Inteligente y fácil de entrenar', 'Sociable y se lleva bien con las familias'],
+    perks: [
+      'Excelente perro de servicio',
+      'Bueno para tareas de guardia',
+      'Inteligente y fácil de entrenar',
+      'Sociable y se lleva bien con las familias',
+    ],
     color: ['Blanco'], // Los Pastores Blancos son, por definición, blancos
     nivel_de_energia: 'Alto', // Los Pastores Blancos son perros de trabajo activos
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Necesidad de ejercicio regular', 'Estimulación mental debido a su inteligencia'],
+    necesidades_especiales: [
+      'Necesidad de ejercicio regular',
+      'Estimulación mental debido a su inteligencia',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares', 'Alergias'], // Asumiendo por la raza
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Problemas oculares',
+      'Alergias',
+    ], // Asumiendo por la raza
   },
   166: {
     weight: {
@@ -8987,7 +10635,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza de alimañas', 'Correr a los zorros'], // Traducción de bred_for
     breed_group: ['Terrier'], // Asumiendo por la raza
     life_span: '13 – 14 años', // Ya está en español
-    temperament: ['Intrépido', 'Amigable', 'Audaz', 'Agudo', 'Alerta', 'Rápido'], // Traducción de los adjetivos
+    temperament: [
+      'Intrépido',
+      'Amigable',
+      'Audaz',
+      'Agudo',
+      'Alerta',
+      'Rápido',
+    ], // Traducción de los adjetivos
     origin: 'Inglaterra', // Traducción de "England"
     reference_image_id: 'SJ6f2g9EQ',
     image: {
@@ -9003,15 +10658,28 @@ export const DOG_LIST: { [key: number]: Dog } = {
     history:
       'El Fox Terrier de Pelo Duro tiene sus raíces en Inglaterra, donde fue criado para ayudar en la caza de zorros y alimañas. Esta raza se desarrolló para ser audaz y valiente, con la agudeza y la velocidad necesarias para seguir el ritmo de los caballos y los perros de caza. A lo largo de los años, su atractivo como perro de compañía ha crecido, gracias a su personalidad amigable y vivaz.',
     categoria_de_tamanio: 'Pequeño', // Basado en la altura y el peso
-    perks: ['Energético y juguetón', 'Bueno para cazar alimañas', 'Amigable y sociable', 'Inteligente y fácil de entrenar'],
+    perks: [
+      'Energético y juguetón',
+      'Bueno para cazar alimañas',
+      'Amigable y sociable',
+      'Inteligente y fácil de entrenar',
+    ],
     color: ['Blanco', 'Marrón', 'Negro'], // Los Fox Terrier de Pelo Duro suelen ser tricolores
     nivel_de_energia: 'Alto', // Los Fox Terrier son perros de trabajo activos
     facilidad_de_entrenamiento: 'Moderado', // Basado en la inteligencia y la personalidad independiente de la raza
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Necesidad de ejercicio regular', 'Estimulación mental debido a su inteligencia', 'Cuidado regular del pelaje'],
+    necesidades_especiales: [
+      'Necesidad de ejercicio regular',
+      'Estimulación mental debido a su inteligencia',
+      'Cuidado regular del pelaje',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Problemas dentales', 'Enfermedad de Legg-Calvé-Perthes', 'Luxación de rótula'], // Enfermedades comunes para la raza
+    enfermedades_comunes: [
+      'Problemas dentales',
+      'Enfermedad de Legg-Calvé-Perthes',
+      'Luxación de rótula',
+    ], // Enfermedades comunes para la raza
   },
   167: {
     weight: {
@@ -9024,7 +10692,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     id: 167,
     name: 'Grifón de Puntero de Pelo Duro',
-    bred_for: ['Perro de caza', 'Pantano', 'Localización', 'Puntero', 'Recuperación de aves acuáticas y de caza'],
+    bred_for: [
+      'Perro de caza',
+      'Pantano',
+      'Localización',
+      'Puntero',
+      'Recuperación de aves acuáticas y de caza',
+    ],
     breed_group: ['Deportivo'],
     life_span: '12 - 14 años',
     temperament: ['Leal', 'Gentil', 'Vigilante', 'Entrenable', 'Orgulloso'],
@@ -9036,20 +10710,34 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1604,
       url: 'https://cdn2.thedogapi.com/images/Bkam2l9Vm.jpg',
     },
-    searchTerms: ['Grifón de Puntero de Pelo Duro', 'Deportivo', 'Entrenable', 'Leal'],
+    searchTerms: [
+      'Grifón de Puntero de Pelo Duro',
+      'Deportivo',
+      'Entrenable',
+      'Leal',
+    ],
     country_code: 'FR',
     description:
       'El Grifón de Puntero de Pelo Duro es un perro de caza de tamaño mediano a grande. Se les conoce por su habilidad para localizar y recuperar aves en los entornos más difíciles. Son perros leales, gentiles y orgullosos, y también son altamente entrenables.',
     history:
       'El Grifón de Puntero de Pelo Duro es una raza de perro de origen francés que fue desarrollada para la caza en terrenos difíciles. Su pelo duro y resistente al agua lo hace particularmente bueno para trabajar en pantanos y áreas húmedas.',
     categoria_de_tamanio: 'Mediano',
-    perks: ['Excelente perro de caza', 'Muy entrenable', 'Bueno para trabajar en terrenos difíciles', 'Leal y amable'],
+    perks: [
+      'Excelente perro de caza',
+      'Muy entrenable',
+      'Bueno para trabajar en terrenos difíciles',
+      'Leal y amable',
+    ],
     color: ['Marrón', 'Gris', 'Blanco'], // Suponiendo, ya que estas son los colores más comunes de la raza
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Necesidad de ejercicio regular', 'Estimulación mental', 'Cuidado del pelaje'],
+    necesidades_especiales: [
+      'Necesidad de ejercicio regular',
+      'Estimulación mental',
+      'Cuidado del pelaje',
+    ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Atrofia retinal progresiva'],
   },
@@ -9083,13 +10771,22 @@ export const DOG_LIST: { [key: number]: Dog } = {
     history:
       'El Vizsla de Pelo Duro es una raza de perro que se desarrolló en Hungría para trabajar en diversos tipos de terreno, desde campos abiertos hasta zonas boscosas. Son valorados por su capacidad para localizar y recuperar presas, y son perros de caza muy versátiles.',
     categoria_de_tamanio: 'Mediano',
-    perks: ['Excelente perro de caza', 'Muy energético', 'Bueno para actividades al aire libre', 'Cariñoso y leal'],
+    perks: [
+      'Excelente perro de caza',
+      'Muy energético',
+      'Bueno para actividades al aire libre',
+      'Cariñoso y leal',
+    ],
     color: ['Marrón', 'Dorado', 'Russet'], // Suponiendo, ya que estas son los colores más comunes de la raza
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Necesidad de ejercicio regular', 'Estimulación mental', 'Cuidado del pelaje'],
+    necesidades_especiales: [
+      'Necesidad de ejercicio regular',
+      'Estimulación mental',
+      'Cuidado del pelaje',
+    ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Atrofia retinal progresiva'],
   },
@@ -9107,7 +10804,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Compañía', 'Caza de pequeños animales'], // Suponiendo, ya que son usados comúnmente para estos propósitos
     breed_group: ['No deportivo'],
     life_span: '12 - 14 años',
-    temperament: ['Alegre', 'Alerta', 'Sociable', 'Inteligente', 'Protector', 'Tranquilo'],
+    temperament: [
+      'Alegre',
+      'Alerta',
+      'Sociable',
+      'Inteligente',
+      'Protector',
+      'Tranquilo',
+    ],
     origin: 'México', // Es una raza de origen mexicano
     reference_image_id: 'HkNS3gqEm',
     image: {
@@ -9116,22 +10820,41 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1350,
       url: 'https://cdn2.thedogapi.com/images/HkNS3gqEm.jpg',
     },
-    searchTerms: ['Xoloitzcuintli', 'Perro Azteca', 'No deportivo', 'Alegre', 'Protector'],
+    searchTerms: [
+      'Xoloitzcuintli',
+      'Perro Azteca',
+      'No deportivo',
+      'Alegre',
+      'Protector',
+    ],
     country_code: 'MX',
     description:
       'El Xoloitzcuintli, también conocido como el perro azteca, es una raza de perro muy antigua conocida por ser alegre, alerta y protectora. Este perro es sociable y inteligente, y puede ser un excelente perro de compañía. Son animales tranquilos pero pueden ser protectores cuando se trata de su familia.',
     history:
       'El Xoloitzcuintli es una de las razas de perros más antiguas del mundo. Originario de México, este perro fue considerado sagrado por los aztecas, mayas, toltecas y otras civilizaciones precolombinas. Su nombre proviene de Xólotl, el dios azteca de la muerte y la resurrección, y "itzcuintli", que significa perro en náhuatl.',
     categoria_de_tamanio: 'Mediano',
-    perks: ['Bueno para compañía', 'Protector con su familia', 'Inteligente', 'Tranquilo'],
+    perks: [
+      'Bueno para compañía',
+      'Protector con su familia',
+      'Inteligente',
+      'Tranquilo',
+    ],
     color: ['Negro', 'Café', 'Rubio'], // Suponiendo, ya que estas son los colores más comunes de la raza
     nivel_de_energia: 'Moderado',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: ['Cuidado del pelaje', 'Protección solar', 'Estimulación mental'],
+    necesidades_especiales: [
+      'Cuidado del pelaje',
+      'Protección solar',
+      'Estimulación mental',
+    ],
     popularidad: 'Moderada',
-    enfermedades_comunes: ['Problemas dentales', 'Displasia de cadera', 'Alergias'],
+    enfermedades_comunes: [
+      'Problemas dentales',
+      'Displasia de cadera',
+      'Alergias',
+    ],
   },
   170: {
     weight: {
@@ -9147,7 +10870,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza de pequeñas plagas'],
     breed_group: ['Juguete'],
     life_span: '12 - 16 años',
-    temperament: ['Audaz', 'Independiente', 'Seguro', 'Inteligente', 'Valiente'],
+    temperament: [
+      'Audaz',
+      'Independiente',
+      'Seguro',
+      'Inteligente',
+      'Valiente',
+    ],
     origin: 'Inglaterra', // Esta raza es originaria de Inglaterra
     reference_image_id: 'B12BnxcVQ',
     image: {
@@ -9163,7 +10892,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     history:
       'El Yorkshire Terrier se originó en Inglaterra en el siglo XIX. Fueron criados para cazar pequeñas plagas en las minas y fábricas, y pronto se hicieron populares como mascotas debido a su pequeño tamaño y su audaz temperamento. Hoy en día, son una de las razas más queridas del mundo.',
     categoria_de_tamanio: 'Pequeño',
-    perks: ['Excelente cazador de pequeñas plagas', 'Inteligente', 'Valiente', 'Bueno para compañía'],
+    perks: [
+      'Excelente cazador de pequeñas plagas',
+      'Inteligente',
+      'Valiente',
+      'Bueno para compañía',
+    ],
     color: ['Azul', 'Fuego', 'Negro', 'Café'], // Estos son los colores más comunes de la raza
     nivel_de_energia: 'Moderado',
     facilidad_de_entrenamiento: 'Alto',
@@ -9171,7 +10905,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     compatibilidad_con_otros_animales: 'Moderada',
     necesidades_especiales: ['Cuidado del pelaje', 'Estimulación mental'],
     popularidad: 'Alta',
-    enfermedades_comunes: ['Problemas dentales', 'Luxación de rótula', 'Hipoglucemia'],
+    enfermedades_comunes: [
+      'Problemas dentales',
+      'Luxación de rótula',
+      'Hipoglucemia',
+    ],
   },
   171: {
     weight: {
@@ -9187,23 +10925,42 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bred_for: ['Caza de zorros'],
     breed_group: ['Terrier'],
     life_span: '12 - 14 años',
-    temperament: ['Intrépido', 'Amigable', 'Energético', 'Obediente', 'Inteligente', 'Feliz'],
+    temperament: [
+      'Intrépido',
+      'Amigable',
+      'Energético',
+      'Obediente',
+      'Inteligente',
+      'Feliz',
+    ],
     origin: 'Reino Unido',
     reference_image_id: 'perros-jack-russell.webp',
     image: {
       id: 'perros-jack-russell.webp',
       width: 1920,
       height: 1280,
-      url: 'https://esferamascota.b-cdn.net/perros-jack-russell.webp'
+      url: 'https://esferamascota.b-cdn.net/perros-jack-russell.webp',
     },
     searchTerms: ['Jack Russell', 'Terrier', 'Caza de zorros'],
     country_code: 'GB',
-    description: 'El Jack Russell Terrier es una raza pequeña, enérgica y extremadamente versátil. Son perros inteligentes, audaces y amigables con mucha personalidad.',
-    history: 'Originario de Inglaterra, se crió por primera vez a mediados del siglo XIX para cazar zorros. Su nombre se deriva de un reverendo llamado John "Jack" Russell, que era un entusiasta de la caza de zorros.',
-    necesidades_especiales: ['Necesita mucha actividad física y mental', 'Requiere entrenamiento constante'],
-    perks: ['No suele ladrar en exceso, a menos que esté aburrido o tenga energía acumulada', 'Necesita espacio para correr y jugar'],
+    description:
+      'El Jack Russell Terrier es una raza pequeña, enérgica y extremadamente versátil. Son perros inteligentes, audaces y amigables con mucha personalidad.',
+    history:
+      'Originario de Inglaterra, se crió por primera vez a mediados del siglo XIX para cazar zorros. Su nombre se deriva de un reverendo llamado John "Jack" Russell, que era un entusiasta de la caza de zorros.',
+    necesidades_especiales: [
+      'Necesita mucha actividad física y mental',
+      'Requiere entrenamiento constante',
+    ],
+    perks: [
+      'No suele ladrar en exceso, a menos que esté aburrido o tenga energía acumulada',
+      'Necesita espacio para correr y jugar',
+    ],
     color: ['Blanco', 'Negro', 'Tostado'], // Los colores son un ejemplo, pueden variar
-    enfermedades_comunes: ['Problemas oculares', 'Sordera', 'Displasia de cadera'],
+    enfermedades_comunes: [
+      'Problemas oculares',
+      'Sordera',
+      'Displasia de cadera',
+    ],
     compatibilidad_con_otros_animales: 'Moderada',
     categoria_de_tamanio: 'Pequeño',
     facilidad_de_entrenamiento: 'Moderado',
@@ -9220,19 +10977,25 @@ export const DOG_LIST: { [key: number]: Dog } = {
       imperial: '8 - 9',
       metric: '20 - 23',
     },
-    id: 172,  // Este es un ID de ejemplo, deberás reemplazarlo por el ID real
+    id: 172, // Este es un ID de ejemplo, deberás reemplazarlo por el ID real
     name: 'Dachshund (Perro Salchicha)',
     bred_for: ['Caza de tejones'],
     breed_group: ['Hound (Sabueso)'],
     life_span: '12 - 16 años',
-    temperament: ['Animado', 'Juguetón', 'Persistente', 'Valiente', 'Inteligente'],
+    temperament: [
+      'Animado',
+      'Juguetón',
+      'Persistente',
+      'Valiente',
+      'Inteligente',
+    ],
     origin: 'Alemania',
     reference_image_id: 'razas-perro-salchicha.webp',
     image: {
       id: 'razas-perro-salchicha.webp',
       width: 1920,
       height: 1280,
-      url: 'https://esferamascota.b-cdn.net/razas-perro-salchicha.webp'
+      url: 'https://esferamascota.b-cdn.net/razas-perro-salchicha.webp',
     },
     searchTerms: ['Perro Salchicha', 'Dachshund', 'Caza de tejones'],
     country_code: 'DE',
@@ -9253,8 +11016,15 @@ export const DOG_LIST: { [key: number]: Dog } = {
       La forma única del Dachshund fue cuidadosamente diseñada para ayudarlo en su función de caza. Su cuerpo largo y bajo les permitía adentrarse en las madrigueras de los tejones y su audaz temperamento les daba la valentía necesaria para enfrentarse a estos animales. Además, sus fuertes patas delanteras eran perfectas para excavar y sus pechos profundos proporcionaban una buena capacidad pulmonar, útil para su trabajo en las madrigueras.
       Con el tiempo, la raza se dividió en dos tamaños: el tamaño estándar, que continuó siendo utilizado para cazar tejones y jabalíes, y el tamaño miniatura, que se utilizó para cazar animales de madriguera más pequeños como conejos. La raza fue llevada a América en el siglo XIX, donde rápidamente se ganó la popularidad y el afecto del público.
       A lo largo de los años, los Dachshunds han demostrado ser mucho más que perros de caza. Han participado en numerosos roles, incluyendo perros de terapia, perros de servicio, e incluso han sido mascotas de famosos y de la realeza. Aunque su papel principal en la actualidad es el de compañero amado, los Dachshunds aún retienen su valentía, curiosidad y amor por la caza que los hicieron tan populares en primer lugar.`,
-    necesidades_especiales: ['Requiere mucho ejercicio', 'Necesita cuidados especiales debido a su espina dorsal larga'],
-    perks: ['Muy juguetón y enérgico', 'Bueno para la vida en apartamentos debido a su tamaño pequeño', 'Fuerte instinto de caza'],
+    necesidades_especiales: [
+      'Requiere mucho ejercicio',
+      'Necesita cuidados especiales debido a su espina dorsal larga',
+    ],
+    perks: [
+      'Muy juguetón y enérgico',
+      'Bueno para la vida en apartamentos debido a su tamaño pequeño',
+      'Fuerte instinto de caza',
+    ],
     color: ['Negro', 'Marrón', 'Bicolor'], // Los colores son un ejemplo, pueden variar
     enfermedades_comunes: ['Problemas de espalda', 'Obesidad'],
     compatibilidad_con_otros_animales: 'Moderada',
@@ -9266,29 +11036,33 @@ export const DOG_LIST: { [key: number]: Dog } = {
   },
   173: {
     weight: {
-        imperial: "70 - 115",
-        metric: "32 - 52"
+      imperial: '70 - 115',
+      metric: '32 - 52',
     },
     height: {
-        imperial: "23 - 27.5",
-        metric: "58 - 70"
+      imperial: '23 - 27.5',
+      metric: '58 - 70',
     },
     id: 173,
-    name: "Boyero de Berna",
-    bred_for: ["Pastoreo", "Tiro de cargas pesadas"],
-    breed_group: ["Grupo de trabajo"],
-    life_span: "6 - 8 años",
-    temperament: ["Amigable", "Inteligente", "Leal", "Tranquilo"],
-    origin: "Suiza",
-    reference_image_id: "razas-boyero-de-berna",
+    name: 'Boyero de Berna',
+    bred_for: ['Pastoreo', 'Tiro de cargas pesadas'],
+    breed_group: ['Grupo de trabajo'],
+    life_span: '6 - 8 años',
+    temperament: ['Amigable', 'Inteligente', 'Leal', 'Tranquilo'],
+    origin: 'Suiza',
+    reference_image_id: 'razas-boyero-de-berna',
     image: {
-        id: "razas-boyero-de-berna",
-        width: 1920,
-        height: 1280,
-        url: "https://esferamascota.b-cdn.net/razas-boyero-de-berna.webp"
+      id: 'razas-boyero-de-berna',
+      width: 1920,
+      height: 1280,
+      url: 'https://esferamascota.b-cdn.net/razas-boyero-de-berna.webp',
     },
-    searchTerms: ["Boyero de Berna", "Bernese Mountain Dog", "Perro de montaña"],
-    country_code: "CH",
+    searchTerms: [
+      'Boyero de Berna',
+      'Bernese Mountain Dog',
+      'Perro de montaña',
+    ],
+    country_code: 'CH',
     description: `
       El Boyero de Berna, conocido también como Bernese Mountain Dog, es una raza de perro grande y robusta originaria de Suiza. Con su pelaje tricolor denso y brillante, su expresión gentil y su temperamento amigable, estos perros son fácilmente reconocibles y muy queridos por muchos.
       El cuerpo del Boyero de Berna es fuerte y musculoso, diseñado para el trabajo duro. Su cabeza es plana en la parte superior con una frente moderada, y sus orejas medianas, triangulares y altas, se redondean ligeramente en los extremos. Sus ojos oscuros y brillantes expresan inteligencia y amabilidad.
@@ -9301,17 +11075,28 @@ export const DOG_LIST: { [key: number]: Dog } = {
       Con el tiempo, la industrialización redujo la necesidad de perros de trabajo, y la población de Boyeros de Berna disminuyó significativamente. Fue a principios del siglo XX cuando un criador llamado Franz Schertenleib trabajó para revivir la raza.
       Los Boyeros de Berna llegaron a Estados Unidos en 1926 y al Reino Unido en la década de 1970. Desde entonces, se han convertido en populares mascotas en todo el mundo, conocidas y amadas por su belleza, su temperamento amigable y su devoción a sus familias humanas.
     `,
-    necesidades_especiales: ["Necesita mucho ejercicio", "Cuidado regular del pelaje"],
-    perks: ["Bueno con los niños", "Bueno con otros animales", "Excelente perro de guardia"],
-    color: ["Negro", "Blanco", "Marrón"],
-    enfermedades_comunes: ["Displasia de cadera", "Displasia de codo", "Problemas cardíacos"],
+    necesidades_especiales: [
+      'Necesita mucho ejercicio',
+      'Cuidado regular del pelaje',
+    ],
+    perks: [
+      'Bueno con los niños',
+      'Bueno con otros animales',
+      'Excelente perro de guardia',
+    ],
+    color: ['Negro', 'Blanco', 'Marrón'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Displasia de codo',
+      'Problemas cardíacos',
+    ],
     compatibilidad_con_otros_animales: 'Alta',
     categoria_de_tamanio: 'Grande',
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     nivel_de_energia: 'Moderado',
     popularidad: 'Moderada',
-}
+  },
 };
 
 // Tenga en cuenta que los colores y las enfermedades comunes se seleccionaron basándose en la información generalmente asociada con estas razas. La información exacta puede variar y debería consultarse con un especialista en razas de perros o un veterinario para obtener información más precisa.

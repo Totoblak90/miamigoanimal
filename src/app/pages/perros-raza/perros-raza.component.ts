@@ -155,6 +155,128 @@ export class PerrosRazaComponent {
     return `progress progress__${popularidad[this.dog.popularidad]}`
   }
 
+  get tendenciaLadridoPercentage() {
+
+    type tendenciaLadrido = 'Baja' | 'Moderada' | 'Alta';
+
+    type tendenciaLadridoMap = {
+      [K in tendenciaLadrido]: number;
+    };
+
+    const tendenciaLadrido: tendenciaLadridoMap = {
+      'Baja': 33,
+      'Moderada': 66,
+      'Alta': 100
+    }
+
+    return `progress progress__${tendenciaLadrido[this.dog.tendencia_a_ladrar || 'Baja']}`
+  }
+
+  get necesidadDeAseoPercentage() {
+
+    type necesidadDeAseo = 'Baja' | 'Moderada' | 'Alta';
+
+    type necesidadDeAseoMap = {
+      [K in necesidadDeAseo]: number;
+    };
+
+    const necesidadDeAseo: necesidadDeAseoMap = {
+      'Baja': 33,
+      'Moderada': 66,
+      'Alta': 100
+    }
+
+    return `progress progress__${necesidadDeAseo[this.dog.necesidad_de_aseo || 'Baja']}`
+  }
+
+  get resistenciaAlCalorPercentage() {
+
+    type resistenciaAlCalor = 'Baja' | 'Moderada' | 'Alta';
+
+    type resistenciaAlCalorMap = {
+      [K in resistenciaAlCalor]: number;
+    };
+
+    const resistenciaAlCalor: resistenciaAlCalorMap = {
+      'Baja': 33,
+      'Moderada': 66,
+      'Alta': 100
+    }
+
+    return `progress progress__${resistenciaAlCalor[this.dog.soporta_clima_calido || 'Baja']}`
+  }
+
+  get resistenciaAlFrioPercentage() {
+
+    type resistenciaAlFrio = 'Baja' | 'Moderada' | 'Alta';
+
+    type resistenciaAlFrioMap = {
+      [K in resistenciaAlFrio]: number;
+    };
+
+    const resistenciaAlFrio: resistenciaAlFrioMap = {
+      'Baja': 33,
+      'Moderada': 66,
+      'Alta': 100
+    }
+
+    return `progress progress__${resistenciaAlFrio[this.dog.soporta_clima_frio || 'Baja']}`
+  }
+
+  get toleranciaSoledadPercentage() {
+
+    type toleranciaSoledad = 'Baja' | 'Moderada' | 'Alta' | '-';
+
+    type toleranciaSoledadMap = {
+      [K in toleranciaSoledad]: number;
+    };
+
+    const toleranciaSoledad: toleranciaSoledadMap = {
+      '-': 0,
+      'Baja': 33,
+      'Moderada': 66,
+      'Alta': 100
+    }
+
+    return `progress progress__${toleranciaSoledad[this.dog.tolerancia_a_la_soledad || '-']}`
+  }
+
+  get relacionNinosPercentage() {
+
+    type relacionNinos = 'Baja' | 'Moderada' | 'Alta' | '-';
+
+    type relacionNinosMap = {
+      [K in relacionNinos]: number;
+    };
+
+    const relacionNinos: relacionNinosMap = {
+      '-': 0,
+      'Baja': 33,
+      'Moderada': 66,
+      'Alta': 100
+    }
+
+    return `progress progress__${relacionNinos[this.dog.bueno_con_ninos || '-']}`
+  }
+
+  get recomendacionPrimerizosPercentage() {
+
+    type recomendacionPrimerizos = 'Baja' | 'Moderada' | 'Alta' | '-';
+
+    type recomendacionPrimerizosMap = {
+      [K in recomendacionPrimerizos]: number;
+    };
+
+    const recomendacionPrimerizos: recomendacionPrimerizosMap = {
+      '-': 0,
+      'Baja': 33,
+      'Moderada': 66,
+      'Alta': 100
+    }
+
+    return `progress progress__${recomendacionPrimerizos[this.dog.para_primerizos || '-']}`
+  }
+
 
 
   constructor(private activatedRoute: ActivatedRoute, private perrosService: PerrosService, private metaService: MetaService) {

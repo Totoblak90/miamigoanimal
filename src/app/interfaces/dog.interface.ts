@@ -18,24 +18,38 @@ export interface Dog {
   perks:                                 string[];
   color:                                 string[];
   enfermedades_comunes:                  string[];
+  para_primerizos?:                       'Baja' | 'Moderada' | 'Alta' | '-';
+  bueno_con_ninos?:                       'Baja' | 'Moderada' | 'Alta' | '-';
   compatibilidad_con_otros_animales:     'Baja' | 'Moderada' | 'Alta';
   categoria_de_tamanio:                  'Muy pequeño' | 'Pequeño' | 'Mediano' | 'Grande' | 'Muy grande';
   facilidad_de_entrenamiento:            'Bajo' | 'Moderado' | 'Alto';
   salud_general:                         'Excelente' | 'Buena' | 'Regular' | 'Mala';
   nivel_de_energia:                      'Bajo' | 'Moderado' | 'Alto';
   popularidad:                           'Baja' | 'Moderada' | 'Alta';
+  tendencia_a_ladrar?:                    'Baja' | 'Moderada' | 'Alta';
+  necesidad_de_aseo?:                     'Baja' | 'Moderada' | 'Alta';
+  soporta_clima_frio?:                    'Baja' | 'Moderada' | 'Alta';
+  soporta_clima_calido?:                  'Baja' | 'Moderada' | 'Alta';
+  tolerancia_a_la_soledad?:               'Baja' | 'Moderada' | 'Alta' | '-';
+  casos_famosos?:                         PerrosFamosos[];
+  fuentes?:                                string[];
 }
 
-export class Measurement {
-  imperial?: string;
-  metric?:   string;
+export interface Measurement {
+  imperial: string;
+  metric:   string;
 }
 
-export class Image {
-  id?:     string;
-  width?:  number;
-  height?: number;
-  url?:    string;
+export interface Image {
+  id:     string;
+  width:  number;
+  height: number;
+  url:    string;
+}
+
+export interface PerrosFamosos {
+  nombre: string;
+  caso: string;
 }
 
   // Para los objetos que me pasarás, de acuerdo a la interfaz Dog que hemos discutido, deberás hacer lo siguiente:
@@ -67,3 +81,92 @@ export class Image {
   // El objeto debe ser devuelto en formato typescript, es decir, con la sintaxis de typescript.
 
   // El objeto con el que hay q trabajar es el siguiente:
+
+
+/**
+
+PROMPT PARA SOLO descripcion
+
+Si no te menciono la raza de perro no respondas nada, solo mencioname q no te la mencione y listo.
+Estoy trabajando en la raza de perro "".
+
+Necesito una descripción detallada de esta raza. Asegúrate de que la información que proveas sea precisa y verídica. Es MUY IMPORTANTE que los textos que me proporciones sean muy extensos, brindando toda la información posible ya que esta información va a ser la información de la raza en mi blog.
+
+No cites solamente una fuente, cita varias fuentes de internet si es posible, te paso un par de opciones: "https://en.wikipedia.org/", "https://www.akc.org/dog-breeds/", "https://www.royalcanin.com/", "https://www.dogbreedinfo.com", "https://www.ukcdogs.com". Podes de consultar otras fuentes de relevancia que vos conozcas. También agrega información que vos tengas. ES MUY IMPORTANTE QUE LE PONGAS TU IMPORTNTA AL TEXTO Y NO COPIES Y PEGUES LO QUE SACASTE DE LAS FUENTES!!!
+
+VUELVO A INSISTIR QUE LA DESCRIPCIÓN DE LA RAZA DEBE SER MUY MUY LARGA. ES INDISPENSABLE!!!
+
+Escribí el texto de manera tal que el usuario quede cautivado por el mismo y le den muchas ganas de continuar leyendo.
+Retorname la descripción en formato de texto unicamente
+
+*/
+
+/**
+
+PROMPT PARA SOLO HISTORIA
+
+Si no te menciono la raza de perro no respondas nada, solo mencioname q no te la mencione y listo.
+Estoy trabajando en la raza de perro "".
+
+Necesito la historia de esta raza. Asegúrate de que la información que proveas sea precisa y verídica. Es MUY IMPORTANTE que los textos que me proporciones sean muy extensos, brindando toda la información posible ya que esta información va a ser la información de la raza en mi blog.
+
+No cites solamente una fuente, cita varias fuentes de internet si es posible, te paso un par de opciones: "https://en.wikipedia.org/", "https://www.akc.org/dog-breeds/", "https://www.royalcanin.com/", "https://www.dogbreedinfo.com", "https://www.ukcdogs.com". Podes de consultar otras fuentes de relevancia que vos conozcas. También agrega información que vos tengas de la historia. ES MUY IMPORTANTE QUE LE PONGAS TU IMPORTNTA AL TEXTO Y NO COPIES Y PEGUES LO QUE SACASTE DE LAS FUENTES!!!
+
+VUELVO A INSISTIR QUE LA HISTORIA DE LA RAZA DEBE SER MUY MUY LARGA. ES INDISPENSABLE!!!
+
+Escribí el texto de manera tal que el usuario quede cautivado por el mismo y le den muchas ganas de continuar leyendo.
+Retorname la historia en formato de texto unicamente
+
+*/
+
+/**
+
+PROMPT PARA CARACTERÍSTICAS
+
+Necesito que, para acelerar mi trabajo, toda la información me la retornes en el formto de typescript que te solicito más abajo.
+
+Si no te menciono la raza de perro no respondas nada, solo mencioname q no te la mencione y listo.
+Estoy trabajando en la raza de perro "".
+
+No cites solamente una fuente, cita varias fuentes de internet si es posible, te paso un par de opciones: "https://en.wikipedia.org/", "https://www.akc.org/dog-breeds/", "https://www.royalcanin.com/", "https://www.dogbreedinfo.com", "https://www.ukcdogs.com". Podes de consultar otras fuentes de relevancia que vos conozcas. También agrega información que vos tengas de la raza. ES MUY IMPORTANTE QUE LE PONGAS TU IMPORTNTA AL TEXTO Y NO COPIES Y PEGUES LO QUE SACASTE DE LAS FUENTES!!!
+
+Agregame términos de búsqueda para la raza del perro. Para los términos de búsqueda tené en cuenta todas las diferentes formas que se te ocurran que una persona puede buscar esa raza, un caso sería que si el nombre de la raza es con tilde, pongas dentro de los términos de búsqueda el nombre de la raza con tilde y sin tilde para preveer los errores ortográficos, también agrega todas las formas coloquiales y los posibles errores ortográficos con los que se puede buscar a esa raza en un buscador. Fijate de agregar palabras con las que se puede reconocer a la raza como por ejemplo su grupo de trabajo o para que fue creada la raza tambien si es terrier podes agregarlo, etc. No te preocupes por mayúsculas y minúsculas por que cuando el usuario hace una búsqueda yo ya me encargo de pasar todo a minúscula, enfocate en las formas coloquiales de llamar a la raza y los posibles errores ortográficos. IMPORTANTE EN CUANTO A LOS TÉRMINOS DE BÚSQUEDA, NO COLOQUES MÁS DE 30 DE ELLOS EN EL ARRAY Y LOS TÉRMINOS DE BÚSQUEDA DEBEN ESTAR ÚNICAMENTE EN CASTELLANO!!!
+
+Además, necesito completar los siguientes campos:
+
+Tendencia a ladrar: ¿Es baja, moderada o alta?
+Necesidad de aseo: ¿Es baja, moderada o alta?
+Soporta clima frío: ¿Es baja, moderada o alta?
+Soporta calor: ¿Es baja, moderada o alta?
+Tolerancia a la soledad: ¿Es baja, moderada o alta?
+Recomendado para primerizos: ¿Es baja, moderada o alta?
+recomendado para niños:  ¿Es baja, moderada o alta?
+
+También quiero que me agregues, si es que conoces, perros famosos de la raza.
+El formato en que me vas a devolver la información de perros famosos de la raza es un array de objetos de typescript ordenado de la siguiente manera:
+
+casos_famosos: [
+  {
+    nombre: string,
+    caso: string
+  }
+]
+
+Por último quiero que agregues en un array de strings las urls de las fuentes que fuiste a visitar para conseguir la información (si es que se da el caso)
+
+
+¡¡IMPORTANTE TAMBIÉN!!  --> retorname todo en formato de objeto de typescript con las siguientes propiedades:
+{
+  searchTerms: string[]
+  tendencia_a_ladrar: 'Baja' | 'Moderada' | 'Alta'
+  necesidad_de_aseo:  'Baja' | 'Moderada' | 'Alta'
+  soporta_clima_frio:  'Baja' | 'Moderada' | 'Alta'
+  soporta_clima_calido:  'Baja' | 'Moderada' | 'Alta'
+  para_primerizos:  'Baja' | 'Moderada' | 'Alta'
+  bueno_con_ninos:  'Baja' | 'Moderada' | 'Alta'
+  tolerancia_a_la_soledad:  'Baja' | 'Moderada' | 'Alta'
+  casos_famosos: [{nombre: string, caso:string}] o un array vacío si no se encontraron casos
+  fuentes: string[]
+}
+
+*/

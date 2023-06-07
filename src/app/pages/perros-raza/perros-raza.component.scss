@@ -30,4 +30,46 @@
 
 }
 
+.navigation {
+
+  @include respond(tab-port) {
+      width: 100%;
+      text-align: center;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+      display: inline-block;
+
+      &:not(:last-child) {
+          margin-right: 1.5rem;
+      }
+
+      &:last-child {
+        display: block;
+      }
+  }
+
+  &__link {
+      &:link,
+      &:visited {
+          color: $color-grey-dark;
+          text-decoration: none;
+          text-transform: uppercase;
+          display: inline-block;
+          transition: all .2s;
+      }
+
+      &:hover,
+      &:active {
+          color: $color-grey-dark-3;
+          font-weight: 700;
+          box-shadow: 0 1rem 2rem rgba($color-black, .4);
+      }
+  }
+}
+
 

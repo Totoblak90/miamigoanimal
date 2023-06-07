@@ -1,17 +1,30 @@
-import { Component, Input } from '@angular/core';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'index',
   templateUrl: './index.component.html',
-  styleUrls: ['./index.component.scss']
+  styleUrls: ['./index.component.scss'],
 })
-export class IndexComponent {
+export class IndexComponent implements OnInit {
+  titleList: HTMLHeadingElement[] = [];
 
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {}
 
-  @Input() titleList: HTMLHeadingElement[] = []
-
-  scrollTo(element: HTMLHeadingElement) {
-    element.scrollIntoView({behavior: "smooth"});
+  ngOnInit(): void {
+    if (isPlatformBrowser(this.platformId)) {
+      this.titleList = Array.from(this.document.getElementsByTagName('h2'));
+    }
   }
 
+  scrollTo(element: HTMLHeadingElement) {
+    if (isPlatformBrowser(this.platformId)) {
+
+        element.scrollIntoView({ behavior: 'auto' });
+
+    }
+  }
 }

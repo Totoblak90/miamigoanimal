@@ -1,5 +1,4 @@
-import { DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
 
@@ -13,18 +12,9 @@ export class AdoptaALosGatitosMasTiernosYJuguetonesEncuentraTuCompaneroFelinoIde
   title = 'Adopta a los gatitos más tiernos y juguetones. Encuentra tu compañero felino ideal'
   description = 'Adopta a los gatitos más tiernos y juguetones con nuestra guía. Encuentra tu compañero felino ideal y conoce sus personalidades. ¡Descúbrelo ya!'
 
-  get titleList() {
-    if (isPlatformBrowser(this.platformId)) {
-      return Array.from(this.document.getElementsByTagName('h2'))
-    }
-    return [];
-  }
-
   constructor(
     private meta: MetaService,
     private navigationService: NavigationService,
-    @Inject(DOCUMENT) private document: Document,
-    @Inject(PLATFORM_ID) private platformId: Object
   ) {
     this.meta.setMetaTags(this.title, this.description)
     this.navigationService.navigationBg.set('cat');
