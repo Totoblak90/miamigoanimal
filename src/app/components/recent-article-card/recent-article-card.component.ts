@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { PerrosService } from 'src/app/services/perros.service';
 import { UtilitiesService } from 'src/app/services/utilities.service';
 
 @Component({
@@ -14,10 +15,38 @@ export class RecentArticleCardComponent implements OnInit {
 
   selectedImage: string = '';
 
-  constructor(private utilitiesSrv: UtilitiesService) {}
+  constructor(private utilitiesSrv: UtilitiesService, private perrosService: PerrosService) {}
 
   ngOnInit() {
-    this.selectedImage =  this.utilitiesSrv.selectImage( this.type )
+    if (this.type === 'dog') {  return this.setDogBreedImage() }
+    else if (this.type === 'cat') { return this.setCatBreedImage() }
+    else { return this.selectedImage =  this.utilitiesSrv.selectImage( this.type ) }
+
+  }
+
+  private setDogBreedImage() {
+    const perrosList = Object.values(this.perrosService.dogListSignal());
+
+    // Elimina los signos de puntuación del título
+    const titleWithoutPunctuation = this.title.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+
+    for (let i = 0; i < perrosList.length; i++)
+    {
+      if (
+        titleWithoutPunctuation.includes(perrosList[i].name.toLowerCase()) ||
+        perrosList[i].searchTerms.some(term => titleWithoutPunctuation.includes(term.toLowerCase()))
+      )
+      {
+        this.selectedImage = this.utilitiesSrv.selectImage( this.type, perrosList[i].image.url )
+        break
+      }
+    }
+
+    if (!this.selectedImage) { this.selectedImage = this.utilitiesSrv.selectImage( this.type ) }
+  }
+
+  private setCatBreedImage() {
+
   }
 
 }

@@ -13,10 +13,6 @@ export class LastArticlesComponent {
 
   get arrangedArticles() {
     return this.allArticles
-          .map(article => {
-            article.creation = new Date(article.creation)
-            return article;
-          })
           .filter(article =>  {
 
             // Solo incluir el artículo si todas las categorías de filtro están presentes
@@ -32,7 +28,7 @@ export class LastArticlesComponent {
 
             return false // No incluir este artículo
           })
-          .sort((a, b) => a.creation > b.creation ? 1 : -1)
+          .sort((a, b) => new Date(a.creation) > new Date(b.creation) ? 1 : -1)
           .slice(0, 6)
   }
 

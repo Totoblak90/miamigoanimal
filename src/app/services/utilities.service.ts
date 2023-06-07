@@ -47,7 +47,6 @@ export class UtilitiesService {
         color = 'linear-gradient(to right bottom, rgba(211, 211, 211, 0.7), rgba(105, 105, 105, 0.7))';
         break;
       default:
-        console.log(this.extraImage)
         return `linear-gradient(to right bottom, rgba(85, 197, 122, 0.5), rgba(126, 213, 111, 0.5)), url(${this.extraImage})`;
     }
 

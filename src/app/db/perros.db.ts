@@ -9189,11 +9189,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     life_span: '12 - 14 años',
     temperament: ['Intrépido', 'Amigable', 'Energético', 'Obediente', 'Inteligente', 'Feliz'],
     origin: 'Reino Unido',
-    reference_image_id: '', // Esto deberá ser reemplazado por el ID real
+    reference_image_id: 'perros-jack-russell.webp',
     image: {
-      id: '', // Esto deberá ser reemplazado por el ID real
-      width: 0,  // Esto deberá ser reemplazado por el valor real
-      height: 0, // Esto deberá ser reemplazado por el valor real
+      id: 'perros-jack-russell.webp',
+      width: 1920,
+      height: 1280,
       url: 'https://esferamascota.b-cdn.net/perros-jack-russell.webp'
     },
     searchTerms: ['Jack Russell', 'Terrier', 'Caza de zorros'],
@@ -9210,7 +9210,108 @@ export const DOG_LIST: { [key: number]: Dog } = {
     salud_general: 'Buena',
     nivel_de_energia: 'Alto',
     popularidad: 'Alta',
-  }
+  },
+  172: {
+    weight: {
+      imperial: '16 - 32',
+      metric: '7 - 15',
+    },
+    height: {
+      imperial: '8 - 9',
+      metric: '20 - 23',
+    },
+    id: 172,  // Este es un ID de ejemplo, deberás reemplazarlo por el ID real
+    name: 'Dachshund (Perro Salchicha)',
+    bred_for: ['Caza de tejones'],
+    breed_group: ['Hound (Sabueso)'],
+    life_span: '12 - 16 años',
+    temperament: ['Animado', 'Juguetón', 'Persistente', 'Valiente', 'Inteligente'],
+    origin: 'Alemania',
+    reference_image_id: 'razas-perro-salchicha.webp',
+    image: {
+      id: 'razas-perro-salchicha.webp',
+      width: 1920,
+      height: 1280,
+      url: 'https://esferamascota.b-cdn.net/razas-perro-salchicha.webp'
+    },
+    searchTerms: ['Perro Salchicha', 'Dachshund', 'Caza de tejones'],
+    country_code: 'DE',
+    description: `El Dachshund, también conocido como "Perro Salchicha" debido a su aspecto único, es una raza de perro muy amada y reconocible a nivel mundial.
+      Originarios de Alemania, estos perros son famosos por su personalidad animada y su pequeño tamaño. Sin embargo, no te dejes engañar por su tamaño:
+      son perros valientes y decididos con un espíritu enorme. Los Dachshunds son perros de bajo cuerpo, cortos en estatura, con patas cortas y un tronco alargado.
+      Sus cabezas son largas y estrechas, con orejas colgantes a los lados, lo que les da una apariencia de alerta.
+      Su piel es tensa y su pelaje puede ser corto, largo o duro, dependiendo de la variedad, y viene en una amplia gama de colores y patrones.
+      El temperamento de los Dachshunds puede describirse como amigable, curioso y valiente.
+      Son conocidos por ser perros juguetones y les encanta participar en juegos y actividades con sus dueños.
+      Sin embargo, también tienen una fuerte tendencia a la obstinación, por lo que la paciencia puede ser clave al entrenarlos.
+      Aunque son pequeños, los Dachshunds tienen una gran voz y no dudarán en usarla cuando sientan la necesidad de proteger su hogar.
+      Dadas sus necesidades de ejercicio moderado, los Dachshunds pueden ser una buena elección para la vida en apartamentos,
+      siempre y cuando se les proporcione suficiente estimulación física y mental. Su pelaje de mantenimiento bajo también es una ventaja para los propietarios
+      que buscan un perro que no requiera mucha preparación. Sin embargo, su cuerpo alargado puede ser propenso a problemas de espalda,
+      por lo que es importante tener cuidado al manejarlos y asegurarse de que mantienen un peso saludable.`,
+    history: `El Dachshund es una raza con una rica y fascinante historia. Su origen se remonta a Alemania en el siglo XV, donde fueron criados por cazadores para rastrear y cazar tejones. Su nombre, de hecho, proviene de las palabras alemanas "Dachs", que significa tejón, y "Hund", que significa perro.
+      La forma única del Dachshund fue cuidadosamente diseñada para ayudarlo en su función de caza. Su cuerpo largo y bajo les permitía adentrarse en las madrigueras de los tejones y su audaz temperamento les daba la valentía necesaria para enfrentarse a estos animales. Además, sus fuertes patas delanteras eran perfectas para excavar y sus pechos profundos proporcionaban una buena capacidad pulmonar, útil para su trabajo en las madrigueras.
+      Con el tiempo, la raza se dividió en dos tamaños: el tamaño estándar, que continuó siendo utilizado para cazar tejones y jabalíes, y el tamaño miniatura, que se utilizó para cazar animales de madriguera más pequeños como conejos. La raza fue llevada a América en el siglo XIX, donde rápidamente se ganó la popularidad y el afecto del público.
+      A lo largo de los años, los Dachshunds han demostrado ser mucho más que perros de caza. Han participado en numerosos roles, incluyendo perros de terapia, perros de servicio, e incluso han sido mascotas de famosos y de la realeza. Aunque su papel principal en la actualidad es el de compañero amado, los Dachshunds aún retienen su valentía, curiosidad y amor por la caza que los hicieron tan populares en primer lugar.`,
+    necesidades_especiales: ['Requiere mucho ejercicio', 'Necesita cuidados especiales debido a su espina dorsal larga'],
+    perks: ['Muy juguetón y enérgico', 'Bueno para la vida en apartamentos debido a su tamaño pequeño', 'Fuerte instinto de caza'],
+    color: ['Negro', 'Marrón', 'Bicolor'], // Los colores son un ejemplo, pueden variar
+    enfermedades_comunes: ['Problemas de espalda', 'Obesidad'],
+    compatibilidad_con_otros_animales: 'Moderada',
+    categoria_de_tamanio: 'Pequeño',
+    facilidad_de_entrenamiento: 'Moderado',
+    salud_general: 'Buena',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Alta',
+  },
+  173: {
+    weight: {
+        imperial: "70 - 115",
+        metric: "32 - 52"
+    },
+    height: {
+        imperial: "23 - 27.5",
+        metric: "58 - 70"
+    },
+    id: 173,
+    name: "Boyero de Berna",
+    bred_for: ["Pastoreo", "Tiro de cargas pesadas"],
+    breed_group: ["Grupo de trabajo"],
+    life_span: "6 - 8 años",
+    temperament: ["Amigable", "Inteligente", "Leal", "Tranquilo"],
+    origin: "Suiza",
+    reference_image_id: "razas-boyero-de-berna",
+    image: {
+        id: "razas-boyero-de-berna",
+        width: 1920,
+        height: 1280,
+        url: "https://esferamascota.b-cdn.net/razas-boyero-de-berna.webp"
+    },
+    searchTerms: ["Boyero de Berna", "Bernese Mountain Dog", "Perro de montaña"],
+    country_code: "CH",
+    description: `
+      El Boyero de Berna, conocido también como Bernese Mountain Dog, es una raza de perro grande y robusta originaria de Suiza. Con su pelaje tricolor denso y brillante, su expresión gentil y su temperamento amigable, estos perros son fácilmente reconocibles y muy queridos por muchos.
+      El cuerpo del Boyero de Berna es fuerte y musculoso, diseñado para el trabajo duro. Su cabeza es plana en la parte superior con una frente moderada, y sus orejas medianas, triangulares y altas, se redondean ligeramente en los extremos. Sus ojos oscuros y brillantes expresan inteligencia y amabilidad.
+      Este perro es conocido por su personalidad tranquila, su lealtad y su deseo de complacer. Son excelentes con los niños y se llevan bien con otros animales. Aunque pueden ser un poco reservados con los extraños, no son naturalmente agresivos.
+      El Boyero de Berna necesita mucho ejercicio, y le encantará acompañarte en largas caminatas o sesiones de juego en el jardín. Sin embargo, también disfrutan de sus momentos de relax y son felices durmiendo a tus pies después de un día activo.
+    `,
+    history: `
+      La historia del Boyero de Berna está íntimamente ligada a las regiones montañosas de Suiza. Se cree que son descendientes de los mastines traidos a Suiza por los romanos hace más de 2000 años.
+      Estos perros se hicieron indispensables para los granjeros suizos, quienes los utilizaban como perros de trabajo. Su fuerza y resistencia les permitía conducir el ganado, tirar de carros y actuar como perros de guardia.
+      Con el tiempo, la industrialización redujo la necesidad de perros de trabajo, y la población de Boyeros de Berna disminuyó significativamente. Fue a principios del siglo XX cuando un criador llamado Franz Schertenleib trabajó para revivir la raza.
+      Los Boyeros de Berna llegaron a Estados Unidos en 1926 y al Reino Unido en la década de 1970. Desde entonces, se han convertido en populares mascotas en todo el mundo, conocidas y amadas por su belleza, su temperamento amigable y su devoción a sus familias humanas.
+    `,
+    necesidades_especiales: ["Necesita mucho ejercicio", "Cuidado regular del pelaje"],
+    perks: ["Bueno con los niños", "Bueno con otros animales", "Excelente perro de guardia"],
+    color: ["Negro", "Blanco", "Marrón"],
+    enfermedades_comunes: ["Displasia de cadera", "Displasia de codo", "Problemas cardíacos"],
+    compatibilidad_con_otros_animales: 'Alta',
+    categoria_de_tamanio: 'Grande',
+    facilidad_de_entrenamiento: 'Moderado',
+    salud_general: 'Buena',
+    nivel_de_energia: 'Moderado',
+    popularidad: 'Moderada',
+}
 };
 
 // Tenga en cuenta que los colores y las enfermedades comunes se seleccionaron basándose en la información generalmente asociada con estas razas. La información exacta puede variar y debería consultarse con un especialista en razas de perros o un veterinario para obtener información más precisa.
