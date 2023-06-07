@@ -317,7 +317,22 @@ export const DOG_LIST: { [key: number]: Dog } = {
     `,
 
     history: `
-
+      La historia del Airedale Terrier es fascinante y rica, y se remonta a mediados del siglo XIX en el valle del río Aire en el sur de Yorkshire, Inglaterra. Originalmente conocidos como Working, Waterside o Bingley Terriers, estos perros fueron desarrollados para cazar una variedad de pequeños animales, incluyendo zorros, tejones, comadrejas, nutrias y ratas de río.
+      <br>
+      <br>
+      Los primeros Airedales eran bastante diferentes a los que conocemos hoy. Se cree que la raza se desarrolló a partir de una mezcla de Otterhound y el ahora extinto Black & Tan Terrier. La intención era crear un perro que fuera un buen nadador y un cazador eficaz. El resultado fue un perro de tamaño considerable, de hecho, el Airedale es el más grande de todos los terriers.
+      <br>
+      <br>
+      El patriarca de la raza se considera que es CH Master Briar (1897-1906). Dos de sus hijos, Crompton Marvel y Monarch, también hicieron importantes contribuciones a la raza. Monarch fue importado a Filadelfia, Pensilvania, marcando el comienzo de la presencia de la raza en los Estados Unidos.
+      <br>
+      <br>
+      Además de su papel como cazador de pequeños animales, el Airedale ha sido utilizado para cazar animales de gran tamaño en India, África y Canadá. La raza también fue utilizada como perro de policía y guardia durante la Segunda Guerra Mundial. Hoy en día, el Airedale es principalmente un perro de compañía, pero todavía hay líneas de trabajo en existencia.
+      <br>
+      <br>
+      El Airedale Terrier fue reconocido por el United Kennel Club en 1914, consolidando su lugar en la historia canina. A lo largo de los años, la raza ha demostrado ser increíblemente versátil, adaptándose a una variedad de roles y trabajos. Ya sea como perro de caza, perro de trabajo, perro de policía o simplemente como un fiel compañero, el Airedale Terrier ha demostrado ser un perro digno de su título como "El Rey de los Terriers".
+      <br>
+      <br>
+      En resumen, la historia del Airedale Terrier es una de adaptabilidad y versatilidad. Desde sus humildes comienzos en Yorkshire hasta su estatus actual como una raza de perro amada en todo el mundo, el Airedale Terrier ha demostrado ser un perro verdaderamente excepcional. Con su inteligencia, coraje y lealtad, no es de extrañar que esta raza haya dejado una marca indeleble en la historia canina.
     `,
     categoria_de_tamanio: 'Mediano',
     perks: [
@@ -390,10 +405,33 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Akbash', 'Guardia de ovejas'],
     country_code: 'TR',
-    description:
-      'El Akbash es una raza de perro de gran tamaño, conocida por su pelaje blanco puro y su apariencia majestuosa. Los machos pueden pesar hasta 60 kilogramos y alcanzar una altura de 86 centímetros, mientras que las hembras son ligeramente más pequeñas. Esta raza es conocida por su inteligencia, valentía y lealtad, así como por su instinto protector. Aunque pueden ser reservados con los extraños, los Akbash son generalmente amables y afectuosos con su familia. Son perros activos que requieren ejercicio regular, pero también son conocidos por su naturaleza tranquila y su capacidad para adaptarse a una variedad de entornos. Su pelaje denso y de longitud media requiere un mantenimiento regular para mantenerlo en buen estado. Aunque son perros robustos y saludables, pueden ser propensos a ciertas condiciones de salud, como la displasia de cadera y problemas de tiroides.      ',
-    history:
-      'Se cree que el Akbash es una de las razas de perros más antiguas que existen, con una historia que se remonta a más de tres mil años. Originarios de Turquía, los Akbash fueron criados originalmente para ser perros pastores. Su pelaje blanco les permitía mezclarse con las ovejas que estaban protegiendo, y su tamaño e inteligencia les permitían defender eficazmente su rebaño de los depredadores. A lo largo de los siglos, la raza se ha mantenido relativamente pura, con pocos cambios en su apariencia o temperamento. Los Akbash fueron introducidos en América del Norte en la década de 1970, donde han ganado popularidad tanto como perros de trabajo como de compañía.',
+    description: `
+      El Akbash, también conocido como Akbaş Çoban Köpeği, es una raza de perro de pastor tradicional de Turquía, específicamente de la región de Anatolia occidental. El nombre Akbash significa 'cabeza blanca', lo que distingue a este perro del Karabaş, o 'cabeza negra'. Fue reconocido por el Ministerio de Agricultura y Asuntos Rurales de Turquía en 2006 y está bajo la tutela de la Köpek Irkları ve Kinoloji Federasyonu, la sociedad de razas de perros turcos, aunque no es reconocido por la Fédération Cynologique Internationale.
+      <br>
+      <br>
+      El Akbash es un perro grande y poderoso, con un peso medio de aproximadamente 45 kg y una altura media a la cruz de poco más de 75 cm. Su pelaje puede ser largo o de longitud media, siempre doble y generalmente blanco, aunque puede tener algunas sombras hacia un color galleta. Al igual que otros perros guardianes de rebaños de pelaje blanco, el pelaje blanco hace que sea fácil para el pastor distinguir entre el perro y un depredador, incluso en la oscuridad. Hay una considerable pluma detrás de las patas, y la cola está muy emplumada.
+      <br>
+      <br>
+      El Akbash es un perro guardián de rebaños, proporcionando protección contra los depredadores a los pastores y a sus ovejas; no tiene ninguna capacidad de pastoreo. Se distribuye principalmente en las provincias de Afyon, Ankara, Eskişehir y Manisa; algunos están presentes en las provincias de Ağrı, Konya, Sivas y Tunceli.
+      <br>
+      <br>
+      Un estándar fue publicado por la Institución de Normas Turcas en 2002, y en 2006 el Akbash fue reconocido por el Ministerio de Agricultura y Asuntos Rurales; fue añadido a la lista de razas y tipos nativos reconocidos, y el estándar de la raza fue publicado en el Resmi Gazete, el boletín oficial del gobierno.
+    `,
+    history: `
+      La historia del Akbash, también conocido como Akbaş Çoban Köpeği en turco, es tan antigua como la de la propia Turquía. Esta raza de perro pastor, cuyo nombre significa 'cabeza blanca', se originó en la región de Anatolia occidental, una zona de terreno accidentado que ha sido hogar de civilizaciones durante miles de años. El Akbash se distingue de la raza Karabaş, que significa 'cabeza negra'.
+      <br>
+      <br>
+      El Akbash ha sido utilizado tradicionalmente como perro guardián de rebaños, protegiendo a las ovejas de los depredadores en las duras condiciones de Anatolia. Su distribución principal se encuentra en las provincias de Afyon, Ankara, Eskişehir y Manisa, aunque también se pueden encontrar algunos ejemplares en las provincias de Ağrı, Konya, Sivas y Tunceli.
+      <br>
+      <br>
+      El estándar de la raza fue publicado por la Institución de Estándares Turcos en 2002, y en 2006 el Akbash fue reconocido por el Ministerio de Agricultura y Asuntos Rurales de Turquía. Fue añadido a la lista de razas y tipos nativos reconocidos, y el estándar de la raza fue publicado en el Resmi Gazete, el boletín oficial del gobierno.
+      <br>
+      <br>
+      El Akbash es un perro grande y poderoso, con un peso medio de aproximadamente 45 kg y una altura media a la cruz de poco más de 75 cm. Su pelaje puede ser largo o de longitud media, siempre doble y generalmente blanco, aunque puede presentar algunas sombras hacia un color galleta. Al igual que otros perros guardianes de rebaños de pelaje blanco, el pelaje blanco facilita al pastor distinguir entre el perro y un depredador, incluso en la oscuridad. Hay un considerable plumaje detrás de las patas, y la cola está muy emplumada.
+      <br>
+      <br>
+      A pesar de su apariencia imponente y su historia como protector de rebaños, el Akbash no tiene ninguna habilidad para el pastoreo. Su función principal es la de proteger a las ovejas de los depredadores, una tarea que ha desempeñado con eficacia durante siglos en las duras condiciones de Anatolia.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente perro de guardia',
@@ -425,6 +463,9 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bueno_con_ninos: '-',
     para_primerizos: '-',
     casos_famosos: [],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Akbash",
+    ]
   },
   6: {
     weight: {
@@ -461,10 +502,39 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     searchTerms: ['Akita', 'perro de caza', 'caza de osos'],
     country_code: 'JP',
-    description:
-      'El Akita es un perro de doble capa, musculoso, de antiguo linaje japonés, famoso por su dignidad, coraje y lealtad. En su tierra natal, son venerados como protectores de la familia y símbolos de buena salud, felicidad y larga vida. Los Akitas son perros de tipo spitz, robustos y de huesos pesados, de estatura imponente. De pie, miden de 24 a 28 pulgadas en el hombro, y tienen un pelaje denso que viene en varios colores, incluyendo el blanco. La cabeza es amplia y masiva, y está equilibrada en la parte trasera por una cola completa que se curva sobre sí misma. Las orejas erectas y los ojos oscuros y brillantes contribuyen a una expresión de alerta, una característica distintiva de la raza. Los Akitas son perros tranquilos y meticulosos. Desconfiados de los extraños y a menudo intolerantes con otros animales, los Akitas compartirán con gusto su lado tonto y afectuoso con la familia y los amigos. Prosperan con la compañía humana. El gran Akita, de pensamiento independiente, está programado para proteger a aquellos a quienes ama. Deben ser socializados desde el nacimiento con personas y otros perros.',
-    history:
-      'El Akita es una raza de perro que se originó en Japón. Se cree que la raza ha existido desde el siglo XVII, y que fue desarrollada originalmente para cazar osos, ciervos y jabalíes. Durante muchos años, solo los nobles podían poseer la raza. En el siglo XIX, la raza estuvo cerca de la extinción debido a las cruzas con otras razas de perros. Sin embargo, a principios del siglo XX, se hicieron esfuerzos para preservar la raza pura, y en 1931, el Akita fue declarado un monumento natural de Japón. Durante la Segunda Guerra Mundial, la raza estuvo nuevamente en peligro debido a la escasez de alimentos, y los perros fueron sacrificados para usar su piel para la ropa. Después de la guerra, la raza fue nuevamente preservada y se hizo popular en todo el mundo. Hoy en día, el Akita es una raza de perro popular y se le conoce por su lealtad y su naturaleza protectora.',
+    description: `
+      El Akita es una raza de perro que se distingue por su nobleza y su apariencia imponente. Originario de Japón, el Akita es una raza grande, de huesos pesados y tipo spitz, que es robusta y bien equilibrada. Su cabeza es amplia y triangular, con ojos pequeños y orejas erectas que se llevan hacia adelante casi en línea con la parte posterior del cuello, lo que es una característica distintiva de la raza.
+      <br>
+      <br>
+      El Akita tiene un pelaje doble, con un subpelo grueso y corto y un pelaje exterior recto y áspero que se levanta un poco del cuerpo. El pelo en la cabeza, las patas inferiores y las orejas es corto. El pelaje sobre la cruz y la grupa es ligeramente más largo que en el resto del cuerpo, y en la cola es el más largo y más profuso.
+      <br>
+      <br>
+      El Akita puede ser de cualquier color, incluyendo blanco. Los colores son brillantes y claros, y las marcas están bien equilibradas, con o sin máscara o blaze. Los Akitas blancos no tienen máscara. Los pintos tienen un fondo blanco con grandes parches uniformemente colocados que cubren la cabeza y más de un tercio del cuerpo. El subpelo puede ser de un color diferente al del pelaje exterior.
+      <br>
+      <br>
+      El Akita es amigable, alerta y receptivo, con un comportamiento digno y valiente. Su cabeza es masiva, pero en proporción al tamaño del cuerpo. Cuando el perro está relajado, la cabeza está libre de arrugas. Los ojos son de color marrón oscuro, relativamente pequeños, profundos y casi triangulares. Los bordes de los ojos son negros y ajustados. La nariz es negra y amplia. El color hígado está permitido en los Akitas blancos, pero se prefiere el negro.
+      <br>
+      <br>
+      El Akita necesita un ejercicio moderado pero regular para mantenerse en forma. Debe ser llevado a largos paseos diarios. La esperanza de vida del Akita es de unos 10-12 años. La raza es propensa a la displasia de cadera, tanto hipotiroidismo como tiroiditis autoinmune, enfermedades inmunológicas como VKH y Pemphigus, problemas de piel como SA y ojos (PRA, Micro, entropión) patella y otros problemas con la rodilla.
+      <br>
+      <br>
+      El Akita es una raza que requiere un dueño que pueda proporcionarle un liderazgo firme y consistente. Sin ello, el perro puede ser muy voluntarioso y puede volverse muy agresivo con otros perros y animales. Necesita un entrenamiento firme desde cachorro. El objetivo en el entrenamiento de este perro es lograr un estatus de líder de la manada. Es un instinto natural para un perro tener un orden en su manada. Cuando los humanos vivimos con perros, nos convertimos en su manada. Toda la manada coopera bajo un solo líder. Las líneas están claramente definidas. Tú y todos los demás humanos DEBEN estar más arriba en el orden que el perro. Esa es la única manera de que tu relación pueda ser un éxito.
+    `,
+    history: `
+      La historia del Akita es una que se remonta a siglos atrás, en la isla de Honshu en la región de Akita, Japón. Esta raza es la más grande de las razas nativas de Japón y es miembro de la familia Spitz. Originalmente se utilizaba para la caza de osos, pero en un punto de la historia, se cruzó con Tosas y Mastiffs para aumentar su tamaño y valor como perro de pelea. Cuando las peleas de perros fueron prohibidas en 1908, la raza fue preservada y mejorada como una gran raza japonesa.
+      <br>
+      <br>
+      Durante la Segunda Guerra Mundial, la raza estuvo cerca de desaparecer, y después de la guerra, debido al cruce de razas, los Akitas que quedaron eran de tres tipos distintos. Los Akitas de las líneas Dewa, que tenían características de los cruces con Mastiffs y Pastores Alemanes, fueron llevados a los Estados Unidos por miembros de las Fuerzas Militares. Estos perros fascinaron a los aficionados a los perros estadounidenses y la raza aumentó rápidamente en popularidad. Los Akitas en los Estados Unidos se desarrollaron como un tipo único en este país y ahora son bastante diferentes de la raza en su país de origen.
+      <br>
+      <br>
+      El Akita Inu es considerado un perro nacional de Japón y es una de las siete razas designadas como Monumento Natural. La raza ha tenido muchos usos, como el trabajo policial y militar, un perro guardián (gobierno y civil), un perro de pelea, un cazador de osos y ciervos y un perro de trineo. El Akita Inu es un versátil perro de caza, capaz de cazar en condiciones climáticas inclementes. La boca suave del Akita hace posible que trabaje como perro de recuperación de aves acuáticas. El perro es considerado sagrado y un amuleto de buena suerte en el país de Japón. Pequeñas estatuas del Akita Inu a menudo se dan a los nuevos padres después de que nacen los bebés como un gesto de buena salud y a las personas enfermas como un gesto de una pronta recuperación.
+      <br>
+      <br>
+      En 1937, el primer Akita, llamado Kamikaze-go, fue llevado a los Estados Unidos por Helen Keller. El perro fue un regalo que le dieron durante su viaje a la Prefectura de Akita. Kamikaze-go murió de distemper canino poco después de que ella lo adoptó. En julio de 1938, otro Akita llamado Kenzan-go, que era el hermano mayor de su primer Akita, le fue dado como un regalo oficial del gobierno japonés. Después de la Segunda Guerra Mundial, muchos militares trajeron perros Akita Inu a los Estados Unidos.
+      <br>
+      <br>
+      Existen dos tipos de Akitas, la raza original japonesa Akita y ahora una designación separada para los Akitas estándar estadounidenses. Los pesos y tamaños son diferentes y el estándar estadounidense permite una máscara negra, mientras que el estándar de la raza original japonesa no la permite.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente perro de guardia',
@@ -505,6 +575,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
         caso: "Taro y Jiro son dos Akitas que se hicieron famosos por su supervivencia en la Antártida. Fueron parte de una expedición japonesa en 1958, y cuando la expedición tuvo que ser evacuada debido a las duras condiciones climáticas, los perros fueron dejados atrás con la esperanza de que el equipo de relevo los recogiera. Sin embargo, debido a las dificultades logísticas, los perros quedaron abandonados. Increíblemente, Taro y Jiro lograron sobrevivir en la Antártida por casi un año hasta que fueron encontrados por una expedición de rescate. Su historia fue contada en la película 'Eight Below'.",
       },
     ],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Akita_(dog)",
+      "https://www.akc.org/dog-breeds/akita/",
+      "https://www.royalcanin.com/us/dogs/breeds/breed-library/akita",
+      "https://www.dogbreedinfo.com/akita.htm",
+      "https://www.ukcdogs.com/akita",
+    ]
   },
   7: {
     weight: {
@@ -536,11 +613,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       url: 'https://cdn2.thedogapi.com/images/33mJ-V3RX.jpg',
     },
     searchTerms: ['Bulldog Alapaha de Sangre Azul', 'bulldog', 'guardia'],
-    description:
-      'El Bulldog Alapaha de Sangre Azul es una raza fuertemente desarrollada y exagerada, con una cabeza ancha y orejas caídas de forma natural. Su prominente hocico está cubierto por labios superiores flojos. Los ojos prominentes están bien separados. Su pelaje es relativamente corto y bastante rígido. Los colores preferidos son merle azul, merle marrón o merle rojo, todos complementados con blanco o chocolate y blanco. También se prefieren los ojos de cristal (azules) o los ojos de mármol (marrón y azul mezclados en un solo ojo). Las orejas y la cola nunca se cortan. Su cuerpo es robusto y muy musculoso. Sus caderas bien musculadas son más estrechas que su pecho. Su espalda recta tiene la misma longitud que la altura del perro en los hombros. Las uñas delanteras nunca se retiran y las patas son similares a las de un gato.',
+    description:`
+      El Bulldog Alapaha de Sangre Azul es una raza de perro que se distingue por su fuerza, agilidad y resistencia. Este perro de tamaño mediano a grande es conocido por su apariencia musculosa y su expresión alerta y segura. El Alapaha es un perro de trabajo que se utiliza para trabajar con el ganado y como perro de guardia.
+      <br>
+      <br>
+      El Alapaha tiene una cabeza cuadrada y ancha con ojos de forma ovalada que pueden ser de cualquier color. Las orejas son de tamaño mediano y se llevan dobladas. El cuerpo es ligeramente más largo que alto y tiene una estructura ósea sólida. El pecho es amplio y profundo y la espalda es fuerte y recta. La cola es de longitud media y se lleva baja.
+      <br>
+      <br>
+      El pelaje del Alapaha es corto y denso, y puede ser de cualquier color, aunque los colores más comunes son el blanco y el negro, el blanco y el chocolate, el blanco y el azul, y el blanco y el rojo. El Alapaha puede tener marcas en la cara y el cuerpo.
+      <br>
+      <br>
+      El Alapaha es conocido por su temperamento leal y protector. Es un perro inteligente y altamente entrenable que es conocido por su amor y devoción hacia su familia. Aunque puede ser reservado con los extraños, el Alapaha es generalmente amigable y se lleva bien con los niños. Sin embargo, debido a su naturaleza protectora, el Alapaha necesita un dueño que pueda proporcionarle un liderazgo firme y consistente.
+      <br>
+      <br>
+      El Alapaha es un perro activo que necesita mucho ejercicio para mantenerse en forma. Disfruta de actividades como correr, jugar a buscar y participar en deportes caninos como la obediencia y la agilidad. Aunque el Alapaha puede vivir en un apartamento si se le proporciona suficiente ejercicio, se adapta mejor a una casa con un patio grande donde pueda correr y jugar.
+      <br>
+      <br>
+      En cuanto a la salud, el Alapaha es generalmente una raza saludable, pero puede ser propenso a ciertas condiciones de salud como la displasia de cadera, las alergias y los problemas oculares. Es importante que los dueños de Alapaha se aseguren de que su perro reciba chequeos regulares con el veterinario y mantenga una dieta y un estilo de vida saludables.
+      <br>
+      <br>
+      En resumen, el Bulldog Alapaha de Sangre Azul es una raza de perro que es conocida por su fuerza, su lealtad y su habilidad para trabajar. Con su apariencia imponente y su temperamento protector, el Alapaha es un perro de trabajo y un compañero de familia excepcional.
+    `,
     country_code: 'US',
-    history:
-      'El Bulldog Alapaha de Sangre Azul es una raza rara que se cree que desciende de los Bulldogs Ingleses Antiguos que fueron llevados a las Américas en el siglo XVIII, donde se utilizaron en los deportes de sangre de la pelea de toros y la pelea de osos; más tarde se utilizaron como pastores de ganado y cerdos. Durante varias generaciones, la raza fue criada exclusivamente por la familia Lane de Rebecca, Georgia. Eventualmente comenzaron un registro de la raza con un perro llamado Otto, el perro fundador de la operación de cría de la familia. El nombre del perro se ha utilizado ocasionalmente como apodo para la raza. A principios del siglo XXI, se estimaba que existían entre 120 y 150 Bulldogs Alapaha de Sangre Azul.',
+    history: `
+      La historia del Bulldog Alapaha de Sangre Azul es tan fascinante como la raza misma. Esta raza de perro, también conocida como Alapaha Blue Blood Bulldog, tiene sus raíces en el sur de los Estados Unidos, específicamente en la región de Alapaha, Georgia.
+      <br>
+      <br>
+      El Bulldog Alapaha de Sangre Azul es una raza que ha sido criada para ser un perro de trabajo y de compañía. Su historia se remonta a mediados del siglo XIX, cuando los colonos en el sur de Georgia necesitaban un perro que pudiera trabajar en las granjas y plantaciones. Necesitaban un perro que fuera fuerte, resistente y capaz de soportar el calor del sur de Georgia. Así nació el Bulldog Alapaha de Sangre Azul.
+      <br>
+      <br>
+      La raza fue desarrollada por un hombre llamado Papa Buck Lane en el siglo XIX. Lane quería un perro que fuera capaz de trabajar en su plantación, pero también quería un perro que fuera leal y protector con su familia. Así que comenzó a criar Bulldogs Ingleses con Bulldogs locales para crear una raza que cumpliera con estas características. El resultado fue el Bulldog Alapaha de Sangre Azul.
+      <br>
+      <br>
+      Desafortunadamente, después de la muerte de Lane en 1943, la raza estuvo al borde de la extinción. Sin embargo, gracias a los esfuerzos de Lana Lou Lane, la nieta de Papa Buck Lane, la raza fue salvada. Lana Lou Lane continuó con el legado de su abuelo y trabajó incansablemente para preservar y promover la raza. Fundó la Alapaha Blue Blood Bulldog Association en 1979 para ayudar a preservar la raza.
+      <br>
+      <br>
+      Hoy en día, el Bulldog Alapaha de Sangre Azul es una raza rara, pero está ganando popularidad gracias a su lealtad, su fuerza y su habilidad para trabajar. Aunque la raza fue desarrollada en Georgia, ahora se pueden encontrar Bulldogs Alapaha de Sangre Azul en todo el mundo.
+      <br>
+      <br>
+      Es importante destacar que, aunque la raza ha sido reconocida por varias organizaciones de registro de perros, todavía no ha sido reconocida por el American Kennel Club (AKC). Sin embargo, los esfuerzos para obtener el reconocimiento del AKC están en marcha.
+      <br>
+      <br>
+      En resumen, la historia del Bulldog Alapaha de Sangre Azul es una historia de perseverancia y dedicación. A pesar de los desafíos, esta raza ha sobrevivido y prosperado gracias a los esfuerzos de personas apasionadas que se preocupan profundamente por su supervivencia. Y aunque la raza todavía es relativamente desconocida, su popularidad está creciendo y su futuro parece brillante.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de guardia',
@@ -572,6 +687,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Alapaha_Blue_Blood_Bulldog",
+      "https://www.akc.org/dog-breeds/alapaha-blue-blood-bulldog/"
+    ]
   },
   8: {
     weight: {
@@ -610,11 +729,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Husky Alaskano',
       'Huski Alaskano',
     ],
-    description:
-      'El Husky de Alaska es una raza de perro de trineo de tamaño mediano, desarrollado específicamente por su rendimiento como tal. Los Huskies de Alaska son el tipo de perro más comúnmente utilizado para las carreras de trineo de perros competitivas, tanto en carreras de sprint de corta distancia como en carreras de expedición de larga distancia como la Iditarod Trail Sled Dog Race, la Yukon Quest y la Finnmarkslopet. A diferencia de las razas desarrolladas para el ring de exhibición, el Husky de Alaska es un producto de la selección cuidadosa de rasgos deseables de perros de trineo de varias otras razas, como la aptitud para tirar, la resistencia, la velocidad, la inteligencia, el apetito y la tolerancia al clima extremo. Como resultado de esta cría específica y consciente basada sólo en el rendimiento, los estudios de ADN muestran que los Huskies de Alaska comparten una firma genética y de hecho pueden ser identificados con precisión en las pruebas de raza de ADN.',
+    description: `
+      El Husky de Alaska es una raza de perro que se destaca por su apariencia similar a la del lobo y su increíble resistencia. Estos perros son más grandes y más delgados que sus primos, los Huskies Siberianos, y a menudo tienen ojos marrones en lugar de los ojos azules o de color mixto que se ven comúnmente en los Siberianos.
+      <br>
+      <br>
+      Estos perros son conocidos por su naturaleza amigable y juguetona. Son muy apegados a sus familias y son conocidos por ser amables y juguetones. Aunque tienen mucha energía, especialmente cuando son cachorros, son perros inteligentes y cariñosos que son fáciles de llevar. Sin embargo, también son muy independientes y sólo obedecerán una orden si ven que tiene sentido. Por lo tanto, es importante establecer un liderazgo firme y consistente desde el principio.
+      <br>
+      <br>
+      Los Huskies de Alaska son perros de trabajo y tienen una resistencia increíble, lo que los hace excelentes para las carreras de trineos. Son perros muy activos que necesitan mucho ejercicio y espacio para correr. Aunque pueden adaptarse a la vida en un apartamento si se les proporciona suficiente ejercicio, lo ideal es que tengan un gran patio con una cerca alta para correr y jugar.
+      <br>
+      <br>
+      Estos perros tienen un pelaje espeso que los protege del frío, lo que significa que prefieren los climas más fríos. También son conocidos por ser comedores frugales y no necesitan tanta comida como se podría pensar. Son propensos a vagar y a cavar, por lo que es importante asegurarse de que su patio esté bien asegurado.
+      <br>
+      <br>
+      Los Huskies de Alaska son perros maravillosos que pueden hacer grandes compañeros si se les proporciona el ejercicio y la estimulación mental que necesitan. Son perros inteligentes y amigables que son leales a sus familias y se llevan bien con otros perros si se crían juntos desde cachorros.
+      <br>
+      <br>
+      En cuanto a su apariencia, los machos suelen pesar entre 18 y 27 kg, mientras que las hembras suelen pesar entre 16 y 22 kg. Tienen un pelaje espeso que requiere poco cuidado, excepto durante las temporadas de muda pesada, cuando necesitan ser peinados a fondo.
+      <br>
+      <br>
+      En cuanto a su salud, no se mencionan problemas de salud específicos para la raza en las fuentes consultadas. Sin embargo, como con cualquier raza, es importante llevar a cabo chequeos regulares con un veterinario y mantener al día las vacunas y los tratamientos preventivos.
+      <br>
+      <br>
+      En resumen, el Husky de Alaska es un perro de trabajo resistente y leal que es amigable y juguetón. Son perros inteligentes y independientes que necesitan un dueño que pueda proporcionarles un liderazgo firme y consistente, así como mucho ejercicio y estimulación mental. Con el cuidado y la atención adecuados, pueden hacer maravillosos compañeros de familia.
+    `,
     country_code: 'US',
-    history:
-      'A medida que los comerciantes y colonos europeos llegaron a Alaska, buscaron entretenimiento local y se volcaron a las carreras del medio de transporte local, los perros de trineo. Los perros indígenas encontrados en todo Alaska eran famosos por su gran fuerza y resistencia, pero carecían de velocidad, por lo que se utilizaron varios cruces con razas del Viejo Mundo más rápidas para producir perros de carrera más rápidos, incluyendo importaciones siberianas que dominaban las carreras organizadas localmente en Alaska. Desde principios del siglo XX, varios criadores han recurrido a varios cruces para producir diferentes líneas de perros de carrera. La mayoría de las líneas hoy en día contienen alguna forma de herencia de husky tradicional en sus líneas de sangre, siendo los Malamutes de Alaska y los Huskies Siberianos los más comunes, aunque también se han utilizado los Huskies del Río Mackenzie, los Perros de Groenlandia y los Samoyeds.',
+    history: `
+      La historia del Husky de Alaska es tan fascinante como la raza misma. Los Huskies de Alaska son una raza de perros de trineo que se originó en el norte de América, específicamente en Alaska. Aunque no se sabe exactamente cuándo se desarrolló esta raza, se cree que los nativos americanos los han utilizado durante miles de años para tirar de sus trineos y ayudar en la caza.
+      <br>
+      <br>
+      Los Huskies de Alaska son el resultado de la cría selectiva de varios tipos de perros de trineo para obtener un perro que fuera resistente, fuerte y capaz de soportar las duras condiciones del Ártico. A lo largo de los años, los Huskies de Alaska han demostrado ser perros de trabajo excepcionales, capaces de recorrer largas distancias a alta velocidad mientras tiran de un trineo.
+      <br>
+      <br>
+      Aunque los Huskies de Alaska son conocidos principalmente como perros de trineo, también han demostrado ser excelentes perros de trabajo en otros aspectos. Durante la fiebre del oro de Klondike a finales del siglo XIX, los Huskies de Alaska fueron utilizados para transportar suministros a las áreas de minería de oro. También se utilizaron durante la Segunda Guerra Mundial para transportar suministros en áreas donde otros medios de transporte no eran prácticos.
+      <br>
+      <br>
+      A pesar de su historia como perros de trabajo, los Huskies de Alaska también son conocidos por su temperamento amigable y su habilidad para llevarse bien con las personas. Son conocidos por ser leales, inteligentes y tener una gran energía, lo que los hace excelentes compañeros para las personas activas.
+      <br>
+      <br>
+      En la actualidad, los Huskies de Alaska siguen siendo utilizados como perros de trineo en muchas partes del mundo. También son populares como mascotas y son conocidos por su apariencia distintiva, que incluye un pelaje espeso y ojos que pueden ser de color azul o marrón.
+      <br>
+      <br>
+      Aunque los Huskies de Alaska son una raza de perro relativamente rara, han tenido un impacto significativo en la cultura popular. Han aparecido en varias películas y programas de televisión, y son a menudo asociados con la imagen del "perro de trineo" clásico.
+      <br>
+      <br>
+      En resumen, la historia del Husky de Alaska es una de resistencia, versatilidad y lealtad. Ya sea tirando de trineos a través del Ártico, transportando suministros durante la fiebre del oro o simplemente siendo un compañero leal, los Huskies de Alaska han demostrado ser una raza de perro verdaderamente excepcional.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Bueno para el clima frío',
@@ -647,7 +807,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     para_primerizos: 'Baja',
     bueno_con_ninos: 'Alta',
     casos_famosos: [],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Alaskan_Husky",
+      "https://www.akc.org/dog-breeds/",
+      "https://www.akc.org/dog-breeds/alaskan-malamute/",
+      "https://www.royalcanin.com/us/dogs/breeds/breed-library/alaskan-malamute",
+      "https://www.dogbreedinfo.com/alaskanhusky.htm",
+      "https://www.ukcdogs.com/alaskan-husky"
+    ]
   },
+  // Hasta el 8 llegue con las descripciones e historias largas
   9: {
     weight: {
       imperial: '65 - 100',
@@ -7766,7 +7935,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       metric: '38 - 48',
     },
     id: 116,
-    name: 'Antiguo Bulldog Inglés',
+    name: 'Bulldog Inglés',
     bred_for: ['Guardia', 'Compañía'], // Datos suplementarios, ya que esta raza es conocida por ser una excelente mascota y guardián
     breed_group: ['Molosoide'], // Grupo de razas al que pertenece
     life_span: '9 – 14 años',
@@ -10978,7 +11147,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       metric: '20 - 23',
     },
     id: 172, // Este es un ID de ejemplo, deberás reemplazarlo por el ID real
-    name: 'Dachshund (Perro Salchicha)',
+    name: 'Perro Salchicha',
     bred_for: ['Caza de tejones'],
     breed_group: ['Hound (Sabueso)'],
     life_span: '12 - 16 años',
@@ -10997,7 +11166,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1280,
       url: 'https://esferamascota.b-cdn.net/razas-perro-salchicha.webp',
     },
-    searchTerms: ['Perro Salchicha', 'Dachshund', 'Caza de tejones'],
+    searchTerms: ['Perro Salchicha', 'Dachshund', 'Caza de tejones', 'Teckel'],
     country_code: 'DE',
     description: `El Dachshund, también conocido como "Perro Salchicha" debido a su aspecto único, es una raza de perro muy amada y reconocible a nivel mundial.
       Originarios de Alemania, estos perros son famosos por su personalidad animada y su pequeño tamaño. Sin embargo, no te dejes engañar por su tamaño:

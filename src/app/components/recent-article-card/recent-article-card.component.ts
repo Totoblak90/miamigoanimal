@@ -32,10 +32,7 @@ export class RecentArticleCardComponent implements OnInit {
 
     for (let i = 0; i < perrosList.length; i++)
     {
-      if (
-        titleWithoutPunctuation.includes(perrosList[i].name.toLowerCase()) ||
-        perrosList[i].searchTerms.some(term => titleWithoutPunctuation.includes(term.toLowerCase()))
-      )
+      if ( titleWithoutPunctuation.includes(perrosList[i].name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase()) )
       {
         this.selectedImage = this.utilitiesSrv.selectImage( this.type, perrosList[i].image.url )
         break
@@ -46,7 +43,7 @@ export class RecentArticleCardComponent implements OnInit {
   }
 
   private setCatBreedImage() {
-
+    return this.selectedImage =  this.utilitiesSrv.selectImage( this.type )
   }
 
 }

@@ -287,8 +287,6 @@
           <span [class]="recomendacionPrimerizosPercentage" ></span>
         </span>
       </div>
-
-      <hr class="u-margin-bottom-medium" *ngIf="!dog.casos_famosos?.length">
     </div>
 
     <div *ngIf="dog.casos_famosos?.length" class="u-margin-bottom-medium">
@@ -300,10 +298,10 @@
       <div *ngFor="let caso of dog.casos_famosos">
         <p class="paragraph"><strong>"{{ caso.nombre }}"</strong></p>
         <p class="paragraph">{{ caso.caso }}</p>
-        <hr class="u-margin-bottom-small">
       </div>
     </div>
 
+    <hr class="u-margin-bottom-medium">
     <ng-container *ngIf="dog.fuentes?.length">
       <nav class="navigation">
         <h3 class="heading-tertiary u-margin-bottom-small">Fuentes</h3>
@@ -327,6 +325,7 @@
         y fueron revisados, traducidos y mejorados por inteligencia artificial
       </span>
     </ng-template>
+    <hr class="u-margin-top-medium">
 
   </section>
 
