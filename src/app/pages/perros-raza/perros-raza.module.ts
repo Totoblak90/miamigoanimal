@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { PerrosRazaRoutingModule } from './perros-raza-routing.module';
 import { PerrosRazaComponent } from './perros-raza.component';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { PerrosRazaComponent } from './perros-raza.component';
   ],
   imports: [
     CommonModule,
-    PerrosRazaRoutingModule
+    PerrosRazaRoutingModule,
+    ComponentsModule
   ]
 })
 export class PerrosRazaModule { }

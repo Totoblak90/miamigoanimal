@@ -14,16 +14,16 @@ export interface Dog {
   country_code:                          string;
   description:                           string;
   history:                               string;
-  categoria_de_tamanio:                  'Muy pequeño' | 'Pequeño' | 'Mediano' | 'Grande' | 'Muy grande';
+  necesidades_especiales:                string[];
   perks:                                 string[];
   color:                                 string[];
-  nivel_de_energia:                      'Bajo' | 'Moderado' | 'Alto';
+  enfermedades_comunes:                  string[];
+  compatibilidad_con_otros_animales:     'Baja' | 'Moderada' | 'Alta';
+  categoria_de_tamanio:                  'Muy pequeño' | 'Pequeño' | 'Mediano' | 'Grande' | 'Muy grande';
   facilidad_de_entrenamiento:            'Bajo' | 'Moderado' | 'Alto';
   salud_general:                         'Excelente' | 'Buena' | 'Regular' | 'Mala';
-  compatibilidad_con_otros_animales:     'Baja' | 'Moderada' | 'Alta';
-  necesidades_especiales:                string[];
+  nivel_de_energia:                      'Bajo' | 'Moderado' | 'Alto';
   popularidad:                           'Baja' | 'Moderada' | 'Alta';
-  enfermedades_comunes:                  string[];
 }
 
 export class Measurement {

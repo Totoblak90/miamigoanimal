@@ -1,0 +1,33 @@
+@import "../../../theme/abstracts/mixins";
+@import "../../../theme/abstracts/variables";
+
+.progress-bar {
+  display: inline-block;
+  width: 100%;
+  height: 2rem;
+  background-color: $color-grey-light-1;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.progress {
+  display: inline-block;
+  height: 2rem;
+  background-image: linear-gradient( to right, rgba($color-dog-light, 1), rgba($color-dog-dark, 1));
+  border-radius: 5px;
+
+  &__0 { width: 0%; }
+  &__20 { width: 20%; }
+  &__25 { width: 25%; }
+  &__33 { width: 33%; }
+  &__40 { width: 40%; }
+  &__50 { width: 50%; }
+  &__60 { width: 60%; }
+  &__66 { width: 66%; }
+  &__75 { width: 75%; }
+  &__80 { width: 80%; }
+  &__100 { width: 99%; }
+
+}
+
+

@@ -1,1 +1,201 @@
-<p>perros-raza works!</p>
+<app-header bckColour="dog" [mainTitle]="dog.name" [providedImg]="dog.image.url || ''"></app-header>
+
+<main class="separate-section">
+
+  <section class="row">
+
+    <div class="col-1-of-2">
+
+      <div class="u-center-text u-margin-bottom-small">
+        <h2 class="heading-secondary">
+          Acerca de
+        </h2>
+      </div>
+
+      <p class="paragraph">
+        {{ dog.description }}
+      </p>
+
+    </div>
+
+    <div class="col-1-of-2">
+
+      <div class="u-center-text u-margin-bottom-small">
+        <h2 class="heading-secondary">
+          Historia
+        </h2>
+      </div>
+      <p class="paragraph">
+        {{ dog.history }}
+      </p>
+
+    </div>
+
+  </section>
+
+  <hr class="u-margin-bottom-medium">
+
+  <section class="row">
+
+    <div class="u-center-text u-margin-bottom-small">
+      <h2 class="heading-secondary">
+        Rasgos
+      </h2>
+    </div>
+
+    <div class="row u-margin-bottom-small">
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph">
+          <strong>Altura:</strong> {{ dog.height.metric }} cm | {{ dog.height.imperial }} in
+        </p>
+      </div>
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph">
+          <strong>Peso:</strong> {{ dog.weight.metric }} kg | {{ dog.weight.imperial }} lb
+        </p>
+      </div>
+    </div>
+
+    <div class="row u-margin-bottom-small">
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph">
+          <strong>Esperanza de vida:</strong> {{ dog.life_span }}
+        </p>
+      </div>
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph">
+          <strong>Colores comunes:</strong> {{ dog.color.join(', ') }}
+        </p>
+      </div>
+    </div>
+
+    <div class="row u-margin-bottom-small">
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph">
+          <strong>Críado para:</strong> {{ dog.bred_for.join(', ') }}
+        </p>
+      </div>
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph">
+          <strong>Temperamento:</strong> {{ dog.temperament.join(', ') }}
+        </p>
+      </div>
+    </div>
+
+    <div class="row u-margin-bottom-small">
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph">
+          <strong>Necesidades especiales:</strong> {{ dog.necesidades_especiales.join(', ') }}
+        </p>
+      </div>
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph">
+          <strong>Enfermedades comunes:</strong> {{ dog.enfermedades_comunes.join(', ') }}
+        </p>
+      </div>
+    </div>
+
+    <div class="u-center-text u-margin-bottom-small">
+      <h2 class="heading-secondary">
+        Datos clave
+      </h2>
+    </div>
+
+    <div class="row u-center-text u-margin-bottom-medium">
+        <p class="paragraph">
+          <strong>{{ dog.perks.join(', ') }}</strong>
+        </p>
+    </div>
+
+    <div class="row u-margin-bottom-small">
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph" style="align-content: center;">
+          <strong>Tamaño:</strong>
+        </p>
+      </div>
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <div class="u-center-text"><strong>{{ dog.categoria_de_tamanio }}</strong></div>
+        <span class="progress-bar">
+          <span [class]="categoriaDeTamanioPercentage" ></span>
+        </span>
+      </div>
+    </div>
+
+    <div class="row u-margin-bottom-small">
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph" style="align-content: center;">
+          <strong>Compatibilidad con otros animales:</strong>
+        </p>
+      </div>
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <div class="u-center-text"><strong>{{ dog.compatibilidad_con_otros_animales }}</strong></div>
+        <span class="progress-bar">
+          <span [class]="compatibilidadConOtrosAnimalesPercentage" ></span>
+        </span>
+      </div>
+    </div>
+
+    <div class="row u-margin-bottom-small">
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph" style="align-content: center;">
+          <strong>Salud general:</strong>
+        </p>
+      </div>
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <div class="u-center-text"><strong>{{ dog.salud_general }}</strong></div>
+        <span class="progress-bar">
+          <span [class]="saludGeneralPercentage" ></span>
+        </span>
+      </div>
+    </div>
+
+    <div class="row u-margin-bottom-small">
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph" style="align-content: center;">
+          <strong>Facilidad de entrenamiento:</strong>
+        </p>
+      </div>
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <div class="u-center-text"><strong>{{ dog.facilidad_de_entrenamiento }}</strong></div>
+        <span class="progress-bar">
+          <span [class]="facilidadDeEntrenamientoPercentage" ></span>
+        </span>
+      </div>
+    </div>
+
+    <div class="row u-margin-bottom-small">
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph" style="align-content: center;">
+          <strong>Nivel de energía:</strong>
+        </p>
+      </div>
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <div class="u-center-text"><strong>{{ dog.nivel_de_energia }}</strong></div>
+        <span class="progress-bar">
+          <span [class]="nivelDeEnergiaPercentage" ></span>
+        </span>
+      </div>
+    </div>
+
+    <div class="row u-margin-bottom-small">
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <p class="paragraph" style="align-content: center;">
+          <strong>Popularidad:</strong>
+        </p>
+      </div>
+      <div class="col-1-of-2 u-margin-bottom-small">
+        <div class="u-center-text"><strong>{{ dog.popularidad }}</strong></div>
+        <span class="progress-bar">
+          <span [class]="popularidadPercentage" ></span>
+        </span>
+      </div>
+    </div>
+
+  </section>
+
+  <highlited-articles-section [filters]="['Perros']"></highlited-articles-section>
+
+  <recent-articles-section [filters]="['Perros']"></recent-articles-section>
+
+</main>
+

@@ -9172,6 +9172,44 @@ export const DOG_LIST: { [key: number]: Dog } = {
     necesidades_especiales: ['Cuidado del pelaje', 'Estimulación mental'],
     popularidad: 'Alta',
     enfermedades_comunes: ['Problemas dentales', 'Luxación de rótula', 'Hipoglucemia'],
+  },
+  171: {
+    weight: {
+      imperial: '13 - 17',
+      metric: '6 - 8',
+    },
+    height: {
+      imperial: '13 - 14',
+      metric: '33 - 36',
+    },
+    id: 171,
+    name: 'Jack Russell Terrier',
+    bred_for: ['Caza de zorros'],
+    breed_group: ['Terrier'],
+    life_span: '12 - 14 años',
+    temperament: ['Intrépido', 'Amigable', 'Energético', 'Obediente', 'Inteligente', 'Feliz'],
+    origin: 'Reino Unido',
+    reference_image_id: '', // Esto deberá ser reemplazado por el ID real
+    image: {
+      id: '', // Esto deberá ser reemplazado por el ID real
+      width: 0,  // Esto deberá ser reemplazado por el valor real
+      height: 0, // Esto deberá ser reemplazado por el valor real
+      url: 'https://esferamascota.b-cdn.net/perros-jack-russell.webp'
+    },
+    searchTerms: ['Jack Russell', 'Terrier', 'Caza de zorros'],
+    country_code: 'GB',
+    description: 'El Jack Russell Terrier es una raza pequeña, enérgica y extremadamente versátil. Son perros inteligentes, audaces y amigables con mucha personalidad.',
+    history: 'Originario de Inglaterra, se crió por primera vez a mediados del siglo XIX para cazar zorros. Su nombre se deriva de un reverendo llamado John "Jack" Russell, que era un entusiasta de la caza de zorros.',
+    necesidades_especiales: ['Necesita mucha actividad física y mental', 'Requiere entrenamiento constante'],
+    perks: ['No suele ladrar en exceso, a menos que esté aburrido o tenga energía acumulada', 'Necesita espacio para correr y jugar'],
+    color: ['Blanco', 'Negro', 'Tostado'], // Los colores son un ejemplo, pueden variar
+    enfermedades_comunes: ['Problemas oculares', 'Sordera', 'Displasia de cadera'],
+    compatibilidad_con_otros_animales: 'Moderada',
+    categoria_de_tamanio: 'Pequeño',
+    facilidad_de_entrenamiento: 'Moderado',
+    salud_general: 'Buena',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Alta',
   }
 };
 

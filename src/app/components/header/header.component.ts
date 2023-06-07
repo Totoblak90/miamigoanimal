@@ -13,6 +13,7 @@ export class HeaderComponent implements OnInit {
   @Input() secondaryTitle = '';
   @Input() cta?: string = '';
   @Input() bckColour?: 'default' | 'dog' | 'cat' | 'health' | 'train' | 'food' | 'yo' = 'default';
+  @Input() providedImg: string = '';
 
   selectedImage: string = '';
 
@@ -54,9 +55,20 @@ export class HeaderComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.selectedImage =  this.bckColour === 'cat' ? this.utilitiesSrv.selectImage( this.bckColour ) :
-                          this.bckColour === 'dog' ? this.utilitiesSrv.selectImage( this.bckColour ) :
-                          ''
+
+    if (this.providedImg)
+    {
+      const type = this.bckColour === 'cat' ? 'cat' : this.bckColour === 'dog' ? 'dog' : 'extra';
+      this.selectedImage = this.utilitiesSrv.selectImage( type, this.providedImg )
+     }
+
+    else
+    {
+      this.selectedImage =  this.bckColour === 'cat' ? this.utilitiesSrv.selectImage( this.bckColour ) :
+      this.bckColour === 'dog' ? this.utilitiesSrv.selectImage( this.bckColour ) :
+      ''
+    }
+
 
     if (isPlatformBrowser(this.platformId)) { this.preloadImage(); }
   }

@@ -10,7 +10,7 @@ import { DOG_LIST } from '../db/perros.db';
 export class PerrosService {
 
   dogListSignal = signal(DOG_LIST)
-  
+
   private apiUrl = 'https://api.thedogapi.com/v1/';
   private headers = new HttpHeaders({
     'Content-type': 'application/json',
@@ -56,6 +56,19 @@ export class PerrosService {
           }
         })
       );
+  }
+
+  async searchForImages(dogId: number) {
+    try
+    {
+      const dogPromise = await this.http.get<any[]>(`${this.apiUrl}images/search?breed_id=${139}`, { headers: this.headers }).toPromise();
+      return dogPromise;
+    }
+    catch (error)
+    {
+      console.log(error)
+      return null;
+    }
   }
 
 }

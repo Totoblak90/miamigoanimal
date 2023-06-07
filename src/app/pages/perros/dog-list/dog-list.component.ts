@@ -55,24 +55,27 @@ export class DogListComponent implements OnInit, OnDestroy {
 
   private onSearchTermChange() {
     this.searchDogForm.get('searchTerm')?.valueChanges
-                      .pipe(
-                        takeUntil(this._destroy$),
-                        debounceTime(400),
-                        catchError(err => {
-                          this.errorMessage = 'Error desconocido';
-                          return of([])
-                        })
-                      )
-                      .subscribe((term: string) => {
-                        this.errorMessage = '';
-                        if (!term) {
-                          this.dogList = this.perrosService.dogListSignal()
-                        }
-                        else
-                        {
-                          this.searchDogsByBreedName(term.toLowerCase())
-                        }
-                      })
+
+      .pipe(
+        takeUntil(this._destroy$),
+        debounceTime(400),
+        catchError(err => {
+          this.errorMessage = 'Error desconocido';
+          return of([])
+        })
+      )
+
+      .subscribe((term: string) => {
+        this.errorMessage = '';
+        if (!term) {
+          this.dogList = this.perrosService.dogListSignal()
+        }
+        else
+        {
+          this.searchDogsByBreedName(term.toLowerCase())
+        }
+      })
+
   }
 
   private searchDogsByBreedName(searchTerm: string) {
