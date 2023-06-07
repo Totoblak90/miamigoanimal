@@ -17,9 +17,8 @@
     </div>
   </div>
 
-  <div class="grid-4-cols row" *ngIf="!searching">
+  <div class="cat-breeds-layout row" *ngIf="!searching">
     <ng-container *ngFor="let cat of catList">
-      <!-- [topics]="(cat?.temperament || '').split(',').sort().map((t) => t.trim())" -->
       <flipping-card
         *ngIf="cat && cat.name && cat.temperament && cat.image"
         [cardTitle]="(cat.name.length || ''.length) > 15 ? cat.name.slice(0, 15) + '...' : cat.name"

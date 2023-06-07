@@ -16,17 +16,16 @@ export class DogListComponent implements OnInit, OnDestroy {
 
   searchDogForm: FormGroup = this.formBuilder.group({ searchTerm: '' })
 
-  searching = false;
   errorMessage = '';
 
   sliceInit = 0;
-  sliceEnd = 4;
+  sliceEnd = 3;
   currentPage = 0;
   totalPages = 0;
 
   get slicedDogList() {
 
-    this.totalPages = Math.ceil(Object.keys(this.dogList).length / 4)
+    this.totalPages = Math.ceil(Object.keys(this.dogList).length / 3)
 
     const keys = Object.keys(this.dogList);
     const slicedObject: {[key: number]: Dog} = {};
@@ -50,7 +49,7 @@ export class DogListComponent implements OnInit, OnDestroy {
 
 
   ngOnInit(): void {
-    this.totalPages = Math.ceil(Object.keys(this.dogList).length / 4)
+    this.totalPages = Math.ceil(Object.keys(this.dogList).length / 3)
   }
 
   private onSearchTermChange() {
@@ -72,6 +71,9 @@ export class DogListComponent implements OnInit, OnDestroy {
         }
         else
         {
+          this.currentPage = 0;
+          this.sliceInit = 0;
+          this.sliceEnd = 3;
           this.searchDogsByBreedName(term.toLowerCase())
         }
       })
@@ -80,12 +82,10 @@ export class DogListComponent implements OnInit, OnDestroy {
 
   private searchDogsByBreedName(searchTerm: string) {
 
-    this.searching = true;
     this.errorMessage = '';
     const dogArray = Object.values(this.dogList);
     const filteredDogs = this.filterBySearchTerm(dogArray, searchTerm)
     this.dogList = filteredDogs.reduce((obj: {[key: number]: Dog} , dog) => (obj[dog.id] = dog, obj), {});
-    this.searching = false;
     this.errorMessage = !filteredDogs.length ? 'Sin resultados' : '';
 
   }
@@ -93,17 +93,15 @@ export class DogListComponent implements OnInit, OnDestroy {
   prevPage() {
     if (this.currentPage === 0) return;
     this.currentPage--;
-    this.sliceInit -= 4;
-    this.sliceEnd -= 4;
-    this.searching = false;
+    this.sliceInit -= 3;
+    this.sliceEnd -= 3;
   }
 
   nextPage() {
     if (this.currentPage < this.totalPages - 1) {
       this.currentPage++;
-      this.sliceInit += 4;
-      this.sliceEnd += 4;
-      this.searching = false;
+      this.sliceInit += 3;
+      this.sliceEnd += 3;
     }
   }
 

@@ -17,12 +17,12 @@ export class GatosService {
   constructor(private http: HttpClient) { }
 
   getCatBreeds(page = 0): Observable<Cat[]> {
-    return this.http.get<Cat[]>(`${this.apiUrl}breeds?limit=4&page=${page}`, { headers: this.headers })
+    return this.http.get<Cat[]>(`${this.apiUrl}breeds?limit=3&page=${page}`, { headers: this.headers })
       .pipe( switchMap(async (cats: Cat[]) => await this.searchForImages(cats)) );
   }
 
   searchByName(breed: string) {
-    return this.http.get<Cat[]>(`${this.apiUrl}breeds/search?q=${breed}&limit=4`, { headers: this.headers })
+    return this.http.get<Cat[]>(`${this.apiUrl}breeds/search?q=${breed}&limit=3`, { headers: this.headers })
       .pipe( switchMap(async (cats: Cat[]) => await this.searchForImages(cats)) );
   }
 

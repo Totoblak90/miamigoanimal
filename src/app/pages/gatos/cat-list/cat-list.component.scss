@@ -20,3 +20,14 @@
   justify-content: center;
   gap: 1rem;
 }
+
+.cat-breeds-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 2rem;
+  column-gap: 3rem;
+
+  @include respond(tab-port) {
+    grid-template-columns: 1fr;
+  }
+}

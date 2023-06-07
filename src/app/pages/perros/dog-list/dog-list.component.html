@@ -23,7 +23,7 @@
     <h3 class="heading-tertiary">Sin resultados</h3>
   </div>
 
-  <div class="grid-4-cols row">
+  <div class="dog-breeds-layout row">
     <ng-container *ngFor="let dog of slicedDogList | keyvalue">
       <flipping-card
         *ngIf="dog && dog.value"
@@ -36,10 +36,6 @@
       >
       </flipping-card>
     </ng-container>
-  </div>
-
-  <div *ngIf="searching" class="row flex justify-center align-center">
-    <spinner></spinner>
   </div>
 
   <div class="dog-pagination">
