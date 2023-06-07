@@ -31,6 +31,10 @@ export class CatListComponent {
     this.searchCats()
   }
 
+  getCatTemperaments(cat: Cat) {
+    return cat.temperament!.split(',').sort().map((t) => t.trim())
+  }
+
   private onSearchTermChange() {
     this.searchCatForm.get('searchTerm')?.valueChanges
                       .pipe(

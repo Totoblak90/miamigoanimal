@@ -17,9 +17,20 @@
     </div>
   </div>
 
-  <!-- <div class="grid-4-cols row" *ngIf="!searching">
-    <pet-card *ngFor="let dog of catList" [pet]="dog"></pet-card>
-  </div> -->
+  <div class="grid-4-cols row" *ngIf="!searching">
+    <ng-container *ngFor="let cat of catList">
+      <!-- [topics]="(cat?.temperament || '').split(',').sort().map((t) => t.trim())" -->
+      <flipping-card
+        *ngIf="cat && cat.name && cat.temperament && cat.image"
+        [cardTitle]="(cat.name.length || ''.length) > 15 ? cat.name.slice(0, 15) + '...' : cat.name"
+        [topics]="getCatTemperaments(cat)"
+        [defaultRedirect]="false"
+        [providedImg]="cat.image || ''"
+        type="cat"
+      >
+      </flipping-card>
+    </ng-container>
+  </div>
 
   <div *ngIf="searching" class="row flex justify-center align-center">
     <spinner></spinner>
