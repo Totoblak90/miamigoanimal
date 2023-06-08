@@ -52,9 +52,11 @@
 
 
 .flex { display: flex; }
+.flex-column { flex-direction: column; }
 .align-center { align-items: center; }
 .justify-center { justify-content: center; }
 .flex-gap-sm { gap: 1rem; }
+.flex-grow-1 { flex-grow: 1; }
 
 .color-white { color: $color-white !important; }
 
