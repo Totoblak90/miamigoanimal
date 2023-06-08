@@ -1,5 +1,5 @@
 import { isPlatformBrowser } from '@angular/common';
-import { Component, Inject, OnInit, PLATFORM_ID, Renderer2 } from '@angular/core';
+import { Component, ElementRef, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +7,12 @@ import { Component, Inject, OnInit, PLATFORM_ID, Renderer2 } from '@angular/core
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+
+  showPopupDisclaimer = false;
+
   title = 'esferamascota';
 
-  constructor(private renderer: Renderer2, @Inject(PLATFORM_ID) private platformId: Object) {}
+  constructor( @Inject(PLATFORM_ID) private platformId: Object ) {}
 
   ngOnInit(): void {
     this.toggleDisclaimer();
@@ -36,16 +39,10 @@ export class AppComponent implements OnInit {
 
       }
 
-      if (shouldShowPopup) { this.showPopup(); }
+      if (shouldShowPopup) { this.showPopupDisclaimer = true; }
 
     }
 
-  }
-
-  private showPopup(): void {
-    const link = this.renderer.createElement('a');
-    this.renderer.setAttribute(link, 'href', '#popup-disclaimer');
-    link.click();
   }
 
 }

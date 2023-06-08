@@ -1,4 +1,5 @@
-import { Component, Input, ViewChild, ElementRef } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { Component, Input, ViewChild, ElementRef, Inject, PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'expandable-text',
@@ -17,17 +18,24 @@ export class ExpandableTextComponent {
   estaExpandido: boolean = false;
   maxHeight: string = '250px';
 
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) { }
+
   toggleTexto() {
     this.estaExpandido = !this.estaExpandido;
+
     if (this.estaExpandido) {
       this.maxHeight = `${this.textoContainer.nativeElement.scrollHeight + 60}px`;
     } else {
       this.maxHeight = '250px';
     }
 
-    if (!this.estaExpandido) {
-      this.title?.scrollIntoView()
+    if (!this.estaExpandido && this.title && isPlatformBrowser(this.platformId)) {
+      window.scrollTo({
+        top: this.title?.offsetTop - 20,
+        behavior: 'smooth'
+      })
     }
+
   }
 
 }

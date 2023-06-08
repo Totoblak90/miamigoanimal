@@ -1,4 +1,4 @@
-import { DOCUMENT, isPlatformBrowser, isPlatformServer } from '@angular/common';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { Component, Inject, Input, OnInit, PLATFORM_ID, Renderer2 } from '@angular/core';
 
 @Component({
@@ -24,7 +24,7 @@ export class IndexComponent implements OnInit {
   }
 
   scrollTo(element: HTMLHeadingElement) {
-    if (isPlatformBrowser(this.platformId)) {
+    if (isPlatformBrowser(this.platformId) && element) {
       window.scrollTo({
         top: element.offsetTop - 20,
         behavior: 'smooth',
