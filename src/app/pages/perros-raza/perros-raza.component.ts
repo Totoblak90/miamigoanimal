@@ -280,7 +280,7 @@ export class PerrosRazaComponent {
 
 
   constructor(private activatedRoute: ActivatedRoute, private perrosService: PerrosService, private metaService: MetaService) {
-      console.log(this.activatedRoute.snapshot.data)
+
       this.dog = this.activatedRoute.snapshot.data['raza'];
       this.metaService.setMetaTags(
         `Aprendé todo sobre la raza "${this.dog.name}" - esferamascota.com`,
