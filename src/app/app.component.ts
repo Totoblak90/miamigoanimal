@@ -1,5 +1,5 @@
 import { isPlatformBrowser } from '@angular/common';
-import { Component, ElementRef, Inject, OnInit, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -14,11 +14,10 @@ export class AppComponent implements OnInit {
 
   constructor( @Inject(PLATFORM_ID) private platformId: Object ) {}
 
-  ngOnInit(): void {
-    this.toggleDisclaimer();
-  }
+  ngOnInit(): void { this.toggleDisclaimer(); }
 
   private toggleDisclaimer() {
+
     if (isPlatformBrowser(this.platformId))
     {
 
