@@ -1,5 +1,5 @@
 <div class="navigation">
-  <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+  <input #naviToggle type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
   <label for="navi-toggle" class="navigation__button">
       <span class="navigation__icon">&nbsp;</span>
@@ -9,14 +9,14 @@
 
   <nav class="navigation__nav">
       <ul class="navigation__list">
-          <li class="navigation__item"><label for="navi-toggle" routerLink="/home" class="navigation__link"><span>01</span>Inicio</label></li>
-          <li class="navigation__item"><label for="navi-toggle" routerLink="/perros" class="navigation__link"><span>02</span>Perros</label></li>
-          <li class="navigation__item"><label for="navi-toggle" routerLink="/gatos" class="navigation__link"><span>03</span>Gatos</label></li>
-          <li class="navigation__item"><label for="navi-toggle" routerLink="/alimentacion" class="navigation__link"><span>04</span>Alimentacion</label></li>
-          <li class="navigation__item"><label for="navi-toggle" routerLink="/salud" class="navigation__link"><span>05</span>Salud</label></li>
-          <li class="navigation__item"><label for="navi-toggle" routerLink="/adiestramiento" class="navigation__link"><span>06</span>Adiestramiento</label></li>
-          <li class="navigation__item"><label for="navi-toggle" routerLink="/sobre-mi" class="navigation__link"><span>07</span>Sobre mi</label></li>
-          <li class="navigation__item"><label for="navi-toggle" routerLink="/post/search-post" class="navigation__link"><span>08</span>Buscador</label></li>
+          <li class="navigation__item"><button (click)="naviToggle.click()" routerLink="/home" class="navigation__link"><span>01</span>Inicio</button></li>
+          <li class="navigation__item"><button (click)="naviToggle.click()" routerLink="/perros" class="navigation__link"><span>02</span>Perros</button></li>
+          <li class="navigation__item"><button (click)="naviToggle.click()" routerLink="/gatos" class="navigation__link"><span>03</span>Gatos</button></li>
+          <li class="navigation__item"><button (click)="naviToggle.click()" routerLink="/alimentacion" class="navigation__link"><span>04</span>Alimentacion</button></li>
+          <li class="navigation__item"><button (click)="naviToggle.click()" routerLink="/salud" class="navigation__link"><span>05</span>Salud</button></li>
+          <li class="navigation__item"><button (click)="naviToggle.click()" routerLink="/adiestramiento" class="navigation__link"><span>06</span>Adiestramiento</button></li>
+          <li class="navigation__item"><button (click)="naviToggle.click()" routerLink="/sobre-mi" class="navigation__link"><span>07</span>Sobre mi</button></li>
+          <li class="navigation__item"><button (click)="naviToggle.click()" routerLink="/post/search-post" class="navigation__link"><span>08</span>Buscador</button></li>
         </ul>
   </nav>
 </div>
