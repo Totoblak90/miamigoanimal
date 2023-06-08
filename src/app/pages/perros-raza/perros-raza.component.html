@@ -311,14 +311,14 @@
           <h2 class="heading-tertiary u-margin-bottom-small">Fuentes</h2>
 
           <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="https://api.thedogapi.com/v1/" target="_blank" class="navigation__link">The dog API</a>
+            </li>
             <li *ngFor="let fuente of dog.fuentes" class="navigation__item">
               <a href="{{ fuente }}" target="_blank" class="navigation__link">{{ fuente }}</a>
             </li>
             <li class="navigation__item">
-              <a href="https://api.thedogapi.com/v1/" target="_blank" class="navigation__link">The dog API</a>
-            </li>
-            <li class="navigation__item">
-              <p class="paragraph">Todos estos artículos fueron revisados, traducidos y mejorados por inteligencia artificial</p>
+              <span >Todos estos artículos fueron revisados, traducidos y mejorados por inteligencia artificial</span>
             </li>
           </ul>
 

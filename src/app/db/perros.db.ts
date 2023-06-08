@@ -1159,32 +1159,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     country_code: 'US',
     description: `
-    El American Bully es una raza de perro que se ha desarrollado a lo largo de los años para convertirse en un compañero de familia ideal. Esta raza se originó en los Estados Unidos en la década de 1990, evolucionando a partir del American Pit Bull Terrier y otras razas de tipo "bully", como el American Bulldog y el Bulldog Inglés. El American Bully fue reconocido oficialmente como una raza por el United Kennel Club (UKC) en 2013.
-    <br>
-    <br>
-    El American Bully es un perro de tamaño mediano a grande, con una apariencia poderosa y musculosa. Su cuerpo es compacto y grueso, con una estructura ósea pesada y una musculatura bien desarrollada. A pesar de su apariencia robusta, el American Bully es conocido por su temperamento amigable y su amor por las personas. Son perros leales, seguros y extremadamente afectuosos con sus familias.
-    <br>
-    <br>
-    La cabeza del American Bully es una de sus características más distintivas. Es grande y ancha, con una parada moderadamente profunda y mejillas musculosas. Los ojos son de tamaño mediano, de forma ovalada a ligeramente redonda, y están bien separados en el cráneo. Los oídos pueden ser naturales o recortados, y se colocan altos en la cabeza.
-    <br>
-    <br>
-    El cuerpo del American Bully es corto y compacto, con un pecho ancho y profundo y costillas bien arqueadas. La espalda es ancha, fuerte y firme, y la línea superior es recta. La cola es corta en comparación con el tamaño del perro, se coloca baja y se afina hasta un punto fino.
-    <br>
-    <br>
-    El pelaje del American Bully es corto, liso, brillante y pegado al cuerpo. Se aceptan todos los colores y patrones de pelaje, excepto el merle. El pelaje es fácil de cuidar y requiere un mínimo de aseo.
-    <br>
-    <br>
-    En cuanto a su salud, es importante tener en cuenta que algunos criadores de Bully dan a sus perros esteroides para producir un cuerpo muscular grande. Cuando se detienen los medicamentos, el cuerpo del perro se reduce a un tamaño normal, pero deja al perro con muchos problemas de salud, incluyendo problemas de órganos y articulaciones. Por lo tanto, es crucial encontrar un criador que no utilice estas prácticas.
-    <br>
-    <br>
-    El American Bully es un perro activo y necesita mucho ejercicio regular, incluyendo un largo paseo diario para aliviar la energía mental y física. Aunque son muy activos en interiores, se adaptarán bien a la vida en un apartamento si se les proporciona suficiente ejercicio. Prefieren climas cálidos y su esperanza de vida es de unos 8-12 años.
-    <br>
-    <br>
-    En resumen, el American Bully es una raza de perro fuerte, activa y afectuosa que hace un excelente perro de familia. Son leales, seguros y aman a las personas, lo que los convierte en una excelente opción para las familias.
+      El American Bully es una raza de perro que se ha desarrollado a lo largo de los años para convertirse en un compañero de familia ideal. Esta raza se originó en los Estados Unidos en la década de 1990, evolucionando a partir del American Pit Bull Terrier y otras razas de tipo "bully", como el American Bulldog y el Bulldog Inglés. El American Bully fue reconocido oficialmente como una raza por el United Kennel Club (UKC) en 2013.
+      <br>
+      <br>
+      El American Bully es un perro de tamaño mediano a grande, con una apariencia poderosa y musculosa. Su cuerpo es compacto y grueso, con una estructura ósea pesada y una musculatura bien desarrollada. A pesar de su apariencia robusta, el American Bully es conocido por su temperamento amigable y su amor por las personas. Son perros leales, seguros y extremadamente afectuosos con sus familias.
+      <br>
+      <br>
+      La cabeza del American Bully es una de sus características más distintivas. Es grande y ancha, con una parada moderadamente profunda y mejillas musculosas. Los ojos son de tamaño mediano, de forma ovalada a ligeramente redonda, y están bien separados en el cráneo. Los oídos pueden ser naturales o recortados, y se colocan altos en la cabeza.
+      <br>
+      <br>
+      El cuerpo del American Bully es corto y compacto, con un pecho ancho y profundo y costillas bien arqueadas. La espalda es ancha, fuerte y firme, y la línea superior es recta. La cola es corta en comparación con el tamaño del perro, se coloca baja y se afina hasta un punto fino.
+      <br>
+      <br>
+      El pelaje del American Bully es corto, liso, brillante y pegado al cuerpo. Se aceptan todos los colores y patrones de pelaje, excepto el merle. El pelaje es fácil de cuidar y requiere un mínimo de aseo.
+      <br>
+      <br>
+      En cuanto a su salud, es importante tener en cuenta que algunos criadores de Bully dan a sus perros esteroides para producir un cuerpo muscular grande. Cuando se detienen los medicamentos, el cuerpo del perro se reduce a un tamaño normal, pero deja al perro con muchos problemas de salud, incluyendo problemas de órganos y articulaciones. Por lo tanto, es crucial encontrar un criador que no utilice estas prácticas.
+      <br>
+      <br>
+      El American Bully es un perro activo y necesita mucho ejercicio regular, incluyendo un largo paseo diario para aliviar la energía mental y física. Aunque son muy activos en interiores, se adaptarán bien a la vida en un apartamento si se les proporciona suficiente ejercicio. Prefieren climas cálidos y su esperanza de vida es de unos 8-12 años.
+      <br>
+      <br>
+      En resumen, el American Bully es una raza de perro fuerte, activa y afectuosa que hace un excelente perro de familia. Son leales, seguros y aman a las personas, lo que los convierte en una excelente opción para las familias.
     `,
     history: `
-
-
+      La historia del American Bully es una mezcla de pasión, dedicación y una visión clara para crear una raza de perro que se destaca por su compañerismo y su apariencia única.
+      <br>
+      <br>
+      El American Bully es una raza de perro que se originó en los Estados Unidos en la década de 1980, con el objetivo de desarrollar un perro de compañía y de familia. La raza fue creada con la intención de preservar las características positivas de los Pit Bulls y eliminar las tendencias agresivas. Los criadores querían un perro que tuviera la fuerza y ​​la tenacidad del Pit Bull, pero con un temperamento más relajado y amigable.
+      <br>
+      <br>
+      El American Bully es una raza relativamente nueva, que se desarrolló a mediados de la década de 1990, principalmente a partir de la cría selectiva de los Pit Bull Terriers y, en menor medida, del Staffordshire Bull Terrier y el Bulldog inglés. Los criadores de American Bully, buscaban un perro con una apariencia más robusta y musculosa, pero que mantuviera el buen temperamento y la amabilidad con las personas que se encuentran en muchas de estas razas.
+      <br>
+      <br>
+      La raza fue reconocida por primera vez por el American Bully Kennel Club (ABKC) en 2004, y ha ganado popularidad en los años siguientes. En 2013, el United Kennel Club (UKC) también reconoció al American Bully como una raza distinta. Aunque la raza ha enfrentado críticas y controversias debido a su apariencia intimidante y su asociación con las peleas de perros, los defensores de la raza insisten en que el American Bully es un perro de familia amigable y leal cuando se cría y se socializa adecuadamente.
+      <br>
+      <br>
+      El American Bully se desarrolló como una extensión natural del American Pit Bull Terrier, una raza que ha mantenido una apariencia y temperamento característicos durante más de un siglo. Con el tiempo, varios tipos evolucionaron a partir de la raza madre, con uno en particular asumiendo una estructura y construcción tan únicas que fue prudente reconocerlo como una raza diferente en su totalidad. Esa es la raza American Bully.
+      <br>
+      <br>
+      El American Bully fue influenciado sutilmente por la infusión de varias otras razas, que incluyen el American Bulldog, el Bulldog inglés y el Olde English Bulldogge. Los orígenes del American Bully se pueden ver tanto en la costa este como en la oeste de los Estados Unidos, principalmente en Virginia y Los Ángeles, California, y se está extendiendo a todas partes de los Estados Unidos. Hoy en día, el American Bully también se puede ver en Europa y Asia.
+      <br>
+      <br>
+      El American Bully es reconocible por su estructura y construcción compacta, fuerte y gruesa característica. Su apariencia refleja una sólida base de American Pit Bull Terrier, mezclada con acciones de otras razas de toros. El equilibrio general y las proporciones correctas de un atleta son esenciales, y la solidez absoluta y el tono muscular adecuado son imprescindibles.
+      <br>
+      <br>
+      En resumen, la historia del American Bully es una historia de transformación y evolución. A través de la cría selectiva y un enfoque en las características desLa historia del American Bully es una mezcla de pasión, dedicación y una visión clara para crear una raza de perro que se destaca por su compañerismo y su apariencia única.
     `,
     categoria_de_tamanio: 'Mediano',
     perks: [
@@ -1262,10 +1282,45 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'American Dog',
     ],
     country_code: 'US',
-    description:
-      'l Perro Esquimal Americano es una raza de perro de compañía, originaria de Alemania. Es un miembro de la familia Spitz y se considera una raza de perro antigua debido a su reciente mezcla con lobos. Los progenitores de la raza fueron los Spitz alemanes, pero debido al sentimiento anti-alemán durante la Primera Guerra Mundial, se le cambió el nombre a "Perro Esquimal Americano". Aunque los modernos Perros Esquimales Americanos han sido exportados como Spitz alemán Gross (o Mittel, dependiendo de la altura del perro), las razas han divergido y los estándares son significativamente diferentes. Además de servir como perro guardián y de compañía, el Perro Esquimal Americano también alcanzó un alto grado de popularidad en los Estados Unidos en las décadas de 1930 y 1940 como artista de circo. Existen tres variedades de tamaño de la raza de Perro Esquimal Americano, el toy, el miniatura y el estándar. Comparten un parecido común con el Spitz japonés, el Spitz danés, el Volpino Italiano, el Spitz alemán, el Spitz indio y los Samoyeds.',
-    history:
-      'En el norte de Europa, los Spitz más pequeños se desarrollaron eventualmente en las diversas razas de Spitz alemanes. Los inmigrantes europeos trajeron sus mascotas Spitz a los Estados Unidos, especialmente a Nueva York, a principios del siglo XX, "todos ellos descendientes del Spitz alemán más grande, el Keeshond, el Pomerania blanco y el Spitz italiano, el Volpino Italiano". Aunque el blanco no siempre fue un color reconocido en las diversas razas de Spitz alemanes, generalmente era el color preferido en los EE. UU. En una muestra de patriotismo en la época de la Primera Guerra Mundial, los dueños de perros comenzaron a referirse a sus mascotas como Spitz americanos en lugar de Spitz alemanes. Después de la Primera Guerra Mundial, los pequeños perros Spitz llamaron la atención del público estadounidense cuando los perros se convirtieron en populares artistas en el circo estadounidense. En 1917, el Circo Ferroviario de los Hermanos Cooper presentó a los perros. Un perro llamado Stout`s Pal Pierre fue famoso por caminar por una cuerda floja con el Circo Barnum y Bailey en la década de 1930, y también contribuyó a su popularidad, vendieron cachorros después del espectáculo. Debido a la popularidad de los perros de circo, muchos de los actuales Perros Esquimales Americanos pueden rastrear su linaje hasta estos perros de circo.',
+    description: `
+      El Perro Esquimal Americano es una raza encantadora que se destaca por su belleza y su naturaleza afectuosa. Esta raza de tamaño pequeño a mediano se asemeja a un Samoyed en miniatura y viene en tres variedades: toy, miniatura y estándar, lo que significa que hay un Eskie para todos los intereses y tamaños de hogar.
+      <br>
+      <br>
+      El Perro Esquimal Americano tiene una cabeza en forma de cuña con un hocico y un cráneo de aproximadamente la misma longitud. Sus orejas son erectas y de forma triangular, y su cola está fuertemente emplumada y se curva sobre la espalda. Su cuello es bien llevado y la línea superior es buena y nivelada. Sus patas y pies buenos permiten al Eskie trotar con una acción audaz y enérgica. Su pelaje profuso es siempre blanco, o blanco con marcas de galleta o crema. Su piel es rosada o gris. El negro es el color preferido de sus párpados, encías, nariz y almohadillas. El pelaje es pesado alrededor del cuello, creando una melena o melena, especialmente en los machos. La raza es ligeramente más larga que alta. El pelaje del Perro Esquimal Americano no debe rizarse ni ondularse; el subpelo debe ser grueso y lujoso con el pelaje exterior más áspero que crece a través de él.
+      <br>
+      <br>
+      El Perro Esquimal Americano es un perro cariñoso y amoroso. Es resistente y juguetón, excelente con los niños. Encantador y alerta. Debido a la alta inteligencia del perro y su disposición a complacer, es fácil de entrenar y a menudo se encuentra entre los mejores anotadores en las pruebas de obediencia. A los Perros Esquimales Americanos les gusta trabajar. Son naturalmente cautelosos con los extraños, pero una vez que se presentan, se convierten en amigos instantáneos.
+      <br>
+      <br>
+      Los Perros Esquimales Americanos necesitan ser parte de la familia con un líder de manada firme, consistente y seguro. Si permites que el perro crea que es el gobernante de tu hogar, surgirán muchos grados de problemas de comportamiento, incluyendo pero no limitado a, ansiedad por separación, ladrido obsesivo, agresividad canina, terquedad y protección. Sin suficiente ejercicio mental y físico, pueden volverse hiperactivos y muy nerviosos, girando en círculos.
+      <br>
+      <br>
+      En cuanto a su tamaño, los Perros Esquimales Americanos vienen en tres tamaños. Los juguetes miden entre 9 y 12 pulgadas y pesan entre 6 y 10 libras. Los miniaturas miden más de 12 hasta 15 pulgadas y pesan entre 10 y 20 libras. Los estándar miden más de 15 pulgadas hasta 19 pulgadas y pesan entre 18 y 35 libras.
+      <br>
+      <br>
+      En cuanto a su salud, son propensos a la displasia de cadera y la atrofia retinal progresiva. Es importante prestar atención a los ojos y los conductos lagrimales. Algunos son alérgicos a las pulgas.
+    `,
+    history: `
+      La historia del Perro Esquimal Americano es una historia de adaptación y supervivencia. A pesar de su nombre, esta raza no tiene nada que ver con la cultura esquimal. De hecho, su origen se encuentra en la Alemania del siglo XIX, donde se criaron para ser perros de granja multipropósito.
+      <br>
+      <br>
+      Los antiguos perros Spitz alemanes, que son los antepasados directos del Perro Esquimal Americano, eran perros de trabajo versátiles en las granjas alemanas. Eran valorados por su inteligencia, su habilidad para el trabajo y su lealtad hacia sus dueños. Estos perros blancos y esponjosos eran excelentes perros guardianes, pastores y tiradores de trineos, y también eran compañeros de familia cariñosos.
+      <br>
+      <br>
+      Los perros Spitz alemanes fueron llevados a América por los inmigrantes alemanes. Sin embargo, durante la Primera Guerra Mundial, debido a los sentimientos anti-alemanes generalizados en los Estados Unidos, el nombre de la raza se cambió a "Perro Esquimal Americano". A pesar del cambio de nombre, la raza no tiene ninguna conexión real con los pueblos esquimales o sus perros.
+      <br>
+      <br>
+      El Perro Esquimal Americano se hizo popular en los Estados Unidos en el siglo XX, especialmente en los años 1930 y 1940. Durante este tiempo, la raza fue a menudo utilizada en actos de circo, donde su inteligencia, agilidad y apariencia llamativa los hacían estrellas de la pista. Estos perros a menudo realizaban trucos complicados, como caminar por la cuerda floja, lo que aumentaba su popularidad entre el público.
+      <br>
+      <br>
+      En 1913, el Sr. y la Sra. F.M. Hall registraron por primera vez la raza con el United Kennel Club (UKC) bajo el nombre de su criadero, "American Eskimo". En 1969, se formó la Asociación Nacional del Perro Esquimal Americano y se cerraron los libros de registro. El objetivo de la asociación era preservar la raza y mantener sus características únicas.
+      <br>
+      <br>
+      El American Kennel Club (AKC) reconoció al Perro Esquimal Americano como una raza distinta en 1995. Hoy en día, la raza es apreciada por su inteligencia, su habilidad para el trabajo y su carácter cariñoso. Aunque ya no se utilizan como perros de trabajo en las granjas, los Perros Esquimales Americanos son excelentes perros de compañía y a menudo se destacan en competencias de obediencia y agilidad.
+      <br>
+      <br>
+      En resumen, la historia del Perro Esquimal Americano es una historia de transformación y adaptación. Aunque su nombre pueda sugerir una conexión con los pueblos esquimales, la raza es en realidad un producto de la Alemania del siglo XIX y de los inmigrantes alemanes en América. A través de los años, estos perros han demostrado ser trabajadores versátiles y compañeros de familia cariñosos, y continúan siendo una raza popular en los Estados Unidos hoy en día.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente para compañía',
@@ -1299,6 +1354,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bueno_con_ninos: 'Moderada',
     tolerancia_a_la_soledad: 'Moderada',
     casos_famosos: [],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/American_Eskimo_Dog",
+      "https://www.akc.org/dog-breeds/american-eskimo-dog/",
+      "https://www.royalcanin.com/us/dogs/breeds/breed-library/american-eskimo",
+      "https://www.dogbreedinfo.com/americaneskimo.htm",
+      "https://www.ukcdogs.com/american-eskimo-dog",
+    ]
   },
   13: {
     weight: {
