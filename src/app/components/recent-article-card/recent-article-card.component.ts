@@ -12,6 +12,7 @@ export class RecentArticleCardComponent implements OnInit {
   @Input() type: 'cat' | 'dog' | 'extra' = 'extra';
   @Input() title: string = '';
   @Input() description: string = '';
+  @Input() url: string = '';
 
   selectedImage: string = '';
 
@@ -19,7 +20,7 @@ export class RecentArticleCardComponent implements OnInit {
 
   ngOnInit() {
 
-    
+
     if (this.type === 'dog') {  return this.setDogBreedImage() }
     else if (this.type === 'cat') { return this.setCatBreedImage() }
     else { return this.selectedImage =  this.utilitiesSrv.selectImage( this.type ) }

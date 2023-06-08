@@ -1,0 +1,51 @@
+@import "../../../theme/abstracts/mixins";
+@import "../../../theme/abstracts/variables";
+
+.navigation {
+
+  &__button {
+      background-color: $color-white;
+      height: 7rem;
+      width: 7rem;
+      position: fixed;
+      bottom: 6rem;
+      right: 6rem;
+      border-radius: 50%;
+      z-index: 10000;
+      box-shadow: 0 1rem 3rem rgba($color-black, .1);
+      text-align: center;
+      cursor: pointer;
+      border: none;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @include respond(tab-port) {
+          bottom: 4rem;
+          right: 4rem;
+      }
+
+      @include respond(phone) {
+          height: 4rem;
+          width: 4rem;
+          bottom: 3rem;
+          right: 3rem;
+      }
+  }
+
+  &__icon {
+      font-size: 3rem;
+      transition: all .2s;
+
+      @include respond(phone) {
+        font-size: 1.5rem;
+    }
+  }
+
+  &__button:hover &__icon {
+      transform: translateY(-1px);
+  }
+
+
+}

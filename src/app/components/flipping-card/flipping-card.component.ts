@@ -24,10 +24,10 @@ export class FlippingCardComponent implements OnInit, AfterViewInit, OnDestroy {
 
   get redirection() {
     if (this.defaultRedirect) {
-      return 'post/' + this.href
+      return '/post/' + this.href
     }
     else {
-      return this.href;
+      return this.href[0] === '/' ? this.href : '/' + this.href;
     }
   }
 

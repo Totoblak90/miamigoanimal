@@ -280,7 +280,8 @@ export class PerrosRazaComponent {
 
 
   constructor(private activatedRoute: ActivatedRoute, private perrosService: PerrosService, private metaService: MetaService) {
-      this.activatedRoute.params.subscribe(params => this.dog = this.perrosService.dogListSignal()[+params['id']] )
+      console.log(this.activatedRoute.snapshot.data)
+      this.dog = this.activatedRoute.snapshot.data['raza'];
       this.metaService.setMetaTags(
         `Aprendé todo sobre la raza "${this.dog.name}" - esferamascota.com`,
         `Descubre todo sobre la raza de perro ${this.dog.name}: su historia, características, cuidados y más. ¡Conviértete en el mejor amigo de tu perro con nuestra guía completa!`

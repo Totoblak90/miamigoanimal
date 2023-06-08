@@ -43,7 +43,7 @@ import { DescubreTodoSobreLosGatosPersaLaRazaMasPopularComponent } from './descu
     CommonModule,
     ArticlesRoutingModule,
     ComponentsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
 })
 export class ArticlesModule { }

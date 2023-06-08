@@ -30,6 +30,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { CalculadoraDeRacionesComponent } from './calculadora-de-raciones/calculadora-de-raciones.component';
 import { PopupFoodRationsComponent } from './popup-food-rations/popup-food-rations.component';
 import { RouterModule } from '@angular/router';
+import { GoUpComponent } from './go-up/go-up.component';
 
 
 
@@ -61,13 +62,14 @@ import { RouterModule } from '@angular/router';
     PreguntasFrecuentesSectionComponent,
     ContactFormComponent,
     CalculadoraDeRacionesComponent,
-    PopupFoodRationsComponent
+    PopupFoodRationsComponent,
+    GoUpComponent
   ],
   imports: [
     CommonModule,
     PipesModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
   ],
   exports: [
     HeaderComponent,
@@ -96,7 +98,8 @@ import { RouterModule } from '@angular/router';
     PreguntasFrecuentesSectionComponent,
     ContactFormComponent,
     CalculadoraDeRacionesComponent,
-    PopupFoodRationsComponent
+    PopupFoodRationsComponent,
+    GoUpComponent
   ]
 })
 export class ComponentsModule { }

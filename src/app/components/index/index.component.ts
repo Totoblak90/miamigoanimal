@@ -21,10 +21,6 @@ export class IndexComponent implements OnInit {
   }
 
   scrollTo(element: HTMLHeadingElement) {
-    if (isPlatformBrowser(this.platformId)) {
-
-        element.scrollIntoView({ behavior: 'auto' });
-
-    }
+    element.scrollIntoView({ behavior: 'auto' })
   }
 }
