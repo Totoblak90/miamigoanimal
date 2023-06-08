@@ -816,7 +816,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
       "https://www.ukcdogs.com/alaskan-husky"
     ]
   },
-  // Hasta el 8 llegue con las descripciones e historias largas
   9: {
     weight: {
       imperial: '65 - 100',
@@ -863,10 +862,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Perro Alaskano',
     ],
     country_code: 'US',
-    description:
-      'El Malamute de Alaska es una raza de perro grande que fue originalmente criada por su fuerza y resistencia para transportar cargas pesadas como perro de trineo y sabueso. Es similar a otras razas árticas como el husky, el spitz, el perro de Groenlandia, el perro esquimal canadiense, el husky siberiano y el samoyedo. El Malamute de Alaska es un perro pesado, con una naturaleza y estructura más formidables que el Husky Siberiano, que está criado para la velocidad. El Malamute de Alaska está criado para la potencia y la resistencia, que es su función original y lo que el estándar de la raza requiere de los criadores de Malamute de Alaska.',
-    history:
-      'Se cree que los primeros perros llegaron a las Américas hace 12,000 años, pero las personas y sus perros no se establecieron en el Ártico hasta que llegaron las personas Paleo-Eskimo hace 4,500 años, seguidas por las personas Thule hace 1,000 años, ambas originarias de Siberia. Se pensaba que los Malamutes fueron criados por el pueblo Inupiaq Malimiut de la región de Norton Sound en Alaska. El Malamute ha sido identificado como una raza basal que precede a la aparición de las razas modernas en el siglo XIX. Un estudio en 2013 mostró que el Malamute de Alaska tiene un origen similar al del este de Asia, pero no está claramente relacionado con el perro de Groenlandia y el perro esquimal canadiense, pero contiene una posible mezcla del Husky Siberiano.',
+    description: `
+      El Malamute de Alaska es una raza de perro que es tan majestuosa como su tierra natal. Este perro de gran tamaño y fuerte constitución es un espectáculo para la vista y un compañero leal para aquellos que tienen la suerte de tener uno en su vida.
+      <br>
+      <br>
+      El Malamute de Alaska es un perro de gran tamaño, sólido y bien construido, con un pecho profundo y un cuerpo fuertemente musculado. Su pelaje es grueso y doble, compuesto por un manto externo áspero y un subpelo lanoso y denso. Este perro se mantiene bien sobre sus patas, dando una apariencia de actividad y alerta. Su andar es constante, equilibrado e incansable. No está diseñado para ser un perro de velocidad, sino un perro capaz de tirar de cargas pesadas durante largas distancias a un ritmo razonable.
+      <br>
+      <br>
+      El Malamute de Alaska tiene una cabeza ancha y profunda, pero nunca tosca o torpe. Debe estar en proporción con el resto del cuerpo. El cráneo es más ancho entre las orejas y moderadamente redondeado. Se estrecha y se aplana hacia los ojos y se redondea suavemente hasta las mejillas moderadamente planas. La boca es grande y voluminosa en proporción al cráneo. Se estrecha ligeramente en anchura y profundidad desde el stop hasta la punta. Los labios son ajustados.
+      <br>
+      <br>
+      Los ojos del Malamute de Alaska son de forma almendrada, de color marrón, de tamaño moderado y están colocados oblicuamente. Su expresión es suave e indica un carácter afectuoso. Los ojos azules son considerados una falta en la raza. Las orejas son medianas en tamaño, pero pequeñas en proporción al tamaño de la cabeza. Son de forma triangular, ligeramente redondeadas en las puntas y están colocadas ampliamente en la parte posterior del cráneo. Cuando están erectas, las orejas deben apuntar hacia adelante.
+      <br>
+      <br>
+      El Malamute de Alaska tiene un pelaje doble, con un manto de guardia grueso y áspero (que nunca debe ser demasiado largo o suave) y un subpelo denso, aceitoso y lanoso que tiene de uno a dos pulgadas de longitud. Los pelos de guardia varían en longitud, siendo generalmente más largos alrededor del cuello, por la espalda, sobre la grupa, en las bragas y en la cola. El pelaje tiende a ser más corto y menos espeso en climas cálidos. El pelaje no se recorta excepto en los pies.
+      <br>
+      <br>
+      Los colores del Malamute de Alaska varían desde el gris claro hasta los tonos intermedios hasta el negro, el sable y los tonos de sable hasta el rojo. Las combinaciones de colores son aceptables en los subpelos, las marcas y los adornos. Siempre con blanco en el cuerpo inferior, partes de las patas, pies y parte de las marcas faciales. Las marcas deben ser o bien en forma de capa o bien en forma de máscara en la cara. Un destello blanco en la frente, un collar blanco o una mancha en la nuca es aceptable y atractivo.
+      <br>
+      <br>
+      El color del pelaje puede variar desde el gris claro hasta los tonos intermedios hasta el negro, el sable y los tonos de sable hasta el rojo. Las combinaciones de colores son aceptables en los subpelos, las marcas y los adornos. Siempre con blanco en el cuerpo inferior, partes de las patas, pies y parte de las marcas faciales. Las marcas deben ser o bien en forma de capa o bien en forma de máscara en la cara. Un destello blanco en la frente, un collar blanco o una mancha en la nuca es aceptable y atractivo.
+      <br>
+      <br>
+      El Malamute de Alaska tiene una cola bien cubierta de pelo que se lleva sobre la espalda como una pluma ondeante. Las colas en forma de sacacorchos se ven ocasionalmente pero se consideran una falta en la raza. Las colas bien peludas de los Malamutes les ayudan a mantenerse calientes cuando se acurrucan en la nieve. A menudo se les ve envolviendo la cola alrededor de su nariz y cara, lo que presumiblemente les ayuda a protegerse contra el clima severo como la nieve que sopla. Sus orejas son generalmente erectas, en forma de cuña, pequeñas en proporción a la cabeza y colocadas al lado del cráneo. El hocico es profundo y ancho, estrechándose ligeramente desde el cráneo hasta la nariz. La nariz y las encías son negras pero algunos Malamutes tienen una nariz de nieve, que es negra con un tono rosado que puede oscurecerse o aclararse, dependiendo de la temporada.
+      <br>
+      <br>
+      El Malamute de Alaska es un perro pesado, con una naturaleza y estructura más formidables que el Husky Siberiano, que está criado para la velocidad. El Malamute de Alaska está criado para la potencia y la resistencia, que es su función original y lo que el estándar de la raza requiere de los criadores de Malamute de Alaska.
+      <br>
+      <br>
+      Los Malamutes de Alaska son perros muy cariñosos con las personas, un rasgo que los hace particularmente buscados como perros de familia, pero son poco fiables como perros guardianes ya que no tienden a ladrar. Los Malamutes son ágiles alrededor de los muebles y objetos más pequeños, lo que los hace ideales como perros de casa, siempre y cuando tengan mucho tiempo al aire libre para satisfacer sus considerables necesidades de ejercicio. Los Malamutes de Alaska también suelen participar en programas de terapia con animales, como visitar a pacientes en hospitales, debido a su naturaleza suave. Si son perros de exterior durante todo el año, dejarlos jugar en una piscina para bebés llena de agua fría en verano los mantiene frescos. En invierno, prefieren la nieve.
+      <br>
+      <br>
+      Los Malamutes son generalmente perros tranquilos, raramente ladran. Cuando un Malamute vocaliza, a menudo parece que está "hablando" al vocalizar un sonido de "woo woo". Un perro Spitz de aspecto similar, el Husky Siberiano, es mucho más vocal.
+    `,
+    history: `
+      La historia del Malamute de Alaska es tan antigua como las tierras heladas que una vez recorrió. Esta raza es una de las más antiguas razas de perros de trineo del Ártico, y su nombre proviene de los Mahlemuts, una tribu inuit que se estableció a lo largo de las costas del estrecho de Kotzebue en la parte noroeste de Alaska. Los orígenes de la gente nativa y sus perros son desconocidos, pero es seguro que estuvieron en la región durante generaciones antes de que los marineros asiáticos llegaran a Alaska y regresaran a casa con historias de gente nativa que usaba perros para tirar de trineos.
+      <br>
+      <br>
+      Cuando los hombres blancos se establecieron en Alaska, los perros árticos se mezclaron con sangre externa, pero cuando el deporte de las carreras de trineos se hizo popular, el interés en mantener una cepa pura de Malamutes de Alaska aumentó y desde 1926 la raza se ha mantenido en su estado original. Los Malamutes de Alaska fueron reconocidos por el United Kennel Club en 1947.
+      <br>
+      <br>
+      Los Malamutes de Alaska son descendientes del lobo ártico y su nombre proviene de los Mahlemuts, una tribu inuit que vivía en la región de Kotzebue Sound en el noroeste de Alaska. Estos perros fueron utilizados por los Mahlemuit hace 2000 a 3000 años como su única forma de transporte. Estos perros eran muy valorados por su fuerza y resistencia, y se utilizaban para tirar de trineos ligeros de viaje, pero también para transportar cargas pesadas de alimentos y suministros para la gente del Ártico.
+      <br>
+      <br>
+      Los Malamutes de Alaska han participado en muchas expediciones polares, para las cuales están particularmente bien adaptados debido a su tenacidad, sentido de la orientación y excelente sentido del olfato. Han aparecido como personajes inolvidables en las historias de Jack London y Rudyard Kipling. El Malamute acompañó a las expediciones del almirante Byrd al Polo Sur. El Malamute de Alaska es primo de las razas árticas Siberian Husky, Samoyed, y el perro esquimal americano. Algunos de los talentos del Malamute de Alaska son el trineo, el carting, la búsqueda y rescate, la tracción de peso y las carreras.
+      <br>
+      <br>
+      En resumen, la historia del Malamute de Alaska es una historia de supervivencia y adaptación en uno de los climas más duros del planeta. Estos perros fueron criados para resistir las condiciones extremas del Ártico y para ser compañeros leales y trabajadores para las personas que vivían en esas condiciones. A lo largo de los años, la raza ha mantenido su fortaleza, resistencia y capacidad para trabajar, lo que la convierte en una raza única y fascinante.`,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente para el clima frío',
@@ -900,6 +942,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
         caso: 'Balto, aunque técnicamente es un Husky Siberiano, a menudo se confunde con un Malamute de Alaska. Balto es famoso por su papel en la carrera del suero a Nome en 1925, donde lideró su equipo de trineo a través de condiciones difíciles para entregar un suero antitoxina diftérica que salvó muchas vidas.',
       },
     ],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Alaskan_Malamute",
+      "https://www.akc.org/dog-breeds/alaskan-malamute/",
+      "https://www.royalcanin.com/us/dogs/breeds/breed-library/alaskan-malamute",
+      "https://www.dogbreedinfo.com/alaskanmalamute.htm",
+      "https://www.ukcdogs.com/alaskan-malamute",
+    ]
   },
   10: {
     weight: {
@@ -948,10 +997,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Bulldog Amerikn',
     ],
     country_code: 'US',
-    description:
-      'El Bulldog Americano es una raza grande y musculosa de tipo mastín que se utilizaba como perros de trabajo, perros de captura y guardianes en granjas y ranchos. La raza desciende del Bulldog Inglés Antiguo, que se cree que llegó a América ya en el siglo XVII, traído por inmigrantes de clase trabajadora de Inglaterra. Durante la Primera y Segunda Guerra Mundial, la raza estuvo al borde de la extinción, con los únicos perros supervivientes mantenidos principalmente en granjas en el sureste. John D. Johnson y Alan Scott son ampliamente reconocidos como los precursores de rescatar la raza de la extinción. El 1 de enero de 1999, el United Kennel Club reconoció por primera vez al Bulldog Americano. En noviembre de 2019, el Bulldog Americano fue añadido al American Kennel Club (AKC) Foundation Stock Service (FSS).',
-    history:
-      'El Bulldog Inglés Antiguo fue preservado por inmigrantes de clase trabajadora que trajeron sus perros de trabajo con ellos al sur de Estados Unidos; se cree que estos perros aparecieron por primera vez ya en el siglo XVII. Los pequeños agricultores y propietarios de ranchos utilizaban este perro de trabajo multifuncional para muchas tareas, incluyendo guardianes de granjas, perros de ganado y perros de captura. Estos perros no eran una raza auténtica según los estándares modernos, como era el caso de la mayoría de los otros perros; los clubes de razas y los registros de razas no existían hasta 1875, al menos dos siglos después de que el Bulldog Inglés Antiguo emigrara por primera vez a América. En los siglos XVII y XVIII, el Bulldog Inglés Antiguo tenía muchas cepas diferentes para la conducción de ganado, la captura de toros, los perros de granja y los perros de carnicero. La captura de toros también era un deporte de sangre común de la época y aunque existen pruebas de que tal deporte emigró a América con los bulldogs de raza traídos por los ingleses de clase trabajadora en tiempos coloniales, las cepas que emigraron a América ciertamente no se vieron afectadas por la prohibición del deporte en 1835 en el Reino Unido, por lo que no se vio la necesidad de un declive en la población del bulldog de tipo antiguo.',
     categoria_de_tamanio: 'Grande',
     perks: [
       'Bueno para el entrenamiento de obediencia',
@@ -1025,6 +1070,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
         caso: "Bulldog Americano que es la mascota de la familia en las películas 'Cheaper by the Dozen' (2003) y 'Cheaper by the Dozen 2' (2005).",
       },
     ],
+    description: `
+      El Bulldog Americano es un perro de gran tamaño, fuerte y poderoso, con un marco compacto que irradia una sensación de resistencia y agilidad. Su cabeza es grande y ancha, con mandíbulas fuertes, y su cuerpo es musculoso y robusto, con una estructura ósea pesada. Los machos suelen ser más corpulentos y de huesos más pesados que las hembras, que son más refinadas.
+      <br>
+      <br>
+      Este perro tiene una apariencia atlética y ligera, con un pecho ancho y moderadamente profundo que da la sensación de habilidad atlética y potencia. Su cuello es musculoso, se estrecha desde los hombros hasta la cabeza y puede tener una ligera papada. La cabeza es cuadrada, grande y ancha con mejillas musculosas que están en proporción con el tamaño y la estructura general del perro. Los ojos son generalmente marrones, pero pueden ser de cualquier color. Algunos incluso pueden tener ojos divididos, donde un ojo es marrón y el otro es azul.
+      <br>
+      <br>
+      El Bulldog Americano tiene un pelaje corto y suave que viene en todos los tonos de atigrado, incluyendo el atigrado rojo, grados variables de blanco, rojo, marrón, canela, leonado y blanco y negro. Su cola es gruesa en la base y se estrecha hasta un punto.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Bulldog Americano es leal, confiable, valiente y determinado. No es un perro hostil. Es alerta y seguro de sí mismo, y ama genuinamente a los niños. Es conocido por sus actos de heroísmo hacia su dueño. Tiene fuertes instintos protectores, y necesita un líder de manada firme, seguro y consistente. Es importante socializarlos y entrenarlos en obediencia desde una edad temprana, para evitar que se vuelvan reservados con los extraños.
+      <br>
+      <br>
+      En términos de salud, esta raza puede ser propensa a la displasia de cadera. Necesitan suficiente ejercicio mental y físico diario, de lo contrario pueden volverse nerviosos y difíciles de manejar.
+      <br>
+      <br>
+      El Bulldog Americano es un perro de trabajo versátil, un guardián intrépido y constante, y un leal compañero de familia. Aunque es un perro grande, puede adaptarse bien a la vida en un apartamento siempre y cuando se le proporcione suficiente ejercicio. Son relativamente inactivos en interiores y se desempeñarán mejor con un patio de tamaño medio o grande.
+      <br>
+      <br>
+      En resumen, el Bulldog Americano es un perro fuerte, seguro y leal, conocido por su valentía y su amor por los niños. Su apariencia robusta y su fuerte instinto protector lo convierten en un excelente perro de trabajo y un leal compañero de familia.
+    `,
+    history: `
+      La historia del Bulldog Americano es una narrativa de supervivencia y resiliencia que se remonta a los Bulldogs de trabajo en Inglaterra, que se utilizaban para conducir y atrapar ganado y proteger las propiedades de sus dueños. Su fuerza, coraje y familiaridad con el ganado los hicieron populares en el deporte brutal de la pelea de toros. Sin embargo, cuando este deporte fue prohibido en Inglaterra, el tipo original de Bulldog desapareció de Gran Bretaña y fue reemplazado por el perro más corto, más fornido y menos atlético que ahora conocemos como el Bulldog Inglés.
+      <br>
+      <br>
+      El Bulldog original, sin embargo, fue preservado por inmigrantes de la clase trabajadora que trajeron a sus perros de trabajo al sur de los Estados Unidos. Los pequeños agricultores y rancheros utilizaban a este perro de trabajo multifuncional para muchas tareas. Sin embargo, para el final de la Segunda Guerra Mundial, la raza estaba casi extinta. Fue entonces cuando John D. Johnson, un veterano de guerra que regresaba a casa, decidió resucitar esta raza. Junto con Alan Scott y otros criadores, Johnson comenzó a criar Bulldogs Americanos con cuidado, manteniendo registros precisos y siempre con la vista puesta en mantener la salud y las habilidades de trabajo de la raza.
+      <br>
+      <br>
+      Debido a los muchos tipos diferentes de trabajo que esta raza puede hacer, surgieron varias líneas distintas, cada una enfatizando los rasgos necesarios para hacer un trabajo específico. Las líneas más conocidas suelen ser las de Johnson y Scott. Los perros de Scott, comúnmente referidos como 'estándar', son más de un estilo de rendimiento, perros atléticos, más esbeltos en apariencia que los perros bravucones, con menos hueso, hocicos más largos, un stop más moderado y una mordida inferior menos extrema. Hoy en día, sin embargo, muchos Bulldogs Americanos tienen cruces con dos o más de las líneas originales y se consideran de tipo híbrido, con características de más de una de las líneas originales de Bulldogs.
+      <br>
+      <br>
+      Los perros de Johnson, comúnmente referidos como 'bully', son más corpulentos en cuerpo, más pesados en hueso, con cabezas más grandes que tienen más stop, un hocico más corto y una mordida inferior más pronunciada. Generalmente también tienen más masa muscular.
+      <br>
+      <br>
+      El Bulldog Americano moderno continúa sirviendo como un perro de trabajo multifuncional; un perro guardián valiente y constante; y un leal compañero de familia. Gracias a los esfuerzos de John D. Johnson y otros, el Bulldog Americano existe hoy en día.
+    `,
+    fuentes: []
   },
   11: {
     weight: {
