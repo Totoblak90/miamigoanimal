@@ -9,6 +9,7 @@
   background-size: cover;
   background-position: center;
 
+
   @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
@@ -52,6 +53,8 @@
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
+      overflow: hidden;
+      max-width: 100%;
   }
 }
 

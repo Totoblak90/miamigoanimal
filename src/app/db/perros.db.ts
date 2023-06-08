@@ -1158,10 +1158,34 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Bully de america perro',
     ],
     country_code: 'US',
-    description:
-      'El American Bully es una raza de perro moderna que se desarrolló como perro de compañía, y se estandarizó y reconoció como raza en 2004 por el American Bully Kennel Club (ABKC). Su estándar de raza publicado describe al perro como dando la "impresión de gran fuerza para su tamaño". Existen varios tipos, que varían desde el tamaño de bolsillo hasta el XXL en tamaño y peso. El temperamento en los perros adultos depende mucho del entrenamiento, y la raza puede ser muy exigente y necesita ser entrenada adecuadamente.',
-    history:
-      'El American Bully, como se le conoce ahora, comenzó su desarrollo en la década de 1980, con la mayoría del producto final de comportamiento y estética completado en la década de 1990. Hay consenso en que se utilizaron al menos cinco otras razas para lograr los rasgos físicos más "bully" deseados, así como el tamaño más diminuto de algunas líneas. El American Pit Bull Terrier (APBT) fue la base (raza madre) utilizada para crear el American Bully. El APBT ha mantenido una apariencia y un temperamento característicos durante más de un siglo. Dentro de ese lapso de tiempo, surgieron diferentes cepas de APBT dentro de la raza, cada una con diferentes atributos físicos. Una cepa particular de APBT fue cruzada para crear un físico específico, más corpulento, que los criadores originalmente tergiversaron como American Pit Bull Terriers de raza pura. Eventualmente, suficientes criadores acordaron que estos perros eran lo suficientemente diferentes de los American Pit Bull Terriers como para justificar que admitieran que eran una raza diferente en su totalidad. La línea de sangre de estas razas mixtas se vio influenciada aún más con la cría abiertamente reconocida con el American Bulldog, el Bulldog Inglés y el Olde English Bulldogge para afinar las características físicas deseadas y los rasgos de personalidad.',
+    description: `
+    El American Bully es una raza de perro que se ha desarrollado a lo largo de los años para convertirse en un compañero de familia ideal. Esta raza se originó en los Estados Unidos en la década de 1990, evolucionando a partir del American Pit Bull Terrier y otras razas de tipo "bully", como el American Bulldog y el Bulldog Inglés. El American Bully fue reconocido oficialmente como una raza por el United Kennel Club (UKC) en 2013.
+    <br>
+    <br>
+    El American Bully es un perro de tamaño mediano a grande, con una apariencia poderosa y musculosa. Su cuerpo es compacto y grueso, con una estructura ósea pesada y una musculatura bien desarrollada. A pesar de su apariencia robusta, el American Bully es conocido por su temperamento amigable y su amor por las personas. Son perros leales, seguros y extremadamente afectuosos con sus familias.
+    <br>
+    <br>
+    La cabeza del American Bully es una de sus características más distintivas. Es grande y ancha, con una parada moderadamente profunda y mejillas musculosas. Los ojos son de tamaño mediano, de forma ovalada a ligeramente redonda, y están bien separados en el cráneo. Los oídos pueden ser naturales o recortados, y se colocan altos en la cabeza.
+    <br>
+    <br>
+    El cuerpo del American Bully es corto y compacto, con un pecho ancho y profundo y costillas bien arqueadas. La espalda es ancha, fuerte y firme, y la línea superior es recta. La cola es corta en comparación con el tamaño del perro, se coloca baja y se afina hasta un punto fino.
+    <br>
+    <br>
+    El pelaje del American Bully es corto, liso, brillante y pegado al cuerpo. Se aceptan todos los colores y patrones de pelaje, excepto el merle. El pelaje es fácil de cuidar y requiere un mínimo de aseo.
+    <br>
+    <br>
+    En cuanto a su salud, es importante tener en cuenta que algunos criadores de Bully dan a sus perros esteroides para producir un cuerpo muscular grande. Cuando se detienen los medicamentos, el cuerpo del perro se reduce a un tamaño normal, pero deja al perro con muchos problemas de salud, incluyendo problemas de órganos y articulaciones. Por lo tanto, es crucial encontrar un criador que no utilice estas prácticas.
+    <br>
+    <br>
+    El American Bully es un perro activo y necesita mucho ejercicio regular, incluyendo un largo paseo diario para aliviar la energía mental y física. Aunque son muy activos en interiores, se adaptarán bien a la vida en un apartamento si se les proporciona suficiente ejercicio. Prefieren climas cálidos y su esperanza de vida es de unos 8-12 años.
+    <br>
+    <br>
+    En resumen, el American Bully es una raza de perro fuerte, activa y afectuosa que hace un excelente perro de familia. Son leales, seguros y aman a las personas, lo que los convierte en una excelente opción para las familias.
+    `,
+    history: `
+
+
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de compañía',

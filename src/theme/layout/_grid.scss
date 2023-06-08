@@ -78,12 +78,23 @@
 
 .grid-3-cols {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  row-gap: 2rem;
+  column-gap: 3rem;
+
+  @include respond(phone) {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: 1fr;
   row-gap: 2rem;
   column-gap: 3rem;
 
   @include respond(big-desktop) {
-    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-template-columns: 1fr 1fr;
   }
 }
 

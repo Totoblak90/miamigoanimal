@@ -85,7 +85,7 @@ export interface PerrosFamosos {
 
 /**
 
-PROMPT PARA SOLO descripcion
+PROMPT PARA SOLO DESCRIPCIÓN
 
 Si no te menciono la raza de perro no respondas nada, solo mencioname q no te la mencione y listo.
 Estoy trabajando en la raza de perro "".

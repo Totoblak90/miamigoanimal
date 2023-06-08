@@ -8,7 +8,7 @@
       <index></index>
     </div>
 
-    <article class="row">
+    <article class="u-margin-bottom-medium">
 
       <div class="u-center-text u-margin-bottom-small">
         <h2 class="heading-secondary">
@@ -266,7 +266,7 @@
 
     <hr class="u-margin-bottom-medium">
 
-    <article class="row">
+    <article  class="u-margin-bottom-medium">
 
       <div class="u-center-text u-margin-bottom-small">
         <h2 class="heading-secondary">
@@ -285,7 +285,8 @@
 
     </article>
 
-    <article class="row">
+    <article>
+
 
       <div class="u-margin-bottom-medium" *ngIf="dog.casos_famosos?.length">
 
@@ -293,12 +294,15 @@
           <h2 class="heading-tertiary"> {{ dog.name }}`s famosos </h2>
         </div>
 
-        <div *ngFor="let caso of dog.casos_famosos">
-          <h3 class="paragraph"><strong>"{{ caso.nombre }}"</strong></h3>
-          <p class="paragraph">{{ caso.caso }}</p>
+        <div class="grid-3-cols">
+          <div *ngFor="let caso of dog.casos_famosos">
+            <simple-box [description]="caso.caso" [title]="caso.nombre"></simple-box>
+          </div>
         </div>
 
       </div>
+
+
 
       <hr class="u-margin-bottom-medium">
 
