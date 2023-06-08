@@ -4,9 +4,25 @@
 
   <section class="row">
 
-    <div class="u-margin-bottom-big">
-      <index></index>
-    </div>
+    <article class="u-margin-bottom-big">
+      <index [collapsed]="true"></index>
+    </article>
+
+    <article class="grid-breeds">
+      <div class="u-margin-bottom-medium">
+        <div class="u-center-text u-margin-bottom-small">
+          <h2 #aboutTitle class="heading-secondary">Acerca de</h2>
+        </div>
+        <expandable-text [textoCompleto]="dog.description" [title]="aboutTitle"></expandable-text>
+      </div>
+
+      <div class="u-margin-bottom-medium">
+        <div class="u-center-text u-margin-bottom-small">
+          <h2 #historyTitle class="heading-secondary">Historia</h2>
+        </div>
+        <expandable-text [textoCompleto]="dog.history" [title]="historyTitle"></expandable-text>
+      </div>
+    </article>
 
     <article class="u-margin-bottom-medium">
 
@@ -264,24 +280,7 @@
 
     </article>
 
-    <hr class="u-margin-bottom-medium">
-
-    <article class="u-margin-bottom-medium">
-      <div class="u-center-text u-margin-bottom-small">
-        <h2 class="heading-secondary">Acerca de</h2>
-      </div>
-      <expandable-text [textoCompleto]="dog.description"></expandable-text>
-    </article>
-
-    <article class="u-margin-bottom-medium">
-      <div class="u-center-text u-margin-bottom-small">
-        <h2 class="heading-secondary">Historia</h2>
-      </div>
-      <expandable-text [textoCompleto]="dog.history" ></expandable-text>
-    </article>
-
     <article>
-
 
       <div class="u-margin-bottom-medium" *ngIf="dog.casos_famosos?.length">
 
@@ -310,10 +309,10 @@
             <a href="https://api.thedogapi.com/v1/" target="_blank" class="navigation__link">The dog API</a>
           </li>
           <li *ngFor="let fuente of dog.fuentes" class="navigation__item">
-            <a href="{{ fuente }}" target="_blank" class="navigation__link">{{ fuente }}</a>
+            <a [href]="fuente" target="_blank" class="navigation__link">{{ fuente }}</a>
           </li>
           <li class="navigation__item">
-            <span >Todos estos artículos fueron revisados, traducidos y mejorados por inteligencia artificial</span>
+            <span >Este artículo fue revisado, traducido y mejorado por inteligencia artificial</span>
           </li>
         </ul>
 

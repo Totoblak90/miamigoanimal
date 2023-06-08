@@ -1,5 +1,5 @@
-import { DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { Component, Inject, OnInit, PLATFORM_ID, Renderer2 } from '@angular/core';
+import { DOCUMENT, isPlatformBrowser, isPlatformServer } from '@angular/common';
+import { Component, Inject, Input, OnInit, PLATFORM_ID, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'index',
@@ -7,6 +7,8 @@ import { Component, Inject, OnInit, PLATFORM_ID, Renderer2 } from '@angular/core
   styleUrls: ['./index.component.scss'],
 })
 export class IndexComponent implements OnInit {
+  @Input() collapsed = false;
+
   titleList: HTMLHeadingElement[] = [];
 
   constructor(
@@ -22,6 +24,11 @@ export class IndexComponent implements OnInit {
   }
 
   scrollTo(element: HTMLHeadingElement) {
-    element.scrollIntoView({ behavior: 'auto' })
+    if (isPlatformBrowser(this.platformId)) {
+      window.scrollTo({
+        top: element.offsetTop - 20,
+        behavior: 'smooth',
+      })
+    }
   }
 }

@@ -8,6 +8,26 @@
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
   transition: transform .3s;
+
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.index-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  cursor: pointer;
+
+  & .icon {
+    font-size: 3rem;
+    color: $color-grey-dark;
+
+    @include respond(tab-port) {
+      font-size: 2rem;
+    }
+  }
 }
 
 .button-container {

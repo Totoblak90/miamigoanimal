@@ -61,6 +61,7 @@
           text-transform: uppercase;
           display: inline-block;
           transition: all .2s;
+          word-break: break-all;
       }
 
       &:hover,
@@ -69,5 +70,17 @@
           font-weight: 700;
           box-shadow: 0 1rem 2rem rgba($color-black, .4);
       }
+  }
+}
+
+.grid-breeds {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+
+  @include respond(tab-port) {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    column-gap: 0;
   }
 }

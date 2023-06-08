@@ -1,21 +1,21 @@
-import { Component, Input, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
+import { Component, Input, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'expandable-text',
   templateUrl: './expandable-text.component.html',
   styleUrls: ['./expandable-text.component.scss']
 })
-export class ExpandableTextComponent implements AfterViewInit {
+export class ExpandableTextComponent {
 
-  @Input() textoCompleto: string = '';
+
   @ViewChild('textoContainer') textoContainer!: ElementRef;
+
+
+  @Input() title: HTMLHeadElement | undefined;
+  @Input() textoCompleto: string = '';
+
   estaExpandido: boolean = false;
   maxHeight: string = '250px';
-
-  ngAfterViewInit() {
-    // Calcula la altura del contenido después de que Angular haya renderizado el componente
-    this.maxHeight = `250px`;
-  }
 
   toggleTexto() {
     this.estaExpandido = !this.estaExpandido;
@@ -23,6 +23,10 @@ export class ExpandableTextComponent implements AfterViewInit {
       this.maxHeight = `${this.textoContainer.nativeElement.scrollHeight + 60}px`;
     } else {
       this.maxHeight = '250px';
+    }
+
+    if (!this.estaExpandido) {
+      this.title?.scrollIntoView()
     }
   }
 

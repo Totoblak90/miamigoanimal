@@ -1410,10 +1410,48 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Perro esquimal americano miniatura',
     ],
     country_code: 'US',
-    description:
-      'El Perro Esquimal Americano es una raza de perro de compañía, originaria de Alemania y perteneciente a la familia Spitz. Se considera una raza de perro antigua debido a su reciente mezcla con lobos. Los progenitores de la raza fueron los Spitz alemanes, pero debido al sentimiento anti-alemán durante la Primera Guerra Mundial, fue rebautizado como "Perro Esquimal Americano". Aunque los modernos Perros Esquimales Americanos han sido exportados como Spitz alemán Gross (o Mittel, dependiendo de la altura del perro), las razas han divergido y los estándares son significativamente diferentes. Además de servir como perro de vigilancia y compañía, el Perro Esquimal Americano también alcanzó un alto grado de popularidad en los Estados Unidos en los años 1930 y 1940 como intérprete de circo.',
-    history:
-      'En el norte de Europa, los Spitz más pequeños se desarrollaron eventualmente en las diversas razas de Spitz alemanas. Los inmigrantes europeos trajeron sus mascotas Spitz a los Estados Unidos, especialmente a Nueva York, a principios de 1900, "todos ellos descendientes del Spitz alemán más grande, el Keeshond, el Pomerania blanco y el Spitz italiano, el Volpino Italiano". Aunque el blanco no siempre fue un color reconocido en las diversas razas de Spitz alemanas, generalmente era el color preferido en los Estados Unidos. En una muestra de patriotismo en la época de la Primera Guerra Mundial, los dueños de perros comenzaron a referirse a sus mascotas como Spitz americanos en lugar de Spitz alemanes. Después de la Primera Guerra Mundial, los pequeños perros Spitz llamaron la atención del público estadounidense cuando los perros se convirtieron en populares artistas en el circo estadounidense. En 1917, el Circo Ferroviario de los Hermanos Cooper presentó a los perros. Un perro llamado Stout`s Pal Pierre fue famoso por caminar en la cuerda floja con el Circo Barnum y Bailey en los años 1930, y también contribuyó a su popularidad, vendieron cachorros después del espectáculo. Debido a la popularidad de los perros de circo, muchos de los actuales Perros Esquimales Americanos pueden rastrear su linaje hasta estos perros de circo.',
+    description: `
+      El Perro Esquimal Americano Miniatura, una versión más pequeña del Perro Esquimal Americano, es una raza que combina una apariencia adorable con una personalidad encantadora. Aunque su tamaño es más pequeño, su carácter y su espíritu son tan grandes como los de sus parientes más grandes.
+      <br>
+      <br>
+      Este perro es compacto y fuerte, con una estructura ósea densa que le da una apariencia robusta a pesar de su tamaño. Su pelaje es una de sus características más notables: es de doble capa, con una capa interna densa y suave y una capa externa más larga y áspera. Este pelaje es blanco o blanco con manchas de color crema y se mantiene erizado, lo que le da al perro una apariencia esponjosa y adorable. Su cola es gruesa y se curva sobre su espalda, a menudo descansando sobre su costado.
+      <br>
+      <br>
+      La cabeza del Perro Esquimal Americano Miniatura es proporcional al cuerpo, con orejas erectas y ojos oscuros y expresivos. Sus ojos son una de las características más atractivas, ya que a menudo parecen estar sonriendo. Su hocico es moderadamente puntiagudo, y su expresión general es de inteligencia y curiosidad.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Perro Esquimal Americano Miniatura es conocido por ser amigable, juguetón y sociable. Aunque puede ser un poco reservado al principio con los extraños, una vez que se siente cómodo, es muy afectuoso y le encanta estar en compañía de su familia humana. Es inteligente y aprende rápidamente, lo que hace que el entrenamiento sea generalmente una experiencia gratificante.
+      <br>
+      <br>
+      A pesar de su pequeño tamaño, este perro tiene una gran cantidad de energía y necesita ejercicio regular para mantenerse feliz y saludable. Le encanta jugar y correr, y se adapta bien a una variedad de actividades, desde caminatas hasta juegos de buscar. Sin embargo, también disfruta de los momentos de tranquilidad y estará contento acurrucándose en el sofá con su dueño después de un día de actividad.
+      <br>
+      <br>
+      El Perro Esquimal Americano Miniatura es una raza versátil que se adapta bien a una variedad de hogares. Puede vivir cómodamente en un apartamento siempre y cuando se le proporcione suficiente ejercicio, y también se adapta bien a las casas con jardín. Aunque es un perro robusto, es sensible al calor debido a su grueso pelaje, por lo que se debe tener cuidado en climas más cálidos.
+      <br>
+      <br>
+      En resumen, el Perro Esquimal Americano Miniatura es una raza encantadora que combina una apariencia adorable con una personalidad amigable y juguetona. Su tamaño compacto lo hace adecuado para una variedad de hogares, pero su gran energía y necesidad de compañía significa que necesita un dueño comprometido que pueda proporcionarle el ejercicio y la atención que necesita.
+    `,
+    history: `
+      La historia del Perro esquimal americano (miniatura) es fascinante y está llena de giros y vueltas. Esta raza, aunque lleva el nombre de "americano", tiene sus raíces en el norte de Europa, donde los Spitz más pequeños se desarrollaron en varias razas alemanas de Spitz. Los inmigrantes europeos trajeron sus mascotas Spitz a los Estados Unidos, especialmente a Nueva York, a principios del siglo XX. Estos perros eran descendientes del Spitz alemán más grande, el Keeshond, el Pomerania blanco y el Spitz italiano, el Volpino Italiano.
+      <br>
+      <br>
+      El color blanco, aunque no siempre fue un color reconocido en las diversas razas de Spitz alemanas, era generalmente el color preferido en los Estados Unidos. En un acto de patriotismo en la era de la Primera Guerra Mundial, los dueños de perros comenzaron a referirse a sus mascotas como Spitz americanos en lugar de Spitz alemanes.
+      <br>
+      <br>
+      Después de la Primera Guerra Mundial, los pequeños perros Spitz llamaron la atención del público estadounidense cuando los perros se convirtieron en populares artistas en el circo estadounidense. En 1917, el Circo de los Hermanos Cooper presentó a los perros. Un perro llamado Stout's Pal Pierre se hizo famoso por caminar por la cuerda floja con el Circo Barnum y Bailey en la década de 1930, y también contribuyó a su popularidad, vendieron cachorros después del espectáculo. Debido a la popularidad de los perros de circo, muchos de los perros esquimales americanos de hoy pueden rastrear su linaje hasta estos perros de circo.
+      <br>
+      <br>
+      Después de la Segunda Guerra Mundial, los perros continuaron siendo mascotas populares. El contacto posterior a la guerra con Japón llevó a la importación a los Estados Unidos del Spitz japonés, que puede haber sido cruzado con la raza en este momento. La raza fue reconocida oficialmente como "American Eskimo" ya en 1919 por el American United Kennel Club (UKC), y el primer registro escrito e historia de la raza se imprimió en 1958 por el UKC. En ese momento no había un club oficial de la raza ni un estándar de la raza, y los perros eran aceptados para el registro como perros individuales, basados en su apariencia. En 1970 se fundó la National American Eskimo Dog Association (NAEDA), y se dejaron de registrar perros individuales. En 1985 se formó el American Eskimo Dog Club of America (AEDCA) por aficionados que deseaban registrar la raza con el American Kennel Club (AKC). Siguiendo los requisitos del AKC para el reconocimiento de la raza, el AEDCA recopiló la información de pedigrí de 1.750 perros que ahora forman la base de la raza reconocida por el AKC, que se llama Perro esquimal americano. La raza fue reconocida por el American Kennel Club en 1995.
+      <br>
+      <br>
+      El libro de cría se abrió de 2000 a 2003 en un intento de registrar más de las líneas registradas originales del UKC, y hoy muchos perros esquimales americanos pueden rastrear su linaje hasta estas líneas originales. Este esfuerzo por preservar la pureza de la raza y asegurar su futuro ha sido un aspecto importante de la historia de la raza.
+      <br>
+      <br>
+      Aunque la raza es conocida como "Perro esquimal americano", hay tres tamaños reconocidos: el tamaño estándar, el tamaño miniatura y el tamaño de juguete. El tamaño miniatura, que es el que nos interesa, se desarrolló a partir del tamaño estándar pero se crió para ser más pequeño sin perder ninguna de las características físicas o temperamentales de la raza.
+      <br>
+      <br>
+      A lo largo de los años, el Perro esquimal americano (miniatura) ha mantenido su popularidad y sigue siendo una opción popular para las familias y los individuos. Su tamaño manejable, su pelaje blanco y esponjoso, y su personalidad amigable y juguetona lo hacen atractivo para muchos. Aunque la raza ha tenido una historia interesante y a veces complicada, el amor y la dedicación de los criadores y dueños de perros han asegurado que el Perro esquimal americano (miniatura) siga siendo una raza querida y respetada en el mundo de los perros.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Compañía agradable',
@@ -1440,7 +1478,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     soporta_clima_frio: 'Alta',
     para_primerizos: '-',
     bueno_con_ninos: 'Alta',
-    fuentes: [],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/American_Eskimo_Dog",
+      "https://www.akc.org/dog-breeds/american-eskimo-dog/",
+      "https://www.royalcanin.com/us/dogs/breeds/breed-library/american-eskimo",
+      "https://www.dogbreedinfo.com/a/americaneskimo.htm",
+      "https://www.ukcdogs.com/american-eskimo-dog",
+    ],
     casos_famosos: [],
   },
   14: {
@@ -1488,10 +1532,42 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Perro de Caza Americano',
     ],
     country_code: 'US',
-    description:
-      'El Sabueso americano es una raza de perro grande y atractiva, con patas delanteras largas y huesos muy rectos. Su cabeza es larga con un cráneo grande ligeramente abovedado. Las orejas son anchas y colgantes, enmarcando la cara. Los ojos son grandes y separados, de color marrón o avellana, con una expresión dulce e implorante. Las orejas son anchas y planas en la cabeza. La cola se coloca moderadamente alta con una ligera curva hacia arriba, pero no se gira hacia adelante sobre la espalda. El pelaje corto y duro puede ser de cualquier color. Este perro es extremadamente enérgico e incansable. Es muy importante que haga mucho ejercicio diario para prevenir la inquietud extrema en interiores. Esta raza no debe ser adoptada como mascota familiar a menos que la familia pueda garantizar mucho ejercicio vigoroso.',
-    history:
-      'El Sabueso americano desciende directamente de los sabuesos ingleses llevados a América en 1650 y criados más de un siglo después con un sabueso francés enviado como regalo por Lafayette a George Washington. Washington llevó a cabo un programa de cría y a menudo mencionaba a los sabuesos en sus diarios. Las dos razas, francesa e inglesa, en combinación han producido el Sabueso americano. En el siglo XVII, estos perros se utilizaban para buscar indios. Más tarde, sin embargo, se convirtieron en cazadores eficientes e incansables de animales salvajes. El Sabueso americano tiene un excelente olfato y es muy rápido cuando persigue. Tiene una gran resistencia para correr y un ladrido melodioso. El Sabueso americano sigue siendo principalmente un perro de caza y de prueba de campo, tanto en manadas como solo, aunque también ha tenido éxito como perro de compañía para aquellos dueños que proporcionan suficiente ejercicio y actividades.',
+    description: `
+      El Sabueso Americano, también conocido como American Foxhound, es una raza que combina elegancia y resistencia, diseñada para perseguir con tenacidad y velocidad. Este perro es un cazador nato, con un agudo sentido del olfato y una energía inagotable que lo hace ideal para largas jornadas de caza.
+      <br>
+      <br>
+      Su apariencia es de un perro grande y atractivo, con patas delanteras largas y muy rectas. Su cabeza es larga con un cráneo ligeramente abovedado y grande. Sus orejas son amplias y colgantes, enmarcando su rostro. Los ojos son grandes y separados, de color marrón o avellana, con una expresión dulce y suplicante. La cola se coloca moderadamente alta con una ligera curva hacia arriba, pero no se dobla hacia adelante sobre la espalda. Su pelaje es corto y duro, y puede ser de cualquier color.
+      <br>
+      <br>
+      El Sabueso Americano es un perro dulce, afectuoso, gentil y amoroso en casa, pero también un guerrero valiente e intenso en la caza. Son excelentes con los niños y se llevan bien con otros perros debido a su trasfondo de caza en manada, pero no deben confiarse con mascotas no caninas. La amabilidad con los extraños varía ampliamente. Son perros muy amigables, sin embargo, si a un perro en particular se le permite verse a sí mismo como el líder de la manada para los humanos, puede volverse protector.
+      <br>
+      <br>
+      Este perro es extremadamente enérgico e incansable. Es muy importante que haga ejercicio diario vigoroso para prevenir la inquietud extrema en interiores. Esta raza no debe ser adoptada como mascota familiar a menos que la familia pueda garantizar una gran cantidad de ejercicio vigoroso. Necesitan ser llevados a diario a un paseo, trote o carrera largo y enérgico, junto a usted cuando va en bicicleta.
+      <br>
+      <br>
+      El Sabueso Americano es una raza bastante saludable, libre de muchas enfermedades genéticas, como problemas de cadera y huesos, que afectan a otras razas grandes. Sin embargo, tienden a ganar peso fácilmente, por lo que es importante no sobrealimentarlos.
+      <br>
+      <br>
+      En cuanto a su alojamiento, los Sabuesos Americanos no se recomiendan para la vida en apartamentos. Son muy activos en interiores y se desempeñan mejor con un terreno amplio.
+      <br>
+      <br>
+      En resumen, el Sabueso Americano es un perro de trabajo que necesita mucho ejercicio y estimulación mental. Son perros leales y cariñosos que pueden ser excelentes compañeros para las personas adecuadas. Sin embargo, requieren un dueño que pueda proporcionarles el ejercicio y la disciplina que necesitan.
+    `,
+    history: `
+      La historia del Sabueso Americano, también conocido como American Foxhound, es una narrativa fascinante que se entrelaza con la historia misma de los Estados Unidos. Este perro, que es un descendiente directo de los sabuesos ingleses, fue desarrollado en la América colonial. Los primeros ejemplares de esta raza llegaron a América en 1650, y más de un siglo después, se refinaron con la ayuda de sabuesos irlandeses, franceses y de otras razas.
+      <br>
+      <br>
+      Uno de los personajes más emblemáticos en la historia de esta raza es nada menos que George Washington, el primer presidente de los Estados Unidos. Washington recibió como regalo un sabueso francés de parte de Lafayette, un regalo que utilizó para mejorar su programa de cría. Los diarios de Washington a menudo mencionan a los sabuesos, lo que nos da una idea de cuán importante era esta raza para él.
+      <br>
+      <br>
+      En el siglo XVII, estos perros se utilizaron para buscar indígenas. Sin embargo, con el tiempo, se convirtieron en cazadores eficientes y tenaces de animales salvajes. Los Sabuesos Americanos tienen una excelente nariz, son muy rápidos cuando persiguen a su presa y poseen una gran resistencia para correr. Su ladrido musical es tan característico que incluso se ha utilizado en canciones populares.
+      <br>
+      <br>
+      Aunque el Sabueso Americano todavía se utiliza principalmente como perro de caza y de prueba de campo, tanto en manadas como solo, también ha tenido éxito como perro de compañía para aquellos propietarios que proporcionan suficiente ejercicio y actividades. La raza fue reconocida por el United Kennel Club en 1905.
+      <br>
+      <br>
+      La historia del Sabueso Americano es un testimonio de la evolución de la cría de perros en América, desde los primeros días de la colonia hasta el presente. Esta raza, que comenzó como una herramienta de caza y supervivencia, se ha convertido en un compañero amado y valorado en muchos hogares de todo el país. A través de los años, el Sabueso Americano ha demostrado ser un perro versátil, capaz de adaptarse a una variedad de roles, desde cazador incansable hasta leal amigo de la familia.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente para la caza',
@@ -1574,10 +1650,45 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'American Pit Bull Terrier',
     ],
     country_code: 'US',
-    description:
-      'El Terrier Americano Pit Bull es una raza de tamaño mediano, sólidamente construida, con un pelaje corto y una musculatura suave y bien definida. Esta raza es a la vez poderosa y atlética. El cuerpo es ligeramente más largo que alto, pero las hembras pueden ser un poco más largas que los machos. La cabeza es de longitud media, con un cráneo ancho y plano, y un hocico ancho y profundo. Los ojos son de tamaño mediano, redondos y están bien separados y bajos en el cráneo. Las orejas son pequeñas a medianas en tamaño, de alta inserción, y pueden ser naturales o cortadas. La cola es relativamente corta, se inserta baja, es gruesa en la base y se estrecha hacia la punta. El pelaje es brillante y suave, pegado al cuerpo y moderadamente rígido al tacto. Esta raza combina fuerza y agilidad con gracia y agilidad y nunca debe parecer voluminosa o musculosa o de huesos finos y largos.',
-    history:
-      'Durante el siglo XIX, los aficionados a los perros en Inglaterra, Irlanda y Escocia comenzaron a experimentar con cruces entre Bulldogs y Terriers, buscando un perro que combinara la valentía del terrier con la fuerza y el atletismo del Bulldog. El resultado fue un perro que encarnaba todas las virtudes atribuidas a los grandes guerreros: fuerza, coraje indomable y gentileza con los seres queridos. Los inmigrantes trajeron estos cruces de bull-and-terrier a los Estados Unidos. Los múltiples talentos del Terrier Americano Pit Bull no pasaron desapercibidos para los granjeros y rancheros que utilizaban a sus APBTs como perros de captura para el ganado y los cerdos semi-salvajes, para cazar, para conducir el ganado, y como compañeros de familia. Hoy en día, el Terrier Americano Pit Bull continúa demostrando su versatilidad, compitiendo con éxito en Obediencia, Rally Obediencia, Rastreo, Agilidad, Lure Coursing, Dock Jumping y Weight Pulls, así como en Conformación.',
+    description: `
+        El Terrier Americano Pit Bull es una raza de perro que combina fuerza y agilidad con gracia y destreza. Este perro de tamaño mediano es sólidamente construido, con una musculatura suave y bien definida. Su cuerpo es ligeramente más largo que alto, y su cabeza es de longitud media, con un cráneo ancho y plano, y un hocico ancho y profundo. Sus ojos son de tamaño mediano y redondos, y sus orejas son pequeñas a medianas, altas y pueden ser naturales o cortadas.
+        <br>
+        <br>
+        El Pit Bull es conocido por su fuerza, confianza y entusiasmo por la vida. Esta raza está ansiosa por complacer y rebosa de entusiasmo. Los Pit Bulls hacen excelentes compañeros de familia y siempre han sido notados por su amor por los niños. Debido a que la mayoría de los Pit Bulls muestran algún nivel de agresión hacia otros perros y debido a su poderosa constitución física, requieren un dueño que socialice y entrene al perro con cuidado. La agilidad natural de la raza la convierte en una de las razas caninas más capaces de trepar, por lo que una buena valla es imprescindible para esta raza. El Pit Bull no es la mejor opción para un perro guardián, ya que son extremadamente amigables, incluso con extraños. El comportamiento agresivo hacia los humanos es atípico de la raza y muy indeseable.
+        <br>
+        <br>
+        El Pit Bull tiene una cabeza única y es un elemento clave del tipo de raza. Es grande y ancha, dando la impresión de gran poder, pero no es desproporcionada al tamaño del cuerpo. Vista desde el frente, la cabeza tiene forma de cuña ancha y romo. Cuando se ve desde el lado, el cráneo y el hocico son paralelos entre sí y se unen por un stop bien definido y moderadamente profundo. Los arcos supraorbitales sobre los ojos están bien definidos pero no son pronunciados. La cabeza está bien cincelada, combinando fuerza, elegancia y carácter.
+        <br>
+        <br>
+        El pecho del Pit Bull es profundo, bien lleno y moderadamente ancho, con suficiente espacio para el corazón y los pulmones. Las costillas se extienden bien hacia atrás y están bien arqueadas desde la columna vertebral, luego se aplanan para formar un cuerpo profundo que se extiende hasta los codos. La espalda es fuerte y firme. La línea superior se inclina muy ligeramente hacia abajo desde la cruz hasta una espalda ancha, muscular y nivelada. La grupa se inclina ligeramente hacia abajo.
+        <br>
+        <br>
+        La cola del Pit Bull es una extensión natural de la línea superior y se estrecha hasta un punto. Cuando el perro está relajado, la cola se lleva baja y se extiende aproximadamente hasta el corvejón. Cuando el perro está en movimiento, la cola se lleva al nivel de la línea de la espalda. Cuando el perro está emocionado, la cola puede llevarse en una posición erguida y levantada, pero nunca se curva sobre la espalda.
+        <br>
+        <br>
+        El pelaje del Pit Bull es brillante y suave, cerrado y moderadamente rígido al tacto. El Pit Bull viene en todos los colores y patrones de color, excepto el merle. Este perro es tanto poderoso como ágil, y su apariencia general combina fuerza y atletismo con gracia y agilidad. Nunca debe parecer voluminoso o con músculos excesivos, ni tampoco de huesos finos y larguirucho.
+        <br>
+        <br>
+        En cuanto a su tamaño, el peso deseable para un macho maduro en buenas condiciones es entre 35 y 60 libras. El peso deseable para una hembra madura en buenas condiciones es entre 30 y 50 libras. Como una guía general y aproximada, la altura deseable para los machos maduros es de 18 a 21 pulgadas en la cruz; para las hembras maduras, es de 17 a 20 pulgadas en la cruz. Es importante tener en cuenta que los perros que están por encima o por debajo de estos rangos de peso y altura no deben ser penalizados a menos que sean desproporcionadamente masivos o larguiruchos.
+        <br>
+        <br>
+        En resumen, el Terrier Americano Pit Bull es una raza de perro que es tan poderosa como ágil, y que combina fuerza y atletismo con gracia y agilidad. Su apariencia general, su cabeza única, su pecho profundo y bien lleno, su espalda fuerte y firme, su cola naturalmente extendida y su amplia gama de colores y patrones de pelaje hacen de esta raza una de las más reconocibles y admiradas.
+      `,
+    history: `
+      La historia del Terrier Americano Pit Bull es una narrativa de fuerza, coraje y versatilidad. Esta raza tiene sus raíces en el siglo XIX, cuando los amantes de los perros en Inglaterra, Irlanda y Escocia comenzaron a experimentar con cruces entre Bulldogs y Terriers. Buscaban un perro que combinara la valentía del terrier con la fuerza y el atletismo del Bulldog. El resultado fue un perro que encarnaba todas las virtudes atribuidas a los grandes guerreros: fuerza, coraje indomable y gentileza con sus seres queridos.
+      <br>
+      <br>
+      Los inmigrantes trajeron estos cruces de bull-and-terrier a los Estados Unidos, donde sus talentos no pasaron desapercibidos para los granjeros y rancheros. Utilizaban a sus Terrier Americano Pit Bull como perros de captura para el ganado semi-salvaje y los cerdos, para cazar, para conducir el ganado y como compañeros de familia. Hoy en día, el Terrier Americano Pit Bull sigue demostrando su versatilidad, compitiendo con éxito en Obediencia, Rally Obediencia, Rastreo, Agilidad, Lure Coursing, Salto de Muelle y Tiro de Peso, así como en Conformación.
+      <br>
+      <br>
+      El United Kennel Club fue el primer registro en reconocer al Terrier Americano Pit Bull. El fundador del UKC, C. Z. Bennett, asignó el número de registro 1 del UKC a su propio APBT, Bennett's Ring, en 1898.
+      <br>
+      <br>
+      A lo largo de los años, la raza ha mantenido su tipo durante más de 150 años, siendo un perro físicamente activo, muscular y muy ágil. Cualquier desviación de estas características se considera un defecto, y la gravedad con la que se debe considerar el defecto debe estar en proporción exacta a su grado y su efecto sobre la salud y el bienestar del perro y sobre la capacidad del perro para realizar su trabajo tradicional.
+      <br>
+      <br>
+      En resumen, la historia del Terrier Americano Pit Bull es una historia de adaptabilidad y resistencia. Desde sus orígenes en las Islas Británicas hasta su desarrollo en América, esta raza ha demostrado ser capaz de desempeñar una variedad de roles, desde perro de trabajo hasta compañero de familia. A lo largo de los años, el Terrier Americano Pit Bull ha demostrado ser un perro de gran corazón y espíritu indomable, siempre dispuesto a afrontar cualquier desafío que se le presente.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente protector del hogar',
@@ -1655,10 +1766,45 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Terrier staffordshire americano',
     ],
     country_code: 'US',
-    description:
-      'El Terrier Americano Staffordshire, conocido por sus admiradores como AmStaffs, son compañeros inteligentes, seguros y de buen carácter. Su coraje es proverbial. Un AmStaff bien socializado y criado responsablemente es un amigo leal y confiable hasta el final. Los AmStaffs son terriers de tipo toro, musculosos y robustos, que miden de 17 a 19 pulgadas a la altura del hombro. La cabeza es ancha, las mandíbulas bien definidas, los pómulos pronunciados y los ojos oscuros y redondos están bien separados. El movimiento del AmStaff es ágil y elegante, con un andar elástico que anuncia la confianza innata de la raza. El pelaje rígido y brillante viene en muchos colores y patrones. Los AmStaffs son descritos por sus dueños como perros muy conscientes de su entorno, dispuestos a cualquier cosa y adorables "perros de personalidad" alrededor de la casa. A los AmStaffs les gustan los desafíos mentales y físicos. Son altamente entrenables, como sugieren sus muchas incursiones en el mundo del espectáculo.',
-    history:
-      'Hace años en Gran Bretaña, se crearon varias razas de perros para sobresalir en deportes de sangre. Se esperaba que lucharan entre sí, o se soltaban en manadas contra un oso o un toro atado, con espectadores apostando en el resultado. Sin embargo, los criadores americanos querían un animal más pesado que la raza británica, de ahí el nombre de Terrier Americano Staffordshire. Las raíces del Terrier Americano Staffordshire se pueden rastrear a través de los primeros guerreros mastín, a los Bulldogs originales en Inglaterra, que se utilizaban en el sangriento deporte de la pelea de toros. El Terrier Americano Staffordshire fue aceptado en 1936 para su registro en el libro de registro del American Kennel Club como Staffordshire Terriers.',
+    description: `
+      El Terrier Americano Staffordshire, también conocido como AmStaff, es una raza de perro que combina fuerza, gracia y confianza en un paquete compacto. Son perros de tamaño mediano, con una altura que varía entre 43 y 48 cm en las hembras y entre 46 y 48 cm en los machos. El peso de un AmStaff adulto puede variar entre 28 y 40 kg, dependiendo del tamaño y la constitución del perro.
+      <br>
+      <br>
+      El AmStaff es un perro musculoso y bien definido, con una apariencia fuerte y robusta. Su cabeza es ancha, con mejillas pronunciadas y una mandíbula fuerte y poderosa. Los ojos son oscuros y redondos, y están bien separados entre sí. Las orejas son altas en la cabeza y pueden ser naturales o cortadas, aunque muchas personas prefieren dejarlas naturales. La cola es corta en comparación con el tamaño del cuerpo y se estrecha hacia la punta.
+      <br>
+      <br>
+      El pelaje del AmStaff es corto, denso y brillante, y puede venir en una amplia variedad de colores y patrones. Los colores pueden variar desde el blanco hasta el negro, pasando por el rojo, el azul, el marrón y el atigrado. Algunos AmStaffs pueden tener marcas blancas en el pecho, la cara o los pies.
+      <br>
+      <br>
+      En cuanto a su personalidad, los AmStaffs son conocidos por su valentía, tenacidad y lealtad. Son perros inteligentes y versátiles que pueden ser entrenados para una variedad de tareas, desde la obediencia básica hasta deportes caninos como el agility y el weight pull. A pesar de su apariencia intimidante, los AmStaffs son perros amables y cariñosos que se llevan bien con las personas y son excelentes con los niños. Sin embargo, pueden ser reservados con los extraños y pueden ser agresivos con otros perros, especialmente del mismo sexo.
+      <br>
+      <br>
+      Los AmStaffs son perros activos que requieren mucho ejercicio para mantenerse saludables y felices. Necesitan al menos una hora de ejercicio vigoroso al día, que puede incluir paseos, juegos de buscar y traer, y sesiones de entrenamiento. También son perros inteligentes que disfrutan de los desafíos mentales, por lo que los juegos de rompecabezas y el entrenamiento de obediencia pueden ser una buena manera de mantener su mente aguda.
+      <br>
+      <br>
+      En cuanto a su salud, los AmStaffs son generalmente perros saludables, pero como todas las razas, pueden ser propensos a ciertas condiciones genéticas. Algunas de las condiciones de salud más comunes en los AmStaffs incluyen la displasia de cadera, problemas cardíacos y alergias de piel. Es importante que los propietarios potenciales trabajen con un criador responsable que pruebe la salud de sus perros reproductores para estas y otras condiciones.
+      <br>
+      <br>
+      En resumen, el Terrier Americano Staffordshire es una raza de perro fuerte, leal y cariñosa que puede hacer un excelente compañero para la persona o familia adecuada. Son perros activos y inteligentes que requieren un dueño comprometido que esté dispuesto a dedicar tiempo y energía a su cuidado y entrenamiento
+    `,
+    history: `
+      La historia del Terrier Americano Staffordshire, también conocido como AmStaff, es una historia de evolución y adaptación. Esta raza se originó en el siglo XIX en la región de Staffordshire, Inglaterra, donde se cruzaron Bulldogs y varios terriers para desarrollar un perro muscular, activo y combativo conocido como el Staffordshire Bull Terrier.
+      <br>
+      <br>
+      Cuando estos perros fueron llevados a los Estados Unidos, los criadores americanos prefirieron una versión más grande y pesada, con una cabeza más poderosa. Así nació el American Staffordshire Terrier, reconocido ahora como una raza separada de su primo británico, el Staffordshire Bull Terrier.
+      <br>
+      <br>
+      Después de que las peleas de perros fueron prohibidas en los Estados Unidos en 1900, se desarrollaron dos cepas de estos perros: una cepa de exposición y una cepa no destinada a exposiciones. La cepa de exposición fue etiquetada como el American Staffordshire Terrier, mientras que la cepa no destinada a exposiciones fue etiquetada como el American Pit Bull Terrier. Aunque inicialmente se consideraban la misma raza, ahora se reconocen como razas separadas.
+      <br>
+      <br>
+      A lo largo de los años, los criadores han trabajado diligentemente para suavizar la naturaleza combativa de estos perros, enfocándose en criar perros que son amigables, confiables y excelentes con los niños. Como resultado, el American Staffordshire Terrier de hoy es un perro valiente, inteligente y lleno de vida, conocido por su lealtad y afecto hacia su familia humana.
+      <br>
+      <br>
+      El American Staffordshire Terrier fue reconocido por el American Kennel Club (AKC) en 1936. Desde entonces, la raza ha demostrado ser versátil y capaz en una variedad de roles, desde perros guardianes hasta perros de terapia, y ha ganado popularidad en eventos de obediencia y agilidad.
+      <br>
+      <br>
+      A pesar de su historia y de las controversias que a veces rodean a la raza, el American Staffordshire Terrier ha demostrado ser un perro familiar leal y cariñoso, un guardián valiente y un competidor entusiasta en una variedad de deportes caninos. Con la socialización y el entrenamiento adecuados, estos perros pueden ser excelentes compañeros y miembros valiosos de la comunidad.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de guardia',

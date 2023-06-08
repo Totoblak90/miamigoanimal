@@ -89,12 +89,12 @@
 
 .grid-2-cols {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
   column-gap: 3rem;
 
-  @include respond(big-desktop) {
-    grid-template-columns: 1fr 1fr;
+  @include respond(tab-land) {
+    grid-template-columns: 1fr;
   }
 }
 

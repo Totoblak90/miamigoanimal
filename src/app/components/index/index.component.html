@@ -1,10 +1,22 @@
-<div class="index-container">
-  <h2 class="heading-secondary u-margin-bottom-small">Contenidos</h2>
-  <div class="button-container u-margin-bottom-small" *ngFor="let title of titleList; let i = index;">
-    <button (click)="scrollTo(title)" class="button" *ngIf="title?.innerText && title?.innerText !== 'CONTENIDOS'">
-      <span class="heading-tertiary">
-        &#8226; {{ title.innerText }}
-      </span>
-    </button>
+<article class="index-container">
+
+  <div class="index-header" (click)="collapsed = !collapsed">
+
+    <h2 class="heading-secondary">Contenidos</h2>
+
+    <i class="fa-solid fa-chevron-down icon" *ngIf="!collapsed"></i>
+    <i class="fa-solid fa-chevron-up icon" *ngIf="collapsed"></i>
+
   </div>
-</div>
+
+  <div *ngIf="!collapsed" class="index-body">
+    <div class="button-container u-margin-bottom-small" *ngFor="let title of titleList; let i = index;">
+      <button (click)="scrollTo(title)" class="button" *ngIf="title?.innerText && title?.innerText !== 'CONTENIDOS'">
+        <span class="heading-tertiary">
+          &#8226; {{ title.innerText }}
+        </span>
+      </button>
+    </div>
+  </div>
+
+</article>
