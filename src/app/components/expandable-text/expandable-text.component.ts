@@ -20,7 +20,7 @@ export class ExpandableTextComponent implements AfterViewInit {
   toggleTexto() {
     this.estaExpandido = !this.estaExpandido;
     if (this.estaExpandido) {
-      this.maxHeight = `${this.textoContainer.nativeElement.scrollHeight + 45}px`;
+      this.maxHeight = `${this.textoContainer.nativeElement.scrollHeight + 60}px`;
     } else {
       this.maxHeight = '250px';
     }

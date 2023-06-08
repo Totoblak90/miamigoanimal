@@ -1,7 +1,7 @@
 <ng-container *ngIf="textoCompleto.length > 800; else notExpandable">
   <div class="collapsed-text-container" [class.expanded]="estaExpandido" [style.max-height]="maxHeight" #textoContainer>
     <p class="paragraph" [innerHTML]="textoCompleto"></p>
-    <button class="btn btn-text collapsed-text-container__button" (click)="toggleTexto()">
+    <button class="btn btn--green btn--animated collapsed-text-container__button" (click)="toggleTexto()">
       {{ estaExpandido ? 'Ver menos' : 'Ver más' }}
     </button>
   </div>
