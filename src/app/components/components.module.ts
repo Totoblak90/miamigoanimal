@@ -29,6 +29,7 @@ import { PreguntasFrecuentesSectionComponent } from './preguntas-frecuentes-sect
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { CalculadoraDeRacionesComponent } from './calculadora-de-raciones/calculadora-de-raciones.component';
 import { PopupFoodRationsComponent } from './popup-food-rations/popup-food-rations.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -66,6 +67,7 @@ import { PopupFoodRationsComponent } from './popup-food-rations/popup-food-ratio
     CommonModule,
     PipesModule,
     ReactiveFormsModule,
+    RouterModule
   ],
   exports: [
     HeaderComponent,
