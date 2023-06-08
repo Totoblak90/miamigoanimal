@@ -19,7 +19,12 @@ export class razaPerrosResolver implements Resolve<any>  {
   ): Observable<any> => {
 
 
-    const KEY = makeStateKey<string>('raza-perro-' + route.params['id'][0])
+    const paramId = route.params['id'];
+    const questionMarkIndex = paramId.indexOf('?');
+    const slicedId = paramId.slice(0, questionMarkIndex);
+    const id = Number(slicedId);
+
+    const KEY = makeStateKey<string>('raza-perro-' + id)
 
     if (this.transferState.hasKey(KEY))
     {
@@ -34,11 +39,9 @@ export class razaPerrosResolver implements Resolve<any>  {
     else
     {
 
-      const perro = this.perrosService.dogListSignal()[+route.params['id'][0]]
+      const perro = this.perrosService.dogListSignal()[id]
 
-      if (isPlatformServer(this.platformId)) {
-        this.transferState.set(KEY, JSON.stringify(perro));
-      }
+      if (isPlatformServer(this.platformId)) { this.transferState.set(KEY, JSON.stringify(perro)); }
 
       return of(perro);
 
