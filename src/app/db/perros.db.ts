@@ -2365,10 +2365,51 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Alergias de piel', 'Problemas dentales'],
-    description:
-      'El Terrier Australiano es una raza de perro pequeña pero resistente, conocida por su espíritu vivaz, alerta y valiente. Estos perros son conocidos por su confianza en sí mismos y su agresividad natural, características que los hacen excelentes cazadores de ratas y animales de madriguera. A pesar de ser uno de los terriers más sensatos, el Terrier Australiano sigue siendo tan resistente y enérgico como el resto de las razas de terrier. Para vivir felizmente con un Terrier Australiano, es importante entender el temperamento dinámico de los terriers. Estos perros necesitan suficiente compañía diaria, paseos diarios y sesiones de juego diarias con una pelota o un juguete. Aunque son pequeños, los Terriers Australianos son perros guardianes alerta con sentidos agudos y suelen ser reservados o educados con los extraños. Los Terriers Australianos son rápidos para aprender y, aunque tienen sus momentos de independencia, en su mayoría están dispuestos a complacer. Algunos Terriers Australianos son excavadores natos y algunos pueden ser ladradores, aunque en general esta raza es más tranquila que muchos otros terriers.',
-    history:
-      'La historia del Terrier Australiano se remonta a mediados del siglo XIX en Australia, donde se desarrolló a partir de una variedad de terriers británicos traídos al país por colonos. Estos terriers, que incluían al Terrier de Yorkshire, al Terrier de Dandie Dinmont, al Terrier de Skye y al Terrier negro y tostado, se cruzaron entre sí para producir una raza resistente y versátil que pudiera soportar las duras condiciones australianas. El Terrier Australiano fue criado para ser un perro de trabajo versátil, capaz de cazar y matar ratas y serpientes, pastorear ovejas y ganado, y actuar como perro guardián. La raza fue reconocida oficialmente por el Kennel Club de Australia en 1850, y fue una de las primeras razas de perros desarrolladas en Australia que fue reconocida internacionalmente.',
+    description: `
+      El Terrier Australiano, cariñosamente conocido como "Aussie", es un perro pequeño pero robusto, de patas cortas y cuerpo alargado. Este perro de tamaño compacto, con una altura deseable de 10 pulgadas en los machos y un poco menos en las hembras, y un peso de alrededor de 14 libras en los machos y un poco menos en las hembras, es una mezcla de fuerza y agilidad. Su cuerpo es un poco más largo que alto, con un pecho profundo y bien desarrollado, y una espalda nivelada. Sus patas son fuertes y bien huesudas, y sus pies son pequeños y redondos, con dedos compactos y bien acolchados que no se giran hacia adentro ni hacia afuera.
+      <br>
+      <br>
+      La cabeza del Terrier Australiano es larga y fuerte, llena entre los ojos, con un stop ligero pero definido. Sus ojos son pequeños, de forma ovalada y de color marrón oscuro, dando una expresión aguda. Sus orejas son pequeñas, erectas, puntiagudas, bien llevadas y colocadas moderadamente anchas. Están libres de pelo largo y son sensibles en su uso.
+      <br>
+      <br>
+      Una de las características más distintivas del Terrier Australiano es su pelaje. Tiene un doble pelaje resistente a la intemperie que es de aproximadamente 2-3 pulgadas de largo. El pelaje puede ser de color azul y tostado, arenoso sólido o rojo sólido. Los tonos de azul incluyen azul oscuro, azul acero, azul gris oscuro o azul plateado. En los azules plateados, cada pelo lleva azul y plata alternando con el color más oscuro en las puntas. Hay un copete que cubre solo la parte superior del cráneo, con una textura más fina y suave que el resto del pelaje.
+      <br>
+      <br>
+      El Terrier Australiano es un perro lleno de energía y lealtad. Muestra gran afecto por su familia inmediata y su inteligencia extraordinaria lo convierte en un compañero receptivo y muy protector. Es un perro alerta, divertido y adorable. Su audición y visión son muy agudas, lo que lo convierte en un excelente perro guardián. Le gusta ladrar, y debe ser enseñado a dejar de ladrar después de alertar de algo. Es amigable con otros perros y mascotas, pero puede perseguir a animales pequeños fuera de la casa y debe estar en un área segura en todo momento.
+      <br>
+      <br>
+      En cuanto a su cuidado, el Terrier Australiano es bastante fácil de mantener. Su pelaje rígido, largo y desaliñado no necesita recortes. Simplemente cepíllalo varias veces a la semana, siendo suave con el suave subpelo. El cepillado estimula los aceites naturales y pronto llevará el pelaje a un alto brillo. No laves a este terrier con demasiada frecuencia; más de una vez al mes hará que el pelaje se vuelva lacio. El pelaje debe ser cepillado mientras se seca. Asegúrate de recortar alrededor de los ojos y las orejas, si es necesario, con tijeras de punta roma. También requiere desplumar aproximadamente cada tres meses para mantener su apariencia ordenada.
+      <br>
+      <br>
+      En cuanto a su salud, el Terrier Australiano es una raza generalmente saludable con pocos problemas de salud. Un criador responsable probará el stock de cría para condiciones de salud como la luxación de la rótula (una rodilla dislocada en humanos) y la enfermedad de Legg-Calve-Perthes, una malformación de la articulación de la cadera que se manifiesta temprano y puede corregirse con cirugía. Algunos perros pueden desarrollar condiciones de piel que pican, y el control de las pulgas es esencial. Como con todas las razas, las orejas deben ser revisadas regularmente, y los dientes deben ser cepillados a menudo.
+      <br>
+      <br>
+      En términos de actividad, los Terriers en general tienen un alto nivel de energía, y el Aussie no es una excepción. La raza es muy activa y requiere ejercicio regular para evitar aburrirse y volverse infeliz. El aburrimiento conduce a un comportamiento indeseable. Las sesiones de juego diarias, en interiores o exteriores, mantendrán a un Aussie feliz y bien ajustado. Sin embargo, estas sesiones deben tener lugar en un patio seguro, y cuando estén en paseos o caminatas, un Aussie debe estar con correa. Los Aussies nunca deben correr sueltos, su instinto de caza es muy fuerte, y es posible que no puedan resistirse a correr para perseguir a un gato o ardilla, y podrían perseguir a su presa tan lejos de casa que no puedan encontrar el camino de regreso.
+      <br>
+      <br>
+      En cuanto a su entrenamiento, los Aussies, como muchos terriers, se benefician enormemente de las clases de entrenamiento para cachorros y la obediencia introductoria con golosinas, juguetes o elogios. Los Aussies se aburren fácilmente con la rutina, por lo que las sesiones de entrenamiento serán cortas, quiera o no el dueño. También son voluntariosos y obstinados, por lo que se necesita un enfoque firme y consistente. Incluso con el entrenamiento, sin embargo, un Aussie puede ser reacio a compartir juguetes o atención humana, y dos machos pueden no ser capaces de compartir un hogar.
+      <br>
+      <br>
+      En resumen, el Terrier Australiano es un perro pequeño pero resistente, lleno de energía y lealtad. Es un perro alerta, divertido y adorable. Su audición y visión son muy agudas, lo que lo convierte en un excelente perro guardián. Le gusta ladrar, y debe ser enseñado a dejar de ladrar después de alertar de algo. Es amigable con otros perros y mascotas, pero puede perseguir a animales pequeños fuera de la casa y debe estar en un área segura en todo momento. Su pelaje resistente a la intemperie es fácil de mantener, y su alta energía y necesidad de ejercicio regular hacen de este perro una excelente opción para una familia activa.
+    `,
+    history: `
+      La historia del Terrier Australiano es una narración fascinante de ingenio, adaptabilidad y resistencia. Esta raza, que se originó en Australia en el siglo XIX, es el resultado de la combinación de varias razas de terrier británicas llevadas a Australia por los colonos. Los perros fueron criados para adaptarse al clima y las condiciones de vida únicas de Australia, y se convirtieron en una parte integral de la vida en las granjas y ranchos australianos.
+      <br>
+      <br>
+      Los primeros Terriers Australianos se desarrollaron a partir de una mezcla de varias razas de terrier británicas, incluyendo el Terrier de Yorkshire, el Terrier de Dandie Dinmont, el Terrier de Skye y el Terrier de Manchester. Estos perros fueron seleccionados por su resistencia, su habilidad para cazar y matar roedores y su adaptabilidad a las duras condiciones australianas. El resultado fue un perro resistente y versátil que podía soportar el calor del verano australiano, cazar y matar roedores y ser un buen compañero para sus dueños.
+      <br>
+      <br>
+      El Terrier Australiano fue reconocido oficialmente como una raza en Australia en 1850, y la primera norma de la raza fue escrita en 1868. La raza fue reconocida por el Kennel Club del Reino Unido en 1933, y por el American Kennel Club en 1960. Aunque no es una raza muy conocida fuera de Australia, el Terrier Australiano ha ganado una base de seguidores leales debido a su inteligencia, su carácter amigable y su adaptabilidad.
+      <br>
+      <br>
+      A lo largo de los años, el Terrier Australiano ha demostrado ser un perro de trabajo excepcionalmente capaz. En las granjas y ranchos australianos, estos perros eran valorados por su habilidad para mantener a raya a las plagas de roedores, y también se utilizaban para cazar serpientes y otros pequeños animales. A pesar de su pequeño tamaño, los Terriers Australianos son perros valientes y decididos que no dudan en enfrentarse a animales mucho más grandes que ellos cuando es necesario.
+      <br>
+      <br>
+      Hoy en día, el Terrier Australiano es apreciado tanto como perro de trabajo como de compañía. Su inteligencia y su disposición amigable hacen que sea un excelente perro de familia, y su resistencia y energía también lo hacen adecuado para una variedad de actividades caninas, incluyendo la obediencia, la agilidad y el trabajo de terapia.
+      <br>
+      <br>
+      En resumen, la historia del Terrier Australiano es una historia de adaptabilidad y resistencia. Estos pequeños pero robustos perros han demostrado ser capaces de enfrentarse a cualquier desafío que se les presente, y han ganado un lugar en los corazones de muchos dueños de perros en Australia y en todo el mundo.
+    `,
     searchTerms: [
       'Terrier Australiano',
       'Terrier australiano',
