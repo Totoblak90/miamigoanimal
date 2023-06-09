@@ -2016,10 +2016,42 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Dilatación gástrica volvulus (GDV)',
       'Displasia de codo',
     ],
-    description:
-      'El Appenzeller Sennenhund es una raza de perro de pastoreo de tamaño mediano que es tricolor y casi cuadrado en su construcción. Es muscular y ágil, lo que lo convierte en un buen perro de conducción, vigilancia, guardia, casa o granja. Debido a su versatilidad y disposición, sobresalen en agilidad, obediencia, pastoreo y búsqueda y rescate. El Appenzeller Sennenhund es uno de los cuatro tipos de razas suizas de Sennen y también se conoce como el Perro de Montaña Appenzeller o el Perro de Ganado Appenzell. Es vivaz, de buen carácter, seguro de sí mismo, confiable y sin miedo. Ligeramente sospechoso de los extraños, es un buen perro guardián que no puede ser sobornado. La inteligencia de la raza los convierte en aprendices altamente capaces. Debido a su personalidad y necesidades de ejercicio, no es adecuado para la vida en apartamentos.',
-    history:
-      "El Appenzeller Sennenhund fue descrito por primera vez en 1853 como un perro de ganado de pelo corto, multicolor, de tipo Spitz, que ladra agudamente y se utiliza para guardar la casa y pastorear el ganado en su región natal de Appenzell, Suiza. La cría intencional de Appenzellers puros comenzó en Suiza en 1898. Sennenhund se traduce libremente como 'perro del granjero lechero'. El Appenzeller Sennenhund forma parte de la familia de los Perros de Montaña Suizos que incluye al Gran Perro de Montaña Suizo, el Perro de Montaña Bernés y el Perro de Montaña Entlebucher. El Appenzeller controlará una vaca desobediente corriendo para morderle el talón.",
+    description: `
+      El Appenzeller Sennenhund, también conocido como el perro de montaña Appenzell, es una raza de perro de trabajo de tamaño mediano que se originó en Suiza. Este perro robusto y bien musculado es conocido por su agilidad y resistencia, lo que lo hace ideal para una variedad de tareas de trabajo, incluyendo la conducción de ganado, el pastoreo y el tirar de carros.
+      <br>
+      <br>
+      El Appenzeller Sennenhund tiene una altura que varía entre 47 a 58 cm para las hembras y de 50 a 60 cm para los machos. Su peso oscila entre 22 a 32 kg para las hembras y de 25 a 32 kg para los machos. Esta raza tiene un cuerpo compacto y fuerte, con una espalda recta y una cola que se lleva enrollada sobre la espalda cuando el perro está en movimiento o excitado.
+      <br>
+      <br>
+      El pelaje del Appenzeller Sennenhund es denso, grueso y brillante, lo que le proporciona una excelente protección contra las inclemencias del tiempo. Los colores del pelaje pueden variar, pero los más comunes son el negro o el havanna (marrón oscuro) con marcas simétricas de color blanco y marrón claro a rojo. Estas marcas incluyen una mancha blanca en la cabeza que se extiende hasta el hocico y el pecho, y marcas de color marrón claro a rojo en las cejas, las mejillas, el pecho, las patas y la base de la cola.
+      <br>
+      <br>
+      La cabeza del Appenzeller Sennenhund es fuerte y en proporción con el cuerpo. Tiene una frente plana, un stop bien definido y un hocico fuerte y recto. Los ojos son pequeños y oscuros, con una expresión viva y atenta. Las orejas son de tamaño mediano, triangulares y colgantes, con las puntas redondeadas.
+      <br>
+      <br>
+      El Appenzeller Sennenhund es un perro enérgico, inteligente y valiente. Es leal y protector con su familia, pero puede ser reservado con los extraños. Esta raza es conocida por su instinto de trabajo y su capacidad para aprender rápidamente, lo que la hace adecuada para una variedad de tareas de trabajo y deportes caninos. Sin embargo, también necesita mucho ejercicio y estimulación mental para mantenerse feliz y saludable.
+      <br>
+      <br>
+      En resumen, el Appenzeller Sennenhund es un perro de trabajo versátil y resistente que es igualmente adecuado para ser un compañero de familia. Su tamaño moderado, junto con su naturaleza amigable y su amor por el trabajo, lo hacen adecuado para una variedad de hogares y estilos de vida. Sin embargo, esta raza no es adecuada para todos. Requiere un dueño comprometido que esté dispuesto a proporcionarle el ejercicio y la estimulación mental que necesita, así como un entrenamiento firme y consistente.
+    `,
+    history: `
+      La historia del Appenzeller Sennenhund, también conocido como el Perro Boyero de Appenzell, es tan antigua como las montañas suizas que una vez llamó hogar. Aunque no se puede determinar con exactitud cuándo se originó esta raza, se cree que es una de las razas de perros más antiguas de Suiza, con raíces que se remontan a más de dos mil años.
+      <br>
+      <br>
+      Los antiguos romanos trajeron perros de ganado a Suiza, y se cree que estos perros son los antepasados de los perros de montaña suizos, incluyendo el Appenzeller Sennenhund. Estos perros fueron criados para ser versátiles y robustos, capaces de soportar el clima frío y montañoso de Suiza. Se utilizaban para una variedad de tareas, incluyendo el pastoreo de ganado, el tirar de carros pequeños conocidos como "carros de perro", y como perros de guardia.
+      <br>
+      <br>
+      El Appenzeller Sennenhund es uno de los cuatro perros de montaña suizos, junto con el Gran Boyero Suizo, el Boyero de Berna y el Boyero de Entlebuch. Aunque todos estos perros comparten características similares, el Appenzeller Sennenhund se distingue por su tamaño mediano y su pelaje tricolor denso y brillante.
+      <br>
+      <br>
+      La raza fue reconocida oficialmente en Suiza en 1898, cuando se fundó el Club de Appenzeller Sennenhund. El club se estableció para preservar y promover la raza, que en ese momento estaba en peligro de extinción. A través de los esfuerzos de los criadores dedicados, la raza fue salvada y sigue siendo popular en Suiza hoy en día.
+      <br>
+      <br>
+      A pesar de su larga historia en Suiza, el Appenzeller Sennenhund no fue reconocido por el American Kennel Club hasta 2007. Hoy en día, la raza sigue siendo relativamente rara fuera de Suiza, pero está ganando popularidad en otros países por su inteligencia, su versatilidad y su lealtad.
+      <br>
+      <br>
+      En resumen, la historia del Appenzeller Sennenhund es una de supervivencia y perseverancia. A través de los siglos, esta raza ha demostrado ser un trabajador incansable y un compañero leal, cualidades que continúa exhibiendo hasta el día de hoy.
+    `,
     searchTerms: [
       'Appenzeller Sennenhund',
       'Appenzeller',
@@ -2100,10 +2132,24 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de codo',
       'Atrofia progresiva de la retina',
     ],
-    description:
-      'El Pastor Australiano es un perro de trabajo de tamaño mediano, conocido por su inteligencia, energía y lealtad. Son perros de trabajo versátiles, capaces de aprender rápidamente y de realizar tareas con una eficiencia notable. Su pelaje es resistente al agua y de doble capa, que puede variar en colores que incluyen merle (un patrón moteado con tonos contrastantes de azul o rojo). Son conocidos por su impulso irresistible de pastorear cualquier cosa, desde pájaros hasta niños. Esta raza requiere mucho ejercicio y estimulación mental para mantenerse feliz y saludable. Son perros que se vinculan estrechamente con sus familias y pueden ser territoriales y sobreprotectores con la propiedad de sus dueños.',
-    history:
-      'El Pastor Australiano, a pesar de su nombre, fue desarrollado en los ranchos del oeste de los Estados Unidos. Su linaje se remonta a una línea de los mejores perros pastores de Europa. Su gira mundial comenzó en Europa, cerca de las montañas de los Pirineos. Fue aquí, en las tierras fronterizas entre Francia y España, donde las personas indígenas conocidas como los vascos desarrollaron la raza. Los vascos emigraron a Australia en el siglo XIX y luego a los Estados Unidos, llevando consigo a sus perros de pastor. En los Estados Unidos, estos perros se cruzaron con otras razas de perros de trabajo para crear lo que ahora conocemos como el Pastor Australiano. La raza fue reconocida por el AKC en 1991.',
+    description: `
+      El Pastor Australiano es un perro de tamaño mediano que combina la robustez y la resistencia con una agilidad sorprendente. Su pelaje es de textura media, liso a ligeramente ondulado, resistente a la intemperie y de longitud moderada, con un subpelo que varía en cantidad dependiendo del clima. El pelo es corto y liso en la cabeza, en el exterior de las orejas, en la parte delantera de las patas delanteras y debajo de los corvejones. Las partes traseras de las patas delanteras están moderadamente emplumadas y las bragas son moderadamente llenas. Hay una melena y un flequillo moderados, más pronunciados en los machos que en las hembras.
+      <br>
+      <br>
+      El Pastor Australiano es un perro de trabajo inteligente con fuertes instintos de pastoreo y protección. Es un compañero excepcional, versátil y fácil de entrenar, que realiza sus tareas asignadas con gran estilo y entusiasmo. Es reservado con los extraños pero no muestra timidez. Aunque es un trabajador agresivo y autoritario, la maldad hacia las personas o los animales es intolerable.
+      <br>
+      <br>
+      La altura preferida a la cruz para los machos es de 20 a 23 pulgadas, y para las hembras es de 18 a 21 pulgadas. Sin embargo, la calidad no debe sacrificarse en favor del tamaño. Los colores son fuertes, claros y ricos. Los colores reconocidos son el merle azul, el merle rojo, el negro sólido y el rojo sólido, todos con o sin marcas blancas y/o puntos de bronceado (cobre), sin orden de preferencia.
+      <br>
+      <br>
+      El Pastor Australiano tiene una marcha suave, libre y fácil, que muestra una agilidad de movimiento con una zancada bien equilibrada y que cubre el terreno. Las patas delanteras y traseras se mueven rectas y paralelas a la línea central del cuerpo. A medida que aumenta la velocidad, los pies, tanto delanteros como traseros, convergen hacia la línea central de gravedad del perro, mientras que la línea superior permanece firme y nivelada.
+      <br>
+      <br>
+      En resumen, el Pastor Australiano es un perro de trabajo versátil y resistente que también es un excelente compañero de familia. Su tamaño moderado, combinado con su naturaleza amigable y su amor por el trabajo, lo convierten en una opción popular para aquellos que buscan un perro que pueda adaptarse a una variedad de roles.
+    `,
+    history: `
+
+    `,
     searchTerms: [
       'Pastor Australiano',
       'Australian Shepherd',
