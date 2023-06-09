@@ -2148,7 +2148,19 @@ export const DOG_LIST: { [key: number]: Dog } = {
       En resumen, el Pastor Australiano es un perro de trabajo versátil y resistente que también es un excelente compañero de familia. Su tamaño moderado, combinado con su naturaleza amigable y su amor por el trabajo, lo convierten en una opción popular para aquellos que buscan un perro que pueda adaptarse a una variedad de roles.
     `,
     history: `
-
+      La historia del Pastor Australiano es un viaje fascinante que desafía las expectativas. A pesar de su nombre, el Pastor Australiano no es originario de Australia, sino que fue desarrollado en los Estados Unidos. Sin embargo, sus raíces se remontan a los perros pastores que acompañaban a los pastores vascos y a sus rebaños de ovejas Merino, que fueron exportados tanto a América como a Australia en los primeros días de las colonias. En algún momento, es probable que se cruzaran con perros de tipo Collie.
+      <br>
+      <br>
+      La raza, tal como la conocemos hoy, fue refinada en los Estados Unidos para trabajar como perro pastor en los ranches. A lo largo de los años, el Pastor Australiano ha tenido muchos nombres, incluyendo Pastor Dog, Blue Heeler, Spanish Shepherd, Bob-Tail, New Mexican Shepherd y California Shepherd. A pesar de esta variedad de nombres, el Pastor Australiano siempre ha sido apreciado por su inteligencia, su habilidad para el trabajo y su lealtad.
+      <br>
+      <br>
+      El Pastor Australiano fue reconocido oficialmente por el American Kennel Club (AKC) en 1993, aunque la raza ya era popular y bien establecida en ese momento. A lo largo de los años, los Pastores Australianos han demostrado ser perros de trabajo excepcionales, excelentes en tareas como el pastoreo, la búsqueda y rescate, y el trabajo policial. También han demostrado ser excelentes perros de compañía, conocidos por su lealtad y su amor por la familia.
+      <br>
+      <br>
+      A pesar de su habilidad para el trabajo, los Pastores Australianos también son conocidos por su temperamento amigable y juguetón. Son perros que disfrutan de la compañía de las personas y que se llevan bien con los niños. Sin embargo, también son perros que necesitan mucho ejercicio y estimulación mental, y pueden volverse inquietos y destructivos si no se les proporciona suficiente actividad.
+      <br>
+      <br>
+      En la actualidad, el Pastor Australiano sigue siendo una raza popular tanto en los Estados Unidos como en todo el mundo. Son apreciados tanto por su habilidad para el trabajo como por su carácter amigable y leal. Aunque la raza ha recorrido un largo camino desde sus humildes comienzos con los pastores vascos, el Pastor Australiano sigue siendo un perro de trabajo en el corazón, siempre listo para un desafío y siempre dispuesto a complacer a su dueño.
     `,
     searchTerms: [
       'Pastor Australiano',
@@ -2230,10 +2242,48 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Atrofia progresiva de la retina',
     ],
-    description:
-      'El Kelpie Australiano es una raza de perro lithe y musculoso, conocido por su capacidad para trabajar con ganado durante muchas horas y cubrir largas distancias en calor y polvo sin rendirse. Esta raza es una de las más inteligentes, pero también puede ser una de las más desafiantes para vivir debido a su superior intelecto, independencia, intensidad y pasión por mantenerse ocupado. Los Kelpies Australianos necesitan mucha estimulación física y mental, y sin ella, pueden volverse aburridos e hiperactivos, lo que puede resultar en comportamientos obsesivos y destructivos. Son maestros en escapar (pasando por encima y por debajo de las vallas) y son recolectores celosos de coches, bicicletas, corredores, gatos, otros perros, ganado y niños corriendo, rodeando, pinchando, empujando y mordiendo si la persona, animal u objeto no coopera.',
-    history:
-      'El Kelpie Australiano es una raza de perro de trabajo que se originó en Australia para el manejo de ganado. Aunque su origen exacto es incierto, se cree que los Kelpies son el resultado de cruzar Collies Escoceses con perros Dingos nativos de Australia. Los Kelpies fueron criados para ser perros de trabajo inteligentes, capaces de manejar ganado en grandes extensiones de terreno y en condiciones climáticas extremas. Su nombre proviene de la mitología celta, donde un "kelpie" es una criatura acuática con forma de caballo. En el siglo XIX, los Kelpies se hicieron populares entre los ganaderos australianos por su resistencia, versatilidad y habilidad para trabajar con ganado en vastas áreas de terreno. Aunque son menos conocidos fuera de Australia, los Kelpies han ganado reconocimiento en algunas áreas por su habilidad para trabajar en diversas condiciones y su dedicación a su trabajo.',
+    description: `
+      El Kelpie Australiano es una raza de perro que se destaca por su agilidad, fuerza y resistencia. Este perro de tamaño mediano es conocido por su pelaje corto y liso, que puede variar en color desde negro, azul (gris), rojo, hasta tonos de crema. Su apariencia general es la de un perro activo y musculoso, capaz de trabajar incansablemente. Su cuerpo es ligeramente más largo que alto, lo que le da una apariencia atlética y equilibrada.
+      <br>
+      <br>
+      La cabeza del Kelpie es proporcional al tamaño del cuerpo, con un cráneo ligeramente redondeado y ancho entre las orejas. El hocico es bien definido y un poco más corto que el cráneo. Los ojos, de forma almendrada y de tamaño medio, son de color marrón y armonizan con el color del pelaje. En el caso de los perros azules (grises), se acepta un color de ojo más claro. Las orejas son de tamaño moderado, ampliamente espaciadas, puntiagudas y ligeramente curvadas en el borde exterior.
+      <br>
+      <br>
+      El cuello del Kelpie es de longitud moderada, fuerte y ligeramente arqueado, y se fusiona suavemente con los hombros. El pecho es profundo más que ancho, y las costillas están bien arqueadas. La línea superior es firme y nivelada, y el lomo está bien musculado, con una buena profundidad en el flanco.
+      <br>
+      <br>
+      Las patas delanteras son rectas y paralelas cuando se ven de frente, con huesos fuertes pero refinados y buena musculatura. Las patas traseras muestran amplitud y fuerza, con una grupa bastante larga y inclinada. Los pies son redondos y fuertes, con almohadillas profundas y dedos bien arqueados. La cola es suficientemente larga para llegar casi hasta el corvejón, y se lleva en una curva muy ligera cuando el perro está en reposo.
+      <br>
+      <br>
+      El Kelpie tiene un pelaje exterior moderadamente corto, plano, duro, recto y resistente a la intemperie, con un subpelo denso. El pelaje puede ser más largo en el cuello, formando un collar, y en la parte trasera de los muslos, formando un ligero flequillo.
+      <br>
+      <br>
+      El Kelpie Australiano es extremadamente alerta, ansioso e inteligente, con una disposición suave y manejable, y una marcada lealtad y devoción al deber. Tiene un instinto natural y una aptitud para trabajar con el ganado, tanto en áreas confinadas como en campo abierto. Su temperamento abierto, amigable, alerta pero plácido es esencial, con un buen equilibrio entre el deseo de trabajar y la capacidad de descansar.
+      <br>
+      <br>
+      En resumen, el Kelpie Australiano es un perro de trabajo versátil y resistente que es igualmente adecuado para ser un compañero de familia. Su tamaño moderado, junto con su naturaleza amigable y su amor por el trabajo, hacen de él una excelente opción para aquellos que buscan un perro activo y comprometido.
+    `,
+    history: `
+      La historia del Kelpie Australiano es una narrativa fascinante de adaptación, supervivencia y habilidad. Esta raza de perro, conocida por su inteligencia, agilidad y resistencia, tiene sus raíces en la Australia del siglo XIX, donde se desarrolló para manejar las duras condiciones del paisaje australiano y las extensas áreas de pastoreo.
+      <br>
+      <br>
+      Los primeros Kelpies surgieron alrededor de 1870, y jugaron un papel crucial en el desarrollo de la industria ovina y lanera de Australia. Descendientes de los "Collies de trabajo" británicos y escoceses (un origen compartido con los Collies de Border y Scotch y el Pastor inglés), el Kelpie fue desarrollado para manejar el duro y caluroso paisaje, las extensas hectáreas y las rebeldes ovejas Merino en las estaciones australianas.
+      <br>
+      <br>
+      El Kelpie es un perro de reunión, que utiliza su mirada, ladrido y mordida (agarre) para mover al ganado, según las condiciones lo requieran. En el monte australiano, los Kelpies a menudo trabajaban sin supervisión, confiando en su propio ingenio para encontrar y reunir al ganado. Los Kelpies son perros entusiastas y activos, siempre listos para trabajar.
+      <br>
+      <br>
+      La base de la raza del Kelpie Australiano provino de la cepa escocesa Rutherford, o North Country, de collies de trabajo. Esto incluía perros de pelo liso, con orejas puntiagudas o semi-puntiagudas, que eran de color negro y fuego. La hembra fundadora nació de un par importado propiedad de un tal Sr. George Robertson de Victoria, Australia. Esta hembra pasó a ser propiedad de J.D. Gleeson, quien la llamó "Kelpie". El amigo de Gleeson, Mark Tully, tenía un destacado perro negro llamado "Moss", criado a partir de la cepa Rutherford importada. Kelpie fue apareada con Moss y produjo una línea extremadamente buena de perros pastores.
+      <br>
+      <br>
+      Dos otros perros importados de color negro y fuego llamados Brutus y Jenny también fueron apareados, y su cachorro, César, fue luego apareado con Kelpie. De esta camada nació una hembra de color negro y fuego, también llamada Kelpie, que fue a parar a manos del Sr. C.W. King y luego hizo del nombre Kelpie una palabra de uso común al ganar el Concurso de Perros Pastores de Forbes. Los ganaderos de todas partes querían un cachorro "Kelpie". Para la década de 1890, la "Kelpie" como cepa estaba bien establecida.
+      <br>
+      <br>
+      El Kelpie Australiano es principalmente importado y criado por rancheros y granjeros para su uso como perro de trabajo con el ganado. Los Kelpies australianos en los Estados Unidos se utilizan con todo tipo de ganado, en operaciones grandes y pequeñas. También participan en varios concursos de pastoreo, así como en Obediencia y Agilidad.
+      <br>
+      <br>
+      La historia del Kelpie Australiano es un testimonio de la adaptabilidad y la resistencia de esta raza. A través de generaciones de cría selectiva y adaptación a las duras condiciones australianas, el Kelpie ha evolucionado hasta convertirse en el perro de trabajo resistente y confiable que conocemos hoy. A pesar de su origen humilde, el Kelpie ha demostrado ser una raza invaluable, no solo en su Australia natal, sino también en todo el mundo, donde su inteligencia, habilidad para el trabajo y lealtad lo han convertido en un favorito tanto en el campo como en el hogar.
+    `,
     searchTerms: [
       'Kelpie Australiano',
       'Australian Kelpie',
@@ -2262,90 +2312,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Australian_Kelpie',
       'https://www.akc.org/dog-breeds/australian-kelpie/',
       'https://www.yourpurebredpuppy.com/reviews/australiankelpies.html',
-    ],
-  },
-  21: {
-    weight: {
-      imperial: '35 - 65',
-      metric: '16 - 29',
-    },
-    height: {
-      imperial: '18 - 23',
-      metric: '46 - 58',
-    },
-    id: 21,
-    name: 'Pastor Australiano', // Traducido: 'Pastor Australiano'
-    bred_for: ['Pastoreo de ovejas'], // Traducido: 'Sheep herding'
-    breed_group: ['Pastoreo'], // Traducido: 'Herding'
-    life_span: '12 - 16 años', // Traducido: '12 - 16 years'
-    temperament: [
-      'De buen carácter',
-      'Cariñoso',
-      'Inteligente',
-      'Activo',
-      'Protector',
-    ], // Traducido: 'Good-natured, Affectionate, Intelligent, Active, Protective'
-    origin: 'Australia',
-    reference_image_id: 'B1-llgq4m',
-    image: {
-      id: 'B1-llgq4m',
-      width: 1200,
-      height: 733,
-      url: 'https://cdn2.thedogapi.com/images/B1-llgq4m.jpg',
-    },
-    country_code: 'AU',
-    categoria_de_tamanio: 'Mediano',
-    perks: [
-      'Requiere ejercicio diario y mental',
-      'Es ideal para actividades familiares',
-      'Perro de pastoreo excelente',
-    ],
-    color: ['Multicolor', 'Azul merle', 'Rojo merle'],
-    nivel_de_energia: 'Alto',
-    facilidad_de_entrenamiento: 'Alto',
-    salud_general: 'Buena',
-    compatibilidad_con_otros_animales: 'Moderada',
-    necesidades_especiales: [
-      'Necesita ejercicio diario y mental',
-      'Requiere socialización temprana',
-    ],
-    popularidad: 'Moderada',
-    enfermedades_comunes: [
-      'Displasia de cadera',
-      'Atrofia progresiva de retina',
-    ],
-    description:
-      'El Pastor Australiano es una raza de perro de tamaño mediano y robusto, conocido por su pelaje hermoso que viene en colores llamativos. Son perros de trabajo, asociados con la vida de los vaqueros y a menudo se ven en rodeos y espectáculos de caballos. Los Pastores Australianos son extremadamente versátiles y, cuando están bien entrenados, pueden aprender casi cualquier cosa, siendo una de las razas más inteligentes. Son perros que requieren una gran cantidad de ejercicio físico y estimulación mental. El pastoreo, la obediencia avanzada, la agilidad, el jogging o el ciclismo, perseguir pelotas y jugar al frisbee son salidas constructivas para su entusiasmo. Los Pastores Australianos son exigentes de tiempo y atención y quieren estar contigo constantemente. Son educados hasta distantes con los extraños. Algunos Pastores Australianos son dominantes con otros perros y perseguirán a los gatos, mientras que otros son de buen carácter con todas las criaturas.',
-    history:
-      'El Pastor Australiano es una raza de perro que, a pesar de su nombre, se desarrolló en el oeste de los Estados Unidos en el siglo XIX. Aunque se desconoce su origen exacto, se cree que los Pastores Australianos son el resultado de cruzar varias razas de perros de pastoreo europeos que fueron traídos a Australia y luego a América. Los Pastores Australianos fueron criados para ser perros de trabajo inteligentes, capaces de manejar ganado en grandes extensiones de terreno y en condiciones climáticas extremas. Aunque son menos conocidos fuera de los Estados Unidos, los Pastores Australianos han ganado reconocimiento en algunas áreas por su habilidad para trabajar en diversas condiciones y su dedicación a su trabajo.',
-    searchTerms: [
-      'Pastor Australiano',
-      'Australian Shepherd',
-      'Aussie',
-      'Perro Pastor Australiano',
-      'Pastor de Australia',
-      'Perro australiano',
-      'Pastor australiano',
-      'Pastor australiana',
-      'Pastor australiano perro',
-      'Pastor australiano perrito',
-      'Pastor australiano cachorro',
-      'Pastor australiano adulto',
-      'Pastor australiano viejo',
-      'Pastor australiano joven',
-    ],
-    tendencia_a_ladrar: 'Moderada',
-    necesidad_de_aseo: 'Alta',
-    soporta_clima_frio: 'Alta',
-    soporta_clima_calido: 'Moderada',
-    tolerancia_a_la_soledad: 'Baja',
-    para_primerizos: 'Baja',
-    bueno_con_ninos: 'Alta',
-    casos_famosos: [],
-    fuentes: [
-      'https://en.wikipedia.org/wiki/Australian_Shepherd',
-      'https://www.akc.org/dog-breeds/australian-shepherd/',
-      'https://www.yourpurebredpuppy.com/reviews/australianshepherds.html',
     ],
   },
   22: {
