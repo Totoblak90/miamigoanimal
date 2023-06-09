@@ -9,8 +9,8 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class BulldogFrancesTodoLoQueNecesitasSaberSobreEstaAdorableRazaDePerrosComponent {
 
-  title = 'Bulldog francés: Todo lo que necesitas saber sobre esta adorable raza de perros'
-  description = 'Descubre todo sobre el Bulldog francés. Aprende sobre su personalidad, cuidados y salud. ¡Ideal para futuros dueños de esta adorable raza!'
+  title = 'Bulldog Francés: Características, cuidado y más 🐶 | Esfera Mascota'
+  description = 'Descubre todo sobre el bulldog francés, una adorada raza de perro con orejotas de Batman. Características, cuidado y más en Mi Amigo Animal.'
 
   constructor(
     private meta: MetaService,

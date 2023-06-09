@@ -17,6 +17,7 @@ import { Article } from '../interfaces/articles.interface';
 })
 export class ArticlesService {
   articlesDB = signal<Article[]>([
+    // Se solicitó indexación
     {
       url: 'adopta-a-los-gatitos-mas-tiernos-y-juguetones-encuentra-tu-companero-felino-ideal',
       categories: ['Gatos', 'Adiestramiento'],
@@ -36,6 +37,7 @@ export class ArticlesService {
         'Costos',
       ],
     },
+    // Se solicitó indexación
     {
       url: 'conoce-las-mejores-razas-de-perros-guia-completa-y-actualizada',
       categories: ['Perros'],
@@ -58,6 +60,7 @@ export class ArticlesService {
         'Perros para niños',
       ],
     },
+    // Se solicitó indexación
     {
       url: 'descubre-los-mejores-cuidados-para-tus-perritos',
       categories: ['Perros', 'Salud', 'Adiestramiento'],
@@ -79,6 +82,7 @@ export class ArticlesService {
         'entorno adecuado para cachorros',
       ],
     },
+    // Se solicitó indexación
     {
       url: 'perritas-adorables-todo-lo-que-necesitas-saber-sobre-estas-tiernas-mascotas',
       categories: ['Perros', 'Adiestramiento', 'Alimentacion'],
@@ -101,6 +105,7 @@ export class ArticlesService {
         'Alimentación de perros',
       ],
     },
+    // Se solicitó indexación
     {
       url: 'todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo',
       categories: ['Perros', 'Salud', 'Adiestramiento'],
@@ -123,6 +128,7 @@ export class ArticlesService {
         'Salud canina',
       ],
     },
+    // Se solicitó indexación
     {
       url: 'todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades',
       categories: ['Gatos'],
@@ -214,6 +220,7 @@ export class ArticlesService {
         'Costos',
       ],
     },
+    // Se solicitó indexación
     {
       url: 'conoce-todo-acerca-del-perro-san-bernardo',
       categories: ['Perros', 'Salud'],
@@ -243,6 +250,7 @@ export class ArticlesService {
         'Sociable',
       ],
     },
+    // Se solicitó indexación
     {
       url: 'descubre-el-boyero-de-berna',
       categories: ['Perros', 'Alimentacion'],

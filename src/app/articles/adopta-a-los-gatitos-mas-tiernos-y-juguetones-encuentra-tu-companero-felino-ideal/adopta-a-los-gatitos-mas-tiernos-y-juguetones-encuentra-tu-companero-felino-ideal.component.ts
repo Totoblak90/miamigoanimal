@@ -9,8 +9,8 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class AdoptaALosGatitosMasTiernosYJuguetonesEncuentraTuCompaneroFelinoIdealComponent{
 
-  title = 'Adopta a los gatitos más tiernos y juguetones. Encuentra tu compañero felino ideal'
-  description = 'Adopta a los gatitos más tiernos y juguetones con nuestra guía. Encuentra tu compañero felino ideal y conoce sus personalidades. ¡Descúbrelo ya!'
+  title = 'Adopta los Gatitos más Tiernos y Juguetones | esferaMascota 🐱'
+  description = '¡Conoce a los gatitos más tiernos y juguetones! Visita miAmigoAnimal para encontrar a tu compañero felino ideal✨.'
 
   constructor(
     private meta: MetaService,

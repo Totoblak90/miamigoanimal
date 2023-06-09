@@ -10,8 +10,8 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class DescubreLosMejoresCuidadosParaTusPerritosComponent {
 
-  title = 'Descubre los mejores cuidados para tus perritos'
-  description = '¿Buscas el mejor cuidado para tus perritos? Descubre nuestra selección de cuidadores de confianza. ¡Conócelos ahora!'
+  title = '🐶Descubre los mejores cuidados para tus cachorros | esferaMascota.com'
+  description = 'Todos los consejos y trucos para ofrecer un cuidado adecuado a tus cachorros. Alimentación, juegos, educación y mucho más ☀️ ¡Visítanos!'
 
   get titleList() {
     if (isPlatformBrowser(this.platformId)) {
