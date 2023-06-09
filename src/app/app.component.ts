@@ -32,7 +32,7 @@ export class AppComponent implements OnInit {
 
     if (!isPlatformBrowser(this.platformId)) { return; }
 
-    const excludedRoutes = ['cookies', 'politicas', 'terminos'];
+    const excludedRoutes = ['cookies', 'politicas', 'terminos', 'sobre-mi'];
     const currentUrl = window.location.href;
 
     // Si la ruta actual está excluida no se muestra el popup
