@@ -8,7 +8,7 @@
       <index [collapsed]="true"></index>
     </article>
 
-    <article class="grid-breeds">
+    <article class="grid-breeds u-margin-bottom-big">
       <div class="u-margin-bottom-medium">
         <div class="u-center-text u-margin-bottom-small">
           <h2 #aboutTitle class="heading-secondary">Acerca de</h2>
@@ -24,7 +24,7 @@
       </div>
     </article>
 
-    <article class="u-margin-bottom-medium">
+    <article class="u-margin-bottom-big">
 
       <div class="u-center-text u-margin-bottom-small">
         <h2 class="heading-secondary">
@@ -38,6 +38,7 @@
             <strong>Altura:</strong> {{ dog.height.metric }} cm | {{ dog.height.imperial }} in
           </p>
         </div>
+
         <div class="col-1-of-2 u-margin-bottom-small">
           <p class="paragraph">
             <strong>Peso:</strong> {{ dog.weight.metric }} kg | {{ dog.weight.imperial }} lb
@@ -83,6 +84,10 @@
           </p>
         </div>
       </div>
+
+    </article>
+
+    <article class="u-margin-bottom-big">
 
       <div class="u-center-text u-margin-bottom-small">
         <h2 class="heading-secondary">
@@ -297,10 +302,9 @@
       </div>
 
 
-
-      <hr class="u-margin-bottom-medium" *ngIf="dog.casos_famosos?.length">
-
       <nav class="navigation">
+
+        <hr class="u-margin-bottom-medium">
 
         <h2 class="heading-tertiary u-margin-bottom-small">Fuentes</h2>
 
@@ -316,9 +320,10 @@
           </li>
         </ul>
 
+        <hr class="u-margin-top-medium">
+
       </nav>
 
-      <hr class="u-margin-top-medium">
 
     </article>
 

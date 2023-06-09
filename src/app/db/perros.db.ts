@@ -1890,10 +1890,45 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'perro spaniel americano',
     ],
     country_code: 'US',
-    description:
-      'El Spaniel de Agua Americano, originario de la región de los Grandes Lagos en el medio oeste de los Estados Unidos, es un perro deportivo, alegre y amante del aire libre con una gran pasión por la caza y la natación. Son perros de tamaño mediano y musculosos, no ostentosos en apariencia o rendimiento, y se reconocen por su lujoso pelaje marrón que puede ser rizado o ondulado. Fueron criados para trabajar en las aguas heladas y las orillas pantanosas de la región de los Grandes Lagos, por lo que están perfectamente equipados para el trabajo: su pelaje es denso e impermeable, sus patas están bien acolchadas, sus dedos son palmeados y su cuerpo es lo suficientemente pequeño como para que el perro pueda entrar y salir de un bote sin desequilibrarlo. Los admiradores de la raza describen a un spaniel alegre, inteligente y versátil, adecuado para una variedad de deportes caninos. Como cazadores, combinan las características de trabajo de los spaniels y los retrievers. La clave para la felicidad del Spaniel de Agua Americano es la actividad, especialmente junto a su humano adorado. Un perro subempleado puede ser ladrador y destructivo.',
-    history:
-      'El Spaniel de Agua Americano se originó en el estado de Wisconsin durante el siglo XIX a partir de varias otras razas, incluyendo los Spaniels de Agua irlandeses e ingleses. La raza fue salvada por el Dr. Fred J. Pfeifer, quien estableció el club de la raza y el estándar, y cuyo trabajo llevó al reconocimiento de la raza por parte del United Kennel Club, y más tarde, del American Kennel Club. Aunque son el perro oficial del estado de Wisconsin, siguen siendo una raza rara. Los cazadores necesitaban un perro que pudiera trabajar tanto en tierra como en agua, un cazador versátil hábil en la captura de una variedad de juegos. Los cazadores también querían un perro de caza lo suficientemente compacto como para ser transportado en un pequeño bote, capaz de resistir las frías temperaturas del agua de Wisconsin. Las razas involucradas en la creación del Spaniel de Agua Americano se cree que incluyeron el Spaniel de Agua Inglés, el Spaniel de Agua Irlandés, el Retriever de Pelo Rizado, los perros nativos indios, el Poodle, y ya sea el Sussex Spaniel o otro tipo de spaniel de campo.',
+    description: `
+    El Spaniel de Agua Americano es un perro de caza de tamaño moderado, que pesa entre 11 y 20 kg, y mide entre 36 y 46 cm de altura. Este perro compacto tiene un pelaje rizado que varía en tonos de marrón oscuro a hígado. Su cola, de longitud moderada, está cubierta de pelo y se curva ligeramente, asemejándose a una mecedora.
+    <br>
+    <br>
+    La cabeza del Spaniel de Agua Americano es bastante ancha y llena, de longitud moderada, con un stop moderadamente definido. Su hocico es de longitud media y cuadrado, sin tendencia a ser puntiagudo. Los ojos, bien separados y algo redondos, varían en color desde amarillo claro hasta marrón oscuro, dependiendo del color del pelaje. Las orejas, largas, anchas y lobulares, están cubiertas de rizos y se sitúan ligeramente por encima del nivel de los ojos.
+    <br>
+    <br>
+    Este perro es robusto y musculoso, con un cuello redondo y de longitud media, fuerte y sin papada. Sus hombros son inclinados y musculosos, y sus patas delanteras son de longitud media, poderosas, bien huesudas y razonablemente rectas. El cuerpo del Spaniel de Agua Americano está bien desarrollado y robustamente construido, pero no demasiado compacto. Su pecho es profundo, pero no excesivamente ancho, y sus costillas están bien arqueadas.
+    <br>
+    <br>
+    El Spaniel de Agua Americano es un perro trabajador y activo, con una buena nariz y un amor por el agua. Es un trabajador ocupado, ansioso por complacer y fácil de entrenar. Es un perro amigable, enérgico, seguro de sí mismo, persistente y obediente, que es altamente sensible, por lo que el entrenamiento de obediencia debe ser tranquilo, firme, silencioso y persuasivo, en lugar de exigente o agudo.
+    <br>
+    <br>
+    Este perro es un nadador entusiasta y hace un maravilloso cazador en aguas difíciles, en el bosque y en terrenos desiguales. Le encanta la atención, pero también puede entretenerse a sí mismo. Algunos Spaniels de Agua Americanos roncan. Si al perro le falta ejercicio físico y/o mental diario, tiende a ladrar y aullar y puede ser a veces hiperactivo o demasiado emocionado.
+    <br>
+    <br>
+    El pelaje del Spaniel de Agua Americano debe ser rizado o tener un efecto marcel y debe ser de suficiente densidad (y textura) para proteger contra los elementos. El color del pelaje es sólido, hígado o chocolate oscuro. Se permite un poco de blanco en los dedos de los pies o en el pecho.
+    <br>
+    <br>
+    En cuanto a su salud, algunas líneas de esta raza son propensas a problemas de piel. Sin embargo, con el cuidado y la atención adecuados, estos perros pueden vivir de 12 a 15 años.
+    <br>
+    <br>
+    En resumen, el Spaniel de Agua Americano es un perro de caza versátil y resistente que es igualmente adecuado para ser un compañero de familia. Su tamaño moderado, junto con su naturaleza amigable y su amor por el agua, lo convierten en una excelente opción para aquellos que viven cerca de cuerpos de agua o que disfrutan de actividades al aire libre.
+    `,
+    history: `
+    La historia del Spaniel de Agua Americano es tan fascinante como la raza misma. Este perro fue desarrollado en los Estados Unidos, específicamente en la región de los Grandes Lagos, durante el siglo XIX. Aunque no se conoce con exactitud su origen, se cree que sus antecesores incluyen al Spaniel de Agua Irlandés y al Retriever de Pelo Rizado.
+    <br>
+    <br>
+    El Spaniel de Agua Americano fue criado para ser un perro de caza y granja versátil. Fue el primer perro desarrollado en los Estados Unidos que podía recuperar presas desde botes y también cazar. Este perro demostró ser un excelente cazador de aves en los bosques, pantanos, lagos y ríos. Su boca suave y su fino olfato lo convirtieron en un perro de caza sobresaliente. Además, es un excelente nadador, capaz de nadar bien incluso en aguas turbulentas, utilizando su cola como timón.
+    <br>
+    <br>
+    El Spaniel de Agua Americano fue reconocido por el American Kennel Club (AKC) en 1940. Sin embargo, es probable que hubiera sido reconocido antes si no fuera por los entusiastas de la raza que temían que el reconocimiento pudiera arruinar la reputación de la raza como excelente cazador. A pesar de su reconocimiento, el Spaniel de Agua Americano es considerado una raza rara. En 1990, sólo se registraron alrededor de 270 perros con el AKC, pero se cree que nacieron más perros de líneas de caza que no fueron registrados, sin mencionar aquellos que fueron registrados con otros clubes además del AKC.
+    <br>
+    <br>
+    Hoy en día, el Spaniel de Agua Americano es apreciado tanto por su habilidad para cazar como por su carácter amigable y su adaptabilidad como perro de compañía. Aunque su número puede ser pequeño en comparación con otras razas, su impacto en los corazones de aquellos que tienen la suerte de compartir su vida con un Spaniel de Agua Americano es inmenso. De hecho, el estado de Wisconsin ha reconocido al Spaniel de Agua Americano como su perro estatal, un testimonio de la importancia de esta raza en la historia y la cultura de la región.
+    <br>
+    <br>
+    En resumen, la historia del Spaniel de Agua Americano es la historia de un perro de trabajo versátil y resistente que ha demostrado ser un cazador excepcional y un compañero de familia amado. Aunque su número puede ser pequeño, su legado es grande y sigue siendo una parte importante de la historia canina de América.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Perro de trabajo versátil',
