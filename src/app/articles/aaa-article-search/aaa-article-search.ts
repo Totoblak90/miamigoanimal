@@ -1,50 +1,111 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { Subject, debounceTime, takeUntil } from 'rxjs';
+import { Dog } from 'src/app/interfaces/dog.interface';
 import { ArticlesService } from 'src/app/services/articles.service';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { PerrosService } from 'src/app/services/perros.service';
 
 @Component({
   selector: 'aaa-article-search',
   templateUrl: './aaa-article-search.component.html',
   styleUrls: ['./aaa-article-search.component.scss']
 })
-export class AaaArticleSearchComponent {
+export class AaaArticleSearchComponent implements OnInit, OnDestroy {
 
-  searchArticlesForm: FormGroup = this.fb.group({
-    searchTerm: ['']
+  searchForm: FormGroup = this.fb.group({
+    searchTerm: [''],
+    searchType: ['articulos']
   })
 
   allArticles = this.articlesService.articlesDB();
+  breedArticles = Object.values(this.perrosService.dogListSignal()).map(breed => ({...breed, type: 'dog'})).sort((a, b) => a.name > b.name ? 1 : -1);
 
-  pageSize = 25; // Número de artículos por página
+  pageSize = 12; // Número de artículos por página
   currentPage = 0; // Página actual
   pagedArticles: any[] = []; // Artículos de la página actual
 
+  private _destroy$ = new Subject<boolean>();
+
 
   get arrangedArticles() {
-    let articles = this.allArticles;
 
-    // Filtrar los artículos si hay un término de búsqueda
-    if (this.searchArticlesForm.get('searchTerm')?.value) {
-      articles = articles.filter(article => this.articlesService.filterArticleList(article, this.searchArticlesForm.get('searchTerm')?.value));
+    let searchResults;
+
+    if (this.searchForm.get('searchType')?.value === 'articulos')
+    {
+
+      searchResults = [...this.allArticles];
+
+      // Filtrar los artículos si hay un término de búsqueda
+      if (this.searchForm.get('searchTerm')?.value) {
+        searchResults = searchResults.filter(article => this.articlesService.filterArticleList(article, this.searchForm.get('searchTerm')?.value));
+      }
+
+      const highlightedArticles = searchResults.filter(article => article.destacado).sort((a, b) => new Date(a.creation) > new Date(b.creation) ? 1 : -1);
+      const notHighlitedArticles = searchResults.filter(article => !article.destacado).sort((a, b) => new Date(a.creation) > new Date(b.creation) ? 1 : -1);
+      const sortedArticles = [...highlightedArticles, ...notHighlitedArticles]
+
+      return sortedArticles.map(article => {
+        const articleType = article.categories.includes('Perros') ? 'dog' : 'cat';
+        let selectedImage: string | undefined;
+        if (articleType === 'dog') selectedImage = this.perrosService.setDogBreedImage(article.title, articleType, true)
+
+        return {
+          title: article['card-heading'],
+          topic: article.sections,
+          type: article.categories.includes('Gatos') ? 'cat' : 'dog',
+          href: '/post/' + article.url,
+          img: selectedImage || '',
+          defaultRedirect: true
+        }
+      })
+
+    }
+    else
+    {
+
+      searchResults = [...this.breedArticles]
+
+      // Filtrar los artículos si hay un término de búsqueda
+      if (this.searchForm.get('searchTerm')?.value) {
+        searchResults = this.perrosService
+                  .filterBySearchTerm((searchResults as Dog[]), this.searchForm.get('searchTerm')?.value)
+                  .map(breed => ({...breed, type: 'dog'}))
+      }
+
+
+      return searchResults.map(breed => {
+        return {
+          title: breed.name,
+          topic: breed.temperament,
+          type: breed.type as 'cat' | 'dog',
+          href: '/perros/' + breed.id + '?raza=' + breed.name,
+          img: breed.image.url || '',
+          defaultRedirect: false
+        }
+      })
+
     }
 
-    const highlightedArticles = articles.filter(article => article.destacado).sort((a, b) => new Date(a.creation) > new Date(b.creation) ? 1 : -1);
-    const notHighlitedArticles = articles.filter(article => !article.destacado).sort((a, b) => new Date(a.creation) > new Date(b.creation) ? 1 : -1);
+  }
 
-    return [...highlightedArticles, ...notHighlitedArticles]
+  get placeholder() {
+    return this.searchForm.get('searchType')?.value === 'articulos' ? 'Buscar artículos' : 'Buscar razas';
   }
 
   constructor(
     private meta: MetaService,
     private navigationService: NavigationService,
     private articlesService: ArticlesService,
+    private perrosService: PerrosService,
     private fb: FormBuilder
   ) {
     this._setMetaTags();
     this.navigationService.navigationBg.set('extra');
     this.subscribeToSearchTermChange();
+    this.subscribeToSearchTypeChange();
   }
 
   ngOnInit() {
@@ -60,8 +121,19 @@ export class AaaArticleSearchComponent {
     )
   }
 
+  private subscribeToSearchTypeChange() {
+    this.searchForm.get('searchType')?.valueChanges
+    .pipe(takeUntil(this._destroy$))
+    .subscribe((searchType: string) => {
+      this.currentPage = 0; // Volver a la primera página cuando se cambia el tipo de búsqueda
+      this.updatePage();
+    })
+  }
+
   private subscribeToSearchTermChange() {
-    this.searchArticlesForm.get('searchTerm')?.valueChanges.subscribe((searchTerm: string) => {
+    this.searchForm.get('searchTerm')?.valueChanges
+    .pipe(takeUntil(this._destroy$), debounceTime(400))
+    .subscribe((searchTerm: string) => {
       this.currentPage = 0; // Volver a la primera página cuando se cambia el término de búsqueda
       this.updatePage();
     })
@@ -85,6 +157,11 @@ export class AaaArticleSearchComponent {
       this.currentPage--;
       this.updatePage();
     }
+  }
+
+  ngOnDestroy(): void {
+    this._destroy$.next(true);
+    this._destroy$.unsubscribe();
   }
 
 }

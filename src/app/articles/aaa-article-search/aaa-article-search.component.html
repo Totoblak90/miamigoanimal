@@ -13,31 +13,63 @@
   <div class="row">
     <div class="form-container">
       <div class="form-container__form">
-        <form class="search row form" [formGroup]="searchArticlesForm">
+        <form class="search row form" [formGroup]="searchForm">
           <div class="form__group">
             <label class="form__label" for="searchTerm">Buscar artículo</label>
-            <input class="form__input" type="search" placeholder="Buscar artículo" formControlName="searchTerm" id="searchTerm" name="searchTerm" autocomplete="off">
+            <input class="form__input" type="search" [placeholder]="placeholder" formControlName="searchTerm" id="searchTerm" name="searchTerm" autocomplete="off">
+          </div>
+
+          <div class="form__radio-group">
+            <input
+              type="radio" class="form__radio-input"
+              id="articulos-search-page" name="searchType"
+              formControlName="searchType" value="articulos"
+            />
+            <label for="articulos-search-page" class="form__radio-label">
+              <span class="form__radio-button"></span> Artículos
+            </label>
+          </div>
+
+          <div class="form__radio-group">
+            <input
+              type="radio" class="form__radio-input"
+              id="razas-search-page" name="searchType"
+              formControlName="searchType" value="razas"
+            />
+            <label for="razas-search-page" class="form__radio-label">
+              <span class="form__radio-button"></span> Razas
+            </label>
           </div>
         </form>
       </div>
     </div>
   </div>
 
-  <div class="row" *ngIf="searchArticlesForm.get('searchTerm')?.value">
+  <div class="row" *ngIf="searchForm.get('searchTerm')?.value">
     <h3 class="heading-tertiary">
-      Resultados para "<strong>{{ searchArticlesForm.get('searchTerm')?.value || '' }}</strong>":
+      Resultados para "<strong>{{ searchForm.get('searchTerm')?.value || '' }}</strong>":
       <span>{{ pagedArticles.length }}</span>
     </h3>
+  </div>
+
+  <div class="row">
+    <div class="article-pagination">
+      <button class="btn btn--green" (click)="previousPage()">&#xab;</button>
+      <p class="paragraph u-margin-bottom-none"> {{ currentPage + 1 }} </p>
+      <button class="btn btn--green" (click)="nextPage()">&#xbb;</button>
+    </div>
   </div>
 
   <div class="row">
     <div class="search-grid">
       <div *ngFor="let article of pagedArticles">
         <flipping-card
-                  [cardTitle]="article['card-heading']"
-                  [topics]="article.sections"
-                  [type]="article.categories.includes('Gatos') ? 'cat' : 'dog'"
-                  [href]="article.url"
+                  [cardTitle]="article.title"
+                  [topics]="article.topic"
+                  [type]="article.type"
+                  [href]="article.href"
+                  [defaultRedirect]="article.defaultRedirect"
+                  [providedImg]="article.img"
         ></flipping-card>
       </div>
     </div>

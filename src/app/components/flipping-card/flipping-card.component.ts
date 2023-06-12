@@ -34,7 +34,7 @@ export class FlippingCardComponent implements OnInit, AfterViewInit, OnDestroy {
   constructor(private utilitiesSrv: UtilitiesService, @Inject(PLATFORM_ID) private platformId: Object) {}
 
   ngOnInit() {
-    if (this.providedImg) { this.selectedImage = this.utilitiesSrv.selectImage( this.type, this.providedImg ) }
+    if (this.providedImg) { this.selectedImage = this.utilitiesSrv.selectImage( this.type, this.providedImg, false ) }
 
     else
     {
