@@ -141,7 +141,7 @@ export class BuscadorComponent implements OnDestroy {
 
   }
 
-  private collapseForm() {
+  collapseForm() {
 
     if ( this.searchForm && this.searchRadioGroup && this.searchInputRef && this.searchResultsRef )
     {
