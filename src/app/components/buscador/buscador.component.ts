@@ -19,7 +19,7 @@ export class BuscadorComponent implements OnDestroy {
 
   searchArticlesForm: FormGroup = this.fb.group({
     searchTerm: [''],
-    searchType: ['articulos']
+    searchType: ['razas']
   })
 
   searchResults: SearchResult[] = [];

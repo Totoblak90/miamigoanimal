@@ -1,7 +1,7 @@
 <header class="header" [ngClass]="backgroundColour" [style.background-image]="selectedImage">
 
   <!-- Para un futuro -->
-  <div class="header__search-box">
+  <div class="header__search-box" *ngIf="showBuscador">
     <buscador class="header__buscador"></buscador>
   </div>
 

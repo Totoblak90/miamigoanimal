@@ -3,7 +3,7 @@
     <h2 class="heading-secondary">
         Artículos recientes
     </h2>
-    <p><a class="btn-text " routerLink="/post/search-post">Buscar &rarr;</a></p>
+    <p><a class="btn-text " routerLink="/post/search-post" [queryParams]="{type: 'articulos'}">Buscar &rarr;</a></p>
   </div>
   <recent-articles-list [filters]="filters" type="extra" class="grid-3-cols"></recent-articles-list>
 </section>

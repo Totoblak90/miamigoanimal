@@ -1,5 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Subject, debounceTime, takeUntil } from 'rxjs';
 import { Dog } from 'src/app/interfaces/dog.interface';
 import { ArticlesService } from 'src/app/services/articles.service';
@@ -16,7 +17,7 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
 
   searchForm: FormGroup = this.fb.group({
     searchTerm: [''],
-    searchType: ['articulos']
+    searchType: ['razas']
   })
 
   allArticles = this.articlesService.articlesDB();
@@ -31,7 +32,7 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
 
   get arrangedArticles() {
 
-    let searchResults;
+    let searchResults = [];
 
     if (this.searchForm.get('searchType')?.value === 'articulos')
     {
@@ -100,8 +101,13 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
     private navigationService: NavigationService,
     private articlesService: ArticlesService,
     private perrosService: PerrosService,
-    private fb: FormBuilder
+    private fb: FormBuilder,
+    private activatedRoute: ActivatedRoute
   ) {
+    const preselectedSearchType = this.activatedRoute.snapshot.queryParams['type'];
+    if (preselectedSearchType === 'articulos' || preselectedSearchType === 'razas')
+       { this.searchForm.get('searchType')?.setValue(preselectedSearchType); }
+
     this._setMetaTags();
     this.navigationService.navigationBg.set('extra');
     this.subscribeToSearchTermChange();
@@ -116,8 +122,9 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
     this.meta.setMetaTags(
       '¡Buscá entre todos nuestros artículos sobre mascotas!',
       'Explora nuestros artículos y encuentra todo lo que necesitas saber sobre tus mascotas. ¡La información que buscas, al alcance de tu mano!',
-      '',
-      false
+      'https://esferamascota.com/post/search-post',
+      false,
+
     )
   }
 

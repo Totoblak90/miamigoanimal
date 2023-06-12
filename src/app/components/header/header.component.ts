@@ -46,6 +46,10 @@ export class HeaderComponent implements OnInit {
 
   }
 
+  get showBuscador() {
+    return !this.router.url.includes('search-post')
+  }
+
   constructor(
     private utilitiesSrv: UtilitiesService,
     private router: Router,
