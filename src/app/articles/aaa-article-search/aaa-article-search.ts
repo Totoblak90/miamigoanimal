@@ -124,7 +124,6 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
       'Explora nuestros artículos y encuentra todo lo que necesitas saber sobre tus mascotas. ¡La información que buscas, al alcance de tu mano!',
       'https://esferamascota.com/post/search-post',
       false,
-
     )
   }
 
