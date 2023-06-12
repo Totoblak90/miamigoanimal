@@ -107,7 +107,8 @@ export class BuscadorComponent implements OnDestroy {
 
     this.searchResults = filteredPerrosAritcleList.map(dog => ({
         title: dog.name,
-        url: `/perros/${dog.id}?raza=${dog.name}`,
+        url:[ '/perros/', dog.id.toString()],
+        queryParams: { raza: dog.name },
         img: dog.image.url
       }))
   }
