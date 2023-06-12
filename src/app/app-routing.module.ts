@@ -20,6 +20,7 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes, {
     initialNavigation: 'enabledBlocking',
     scrollPositionRestoration: 'enabled',
+    onSameUrlNavigation: 'reload'
 })],
   exports: [RouterModule]
 })

@@ -1,14 +1,17 @@
-import { Component } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { Component, Inject, OnDestroy, PLATFORM_ID } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { Subscription, skip } from 'rxjs';
 import { Dog } from 'src/app/interfaces/dog.interface';
 import { MetaService } from 'src/app/services/meta.service';
+import { PerrosService } from 'src/app/services/perros.service';
 
 @Component({
   selector: 'app-perros-raza',
   templateUrl: './perros-raza.component.html',
   styleUrls: ['./perros-raza.component.scss']
 })
-export class PerrosRazaComponent {
+export class PerrosRazaComponent implements OnDestroy {
 
   dog: Dog = {
     bred_for: [],
@@ -276,20 +279,49 @@ export class PerrosRazaComponent {
     return `progress progress__${recomendacionPrimerizos[this.dog.para_primerizos || '-']}`
   }
 
+  private routeSubscription: Subscription | undefined;
 
 
-  constructor(private activatedRoute: ActivatedRoute, private metaService: MetaService, private router: Router) {
+
+  constructor(
+    private activatedRoute: ActivatedRoute,
+    private metaService: MetaService,
+    private perrosService: PerrosService,
+    private router: Router,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {
 
       this.dog = this.activatedRoute.snapshot.data['raza'];
 
-      if (this.dog) {
-        this.metaService.setMetaTags(
-          `Aprendé todo sobre la raza "${this.dog.name}" - esferamascota.com`,
-          `Descubre todo sobre la raza de perro ${this.dog.name}: su historia, características, cuidados y más. ¡Conviértete en el mejor amigo de tu perro con nuestra guía completa!`
-        )
-      }
+      this.metaService.setMetaTags(
+        `Aprendé todo sobre la raza "${this.dog.name}" - esferamascota.com`,
+        `Descubre todo sobre la raza de perro ${this.dog.name}: su historia, características, cuidados y más. ¡Conviértete en el mejor amigo de tu perro con nuestra guía completa!`
+      )
 
+      this.subscribeToRouteChange();
 
   }
 
+  private subscribeToRouteChange() {
+    if (isPlatformBrowser(this.platformId))
+    {
+
+      // Me suscribo a cambios en las rutas
+      this.routeSubscription = this.activatedRoute.params
+      .pipe(skip(1))
+      .subscribe(params => {
+        // Aquí es donde puedes manejar los cambios en los parámetros de la ruta.
+        // Por ejemplo, podrías llamar a un método para obtener los datos de la nueva raza de perro.
+        const id = params['id'];
+        if (+id > 0) { this.dog = this.perrosService.dogListSignal()[+id]; }
+        else { this.router.navigate(['perros']) }
+
+      });
+
+    }
+  }
+
+  ngOnDestroy(): void {
+    this.routeSubscription?.unsubscribe();
+  }
 }

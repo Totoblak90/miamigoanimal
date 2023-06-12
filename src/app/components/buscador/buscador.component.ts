@@ -26,10 +26,6 @@ export class BuscadorComponent implements OnDestroy {
 
   private _destroy$ = new Subject<boolean>();
 
-  get placeholderText() {
-    return this.searchArticlesForm.get('searchType')!.value === 'articulos' ? 'Buscar artículos' : 'Buscar razas';
-  }
-
   constructor(
     private fb: FormBuilder,
     private elementRef: ElementRef,
@@ -93,7 +89,7 @@ export class BuscadorComponent implements OnDestroy {
 
         return {
           title: article.title,
-          url: `/post/${article.url}`,
+          url: ['/post', article.url],
           img: selectedImage || this.utilitiesService.selectImage(articleType, undefined, true)
         }
       }
@@ -107,8 +103,8 @@ export class BuscadorComponent implements OnDestroy {
 
     this.searchResults = filteredPerrosAritcleList.map(dog => ({
         title: dog.name,
-        url:[ '/perros/', dog.id.toString()],
-        queryParams: { raza: dog.name },
+        url:[ '/perros', dog.id.toString()],
+        queryParams: { raza: dog.name.split(' ').join('-').toLocaleLowerCase() },
         img: dog.image.url
       }))
   }

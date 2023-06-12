@@ -37,8 +37,6 @@ export class razaPerrosResolver implements Resolve<Observable<any>>  {
       const storedKey = this.transferState.get(KEY, null);
       this.transferState.remove(KEY);
 
-      console.log('cliente', JSON.parse(storedKey!).name)
-
       if (storedKey) { return of(JSON.parse(storedKey)); }
       else { return of(storedKey); }
 
