@@ -1,5 +1,5 @@
-import { Component, ElementRef, HostListener, OnDestroy, ViewChild } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Component, ElementRef, HostListener, OnDestroy } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 import { Subject, takeUntil } from 'rxjs';
 import { SearchResult } from 'src/app/interfaces/buscador.interface';
 import { ArticlesService } from 'src/app/services/articles.service';
@@ -12,10 +12,6 @@ import { UtilitiesService } from 'src/app/services/utilities.service';
   styleUrls: ['./buscador.component.scss']
 })
 export class BuscadorComponent implements OnDestroy {
-  @ViewChild('searchInputRef') searchInputRef: ElementRef<HTMLElement> | undefined;
-  @ViewChild('searchResultsRef') searchResultsRef: ElementRef<HTMLElement> | undefined;
-  @ViewChild('searchForm') searchForm: ElementRef<HTMLElement> | undefined;
-  @ViewChild('searchRadioGroup') searchRadioGroup: ElementRef<HTMLElement> | undefined;
 
   searchArticlesForm: FormGroup = this.fb.group({
     searchTerm: [''],
@@ -23,6 +19,8 @@ export class BuscadorComponent implements OnDestroy {
   })
 
   searchResults: SearchResult[] = [];
+
+  collapsed = true;
 
   private _destroy$ = new Subject<boolean>();
 
@@ -112,68 +110,18 @@ export class BuscadorComponent implements OnDestroy {
   resetSearch() { setTimeout(() => { this.searchArticlesForm.get('searchTerm')?.setValue(''); }, 100) }
 
   // Form effects
-
-  uncollapseForm() {
-    if ( this.searchInputRef && this.searchResultsRef && this.searchForm && this.searchRadioGroup )
-    {
-
-      this.searchForm.nativeElement.style.transition = 'all 0.2s'
-      this.searchForm.nativeElement.style.width = '80vw';
-      this.searchForm.nativeElement.style.backgroundColor = '#fff';
-      this.searchForm.nativeElement.style.zIndex = '10000';
-
-      this.searchInputRef.nativeElement.style.backgroundColor = '#fff';
-      this.searchInputRef.nativeElement.style.zIndex = '10000';
-
-      this.searchRadioGroup.nativeElement.style.position = 'relative';
-      this.searchRadioGroup.nativeElement.style.display = 'flex';
-      this.searchRadioGroup.nativeElement.style.justifyItems = 'space-around';
-      this.searchRadioGroup.nativeElement.style.alignItems = 'center';
-      this.searchRadioGroup.nativeElement.style.zIndex = '1000';
-      this.searchRadioGroup.nativeElement.style.paddingLeft = '1rem';
-
-      this.searchResultsRef.nativeElement.style.transition = 'all 0.2s';
-      this.searchResultsRef.nativeElement.style.transform = 'translateY(45px)';
-      this.searchResultsRef.nativeElement.style.zIndex = '1000';
-      this.searchResultsRef.nativeElement.style.opacity = '1';
-
-    }
-
-  }
-
-  collapseForm() {
-
-    if ( this.searchForm && this.searchRadioGroup && this.searchInputRef && this.searchResultsRef )
-    {
-
-      this.searchForm.nativeElement.style.transition = 'all 0.2s';
-      this.searchForm.nativeElement.style.width = '100%';
-      this.searchForm.nativeElement.style.backgroundColor = 'transparent';
-      this.searchForm.nativeElement.style.zIndex = '1000';
-
-      this.searchRadioGroup.nativeElement.style.transition = 'all 0.2s';
-      this.searchRadioGroup.nativeElement.style.position = 'relative';
-      this.searchRadioGroup.nativeElement.style.paddingLeft = '0';
-      this.searchRadioGroup.nativeElement.style.display = 'none';
-
-      this.searchResultsRef.nativeElement.style.transition = 'all 0.2s';
-      this.searchResultsRef.nativeElement.style.transform = 'translateY(0)';
-      this.searchResultsRef.nativeElement.style.opacity = '0';
-      this.searchResultsRef.nativeElement.style.zIndex = '-1';
-
-      this.searchInputRef.nativeElement.style.transition = 'all 0.2s'
-      this.searchInputRef.nativeElement.style.width = '100%';
-      this.searchInputRef.nativeElement.style.backgroundColor = '#eee';
-
-    }
-
+  uncollapse(event: Event) {
+    event.stopPropagation();
+    this.searchArticlesForm.get('searchTerm')?.setValue('');
+    this.collapsed = false;
   }
 
   @HostListener('document:click', ['$event'])
   clickout(event: Event) {
-    if(!this.elementRef.nativeElement.contains(event.target)) {
-      // El clic se ha realizado fuera del componente, puedes llamar a tu función aquí
-      this.collapseForm();
+    if (!this.collapsed)
+    {
+      // El clic se ha realizado fuera del componente
+      if(!this.elementRef.nativeElement.contains(event.target)) { this.collapsed = true;}
     }
   }
 

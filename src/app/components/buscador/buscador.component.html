@@ -1,18 +1,22 @@
+<div class="open-searchbox" [class.show]="collapsed" (click)="uncollapse($event)">
+  <button class="btn btn--plain">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+</div>
 
-<form class="search row form" [formGroup]="searchArticlesForm" #searchForm>
+
+<form class="search row form" [class.show]="!collapsed" [formGroup]="searchArticlesForm">
   <!-- Input texto -->
   <div class="form__group">
     <label class="form__label" for="searchTerm">Buscar artículo</label>
-    <input  #searchInputRef
-            class="form__input" type="search" placeholder="Buscar"
+    <input  class="form__input" type="search" placeholder="Buscar"
             formControlName="searchTerm" id="searchTerm"
             name="searchTerm" autocomplete="off"
-            (focus)="uncollapseForm()"
     >
   </div>
 
   <!-- Radio buttons -->
-  <div class="form__group radio-buttons-container" #searchRadioGroup>
+  <div class="form__group radio-buttons-container">
 
     <div class="form__radio-group">
       <input
@@ -39,18 +43,20 @@
   </div>
 
   <!-- Resultados de búsqueda -->
-  <div #searchResultsRef class="search-results light-scrollbar" [class.show]="searchResults.length" >
+  <div class="search-results" [class.show]="searchResults.length" >
 
     <ul *ngIf="searchResults.length; else noResults">
       <li *ngFor="let result of searchResults">
         <img *ngIf="result.img" [src]="result.img" alt="Imagen de {{ result.title }}" class="search-results__img">
-        <a class="btn-plain" [routerLink]="result.url" [queryParams]="result.queryParams" (click)="collapseForm()">{{ result.title }}</a>
+        <a class="btn-plain" [routerLink]="result.url" [queryParams]="result.queryParams" (click)="uncollapse($event)">{{ result.title }}</a>
       </li>
     </ul>
 
     <ng-template #noResults>
-      <p class="search-results__no-results paragraph">No se han encontrado resultados</p>
+      <p class="search-results__no-results paragraph" (click)="uncollapse($event)">No se han encontrado resultados</p>
     </ng-template>
   </div>
+
 </form>
+
 

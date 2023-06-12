@@ -1,8 +1,62 @@
 @import "../../../theme/abstracts/mixins";
 @import "../../../theme/abstracts/variables";
 
+.open-searchbox {
+  opacity: 0;
+  pointer-events: none;
+  z-index: -1;
+
+  transition: all 0.2s;
+
+  button {
+    border: none;
+    padding: 3rem;
+    cursor: pointer;
+    background-color: $color-white;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    z-index: 2000;
+    box-shadow: 0 1rem 3rem rgba($color-black, .1);
+    text-align: center;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include respond(phone) {
+      background-color: transparent;
+      color: $color-white;
+      &:hover,
+      &:focus {
+        color: $color-black;
+        background-color: $color-white;
+      }
+    }
+  }
+
+
+
+
+
+}
+
+
 .form {
-  z-index: 10000;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80vw;
+  background-color: $color-white;
+  opacity: 0;
+  z-index: -1;
+  pointer-events: none;
+  max-width: 80vw !important;
+  padding-left: 0 !important;
+  box-shadow: inset 0 -10px 10px -10px rgba(#000, 0.5);
+  border-radius: 3px;
+  transition: all 0.2s;
 }
 
 .form__label {
@@ -12,8 +66,20 @@
   z-index: -10;
 }
 
+.form__input {
+  background-color: $color-white;
+  width: 80vw;
+  max-width: 80vw;
+  z-index: 10000;
+}
+
 .radio-buttons-container {
-  display: none;
+  position: relative;
+  display: flex;
+  justify-items: space-around;
+  align-items: center;
+  padding-left: 1rem;
+  z-index: 10000;
 }
 
 
@@ -22,13 +88,15 @@
   top: 75%;
   background-color: $color-grey-light-1;;
   padding: 2rem;
-  z-index: 1000;
   border-radius: 3px;
   max-height: 300px;
   overflow-y: auto;
-  opacity: 0;
-  z-index: -1;
   transition: all 0.2s ease-in;
+  transform: translateY(45px);
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  z-index: -100;
 
   &__img {
     max-width: 50px;
@@ -54,7 +122,10 @@
   }
 }
 
+.form.show,
+.open-searchbox.show,
 .search-results.show {
   opacity: 1;
-  z-index: 1000;
+  z-index: 10000;
+  pointer-events: all;
 }
