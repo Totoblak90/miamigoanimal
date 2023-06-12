@@ -9,4 +9,5 @@ export class SimpleBoxComponent {
   @Input() link?: string = '';
   @Input() title: string = '';
   @Input() description: string = '';
+  @Input() icon: string = '';
 }
