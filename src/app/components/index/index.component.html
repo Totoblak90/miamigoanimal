@@ -11,7 +11,7 @@
 
   <div *ngIf="!collapsed" class="index-body">
     <div class="button-container u-margin-bottom-small" *ngFor="let title of titleList; let i = index;">
-      <button (click)="scrollTo(title)" class="button" *ngIf="title?.innerText && title?.innerText !== 'CONTENIDOS'">
+      <button (click)="scrollTo(title)" class="button" *ngIf="title?.innerText && title.innerText !== 'CONTENIDOS' && !filters.includes(title.innerText)">
         <span class="heading-tertiary">
           &#8226; {{ title.innerText }}
         </span>

@@ -1,15 +1,56 @@
 
-<form class="search row form" [formGroup]="searchArticlesForm">
+<form class="search row form" [formGroup]="searchArticlesForm" #searchForm>
+  <!-- Input texto -->
   <div class="form__group">
     <label class="form__label" for="searchTerm">Buscar artículo</label>
-    <input (blur)="resetSearch()" class="form__input" type="search" placeholder="Buscar artículo" formControlName="searchTerm" id="searchTerm" name="searchTerm" autocomplete="off">
+    <input  #searchInputRef
+            class="form__input" type="search" [placeholder]="placeholderText"
+            formControlName="searchTerm" id="searchTerm"
+            name="searchTerm" autocomplete="off"
+            (focus)="uncollapseForm()"
+    >
   </div>
-  <div class="search-results light-scrollbar" [class.show]="searchResults.length">
-    <ul>
-      <li *ngFor="let article of searchResults">
-        <a class="btn-plain" [href]="'post/' + article.url">{{ article.title }}</a>
+
+  <!-- Radio buttons -->
+  <div class="form__group radio-buttons-container" #searchRadioGroup>
+
+    <div class="form__radio-group">
+      <input
+        type="radio" class="form__radio-input"
+        id="articulos" name="searchType"
+        formControlName="searchType" value="articulos"
+      />
+      <label for="articulos" class="form__radio-label">
+        <span class="form__radio-button"></span> Artículos
+      </label>
+    </div>
+
+    <div class="form__radio-group">
+      <input
+        type="radio" class="form__radio-input"
+        id="razas" name="searchType"
+        formControlName="searchType" value="razas"
+      />
+      <label for="razas" class="form__radio-label">
+        <span class="form__radio-button"></span> Razas
+      </label>
+    </div>
+
+  </div>
+
+  <!-- Resultados de búsqueda -->
+  <div #searchResultsRef class="search-results light-scrollbar" [class.show]="searchResults.length" >
+
+    <ul *ngIf="searchResults.length; else noResults">
+      <li *ngFor="let result of searchResults">
+        <img *ngIf="result.img" [src]="result.img" alt="Imagen de {{ result.title }}" class="search-results__img">
+        <a class="btn-plain" [routerLink]="result.url">{{ result.title }}</a>
       </li>
     </ul>
+
+    <ng-template #noResults>
+      <p class="search-results__no-results paragraph">No se han encontrado resultados</p>
+    </ng-template>
   </div>
 </form>
 

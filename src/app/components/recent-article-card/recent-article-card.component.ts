@@ -20,36 +20,14 @@ export class RecentArticleCardComponent implements OnInit {
 
   ngOnInit() {
 
+    if (this.type === 'dog') {  this.selectedImage = this.perrosService.setDogBreedImage(this.title, this.type) }
+    else if (this.type === 'cat') { this.selectedImage = this.setCatBreedImage() }
+    else { this.selectedImage =  this.utilitiesSrv.selectImage( this.type ) }
 
-    if (this.type === 'dog') {  return this.setDogBreedImage() }
-    else if (this.type === 'cat') { return this.setCatBreedImage() }
-    else { return this.selectedImage =  this.utilitiesSrv.selectImage( this.type ) }
-
-  }
-
-  private setDogBreedImage() {
-    const perrosList = Object.values(this.perrosService.dogListSignal());
-
-    // Elimina los signos de puntuación del título
-    const titleWithoutPunctuation = this.title.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
-
-    for (let i = 0; i < perrosList.length; i++)
-    {
-      // Elimina los signos de puntuación del título
-      const nameWithoutPunctuation = perrosList[i].name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
-
-      if ( titleWithoutPunctuation.includes(nameWithoutPunctuation) )
-      {
-        this.selectedImage = this.utilitiesSrv.selectImage( this.type, perrosList[i].image.url )
-        break
-      }
-    }
-
-    if (!this.selectedImage) { this.selectedImage = this.utilitiesSrv.selectImage( this.type ) }
   }
 
   private setCatBreedImage() {
-    return this.selectedImage =  this.utilitiesSrv.selectImage( this.type )
+    return this.utilitiesSrv.selectImage( this.type )
   }
 
 }

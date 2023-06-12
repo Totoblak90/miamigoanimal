@@ -33,7 +33,7 @@ export class UtilitiesService {
 
   constructor() { }
 
-  selectImage(type: 'dog' | 'cat' | 'extra', img?: string): string {
+  selectImage(type: 'dog' | 'cat' | 'extra', img?: string, onlyImage?: boolean): string {
     let images: string[];
     let color: string;
 
@@ -51,6 +51,8 @@ export class UtilitiesService {
     }
 
     const selectedImage = images[Math.floor(Math.random() * images.length)];
-    return `${color}, url(${img || selectedImage})`;
+
+    if (onlyImage) return img || selectedImage;
+    else return `${color}, url(${img || selectedImage})`;
   }
 }

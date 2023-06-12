@@ -25,6 +25,10 @@
   </section>
 
   <section class="u-margin-bottom-big">
+    <index [collapsed]="true"></index>
+  </section>
+
+  <section class="u-margin-bottom-big">
     <calculadora-de-raciones></calculadora-de-raciones>
   </section>
 
@@ -95,8 +99,6 @@
 
   </section>
 
-  <highlited-articles-section [filters]="['Alimentacion']" ></highlited-articles-section>
-
   <section class="u-margin-bottom-big section-video">
     <bg-video videoSrc="https://esferamascota.b-cdn.net/dog-eating.mp4"></bg-video>
 
@@ -125,9 +127,6 @@
     </div>
 
   </section>
-
-  <recent-articles-section [filters]="['Alimentacion']"></recent-articles-section>
-
 
   <section class="u-margin-bottom-big section-video">
     <bg-video videoSrc="https://esferamascota.b-cdn.net/cat-eating.mp4"></bg-video>
@@ -186,4 +185,10 @@
     </article>
 
   </section>
+
+  <highlited-articles-section [filters]="['Alimentacion']" ></highlited-articles-section>
+
+  <recent-articles-section [filters]="['Alimentacion']"></recent-articles-section>
+
+
 </main>

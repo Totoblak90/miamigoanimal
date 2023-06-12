@@ -2,7 +2,7 @@
 
 <main class="separate-section">
 
-  <section class="u-margin-bottom-xxl">
+  <section class="u-margin-bottom-big">
 
     <div class="row">
       <div class="u-center-text">
@@ -33,23 +33,21 @@
 
   </section>
 
-  <section class="u-margin-top-medium">
+  <section class="u-margin-bottom-big">
+    <index [collapsed]="true" [filters]="['PREGUNTAS FRECUENTES']"></index>
+  </section>
 
-    <article>
+  <section class="u-margin-bottom-big">
 
       <clipped-section-with-bg-img selectedBg="train" >
 
-        <preguntas-frecuentes-section [faqs1]="faqsDogs" faqs1Title="Perros" [faqs2]="faqsCats" faqs2Title="Gatos"></preguntas-frecuentes-section>
+        <div class="row">
+          <preguntas-frecuentes-section [faqs1]="faqsDogs" faqs1Title="Perros" [faqs2]="faqsCats" faqs2Title="Gatos"></preguntas-frecuentes-section>
+        </div>
 
       </clipped-section-with-bg-img>
 
-    </article>
-
   </section>
-
-  <div class="u-margin-bottom-big">
-    <highlited-articles-section [filters]="['Adiestramiento']" ></highlited-articles-section>
-  </div>
 
   <section class="u-margin-bottom-big row">
 
@@ -165,10 +163,6 @@
     </ul>
   </section>
 
-  <div class="u-margin-bottom-big">
-    <recent-articles-section [filters]="['Adiestramiento']"></recent-articles-section>
-  </div>
-
   <section class="u-margin-bottom-big row">
     <div class="u-center-text">
       <h2 class="heading-secondary u-margin-bottom-small">Herramientas para el adiestramiento</h2>
@@ -190,5 +184,11 @@
       independientemente del comportamiento que estés tratando de enseñar.
     </p>
   </section>
+
+  <div class="u-margin-bottom-big">
+    <highlited-articles-section [filters]="['Adiestramiento']" ></highlited-articles-section>
+  </div>
+
+  <recent-articles-section [filters]="['Adiestramiento']"></recent-articles-section>
 
 </main>

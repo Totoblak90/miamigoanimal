@@ -8,8 +8,10 @@ import { Component, Inject, Input, OnInit, PLATFORM_ID, Renderer2 } from '@angul
 })
 export class IndexComponent implements OnInit {
   @Input() collapsed = false;
+  @Input() filters: string[] = []
 
   titleList: HTMLHeadingElement[] = [];
+
 
   constructor(
     @Inject(DOCUMENT) private document: Document,

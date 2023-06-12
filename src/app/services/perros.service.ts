@@ -3,6 +3,7 @@ import { Injectable, signal } from '@angular/core';
 import { Observable, switchMap } from 'rxjs';
 import { Dog } from '../interfaces/dog.interface';
 import { DOG_LIST } from '../db/perros.db';
+import { UtilitiesService } from './utilities.service';
 
 @Injectable({
   providedIn: 'root',
@@ -18,7 +19,7 @@ export class PerrosService {
       'live_IMSkHCnLKaMGNb3cwXwplyqpgA2TRFnQmcpJXrDhVjY6bxImsfHKXRkwskW7AQU6',
   });
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private utilitiesService: UtilitiesService) {}
 
   getDogBreeds(page = 0): Observable<Dog[]> {
     this.http.get<Dog[]>(`${this.apiUrl}breeds`).subscribe(console.log);
@@ -69,6 +70,33 @@ export class PerrosService {
       console.log(error)
       return null;
     }
+  }
+
+  filterBySearchTerm(perrosActiclesList: Dog[], searchTerm: string) {
+    return perrosActiclesList.filter((dog) =>
+      dog.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      dog.searchTerms.some((term) => term.includes(searchTerm.toLowerCase()))
+    );
+  }
+
+  setDogBreedImage(title: string, type: 'cat' | 'dog', onlyImage = false) {
+    const perrosList = Object.values(this.dogListSignal());
+
+    // Elimina los signos de puntuación del título
+    const titleWithoutPunctuation = title.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+
+    for (let i = 0; i < perrosList.length; i++)
+    {
+      // Elimina los signos de puntuación del título
+      const nameWithoutPunctuation = perrosList[i].name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+
+      if ( titleWithoutPunctuation.includes(nameWithoutPunctuation) )
+      {
+        return this.utilitiesService.selectImage( type, perrosList[i].image.url, onlyImage )
+      }
+    }
+
+    return this.utilitiesService.selectImage( type, undefined, onlyImage )
   }
 
 }

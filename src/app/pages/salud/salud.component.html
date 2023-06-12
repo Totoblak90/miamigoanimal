@@ -2,7 +2,7 @@
 
 <main class="separate-section">
 
-  <section class="u-margin-bottom-xxl">
+  <section class="u-margin-bottom-big">
 
     <div class="row">
       <div class="u-center-text u-margin-bottom-big">
@@ -18,17 +18,17 @@
 
   </section>
 
-  <section  class="separate-section">
+  <section class="u-margin-bottom-big">
+    <index [collapsed]="true" [filters]="['PREGUNTAS FRECUENTES']"></index>
+  </section>
 
-    <article>
+  <section class="u-margin-bottom-big">
 
       <clipped-section-with-bg-img selectedBg="health" >
 
         <preguntas-frecuentes-section [faqs1]="faqsDogs" faqs1Title="Perros" [faqs2]="faqsCats" faqs2Title="Gatos"></preguntas-frecuentes-section>
 
       </clipped-section-with-bg-img>
-
-    </article>
 
   </section>
 
@@ -104,8 +104,6 @@
     </article>
 
   </section>
-
-  <highlited-articles-section [filters]="['Salud']" ></highlited-articles-section>
 
   <section class="u-margin-bottom-big">
 
@@ -191,8 +189,6 @@
 
   </section>
 
-  <recent-articles-section [filters]="['Salud']"></recent-articles-section>
-
   <section class="u-margin-bottom-big">
 
     <article>
@@ -223,5 +219,8 @@
 
   </section>
 
+  <highlited-articles-section [filters]="['Salud']" ></highlited-articles-section>
+
+  <recent-articles-section [filters]="['Salud']"></recent-articles-section>
 
 </main>
