@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Dog } from 'src/app/interfaces/dog.interface';
 import { MetaService } from 'src/app/services/meta.service';
-import { PerrosService } from 'src/app/services/perros.service';
 
 @Component({
   selector: 'app-perros-raza',
@@ -279,13 +278,17 @@ export class PerrosRazaComponent {
 
 
 
-  constructor(private activatedRoute: ActivatedRoute, private perrosService: PerrosService, private metaService: MetaService) {
+  constructor(private activatedRoute: ActivatedRoute, private metaService: MetaService, private router: Router) {
 
       this.dog = this.activatedRoute.snapshot.data['raza'];
-      this.metaService.setMetaTags(
-        `Aprendé todo sobre la raza "${this.dog.name}" - esferamascota.com`,
-        `Descubre todo sobre la raza de perro ${this.dog.name}: su historia, características, cuidados y más. ¡Conviértete en el mejor amigo de tu perro con nuestra guía completa!`
-      )
+
+      if (this.dog) {
+        this.metaService.setMetaTags(
+          `Aprendé todo sobre la raza "${this.dog.name}" - esferamascota.com`,
+          `Descubre todo sobre la raza de perro ${this.dog.name}: su historia, características, cuidados y más. ¡Conviértete en el mejor amigo de tu perro con nuestra guía completa!`
+        )
+      }
+
 
   }
 

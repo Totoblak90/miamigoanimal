@@ -57,7 +57,8 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
           title: article['card-heading'],
           topic: article.sections,
           type: article.categories.includes('Gatos') ? 'cat' : 'dog',
-          href: '/post/' + article.url,
+          href: '/' + article.url,
+          queryParams: {},
           img: selectedImage || '',
           defaultRedirect: true
         }
@@ -82,7 +83,8 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
           title: breed.name,
           topic: breed.temperament,
           type: breed.type as 'cat' | 'dog',
-          href: '/perros/' + breed.id + '?raza=' + breed.name,
+          href: ['/perros', breed.id],
+          queryParams: { raza: breed.name.split(' ').join('-').toLocaleLowerCase() },
           img: breed.image.url || '',
           defaultRedirect: false
         }

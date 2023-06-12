@@ -14,7 +14,7 @@
   </div>
   <div [class]="'card__side card__side--back card__side--back-' + type">
        <div class="card__cta">
-           <a *ngIf="href" [routerLink]="redirection" class="btn btn--white">Ver!</a>
+           <a *ngIf="href" [routerLink]="redirection" [queryParams]="queryParams" class="btn btn--white">Ver!</a>
        </div>
    </div>
 </div>

@@ -12,22 +12,27 @@ export class FlippingCardComponent implements OnInit, AfterViewInit, OnDestroy {
   scrollInterval: any;
   scrollDirection = 1;
 
-
   @Input() cardTitle = '';
   @Input() topics: string[] = [];
   @Input() type: 'cat' | 'dog' | 'extra' = 'extra';
-  @Input() href = '';
-  @Input() defaultRedirect = true;
   @Input() providedImg: string = '';
 
   selectedImage: string = '';
+
+  // Navegación
+  @Input() defaultRedirect = true;
+  @Input() href: string | string[] = '';
+  @Input() queryParams: any = {};
 
   get redirection() {
     if (this.defaultRedirect) {
       return '/post/' + this.href
     }
     else {
-      return this.href[0] === '/' ? this.href : '/' + this.href;
+
+      if (!Array.isArray(this.href)) { return this.href[0] === '/' ? this.href : '/' + this.href; }
+      else return this.href;
+
     }
   }
 

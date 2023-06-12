@@ -1,15 +1,16 @@
 import { isPlatformServer } from '@angular/common';
 import { Inject, Injectable, PLATFORM_ID, TransferState, makeStateKey } from '@angular/core';
-import { ActivatedRouteSnapshot, Resolve, ResolveFn, RouterStateSnapshot } from '@angular/router';
+import { ActivatedRouteSnapshot, Resolve, ResolveFn, Router, RouterStateSnapshot } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { PerrosService } from '../services/perros.service';
 
 @Injectable({ providedIn: 'root' })
-export class razaPerrosResolver implements Resolve<any>  {
+export class razaPerrosResolver implements Resolve<Observable<any>>  {
 
   constructor(
     private transferState: TransferState,
     private perrosService: PerrosService,
+    private router: Router,
     @Inject(PLATFORM_ID) private platformId: any,
   ) {}
 
@@ -20,9 +21,13 @@ export class razaPerrosResolver implements Resolve<any>  {
 
 
     const paramId = route.params['id'];
-    const questionMarkIndex = paramId.indexOf('?');
-    const slicedId = paramId.slice(0, questionMarkIndex);
-    const id = Number(slicedId);
+
+    if (paramId === undefined) {
+      this.router.navigate(['/perros'])
+      return of(null);
+    }
+
+    const id = Number(paramId);
 
     const KEY = makeStateKey<string>('raza-perro-' + id)
 
@@ -32,6 +37,8 @@ export class razaPerrosResolver implements Resolve<any>  {
       const storedKey = this.transferState.get(KEY, null);
       this.transferState.remove(KEY);
 
+      console.log('cliente', JSON.parse(storedKey!).name)
+
       if (storedKey) { return of(JSON.parse(storedKey)); }
       else { return of(storedKey); }
 
@@ -39,11 +46,22 @@ export class razaPerrosResolver implements Resolve<any>  {
     else
     {
 
-      const perro = this.perrosService.dogListSignal()[id]
+      const perro = this.perrosService.dogListSignal()[id];
 
-      if (isPlatformServer(this.platformId)) { this.transferState.set(KEY, JSON.stringify(perro)); }
+      if (perro)
+      {
+        if (isPlatformServer(this.platformId)) { this.transferState.set(KEY, JSON.stringify(perro)); }
 
-      return of(perro);
+        return of(perro);
+      }
+
+      else
+
+      {
+        this.router.navigate(['perros'])
+        return of(null);
+      }
+
 
     }
 
