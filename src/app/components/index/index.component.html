@@ -13,7 +13,11 @@
     <div class="button-container u-margin-bottom-small" *ngFor="let title of titleList; let i = index;">
       <button (click)="scrollTo(title)" class="button" *ngIf="title?.innerText && title.innerText !== 'CONTENIDOS' && !filters.includes(title.innerText)">
         <span class="heading-tertiary">
-          &#8226; {{ title.innerText }}
+          &#8226; {{
+            title.innerText === 'DESTACADOS' ? 'ARTÍCULOS DESTACADOS' :
+            title.innerText === 'RECIENTES' ? 'ARTÍCULOS RECIENTES' :
+            title.innerText
+           }}
         </span>
       </button>
     </div>
