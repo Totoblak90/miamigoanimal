@@ -116,9 +116,29 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
     else
     {
-      this.selectedImage =  this.bckColour === 'cat' ? this.utilitiesSrv.selectImage( this.bckColour ) :
-      this.bckColour === 'dog' ? this.utilitiesSrv.selectImage( this.bckColour ) :
-      ''
+      if (this.bckColour === 'cat') {
+        this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour )
+      }
+
+      else if (this.bckColour === 'dog') {
+        const perros = Object.values(this.perrosService.dogListSignal());
+
+        // Creas una versión del título que es todo en minúsculas y sin puntuación
+        const fullTitleWithoutPunctuation = (this.mainTitle + ' ' + this.secondaryTitle).replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+
+        // Buscas en la lista de perros para ver si alguno de ellos está incluido en el título
+        const dog = perros.find(dog => {
+          // Creas una versión del nombre del perro que es todo en minúsculas y sin puntuación
+          const dogNameWithoutPunctuation = dog.name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+
+          // Compruebas si el nombre del perro está incluido en el título
+          return fullTitleWithoutPunctuation.includes(dogNameWithoutPunctuation)
+        });
+
+        this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour, dog?.image?.url || undefined )
+      }
+
+      else { this.selectedImage = '' }
     }
 
 

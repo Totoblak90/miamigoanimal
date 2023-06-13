@@ -45,7 +45,7 @@ export class MetaService {
 
   private addTwitterTags(title: string, description: string) {
     this.meta.addTag({ name: 'twitter:card', content: 'summary' })
-    this.meta.addTag({ name: 'twitter:site', content: '@tobiblaksley' })
+    this.meta.addTag({ name: 'twitter:site', content: '@EsferaMascota' })
     this.meta.addTag({ name: 'twitter:title', content: title })
     this.meta.addTag({ name: 'twitter:description', content: description })
     this.meta.addTag({ name: 'twitter:image', content: 'https://esferamascota.b-cdn.net/destacados-extra.webp' })
@@ -62,6 +62,7 @@ export class MetaService {
   private addCanonical(tag: any) {
     if (isPlatformBrowser(this.platformId))
     {
+
       const link = this.renderer.createElement('link');
       Object.keys(tag).forEach(key => { this.renderer.setAttribute(link, key, tag[key]); });
       this.renderer.appendChild(this.document.head, link);
