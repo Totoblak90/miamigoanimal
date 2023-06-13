@@ -6894,6 +6894,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       "https://www.ukcdogs.com/cavalier-king-charles-spaniel"
     ]
   },
+  // Checkpoint
   58: {
     weight: {
       imperial: '55 - 80',

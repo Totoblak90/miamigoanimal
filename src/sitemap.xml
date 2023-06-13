@@ -1543,5 +1543,19 @@
         <priority>1.0</priority>
     </url>
 
+    <url>
+        <loc>https://esferamascota.com/perros/172?raza=perro-salchicha</loc>
+        <lastmod>2023-06-13</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://esferamascota.com/perros/173?raza=boyero-de-berna</loc>
+        <lastmod>2023-06-13</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
 
 </urlset>
