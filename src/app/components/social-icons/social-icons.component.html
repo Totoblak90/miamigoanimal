@@ -9,7 +9,7 @@
 
   <span *ngIf="uncollapse">
 
-    <a  href="https://twitter.com/share?url={{currentUrl}}&text={{description}}&via=tobiblaksley" target="_blank" rel="nofollow"
+    <a  href="https://twitter.com/share?url={{currentUrl}}&text={{description}}&via=esferamascota" target="_blank"
         (click)="toggleCollapse($event, 'twitter')"
         class="fade-in"
         [class.fade-out]="fadeOutIcons"
@@ -19,7 +19,7 @@
       <span class="visually-hidden">Compartir en Twitter</span>
     </a>
 
-    <a  href="https://www.facebook.com/sharer/sharer.php?u={{currentUrl}}" target="_blank" rel="nofollow"
+    <a  href="https://www.facebook.com/sharer/sharer.php?u={{currentUrl}}" target="_blank"
         (click)="toggleCollapse($event, 'fb')"
         class="fade-in"
         [class.fade-out]="fadeOutIcons"
@@ -30,7 +30,7 @@
     </a>
 
     <a  href="https://www.linkedin.com/shareArticle?mini=true&url={{currentUrl}}&title={{title}}&summary={{description}}&source='Esfera mascota'"
-        target="_blank" rel="nofollow"
+        target="_blank"
         (click)="toggleCollapse($event, 'lkd')"
         class="fade-in"
         [class.fade-out]="fadeOutIcons"
@@ -70,9 +70,9 @@
   </span>
 
   <a
-    href="https://twitter.com/share?url={{currentUrl}}&text={{description}}&via=tobiblaksley"
+    href="https://twitter.com/share?url={{currentUrl}}&text={{description}}&via=esferamascota"
     target="_blank"
-    rel="nofollow"
+
     aria-label="Compartir en Twitter"
   >
     <i class="fa-brands fa-twitter icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
@@ -82,7 +82,7 @@
   <a
     href="https://www.facebook.com/sharer/sharer.php?u={{currentUrl}}"
     target="_blank"
-    rel="nofollow"
+
     aria-label="Compartir en Facebook"
   >
     <i class="fa-brands fa-facebook icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>
@@ -92,7 +92,7 @@
   <a
     href="https://www.linkedin.com/shareArticle?mini=true&url={{currentUrl}}&title={{title}}&summary={{description}}&source='Esfera mascota'"
     target="_blank"
-    rel="nofollow"
+
     aria-label="Compartir en LinkedIn"
   >
     <i class="fa-brands fa-linkedin icon" [class]="showAltColor ? 'alt-icon-color' : ''"></i>

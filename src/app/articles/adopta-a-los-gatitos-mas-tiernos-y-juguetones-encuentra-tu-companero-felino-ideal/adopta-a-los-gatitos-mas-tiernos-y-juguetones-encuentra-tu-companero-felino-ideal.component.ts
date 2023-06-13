@@ -10,7 +10,7 @@ import { NavigationService } from 'src/app/services/navigation.service';
 export class AdoptaALosGatitosMasTiernosYJuguetonesEncuentraTuCompaneroFelinoIdealComponent{
 
   title = 'Adopta los Gatitos más Tiernos y Juguetones | esferaMascota 🐱'
-  description = '¡Conoce a los gatitos más tiernos y juguetones! Visita miAmigoAnimal para encontrar a tu compañero felino ideal✨.'
+  description = '¡Conoce a los gatitos más tiernos y juguetones! Visita EsferaMascota para encontrar a tu compañero felino ideal✨.'
 
   constructor(
     private meta: MetaService,
