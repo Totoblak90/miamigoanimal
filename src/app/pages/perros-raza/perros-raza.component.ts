@@ -16,7 +16,7 @@ export class PerrosRazaComponent implements OnDestroy {
   dog: Dog = {
     bred_for: [],
     breed_group: [],
-    categoria_de_tamanio: 'Grande',
+    categoria_de_tamanio: '-',
     color: [],
     country_code: 'AR',
     description: '',
@@ -39,29 +39,39 @@ export class PerrosRazaComponent implements OnDestroy {
       imperial: '',
       metric: ''
     },
-    compatibilidad_con_otros_animales: 'Baja',
+    compatibilidad_con_otros_animales: '-',
     enfermedades_comunes:[],
-    nivel_de_energia: 'Bajo',
-    facilidad_de_entrenamiento: 'Bajo',
+    nivel_de_energia: '-',
+    facilidad_de_entrenamiento: '-',
     history: '',
     necesidades_especiales: [],
     perks: [],
     popularidad: 'Alta',
     reference_image_id: '',
     salud_general: 'Buena',
-    searchTerms: []
+    searchTerms: [],
+    bueno_con_ninos: '-',
+    casos_famosos: [],
+    fuentes: [],
+    necesidad_de_aseo: '-',
+    para_primerizos: '-',
+    soporta_clima_calido: '-',
+    soporta_clima_frio: '-',
+    tendencia_a_ladrar: '-',
+    tolerancia_a_la_soledad: '-',
   } ;
 
 
   get compatibilidadConOtrosAnimalesPercentage() {
 
-    type compatibilidadConOtrosAnimales = 'Baja' | 'Moderada' | 'Alta';
+    type compatibilidadConOtrosAnimales = 'Baja' | 'Moderada' | 'Alta' | '-';
 
     type compatibilidadConOtrosAnimalesMap = {
       [K in compatibilidadConOtrosAnimales]: number;
     };
 
     const compatibilidad: compatibilidadConOtrosAnimalesMap = {
+      '-': 0,
       'Baja': 33,
       'Moderada': 66,
       'Alta': 100
@@ -71,13 +81,14 @@ export class PerrosRazaComponent implements OnDestroy {
   }
 
   get categoriaDeTamanioPercentage() {
-    type categoriaDeTamanio = 'Muy pequeño' | 'Pequeño' | 'Mediano' | 'Grande' | 'Muy grande';
+    type categoriaDeTamanio = 'Muy pequeño' | 'Pequeño' | 'Mediano' | 'Grande' | 'Muy grande' | '-';
 
     type categoriaDeTamanioMap = {
       [K in categoriaDeTamanio]: number;
     };
 
     const categoriaDeTamanio: categoriaDeTamanioMap = {
+      '-': 0,
       'Muy pequeño': 20,
       'Pequeño': 40,
       'Mediano': 60,
@@ -90,13 +101,14 @@ export class PerrosRazaComponent implements OnDestroy {
 
   get facilidadDeEntrenamientoPercentage() {
 
-    type FacilidadDeEntrenamiento = 'Bajo' | 'Moderado' | 'Alto';
+    type FacilidadDeEntrenamiento = 'Bajo' | 'Moderado' | 'Alto' | '-';
 
     type FacilidadDeEntrenamientoMap = {
       [K in FacilidadDeEntrenamiento]: number;
     };
 
     const facilidadDeEntrenamiento: FacilidadDeEntrenamientoMap = {
+      '-': 0,
       'Bajo': 33,
       'Moderado': 66,
       'Alto': 100
@@ -107,13 +119,14 @@ export class PerrosRazaComponent implements OnDestroy {
 
   get saludGeneralPercentage() {
 
-    type saludGeneral = 'Mala' | 'Regular' | 'Buena' | 'Excelente';
+    type saludGeneral = 'Mala' | 'Regular' | 'Buena' | 'Excelente' | '-';
 
     type saludGeneralMap = {
       [K in saludGeneral]: number;
     };
 
     const saludGeneral: saludGeneralMap = {
+      '-': 0,
       'Mala': 25,
       'Regular': 50,
       'Buena': 75,
@@ -125,13 +138,14 @@ export class PerrosRazaComponent implements OnDestroy {
 
   get nivelDeEnergiaPercentage() {
 
-    type nivelDeEnergia = 'Bajo' | 'Moderado' | 'Alto';
+    type nivelDeEnergia = 'Bajo' | 'Moderado' | 'Alto' | '-';
 
     type nivelDeEnergiaMap = {
       [K in nivelDeEnergia]: number;
     };
 
     const nivelDeEnergia: nivelDeEnergiaMap = {
+      '-': 0,
       'Bajo': 33,
       'Moderado': 66,
       'Alto': 100
@@ -142,13 +156,14 @@ export class PerrosRazaComponent implements OnDestroy {
 
   get popularidadPercentage() {
 
-    type popularidad = 'Baja' | 'Moderada' | 'Alta';
+    type popularidad = 'Baja' | 'Moderada' | 'Alta' | '-';
 
     type popularidadMap = {
       [K in popularidad]: number;
     };
 
     const popularidad: popularidadMap = {
+      '-': 0,
       'Baja': 33,
       'Moderada': 66,
       'Alta': 100
@@ -159,70 +174,74 @@ export class PerrosRazaComponent implements OnDestroy {
 
   get tendenciaLadridoPercentage() {
 
-    type tendenciaLadrido = 'Baja' | 'Moderada' | 'Alta';
+    type tendenciaLadrido = 'Baja' | 'Moderada' | 'Alta' | '-';
 
     type tendenciaLadridoMap = {
       [K in tendenciaLadrido]: number;
     };
 
     const tendenciaLadrido: tendenciaLadridoMap = {
+      '-': 0,
       'Baja': 33,
       'Moderada': 66,
       'Alta': 100
     }
 
-    return `progress progress__${tendenciaLadrido[this.dog.tendencia_a_ladrar || 'Baja']}`
+    return `progress progress__${tendenciaLadrido[this.dog.tendencia_a_ladrar || '-']}`
   }
 
   get necesidadDeAseoPercentage() {
 
-    type necesidadDeAseo = 'Baja' | 'Moderada' | 'Alta';
+    type necesidadDeAseo = 'Baja' | 'Moderada' | 'Alta' | '-';
 
     type necesidadDeAseoMap = {
       [K in necesidadDeAseo]: number;
     };
 
     const necesidadDeAseo: necesidadDeAseoMap = {
+      '-': 0,
       'Baja': 33,
       'Moderada': 66,
       'Alta': 100
     }
 
-    return `progress progress__${necesidadDeAseo[this.dog.necesidad_de_aseo || 'Baja']}`
+    return `progress progress__${necesidadDeAseo[this.dog.necesidad_de_aseo || '-']}`
   }
 
   get resistenciaAlCalorPercentage() {
 
-    type resistenciaAlCalor = 'Baja' | 'Moderada' | 'Alta';
+    type resistenciaAlCalor = 'Baja' | 'Moderada' | 'Alta' | '-';
 
     type resistenciaAlCalorMap = {
       [K in resistenciaAlCalor]: number;
     };
 
     const resistenciaAlCalor: resistenciaAlCalorMap = {
+      '-': 0,
       'Baja': 33,
       'Moderada': 66,
       'Alta': 100
     }
 
-    return `progress progress__${resistenciaAlCalor[this.dog.soporta_clima_calido || 'Baja']}`
+    return `progress progress__${resistenciaAlCalor[this.dog.soporta_clima_calido || '-']}`
   }
 
   get resistenciaAlFrioPercentage() {
 
-    type resistenciaAlFrio = 'Baja' | 'Moderada' | 'Alta';
+    type resistenciaAlFrio = 'Baja' | 'Moderada' | 'Alta' | '-';
 
     type resistenciaAlFrioMap = {
       [K in resistenciaAlFrio]: number;
     };
 
     const resistenciaAlFrio: resistenciaAlFrioMap = {
+      '-': 0,
       'Baja': 33,
       'Moderada': 66,
       'Alta': 100
     }
 
-    return `progress progress__${resistenciaAlFrio[this.dog.soporta_clima_frio || 'Baja']}`
+    return `progress progress__${resistenciaAlFrio[this.dog.soporta_clima_frio || '-']}`
   }
 
   get toleranciaSoledadPercentage() {
@@ -280,8 +299,6 @@ export class PerrosRazaComponent implements OnDestroy {
   }
 
   private routeSubscription: Subscription | undefined;
-
-
 
   constructor(
     private activatedRoute: ActivatedRoute,

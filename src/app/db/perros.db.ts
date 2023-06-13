@@ -80,12 +80,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     para_primerizos: 'Baja',
     casos_famosos: [],
     fuentes: [
-      "https://en.wikipedia.org/wiki/Affenpinscher",
-      "https://www.akc.org/dog-breeds/affenpinscher/",
-      "https://www.royalcanin.com/us/dogs/breeds/breed-library/affenpinscher",
-      "https://www.dogbreedinfo.com/affenpinscher.htm",
-      "https://www.ukcdogs.com/affenpinscher"
-    ]
+      'https://en.wikipedia.org/wiki/Affenpinscher',
+      'https://www.akc.org/dog-breeds/affenpinscher/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/affenpinscher',
+      'https://www.dogbreedinfo.com/affenpinscher.htm',
+      'https://www.ukcdogs.com/affenpinscher',
+    ],
   },
   2: {
     weight: {
@@ -162,11 +162,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     para_primerizos: 'Baja',
     casos_famosos: [],
     fuentes: [
-      "https://en.wikipedia.org/wiki/Afghan_Hound",
-      "https://www.akc.org/dog-breeds/afghan-hound/",
-      "https://www.royalcanin.com/us/dogs/breeds/breed-library/afghan-hound",
-      "https://www.ukcdogs.com/afghan-hound"
-    ]
+      'https://en.wikipedia.org/wiki/Afghan_Hound',
+      'https://www.akc.org/dog-breeds/afghan-hound/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/afghan-hound',
+      'https://www.ukcdogs.com/afghan-hound',
+    ],
   },
   3: {
     weight: {
@@ -211,7 +211,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       Aunque estos perros son fascinantes y hermosos, no son adecuados como mascotas. Son animales salvajes que necesitan mucho espacio para correr y cazar, y tienen necesidades sociales y comportamentales que no pueden ser satisfechas en un entorno doméstico. Además, pueden ser peligrosos para las personas y otros animales si se sienten amenazados o acorralados.
     `,
     country_code: 'AF',
-    history:`
+    history: `
       La historia del Perro de Caza Africano, también conocido como Licaón, Perro Salvaje Africano, o Lobo Pintado, es fascinante y se remonta a miles de años atrás. Aunque no es una raza de perro en el sentido tradicional, su historia y evolución están profundamente entrelazadas con la de África.
       <br>
       <br>
@@ -261,7 +261,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bueno_con_ninos: '-',
     para_primerizos: '-',
     casos_famosos: [],
-    fuentes: [ "https://en.wikipedia.org/wiki/African_Hunting_Dog", ]
+    fuentes: ['https://en.wikipedia.org/wiki/African_Hunting_Dog'],
   },
   4: {
     weight: {
@@ -374,11 +374,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
       },
     ],
     fuentes: [
-      "https://en.wikipedia.org/wiki/Airedale_Terrier",
-      "https://www.akc.org/dog-breeds/airedale-terrier/",
-      "https://www.royalcanin.com/us/dogs/breeds/breed-library/airedale-terrier",
-      "https://www.ukcdogs.com/airedale-terrier"
-    ]
+      'https://en.wikipedia.org/wiki/Airedale_Terrier',
+      'https://www.akc.org/dog-breeds/airedale-terrier/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/airedale-terrier',
+      'https://www.ukcdogs.com/airedale-terrier',
+    ],
   },
   5: {
     weight: {
@@ -463,9 +463,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bueno_con_ninos: '-',
     para_primerizos: '-',
     casos_famosos: [],
-    fuentes: [
-      "https://en.wikipedia.org/wiki/Akbash",
-    ]
+    fuentes: ['https://en.wikipedia.org/wiki/Akbash'],
   },
   6: {
     weight: {
@@ -576,12 +574,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
       },
     ],
     fuentes: [
-      "https://en.wikipedia.org/wiki/Akita_(dog)",
-      "https://www.akc.org/dog-breeds/akita/",
-      "https://www.royalcanin.com/us/dogs/breeds/breed-library/akita",
-      "https://www.dogbreedinfo.com/akita.htm",
-      "https://www.ukcdogs.com/akita",
-    ]
+      'https://en.wikipedia.org/wiki/Akita_(dog)',
+      'https://www.akc.org/dog-breeds/akita/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/akita',
+      'https://www.dogbreedinfo.com/akita.htm',
+      'https://www.ukcdogs.com/akita',
+    ],
   },
   7: {
     weight: {
@@ -613,7 +611,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       url: 'https://cdn2.thedogapi.com/images/33mJ-V3RX.jpg',
     },
     searchTerms: ['Bulldog Alapaha de Sangre Azul', 'bulldog', 'guardia'],
-    description:`
+    description: `
       El Bulldog Alapaha de Sangre Azul es una raza de perro que se distingue por su fuerza, agilidad y resistencia. Este perro de tamaño mediano a grande es conocido por su apariencia musculosa y su expresión alerta y segura. El Alapaha es un perro de trabajo que se utiliza para trabajar con el ganado y como perro de guardia.
       <br>
       <br>
@@ -688,9 +686,9 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-      "https://en.wikipedia.org/wiki/Alapaha_Blue_Blood_Bulldog",
-      "https://www.akc.org/dog-breeds/alapaha-blue-blood-bulldog/"
-    ]
+      'https://en.wikipedia.org/wiki/Alapaha_Blue_Blood_Bulldog',
+      'https://www.akc.org/dog-breeds/alapaha-blue-blood-bulldog/',
+    ],
   },
   8: {
     weight: {
@@ -808,13 +806,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bueno_con_ninos: 'Alta',
     casos_famosos: [],
     fuentes: [
-      "https://en.wikipedia.org/wiki/Alaskan_Husky",
-      "https://www.akc.org/dog-breeds/",
-      "https://www.akc.org/dog-breeds/alaskan-malamute/",
-      "https://www.royalcanin.com/us/dogs/breeds/breed-library/alaskan-malamute",
-      "https://www.dogbreedinfo.com/alaskanhusky.htm",
-      "https://www.ukcdogs.com/alaskan-husky"
-    ]
+      'https://en.wikipedia.org/wiki/Alaskan_Husky',
+      'https://www.akc.org/dog-breeds/',
+      'https://www.akc.org/dog-breeds/alaskan-malamute/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/alaskan-malamute',
+      'https://www.dogbreedinfo.com/alaskanhusky.htm',
+      'https://www.ukcdogs.com/alaskan-husky',
+    ],
   },
   9: {
     weight: {
@@ -943,12 +941,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
       },
     ],
     fuentes: [
-      "https://en.wikipedia.org/wiki/Alaskan_Malamute",
-      "https://www.akc.org/dog-breeds/alaskan-malamute/",
-      "https://www.royalcanin.com/us/dogs/breeds/breed-library/alaskan-malamute",
-      "https://www.dogbreedinfo.com/alaskanmalamute.htm",
-      "https://www.ukcdogs.com/alaskan-malamute",
-    ]
+      'https://en.wikipedia.org/wiki/Alaskan_Malamute',
+      'https://www.akc.org/dog-breeds/alaskan-malamute/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/alaskan-malamute',
+      'https://www.dogbreedinfo.com/alaskanmalamute.htm',
+      'https://www.ukcdogs.com/alaskan-malamute',
+    ],
   },
   10: {
     weight: {
@@ -1106,7 +1104,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       <br>
       El Bulldog Americano moderno continúa sirviendo como un perro de trabajo multifuncional; un perro guardián valiente y constante; y un leal compañero de familia. Gracias a los esfuerzos de John D. Johnson y otros, el Bulldog Americano existe hoy en día.
     `,
-    fuentes: []
+    fuentes: [],
   },
   11: {
     weight: {
@@ -1235,6 +1233,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     para_primerizos: 'Baja',
     bueno_con_ninos: '-',
     casos_famosos: [],
+    fuentes: []
   },
   12: {
     weight: {
@@ -1355,12 +1354,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Moderada',
     casos_famosos: [],
     fuentes: [
-      "https://en.wikipedia.org/wiki/American_Eskimo_Dog",
-      "https://www.akc.org/dog-breeds/american-eskimo-dog/",
-      "https://www.royalcanin.com/us/dogs/breeds/breed-library/american-eskimo",
-      "https://www.dogbreedinfo.com/americaneskimo.htm",
-      "https://www.ukcdogs.com/american-eskimo-dog",
-    ]
+      'https://en.wikipedia.org/wiki/American_Eskimo_Dog',
+      'https://www.akc.org/dog-breeds/american-eskimo-dog/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/american-eskimo',
+      'https://www.dogbreedinfo.com/americaneskimo.htm',
+      'https://www.ukcdogs.com/american-eskimo-dog',
+    ],
   },
   13: {
     weight: {
@@ -1479,11 +1478,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     para_primerizos: '-',
     bueno_con_ninos: 'Alta',
     fuentes: [
-      "https://en.wikipedia.org/wiki/American_Eskimo_Dog",
-      "https://www.akc.org/dog-breeds/american-eskimo-dog/",
-      "https://www.royalcanin.com/us/dogs/breeds/breed-library/american-eskimo",
-      "https://www.dogbreedinfo.com/a/americaneskimo.htm",
-      "https://www.ukcdogs.com/american-eskimo-dog",
+      'https://en.wikipedia.org/wiki/American_Eskimo_Dog',
+      'https://www.akc.org/dog-breeds/american-eskimo-dog/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/american-eskimo',
+      'https://www.dogbreedinfo.com/a/americaneskimo.htm',
+      'https://www.ukcdogs.com/american-eskimo-dog',
     ],
     casos_famosos: [],
   },
@@ -2490,10 +2489,36 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Hipotiroidismo',
       'Epilepsia',
     ],
-    description:
-      'El Azawakh es un galgo de África Occidental que se origina en los países de Burkina Faso, Mali y Níger. Es un perro alto y elegante, conocido por su resistencia y velocidad. El Azawakh tiene un pelaje corto y fino que puede venir en cualquier color o combinación de colores: rojo, arena clara a leonado, atigrado, parti-color (que puede ser predominantemente blanco), azul, negro y marrón. La cabeza puede tener una máscara negra y puede haber marcas blancas en las patas, el pecho y la punta de la cola. No hay descalificaciones de color o marcas en la raza. Adecuado para su herencia, el Azawakh se destaca como compañero, guardián y corredor de señuelo en los Estados Unidos. Este antiguo perro de caza es tan delgado y largo que su estructura ósea y musculatura se pueden ver claramente debajo de su piel. Las características notables de la raza incluyen su marcha ligera, flexible y ágil, así como su galope de doble suspensión vertical. El Azawakh es de ojos almendrados y delgado. Se mueve con una marcha distintivamente felina y puede encontrarse en una variedad de colores, así como en diversos grados de refinamiento, aunque el formato es básicamente constante.',
-    history:
-      'El Azawakh es una raza antigua que ha estado presente en la región del Sahel de África Occidental durante miles de años. Los pueblos nómadas de esta región, incluyendo los Tuareg y otros grupos étnicos, han utilizado el Azawakh para una variedad de propósitos a lo largo de los siglos, principalmente como guardián y cazador. El Azawakh ha sido criado para ser capaz de soportar las duras condiciones del desierto del Sahara, y es conocido por su increíble resistencia y velocidad. A pesar de su apariencia delgada y elegante, el Azawakh es un perro increíblemente resistente y resistente. La raza fue introducida en Europa en la década de 1970, y desde entonces ha ganado popularidad en todo el mundo, tanto en las exposiciones caninas como en los hogares como mascota.',
+    description: `
+      El Azawakh es una raza de perro que se distingue por su elegancia y su porte altivo. Originario de la región del Sahel en África, este perro de caza es conocido por su piel fina y su estructura ósea y musculatura visibles bajo la piel. Su apariencia es de un perro delgado, alto y de patas largas, con una proporción que lo hace más alto que largo. Su pelaje es corto y fino, y puede variar en una amplia gama de colores, desde el arena claro hasta el rojo oscuro, blanco, negro, gris, azul, y todos los tonos de marrón, incluyendo el chocolate. También pueden presentar marcas blancas y una máscara oscura.
+      <br>
+      <br>
+      El Azawakh tiene una cabeza larga y delgada, con un cráneo casi plano y un hocico que se estrecha hacia la punta. Sus ojos, de tamaño considerable y forma almendrada, pueden variar en color desde el avellana hasta el marrón oscuro. Sus orejas, finas y planas, se sitúan bastante altas y caen cerca del cráneo. En estado de alerta, las orejas se levantan en la base.
+      <br>
+      <br>
+      Este perro es conocido por su agilidad y su atención. Es amable y afectuoso con las personas que acepta, pero puede ser distante y reservado con los extraños. Su movimiento es una característica esencial de la raza, debe ser ligero, flexible y elástico, con una alta acción al trotar y caminar.
+      <br>
+      <br>
+      El Azawakh es un perro de tamaño considerable, con los machos midiendo entre 63 y 74 cm de altura, y las hembras entre 60 y 70 cm. Los machos pesan entre 20 y 25 kg, mientras que las hembras oscilan entre 15 y 20 kg.
+      <br>
+      <br>
+      Este perro tiene una estructura corporal única, con un pecho bien desarrollado en longitud, pero no muy ancho. Sus costillas son largas y visibles bajo la piel, curvándose ligeramente hacia el esternón. Sus caderas son prominentes y siempre se colocan tan altas como, o ligeramente más altas que, la cruz. Su cola es larga, delgada y se afina hacia la punta, con un pincel blanco en la punta. En reposo, la cola se lleva baja, con la punta ligeramente levantada. Cuando el perro está emocionado, la cola puede llevarse por encima de la horizontal.
+      <br>
+      <br>
+      En resumen, el Azawakh es un perro de caza elegante y altivo, conocido por su agilidad y su afecto hacia las personas que acepta. Su apariencia única y su movimiento ligero y elástico lo hacen destacar entre otras razas.
+    `,
+    history: `
+      La historia del Azawakh es tan antigua como fascinante, y se remonta a las antiguas civilizaciones del Sahel, una región que abarca varios países de África, incluyendo Mali, Níger y Burkina Faso. Los Azawakhs han sido criados por las numerosas tribus nómadas del Sahara meridional como perros de caza y guardia, así como compañeros. Las vocaciones del perro eran, y todavía son, la caza, la protección y la compañía. Los nómadas consideraban a los perros como una pieza de exhibición, así como un perro de caza.
+      <br>
+      <br>
+      La raza Azawakh ha sido reconocida por el United Kennel Club desde el 1 de enero de 1993. Aunque la raza es relativamente nueva para el mundo occidental, su historia en África se remonta a miles de años. Los Azawakhs a menudo se pueden ver durmiendo en los bajos techos de paja de las casas de sus dueños en Mali. Cuando un depredador nocturno como una hiena se acerca, el primer Azawakh que lo ve salta y rápidamente se le unen los demás; forman una manada y ahuyentan o matan al intruso.
+      <br>
+      <br>
+      La raza ha sido criada para ser resistente y adaptable, capaz de soportar las duras condiciones del desierto del Sahara. A pesar de su apariencia delgada y elegante, los Azawakhs son perros increíblemente resistentes y duraderos, capaces de correr largas distancias a alta velocidad en busca de presas. A lo largo de los siglos, esta raza ha demostrado ser invaluable para las tribus nómadas del Sahara, proporcionando protección, compañía y ayuda en la caza.
+      <br>
+      <br>
+      En resumen, la historia del Azawakh es una de supervivencia y adaptación. Criados en uno de los entornos más duros del mundo, estos perros han demostrado ser tan resistentes y adaptables como las personas que los criaron. Aunque la raza puede ser relativamente desconocida fuera de África, su historia y sus habilidades únicas los hacen verdaderamente dignos de admiración.
+    `,
     searchTerms: [
       'Azawakh',
       'azawakh',
@@ -2523,7 +2548,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
     fuentes: [
       'https://en.wikipedia.org/wiki/Azawakh',
       'https://www.akc.org/dog-breeds/azawakh/',
-      'https://www.yourpurebredpuppy.com/reviews/azawakhs.html',
     ],
   },
   24: {
@@ -2541,7 +2565,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     breed_group: ['Grupo de Perros de Caza'], // Aunque no se mencionó originalmente, los Barbet generalmente se clasifican como perros de caza
     life_span: '13 – 15 años',
     temperament: ['Obediente', 'Compañero', 'Inteligente', 'Alegre'],
-    origin: 'Francia', // Según mi conocimiento, Barbet es originario de Francia
+    origin: 'Francia',
     reference_image_id: 'HyWGexcVQ',
     image: {
       id: 'HyWGexcVQ',
@@ -2549,7 +2573,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1280,
       url: 'https://cdn2.thedogapi.com/images/HyWGexcVQ.jpg',
     },
-    country_code: 'FR', // FR es el código de país de Francia, de donde es originario el Barbet. una raza de perros de agua francesa muy antigua. Su nombre se deriva de la palabra francesa "barbe", que significa barba, en referencia a la apariencia distintiva de su pelaje. Durante siglos, estos perros han sido apreciados en su Francia natal por su habilidad en la caza de aves acuáticas y su resistencia en condiciones de clima frío y húmedo.',
+    country_code: 'FR',
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente para cazar aves acuáticas',
@@ -2559,7 +2583,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Alegre',
       'Requiere ejercicio regular',
     ],
-    color: ['Negro', 'Blanco', 'Marrón'], // Los Barbets vienen en una variedad de colores.
+    color: ['Negro', 'Blanco', 'Marrón'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
@@ -2570,8 +2594,48 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'], // Algunas enfermedades comunes para la raza Barbet.
-    description: `El Barbet es una raza de perro mediana originaria de Francia, conocida como perro de agua francés. Es un perro raro, con la mayoría de los Barbets, especialmente aquellos que se muestran en exposiciones caninas, siendo de color negro, marrón, blanco y negro, o marrón y blanco. Es común ver manchas blancas en el pecho y patas o piernas blancas en perros de pelaje negro o marrón. Los Barbets son conocidos por ser amigables, alegres, obedientes e inteligentes. Son rápidos para aprender y necesitan entrenamiento de obediencia de por vida. Son geniales con los niños, las familias y los ancianos. Los Barbets se unirán a su familia y preferirán estar en la misma habitación con la familia en todo momento. Necesitan ejercicio diario para mantener al perro en un estado saludable de mente y cuerpo.`,
-    history: `El Barbet se conectó a través de los siglos en varias capacidades, y como perro de compañía pero más como un perro de trabajo en general. El término Barbet se convirtió a lo largo de los siglos en un nombre genérico para un perro con un pelaje largo, rizado y lanudo. Los Barbets son más conocidos por ser un perro de agua en los pantanos, humedales y estuarios de Francia. Entre finales del siglo XVIII y principios del siglo XIX, el mismo perro era conocido como el Barbet en Francia, el Barbone en Italia, y el Pudel en Alemania; durante casi cien años los barbets y los poodles se consideraron la misma raza.`,
+    description: `
+      El Barbet es un perro de tamaño medio, equilibrado y con un pelaje característicamente grueso, lanoso y rizado que le proporciona una protección efectiva contra el frío y la humedad. Su cuerpo es ligeramente más largo que su altura a la cruz, y tiene una barba característica que le da su nombre.
+      <br>
+      <br>
+      La cabeza del Barbet está cubierta completamente de pelo largo. Su cráneo es redondo y amplio, con un stop pronunciado y una frente grande y corta. El hocico es muy cuadrado y ligeramente más corto que el cráneo. Sus labios son gruesos y bien pigmentados, con las membranas mucosas de color negro o marrón. Sus mandíbulas son de igual longitud y sus dientes son fuertes, bien desarrollados y blancos, con una mordida de tijera.
+      <br>
+      <br>
+      Los ojos del Barbet son redondos y preferiblemente de color marrón oscuro, con los bordes de los ojos de color negro o marrón. Sus orejas están implantadas a la altura de los ojos o ligeramente más abajo, son largas, planas y anchas, y están cubiertas de pelo largo que puede formar mechones o cordones.
+      <br>
+      <br>
+      El cuerpo del Barbet es sólido, con un pecho amplio y bien desarrollado que llega hasta el codo. Su espalda es sólida con una línea superior bien sostenida. Su lomo es arqueado, corto y fuerte. Su grupa es redonda, en suave continuación del lomo. Su caja torácica es redondeada, pero no en forma de barril.
+      <br>
+      <br>
+      El pelaje del Barbet es un rasgo esencial de la raza. Es largo, lanoso, ondulado y rizado, cubriendo todo el cuerpo en su estado natural. Si no se cepilla regularmente, el pelo puede formar cordones. El pelo de la cabeza debe caer hasta la nariz y ocultar los ojos. La barba es larga y espesa. El bigote cubre toda la nariz y es muy espeso.
+      <br>
+      <br>
+      El Barbet puede ser de color negro sólido, gris, marrón, leonado, leonado pálido, blanco, o más o menos moteado. Se aceptan todos los tonos de leonado y leonado pálido. Preferiblemente, todo el cuerpo debe ser del mismo tono uniforme.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Barbet no es agresivo ni tímido, siendo dócil y muy devoto a su dueño. Son muy sociables y amantes del agua. Esencialmente es un perro de agua, utilizado para la caza de aves acuáticas. Sin embargo, tiene varias habilidades de un pointer/setter sin ser un verdadero setter. La raza no tiene miedo al frío, y entra en el agua en todo tipo de clima.
+      <br>
+      <br>
+      En resumen, el Barbet es un perro versátil y resistente, con un pelaje característico que le proporciona una protección efectiva contra el frío y la humedad. Su naturaleza amigable y su amor por el agua lo hacen un excelente compañero para cualquier amante de los perros.
+    `,
+    history: `
+      La historia del Barbet es tan rica y variada como su pelaje lanoso y rizado. Este perro de agua francés es una raza antigua, cuyas raíces se remontan a varios siglos atrás. Aunque su origen exacto es difícil de determinar, se cree que el Barbet es el antepasado de muchas razas modernas, incluyendo el Caniche, los grifones, el Terranova y otros perros de agua, así como el perro pastor francés de la región de Brie.
+      <br>
+      <br>
+      El Barbet ha desempeñado una variedad de roles a lo largo de su historia. Tradicionalmente, se utilizaba como asistente de cazadores o como compañero de marineros para recuperar objetos en el mar. De hecho, la hembra de la raza dio su nombre a la Barbette, el cañón que se colocaba en la proa de los barcos en el pasado. Además de su habilidad para el trabajo en el agua, el Barbet también se utilizaba como perro pastor para conducir rebaños y como perro de compañía. Esta es verdaderamente una raza versátil y multiusos.
+      <br>
+      <br>
+      A pesar de su larga historia, la raza Barbet estuvo al borde de la extinción en varias ocasiones. Durante las dos guerras mundiales, la población de Barbets disminuyó drásticamente debido a la escasez de alimentos y a la falta de cría. Sin embargo, gracias a los esfuerzos de los criadores dedicados, la raza ha experimentado un resurgimiento en las últimas décadas.
+      <br>
+      <br>
+      El Barbet fue reconocido oficialmente por el United Kennel Club el 1 de enero de 1995. Aunque todavía no es una raza muy conocida fuera de su Francia natal, el Barbet está ganando popularidad en todo el mundo por su temperamento amigable, su inteligencia y su versatilidad.
+      <br>
+      <br>
+      A pesar de su creciente popularidad, la cría de Barbets sigue siendo limitada y la raza es relativamente rara. Los criadores y los entusiastas de la raza están trabajando arduamente para preservar las características únicas del Barbet y para asegurar su supervivencia para las futuras generaciones.
+      <br>
+      <br>
+      En resumen, la historia del Barbet es una historia de supervivencia y resiliencia. A través de los siglos, esta raza ha demostrado su valor en una variedad de roles, desde perro de agua hasta perro pastor y perro de compañía. A pesar de los desafíos, el Barbet ha perdurado y continúa deleitando a los amantes de los perros con su personalidad amigable y su pelaje distintivo.
+    `,
     searchTerms: [
       'Barbet',
       'barbet',
@@ -2641,10 +2705,42 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Síndrome de Fanconi', 'Distrofia corneal'],
-    description:
-      "El Basenji es una raza de perro que se originó en el centro de África y es una de las razas más antiguas del mundo. Son perros pequeños pero muy ágiles y son conocidos por su habilidad para trepar árboles. Los Basenjis son únicos en el sentido de que no ladran, sino que hacen un sonido único que a menudo se describe como un yodel, conocido como 'barroo'. Son perros muy independientes y pueden ser reservados. Sin embargo, también son muy afectuosos con sus familias y pueden ser buenos con los niños si se socializan adecuadamente. Los Basenjis son perros limpios que se asean a sí mismos como los gatos y tienen un olor corporal mínimo. Son perros de pelo corto que mudan muy poco, lo que puede ser beneficioso para las personas con alergias. Los Basenjis son perros muy activos que requieren mucho ejercicio. Son conocidos por su curiosidad y su tendencia a meterse en problemas si no se les estimula adecuadamente. Aunque son perros inteligentes, pueden ser un desafío para entrenar debido a su naturaleza independiente.",
-    history:
-      "El Basenji es conocido como el 'Perro del Congo' y es una de las razas de perros más antiguas que existen hoy en día. Se cree que la raza se originó en el centro de África y ha existido durante miles de años. Los Basenjis fueron utilizados por los nativos para la caza y el rastreo. Los perros eran conocidos por su habilidad para trepar árboles y ahuyentar a la presa en la red de los cazadores. Los Basenjis fueron descubiertos por los occidentales en el Congo en el siglo XIX. La raza fue llevada a Inglaterra en la década de 1930 y luego a América. Aunque la raza no es muy común, ha ganado popularidad por su naturaleza única y su apariencia distintiva.",
+    description: `
+      El Basenji es una raza de perro única y fascinante que se destaca por sus características distintivas y su personalidad encantadora. Originario de África Central, el Basenji es conocido como el "perro que no ladra", pero no te dejes engañar por este apodo, ya que estos perros son cualquier cosa menos silenciosos. En lugar de ladrar, los Basenjis producen una variedad de sonidos únicos, incluyendo un yodel distintivo conocido como "barroo", así como aullidos, gruñidos y gorjeos.
+      <br>
+      <br>
+      Los Basenjis son perros de tamaño pequeño a mediano, con una construcción muscular y atlética. Son conocidos por su cabeza arrugada y su cola rizada, que se asemeja a la de un husky siberiano. Su pelaje es corto, brillante y fino, y puede venir en una variedad de colores, incluyendo negro puro, cobre, rojo, rojo castaño, o tricolor en combinaciones de negro, canela y blanco, o negro, atigrado y blanco.
+      <br>
+      <br>
+      Estos perros son conocidos por su inteligencia y su energía. Son curiosos y juguetones, y forman fuertes lazos con sus familias humanas. Aunque pueden ser reservados con los extraños, los Basenjis son generalmente afectuosos con aquellos a quienes conocen y confían. Sin embargo, también son conocidos por ser bastante independientes y pueden ser un poco reservados.
+      <br>
+      <br>
+      Los Basenjis son perros limpios que se asemejan a los gatos en su comportamiento de aseo. No tienen el típico olor a perro y no requieren mucho aseo. Además, son perros que apenas mudan pelo, lo que los hace una opción popular para las personas con alergias.
+      <br>
+      <br>
+      En cuanto a su salud, los Basenjis son generalmente perros saludables, pero son propensos a ciertas condiciones genéticas. Entre ellas se encuentra el síndrome de Fanconi, un trastorno renal, y la atrofia progresiva de la retina, una enfermedad ocular. Es importante que cualquier perro Basenji sea examinado regularmente por un veterinario y reciba todas las vacunas y chequeos necesarios.
+      <br>
+      <br>
+      En términos de su temperamento, los Basenjis son perros activos que requieren mucho ejercicio. Son conocidos por su habilidad para escalar y pueden saltar fácilmente sobre cercas de alambre de cadena. También les gusta masticar, por lo que es una buena idea proporcionarles muchos juguetes propios. Aunque son perros inteligentes que responden bien al entrenamiento, también son bastante independientes y pueden ser un poco obstinados.
+      <br>
+      <br>
+      En resumen, el Basenji es un perro encantador y único que puede hacer un maravilloso compañero para la persona o familia adecuada. Su personalidad única, su apariencia atractiva y su naturaleza cariñosa los hacen una opción popular para muchas personas. Sin embargo, también requieren un dueño que esté dispuesto a dedicar tiempo y energía a su cuidado y entrenamiento. Con el manejo y el cuidado adecuados, un Basenji puede ser un maravilloso y leal amigo.
+    `,
+    history: `
+      La historia del Basenji es tan antigua como fascinante, remontándose a los tiempos de los faraones en el antiguo Egipto. Las primeras trazas de un perro similar al Basenji se encuentran en las tumbas y dibujos murales egipcios de hace cinco mil años. Estos perros eran apreciados por su inteligencia, agilidad y, sobre todo, por su peculiaridad de no ladrar, sino emitir un sonido único similar a un yodel.
+      <br>
+      <br>
+      El Basenji, también conocido como el Perro del Congo, fue introducido por primera vez en Inglaterra en 1937. Los criadores ingleses refinaron la raza y la exportaron a todo el mundo. En África, los nativos utilizaban al Basenji como guía en la selva, para advertir de la aproximación de animales peligrosos, para señalar y recuperar pequeñas presas y para conducir la caza hacia las redes.
+      <br>
+      <br>
+      La primera camada de cachorros de Basenji nacidos y criados hasta la madurez en los Estados Unidos fue en 1941, y la raza fue reconocida por primera vez por el American Kennel Club (AKC) en 1944. A pesar de su antigüedad, la raza ha mantenido su instinto de caza y su naturaleza independiente, lo que la convierte en una raza única y fascinante.
+      <br>
+      <br>
+      El Basenji ha tenido una historia de supervivencia y adaptación. A lo largo de los años, ha demostrado ser una raza resistente y adaptable, capaz de sobrevivir en una variedad de entornos, desde las selvas del Congo hasta los hogares modernos. A pesar de los desafíos que ha enfrentado, como la susceptibilidad a ciertos problemas de salud como el síndrome de Fanconi y la atrofia retinal progresiva, el Basenji ha continuado prosperando gracias a los esfuerzos de los criadores dedicados.
+      <br>
+      <br>
+      Hoy en día, el Basenji sigue siendo una raza popular tanto para la compañía como para la competición. Su inteligencia, su naturaleza afectuosa y su distintiva falta de ladrido continúan atrayendo a los amantes de los perros de todo el mundo. Aunque la raza ha recorrido un largo camino desde las selvas del Congo, el Basenji sigue siendo un testimonio de la resistencia y la adaptabilidad de los perros, y su historia sigue siendo un fascinante capítulo en la historia canina.
+    `,
     searchTerms: [
       'Basenji',
       'Perro del Congo',
@@ -2716,10 +2812,39 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Obesidad', 'Otitis'],
-    description:
-      'El Basset Azul de Gascuña es una raza de perro de caza de origen francés. Es un perro de tamaño mediano con un cuerpo largo y patas cortas, similar a un Basset Hound. La raza es conocida por su pelaje azul moteado, que es donde obtiene su nombre. Los Bassets Azules de Gascuña son perros de caza y tienen un sentido del olfato muy desarrollado, que utilizan para rastrear presas. Son perros muy activos y requieren mucho ejercicio. A pesar de su naturaleza de caza, también son perros muy amigables y se llevan bien con las personas y otros animales. Son perros inteligentes pero pueden ser un poco obstinados, por lo que la formación puede ser un desafío.',
-    history:
-      'El Basset Azul de Gascuña es una raza muy antigua que se originó en la región de Gascuña en Francia. La raza fue desarrollada para la caza y se utilizaba para rastrear presas como conejos y liebres. Los Bassets Azules de Gascuña son descendientes del Gran Azul de Gascuña, una raza de perro de caza más grande. Se cree que la raza se desarrolló reduciendo el tamaño del Gran Azul de Gascuña para crear un perro que pudiera seguir el rastro de la presa a través de terrenos más difíciles. Aunque la raza es muy popular en Francia, no es muy conocida fuera de su país de origen.',
+    description: `
+      El Basset Azul de Gascuña es una raza de perro que se distingue por su apariencia robusta y su resistencia. Aunque es un perro de tamaño bastante grande, no es excesivamente pesado. Este perro de tipo Basset (de patas cortas) es de tipo superior, denotando una gran ascendencia, reflejando tanto en forma como en acción, las extremas características físicas y de caza de su antiguo tronco. Cada punto del Basset Azul de Gascuña tiene un propósito relevante para preservar la raza y su singularidad.
+      <br>
+      <br>
+      El Basset Azul de Gascuña es activo, ágil y vivaz, con un fino olfato y una fuerte capacidad de caza, excelente en una jauría o por su cuenta. Es cariñoso y feliz. Su cabeza es ligeramente abovedada y no demasiado ancha. El hocico es tan largo como el cráneo y ligeramente aquilino. Los labios son amplios sin exageración, dando a la parte frontal del hocico un perfil cuadrado.
+      <br>
+      <br>
+      El cuerpo del Basset Azul de Gascuña es más largo que alto en una proporción de 8:5. La profundidad del pecho es dos tercios de la altura a la cruz. El pecho es espacioso y largo, extendiéndose por debajo de los codos. El esternón es prominente y las costillas están bien arqueadas. La espalda es larga y bien soportada. La grupa es ligeramente inclinada. El cuerpo es profundo en el flanco.
+      <br>
+      <br>
+      El pelaje del Basset Azul de Gascuña es corto, denso y semi-grueso. El color es completamente moteado en blanco y negro, dando un efecto azul pizarra, con o sin parches negros. Generalmente hay parches negros a ambos lados de la cabeza que cubren las orejas, rodean los ojos y se detienen en las mejillas. Hay una mancha blanca en medio del cráneo que generalmente tiene una mancha negra ovalada típica de la raza en su centro. Hay marcas de color canela sobre los ojos, en las mejillas, los labios, el interior de las orejas, en las patas y debajo de la cola.
+      <br>
+      <br>
+      El Basset Azul de Gascuña tiene un andar equilibrado y fácil. Aunque es ante todo un perro de caza, las cicatrices, resultado de heridas honorables, no se consideran faltas, ni deben ser penalizadas por los jueces. Esto incluye cortes, muescas, muescas en las orejas y/o orejas que están deshilachadas en los bordes por trabajar en matorrales, hierba alta, etc.
+    `,
+    history: `
+      El Basset Azul de Gascuña, también conocido como Blue Gascony Basset o Bleus de Gascogne, es una raza de perro que tiene sus raíces en la región de Gascuña, en el suroeste de Francia. Esta raza es conocida por su distintivo pelaje azul moteado y su habilidad para rastrear con un agudo sentido del olfato.
+      <br>
+      <br>
+      El Basset Azul de Gascuña es un perro de tamaño mediano, con una altura que varía entre 33 y 38 cm y un peso que oscila entre los 16 y 18 kg. A pesar de su tamaño relativamente pequeño, estos perros son robustos y fuertes, con cuerpos largos y patas cortas y robustas. Su pelaje es corto y denso, de color blanco moteado con parches negros.
+      <br>
+      <br>
+      La raza es conocida por su temperamento amigable y su lealtad hacia su familia humana. Son perros tranquilos y afectuosos, que rara vez muestran agresión. Sin embargo, también son conocidos por su terquedad, lo que puede hacer que el entrenamiento sea un desafío en ocasiones. A pesar de esto, su carácter juguetón y su amor por la diversión los han hecho populares en todo el mundo.
+      <br>
+      <br>
+      El Basset Azul de Gascuña es un perro activo que necesita mucho ejercicio. A pesar de su tamaño pequeño, son perros enérgicos que disfrutan de largas caminatas y carreras. Aunque pueden adaptarse a la vida en un apartamento, necesitan muchas oportunidades para estar al aire libre y se les debe proporcionar un patio pequeño para correr y jugar.
+      <br>
+      <br>
+      En cuanto al cuidado, el Basset Azul de Gascuña es relativamente fácil de mantener. Su pelaje corto y liso requiere un cepillado regular con un cepillo de cerdas firmes, y solo necesita bañarse con un jabón suave cuando sea necesario. Es importante revisar sus orejas regularmente en busca de signos de infección y mantener sus uñas recortadas. Esta raza es un perro de muda promedio, por lo que puede esperar un cierto nivel de pelo suelto en su hogar.
+      <br>
+      <br>
+      En resumen, el Basset Azul de Gascuña es un perro leal y cariñoso que puede ser un gran complemento para muchas familias. Su tamaño manejable, combinado con su naturaleza amigable y juguetona, los hace ideales para familias con niños. Sin embargo, su terquedad puede presentar desafíos de entrenamiento, por lo que esta raza puede no ser adecuada para dueños de perros por primera vez. Con el cuidado y el entrenamiento adecuados, el Basset Azul de Gascuña puede ser un compañero maravilloso y leal.
+    `,
     searchTerms: [
       'Basset Azul de Gascuña',
       'Basset Azul',
@@ -2798,10 +2923,39 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Obesidad', 'Problemas de oído'],
-    description:
-      'El Basset Hound es una raza de perro que se originó en Francia. Son conocidos por su apariencia distintiva, que incluye un cuerpo largo y bajo, patas cortas y orejas largas y caídas. Los Basset Hounds tienen un pelaje corto y suave que puede ser de una variedad de colores, incluyendo tricolor (negro, blanco y marrón), bicolor (blanco y limón o blanco y marrón), y unicolor (todo marrón o todo limón). Son perros de tamaño mediano, con machos que pesan entre 25 y 34 kg y hembras entre 20 y 29 kg. Los Basset Hounds son conocidos por su temperamento amigable y tranquilo. Son perros de compañía excelentes y se llevan bien con los niños y otros animales. Aunque son tranquilos en casa, los Basset Hounds tienen un fuerte instinto de caza y pueden ser obstinados cuando siguen un rastro. A pesar de su tamaño, son perros bastante activos y requieren ejercicio regular para mantenerse saludables y felices. Los Basset Hounds también son conocidos por su tendencia a ladrar y aullar, especialmente cuando están aburridos o solos.',
-    history:
-      'La historia del Basset Hound se remonta a Francia en el siglo XVI. Se cree que la raza fue desarrollada para la caza de pequeños animales como conejos y liebres. Su cuerpo largo y bajo era ideal para seguir el rastro de estos animales a través de la maleza densa. Aunque originalmente se usaban para la caza, los Basset Hounds se hicieron populares como perros de compañía en el siglo XIX, especialmente en Inglaterra. Fueron importados a Inglaterra en 1866 por Sir Everett Millais, quien es considerado el padre de la raza en ese país. Los Basset Hounds fueron reconocidos oficialmente por el American Kennel Club (AKC) en 1885. A lo largo de los años, la raza ha sido popular tanto en exposiciones caninas como en la cultura popular. Los Basset Hounds han aparecido en varias películas y programas de televisión, y son la mascota oficial de la marca de calzado Hush Puppies.',
+    description: `
+      El Basset Hound es una raza de perro que se distingue por su apariencia única y su personalidad encantadora. Este perro de patas cortas y cuerpo largo es conocido por su expresión triste y sus orejas largas y caídas que, según Shakespeare, "barrían el rocío de la mañana".
+      <br>
+      <br>
+      El Basset Hound es un perro de tamaño mediano a grande, a pesar de su baja estatura. Los machos suelen pesar entre 23 y 29 kg, mientras que las hembras suelen pesar entre 20 y 27 kg. Los machos suelen medir entre 30 y 38 cm de altura, mientras que las hembras suelen medir entre 28 y 36 cm. A pesar de su tamaño, estos perros son sorprendentemente ágiles y pueden moverse con rapidez cuando es necesario.
+      <br>
+      <br>
+      El pelaje del Basset Hound es corto, denso, duro y brillante. Aunque no hay reglas estrictas sobre el color del pelaje, los colores más comunes son el negro, el marrón, el blanco, el rojo o el blanco con marcas castañas o arenosas. Su piel es suelta y elástica, y suele caer en pliegues en la cabeza.
+      <br>
+      <br>
+      Los Basset Hounds son perros dulces, gentiles, devotos, pacíficos y naturalmente bien comportados. Son muy afectuosos con su dueño y amigables con los niños. Aunque pueden ser un poco tercos con los dueños débiles, necesitan un dueño firme, seguro y consistente que muestre autoridad natural sobre el perro. A los Basset Hounds les gusta hacer trucos por comida y tienen un ladrido musical profundo.
+      <br>
+      <br>
+      Estos perros son conocidos por su excelente sentido del olfato, que solo es superado por el del Bloodhound. Esto los hace excelentes perros de caza, capaces de seguir un rastro con tenacidad. Sin embargo, su tendencia a seguir su nariz puede hacer que se distraigan fácilmente, por lo que es importante tener cuidado al dejarlos sueltos en áreas abiertas.
+      <br>
+      <br>
+      En cuanto a su salud, es importante no sobrealimentar a estos perros, ya que el peso extra puede poner demasiada carga en sus patas y columna vertebral. También son propensos a la hinchazón, por lo que es aconsejable alimentarlos con varias comidas pequeñas al día en lugar de una grande.
+      <br>
+      <br>
+      En resumen, el Basset Hound es un perro encantador y cariñoso que puede ser un gran compañero para la familia adecuada. Su personalidad amigable y su apariencia única los hacen verdaderamente inolvidables.
+    `,
+    history: `
+      La historia del Basset Hound es tan intrigante como su apariencia única. Esta raza, conocida por su cuerpo largo y sus patas cortas, tiene una historia que se remonta a la antigua Francia. Los Basset Hounds son descendientes directos de los Bloodhounds y se cree que pueden haberse originado a partir de perros enanos genéticos que nacieron en camadas de diferentes tipos de sabuesos de caza. El nombre "Basset Hound" proviene de la palabra francesa "bas", que significa bajo, una descripción apropiada para esta raza de patas cortas.
+      <br>
+      <br>
+      Los Basset Hounds fueron presentados por primera vez en una exposición canina en París en 1863, y fue allí donde comenzó su popularidad. Su popularidad se extendió a Inglaterra, donde surgieron disputas entre aquellos que querían que el perro fuera más un perro de exposición, manteniéndolo más como un perro de compañía, y aquellos que querían mantenerlo como un perro de caza. La raza se extendió a América, donde los criadores comenzaron a desarrollar un perro que, según ellos, cubría tanto los rasgos de caza como los de compañía y exposición. La raza fue reconocida por el American Kennel Club en 1885.
+      <br>
+      <br>
+      Los Basset Hounds han demostrado ser excelentes cazadores, tanto en manada como solos. Son buenos cazando en la madriguera y en campo abierto. Se utilizan para cazar zorros, liebres, zarigüeyas y faisanes. Aunque sus reflejos son lentos, tienen un excelente sentido del olfato. El hecho de que sean relativamente lentos en sus patas significa que pueden ser más convenientes para los cazadores que están a pie. También es menos probable que asusten a la presa fuera de su alcance. Se dice que George Washington poseía Basset Hounds que le fueron regalados por Lafayette después de la Revolución Americana.
+      <br>
+      <br>
+      A lo largo de los años, los Basset Hounds han mantenido su popularidad tanto como perros de caza como de compañía. Su temperamento amigable y su apariencia única los han convertido en una opción popular para muchas familias. Aunque su historia ha tenido algunos altibajos, los Basset Hounds han demostrado ser una raza resistente y amada que ha resistido la prueba del tiempo.
+    `,
     searchTerms: [
       'Basset Hound',
       'Basset',
@@ -2892,12 +3046,45 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Obesidad', 'Displasia de cadera', 'Hipotiroidismo'],
-    description:
-      'Los Beagles son perros activos y atentos que hacen mascotas muy leales y amorosas. Son perros de caza por naturaleza, lo que los hace muy enérgicos y requieren al menos una hora de ejercicio todos los días. Son perros de manada y disfrutan de la compañía, por lo que son más felices cuando tienen un compañero para jugar. Los Beagles son curiosos, inteligentes y requieren mucha estimulación mental para mantenerse felices y saludables. Son buenos con otros perros y niños, lo que los convierte en una raza de perro familiar muy popular. Sin embargo, debido a su fuerte instinto de caza, pueden distraerse fácilmente cuando están al aire libre, lo que hace que los Beagles sean una de las razas de perros más difíciles de entrenar.',
-
-    history:
-      'Los orígenes de esta antigua raza han sido objeto de conjeturas durante siglos. Algunos expertos dicen que deriva de la palabra gaélica beag ("pequeño"), mientras que otros apuntan al término francés be\'geule, que se refiere al ruido que hacen los perros de caza. Los Beagles fueron reconocidos como raza por el AKC en 1885. En 1888, se formó el National Beagle Club y se celebró el primer field trial. A lo largo de los años, los Beagles han sido una raza de perro muy popular en los Estados Unidos, gracias a su naturaleza amigable y su apariencia adorable.',
-
+    description: `
+      El Beagle es una raza de perro que es conocida y amada en todo el mundo por su carácter amigable, su inteligencia y su apariencia atractiva. Esta raza de perro es de tamaño pequeño a mediano, con una estructura sólida y robusta que se asemeja a la de un Foxhound en miniatura. Los Beagles tienen una altura de entre 13 y 16 pulgadas, y un peso que varía entre las 20 y las 25 libras, dependiendo del sexo del perro.
+      <br>
+      <br>
+      El Beagle tiene un pelaje corto, liso y resistente que es fácil de cuidar. Los colores de su pelaje pueden variar, pero los más comunes son el tricolor (negro, blanco y marrón), el bicolor (blanco y marrón o blanco y negro), el rojo y blanco, y el limón y blanco. También pueden presentar marcas de garrapatas rojas o azules.
+      <br>
+      <br>
+      El rostro del Beagle es uno de sus rasgos más distintivos. Sus ojos son grandes, marrones o avellana, y están bien separados, dando al Beagle una expresión suave y suplicante. Sus orejas son largas, bajas y caídas, y su nariz es negra y amplia.
+      <br>
+      <br>
+      En cuanto a su personalidad, los Beagles son perros amorosos, dulces y gentiles. Son sociables, valientes e inteligentes. Son excelentes con los niños y generalmente se llevan bien con otros perros. Sin embargo, debido a sus instintos de caza, pueden no llevarse bien con las mascotas que no sean caninas, a menos que se socialicen con ellas desde una edad temprana.
+      <br>
+      <br>
+      Los Beagles son perros activos que requieren una cantidad adecuada de ejercicio físico y mental. Necesitan caminatas diarias y tiempo para correr y jugar en un patio seguro. También disfrutan de juegos de seguimiento y actividades que satisfacen su instinto de caza.
+      <br>
+      <br>
+      Es importante tener en cuenta que los Beagles son perros curiosos con un fuerte sentido del olfato. Si detectan un olor interesante, pueden seguirlo y perderse. Por lo tanto, siempre deben estar en un área segura cuando se les permita correr sin correa.
+      <br>
+      <br>
+      En cuanto a su salud, los Beagles son generalmente una raza saludable, pero pueden ser propensos a ciertas condiciones, como la epilepsia, las enfermedades del corazón, los problemas oculares y de espalda. También pueden ser propensos a los tumores de células mastocíticas.
+      <br>
+      <br>
+      En resumen, el Beagle es una raza de perro encantadora y versátil que puede ser un maravilloso compañero de familia o un perro de trabajo eficaz. Con el cuidado y la socialización adecuados, un Beagle puede ser un amigo leal y amoroso para cualquier amante de los perros.
+    `,
+    history: `
+      La historia del Beagle es tan fascinante como la raza misma, llena de misterio y aventura. Los primeros Beagles se remontan a la década de 1500, cuando los cazadores ingleses llevaban manadas de estos perros a la caza de conejos, liebres, faisanes, codornices y otros animales pequeños. La raza probablemente se originó como un cruce entre el Harrier y otros tipos de sabuesos ingleses. Desde entonces, los perros se han convertido en una de las razas más populares en los Estados Unidos.
+      <br>
+      <br>
+      El nombre "Beagle" puede haber venido del término francés "be’geule" que significa "garganta abierta", refiriéndose a la voz de bayas del perro. El nombre también puede haber venido del tamaño del perro, derivado de la palabra francesa "beigh", la palabra antigua inglesa "begele", o quizás la palabra celta "beag", que todas significan "pequeño".
+      <br>
+      <br>
+      Los Beagles han demostrado ser excelentes perros de detección de narcóticos y hacen una excelente compañía familiar. Fueron reconocidos por primera vez por el American Kennel Club (AKC) en 1885. A lo largo de los años, los Beagles han mantenido su popularidad debido a su temperamento amigable y su capacidad para trabajar bien en manadas o solos.
+      <br>
+      <br>
+      A pesar de su popularidad en los Estados Unidos y su reconocimiento por el AKC, la historia del Beagle no estuvo exenta de desafíos. La raza estuvo al borde de la extinción en varias ocasiones en su historia. Sin embargo, gracias a los esfuerzos de los criadores dedicados, la raza sobrevivió y prosperó.
+      <br>
+      <br>
+      Hoy en día, los Beagles son conocidos y amados en todo el mundo. Son una raza versátil que se adapta bien a una variedad de roles, desde perros de compañía hasta perros de trabajo. Su historia es un testimonio de su resistencia y adaptabilidad, y es una parte integral de lo que hace que los Beagles sean tan especiales.
+    `,
     searchTerms: [
       'Beagle',
       'beagle',
@@ -2912,7 +3099,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'beagels',
       'Beagels',
     ],
-
     tendencia_a_ladrar: 'Alta',
     necesidad_de_aseo: 'Moderada',
     soporta_clima_frio: 'Moderada',
@@ -2920,7 +3106,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
     para_primerizos: 'Moderada',
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
-
     casos_famosos: [
       {
         nombre: 'Him',
@@ -2935,7 +3120,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
         caso: 'Beagle propiedad del presidente Lyndon B. Johnson',
       },
     ],
-
     fuentes: [
       'https://en.wikipedia.org/wiki/Beagle',
       'https://www.akc.org/dog-breeds/beagle/',
@@ -3000,12 +3184,48 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Hipotiroidismo',
       'Alergias de piel',
     ],
-    description: "El Collie Barbudo es un perro activo con una constitución sólida y delgada y un temperamento tranquilo y equilibrado. Son perros de cabeza nivelada, alerta, vivaz, seguro de sí mismo y activo. Tienen el temperamento de un perro de trabajo inteligente y estable, sin rastro de nerviosismo. Los Collies Barbudos parecen moverse sin esfuerzo, cubriendo una gran cantidad de terreno con elegancia y gracia. Su andar confirma que fueron hechos para su trabajo. Los expertos elogian la calidad de movimiento de un perro pastor que combina la flexibilidad con la eficiencia. Como compañeros son gentiles y de temperamento uniforme, adaptándose para encajar en casi cualquier hogar. Se sabe que son pacientes con los niños y otros miembros de la familia y su temperamento vivaz y juguetón perdura bien hasta la vejez.",
-
-    history: "El Collie Barbudo es una raza de perro pastor originaria de Escocia. Aunque su historia exacta es en gran parte desconocida, se cree que la raza se desarrolló a partir de perros locales mezclados con perros traídos a Escocia por los romanos y los vikingos. Los Collies Barbudos se utilizaron principalmente para el pastoreo de ovejas y ganado, y se les valoraba por su resistencia y su habilidad para trabajar en todo tipo de condiciones climáticas y terrenos. Aunque la popularidad de la raza disminuyó con la industrialización, un renacimiento en el interés por la raza en el siglo XX llevó a un aumento en su número y a su reconocimiento por parte de los clubes de razas de perros en todo el mundo.",
-
-    searchTerms: ["Collie Barbudo", "Bearded Collie", "Collie con barba", "Collie de pelo largo", "Perro pastor escocés", "Perro escocés", "Collie escocés"],
-
+    description: `
+      El Collie Barbudo, también conocido como "Bearded Collie" o "Beardie", es una raza de perro que se destaca por su apariencia distintiva y su personalidad encantadora. Originario de Gran Bretaña, el Collie Barbudo es un perro de tamaño mediano, fuerte y activo, con una constitución sólida y delgada. Su nombre proviene de su característica más distintiva: una barba de pelo largo que cuelga de su barbilla.
+      <br>
+      <br>
+      El Collie Barbudo tiene un pelaje doble, resistente al agua y largo que cubre todo su cuerpo, incluyendo su barbilla, lo que le da su apariencia "barbuda". Los cachorros de esta raza nacen en colores negro, azul, marrón o leonado, con o sin marcas blancas, y a menudo se aclaran, primero desvaneciéndose a un gris claro o crema a medida que el perro madura. El color del pelaje cambia varias veces antes de alcanzar el color adulto, que se encuentra en algún lugar entre el color del pelaje del cachorro y el color del pelaje cuando el perro tiene alrededor de un año.
+      <br>
+      <br>
+      En cuanto a su temperamento, los Collies Barbudos son perros equilibrados, alertas, vivaces, seguros de sí mismos y activos. Tienen el temperamento de un perro de trabajo inteligente y estable, sin rastro de nerviosismo. Se mueven con gracia y eficiencia, cubriendo mucho terreno con elegancia. Como compañeros, son gentiles y de temperamento uniforme, adaptándose para encajar en casi cualquier hogar. Son conocidos por ser pacientes con los niños y otros miembros de la familia y su temperamento animado y juguetón perdura bien hasta la vejez.
+      <br>
+      <br>
+      En cuanto a su salud, los Collies Barbudos son propensos a la displasia de cadera y su denso pelaje puede ocultar una infestación de parásitos externos. Necesitan mucho ejercicio y disfrutan de tiempo para correr libremente en un área segura. También necesitan un cuidado regular del pelaje, que incluye cepillado diario y aseo regular para mantener su pelaje en buen estado.
+      <br>
+      <br>
+      En resumen, el Collie Barbudo es una raza de perro encantadora y activa, conocida por su apariencia distintiva y su personalidad amigable. Son perros de trabajo inteligentes y capaces, pero también son excelentes compañeros de familia, conocidos por su paciencia y su temperamento juguetón.
+    `,
+    history: `
+      La historia del Collie Barbudo, también conocido como "Bearded Collie" o "Beardie", es una narrativa fascinante que se remonta a siglos atrás, y está entrelazada con la historia de la cría de ovejas y la vida rural en las Islas Británicas.
+      <br>
+      <br>
+      El origen de la raza se remonta a la Gran Bretaña del siglo XVI. La fundación de la raza comenzó en 1514 cuando un capitán de mar polaco hizo un intercambio con un pastor local escocés. Cambió tres de sus perros pastores polacos (Polski Owczarek Nizinny; PON) por un carnero y una oveja. El pastor luego crió estos perros con otros perros de pastoreo y de rebaño como el Old English Sheepdog (bobtail) y el Komondor. Los perros fueron utilizados como perros de pastoreo durante siglos en Escocia y se conocieron como "Highland Collie", "Highland Sheepdog" y "Hairy Moved Collie". Se dice que el nombre "Bearded" proviene de los largos pelos que crecen en la barbilla, haciendo que el perro parezca que tiene una barba, y el nombre "Collie", que es la palabra escocesa para perro de pastoreo.
+      <br>
+      <br>
+      El Collie Barbudo casi se extinguió durante la Segunda Guerra Mundial. En 1944, la Sra. G. O. Willison de Gran Bretaña crió un par de Collies Barbudos, resucitando la raza. En 1967, la primera camada de Beardies nació en los Estados Unidos. La raza fue reconocida por primera vez por el AKC en 1976. Aún hoy se considera una raza rara.
+      <br>
+      <br>
+      A lo largo de los siglos, los Collies Barbudos han demostrado ser trabajadores incansables, excelentes pastores de ovejas y ganado para los pastores locales. Su inteligencia, agilidad y resistencia los hicieron indispensables para los pastores que necesitaban perros que pudieran manejar grandes rebaños en terrenos difíciles. A pesar de los desafíos de la vida moderna y la disminución de la necesidad de perros de pastoreo, el Collie Barbudo ha logrado sobrevivir y prosperar, adaptándose a la vida como un amado perro de compañía mientras conserva su instinto de pastoreo y su amor por el trabajo.
+      <br>
+      <br>
+      Hoy en día, los Collies Barbudos son apreciados tanto por su habilidad para el trabajo como por su maravilloso temperamento. Son conocidos por su carácter alegre, su humor de cola en movimiento y su afecto por sus familias humanas. Aunque pueden ser un poco reservados con los extraños, son conocidos por ser amables y buenos con los niños, y se llevan bien con otros perros y mascotas.
+      <br>
+      <br>
+      En resumen, la historia del Collie Barbudo es un testimonio de la resistencia y la adaptabilidad de esta raza. Desde sus humildes comienzos como perros de trabajo en las tierras altas de Escocia hasta su estatus actual como amados perros de compañía, los Collies Barbudos han demostrado una y otra vez su valor y su encanto inigualable.
+    `,
+    searchTerms: [
+      'Collie Barbudo',
+      'Bearded Collie',
+      'Collie con barba',
+      'Collie de pelo largo',
+      'Perro pastor escocés',
+      'Perro escocés',
+      'Collie escocés',
+    ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Alta',
     soporta_clima_frio: 'Alta',
@@ -3013,10 +3233,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     para_primerizos: 'Moderada',
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
-
     casos_famosos: [],
-
-    fuentes: ["https://en.wikipedia.org/wiki/Bearded_Collie", "https://www.akc.org/dog-breeds/bearded-collie/", "https://www.royalcanin.com/us/dogs/breeds/bearded-collie"]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Bearded_Collie',
+      'https://www.akc.org/dog-breeds/bearded-collie/',
+      'https://www.royalcanin.com/us/dogs/breeds/bearded-collie',
+    ],
   },
   30: {
     weight: {
@@ -3070,9 +3292,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Dilatación gástrica',
       'Alergias de piel',
     ],
-    description: "El Beauceron es una raza imponente y poderosa, pero también notablemente inteligente, enérgica y versátil en el pastoreo. Imagina el cerebro de un Border Collie en un cuerpo de 100 libras. Son especialmente queridos por las mujeres como un compañero y protector sensible pero audaz. Los Beaucerons son musculosos, robustos y grandes, llegando hasta 27.5 pulgadas de altura al hombro, y sin embargo, son gráciles y equilibrados en todos los aspectos. Sus oscuros abrigos negros presentan atractivos acentos de color rojo ardilla, incluyendo los pies rojos que dan a la raza su apodo francés Bas-Rouge ('medias rojas'). También se ven en un abrigo negro-gris-tan. La cabeza larga está bien cincelada, y los ojos marrones oscuros proyectan una expresión que los aficionados a la raza describen como franca y segura. No son para dueños novatos, que podrían terminar siendo poseídos por su perro dominante en lugar de al revés. Dicho esto, los Beaucerons bien entrenados y socializados son perros guardianes y protectores equilibrados, especialmente buenos con los jóvenes, los pequeños y los indefensos.",
-    history: "El Beauceron, también conocido como Berger de Beauce o Bas Rouge, es un perro pastor francés cuyo nombre se deriva de la vasta región agrícola al suroeste de París. Desde su desarrollo en la Baja Edad Media, el Beauceron ha sido reconocido como una raza por la AKC en 2007. Cada año, el American Kennel Club publica la lista de las 'razas más populares', basada en las estadísticas de registro de ese año. El Beauceron ha sido registrado en el Servicio de Stock de Fundación desde 1998. El Beauceron es una raza francesa distinta de perro pastor.",
-    searchTerms: ["Beauceron", "Berger de Beauce", "Bas Rouge", "perro pastor francés", "perro Beauceron", "raza Beauceron", "Beaucerons"],
+    description: `
+      El Beauceron es una raza de perro grande, atlética y trabajadora. Su cuerpo es ligeramente más largo que alto, con una cabeza larga y proporcionada al cuerpo. El pelaje es suave y corto, con pelo más largo en la cola y los cuartos traseros. El color del pelaje puede ser negro con marcas distintas de color canela o un abrigo menos común de arlequín con parches de gris, negro y canela. El Beauceron es valiente, altamente inteligente, obediente y ansioso por complacer, lo que lo hace excelente para el entrenamiento de obediencia. Es capaz de realizar trabajos de policía, ya que es leal, paciente, fiel, intrépido y muy observador, capaz de detectar el peligro. Es un guardián natural que ama trabajar y hacer ejercicio en espacios abiertos. También es un excelente perro pastor y puede intentar pastorear a los humanos y cualquier otra cosa a la vista, por lo que necesita ser enseñado a que esto no es aceptable. Con suficiente ejercicio, tu Beauceron será tranquilo. Se llevará bien con los perros que conoce y puede aprender a llevarse bien con otros perros y gatos. No debe dejarse solo durante largos períodos de tiempo sin ejercicio. Un entrenamiento riguroso con un amo firme es imprescindible, junto con la cantidad adecuada de ejercicio y un líder de manada firme, para producir un perro tranquilo y obediente. Cuando está debidamente entrenado y socializado, este es un perro muy bueno y un gran compañero de familia. Necesita saber quién es el jefe y luego seguirá, pero ten en cuenta que este perro muy protector solo seguirá a un ser de mentalidad fuerte. Si es más fuerte mentalmente que tú, esperará que TÚ lo sigas. El Beauceron generalmente es bueno con los niños si ve a los humanos como sus figuras de autoridad y ha sido socializado. Obedecerá las órdenes de todos los miembros de la familia. Esta raza grande y enérgica crece rápidamente, alcanzando las 40 libras a solo unos 3 meses de edad. Puede ser abrumador para un niño pequeño. Los cachorros son muy activos y tardan en madurar. El Beauceron debe ser socializado adecuada y completamente. Un Beauceron que ha sido bien socializado y criado se lleva bien en circunstancias normales con los niños, y eso también asegura que otros perros y mascotas no presentarán problemas.
+      <br>
+      <br>
+      El Beauceron es generalmente una raza saludable y resistente. Algunas líneas son propensas a la hinchazón y, como cualquier raza de más de 40 libras, los Beaucerons son propensos a la displasia de cadera. El noventa y cinco por ciento de todos los criadores en los EE. UU. crían solo con stock certificado de cadera.
+      <br>
+      <br>
+      El Beauceron estará bien en un apartamento si se ejercita suficientemente. Son moderadamente activos en interiores y se desempeñarán mejor con al menos un patio grande. La raza necesita mucho ejercicio mental y físico. Rinden mejor con algún tipo de trabajo que hacer. Si sus cuerpos y mentes no se satisfacen adecuadamente pueden volverse difíciles de manejar y destructivos. No se conforman con dar tres vueltas a la manzana al día. Necesitan variedad. Llévalos a largas caminatas regulares, durante las cuales puedan correr libres y jugar (en un área segura). Si ambos parecen disfrutarlo, inscríbete en un curso para entrenar en captura o para competir en clases de habilidades de agilidad (aunque en competencia es probable que tengan menos éxito que otras razas más adecuadas). Enseña a este perro a respetar a los humanos, caminando al talón, entrando y saliendo de puertas y portones después de las personas.
+      <br>
+      <br>
+      El Beauceron tiene una esperanza de vida de unos 10-12 años. La raza generalmente es saludable y resistente. Algunas líneas son propensas a la hinchazón y, como cualquier raza de más de 40 libras, los Beaucerons son propensos a la displasia de cadera. El noventa y cinco por ciento de todos los criadores en los EE. UU. crían solo con stock certificado de cadera.
+      <br>
+      <br>
+      El pelaje del Beauceron no requiere una gran cantidad de atención. Un aseo ocasional con más atención durante el tiempo en que el perro está mudando es suficiente. Los Beaucerons son mudadores promedio.
+      <br>
+      <br>
+      El Beauceron es raro dentro de los Estados Unidos. Es una raza de perro pastor francés cuyos registros más antiguos se remontan a los manuscritos del Renacimiento de 1578. En 1863, un hombre llamado Pierre Megnin diferenció dos tipos de perros pastores, uno con un abrigo largo, que se convirtió en el Briard, y el otro con un abrigo corto, que se convirtió en el Beauceron. En 1863, el Beauceron se mostró en la primera Exposición Canina en París. En 1897, se fundó el primer club de perros pastores y tanto el Beauceron como el Briard fueron aceptados en él. Antes de 1889, el Beauceron y el Briard tenían la reputación de ser un guardián de rebaños que era valiente pero que estaba más inclinado a morder y morder en defensa de su rebaño. El temperamento de ambas razas se suavizó mediante la cría selectiva. En 1889, se estableció el nombre y el estándar de la raza. En 1911, se formó un club de razas separado solo para el Beauceron, estableciéndolo oficialmente aparte del Briard. El Beauceron trabaja como guardián de rebaños en áreas abiertas protegiendo ovejas junto con otros animales de granja. La raza también se utilizó en el ejército. Ignorando las bombas explotando o el fuego de artillería, los perros se utilizaron para enviar mensajes, detectar minas, recoger rastros, apoyar acciones de comando, encontrar a los heridos y llevar comida y municiones a las líneas del frente. El Beauceron, como muchos perros pastores, es fácil de entrenar para tareas más allá del cuidado del rebaño o del rebaño
+    `,
+    history: `
+      La historia del Beauceron, también conocido como Berger de Beauce, es tan rica y fascinante como la raza misma. Esta raza de perro, relativamente desconocida fuera de su Francia natal, tiene sus raíces en la época de la Renacimiento, con los primeros registros que datan de 1578. Sin embargo, fue después de la Revolución Francesa cuando la raza se desarrolló como un perro pastor. Antes de la revolución, el Beauceron y su primo, el Briard, se utilizaban principalmente como perros guardianes de ganado.
+      <br>
+      <br>
+      En el siglo XIX, se hizo una distinción clara entre estas dos razas. En 1863, un hombre llamado Pierre Megnin diferenció dos tipos de perros pastores: uno con un pelaje largo, que se conoció como Briard, y el otro con un pelaje corto, que se convirtió en el Beauceron. En el mismo año, el Beauceron se exhibió en la primera Exposición Canina de París. En 1897, se fundó el primer club de perros pastores y tanto el Beauceron como el Briard fueron aceptados en él.
+      <br>
+      <br>
+      Antes de 1889, el Beauceron y el Briard tenían la reputación de ser perros guardianes de rebaños valientes, pero más inclinados a morder en defensa de su rebaño. Sin embargo, el temperamento de ambas razas se suavizó mediante la cría selectiva. En 1889, se estableció el nombre y el estándar de la raza. En 1911, se formó un club de razas separado solo para el Beauceron, estableciéndolo oficialmente aparte del Briard.
+      <br>
+      <br>
+      El Beauceron ha demostrado ser un perro de trabajo excepcionalmente versátil a lo largo de su historia. No solo ha trabajado como perro pastor, sino que también ha sido utilizado en el ejército. Ignorando las bombas explotando o el fuego de artillería, los perros eran utilizados para llevar mensajes, detectar minas, seguir rastros, apoyar acciones de comando, encontrar a los heridos y llevar comida y municiones a las líneas del frente.
+      <br>
+      <br>
+      Hoy en día, este serio perro de trabajo todavía se utiliza como perro pastor, perro guardián y por la policía y el ejército francés. La raza está ganando popularidad en Europa Occidental y América del Norte como perro de compañía y guardián de la familia, pero todavía son raros. El Beauceron fue aceptado en el AKC en 2006 bajo el grupo de pastoreo. Algunos de los talentos del Beauceron incluyen el rastreo, el pastoreo, el trabajo de vigilancia, la protección, el trabajo policial, el trabajo militar, la agilidad, la obediencia competitiva, el deporte de anillo francés y el Schutzhund.
+      <br>
+      <br>
+      En resumen, la historia del Beauceron es un testimonio de la versatilidad, la inteligencia y la valentía de esta raza. Desde sus humildes comienzos como perro pastor en Francia hasta su uso en el ejército y la policía, el Beauceron ha demostrado ser un perro de trabajo excepcionalmente capacitado para diversas tareas.
+    `,
+    searchTerms: [
+      'Beauceron',
+      'Berger de Beauce',
+      'Bas Rouge',
+      'perro pastor francés',
+      'perro Beauceron',
+      'raza Beauceron',
+      'Beaucerons',
+      'Bauceron',
+      'Baucerons',
+    ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Moderada',
     soporta_clima_frio: 'Alta',
@@ -3081,7 +3347,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
-    fuentes: ["https://en.wikipedia.org/wiki/Beauceron", "https://www.akc.org/dog-breeds/beauceron/"]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Beauceron',
+      'https://www.akc.org/dog-breeds/beauceron/',
+    ],
   },
   31: {
     weight: {
@@ -3134,9 +3403,65 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Enfermedad de Legg-Calvé-Perthes',
     ],
-    description: "El Bedlington Terrier es una raza de perro que es tanto enérgica como afectuosa. A pesar de su apariencia similar a la de un cordero, estos perros son atletas versátiles y compañeros de casa irresistiblemente adorables. Son perros lithe y enérgicos, con un pelaje crujiente y rizado, una espalda arqueada, orejas con borlas, una cola en forma de cimitarra y una cabeza en forma de pera que son características identificativas de esta raza única. Aunque pueden parecer tranquilos y reservados, los Bedlington Terriers son capaces de galopar a alta velocidad. Son perros gráciles y musculosos sin ningún signo de debilidad o aspereza. Debido a su carácter poco exigente, son fáciles de criar y educar y son populares en las familias por su naturaleza tranquila y devota.",
-    history: "El Bedlington Terrier fue reconocido como raza por el AKC en 1886. El primer perro llamado 'Bedlington Terrier' nació en 1825. El perro era Ainsley's Piper, que comenzó a cazar a los 8 meses y continuó derribando a las nutrias y tejones más feroces incluso en su vejez ciega y sin dientes. Joseph Ainsley de Bedlington era el dueño del primer perro conocido como Bedlington Terrier. Se cree que el Bedlington Terrier comparte ciertas similitudes, y por lo tanto posiblemente un ancestro común, con los Terriers Dandie Dinmont, Kerry Blue y Soft Coated Wheaten. Su espalda arqueada sugiere que el Whippet también pudo haber sido utilizado para añadir velocidad y ligereza a la capacidad de rendimiento de la raza.",
-    searchTerms: ["Bedlington Terrier", "Bedlington", "Terrier", "Bedlington Terriers", "Terriers Bedlington", "Bedlington dog", "Bedlington dogs", "Bedlington Terrier dog", "Bedlington Terrier dogs"],
+    description: `
+      El Bedlington Terrier es una raza de perro que a primera vista puede parecer un pequeño cordero. Su cabeza en forma de pera es estrecha pero profunda y redondeada. El hocico es fuerte sin parada. Los ojos, en forma de almendra, son pequeños y están hundidos. La mandíbula se encuentra en una mordida nivelada o de tijera. Las orejas de implantación baja son triangulares con puntas redondeadas. El pecho es profundo y la espalda está arqueada. Las patas traseras son más largas que las patas delanteras rectas. La cola es de inserción baja, gruesa en la raíz y se estrecha hasta un punto. Los espolones suelen ser eliminados. El Bedlington tiene un doble pelaje espeso de una mezcla de pelo duro y suave que se destaca de la piel. Los colores vienen en azul, arenoso, hígado, azul y canela, arenoso y canela, y hígado y canela. Las marcas de canela pueden aparecer sobre los ojos, en el pecho, las patas y la parte trasera.
+      <br>
+      <br>
+      El Bedlington Terrier es juguetón, alegre y afectuoso, lo que lo convierte en un buen compañero de familia. Es cariñoso con los niños y bastante amigable con los extraños. Es leal y animado, pero puede volverse voluntarioso y terco si siente que sus dueños son débiles o pasivos. Esta raza necesita aprender a llevarse bien con los gatos y otros animales domésticos cuando es joven. Por lo general, pueden llevarse bien con otros perros, pero manténgalos alejados de aquellos que quieran dominar, ya que una vez desafiados son luchadores aterradores, a pesar de su apariencia gentil. A menudo llamado un "pequeño gigante", es valiente y enérgico. Es un excavador entusiasta. Les gusta ladrar, y necesitan que se les diga que ya es suficiente si se vuelve demasiado obsesivo. Pueden estar nerviosos sin suficiente ejercicio mental y físico. Solo deje que esta raza se suelte en un área cerrada. Como el Whippet, ¡es rápido y le encanta perseguir! Asegúrese de que siempre sea el líder de la manada firme, seguro y consistente de su perro para evitar el Síndrome del Perro Pequeño y la ansiedad por separación.
+      <br>
+      <br>
+      El Bedlington Terrier tiene una altura de 38 a 43 cm y un peso de 8 a 10 kg. Los Bedlington Terriers pueden tener un serio problema hepático hereditario conocido como Enfermedad de Almacenamiento de Cobre. También son propensos a la enfermedad renal hereditaria, PRA, problemas de tiroides y problemas oculares, como cataratas y enfermedad de la retina.
+      <br>
+      <br>
+      Esta raza estará bien en un apartamento si se ejercita suficientemente. Son bastante activos en interiores y estarán bien sin un patio. Estos perros activos necesitan mucho ejercicio y, como otros terriers, se aburrirán y serán traviesos sin él. Necesitan ser llevados a un largo paseo diario.
+      <br>
+      <br>
+      El pelaje del Bedlington Terrier es distintivo y se destaca. Es una mezcla de pelo duro y suave que cubre el cuerpo del perro adulto. Nunca es áspero, pero tiene una textura similar a la lana. Tiende a retorcerse, especialmente en la cabeza y la cara. Cuando se muestra, el pelo en el cuerpo no debe exceder de 1 pulgada de longitud, con el pelo en las patas un poco más largo.
+      <br>
+      <br>
+      Los colores aceptables incluyen azul, azul y canela, arenoso, arenoso y canela, hígado, y hígado y canela. En los perros bicolor, las marcas de canela se encuentran en las patas, el pecho, y la parte inferior de la cola, en el interior de los cuartos traseros y sobre cada ojo. En todos los colores, se fomenta una pigmentación corporal más oscura.
+      <br>
+      <br>
+      Los topknots en los adultos son más claros que el color del cuerpo. Las manchas de color más oscuro de una lesión son aceptables, ya que son temporales.
+      <br>
+      <br>
+      El Bedlington Terrier tiene una altura preferida de 38 a 43 cm y un peso de 8 a 10 kg. Los Bedlington Terriers pueden tener un serio problema hepático hereditario conocido como Enfermedad de Almacenamiento de Cobre. También son propensos a la enfermedad renal hereditaria, PRA, problemas de tiroides y problemas oculares, como cataratas y enfermedad de la retina.
+      <br>
+      <br>
+      Esta raza estará bien en un apartamento si se ejercita suficientemente. Son bastante activos en interiores y estarán bien sin un patio. Estos perros activos necesitan mucho ejercicio y, como otros terriers, se aburrirán y serán traviesos sin él. Necesitan ser llevados a un largo paseo diario.
+      <br>
+      <br>
+      El pelaje del Bedlington Terrier requiere un cuidado regular para mantener su apariencia característica. El pelaje debe ser recortado aproximadamente cada seis semanas para mantener su forma. Aunque puede parecer que requiere mucho mantenimiento, la realidad es que el Bedlington Terrier es una raza de bajo desprendimiento que puede ser una buena opción para las personas con alergias.
+      <br>
+      <br>
+      En resumen, el Bedlington Terrier es una raza única y encantadora que combina la apariencia de un cordero con el corazón de un león. Su personalidad alegre y su apariencia distintiva lo convierten en una excelente opción para aquellos que buscan un perro de compañía que sea tanto un conversador como un compañero leal.
+    `,
+    history: `
+      La historia del Bedlington Terrier es tan fascinante como su apariencia única. Originario del condado de Cumberland, en el norte de Inglaterra, este perro de aspecto lanudo tiene sus raíces en el siglo XVIII. Los mineros locales, que son acreditados con el desarrollo de la raza, consideraban al Bedlington como el terrier más valiente y el mejor exterminador de alimañas.
+      <br>
+      <br>
+      El Bedlington Terrier, que originalmente se llamaba Rothbury Terrier, fue renombrado en honor a la ciudad minera de Bedlington en Northumberland, Inglaterra, alrededor de 1825. Este perro fue apreciado por su habilidad para cazar zorros, liebres y tejones. Además, los mineros de Bedlington lo utilizaban como cazador de alimañas. Su valentía también fue explotada por los mineros, quienes lo usaban como perro de pelea en las fosas. Los cazadores, por otro lado, los utilizaban como retrievers.
+      <br>
+      <br>
+      El Bedlington Terrier fue el resultado de la cruza con varios otros tipos de terriers y luego con el Whippet, lo que estableció su característico tipo de cuerpo. Algunos criadores, especialmente en Inglaterra, cruzan Bedlingtons con Whippets y Greyhounds para producir lo que llaman Lurchers.
+      <br>
+      <br>
+      El Bedlington Terrier fue reconocido por el United Kennel Club en 1948, consolidando su lugar en la historia canina. A pesar de su apariencia suave y lanuda, este perro es conocido por su valentía y energía, demostrando que las apariencias pueden ser engañosas.
+      <br>
+      <br>
+      A lo largo de los años, el Bedlington Terrier ha mantenido su reputación como un perro valiente y enérgico, a pesar de su apariencia suave. Su historia es un testimonio de su versatilidad y resistencia, y sigue siendo una raza apreciada por su carácter y habilidades de caza.
+    `,
+    searchTerms: [
+      'Bedlington Terrier',
+      'Bedlington',
+      'Terrier',
+      'Bedlington Terriers',
+      'Terriers Bedlington',
+      'Bedlington dog',
+      'Bedlington dogs',
+      'Bedlington Terrier dog',
+      'Bedlington Terrier dogs',
+    ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Moderada',
     soporta_clima_frio: 'Moderada',
@@ -3145,7 +3470,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bueno_con_ninos: 'Moderada',
     tolerancia_a_la_soledad: 'Moderada',
     casos_famosos: [],
-    fuentes: ["https://en.wikipedia.org/wiki/Bedlington_Terrier", "https://www.akc.org/dog-breeds/bedlington-terrier/", "https://www.royalcanin.com/us/dogs/breeds/bedlington-terrier"]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Bedlington_Terrier',
+      'https://www.akc.org/dog-breeds/bedlington-terrier/',
+      'https://www.royalcanin.com/us/dogs/breeds/bedlington-terrier',
+    ],
   },
   32: {
     weight: {
@@ -3206,30 +3535,77 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Epilepsia',
       'Síndrome de Wobbler',
     ],
-    description: "El Malinois Belga es una de las cuatro variedades de perros pastor belgas, nombrado por la región belga de Malinas. Es un perro de trabajo de tamaño mediano a grande que es inteligente y extremadamente activo. Son conocidos por su energía y su capacidad para trabajar. Como perro de trabajo, el Malinois Belga se ha destacado en una variedad de roles en la búsqueda y rescate, detección de drogas y explosivos, y como perro de servicio para personas con discapacidades. Son perros de protección y defensa, y son muy leales a su familia. Sin embargo, también pueden ser reservados y cautelosos con los extraños. Tienen un pelaje corto que es fácil de cuidar, y vienen en colores que varían desde el leonado hasta el caoba, a menudo con una máscara negra en la cara.",
-
-    history: "El Malinois Belga se originó en la región de Malinas en Bélgica, donde fue criado para ser un perro pastor. La raza fue reconocida por primera vez en Bélgica en 1891 por el profesor Adolphe Reul, quien es considerado el fundador de la raza. En 1911, la raza fue reconocida por el American Kennel Club (AKC). Durante las dos guerras mundiales, los Malinois fueron utilizados por las fuerzas militares para una variedad de tareas, incluyendo como mensajeros, perros de búsqueda y rescate, y para detectar minas. En la actualidad, los Malinois son utilizados en una variedad de roles de trabajo, incluyendo como perros de policía y de búsqueda y rescate. También son populares como perros de familia y de compañía.",
-
-    searchTerms: ["malinois belga", "belgian malinois", "malinois", "belga malinois", "belgian shepherd malinois", "belgian malinois shepherd", "belgian malinois dog", "malinois dog", "belgian shepherd dog", "malinois belgian", "malinois shepherd", "shepherd malinois"],
-
+    description: `
+      El Malinois Belga es una raza de perro que combina elegancia y fortaleza en un paquete compacto y poderoso. Esta raza, originaria de Bélgica, es una de las cuatro variedades de perros pastores belgas, pero se ha destacado por su versatilidad y habilidades excepcionales en diversas disciplinas.
+      <br>
+      <br>
+      El Malinois Belga es un perro de tamaño mediano a grande, con los machos midiendo entre 61 y 66 cm de altura y las hembras entre 56 y 61 cm. Su peso varía entre 24 y 29 kg. Su cuerpo es a menudo descrito como cuadrado, ya que esa es la forma que parece tener cuando se ven las patas y la línea superior desde el lado. La profundidad de su pecho y la solidez de su estructura ósea reflejan su historia como perro de trabajo.
+      <br>
+      <br>
+      La cabeza del Malinois es proporcional al cuerpo, con un cráneo plano y una longitud y anchura similares. La nariz y los labios son negros, y los ojos, de tamaño medio y forma almendrada, son de color marrón. Las orejas, erectas y triangulares, dan al Malinois una expresión alerta y atenta.
+      <br>
+      <br>
+      El pelaje del Malinois es corto, recto y resistente a la intemperie, con una doble capa que le proporciona protección en diversas condiciones climáticas. Los colores del pelaje varían desde el rico leonado hasta el rojo, el caoba y el negro, con puntas negras en los pelos. La máscara y las orejas son negras, y el pelo alrededor del cuello es ligeramente más largo, dando la apariencia de un collar.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Malinois es un perro muy inteligente y obediente, con fuertes instintos protectores y territoriales. Necesita un dueño experimentado que sea firme pero no duro. Si se le trata de manera dura o autoritaria, puede volverse poco cooperativo. Los dueños deben mostrar una autoridad natural y segura sobre el perro, estableciendo reglas consistentes y claras.
+      <br>
+      <br>
+      El Malinois es un perro de alta energía con una alta capacidad mental, y es rápido para comprender. Necesita un trabajo que hacer, especialmente si se trata de líneas de trabajo. Sin suficiente ejercicio físico y mental, puede volverse destructivo y difícil de manejar. Sin embargo, con el dueño adecuado y un estilo de vida activo, el Malinois puede ser un excelente compañero de familia.
+      <br>
+      <br>
+      Es importante destacar que el Malinois puede ser dominante con otros perros y necesita un dueño que pueda comunicarle que la dominancia es un comportamiento no deseado. También debe socializarse bien desde una edad temprana para evitar que se vuelva tímido o sensible. Con la socialización y la formación adecuadas, el Malinois puede ser un perro de familia maravilloso, siempre y cuando se le dé la estimulación y el desafío que necesita.
+      <br>
+      <br>
+      En resumen, el Malinois Belga es una raza de perro que combina belleza, inteligencia y versatilidad en un paquete compacto y poderoso. Con el dueño adecuado y un estilo de vida activo, puede ser un excelente compañero de familia y un trabajador incansable.
+    `,
+    history: `
+      La historia del Malinois Belga es tan fascinante como la raza misma. Originario de Bélgica, el Malinois lleva el nombre de la ciudad belga de Malinas, donde se desarrolló a finales del siglo XIX. Aunque es una de las cuatro variedades de perros pastor belgas, el Malinois fue la primera en establecer su tipo.
+      <br>
+      <br>
+      La raza se desarrolló a partir de una mezcla de perros pastor locales con el objetivo de crear un perro de trabajo versátil y resistente. Los criadores de la época buscaban un perro que pudiera soportar las duras condiciones climáticas de la región, que tuviera una gran resistencia y que fuera capaz de realizar una variedad de tareas, desde el pastoreo de ovejas hasta la protección de la propiedad. El resultado fue el Malinois, un perro de tamaño mediano con un pelaje corto y resistente, una constitución fuerte y una increíble capacidad para el trabajo.
+      <br>
+      <br>
+      En sus primeros días, el Malinois se utilizó principalmente como perro pastor y de trabajo en las granjas. Sin embargo, su inteligencia, agilidad y resistencia pronto llamaron la atención de los entrenadores de perros de trabajo en otros campos. A principios del siglo XX, el Malinois comenzó a ser utilizado en roles de servicio, como perros de policía, perros de búsqueda y rescate, y perros de guerra.
+      <br>
+      <br>
+      Durante la Primera y Segunda Guerra Mundial, el Malinois fue utilizado por las fuerzas militares belgas y francesas como perro mensajero, perro de búsqueda y rescate, y perro de patrulla. Su valentía y lealtad en el campo de batalla solo sirvieron para aumentar su reputación como perro de trabajo excepcional.
+      <br>
+      <br>
+      En el siglo XX, el Malinois fue llevado a los Estados Unidos, donde su popularidad creció lentamente al principio. Sin embargo, en las últimas décadas, la raza ha ganado reconocimiento y popularidad en los Estados Unidos y en todo el mundo, tanto como perro de trabajo en roles de servicio y protección, como perro de compañía en hogares familiares.
+      <br>
+      <br>
+      Hoy en día, el Malinois es conocido por su versatilidad y su alta inteligencia. Excelen en una variedad de roles, desde el trabajo policial hasta la competencia de obediencia, la búsqueda y rescate, y el trabajo de servicio. A pesar de su intensa energía y necesidad de estimulación mental y física, los Malinois también pueden hacer excelentes mascotas familiares para los dueños adecuados.
+      <br>
+      <br>
+      Es importante recordar que, aunque la historia del Malinois es impresionante, cada perro es un individuo y puede variar en temperamento y habilidades. Sin embargo, una cosa es segura: con el entrenamiento y la socialización adecuados, el Malinois Belga es un compañero leal y capaz que está listo para enfrentar cualquier desafío.
+    `,
+    searchTerms: [
+      'malinois belga',
+      'belgian malinois',
+      'malinois',
+      'belga malinois',
+      'belgian shepherd malinois',
+      'belgian malinois shepherd',
+      'belgian malinois dog',
+      'malinois dog',
+      'belgian shepherd dog',
+      'malinois belgian',
+      'malinois shepherd',
+      'shepherd malinois',
+    ],
     tendencia_a_ladrar: 'Moderada',
-
     necesidad_de_aseo: 'Baja',
-
     soporta_clima_frio: 'Alta',
-
     soporta_clima_calido: 'Moderada',
-
     para_primerizos: 'Baja',
-
     bueno_con_ninos: 'Moderada',
-
     tolerancia_a_la_soledad: 'Baja',
-
     casos_famosos: [],
-
-    fuentes: ["https://en.wikipedia.org/wiki/Malinois_dog", "https://www.akc.org/dog-breeds/belgian-malinois/"]
-
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Malinois_dog',
+      'https://www.akc.org/dog-breeds/belgian-malinois/',
+    ],
   },
   33: {
     weight: {
@@ -3286,12 +3662,54 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Epilepsia',
     ],
-    description: "El Tervuren Belga es una de las cuatro variedades de perros de pastor belgas, que se distingue por su largo y lujoso pelaje. Este pelaje, que es generalmente de color caoba con un collar negro, requiere un mantenimiento regular para mantener su apariencia. El Tervuren es un perro de tamaño mediano, bien proporcionado y fuerte, que es ágil y musculoso sin ser voluminoso. Son conocidos por su inteligencia y versatilidad como perro de trabajo, siendo capaces de realizar una variedad de tareas, incluyendo pastoreo, búsqueda y rescate, y obediencia competitiva. A pesar de su capacidad para el trabajo, también son perros de compañía leales y afectuosos que se llevan bien con los niños y otros perros. Sin embargo, pueden ser reservados con los extraños y tienen un fuerte instinto de protección, lo que los convierte en excelentes perros guardianes.",
-
-    history: "El Tervuren Belga lleva el nombre de la aldea de Tervuren, en Bélgica, donde fue criado por primera vez a finales del siglo XIX. Fue desarrollado a partir de los mismos perros de pastor belgas que produjeron las otras tres variedades (el Malinois, el Laekenois y el Groenendael), pero fue criado selectivamente para su distintivo pelaje largo. Aunque originalmente se utilizaba para el pastoreo, su inteligencia y versatilidad pronto lo hicieron popular para una variedad de roles de trabajo. En la actualidad, el Tervuren es apreciado tanto por su habilidad en una variedad de deportes caninos como por su temperamento equilibrado como perro de compañía.",
-
-    searchTerms: ["Tervuren Belga", "Belgian Tervuren", "Tervuren", "Perro de pastor belga", "Belgian Shepherd Dog", "Tervuren dog", "Belgian Tervuren shepherd"],
-
+    description: `
+      El Tervuren Belga es una raza de perro que combina elegancia y fuerza en un paquete compacto. Con una altura que oscila entre 22 y 26 pulgadas y un peso que varía entre 40 y 75 libras, estos perros son de tamaño mediano, pero su presencia es innegablemente grande. Su pelaje es largo y espeso, con una capa externa resistente y una capa interna suave y densa que les proporciona una protección adecuada contra los elementos. Los colores del pelaje varían desde el rico fawn hasta el rojo carbonado, a menudo con una máscara negra que resalta sus ojos almendrados y expresivos.
+      <br>
+      <br>
+      El Tervuren Belga es un perro de trabajo por naturaleza, conocido por su inteligencia y su capacidad para aprender rápidamente. Son perros versátiles que pueden desempeñarse bien en una variedad de roles, desde perros de servicio hasta perros de búsqueda y rescate. También son excelentes perros de compañía y se llevan bien con los niños y otros animales, siempre que se les socialice adecuadamente desde una edad temprana.
+      <br>
+      <br>
+      Estos perros son conocidos por su energía y necesitan mucho ejercicio para mantenerse felices y saludables. Les encanta correr y jugar, y se destacan en una variedad de deportes caninos, como la agilidad y el pastoreo. Sin embargo, también son perros muy sensibles y se vinculan estrechamente con sus familias humanas. Necesitan mucha interacción y estimulación mental para evitar el aburrimiento y la ansiedad.
+      <br>
+      <br>
+      El Tervuren Belga tiene un pelaje largo y espeso que requiere un cuidado regular para mantenerlo en buen estado. Necesitan ser cepillados varias veces a la semana para evitar que su pelaje se enrede y para eliminar el pelo muerto. También son perros que mudan bastante, especialmente durante los cambios de estación, por lo que los dueños deben estar preparados para un poco de pelo extra alrededor de la casa.
+      <br>
+      <br>
+      En cuanto a la salud, el Tervuren Belga es generalmente una raza saludable, pero como todas las razas, están predispuestos a ciertas condiciones de salud. Algunas de las condiciones a las que están predispuestos incluyen la displasia de cadera, problemas de tiroides y problemas oculares. Es importante que los dueños potenciales trabajen con un criador responsable que pruebe a sus perros para estas y otras condiciones de salud para asegurarse de que están obteniendo un perro sano.
+      <br>
+      <br>
+      En resumen, el Tervuren Belga es una raza de perro inteligente, enérgica y versátil que puede ser un gran compañero para la persona o familia adecuada. Su inteligencia y energía los hacen adecuados para una variedad de roles de trabajo, pero también son excelentes perros de compañía que se vinculan estrechamente con sus familias humanas. Con el cuidado y la socialización adecuados, un Tervuren Belga puede ser un maravilloso y leal amigo.
+    `,
+    history: `
+      La historia del Tervuren Belga, una de las cuatro variedades de la raza Pastor Belga, es una historia de dedicación y versatilidad. Originarios de Bélgica, estos perros fueron criados para ser pastores y protectores del ganado, pero su inteligencia y habilidad para adaptarse rápidamente a nuevas situaciones los ha llevado a desempeñar una variedad de roles a lo largo de los años.
+      <br>
+      <br>
+      El Tervuren Belga lleva el nombre de la aldea de Tervuren, donde un criador llamado M.F. Corbeel crió dos perros, Tom y Poes, a finales del siglo XIX. Estos dos perros son considerados los fundadores de la raza. Corbeel trabajó con estos perros y sus descendientes, seleccionando cuidadosamente a los perros para criar y desarrollar el Tervuren que conocemos hoy.
+      <br>
+      <br>
+      En 1891, el profesor Adolphe Reul de la escuela de veterinaria de Cureghem logró clasificar a los perros de pastor belga en diferentes tipos y variedades. Fue entonces cuando se reconoció oficialmente al Tervuren como una de las cuatro variedades de la raza Pastor Belga. Las otras tres variedades son el Groenendael, el Malinois y el Laekenois.
+      <br>
+      <br>
+      Durante la Primera Guerra Mundial, los Tervurens y otros Pastores Belgas fueron utilizados como perros de guerra. Realizaban una serie de tareas, incluyendo el transporte de mensajes y de suministros médicos, la búsqueda de soldados heridos y la vigilancia. Después de la guerra, la raza fue llevada a América del Norte, donde fue reconocida por el American Kennel Club en 1918.
+      <br>
+      <br>
+      A lo largo de los años, el Tervuren ha demostrado ser un perro de trabajo altamente capaz. Han sido utilizados en una variedad de roles, incluyendo perros guía para personas ciegas, perros de búsqueda y rescate, y perros de trabajo en la policía y el ejército. A pesar de su habilidad para el trabajo, también son conocidos por ser excelentes mascotas familiares.
+      <br>
+      <br>
+      Hoy en día, el Tervuren Belga es apreciado tanto por su habilidad para el trabajo como por su belleza. Son conocidos por su pelaje largo y espeso, que es de color negro y fuego. Aunque no son tan conocidos como otras razas de perros de pastor, como el Pastor Alemán, aquellos que tienen la suerte de conocer a un Tervuren a menudo se enamoran de su inteligencia, su lealtad y su dedicación al trabajo.
+      <br>
+      <br>
+      La historia del Tervuren Belga es un testimonio de la versatilidad y la capacidad de adaptación de esta raza. Desde sus inicios como perros pastores en las colinas de Bélgica hasta su uso en una variedad de roles en todo el mundo, el Tervuren continúa demostrando que es una raza verdaderamente excepcional.
+    `,
+    searchTerms: [
+      'Tervuren Belga',
+      'Belgian Tervuren',
+      'Tervuren',
+      'Perro de pastor belga',
+      'Belgian Shepherd Dog',
+      'Tervuren dog',
+      'Belgian Tervuren shepherd',
+    ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Alta',
     soporta_clima_frio: 'Alta',
@@ -3299,11 +3717,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     para_primerizos: 'Baja',
     bueno_con_ninos: 'Moderada',
     tolerancia_a_la_soledad: 'Baja',
-
     casos_famosos: [],
-
-    fuentes: ["https://en.wikipedia.org/wiki/Belgian_Tervuren", "https://www.akc.org/dog-breeds/belgian-tervuren/"]
-
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Belgian_Tervuren',
+      'https://www.akc.org/dog-breeds/belgian-tervuren/',
+    ],
   },
   34: {
     weight: {
@@ -3354,9 +3772,67 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Cáncer',
       'Problemas de corazón',
     ],
-    description: "El Perro de Montaña Bernés es una raza grande, fuerte, robusta y ágil. Su cuerpo es ligeramente más largo que alto, y su hueso sustancial y robusto es característico de la raza. Los machos denotan una apariencia masculina y las hembras son distintamente femeninas. El Bernés es autónfido, alerta y vigilante. Son de buen carácter y confiables con sus familias y seguros y aceptantes con extraños. Su pelaje es tricolor con marcas simétricas de negro, óxido y blanco. La base del perro es negra. El perro tiene una llama blanca en el pecho y blanco en la cabeza, los dedos de los pies y la punta de la cola. El óxido está en las mejillas llegando a las comisuras de la boca, sobre cada ojo, en cada lado del pecho, en las cuatro patas y debajo de la cola.",
-    history: "El Perro de Montaña Bernés es uno de los cuatro antiguos Sennenhunds suizos, desarrollado cuando los romanos invasores cruzaron sus mastines con perros locales de guarda de rebaños, y es el único con un pelaje completo. Refinado en la región de Berna, los perros de esta raza se utilizaban habitualmente para múltiples trabajos. Estos incluían: trabajador agrícola general; guardián del rebaño; y perro de tiro. La raza se caracteriza por el clásico y llamativo tricolor de los Sennenhund (color base negro, con marcas de óxido y blanco).",
-    searchTerms: ['Perro de Montaña Bernés', 'Trabajo', 'Fiel', "Perro de Montaña Bernés", "Bernese Mountain Dog", "Berner", "Berner Sennenhund", "Berner Sennen", "Bernese", "Perro de Montaña Bernes", "Perro de Montana Bernes", "Perro de Montana Bernes", "Perro de Montaña Bernese", "Perro de Montana Bernese"],
+    description: `
+      El Perro de Montaña Bernés es una raza que combina la majestuosidad de un perro grande con la dulzura de un compañero leal. Este perro robusto y bien equilibrado es conocido por su pelaje tricolor distintivo y su personalidad amigable y tranquila.
+      <br>
+      <br>
+      El Bernés es un perro grande, resistente y ágil, reflejando su origen histórico y usos. Son ligeramente más largos que altos, aunque a veces parecen cuadrados. Su hueso sustancial y robusto es característico de la raza. Los machos denotan una apariencia masculina y las hembras son distintivamente femeninas. Se muestra en una apariencia natural; no es deseable un recorte innecesario.
+      <br>
+      <br>
+      La cabeza del Bernés es fuerte pero no demasiado masiva, en equilibrio con el tamaño del perro. El cráneo es amplio y ligeramente redondeado. Tiene un ligero surco que conduce a una parada bien definida, pero no exagerada. El hocico es recto y fuerte. La raza es de boca seca, con labios limpios que son de color negro y solo ligeramente desarrollados.
+      <br>
+      <br>
+      Los ojos son de color marrón oscuro y de forma almendrada. La expresión es gentil e inteligente. Los párpados se ajustan bien. El hocico es recto y fuerte. La raza es de boca seca, con labios limpios que son de color negro y solo ligeramente desarrollados. Los dientes son fuertes y blancos y se encuentran en una mordida de tijera. Una mordida nivelada es aceptable.
+      <br>
+      <br>
+      El cuerpo del Bernés es robusto y bien proporcionado. La línea superior es nivelada desde la cruz hasta la grupa. El pecho es ancho, con costillas bien arqueadas y profundas que llegan hasta los codos y un antepecho bien desarrollado. La espalda es ancha y firme. El lomo es fuerte. La grupa es ancha y redondeada suavemente.
+      <br>
+      <br>
+      El pelaje del Bernés es grueso y de un solo color, con un brillo natural y brillante. Puede ser ligeramente ondulado o recto. El color del pelaje es tricolor, una característica de la raza. El color base es siempre negro azabache. Las marcas son de color óxido rico y blanco claro. La simetría de las marcas es deseable.
+      <br>
+      <br>
+      El Bernés es un perro de trabajo y, como tal, tiene una gran cantidad de energía y necesita mucho ejercicio. Son perros activos que disfrutan de las actividades al aire libre y necesitan al menos una hora de ejercicio vigoroso al día. Son excelentes compañeros de senderismo y disfrutan de los juegos de recuperación y las actividades de agilidad.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Bernés es conocido por ser seguro de sí mismo, alerta y vigilante. Son de buen carácter y confiables con sus familias y seguros y aceptantes con los extraños. Son perros inteligentes y ansiosos por complacer, lo que los hace relativamente fáciles de entrenar.
+      <br>
+      <br>
+      En resumen, el Perro de Montaña Bernés es una raza magnífica que combina la fuerza y la agilidad de un perro de trabajo con la dulzura de un compañero leal.
+    `,
+    history: `
+      La historia del Perro de Montaña Bernés se remonta a la antigua Roma, donde se cree que los mastines romanos se cruzaron con los perros de rebaño locales para crear una raza de perro de trabajo resistente y versátil. Estos perros se utilizaron en la región de Berna, Suiza, para una variedad de tareas, incluyendo el trabajo en la granja, la protección del rebaño y el tiro de cargas pesadas.
+      <br>
+      <br>
+      El Perro de Montaña Bernés es uno de los cuatro antiguos Sennenhunds suizos, y es el único con un pelaje completo. Los Sennenhunds eran perros de trabajo utilizados en las granjas y en los campos, y el Bernés se destacó por su habilidad para realizar múltiples tareas. Los perros de esta raza eran conocidos por su capacidad para trabajar en una variedad de condiciones, desde el pastoreo de rebaños hasta la protección de la granja y el tiro de cargas pesadas.
+      <br>
+      <br>
+      La raza fue refinada en la región de Berna, y los perros de esta raza se utilizaban habitualmente para múltiples trabajos. Estos incluían: trabajador agrícola general; guardián del rebaño; y perro de tiro. La raza se caracteriza por el clásico y llamativo tricolor de los Sennenhunds (color base negro, con marcas de óxido y blanco).
+      <br>
+      <br>
+      El Perro de Montaña Bernés fue reconocido por el United Kennel Club en 1948. Desde entonces, la raza ha ganado popularidad en todo el mundo, tanto por su habilidad para trabajar como por su temperamento amigable y su hermoso pelaje tricolor.
+      <br>
+      <br>
+      A lo largo de los años, la raza ha mantenido su versatilidad y resistencia, pero también se ha adaptado a la vida como mascota de la familia. Aunque todavía son capaces de realizar tareas de trabajo, los Perros de Montaña Berneses de hoy en día son más conocidos como compañeros leales y cariñosos. Su naturaleza amigable y su disposición tranquila los han convertido en una opción popular para las familias y los individuos en todo el mundo.
+      <br>
+      <br>
+      En resumen, la historia del Perro de Montaña Bernés es una de adaptabilidad y versatilidad. Desde sus orígenes como perro de trabajo en las granjas de Suiza hasta su papel actual como amado compañero de la familia, la raza ha demostrado ser tanto resistente como cariñosa. Con su hermoso pelaje tricolor y su temperamento amigable, no es de extrañar que el Perro de Montaña Bernés siga siendo una opción popular para los amantes de los perros en todo el mundo.
+    `,
+    searchTerms: [
+      'Perro de Montaña Bernés',
+      'Trabajo',
+      'Fiel',
+      'Perro de Montaña Bernés',
+      'Bernese Mountain Dog',
+      'Berner',
+      'Berner Sennenhund',
+      'Berner Sennen',
+      'Bernese',
+      'Perro de Montaña Bernes',
+      'Perro de Montana Bernes',
+      'Perro de Montana Bernes',
+      'Perro de Montaña Bernese',
+      'Perro de Montana Bernese',
+    ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Alta',
     soporta_clima_frio: 'Alta',
@@ -3365,8 +3841,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
-    fuentes: ["https://en.wikipedia.org/wiki/Bernese_Mountain_Dog", "https://www.akc.org/dog-breeds/bernese-mountain-dog/", "https://www.royalcanin.com/us/dogs/breeds/breed-library/bernese-mountain-dog", "https://www.dogbreedinfo.com/bernesemountain.htm", "https://www.ukcdogs.com/bernese-mountain-dog"]
-
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Bernese_Mountain_Dog',
+      'https://www.akc.org/dog-breeds/bernese-mountain-dog/',
+      'https://www.ukcdogs.com/bernese-mountain-dog',
+    ],
   },
   35: {
     weight: {
@@ -3425,12 +3904,50 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas dentales',
       'Luxación patelar',
     ],
-    description: `El Bichón Frisé es un perro pequeño y resistente. Cuando el perro está recortado en un corte de espectáculo, el cuerpo da una apariencia redonda. El cráneo es ligeramente redondeado. El hocico es más corto que el cráneo, no es puntiagudo, y tiene una parada ligeramente pronunciada. Los ojos redondos son negros o marrones oscuros. Las orejas son caídas cubiertas de pelo largo. Los dientes deben encontrarse en una mordida de tijera. Las patas son rectas y de hueso medio. Los espolones generalmente se eliminan. La cola se lleva sobre la espalda. El pelaje doble es suave al tacto. El pelaje exterior es de 3 a 4 pulgadas (7-10 cm) de largo y es más grueso y rizado que el suave y denso subpelo. Los colores del pelaje incluyen blanco sólido, crema, gris o albaricoque. El blanco es preferido en el ring de exhibición. El pelaje es hipoalergénico. Los dueños de mascotas generalmente recortan al perro en un corte de cachorro de fácil cuidado que tiene la misma longitud en todo el cuerpo. El perro puede ser mostrado con su pelaje recortado como un caniche o con un pelaje largo y esponjoso con los pies y el hocico recortados.`,
-
-    history: `La existencia de la raza Bichón Frisé ha sido documentada desde el siglo XIV, cuando los marineros franceses los trajeron de Tenerife, una de las Islas Canarias. Se cree que la raza fue llevada allí por comerciantes, utilizando la ruta comercial fenicia, como artículos de trueque. Se cree que el área de origen de la raza es Italia y las áreas alrededor de ese país, donde se encontraron la mayoría de las razas de Bichón. El Bichón Frisé es único entre las razas de Bichón ya que tiene doble capa, teniendo tanto un subpelo como un pelo exterior. Esto le da a la raza su característica apariencia de "pompones de polvo". El Bichón Frisé fue reconocido por el United Kennel Club en 1981.`,
-
-    searchTerms: ['bichon frise', 'bichón frisé', 'bichon', 'frise', 'bichon a poil frise', 'bichon tenerife', 'bichon frize', 'bichon frisse', 'bichon fris'],
-
+    description: `
+      El Bichón Frisé es una raza de perro que se destaca por su apariencia encantadora y su personalidad alegre. Este pequeño perro es compacto y resistente, con un pelaje denso y blanco que le da la apariencia de un "pompón de polvo". Su pelaje es único entre las razas de Bichón, ya que tiene un doble abrigo, con un subpelo suave y denso y un pelaje exterior más áspero y rizado. Este pelaje le da al Bichón Frisé su característica apariencia de "pompón de polvo".
+      <br>
+      <br>
+      El Bichón Frisé es conocido por su temperamento alegre y juguetón. Es sensible, gentil y afectuoso, y tiene una expresión suave e inquisitiva con ojos oscuros y brillantes. Aunque es pequeño, el Bichón Frisé es un perro resistente con una estructura ósea media, que nunca parece tosco ni fino. Sus patas son rectas y no se curvan en el antebrazo o la muñeca, y sus codos se mantienen cerca del cuerpo. Sus pies son apretados y redondos, similares a los de un gato, y apuntan directamente hacia adelante, sin girar hacia adentro ni hacia afuera.
+      <br>
+      <br>
+      El Bichón Frisé tiene una cola bien emplumada que se lleva curvada con gracia sobre la espalda, de modo que el pelo de la cola descansa en la espalda. La cola, si se extiende hacia la cabeza, mide al menos hasta la mitad de la cruz. El pelaje del Bichón Frisé se recorta solo según sea necesario para revelar el contorno natural del cuerpo. Puede redondearse, pero nunca se corta tan corto como para ser esculpido o cuadrado. El pelo en la cabeza, la barba, el bigote, las orejas y la cola se dejan más largos.
+      <br>
+      <br>
+      El Bichón Frisé es una raza blanca, pero las sombras de color crema, albaricoque o buff alrededor de las orejas o en el cuerpo son aceptables. La pigmentación debajo del pelaje es preferiblemente oscura. Cualquier color, aparte del blanco, en exceso del 10% del pelaje total en un perro adulto, se considera una falta grave.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Bichón Frisé tiene una disposición alegre y juguetona. Es un perro que está dispuesto a aprender cosas nuevas y es fácil de entrenar. Esta raza es conocida por su alta energía y necesita una cantidad adecuada de ejercicio y estimulación mental para mantenerse feliz y saludable. A pesar de su tamaño pequeño, el Bichón Frisé es un perro resistente que puede mantenerse al día con un estilo de vida activo.
+      <br>
+      <br>
+      En resumen, el Bichón Frisé es un perro pequeño con una gran personalidad. Su apariencia encantadora y su temperamento alegre lo convierten en una excelente opción para aquellos que buscan un compañero canino cariñoso y juguetón.
+    `,
+    history: `
+      La historia del Bichón Frisé es una narrativa fascinante que se extiende a lo largo de siglos y continentes. Esta raza, cuyo nombre significa "perro rizado" en francés, tiene raíces que se remontan a la región mediterránea del siglo XIV. Los marineros franceses, en sus viajes, trajeron a estos perros desde Tenerife, una de las Islas Canarias. Se cree que los comerciantes, utilizando la ruta comercial fenicia, los llevaron a estas islas como objetos de trueque. Sin embargo, el área de origen de la raza se cree que es Italia y las áreas alrededor de ese país, donde se encontraban la mayoría de las razas Bichón.
+      <br>
+      <br>
+      El Bichón Frisé es único entre las razas Bichón por su doble capa de pelo, que consta de un pelaje inferior suave y denso y un pelaje exterior más grueso y rizado. Esta característica le da a la raza su apariencia distintiva de "pompón de polvo". A lo largo de los siglos, estos perros han sido apreciados por su apariencia atractiva y su temperamento alegre y juguetón.
+      <br>
+      <br>
+      En el siglo XVI, los Bichón Frisé se convirtieron en una raza favorita de la realeza francesa y española. Su popularidad continuó en los siglos siguientes, y fueron frecuentemente vistos en las pinturas de los artistas de la época. Sin embargo, a finales del siglo XIX, la raza cayó en desgracia y muchos Bichón Frisé se encontraron viviendo en las calles o trabajando con organilleros o en circos.
+      <br>
+      <br>
+      La raza fue rescatada después de la Primera Guerra Mundial por los criadores franceses que trabajaron para preservar y estabilizar la raza. El Bichón Frisé fue reconocido oficialmente por el Kennel Club francés en 1933. Después de la Segunda Guerra Mundial, la raza fue llevada a América por un grupo de entusiastas, y en 1973, el Bichón Frisé fue reconocido por el American Kennel Club.
+      <br>
+      <br>
+      Hoy en día, el Bichón Frisé es amado en todo el mundo por su apariencia encantadora, su personalidad alegre y su pelaje hipoalergénico. Aunque pequeños en tamaño, estos perros tienen una gran personalidad y son conocidos por su inteligencia y su disposición amigable. A pesar de los altibajos de su historia, el Bichón Frisé ha demostrado ser una raza resistente y amada que continúa deleitando a los amantes de los perros hasta el día de hoy.
+    `,
+    searchTerms: [
+      'bichon frise',
+      'bichón frisé',
+      'bichon',
+      'frise',
+      'bichon a poil frise',
+      'bichon tenerife',
+      'bichon frize',
+      'bichon frisse',
+      'bichon fris',
+    ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Alta',
     soporta_clima_frio: 'Moderada',
@@ -3438,14 +3955,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     para_primerizos: 'Alta',
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
-
     casos_famosos: [],
-
     fuentes: [
-      'https://en.wikipedia.org/wiki/Bichon_Fris%C3%A9', "https://www.akc.org/dog-breeds/bichon-frise/" ,
-      "https://www.royalcanin.com/us/dogs/breeds/breed-library/bichon-frise", "https://www.dogbreedinfo.com/bichonfrise.htm",
-      "https://www.ukcdogs.com/bichon-frise"
-    ]
+      'https://en.wikipedia.org/wiki/Bichon_Fris%C3%A9',
+      'https://www.akc.org/dog-breeds/bichon-frise/',
+      'https://www.ukcdogs.com/bichon-frise',
+    ],
   },
   36: {
     weight: {
@@ -3501,9 +4016,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Obesidad',
       'Infecciones del oído, debido a sus orejas largas y caídas',
     ],
-    searchTerms: ['Sabueso Negro y Tostado', 'Sabueso', 'Caza de mapaches', 'sabueso negro y tostado', 'black and tan coonhound', 'coonhound', 'black and tan', 'sabueso', 'black tan coonhound', 'black & tan coonhound', 'blackandtan coonhound', 'blacktan coonhound'],
-    description: `El Sabueso Negro y Tostado es un perro de trabajo resistente, conocido por su agudo sentido del olfato y su persistencia en la pista. Son perros de tamaño mediano a grande, con cuerpos fuertes y musculosos. Tienen orejas largas y caídas y ojos de color avellana o marrón oscuro que transmiten una expresión amigable. Su pelaje es denso y de longitud media, y como su nombre indica, es de color negro y tostado. Son perros amigables y leales, conocidos por su amor por las personas y su naturaleza tranquila en casa. Sin embargo, también son perros de trabajo dedicados que pueden ser obstinados y decididos en la pista.`,
-    history: `El Sabueso Negro y Tostado es una de las pocas razas verdaderamente estadounidenses, con una historia que se remonta a mediados del siglo XVIII. Fueron desarrollados para rastrear mapaches y otras presas de caza mayor, y son conocidos por su capacidad para seguir una pista a través de todo tipo de terreno y condiciones climáticas. La raza fue reconocida por el American Kennel Club en 1945, y desde entonces ha sido valorada tanto por su habilidad en el campo como por su temperamento amigable y su lealtad como mascota de la familia.`,
+    searchTerms: [
+      'Sabueso Negro y Tostado',
+      'Sabueso',
+      'Caza de mapaches',
+      'sabueso negro y tostado',
+      'black and tan coonhound',
+      'coonhound',
+      'black and tan',
+      'sabueso',
+      'black tan coonhound',
+      'black & tan coonhound',
+      'blackandtan coonhound',
+      'blacktan coonhound',
+    ],
+    description: `
+      El Sabueso Negro y Tostado, también conocido como Black and Tan Coonhound, es una raza que combina una apariencia noble y una personalidad amigable con una resistencia y habilidad de trabajo impresionantes. Este perro de gran tamaño, con un peso que puede variar entre 23 y 34 kilogramos, posee un pelaje corto y denso que, como su nombre indica, es predominantemente negro con marcas tostadas en las cejas, el pecho, las patas y la punta de la cola.
+      <br>
+      <br>
+      El Sabueso Negro y Tostado tiene un cuerpo fuerte y musculoso, con una espalda recta y un pecho profundo que le proporciona una gran capacidad pulmonar, necesaria para su trabajo de rastreo. Sus orejas son largas y caídas, una característica común en las razas de sabuesos, y sus ojos son de color avellana o marrón oscuro, transmitiendo una expresión amigable pero decidida.
+      <br>
+      <br>
+      Este perro es conocido por su increíble resistencia y su habilidad para seguir un rastro a través de terrenos difíciles. Aunque puede ser reservado con los extraños, es generalmente amigable y se lleva bien con los niños y otros perros. Sin embargo, debido a su instinto de caza, puede no ser compatible con animales más pequeños.
+      <br>
+      <br>
+      En cuanto a su cuidado, el Sabueso Negro y Tostado es una raza de bajo mantenimiento en términos de aseo. Su pelaje corto solo necesita ser cepillado regularmente para mantenerlo limpio y saludable. Sin embargo, debido a su alta energía y necesidad de estimulación mental, requiere mucho ejercicio y actividades para mantenerse feliz y saludable. Los largos paseos, las sesiones de juego y la oportunidad de seguir rastros pueden ayudar a satisfacer estas necesidades.
+      <br>
+      <br>
+      A pesar de su tamaño y energía, el Sabueso Negro y Tostado puede adaptarse a la vida en un apartamento siempre y cuando se le proporcione suficiente ejercicio. Sin embargo, se sentirá más en casa en un entorno con mucho espacio para moverse. Esta raza también es conocida por su tendencia a ladrar y aullar, especialmente cuando está siguiendo un rastro, por lo que puede no ser la mejor opción para las zonas residenciales donde el ruido puede ser un problema.
+      <br>
+      <br>
+      En resumen, el Sabueso Negro y Tostado es una raza de perro amigable, trabajadora y resistente que puede ser un gran compañero para las personas activas y las familias que pueden proporcionarle el ejercicio y la estimulación que necesita.
+    `,
+    history: `
+      La historia del Sabueso Negro y Tostado, también conocido como Black and Tan Coonhound, es fascinante y está profundamente arraigada en la cultura estadounidense. Esta raza de perro, que es una de las pocas razas de perros verdaderamente estadounidenses, tiene sus raíces en el sur de los Estados Unidos.
+      <br>
+      <br>
+      El Sabueso Negro y Tostado se desarrolló a partir de los sabuesos de sangre y los foxhounds que fueron traídos a América por los colonos en el siglo XVII. Estos perros fueron criados por su habilidad para rastrear el olor de los animales, especialmente los mapaches, a través de terrenos difíciles. A medida que los colonos se adentraban en el sur de los Estados Unidos, necesitaban un perro que pudiera soportar el calor y tener la resistencia para seguir a los animales hasta el árbol o la guarida. Así nació el Sabueso Negro y Tostado.
+      <br>
+      <br>
+      El Sabueso Negro y Tostado fue reconocido oficialmente como raza por el American Kennel Club en 1945. Sin embargo, la raza ya era popular mucho antes de su reconocimiento oficial. Los cazadores de mapaches en particular valoraban a estos perros por su habilidad para rastrear a los mapaches durante la noche y mantenerlos en los árboles hasta que llegara el cazador.
+      <br>
+      <br>
+      A lo largo de los años, el Sabueso Negro y Tostado ha mantenido su popularidad, especialmente en las zonas rurales del sur de los Estados Unidos. Aunque todavía se utilizan para la caza, también se han ganado un lugar como mascotas de la familia. Su naturaleza amigable y su lealtad a sus dueños los hacen excelentes compañeros.
+      <br>
+      <br>
+      A pesar de su historia y popularidad, el Sabueso Negro y Tostado no es tan conocido fuera de las zonas rurales del sur de los Estados Unidos. Sin embargo, aquellos que conocen la raza la aprecian por su habilidad para rastrear, su resistencia y su amigable naturaleza.
+    `,
     tendencia_a_ladrar: 'Alta',
     necesidad_de_aseo: 'Baja',
     soporta_clima_frio: 'Moderada',
@@ -3516,8 +4075,8 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Black_and_Tan_Coonhound',
       'https://www.akc.org/dog-breeds/black-and-tan-coonhound/',
       'https://www.royalcanin.com/us/dogs/breeds/breed-library/black-and-tan-coonhound',
-      'https://www.dogbreedinfo.com/blackandtancoonhound.htm'
-    ]
+      'https://www.dogbreedinfo.com/blackandtancoonhound.htm',
+    ],
   },
   37: {
     weight: {
@@ -3565,9 +4124,60 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Problemas oculares, incluyendo entropión y ectropión',
     ],
-    description: "El Sabueso de Sangre es una raza de perro muy poderosa y masiva. Son perros de rastreo, trazando sus orígenes al antiguo sabueso St. Hubert de Francia, criados por su habilidad de rastreo y caza. Son expertos en rastreo en frío, siguiendo un rastro antiguo, lo que los hace excepcionales perros de rastreo. La piel es delgada al tacto y es extremadamente suelta, siendo más notable en la cabeza y el cuello, donde cuelga en pliegues profundos. El Sabueso de Sangre es amable, paciente, noble, de buenos modales y un perro adorable. Son gentiles, afectuosos y excelentes con los niños, lo que los convierte en un verdadero compañero de buen carácter. Son muy enérgicos al aire libre y bulliciosos cuando son jóvenes, determinados e independientes, los Sabuesos de Sangre necesitan un entrenamiento firme, pero no pesado. Son naturalmente animales gentiles pero no son fáciles de entrenar en obediencia. Si captan un olor a algo, puede ser difícil redirigir su atención de nuevo a ti si estás fuera de su alcance físico. Son capaces de seguir cualquier olor, incluso humano, una habilidad rara en un perro. Esta raza ha sido conocida por seguir con éxito rastros de más de 100 horas de antigüedad. Es tan determinado que se sabe que se queda con el rastro durante más de 100 millas. Los Sabuesos de Sangre nunca pueden ser mantenidos en un patio sin cercas. Hay una buena posibilidad de que el instinto los lleve a vagar si están sin correa. Huyen cuando captan un olor; el instinto los impulsa a encontrar el final del rastro.",
-    history: "El Sabueso de Sangre es un sabueso de rastreo, que traza sus orígenes al antiguo Sabueso de San Huberto de Francia, un tipo de sabueso criado por sus habilidades de rastreo y caza. Son expertos en el rastreo en frío, lo que los convierte en perros de rastreo excepcionales. Esta raza fue reconocida por el United Kennel Club en 1914. El Sabueso de Sangre prospera en la caza más que en la matanza. Se deleita en el rastreo y se ha utilizado para cazar animales, criminales, esclavos fugitivos y niños perdidos.",
-    searchTerms: ['Sabueso de Sangre', 'Sabueso', 'Rastreo', "Sabueso de Sangre", "sabueso de sangre", "Bloodhound", "bloodhound", "Sabueso de sangre", "sabueso de Sangre", "Sabueso De Sangre"],
+    description: `
+      El Sabueso de Sangre, también conocido como Bloodhound, es una raza de perro que se distingue por su impresionante capacidad para seguir rastros, gracias a su excepcional sentido del olfato, considerado uno de los más agudos en el mundo canino. Este perro es un rastreador por excelencia, capaz de seguir un rastro "frío" o antiguo con una precisión asombrosa.
+      <br>
+      <br>
+      El Sabueso de Sangre es un perro de tamaño grande, masivo y muy poderoso. Su cuerpo es ligeramente más largo que alto, con una estructura ósea claramente visible. Su piel es delgada al tacto y extremadamente suelta, siendo más notable alrededor de la cabeza y el cuello, donde cuelga en profundos pliegues. Su pelaje es corto, denso, bastante áspero y resistente a las inclemencias del tiempo.
+      <br>
+      <br>
+      La cabeza del Sabueso de Sangre es una de sus características más distintivas, siendo imponente, majestuosa y llena de nobleza. Es profunda pero estrecha en relación a su longitud y larga en relación a la longitud del cuerpo. El hocico es tan largo como el cráneo, profundo y de igual ancho a lo largo de su longitud. Los labios son muy largos y flácidos, formando un ángulo recto con la línea superior del hocico, dando al hocico un perfil cuadrado.
+      <br>
+      <br>
+      Los ojos del Sabueso de Sangre son de color marrón oscuro o avellana, aunque pueden ser ámbar en perros sin una montura o manto negro. Son de tamaño moderado, de forma ovalada y ni hundidos ni saltones. La expresión es gentil, amable y digna, con un aire bastante melancólico.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Sabueso de Sangre es un perro gentil, plácido, amable y sociable con las personas. Es particularmente apegado a su dueño. Puede ser algo reservado y terco, pero nunca agresivo. Es tolerante con otros perros y animales domésticos. Es sensible tanto a los elogios como a las correcciones.
+      <br>
+      <br>
+      El Sabueso de Sangre necesita una cantidad considerable de ejercicio físico y mental. Las razas de alta energía están listas para ir y ansiosas por su próxima aventura. Pasarán su tiempo corriendo, saltando y jugando durante todo el día. Sin la estimulación mental que necesitan, crearán sus propios proyectos para mantener ocupadas sus mentes, y probablemente no serán los tipos de proyectos que te gustaría.
+      <br>
+      <br>
+      En cuanto a su color, los colores aceptables son el negro y tostado, hígado y tostado, y rojo sólido. En los perros bicolor, la cantidad de silla de montar o manto varía. Los colores no siempre se declaran claramente o se definen de manera distinta. En las áreas más oscuras, el pelaje puede estar salpicado de pelos más claros o de tejón.
+      <br>
+      <br>
+      En resumen, el Sabueso de Sangre es un perro impresionante y noble, conocido por su excepcional habilidad para rastrear y su temperamento amable y gentil. Su apariencia distintiva y su personalidad amigable lo hacen un favorito entre muchos sabuesos.
+    `,
+    history: `
+      La historia del Sabueso de Sangre, o Bloodhound, es tan fascinante como la raza misma. Esta raza de perro tiene sus raíces en la antigua Francia, donde se crió originalmente para su habilidad de rastreo y caza. Los Sabuesos de Sangre son descendientes del antiguo Sabueso de San Huberto, una raza de perro conocida por su excepcional habilidad para seguir rastros.
+      <br>
+      <br>
+      El Sabueso de Sangre es un perro de rastro, lo que significa que sigue el rastro de un animal o persona por el olor que ha dejado a su paso. Son expertos en el rastreo en frío, lo que significa que pueden seguir un rastro "frío" o antiguo con una precisión asombrosa. Esto los hace excepcionales como perros de rastreo.
+      <br>
+      <br>
+      El Sabueso de Sangre fue reconocido por el United Kennel Club en 1914, lo que demuestra la larga historia y el respeto que esta raza ha ganado a lo largo de los años. Aunque la raza se originó en Francia, ha sido apreciada y criada en muchas otras partes del mundo a lo largo de los siglos.
+      <br>
+      <br>
+      A lo largo de los años, los Sabuesos de Sangre han sido utilizados en una variedad de roles, desde la caza hasta la búsqueda y rescate. Su increíble sentido del olfato los hace invaluables en la búsqueda de personas perdidas o desaparecidas. De hecho, la evidencia rastreada por un Sabueso de Sangre ha sido utilizada en los tribunales de justicia debido a su increíble habilidad para seguir un rastro.
+      <br>
+      <br>
+      A pesar de su impresionante linaje y habilidades de rastreo, los Sabuesos de Sangre son conocidos por ser gentiles, amables y sociables con las personas. Son particularmente apegados a sus dueños y pueden ser algo reservados y obstinados, pero nunca agresivos. Son tolerantes con otros perros y animales domésticos, y son sensibles tanto a los elogios como a las correcciones.
+      <br>
+      <br>
+      En resumen, la historia del Sabueso de Sangre es una de habilidad, nobleza y lealtad. Desde sus orígenes en la antigua Francia hasta su reconocimiento por el United Kennel Club, esta raza ha demostrado ser una valiosa adición al mundo canino. Ya sea que estén rastreando un rastro antiguo o simplemente pasando el rato con su familia humana, los Sabuesos de Sangre son verdaderamente una raza única y digna de admiración.
+    `,
+    searchTerms: [
+      'Sabueso de Sangre',
+      'Sabueso',
+      'Rastreo',
+      'Sabueso de Sangre',
+      'sabueso de sangre',
+      'Bloodhound',
+      'bloodhound',
+      'Sabueso de sangre',
+      'sabueso de Sangre',
+      'Sabueso De Sangre',
+    ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Moderada',
     soporta_clima_frio: 'Moderada',
@@ -3576,7 +4186,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
-    fuentes: ["https://en.wikipedia.org/wiki/Bloodhound", "https://www.akc.org/dog-breeds/bloodhound/", "https://www.royalcanin.com/us/dogs/breeds/breed-library/bloodhound", "https://www.dogbreedinfo.com/bloodhound.htm", "https://www.ukcdogs.com/bloodhound"]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Bloodhound',
+      'https://www.akc.org/dog-breeds/bloodhound/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/bloodhound',
+      'https://www.dogbreedinfo.com/bloodhound.htm',
+      'https://www.ukcdogs.com/bloodhound',
+    ],
   },
   38: {
     weight: {
@@ -3624,12 +4240,70 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Obesidad, debido a su alta energía y apetito',
     ],
-    description: "El Coonhound Azul de Virginia, también conocido como Bluetick Coonhound, es un perro de apariencia fuerte y musculosa, conocido por su agilidad y velocidad. Tiene un cuerpo bien proporcionado, no torpe ni pesado. Su pelaje es de textura media, pegado al cuerpo, dando una apariencia suave y brillante. Su cabeza es amplia entre las orejas, con un cráneo ligeramente abovedado. Los ojos son bastante grandes, separados y de color marrón oscuro. El Coonhound Azul tiene una expresión típica de ruego, nunca salvaje o temerosa. Este perro es activo, ambicioso y rápido en el rastro. Debería ser un perro de lengua libre en el rastro, con una voz de ladrido, chillido, corte o bugle al golpear y rastrear, con un cambio distinto en el árbol de ladridos, cortando, o una combinación de ambos.",
-
-    history: "Es muy probable que el Bluetick descienda principalmente de los rápidos foxhounds de Inglaterra, con alguna introducción de la sangre de varios sabuesos franceses que se utilizaban para cazar animales de gran tamaño. Los perros franceses eran conocidos por tener un olfato muy agudo. George Washington recibió cinco de estos sabuesos franceses del general Lafayette. Los Blueticks se registraron originalmente en el UKC como ingleses. En 1946, a petición de los aficionados al Bluetick, el UKC comenzó a registrar a los Blueticks como una raza separada.",
-
-    searchTerms: ['Coonhound Azul de Virginia', 'Sabueso', 'Caza', "coonhound azul de virginia", "bluetick coonhound", "coonhound", "bluetick", "coonhound azul", "coonhound virginia", "bluetick virginia", "coonhound azul de virginia con tilde", "coonhound azul de virginia sin tilde", "coonhound azul de virginia errores ortograficos", "coonhound azul de virginia formas coloquiales"],
-
+    description: `
+      El Coonhound Azul de Virginia, también conocido como Bluetick Coonhound, es una raza de perro que irradia una apariencia de velocidad y musculatura bien definida. Este perro no es torpe ni pesado en su constitución, sino que presenta un cuerpo ordenado y bien proporcionado. Su pelaje es de textura media, pegado al cuerpo, dando una apariencia suave y brillante. No es demasiado áspero ni demasiado corto.
+      <br>
+      <br>
+      La cabeza del Bluetick Coonhound es amplia entre las orejas, con un cráneo ligeramente abovedado. Los ojos son bastante grandes, separados y redondos, de color marrón oscuro, pero no más claros que el marrón claro. Los párpados son ajustados y bien cerrados, sin exceso de tercer párpado visible. La expresión es la típica de un perro de caza suplicante, nunca salvaje o temerosa.
+      <br>
+      <br>
+      Las orejas están un poco por debajo de la parte superior del cráneo, pero colocadas lo suficientemente bajas en la cabeza para carecer de capacidad eréctil. Deben ser delgadas, con un ligero rollo, afinándose bien hacia un punto, y llegar bien hacia el final de la nariz cuando se estiran hacia adelante.
+      <br>
+      <br>
+      El cuerpo del Bluetick Coonhound muestra una considerable profundidad, extendiéndose bien hacia abajo hacia el codo, en lugar de una excesiva anchura, para permitir mucho espacio para los pulmones. La espalda es muscular y firme, ligeramente más baja en las caderas que en la cruz. La grupa es amplia, bien musculada y ligeramente arqueada.
+      <br>
+      <br>
+      Las patas delanteras son rectas desde los hombros hasta los pies, bien huesudas y musculosas, con fuertes y rectos metacarpos. Las patas traseras son rectas desde la cadera hasta el pie cuando se ven desde atrás. Los corvejones son fuertes y moderadamente doblados cuando se ven desde el lado. Los muslos tienen un amplio desarrollo muscular para una abundancia de potencia de propulsión.
+      <br>
+      <br>
+      El Bluetick Coonhound es activo, ambicioso y rápido en el rastro. Debe ser un perro de lengua libre en el rastro, con un ladrido, chillido, corte o voz de trompeta al golpear y seguir el rastro, con un cambio distinto en el árbol de ladrido, corte, o combinación de ambos.
+      <br>
+      <br>
+      En cuanto a la altura y el peso, la altura a la cruz para los machos adultos no debe ser inferior a 22 pulgadas ni superior a 27 pulgadas. La altura a la cruz para las hembras adultas no debe ser inferior a 21 pulgadas ni superior a 25 pulgadas. El peso ideal para los machos es de 55 a 80 libras; las hembras de 45 a 65 libras, en proporción al tamaño del perro.
+      <br>
+      <br>
+      El color preferido es un cuerpo de color azul oscuro, muy moteado, salpicado por varias manchas negras de diferentes formas en la espalda, las orejas y los lados. Se prefiere más azul que negro en el cuerpo. La cabeza y las orejas son predominantemente negras. Con o sin marcas de color
+      <br>
+      <br>
+      El Bluetick Coonhound es un perro activo, ambicioso y rápido en el rastro. Debería ser un perro de lengua libre en el rastro, con un ladrido, chillido, corte o voz de trompeta al golpear y seguir el rastro, con un cambio distinto en el árbol de ladrido, corte, o combinación de ambos. Este perro está dispuesto a ser hospitalario tanto con los hombres como con los perros que están a su alrededor.
+      <br>
+      <br>
+      El Bluetick Coonhound tiene una apariencia de velocidad y musculatura bien definida. Su cuerpo es ordenado y bien proporcionado, no es torpe ni pesado en su constitución. Su pelaje es de textura media, pegado al cuerpo, dando una apariencia suave y brillante. Sus ojos son claros y agudos, con una expresión suplicante típica de los sabuesos, nunca salvaje ni temerosa. Como sabueso, la posición natural de la cabeza y la cola del Bluetick en movimiento es paralela al suelo; la cola no se enrolla sobre la espalda ni se cae entre las patas.
+      <br>
+      <br>
+      El Bluetick Coonhound es una raza de perro que ha sido criada y perfeccionada con un propósito específico en mente. Su historia y evolución han sido influenciadas por las necesidades y deseos de los cazadores y los dueños de perros a lo largo de los años. Aunque la raza ha cambiado y se ha adaptado a lo largo del tiempo, el Bluetick Coonhound sigue siendo un perro de trabajo altamente valorado y respetado por su habilidad para rastrear y cazar.
+    `,
+    history: `
+      La historia del Coonhound Azul de Virginia, también conocido como Bluetick Coonhound, es una mezcla de tradiciones y razas que se entrelazan en un relato fascinante de evolución canina. Este perro, que hoy es un cazador de mapaches altamente valorado y un compañero de familia apreciado, tiene sus raíces tanto en los Estados Unidos como en Europa.
+      <br>
+      <br>
+      El Bluetick Coonhound es probablemente descendiente de los rápidos foxhounds de Inglaterra, con la introducción de la sangre de varios sabuesos franceses utilizados para la caza de animales de gran tamaño. Los perros franceses eran conocidos por su habilidad para seguir rastros fríos. De hecho, se sabe que George Washington recibió cinco de estos sabuesos franceses del general Lafayette.
+      <br>
+      <br>
+      Originalmente, los Blueticks se registraban con el UKC (United Kennel Club) como perros de raza inglesa. Sin embargo, en 1946, a petición de los aficionados al Bluetick, el UKC comenzó a registrar a los Blueticks como una raza separada. Este cambio marcó un hito importante en la historia de la raza, ya que permitió a los criadores y aficionados centrarse en las características únicas y deseables de los Blueticks.
+      <br>
+      <br>
+      A lo largo de los años, los criadores han trabajado para mejorar la raza, siempre con el objetivo de mantener y mejorar la calidad de los Blueticks. Han buscado un perro que combine la velocidad y la musculatura con un instinto de caza agudo y una disposición amigable. Aunque los Blueticks son excelentes cazadores, también son conocidos por su temperamento amigable y su lealtad hacia sus familias humanas.
+      <br>
+      <br>
+      La historia del Coonhound Azul de Virginia es un testimonio de la dedicación y el amor de los criadores y dueños de perros por una raza que ha demostrado ser tanto un trabajador incansable como un compañero leal. A medida que la raza continúa evolucionando, podemos esperar que los Blueticks sigan siendo una presencia valiosa tanto en el campo como en el hogar.
+    `,
+    searchTerms: [
+      'Coonhound Azul de Virginia',
+      'Sabueso',
+      'Caza',
+      'coonhound azul de virginia',
+      'bluetick coonhound',
+      'coonhound',
+      'bluetick',
+      'coonhound azul',
+      'coonhound virginia',
+      'bluetick virginia',
+      'coonhound azul de virginia con tilde',
+      'coonhound azul de virginia sin tilde',
+      'coonhound azul de virginia errores ortograficos',
+      'coonhound azul de virginia formas coloquiales',
+    ],
     tendencia_a_ladrar: 'Alta',
     necesidad_de_aseo: 'Moderada',
     soporta_clima_frio: 'Moderada',
@@ -3637,11 +4311,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     para_primerizos: 'Baja',
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
-
     casos_famosos: [],
-
-    fuentes: ["https://en.wikipedia.org/wiki/Bluetick_Coonhound", "https://www.akc.org/dog-breeds/bluetick-coonhound/", "https://www.ukcdogs.com/bluetick-coonhound"]
-
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Bluetick_Coonhound',
+      'https://www.akc.org/dog-breeds/bluetick-coonhound/',
+      'https://www.ukcdogs.com/bluetick-coonhound',
+    ],
   },
   39: {
     weight: {
@@ -3695,32 +4370,65 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de piel',
       'Problemas oculares',
     ],
-    description: `El Boerboel es un perro grande, fuerte e inteligente de trabajo. Es bien equilibrado con buen desarrollo muscular y movimiento animado. El perro debe ser impresionante e imponente. Los machos aparecen notablemente masculinos y las hembras femeninas. Todas las partes del cuerpo deben estar en proporción entre sí. La cabeza es la característica más importante del Boerboel, ya que representa su carácter total. Es corta, ancha, profunda, cuadrada y muscular con mejillas bien llenas. La parte entre los ojos debe estar bien llena. La parte superior de la cabeza es ancha y plana, con un desarrollo muscular prominente. La cara debe mezclarse simétricamente con la cabeza, y puede ser con o sin una máscara negra. El hocico es negro con grandes orificios nasales que están ampliamente espaciados. El hueso nasal es recto y paralelo a la línea superior de la cabeza que es profunda, ancha y se estrecha ligeramente hacia el frente. El hueso nasal debe ser de 8-10 cm de largo. El labio superior flojo y carnoso debe cubrir el labio inferior, pero no debe colgar más bajo que la mandíbula inferior. Las mandíbulas (mandíbulas) son fuertes, profundas y anchas, y se estrechan ligeramente hacia el frente. Los dientes deben ser blancos, bien desarrollados, correctamente espaciados, con un conjunto completo de 42 dientes y una mordida de tijera. Los ojos anchos y horizontalmente colocados son de cualquier tono de marrón, pero más oscuros que la piel, con párpados firmes y bien pigmentados. Las orejas deben ser de tamaño mediano, en forma de V y deben estar en proporción con la cabeza. Están colocados bastante altos y anchos contra la cabeza. Cuando el perro está alerta, las orejas deben formar una línea recta con la parte superior de la cabeza. La piel del cuello es suelta debajo de la garganta y se vuelve tensa entre las patas delanteras. El cuerpo se estrecha ligeramente hacia el lomo. La línea superior debe ser recta. La espalda es recta, ancha y en proporción, con músculos de la espalda prominentes y un lomo corto. El pecho es muscular, ancho y fuerte. La cola recta y corta está unida alta al cuerpo. Las patas delanteras deben ser perfectamente verticales. Las patas traseras son ligeramente más pequeñas que las patas delanteras. Las grandes patas bien acolchadas son redondas con uñas curvas oscuras. Las patas deben apuntar hacia adelante. Los espolones deben ser removidos. La piel es gruesa, suelta, bien pigmentada con arrugas moderadas en la frente cuando el perro está alerta. El pelaje corto, denso y elegante viene en crema blanca, pálido leonado, negro, marrón rojizo, marrón y todos los tonos de atigrado.`,
-    history: `El desarrollo del Boerboel puede describirse con razón como una verdadera historia de éxito sudafricana y hoy es un faro para aquellos que han hecho una contribución para mejorar la raza. El refinamiento de la raza todavía está en la etapa de desarrollo. Ya se ha escrito mucho sobre el linaje del Boerboel, pero nadie puede afirmar con certeza que se cría a partir de una, dos o más razas de perros. Lo que se confirma por la investigación es que Jan van Riebeeck trajo consigo un "bullenbijter" a su llegada al Cabo. Este perro era una raza grande y fuerte que recordaba al tipo de Mastiff. Aquellos que siguieron a Van Riebeeck al Cabo también trajeron consigo solo los perros más grandes y fuertes y durante un período de décadas solo los más fuertes sobrevivieron en el ahora desolado país. Con la llegada de los colonos británicos en 1820 trajeron entre otros el Bulldog y el tipo de perro Mastiff. (En 1938, el verdadero Bull Mastiff fue importado a Sudáfrica por De Beers para proteger las minas de diamantes). También se sabe que importaron un campeón obtenido de los hotentotes, que jugó un papel en el desarrollo del Boerboel. Los "Boerdogs" (como se les conoce) fueron dispersados por los Voortrekkers durante el Gran Trek y continuaron criándose con ellos. Según la tradición, después de la Guerra Anglo Boer en 1902, estos perros se cruzaron con el Bulldog inglés de patas largas y también con el Bull Mastiff a finales y principios de los años 50. La historia es especialmente conocida entre los agricultores del noreste del Estado Libre, el norte de Natal y en partes de Transvaal.`,
+    description: `
+      El Boerboel es una raza de perro que se destaca por su impresionante presencia y su gran tamaño. Originario de Sudáfrica, este perro es conocido por su fuerza, su inteligencia y su lealtad inquebrantable hacia su familia. Es un perro que se caracteriza por su cuerpo poderoso y bien musculado, con una cabeza grande y cuadrada, y una mandíbula fuerte y potente. Su pelaje es corto y denso, y puede variar en colores que van desde el marrón claro hasta el bronceado oscuro, a veces con marcas blancas.
+      <br>
+      <br>
+      El Boerboel es un perro que irradia confianza y seguridad. Su mirada es penetrante y alerta, siempre atenta a lo que sucede a su alrededor. A pesar de su apariencia intimidante, es un perro que se lleva muy bien con su familia, mostrándose cariñoso y protector con los suyos. Sin embargo, puede ser reservado con los extraños, lo que lo convierte en un excelente perro guardián.
+      <br>
+      <br>
+      En cuanto a su comportamiento, el Boerboel es un perro que necesita mucha actividad física y mental. Es una raza que disfruta de largas caminatas, juegos de búsqueda y cualquier actividad que le permita quemar energía. Además, es un perro inteligente que disfruta de los desafíos mentales, por lo que el entrenamiento de obediencia y los juegos de inteligencia pueden ser una excelente manera de mantenerlo estimulado.
+      <br>
+      <br>
+      A pesar de su tamaño, el Boerboel es un perro que se adapta bien a diferentes entornos, siempre y cuando se le proporcione suficiente espacio para moverse. No es un perro que se sienta cómodo en espacios pequeños o confinados, por lo que no es la mejor opción para vivir en un apartamento pequeño. Prefiere tener un patio grande donde pueda correr y jugar.
+      <br>
+      <br>
+      En cuanto a su salud, el Boerboel es una raza generalmente saludable, pero como todos los perros grandes, puede ser propenso a ciertas condiciones como la displasia de cadera y de codo, problemas cardíacos y ciertos tipos de cáncer. Por lo tanto, es importante llevarlo a chequeos veterinarios regulares y mantenerlo en un peso saludable para evitar problemas de salud.
+      <br>
+      <br>
+      En resumen, el Boerboel es un perro que impresiona no solo por su apariencia física, sino también por su carácter fuerte y leal. Es un perro que necesita un dueño que pueda proporcionarle el ejercicio y la estimulación mental que necesita, así como un ambiente amoroso y seguro. Con el cuidado y la atención adecuados, el Boerboel puede ser un compañero leal y protector para cualquier familia.
+    `,
+    history: `
+      La historia del Boerboel es tan robusta y resistente como la raza misma. Esta raza de perro, cuyo nombre significa "perro de granja" en afrikáans, tiene sus raíces en Sudáfrica. Los Boerboels son descendientes de perros robustos y versátiles que fueron traídos a Sudáfrica por colonos europeos, incluyendo a los bóeres, de ahí su nombre. Estos colonos necesitaban perros que pudieran soportar las duras condiciones de África, proteger sus granjas y sobrevivir por sí mismos. Los perros que trajeron con ellos se cruzaron con los perros nativos de Sudáfrica y, con el tiempo, se desarrolló el Boerboel.
+      <br>
+      <br>
+      Los Boerboels se criaron para ser perros de trabajo en las granjas, y su principal tarea era proteger la propiedad y a la familia. Debido a su fuerza y tamaño, también se utilizaban para defenderse de los depredadores salvajes, como los leones y los hienas. A lo largo de los años, la raza se ha mantenido relativamente pura, debido a su aislamiento geográfico y a la selectividad de los criadores.
+      <br>
+      <br>
+      Durante el siglo XX, la raza estuvo al borde de la extinción debido a la urbanización y a la falta de control de la cría. Sin embargo, en la década de 1980, un grupo de entusiastas se propuso rescatar al Boerboel. Recorrieron el país en busca de los ejemplares más puros para establecer una línea de cría sólida. Gracias a sus esfuerzos, la raza fue salvada y hoy en día es muy apreciada en Sudáfrica y en todo el mundo.
+      <br>
+      <br>
+      El Boerboel fue reconocido por el American Kennel Club en 2015, lo que ha contribuido a aumentar su popularidad. Aunque originalmente se criaron como perros de trabajo, los Boerboels también son conocidos por ser excelentes perros de familia. Son leales, protectores y aman a los niños, lo que los convierte en una excelente opción para una familia activa.
+      <br>
+      <br>
+      En resumen, la historia del Boerboel es una historia de supervivencia y resistencia. Esta raza ha resistido las duras condiciones de África, ha sobrevivido al borde de la extinción y ha emergido como una raza de perro amada y respetada. Su historia es un testimonio de su fuerza, coraje y lealtad, cualidades que siguen siendo evidentes en los Boerboels de hoy.
+    `,
     searchTerms: [
-      'Boerboel', 'Perro de trabajo', 'Granja',
-      "boerboel",
-      "boerbul",
-      "perro boerboel",
-      "perro boerbul",
-      "raza boerboel",
-      "raza boerbul",
-      "perro sudafricano boerboel",
-      "perro de granja boerboel",
-      "perro mastiff sudafricano",
-      "south african boerboel",
-      "south african mastiff",
-      "african boerboel",
-      "boerboel mastiff",
-      "boerboel dog",
-      "boerboel breed",
-      "boerboel puppy",
-      "boerboel puppies",
-      "boerboel dogs",
-      "boerboel mastiff dogs",
-      "boerboel mastiff breed",
-      "boerboel mastiff puppies",
-      "boerboel mastiff dogs breed"
+      'Boerboel',
+      'Perro de trabajo',
+      'Granja',
+      'boerboel',
+      'boerbul',
+      'perro boerboel',
+      'perro boerbul',
+      'raza boerboel',
+      'raza boerbul',
+      'perro sudafricano boerboel',
+      'perro de granja boerboel',
+      'perro mastiff sudafricano',
+      'south african boerboel',
+      'south african mastiff',
+      'african boerboel',
+      'boerboel mastiff',
+      'boerboel dog',
+      'boerboel breed',
+      'boerboel puppy',
+      'boerboel puppies',
+      'boerboel dogs',
+      'boerboel mastiff dogs',
+      'boerboel mastiff breed',
+      'boerboel mastiff puppies',
+      'boerboel mastiff dogs breed',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Baja',
@@ -3731,9 +4439,9 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-      "https://en.wikipedia.org/wiki/Boerboel",
-      "https://www.akc.org/dog-breeds/boerboel/"
-    ]
+      'https://en.wikipedia.org/wiki/Boerboel',
+      'https://www.akc.org/dog-breeds/boerboel/',
+    ],
   },
   40: {
     weight: {
@@ -3788,9 +4496,57 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Atrofia retiniana progresiva',
       'Epilepsia',
     ],
-    description: `El Border Collie es una raza de perro de tamaño mediano conocida por su increíble inteligencia y capacidad para el trabajo. Esta raza se originó en la frontera entre Escocia e Inglaterra y fue desarrollada para ayudar a los pastores a manejar sus rebaños. Los Border Collies son famosos por su "ojo", una mirada casi hipnótica que utilizan para controlar a las ovejas y otros animales de granja. Son perros muy enérgicos y necesitan mucho ejercicio y estimulación mental para mantenerse felices y saludables. Los Border Collies son perros de trabajo y prosperan cuando tienen una tarea que realizar. Son perros muy leales y forman fuertes vínculos con sus dueños. Aunque son perros maravillosos, los Border Collies no son para todos. Requieren mucho tiempo, energía y compromiso por parte de sus dueños. Si se les deja solos o se aburren, pueden volverse destructivos.`,
-    history: `El Border Collie tiene sus raíces en el norte de Inglaterra y Escocia. Fueron desarrollados por pastores que necesitaban un perro que pudiera manejar grandes rebaños de ovejas en terrenos difíciles. Los Border Collies son conocidos por su "ojo", una intensa mirada fija que utilizan para controlar a las ovejas. Esta raza fue criada específicamente por su habilidad para trabajar y su inteligencia, en lugar de su apariencia. Los Border Collies son una de las razas de perros más inteligentes y entrenables del mundo. Son capaces de aprender una increíble variedad de comandos y trucos. A lo largo de los años, los Border Collies han demostrado ser increíblemente versátiles. Además de su trabajo tradicional como perros pastores, se utilizan en una variedad de roles, incluyendo perros de búsqueda y rescate, perros de terapia y perros de servicio. También son competidores estelares en una variedad de deportes caninos, incluyendo agilidad, obediencia y pruebas de pastoreo.`,
-    searchTerms: ['Border Collie', 'Pastoreo', 'Ovejas', 'Border Collie', 'border collie', 'bordercollie', 'Bordercollie', 'Collie de la frontera', 'collie de la frontera', 'bordercolli', 'Bordercolli', 'Bordercolie', 'bordercolie'],
+    description: `
+      El Border Collie es una raza de perro que se destaca por su agilidad, inteligencia y capacidad para trabajar con ganado. Esta raza es conocida por su "ojo", una mirada casi hipnótica que utilizan al pastorear. Además de su inteligencia, los Border Collies son conocidos por su velocidad, fuerza e instinto de pastoreo innato. Son perros que establecen el estándar en el pastoreo, especialmente con ovejas.
+      <br>
+      <br>
+      En términos de apariencia física, los Border Collies tienen un buen equilibrio corporal, lo que les permite cambiar de dirección y velocidad rápidamente. Su silueta suave muestra calidad, elegancia y equilibrio perfecto. Deben tener suficiente sustancia para transmitir resistencia. El equilibrio, el contorno, la inteligencia, el temperamento y el movimiento son de suma importancia. Son perros completamente sanos, dispuestos y capaces de hacer su trabajo.
+      <br>
+      <br>
+      El pelaje de los Border Collies puede variar en longitud, desde largo hasta medio o suave, y puede ser liso o ondulado. El pelaje largo tendrá patas delanteras, calzones y cola bien emplumados, y una abundante melena. El pelaje superior es denso y de textura media. El subpelo es suave, corto y denso para proporcionar una resistencia adecuada al clima.
+      <br>
+      <br>
+      Los Border Collies son perros rápidos, alertas e inteligentes que están ansiosos y son capaces de trabajar con el ganado bajo la dirección de su dueño. No deben ser ni nerviosos ni agresivos, sino entusiastas y receptivos. Son perros que son conocidos por su "ojo", o mirada casi hipnótica, cuando están pastoreando el ganado. Otras características específicas incluyen inteligencia, velocidad, fuerza y un instinto de pastoreo innato. El Border Collie establece el estándar en el pastoreo, particularmente con las ovejas.
+      <br>
+      <br>
+      En términos de tamaño, la altura ideal en la cruz para los machos es de 21 pulgadas, ligeramente menos para las hembras. Su andar es libre, suave e incansable, manteniendo los pies cerca del suelo. El andar transmite la impresión de poder moverse con gran sigilo y velocidad.
+      <br>
+      <br>
+      En cuanto a su color, los Border Collies pueden ser de varios colores, incluyendo negro, rojo, gris, merle azul, merle rojo, limón y sable. Pueden tener solo adornos blancos, y/o pueden estar acompañados de puntos tostados. Todos los colores o combinaciones de colores y/o marcas son aceptables. Las marcas blancas pueden ser blancas claras o moteadas hasta cualquier grado. Las manchas blancas aleatorias en el cuerpo y la cabeza son aceptables pero no deben predominar. El color y las marcas siempre son secundarios a la evaluación física y al andar.
+      <br>
+      <br>
+      En resumen, los Border Collies son perros de trabajo altamente inteligentes y capaces, conocidos por su habilidad para pastorear y su agilidad. Son perros que son amados por su inteligencia, su disposición para trabajar y su hermosa apariencia.
+    `,
+    history: `
+      La historia del Border Collie es una que está intrínsecamente ligada a las tierras de Europa occidental, específicamente al norte de Inglaterra y Escocia. En estas regiones, las personas que buscaban características específicas de pastoreo aislaron a los perros individuales que exhibían esos rasgos y los criaron, desarrollando así una "raza pura". El Border Collie, como lo conocemos hoy, fue establecido hace poco más de 100 años.
+      <br>
+      <br>
+      Estos perros son conocidos específicamente por su "ojo", o mirada casi hipnótica, cuando están pastoreando ganado. Otras características específicas incluyen inteligencia, velocidad, fuerza y un instinto innato de pastoreo. El Border Collie establece el estándar en el pastoreo, particularmente en ovejas. Esta raza fue históricamente criada por su habilidad de trabajo en lugar de su tipo.
+      <br>
+      <br>
+      El Border Collie fue reconocido por el United Kennel Club el 1 de enero de 1961. Sin embargo, su historia se remonta mucho más atrás. Los Border Collies se desarrollaron en las Tierras Altas de Escocia para pastorear ovejas, y su nombre proviene de su probable lugar de origen a lo largo de la frontera entre Escocia e Inglaterra. Los Border Collies son descendientes de perros de trabajo de tipo landrace que se encuentran en Gran Bretaña antes de la introducción de las razas de perros de trabajo estándar.
+      <br>
+      <br>
+      La raza fue perfeccionada en el siglo XIX y la palabra "Collie" es una palabra de la antigua lengua celta que significa útil o hábil. Desde sus primeros días, el Border Collie ha sido reconocido por su intensa energía y trabajo duro. Aunque la raza fue desarrollada principalmente para el pastoreo de ovejas, también se encontró que los Border Collies eran excelentes en el pastoreo de ganado y otros animales de granja.
+      <br>
+      <br>
+      En resumen, la historia del Border Collie es una de habilidad, trabajo duro y adaptabilidad. Estos perros fueron criados para trabajar y su historia refleja su increíble habilidad para hacer precisamente eso. A lo largo de los años, la raza ha sido apreciada y valorada por su inteligencia, su habilidad para trabajar en armonía con los humanos y su incansable ética de trabajo.
+    `,
+    searchTerms: [
+      'Border Collie',
+      'Pastoreo',
+      'Ovejas',
+      'Border Collie',
+      'border collie',
+      'bordercollie',
+      'Bordercollie',
+      'Collie de la frontera',
+      'collie de la frontera',
+      'bordercolli',
+      'Bordercolli',
+      'Bordercolie',
+      'bordercolie',
+    ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Moderada',
     soporta_clima_frio: 'Alta',
@@ -3801,26 +4557,25 @@ export const DOG_LIST: { [key: number]: Dog } = {
     casos_famosos: [
       {
         nombre: 'Rico',
-        caso: 'Perro que fue estudiado por su capacidad para reconocer más de 200 palabras'
+        caso: 'Perro que fue estudiado por su capacidad para reconocer más de 200 palabras',
       },
       {
         nombre: 'Chaser',
-        caso: 'Perro que fue estudiado por su capacidad para reconocer más de 1000 palabras'
+        caso: 'Perro que fue estudiado por su capacidad para reconocer más de 1000 palabras',
       },
       {
         nombre: 'Striker',
-        caso: 'Perro que tiene el récord mundial Guinness por el rollo de ventana de coche más rápido'
-      }
+        caso: 'Perro que tiene el récord mundial Guinness por el rollo de ventana de coche más rápido',
+      },
     ],
     fuentes: [
-      "https://en.wikipedia.org/wiki/Border_Collie",
-      "https://www.akc.org/dog-breeds/border-collie/",
-      "https://www.royalcanin.com/us/dogs/breeds/breed-library/border-collie",
-      "https://www.dogbreedinfo.com/bordercollie.htm",
-      "https://www.ukcdogs.com/border-collie"
-    ]
+      'https://en.wikipedia.org/wiki/Border_Collie',
+      'https://www.akc.org/dog-breeds/border-collie/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/border-collie',
+      'https://www.dogbreedinfo.com/bordercollie.htm',
+      'https://www.ukcdogs.com/border-collie',
+    ],
   },
-  // Acá empece a hacer parte por parte y me empezó a dar textos más largos
   41: {
     weight: {
       imperial: '11.5 - 15.5',
@@ -3852,10 +4607,36 @@ export const DOG_LIST: { [key: number]: Dog } = {
       url: 'https://cdn2.thedogapi.com/images/HJOpge9Em.jpg',
     },
     country_code: 'GB',
-    description:
-      'El Border Terrier es una de las razas de terrier más antiguas de Gran Bretaña, desarrollada en el territorio fronterizo que rodea las colinas de Cheviot. Los granjeros y pastores que necesitaban un perro que tuviera patas lo suficientemente largas para seguir a un caballo, pero que fuera lo suficientemente pequeño para seguir a un zorro al suelo, lo mantuvieron puro durante generaciones. El Border Terrier es un perro construido para la resistencia y la agilidad. Es fuerte, con huesos medianos y patas lo suficientemente largas para seguir a un caballo. La raza es bastante estrecha en hombros, cuerpo y cuartos traseros, y está cubierta con una chaqueta intensamente áspera, algo rota y de ajuste ceñido. Su cabeza, parecida a la de una nutria, es distintiva. En proporción, la altura, medida en la cruz, es ligeramente mayor que la distancia desde la cruz hasta la cola. El Border Terrier es alerta, activo, ágil y capaz de deslizarse por aberturas estrechas, así como de viajar rápidamente por cualquier tipo de terreno. Son extremadamente valientes cuando cazan, pero también son de buen carácter, afectuosos, obedientes y fácilmente entrenables. El Border Terrier tiene una capa densa, áspera y recta, con una capa inferior de ajuste ceñido. Se debe exhibir en un estado lo más natural posible. El recorte aceptable incluye arreglar la cabeza, el cuello y los pies. Las condiciones de vida del Border Terrier son flexibles, se adaptará a un apartamento siempre y cuando se le proporcione suficiente ejercicio. Son moderadamente inactivos en interiores y un pequeño patio es suficiente. Necesitan mucho ejercicio, que incluye un largo paseo diario. Los colores aceptables son rojo, trigo, grizzle y tan y azul y tan.',
-    history:
-      'El Border Terrier es una de las razas de terrier más antiguas de Gran Bretaña, desarrollada en el territorio fronterizo que rodea las colinas de Cheviot. Los granjeros y pastores que necesitaban un perro que tuviera patas lo suficientemente largas para seguir a un caballo, pero que fuera lo suficientemente pequeño para seguir a un zorro al suelo, lo mantuvieron puro durante generaciones. El Border Terrier es posiblemente uno de los tipos más antiguos de terriers en Gran Bretaña. Los granjeros tenían problemas con los zorros que mataban a sus animales y el Border Terrier trabajaba junto a ellos para expulsar al zorro de sus madrigueras y matarlos. Eran lo suficientemente pequeños para seguir a un zorro al suelo pero lo suficientemente grandes para seguir a los caballos. Los perros a menudo no eran alimentados por los granjeros con la esperanza de que esto aumentaría su instinto de caza y tendrían que cazar para sobrevivir. Junto con los zorros, cazaban nutrias, martas, el feroz tejón, ratones y ratas. Hoy en día, aunque el Border Terrier es principalmente un perro de compañía, todavía puede servir como un excelente perro de granja, ayudando a controlar las plagas. El Border Terrier fue reconocido por el Kennel Club británico en 1920 y por el American Kennel Club en 1930. Algunos de los talentos del Border Terrier incluyen: caza, rastreo, perro guardián, agilidad, obediencia competitiva y realización de trucos.',
+    description: `
+      El Border Terrier es una raza de perro que se destaca por su resistencia y agilidad. Este perro de tamaño mediano tiene una estructura ósea moderada y patas lo suficientemente largas como para seguir a un caballo, pero también es lo suficientemente pequeño como para meterse en espacios estrechos. Su cuerpo es profundo, estrecho y bastante largo, lo que le permite ser abarcado por las manos de un hombre detrás de las escápulas. Su pelaje es áspero, denso y recto, con una capa inferior ajustada que le proporciona una protección adicional.
+      <br>
+      <br>
+      El Border Terrier tiene una cabeza distintiva que se asemeja a la de una nutria. Su cráneo es moderadamente ancho y plano, con mucho espacio entre los ojos y las orejas. La parada es una curva moderada y ligeramente amplia, no una hendidura pronunciada. Los pómulos son ligeramente llenos, dando a la cara una apariencia robusta. El hocico es corto y fuerte, y los dientes son fuertes y blancos, con una mordida de tijera o nivel.
+      <br>
+      <br>
+      Los ojos del Border Terrier son oscuros y expresan una mirada aguda. Sus orejas son pequeñas, en forma de V y de grosor moderado. Están colocadas un poco en el lateral de la cabeza, no muy altas, y caen hacia adelante cerca de las mejillas. El cuello es de longitud moderada, ensanchándose gradualmente hacia los hombros. Los hombros son largos y bien reclinados, y las patas delanteras son rectas y no demasiado pesadas en cuanto a huesos. Están colocadas un poco más anchas que las de un Fox Terrier.
+      <br>
+      <br>
+      El Border Terrier tiene un cuerpo profundo, estrecho y bastante largo, capaz de ser abarcado por las manos de un hombre detrás de las escápulas. La caja torácica se lleva bien hacia atrás, pero no está excesivamente arqueada. La espalda es flexible pero sin sugerencias de debilidad. Los cuartos traseros son musculosos y de aspecto deportivo, con muslos largos, estifles bien doblados y corvejones cerca del suelo. Los pies son pequeños y compactos, con los dedos apuntando hacia adelante y moderadamente arqueados con almohadillas gruesas.
+      <br>
+      <br>
+      El Border Terrier tiene un pelaje áspero, denso y recto, con una capa inferior ajustada. Se exhibe en un estado lo más natural posible. El recorte aceptable incluye el arreglo de la cabeza, el cuello y los pies. La piel es muy gruesa pero sigue siendo suelta. Los colores aceptables son rojo, trigo, grizzle y tan y azul y tan.
+      <br>
+      <br>
+      El Border Terrier es alerta, activo, ágil y capaz de apretarse a través de aberturas estrechas, así como de viajar rápidamente por cualquier tipo de terreno. Son extremadamente valientes cuando cazan, pero también son de buen carácter, afectuosos, obedientes y fácilmente entrenables.
+    `,
+    history: `
+      La historia del Border Terrier es una que se remonta a los tiempos antiguos, cuando la necesidad de un perro de trabajo resistente y ágil era esencial para la vida en las zonas fronterizas de Gran Bretaña. Esta raza se desarrolló en la región fronteriza que rodea las colinas de Cheviot, donde los agricultores y pastores necesitaban un perro que tuviera patas lo suficientemente largas para seguir a un caballo, pero que también fuera lo suficientemente pequeño para meterse en la madriguera de un zorro. Este equilibrio entre la resistencia y la agilidad, junto con su capacidad para trabajar en todo tipo de terrenos, hizo del Border Terrier un compañero de trabajo invaluable.
+      <br>
+      <br>
+      El Border Terrier es una de las razas de terrier más antiguas de Gran Bretaña, y se mantuvo pura durante generaciones gracias a la necesidad de sus habilidades específicas. A lo largo de los años, los criadores han trabajado para preservar las características que hacen que esta raza sea tan única, incluyendo su distintiva cabeza de nutria y su pelaje áspero y denso.
+      <br>
+      <br>
+      La raza fue reconocida por el United Kennel Club en 1948, lo que marcó un hito importante en su historia. Desde entonces, el Border Terrier ha ganado popularidad no solo como perro de trabajo, sino también como mascota de la familia. A pesar de su historia como perro de trabajo, el Border Terrier es conocido por ser de buen carácter, afectuoso, obediente y fácil de entrenar, lo que lo convierte en un excelente compañero de familia.
+      <br>
+      <br>
+      A lo largo de su historia, el Border Terrier ha demostrado ser una raza adaptable y resistente. Aunque su apariencia puede haber cambiado ligeramente con el tiempo, su espíritu inquebrantable y su habilidad para el trabajo han permanecido constantes. Hoy en día, el Border Terrier sigue siendo una raza apreciada tanto por su habilidad en el campo como por su carácter amigable y leal en el hogar.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Perro de caza valiente y capaz',
@@ -3879,20 +4660,20 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas dentales',
     ],
     searchTerms: [
-      "Border Terrier",
-      "border terrier",
-      "borderterrier",
-      "terrier de la frontera",
-      "terrier fronterizo",
-      "bordeterrier",
-      "borderterier",
-      "border terier",
-      "borderterier",
-      "terrier",
-      "perro de caza",
-      "perro de granja",
-      "perro británico",
-      "perro de compañía"
+      'Border Terrier',
+      'border terrier',
+      'borderterrier',
+      'terrier de la frontera',
+      'terrier fronterizo',
+      'bordeterrier',
+      'borderterier',
+      'border terier',
+      'borderterier',
+      'terrier',
+      'perro de caza',
+      'perro de granja',
+      'perro británico',
+      'perro de compañía',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Moderada',
@@ -3903,12 +4684,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-      "https://en.wikipedia.org/wiki/Border_Terrier",
-      "https://www.akc.org/dog-breeds/border-terrier/",
-      "https://www.royalcanin.com/us/dogs/breeds/breed-library/border-terrier",
-      "https://www.dogbreedinfo.com/borderterrier.htm",
-      "https://www.ukcdogs.com/border-terrier"
-    ]
+      'https://en.wikipedia.org/wiki/Border_Terrier',
+      'https://www.akc.org/dog-breeds/border-terrier/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/border-terrier',
+      'https://www.dogbreedinfo.com/borderterrier.htm',
+      'https://www.ukcdogs.com/border-terrier',
+    ],
   },
   42: {
     weight: {
@@ -3936,23 +4717,51 @@ export const DOG_LIST: { [key: number]: Dog } = {
     country_code: 'US',
     description: `
       La raza de perro Boston Terrier es verdaderamente una raza estadounidense, siendo una versión reducida de los tipos de Bull-and-Terrier que eran tan populares en los primeros días de nuestro país. Las razas que se cree que han influido en el desarrollo del Boston Terrier incluyen el American Pit Bull Terrier, Boxer, English Bull Terrier, French Bulldog y English Bulldog. En los primeros días de la raza, a menudo se les llamaba por varios nombres, incluyendo Round-headed Bull and Terriers, American Bull Terriers y Bullet Heads.
-
+      <br>
+      <br>
       El Boston Terrier es un perro animado, muy inteligente, de pelo liso, de cabeza corta, de construcción compacta, de cola corta, bien equilibrado. Son de color atigrado, sello o negro. El Boston es un perro robusto y no debe parecer ni delgado ni tosco. El hueso y el músculo deben estar en proporción, así como un realce, al peso y la estructura del perro. La longitud de la pierna debe equilibrarse con la longitud del cuerpo para dar al Boston su llamativo aspecto cuadrado. Las fuertes extremidades están bien giradas. La cola es corta. Ninguna característica es tan prominente que el perro parezca mal proporcionado. Al comparar ejemplares de cada sexo, la única diferencia evidente es un ligero refinamiento en la conformación de la perra. Una combinación proporcional de color y marcas blancas debe ser considerada particularmente en la determinación del valor relativo de la apariencia general a otros puntos.
-
+      <br>
+      <br>
       El Boston Terrier es un perro amigable y animado. El perro transmite una impresión de determinación, fuerza y actividad; con estilo de alto orden. La raza tiene un excelente carácter y un alto grado de inteligencia, lo que hace del Boston un compañero incomparable.
-
+      <br>
+      <br>
       El Boston Terrier es bueno para la vida en apartamentos y en el campo. Son relativamente inactivos en interiores y se manejan bien sin un patio. Esta raza es sensible a los extremos del clima.
-
+      <br>
+      <br>
       El Boston Terrier es un perro de tamaño pequeño a mediano, que pesa entre 10 y 25 libras y mide entre 15 y 17 pulgadas de altura. La raza es conocida por su cabeza cuadrada y su expresión alerta y amable. El pelaje del Boston Terrier es corto, liso y de textura fina, y puede ser de color atigrado, sello o negro, siempre con marcas blancas.
-
+      <br>
+      <br>
       El Boston Terrier es una raza de perro muy inteligente y bien educada. Son muy sensibles al tono de voz de una persona. A los Boston les gusta aprender y por lo tanto no son difíciles de entrenar. Su inteligencia asegura que recogen las cosas rápidamente. Si los humanos alrededor del perro no muestran el liderazgo que todos los perros necesitan, se volverán voluntariosos ya que comenzarán a creer que están dirigiendo el espectáculo y necesitan decirte qué hacer.
-
+      <br>
+      <br>
       El Boston Terrier es un perro amigable y animado. El perro transmite una impresión de determinación, fuerza y actividad; con estilo de alto orden. La raza tiene un excelente carácter y un alto grado de inteligencia
     `,
     history: `
-      El Boston Terrier fue reconocido por el United Kennel Club en 1914. Originando en la ciudad de Boston, Massachusetts, el Boston Terrier es una de las pocas razas desarrolladas en los Estados Unidos. Los primeros Boston Terriers fueron un cruce entre el Bulldog inglés y el ahora extinto English White Terrier. Alrededor de 1865, los cocheros empleados por la gente rica de Boston comenzaron a cruzar algunos de los perros propiedad de sus empleadores. Uno de estos cruces, entre un English White Terrier y un Bulldog inglés, resultó en un perro llamado Hooper's Judge. Judge pesaba más de 30 libras (13.5 kg). Fue criado en tamaño con una hembra más pequeña y uno de esos cachorros machos fue criado con una hembra aún más pequeña. Su descendencia se cruzó con uno o más Bulldogs franceses, proporcionando la base para el Boston Terrier. Para 1889, la raza se había vuelto lo suficientemente popular en Boston que los aficionados formaron el American Bull Terrier Club, pero este nombre propuesto no fue bien recibido por los amantes del Bull Terrier. Tampoco les gustaba el apodo de la raza, "roundheads". Poco después, la raza fue nombrada Boston Terrier en honor a su lugar de nacimiento. La raza fue reconocida por el AKC en 1893. Fue mostrada por primera vez en Boston en 1870. En los primeros años, el color y las marcas no eran muy importantes, pero para 1900, las marcas distintivas y el color de la raza fueron escritos en el estándar. Terrier solo de nombre, el Boston Terrier se ha suavizado de los perros de pelea de pozo del pasado.
-
-      En resumen, la historia del Boston Terrier es una historia de refinamiento y adaptación, una raza que fue literalmente "hecha en América". Desde sus raíces en los perros de pelea de pozo hasta su estatus actual como una de las razas de compañía más queridas, el Boston Terrier es un testimonio de la habilidad de los criadores de perros para moldear una raza en una forma que se adapte a las cambiantes necesidades y deseos de la sociedad.
+      La historia del Boston Terrier es una narrativa fascinante que se entrelaza con la historia de los Estados Unidos. Esta raza es verdaderamente americana, y su origen se remonta a la década de 1860 en la ciudad de Boston, Massachusetts. El Boston Terrier es el resultado de un cruce entre un Bulldog Inglés y un Terrier Inglés Blanco, y luego fue considerablemente endogámico para perfeccionar sus características únicas.
+      <br>
+      <br>
+      En los primeros días de la raza, se les conocía por varios nombres, incluyendo "Bull-and-Terriers de cabeza redonda", "American Bull Terriers" y "Bullet Heads". Sin embargo, fue en 1891 cuando los aficionados formaron el "American Bull Terrier Club" y finalmente cambiaron el nombre a "Boston Terrier" para honrar la ciudad donde se originó la raza.
+      <br>
+      <br>
+      El Boston Terrier fue reconocido por el American Kennel Club (AKC) en 1893 y por el United Kennel Club (UKC) en 1914. A lo largo del siglo XX, la raza se desarrolló y evolucionó hasta convertirse en el perro que conocemos y amamos hoy en día.
+      <br>
+      <br>
+      La popularidad de los deportes de sangre en la Inglaterra del siglo XIX llevó a una manía por cruzar terriers y razas de tipo bull para producir perros que pudieran sobresalir en las peleas de pit y los concursos de ratas. En Liverpool, en algún momento de la década de 1860, se produjo un cruce que resultó en el perro que eventualmente se convertiría en el Boston Terrier.
+      <br>
+      <br>
+      El Boston Terrier es un perro compacto y bien equilibrado, con un cuerpo deportivo pero compacto y un brillo amistoso en sus grandes ojos redondos. Su pelaje liso y brillante puede ser blanco y negro, atigrado o sellado (marrón oscuro). La cabeza es cuadrada, el hocico es corto y los ojos grandes y redondos pueden brillar con amabilidad, curiosidad o travesura. Siempre alerta a su entorno, los Boston se mueven con un paso alegre y rítmico.
+      <br>
+      <br>
+      El Boston Terrier es un perro amigable y animado. El perro transmite una impresión de determinación, fuerza y actividad, con un estilo de alto nivel. La raza tiene un excelente temperamento y un alto grado de inteligencia, lo que hace del Boston un compañero incomparable.
+      <br>
+      <br>
+      El Boston Terrier es un perro de ciudad por excelencia. Son robustos pero portátiles, orientados a las personas y siempre dispuestos a dar un paseo rápido al parque o a la cafetería al aire libre. Un perro inteligente con un don natural para la comedia, el elegante bostoniano es una fuente constante de sonrisas.
+      <br>
+      <br>
+      Es importante notar que, aunque el Boston Terrier es una raza robusta, como todas las razas de cara plana, pueden experimentar dificultades respiratorias si no se les proporciona un refugio adecuado del calor excesivo o la humedad.
+      <br>
+      <br>
+      En resumen, la historia del Boston Terrier es una historia de adaptación y refinamiento. Desde sus raíces en los deportes de sangre del siglo XIX hasta su estatus actual como un amado compañero.
     `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
@@ -3977,16 +4786,47 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas respiratorios',
     ],
     searchTerms: [
-      "boston terrier", "boston bull", "boston bull terrier", "boston", "terrier",
-      "boston terrior", "boston terier", "boston terrire", "boston terrior",
-      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
-      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
-      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
-      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
-      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
-      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
-      "boston terroir", "boston terroir", "boston terroir", "boston terroir",
-      "boston terroir", "boston terroir", "boston terroir", "boston terroir"
+      'boston terrier',
+      'boston bull',
+      'boston bull terrier',
+      'boston',
+      'terrier',
+      'boston terrior',
+      'boston terier',
+      'boston terrire',
+      'boston terrior',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
+      'boston terroir',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Baja',
@@ -3997,12 +4837,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-      "https://en.wikipedia.org/wiki/Boston_Terrier",
-      "https://www.akc.org/dog-breeds/boston-terrier/",
-      "https://www.royalcanin.com/us/dogs/breeds/breed-library/boston-terrier",
-      "https://www.dogbreedinfo.com/bostonterrier.htm",
-      "https://www.ukcdogs.com/boston-terrier"
-    ]
+      'https://en.wikipedia.org/wiki/Boston_Terrier',
+      'https://www.akc.org/dog-breeds/boston-terrier/',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/boston-terrier',
+      'https://www.dogbreedinfo.com/bostonterrier.htm',
+      'https://www.ukcdogs.com/boston-terrier',
+    ],
   },
   43: {
     weight: {
@@ -4037,26 +4877,35 @@ export const DOG_LIST: { [key: number]: Dog } = {
     country_code: 'BE',
     description: `
       El Bouvier des Flandres es una raza de perro de gran tamaño, poderosa y de aspecto robusto. Originario de la región agrícola de Flandes, Bélgica, fue utilizado principalmente para el pastoreo y la conducción de ganado. Aunque la llegada de la era de las máquinas y el transporte de ganado por camión parecía presagiar el fin de su utilidad, los aficionados al Bouvier se unieron para salvar a la raza de la extinción. Desde entonces, el Bouvier ha demostrado su valía en una variedad de roles, incluyendo el trabajo policial y militar, como perro guardián personal, perro guía para ciegos y en labores de búsqueda y rescate.
-
+      <br>
+      <br>
       El Bouvier des Flandres es un perro obediente que puede parecer intimidante, pero en realidad es de naturaleza agradable y gentil. Con la cantidad adecuada de ejercicio, también será tranquilo. Es entusiasta, responsable, de temperamento equilibrado y valiente, lo que lo convierte en un excelente guardián y perro de vigilancia que es fácil de entrenar. Esta raza aprende comandos relativamente rápido, aunque no tan rápido como, por ejemplo, el Pastor Alemán. Requieren un entrenamiento bien equilibrado que sea consistente en su naturaleza. Una vez que aprenden un comando, lo recordarán por el resto de su vida.
-
+      <br>
+      <br>
       El Bouvier des Flandres es un perro enérgico y activo que tiene una demanda promedio de ejercicio. Necesita salir contigo para largas caminatas diarias o correr al lado de una bicicleta. Cuando caminas a este perro, haz que talonee en la correa. No permitas que camine delante de ti, ya que el instinto le dice a un perro que el líder de la manada va primero. Durante la etapa de crecimiento, el ejercicio debe ser cuidadosamente regulado para que solo sea la caminata, de modo que los huesos, músculos y articulaciones en crecimiento no se estresen demasiado. El perro requiere toda su energía para construir un marco fuerte y saludable.
-
+      <br>
+      <br>
       El Bouvier des Flandres tiene un pelaje áspero y desaliñado, que le da un aspecto descuidado. Su característico pelaje doble es capaz de resistir el trabajo duro y el clima inclemente. Los pelos de la capa exterior son ásperos y duros; el subpelo es fino, suave y denso. El pelaje exterior es desaliñado sin ser rizado. Es corto en el cráneo. En la parte superior de la espalda, es particularmente cerrado y áspero, siempre permaneciendo áspero. El pelaje puede recortarse ligeramente solo para acentuar la línea del cuerpo. Un recorte excesivo que altere el aspecto natural y robusto debe ser considerado un defecto. El subpelo es una masa densa de pelo fino y cerrado, que se vuelve más espeso en invierno. Junto con el pelaje superior, forma una cubierta resistente al agua.
-
+      <br>
+      <br>
       El Bouvier des Flandres es un perro compacto, de cuerpo poderoso, de construcción corta y de porte erguido con un aspecto robusto.
     `,
     history: `
       La raza de perro Bouvier des Flandres tiene una historia rica y variada, con raíces en la región de Flandes, que abarca partes de la actual Bélgica, Francia y los Países Bajos.
-
+      <br>
+      <br>
       El Bouvier des Flandres se originó en la llanura agrícola de Flandes, Bélgica, donde se utilizaba principalmente para el pastoreo y la conducción de ganado. Históricamente, el término "Bouvier" se aplicaba a cualquier perro que trabajara con ganado. Esta raza también ha sido conocida por varios nombres, que incluyen Vuilbaard (Barba Sucia), Koe Hund (Perro de Vaca) y Toucheur de Boeuf (Conductor de Ganado).
-
+      <br>
+      <br>
       Cuando llegó la era de la maquinaria y resultó más económico transportar el ganado en camiones, parecía que la utilidad de la raza había llegado a su fin. Sin embargo, los aficionados al Bouvier se unieron para salvar a la raza de la extinción, preservando así a este perro de múltiples talentos. Desde entonces, el Bouvier ha demostrado su valía, siendo utilizado para el trabajo policial y militar, como perro guardián personal, como perro guía para ciegos y en labores de búsqueda y rescate. En 1922, el Club National Beige du Bouvier estableció un solo tipo y redactó un estándar de raza con la ayuda de los criadores de Bouvier. La raza fue introducida por primera vez en el continente norteamericano en la década de 1930.
-
+      <br>
+      <br>
       El origen exacto y el desarrollo de la raza siguen siendo objeto de especulación. Una teoría sostiene que se desarrolló utilizando la sangre de varias de las razas de pastoreo continentales. Otra sostiene que es un descendiente directo del Schnauzer.
-
+      <br>
+      <br>
       El Bouvier des Flandres fue reconocido por el United Kennel Club en 1948.
-
+      <br>
+      <br>
       Durante la Primera Guerra Mundial, el Bouvier des Flandres fue utilizado como perro mensajero y de rescate. Como muchas razas durante las guerras mundiales, el Bouvier estuvo a punto de extinguirse. En 1923, un grupo de individuos trabajó para recrear la raza Bouvier y se formó un club de raza en Bélgica. Algunos de los talentos del Bouvier son ser perro guardián, perro guía para ciegos, perro de búsqueda y rescate, trabajo policial, trabajo militar, carretero, agilidad, obediencia competitiva y Schutzhund.
     `,
     categoria_de_tamanio: 'Grande',
@@ -4082,14 +4931,36 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Enfermedades oculares',
     ],
     searchTerms: [
-      "bouvier des flandres", "bouvier", "flandres", "bouvier de flandres",
-      "bouvier des flanders", "bouvier de flanders", "flanders cattle dog",
-      "vlaamse koehond", "koehond", "vuilbaard", "toucheur de boeuf",
-      "bouvier", "belgian cattle", "belgian bouvier", "bouvier aleman alemán",
-      "herding", "guard", "working", "bouvier des", "bouvier flandres",
-      "bouvier flanders", "bouvier belgium", "bouvier holanda", "bouvier shepherd",
-      "bouvier ganado", "bouvier vaca", "bouvier granja", "bouvier policia ",
-      "bouvier militar", "bouvier rescate"
+      'bouvier des flandres',
+      'bouvier',
+      'flandres',
+      'bouvier de flandres',
+      'bouvier des flanders',
+      'bouvier de flanders',
+      'flanders cattle dog',
+      'vlaamse koehond',
+      'koehond',
+      'vuilbaard',
+      'toucheur de boeuf',
+      'bouvier',
+      'belgian cattle',
+      'belgian bouvier',
+      'bouvier aleman alemán',
+      'herding',
+      'guard',
+      'working',
+      'bouvier des',
+      'bouvier flandres',
+      'bouvier flanders',
+      'bouvier belgium',
+      'bouvier holanda',
+      'bouvier shepherd',
+      'bouvier ganado',
+      'bouvier vaca',
+      'bouvier granja',
+      'bouvier policia ',
+      'bouvier militar',
+      'bouvier rescate',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Alta',
@@ -4100,12 +4971,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-      "https://www.akc.org/dog-breeds/bouvier-des-flandres/",
-      "https://en.wikipedia.org/wiki/Bouvier_des_Flandres",
-      "https://www.royalcanin.com/us/dogs/breeds/breed-library/bouvier-des-flandres",
-      "https://www.dogbreedinfo.com/bouvierdesflandres.htm",
-      "https://www.ukcdogs.com/bouvier-des-flandres"
-    ]
+      'https://www.akc.org/dog-breeds/bouvier-des-flandres/',
+      'https://en.wikipedia.org/wiki/Bouvier_des_Flandres',
+      'https://www.royalcanin.com/us/dogs/breeds/breed-library/bouvier-des-flandres',
+      'https://www.dogbreedinfo.com/bouvierdesflandres.htm',
+      'https://www.ukcdogs.com/bouvier-des-flandres',
+    ],
   },
   44: {
     weight: {
@@ -4143,12 +5014,40 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 430,
       url: 'https://cdn2.thedogapi.com/images/ry1kWe5VQ.jpg',
     },
-    searchTerms: ['Boxer', 'Trabajador', 'Guardián'],
     country_code: 'DE',
-    description:
-      'El Boxer es un perro valiente y amigable, conocido por su naturaleza devota y su energía inagotable. Son perros robustos y atléticos que requieren mucho ejercicio y estimulación mental. Son excelentes con los niños y hacen grandes perros de familia.',
-    history:
-      'Originario de Alemania, el Boxer fue criado inicialmente para el combate con toros y como guardián. A lo largo de los años, su valentía y devoción los han convertido en populares perros de servicio, perros de terapia y perros de trabajo policial.',
+    description: `
+      El Boxer es una raza de perro de tamaño mediano, de construcción cuadrada y con un pelaje liso. Su apariencia es fuerte y robusta, pero nunca pesada o torpe. Sus músculos son tensos, bien desarrollados y moldeados, dando la impresión de un perro lleno de vida y poderoso, con un porte noble.
+      <br>
+      <br>
+      El Boxer es un perro de carácter completamente confiable, enérgico, agradable, seguro de sí mismo y sin miedo. Es devoto y leal a su familia, y un vigilante y defensor estudiado. Su cabeza, que le da su aspecto característico, debe estar siempre en proporción correcta con el cuerpo, sin parecer ni demasiado ligera ni demasiado pesada.
+      <br>
+      <br>
+      El pelaje del Boxer es corto, duro y brillante, y se adhiere suavemente y firmemente al cuerpo. Los colores aceptables son el leonado y el atigrado. El leonado se encuentra en varios tonos, desde un amarillo claro hasta un rojo oscuro profundo. La variedad atigrada tiene rayas negras sobre un fondo amarillo dorado o rojo marrón. Las rayas están claramente definidas.
+      <br>
+      <br>
+      El Boxer tiene una mordida normalmente inferior. La mandíbula inferior sobresale más allá de la superior y se curva ligeramente hacia arriba. Los dientes caninos están ampliamente separados en mandíbulas anchas. Los dientes son fuertes y saludables y los incisivos son uniformes y se colocan en una línea lo más recta posible.
+      <br>
+      <br>
+      Los ojos del Boxer no son demasiado pequeños ni profundos, pero nunca sobresalen. Son de color marrón oscuro, con bordes de ojos oscuros. La expresión es enérgica e inteligente. La nariz es amplia y negra y solo ligeramente respingona. La punta de la nariz se encuentra algo más alta que la raíz del hocico, pero la nariz no debe ser forzada hacia atrás en la frente, como en el Bulldog.
+    `,
+    history: `
+      La historia del Boxer es una historia de fuerza, agilidad y nobleza. Esta raza tiene sus raíces en el Bulldog, con varios terriers también formando parte de su composición, lo que le da su velocidad, agilidad y cuerpo más elegante. El término "boxer" es de origen británico, pero el país más reciente para la raza es Alemania. El nombre "Boxer" parece apropiado ya que tiene una manera de usar sus patas delanteras en combate, muy parecido a cómo lo haría un hombre en una pelea.
+      <br>
+      <br>
+      La raza fue prácticamente ignorada hasta la Segunda Guerra Mundial, cuando fue utilizada como perro militar o de policía. Esto ayudó a asegurar su popularidad instantánea con los soldados que regresaban, y la raza se volvió muy demandada en los Estados Unidos.
+      <br>
+      <br>
+      El Boxer fue reconocido por el United Kennel Club en 1948. Desde entonces, ha sido apreciado por su carácter completamente confiable, su energía, su agradable temperamento, su autoconfianza y su falta de miedo. Es devoto y leal a su familia, y es un vigilante y defensor estudiado.
+      <br>
+      <br>
+      La apariencia del Boxer es la de un perro de tamaño mediano, de construcción cuadrada y con un pelaje liso. Su apariencia es fuerte y robusta, pero nunca pesada o torpe. Sus músculos son tensos, bien desarrollados y moldeados, dando la impresión de un perro lleno de vida y poderoso, con un porte noble.
+      <br>
+      <br>
+      El Boxer es una raza de perro que ha demostrado ser adaptable y versátil, capaz de desempeñarse en una variedad de roles, desde perro de trabajo hasta compañero familiar. Su inteligencia, su disposición amigable y su resistencia física lo hacen adecuado para una variedad de tareas, desde perro de terapia hasta perro de servicio, perro de búsqueda y rescate, y más.
+      <br>
+      <br>
+      En resumen, la historia del Boxer es una historia de adaptación y refinamiento. Desde sus raíces en el Bulldog y los terriers hasta su estatus actual como un amado compañero y trabajador, el Boxer ha demostrado ser una raza de perro verdaderamente versátil y valiosa.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: ['Excelente con niños', 'Guardián natural', 'Alto nivel de energía'],
     color: ['Marrón', 'Blanco', 'Atigrado'],
@@ -4167,6 +5066,56 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas cardíacos',
       'Displasia de cadera',
     ],
+    searchTerms: [
+      'Boxer',
+      'Bóxer',
+      'Bocsér',
+      'Perro Boxer',
+      'Perro Bóxer',
+      'Raza Boxer',
+      'Raza Bóxer',
+      'Boxer perro',
+      'Bóxer perro',
+      'Boxer raza',
+      'Bóxer raza',
+      'Perro de trabajo',
+      'Perro de guardia',
+      'Perro de protección',
+      'Perro fuerte',
+      'Perro robusto',
+      'Perro musculoso',
+      'Perro noble',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro inteligente',
+      'Perro resistente',
+      'Perro versátil',
+      'Perro de servicio',
+      'Perro de terapia',
+      'Perro de búsqueda y rescate',
+      'Perro alemán',
+      'Perro de tamaño mediano',
+      'Perro de pelo corto',
+      'Perro de orejas grandes',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Max',
+        caso: 'Max es un Boxer famoso que apareció en la película de 2000 "The Dog of Flanders".',
+      },
+      {
+        nombre: 'Brutus',
+        caso: 'Brutus, un Boxer, es conocido por ser el perro más grande de Reino Unido.',
+      },
+    ],
+    fuentes: [],
   },
   45: {
     weight: {
@@ -4198,12 +5147,40 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 634,
       url: 'https://cdn2.thedogapi.com/images/ryHJZlcNX.jpg',
     },
-    searchTerms: ['Boykin Spaniel', 'Deportivo', 'Recuperación de pavos'],
     country_code: 'US',
-    description:
-      'El Boykin Spaniel es un perro amigable y enérgico, conocido por su habilidad para recuperar pavos. Este perro sociable y adiestrable es un compañero familiar entusiasta que adora el agua y tiene una gran pasión por la caza y la recuperación.',
-    history:
-      'Originario de los Estados Unidos, el Boykin Spaniel fue criado para la recuperación de pavos en el ámbito deportivo. Esta raza, desarrollada en Carolina del Sur, se considera el perro oficial del estado y es apreciada por su habilidad en la caza de aves acuáticas.',
+    description: `
+      El Boykin Spaniel es una raza de perro de tamaño mediano, resistente y típicamente Spaniel. Este perro deportivo es ante todo un perro de trabajo con instintos de recuperación y eliminación probados y habilidad para la caza. Su construcción robusta, pero no demasiado compacta, le permite ser un excelente nadador y un valioso recuperador de agua, así como un eficaz eliminador y recuperador en el campo.
+      <br>
+      <br>
+      El Boykin Spaniel es caracterizado por su entusiasmo y resistencia sin límites, y una velocidad y agilidad moderadas. Posee una inteligencia y un deseo de complacer que lo hacen fácil de entrenar. Su disposición amigable lo convierte en una excepcional mascota y compañero. El amor y la atención personal mejoran su deseo de cazar.
+      <br>
+      <br>
+      La cabeza del Boykin Spaniel es básicamente Spaniel en forma. La nariz es amplia, con fosas nasales bien abiertas y de color hígado. Los ojos están bien separados, son ovalados y varían en tonos de amarillo o marrón, armonizando con el color del pelaje. La expresión es alerta e inteligente. Las orejas están colocadas ligeramente por encima del nivel de los ojos y tienen puntas redondeadas. Se adhieren cerca de la cabeza y el cuero llega hasta el final de la nariz.
+      <br>
+      <br>
+      El cuerpo del Boykin Spaniel es de construcción robusta, pero no demasiado compacta. La altura, medida en el hombro, debe ser menor que la longitud del cuerpo, medida desde el punto del hombro hasta las nalgas. El pecho está bien desarrollado. La espalda es fuerte, recta y nivelada. Las costillas están bien arqueadas, de forma ovalada, y el lomo es corto, musculoso y ligeramente arqueado. La grupa se inclina ligeramente hacia el conjunto de la cola.
+      <br>
+      <br>
+      El pelaje deseado es plano a moderadamente rizado, y de longitud media, pero un pelaje corto y recto es aceptable. El color es sólido, hígado rico o chocolate oscuro. Se permite una pequeña mancha blanca en el pecho.
+      <br>
+      <br>
+      El Boykin Spaniel es un perro que necesita mucha estimulación mental para mantenerse feliz y saludable. Los perros de raza para propósitos pueden tener trabajos que requieren toma de decisiones, resolución de problemas, concentración u otras cualidades, y sin el ejercicio cerebral que necesitan, crearán sus propios proyectos para mantener ocupadas sus mentes, y probablemente no serán el tipo de proyectos que te gustaría.
+    `,
+    history: `
+      La historia del Boykin Spaniel es una de las más fascinantes en el mundo canino. Esta raza, que lleva el nombre de la comunidad de Boykin, cerca de Camden, Carolina del Sur, tiene sus raíces en un pequeño perro callejero encontrado cerca de una iglesia metodista en Spartanburg, Carolina del Sur, a principios del siglo XX. El perro fue adoptado por un hombre llamado Alexander L. White, quien notó su potencial para la caza y lo envió a su compañero de caza, L. Whitaker Boykin, para su entrenamiento. El pequeño perro callejero se convirtió en un excelente perro de caza de pavos y un eficiente recuperador de aves acuáticas.
+      <br>
+      <br>
+      El Boykin Spaniel es considerado descendiente de varias razas, incluyendo el Chesapeake Bay Retriever, el Springer Spaniel, el Cocker Spaniel y el American Water Spaniel. Sin embargo, el Boykin Spaniel ha desarrollado su propio conjunto de características únicas que lo distinguen de sus antepasados.
+      <br>
+      <br>
+      El Boykin Spaniel fue reconocido oficialmente como raza por el United Kennel Club en 1985. Desde entonces, la raza ha ganado popularidad no sólo por sus habilidades de caza, sino también por su temperamento amigable y su disposición agradable, lo que lo convierte en una excelente mascota y compañero.
+      <br>
+      <br>
+      El Boykin Spaniel es un perro de caza de tamaño mediano, robusto y típicamente Spaniel. Este perro deportivo es, ante todo, un perro de trabajo con instintos de recuperación y de búsqueda probados. Su pelaje es de color hígado o chocolate oscuro, y puede tener un pequeño punto blanco en el pecho.
+      <br>
+      <br>
+      Los Boykin Spaniels son conocidos por su entusiasmo y resistencia ilimitados, su velocidad y agilidad moderadas, y su inteligencia y deseo de complacer, lo que los hace fáciles de entrenar. Son fuertes nadadores y se adaptan fácilmente al agua, lo que los hace valiosos para la recuperación de aves acuáticas, así como para la búsqueda y recuperación en el campo.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente para la caza y la recuperación',
@@ -4225,6 +5202,45 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Problemas oculares',
       'Enfermedad del corazón',
+    ],
+    searchTerms: [
+      'Boykin Spaniel',
+      'Spaniel Boykin',
+      'Boyquin Spaniel',
+      'Boykin Espaniel',
+      'Perro Boykin',
+      'Perro de caza Boykin',
+      'Perro de agua Boykin',
+      'Perro de Carolina del Sur',
+      'Perro de Boykin',
+      'Perro de recuperación',
+      'Perro de búsqueda',
+      'Perro de familia',
+      'Perro de compañía',
+      'Perro de trabajo',
+      'Perro nadador',
+      'Perro resistente',
+      'Perro amigable',
+      'Perro de tamaño mediano',
+      'Perro de pelo largo',
+      'Perro de color hígado',
+      'Perro de color chocolate oscuro',
+      'Perro de raza pura',
+      'Perro de raza Boykin',
+      'Perro de raza Spaniel',
+      'Perro de raza Boykin Spaniel',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Boykin_Spaniel',
+      'https://www.ukcdogs.com/boykin-spaniel',
     ],
   },
   46: {
@@ -4257,12 +5273,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 505,
       url: 'https://cdn2.thedogapi.com/images/S13yZg5VQ.jpg',
     },
-    searchTerms: ['Bracco Italiano', 'Deportivo', 'Perro de caza'],
     country_code: 'IT',
-    description:
-      'El Bracco Italiano es un perro afectuoso y leal, conocido por su capacidad como perro de caza versátil. Este perro grande y energético es muy sociable y le encanta jugar. A pesar de su terquedad, puede ser adiestrado con la dedicación y la paciencia adecuadas.',
-    history:
-      'Originario de Italia, el Bracco Italiano es una de las razas de perros más antiguas del mundo. Tradicionalmente se utilizaba como perro de caza, y era conocido por su versatilidad en la caza de diferentes tipos de presas. Aunque su popularidad ha disminuido en las últimas décadas, sigue siendo muy apreciado por su habilidad para cazar y su temperamento afectuoso y leal.',
+    description: `
+      El Bracco Italiano, también conocido como el Sabueso Italiano, es una raza de perro que combina elegancia y resistencia con una poderosa constitución física. Este perro de aspecto noble y distinguido es conocido por su cabeza distintivamente esculpida y su cuerpo musculoso y simétrico. Su pelaje es corto, denso y brillante, más fino y corto en la cabeza, las orejas, la parte delantera de las patas y los pies.
+      <br>
+      <br>
+      El Bracco Italiano es una raza que se originó en Italia y fue desarrollada principalmente para la caza, mostrando una notable habilidad para señalar y recuperar. Originalmente, estos perros eran utilizados para encontrar y señalar la presencia de presas que luego eran capturadas con redes. Sin embargo, con el paso del tiempo, han evolucionado para convertirse en excelentes perros de caza en terrenos abiertos.
+      <br>
+      <br>
+      Estos perros son conocidos por su temperamento dócil, su inteligencia y su facilidad para el entrenamiento. Son perros resistentes que pueden adaptarse a todo tipo de caza, pero también son lo suficientemente dóciles y amigables para ser excelentes mascotas familiares. A pesar de su tamaño y fuerza, son perros muy cariñosos y leales, que forman fuertes lazos con sus dueños.
+      <br>
+      <br>
+      El Bracco Italiano es un perro de tamaño grande, con los machos midiendo entre 22¾ y 26¼ pulgadas en la cruz, y las hembras entre 21¾ y 24½ pulgadas. Su peso puede variar entre 55 y 88 libras, dependiendo de su tamaño. A pesar de su tamaño, estos perros son conocidos por su movimiento elegante y fluido. Cuando están en movimiento, especialmente cuando están cazando, llevan la cola casi horizontal y parecen flotar sobre el terreno.
+      <br>
+      <br>
+      En cuanto a su apariencia, el Bracco Italiano tiene una cabeza larga, angular y estrecha, con un cráneo y un hocico de igual longitud. Sus ojos son oblicuos, bastante grandes y de forma ovalada, con un color que va del ocre oscuro al marrón, dependiendo del color del pelaje. Sus orejas son largas y están colocadas bajas, y se llevan pegadas a la cabeza. Su cuello es largo y arqueado, con una doble papada suave.
+      <br>
+      <br>
+      El pelaje del Bracco Italiano puede ser de color blanco sólido, blanco con parches naranjas o castaños, o roano naranja o castaño. En el roano castaño, se prefiere un tono cálido, que recuerda al hábito de un monje.
+      <br>
+      <br>
+      En resumen, el Bracco Italiano es una raza de perro impresionante y versátil, que combina la fuerza y la resistencia con la elegancia y la nobleza. Ya sea en el campo de caza o en el hogar, estos perros son seguros de dejar una impresión duradera con su apariencia distintiva y su carácter amable y leal.
+    `,
+    history: `
+      La historia del Bracco Italiano es tan rica y antigua como la propia Italia. Esta raza, que se remonta a tiempos antiguos, es considerada una de las más antiguas de las razas de perros de muestra. Aunque su origen exacto es desconocido, se cree que el Bracco Italiano es el producto de la cría selectiva de perros de muestra locales con perros de caza importados por comerciantes y conquistadores.
+      <br>
+      <br>
+      El Bracco Italiano fue muy apreciado en la Italia renacentista, especialmente entre la nobleza y la aristocracia. Los perros eran a menudo retratados en pinturas y tapices de la época, y eran valorados por su habilidad para cazar en los diversos terrenos de Italia, desde las montañas del norte hasta las llanuras del sur. Durante este tiempo, se desarrollaron dos variedades de la raza: el Bracco de Piamonte, más ligero y más pequeño, y el Bracco de Lombardía, más pesado y más grande.
+      <br>
+      <br>
+      Sin embargo, a finales del siglo XIX y principios del XX, la raza estuvo al borde de la extinción debido a la cría indiscriminada y la falta de estándares de raza. Fue gracias a los esfuerzos de los criadores italianos, que se dedicaron a la conservación y mejora de la raza, que el Bracco Italiano fue salvado. En 1949, se estableció el estándar oficial de la raza, que combinaba las características de las dos variedades originales.
+      <br>
+      <br>
+      Hoy en día, el Bracco Italiano es una raza apreciada tanto por su habilidad en el campo como por su temperamento amigable y leal. Aunque no es tan conocido fuera de Italia, la raza ha ganado reconocimiento y popularidad en otros países, especialmente en aquellos con una fuerte tradición de caza con perros de muestra.
+      <br>
+      <br>
+      En resumen, la historia del Bracco Italiano es un testimonio de la pasión y dedicación de los criadores y amantes de los perros. Desde sus orígenes antiguos hasta su renacimiento en el siglo XX, la raza ha resistido la prueba del tiempo, manteniendo su lugar como uno de los perros de caza más respetados y queridos de Italia.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Bueno para la caza',
@@ -4284,6 +5331,54 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Problemas oculares',
       'Hipotiroidismo',
+    ],
+    searchTerms: [
+      'Bracco Italiano',
+      'Deportivo',
+      'Perro de caza',
+      'Bracco Italiano',
+      'Braco Italiano',
+      'Braco de Italia',
+      'Perro de muestra italiano',
+      'Perro de caza italiano',
+      'Perro italiano',
+      'Bracco',
+      'Italiano',
+      'Braco',
+      'Cazador',
+      'Perro de muestra',
+      'Perro de caza',
+      'Perro de campo',
+      'Perro de trabajo',
+      'Perro de familia',
+      'Perro de compañía',
+      'Perro para niños',
+      'Perro para cazar',
+      'Perro para el campo',
+      'Perro para trabajar',
+      'Perro para la familia',
+      'Perro para compañía',
+      'Perro para la casa',
+      'Perro para el hogar',
+      'Perro para exteriores',
+      'Perro para actividades al aire libre',
+      'Perro para actividades en el campo',
+      'Perro para actividades de caza',
+      'Perro para actividades de trabajo',
+      'Perro para actividades familiares',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/bracco-italiano/',
+      'https://www.dogbreedinfo.com/braccoitaliano.htm',
+      'https://en.wikipedia.org/wiki/Bracco_Italiano',
     ],
   },
   47: {
@@ -4316,12 +5411,40 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 576,
       url: 'https://cdn2.thedogapi.com/images/rkVlblcEQ.jpg',
     },
-    searchTerms: ['Briard', 'Pastor', 'Cuidado de ovejas'],
     country_code: 'FR',
-    description:
-      'El Briard es un perro valiente y leal, conocido por su capacidad de pastoreo y cuidado de ovejas. Es un perro grande con un pelaje de textura áspera que necesita mantenimiento regular. Este perro inteligente y obediente es un excelente protector y es conocido por su fidelidad hacia su familia.',
-    history:
-      'Originario de Francia, el Briard es una antigua raza de perro pastor. Fue utilizado en la antigüedad para el cuidado y el pastoreo de las ovejas. Este perro robusto y valiente fue muy apreciado por su inteligencia y su capacidad para proteger al rebaño. Aunque su función principal en la actualidad es como perro de compañía, sigue teniendo fuertes instintos de pastoreo.',
+    description: `
+      El Briard es una raza de perro que se distingue por su vigor, alerta y potencia. Este perro equilibrado y fuerte en músculo y hueso, sin ser tosco, exhibe la fuerza y agilidad características de los perros pastores. Los machos tienen un cuerpo cuya longitud, medida desde el punto del hombro hasta el punto de las nalgas, es igual o ligeramente superior a su altura en la cruz. Las hembras pueden ser un poco más largas.
+      <br>
+      <br>
+      El Briard es un perro de doble capa que muestra el brillo de una buena salud. El pelaje exterior es áspero, duro y seco y cae naturalmente en largos mechones ligeramente ondulados. El pelo en los hombros generalmente tiene seis pulgadas o más de longitud. El subpelo es fino y apretado en todo el cuerpo.
+      <br>
+      <br>
+      El Briard es un perro dotado de espíritu e iniciativa, que muestra sabiduría y valentía. Es inteligente, fácil de entrenar, fiel, gentil y obediente. La raza posee una excelente memoria y un ardiente deseo de complacer a su dueño, conservando un alto grado de instinto ancestral para proteger el hogar y al dueño. Aunque reservado con los extraños, es cariñoso y leal con aquellos que conoce. Algunos pueden mostrar cierta independencia.
+      <br>
+      <br>
+      El Briard es un perro de trabajo que requiere una cantidad significativa de ejercicio físico y mental. Es una raza que disfruta de la compañía de su familia y necesita participar en las actividades diarias de la familia. Aunque es un perro grande, puede adaptarse a vivir en un apartamento siempre y cuando se le proporcione suficiente ejercicio.
+      <br>
+      <br>
+      El Briard es conocido por su habilidad para realizar giros bruscos, arranques enérgicos y paradas repentinas, todas las cuales son requeridas por un perro pastor trabajador. Su andar es flexible y ligero, parecido al de un felino. El andar da la impresión de que el perro se desliza sin tocar el suelo. Un movimiento fuerte y flexible es esencial para el perro pastor.
+    `,
+    history: `
+      La historia del Briard, conocido en Francia como el Chien Berger de Brie, se remonta a siglos atrás, siendo considerado una de las razas de perros de pastoreo más antiguas de Europa. Su origen se ubica en Francia, y se cree que su historia se remonta hasta el siglo XII.
+      <br>
+      <br>
+      En sus primeros años, el Briard se utilizó como perro de guardia y como perro de vigilancia. Su tamaño, fuerza y agilidad lo hacían perfecto para proteger a las ovejas de los lobos y otros depredadores. Con el tiempo, su papel evolucionó y comenzó a ser utilizado como perro de pastoreo y de conducción de rebaños. Su inteligencia, su capacidad para aprender rápidamente y su resistencia lo hicieron ideal para este trabajo.
+      <br>
+      <br>
+      Durante las dos Guerras Mundiales, el Briard demostró su versatilidad y valentía al ser utilizado como perro de la Cruz Roja. Llevaban equipos de primeros auxilios y localizaban a los heridos, salvando innumerables vidas en el proceso. También se utilizaron como perros militares, llevando municiones y pequeños equipos.
+      <br>
+      <br>
+      El Briard fue reconocido oficialmente como raza por el United Kennel Club en 1948. Desde entonces, ha ganado popularidad en todo el mundo, tanto por su habilidad para el trabajo como por su carácter leal y afectuoso.
+      <br>
+      <br>
+      A pesar de su historia como perro de trabajo, el Briard también ha encontrado un lugar en los hogares como mascota. Su inteligencia, su deseo de complacer y su naturaleza cariñosa lo convierten en un excelente compañero. Sin embargo, su instinto de pastoreo y su energía significan que necesita mucho ejercicio y estimulación mental.
+      <br>
+      <br>
+      Es importante destacar que, aunque el Briard ha sido criado durante siglos para trabajar, también es un perro que se adapta bien a la vida familiar. Es conocido por su lealtad y su fuerte vínculo con su familia humana. Sin embargo, también puede ser reservado con los extraños, una característica que probablemente se remonta a sus días como perro de guardia.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Buen perro de trabajo',
@@ -4344,6 +5467,50 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Problemas oculares',
       'Hipotiroidismo',
+    ],
+    searchTerms: [
+      'Briard',
+      'Pastor',
+      'Cuidado de ovejas',
+      'Briard',
+      'Briar',
+      'Briardo',
+      'Perro Briard',
+      'Raza Briard',
+      'Perro de pastoreo',
+      'Perro francés',
+      'Perro de trabajo',
+      'Perro de granja',
+      'Perro de rebaño',
+      'Perro de protección',
+      'Perro guardián',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro leal',
+      'Perro inteligente',
+      'Perro activo',
+      'Perro de pelo largo',
+      'Perro grande',
+      'Perro resistente',
+      'Perro de la Cruz Roja',
+      'Perro militar',
+      'Perro de la Primera Guerra Mundial',
+      'Perro de la Segunda Guerra Mundial',
+      'Perro de Francia',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Briard',
+      'https://www.akc.org/dog-breeds/briard/',
+      'https://www.dogbreedinfo.com/briard.htm',
+      'https://www.ukcdogs.com/briard',
     ],
   },
   48: {
@@ -4376,12 +5543,37 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 600,
       url: 'https://cdn2.thedogapi.com/images/HJWZZxc4X.jpg',
     },
-    searchTerms: ['Brittany', 'Deportivo', 'Señalar'],
     country_code: 'FR',
-    description:
-      'El Brittany es un perro ágil y rápido, conocido por su habilidad para señalar y recuperar en actividades deportivas. Es un perro de tamaño mediano con un pelaje de textura suave que es mayormente de color naranja y blanco. Este perro inteligente y feliz es conocido por su adaptabilidad y su atención a su entorno.',
-    history:
-      'Originario de Francia, el Brittany es una antigua raza de perro deportivo. Fue muy valorado por su capacidad para señalar y recuperar en la caza de aves. Esta raza tiene una habilidad natural para el trabajo en el campo y se adapta fácilmente a diferentes terrenos y condiciones. Su popularidad ha crecido con los años debido a su agilidad, velocidad y capacidad para aprender rápidamente.',
+    description: `
+      El Brittany es una raza de perro que se originó en Francia y es el único spaniel de puntero. Su nombre proviene de la provincia francesa de Bretaña. Esta raza fue introducida en América en la década de 1930 y ha sido reconocida por su versatilidad y características multiusos. Los criadores han logrado mantener estas características sin dividir la raza en dos tipos: de exhibición y de trabajo.
+      <br>
+      <br>
+      El Brittany es un perro compacto y cuadrado, con una altura que es la misma que la longitud de su cuerpo. Son rápidos en movimiento, fuertes, vigorosos y enérgicos, robustos sin ser torpes. Su cola es naturalmente corta o se acostumbra a cortar a una longitud no mayor de cuatro pulgadas.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Brittany es amigable y ansioso por complacer. Estos pequeños perros amigables cazan más como un Setter debido a su habilidad para apuntar, y están más altos en sus patas que otros Spaniels. El Brittany no requiere una mano pesada en el entrenamiento. De hecho, pueden renunciar si la disciplina es demasiado severa. Se logra mucho más con una mano suave. Buscan la atención humana, lo que los hace más fáciles de entrenar que algunas otras razas de caza. Son perros de caza que trabajan de cerca, excelentes compañeros y mascotas familiares.
+      <br>
+      <br>
+      El Brittany tiene un pelaje ondulado o plano y denso. El pelaje en las patas delanteras y traseras es de apariencia moderada. Los muslos están bien emplumados, pero no profusamente, hasta la mitad del corvejón. Las orejas llevan poca franja. La piel es fina y bastante suelta. Los colores aceptados incluyen naranja y blanco, hígado y blanco, y negro y blanco, en patrones claros o ruano. Algunos puntos son deseables. Los tricolores son permitidos pero no deseables.
+      <br>
+      <br>
+      El Brittany es un perro de caza, y su movimiento debe transmitir el de un perro bien equilibrado, fuertemente construido, ágil y atlético, capaz de una gran resistencia en el campo.
+    `,
+    history: `
+      La historia del Brittany es tan fascinante como la raza misma. Originario de Francia, el Brittany es el único spaniel de muestra. Su nombre proviene de la provincia francesa de Bretaña. El primer estándar de la raza se escribió en Francia alrededor de 1907 y la raza fue introducida en América en la década de 1930.
+      <br>
+      <br>
+      Los criadores de Brittany han hecho un trabajo encomiable al mantener la versatilidad y las características de múltiples propósitos de la raza. Han tenido éxito en no permitir que la raza se divida en dos tipos, de exhibición versus de trabajo. Esto es un testimonio de su compromiso con la integridad de la raza.
+      <br>
+      <br>
+      El Brittany es un perro de caza y su movimiento debe transmitir el de un perro bien equilibrado, fuerte, ágil y atlético, capaz de una gran resistencia en el campo. Son rápidos en movimiento, fuertes, vigorosos y enérgicos, robustos sin ser torpes. Su cola se coloca alta, como una extensión de la columna vertebral, y es un bob natural o se corta habitualmente a una longitud no mayor de cuatro pulgadas.
+      <br>
+      <br>
+      El Brittany fue reconocido por el United Kennel Club en 1948, marcando otro hito en la historia de la raza. Desde entonces, la raza ha continuado creciendo en popularidad, tanto en el campo como en el hogar.
+      <br>
+      <br>
+      En resumen, la historia del Brittany es una de adaptabilidad y versatilidad. Desde sus orígenes en la provincia francesa de Bretaña hasta su popularidad actual en América y más allá, el Brittany ha demostrado ser una raza que puede hacerlo todo. Ya sea en el campo de caza o en el sofá de la sala de estar, el Brittany es un perro que se adapta y prospera.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de caza',
@@ -4404,6 +5596,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Epilepsia',
       'Problemas oculares',
+    ],
+    searchTerms: [
+      'Brittany',
+      'Deportivo',
+      'Señalar',
+      'Britani',
+      'Britany',
+      'Brittani',
+      'Perro de caza',
+      'Perro de muestra',
+      'Perro francés',
+      'Perro de Bretaña',
+      'Brittany Spaniel',
+      'Spaniel de Bretaña',
+      'Perro de campo',
+      'Perro de trabajo',
+      'Perro atlético',
+      'Perro enérgico',
+      'Perro de resistencia',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro de compañía',
+      'Perro adaptable',
+      'Perro versátil',
+      'Perro de pelo corto',
+      'Perro de tamaño mediano',
+      'Perro de caza de aves',
+      'Perro de caza francés',
+      'Perro de caza de tamaño mediano',
+      'Perro de caza de pelo corto',
+      'Perro de caza enérgico',
+      'Perro de caza resistente',
+      'Perro de caza versátil',
+      'Perro de caza adaptable',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/brittany/',
+      'https://www.dogbreedinfo.com/brittany.htm',
+      'https://www.ukcdogs.com/brittany',
     ],
   },
   49: {
@@ -4435,12 +5674,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1080,
       url: 'https://cdn2.thedogapi.com/images/VSraIEQGd.jpg',
     },
-    searchTerms: ['Bull Terrier', 'Terrier', 'Peleas de toros'],
     country_code: 'UK',
-    description:
-      'El Bull Terrier es un perro activo y entusiasta, anteriormente criado para peleas de toros y lucha, pero ahora es popular como mascota. Es un perro de buen carácter que también puede ser adiestrable y protector. Su apariencia es distintiva con un cuerpo fuerte y robusto y un rostro único que se estrecha en una punta "romana".',
-    history:
-      'Originario del Reino Unido, el Bull Terrier tiene un pasado en peleas de toros y lucha, pero ha evolucionado a lo largo de los años para convertirse en un querido compañero de familia. La raza fue criada por primera vez en el siglo XIX y, a pesar de su historia, es conocida por su comportamiento afectuoso y su naturaleza entusiasta.',
+    description: `
+      El Bull Terrier es una raza de perro que se destaca por su apariencia única y su personalidad llena de vida. Originario de Inglaterra, este perro es el resultado de cruces entre bulldogs y terriers, creados específicamente para participar en peleas de perros y la cruel práctica de cebo de toros. Afortunadamente, estas actividades han sido prohibidas y el Bull Terrier ha evolucionado para convertirse en una raza de perro amigable y leal que es amada por muchos dueños de mascotas en todo el mundo.
+      <br>
+      <br>
+      El Bull Terrier es un perro fuerte y musculoso, con una apariencia simétrica que denota fuerza y agilidad. Su cabeza es larga, fuerte y profunda hasta el final del hocico, dando la impresión de plenitud, sin huecos ni hendiduras, es decir, de forma ovalada. Sus ojos son pequeños, de forma triangular y están colocados oblicuamente, dando al Bull Terrier una apariencia distintiva.
+      <br>
+      <br>
+      El cuerpo del Bull Terrier es robusto, con un pecho ancho y una gran profundidad desde la cruz hasta el pecho. Sus costillas están bien arqueadas y su espalda es corta y nivelada detrás de la cruz. Su cola es corta, se coloca baja y se lleva horizontalmente. Su pelaje es corto, plano, brillante y áspero al tacto.
+      <br>
+      <br>
+      Aunque su apariencia puede sugerir fuerza y agilidad, el Bull Terrier es una raza pacífica y manejable, con un aire alegre. Son activos, con un carácter dulce y responden bien a la disciplina. Los machos deben parecer masculinos y las hembras deben parecer femeninas.
+      <br>
+      <br>
+      El Bull Terrier se mueve suavemente, exhibiendo una zancada libre y fácil. Cuando se ve desde el frente o desde atrás, las patas delanteras y traseras se mueven paralelas entre sí. El perro exhibe un aire alegre, sugiriendo agilidad y poder.
+      <br>
+      <br>
+      La raza se categoriza en dos variedades de color: blanco y de color. En los blancos, el perro es blanco, aunque se permiten marcas en la cabeza. En los de color, cualquier color distinto del blanco es aceptado. El color preferido es el atigrado, pero también pueden ser rojos, leonados y tricolores.
+      <br>
+      <br>
+      El Bull Terrier es una raza de perro que requiere un dueño que pueda proporcionarle suficiente ejercicio y estimulación mental. Son perros inteligentes y enérgicos que prosperan en un ambiente donde pueden mantenerse activos y ocupados. A pesar de su pasado como perro de pelea, el Bull Terrier moderno es un perro amigable y afectuoso que puede hacer un gran compañero para la persona o familia adecuada.
+    `,
+    history: `
+      La raza de perro Bull Terrier tiene una historia fascinante y única que se remonta al siglo XIX en Inglaterra. Originalmente, se desarrollaron a partir de las razas "bull and terrier" para satisfacer las necesidades de control de plagas y deportes de sangre basados en animales. Estos perros combinaban la velocidad y la destreza de los terriers de construcción ligera con la tenacidad del Bulldog, que era un pobre luchador en la mayoría de las situaciones de combate, ya que había sido criado casi exclusivamente para luchar contra toros y osos atados a un poste.
+      <br>
+      <br>
+      En la mitad del siglo XIX, James Hinks comenzó a criar bull terriers con "English White Terriers" (ahora extintos), buscando una apariencia más limpia con mejores patas y una cabeza más agradable. En 1862, Hinks presentó una perra llamada "Puss", engendrada por su Bulldog blanco llamado "Madman", en la Clase Bull Terrier en la exposición canina celebrada en los Jardines Cremorne en Chelsea, Londres. Originalmente, estos perros aún no tenían la ahora familiar "cabeza de huevo", sino que mantenían la parada en el perfil del cráneo.
+      <br>
+      <br>
+      Hinks quería que sus perros fueran blancos y crió específicamente para esto. El primer Bull Terrier moderno se reconoce ahora como "Lord Gladiator", de 1917, siendo el primer perro sin parada en absoluto.
+      <br>
+      <br>
+      Debido a los problemas médicos asociados con la cría de todo blanco, Ted Lyon, entre otros, comenzó a introducir color, utilizando Staffordshire Bull Terriers a principios del siglo XX. Los Bull Terriers de color fueron reconocidos como una variedad separada (al menos por el AKC) en 1936. El atigrado es el color preferido, pero se aceptan otros colores.
+      <br>
+      <br>
+      A lo largo de los años, el Bull Terrier ha sido propiedad de varias personalidades notables. Theodore Roosevelt tenía varios mascotas, incluyendo el Bull Terrier Pete. Pete recibió bastante prensa contemporánea, habiendo mordido a un empleado naval y también habiendo perseguido y mordido al embajador francés. El general George S. Patton tenía un Bull Terrier llamado Willie. El perro había pertenecido a un piloto de la RAF caído, y Patton lo compró en Inglaterra en 1944. Cuando se peleó con el perro de Dwight D. Eisenhower, Patton se disculpó, diciendo que Willie estaba superado en rango y sería confinado a cuartos.
+      <br>
+      <br>
+      Hoy en día, el Bull Terrier sigue siendo una raza popular y querida por muchos dueños de perros en todo el mundo. Su historia única y su personalidad encantadora aseguran que seguirá siendo una raza favorita durante muchos años más.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Bueno para la formación y la obediencia',
@@ -4463,6 +5736,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas cardiacos',
       'Problemas de piel',
       'Sordera',
+    ],
+    searchTerms: [
+      'Bull Terrier',
+      'Terrier',
+      'Peleas de toros',
+      'Bullterrier',
+      'Bul Terrier',
+      'Bulterrier',
+      'Terrier de toro',
+      'Perro de pelea',
+      'Perro inglés',
+      'Perro de compañía',
+      'Perro de protección',
+      'Perro de guardia',
+      'Perro fuerte',
+      'Perro musculoso',
+      'Perro de cabeza de huevo',
+      'Perro de nariz romana',
+      'Perro de Theodore Roosevelt',
+      'Perro de George Patton',
+      'Perro de raza pura',
+      'Perro de raza británica',
+      'Perro de raza inglesa',
+      'Perro de raza de combate',
+      'Perro de raza de trabajo',
+      'Perro de raza de exposición',
+      'Perro de raza de show',
+      'Perro de raza de concurso',
+      'Perro de raza de competencia',
+      'Perro de raza de deporte',
+      'Perro de raza de caza',
+      'Perro de raza de campo',
+      'Perro de raza de granja',
+      'Perro de raza de casa',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/bull-terrier/',
+      'https://www.dogbreedinfo.com/bullterrier.htm',
+      'https://www.ukcdogs.com/bull-terrier',
     ],
   },
   50: {
@@ -4495,12 +5815,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 450,
       url: 'https://cdn2.thedogapi.com/images/BkKZWlcVX.jpg',
     },
-    searchTerms: ['Bull Terrier (Miniatura)', 'Terrier', 'Elegante'],
     country_code: 'UK',
-    description:
-      'El Bull Terrier (Miniatura) es un perro elegante, adiestrable y protector, que fue un símbolo de moda para hombres en el pasado. A pesar de su tamaño pequeño, este perro es muy activo y requiere ejercicio diario para mantenerse sano y feliz. A menudo es territorial, por lo que puede necesitar adiestramiento adicional para socializar bien con otros animales y personas.',
-    history:
-      'Originario del Reino Unido, el Bull Terrier (Miniatura) es conocido por ser un accesorio de moda para hombres. Sin embargo, su popularidad como mascota ha crecido a lo largo de los años debido a su carácter entusiasta y adiestrable. Su tamaño más pequeño se logró a través de la cría selectiva y es ideal para aquellos que aman la apariencia y el temperamento del Bull Terrier estándar, pero prefieren un perro de menor tamaño.',
+    description: `
+      El Bull Terrier Miniatura es una raza de perro que, a pesar de su tamaño reducido, irradia una gran fuerza y energía. Este perro compacto y musculoso es una versión más pequeña del Bull Terrier, pero comparte con su pariente más grande muchas de las mismas características y rasgos de personalidad.
+      <br>
+      <br>
+      El Bull Terrier Miniatura es conocido por su cabeza distintiva, que es larga, fuerte y profunda hasta el final del hocico. La cara es completa y ovalada, llena por completo, dando la impresión de plenitud, sin huecos ni hendiduras. En perfil, se curva suavemente hacia abajo desde la parte superior del cráneo hasta la punta de la nariz. La distancia desde la punta de la nariz hasta los ojos es notablemente mayor que la distancia desde los ojos hasta la parte superior del cráneo. Los ojos son bien hundidos y pequeños, con un brillo penetrante y son tan oscuros como sea posible. Son pequeños, de forma triangular, y están colocados oblicuamente, situados cerca uno del otro y en lo alto de la cabeza.
+      <br>
+      <br>
+      El cuerpo del Bull Terrier Miniatura es fuerte y musculoso, con una apariencia simétrica. El pecho es amplio cuando se ve de frente, y hay una gran profundidad desde la cruz hasta el pecho, siendo el pecho más cercano al suelo que el vientre. La línea inferior forma una curva ascendente elegante. Las costillas están bien arqueadas y la espalda es corta y nivelada detrás de la cruz. Hay un ligero arco sobre el lomo amplio y musculoso.
+      <br>
+      <br>
+      A pesar de su apariencia robusta y su musculatura bien desarrollada, el Bull Terrier Miniatura es una raza pacífica y manejable, con un aire alegre. Aunque su apariencia sugiere fuerza y agilidad, la raza es pacífica y manejable, con un aire alegre. Son activos, con un carácter dulce y son receptivos a la disciplina. Los machos deben parecer masculinos; las hembras deben parecer femeninas.
+      <br>
+      <br>
+      El Bull Terrier Miniatura tiene un pelaje corto, plano, brillante y áspero al tacto. La piel se ajusta firmemente. La raza se categoriza en dos variedades de color: blanco y coloreado. En la variedad blanca, el perro es blanco, aunque se permiten marcas en la cabeza. La pigmentación de la piel en el cuerpo es permisible. En la variedad coloreada, cualquier color distinto del blanco es aceptable. El color preferido es el atigrado, pero también pueden ser rojos, leonados y tricolores. Pueden tener marcas blancas, pero el color predomina.
+      <br>
+      <br>
+      El Bull Terrier Miniatura es una raza que requiere una cantidad moderada de ejercicio y estimulación mental para mantenerse feliz y saludable. Son perros que disfrutan de la actividad y el juego, y mantienen un nivel de energía bastante alto incluso después de la etapa de cachorro. Aunque son perros activos, también disfrutan de los momentos de relajación y son felices simplemente descansando en el sofá contigo la mayor parte del tiempo.
+      <br>
+      <br>
+      En resumen, el Bull Terrier Miniatura es una raza de perro llena de personalidad y encanto. A pesar de su tamaño compacto, estos perros son enérgicos, valientes y llenos de espíritu. Son conocidos por su lealtad y su amor por sus familias humanas. Su apariencia única, con su distintiva cabeza en forma de huevo y su cuerpo musculoso, los hace destacar en cualquier multitud.
+      `,
+    history: `
+      La historia del Bull Terrier Miniatura se remonta a la Inglaterra del siglo XIX, donde se originó como una versión más pequeña del Bull Terrier. Estos perros fueron creados a través de cruces entre Bulldogs y Terriers, con el objetivo inicial de ser utilizados para el cebo de toros y, más tarde, para peleas en fosas. A pesar de su historia inicialmente violenta, estos perros han evolucionado para convertirse en compañeros leales y cariñosos que son apreciados por su personalidad vivaz y su apariencia única.
+      <br>
+      <br>
+      El Bull Terrier Miniatura, como su nombre indica, es una versión más pequeña del Bull Terrier. Aunque son idénticos en todos los aspectos excepto en el tamaño, los Bull Terriers Miniatura tienen su propia historia y desarrollo. A lo largo de los años, los criadores han trabajado para mantener la robustez y la personalidad del Bull Terrier original, mientras reducen su tamaño para adaptarse a diferentes necesidades y estilos de vida.
+      <br>
+      <br>
+      A pesar de su tamaño más pequeño, el Bull Terrier Miniatura conserva la fuerza y la resistencia de sus antepasados más grandes. Estos perros eran conocidos por su valentía y tenacidad en el ring de pelea, y aunque ya no se utilizan para este propósito, todavía poseen un espíritu fuerte y una gran determinación.
+      <br>
+      <br>
+      A lo largo del siglo XX, el Bull Terrier Miniatura comenzó a ganar popularidad como perro de compañía. Su personalidad amigable y su apariencia distintiva los hicieron populares entre una amplia variedad de amantes de los perros. A pesar de su historia como perros de pelea, los Bull Terriers Miniatura son conocidos por su amor y lealtad hacia sus familias humanas.
+      <br>
+      <br>
+      El Bull Terrier Miniatura fue reconocido oficialmente como una raza por el United Kennel Club el 1 de enero de 1993. Desde entonces, la raza ha continuado ganando reconocimiento y popularidad. Aunque no son tan comunes como algunas otras razas de terrier, los Bull Terriers Miniatura son apreciados por su personalidad única y su apariencia distintiva.
+      <br>
+      <br>
+      En la actualidad, el Bull Terrier Miniatura es una raza de perro apreciada tanto por su personalidad como por su apariencia. Aunque todavía conservan algo de su espíritu de lucha, estos perros son ahora principalmente compañeros de familia y mascotas. Son conocidos por su lealtad, su amor por el juego y su disposición amigable.
+      <br>
+      <br>
+      En resumen, la historia del Bull Terrier Miniatura es una de evolución y adaptación. Desde sus inicios como perros de pelea en la Inglaterra del siglo XIX hasta su estatus actual como amados perros de compañía, estos perros han demostrado ser increíblemente versátiles y adaptables. A pesar de su tamaño más pequeño, el Bull Terrier Miniatura sigue siendo un testimonio de la resistencia, la tenacidad y el espíritu de la raza Bull Terrier.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Adiestrable',
@@ -4524,6 +5881,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas cardiacos',
       'Problemas de piel',
       'Obesidad',
+    ],
+    searchTerms: [
+      'Bull Terrier Miniatura',
+      'Terrier',
+      'Elegante',
+      'Bull Terrier Mini',
+      'Mini Bull Terrier',
+      'Bull Terrier Pequeño',
+      'Bull Terrier Enano',
+      'Miniatura Bull Terrier',
+      'Bullterrier Miniatura',
+      'Bullterrier Mini',
+      'Mini Bullterrier',
+      'Terrier Mini',
+      'Terrier Pequeño',
+      'Terrier Enano',
+      'Perro Bull Terrier Miniatura',
+      'Perro Mini Bull Terrier',
+      'Perro Terrier Mini',
+      'Raza Bull Terrier Miniatura',
+      'Raza Mini Bull Terrier',
+      'Raza Terrier Mini',
+      'Bull Terrier Miniatura para niños',
+      'Bull Terrier Miniatura para familia',
+      'Bull Terrier Miniatura compañía',
+      'Bull Terrier Miniatura mascota',
+      'Bull Terrier Miniatura cariñoso',
+      'Bull Terrier Miniatura juguetón',
+      'Bull Terrier Miniatura leal',
+      'Bull Terrier Miniatura amigable',
+      'Bull Terrier Miniatura activo',
+      'Bull Terrier Miniatura energético',
+      'Bull Terrier Miniatura sociable',
+      'Bull Terrier Miniatura inteligente',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/miniature-bull-terrier/',
+      'https://en.wikipedia.org/wiki/Miniature_Bull_Terrier',
     ],
   },
   51: {
@@ -4561,12 +5964,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 638,
       url: 'https://cdn2.thedogapi.com/images/r1ifZl5E7.jpg',
     },
-    searchTerms: ['Bullmastiff', 'Guardián', 'Poderoso'],
     country_code: 'UK',
-    description:
-      'El Bullmastiff es una raza poderosa, originalmente criada en el Reino Unido para ser un guardián confiable de las propiedades. Esta raza es conocida por su naturaleza leal y protectora, y es apreciada por su comportamiento calmado. A pesar de su tamaño intimidante, son conocidos por ser perros dóciles y amorosos, que se convierten en miembros leales de la familia.',
-    history:
-      'El Bullmastiff fue criado en el Reino Unido en el siglo XIX, con el objetivo específico de proteger las propiedades de los cazadores furtivos. Es una mezcla entre el Bulldog Inglés y el Mastiff Inglés. Siendo una raza tan poderosa, era muy eficaz en esta tarea. Sin embargo, a pesar de su historia de trabajo, hoy en día es más conocido como un excelente compañero y perro familiar.',
+    description: `
+      El Bullmastiff es una raza de perro que irradia fuerza y resistencia. De apariencia simétrica y estructura poderosa, este perro es un guardián activo, alerta y valiente, pero a la vez dócil en su comportamiento. Puede ser de color rojo, leonado o atigrado, con una cola y orejas naturales.
+      <br>
+      <br>
+      El Bullmastiff es un perro de tamaño considerable, aunque no tan grande como su primo cercano, el Mastiff. Aun así, con una altura de hasta 27 pulgadas en el hombro y un peso de entre 100 y 130 libras, es un perro de gran tamaño. Después de la primera impresión que deja el tamaño del Bullmastiff, es la cabeza grande y ancha la que transmite la esencia de la raza: los ojos oscuros, las orejas en forma de V colocadas en alto y el hocico amplio y profundo se combinan para presentar la inteligencia, la alerta y la confianza que hacen del Bullmastiff un protector y compañero familiar de clase mundial.
+      <br>
+      <br>
+      El Bullmastiff es un perro de trabajo, por lo que es importante que esté mental y físicamente sano. Los criadores responsables de Bullmastiff apoyan al Comité de Salud e Investigación de la Asociación Americana de Bullmastiff y examinan a sus animales de cría en busca de problemas cardíacos, displasia de cadera y codo, hipotiroidismo y problemas oculares. Al igual que muchos perros, tanto de raza pura como no, los Bullmastiffs pueden desarrollar cáncer, así como hinchazón repentina y potencialmente mortal del abdomen.
+      <br>
+      <br>
+      En cuanto a su pelaje, es corto y denso, y se adhiere al cuerpo, proporcionando protección contra el clima. Los colores pueden variar entre cualquier tono de atigrado, leonado o rojo, y se prefiere un hocico oscuro. Las orejas son más oscuras que el cuerpo.
+      <br>
+      <br>
+      El Bullmastiff es un perro de alta energía, alerta y confiable, que se convierte en un compañero y protector familiar confiable. Su cabeza es amplia con mejillas bien desarrolladas y una cantidad considerable de arrugas que se muestran cuando el perro está alerta. El hocico es corto, romo y cuadrado, aproximadamente un tercio de la longitud de toda la cabeza. Los ojos son oscuros y de tamaño mediano, están bien separados y hay un surco entre ellos.
+      <br>
+      <br>
+      El Bullmastiff es un perro de gran tamaño con huesos pesados. Los criadores se esfuerzan por adherirse al estándar y evitar animales excesivos. Para hacer el trabajo de un perro guardián, esta raza de trabajo debe ser mental y físicamente sólida.
+      <br>
+      <br>
+      En su forma actual, el Bullmastiff es una raza bastante nueva, desarrollada alrededor de 1860. El propósito del desarrollo de la raza (un cruce de Mastiff al 60% y Bulldog al 40%) fue detener la caza furtiva en las fincas inglesas. Los propietarios de tierras querían que los cazadores furtivos fueran derribados y retenidos pero no mutilados. El Mastiff, aunque poderoso y valiente, no era lo suficientemente rápido ni suficientemente ágil para perseguir y atrapar a los cazadores furtivos. Por lo tanto, se cruzó con el Bulldog, que era más pequeño y más rápido, pero igualmente valiente. El resultado fue el Bullmastiff, un perro que combinaba la fuerza y el tamaño del Mastiff con la velocidad y la agilidad del Bulldog.
+    `,
+    history: `
+      La historia del Bullmastiff es una narrativa fascinante que se remonta a mediados del siglo XIX en Inglaterra. Esta raza fue desarrollada con un propósito muy específico: detener la caza furtiva en las vastas propiedades y reservas de caza de la aristocracia inglesa. Los terratenientes querían que los cazadores furtivos fueran derribados y retenidos, pero no mutilados. Para lograr esto, se necesitaba un perro que fuera lo suficientemente grande y fuerte para derribar a un hombre, pero también lo suficientemente rápido y ágil para perseguir a los intrusos.
+      <br>
+      <br>
+      El Mastiff, aunque poderoso y valiente, no era lo suficientemente rápido ni suficientemente ágil para esta tarea. Por otro lado, el Bulldog era un poco demasiado feroz y no lo suficientemente grande para el trabajo. Por lo tanto, los criadores de la época decidieron cruzar estas dos razas, creando así el Bullmastiff, un perro que combinaba la fuerza y el tamaño del Mastiff con la velocidad y la agilidad del Bulldog. La mezcla resultante fue un perro que era totalmente utilitario, capaz de realizar la tarea para la que fue diseñado.
+      <br>
+      <br>
+      El Bullmastiff fue reconocido como raza por el American Kennel Club en 1934 y por el United Kennel Club en 1948. Aunque la raza fue desarrollada en Inglaterra, ha ganado popularidad en todo el mundo, tanto por su habilidad como perro guardián como por su temperamento leal y afectuoso.
+      <br>
+      <br>
+      A lo largo de los años, el Bullmastiff ha mantenido su reputación como un perro guardián y protector eficaz. Aunque es un perro grande y poderoso, también es conocido por su docilidad y su afecto hacia su familia. Es un perro inteligente y equilibrado, que se adapta bien a la vida familiar. Sin embargo, también es un perro que necesita un dueño que pueda proporcionarle una dirección firme y consistente.
+      <br>
+      <br>
+      En resumen, la historia del Bullmastiff es una historia de adaptación y desarrollo cuidadoso para cumplir con un propósito muy específico. Aunque la raza ha evolucionado con el tiempo, los Bullmastiffs de hoy siguen siendo fieles a sus raíces como perros guardianes y protectores, combinando fuerza y agilidad con lealtad y afecto.
+    `,
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Dócil y amoroso con la familia',
@@ -4587,6 +6021,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Hinchazón gástrica',
       'Hipotiroidismo',
+    ],
+    searchTerms: [
+      'Bullmastiff',
+      'Guardián',
+      'Poderoso',
+      'Bulmastif',
+      'Bulmastiff',
+      'Bullmastif',
+      'Bull mastiff',
+      'Bul mastiff',
+      'Bul mastif',
+      'Bull mastif',
+      'Perro guardián',
+      'Perro protector',
+      'Perro grande',
+      'Perro fuerte',
+      'Perro de trabajo',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro de caza',
+      'Perro inglés',
+      'Mastiff',
+      'Bulldog',
+      'Perro de raza pura',
+      'Perro de raza grande',
+      'Perro de raza fuerte',
+      'Perro de raza inglesa',
+      'Perro de raza mastiff',
+      'Perro de raza bulldog',
+      'Perro de raza bullmastiff',
+      'Perro de raza bulmastiff',
+      'Perro de raza bull mastiff',
+      'Perro de raza bul mastiff',
+      'Perro de raza bull mastif',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Bullmastiff',
+      'https://www.dogbreedinfo.com/bullmastiff.htm',
+      'https://www.ukcdogs.com/bullmastiff',
     ],
   },
   52: {
@@ -4619,12 +6100,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 836,
       url: 'https://cdn2.thedogapi.com/images/Sk7Qbg9E7.jpg',
     },
-    searchTerms: ['Cairn Terrier', 'Persecución', 'Resistente'],
     country_code: 'UK',
-    description:
-      'El Cairn Terrier es una raza resistente y valiente, criada originalmente para perseguir presas y alimañas. Su tamaño pequeño y su inteligencia hacen que sean perros excelentes para actividades que requieran agilidad y rapidez. Son conocidos por ser alegres y activos, necesitando ejercicio diario para mantenerse saludables y felices.',
-    history:
-      'Originario de Escocia, el Cairn Terrier se usaba para perseguir y ahuyentar a los animales dañinos en las propiedades de los granjeros. Este pequeño y robusto terrier es conocido por su valentía y resistencia, siendo capaz de enfrentarse a presas más grandes que él. A lo largo de su historia, ha demostrado ser un perro de trabajo eficiente y confiable.',
+    description: `
+      El Cairn Terrier es una raza de perro pequeña y trabajadora, ágil y alerta, con un pelaje resistente a la intemperie y una apariencia natural. Originario de Escocia, fue desarrollado para cazar nutrias, zorros y otras alimañas a lo largo de la costa. Los terriers escoceses, de West Highland White y Cairn fueron desarrollados a partir de la misma línea, primero llamados terriers escoceses y luego terriers de Skye. Los tres a menudo se encontraban en la misma camada, distinguiéndose solo por el color.
+      <br>
+      <br>
+      El Cairn Terrier es un perro activo y valiente, con un temperamento alegre pero no agresivo. Su cabeza es más corta y ancha que la de cualquier otro terrier, y está bien provista de pelo, lo que le da al perro una expresión algo zorruna. Sus ojos están separados y son de color avellana oscuro, con cejas despeinadas que le dan un aspecto curioso y alerta.
+      <br>
+      <br>
+      El cuerpo del Cairn Terrier es de longitud media, con costillas bien arqueadas y profundas, y un lomo fuerte y flexible. Sus patas delanteras son de longitud media con buenos huesos, pero no demasiado pesados. Sus patas traseras son muy fuertes y musculosas, con una buena, pero no excesiva, flexión de la rodilla. Los corvejones están bien descendidos, inclinándose ni hacia adentro ni hacia afuera cuando se ve desde atrás.
+      <br>
+      <br>
+      El pelaje del Cairn Terrier es muy importante. Debe ser resistente a la intemperie y de doble capa, con un pelaje exterior abundante, áspero pero no grueso, y un subpelo corto, suave y cerrado. Un ligero ondulado es permisible. Los abrigos abiertos son objetables. Los colores pueden variar desde crema, trigo, rojo, gris o casi negro. El brindle en estos colores es aceptable. Las orejas oscuras, el hocico y la punta de la cola son típicos.
+      <br>
+      <br>
+      El Cairn Terrier es un perro muy inteligente y ama a su familia, pero puede intentar poner a prueba los límites de su dueño, por lo que la obediencia es necesaria. Aunque aprenden rápidamente, el Cairn siempre puede tener el instinto de cavar y perseguir a pequeños animales, por lo que los nuevos dueños deben estar preparados para estos comportamientos. La socialización temprana y las clases de entrenamiento para cachorros son recomendables y ayudan a asegurar que el perro se convierta en un compañero bien adaptado y bien educado.
+      <br>
+      <br>
+      El Cairn Terrier debería hacerlo bien con una alimentación de alta calidad, ya sea fabricada comercialmente o preparada en casa con la supervisión y aprobación de su veterinario. Algunos perros son propensos a tener sobrepeso, así que vigila el consumo de calorías y el nivel de peso de tu perro. Las golosinas pueden ser una ayuda importante en el entrenamiento, pero dar demasiadas puede causar obesidad. Consulta con tu veterinario si tienes alguna preocupación sobre el peso o la dieta de tu perro. Debe tener agua limpia y fresca disponible en todo momento.
+      <br>
+      <br>
+      El Cairn Terrier es un pequeño terrier resistente, ágil y alerta, con una expresión similar a la de un zorro. Originario de las Tierras Altas de Escocia y la Isla de Skye, este perro fue desarrollado para cazar nutrias, zorros y otras alimañas a lo largo de la costa. Su cabeza es amplia en proporción a su longitud, y su fuerte hocico es de longitud media con una parada definida. Sus ojos, de color avellana oscuro y situados profundamente y separados, junto con sus cejas despeinadas y su copete, le dan una apariencia curiosa y alerta.
+    `,
+    history: `
+      La historia del Cairn Terrier está profundamente arraigada en las Tierras Altas de Escocia y la Isla de Skye, donde este valiente y alegre perro fue desarrollado para cazar nutrias, zorros y otras alimañas a lo largo de la costa. El nombre "Cairn" proviene de los montones de piedras, conocidos como cairns, que se utilizaban para marcar las tumbas o los límites de las propiedades en Escocia. Estos perros eran expertos en desenterrar a las alimañas que se escondían en estos montones de piedras.
+      <br>
+      <br>
+      El Cairn Terrier, junto con el Terrier Escocés y el West Highland White Terrier, fueron desarrollados a partir de la misma línea, inicialmente llamados Terriers Escoceses y luego Terriers de Skye. Los tres a menudo se encontraban en la misma camada, distinguiéndose solo por el color. Esta diversidad de colores en una misma camada se debía a la práctica de criar para obtener habilidades de trabajo en lugar de apariencia o color.
+      <br>
+      <br>
+      El Cairn Terrier compitió por primera vez por certificados de desafío en Inglaterra en 1912, y fue reconocido como raza por el American Kennel Club en 1913 y por el United Kennel Club en 1959. A lo largo de los años, el Cairn Terrier ha mantenido su reputación como un perro de trabajo, manteniendo su resistencia, agilidad y disposición valiente.
+      <br>
+      <br>
+      A pesar de su pequeño tamaño, el Cairn Terrier es conocido por su valentía y su habilidad para enfrentarse a animales mucho más grandes que él. Su naturaleza intrépida y su resistencia a las condiciones climáticas adversas lo convirtieron en un perro de trabajo invaluable en las granjas de Escocia. Las granjas con varios Cairns estaban libres de ratas, ratones, topos y otros animales excavadores.
+      <br>
+      <br>
+      El Cairn Terrier también ha dejado su huella en la cultura popular. Uno de los Cairn Terriers más famosos fue Toto, del "Mago de Oz", cuyo nombre real era Terry, y era una hembra. Esta pequeña perra, con su valentía y lealtad, capturó los corazones del público y ayudó a aumentar la popularidad de la raza.
+      <br>
+      <br>
+      Hoy en día, el Cairn Terrier es apreciado tanto por su habilidad para el trabajo como por su carácter afectuoso y su disposición alegre. Aunque ya no se utiliza tanto para la caza de alimañas, sigue siendo un perro activo y enérgico que disfruta de la actividad física y mental. Su tamaño pequeño y su naturaleza resistente lo hacen adecuado para una variedad de hogares y estilos de vida, siempre y cuando se le proporcione suficiente ejercicio y estimulación.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Resistente',
@@ -4649,6 +6164,58 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Luxación de rótula',
       'Atrofia retiniana progresiva',
     ],
+    searchTerms: [
+      'Cairn Terrier',
+      'Persecución',
+      'Resistente',
+      'Cairn',
+      'Terrier',
+      'Terrier Escocés',
+      'Perro de Escocia',
+      'Perro cazador',
+      'Perro de caza',
+      'Perro de trabajo',
+      'Perro pequeño',
+      'Perro activo',
+      'Perro enérgico',
+      'Perro valiente',
+      'Perro de granja',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro leal',
+      'Perro de compañía',
+      'Perro de película',
+      'Perro Toto',
+      'Perro Mago de Oz',
+      'Perro cazador de alimañas',
+      'Perro cazador de ratas',
+      'Perro cazador de topos',
+      'Perro cazador de zorros',
+      'Perro cazador de nutrias',
+      'Perro de las Tierras Altas',
+      'Perro de las Tierras Altas de Escocia',
+      'Perro de la Isla de Skye',
+      'Perro de montaña',
+      'Perro de piedra'
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+    {
+    nombre: 'Toto',
+    caso: 'El Cairn Terrier que interpretó a Toto en "El Mago de Oz".'
+    }
+    ],
+    fuentes: [
+    "https://www.akc.org/dog-breeds/cairn-terrier/",
+    "https://www.dogbreedinfo.com/cairnterrier.htm",
+    "https://www.ukcdogs.com/cairn-terrier"
+    ]
   },
   53: {
     weight: {
@@ -4680,18 +6247,58 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 380,
       url: 'https://cdn2.thedogapi.com/images/r15m-lc4m.jpg',
     },
-    searchTerms: [
-      'Cane Corso',
-      'Guardián',
-      'Calmado',
-      'Perro guardián',
-      'Compañero',
-    ],
     country_code: 'IT',
-    description:
-      'El Cane Corso es un perro de gran tamaño, calmado y reservado. Originario de Italia, se criaba como perro de compañía, guardián y cazador. A pesar de su aspecto imponente, su personalidad es tranquila y equilibrada, lo que le convierte en un excelente perro de familia cuando se socializa correctamente.',
-    history:
-      'El Cane Corso es una raza de perro antigua que se remonta a la antigua Roma. Fue criado para ser un perro versátil, capaz de realizar diversas tareas, desde la caza hasta la vigilancia. Durante siglos, esta raza fue apreciada en Italia como un perro de caza, guardián y compañero.',
+    description: `
+      El Cane Corso es una raza de perro que se destaca por su nobleza, inteligencia y majestuosidad. Su nombre se traduce aproximadamente del latín como 'perro guardián', lo que da una idea clara de su propósito original. Este perro de trabajo es un protector inigualable, con una presencia imponente que intimida a primera vista. Con una altura de casi 28 pulgadas en el hombro y un peso que a menudo supera las 100 libras, el Cane Corso es una criatura intimidante con una gran cabeza, una expresión alerta y músculos que se ondulan debajo de su corto y rígido pelaje.
+      <br>
+      <br>
+      El Cane Corso es una raza antigua que se remonta a los tiempos del antiguo Imperio Romano. Fueron criados para ser perros guardianes y de trabajo, y su nombre se traduce aproximadamente del latín como "perro guardián". Su apariencia imponente es su primera línea de defensa contra los intrusos. Como dijo un escritor, "Un aire discreto de competencia fresca, el tipo de comportamiento que esperarías de un guardaespaldas profesional, es la marca registrada de la raza".
+      <br>
+      <br>
+      Los Corsi son inteligentes, leales, deseosos de agradar, versátiles e intensamente leales a sus humanos. Sin embargo, también son asertivos y voluntariosos, y pueden terminar siendo los dueños de un propietario desprevenido. Como con cualquier otro perro guardián grande, la cría responsable y la socialización temprana con personas y otros perros es vital.
+      <br>
+      <br>
+      El Cane Corso fue criado para trabajar y es más feliz cuando se le da un trabajo que hacer. Necesita estimulación mental tanto como física, o se producirá un comportamiento indeseable. Muchos Cane Corsos compiten en agilidad, obediencia, salto de muelle, deporte de protección y eventos de seguimiento.
+      <br>
+      <br>
+      A pesar de su apariencia, los Cane Corsos son todo corazón y responden al amor y las recompensas mucho mejor que a las correcciones o métodos de entrenamiento duros. Son inteligentes y ansiosos por complacer, por lo que generalmente son fáciles de entrenar. Sin embargo, algunos Cane Corsos pueden ser dominantes y protectores; la socialización ayudará a garantizar que crezcan hasta convertirse en adultos bien ajustados y bien educados. La formación en obediencia evitará que se conviertan en el jefe en el hogar.
+      <br>
+      <br>
+      El Cane Corso necesita un ejercicio serio. Una caminata o mejor aún, una carrera de al menos una milla por la mañana y otra por la noche mantendrá su salud y tono muscular. Hacen grandes compañeros en largas caminatas, caminatas o paseos en bicicleta. Sin embargo, también necesitan estimulación mental para mantenerse felices y saludables. Los perros de raza para trabajar pueden tener trabajos que requieren toma de decisiones, resolución de problemas, concentración u otras cualidades, y sin el ejercicio cerebral que necesitan, crearán sus propios proyectos para mantener ocupadas sus mentes, y probablemente no serán el tipo de proyectos que te gustaría.
+      <br>
+      <br>
+      El pelaje del Cane Corso es corto pero de doble capa, lo que significa que tiene una capa superior de pelo más grueso y una capa inferior de pelo más suave y denso. Esto le proporciona una cierta protección contra las inclemencias del tiempo. Su pelaje puede ser de una variedad de colores, incluyendo negro, gris plomo, gris claro, rojo ciervo, y fauno (desde el claro hasta el oscuro), y puede tener una máscara negra o gris en la cara.
+      <br>
+      <br>
+      El Cane Corso es un perro que necesita un dueño que entienda y respete su naturaleza. No es un perro para todos. Necesita un dueño que pueda proporcionarle una disciplina firme sin ser duro, y que pueda proporcionarle el ejercicio físico y mental que necesita. Con el dueño adecuado y el entrenamiento adecuado, el Cane Corso puede ser un perro de familia maravilloso y protector, así como un trabajador competente.
+      <br>
+      <br>
+      El Cane Corso es un perro de gran tamaño, pero es más ágil y eficiente que otros perros de su tamaño. Son poderosos y atléticos, lo que les permite ser versátiles en una variedad de trabajos. A pesar de su tamaño y fuerza, los Cane Corsos son conocidos por su gracia y equilibrio, moviéndose con la facilidad y agilidad de un atleta.
+      <br>
+      <br>
+      En resumen, el Cane Corso es un perro majestuoso y poderoso, conocido tanto por su capacidad de trabajo como por su devoción a su familia. Con su inteligencia, su lealtad y su fuerza, el Cane Corso es verdaderamente un perro como ningún otro. Sin embargo, también requiere un dueño que esté dispuesto y sea capaz de dedicar el tiempo y el esfuerzo necesarios para entrenarlo y cuidarlo adecuadamente. Con el dueño adecuado, el Cane Corso puede ser un compañero maravilloso y un trabajador incansable.
+    `,
+    history: `
+      La historia del Cane Corso es una que se remonta a la antigüedad, cuando estos perros eran utilizados en la guerra y en la caza por los antiguos romanos. Su nombre, que se traduce aproximadamente como "perro guardián" o "perro protector" en latín, es un testimonio de su papel histórico como perro de trabajo y protector.
+      <br>
+      <br>
+      Los Cane Corsos son descendientes de los antiguos molosos romanos, una raza de perro de trabajo que se utilizaba en la guerra y en la caza. Estos perros eran conocidos por su fuerza, su resistencia y su valentía, características que se han mantenido en el Cane Corso hasta el día de hoy.
+      <br>
+      <br>
+      Durante la época del Imperio Romano, los Cane Corsos eran utilizados en la guerra, donde se les entrenaba para cargar contra las líneas enemigas con linternas atadas a sus espaldas, creando confusión y miedo entre las filas enemigas. También se utilizaban para cazar grandes animales salvajes, como los jabalíes y los ciervos, y para proteger las propiedades y el ganado.
+      <br>
+      <br>
+      Después de la caída del Imperio Romano, el Cane Corso continuó siendo utilizado como perro de trabajo en la Italia rural. Su fuerza y resistencia los hacían ideales para trabajar en las granjas, donde se utilizaban para arrear ganado, cazar animales salvajes y proteger las propiedades. También se utilizaban en la caza mayor, donde su fuerza y valentía los hacían capaces de enfrentarse a animales como los jabalíes.
+      <br>
+      <br>
+      A pesar de su larga historia, la raza estuvo a punto de extinguirse en el siglo XX. Después de la Segunda Guerra Mundial, la mecanización de la agricultura y la urbanización de las zonas rurales de Italia llevaron a una disminución en la necesidad de perros de trabajo, y la población de Cane Corsos disminuyó drásticamente. Sin embargo, en la década de 1970, un grupo de entusiastas de la raza trabajó para revivir al Cane Corso, y su población ha ido en aumento desde entonces.
+      <br>
+      <br>
+      El Cane Corso fue reconocido oficialmente como raza por el American Kennel Club (AKC) en 2010. Aunque la raza es relativamente nueva en los Estados Unidos, ha ganado popularidad rápidamente debido a su inteligencia, su lealtad y su habilidad para el trabajo.
+      <br>
+      <br>
+      Hoy en día, el Cane Corso es apreciado tanto como perro de trabajo como de compañía. Su inteligencia y su disposición para trabajar los hacen ideales para una variedad de roles, desde la protección personal y la seguridad hasta la búsqueda y rescate. Como perros de compañía, son leales, afectuosos y protectores, lo que los convierte en excelentes perros de familia para aquellos que pueden proporcionarles el ejercicio y la estimulación mental que necesitan.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Adiestrable',
@@ -4711,6 +6318,51 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Displasia de codo'],
+    searchTerms: [
+      'Cane Corso',
+      'Guardián',
+      'Calmado',
+      'Perro guardián',
+      'Compañero',
+      "Canne Corso",
+      "Cane Corzo",
+      "Canne Corzo",
+      "Corso",
+      "Perro italiano",
+      "Mastín italiano",
+      "Perro de protección",
+      "Perro guardián",
+      "Perro de trabajo",
+      "Perro de caza",
+      "Perro de granja",
+      "Perro de familia",
+      "Perro fuerte",
+      "Perro grande",
+      "Perro leal",
+      "Perro de compañía",
+      "Perro de seguridad",
+      "Perro de rescate",
+      "Perro de búsqueda",
+      "Perro de defensa",
+      "Perro de guardia",
+      "Perro de servicio",
+      "Perro de terapia",
+      "Perro de utilidad",
+      "Perro de vigilancia",
+      "Perro de guerra",
+      "Perro de caza mayor",
+      "Perro de caza de jabalíes",
+      "Perro de caza de ciervos"
+    ],
+    "tendencia_a_ladrar": "Baja",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": ["https://www.akc.org/dog-breeds/cane-corso/"]
   },
   54: {
     weight: {
@@ -4742,12 +6394,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 600,
       url: 'https://cdn2.thedogapi.com/images/SyXN-e9NX.jpg',
     },
-    searchTerms: ['Cardigan Welsh Corgi', 'Arreo', 'Cariñoso'],
     country_code: 'UK',
-    description:
-      'El Cardigan Welsh Corgi, originario del Reino Unido, es un perro encantador y leal, criado inicialmente para el pastoreo de ganado. Son inteligentes, activos y muy sociables, lo que los hace excelentes compañeros familiares.',
-    history:
-      'El Cardigan Welsh Corgi tiene una rica historia que se remonta a más de 1000 años. Originario de Gales en el Reino Unido, se dice que los antiguos corgis cardigan son la raza de perro más antigua en las Islas Británicas. Fueron muy valorados por su habilidad para arrear ganado, y aún hoy son conocidos por su instinto de pastoreo.',
+    description: `
+      El Cardigan Welsh Corgi es un perro pequeño pero poderoso, de construcción robusta y apariencia inteligente y atractiva. Su cuerpo es largo en proporción a su altura, y su cola, similar a la de un zorro, se lleva en línea con su cuerpo. Este perro tiene una apariencia zorruna, con orejas que son bastante grandes en proporción al tamaño del perro. Sus patas delanteras son cortas, pero mantienen el cuerpo alejado del suelo. Son pesadas en hueso y los antebrazos se curvan ligeramente para moldearse alrededor del pecho. Los pies se giran ligeramente hacia afuera.
+      <br>
+      <br>
+      El Cardigan Welsh Corgi tiene un pelaje de longitud corta o media, con una textura dura en el pelaje exterior y un buen subpelo. El pelaje correcto forma un ligero collar alrededor del cuello, pantalones en la parte trasera de las patas traseras, y un cepillo en la cola. Los colores aceptables del pelaje incluyen todas las tonalidades de rojo, sable y atigrado; negro, con o sin puntos de bronceado o atigrado; y merle azul (marbleado negro y gris), con o sin puntos de bronceado o atigrado.
+      <br>
+      <br>
+      Este perro es de temperamento equilibrado, leal, cariñoso y adaptable. Son alertas y vigilantes, pero amigables. Son inteligentes y se adaptan fácilmente a diferentes situaciones. Son perros que requieren una cantidad moderada de ejercicio y estimulación mental para mantenerse felices y saludables. Son perros que disfrutan de la compañía de su familia y son conocidos por ser buenos con los niños.
+      <br>
+      <br>
+      El Cardigan Welsh Corgi es un perro de trabajo, originalmente utilizado para conducir el ganado al pasto. Aunque son pequeños, son perros fuertes y capaces de trabajar duro. Son perros inteligentes y receptivos que son conocidos por su habilidad para aprender rápidamente y su deseo de complacer.
+      <br>
+      <br>
+      En resumen, el Cardigan Welsh Corgi es un perro pequeño pero fuerte y resistente, con una personalidad amigable y adaptable. Son perros inteligentes y trabajadores que son leales a su familia y buenos con los niños. Su tamaño pequeño y su naturaleza adaptable los hacen adecuados para una variedad de hogares y estilos de vida.
+    `,
+    history: `
+      La historia del Cardigan Welsh Corgi es tan antigua como las colinas de Gales, donde se originó esta raza. Se cree que el Cardigan es una de las razas de perros más antiguas de Gran Bretaña, con una historia que se remonta a más de mil años. Los Cardigans son una de las dos razas de Corgi, siendo la otra el Pembroke. Aunque ambas razas son similares en muchos aspectos, tienen historias y linajes distintos.
+      <br>
+      <br>
+      El Cardigan Welsh Corgi tiene sus raíces en la antigua Gales, donde se utilizaba principalmente como perro de trabajo. Se cree que los antiguos celtas llevaron a estos perros a Gales hace más de 3.000 años. Estos perros eran valorados por su habilidad para pastorear ganado, una tarea que realizaban con eficacia gracias a su inteligencia, agilidad y resistencia.
+      <br>
+      <br>
+      Otra teoría sugiere que los Cardigans descienden de los Vallhunds suecos, que fueron llevados a Gales por los vikingos. Los Vallhunds, al igual que los Cardigans, son perros de pastoreo de tamaño pequeño a mediano con cuerpos largos y patas cortas. Independientemente de su origen exacto, está claro que los Cardigans han sido una parte integral de la vida en Gales durante siglos.
+      <br>
+      <br>
+      Durante muchos años, los Cardigans fueron utilizados por los granjeros galeses para pastorear y proteger su ganado. Su tamaño pequeño les permitía moverse rápidamente y evitar las patadas de las vacas. Además, su inteligencia y su capacidad para trabajar de forma independiente los hacían muy valiosos para los granjeros.
+      <br>
+      <br>
+      A pesar de su larga historia, el Cardigan Welsh Corgi no fue reconocido como una raza distinta del Pembroke Welsh Corgi hasta el siglo XX. En 1925, el Kennel Club del Reino Unido reconoció al Cardigan y al Pembroke como razas separadas. En Estados Unidos, el American Kennel Club reconoció al Cardigan Welsh Corgi como una raza distinta en 1935.
+      <br>
+      <br>
+      A lo largo de los años, el Cardigan Welsh Corgi ha mantenido su instinto de pastoreo, aunque hoy en día es más comúnmente mantenido como mascota. A pesar de su tamaño pequeño, el Cardigan es un perro robusto y resistente que es conocido por su lealtad y su carácter afectuoso. Aunque la raza no es tan popular como su primo el Pembroke, el Cardigan Welsh Corgi sigue siendo apreciado por su inteligencia, su temperamento equilibrado y su versatilidad.
+      <br>
+      <br>
+      En resumen, la historia del Cardigan Welsh Corgi es una historia de adaptabilidad y supervivencia. A pesar de los cambios en la sociedad y en la forma en que vivimos, el Cardigan ha logrado mantenerse relevante y querido. Ya sea como perro de trabajo en las colinas de Gales o como compañero en un hogar moderno, el Cardigan Welsh Corgi sigue siendo un testimonio de la resistencia y el encanto de esta antigua raza.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Cariñoso',
@@ -4769,6 +6452,50 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Atrofia de retina', 'Displasia de cadera'],
+    searchTerms: [
+      'Cardigan Welsh Corgi',
+      'Arreo',
+      'Cariñoso',
+      'Cardigan Welsh Corgi',
+      'Cardigan',
+      'Corgi',
+      'Corgi Galés',
+      'Corgi Cardigan',
+      'Corgi de Cardigan',
+      'Corgi de Gales',
+      'Corgi Galés Cardigan',
+      'Perro de Gales',
+      'Perro Cardigan',
+      'Perro Corgi',
+      'Perro pastor',
+      'Pastor de Gales',
+      'Pastor Cardigan',
+      'Perro de rebaño',
+      'Perro de trabajo',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro pequeño',
+      'Perro de patas cortas',
+      'Perro de cuerpo largo',
+      'Perro robusto',
+      'Perro inteligente',
+      'Perro leal',
+      'Perro afectuoso',
+      'Perro versátil',
+      'Perro resistente',
+      'Perro equilibrado',
+      'Perro para niños',
+      'Perro para familias'
+    ],
+    "tendencia_a_ladrar": "Baja",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Alta",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": ["https://www.akc.org/dog-breeds/cardigan-welsh-corgi/", "https://www.ukcdogs.com/cardigan-welsh-corgi"]
   },
   55: {
     weight: {
@@ -4800,12 +6527,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 650,
       url: 'https://cdn2.thedogapi.com/images/BJcNbec4X.jpg',
     },
-    searchTerms: ['Perro Leopardo de Catahoula', 'Manejo', 'Energético'],
     country_code: 'US',
-    description:
-      'El Perro Leopardo de Catahoula, originario de los Estados Unidos, es un perro energético e inquisitivo, criado originalmente para el manejo de ganado. Su naturaleza independiente y amorosa combinada con su agudo intelecto lo hacen un excelente compañero y trabajador.',
-    history:
-      'El Perro Leopardo de Catahoula tiene una rica historia, especialmente en el estado de Luisiana donde se originó. Estos perros se desarrollaron para ser excelentes perros de trabajo, capaces de manejar el ganado en diversas condiciones. Son la única raza de perro que se sabe que se originó en Luisiana, y se dice que son una mezcla de perros de trabajo traidos por los colonos europeos y perros nativos americanos.',
+    description: `
+      El Perro Leopardo de Catahoula, también conocido como Catahoula Cur, Catahoula Hog Dog y Catahoula Hound, es una raza de perro que se destaca por su variedad de colores y patrones en su pelaje y ojos. Originario del estado de Louisiana, en los Estados Unidos, es la única raza de perro que se sabe que se originó históricamente en esa región. El nombre "Catahoula" es de origen Choctaw y se traduce como "lago sagrado".
+      <br>
+      <br>
+      Este perro es de tamaño mediano a grande, con un pelaje corto y una apariencia musculosa y poderosa. Sin embargo, a pesar de su robustez, también posee una gran agilidad y resistencia. Se le considera un perro de trabajo multipropósito, ya que puede desempeñarse en una variedad de roles, desde perro de caza hasta perro guardián, pasando por ser un leal compañero de familia.
+      <br>
+      <br>
+      El Catahoula es un perro serio cuando está trabajando, pero en casa es juguetón y afectuoso. Sin embargo, requiere una socialización temprana y una guía firme, ya que puede ser independiente, territorial y protector. No tolera el maltrato y se defenderá si se siente amenazado. Una vez que comprende su lugar en la unidad familiar, se vuelve cariñoso, leal y gentil.
+      <br>
+      <br>
+      En cuanto a su pelaje, puede variar en colores que incluyen negro, azul, amarillo, rojo, chocolate, merle azul, merle rojo, merle blanco y merle amarillo. También puede tener marcas en color canela y un ribete blanco.
+      <br>
+      <br>
+      El Catahoula es un perro que necesita mucho ejercicio y siempre necesita tener una tarea que hacer. No es adecuado para vivir en la ciudad o en un apartamento. Sin la cantidad adecuada de ejercicio y atención, puede comenzar a causar problemas, como cavar hoyos y masticar cosas. Las opciones de ejercicio podrían incluir tiempo de juego en el patio trasero, preferiblemente cercado, o paseos varias veces al día. Las actividades al aire libre como nadar, hacer senderismo y recuperar pelotas o discos voladores también pueden proporcionar una buena salida para gastar energía. Es importante mencionar que es un excelente nadador.
+      <br>
+      <br>
+      En cuanto a su alimentación, el Catahoula Leopard Dog debería hacerlo bien con un alimento para perros de alta calidad, ya sea fabricado comercialmente o preparado en casa con la supervisión y aprobación de su veterinario. Algunos perros son propensos a engordar, por lo que es importante vigilar el consumo de calorías y el nivel de peso de su perro.
+      <br>
+      <br>
+      En resumen, el Perro Leopardo de Catahoula es una raza única y versátil, conocida por su fuerza, agilidad y lealtad. Con la socialización y la guía adecuadas, puede ser un excelente perro de trabajo y un amado miembro de la familia.
+    `,
+    history: `
+      La historia del Perro Leopardo de Catahoula, también conocido como Catahoula Cur o Catahoula Hog Dog, es tan intrigante como su nombre. Esta raza es originaria de los Estados Unidos, específicamente de la parroquia de Catahoula en Louisiana, de donde toma su nombre. Su historia se remonta a mediados del siglo XVIII, cuando los colonos franceses emigraron a lo que se convertiría en Louisiana, trayendo consigo a sus perros Beauceron. Los colonos cruzaron sus perros con los perros de caza de pantano, adaptados y propiedad de los nativos americanos, en un esfuerzo por desarrollar un perro de trabajo superior.
+      <br>
+      <br>
+      A lo largo del siglo XIX, la cría se intensificó con el objetivo de desarrollar un perro familiar que fuera adecuado para trabajar, cazar y proteger, pero que también fuera bueno con los niños. El Catahoula se convirtió en el perro oficial del estado de Louisiana en 1979, un reconocimiento a su significado histórico para el estado. El 1 de enero de 1995, el Perro Leopardo de Catahoula fue reconocido por el United Kennel Club. En 1996, el American Kennel Club añadió al Catahoula Leopard Dog a su Foundation Stock Service.
+      <br>
+      <br>
+      Aunque la raza Catahoula es conocida por su habilidad para cazar jabalíes salvajes, su uso ha evolucionado con el tiempo. Los nativos americanos tendían a utilizar el perro para cazar animales de gran tamaño, mientras que los colonos europeos utilizaban el perro para cazar y pastorear el ganado. Hoy en día, los Catahoulas son utilizados como perros de bay, de árbol y para cazar una variedad de animales salvajes, desde pequeños como mapaches y ardillas, hasta grandes como ciervos, pumas y osos. También se utilizan para rastrear el olor del juego, y como perros de búsqueda y rescate.
+      <br>
+      <br>
+      Los Catahoulas tienen un instinto natural de pastoreo y una forma única de trabajar con un rebaño. El AKC describe esto como la creación de una "valla canina" alrededor del rebaño, lo que permite al dueño del perro trabajar con el rebaño dentro de ese círculo. La capacidad de pastoreo y el instinto de trabajo son una prioridad para los criadores de Catahoula, por encima de la apariencia del perro. Los Catahoulas que muestran instintos básicos de pastoreo pueden ser entrenados para competir en pruebas de perros de ganado y cerdos.
+      <br>
+      <br>
+      A pesar de su rica historia y sus habilidades notables, la raza Catahoula no está exenta de problemas de salud. La sordera es uno de los principales defectos genéticos comunes en los Catahoulas y está asociada con individuos que son excesivamente blancos en color. Un Catahoula que es predominantemente blanco tiene un 80% de posibilidades de ser sordo bilateralmente o de tener audición unilateral. Los cachorros nacidos de una camada donde ambos padres tienen el patrón de color merle tienen un 25% de posibilidades de ser ciegos, sordos, o ciegos y sordos.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Energético',
@@ -4827,6 +6585,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Sordera'],
+    searchTerms: [
+      'Perro Leopardo de Catahoula',
+      'Manejo',
+      'Energético',
+      "Catahoula",
+      "Perro Leopardo",
+      "Catahoula Cur",
+      "Catahoula Hog Dog",
+      "Perro de trabajo",
+      "Perro de caza",
+      "Perro de Louisiana",
+      "Perro de protección",
+      "Perro de pastoreo",
+      "Perro de granja",
+      "Perro de familia",
+      "Perro de compañía",
+      "Perro de rescate",
+      "Perro de rastreo",
+      "Perro de ojos azules",
+      "Perro de pelo corto",
+      "Perro de tamaño mediano",
+      "Perro de tamaño grande",
+      "Perro de energía alta",
+      "Perro de entrenamiento",
+      "Perro de agilidad",
+      "Perro de resistencia",
+      "Perro de fuerza",
+      "Perro de musculatura",
+      "Perro de color merle",
+      "Perro de color sólido",
+      "Perro de color brindle",
+      "Perro de color manchado",
+      "Perro de color moteado"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": ["https://www.akc.org/dog-breeds/catahoula-leopard-dog/"]
   },
   56: {
     weight: {
@@ -4861,12 +6662,38 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 682,
       url: 'https://cdn2.thedogapi.com/images/r1rrWe5Em.jpg',
     },
-    searchTerms: ['Pastor Caucásico', 'Ovcharka', 'Guardian'],
     country_code: 'RU',
-    description:
-      'El Pastor Caucásico, también conocido como Ovcharka, es un perro poderoso y dominante, criado originalmente para proteger ovejas de depredadores como lobos, chacales y osos. Su carácter alerta y tranquilo, junto con su fuerza física lo hacen un formidable defensor.',
-    history:
-      'Originario de Rusia, el Pastor Caucásico ha sido durante siglos un perro pastor valioso, protegiendo a las ovejas en las montañas del Cáucaso. Su fuerza, resistencia y coraje le permiten enfrentarse a depredadores mucho más grandes, y su naturaleza leal y protectora lo hace muy valorado por los pastores.',
+    description: `
+      El Pastor Caucásico, también conocido como Ovcharka, es una raza de perro que no se debe tomar a la ligera. Este perro es audaz, valiente, seguro de sí mismo y feroz cuando se presenta una amenaza, pero es suave, devoto, amable y cariñoso con su familia, incluyendo a otras mascotas de la familia.
+      <br>
+      <br>
+      Los Pastores Caucásicos se han utilizado durante siglos para proteger propiedades de intrusos, cuidar el ganado de grandes y pequeños depredadores como lobos y coyotes, y para muchas otras tareas. En la actualidad, especialmente en Occidente, son más comúnmente compañeros y perros guardianes. Existe una gran variedad de tipos entre los perros caucásicos, dependiendo de su región de origen. Durante casi un siglo, ha habido dos tipos y estándares de raza: el tipo de montaña, que tiene un pelaje largo y una masa corporal más pesada que el tipo de estepa, un perro de pelo corto con una masa corporal más ligera.
+      <br>
+      <br>
+      El Pastor Caucásico es una raza seria de perro guardián y nunca debe ser tomada a la ligera. El Caucásico es audaz, valiente, seguro de sí mismo y feroz cuando se presenta una amenaza, pero es suave, devoto, amable y cariñoso con su familia, incluyendo a otras mascotas de la familia.
+      <br>
+      <br>
+      Los Pastores Caucásicos fueron utilizados durante siglos para proteger propiedades de intrusos, cuidar el ganado de grandes y pequeños depredadores como lobos y coyotes, y para muchas otras tareas. En la actualidad, especialmente en Occidente, son más comúnmente compañeros y perros guardianes. Existe una gran variedad de tipos entre los perros caucásicos, dependiendo de su región de origen. Durante casi un siglo, ha habido dos tipos y estándares de raza: el tipo de montaña, que tiene un pelaje largo y una masa corporal más pesada que el tipo de estepa, un perro de pelo corto con una masa corporal más ligera.
+      <br>
+      <br>
+      El Pastor Caucásico tiene una variedad de tipos de pelaje, desde muy largo hasta corto. Los perros de pelo largo necesitan ser cepillados diariamente. El cepillado puede ser una maravillosa experiencia de unión para usted y su mascota. Sus fuertes uñas de rápido crecimiento deben ser recortadas regularmente con un cortaúñas o una amoladora para evitar el crecimiento excesivo, la división y la fisuración. Sus oídos deben ser revisados regularmente para evitar la acumulación de cera y escombros que pueden resultar en una infección. Los dientes deben ser cepillados regularmente.
+      <br>
+      <br>
+      Los Pastores Caucásicos se desempeñan mejor con un gran patio y son adecuados para familias que disfrutan de los paseos diarios. Por seguridad, debido a que son una raza inteligente e independiente, deben ser mantenidos contenidos cuando se ejercitan, como en un patio cercado y con correa cuando se pasean. Aunque es un perro de baja energía, debería tener buena resistencia para caminar y hacer senderismo.
+    `,
+    history: `
+      El Pastor Caucásico, también conocido como Ovcharka, es una raza de perro que tiene una historia rica y antigua. Esta raza se originó en las montañas del Cáucaso, una región que abarca Armenia, Georgia, Azerbaiyán, Kabardino-Balkaria, Daguestán, Osetia, Turquía, Chechenia, Ingushetia e Irán. Durante siglos, estos perros han sido utilizados para proteger propiedades de intrusos, cuidar el ganado de grandes y pequeños depredadores como lobos y coyotes, y para muchas otras tareas.
+
+      En los tiempos modernos, especialmente en Occidente, los Pastores Caucásicos son más comúnmente compañeros y perros guardianes. Sin embargo, su naturaleza protectora y su valentía siguen siendo características centrales de la raza. Son audaces, valientes, seguros de sí mismos y feroces cuando se presenta una amenaza, pero son suaves, devotos, amables y cariñosos con su familia, incluyendo a otras mascotas de la familia.
+
+      Existe una gran variedad de tipos entre los perros caucásicos, dependiendo de su región de origen. Durante casi un siglo, ha habido dos tipos y estándares de raza: el tipo de montaña, que tiene un pelaje largo y una masa corporal más pesada que el tipo de estepa, un perro de pelo corto con una masa corporal más ligera.
+
+      El Pastor Caucásico es una raza seria de perro guardián y nunca debe ser tomada a la ligera. Su tamaño, su fuerza y su naturaleza protectora los hacen adecuados para roles de trabajo, pero también pueden ser compañeros leales y cariñosos en el hogar adecuado.
+
+      A lo largo de los años, la raza ha sido conocida por varios nombres, incluyendo Ovcharka Caucásica, Pastor Caucásico, Kawkasky Owtscharka y Kaukasische Schaferhund. Cada uno de estos nombres refleja diferentes aspectos de su historia y su papel en la sociedad.
+
+      En resumen, la historia del Pastor Caucásico es una de adaptación y supervivencia. Estos perros han sido criados durante siglos para ser protectores y guardianes, y esas características siguen siendo evidentes en la raza hoy en día. Aunque pueden ser desafiantes para los dueños de perros por primera vez debido a su independencia y su tamaño, también son perros increíblemente leales y cariñosos que pueden hacer grandes adiciones a la familia adecuada.
+    `,
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Alerta',
@@ -4889,6 +6716,48 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Baja',
     enfermedades_comunes: ['Displasia de cadera', 'Obesidad'],
+    searchTerms: [
+      'Pastor Caucásico',
+      'Ovcharka',
+      'Guardian',
+      'Pastor del Cáucaso',
+      'Perro del Cáucaso',
+      'Ovcharka Caucásico',
+      'Perro de montaña del Cáucaso',
+      'Perro de pastor del Cáucaso',
+      'Perro guardián del Cáucaso',
+      'Perro de protección del Cáucaso',
+      'Perro de trabajo del Cáucaso',
+      'Perro de granja del Cáucaso',
+      'Perro de ganado del Cáucaso',
+      'Perro de familia del Cáucaso',
+      'Perro de compañía del Cáucaso',
+      'Perro de caza del Cáucaso',
+      'Perro de rastreo del Cáucaso',
+      'Perro de rescate del Cáucaso',
+      'Perro de terapia del Cáucaso',
+      'Perro de servicio del Cáucaso',
+      'Perro de defensa del Cáucaso',
+      'Perro de seguridad del Cáucaso',
+      'Perro de vigilancia del Cáucaso',
+      'Perro de patrulla del Cáucaso',
+      'Perro de guardia del Cáucaso',
+      'Perro de pastor caucasico',
+      'Perro de pastor caucásico',
+      'Perro de pastor caucasico',
+      'Perro de pastor caucásico',
+      'Perro de pastor caucasico',
+      'Perro de pastor caucásico'
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Baja",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": ["https://www.akc.org/dog-breeds/caucasian-shepherd-dog/", "https://www.ukcdogs.com/caucasian-ovcharka"]
   },
   57: {
     weight: {
@@ -4920,12 +6789,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 558,
       url: 'https://cdn2.thedogapi.com/images/HJRBbe94Q.jpg',
     },
-    searchTerms: ['Cavalier King Charles Spaniel', 'Compañía', 'Juguetón'],
     country_code: 'GB',
-    description:
-      'El Cavalier King Charles Spaniel es una raza pequeña, querida por su temperamento juguetón y adaptable. Son sociables y pacientes, haciéndolos ideales como mascotas familiares y compañía para los ancianos. Su tamaño pequeño los hace adecuados para la vida en apartamentos, aunque necesitan ejercicio diario regular para mantener su salud.',
-    history:
-      'Originario del Reino Unido, el Cavalier King Charles Spaniel lleva el nombre del rey Carlos II, que tenía una gran afinidad por la raza. Fueron criados inicialmente para ser perros de regazo y compañía, aunque también eran conocidos por su habilidad para desalojar pequeñas aves. Con su personalidad encantadora y su aspecto adorable, esta raza se ha mantenido popular a lo largo de los años.',
+    description: `
+      El Cavalier King Charles Spaniel es una raza de perro que se destaca por su elegancia y su carácter amigable. Originarios de Gran Bretaña, estos perros son conocidos por su pelaje largo y sedoso, su expresión dulce y su naturaleza afectuosa. Son perros activos y gráciles, con un peso que oscila entre las 12 y las 18 libras, y una altura que va de las 12 a las 13 pulgadas.
+      <br>
+      <br>
+      El Cavalier King Charles Spaniel tiene una apariencia distintiva que se caracteriza por su cabeza plana, ojos oscuros y grandes, y orejas altas y largas con abundante plumaje. Su pelaje es largo, sedoso y libre de rizos, aunque se permite una ligera ondulación. Este pelaje, que es característicamente sin recortar, viene en cuatro variaciones de color: Black and Tan (negro y canela), Ruby (rojo intenso), Blenheim (marcas de castaño intenso sobre un fondo blanco perlado) y Tri-color (marcas de negro intenso sobre un fondo blanco perlado con marcas de color canela).
+      <br>
+      <br>
+      Estos perros son conocidos por su personalidad alegre, valiente y deportiva, pero también son suaves y afectuosos. No muestran ninguna tendencia hacia la nerviosidad. Son perros que se llevan bien con la familia y son conocidos por su tolerancia y paciencia con el comportamiento de los niños. Sin embargo, siempre se recomienda supervisar a los perros cuando están alrededor de niños pequeños o de cualquier edad que tengan poca experiencia con los perros.
+      <br>
+      <br>
+      El Cavalier King Charles Spaniel es una raza que requiere un nivel moderado de cuidado. Su pelaje largo y sedoso requiere un cepillado regular para mantenerlo en buen estado. Además, estos perros son propensos a la muda, por lo que es posible que necesiten un poco más de cuidado y limpieza para mantener su pelaje y su entorno limpios.
+      <br>
+      <br>
+      En cuanto a su salud, el Cavalier King Charles Spaniel es una raza generalmente saludable, pero como todas las razas de perros, puede ser propenso a ciertas condiciones de salud hereditarias. Es importante para los posibles propietarios investigar estas condiciones y asegurarse de que están dispuestos y capaces de proporcionar el cuidado necesario para mantener a su Cavalier King Charles Spaniel saludable y feliz.
+      <br>
+      <br>
+      En resumen, el Cavalier King Charles Spaniel es una raza de perro encantadora y amigable que puede ser una maravillosa adición a muchas familias. Su personalidad alegre y afectuosa, combinada con su hermosa apariencia, hace que esta raza sea una opción popular para muchos amantes de los perros. Sin embargo, como con cualquier raza de perro, es importante investigar y entender completamente las necesidades y los requisitos de cuidado de la raza antes de tomar la decisión de traer un Cavalier King Charles Spaniel a su hogar.
+    `,
+    history: `
+      La historia del Cavalier King Charles Spaniel es tan fascinante como la raza misma, llena de realeza, cambios y resiliencia. Esta raza de perro, de origen británico, tiene una historia que se remonta a los tiempos de la realeza inglesa. Su nombre proviene de la asociación con el rey Carlos II de Inglaterra, quien tenía una gran afición por estos perros.
+      <br>
+      <br>
+      El Cavalier King Charles Spaniel, como lo conocemos hoy, experimentó cambios dramáticos en el siglo XVII, cuando fue cruzado con razas de hocico plano. Hasta la década de 1920, compartía la misma historia que el King Charles Spaniel más pequeño. Los criadores intentaron recrear lo que consideraban la configuración original, un perro que se asemejara al spaniel de Carlos II durante el período de la Guerra Civil Inglesa, cuando los partidarios del rey eran conocidos como "Cavaliers".
+      <br>
+      <br>
+      Durante la primera parte del siglo XVIII, John Churchill, primer duque de Marlborough, mantenía spaniels tipo King Charles de color rojo y blanco para la caza. El duque registró que eran capaces de mantenerse al ritmo de un caballo al trote. Su finca fue nombrada Blenheim en honor a su victoria en la Batalla de Blenheim. Debido a esta influencia, la variedad de color rojo y blanco del King Charles Spaniel y, por lo tanto, del Cavalier King Charles Spaniel, se conoció como Blenheim.
+      <br>
+      <br>
+      Los intentos de recrear el Cavalier King Charles Spaniel original comenzaron a principios del siglo XX, utilizando los ahora extintos Toy Trawler Spaniels. Estos intentos fueron documentados por Judith Blunt-Lytton, 16ª baronesa Wentworth, en el libro "Toy Dogs and Their Ancestors Including the History And Management of Toy Spaniels, Pekingese, Japanese and Pomeranians" publicado bajo el nombre de "Hon. Mrs Neville Lytton" en 1911.
+      <br>
+      <br>
+      La Segunda Guerra Mundial causó un gran revés para la raza emergente, con la gran mayoría del stock de cría destruido debido a las dificultades de la guerra y la escasez de alimentos. Por ejemplo, en el criadero de Cavaliers Ttiweh, la población de 60 perros se redujo a tres durante la década de 1940. Después de la guerra, pocos perros sobrevivieron como el nuevo comienzo del cual descienden todos los Cavaliers actuales. Y en 1945, el Kennel Club reconoció por primera vez la raza en su propio derecho como el Cavalier King Charles Spaniel.
+      <br>
+      <br>
+      El primer Cavalier registrado que vivió en los Estados Unidos fue traído desde el Reino Unido en 1956 por W. Lyon Brown, quien, junto con Elizabeth Spalding y otros entusiastas, fundó el Cavalier King Charles Club USA que continúa hasta el día de hoy. En 1994, el American Cavalier King Charles Spaniel Club fue creado por un grupo de criadores para solicitar el reconocimiento del American Kennel Club. Fue reconocido por el American Kennel Club en 1995, y el ACKCSC se convirtió en el club matriz para los Cavaliers. Desde 2000, ha ganado popularidad en los Estados Unidos y se clasifica como la 15ª raza más popular en el país.
+      <br>
+      <br>
+      El Cavalier King Charles Spaniel es una raza de perro activa, elegante y llena de gracia, con una expresión suave. Es conocido por su pelaje largo y sedoso que viene en cuatro variaciones de color, y es característicamente sin recortar. La raza es muy alegre, valiente y deportiva, pero también suave y cariñosa, sin ninguna tendencia hacia la nerviosidad. A pesar de su tamaño pequeño, el Cavalier es un perro robusto y resistente, con una historia de adaptabilidad y resistencia.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Cariñoso',
@@ -4946,6 +6849,50 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Síndrome de Cavalier', 'Displasia de cadera'],
+    searchTerms: [
+      'Cavalier King Charles Spaniel',
+      'Compañía',
+      'Juguetón',
+      "Cavalier",
+      "King Charles Spaniel",
+      "Spaniel",
+      "Cavalier King",
+      "Cavalier Spaniel",
+      "Cavalier Carlos",
+      "Cavalier Rey Carlos",
+      "Spaniel Rey Carlos",
+      "Spaniel Carlos",
+      "Cavalier King Charles",
+      "Cavalier King Carlos",
+      "Cavalier Rey Charles",
+      "Spaniel King Charles",
+      "Spaniel King Carlos",
+      "Spaniel Rey Charles",
+      "Perro de compañía",
+      "Perro familiar",
+      "Perro cariñoso",
+      "Perro amigable",
+      "Perro pequeño",
+      "Perro de raza pequeña",
+      "Perro de pelo largo",
+      "Perro de raza británica",
+      "Perro británico",
+      "Perro de raza inglesa",
+      "Perro inglés"
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      "https://www.akc.org/dog-breeds/cavalier-king-charles-spaniel/",
+      "https://www.dogbreedinfo.com/cavalierkingcharlesspaniel.htm",
+      "https://www.ukcdogs.com/cavalier-king-charles-spaniel"
+    ]
   },
   58: {
     weight: {
