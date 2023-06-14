@@ -141,6 +141,21 @@ me encargo de pasar todo a minúscula, enfocate en las formas coloquiales de lla
 Podés colocar palabras que estén relacionadas a si la raza es buena con niños como por ejemplo "niños" o "familia" o si el perro es para protección podes poner
 "protección" o "guardia" o "guardián", etc. Hace esto en el caso únicamente que la relación es positiva con la palabra. Si la relación es negativa no la coloques.
 
+Para que puedas darte una mejor idea, esta es la función que uso para filtrar las razas de perro en mi blog:
+  filterBySearchTerm(perrosActiclesList: Dog[], searchTerm: string) {
+    const searchTermWithoutPunctuation = searchTerm.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+
+    return perrosActiclesList.filter((dog) =>
+      dog.name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(searchTermWithoutPunctuation) ||
+      dog.searchTerms.some((term) => term.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(searchTermWithoutPunctuation)) ||
+      dog.origin.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(searchTermWithoutPunctuation) ||
+      dog.perks.some((term) => term.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(searchTermWithoutPunctuation)) ||
+      dog.bred_for.some((term) => term.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(searchTermWithoutPunctuation)) ||
+      dog.breed_group.some((term) => term.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(searchTermWithoutPunctuation)) ||
+      dog.temperament.some((term) => term.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(searchTermWithoutPunctuation))
+    );
+  }
+
 Ejemplo de términos de búsqueda para el perro "Bóxer": searchTerms: ['Boxer', 'Bóxer', 'Bocser', 'Trabajador', 'Guardián']
 
 ¡¡IMPORTANTE TAMBIÉN!!  --> Retorname todo en formato de objeto de typescript con las siguientes propiedades:
@@ -205,4 +220,8 @@ Por último quiero que agregues en un array de strings las urls de las fuentes q
 }
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROMPT PARA CONTINUAR
+
+Continua desde acá sin navegar por internet y sin repetir lo que pusiste en la respuesta anterior a este prompt:
+
 */

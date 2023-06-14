@@ -52,7 +52,7 @@ export class SocialIconsComponent {
 
     switch (socialNetwork) {
       case 'twitter':
-        url = `https://twitter.com/share?url=${this.currentUrl}&text=${this.description}&via=tobiblaksley`;
+        url = `https://twitter.com/share?url=${this.currentUrl}&text=${this.description}&via=esferamascota`;
         break;
       case 'lkd':
         url = `https://www.linkedin.com/shareArticle?mini=true&url=${this.currentUrl}&title=${this.title}&summary=${this.description}&source='Esfera mascota'`;

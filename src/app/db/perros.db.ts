@@ -1233,7 +1233,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     para_primerizos: 'Baja',
     bueno_con_ninos: '-',
     casos_famosos: [],
-    fuentes: []
+    fuentes: [],
   },
   12: {
     weight: {
@@ -6196,7 +6196,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Perro de las Tierras Altas de Escocia',
       'Perro de la Isla de Skye',
       'Perro de montaña',
-      'Perro de piedra'
+      'Perro de piedra',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Moderada',
@@ -6206,16 +6206,16 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [
-    {
-    nombre: 'Toto',
-    caso: 'El Cairn Terrier que interpretó a Toto en "El Mago de Oz".'
-    }
+      {
+        nombre: 'Toto',
+        caso: 'El Cairn Terrier que interpretó a Toto en "El Mago de Oz".',
+      },
     ],
     fuentes: [
-    "https://www.akc.org/dog-breeds/cairn-terrier/",
-    "https://www.dogbreedinfo.com/cairnterrier.htm",
-    "https://www.ukcdogs.com/cairn-terrier"
-    ]
+      'https://www.akc.org/dog-breeds/cairn-terrier/',
+      'https://www.dogbreedinfo.com/cairnterrier.htm',
+      'https://www.ukcdogs.com/cairn-terrier',
+    ],
   },
   53: {
     weight: {
@@ -6324,45 +6324,45 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Calmado',
       'Perro guardián',
       'Compañero',
-      "Canne Corso",
-      "Cane Corzo",
-      "Canne Corzo",
-      "Corso",
-      "Perro italiano",
-      "Mastín italiano",
-      "Perro de protección",
-      "Perro guardián",
-      "Perro de trabajo",
-      "Perro de caza",
-      "Perro de granja",
-      "Perro de familia",
-      "Perro fuerte",
-      "Perro grande",
-      "Perro leal",
-      "Perro de compañía",
-      "Perro de seguridad",
-      "Perro de rescate",
-      "Perro de búsqueda",
-      "Perro de defensa",
-      "Perro de guardia",
-      "Perro de servicio",
-      "Perro de terapia",
-      "Perro de utilidad",
-      "Perro de vigilancia",
-      "Perro de guerra",
-      "Perro de caza mayor",
-      "Perro de caza de jabalíes",
-      "Perro de caza de ciervos"
+      'Canne Corso',
+      'Cane Corzo',
+      'Canne Corzo',
+      'Corso',
+      'Perro italiano',
+      'Mastín italiano',
+      'Perro de protección',
+      'Perro guardián',
+      'Perro de trabajo',
+      'Perro de caza',
+      'Perro de granja',
+      'Perro de familia',
+      'Perro fuerte',
+      'Perro grande',
+      'Perro leal',
+      'Perro de compañía',
+      'Perro de seguridad',
+      'Perro de rescate',
+      'Perro de búsqueda',
+      'Perro de defensa',
+      'Perro de guardia',
+      'Perro de servicio',
+      'Perro de terapia',
+      'Perro de utilidad',
+      'Perro de vigilancia',
+      'Perro de guerra',
+      'Perro de caza mayor',
+      'Perro de caza de jabalíes',
+      'Perro de caza de ciervos',
     ],
-    "tendencia_a_ladrar": "Baja",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": ["https://www.akc.org/dog-breeds/cane-corso/"]
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: ['https://www.akc.org/dog-breeds/cane-corso/'],
   },
   54: {
     weight: {
@@ -6485,17 +6485,20 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Perro resistente',
       'Perro equilibrado',
       'Perro para niños',
-      'Perro para familias'
+      'Perro para familias',
     ],
-    "tendencia_a_ladrar": "Baja",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Alta",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": ["https://www.akc.org/dog-breeds/cardigan-welsh-corgi/", "https://www.ukcdogs.com/cardigan-welsh-corgi"]
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/cardigan-welsh-corgi/',
+      'https://www.ukcdogs.com/cardigan-welsh-corgi',
+    ],
   },
   55: {
     weight: {
@@ -6589,45 +6592,45 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Perro Leopardo de Catahoula',
       'Manejo',
       'Energético',
-      "Catahoula",
-      "Perro Leopardo",
-      "Catahoula Cur",
-      "Catahoula Hog Dog",
-      "Perro de trabajo",
-      "Perro de caza",
-      "Perro de Louisiana",
-      "Perro de protección",
-      "Perro de pastoreo",
-      "Perro de granja",
-      "Perro de familia",
-      "Perro de compañía",
-      "Perro de rescate",
-      "Perro de rastreo",
-      "Perro de ojos azules",
-      "Perro de pelo corto",
-      "Perro de tamaño mediano",
-      "Perro de tamaño grande",
-      "Perro de energía alta",
-      "Perro de entrenamiento",
-      "Perro de agilidad",
-      "Perro de resistencia",
-      "Perro de fuerza",
-      "Perro de musculatura",
-      "Perro de color merle",
-      "Perro de color sólido",
-      "Perro de color brindle",
-      "Perro de color manchado",
-      "Perro de color moteado"
+      'Catahoula',
+      'Perro Leopardo',
+      'Catahoula Cur',
+      'Catahoula Hog Dog',
+      'Perro de trabajo',
+      'Perro de caza',
+      'Perro de Louisiana',
+      'Perro de protección',
+      'Perro de pastoreo',
+      'Perro de granja',
+      'Perro de familia',
+      'Perro de compañía',
+      'Perro de rescate',
+      'Perro de rastreo',
+      'Perro de ojos azules',
+      'Perro de pelo corto',
+      'Perro de tamaño mediano',
+      'Perro de tamaño grande',
+      'Perro de energía alta',
+      'Perro de entrenamiento',
+      'Perro de agilidad',
+      'Perro de resistencia',
+      'Perro de fuerza',
+      'Perro de musculatura',
+      'Perro de color merle',
+      'Perro de color sólido',
+      'Perro de color brindle',
+      'Perro de color manchado',
+      'Perro de color moteado',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": ["https://www.akc.org/dog-breeds/catahoula-leopard-dog/"]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: ['https://www.akc.org/dog-breeds/catahoula-leopard-dog/'],
   },
   56: {
     weight: {
@@ -6747,17 +6750,20 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Perro de pastor caucasico',
       'Perro de pastor caucásico',
       'Perro de pastor caucasico',
-      'Perro de pastor caucásico'
+      'Perro de pastor caucásico',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Baja",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": ["https://www.akc.org/dog-breeds/caucasian-shepherd-dog/", "https://www.ukcdogs.com/caucasian-ovcharka"]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/caucasian-shepherd-dog/',
+      'https://www.ukcdogs.com/caucasian-ovcharka',
+    ],
   },
   57: {
     weight: {
@@ -6853,32 +6859,32 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Cavalier King Charles Spaniel',
       'Compañía',
       'Juguetón',
-      "Cavalier",
-      "King Charles Spaniel",
-      "Spaniel",
-      "Cavalier King",
-      "Cavalier Spaniel",
-      "Cavalier Carlos",
-      "Cavalier Rey Carlos",
-      "Spaniel Rey Carlos",
-      "Spaniel Carlos",
-      "Cavalier King Charles",
-      "Cavalier King Carlos",
-      "Cavalier Rey Charles",
-      "Spaniel King Charles",
-      "Spaniel King Carlos",
-      "Spaniel Rey Charles",
-      "Perro de compañía",
-      "Perro familiar",
-      "Perro cariñoso",
-      "Perro amigable",
-      "Perro pequeño",
-      "Perro de raza pequeña",
-      "Perro de pelo largo",
-      "Perro de raza británica",
-      "Perro británico",
-      "Perro de raza inglesa",
-      "Perro inglés"
+      'Cavalier',
+      'King Charles Spaniel',
+      'Spaniel',
+      'Cavalier King',
+      'Cavalier Spaniel',
+      'Cavalier Carlos',
+      'Cavalier Rey Carlos',
+      'Spaniel Rey Carlos',
+      'Spaniel Carlos',
+      'Cavalier King Charles',
+      'Cavalier King Carlos',
+      'Cavalier Rey Charles',
+      'Spaniel King Charles',
+      'Spaniel King Carlos',
+      'Spaniel Rey Charles',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro cariñoso',
+      'Perro amigable',
+      'Perro pequeño',
+      'Perro de raza pequeña',
+      'Perro de pelo largo',
+      'Perro de raza británica',
+      'Perro británico',
+      'Perro de raza inglesa',
+      'Perro inglés',
     ],
     tendencia_a_ladrar: 'Baja',
     necesidad_de_aseo: 'Moderada',
@@ -6889,10 +6895,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-      "https://www.akc.org/dog-breeds/cavalier-king-charles-spaniel/",
-      "https://www.dogbreedinfo.com/cavalierkingcharlesspaniel.htm",
-      "https://www.ukcdogs.com/cavalier-king-charles-spaniel"
-    ]
+      'https://www.akc.org/dog-breeds/cavalier-king-charles-spaniel/',
+      'https://www.dogbreedinfo.com/cavalierkingcharlesspaniel.htm',
+      'https://www.ukcdogs.com/cavalier-king-charles-spaniel',
+    ],
   },
   58: {
     weight: {
@@ -7010,17 +7016,21 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Perro para familias',
       'Perro para el hogar',
       'Perro para la casa',
-      'Perro para el campo'
+      'Perro para el campo',
     ],
-      "tendencia_a_ladrar": "Moderada",
-      "necesidad_de_aseo": "Moderada",
-      "soporta_clima_frio": "Alta",
-      "soporta_clima_calido": "Moderada",
-      "para_primerizos": "Baja",
-      "bueno_con_ninos": "Moderada",
-      "tolerancia_a_la_soledad": "Baja",
-      "casos_famosos": [],
-      "fuentes": ["https://www.akc.org/dog-breeds/chesapeake-bay-retriever/", "https://www.dogbreedinfo.com/chesapeakebay.htm", "https://www.ukcdogs.com/chesapeake-bay-retriever"]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/chesapeake-bay-retriever/',
+      'https://www.dogbreedinfo.com/chesapeakebay.htm',
+      'https://www.ukcdogs.com/chesapeake-bay-retriever',
+    ],
   },
   59: {
     weight: {
@@ -7118,45 +7128,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Crestado Chino',
       'Caza de ratas',
       'Perro de regazo',
-      "Crestado",
-      "Chino",
-      "Perro Chino",
-      "Perro Crestado",
-      "Crestado sin pelo",
-      "Perro sin pelo",
-      "Perro chino sin pelo",
-      "Perro exótico",
-      "Raza exótica",
-      "Raza china",
-      "Perro de compañía",
-      "Perro pequeño",
-      "Perro de raza pequeña",
-      "Perro de interior",
-      "Perro cariñoso",
-      "Perro juguetón",
-      "Perro amigable",
-      "Perro para familia",
-      "Perro para niños",
-      "Perro para adultos",
-      "Perro para ancianos",
-      "Perro para apartamento",
-      "Perro para casa",
-      "Perro para ciudad",
-      "Perro para campo",
-      "Perro para clima cálido",
-      "Perro para clima frío",
-      "Perro para todas las estaciones",
-      "Perro adaptable"
+      'Crestado',
+      'Chino',
+      'Perro Chino',
+      'Perro Crestado',
+      'Crestado sin pelo',
+      'Perro sin pelo',
+      'Perro chino sin pelo',
+      'Perro exótico',
+      'Raza exótica',
+      'Raza china',
+      'Perro de compañía',
+      'Perro pequeño',
+      'Perro de raza pequeña',
+      'Perro de interior',
+      'Perro cariñoso',
+      'Perro juguetón',
+      'Perro amigable',
+      'Perro para familia',
+      'Perro para niños',
+      'Perro para adultos',
+      'Perro para ancianos',
+      'Perro para apartamento',
+      'Perro para casa',
+      'Perro para ciudad',
+      'Perro para campo',
+      'Perro para clima cálido',
+      'Perro para clima frío',
+      'Perro para todas las estaciones',
+      'Perro adaptable',
     ],
-    "tendencia_a_ladrar": "Baja",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Baja",
-    "soporta_clima_calido": "Alta",
-    "para_primerizos": "Alta",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": ["https://en.wikipedia.org/wiki/Chinese_Crested_Dog", "https://www.dogbreedinfo.com/chinesecrested.htm", "https://www.ukcdogs.com/chinese-crested"]
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Baja',
+    soporta_clima_calido: 'Alta',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Chinese_Crested_Dog',
+      'https://www.dogbreedinfo.com/chinesecrested.htm',
+      'https://www.ukcdogs.com/chinese-crested',
+    ],
   },
   60: {
     weight: {
@@ -7254,29 +7268,29 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Shar-Pei Chino',
       'Lucha',
       'Independiente',
-      "Shar Pei Chino",
-      "Sharpei Chino",
-      "Shar-Pei",
-      "Shar Pei",
-      "Sharpei",
-      "Perro Chino",
-      "Perro arrugado",
-      "Perro de piel suelta",
-      "Perro de piel arrugada",
-      "Perro de China",
-      "Perro de cara arrugada",
-      "Perro de piel áspera",
-      "Perro guardián",
-      "Perro de granja",
-      "Perro de caza",
-      "Perro de trabajo",
-      "Perro de protección",
-      "Perro tranquilo",
-      "Perro confiado",
-      "Perro digno",
-      "Perro reservado",
-      "Perro devoto",
-      "Perro independiente"
+      'Shar Pei Chino',
+      'Sharpei Chino',
+      'Shar-Pei',
+      'Shar Pei',
+      'Sharpei',
+      'Perro Chino',
+      'Perro arrugado',
+      'Perro de piel suelta',
+      'Perro de piel arrugada',
+      'Perro de China',
+      'Perro de cara arrugada',
+      'Perro de piel áspera',
+      'Perro guardián',
+      'Perro de granja',
+      'Perro de caza',
+      'Perro de trabajo',
+      'Perro de protección',
+      'Perro tranquilo',
+      'Perro confiado',
+      'Perro digno',
+      'Perro reservado',
+      'Perro devoto',
+      'Perro independiente',
     ],
     tendencia_a_ladrar: 'Baja',
     necesidad_de_aseo: 'Moderada',
@@ -7287,10 +7301,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Alta',
     casos_famosos: [],
     fuentes: [
-    "https://en.wikipedia.org/wiki/Shar_Pei",
-    "https://www.dogbreedinfo.com/sharpei.htm",
-    "https://www.ukcdogs.com/chinese-shar-pei"
-    ]
+      'https://en.wikipedia.org/wiki/Shar_Pei',
+      'https://www.dogbreedinfo.com/sharpei.htm',
+      'https://www.ukcdogs.com/chinese-shar-pei',
+    ],
   },
   61: {
     weight: {
@@ -7384,35 +7398,35 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Chinook',
       'Tiro de trineo',
       'Trabajo',
-      "Perro Chinook",
-      "Raza Chinook",
-      "Perro de trineo",
-      "Perro de trabajo",
-      "Perro de carga",
-      "Perro de carreras de trineos",
-      "Perro de Nueva Hampshire",
-      "Perro de Alaska",
-      "Perro de la fiebre del oro",
-      "Perro de la expedición al Polo Sur",
-      "Perro del almirante Byrd",
-      "Perro de Arthur Treadwell Walden",
-      "Perro de Wonalancet",
-      "Perro de la granja de Walden",
-      "Perro de la expedición al Polo Norte",
-      "Perro de Peary",
-      "Perro de la American Kennel Club",
-      "Perro de la AKC",
-      "Perro inteligente",
-      "Perro paciente",
-      "Perro complaciente",
-      "Perro de compañía",
-      "Perro de familia",
-      "Perro raro",
-      "Perro valioso",
-      "Perro de patrimonio canino",
-      "Perro de herencia",
-      "Perro de historia",
-      "Perro de linaje"
+      'Perro Chinook',
+      'Raza Chinook',
+      'Perro de trineo',
+      'Perro de trabajo',
+      'Perro de carga',
+      'Perro de carreras de trineos',
+      'Perro de Nueva Hampshire',
+      'Perro de Alaska',
+      'Perro de la fiebre del oro',
+      'Perro de la expedición al Polo Sur',
+      'Perro del almirante Byrd',
+      'Perro de Arthur Treadwell Walden',
+      'Perro de Wonalancet',
+      'Perro de la granja de Walden',
+      'Perro de la expedición al Polo Norte',
+      'Perro de Peary',
+      'Perro de la American Kennel Club',
+      'Perro de la AKC',
+      'Perro inteligente',
+      'Perro paciente',
+      'Perro complaciente',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro raro',
+      'Perro valioso',
+      'Perro de patrimonio canino',
+      'Perro de herencia',
+      'Perro de historia',
+      'Perro de linaje',
     ],
     tendencia_a_ladrar: 'Baja',
     necesidad_de_aseo: 'Moderada',
@@ -7423,11 +7437,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-      "https://www.akc.org/dog-breeds/chinook/",
-      "https://www.dogbreedinfo.com/chinook.htm",
-      "https://www.ukcdogs.com/chinook",
-      "https://en.wikipedia.org/wiki/Chinook_(dog)"
-    ]
+      'https://www.akc.org/dog-breeds/chinook/',
+      'https://www.dogbreedinfo.com/chinook.htm',
+      'https://www.ukcdogs.com/chinook',
+      'https://en.wikipedia.org/wiki/Chinook_(dog)',
+    ],
   },
   62: {
     weight: {
@@ -7472,7 +7486,19 @@ export const DOG_LIST: { [key: number]: Dog } = {
       El Chow Chow viene en cinco colores igualmente aceptables: rojo (desde dorado claro hasta caoba profunda), negro, azul, canela (desde leonado claro hasta canela profunda) y crema. Los colores son sólidos pero pueden tener sombras más claras en el collar, la cola y las plumas.
     `,
     history: `
-
+      La historia del Chow Chow es tan antigua como fascinante. Esta raza de perro se originó en Asia hace miles de años, y aunque los antepasados de esta raza son desconocidos, se sabe que los Chow Chows fueron utilizados como perros de caza por los aristócratas chinos para cazar faisanes y perdices. El nombre "Chow Chow" se deriva del pidgin inglés utilizado por los capitanes de mar para describir el contenido de las cajas de carga llenas de diversos productos chinos.
+      <br>
+      <br>
+      La raza puede rastrearse hasta la dinastía Han de China, que se remonta al menos 2,000 años. Los artefactos de esta época muestran a los Chow Chows como perros de caza, lo que indica que la raza ya estaba bien establecida en ese momento. Sin embargo, algunos expertos creen que la raza puede ser aún más antigua, posiblemente remontándose a la época del Imperio Mongol.
+      <br>
+      <br>
+      Los Chow Chows se hicieron populares durante la era victoriana en Inglaterra y aparecieron por primera vez en los Estados Unidos en 1890. A lo largo de los años, la raza ha sido apreciada por su lealtad, su porte digno y su habilidad para la caza y la guardia. Aunque hoy en día, los Chow Chows son principalmente perros de compañía y guardia, su historia como perros de trabajo sigue siendo una parte integral de su carácter.
+      <br>
+      <br>
+      El Chow Chow fue reconocido como una raza por el American Kennel Club (AKC) en 1903 y por el United Kennel Club (UKC) en 1934. A lo largo de los años, la raza ha mantenido su apariencia y temperamento únicos, a pesar de los cambios en las tendencias de cría y las preferencias de los dueños de perros.
+      <br>
+      <br>
+      En resumen, la historia del Chow Chow es una de antigüedad, versatilidad y resistencia. Desde sus orígenes en Asia hasta su popularidad en el mundo moderno, el Chow Chow ha dejado una huella indeleble en la historia canina. Su presencia majestuosa y su lealtad inquebrantable han hecho de esta raza un favorito entre los amantes de los perros durante miles de años, y sin duda seguirá siendo así durante muchos años más.
     `,
     categoria_de_tamanio: 'Mediano',
     perks: ['Distante', 'Leal', 'Independiente', 'Silencioso', 'Buen guardián'],
@@ -7496,9 +7522,47 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Chow Chow',
       'Guardián',
       'No deportivo',
-
+      'Chow',
+      'Chau Chau',
+      'Chowchow',
+      'Perro león',
+      'Perro de China',
+      'Perro de lengua azul',
+      'Perro de pelo largo',
+      'Perro guardián',
+      'Perro de compañía',
+      'Perro tranquilo',
+      'Perro leal',
+      'Perro independiente',
+      'Perro majestuoso',
+      'Perro digno',
+      'Perro de pelo espeso',
+      'Perro de clima frío',
+      'Perro de raza antigua',
+      'Perro de raza pura',
+      'Perro de raza china',
+      'Perro de raza grande',
+      'Perro de raza fuerte',
+      'Perro de raza resistente',
+      'Perro de raza leal',
+      'Perro de raza tranquila',
+      'Perro de raza independiente',
+      'Perro de raza digna',
+      'Perro de raza majestuosa',
     ],
-
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Moderada',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/chow-chow/',
+      'https://www.dogbreedinfo.com/chowchow.htm',
+      'https://www.ukcdogs.com/chow-chow',
+    ],
   },
   63: {
     weight: {
@@ -7530,12 +7594,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 533,
       url: 'https://cdn2.thedogapi.com/images/rkeqWgq4Q.jpg',
     },
-    searchTerms: ['Clumber Spaniel', 'Espantar aves', 'Deportivo'],
     country_code: 'GB',
-    description:
-      'El Clumber Spaniel es un perro amable, cariñoso y leal. Criado originalmente para espantar aves y recuperar, es un perro de tamaño grande con un pelaje blanco grueso y denso, y a menudo tiene manchas color limón o naranja. Tiene una naturaleza tranquila, pero también puede ser muy juguetón.',
-    history:
-      'El Clumber Spaniel es una raza que se originó en el Reino Unido y que se dice que lleva el nombre de Clumber Park en Nottinghamshire. Fue criado para la caza, siendo un perro de trabajo muy eficaz, conocido por su habilidad para recuperar y espantar aves. Esta raza es conocida por su capacidad para trabajar silenciosamente en el campo.',
+    description: `
+      El Clumber Spaniel es una raza de perro que se distingue por su gran poder y apariencia pesada. Este perro de aspecto robusto tiene una cabeza grande y masiva, y un cuerpo largo y bajo. Su movimiento es deliberado y sedante, caracterizado por un andar rodante que nunca es torpe. El Clumber Spaniel tiene un pelaje denso, recto y sedoso, que es extremadamente resistente a las inclemencias del tiempo. El color principal del cuerpo es blanco, con marcas de color limón o naranja.
+      <br>
+      <br>
+      El Clumber Spaniel es un perro de gran hueso y forma rectangular. Su expresión es pensativa y su estatura es digna, acompañada de un gran entusiasmo por el trabajo y el juego. En cuanto a su temperamento, es una raza leal y afectuosa. Puede ser reservado con los extraños, pero nunca es hostil ni tímido.
+      <br>
+      <br>
+      La cabeza del Clumber Spaniel es masiva, con un cráneo plano que tiene un occipucio pronunciado. Un ligero surco corre entre los ojos, subiendo por el centro del cráneo. Las cejas son pesadas y el hocico es amplio y profundo, lo que facilita la recuperación. Los ojos grandes están colocados profundamente y pueden mostrar algo de haw. Son de color ámbar oscuro.
+      <br>
+      <br>
+      El Clumber Spaniel tiene una gran cantidad de hueso y una forma rectangular. Su cuerpo es largo y nivelado, con un ligero arco sobre el lomo. El pecho es ancho y el pecho profundo, con costillas bien arqueadas. Las patas traseras son redondas y anchas cuando se ven desde atrás, y los corvejones se mueven en línea recta. Sus pies son grandes y compactos, con almohadillas gruesas.
+      <br>
+      <br>
+      El Clumber Spaniel es una raza que tiene el poder y la resistencia para moverse a través de la maleza pesada en busca de juego. Su andar característico es fácil y libre, acompañado de un buen alcance en la parte delantera y un fuerte impulso desde la parte trasera. Este es un andar cómodo y eficiente que puede mantenerse durante un día de trabajo en los campos.
+      <br>
+      <br>
+      En resumen, el Clumber Spaniel es un perro poderoso y resistente que es leal y afectuoso con su familia. Su apariencia robusta y su andar rodante son características distintivas de la raza. Aunque puede ser reservado con los extraños, nunca es hostil ni tímido. Con su pelaje denso y resistente al clima y su capacidad para moverse a través de la maleza pesada, el Clumber Spaniel es un perro de trabajo capaz y resistente.
+    `,
+    history: `
+      La historia del Clumber Spaniel es tan intrigante como la raza misma. Aunque hay varias teorías sobre su origen, la más aceptada es que fue desarrollada en Francia por el Duc de Noailles, quien, amenazado por la revolución, transfirió sus perros a su amigo cercano, el Duque de Newcastle en Inglaterra. El nombre de la raza probablemente proviene del estado del Duque, Clumber Park. Se cree que la raza fue influenciada por el Alpine Spaniel y el Basset Hound, lo que contribuyó a su construcción pesada.
+      <br>
+      <br>
+      El Clumber Spaniel fue reconocido por el United Kennel Club en 1980. Aunque su construcción pesada lo hace más lento en su trabajo de caza en tierras altas que sus primos spaniel de huesos más ligeros, su resistencia y poder son inigualables. Este perro de aspecto pesado tiene una gran potencia y una capacidad de resistencia impresionante, lo que le permite moverse a través de la maleza pesada en busca de presas.
+      <br>
+      <br>
+      A pesar de su apariencia robusta, el Clumber Spaniel es conocido por su temperamento leal y afectuoso. Pueden ser reservados con los extraños, pero nunca son hostiles ni tímidos. Su expresión pensativa y su porte digno se complementan con un gran entusiasmo por el trabajo y el juego.
+      <br>
+      <br>
+      El Clumber Spaniel es un perro de caza por excelencia, pero también es un compañero de familia encantador. Su naturaleza tranquila y su disposición amigable lo hacen ideal para la vida en el hogar. Aunque puede ser un poco reservado al principio, una vez que se siente cómodo, el Clumber Spaniel es un perro cariñoso y dedicado.
+      <br>
+      <br>
+      A lo largo de los años, el Clumber Spaniel ha mantenido su instinto de caza, pero también ha demostrado ser un excelente perro de compañía. Su naturaleza tranquila y su disposición amigable lo hacen ideal para la vida en el hogar. Aunque puede ser un poco reservado al principio, una vez que se siente cómodo, el Clumber Spaniel es un perro cariñoso y dedicado.
+      <br>
+      <br>
+      En resumen, la historia del Clumber Spaniel es una de adaptación y supervivencia. A pesar de los desafíos y cambios a lo largo de los años, esta raza ha mantenido su carácter distintivo y su habilidad para el trabajo en el campo. Con su combinación de fuerza, resistencia y un temperamento amigable, el Clumber Spaniel sigue siendo una opción popular para aquellos que buscan un perro de caza eficaz y un compañero de familia cariñoso.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Cariñoso',
@@ -7561,6 +7656,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Obesidad',
       'Displasia de cadera',
       'Problemas oculares',
+    ],
+    searchTerms: [
+      'Clumber Spaniel',
+      'Espantar aves',
+      'Deportivo',
+      'Clumber',
+      'Spaniel',
+      'Clumber Espaniel',
+      'Clumber Spanel',
+      'Perro de caza',
+      'Perro de compañía',
+      'Perro tranquilo',
+      'Perro de tamaño mediano',
+      'Perro de pelo largo',
+      'Perro de raza pura',
+      'Perro de raza británica',
+      'Perro de raza inglesa',
+      'Perro de trabajo',
+      'Perro de campo',
+      'Perro de resistencia',
+      'Perro de caza de aves',
+      'Perro de caza pesada',
+      'Perro de caza lento',
+      'Perro de caza resistente',
+      'Perro de caza de resistencia',
+      'Perro de caza de campo',
+      'Perro de caza de aves de campo',
+      'Perro de caza de aves de resistencia',
+      'Perro de caza de aves de trabajo',
+      'Perro de caza de aves de tamaño mediano',
+      'Perro de caza de aves de pelo largo',
+      'Perro de caza de aves británico',
+      'Perro de caza de aves inglés',
+      'Perro de caza de aves tranquilo',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Clumber_Spaniel',
+      'https://www.dogbreedinfo.com/clumberspaniel.htm',
+      'https://www.ukcdogs.com/clumber-spaniel',
     ],
   },
   64: {
@@ -7593,12 +7735,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1080,
       url: 'https://cdn2.thedogapi.com/images/1lFmrzECl.jpg',
     },
-    searchTerms: ['Cocker Spaniel', 'Espantar aves', 'Deportivo'],
     country_code: 'GB',
-    description:
-      'El Cocker Spaniel es un perro muy sociable, alegre y cariñoso. Esta raza es conocida por su versatilidad y su capacidad para adaptarse a diferentes situaciones y entornos. Aunque son excelentes compañeros de casa, los Cocker Spaniels también son perros de trabajo increíblemente hábiles. Son excelentes perros de caza y son muy buenos en diversas actividades deportivas y competitivas.',
-    history:
-      'Los Cocker Spaniels se originaron en España, pero fueron desarrollados principalmente en el Reino Unido. Estos perros eran originalmente usados para cazar aves, de ahí su nombre. Con el tiempo, se hicieron populares en las familias por su temperamento tranquilo y fiel. Aunque ya no se utilizan tanto para la caza, siguen siendo muy activos y necesitan un buen ejercicio diario para mantenerse saludables.',
+    description: `
+      El Cocker Spaniel, una raza de perro que ha conquistado corazones en todo el mundo, es conocido por su personalidad alegre, su apariencia adorable y su habilidad para adaptarse a una variedad de estilos de vida. Esta raza de perro es una de las más populares en el mundo, y por una buena razón. Su tamaño manejable, su temperamento amigable y su apariencia atractiva lo hacen un favorito entre los amantes de los perros.
+      <br>
+      <br>
+      El Cocker Spaniel es una raza de perro de tamaño mediano, compacto y cuadrado, con una cola generalmente cortada, orejas largas y pelo largo. Viene en una variedad de colores sólidos, así como en combinaciones de colores. La cabeza está bien proporcionada y en equilibrio con el resto del cuerpo. El cráneo es redondeado, pero no exagerado, con cejas claramente definidas. La boca es amplia y profunda, con mandíbulas cuadradas y uniformes. Los ojos son redondos y llenos, mirando directamente hacia adelante. La expresión es suave, inteligente, alerta y atractiva.
+      <br>
+      <br>
+      El Cocker Spaniel es un perro feliz y orientado a las personas; es una buena mascota familiar y compañero. No debería haber ninguna sugerencia de timidez o agresividad. La totalidad siempre debe ser de consideración primordial en lugar de cualquiera de las partes. Los puntos de consideración primaria incluyen: un temperamento libre, alegre e incluso; un cuerpo sano y bien equilibrado; y una inclinación aguda a trabajar. La exageración de cualquiera de las partes debe ser considerada un defecto según el grado de desviación.
+      <br>
+      <br>
+      El Cocker Spaniel es conocido por su pelaje sedoso, que puede ser liso o ligeramente ondulado. El pelaje es corto y fino en la cabeza, pero en el cuerpo es de longitud media, con suficiente subpelo para dar protección. El pecho, las orejas, el abdomen y las patas están bien emplumados, pero no de manera excesiva como para ocultar las verdaderas líneas y el movimiento o para afectar la apariencia de la raza como un perro deportivo o para interferir con el trabajo en el campo.
+      <br>
+      <br>
+      El Cocker Spaniel es una raza activa y enérgica que requiere ejercicio regular para mantener su salud y felicidad. Aunque son perros de tamaño mediano, tienen una gran cantidad de energía y disfrutan de largos paseos, juegos de buscar y otras actividades físicas. También son perros inteligentes que disfrutan de los desafíos mentales y se benefician de la formación de obediencia y los juegos de rompecabezas.
+      <br>
+      <br>
+      En resumen, el Cocker Spaniel es una raza de perro maravillosa que puede ser un gran complemento para muchas familias. Su tamaño manejable, su temperamento amigable y su apariencia atractiva lo hacen un favorito entre los amantes de los perros. Sin embargo, como cualquier raza de perro, requiere un cuidado y atención adecuados para asegurar que viva una vida larga, saludable y feliz.
+    `,
+    history: `
+      La historia del Cocker Spaniel es tan fascinante como la raza misma. Esta raza de perro, que es conocida por su temperamento alegre y su habilidad para la caza, tiene una historia que se remonta a varios siglos atrás.
+      <br>
+      <br>
+      El término "cocker" proviene de la palabra "woodcock", que es un tipo de ave que estos perros fueron criados específicamente para cazar. Aunque el Cocker Spaniel que conocemos hoy en día es un poco diferente al Cocker Spaniel original de Inglaterra, ambos comparten la misma raíz en su historia. Para evitar confusiones, a menudo se le llama "Cocker Spaniel Americano".
+      <br>
+      <br>
+      Los primeros Cocker Spaniels fueron importados a los Estados Unidos desde Inglaterra, y fue a partir de estas primeras importaciones que se desarrolló la raza que conocemos hoy. Aunque son los más pequeños de los perros de caza terrestres, los Cockers son conocidos por su habilidad para trabajar en terrenos difíciles y su agudo sentido del olfato.
+      <br>
+      <br>
+      Desafortunadamente, muy pocos Cocker Spaniels se utilizan para la caza hoy en día. En cambio, la raza ha encontrado un lugar en los corazones de las familias de todo el mundo, y es conocida por ser el spaniel más popular del mundo. A pesar de su popularidad como mascota, el Cocker Spaniel todavía retiene muchas de las características que lo hicieron un excelente perro de caza, incluyendo su agilidad, su resistencia y su inteligencia.
+      <br>
+      <br>
+      El Cocker Spaniel fue reconocido como una raza separada del Cocker Spaniel inglés por el United Kennel Club en 1947. Desde entonces, la raza ha continuado creciendo en popularidad, tanto en el ring de exposiciones como en los hogares.
+      <br>
+      <br>
+      Aunque la historia del Cocker Spaniel es rica y variada, lo que realmente hace especial a esta raza es su carácter. Los Cocker Spaniels son perros felices y orientados a las personas, y son excelentes mascotas y compañeros de familia. Su temperamento alegre y su amor por las personas han ayudado a cimentar su lugar como una de las razas de perros más queridas del mundo.
+      <br>
+      <br>
+      En resumen, la historia del Cocker Spaniel es una mezcla de habilidad para la caza, adaptación y amor por las personas. Desde sus primeros días como cazadores de aves en Inglaterra hasta su lugar en los hogares de hoy en día, los Cocker Spaniels han demostrado ser una raza verdaderamente versátil y amada.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Entrenable',
@@ -7624,6 +7800,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Displasia de cadera',
       'Otitis externa',
+    ],
+    searchTerms: [
+      'Cocker Spaniel',
+      'Espantar aves',
+      'Deportivo',
+      'Cocker',
+      'Spaniel',
+      'Cocker Spaniel Americano',
+      'Cocker Americano',
+      'Spaniel Americano',
+      'Cocker Spaniel Inglés',
+      'Cocker Inglés',
+      'Spaniel Inglés',
+      'Perro de caza',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro para niños',
+      'Perro de tamaño mediano',
+      'Perro de pelo largo',
+      'Perro de orejas largas',
+      'Perro alegre',
+      'Perro activo',
+      'Perro juguetón',
+      'Perro cariñoso',
+      'Perro amigable',
+      'Perro sociable',
+      'Perro obediente',
+      'Perro inteligente',
+      'Perro con energía',
+      'Perro resistente',
+      'Perro de raza pura',
+      'Perro de pedigree',
+      'Perro de exposición',
+      'Perro de show',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Cocker_Spaniel',
+      'https://www.akc.org/dog-breeds/cocker-spaniel/',
+      'https://www.ukcdogs.com/cocker-spaniel',
     ],
   },
   65: {
@@ -7656,16 +7879,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 640,
       url: 'https://cdn2.thedogapi.com/images/HkRcZe547.jpg',
     },
-    searchTerms: [
-      'Cocker Spaniel Americano',
-      'Caza de la chochaca americana',
-      'Deportivo',
-    ],
     country_code: 'US',
-    description:
-      'El Cocker Spaniel Americano es un perro extrovertido y sociable. Conocido por su carácter alegre y de temperamento uniforme, este perro de raza mediana es muy apreciado en los Estados Unidos. Su herencia de caza aún está presente en su comportamiento, mostrando una gran habilidad para el trabajo de campo y la caza deportiva. Necesitan ejercicio regular y cuidado del pelaje para mantenerse saludables y felices.',
-    history:
-      'Originario de Estados Unidos, el Cocker Spaniel Americano tiene una larga historia. Se trata de una raza de perro que se desarrolló específicamente para cazar la chochaca en América. Fue reconocido oficialmente como raza independiente del Cocker Spaniel Inglés en los años 40. Desde entonces, ha ganado popularidad tanto en el campo como en el hogar, demostrando ser un perro de trabajo capaz y un encantador compañero de familia.',
+    description: `
+      El Cocker Spaniel Americano es una raza de perro que se distingue por su belleza y su carácter alegre y amigable. Originarios de los Estados Unidos, estos perros son conocidos por su pelaje sedoso y sus expresivos ojos oscuros que reflejan una personalidad llena de entusiasmo y amor por la vida.
+      <br>
+      <br>
+      Los Cocker Spaniel Americanos son perros de tamaño mediano, con un cuerpo compacto y bien proporcionado. Su cabeza redonda y su hocico cuadrado les dan una apariencia distintiva, acentuada por sus largas orejas que cuelgan a los lados de su cara. Su pelaje es de longitud media, liso y puede presentar una variedad de colores, incluyendo negro, crema, rojo y una mezcla de estos.
+      <br>
+      <br>
+      Estos perros son conocidos por su energía y su amor por el juego. Son perros activos que disfrutan de largos paseos y de juegos de recuperación. A pesar de su energía, también son perros que disfrutan de los momentos de tranquilidad y son felices acurrucándose en el sofá con sus dueños.
+      <br>
+      <br>
+      Los Cocker Spaniel Americanos son perros inteligentes y ansiosos por complacer, lo que los hace relativamente fáciles de entrenar. Responden bien a los métodos de entrenamiento positivos y son capaces de aprender una amplia variedad de comandos y trucos. Sin embargo, también pueden ser un poco tercos a veces, por lo que es importante ser consistente y paciente durante el entrenamiento.
+      <br>
+      <br>
+      En cuanto a su temperamento, los Cocker Spaniel Americanos son perros amigables y sociables que se llevan bien con las personas y otros animales. Son perros cariñosos que disfrutan de la compañía de sus dueños y son conocidos por su lealtad. Sin embargo, también pueden ser un poco reservados con los extraños, pero rara vez son agresivos.
+      <br>
+      <br>
+      En términos de cuidado, los Cocker Spaniel Americanos requieren un mantenimiento regular para mantener su pelaje en buen estado. Esto incluye cepillados regulares para evitar que el pelo se enrede y se formen nudos. También es importante revisar y limpiar regularmente sus orejas, ya que son propensos a las infecciones de oído debido a su forma colgante.
+      <br>
+      <br>
+      En resumen, el Cocker Spaniel Americano es un perro encantador que hace un gran compañero para una amplia variedad de hogares. Su combinación de belleza, inteligencia y carácter amigable los hace una elección popular para muchas familias. Sin embargo, como con cualquier raza, es importante investigar y entender sus necesidades y características antes de decidir traer uno a casa.
+    `,
+    history: `
+      La historia del Cocker Spaniel Americano es una historia de evolución y adaptación. Esta raza, que es una variante del Cocker Spaniel original que se originó en Inglaterra, fue desarrollada en los Estados Unidos a partir del siglo XIX. Los criadores americanos comenzaron a preferir una apariencia ligeramente diferente a la de sus contrapartes inglesas, lo que llevó a la creación de una raza distinta.
+      <br>
+      <br>
+      El Cocker Spaniel Americano tiene sus raíces en los perros de caza de tipo spaniel que se utilizaban en Inglaterra para la caza de aves de caza menor, como la becada. De hecho, el término "cocker" proviene de "woodcock", el nombre inglés de la becada. Estos perros eran apreciados por su habilidad para trabajar en terrenos difíciles y su agudo sentido del olfato.
+      <br>
+      <br>
+      A medida que los perros spaniel fueron llevados a América, los criadores comenzaron a seleccionar características que se adaptaban mejor a sus necesidades y preferencias. En particular, se buscaba un perro más pequeño y compacto, con una cabeza más redondeada y orejas más largas. Estos perros también tenían un pelaje más largo y sedoso que sus contrapartes inglesas.
+      <br>
+      <br>
+      En 1881, se fundó el American Spaniel Club, y el Cocker Spaniel Americano fue una de las primeras razas reconocidas por este club. En 1946, el American Kennel Club (AKC) reconoció al Cocker Spaniel Americano como una raza separada del Cocker Spaniel Inglés, reflejando las diferencias físicas y temperamentales que se habían desarrollado.
+      <br>
+      <br>
+      A lo largo del siglo XX, el Cocker Spaniel Americano se convirtió en una de las razas de perros más populares en los Estados Unidos. Su tamaño manejable, su hermoso pelaje y su personalidad amigable los hicieron ideales tanto para la caza como para la compañía. También tuvieron éxito en una variedad de deportes caninos, incluyendo la obediencia, la agilidad y la conformación.
+      <br>
+      <br>
+      En las últimas décadas, los criadores de Cocker Spaniel Americano han trabajado para mantener la salud y el temperamento de la raza, así como para preservar su habilidad para el trabajo de campo. Aunque ya no se utilizan comúnmente como perros de caza, muchos Cocker Spaniels Americanos todavía disfrutan de actividades que hacen uso de sus instintos naturales, como la búsqueda y rescate y los deportes de nariz.
+      <br>
+      <br>
+      Hoy en día, el Cocker Spaniel Americano es apreciado por su versatilidad, su disposición amigable y su hermosa apariencia. Aunque puede que ya no sean los perros de caza que una vez fueron, siguen siendo una raza amada y respetada en todo el mundo.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Perro extrovertido y sociable',
@@ -7674,7 +7930,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Necesita ejercicio regular',
       'Requiere cuidado regular del pelaje',
     ],
-    color: ['Negro', 'Bicolor', 'Tricolor'], // Colores más comunes. Ajustar según la raza.
+    color: ['Negro', 'Bicolor', 'Tricolor'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
@@ -7689,6 +7945,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Displasia de cadera',
       'Otitis externa',
+    ],
+    searchTerms: [
+      'Cocker Spaniel Americano',
+      'Caza de la chochaca americana',
+      'Deportivo',
+      'Cocker Spaniel',
+      'Cocker',
+      'Spaniel Americano',
+      'Cocker Americano',
+      'Cocker Spaniel de America',
+      'Spaniel de America',
+      'Cocker de America',
+      'Perro de familia',
+      'Perro de compañía',
+      'Perro de caza',
+      'Perro cazador',
+      'Perro de raza pequeña',
+      'Perro de pelo largo',
+      'Perro de orejas largas',
+      'Perro amigable',
+      'Perro sociable',
+      'Perro juguetón',
+      'Perro activo',
+      'Perro energético',
+      'Perro para niños',
+      'Perro para familias',
+      'Perro para principiantes',
+      'Perro para casa',
+      'Perro para departamento',
+      'Perro para interior',
+      'Perro para exterior',
+      'Perro adaptable',
+      'Perro de temperamento equilibrado',
+      'Perro de raza de Estados Unidos',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/American_Cocker_Spaniel',
+      'https://www.dogbreedinfo.com/americancocker.htm',
     ],
   },
   66: {
@@ -7724,12 +8026,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1638,
       url: 'https://cdn2.thedogapi.com/images/SyviZlqNm.jpg',
     },
-    searchTerms: ['Coton de Tulear', 'No deportivo'],
     country_code: 'MG',
-    description:
-      'El Coton de Tulear es una raza de perro originaria de Madagascar. Conocido por su pelaje blanco, similar al algodón, este perro es muy apreciado por su temperamento alegre y juguetón. Son excelentes compañeros de viaje y también se desempeñan bien como cazadores de ratas en barcos.',
-    history:
-      'El Coton de Tulear se desarrolló en Madagascar, después de que los perros de raza pequeña se cruzaron con los perros locales durante el siglo XV. Durante mucho tiempo, estos perros fueron la mascota preferida de la nobleza de Madagascar. Aunque originalmente fueron criados para ser perros de compañía y cazadores de ratas en barcos, hoy son amados por su inteligencia y su disposición animada.',
+    description: `
+      El Coton de Tulear es una raza de perro pequeña, conocida por su largo y suave pelaje que se asemeja al algodón, de ahí su nombre. Originario de la isla de Madagascar, específicamente del puerto de Tulear, este perro ha sido un compañero amado durante siglos. Su nombre proviene de la palabra francesa "coton", que significa algodón, y de Tulear, un puerto en Madagascar.
+      <br>
+      <br>
+      El Coton de Tulear es un perro de compañía por excelencia, conocido por su temperamento alegre, estable y sociable. Se lleva bien con las personas y otros perros, y su único propósito es ser un encantador compañero. Este excelente temperamento es una característica distintiva de la raza.
+      <br>
+      <br>
+      Físicamente, el Coton de Tulear es un perro pequeño, con un pelaje largo y algodonoso y ojos redondos, oscuros, inteligentes y expresivos. La relación de altura (medida en la cruz) a longitud del cuerpo es de 2:3. Su cabeza es corta, midiendo aproximadamente dos quintos de la longitud del cuerpo. Cuando se ve desde arriba, tiene una forma triangular.
+      <br>
+      <br>
+      El pelaje del Coton de Tulear es una de sus características más notables. Es muy suave, flexible y algodonoso en textura, nunca duro o áspero. El pelaje es denso y profuso, recto o ligeramente ondulado. La piel es fina y ajustada, y puede ser rosada o pigmentada.
+      <br>
+      <br>
+      El color del pelaje es blanco, aunque se permiten algunas sombras ligeras de color gris claro (mezcla de pelos blancos y negros) o de rojo-roano (mezcla de pelos blancos y leonados) en las orejas. En otras partes del cuerpo, tales sombras pueden ser toleradas en el 10% del pelaje total, siempre y cuando no alteren la apariencia general del pelaje blanco.
+      <br>
+      <br>
+      El Coton de Tulear es un perro de baja a moderada energía. Aunque disfruta de los juegos y la actividad, también está contento de pasar tiempo relajándose con su familia. A pesar de su pequeño tamaño, es resistente y puede disfrutar de una variedad de actividades al aire libre.
+      <br>
+      <br>
+      En cuanto a su salud, el Coton de Tulear es generalmente una raza saludable con pocos problemas genéticos conocidos. Sin embargo, como todos los perros, necesita atención veterinaria regular y una dieta y ejercicio adecuados para mantenerse saludable.
+      <br>
+      <br>
+      En resumen, el Coton de Tulear es un perro encantador y afectuoso que hace un excelente compañero para una variedad de hogares. Su personalidad alegre y su hermoso pelaje lo convierten en una raza verdaderamente única y amada.
+    `,
+    history: `
+      La historia del Coton de Tulear es tan fascinante como la raza misma. Esta raza de perro, cuyo nombre se deriva de la palabra francesa "coton", que significa algodón, y de la ciudad portuaria de Tulear en Madagascar, tiene una historia que se remonta a varios siglos atrás.
+      <br>
+      <br>
+      La historia del Coton de Tulear comienza en la isla de Madagascar, ubicada en el Océano Índico, frente a la costa de África. Se cree que alrededor del siglo XV o XVI, los comerciantes europeos introdujeron varios perros de compañía de tipo Bichón en Madagascar. Es probable que la raza evolucionara a partir de la intercría de estas cepas de Bichón. Se presume que debido a su belleza y personalidad afectuosa, estos perros fueron ofrecidos al Rey y a los nobles malgaches.
+      <br>
+      <br>
+      En el siglo XVII, el Coton de Tulear fue adoptado por la monarquía tribal "Merina" gobernante, y se prohibió que cualquier persona que no fuera de la realeza poseyera la raza. De ahí proviene el título prevalente de la raza de "Perro Real de Madagascar". A lo largo de los años, el Coton de Tulear se ha mantenido como un favorito entre la nobleza y la alta sociedad en Madagascar.
+      <br>
+      <br>
+      El Coton de Tulear fue reconocido por el United Kennel Club el 1 de enero de 1996. Desde entonces, la raza ha ganado popularidad en todo el mundo, tanto por su apariencia distintiva como por su temperamento amigable y cariñoso.
+      <br>
+      <br>
+      A pesar de su estatus real, el Coton de Tulear no es ajeno al trabajo. Durante siglos, estos perros han sido valorados no sólo por su apariencia y temperamento, sino también por su agilidad y habilidades de trabajo. Aunque hoy en día se les conoce principalmente como perros de compañía, los Cotons también han sido utilizados para cazar ratas y como perros de guardia.
+      <br>
+      <br>
+      En resumen, la historia del Coton de Tulear es una mezcla de realeza, comercio marítimo y supervivencia en una isla tropical. Aunque la raza ha recorrido un largo camino desde sus humildes comienzos en Madagascar, el Coton de Tulear sigue siendo un perro amado y valorado en todo el mundo. Con su personalidad encantadora y su apariencia distintiva, no es de extrañar que el Coton de Tulear haya capturado los corazones de tantos amantes de los perros a lo largo de los años.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Cariñoso y amigable con las familias',
@@ -7750,6 +8089,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas oculares', 'Displasia de cadera'],
+    searchTerms: [
+      'Coton de Tulear',
+      'No deportivo',
+      'Coton de Tuleár',
+      'Coton',
+      'Tulear',
+      'Cotón de Tulear',
+      'Cotón',
+      'Coton de Tuléar',
+      'Cotón de Tuléar',
+      'Perro de Madagascar',
+      'Perro Real de Madagascar',
+      'Perro algodón',
+      'Perro de algodón',
+      'Perro pequeño',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro amigable',
+      'Perro sociable',
+      'Perro blanco',
+      'Perro peludo',
+      'Perro suave',
+      'Perro mullido',
+      'Perro de pelo largo',
+      'Perro de raza pequeña',
+      'Perro de raza blanca',
+      'Perro de raza suave',
+      'Perro de raza mullida',
+      'Perro de raza peluda',
+      'Perro de raza de Madagascar',
+      'Perro de raza real',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Coton_de_Tul%C3%A9ar',
+      'https://www.dogbreedinfo.com/cotondetulear.htm',
+      'https://www.ukcdogs.com/coton-de-tulear',
+    ],
   },
   67: {
     weight: {
@@ -7782,12 +8167,55 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 800,
       url: 'https://cdn2.thedogapi.com/images/SkJ3blcN7.jpg',
     },
-    searchTerms: ['Dálmata', 'No deportivo'],
     country_code: 'HR',
-    description:
-      'El Dálmata es un perro extrovertido y enérgico, criado originalmente para trotar al lado de carruajes y proteger a los ocupantes de bandidos u otras amenazas. Es un perro activo y juguetón, ideal para familias con un estilo de vida activo.',
-    history:
-      'Originario de Croacia, el Dálmata ha sido utilizado durante siglos como perro de carruaje, conocido por su capacidad para proteger carruajes y sus ocupantes. Su resistencia y agilidad, junto con su distintivo pelaje blanco con manchas negras, lo hicieron popular en Europa desde la Edad Media.',
+    description: `
+      El Dálmata es una raza de perro que es tan icónica como versátil. Con su distintivo pelaje blanco salpicado de manchas negras o marrones, estos perros son reconocibles al instante y han sido amados por generaciones de dueños de perros y amantes de los animales por igual.
+      <br>
+      <br>
+      Los Dálmatas son perros de tamaño mediano, fuertes y musculosos, pero nunca toscos. Su altura deseable oscila entre 19 y 23 pulgadas medidas en la cruz. Son perros de buena sustancia y hueso fuerte y robusto. Su cuerpo es ligeramente más largo que alto, lo que les da una apariencia equilibrada y proporcionada. Su pelaje es corto, denso, fino y de ajuste ceñido, y un pelaje correcto de Dálmata es brillante y elegante.
+      <br>
+      <br>
+      Estos perros son conocidos por su energía y su amor por la actividad. Son capaces de una gran resistencia, combinada con una buena cantidad de velocidad. Esto se debe a su historia como perros de carruaje, donde se requería que corrieran junto a los carruajes para protegerlos. Esta historia también ha dado lugar a su afinidad por los caballos y su excelente comportamiento en la carretera.
+      <br>
+      <br>
+      Los Dálmatas son perros amigables y extrovertidos, nunca tímidos ni vacilantes. Son libres de cualquier nerviosismo o agresión. Son perros inteligentes y alertas, con ojos brillantes y chispeantes que reflejan su inteligencia y su alerta constante. Su expresión es una de vivacidad y curiosidad, siempre listos para la próxima aventura.
+      <br>
+      <br>
+      En cuanto a su temperamento, los Dálmatas son perros leales y dedicados a sus familias. Son perros que disfrutan de la compañía de sus seres queridos y son conocidos por formar fuertes vínculos con sus dueños. Sin embargo, también son perros independientes que pueden ser un poco tercos a veces. Necesitan una socialización y entrenamiento adecuados desde una edad temprana para asegurarse de que crecen para ser perros bien ajustados y bien comportados.
+      <br>
+      <br>
+      Los Dálmatas son perros versátiles que pueden adaptarse a una variedad de roles. A lo largo de la historia, han sido utilizados para una variedad de propósitos, desde perros de carruaje hasta perros de bomberos. En el hogar, son excelentes compañeros de familia que aportan alegría y energía a la casa. También son excelentes perros de trabajo y han sido utilizados en una variedad de roles, desde perros de terapia hasta perros de servicio.
+      <br>
+      <br>
+      En resumen, el Dálmata es una raza de perro que es tan encantadora como es distintiva. Con su pelaje manchado único, su energía inagotable y su personalidad amigable y leal, estos perros son verdaderamente una raza a tener en cuenta. Ya sea que estés buscando un compañero de familia, un perro de trabajo o simplemente un amigo leal, el Dálmata es una opción excelente que seguramente te traerá años de alegría y compañía.
+    `,
+    history: `
+      La historia de los Dálmatas es tan única y fascinante como sus características manchas. Aunque la raza es ampliamente reconocida y amada en todo el mundo, sus orígenes son un poco misteriosos y están envueltos en el debate. La primera referencia escrita conocida a un perro Dálmata es de 1375, cuando Peter, obispo de Đakovo, menciona un perro de caza principalmente encontrado en Dalmacia, con pelo blanco corto y manchas redondas negras en varias partes del cuerpo, nombrando a la raza Canis Dalmaticus.
+      <br>
+      <br>
+      Las primeras ilustraciones de la raza se han encontrado en Croacia: una pintura de altar en Veli Lošinj que data de 1600-1630, y un fresco en Zaostrog. La primera descripción documentada definitiva de los Dálmatas se remonta al siglo XVIII y los archivos de la Archidiócesis de Đakovo, donde el perro fue mencionado y descrito como Canis Dalmaticus en las crónicas de la iglesia de 1719 por el obispo Petar Bakić y luego nuevamente por las crónicas de la iglesia de Andreas Keczkeméty en 1739.
+      <br>
+      <br>
+      Durante el período de la Regencia, el Dálmata se convirtió en un símbolo de estatus y aquellos con manchas decorativas eran muy apreciados. La raza también se utilizó para guardar los establos por la noche. La raza se había desarrollado y cultivado principalmente en Inglaterra. El primer estándar no oficial para la raza fue introducido por el inglés Vero Shaw en 1882. En 1890, con la formación del primer Club Dálmata en Inglaterra, el estándar se hizo oficial.
+      <br>
+      <br>
+      Los Dálmatas son quizás mejor conocidos por trabajar para los bomberos por su papel como escoltas de aparatos de bomberos y mascotas de la casa de bomberos. Dado que los Dálmatas y los caballos son muy compatibles, los perros fueron fácilmente entrenados para correr frente a los carruajes para ayudar a despejar un camino y guiar rápidamente a los caballos y bomberos a los incendios.
+      <br>
+      <br>
+      Los Dálmatas son a menudo considerados buenos perros guardianes, y pueden haber sido útiles para las brigadas de bomberos como perros guardianes para proteger una casa de bomberos y su equipo. Los motores de fuego solían ser tirados por caballos rápidos y poderosos, un objetivo tentador para los ladrones, por lo que los Dálmatas se mantenían en la casa de bomberos como disuasión del robo.
+      <br>
+      <br>
+      La raza Dálmata experimentó un aumento masivo en popularidad como resultado de la novela de 1956 "Los ciento y un dálmatas" escrita por la autora británica Dodie Smith, y más tarde debido a las dos películas de Walt Disney basadas en el libro. La película animada de Disney, lanzada en 1961, más tarde generó un remake de acción en vivo en 1996, 101 Dálmatas. En los años siguientes al lanzamiento de la secuela 102 Dálmatas en 2000, la raza sufrió mucho a manos de criadores irresponsables y dueños de mascotas que no estaban preparados para las necesidades específicas de los Dálmatas. La popularidad de la película provocó un aumento en la demanda de cachorros de Dálmata, y muchos criadores produjeron cachorros en masa para satisfacer esta demanda, a menudo sin tener en cuenta la salud y el temperamento de los perros. Como resultado, muchos Dálmatas de esta época tenían problemas de salud y comportamiento.
+      <br>
+      <br>
+      Además, muchas personas que compraron Dálmatas después de ver la película no estaban preparadas para las necesidades de la raza. Los Dálmatas son perros activos y enérgicos que requieren mucho ejercicio y estimulación mental. También pueden ser tercos y difíciles de entrenar. Muchas de las personas que compraron Dálmatas en un impulso se encontraron incapaces de manejar a estos perros, y muchos Dálmatas terminaron en refugios o en hogares de acogida.
+      <br>
+      <br>
+      A pesar de estos desafíos, los amantes de los Dálmatas han trabajado duro para preservar y proteger la raza. Los criadores responsables ahora se centran en producir Dálmatas que son saludables, de buen temperamento y fieles al estándar de la raza. Las organizaciones de rescate de Dálmatas trabajan para encontrar hogares amorosos para los Dálmatas que han sido abandonados o entregados. Y los dueños de Dálmatas en todo el mundo continúan apreciando a estos perros por su belleza única, su lealtad y su espíritu vivaz.
+      <br>
+      <br>
+      Hoy en día, los Dálmatas son amados por su apariencia distintiva y su personalidad alegre. Son una raza versátil que puede tener éxito en una variedad de roles, desde perros de compañía hasta perros de terapia y perros de servicio. Aunque la raza ha enfrentado desafíos en el pasado, el futuro de los Dálmatas parece brillante gracias a los esfuerzos de aquellos que aman y aprecian a estos perros manchados únicos.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Perro extrovertido y amigable',
@@ -7809,6 +8237,57 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Sordera', 'Urolitiasis'],
+    searchTerms: [
+      'Dálmata',
+      'No deportivo',
+      'Dalmata',
+      'Dalmatas',
+      'Dálmata manchado',
+      'Perro de los bomberos',
+      'Perro de película',
+      '101 dalmatas',
+      'Perro manchado',
+      'Perro de carruaje',
+      'Perro de guardia',
+      'Perro de Croacia',
+      'Dalmatian',
+      'Perro de familia',
+      'Perro activo',
+      'Perro enérgico',
+      'Perro de compañía',
+      'Perro de alta energía',
+      'Perro de resistencia',
+      'Perro de pelaje corto',
+      'Perro blanco y negro',
+      'Perro de tamaño mediano',
+      'Perro de orejas caídas',
+      'Perro de nariz rosada',
+      'Perro de ojos azules',
+      'Perro de ojos marrones',
+      'Perro de patas largas',
+      'Perro de cuerpo musculoso',
+      'Perro de cola curvada',
+      'Perro de pelaje brillante',
+      'Perro de pelaje denso',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Pongo y Perdita',
+        caso: 'Protagonistas de la película de Disney "101 dálmatas"',
+      },
+    ],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Dalmatian_(dog)',
+      'https://www.dogbreedinfo.com/dalmatian.htm',
+      'https://www.ukcdogs.com/dalmatian',
+    ],
   },
   68: {
     weight: {
@@ -7841,12 +8320,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 640,
       url: 'https://cdn2.thedogapi.com/images/HyL3bl94Q.jpg',
     },
-    searchTerms: ['Doberman', 'Trabajo'],
     country_code: 'DE',
-    description:
-      'El Doberman es un perro de guardia, conocido por su lealtad y su temperamento temerario. Son muy inteligentes y obedientes, lo que los hace excelentes en roles de trabajo y como perros guardianes de la familia.',
-    history:
-      'Originario de Alemania, el Doberman fue criado por primera vez por un recaudador de impuestos llamado Louis Dobermann para protegerlo durante su trabajo. El objetivo era tener un perro de tamaño mediano a grande que fuera fuerte, leal, inteligente y fácil de entrenar. Como resultado, el Doberman es un perro de trabajo versátil, conocido por su agilidad y su capacidad de protección.',
+    description: `
+      El Doberman es una raza de perro que se destaca por su elegancia, fuerza y lealtad. Originario de Alemania, fue desarrollado a finales del siglo XIX con el objetivo de crear un perro de trabajo funcional que también sirviera como compañero familiar. Los perros fueron seleccionados por su coraje e inteligencia, y uno de los criadores más conocidos fue Louis Dobermann, de quien la raza toma su nombre. Aunque no se sabe con certeza cuántas y exactamente qué razas se utilizaron para crear el Doberman, la mayoría de las autoridades incluyen el Rottweiler, el antiguo Pastor Alemán (ahora extinto), el Pinscher Alemán, el Terrier de Manchester y el Galgo. Lo que sí es seguro es que la raza asumió su apariencia actual bastante rápidamente y fue reconocida por el Kennel Club Alemán en 1899.
+      <br>
+      <br>
+      Los Doberman comenzaron a aparecer en grandes cantidades en los Estados Unidos después de la Primera Guerra Mundial. La raza ha sido un perro de trabajo exitoso y un compañero popular, destacándose en el trabajo policial y militar.
+      <br>
+      <br>
+      El Doberman es un perro de tamaño medio, con un cuerpo cuadrado, musculatura suave y un pelaje corto. La cabeza es en forma de cuña con orejas altas que pueden ser cortadas o colgar naturalmente. El cuello arqueado naturalmente fluye hacia los hombros suaves, que continúan en una línea superior fuerte y recta, continuando hasta la cola que parece ser una continuación de la columna vertebral. La longitud de la cabeza, el cuello y las patas están en proporción con la longitud y profundidad del cuerpo. El Doberman viene en cuatro colores con marcas de óxido.
+      <br>
+      <br>
+      Los primeros Doberman eran conocidos por su temperamento "agudo", pero décadas de cría cuidadosa han producido un perro de trabajo casi ideal, inteligente, valiente y leal. Los Doberman son perros alerta y vigilantes, y no temen cuando se enfrentan a peligros. Son perros enérgicos, especialmente cuando son jóvenes, y se benefician de un entrenamiento y ejercicio regulares desde el principio. Con una alta inteligencia y confianza viene la determinación, por lo que un dueño de un Doberman debe estar preparado para ser paciente, firme y consistente en el entrenamiento. Los Doberman sobresalen en eventos de rendimiento, particularmente en obediencia y trabajo de protección.
+      <br>
+      <br>
+      El Doberman Pinscher es un perro de tamaño medio en todos los aspectos de sus características físicas. La altura ideal en un macho maduro es de 27 pulgadas, con 26 a 28 pulgadas siendo aceptable. La altura ideal en una hembra madura es de 25 pulgadas con 24 a 26 pulgadas siendo aceptable. El Doberman Pinscher ideal debe tener un tamaño y huesos suficientes para la fuerza y la resistencia, pero no tanto como para perjudicar su velocidad y agilidad.
+      <br>
+      <br>
+      Cuando trotan, el movimiento es sin esfuerzo, suave, poderoso y bien coordinado, mostrando un buen alcance en la parte delantera y un buen impulso en la parte trasera. Cuando se mueve, la cabeza del perro se inclina hacia abajo en un ángulo que le permite ver claramente el camino por delante. Los Doberman son conocidos por su trote elegante y su capacidad para cubrir terreno con un mínimo de esfuerzo.
+      <br>
+      <br>
+      El Doberman es un perro de pelo corto, lo que significa que requiere muy poco aseo. Su pelaje es liso y duro, y viene en una variedad de colores, incluyendo negro, rojo, azul y fawn, todos con marcas de óxido distintivas.
+      <br>
+      <br>
+      En resumen, el Doberman es un perro de trabajo inteligente, leal y enérgico que es un miembro de la familia cariñoso y protector. Son perros increíblemente versátiles que pueden adaptarse a una variedad de roles, desde perros de servicio hasta compañeros familiares. Sin embargo, requieren una cantidad significativa de ejercicio y estimulación mental, y no son adecuados para todos los hogares. Con el entrenamiento y la socialización adecuados, un Doberman puede ser un maravilloso y gratificante compañero.
+    `,
+    history: `
+      La historia del Doberman es fascinante y está llena de intenciones deliberadas y cuidadosas para crear una raza de perro que fuera tanto funcional como leal. La raza Doberman Pinscher se desarrolló en Alemania a finales del siglo XIX. Los alemanes querían crear un perro de protección y guardia funcional que también sirviera como compañero de familia. Para lograr esto, seleccionaron perros por su coraje e inteligencia. Uno de los criadores más conocidos de los primeros tiempos fue Louis Dobermann, de quien la raza toma su nombre.
+      <br>
+      <br>
+      Aunque no está del todo claro cuántas y exactamente qué razas se utilizaron para crear el Doberman Pinscher, la mayoría de las autoridades incluyen al Rottweiler, al antiguo pastor alemán (ahora extinto), al pinscher alemán, al terrier de Manchester y al galgo. Lo que sí es seguro es que la raza asumió su apariencia actual bastante rápidamente y fue reconocida por el Kennel Club alemán en 1899.
+      <br>
+      <br>
+      Los Dobermans comenzaron a aparecer en gran número en los Estados Unidos después de la Primera Guerra Mundial. La raza ha sido un perro de trabajo exitoso y un compañero popular, destacando en el trabajo policial y militar. La raza ha sido reconocida por el United Kennel Club desde la década de 1940.
+      <br>
+      <br>
+      El Doberman Pinscher es un perro de tamaño medio con un cuerpo compacto y cuadrado. La cabeza es en forma de cuña con orejas altas que pueden ser cortadas o colgar naturalmente. El cuello arqueado naturalmente fluye hacia los hombros suaves, que continúan en una línea superior fuerte y recta, continuando hasta la cola que parece ser una continuación de la columna vertebral. La longitud de la cabeza, el cuello y las patas están en proporción con la longitud y profundidad del cuerpo.
+      <br>
+      <br>
+      Los primeros Doberman Pinschers fueron notados por sus temperamentos "agudos", pero décadas de cría cuidadosa han producido un perro de trabajo casi ideal, inteligente, valiente y leal. Los Dobermans son perros alerta y vigilantes, y no temen cuando se enfrentan a peligros. Los Dobermans son perros enérgicos, especialmente cuando son jóvenes, y se benefician de un entrenamiento y ejercicio regulares desde el principio. Con una alta inteligencia y confianza viene la determinación, por lo que un dueño de un Doberman debe estar preparado para ser paciente, firme y constante en el entrenamiento. Los Dobermans sobresalen en eventos de rendimiento, particularmente en obediencia y trabajo de protección.
+      <br>
+      <br>
+      La historia del Doberman es un testimonio de la dedicación y el compromiso de los criadores para crear una raza que no solo fuera funcional y útil, sino que también se convirtiera en un miembro leal y amoroso de la familia. A lo largo de los años, el Doberman ha demostrado ser un perro de trabajo excepcional, un compañero leal y un protector valiente, lo que lo convierte en una raza verdaderamente única y apreciada.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Perro de trabajo versátil',
@@ -7871,6 +8387,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Dilatación y torsión gástrica',
       'Hipotiroidismo',
       'Cardiomiopatía',
+    ],
+    searchTerms: [
+      'Doberman',
+      'Trabajo',
+      'Dóberman',
+      'Dobberman',
+      'Dobeman',
+      'Dobermann',
+      'Dóbermann',
+      'Dóberman Pinscher',
+      'Doberman Pinscher',
+      'Dobberman Pinscher',
+      'Perro de guardia',
+      'Perro protector',
+      'Perro de trabajo',
+      'Perro alemán',
+      'Perro de compañía',
+      'Perro de servicio',
+      'Perro de policía',
+      'Perro de rescate',
+      'Perro de defensa',
+      'Perro fuerte',
+      'Perro inteligente',
+      'Perro leal',
+      'Perro valiente',
+      'Perro atlético',
+      'Perro de tamaño grande',
+      'Perro de orejas puntiagudas',
+      'Perro de pelo corto',
+      'Perro de cuerpo musculoso',
+      'Perro de energía alta',
+      'Perro de entrenamiento',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Dobermann',
+      'https://www.dogbreedinfo.com/dobermanpinscher.htm',
+      'https://www.ukcdogs.com/doberman-pinscher',
+      'https://www.akc.org/dog-breeds/doberman-pinscher/',
     ],
   },
   69: {
@@ -7903,12 +8465,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 467,
       url: 'https://cdn2.thedogapi.com/images/S1nhWx94Q.jpg',
     },
-    searchTerms: ['Dogo Argentino', 'Trabajo'],
     country_code: 'AR',
-    description:
-      'El Dogo Argentino es un perro de trabajo, conocido por su actitud amigable y su habilidad para la caza de presas grandes. Es un perro de gran tamaño, poderoso y musculoso, muy valiente y con una gran resistencia física.',
-    history:
-      'Originario de Argentina, el Dogo Argentino fue desarrollado por el Dr. Antonio Nores Martínez en la década de 1920 con el objetivo de crear un perro de caza capaz de enfrentarse a presas grandes como pumas y jabalíes. Para ello, se cruzaron varias razas, incluyendo el Gran Danés, el Boxer, el Bull Terrier y el Bulldog. El resultado fue un perro de gran resistencia, valentía y habilidad para la caza.',
+    description: `
+      El Dogo Argentino es una raza de perro que se originó en Argentina y fue desarrollada por el Dr. Antonio Nores Martínez en la década de 1920. Este perro es conocido por su fuerza, inteligencia y valentía. Es un perro de caza de gran tamaño, con un pelaje blanco corto y una estructura muscular que denota potencia y agilidad. Aunque su apariencia puede ser intimidante, el Dogo Argentino es conocido por su lealtad y su instinto protector hacia su familia.
+      <br>
+      <br>
+      El Dogo Argentino fue criado para la caza de grandes animales como jabalíes y pumas, y posee la fuerza, inteligencia y rápida respuesta de un atleta serio. Su pelaje es corto, liso y completamente blanco, aunque se permite una mancha oscura cerca del ojo siempre que no cubra más del 10% de la cabeza. Este perro es grande, poderoso y atlético. Su fuerte cabeza está soportada por un cuello grueso pero elegante que se conecta a un cuerpo equilibrado, que es sostenido por patas delanteras rectas y sustanciales y cuartos traseros muy musculosos y de angulación media. El Dogo da la impresión de potencia y energía explosiva.
+      <br>
+      <br>
+      El Dogo Argentino es un perro de trabajo versátil, utilizado no solo para la caza sino también como perro de guardia, perro de servicio y compañero de familia. A pesar de su tamaño y fuerza, es un perro muy social que disfruta de la compañía de su familia humana. Sin embargo, también es un perro que necesita mucha actividad física y mental para mantenerse feliz y saludable.
+      <br>
+      <br>
+      El Dogo Argentino es un perro inteligente y valiente con un fuerte instinto natural para proteger su hogar y su familia. Los Dogos son perros muy sociales y están más felices cuando se les incluye en todas las actividades familiares. Los Dogos hacen una fuerte distinción entre las personas conocidas y los extraños, por lo que es imperativo que sean bien entrenados y socializados desde una edad temprana.
+      <br>
+      <br>
+      El Dogo Argentino es un perro de caza de gran coraje y resistencia, y trabajará individualmente o en manadas. También se han utilizado con éxito en trabajos de protección policial. Un temperamento inestable es un defecto grave.
+      <br>
+      <br>
+      El Dogo Argentino es un perro de gran tamaño, con un pelaje blanco corto y una estructura muscular que denota potencia y agilidad. Aunque su apariencia puede ser intimidante, el Dogo Argentino es conocido por su lealtad y su instinto protector hacia su familia. Es un perro de trabajo versátil, utilizado no solo para la caza sino también como perro de guardia, perro de servicio y compañero de familia. A pesar de su tamaño y fuerza, es un perro muy social que disfruta de la compañía de su familia humana. Sin embargo, también es un perro que necesita mucha actividad física y mental para mantenerse feliz y saludable.
+    `,
+    history: `
+      La historia del Dogo Argentino es fascinante y está llena de pasión y dedicación. Esta raza fue desarrollada en Argentina por el Dr. Antonio Nores Martínez en la década de 1920. El Dr. Martínez era un médico joven y apasionado por los perros, y su objetivo era crear una raza que fuera capaz de cazar grandes presas como jabalíes y pumas, pero que también fuera un fiel protector de la familia.
+      <br>
+      <br>
+      Para lograr esto, el Dr. Martínez utilizó un sistema metódico y cruzó una raza local conocida como el Viejo Perro de Pelea de Córdoba con una variedad de otras razas, incluyendo Mastiffs, Bulldogs y Bull Terriers. El resultado fue el Dogo Argentino, un perro que demostró tener un talento excepcional para la caza de grandes presas, así como fuertes instintos de protección.
+      <br>
+      <br>
+      El Dogo Argentino fue reconocido por la Federación Cinológica Argentina en 1964, y por la FCI en julio de 1973. A pesar de su origen como perro de caza, el Dogo Argentino también ha demostrado ser un excelente perro de trabajo en otras áreas. Hoy en día, el Dogo Argentino sigue siendo utilizado como perro de caza, guardián de propiedades, compañero de familia y perro de trabajo en general.
+      <br>
+      <br>
+      El Dogo Argentino fue reconocido por el American Kennel Club en 2020 y por el United Kennel Club en 2001. A pesar de su tamaño y fuerza, el Dogo Argentino es conocido por su inteligencia y coraje, con un fuerte instinto natural para proteger su hogar y su familia. Son perros muy sociales y están más felices cuando se les incluye en todas las actividades familiares. Hacen una fuerte distinción entre las personas familiares y los extraños, por lo que es imperativo que sean bien entrenados y socializados desde una edad temprana.
+      <br>
+      <br>
+      A lo largo de su historia, el Dogo Argentino ha demostrado ser un cazador de gran coraje y resistencia, y trabajará individualmente o en manadas. También han sido utilizados con éxito en trabajos de protección policial. Un temperamento inestable es considerado un defecto grave en esta raza.
+      <br>
+      <br>
+      En resumen, la historia del Dogo Argentino es una de pasión, dedicación y un deseo de crear un perro que no sólo sea un cazador formidable, sino también un fiel protector y compañero. A través de la cuidadosa cría y selección, el Dr. Antonio Nores Martínez fue capaz de crear una raza que ha demostrado ser capaz de cumplir con estas altas expectativas.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Perro de trabajo y caza resistente',
@@ -7930,6 +8523,51 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Sordera', 'Hipotiroidismo'],
+    searchTerms: [
+      'Dogo Argentino',
+      'Trabajo',
+      'Dogo',
+      'Argentino',
+      'Dogo argentino',
+      'dogo Argentino',
+      'dogo argentino',
+      'Dogo arg',
+      'dogo arg',
+      'Dogo Arg',
+      'Dogoarg',
+      'dogoarg',
+      'Dogoarg',
+      'Dogo Argent',
+      'dogo Argent',
+      'Dogo argent',
+      'dogo argent',
+      'Perro de caza',
+      'Perro cazador',
+      'Perro guardián',
+      'Perro protector',
+      'Perro fuerte',
+      'Perro musculoso',
+      'Perro grande',
+      'Perro blanco',
+      'Perro argentino',
+      'Perro de Argentina',
+      'Cazador de jabalíes',
+      'Cazador de pumas',
+      'Perro de trabajo',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Dogo_Argentino',
+      'https://www.akc.org/dog-breeds/dogo-argentino/',
+      'https://www.ukcdogs.com/dogo-argentino',
+    ],
   },
   70: {
     weight: {
@@ -7961,12 +8599,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 511,
       url: 'https://cdn2.thedogapi.com/images/BkE6Wg5E7.jpg',
     },
-    searchTerms: ['Pastor Holandés', 'Trabajo'],
     country_code: 'NL',
-    description:
-      'El Pastor Holandés es una raza versátil, inteligente y altamente energética. Es un perro de trabajo conocido por su habilidad para cuidar fincas y actuar como perro de guardia. Su lealtad y disposición agradable hacen que sea un excelente compañero de familia.',
-    history:
-      'Originario de Holanda, el Pastor Holandés ha sido un perro de granja versátil durante siglos en su país de origen. Fue criado para todo tipo de trabajos en la finca, desde la guarda del ganado hasta la guardia de la propiedad. Su capacidad para adaptarse a diferentes roles se atribuye a su inteligencia, resistencia y voluntad para trabajar.',
+    description: `
+      El Pastor Holandés es una raza de perro de tamaño mediano, bien proporcionado, musculoso, con una estructura poderosa y equilibrada, una expresión inteligente y un temperamento vivaz. Originario de los Países Bajos, este perro fue desarrollado originalmente como un perro pastor y también fue utilizado por los granjeros holandeses como un perro de granja de propósito general. Actualmente, está disfrutando de un resurgimiento en popularidad en su tierra natal y también se está utilizando como perro de compañía y guardián.
+      <br>
+      <br>
+      El Pastor Holandés es muy similar en tipos de pelaje y características físicas, excepto por el color, al Pastor Belga. El patrón de color atigrado es el único patrón aceptable en el Pastor Holandés. El Pastor Holandés tiene tres tipos de pelaje: pelo corto, pelo largo y pelo áspero.
+      <br>
+      <br>
+      Este perro es alerta, devoto a su dueño, obediente y ansioso por complacer y servir. Es un buen guardián, es muy fiel y confiable, sin exigencias, con mucha resistencia, es vigilante, activo y está dotado de un temperamento típico de pastor. Puede ser algo reservado y se recomienda una buena socialización.
+      <br>
+      <br>
+      El Pastor Holandés es un perro de trabajo duro, y como tal, ha sido criado para el trabajo duro, y mucho de él. Impulsado a hacer su trabajo elegido, este perro diferenciará entre el trabajo, el juego y el tiempo de relajación, ajustando su nivel de energía en consecuencia. Esta raza no quiere ser una mascota que se queda en casa; quieren ser tu compañero en la vida. Proporcionado con el ejercicio mental y físico adecuado, este perro hace una gran mascota para una familia activa familiarizada con los perros.
+      <br>
+      <br>
+      Una raza muy inteligente que adora un desafío, el Pastor Holandés está preparado para ser obediente. Debido a su aguda inteligencia, esta raza se desempeña mejor con sesiones de entrenamiento más cortas (con pocas repeticiones), y se vuelven más impulsados a medida que el trabajo se vuelve más mentalmente estimulante. Sin entrenamiento, esta raza se volverá muy independiente y comenzará a tomar sus propias decisiones, por lo que se recomienda encarecidamente el entrenamiento en obediencia. Dotado con el verdadero temperamento de pastor, esta raza sobresale en muchos campos diferentes, incluyendo pero no limitado a, el pastoreo, la detección de olores, el rastreo de olores, IPO, obediencia y agilidad.
+      <br>
+      <br>
+      En resumen, el Pastor Holandés es un perro de trabajo versátil, inteligente y resistente, que se adapta bien a una variedad de roles, desde el pastoreo hasta la búsqueda y rescate, pasando por el trabajo policial. Su inteligencia, su disposición para trabajar y su resistencia física lo hacen ideal para estas tareas, mientras que su lealtad y su naturaleza afectuosa también lo convierten en un excelente perro de compañía.
+    `,
+    history: `
+      El Pastor Holandés, nativo de los Países Bajos, es una raza que ha sido moldeada por su historia, tanto en su apariencia como en su carácter. Originalmente, estos perros eran utilizados como perros de pastoreo, ayudando a los granjeros a mantener a las ovejas en línea y protegerlas de los depredadores. Pero su historia no se detiene ahí, ya que también se les encontró trabajando en las granjas como perros de trabajo multiusos, realizando una variedad de tareas que iban desde la protección del ganado hasta la ayuda en las tareas diarias de la granja.
+      <br>
+      <br>
+      El Pastor Holandés fue descubierto como un perro pastor que ocurría naturalmente en áreas rurales. Fue desarrollado como un perro de granja de propósito general, trabajando originalmente como guardián de la granja, conductor y perro de ganado. Un conocido aficionado a los perros escribió sobre el Pastor Holandés en 1910: "...con un gran parecido al lobo". Por supuesto, esto no es del todo cierto, pero es otro aspecto que muestra que el Pastor Holandés todavía tiene muchas de las características de sus antepasados salvajes.
+      <br>
+      <br>
+      A lo largo de los años, el Pastor Holandés ha demostrado ser un perro de trabajo extremadamente versátil. Su inteligencia, junto con su fuerte instinto de trabajo, ha hecho que sea una opción popular para una variedad de roles de trabajo, incluyendo la obediencia, los deportes caninos, el pastoreo, el rastreo, la búsqueda y rescate, y como perro policía.
+      <br>
+      <br>
+      A pesar de su versatilidad y habilidades, el Pastor Holandés no es una raza ampliamente conocida. Sin embargo, aquellos que están familiarizados con la raza a menudo hablan de su lealtad y competencia como perro de trabajo. Su naturaleza independiente puede hacer que sea un poco obstinado y tenga una mente propia, pero esto es a menudo superado por su deseo de trabajar y complacer.
+      <br>
+      <br>
+      En los tiempos modernos, el Pastor Holandés sigue siendo un perro de trabajo popular, pero también se está convirtiendo cada vez más en un perro de compañía apreciado. Su inteligencia, junto con su naturaleza leal y protectora, lo convierte en un excelente perro de familia para aquellos que están dispuestos a proporcionarle el ejercicio y la estimulación mental que necesita.
+      <br>
+      <br>
+      En resumen, la historia del Pastor Holandés es una de adaptabilidad y versatilidad. Desde sus humildes comienzos como perro pastor en los Países Bajos hasta su papel moderno como perro de trabajo y compañía, esta raza ha demostrado una y otra vez su capacidad para superar los desafíos y sobresalir en una variedad de roles.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Perro de trabajo versátil',
@@ -7992,6 +8661,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Alergias',
       'Problemas oculares',
+    ],
+    searchTerms: [
+      'Pastor Holandés',
+      'Trabajo',
+      'Pastor Holandes',
+      'Perro de pastor holandés',
+      'Perro de pastor holandes',
+      'Hollandse Herdershond',
+      'Perro pastor de Holanda',
+      'Perro pastor de holanda',
+      'Perro de trabajo',
+      'Perro de protección',
+      'Perro de guardia',
+      'Perro de compañía',
+      'Perro de pastoreo',
+      'Perro de granja',
+      'Perro de rescate',
+      'Perro de búsqueda',
+      'Perro policía',
+      'Perro inteligente',
+      'Perro leal',
+      'Perro versátil',
+      'Perro de los Países Bajos',
+      'Perro de los paises bajos',
+      'Perro holandés',
+      'Perro holandes',
+      'Perro de raza holandesa',
+      'Perro de raza holandesa',
+      'Perro de raza de los Países Bajos',
+      'Perro de raza de los paises bajos',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Dutch_Shepherd',
+      'https://www.dogbreedinfo.com/dutchshepherd.htm',
+      'https://www.ukcdogs.com/dutch-shepherd',
     ],
   },
   71: {
@@ -8029,12 +8741,40 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 683,
       url: 'https://cdn2.thedogapi.com/images/By4A-eqVX.jpg',
     },
-    searchTerms: ['Setter Inglés', 'Deportivo'],
     country_code: 'GB',
-    description:
-      'El Setter Inglés es una raza de perro de tamaño medio conocida por su pelaje distintivo, su naturaleza amigable y su capacidad para localizar y recuperar aves. Aunque pueden ser un poco traviesos y juguetones, son perros inteligentes y trabajadores que son populares como mascotas y perros de caza.',
-    history:
-      'Originarios de Inglaterra, los Setters Ingleses se desarrollaron en el siglo XIX para buscar y señalar aves de caza. Se les enseñaba a "ponerse en cuclillas" para indicar la presencia de aves, de ahí su nombre "setter". Son una raza antigua y bien establecida que ha sido apreciada por su habilidad de caza y su comportamiento amigable.',
+    description: `
+      El Setter Inglés es una raza de perro que combina elegancia y eficiencia, con una apariencia limpia y un movimiento fluido. Este perro de caza simétrico posee una equilibrada mezcla de fuerza, resistencia, gracia y estilo. Su pelaje es plano y de buena longitud, sin rizos, y no es suave ni lanoso al tacto. El Setter Inglés puede variar en color desde blanco hasta tricolor, incluyendo blanco y naranja moteado, blanco y azul moteado hasta tricolor.
+      <br>
+      <br>
+      El Setter Inglés es un perro de caza que se ha entrenado durante 400 años. Su origen se remonta a Inglaterra, y se cree que el spaniel es la raíz de la raza. La versión moderna del Setter Inglés se atribuye en gran medida a Edward Laverack (1800-1877), quien adquirió un par de setters, "Ponto" y "Old Moll", de los criaderos de un reverendo A. Harrisson en 1825. Durante los siguientes 50 años, Laverack crió una línea de setters famosos por sus cualidades de caza y su belleza.
+      <br>
+      <br>
+      El Setter Inglés es conocido por su habilidad para buscar y señalar aves de caza. Son perros que trabajan de manera metódica y sistemática, cubriendo el terreno con eficiencia y precisión. Su estilo de trabajo es una mezcla de pasión y paciencia, lo que los hace excelentes compañeros de caza.
+      <br>
+      <br>
+      En términos de apariencia, el Setter Inglés es un perro de tamaño mediano a grande, con un pelaje largo y sedoso que puede ser blanco con manchas negras, limón, naranja o marrón. Su pelaje es liso y sin rizos, y requiere un mantenimiento regular para mantenerlo en buen estado. Tienen una expresión amable y alerta, con ojos oscuros y orejas de tamaño medio que cuelgan cerca de la cabeza.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Setter Inglés es conocido por ser amigable, tranquilo y afectuoso. Son perros inteligentes y adaptables que pueden vivir tanto en un entorno rural como en la ciudad, siempre y cuando se les proporcione suficiente ejercicio. Son buenos con los niños y se llevan bien con otros perros, lo que los convierte en una excelente opción para familias.
+      <br>
+      <br>
+      A pesar de su naturaleza amigable, el Setter Inglés es un perro activo que requiere mucho ejercicio. Les encanta correr y jugar, y necesitan al menos una hora de ejercicio vigoroso al día. También disfrutan de actividades como la búsqueda y el rescate, la agilidad y la obediencia.
+      <br>
+      <br>
+      En resumen, el Setter Inglés es una raza de perro versátil y encantadora que es tan feliz en el campo como en el hogar. Su combinación de belleza, inteligencia y habilidad para la caza los convierte en una raza muy apreciada tanto por cazadores como por amantes de los perros.
+    `,
+    history: `
+      La historia del Setter Inglés es tan fascinante como la raza misma. Como su nombre indica, la raza se originó en Inglaterra y se cree que ha sido un perro de caza entrenado durante 400 años. La raíz de la raza se considera que proviene del spaniel. La versión moderna del Setter Inglés se atribuye en gran medida a Edward Laverack (1800-1877), quien adquirió un par de setters, "Ponto" y "Old Moll", de los criaderos de un reverendo A. Harrisson en 1825. Durante los siguientes 50 años, Laverack crió una línea de setters famosos por sus cualidades de caza y su belleza.
+      <br>
+      <br>
+      Durante la segunda mitad del siglo XIX, R.L. Purcell Llewellin adquirió perros de Laverack y realizó cruces selectivos con un enfoque en la caza que resultó en una cepa única de perros. Los perros de ambas cepas fueron exportados a todo el mundo, pero las etiquetas permanecen; los setters de campo de hoy todavía se conocen comúnmente como setters Llewellin, mientras que los perros de exposición se conocen más comúnmente como setters Laverack.
+      <br>
+      <br>
+      El Setter Inglés fue reconocido por el United Kennel Club a principios del siglo XX. A lo largo de los años, la raza ha evolucionado en dos tipos distintos en algunas partes del mundo. En América del Norte, en particular, aunque los setters de tipo show han ganado premios en algunos eventos de caza, los perros de campo rara vez son competitivos en el ring de exposición. Debería ser el objetivo de todos los criadores de Setter Inglés adoptar y promover la filosofía de UKC del "perro total", es decir, tener un perro que sea un buen ejemplo del estándar de la raza y que pueda hacer un buen trabajo para el que fue creado, para cazar.
+      <br>
+      <br>
+      La raza ha tenido un impacto significativo en la caza y la cría de perros en todo el mundo. Con su elegante apariencia, su capacidad para cubrir terreno de manera eficiente y su disposición amigable y atlética, el Setter Inglés ha dejado una huella indeleble en el mundo de los perros de caza. A pesar de las diferencias entre los setters de campo y de exposición, todos los Setter Ingleses comparten una historia común de habilidad, belleza y dedicación a la tarea para la que fueron criados.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente perro de caza',
@@ -8060,6 +8800,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Sordera',
       'Hipotiroidismo',
+    ],
+    searchTerms: [
+      'Setter Inglés',
+      'Deportivo',
+      'Setter Ingles',
+      'Perro de caza',
+      'Perro de campo',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro de trabajo',
+      'Perro activo',
+      'Perro atlético',
+      'Perro elegante',
+      'Setter',
+      'Ingles',
+      'Perro de pelo largo',
+      'Perro de pelo ondulado',
+      'Perro de orejas caídas',
+      'Perro de nariz larga',
+      'Perro de cola larga',
+      'Perro de caza de aves',
+      'Perro de caza de pluma',
+      'Perro de caza de pelo',
+      'Perro de caza de montaña',
+      'Perro de caza de campo',
+      'Perro de caza de agua',
+      'Perro de caza de rastro',
+      'Perro de caza de muestra',
+      'Perro de caza de cobro',
+      'Perro de caza de levante',
+      'Perro de caza de fuerza',
+      'Perro de caza de madriguera',
+      'Perro de caza de trufa',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/English_Setter',
+      'https://www.dogbreedinfo.com/englishsetter.htm',
+      'https://www.ukcdogs.com/english-setter',
     ],
   },
   72: {
@@ -8095,12 +8881,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1280,
       url: 'https://cdn2.thedogapi.com/images/H1QyMe5EQ.jpg',
     },
-    searchTerms: ['Pastor Inglés', 'Trabajador'],
     country_code: 'GB',
-    description:
-      'El Pastor Inglés es una raza de perro versátil y trabajadora, conocida por su habilidad para pastorear y proteger el ganado. Son perros independientes y adaptables que son inteligentes y a veces dominantes. A pesar de su energía y determinación, son perros amables y pueden hacer excelentes mascotas de familia.',
-    history:
-      'El Pastor Inglés tiene sus raíces en Inglaterra, donde se utilizaba para pastorear y proteger el ganado. También eran apreciados como perros de vigilancia de granjas debido a su naturaleza alerta y protectora. Son una raza antigua y bien establecida, apreciada por su versatilidad y su fuerte ética de trabajo.',
+    description: `
+      El Pastor Inglés, también conocido como Old English Sheepdog, es una raza de perro que se destaca por su apariencia distintiva y su naturaleza amigable. Este perro es fuerte, musculoso y compacto, con un pelaje profuso que es difícil de ignorar. Su cuerpo es más ancho en la parte trasera que en los hombros, y se destaca por su andar característico, que se asemeja al de un oso.
+      <br>
+      <br>
+      La historia de la raza es relativamente joven, con poco más de 200 años de antigüedad. Se cree que el Pastor Inglés se desarrolló en el oeste de Inglaterra, en los condados de Devon y Somerset y el Ducado de Cornualles. Se utilizaba principalmente como perro de pastoreo y conducción de ganado, lo que sugiere una relación con el Bearded Collie y el Polish Owczarek Nizinny.
+      <br>
+      <br>
+      El Pastor Inglés es conocido por su inteligencia y su disposición equilibrada. Nunca muestra signos de agresividad, timidez o nerviosismo. Su cabeza es amplia y capaz, lo que indica una gran capacidad cerebral. Sus ojos, cuando se pueden ver a través de su pelaje, son de color marrón oscuro, azul o una combinación de ambos.
+      <br>
+      <br>
+      El pelaje del Pastor Inglés es profuso y de textura dura. No es completamente liso, sino que tiene un aspecto desgreñado y está libre de rizos. El subpelo es impermeable, lo que le permite resistir las inclemencias del tiempo. La cabeza, el cuello, los cuartos delanteros y el vientre son de color blanco, con o sin marcas, mientras que el cuerpo y los cuartos traseros son de cualquier tono de gris, grizzle o azul.
+      <br>
+      <br>
+      En cuanto a su comportamiento, el Pastor Inglés es un perro adaptable que disfruta de la exploración y de un buen juego. Es famoso por su agilidad y su capacidad para moverse con soltura a pesar de su tamaño. Es un excelente perro de compañía, conocido por su paciencia y su naturaleza protectora, especialmente con los niños. También es un perro vigilante, conocido por su ladrido fuerte y sonoro.
+      <br>
+      <br>
+      En términos de cuidado, el Pastor Inglés requiere un ejercicio regular para mantenerse en forma. Aunque su pelaje puede parecer abrumador, no es más difícil de cuidar que cualquier otro pelaje largo. Sin embargo, requiere un aseo regular y completo para mantener su pelaje en las mejores condiciones.
+      <br>
+      <br>
+      En resumen, el Pastor Inglés es un perro encantador y leal que puede ser un maravilloso añadido a cualquier hogar. Su personalidad amigable y su apariencia distintiva lo hacen destacar entre otras razas. Sin embargo, como con cualquier perro, se requiere un compromiso de tiempo y energía para asegurar que se mantenga saludable y feliz.
+    `,
+    history: `
+      El Pastor Inglés, también conocido como Old English Sheepdog, es una raza que tiene una historia fascinante y única. Aunque es una raza relativamente joven, con poco más de 200 años de antigüedad, su legado es innegablemente profundo y significativo.
+      <br>
+      <br>
+      La historia de esta raza se remonta a principios del siglo XVIII en el oeste de Inglaterra, específicamente en los condados de Devon y Somerset y el ducado de Cornualles. Se desarrolló como un "perro de pastoreo", utilizado principalmente para conducir ovejas y ganado a los mercados de la metrópolis. Su apariencia física y su uso sugieren una relación con el Bearded Collie y el Polish Owczarek Nizinny.
+      <br>
+      <br>
+      La característica cola cortada de la raza tiene sus raíces en la tradición británica de cortar las colas de los perros de trabajo para su identificación, ya que existía una exención de impuestos para todos los perros que trabajaban para ganarse la vida. Esta práctica le dio a la raza su apodo de "Bobtail".
+      <br>
+      <br>
+      El Old English Sheepdog fue reconocido como raza por el American Kennel Club (AKC) en 1888 y por el United Kennel Club (UKC) en 1948. A pesar de su relativa juventud como raza, el Pastor Inglés ha dejado una huella indeleble en la cultura canina. Su distintiva apariencia peluda y su naturaleza amigable lo han convertido en un icono en el mundo de los perros.
+      <br>
+      <br>
+      El Old English Sheepdog, al igual que el Bulldog y el Collie, se encuentra entre los perros verdaderamente icónicos de las Islas Británicas. Su profuso pelaje y su distintiva forma de caminar, similar a la de un oso, son características que lo distinguen de otras razas. Pero más allá de su apariencia, el Pastor Inglés es un trabajador incansable, conocido por su agilidad y resistencia.
+      <br>
+      <br>
+      A lo largo de los años, el Pastor Inglés ha demostrado ser un perro adaptable e inteligente, con un temperamento uniforme. Nunca muestra signos de agresividad, timidez o nerviosismo. Su inteligencia y su disposición a complacer hacen de esta raza una excelente opción para una variedad de roles, desde perros de terapia hasta perros de servicio y, por supuesto, compañeros familiares.
+      <br>
+      <br>
+      En resumen, la historia del Pastor Inglés es una de adaptabilidad y servicio. Aunque su papel ha cambiado con el tiempo, desde un perro de trabajo en las granjas de Inglaterra hasta un amado compañero de familia, su espíritu y su carácter han permanecido constantes. Esta raza sigue siendo un testimonio de la relación única y duradera entre los humanos y los perros.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de trabajo',
@@ -8125,6 +8948,50 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Problemas oculares',
       'Alergias',
+    ],
+    searchTerms: [
+      'Pastor Inglés',
+      'Trabajador',
+      'Old English Sheepdog',
+      'Bobtail',
+      'Perro de pastoreo',
+      'Perro de trabajo',
+      'Perro de granja',
+      'Perro de Inglaterra',
+      'Perro peludo',
+      'Perro grande',
+      'Perro familiar',
+      'Perro amigable',
+      'Perro de pelo largo',
+      'Perro de pelo blanco',
+      'Perro de pelo gris',
+      'Perro de pelo azul',
+      'Perro de pelo merle',
+      'Perro de pelo plateado',
+      'Perro de pelo tupido',
+      'Perro de cola cortada',
+      'Perro de cola bob',
+      'Perro de cola pequeña',
+      'Perro de ovejas',
+      'Perro de ganado',
+      'Perro de rebaño',
+      'Perro de campo',
+      'Perro de granja inglesa',
+      'Perro de pastor',
+      'Perro de pastor inglés',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Old_English_Sheepdog',
+      'https://www.dogbreedinfo.com/oldenglishsheepdog.htm',
+      'https://www.ukcdogs.com/old-english-sheepdog',
     ],
   },
   73: {
@@ -8157,12 +9024,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1080,
       url: 'https://cdn2.thedogapi.com/images/Hk0Jfe5VQ.jpg',
     },
-    searchTerms: ['Springer Spaniel Inglés', 'Deportivo'],
     country_code: 'GB',
-    description:
-      'El Springer Spaniel Inglés es una raza de perro alegre y activa, conocida por su capacidad para levantar y recuperar aves en situaciones de caza. Son perros inteligentes y atentos con una actitud cariñosa. Son enérgicos y requieren ejercicio regular, pero su naturaleza adaptable los convierte en excelentes mascotas familiares.',
-    history:
-      'El Springer Spaniel Inglés se originó en Inglaterra y se utilizó originalmente para levantar y recuperar aves en situaciones de caza. Son parte de la familia de los spaniels, que se dividió en varias razas distintas a lo largo de los años. Los Springer Spaniels son conocidos por su energía y su agudo sentido del olfato, lo que los hace excelentes perros de caza.',
+    description: `
+      El Springer Spaniel Inglés es una raza de perro que se distingue por su equilibrio y proporciones bien definidas, sin caer en exageraciones. Este perro de tamaño mediano tiene un cuerpo compacto y una cola que suele ser cortada. Es el más alto y elegante de los spaniels terrestres británicos. Su apariencia denota la de un perro de caza útil, capaz de gran resistencia, y al mismo tiempo es elegante y hermoso. El tamaño aproximado es de unos 50 centímetros a la cruz y el peso es de alrededor de 23 kilogramos.
+      <br>
+      <br>
+      El Springer Spaniel Inglés es amigable, afectuoso y fácil de entrenar. Estas cualidades son esenciales cuando se le entrena para el campo o se le muestra en el ring. Las largas orejas del Springer, su expresión suave y su feliz disposición claramente lo muestran como miembro de la antigua familia de los spaniels. No es característico de un perro de caza ser agresivo hacia otros perros o personas, por lo tanto, la agresión es un comportamiento inaceptable. La timidez también se penaliza con la misma severidad, con concesiones para los cachorros jóvenes.
+      <br>
+      <br>
+      El pelaje del Springer Spaniel Inglés consta de un pelaje exterior y un pelaje interior. El pelaje exterior puede ser recto o ondulado. Las orejas, el pecho, las patas y el vientre del Springer están bien adornados con un flequillo de plumas. En la cabeza, las patas delanteras y debajo de los corvejones en la parte delantera de las patas traseras, el pelo es corto y fino. El pelaje interior es corto, suave y denso. La cantidad de pelaje interior se ve afectada por el clima y las estaciones, pero siempre debe ser evidente. Un pelaje adecuado mejora sustancialmente la resistencia del perro a las condiciones climáticas adversas.
+      <br>
+      <br>
+      El Springer Spaniel Inglés es un perro que se distingue por su gaita, que es estrictamente suya. Un requisito previo para un buen movimiento es el equilibrio de las asambleas delanteras y traseras. Las patas delanteras deben balancearse libre y suavemente desde el hombro, lanzando los pies bien hacia adelante. Las patas traseras llegan bien debajo del cuerpo, siguiendo la línea de las patas delanteras. La línea superior no debe ni sumergirse ni rodar cuando se ve desde el lado. A movimientos lentos, muchos Springers tienen una zancada de paso típica de la raza.
+      <br>
+      <br>
+      El Springer Spaniel Inglés es el perro de caza deportivo más antiguo y mejor establecido. Es la raíz principal de todos los spaniels terrestres deportivos (excepto el Clumber Spaniel). El nombre indudablemente proviene de sus acciones en el campo donde salta a su presa y la hace volar para la red, el halcón o el galgo. Hoy en día se utiliza como perro de muestra y recuperador. La popularidad de la raza ha dado paso al Cocker, pero sigue estando entre las 20 razas de perros más populares.
+    `,
+    history: `
+      La historia del Springer Spaniel Inglés es tan antigua como fascinante, y se remonta a siglos atrás, cuando los perros de tipo spaniel eran muy apreciados en Inglaterra. Estos perros eran conocidos por su habilidad para "hacer saltar" o "spring" a las aves de caza, de ahí su nombre. Sin embargo, no fue hasta el siglo XIX cuando se comenzó a distinguir entre los diferentes tipos de spaniels, y el Springer Spaniel Inglés emergió como una raza distinta.
+      <br>
+      <br>
+      Los Springer Spaniels Ingleses son considerados la raíz de todos los spaniels de caza terrestres, con la excepción del Clumber Spaniel. Su nombre, sin duda, proviene de su comportamiento en el campo, donde saltan sobre su presa y la hacen volar para la red, el halcón o el galgo. Hoy en día, se utilizan como perros de muestra y recuperación. Aunque la popularidad de la raza ha cedido ante el Cocker Spaniel, sigue siendo una de las 20 razas de perros más populares.
+      <br>
+      <br>
+      La raza fue reconocida por el United Kennel Club en 1932. A lo largo de los años, el Springer Spaniel Inglés ha demostrado ser un perro de trabajo excepcionalmente versátil. Originalmente se utilizaban para el trabajo de campo, pero su inteligencia y disposición amigable también los han hecho populares como perros de servicio y de terapia.
+      <br>
+      <br>
+      Durante la Segunda Guerra Mundial, los Springer Spaniels Ingleses fueron utilizados por el ejército británico como perros de detección de minas. Su agudo sentido del olfato, combinado con su capacidad para ser entrenados, los convirtió en una elección ideal para esta tarea peligrosa.
+      <br>
+      <br>
+      En los últimos años, la raza ha ganado popularidad en los deportes caninos, destacando en competencias de agilidad, obediencia y pruebas de campo. Su energía inagotable, su inteligencia y su deseo de complacer los hacen excelentes competidores en estos eventos.
+      <br>
+      <br>
+      A pesar de su larga historia como perro de trabajo, el Springer Spaniel Inglés es también un maravilloso compañero de familia. Son conocidos por su temperamento amigable y su amor por los niños, lo que los convierte en una excelente opción para las familias. Su lealtad y afecto por sus dueños son inigualables, y su naturaleza juguetona y enérgica los convierte en una fuente constante de alegría y entretenimiento.
+      <br>
+      <br>
+      En resumen, la historia del Springer Spaniel Inglés es una de versatilidad y adaptabilidad. Ya sea en el campo, en el ring de exposición, en el hogar o en el trabajo, estos perros han demostrado una y otra vez su valor y su encanto.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de caza',
@@ -8186,6 +9084,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Problemas oculares',
       'Otitis',
+    ],
+    searchTerms: [
+      'Springer Spaniel Inglés',
+      'Deportivo',
+      'Springer Spaniel Ingles',
+      'Spaniel Inglés',
+      'Spaniel Ingles',
+      'Springer Spaniel',
+      'Spaniel',
+      'Springer',
+      'Perro de caza',
+      'Perro de muestra',
+      'Perro de trabajo',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro de compañía',
+      'Perro activo',
+      'Perro energético',
+      'Perro amigable',
+      'Perro de raza',
+      'Perro británico',
+      'Perro inglés',
+      'Perro de pelo largo',
+      'Perro de orejas largas',
+      'Perro de tamaño mediano',
+      'Perro de campo',
+      'Perro de exteriores',
+      'Perro de interior',
+      'Perro de casa',
+      'Perro de granja',
+      'Perro de caza de aves',
+      'Perro de caza de pluma',
+      'Perro de caza de pelo',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/English_Springer_Spaniel',
+      'https://www.akc.org/dog-breeds/english-springer-spaniel/',
+      'https://www.dogbreedinfo.com/englishspringerspaniel.htm',
     ],
   },
   74: {
@@ -8218,12 +9162,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 696,
       url: 'https://cdn2.thedogapi.com/images/SkIgzxqNQ.jpg',
     },
-    searchTerms: ['Spaniel de Juguete Inglés', 'De juguete'],
     country_code: 'GB',
-    description:
-      'El Spaniel de Juguete Inglés es una raza pequeña y cariñosa conocida por ser el compañero de los reyes. Este perro juguetón y amoroso tiene una personalidad amable y feliz. Son perros reservados y excelentes para compañía y confort. Requieren cuidado y atención regular debido a su pequeño tamaño y pelaje.',
-    history:
-      'El Spaniel de Juguete Inglés tiene una larga historia como compañero de la realeza inglesa. Esta raza se ha mantenido popular a lo largo de los años debido a su temperamento afectuoso y su tamaño de juguete. Aunque originalmente fueron criados para la compañía de los reyes, ahora son populares como mascotas familiares.',
+    description: `
+      El Spaniel de Juguete Inglés, también conocido como "Charlie", es una raza de perro que ha sido apreciada por su compañía durante siglos. Su historia se remonta a los tiempos de los reyes Carlos I y II de Inglaterra, quienes tenían un gran cariño por estos pequeños perros, hasta el punto de que se convirtieron en símbolos de la Casa de Stuart. Aunque su tamaño es pequeño, su personalidad es grande y su presencia es inconfundible.
+      <br>
+      <br>
+      Estos perros son compactos y cuadrados en su forma, con un peso que no supera las 14 libras. Su cabeza es grande en comparación con su tamaño, con una frente redondeada y mejillas regordetas que son características de la raza. Sus ojos son oscuros y brillantes, y sus orejas son largas y lujosas, aportando un aire de elegancia a su apariencia.
+      <br>
+      <br>
+      El Spaniel de Juguete Inglés es conocido por su inteligencia y su naturaleza juguetona y gentil. Son perros brillantes e interesados, afectuosos y dispuestos a complacer. Aunque pueden ser orgullosos y obstinados, son extremadamente selectivos en su elección de amigos. Con sus humanos favoritos, son cariñosos en casa y exuberantes y curiosos en el juego.
+      <br>
+      <br>
+      Su pelaje es largo y sedoso, liso o ligeramente ondulado, nunca rizado. Hay una profusa pluma en las orejas, las patas y la cola. El pelaje viene en cuatro variedades, cada una con su propio nombre apropiado: rojo y blanco (Blenheim); negro y canela (King Charles); blanco, negro y canela (Prince Charles); y un rojo sólido (Ruby).
+      <br>
+      <br>
+      En cuanto a su temperamento, los Spaniels de Juguete Ingleses son perros moderadamente activos. Cuando están al aire libre, son alertas, juguetones y enérgicos, mientras que en casa son sedantes y dignos. Son perros tranquilos que hacen excelentes compañeros para los habitantes de la ciudad en pequeños apartamentos que pueden proporcionar a los perros paseos diarios con correa. Como raza de cara corta, el Spaniel de Juguete Inglés no tolera bien el clima cálido y no debe dejarse al aire libre en días cálidos o húmedos.
+      <br>
+      <br>
+      A pesar de su tamaño pequeño, el Spaniel de Juguete Inglés es un perro robusto y sólidamente construido. Son perros saludables en general, pero hay varias consideraciones de salud y pruebas genéticas específicas para la raza, incluyendo condiciones oculares, enfermedades cardíacas y patelas luxantes. Los criadores dedicados prueban su stock de cría y se comunican regularmente entre sí para trabajar juntos por la salud de la raza y la preservación de las cualidades únicas de la raza.
+      <br>
+      <br>
+      En resumen, el Spaniel de Juguete Inglés es un perro encantador y atractivo que hace un excelente compañero. Su personalidad amigable y su apariencia elegante los hacen una opción popular para muchos dueños de perros. Ya sea que estés buscando un perro de compañía o simplemente un amigo peludo para pasar el rato, el Spaniel de Juguete Inglés es una raza que vale la pena considerar.
+    `,
+    history: `
+      La historia del Spaniel de Juguete Inglés es tan rica y fascinante como la raza misma. El origen de estos perros se remonta a la antigua Inglaterra, donde se desarrollaron a partir de la cría de spaniels locales con perros de juguete más pequeños del Oriente. Este cruce resultó en un perro pequeño con una cabeza redonda y un hocico corto, características que aún hoy son distintivas de la raza.
+      <br>
+      <br>
+      Los Spaniels de Juguete Ingleses tienen una larga y distinguida historia en la realeza británica. Están asociados con los reyes Carlos I y II de Inglaterra, conocidos como los "Monarcas Alegres" del siglo XVII. Estos reyes eran tan aficionados a sus pequeños perros que se convirtieron en símbolos de la Casa de Stuart. Durante el reinado de Carlos II, quizás el monarca más amante de los perros antes de la reina Victoria, los Spaniels de Juguete Ingleses se convirtieron en una presencia constante en la corte.
+      <br>
+      <br>
+      A lo largo de los siglos, la raza ha experimentado cambios en su apariencia debido a las preferencias cambiantes de la realeza y la sociedad. En el siglo XIX, se hizo popular cruzarlos con perros de juguete asiáticos para reducir su tamaño. Esto llevó a la creación de las cuatro variedades de color que conocemos hoy: el Blenheim (rojo y blanco), el King Charles (negro y canela), el Prince Charles (blanco, negro y canela) y el Ruby (rojo sólido).
+      <br>
+      <br>
+      El Spaniel de Juguete Inglés fue reconocido oficialmente como raza por el American Kennel Club en 1886, y por el United Kennel Club en 1992. A pesar de su antigüedad, la raza no es tan popular hoy en día como lo era en los tiempos de la realeza británica. Sin embargo, aquellos que tienen la suerte de compartir su vida con un Spaniel de Juguete Inglés saben que son perros de compañía excepcionales, llenos de carácter y encanto.
+      <br>
+      <br>
+      A lo largo de su historia, el Spaniel de Juguete Inglés ha demostrado ser un perro adaptable y resistente, capaz de mantener su carácter alegre y su apariencia distintiva a pesar de los cambios en la sociedad y las preferencias de la cría. Hoy en día, estos perros continúan siendo apreciados por su temperamento afectuoso, su inteligencia y su apariencia elegante, y son una elección popular para aquellos que buscan un perro de compañía pequeño pero robusto.
+      <br>
+      <br>
+      En resumen, la historia del Spaniel de Juguete Inglés es una de adaptabilidad y supervivencia, de cambios en la moda y la preferencia, pero siempre manteniendo la esencia de lo que hace a la raza tan especial. Desde los salones de la realeza hasta los hogares modernos, estos perros han demostrado ser compañeros leales y amorosos, y su historia es un testimonio de su encanto perdurable.
+    `,
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Perfecto para compañía',
@@ -8248,7 +9226,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Enfermedades del corazón',
       'Displasia de cadera',
     ],
+    searchTerms: [
+      'Spaniel de Juguete Inglés',
+      'De juguete',
+      'Spaniel de Juguete Ingles',
+      'Spaniel de juguete',
+      'Spaniel Ingles',
+      'Spaniel Inglés',
+      'Spaniel',
+      'Perro de juguete',
+      'Perro de compañía',
+      'Perro pequeño',
+      'Perro de la realeza',
+      'Perro de la corte inglesa',
+      'Perro de Carlos II',
+      'Perro de la casa de Stuart',
+      'Perro de raza antigua',
+      'Perro de raza británica',
+      'Perro de raza inglesa',
+      'Perro de raza pequeña',
+      'Perro de raza juguete',
+      'Perro de raza spaniel',
+      'Perro de raza spaniel inglés',
+      'Perro de raza spaniel de juguete',
+      'Perro de raza spaniel de juguete inglés',
+      'Perro de raza spaniel de juguete ingles',
+      'Perro de raza spaniel de juguete inglesa',
+      'Perro de raza spaniel de juguete inglesa',
+      'Perro de raza spaniel de juguete de Inglaterra',
+      'Perro de raza spaniel de juguete de inglaterra',
+      'Perro de raza spaniel de juguete de la realeza',
+      'Perro de raza spaniel de juguete de la corte',
+      'Perro de raza spaniel de juguete de la corte inglesa',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/King_Charles_Spaniel',
+      'https://www.ukcdogs.com/english-toy-spaniel',
+    ],
   },
+  // Checkpoint
   75: {
     weight: {
       imperial: '6 - 8',

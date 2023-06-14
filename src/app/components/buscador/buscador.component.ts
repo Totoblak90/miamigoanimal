@@ -109,11 +109,13 @@ export class BuscadorComponent implements OnDestroy {
       }))
   }
 
-  resetSearch() { setTimeout(() => { this.searchArticlesForm.get('searchTerm')?.setValue(''); }, 100) }
-
   onKeyUpEnter() {
     if (this.searchResults.length === 1) {
-      if (this.searchArticlesForm.get('searchType')!.value === 'articulos')  {  this.router.navigate( this.searchResults[0].url as string[] ) }
+      if (this.searchArticlesForm.get('searchType')!.value === 'articulos')
+      {
+        this.router.navigate( this.searchResults[0].url as string[] );
+        this.collapsed = true;
+      }
 
       else
       {
@@ -121,18 +123,28 @@ export class BuscadorComponent implements OnDestroy {
           this.searchResults[0].url as string[],
           {
             queryParams:
-              { raza: this.searchResults[0].url }
+              { raza: this.searchResults[0].title.split(' ').join('-').toLocaleLowerCase() }
           }
         )
+
+        this.collapsed = true;
       }
     }
   }
+
+  resetSearch() { setTimeout(() => { this.searchArticlesForm.get('searchTerm')?.setValue(''); }, 100) }
 
   // Form effects
   uncollapse(event: Event) {
     event.stopPropagation();
     this.searchArticlesForm.get('searchTerm')?.setValue('');
     this.collapsed = false;
+  }
+
+  collapse(event: Event) {
+    event.stopPropagation();
+    this.searchArticlesForm.get('searchTerm')?.setValue('');
+    this.collapsed = true;
   }
 
   @HostListener('document:click', ['$event'])

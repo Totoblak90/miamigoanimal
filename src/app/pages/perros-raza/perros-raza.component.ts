@@ -298,6 +298,10 @@ export class PerrosRazaComponent implements OnDestroy {
     return `progress progress__${recomendacionPrimerizos[this.dog.para_primerizos || '-']}`
   }
 
+  get dogPerks() {
+    return this.dog.perks.join(', ').toLocaleUpperCase()
+  }
+
   private routeSubscription: Subscription | undefined;
 
   constructor(
