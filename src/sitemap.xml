@@ -1,5 +1,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+    <!-- Páginas principales -->
+    <!-- Páginas principales -->
+    <!-- Páginas principales -->
+
     <url>
         <loc>https://esferamascota.com/home</loc>
         <lastmod>2023-06-03</lastmod>
@@ -76,6 +80,10 @@
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
+
+    <!-- Empiezo artículos -->
+    <!-- Empiezo artículos -->
+    <!-- Empiezo artículos -->
 
     <url>
         <loc>https://esferamascota.com/post/todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades</loc>
@@ -177,6 +185,24 @@
         <priority>1.0</priority>
     </url>
 
+    <url>
+        <loc>https://esferamascota.com/post/descubre-las-mejores-razas-de-perros-pequenos-guia-completa</loc>
+        <lastmod>2023-06-14</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://esferamascota.com/post/gran-danes-caracteroisticas-cuidados-y-curiosidades</loc>
+        <lastmod>2023-06-14</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+    <!-- Empiezo razas de perro -->
+    <!-- Empiezo razas de perro -->
+    <!-- Empiezo razas de perro -->
     <url>
         <loc>https://esferamascota.com/perros/1?raza=affenpinscher</loc>
         <lastmod>2023-06-06</lastmod>

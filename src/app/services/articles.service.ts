@@ -27,7 +27,6 @@ El artículo es el siguiente:
 })
 export class ArticlesService {
   articlesDB = signal<Article[]>([
-    // Se solicitó indexación
     {
       url: 'adopta-a-los-gatitos-mas-tiernos-y-juguetones-encuentra-tu-companero-felino-ideal',
       categories: ['Gatos', 'Adiestramiento'],
@@ -47,7 +46,7 @@ export class ArticlesService {
         'Costos',
       ],
     },
-    // Se solicitó indexación
+
     {
       url: 'conoce-las-mejores-razas-de-perros-guia-completa-y-actualizada',
       categories: ['Perros'],
@@ -70,7 +69,7 @@ export class ArticlesService {
         'Perros para niños',
       ],
     },
-    // Se solicitó indexación
+
     {
       url: 'descubre-los-mejores-cuidados-para-tus-perritos',
       categories: ['Perros', 'Salud', 'Adiestramiento'],
@@ -92,7 +91,7 @@ export class ArticlesService {
         'entorno adecuado para cachorros',
       ],
     },
-    // Se solicitó indexación
+
     {
       url: 'perritas-adorables-todo-lo-que-necesitas-saber-sobre-estas-tiernas-mascotas',
       categories: ['Perros', 'Adiestramiento', 'Alimentacion'],
@@ -115,7 +114,7 @@ export class ArticlesService {
         'Alimentación de perros',
       ],
     },
-    // Se solicitó indexación
+
     {
       url: 'todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo',
       categories: ['Perros', 'Salud', 'Adiestramiento'],
@@ -138,7 +137,7 @@ export class ArticlesService {
         'Salud canina',
       ],
     },
-    // Se solicitó indexación
+
     {
       url: 'todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades',
       categories: ['Gatos'],
@@ -161,6 +160,7 @@ export class ArticlesService {
         'Características gato',
       ],
     },
+
     {
       url: 'bulldog-frances-todo-lo-que-necesitas-saber-sobre-esta-adorable-raza-de-perros',
       categories: ['Perros', 'Salud', 'Adiestramiento'],
@@ -177,6 +177,7 @@ export class ArticlesService {
       recent_card_title: 'Bulldog Francés: Todo sobre esta adorable raza de perros',
       buscador: ['Raza', 'Características', 'Cachorros', 'Ejercicio', 'Aseo'],
     },
+
     {
       url: 'bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica',
       categories: ['Perros', 'Salud', 'Adiestramiento'],
@@ -203,6 +204,7 @@ export class ArticlesService {
         'Salud Bulldog',
       ],
     },
+
     {
       url: 'el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades',
       categories: ['Perros', 'Salud', 'Adiestramiento'],
@@ -229,7 +231,7 @@ export class ArticlesService {
         'Costos',
       ],
     },
-    // Se solicitó indexación
+
     {
       url: 'conoce-todo-acerca-del-perro-san-bernardo',
       categories: ['Perros', 'Salud'],
@@ -259,7 +261,7 @@ export class ArticlesService {
         'Sociable',
       ],
     },
-    // Se solicitó indexación
+
     {
       url: 'descubre-el-boyero-de-berna',
       categories: ['Perros', 'Alimentacion'],
@@ -283,6 +285,7 @@ export class ArticlesService {
         'Boyero de Berna',
       ],
     },
+
     {
       url: 'pastor-aleman-caracteristicas-cuidados-y-curiosidades',
       categories: ['Perros', 'Salud', 'Adiestramiento', 'Alimentacion'],
@@ -307,6 +310,7 @@ export class ArticlesService {
         'Salud',
       ],
     },
+
     {
       url: 'perro-salchicha-caracteristicas-cuidados-y-curiosidades',
       categories: ['Perros', 'Salud', 'Alimentacion'],
@@ -337,6 +341,7 @@ export class ArticlesService {
         'Enfermedades comunes',
       ],
     },
+
     {
       url: 'descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular',
       categories: ['Gatos', 'Salud'],
@@ -360,6 +365,7 @@ export class ArticlesService {
         'Gatos persas famosos',
       ],
     },
+
     {
       url: 'descubre-las-mejores-razas-de-perros-pequenos-guia-completa',
       categories: ['Perros'],
@@ -393,6 +399,7 @@ export class ArticlesService {
         'Razas de perros para niños',
       ],
     },
+
     {
       url: 'gran-danes-caracteroisticas-cuidados-y-curiosidades',
       categories: ['Perros'],
@@ -422,6 +429,7 @@ export class ArticlesService {
         'Expectativa de vida del Gran Danés',
       ],
     },
+
   ]);
 
   constructor() {}
