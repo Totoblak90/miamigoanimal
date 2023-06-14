@@ -6894,7 +6894,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
       "https://www.ukcdogs.com/cavalier-king-charles-spaniel"
     ]
   },
-  // Checkpoint
   58: {
     weight: {
       imperial: '55 - 80',
@@ -6925,12 +6924,40 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 600,
       url: 'https://cdn2.thedogapi.com/images/9BXwUeCc2.jpg',
     },
-    searchTerms: ['Chesapeake Bay Retriever', 'Recuperación', 'Protector'],
     country_code: 'US',
-    description:
-      'El Chesapeake Bay Retriever, originario de los Estados Unidos, es un perro cariñoso e inteligente, criado principalmente para la recuperación de agua. Destaca por su naturaleza dominante y protectora, siendo muy querido por su carácter feliz. Es un perro de tamaño grande, perteneciente al grupo de los deportivos.',
-    history:
-      'El Chesapeake Bay Retriever tiene un origen interesante. Fue en los Estados Unidos donde empezó a ser criado con el objetivo principal de recuperar agua. Esta habilidad lo convierte en un perro muy valorado en diferentes actividades, tanto de ocio como de trabajo. Su naturaleza protectora es otro de los aspectos que lo caracteriza y que ha contribuido a su popularidad a lo largo de los años.',
+    description: `
+      El Chesapeake Bay Retriever es una raza de perro de tamaño mediano, bien equilibrada, con una silueta distintiva compuesta por una serie de curvas elegantes, pequeñas orejas caídas y una cola natural que cuelga o se lleva con una ligera curva hacia arriba. La longitud del cuerpo es solo ligeramente más larga que la altura en la cruz, y las patas delanteras son aproximadamente iguales en longitud a la profundidad del cuerpo. El pelaje del Chesapeake, aceitoso, denso y ondulado, con un espeso subpelo, y coloreado para coincidir con el entorno de trabajo del perro, es un elemento esencial del tipo de raza.
+      <br>
+      <br>
+      El Chesapeake Bay Retriever es conocido por su resistencia y su habilidad para recuperar presas en condiciones climáticas adversas. Su pelaje aceitoso y denso es resistente al agua, lo que le permite trabajar en aguas heladas sin que el agua penetre en su piel. Este pelaje, junto con su poderosa musculatura y su resistencia, le permite trabajar en condiciones que otros perros podrían encontrar demasiado difíciles.
+      <br>
+      <br>
+      El Chesapeake Bay Retriever tiene un temperamento equilibrado y es conocido por su lealtad y su disposición a trabajar. Aunque puede ser reservado con los extraños, es extremadamente afectuoso con su familia y es conocido por ser bueno con los niños. A pesar de su tamaño, el Chesapeake Bay Retriever es un perro muy ágil y puede moverse con gran velocidad y agilidad cuando es necesario.
+      <br>
+      <br>
+      El Chesapeake Bay Retriever es un perro de trabajo y necesita mucho ejercicio y estimulación mental para mantenerse feliz y saludable. Aunque puede adaptarse a la vida en un apartamento si se le proporciona suficiente ejercicio, es más feliz en un hogar con un patio grande donde pueda correr y jugar. El Chesapeake Bay Retriever también necesita un dueño que esté dispuesto a dedicar tiempo a su entrenamiento y socialización. Aunque es inteligente y generalmente ansioso por complacer, también puede ser un poco terco y puede necesitar un dueño que sea firme y consistente en su entrenamiento.
+      <br>
+      <br>
+      El Chesapeake Bay Retriever es una raza de perro saludable y robusta, pero como todas las razas, puede ser propenso a ciertas condiciones de salud. Algunas de las condiciones de salud que pueden afectar a los Chesapeake Bay Retrievers incluyen la displasia de cadera, problemas oculares y ciertos tipos de cáncer. Sin embargo, con cuidados veterinarios regulares y una dieta y un estilo de vida saludables, la mayoría de los Chesapeake Bay Retrievers pueden llevar una vida larga y saludable.
+      <br>
+      <br>
+      En resumen, el Chesapeake Bay Retriever es un perro de trabajo resistente y leal que es un excelente compañero para aquellos que pueden proporcionarle el ejercicio y la estimulación que necesita. Con su pelaje resistente al agua y su amor por el trabajo, es un excelente perro de caza y recuperación, pero también es un perro de familia afectuoso y leal.
+    `,
+    history: `
+      La historia del Chesapeake Bay Retriever es tan fascinante como la raza misma. Esta raza de perro tiene sus raíces en la Bahía de Chesapeake en los Estados Unidos, donde se desarrolló durante el siglo XIX. Originalmente, estos perros eran utilizados por los cazadores locales para recuperar aves acuáticas, tirar de las redes de pesca y rescatar a los pescadores. Hoy en día, son principalmente mascotas familiares y compañeros de caza, conocidos por su disposición alegre y brillante, su coraje, su disposición a trabajar, su alerta, su inteligencia, su amor por el agua y sus capacidades de caza.
+      <br>
+      <br>
+      La historia de la raza se remonta a dos cachorros que fueron rescatados de un barco que se hundía en Maryland en 1807. Los dos cachorros, un macho llamado "Sailor" y una hembra llamada "Canton", fueron descritos como perros de Terranova, pero en realidad eran de la raza Lesser Newfoundland o St. John's water dogs. Estos dos cachorros vivieron en diferentes partes de la zona de la bahía y no hay registro de que hayan tenido una camada juntos. Fueron criados con perros de la zona, con más consideración por su habilidad que por su raza, para crear los inicios de la raza Chesapeake Bay Retriever. Hay pocos registros de las razas de estos primeros perros, pero se incluyeron spaniels y sabuesos.
+      <br>
+      <br>
+      Los perros de ambas costas de la Bahía de Chesapeake fueron reconocidos como uno de los tres tipos de Chesapeake Bay Ducking Dog en 1877. En 1918, un solo tipo, llamado Chesapeake Bay Retriever, fue reconocido por el American Kennel Club, y ha habido pocos cambios en el estándar de la raza desde entonces.
+      <br>
+      <br>
+      La historia de cómo se rescataron los cachorros fue relatada por George Law, quien estuvo a bordo del barco que rescató a los cachorros, en una carta escrita en 1845. Según Law, los cachorros fueron comprados al capitán inglés del barco que se hundía por una guinea cada uno. El macho, Sailor, fue dado a Mr. John Mercer de West River, y la hembra, Canton, a Doctor James Stewart de Sparrow's Point. Ambos cachorros crecieron para ser perros de agua muy reputados y sus descendientes son conocidos hasta el día de hoy.
+      <br>
+      <br>
+      En 1964, el Chesapeake Bay Retriever fue declarado el perro oficial de Maryland. Es la mascota de la Universidad de Maryland, Baltimore County. Miembros de la raza han sido propiedad del General George Armstrong Custer, el Presidente Theodore Roosevelt, el Senador John McCain, y los actores Paul Walker y Tom Felton.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Es muy cariñoso e inteligente',
@@ -6950,6 +6977,50 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    searchTerms: [
+      'Chesapeake Bay Retriever',
+      'Recuperación',
+      'Protector',
+      'Chesapeake Bay Retriever',
+      'Chesapeake',
+      'Retriever de la Bahía de Chesapeake',
+      'Perro de agua',
+      'Perro de caza',
+      'Perro de recuperación',
+      'Perro de trabajo',
+      'Perro de rescate',
+      'Perro de la Bahía de Chesapeake',
+      'Chesapeake Retriever',
+      'Chesapeake Bay',
+      'Retriever Chesapeake',
+      'Perro de Maryland',
+      'Perro oficial de Maryland',
+      'Perro de agua de Chesapeake',
+      'Perro de caza de Chesapeake',
+      'Perro de trabajo de Chesapeake',
+      'Perro de rescate de Chesapeake',
+      'Perro de la Bahía de Chesapeake',
+      'Perro de agua de la Bahía de Chesapeake',
+      'Perro de caza de la Bahía de Chesapeake',
+      'Perro de trabajo de la Bahía de Chesapeake',
+      'Perro de rescate de la Bahía de Chesapeake',
+      'Perro de familia',
+      'Perro de compañía',
+      'Perro para niños',
+      'Perro para familias',
+      'Perro para el hogar',
+      'Perro para la casa',
+      'Perro para el campo'
+    ],
+      "tendencia_a_ladrar": "Moderada",
+      "necesidad_de_aseo": "Moderada",
+      "soporta_clima_frio": "Alta",
+      "soporta_clima_calido": "Moderada",
+      "para_primerizos": "Baja",
+      "bueno_con_ninos": "Moderada",
+      "tolerancia_a_la_soledad": "Baja",
+      "casos_famosos": [],
+      "fuentes": ["https://www.akc.org/dog-breeds/chesapeake-bay-retriever/", "https://www.dogbreedinfo.com/chesapeakebay.htm", "https://www.ukcdogs.com/chesapeake-bay-retriever"]
   },
   59: {
     weight: {
@@ -6981,12 +7052,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 798,
       url: 'https://cdn2.thedogapi.com/images/B1pDZx9Nm.jpg',
     },
-    searchTerms: ['Crestado Chino', 'Caza de ratas', 'Perro de regazo'],
     country_code: 'CN',
-    description:
-      'El Crestado Chino es un perro afectuoso y vivaz, criado originalmente para cazar ratas y como perro de regazo. Son conocidos por su alerta y actitud juguetona, y su apariencia única con crestas de pelo. Son perros pequeños, pero llenos de energía y siempre están dispuestos a jugar.',
-    history:
-      'Originario de China, el Crestado Chino es una raza antigua con una historia rica. Han sido venerados como tesoros de la realeza y utilizados como cazadores de ratas en barcos. Aunque son pequeños, son valientes y capaces. Su apariencia única y su naturaleza afectuosa los han hecho populares en todo el mundo.',
+    description: `
+      El Crestado Chino es una raza de perro verdaderamente única y fascinante, que se distingue por su apariencia elegante y su personalidad encantadora. Esta raza de perro es de tipo juguete y viene en dos variedades de pelaje: Hairless (sin pelo) y Powderpuff (con pelo). Ambas variedades nacen en la misma camada y son igualmente encantadoras.
+      <br>
+      <br>
+      La variedad Hairless es conocida por su piel suave y manchas de pelo en la cabeza, cola y tobillos. Aunque puede parecer frágil a primera vista, esta raza es resistente y está llena de energía. A pesar de su falta de pelo, la variedad Hairless requiere un cuidado especial de la piel para prevenir irritaciones, alergias y quemaduras solares.
+      <br>
+      <br>
+      Por otro lado, la variedad Powderpuff está cubierta por un suave y sedoso pelaje que requiere un cepillado diario para mantener su apariencia esponjosa. A pesar de las diferencias en su pelaje, ambas variedades comparten una elegancia de huesos finos y un movimiento grácil.
+      <br>
+      <br>
+      Los Crestados Chinos son perros juguetones, cariñosos y dedicados a sus humanos. Son perros de compañía ultra cariñosos y realmente son una raza aparte. Son alerta, vivaces y entretenidos, y sirven como compañeros amorosos. Son perros alegres, alerta, juguetones y entretenidos, y sirven como compañeros amorosos.
+      <br>
+      <br>
+      Esta raza es originaria de China, aunque se cree que evolucionó a partir de perros sin pelo de África. Los Crestados Chinos fueron populares en los Estados Unidos durante el siglo XIX y principios del XX, y nuevamente ganaron popularidad en la década de 1970. Aunque su origen exacto es desconocido, se cree que los Crestados Chinos acompañaron a los marineros chinos en alta mar, cazando plagas durante y entre tiempos de plaga.
+      <br>
+      <br>
+      Los Crestados Chinos son perros de tamaño pequeño, con una altura ideal que oscila entre 11 y 13 pulgadas. Tienen una estructura ósea fina y delgada, pero no tan refinada como para parecer frágiles; tampoco tienen una estructura robusta y pesada. Son perros elegantes, ágiles y suaves, con buena extensión y propulsión.
+      <br>
+      <br>
+      En cuanto a su temperamento, los Crestados Chinos son perros alegres, alerta, juguetones y entretenidos. Son perros de compañía ultra cariñosos y realmente son una raza aparte. Son perros alegres, alerta, juguetones y entretenidos, y sirven como compañeros amorosos.
+      <br>
+      <br>
+      En resumen, el Crestado Chino es una raza de perro única y encantadora que seguramente atraerá a cualquier amante de los perros con su apariencia distintiva y su personalidad encantadora. Ya sea que elijas la variedad Hairless o Powderpuff, puedes esperar un compañero leal y cariñoso que seguramente te mantendrá entretenido con sus travesuras juguetonas.
+    `,
+    history: `
+      La historia del Crestado Chino es tan antigua y misteriosa como la civilización misma. Se cree que esta raza única se originó a partir de perros sin pelo de África, que fueron llevados a China y, a través de generaciones de cría selectiva, se redujeron en tamaño. Los Crestados Chinos fueron valorados por los marineros chinos, ya que eran excelentes cazadores de ratas y se dice que los llevaron en sus barcos durante sus viajes por el mar, lo que ayudó a la dispersión de la raza en diferentes partes del mundo.
+      <br>
+      <br>
+      A lo largo de los siglos, los Crestados Chinos se convirtieron en una raza favorita en las cortes imperiales chinas y se dice que fueron regalados a dignatarios extranjeros como un signo de buena voluntad. Sin embargo, a pesar de su estatus real, estos perros también eran apreciados por su utilidad. Su falta de pelo los hacía menos susceptibles a las plagas y enfermedades que afectaban a los perros con pelo, lo que los hacía valiosos tanto en la corte como en los barcos.
+      <br>
+      <br>
+      La popularidad de los Crestados Chinos fluctuó a lo largo de los años. En el siglo XIX, la raza disfrutó de un breve período de popularidad en los Estados Unidos, pero luego cayó en el olvido hasta que fue redescubierta en la década de 1970. A pesar de su apariencia inusual, la raza ha ganado un lugar en los corazones de muchos dueños de perros debido a su naturaleza cariñosa y juguetona.
+      <br>
+      <br>
+      El Crestado Chino fue reconocido oficialmente como raza por el American Kennel Club en 1991 y por el United Kennel Club en 1995. Aunque no es una de las razas más comunes, el Crestado Chino ha encontrado un lugar en el mundo de las exposiciones caninas y en los hogares de aquellos que aprecian su singular belleza y encantadora personalidad.
+      <br>
+      <br>
+      A pesar de su antigüedad, la historia del Crestado Chino sigue siendo en gran parte un misterio. Sin embargo, lo que sí sabemos es que esta raza única ha sobrevivido a través de los siglos, adaptándose a nuevas culturas y circunstancias, y continúa deleitando a aquellos que tienen la suerte de conocerla. Con su apariencia inusual y su encantadora personalidad, el Crestado Chino es verdaderamente una raza aparte.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Afectuoso',
@@ -7009,6 +7114,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas dentales', 'Alergias a la piel'],
+    searchTerms: [
+      'Crestado Chino',
+      'Caza de ratas',
+      'Perro de regazo',
+      "Crestado",
+      "Chino",
+      "Perro Chino",
+      "Perro Crestado",
+      "Crestado sin pelo",
+      "Perro sin pelo",
+      "Perro chino sin pelo",
+      "Perro exótico",
+      "Raza exótica",
+      "Raza china",
+      "Perro de compañía",
+      "Perro pequeño",
+      "Perro de raza pequeña",
+      "Perro de interior",
+      "Perro cariñoso",
+      "Perro juguetón",
+      "Perro amigable",
+      "Perro para familia",
+      "Perro para niños",
+      "Perro para adultos",
+      "Perro para ancianos",
+      "Perro para apartamento",
+      "Perro para casa",
+      "Perro para ciudad",
+      "Perro para campo",
+      "Perro para clima cálido",
+      "Perro para clima frío",
+      "Perro para todas las estaciones",
+      "Perro adaptable"
+    ],
+    "tendencia_a_ladrar": "Baja",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Baja",
+    "soporta_clima_calido": "Alta",
+    "para_primerizos": "Alta",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": ["https://en.wikipedia.org/wiki/Chinese_Crested_Dog", "https://www.dogbreedinfo.com/chinesecrested.htm", "https://www.ukcdogs.com/chinese-crested"]
   },
   60: {
     weight: {

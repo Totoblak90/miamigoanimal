@@ -73,9 +73,14 @@ export class PerrosService {
   }
 
   filterBySearchTerm(perrosActiclesList: Dog[], searchTerm: string) {
+    const searchTermWithoutPunctuation = searchTerm.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+
     return perrosActiclesList.filter((dog) =>
-      dog.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      dog.searchTerms.some((term) => term.includes(searchTerm.toLowerCase()))
+      dog.name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(searchTermWithoutPunctuation) ||
+      dog.searchTerms.some((term) => term.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(searchTermWithoutPunctuation)) ||
+      dog.origin.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(searchTermWithoutPunctuation) ||
+      dog.perks.some((term) => term.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(searchTermWithoutPunctuation)) ||
+      dog.bred_for.some((term) => term.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(searchTermWithoutPunctuation))
     );
   }
 
