@@ -12,6 +12,7 @@
     <input  class="form__input" type="search" placeholder="Buscar"
             formControlName="searchTerm" id="searchTerm"
             name="searchTerm" autocomplete="off"
+            (keyup.enter)="onKeyUpEnter()"
     >
   </div>
 

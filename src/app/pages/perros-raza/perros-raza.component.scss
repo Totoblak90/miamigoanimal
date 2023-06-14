@@ -84,3 +84,15 @@
     column-gap: 0;
   }
 }
+
+.breed-image-container {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  &__img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba($color-black, .2);
+  }
+}

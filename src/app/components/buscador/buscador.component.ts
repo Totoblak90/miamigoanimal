@@ -1,5 +1,6 @@
 import { Component, ElementRef, HostListener, OnDestroy } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
 import { Subject, takeUntil } from 'rxjs';
 import { SearchResult } from 'src/app/interfaces/buscador.interface';
 import { ArticlesService } from 'src/app/services/articles.service';
@@ -29,7 +30,8 @@ export class BuscadorComponent implements OnDestroy {
     private elementRef: ElementRef,
     private articlesService: ArticlesService,
     private perrosService: PerrosService,
-    private utilitiesService: UtilitiesService
+    private utilitiesService: UtilitiesService,
+    private router: Router
   ) {
     this.subscribeToSearchTermChange();
     this.subscribeToFiltersChange();
@@ -108,6 +110,23 @@ export class BuscadorComponent implements OnDestroy {
   }
 
   resetSearch() { setTimeout(() => { this.searchArticlesForm.get('searchTerm')?.setValue(''); }, 100) }
+
+  onKeyUpEnter() {
+    if (this.searchResults.length === 1) {
+      if (this.searchArticlesForm.get('searchType')!.value === 'articulos')  {  this.router.navigate( this.searchResults[0].url as string[] ) }
+
+      else
+      {
+        this.router.navigate(
+          this.searchResults[0].url as string[],
+          {
+            queryParams:
+              { raza: this.searchResults[0].url }
+          }
+        )
+      }
+    }
+  }
 
   // Form effects
   uncollapse(event: Event) {

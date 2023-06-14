@@ -7188,12 +7188,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 761,
       url: 'https://cdn2.thedogapi.com/images/B1ruWl94Q.jpg',
     },
-    searchTerms: ['Shar-Pei Chino', 'Lucha', 'Independiente'],
     country_code: 'CN',
-    description:
-      'El Shar-Pei Chino es una raza de perro robusta, con una personalidad fuerte y un espíritu independiente. Criado originalmente para la lucha, es conocido por su piel arrugada y distintiva que le otorga una apariencia única. Este perro es leal a su familia, pero puede ser reservado y desconfiado con los extraños. A pesar de su origen de lucha, es afectuoso y devoto, siempre buscando el cariño de sus seres queridos.',
-    history:
-      'El Shar-Pei Chino es una raza muy antigua que se originó en China. Aunque su propósito original era la lucha, con el tiempo se ha convertido en un perro de compañía valorado por su lealtad y cariño. Su piel arrugada y su rostro carácterístico le otorgan una apariencia distintiva y memorable. A pesar de su temperamento independiente, se dedica profundamente a su familia, demostrando ser una mascota leal y amorosa.',
+    description: `
+      El Shar-Pei Chino es un perro que irradia una dignidad y nobleza que se refleja en su porte y comportamiento. Este perro de tamaño mediano es conocido por su piel suelta y arrugada, que le da un aspecto único y distintivo. Su cuerpo es compacto y cuadrado, con una altura que se aproxima a la longitud desde el pecho hasta la cola, dando una apariencia de equilibrio y fuerza.
+      <br>
+      <br>
+      La cabeza del Shar-Pei es ligeramente grande en proporción al cuerpo, con un hocico característico que se asemeja al de un hipopótamo. Sus orejas son pequeñas, triangulares y se sitúan altas en la cabeza, apuntando hacia los ojos. La cola es gruesa y redonda en la base, afinándose hacia la punta y enrollándose sobre o a un lado de la espalda.
+      <br>
+      <br>
+      El Shar-Pei tiene un pelaje extremadamente áspero, que es esencial para su tipo de raza. Este pelaje es recto y se aleja del tronco del cuerpo, aunque se encuentra más plano en las extremidades. La longitud del pelaje puede variar desde el muy corto "pelaje de caballo" hasta un pelaje de hasta una pulgada de longitud en la cruz, conocido como "pelaje de cepillo". El pelaje del Shar-Pei puede ser de cualquier color sólido o sable.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Shar-Pei es un perro tranquilo, confiado, digno y reservado. Aunque puede ser reservado con los extraños, nunca es tímido o agresivo. A pesar de su naturaleza independiente, el Shar-Pei es muy devoto a los miembros de su propia familia.
+      <br>
+      <br>
+      El Shar-Pei es una raza que requiere un cuidado y atención particulares. Su piel suelta y arrugada necesita ser limpiada regularmente para evitar problemas de piel. Además, su pelaje áspero requiere un cepillado regular para mantenerlo en buen estado.
+      <br>
+      <br>
+      En cuanto a su salud, el Shar-Pei es generalmente una raza saludable, pero puede ser propenso a ciertos problemas de salud específicos de la raza, como la fiebre del Shar-Pei y problemas de piel. Por lo tanto, es importante que sean examinados regularmente por un veterinario y que reciban todas las vacunas y tratamientos preventivos necesarios.
+      <br>
+      <br>
+      En resumen, el Shar-Pei Chino es una raza de perro única y fascinante, conocida por su apariencia distintiva y su personalidad tranquila y digna. Aunque requiere un cuidado y atención especiales, puede ser un compañero maravilloso y leal para la persona o familia adecuada.
+    `,
+    history: `
+      La historia del Shar-Pei Chino es tan antigua como fascinante. Se cree que esta raza se originó en el sur de China, con figurillas que se asemejan al Shar-Pei que se remontan a la dinastía Han, al menos en el 200 a.C. Estos perros eran valorados por su piel suelta y arrugada, que se creía que los protegía en peleas contra animales salvajes y otros perros. Durante siglos, el Shar-Pei fue un perro de granja versátil, utilizado para cazar, pastorear, tirar de carros y proteger el hogar y el ganado.
+      <br>
+      <br>
+      Sin embargo, la historia del Shar-Pei no siempre fue tranquila. Durante la revolución comunista en China, los perros fueron exterminados sin piedad por el gobierno. La raza Shar-Pei estuvo al borde de la extinción, y solo unos pocos criadores en Hong Kong y Taiwán lograron mantenerla viva. En 1966, los primeros Shar-Pei fueron importados a los Estados Unidos, donde la raza comenzó a ganar popularidad.
+      <br>
+      <br>
+      El Shar-Pei es conocido por su apariencia única, con una cabeza ligeramente grande en proporción al cuerpo, una característica "máscara de hipopótamo" y orejas pequeñas, altas y planas. La piel suelta y arrugada es una característica definitoria de la raza, aunque en los adultos las arrugas pueden estar limitadas a la cabeza, el cuello, la cruz y la base de la cola. El Shar-Pei también tiene un pelaje extremadamente áspero, que puede variar desde el muy corto "pelaje de caballo" hasta un "pelaje de cepillo" de hasta una pulgada de largo en la cruz.
+      <br>
+      <br>
+      A pesar de su apariencia feroz, el Shar-Pei es conocido por ser tranquilo, confiado, digno y reservado. Aunque puede ser reservado con los extraños, es extremadamente devoto a su familia y es conocido por su naturaleza independiente. Sin embargo, es importante tener en cuenta que debido a las arrugas en la cabeza y los ojos hundidos, la visión periférica del Shar-Pei puede estar limitada.
+      <br>
+      <br>
+      A lo largo de los años, el Shar-Pei ha demostrado ser una raza adaptable y resistente. Aunque su historia ha estado llena de desafíos, el Shar-Pei ha sobrevivido y prosperado, convirtiéndose en una raza de perro amada y valorada en todo el mundo.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Afectuoso',
@@ -7219,6 +7250,47 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Fiebre del Shar-Pei',
       'Displasia de cadera',
     ],
+    searchTerms: [
+      'Shar-Pei Chino',
+      'Lucha',
+      'Independiente',
+      "Shar Pei Chino",
+      "Sharpei Chino",
+      "Shar-Pei",
+      "Shar Pei",
+      "Sharpei",
+      "Perro Chino",
+      "Perro arrugado",
+      "Perro de piel suelta",
+      "Perro de piel arrugada",
+      "Perro de China",
+      "Perro de cara arrugada",
+      "Perro de piel áspera",
+      "Perro guardián",
+      "Perro de granja",
+      "Perro de caza",
+      "Perro de trabajo",
+      "Perro de protección",
+      "Perro tranquilo",
+      "Perro confiado",
+      "Perro digno",
+      "Perro reservado",
+      "Perro devoto",
+      "Perro independiente"
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Alta',
+    casos_famosos: [],
+    fuentes: [
+    "https://en.wikipedia.org/wiki/Shar_Pei",
+    "https://www.dogbreedinfo.com/sharpei.htm",
+    "https://www.ukcdogs.com/chinese-shar-pei"
+    ]
   },
   61: {
     weight: {
@@ -7243,12 +7315,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 478,
       url: 'https://cdn2.thedogapi.com/images/Sypubg54Q.jpg',
     },
-    searchTerms: ['Chinook', 'Tiro de trineo', 'Trabajo'],
     country_code: 'US',
-    description:
-      'El Chinook es una raza de perro robusta y trabajadora, conocida por su habilidad para el tiro de trineo. Su capacidad para trabajar en condiciones climáticas adversas lo hace indispensable en tareas de rescate en la nieve. A pesar de su gran tamaño y energía, tiene un carácter amigable y tranquilo, siendo una excelente opción para familias con niños.',
-    history:
-      'Originario de Estados Unidos, el Chinook fue criado específicamente para el tiro de trineo en climas fríos. A principios del siglo XX, Arthur Walden, un criador de perros y trineos en New Hampshire, creó esta raza para ser robusta, resistente y capaz de trabajar en condiciones extremas. El Chinook ha sido valorado desde entonces por su resistencia, su inteligencia y su disposición amigable.',
+    description: `
+      El Chinook es una raza de perro fascinante y única, con una historia y características que lo hacen destacar entre otras razas. Originario de Nueva Hampshire, Estados Unidos, el Chinook fue desarrollado por el explorador polar Arthur Treadwell Walden en la década de 1910. Walden buscaba un perro que combinara la fuerza de los perros de carga con la velocidad de los perros de carreras de trineo, y el resultado fue el Chinook, un perro de trabajo robusto y devoto, conocido por su inteligencia, paciencia y afán de complacer.
+      <br>
+      <br>
+      El Chinook es un perro grande, con los machos alcanzando una altura de entre 24 y 26 pulgadas y un peso de entre 55 y 90 libras, y las hembras un poco más pequeñas, midiendo entre 22 y 24 pulgadas y pesando entre 50 y 65 libras. Su esperanza de vida es de 12 a 15 años.
+      <br>
+      <br>
+      El Chinook tiene un pelaje doble de longitud media, que es bastante fácil de cuidar. Aunque todos los mamíferos mudan un poco de pelo durante todo el año, el cepillado semanal ayudará a eliminar la suciedad y el pelo suelto y a mantener al perro con su mejor aspecto. Durante la temporada de muda, que generalmente ocurre dos veces al año, se requerirán sesiones de cepillado diarias más largas.
+      <br>
+      <br>
+      Aunque a menudo parecen relajados y tranquilos en casa, los Chinooks tienen una gran cantidad de energía y prosperan con el ejercicio y el juego. Como se unen fuertemente a sus dueños, hacen grandes compañeros en largas caminatas, excursiones, paseos en bicicleta y viajes de campamento. Incluso disfrutan nadando y navegando con su familia humana. Por supuesto, los Chinooks fueron criados para tirar de trineos, por lo que no es sorprendente que sobresalgan en deportes como el trineo, el skijoring, el bikejoring y el scootering. Los Chinooks también disfrutan participando en eventos de agilidad, obediencia, rally, seguimiento y lure coursing.
+      <br>
+      <br>
+      Los Chinooks son perros tranquilos y orientados a las personas con un especial cariño por los niños. Son trabajadores entrenables que buscan complacer. El trineo, el carrito, la obediencia, la agilidad, el trabajo de búsqueda y rescate y el pastoreo son algunas de las actividades que han dominado. Los Chinooks no son perros particularmente ocupados, pero necesitan ejercicio constante para mantenerse en buena condición física.
+      <br>
+      <br>
+      El Chinook es una raza robusta y saludable, pero hay ciertas condiciones de salud a las que es propenso. Estas incluyen la displasia de cadera, el criptorquidismo (la ausencia de uno o ambos testículos del escroto), los trastornos gastrointestinales y las alergias. Algunos Chinooks sufren de una condición llamada "convulsiones de Chinook", aunque generalmente se piensa que es un trastorno del movimiento y no verdaderas convulsiones. Como en todas las razas, las orejas de un Chinook deben ser revisadas regularmente en busca de signos de infección, y los dientes deben ser cepillados con regularidad.
+      <br>
+      <br>
+      A pesar de su tamaño y fuerza, los Chinooks son perros increíblemente amables y pacíficos. No son agresivos y se llevan bien con otros perros y personas. Son perros leales y dedicados a sus familias, y se adaptan bien a una variedad de entornos y estilos de vida. Sin embargo, debido a su tamaño y nivel de energía, necesitan un espacio adecuado para moverse y hacer ejercicio.
+      <br>
+      <br>
+      Los Chinooks son perros saludables en general, pero como todas las razas, pueden ser propensos a ciertas condiciones de salud. Estas pueden incluir displasia de cadera, criptorquidia (la ausencia de uno o ambos testículos del escroto), trastornos gastrointestinales y alergias. Algunos Chinooks pueden sufrir de una condición llamada "convulsiones de Chinook", aunque generalmente se considera que es un trastorno del movimiento y no verdaderas convulsiones.
+    `,
+    history: `
+      La historia de la raza de perro Chinook es tan fascinante como única. Esta raza, que se originó en los Estados Unidos, es el producto de la visión de un solo hombre, Arthur Treadwell Walden, un explorador y aventurero de Nueva Hampshire. Walden, que había trabajado en Alaska durante la fiebre del oro a finales del siglo XIX, tenía una visión clara de lo que quería en un perro de trineo: fuerza, resistencia, velocidad y, sobre todo, un buen temperamento.
+      <br>
+      <br>
+      La historia del Chinook comienza con un perro llamado precisamente así, Chinook, que nació en la granja de Walden en Wonalancet, Nueva Hampshire, en 1917. Chinook era el resultado de un cruce entre una hembra de tipo "Husky del Norte" y un perro de raza mixta que formaba parte del equipo que llegó al Polo Norte con Peary. Aunque Chinook no se parecía a ninguno de sus padres, demostró ser un perro de trineo excepcional y se convirtió en la base de la raza que hoy lleva su nombre.
+      <br>
+      <br>
+      Chinook demostró ser un perro de trineo excepcional, tanto que incluso formó parte de la expedición al Polo Sur del almirante Byrd en 1927. Los descendientes de Chinook, que heredaron su coloración, tamaño y características generales, se criaron para combinar la fuerza de los perros de carga con la velocidad de los perros de carreras de trineos. En la década de 1900, los Chinooks establecieron récords en cuanto a la distancia cubierta, las cargas transportadas y el tiempo de carrera.
+      <br>
+      <br>
+      A pesar de su impresionante linaje y habilidades, la raza Chinook estuvo al borde de la extinción en varias ocasiones. Sin embargo, gracias a un pequeño grupo de criadores dedicados, la raza ha sobrevivido y ha sido reconocida por varias organizaciones caninas importantes. El Chinook fue reconocido oficialmente como raza por el American Kennel Club (AKC) en 2013, casi un siglo después del nacimiento del perro original Chinook.
+      <br>
+      <br>
+      La historia de la raza Chinook es un testimonio de la visión de un hombre y su amor por los perros de trineo. Aunque la raza ha tenido que enfrentarse a numerosos desafíos a lo largo de su historia, la dedicación y el compromiso de los criadores han asegurado que estos magníficos perros de trineo sigan siendo una parte valiosa del patrimonio canino. Hoy en día, aunque la raza Chinook sigue siendo relativamente rara, estos perros son muy apreciados por su inteligencia, su paciencia y su deseo de complacer, cualidades que los hacen excelentes compañeros de trabajo y de familia.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Amigable',
@@ -7274,6 +7380,54 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Hipotiroidismo',
       'Epilepsia',
     ],
+    searchTerms: [
+      'Chinook',
+      'Tiro de trineo',
+      'Trabajo',
+      "Perro Chinook",
+      "Raza Chinook",
+      "Perro de trineo",
+      "Perro de trabajo",
+      "Perro de carga",
+      "Perro de carreras de trineos",
+      "Perro de Nueva Hampshire",
+      "Perro de Alaska",
+      "Perro de la fiebre del oro",
+      "Perro de la expedición al Polo Sur",
+      "Perro del almirante Byrd",
+      "Perro de Arthur Treadwell Walden",
+      "Perro de Wonalancet",
+      "Perro de la granja de Walden",
+      "Perro de la expedición al Polo Norte",
+      "Perro de Peary",
+      "Perro de la American Kennel Club",
+      "Perro de la AKC",
+      "Perro inteligente",
+      "Perro paciente",
+      "Perro complaciente",
+      "Perro de compañía",
+      "Perro de familia",
+      "Perro raro",
+      "Perro valioso",
+      "Perro de patrimonio canino",
+      "Perro de herencia",
+      "Perro de historia",
+      "Perro de linaje"
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      "https://www.akc.org/dog-breeds/chinook/",
+      "https://www.dogbreedinfo.com/chinook.htm",
+      "https://www.ukcdogs.com/chinook",
+      "https://en.wikipedia.org/wiki/Chinook_(dog)"
+    ]
   },
   62: {
     weight: {
@@ -7298,12 +7452,28 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 673,
       url: 'https://cdn2.thedogapi.com/images/ry8KWgqEQ.jpg',
     },
-    searchTerms: ['Chow Chow', 'Guardián', 'No deportivo'],
     country_code: 'CN',
-    description:
-      'El Chow Chow es una raza de perro leal y reservada, criado originalmente para ser guardián, tirar de carros y la caza. Con su pelaje espeso y suelto, se asemeja a un león esponjoso. A pesar de su apariencia adorable, puede ser bastante distante y suele ser muy independiente.',
-    history:
-      'El Chow Chow es una de las razas de perros más antiguas que existen. Originario de China, esta raza es conocida por su pelaje espeso y su lengua azul-negra. Fueron utilizados para una variedad de tareas, incluyendo la caza, el pastoreo, la protección y el tirar de trineos o carros. El Chow Chow ha sido siempre valorado por su versatilidad y su temperamento único.',
+    description: `
+      El Chow Chow es una raza de perro que se originó en Asia hace miles de años y se puede rastrear hasta la dinastía Han de China. Aunque los antepasados de esta raza son desconocidos, se sabe que los Chow Chows fueron utilizados como perros de caza por los aristócratas chinos para cazar faisanes y perdices. El nombre "Chow Chow" se deriva del pidgin inglés utilizado por los capitanes de mar para describir el contenido de las cajas de carga llenas de diversos productos chinos.
+      <br>
+      <br>
+      El Chow Chow es un perro de apariencia leonina, de tamaño mediano, construcción robusta y tipo Spitz. Su cuerpo es cuadrado, lo que se acentúa por su cola de alta inserción que se lleva sobre la espalda y por la falta de angulación en sus cuartos traseros. La marcha del Chow Chow es única y esencial para su tipo de raza. Su andar es corto y rígido, con una ligera oscilación en la grupa debido a la poca extensión hacia adelante o hacia atrás de sus patas traseras.
+      <br>
+      <br>
+      El Chow Chow es un perro digno y reservado, con una inteligencia aguda. Es natural que el Chow sea reservado con los extraños, pero nunca tímido o agresivo. Parte de la reserva del Chow Chow con los extraños se debe a la visión periférica limitada del perro. Los extraños que se acercan a un Chow Chow deben tener esto en cuenta.
+      <br>
+      <br>
+      La cabeza del Chow Chow es grande en proporción al tamaño de su cuerpo, pero no tanto como para hacer que el perro parezca pesado en la parte superior. Cuando se ve desde el frente, la cara del Chow Chow tiene un ceño característico que se logra por una ceja marcada con un botón acolchado de piel justo por encima de la esquina interna del ojo; por suficiente piel suelta para formar cejas fruncidas y un surco distinto entre los ojos que comienza en la base del hocico y se extiende hasta la frente; por la correcta forma y colocación de los ojos; y por la correcta forma, porte y colocación de las orejas.
+      <br>
+      <br>
+      El Chow Chow tiene un pelaje doble que puede ser liso o áspero. El pelaje áspero es abundante, grueso, recto y de textura bastante gruesa. El subpelo es suave, fino y denso. El pelaje se aleja del cuerpo y forma un collar profuso alrededor de la cabeza y el cuello, enmarcando la cara. Las patas traseras y la cola están bien emplumadas. El pelaje liso es duro, denso y liso sin un collar obvio o plumas en las patas o la cola.
+      <br>
+      <br>
+      El Chow Chow viene en cinco colores igualmente aceptables: rojo (desde dorado claro hasta caoba profunda), negro, azul, canela (desde leonado claro hasta canela profunda) y crema. Los colores son sólidos pero pueden tener sombras más claras en el collar, la cola y las plumas.
+    `,
+    history: `
+
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: ['Distante', 'Leal', 'Independiente', 'Silencioso', 'Buen guardián'],
     color: ['Rojo', 'Negro', 'Azul', 'Canela', 'Crema'], // Colores más comunes
@@ -7322,6 +7492,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Displasia de cadera',
     ],
+    searchTerms: [
+      'Chow Chow',
+      'Guardián',
+      'No deportivo',
+
+    ],
+
   },
   63: {
     weight: {
