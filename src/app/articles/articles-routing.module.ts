@@ -20,6 +20,8 @@ import { DescubreElBoyeroDeBernaComponent } from './descubre-el-boyero-de-berna/
 import { PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent } from './pastor-aleman-caracteristicas-cuidados-y-curiosidades/pastor-aleman-caracteristicas-cuidados-y-curiosidades.component';
 import { PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent } from './perro-salchicha-caracteristicas-cuidados-y-curiosidades/perro-salchicha-caracteristicas-cuidados-y-curiosidades.component';
 import { DescubreTodoSobreLosGatosPersaLaRazaMasPopularComponent } from './descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular/descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular.component';
+import { DescubreLasMejoresRazasDePerrosPequeniosGuiaCompletaComponent } from './descubre-las-mejores-razas-de-perros-pequenios-guia-completa/descubre-las-mejores-razas-de-perros-pequenios-guia-completa.component';
+import { GranDanesCaracteristicasCuidadosYCuriosidadesComponent } from './gran-danes-caracteristicas-cuidados-ycuriosidades/gran-danes-caracteristicas-cuidados-ycuriosidades.component';
 
 const routes: Routes = [
   {
@@ -77,6 +79,14 @@ const routes: Routes = [
   {
     path: 'descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular',
     component: DescubreTodoSobreLosGatosPersaLaRazaMasPopularComponent
+  },
+  {
+    path: 'descubre-las-mejores-razas-de-perros-pequenos-guia-completa',
+    component: DescubreLasMejoresRazasDePerrosPequeniosGuiaCompletaComponent
+  },
+  {
+    path: 'gran-danes-caracteroisticas-cuidados-y-curiosidades',
+    component: GranDanesCaracteristicasCuidadosYCuriosidadesComponent
   },
 
   {

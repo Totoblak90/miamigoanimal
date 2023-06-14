@@ -5,7 +5,7 @@ export interface Article {
     sections: string[],
     destacado: boolean,
     creation: string | Date,
-    title: string,
+    recent_card_title: string,
     buscador: string[]
     description?: string,
 }

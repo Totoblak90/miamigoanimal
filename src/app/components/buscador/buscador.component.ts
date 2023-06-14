@@ -83,10 +83,10 @@ export class BuscadorComponent implements OnDestroy {
 
         let selectedImage: string | undefined;
 
-        if (articleType === 'dog') selectedImage = this.perrosService.setDogBreedImage(article.title, articleType, true)
+        if (articleType === 'dog') selectedImage = this.perrosService.setDogBreedImage(article.recent_card_title, articleType, true)
 
         return {
-          title: article.title,
+          title: article.recent_card_title,
           url: ['/post', article.url],
           img: selectedImage || this.utilitiesService.selectImage(articleType, undefined, true)
         }

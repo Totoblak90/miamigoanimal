@@ -51,7 +51,7 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
       return sortedArticles.map(article => {
         const articleType = article.categories.includes('Perros') ? 'dog' : 'cat';
         let selectedImage: string | undefined;
-        if (articleType === 'dog') selectedImage = this.perrosService.setDogBreedImage(article.title, articleType, true)
+        if (articleType === 'dog') selectedImage = this.perrosService.setDogBreedImage(article.recent_card_title, articleType, true)
 
         return {
           title: article['card-heading'],

@@ -1,5 +1,4 @@
-import { DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
 
@@ -13,18 +12,9 @@ export class ConoceTodoAcercaDelPerroSanBernardoComponent {
   title = '🐶 Conoce Todo Acerca del Perro San Bernardo - esferamascota.com'
   description = '¡Descubre todo lo que necesitas saber sobre el San Bernardo! Historiá, características y cuidados. ¡Conoce más aquí en esferamascota.com!'
 
-  get titleList() {
-    if (isPlatformBrowser(this.platformId)) {
-      return Array.from(this.document.getElementsByTagName('h2'))
-    }
-    return [];
-  }
-
   constructor(
     private meta: MetaService,
-    private navigationService: NavigationService,
-    @Inject(DOCUMENT) private document: Document,
-    @Inject(PLATFORM_ID) private platformId: Object
+    private navigationService: NavigationService
   ) {
     this.meta.setMetaTags(this.title, this.description)
     this.navigationService.navigationBg.set('dog');

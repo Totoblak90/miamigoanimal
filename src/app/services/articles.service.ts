@@ -2,14 +2,24 @@ import { Injectable, signal } from '@angular/core';
 import { Article } from '../interfaces/articles.interface';
 
 /**
- De este artículo que te estoy pasando creame una lista en formato de array de javascript de 5 palabras que puedas extraer sobre lo más importante del texto
- pensá que esta lista va incluída en una card que tiene como fin llamar la atención del usuario para que lea el artículo completo, en esta lista
- no pueden incluírse las palabras "Gato", "Gatos", "Perro", "Perros", "Salud", "Alimentación", "Adiestramiento" y cualquier otra de esas familias de palabra.
- También dame otro array de palabras que se puedan poner como términos de búsqueda de un buscador.
- Por otro lado, de las 5 categorías siguientes ("Gatos" | "Perros" | "Salud" | "Adiestramiento" | "Alimentacion"),
- armame otro array con las categorías en las que lo englobarías, podés elegir más de una.
- El artículo es el siguiente:
- -----------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+PROMPT PARA ARTÍCULOS
+
+Hola! Quiero que me ayudes a recapitular información importante de los diferentes artículos de mi blog!
+Esto es lo que hay que considerar para todos los artículos que te pase:
+
+De este artículo que te estoy pasando creame una lista en formato de array de javascript de palabras que puedas extraer sobre lo más importante del texto
+pensá que esta lista va incluída en una card que tiene como fin llamar la atención del usuario para que lea el artículo completo, en esta lista
+no pueden incluírse las palabras "Gato", "Gatos", "Perro", "Perros", "Salud", "Alimentación", "Adiestramiento" y cualquier otra de esas familias de palabra. Pueden ser máximo 10 palabras.
+También dame otro array de palabras que se puedan poner como términos de búsqueda de un buscador.
+Por otro lado, de las 5 categorías siguientes ("Gatos" | "Perros" | "Salud" | "Adiestramiento" | "Alimentacion"),
+armame otro array con las categorías en las que lo englobarías, podés elegir más de una.
+
+NO ME DES UN RESÚMEN DEL ARTÍCULO SIMPLEMENTE CUMPLÍ CON LO QUE TE PIDO ARRIBA. RETORNAME LOS ARRAYS QUE TE PIDO Y LISTO.
+
+El artículo es el siguiente:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
  */
 
 @Injectable({
@@ -24,8 +34,8 @@ export class ArticlesService {
       'card-heading': 'Adopción',
       sections: ['Adopción', 'Beneficios', '¿Cómo?', 'Pasos', 'Requisitos'],
       destacado: true,
-      creation: '31/5/2023, 14:53:18',
-      title:
+      creation: '5/31/2023, 14:53:18',
+      recent_card_title:
         'Adopta a los gatitos más tiernos y juguetones. Encuentra tu compañero felino ideal',
       buscador: [
         'Adoptar',
@@ -50,8 +60,8 @@ export class ArticlesService {
         'De obediencia',
       ],
       destacado: true,
-      creation: '31/5/2023, 16:21:18',
-      title: '¡Descubre las mejores razas de perro! 🐶',
+      creation: '5/31/2023, 16:21:18',
+      recent_card_title: '¡Descubre las mejores razas de perro! 🐶',
       buscador: [
         'Raza ideal',
         'Elección de perro',
@@ -67,8 +77,8 @@ export class ArticlesService {
       'card-heading': 'Cachorros, Variedad',
       sections: ['cachorros', 'dieta equilibrada', 'higiene', 'socialización'],
       destacado: true,
-      creation: '31/5/2023, 15:31:18',
-      title: 'Cachorros: Descubre los mejores cuidados para tus perritos',
+      creation: '5/31/2023, 15:31:18',
+      recent_card_title: 'Cachorros: Descubre los mejores cuidados para tus perritos',
       buscador: [
         'cuidado de cachorros',
         'alimentación de cachorros',
@@ -89,8 +99,8 @@ export class ArticlesService {
       'card-heading': 'Variedad',
       sections: ['Pug', 'Chow Chow', 'Samoyedo', 'Shar Pei', 'Pomerania'],
       destacado: true,
-      creation: '31/5/2023, 18:00:00',
-      title:
+      creation: '5/31/2023, 18:00:00',
+      recent_card_title:
         'Todo lo que necesitas saber sobre las tiernas perritas adorables! 🐶',
       buscador: [
         'Cachorros adorables',
@@ -112,8 +122,8 @@ export class ArticlesService {
       'card-heading': 'Consejos útiles',
       sections: ['Raza', 'Ejercicio', 'Higiene', 'Viajar', 'Enfermedades'],
       destacado: true,
-      creation: '31/5/2023, 18:23:00',
-      title:
+      creation: '5/31/2023, 18:23:00',
+      recent_card_title:
         'Perros: Información curiosidades y consejos útiles para cuidar a tu mejor amigo',
       buscador: [
         'Raza canina',
@@ -141,8 +151,8 @@ export class ArticlesService {
         'Cuidado',
       ],
       destacado: true,
-      creation: '31/5/2023, 18:40:18',
-      title: 'Guía completa sobre gatos: Razas, Cuidados, Curiosidades 🐈',
+      creation: '5/31/2023, 18:40:18',
+      recent_card_title: 'Guía completa sobre gatos: Razas, Cuidados, Curiosidades 🐈',
       buscador: [
         'Razas gato',
         'Cuidado gato',
@@ -163,8 +173,8 @@ export class ArticlesService {
         'Adiestramiento',
       ],
       destacado: false,
-      creation: '31/5/2023, 21:17:00',
-      title: 'Bulldog Francés: Todo sobre esta adorable raza de perros',
+      creation: '5/31/2023, 21:17:00',
+      recent_card_title: 'Bulldog Francés: Todo sobre esta adorable raza de perros',
       buscador: ['Raza', 'Características', 'Cachorros', 'Ejercicio', 'Aseo'],
     },
     {
@@ -179,9 +189,8 @@ export class ArticlesService {
         'Salud',
       ],
       destacado: false,
-      creation: '31/5/2023, 23:06:00',
-      title:
-        'Bulldog Inglés - ¡Características, Cuidados y Curiosidades! 😍',
+      creation: '5/31/2023, 23:06:00',
+      recent_card_title: 'Bulldog Inglés - ¡Características, Cuidados y Curiosidades! 😍',
       buscador: [
         'Bulldog Inglés',
         'Raza',
@@ -206,8 +215,8 @@ export class ArticlesService {
         'Consejos al propietario',
       ],
       destacado: false,
-      creation: '31/5/2023, 23:22:00',
-      title: 'Bulldog Inglés: Características, Cuidados y Curiosidades 🐶',
+      creation: '5/31/2023, 23:22:00',
+      recent_card_title: 'Bulldog Inglés: Características, Cuidados y Curiosidades 🐶',
       buscador: [
         'Bulldog Inglés',
         'Raza',
@@ -233,8 +242,8 @@ export class ArticlesService {
         'Historia',
       ],
       destacado: false,
-      creation: '05/06/2023, 10:20:00',
-      title: '🐶 Conoce Todo Acerca del Perro San Bernardo',
+      creation: '6/5/2023, 10:20:00',
+      recent_card_title: '🐶 Conoce Todo Acerca del Perro San Bernardo',
       buscador: [
         'Raza',
         'San Bernardo',
@@ -263,8 +272,8 @@ export class ArticlesService {
         'Temperamento',
       ],
       destacado: false,
-      creation: '05/06/2023, 10:39:00',
-      title: '¡Descubre el Boyero de Berna! 🐕',
+      creation: '6/5/2023, 10:39:00',
+      recent_card_title: '¡Descubre el Boyero de Berna! 🐕',
       buscador: [
         'Raza',
         'Historia',
@@ -286,8 +295,8 @@ export class ArticlesService {
         'Curiosidades',
       ],
       destacado: false,
-      creation: '05/06/2023, 10:55:00',
-      title: 'Pastor Alemán: Características, Cuidados y Curiosidades 🐶 ',
+      creation: '6/5/2023, 10:55:00',
+      recent_card_title: 'Pastor Alemán: Características, Cuidados y Curiosidades 🐶 ',
       buscador: [
         'Pastor Alemán',
         'Raza canina',
@@ -310,8 +319,8 @@ export class ArticlesService {
         'Famosos',
       ],
       destacado: false,
-      creation: '05/06/2023, 16:35:00',
-      title: 'Perro Salchicha: Características, Cuidados y Curiosidades 🐶',
+      creation: '6/5/2023, 16:35:00',
+      recent_card_title: 'Perro Salchicha: Características, Cuidados y Curiosidades 🐶',
       buscador: [
         'dachsund',
         'teckel',
@@ -340,8 +349,8 @@ export class ArticlesService {
         'Problemas comunes',
       ],
       destacado: true,
-      creation: '05/06/2023, 18:27:00',
-      title: 'Descubre Todo Sobre Los Gatos Persas, ¡La Raza Más Popular! 🐱',
+      creation: '6/5/2023, 18:27:00',
+      recent_card_title: 'Descubre Todo Sobre Los Gatos Persas, ¡La Raza Más Popular! 🐱',
       buscador: [
         'Raza persa',
         'Origen persa',
@@ -351,13 +360,75 @@ export class ArticlesService {
         'Gatos persas famosos',
       ],
     },
+    {
+      url: 'descubre-las-mejores-razas-de-perros-pequenos-guia-completa',
+      categories: ['Perros'],
+      'card-heading': 'Perros pequeños',
+      sections: [
+        'Razas',
+        'Chihuahua',
+        'Caniche',
+        'Shih Tzu',
+        'Pequeño',
+        'Adopción',
+        'Estilo de vida',
+        'Temperamento',
+        'Cuidados',
+        'Beneficios',
+      ],
+      destacado: false,
+      creation: '6/14/2023, 11:05:00',
+      recent_card_title:
+        '¡Descubre las Mejores Razas de Perros Pequeños! 🐶 - Guía Completa',
+      buscador: [
+        'Razas de perros pequeños',
+        'Adoptar perro pequeño',
+        'Guía de razas de perros pequeños',
+        'Chihuahua',
+        'Caniche',
+        'Shih Tzu',
+        'Cuidados para perros pequeños',
+        'Ventajas de tener un perro pequeño',
+        'Raza de perro para apartamento',
+        'Razas de perros para niños',
+      ],
+    },
+    {
+      url: 'gran-danes-caracteroisticas-cuidados-y-curiosidades',
+      categories: ['Perros'],
+      'card-heading': 'Gran Danés',
+      sections: [
+        'Aspecto físico',
+        'Personalidad',
+        'Problemas de salud',
+        'Alimentación y nutrición',
+        'Pelaje variado',
+        'Entrenamiento',
+        'Expectativa de vida',
+      ],
+      destacado: false,
+      creation: '6/14/2023, 11:25:00',
+      recent_card_title: 'Gran Danés: Características, Cuidados y Curiosidades 🐶',
+      buscador: [
+        'Gran Danés',
+        'Raza de perro',
+        'Tamaño grande',
+        'Cuidados del Gran Danés',
+        'Aspecto físico del Gran Danés',
+        'Personalidad del Gran Danés',
+        'Problemas de salud comunes del Gran Danés',
+        'Necesidades de alimentación y nutrición del Gran Danés',
+        'Necesidades de entrenamiento y ejercicio del Gran Danés',
+        'Expectativa de vida del Gran Danés',
+      ],
+    },
   ]);
 
   constructor() {}
 
   filterArticleList(article: Article, term: string) {
     return (
-      article.title.toLowerCase().includes(term.toLowerCase()) ||
+      article.recent_card_title.toLowerCase().includes(term.toLowerCase()) ||
       article.sections.join(' ').toLowerCase().includes(term.toLowerCase()) ||
       article.categories.join(' ').toLowerCase().includes(term.toLowerCase()) ||
       article['card-heading'].toLowerCase().includes(term.toLowerCase()) ||

@@ -28,7 +28,7 @@ export class LastArticlesComponent {
 
             return false // No incluir este artículo
           })
-          .sort((a, b) => new Date(a.creation) > new Date(b.creation) ? 1 : -1)
+          .sort((a, b) => new Date(a.creation) > new Date(b.creation) ? -1 : 1)
           .slice(0, 6)
   }
 
