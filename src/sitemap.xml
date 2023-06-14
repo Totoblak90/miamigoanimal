@@ -113,8 +113,6 @@
         <priority>1.0</priority>
     </url>
 
-    <!-- Sin solicitar indexación -->
-
     <url>
         <loc>https://esferamascota.com/post/conoce-las-mejores-razas-de-perros-guia-completa-y-actualizada</loc>
         <lastmod>2023-06-03</lastmod>
@@ -199,10 +197,10 @@
         <priority>1.0</priority>
     </url>
 
+    <!-- Empiezo razas de perro -->
+    <!-- Empiezo razas de perro -->
+    <!-- Empiezo razas de perro -->
 
-    <!-- Empiezo razas de perro -->
-    <!-- Empiezo razas de perro -->
-    <!-- Empiezo razas de perro -->
     <url>
         <loc>https://esferamascota.com/perros/1?raza=affenpinscher</loc>
         <lastmod>2023-06-06</lastmod>
@@ -1582,6 +1580,10 @@
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
+
+    <!-- Empiezo razas de gato -->
+    <!-- Empiezo razas de gato -->
+    <!-- Empiezo razas de gato -->
 
 
 </urlset>
