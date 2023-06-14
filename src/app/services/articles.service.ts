@@ -51,7 +51,7 @@ export class ArticlesService {
       ],
       destacado: true,
       creation: '31/5/2023, 16:21:18',
-      title: 'Conoce las mejores razas de perros. Guía completa y actualizada',
+      title: '¡Descubre las mejores razas de perro! 🐶',
       buscador: [
         'Raza ideal',
         'Elección de perro',
@@ -91,7 +91,7 @@ export class ArticlesService {
       destacado: true,
       creation: '31/5/2023, 18:00:00',
       title:
-        'Perritas adorables: Todo lo que necesitas saber sobre estas tiernas mascotas',
+        'Todo lo que necesitas saber sobre las tiernas perritas adorables! 🐶',
       buscador: [
         'Cachorros adorables',
         'Razas de perros',
@@ -142,7 +142,7 @@ export class ArticlesService {
       ],
       destacado: true,
       creation: '31/5/2023, 18:40:18',
-      title: 'Gatos: Razas, cuidados, curiosidades y más',
+      title: 'Guía completa sobre gatos: Razas, Cuidados, Curiosidades 🐈',
       buscador: [
         'Razas gato',
         'Cuidado gato',
@@ -181,7 +181,7 @@ export class ArticlesService {
       destacado: false,
       creation: '31/5/2023, 23:06:00',
       title:
-        'Bulldog Inglés: Características y curiosidades de esta raza icónica',
+        'Bulldog Inglés - ¡Características, Cuidados y Curiosidades! 😍',
       buscador: [
         'Bulldog Inglés',
         'Raza',
@@ -207,7 +207,7 @@ export class ArticlesService {
       ],
       destacado: false,
       creation: '31/5/2023, 23:22:00',
-      title: 'Bulldog Inglés: Características, cuidados y curiosidades',
+      title: 'Bulldog Inglés: Características, Cuidados y Curiosidades 🐶',
       buscador: [
         'Bulldog Inglés',
         'Raza',

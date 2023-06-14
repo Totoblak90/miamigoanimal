@@ -11,7 +11,7 @@ import { NavigationService } from 'src/app/services/navigation.service';
 export class TodoSobrePerrosInformacionCuriosidadesYConsejosUtilesParaCuidarATuMejorAmigoComponent {
 
   title = 'Perros: información curiosidades y consejos útiles para cuidar a tu mejor amigo'
-  description = 'Descubre todo sobre los perros: información relevante, curiosidades y consejos útiles. ¡Conviértete en el dueño que tu perro merece!'
+  description = '¡Somos expertos en perros! ¡Nuestra guía te contará curiosidades, consejos útiles y toda la información que necesitas para cuidar a tu mejor amigo!'
 
   get titleList() {
     if (isPlatformBrowser(this.platformId)) {

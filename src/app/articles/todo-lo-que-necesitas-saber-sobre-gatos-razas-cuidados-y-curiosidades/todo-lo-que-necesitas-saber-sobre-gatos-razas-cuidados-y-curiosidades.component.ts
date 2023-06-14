@@ -10,8 +10,8 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class TodoLoQueNecesitasSaberSobreGatosRazasCuidadosYCuriosidadesComponent {
 
-  title = 'Gatos: Razas, cuidados, curiosidades y más'
-  description = 'Descubre todo sobre los gatos: razas, cuidados esenciales y curiosidades fascinantes. ¡Conviértete en el dueño perfecto para tu felino!'
+  title = 'Guía completa sobre gatos: Razas, Cuidados, Curiosidades 🐈'
+  description = 'Aprende todo sobre los gatos: sus razas, cuidados, curiosidades y más. ¡Descubre toda la información de nuestra guía aquí en EsferaMascota ❤️✔️'
 
   get titleList() {
     if (isPlatformBrowser(this.platformId)) {

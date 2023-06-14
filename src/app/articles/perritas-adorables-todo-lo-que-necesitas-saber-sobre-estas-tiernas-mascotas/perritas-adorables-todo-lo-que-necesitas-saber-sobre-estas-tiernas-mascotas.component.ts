@@ -10,8 +10,8 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class PerritasAdorablesTodoLoQueNecesitasSaberSobreEstasTiernasMascotasComponent {
 
-  title = 'Perritas adorables: Todo lo que necesitas saber sobre estas tiernas mascotas'
-  description = '¿Amas a las perritas adorables? Aquí encontrarás todo lo que necesitas saber sobre estas tiernas mascotas. ¡Descubre más ahora!'
+  title = ' Todo lo que necesitas saber sobre las tiernas perritas adorables! 🐶'
+  description = '¡Bienvenido al artículo "Perritas adorables" de EsferaMascota! Aquí hay consejos para cuidar un nuevo perro, razas, alimentación, mascota pequeña y más ¡Descúbrelo!'
 
   get titleList() {
     if (isPlatformBrowser(this.platformId)) {

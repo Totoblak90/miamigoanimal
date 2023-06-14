@@ -10,8 +10,8 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class ElBulldogInglesCaracteristicasCuidadosYCuriosidadesComponent {
 
-  title = 'Bulldog inglés: Características, cuidados y curiosidades'
-  description = 'Descubre todo sobre el Bulldog inglés. Aprende sobre su historia, personalidad, cuidados y por qué son tan amados. ¡Conviértete en el dueño perfecto!'
+  title = 'Bulldog Inglés: Características, Cuidados y Curiosidades 🐶 esferamascota.com'
+  description = '¡Aprende todo sobre el Bulldog Inglés! Características, personalidad, cuidados y curiosidades con esferamascota.com. ¡Una mascota perfecta para niños! 🐕💝'
 
   get titleList() {
     if (isPlatformBrowser(this.platformId)) {

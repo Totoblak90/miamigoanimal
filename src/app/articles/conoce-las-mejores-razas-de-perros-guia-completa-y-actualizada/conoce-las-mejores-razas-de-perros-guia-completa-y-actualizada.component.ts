@@ -10,8 +10,8 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class ConoceLasMejoresRazasDePerrosGuiaCompletaYActualizadaComponent {
 
-  title = 'Conoce las mejores razas de perros : guía completa y actualizada'
-  description = 'Descubre nuestra guía completa sobre las mejores razas de perros. Aprende sobre sus características y cuidados. ¡Encuentra tu compañero perfecto!'
+  title = '¡Descubre las mejores razas de perro! 🐶 Guía Completa en EsferaMascota.com'
+  description = '¿Buscas conocer las mejores razas para familias, adiestramiento, protección y mucho más? 🐶 Descubre todo en EsferaMascota.com'
 
   get titleList() {
     if (isPlatformBrowser(this.platformId)) {
