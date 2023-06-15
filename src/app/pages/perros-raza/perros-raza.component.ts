@@ -1,7 +1,7 @@
 import { isPlatformBrowser } from '@angular/common';
 import { Component, Inject, OnDestroy, PLATFORM_ID } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Subject, Subscription, skip, takeUntil } from 'rxjs';
+import { Subject, takeUntil } from 'rxjs';
 import { Dog } from 'src/app/interfaces/dog.interface';
 import { MetaService } from 'src/app/services/meta.service';
 import { PerrosService } from 'src/app/services/perros.service';
@@ -59,7 +59,7 @@ export class PerrosRazaComponent implements OnDestroy {
     soporta_clima_frio: '-',
     tendencia_a_ladrar: '-',
     tolerancia_a_la_soledad: '-',
-  } ;
+  };
 
 
   get compatibilidadConOtrosAnimalesPercentage() {
