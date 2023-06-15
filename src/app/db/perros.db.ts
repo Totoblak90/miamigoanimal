@@ -9272,7 +9272,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.ukcdogs.com/english-toy-spaniel',
     ],
   },
-  // Checkpoint
   75: {
     weight: {
       imperial: '6 - 8',
@@ -9303,12 +9302,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 430,
       url: 'https://cdn2.thedogapi.com/images/SJ6eMxqEQ.jpg',
     },
-    searchTerms: ['Terrier de Juguete Inglés', 'Terrier'],
     country_code: 'GB',
-    description:
-      'El Terrier de Juguete Inglés es una raza pequeña, conocida por su inteligencia y su aptitud para la caza de ratas. Este perro astuto y entrenable tiene una personalidad alerta y obstinada. Son perros sociables y excelentes para la compañía y la diversión. Requieren cuidado y atención regular debido a su pequeño tamaño.',
-    history:
-      'El Terrier de Juguete Inglés tiene una larga historia como perro de caza de ratas. Esta raza ha demostrado su valor debido a su inteligencia y su temperamento obstinado. Aunque originalmente fueron criados para la caza de ratas, ahora son populares como mascotas familiares debido a su tamaño pequeño y su naturaleza sociable.',
+    description: `
+      El Terrier de Juguete Inglés, también conocido como "English Toy Terrier (Black & Tan)" es una raza de perro que tiene una historia rica y fascinante. Esta raza es conocida por su elegancia, su porte distinguido y su personalidad encantadora. Aunque es pequeño en tamaño, el Terrier de Juguete Inglés es un perro lleno de energía y carácter, lo que lo convierte en un compañero maravilloso.
+      <br>
+      <br>
+      El Terrier de Juguete Inglés es una raza antigua, cuyos orígenes se remontan a la época victoriana en Inglaterra. Fue desarrollado a partir de la mezcla de perros de raza Spaniel locales con perros de juguete más pequeños del Oriente. Este cruce resultó en un perro pequeño con una cabeza redonda y un hocico corto. A lo largo de los años, esta raza ha sido apreciada por su inteligencia, su temperamento afectuoso y su apariencia distintiva.
+      <br>
+      <br>
+      Este perro es conocido por su pelaje liso y brillante, que es predominantemente negro con marcas de color fuego. Su cabeza es proporcionalmente grande en comparación con su cuerpo, con ojos oscuros y expresivos y orejas largas y caídas. Su cuerpo es compacto y cuadrado, con una estructura sólida y fuerte.
+      <br>
+      <br>
+      El Terrier de Juguete Inglés es un perro inteligente y juguetón. A pesar de su pequeño tamaño, es enérgico y siempre está listo para jugar. Sin embargo, también disfruta de sus momentos de descanso y es perfectamente feliz acurrucándose en el sofá con su dueño. Esta raza es conocida por su lealtad y su fuerte vínculo con su familia humana. Son perros cariñosos que disfrutan de la compañía de las personas y son excelentes compañeros de hogar.
+      <br>
+      <br>
+      A pesar de su tamaño pequeño, el Terrier de Juguete Inglés es un perro resistente y saludable. Sin embargo, como todas las razas, puede ser propenso a ciertas condiciones de salud y es importante que se le proporcionen chequeos veterinarios regulares y una dieta y ejercicio adecuados.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Terrier de Juguete Inglés es un perro amigable y sociable. Aunque puede ser un poco reservado al principio, una vez que se siente cómodo, es un perro muy afectuoso y leal. Esta raza es conocida por su inteligencia y su capacidad para aprender rápidamente, lo que hace que el entrenamiento sea una experiencia gratificante tanto para el perro como para el dueño.
+      <br>
+      <br>
+      En resumen, el Terrier de Juguete Inglés es un perro encantador con una personalidad grande. Su apariencia elegante, su temperamento afectuoso y su inteligencia aguda lo convierten en un maravilloso compañero de hogar. Ya sea que esté buscando un perro para jugar y hacer ejercicio o un compañero tranquilo para relajarse en casa, el Terrier de Juguete Inglés puede ser la elección perfecta para usted.
+    `,
+    history: `
+      La historia del Terrier de Juguete Inglés es una mezcla de tradición, evolución y supervivencia. Esta raza, también conocida como el Black and Tan Terrier, tiene sus raíces en la Inglaterra del siglo XVI. En aquel entonces, estos perros eran conocidos por su habilidad para cazar ratas y otros pequeños roedores, una habilidad que era muy valorada en una época en la que las plagas de roedores eran un problema grave.
+      <br>
+      <br>
+      A lo largo de los siglos, el Terrier de Juguete Inglés se fue refinando y reduciendo en tamaño. En el siglo XIX, estos perros se habían convertido en compañeros populares en la alta sociedad inglesa, especialmente entre las damas de la corte. Su pequeño tamaño y su elegante apariencia los hacían perfectos para ser llevados en el regazo o en la manga de una dama, de ahí el término "perro de manga".
+      <br>
+      <br>
+      Sin embargo, a pesar de su popularidad, la raza estuvo a punto de desaparecer en el siglo XX debido a la competencia de otras razas de perros de juguete. En un esfuerzo por preservar la raza, los criadores se centraron en mantener su distintivo color negro y fuego y su elegante apariencia, al mismo tiempo que se esforzaban por mejorar su salud y longevidad.
+      <br>
+      <br>
+      Hoy en día, el Terrier de Juguete Inglés es una raza rara, pero sigue siendo apreciado por su elegancia, su carácter afectuoso y su valentía. Aunque ya no se utilizan para cazar ratas, estos perros aún conservan su agudo instinto de terrier y son conocidos por su energía y su inteligencia.
+      <br>
+      <br>
+      Es importante recordar que, aunque los Terriers de Juguete Ingleses son perros pequeños, tienen una gran personalidad. Son conocidos por su lealtad y su amor por sus familias humanas, y a menudo se les describe como perros grandes en cuerpos pequeños. A pesar de su tamaño, son valientes y no tienen miedo de enfrentarse a perros más grandes si sienten que ellos o sus familias están amenazados.
+      <br>
+      <br>
+      En resumen, la historia del Terrier de Juguete Inglés es una historia de adaptación y supervivencia. Desde sus días como cazadores de ratas hasta su estatus como perros de compañía de la alta sociedad, estos perros han demostrado ser versátiles, resilientes y siempre encantadores.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Perfecto para compañía',
@@ -9332,6 +9365,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas auditivos',
       'Problemas dentales',
       'Displasia de cadera',
+    ],
+    searchTerms: [
+      'Terrier de Juguete Inglés',
+      'Terrier',
+      'Terrier de Juguete Inglés',
+      'Terrier Ingles de Juguete',
+      'Terrier de juguete',
+      'Terrier inglés',
+      'Terrier',
+      'Perro de compañía',
+      'Perro pequeño',
+      'Perro de raza pequeña',
+      'Perro de ciudad',
+      'Perro para apartamento',
+      'Perro para niños',
+      'Perro para familia',
+      'Perro cariñoso',
+      'Perro juguetón',
+      'Perro activo',
+      'Perro de raza terrier',
+      'Perro de raza inglesa',
+      'Perro de raza británica',
+      'Perro británico',
+      'Perro inglés',
+      'Perro de raza antigua',
+      'Perro de raza histórica',
+      'Perro de raza clásica',
+      'Perro de raza pequeña inglesa',
+      'Perro de raza pequeña británica',
+      'Perro de raza pequeña activa',
+      'Perro de raza pequeña juguetón',
+      'Perro de raza pequeña cariñoso',
+      'Perro de raza pequeña para niños',
+      'Perro de raza pequeña para familia',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/English_Toy_Terrier_(Black_%26_Tan)',
+      'https://www.akc.org/dog-breeds/english-toy-terrier/',
     ],
   },
   76: {
@@ -9364,12 +9443,37 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 532,
       url: 'https://cdn2.thedogapi.com/images/S1VWGx9Nm.jpg',
     },
-    searchTerms: ['Eurasier', 'Perro de compañía'],
     country_code: 'EU',
-    description:
-      'El Eurasier es una raza de perro equilibrada y bien proporcionada de tamaño medio a grande. Son perros inteligentes, tranquilos y reservados. Aunque son cautelosos con los extraños, no son agresivos ni tímidos. Son perros de compañía excepcionales y se llevan bien con los niños.',
-    history:
-      'El Eurasier es una raza moderna de perro que se originó en Alemania en 1960. Fue criado por primera vez por Julius Wipfel quien, junto con un pequeño grupo de entusiastas, cruzó un Chow Chow con un Lobo Spitz para producir una raza de perro que combinaba las mejores características de ambas razas.',
+    description: `
+      El Eurasier, también conocido como Eurasian, es un perro de tipo Spitz que se originó en Alemania a través del cruce entre populares Spitz europeos y asiáticos. Este perro es ampliamente reconocido como un maravilloso compañero que mantiene su propia personalidad, tiene una digna reserva con los extraños, tiene un fuerte vínculo con su familia y es relativamente fácil de entrenar.
+      <br>
+      <br>
+      El Eurasier es un perro equilibrado, bien construido y de tamaño mediano con orejas puntiagudas. Viene en diferentes colores: leonado, rojo, gris lobo, negro sólido y negro y fuego. Se permiten todas las combinaciones de colores, excepto el blanco puro, las manchas blancas y el color hígado. Los estándares de la Fédération Cynologique Internationale (FCI) establecen que el Eurasier debe tener un pelaje denso y medio largo que se desprenda ligeramente por todo el cuerpo, con un pelaje corto en el hocico, la cara, las orejas y las patas delanteras. La cola y la parte trasera de las patas delanteras (plumas) y traseras (calzones) deben estar cubiertas de pelo largo. El pelaje en el cuello del Eurasier debe ser ligeramente más largo que en el cuerpo, pero no formando una melena. La raza puede tener una lengua rosa, azul-negra o manchada.
+      <br>
+      <br>
+      Los machos tienen una altura de 52 a 60 cm en la cruz y pesan entre 23 y 32 kg, mientras que las hembras tienen una altura de 48 a 56 cm en la cruz y pesan entre 18 y 26 kg.
+      <br>
+      <br>
+      Los Eurasiers son perros tranquilos y de temperamento equilibrado. Son observadores y alerta, pero reservados con los extraños sin ser tímidos o agresivos. Los Eurasiers forman un fuerte vínculo con sus familias. Para el pleno desarrollo de estas cualidades, el Eurasier necesita un contacto constante y cercano con su familia, combinado con un entrenamiento comprensivo pero consistente. Son extremadamente sensibles a las palabras duras o a la disciplina y responden mejor al refuerzo positivo. El Eurasier es una combinación de las mejores cualidades del Chow Chow, el Keeshond y el Samoyed, lo que resulta en una raza digna e inteligente.
+      <br>
+      <br>
+      Los Eurasiers fueron criados como perros de compañía; como tal, no se desempeñan bien en un ambiente de perrera como los que se utilizan comúnmente para los perros de servicio entrenados institucionalmente, ni están bien adaptados para las tensiones sociales de trabajar como perro de trineo o de guardia. Los Eurasiers nunca deben estar restringidos solo a un patio, una perrera, una jaula o encadenados. Se deprimirían. Dentro de estas limitaciones, los Eurasiers pueden funcionar muy bien como perros de terapia. Esta raza disfruta de todo tipo de actividades, especialmente si las actividades involucran a su familia. Los Eurasiers son tranquilos y silenciosos en interiores; al aire libre son animados y disfrutan de la acción.
+    `,
+    history: `
+      La raza de perro Eurasier tiene una historia fascinante que se remonta a la década de 1960 en Alemania. Fue en este momento y lugar donde Julius Wipfel, junto con Charlotte Baldamus y un pequeño grupo de entusiastas, se propusieron crear una raza que combinara las mejores cualidades del Chow Chow y el Wolfspitz. El resultado inicial de esta combinación de razas resultó en lo que se llamó inicialmente "Wolf-Chow". Sin embargo, doce años después, tras cruzarse con un Samoyed, la raza fue renombrada como "Eurasier" (Eurasian) y reconocida por la FCI en 1973.
+      <br>
+      <br>
+      El famoso Premio Nobel Konrad Lorenz obtuvo un cachorro de Eurasier de Charlotte Baldamus, a quien llamó "Babett". Lorenz consideró que su carácter era el mejor que había conocido en un perro.
+      <br>
+      <br>
+      A pesar de su relativa juventud como raza, el Eurasier ha tenido un impacto significativo en el mundo canino. Sin embargo, su historia no ha estado exenta de desafíos. En la actualidad, algunos criadores poco éticos intentan pasar una mezcla de Keeshond/Chow Chow como un Eurasier. Aunque genéticamente similares, estas mezclas no pueden ser clasificadas como Eurasiers.
+      <br>
+      <br>
+      El Eurasier fue reconocido por el Canadian Kennel Club (CKC) en 1995 como miembro del Grupo 3 (Perros de Trabajo). Además, el Kennel Club anunció en diciembre de 2012 que a partir del 1 de abril de 2013, la raza Eurasier pasaría del registro de importados al registro de razas.
+      <br>
+      <br>
+      La historia del Eurasier es un testimonio de la dedicación y el amor por los perros. A través de la cuidadosa cría y selección, se ha creado una raza que es conocida por su temperamento equilibrado, su fuerte vínculo con su familia y su inteligencia. Aunque la raza es relativamente nueva, el Eurasier ha dejado una huella indeleble en el mundo canino y continúa siendo una opción popular para aquellos que buscan un perro de compañía leal y afectuoso.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de compañía',
@@ -9394,7 +9498,55 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de la piel',
       'Problemas oculares',
     ],
+    searchTerms: [
+      'Eurasier',
+      'Perro de compañía',
+      'Eurasier',
+      'Eurasiático',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro de trabajo',
+      'Perro alemán',
+      'Perro tranquilo',
+      'Perro equilibrado',
+      'Perro leal',
+      'Perro inteligente',
+      'Perro de pelo largo',
+      'Perro de tamaño mediano',
+      'Perro de clima frío',
+      'Perro de clima templado',
+      'Perro de raza pura',
+      'Perro de raza nueva',
+      'Perro de raza reconocida',
+      'Perro de raza FCI',
+      'Perro de raza CKC',
+      'Perro de raza AKC',
+      'Perro de raza UKC',
+      'Perro de raza KC',
+      'Perro de raza europea',
+      'Perro de raza occidental',
+      'Perro de raza oriental',
+      'Perro de raza nórdica',
+      'Perro de raza asiática',
+      'Perro de raza africana',
+      'Perro de raza americana',
+      'Perro de raza australiana',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Eurasier',
+      'https://www.akc.org/dog-breeds/eurasier/',
+      'https://www.ukcdogs.com/eurasier',
+    ],
   },
+  // Checkpoint
   77: {
     weight: {
       imperial: '35 - 50',
@@ -9425,12 +9577,40 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 906,
       url: 'https://cdn2.thedogapi.com/images/SkJfGecE7.jpg',
     },
-    searchTerms: ['Spaniel de Campo', 'Perro deportivo'],
     country_code: 'UK',
-    description:
-      'El Spaniel de Campo es un perro de tamaño medio, robusto y lleno de energía. Se le conoce por su excelente sentido del olfato y su capacidad de rastrear en cualquier tipo de terreno. Aunque son enérgicos y activos al aire libre, en casa son tranquilos y cariñosos, lo que los convierte en excelentes mascotas familiares.',
-    history:
-      'El Spaniel de Campo es una raza de perro de origen británico que se desarrolló para cazar y recuperar aves de caza. Aunque comparten un origen común con otros spaniels, los Field Spaniels se criaron para ser perros de caza versátiles, capaces de trabajar en diversos tipos de terreno.',
+    description: `
+      El Spaniel de Campo, también conocido como Field Spaniel, es una raza de perro noble y deportiva que se destaca por su equilibrio y su elegancia. Este perro de tamaño mediano, que pesa entre 35 y 50 libras y mide alrededor de 18 pulgadas a la altura de los hombros, es conocido por su pelaje liso o ligeramente ondulado, que puede ser de color negro, hígado, hígado dorado, roano o caoba.
+      <br>
+      <br>
+      El Spaniel de Campo es un perro de caza que se desarrolló en el Reino Unido. En un momento de su historia, el Spaniel de Campo y el Cocker Spaniel eran la misma raza, solo separados por el peso. Sin embargo, a lo largo del tiempo, el Spaniel de Campo tomó un camino diferente, lo que casi lleva a su destrucción. La raza se convirtió en un perro de patas cortas y huesos pesados, de solo 12 pulgadas de altura y que pesaba hasta 40 libras. Afortunadamente, en 1948, la Sociedad del Spaniel de Campo se reformó en Gran Bretaña y los criadores comenzaron a eliminar las exageraciones en la raza. Hoy en día, el Spaniel de Campo es un perro más equilibrado y un buen perro de trabajo.
+      <br>
+      <br>
+      El Spaniel de Campo es famoso por su docilidad y su buen carácter. Aunque puede parecer reservado al principio, una vez que se siente cómodo, este perro es juguetón y lleno de energía. Es un excelente perro de compañía y se lleva bien con los niños y otros animales. Además, es un perro inteligente y receptivo al entrenamiento.
+      <br>
+      <br>
+      El pelaje del Spaniel de Campo es uno de los rasgos más atractivos de la raza. Es de textura sedosa, brillante y refinada. Requiere un cuidado regular para mantener su brillo y reducir la caída del pelo. Aunque no es una raza que requiera un aseo excesivo, un cepillado semanal y un corte de pelo ocasional pueden ayudar a mantener su pelaje en las mejores condiciones.
+      <br>
+      <br>
+      En cuanto a su salud, el Spaniel de Campo es generalmente una raza saludable. Sin embargo, al igual que todas las razas, puede ser propenso a ciertas condiciones genéticas. Por eso, es importante que los criadores realicen pruebas de salud y seleccionen perros con buen estado de salud para la cría.
+      <br>
+      <br>
+      En resumen, el Spaniel de Campo es un perro noble, deportivo y equilibrado que puede ser un excelente compañero de familia o un perro de trabajo. Su docilidad, su buen carácter y su inteligencia lo convierten en una raza muy apreciada por muchos amantes de los perros.
+    `,
+    history: `
+      La historia del Spaniel de Campo es fascinante y está llena de altibajos. Esta raza fue desarrollada originalmente para el ring de exhibición en el siglo XIX por competidores que intentaban desarrollar un Spaniel completamente negro. Sin embargo, estos primeros métodos de cría fueron criticados y la raza no fue popular entre los cazadores debido a su color oscuro y a su forma alargada y corta, que no era muy práctica para moverse fácilmente a través de la maleza.
+      <br>
+      <br>
+      El Spaniel de Campo fue desarrollado por Phineas Bullock a partir de perros previamente propiedad de Sir Francis Burdett, secretario del Birmingham Dog Show. Bullock cruzó el Spaniel de Campo con el Sussex Spaniel y el English Water Spaniel. En la década de 1870, Burdett tuvo mucho éxito en el ring de exhibición con su variedad de Spaniel de Campo; sin embargo, resultó en un perro que era casi exactamente como un Sussex Spaniel con la excepción de la cabeza.
+      <br>
+      <br>
+      El perro considerado como el ancestro común del moderno English Cocker Spaniel es Ch. Obo, nacido en 1879 de un padre Sussex Spaniel y una madre Field Spaniel. El hijo de Obo, Ch. Obo II, es considerado el padre del moderno American Cocker Spaniel, siendo descrito como un perro de sólo 10 pulgadas de alto con un cuerpo bastante largo.
+      <br>
+      <br>
+      Para 1909, el peso promedio de un Spaniel de Campo era de 35-45 libras. Se introdujeron elementos del Basset Hound en la raza, lo que resultó en varios problemas de salud genética. Se tomaron medidas para corregir los problemas dentro de la raza. Se utilizaron English Springer Spaniels para introducir elementos más saludables en la raza y se obtuvo el Spaniel de patas más largas que se conoce hoy en día. La mayoría de la raza moderna puede ser rastreada hasta cuatro perros de la década de 1950; Colombina de Teffont, Elmbury Morwena de Rhiwlas, Gormac Teal y Ronayne Regal.
+      <br>
+      <br>
+      El Spaniel de Campo sigue siendo una raza rara, incluso en el Reino Unido. En 2009, se registraron un total de 51 perros con The Kennel Club y ha estado en constante declive desde 2000. De todas las razas de Spaniel registradas con The Kennel Club, el Spaniel de Campo tiene el número más bajo registrado año tras año, con sólo el Sussex Spaniel llegando a un cercano segundo lugar con 60 registros en 2009. Para promover la raza, ha sido registrada como una Raza Nativa Vulnerable por The Kennel Club.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente olfato',
@@ -9454,6 +9634,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Problemas oculares',
       'Otitis externa',
+    ],
+    searchTerms: [
+      'Spaniel de Campo',
+      'Perro deportivo',
+      'Spaniel',
+      'Campo',
+      'Spanieldelcampo',
+      'Spaniel de campo',
+      'SpanieldelCampo',
+      'Spanielcampo',
+      'SpanielCampo',
+      'Perro de campo',
+      'Perrodecampo',
+      'PerroCampo',
+      'Perrospaniel',
+      'Perro Spaniel',
+      'Perro de Spaniel',
+      'PerrodeSpaniel',
+      'PerroSpaniel',
+      'Cazador',
+      'Perro cazador',
+      'Perrocazador',
+      'PerroCazador',
+      'Cazador de campo',
+      'Cazadordecampo',
+      'CazadorCampo',
+      'Cazador Spaniel',
+      'CazadorSpaniel',
+      'Cazador de Spaniel',
+      'CazadordeSpaniel',
+      'CazadorSpaniel',
+      'Perro de caza',
+      'Perrodecaza',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Field_Spaniel',
+      'https://www.dogbreedinfo.com/fieldspaniel.htm',
+      'https://www.ukcdogs.com/field-spaniel',
     ],
   },
   78: {
