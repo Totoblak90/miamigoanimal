@@ -112,7 +112,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
     // Primero seteo la imágen para que, con ese valor, pueda generar una clave única
     this.setSelectedImage();
-    const IMAGE_KEY = makeStateKey<string>( 'hero-section-background-image-' +  (this.selectedImage || Math.random().toString()) );
+    const IMAGE_KEY = makeStateKey<string>( 'hero-section-background-image' );
 
     // Estoy del lado del cliente
     if (this.transferState.hasKey(IMAGE_KEY))
@@ -127,6 +127,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
     // Estoy del lado del servidor
     else { this.transferState.set(IMAGE_KEY, this.selectedImage); }
 
+    // Creo las etiquetas necesarias en el head para precargar las imágenes pesadas
     if (isPlatformBrowser(this.platformId)) { this.preloadImage(); }
   }
 
