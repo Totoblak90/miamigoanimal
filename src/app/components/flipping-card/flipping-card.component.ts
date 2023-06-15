@@ -46,8 +46,15 @@ export class FlippingCardComponent implements OnInit, AfterViewInit, OnDestroy {
     this.setBackgroundImage();
   }
 
+  ngAfterViewInit() {
+    if (isPlatformBrowser(this.platformId)) {this.startScrolling();}
+  }
+
   private setBackgroundImage() {
-    const IMAGE_KEY = makeStateKey<string>('flipping-card-bg-image');
+
+    // Primero seteo la imágen para que, con ese valor, pueda generar una clave única
+    this.setSelectedImage();
+    const IMAGE_KEY = makeStateKey<string>( 'flipping-card-bg-image-' +  (this.selectedImage || Math.random().toString()) );
 
     // Estoy del lado del cliente
     if (this.transferState.hasKey(IMAGE_KEY))
@@ -58,25 +65,21 @@ export class FlippingCardComponent implements OnInit, AfterViewInit, OnDestroy {
 
     }
 
-    else
-    {
-
-      if (this.providedImg) { this.selectedImage = this.utilitiesSrv.selectImage( this.type, this.providedImg, false ) }
-
-      else
-      {
-        this.selectedImage =  this.type === 'cat' ? this.utilitiesSrv.selectImage( this.type ) :
-                              this.type === 'dog' ? this.utilitiesSrv.selectImage( this.type ) :
-                              ''
-      }
-
-      this.transferState.set(IMAGE_KEY, this.selectedImage);
-    }
+    else { this.transferState.set(IMAGE_KEY, this.selectedImage); }
 
   }
 
-  ngAfterViewInit() {
-    if (isPlatformBrowser(this.platformId)) {this.startScrolling();}
+  private setSelectedImage() {
+
+    if (this.providedImg) { this.selectedImage = this.utilitiesSrv.selectImage( this.type, this.providedImg, false ) }
+
+    else
+    {
+      this.selectedImage =  this.type === 'cat' ? this.utilitiesSrv.selectImage( this.type ) :
+                            this.type === 'dog' ? this.utilitiesSrv.selectImage( this.type ) :
+                            ''
+    }
+
   }
 
   startScrolling() {

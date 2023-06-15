@@ -27,7 +27,10 @@ export class RecentArticleCardComponent implements OnInit {
   }
 
   private setBackgroundImage() {
-    const IMAGE_KEY = makeStateKey<string>('recent-article-card-bg-image');
+
+    // Primero seteo la imágen para que, con ese valor, pueda generar una clave única
+    this.setSelectedImage();
+    const IMAGE_KEY = makeStateKey<string>( 'recent-article-card-bg-image-' + (this.selectedImage || Math.random().toString()) );
 
     // Estoy del lado del cliente
     if (this.transferState.hasKey(IMAGE_KEY))
@@ -38,16 +41,16 @@ export class RecentArticleCardComponent implements OnInit {
 
     }
 
-    else
-    {
+    // Estoy del lado del servidor
+    else { this.transferState.set(IMAGE_KEY, this.selectedImage); }
 
-      if (this.type === 'dog') {  this.selectedImage = this.perrosService.setDogBreedImage(this.title, this.type) }
-      else if (this.type === 'cat') { this.selectedImage = this.setCatBreedImage() }
-      else { this.selectedImage =  this.utilitiesSrv.selectImage( this.type ) }
+  }
 
-      this.transferState.set(IMAGE_KEY, this.selectedImage);
+  private setSelectedImage() {
 
-    }
+    if (this.type === 'dog') {  this.selectedImage = this.perrosService.setDogBreedImage(this.title, this.type) }
+    else if (this.type === 'cat') { this.selectedImage = this.setCatBreedImage() }
+    else { this.selectedImage =  this.utilitiesSrv.selectImage( this.type ) }
 
   }
 

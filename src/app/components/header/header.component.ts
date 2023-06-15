@@ -1,7 +1,7 @@
 import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { Component, Inject, Input, OnDestroy, OnInit, PLATFORM_ID, Renderer2, makeStateKey, TransferState } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { Subscription, skip } from 'rxjs';
+import { Subject, Subscription, skip, takeUntil } from 'rxjs';
 import { PerrosService } from 'src/app/services/perros.service';
 import { UtilitiesService } from 'src/app/services/utilities.service';
 
@@ -52,7 +52,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
     return !this.router.url.includes('search-post')
   }
 
-  private _routSubs$: Subscription | undefined;
+  private _destroy$ = new Subject<boolean>();
 
   constructor(
     private utilitiesSrv: UtilitiesService,
@@ -77,7 +77,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
         // Me suscribo a cambios en las rutas
         this.activatedRoute.params
-        .pipe(skip(1))
+        .pipe( skip(1), takeUntil(this._destroy$) )
         .subscribe(params => {
           // Aquí es donde puedes manejar los cambios en los parámetros de la ruta.
           // Por ejemplo, podrías llamar a un método para obtener los datos de la nueva raza de perro.
@@ -109,7 +109,10 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
 
   private setBackgroundImage() {
-    const IMAGE_KEY = makeStateKey<string>('hero-section-background-image');
+
+    // Primero seteo la imágen para que, con ese valor, pueda generar una clave única
+    this.setSelectedImage();
+    const IMAGE_KEY = makeStateKey<string>( 'hero-section-background-image-' +  (this.selectedImage || Math.random().toString()) );
 
     // Estoy del lado del cliente
     if (this.transferState.hasKey(IMAGE_KEY))
@@ -122,47 +125,49 @@ export class HeaderComponent implements OnInit, OnDestroy {
     }
 
     // Estoy del lado del servidor
+    else { this.transferState.set(IMAGE_KEY, this.selectedImage); }
+
+    if (isPlatformBrowser(this.platformId)) { this.preloadImage(); }
+  }
+
+  private setSelectedImage() {
+
+    if (this.providedImg)
+    {
+      const type = this.bckColour === 'cat' ? 'cat' : this.bckColour === 'dog' ? 'dog' : 'extra';
+      this.selectedImage = this.utilitiesSrv.selectImage( type, this.providedImg )
+    }
+
     else
     {
 
-      if (this.providedImg)
-      {
-        const type = this.bckColour === 'cat' ? 'cat' : this.bckColour === 'dog' ? 'dog' : 'extra';
-        this.selectedImage = this.utilitiesSrv.selectImage( type, this.providedImg )
+      if (this.bckColour === 'cat') {
+        this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour )
       }
 
-      else
-      {
+      else if (this.bckColour === 'dog') {
+        const perros = Object.values(this.perrosService.dogListSignal());
 
-        if (this.bckColour === 'cat') {
-          this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour )
-        }
+        // Creas una versión del título que es todo en minúsculas y sin puntuación
+        const fullTitleWithoutPunctuation = (this.mainTitle + ' ' + this.secondaryTitle).replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
 
-        else if (this.bckColour === 'dog') {
-          const perros = Object.values(this.perrosService.dogListSignal());
+        // Buscas en la lista de perros para ver si alguno de ellos está incluido en el título
+        const dog = perros.find(dog => {
+          // Creas una versión del nombre del perro que es todo en minúsculas y sin puntuación
+          const dogNameWithoutPunctuation = dog.name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
 
-          // Creas una versión del título que es todo en minúsculas y sin puntuación
-          const fullTitleWithoutPunctuation = (this.mainTitle + ' ' + this.secondaryTitle).replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+          // Compruebas si el nombre del perro está incluido en el título
+          return fullTitleWithoutPunctuation.includes(dogNameWithoutPunctuation)
+        });
 
-          // Buscas en la lista de perros para ver si alguno de ellos está incluido en el título
-          const dog = perros.find(dog => {
-            // Creas una versión del nombre del perro que es todo en minúsculas y sin puntuación
-            const dogNameWithoutPunctuation = dog.name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
-
-            // Compruebas si el nombre del perro está incluido en el título
-            return fullTitleWithoutPunctuation.includes(dogNameWithoutPunctuation)
-          });
-
-          this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour, dog?.image?.url || undefined )
-        }
-
-        else { this.selectedImage = '' }
+        this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour, dog?.image?.url || undefined )
       }
 
-      this.transferState.set(IMAGE_KEY, this.selectedImage);
+      else { this.selectedImage = '' }
+
     }
 
-    if (isPlatformBrowser(this.platformId)) { this.preloadImage(); }
+
   }
 
   private preloadImage() {
@@ -192,7 +197,8 @@ export class HeaderComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    this._routSubs$?.unsubscribe();
+    this._destroy$.next(true);
+    this._destroy$.unsubscribe();
   }
 
 }
