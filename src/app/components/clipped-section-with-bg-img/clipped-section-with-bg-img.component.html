@@ -1,3 +1,3 @@
-<div class="section-clipped-with-bg-img" [ngClass]="selectedClasses">
+<div class="section-clipped-with-bg-img" [ngClass]="selectedClasses" [lazyLoadClass]="'bg-' + selectedBg" LazyLoadCssClass>
   <ng-content></ng-content>
 </div>

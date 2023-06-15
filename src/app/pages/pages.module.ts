@@ -9,6 +9,7 @@ import { TerminosComponent } from './terminos/terminos.component';
 import { PoliticasComponent } from './politicas/politicas.component';
 import { CookiesComponent } from './cookies/cookies.component';
 import { RouterModule } from '@angular/router';
+import { DirectivesModule } from '../directives/directives.module';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { RouterModule } from '@angular/router';
     PagesRoutingModule,
     ComponentsModule,
     RouterModule,
+    DirectivesModule
   ]
 })
 export class PagesModule { }

@@ -12,7 +12,6 @@ export class ClippedSectionWithBgImgComponent {
   get selectedClasses(): {[key: string]: boolean} {
     const cssClasses: {[key: string]: boolean} = {}
 
-    cssClasses[`bg-${this.selectedBg}`] = true
     cssClasses[`skew-${this.skewSide}`] = true
 
     return cssClasses

@@ -1,6 +1,6 @@
 <div class="bg-video">
-  <video class="bg-video__content" [autoplay]="true" [muted]="true" [loop]="true" [playsInline]="true">
-      <source [src]="videoSrc" type="video/mp4">
+  <video class="bg-video__content" [autoplay]="true" [muted]="true" [loop]="true" [playsInline]="true" [lazyLoadVideoSrc]="videoSrc" LazyLoadVideo>
+      <source type="video/mp4">
       Lo siento tu navegador no soporta embebidos!
   </video>
 </div>

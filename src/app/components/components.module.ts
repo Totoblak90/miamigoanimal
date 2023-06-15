@@ -31,6 +31,7 @@ import { PopupFoodRationsComponent } from './popup-food-rations/popup-food-ratio
 import { RouterModule } from '@angular/router';
 import { GoUpComponent } from './go-up/go-up.component';
 import { ExpandableTextComponent } from './expandable-text/expandable-text.component';
+import { DirectivesModule } from '../directives/directives.module';
 
 
 
@@ -63,13 +64,14 @@ import { ExpandableTextComponent } from './expandable-text/expandable-text.compo
     CalculadoraDeRacionesComponent,
     PopupFoodRationsComponent,
     GoUpComponent,
-    ExpandableTextComponent
+    ExpandableTextComponent,
   ],
   imports: [
     CommonModule,
     PipesModule,
     ReactiveFormsModule,
     RouterModule,
+    DirectivesModule
   ],
   exports: [
     HeaderComponent,

@@ -7,6 +7,7 @@ import { ComponentsModule } from 'src/app/components/components.module';
 import { CatsAndDogsPresentationComponent } from './cats-and-dogs-presentation/cats-and-dogs-presentation.component';
 import { OtherCategoriesComponent } from './other-categories/other-categories.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { DirectivesModule } from 'src/app/directives/directives.module';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,6 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     OtherCategoriesComponent,
     TestimonialsComponent,
   ],
-  imports: [CommonModule, HomeRoutingModule, ComponentsModule],
+  imports: [CommonModule, HomeRoutingModule, ComponentsModule, DirectivesModule],
 })
 export class HomeModule {}
