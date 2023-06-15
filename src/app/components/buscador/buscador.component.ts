@@ -15,7 +15,7 @@ import { UtilitiesService } from 'src/app/services/utilities.service';
 export class BuscadorComponent implements OnDestroy {
 
   searchArticlesForm: FormGroup = this.fb.group({
-    searchTerm: [''],
+    'searchTerm-global': [''],
     searchType: ['razas']
   })
 
@@ -43,7 +43,7 @@ export class BuscadorComponent implements OnDestroy {
     this.searchArticlesForm.get('searchType')?.valueChanges
     .pipe(takeUntil(this._destroy$))
     .subscribe((filter: 'articulos' | 'razas') => {
-      const searchTerm = this.searchArticlesForm.get('searchTerm')!.value;
+      const searchTerm = this.searchArticlesForm.get('searchTerm-global')!.value;
 
       if (searchTerm) {
 
@@ -55,7 +55,7 @@ export class BuscadorComponent implements OnDestroy {
   }
 
   private subscribeToSearchTermChange() {
-    this.searchArticlesForm.get('searchTerm')?.valueChanges
+    this.searchArticlesForm.get('searchTerm-global')?.valueChanges
     .pipe(takeUntil(this._destroy$))
     .subscribe((searchTerm: string) => {
       if (searchTerm) {
@@ -132,18 +132,18 @@ export class BuscadorComponent implements OnDestroy {
     }
   }
 
-  resetSearch() { setTimeout(() => { this.searchArticlesForm.get('searchTerm')?.setValue(''); }, 100) }
+  resetSearch() { setTimeout(() => { this.searchArticlesForm.get('searchTerm-global')?.setValue(''); }, 100) }
 
   // Form effects
   uncollapse(event: Event) {
     event.stopPropagation();
-    this.searchArticlesForm.get('searchTerm')?.setValue('');
+    this.searchArticlesForm.get('searchTerm-global')?.setValue('');
     this.collapsed = false;
   }
 
   collapse(event: Event) {
     event.stopPropagation();
-    this.searchArticlesForm.get('searchTerm')?.setValue('');
+    this.searchArticlesForm.get('searchTerm-global')?.setValue('');
     this.collapsed = true;
   }
 

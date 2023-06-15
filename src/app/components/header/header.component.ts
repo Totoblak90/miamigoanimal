@@ -1,5 +1,5 @@
 import { DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { Component, Inject, Input, OnDestroy, OnInit, PLATFORM_ID, Renderer2 } from '@angular/core';
+import { Component, Inject, Input, OnDestroy, OnInit, PLATFORM_ID, Renderer2, makeStateKey, TransferState } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription, skip } from 'rxjs';
 import { PerrosService } from 'src/app/services/perros.service';
@@ -60,6 +60,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
     private renderer: Renderer2,
     private activatedRoute: ActivatedRoute,
     private perrosService: PerrosService,
+    private transferState: TransferState,
     @Inject(DOCUMENT) private document: Document,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
@@ -91,7 +92,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
             {
               this.bckColour = 'dog';
               this.providedImg = dog.image.url;
-              this.setBackgroundImage();
+              this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour, this.providedImg )
             }
           }
 
@@ -108,39 +109,57 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
 
   private setBackgroundImage() {
-    if (this.providedImg)
+    const IMAGE_KEY = makeStateKey<string>('selectedImage');
+
+    // Estoy del lado del cliente
+    if (this.transferState.hasKey(IMAGE_KEY))
     {
-      const type = this.bckColour === 'cat' ? 'cat' : this.bckColour === 'dog' ? 'dog' : 'extra';
-      this.selectedImage = this.utilitiesSrv.selectImage( type, this.providedImg )
+
+      this.selectedImage = this.transferState.get(IMAGE_KEY, 'https://esferamascota.b-cdn.net/alimentacion-hero.webp');
+      this.transferState.remove(IMAGE_KEY);
+
     }
 
+    // Estoy del lado del servidor
     else
     {
-      if (this.bckColour === 'cat') {
-        this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour )
+
+      if (this.providedImg)
+      {
+        const type = this.bckColour === 'cat' ? 'cat' : this.bckColour === 'dog' ? 'dog' : 'extra';
+        this.selectedImage = this.utilitiesSrv.selectImage( type, this.providedImg )
       }
 
-      else if (this.bckColour === 'dog') {
-        const perros = Object.values(this.perrosService.dogListSignal());
+      else
+      {
 
-        // Creas una versión del título que es todo en minúsculas y sin puntuación
-        const fullTitleWithoutPunctuation = (this.mainTitle + ' ' + this.secondaryTitle).replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+        if (this.bckColour === 'cat') {
+          this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour )
+        }
 
-        // Buscas en la lista de perros para ver si alguno de ellos está incluido en el título
-        const dog = perros.find(dog => {
-          // Creas una versión del nombre del perro que es todo en minúsculas y sin puntuación
-          const dogNameWithoutPunctuation = dog.name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+        else if (this.bckColour === 'dog') {
+          const perros = Object.values(this.perrosService.dogListSignal());
 
-          // Compruebas si el nombre del perro está incluido en el título
-          return fullTitleWithoutPunctuation.includes(dogNameWithoutPunctuation)
-        });
+          // Creas una versión del título que es todo en minúsculas y sin puntuación
+          const fullTitleWithoutPunctuation = (this.mainTitle + ' ' + this.secondaryTitle).replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
 
-        this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour, dog?.image?.url || undefined )
+          // Buscas en la lista de perros para ver si alguno de ellos está incluido en el título
+          const dog = perros.find(dog => {
+            // Creas una versión del nombre del perro que es todo en minúsculas y sin puntuación
+            const dogNameWithoutPunctuation = dog.name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+
+            // Compruebas si el nombre del perro está incluido en el título
+            return fullTitleWithoutPunctuation.includes(dogNameWithoutPunctuation)
+          });
+
+          this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour, dog?.image?.url || undefined )
+        }
+
+        else { this.selectedImage = '' }
       }
 
-      else { this.selectedImage = '' }
+      this.transferState.set(IMAGE_KEY, this.selectedImage);
     }
-
 
     if (isPlatformBrowser(this.platformId)) { this.preloadImage(); }
   }
