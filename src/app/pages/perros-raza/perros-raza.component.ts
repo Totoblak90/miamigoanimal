@@ -1,7 +1,7 @@
 import { isPlatformBrowser } from '@angular/common';
 import { Component, Inject, OnDestroy, PLATFORM_ID } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Subscription, skip } from 'rxjs';
+import { Subject, Subscription, skip, takeUntil } from 'rxjs';
 import { Dog } from 'src/app/interfaces/dog.interface';
 import { MetaService } from 'src/app/services/meta.service';
 import { PerrosService } from 'src/app/services/perros.service';
@@ -302,7 +302,7 @@ export class PerrosRazaComponent implements OnDestroy {
     return this.dog.perks.join(', ').toLocaleUpperCase()
   }
 
-  private routeSubscription: Subscription | undefined;
+  private _destroy$: Subject<boolean> = new Subject<boolean>();
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -331,8 +331,8 @@ export class PerrosRazaComponent implements OnDestroy {
     {
 
       // Me suscribo a cambios en las rutas
-      this.routeSubscription = this.activatedRoute.params
-      .pipe(skip(1))
+      this.activatedRoute.params
+      .pipe(takeUntil(this._destroy$))
       .subscribe(params => {
         // Aquí es donde puedes manejar los cambios en los parámetros de la ruta.
         // Por ejemplo, podrías llamar a un método para obtener los datos de la nueva raza de perro.
@@ -350,6 +350,7 @@ export class PerrosRazaComponent implements OnDestroy {
   }
 
   ngOnDestroy(): void {
-    this.routeSubscription?.unsubscribe();
+    this._destroy$.next(true)
+    this._destroy$.unsubscribe();
   }
 }

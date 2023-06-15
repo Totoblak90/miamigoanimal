@@ -10513,7 +10513,19 @@ export const DOG_LIST: { [key: number]: Dog } = {
       "perro de caza",
       "perro cazador"
     ],
-
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+    "https://en.wikipedia.org/wiki/German_Shorthaired_Pointer",
+    "https://www.dogbreedinfo.com/germanshorthairedpointer.htm",
+    "https://www.ukcdogs.com/german-shorthaired-pointer"
+    ]
   },
   84: {
     weight: {
