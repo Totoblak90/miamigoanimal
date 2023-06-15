@@ -10,8 +10,11 @@ Esto es lo que hay que considerar para todos los artículos que te pase:
 
 De este artículo que te estoy pasando creame una lista en formato de array de javascript de palabras que puedas extraer sobre lo más importante del texto
 pensá que esta lista va incluída en una card que tiene como fin llamar la atención del usuario para que lea el artículo completo, en esta lista
-no pueden incluírse las palabras "Gato", "Gatos", "Perro", "Perros", "Salud", "Alimentación", "Adiestramiento" y cualquier otra de esas familias de palabra. Pueden ser máximo 10 palabras.
+no pueden incluírse las palabras "Gato", "Gatos", "Perro", "Perros", "Salud", "Alimentación", "Adiestramiento" y cualquier otra de esas familias de palabra.
+Pueden ser máximo 10 palabras.
+
 También dame otro array de palabras que se puedan poner como términos de búsqueda de un buscador.
+
 Por otro lado, de las 5 categorías siguientes ("Gatos" | "Perros" | "Salud" | "Adiestramiento" | "Alimentacion"),
 armame otro array con las categorías en las que lo englobarías, podés elegir más de una.
 
@@ -428,6 +431,28 @@ export class ArticlesService {
         'Necesidades de entrenamiento y ejercicio del Gran Danés',
         'Expectativa de vida del Gran Danés',
       ],
+    },
+
+    {
+      url: 'gato-siames-caracteristicas-cuidados-y-curiosidades',
+      categories: ['Gatos'],
+      'card-heading': 'Gato Siamés',
+      sections: ["Características", "Curiosidades", "Personalidad", "Físico", "Pelaje", "Inteligencia", "Cuidado", "Historia"],
+      destacado: false,
+      creation: '6/15/2023, 10:05:00',
+      recent_card_title: 'Gato Siamés: Características, Cuidados y Curiosidades 🐈',
+      buscador: ["Gato siamés", "Raza siamés", "Cuidado gato siamés", "Historia gato siamés", "Personalidad gato siamés", "Características físicas gato siamés", "Curiosidades gato siamés", "Gatos famosos", "Cultura popular", "Pelaje gato siamés"],
+    },
+
+    {
+      url: 'todo-lo-que-debes-saber-sobre-el-pomerania',
+      categories: ['Perros'],
+      'card-heading': 'Pomerania',
+      sections: ["Personalidad", "Temperamento", "Adopción", "Problemas genéticos", "Aseo", "Historia", "Características", "Ejercicio", "Cuidado"],
+      destacado: false,
+      creation: '6/15/2023, 10:22:00',
+      recent_card_title: '¡Todo lo que debes saber sobre el Pomerania! 🐶',
+      buscador: ["Pomerania", "Cuidado pomerania", "Historia pomerania", "Características pomerania", "Salud pomerania", "Aseo pomerania", "Ejercicio pomerania", "Adopción pomerania", "Personalidad pomerania", "Raza pomerania"],
     },
 
   ]);

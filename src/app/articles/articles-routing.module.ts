@@ -22,6 +22,8 @@ import { PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent } from './p
 import { DescubreTodoSobreLosGatosPersaLaRazaMasPopularComponent } from './descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular/descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular.component';
 import { DescubreLasMejoresRazasDePerrosPequeniosGuiaCompletaComponent } from './descubre-las-mejores-razas-de-perros-pequenios-guia-completa/descubre-las-mejores-razas-de-perros-pequenios-guia-completa.component';
 import { GranDanesCaracteristicasCuidadosYCuriosidadesComponent } from './gran-danes-caracteristicas-cuidados-ycuriosidades/gran-danes-caracteristicas-cuidados-ycuriosidades.component';
+import { GatoSiamesCaracteristicasCuidadosYCuriosidadesComponent } from './gato-siames-caracteristicas-cuidados-ycuriosidades/gato-siames-caracteristicas-cuidados-ycuriosidades.component';
+import { TodoLoQueDebesSaberSobreElPomeraniaComponent } from './todo-lo-que-debes-saber-sobre-el-pomerania/todo-lo-que-debes-saber-sobre-el-pomerania.component';
 
 const routes: Routes = [
   {
@@ -87,6 +89,14 @@ const routes: Routes = [
   {
     path: 'gran-danes-caracteroisticas-cuidados-y-curiosidades',
     component: GranDanesCaracteristicasCuidadosYCuriosidadesComponent
+  },
+  {
+    path: 'gato-siames-caracteristicas-cuidados-y-curiosidades',
+    component: GatoSiamesCaracteristicasCuidadosYCuriosidadesComponent
+  },
+  {
+    path: 'todo-lo-que-debes-saber-sobre-el-pomerania',
+    component: TodoLoQueDebesSaberSobreElPomeraniaComponent
   },
 
   {
