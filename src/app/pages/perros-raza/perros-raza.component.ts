@@ -312,14 +312,17 @@ export class PerrosRazaComponent implements OnDestroy {
     @Inject(PLATFORM_ID) private platformId: Object
   ) {
 
-      this.dog = this.activatedRoute.snapshot.data['raza'];
+    this.dog = this.activatedRoute.snapshot.data['raza'];
+    this.setMetaTags();
+    this.subscribeToRouteChange();
 
-      this.metaService.setMetaTags(
-        `Aprendé todo sobre la raza "${this.dog.name}" - esferamascota.com`,
-        `Descubre todo sobre la raza de perro ${this.dog.name}: su historia, características, cuidados y más. ¡Conviértete en el mejor amigo de tu perro con nuestra guía completa!`
-      )
+  }
 
-      this.subscribeToRouteChange();
+  private setMetaTags() {
+    this.metaService.setMetaTags(
+      `Aprendé todo sobre la raza "${this.dog.name}" - esferamascota.com`,
+      `Descubre todo sobre la raza de perro ${this.dog.name}: acerca de la raza, su historia, datos clave, rasgos y más. ¡Conviértete en el mejor amigo de tu perro con nuestra guía!`
+    )
 
   }
 
@@ -334,7 +337,11 @@ export class PerrosRazaComponent implements OnDestroy {
         // Aquí es donde puedes manejar los cambios en los parámetros de la ruta.
         // Por ejemplo, podrías llamar a un método para obtener los datos de la nueva raza de perro.
         const id = params['id'];
-        if (+id > 0) { this.dog = this.perrosService.dogListSignal()[+id]; }
+        if (+id > 0)
+        {
+          this.dog = this.perrosService.dogListSignal()[+id];
+          this.setMetaTags();
+        }
         else { this.router.navigate(['perros']) }
 
       });

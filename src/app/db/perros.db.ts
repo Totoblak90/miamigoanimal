@@ -10272,10 +10272,40 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     country_code: 'DE',
     description: `
-
+      El Pastor Alemán es una raza de perro que se destaca por su inteligencia, versatilidad y lealtad. Esta raza es relativamente joven, desarrollada casi en su totalidad a principios del siglo XX por un oficial de caballería alemán, Max von Stephanitz. Utilizando una variedad de perros pastores alemanes como su base, von Stephanitz desarrolló una raza distintiva en un período de tiempo muy corto, gracias en gran parte a las prácticas autoritarias de la cría de perros alemanes en ese momento. Von Stephanitz enfatizó la utilidad y la inteligencia en su programa de cría, lo que permitió al Pastor Alemán cambiar fácilmente de las tareas de pastoreo a otros campos de trabajo, particularmente el trabajo militar y policial.
+      <br>
+      <br>
+      El Pastor Alemán es un perro grande, ágil y musculoso de carácter noble y alta inteligencia. Leal, confiado, valiente y constante, el Pastor Alemán es verdaderamente una delicia para los amantes de los perros. Los Pastores Alemanes pueden llegar a medir hasta 26 pulgadas de altura en el hombro y, cuando se observan en contorno, presentan una imagen de curvas suaves y gráciles en lugar de ángulos. Su andar natural es un trote libre y fácil, pero pueden aumentar la velocidad y alcanzar grandes velocidades.
+      <br>
+      <br>
+      Hay muchas razones por las que los Pastores Alemanes se encuentran en el rango principal de la realeza canina, pero los expertos dicen que su atributo definitorio es el carácter: la lealtad, el coraje, la confianza, la capacidad de aprender comandos para muchas tareas y la disposición para poner su vida en la línea en defensa de sus seres queridos. Los Pastores Alemanes serán mascotas familiares gentiles y guardianes firmes, pero, según el estándar de la raza, hay una "cierta reserva que no se presta a amistades inmediatas e indiscriminadas".
+      <br>
+      <br>
+      El Pastor Alemán es un perro de doble capa. El pelaje exterior se adhiere al cuerpo y es denso y recto con una textura áspera. Una ligera ondulación es aceptable en un pelaje particularmente áspero. El subpelo es corto, denso y de textura fina. El pelaje en el cuerpo es de longitud media pero no tan largo como para restarle capacidad para resistir las malas condiciones climáticas. El pelaje es más corto en la cabeza (incluyendo el interior de la oreja), las patas y los pies. El pelaje en el cuello es más largo y grueso, formando un ligero collar, particularmente en algunos machos. El pelo en la parte trasera de las patas es más largo y grueso, formando pantalones en la parte trasera y extendiéndose hasta los pasternos en la parte delantera y la articulación del corvejón detrás.
+      <br>
+      <br>
+      Como raza muy activa y atlética, el Pastor Alemán requiere mucho ejercicio para su bienestar físico y mental. Un perro que no se ejercita lo suficiente se frustrará y es probable que desarrolle comportamientos indeseables. Con un cachorro, puedes comenzar con paseos diarios cortos, así como sesiones de juego en un área segura y cercada.
+      <br>
+      <br>
+      La socialización temprana y las clases de entrenamiento para cachorros son vitales, y el entrenamiento de obediencia continuo ayudará a asegurar que el cachorro crezca para ser un adulto adaptable
     `,
     history: `
-
+      La historia del Pastor Alemán es tan fascinante como la raza misma, llena de dedicación, propósito y un amor inquebrantable por la utilidad y la inteligencia. Esta raza de perro es relativamente joven, desarrollada casi en su totalidad en la primera mitad del siglo XX por un oficial de caballería alemán, Max von Stephanitz, presidente del Verein far Deutsche Schaferhunde S.V. Von Stephanitz utilizó una variedad de perros pastores alemanes como su base, y en un corto período de tiempo, gracias en gran parte a las prácticas autoritarias de la cría de perros alemana de la época, desarrolló una raza distintiva.
+      <br>
+      <br>
+      Von Stephanitz enfocó su programa de cría en la utilidad y la inteligencia, permitiendo al Pastor Alemán cambiar fácilmente de las tareas de pastoreo a otros campos de trabajo, especialmente el trabajo militar y policial. La raza estaba empezando a ser notada en los Estados Unidos cuando estalló la Primera Guerra Mundial. Todos los productos alemanes fueron rechazados y la popularidad de la raza disminuyó. Sin embargo, después de la guerra, la estrella de cine Rin-Tin-Tin estimuló nuevamente el interés en la raza.
+      <br>
+      <br>
+      Los buenos looks de esta raza, combinados con su notable inteligencia y lealtad, la han convertido en una favorita para el trabajo y como perro de compañía. El Pastor Alemán fue reconocido por el United Kennel Club en 1924.
+      <br>
+      <br>
+      El Pastor Alemán fue reconocido como raza por el AKC en 1908. A lo largo de los años, la raza ha mantenido su popularidad, ocupando el cuarto lugar en la lista de las razas más populares según las estadísticas de registro del AKC.
+      <br>
+      <br>
+      El Pastor Alemán (Deutshe Schäferhund) desciende de la familia de perros pastores alemanes que, hasta finales del siglo XIX, variaban en tipo de distrito a distrito. En los últimos años del siglo XIX, un oficial de caballería alemán, el capitán Max von Stephanitz, desarrolló la raza con el objetivo de crear un perro de trabajo versátil y resistente. Von Stephanitz enfatizó la utilidad y la inteligencia en su programa de cría, lo que permitió al Pastor Alemán cambiar fácilmente de las tareas de pastoreo a otros campos de trabajo, especialmente el trabajo militar y policial.
+      <br>
+      <br>
+      En resumen, la historia del Pastor Alemán es una historia de dedicación y propósito, con un enfoque en la utilidad, la inteligencia y la capacidad de adaptación. Desde sus inicios en Alemania hasta su popularidad en todo el mundo, el Pastor Alemán ha demostrado ser una raza de perro verdaderamente excepcional, amada por su lealtad, su inteligencia y su capacidad para trabajar en una variedad de roles.
     `,
     categoria_de_tamanio: 'Grande',
     perks: [
@@ -10305,9 +10335,58 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: [
       'Pastor alemán',
       'Perro de pastoreo',
-
+      "Pastor Aleman",
+      "Perro pastor alemán",
+      "Perro pastor aleman",
+      "Pastor aleman",
+      "Pastor aleman",
+      "Pastor aleman",
+      "Perro aleman",
+      "Perro de trabajo",
+      "Perro de protección",
+      "Perro de guardia",
+      "Perro de servicio",
+      "Perro de policía",
+      "Perro de rescate",
+      "Perro de busqueda",
+      "Perro de rastreo",
+      "Perro de familia",
+      "Perro para niños",
+      "Perro inteligente",
+      "Perro leal",
+      "Perro fuerte",
+      "Perro de tamaño grande",
+      "Perro de pelo largo",
+      "Perro de pelo corto",
+      "Perro de orejas grandes",
+      "Perro de nariz negra",
+      "Perro de cola larga",
+      "Perro de cuerpo musculoso",
+      "Perro de patas fuertes",
+      "Perro de ojos oscuros"
     ],
-
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Rin Tin Tin',
+        caso: 'Rin Tin Tin fue un famoso perro de la raza Pastor Alemán que apareció en muchos programas de televisión y películas en los años 20 y 30 del siglo XX.'
+      },
+      {
+        nombre: 'Max von Stephanitz',
+        caso: 'Max von Stephanitz es conocido como el padre de la raza Pastor Alemán. Creó la raza a partir de una variedad de perros pastores alemanes con el objetivo de tener un perro de trabajo eficiente.'
+      }
+    ],
+    fuentes: [
+    "https://en.wikipedia.org/wiki/German_Shepherd",
+    "https://www.dogbreedinfo.com/germanshepherd.htm",
+    "https://www.ukcdogs.com/german-shepherd-dog"
+    ]
   },
   83: {
     weight: {
@@ -10339,12 +10418,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1230,
       url: 'https://cdn2.thedogapi.com/images/SJqBMg5Nm.jpg',
     },
-    searchTerms: ['Braco alemán', 'Perro de caza'],
     country_code: 'DE',
-    description:
-      'El Braco alemán de pelo corto es un perro de caza versátil que es capaz de cazar cualquier tipo de juego en tierra o agua. Son perros de tamaño mediano a grande, con un pelaje corto que es resistente al agua. Son perros inteligentes y afectuosos que son excelentes compañeros de familia cuando están bien ejercitados.',
-    history:
-      'El Braco alemán de pelo corto se originó en Alemania para ser utilizado en la caza. Esta raza fue desarrollada para ser un perro de caza todo en uno que pudiera rastrear, señalar, recuperar y trabajar tanto en tierra como en agua. Son populares tanto para la caza como para las competencias de campo debido a su versatilidad y resistencia.',
+    description: `
+      El Braco Alemán de Pelo Corto es una raza de perro que se destaca por su versatilidad y su capacidad para trabajar en una variedad de tareas de caza. Desarrollado por cazadores alemanes para ser un perro de caza y compañía todo en uno, esta raza ha evolucionado para ser un perro de trabajo entusiasta y resistente que se siente igualmente cómodo en tierra como en agua.
+      <br>
+      <br>
+      El Braco Alemán de Pelo Corto es un perro equilibrado de apariencia noble, cuya conformación asegura fuerza, resistencia y velocidad. Su actitud orgullosa, su contorno suave, su pelaje corto y brillante y sus zancadas armoniosas y bien alcanzadas enfatizan su nobleza. La clave para describir al Braco Alemán de Pelo Corto es su versatilidad. Son trabajadores dispuestos y entusiastas que prosperan en el país más accidentado y en cualquier clima. Recuperan igualmente bien en tierra y agua y pueden localizar el juego muerto o herido en la cubierta más pesada. Como compañero, el Braco Alemán de Pelo Corto es amigable, inteligente y ansioso por complacer.
+      <br>
+      <br>
+      El Braco Alemán de Pelo Corto tiene un pelaje corto y denso que se siente áspero y duro al tacto. El pelaje puede ser un poco más largo en la parte inferior de la cola y los bordes traseros de las ancas. El pelaje es más suave, más delgado y más corto en las orejas y la cabeza. El color del pelaje puede ser de hígado sólido o cualquier combinación de hígado y blanco, incluyendo hígado y blanco marcado, hígado moteado y blanco marcado, o hígado ruano.
+      <br>
+      <br>
+      Esta raza tiene una cabeza proporcionada al tamaño del perro, limpia sin exageración. Cuando se ve de perfil, el cráneo y el hocico son aproximadamente iguales en longitud y se unen por un stop gradual que parece más abrupto de lo que es debido a los arcos supraorbitales moderadamente bien definidos sobre los ojos.
+      <br>
+      <br>
+      El Braco Alemán de Pelo Corto es un perro de tamaño mediano a grande. La altura deseable en la madurez para los machos es de 24 a 26 pulgadas; y para las hembras, de 23 a 25 pulgadas. La desviación de una pulgada por encima o por debajo de las alturas descritas es permisible pero no deseada.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Braco Alemán de Pelo Corto es conocido por su inteligencia y su disposición amigable. Son perros activos que requieren mucho ejercicio y estimulación mental para mantenerse felices y saludables. Son perros de trabajo naturales y se destacan en una variedad de actividades deportivas caninas, incluyendo la obediencia, la agilidad y el trabajo de campo.
+      <br>
+      <br>
+      En resumen, el Braco Alemán de Pelo Corto es una raza versátil y trabajadora que es un compañero leal y afectuoso en el hogar. Su inteligencia, energía y disposición amigable hacen de esta raza una excelente opción para los amantes de los perros grandes.
+    `,
+    history: `
+      La historia del Braco Alemán de Pelo Corto es tan fascinante como la raza misma. Esta raza fue desarrollada por cazadores alemanes con el objetivo de tener un perro de caza y compañía todo en uno. La evolución de esta raza se dio paralelamente a la evolución de las armas de fuego y a los cambios sociales que permitieron a los cazadores de clase media arrendar reservas de caza.
+      <br>
+      <br>
+      Mientras que en Inglaterra se desarrollaban perros altamente especializados para cada tipo de presa, los prácticos cazadores alemanes querían un solo perro que pudiera olfatear el viento en busca de aves y rastrear el juego de pelo en el suelo; un perro que fuera feroz con los depredadores pero amigable con la familia. La base para esta raza probablemente fue un descendiente alemán del antiguo Pointer español. Se cruzaron sabuesos locales debido a su poderosa capacidad de rastreo y su fiabilidad en el agua. Los Pointers ingleses se añadieron a la mezcla por su elegante estilo de caza.
+      <br>
+      <br>
+      El primer Braco Alemán de Pelo Corto fue registrado en el libro de cría alemán en 1872, pero no llamó la atención de los cazadores americanos hasta finales de la década de 1920. Desde entonces, el Braco Alemán de Pelo Corto se ha convertido en un popular perro de caza y compañía.
+      <br>
+      <br>
+      La historia de esta raza es un testimonio de la adaptabilidad y la versatilidad de estos perros. Fueron criados para ser capaces de hacer frente a una variedad de tareas de caza, y esa versatilidad se ha mantenido a lo largo de los años. Hoy en día, el Braco Alemán de Pelo Corto es conocido por su habilidad para trabajar en una variedad de terrenos y climas, y por su disposición amigable y su deseo de complacer, lo que los convierte en excelentes compañeros de familia.
+      <br>
+      <br>
+      En resumen, la historia del Braco Alemán de Pelo Corto es una de adaptabilidad y versatilidad. Criados para ser perros de caza y compañía, estos perros han demostrado ser capaces de adaptarse a una variedad de tareas y entornos, lo que los convierte en una raza verdaderamente única.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Versátil y buen perro de caza',
@@ -10370,6 +10480,40 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de codo',
       'Gastric torsion',
     ],
+    searchTerms: [
+      'Braco alemán',
+      'Perro de caza',
+      "Braco Aleman de Pelo Corto",
+      "Braco alemán pelo corto",
+      "Braco aleman pelo corto",
+      "braco aleman",
+      "braco alemán",
+      "braco",
+      "aleman",
+      "alemán",
+      "pelo corto",
+      "braco de pelo corto",
+      "braco aleman corto",
+      "braco alemán corto",
+      "braco corto",
+      "braco aleman pelo",
+      "braco alemán pelo",
+      "braco pelo",
+      "braco aleman de",
+      "braco alemán de",
+      "braco de",
+      "perro braco",
+      "perro alemán",
+      "perro pelo corto",
+      "perro braco aleman",
+      "perro braco alemán",
+      "perro aleman pelo corto",
+      "perro alemán pelo corto",
+      "cazador",
+      "perro de caza",
+      "perro cazador"
+    ],
+
   },
   84: {
     weight: {
