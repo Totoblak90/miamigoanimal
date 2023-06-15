@@ -110,7 +110,7 @@ export class BuscadorComponent implements OnDestroy {
   }
 
   onKeyUpEnter() {
-    if (this.searchResults.length === 1) {
+    if (this.searchResults.length) {
       if (this.searchArticlesForm.get('searchType')!.value === 'articulos')
       {
         this.router.navigate( this.searchResults[0].url as string[] );

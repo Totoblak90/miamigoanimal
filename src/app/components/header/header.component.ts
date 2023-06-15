@@ -77,7 +77,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
         // Me suscribo a cambios en las rutas
         this.activatedRoute.params
-        .pipe( skip(1), takeUntil(this._destroy$) )
+        .pipe( takeUntil(this._destroy$) )
         .subscribe(params => {
           // Aquí es donde puedes manejar los cambios en los parámetros de la ruta.
           // Por ejemplo, podrías llamar a un método para obtener los datos de la nueva raza de perro.

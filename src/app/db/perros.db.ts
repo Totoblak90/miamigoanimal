@@ -9546,7 +9546,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.ukcdogs.com/eurasier',
     ],
   },
-  // Checkpoint
   77: {
     weight: {
       imperial: '35 - 50',
@@ -9705,12 +9704,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 800,
       url: 'https://cdn2.thedogapi.com/images/S1KMGg5Vm.jpg',
     },
-    searchTerms: ['Lapphund finlandés', 'Perro de pastoreo'],
     country_code: 'FI',
-    description:
-      'El Lapphund finlandés es un perro de trabajo enérgico y resistente, que se utiliza en su Finlandia natal para pastorear renos. Son conocidos por su resistencia y su espíritu amigable, y hacen compañeros familiares leales y afectuosos.',
-    history:
-      'Originario de la región de Laponia, en el norte de Finlandia, el Lapphund finlandés tiene sus raíces en los perros de trabajo utilizados por los Sami, un pueblo indígena nómada. Durante siglos, estos perros han sido invaluables para los Sami, ayudando a pastorear y proteger a los renos, una parte importante de la economía sami.',
+    description: `
+      El Lapphund finlandés, también conocido como el Pastor de Laponia, es una raza de perro que se originó en las regiones del norte de Finlandia y Suecia, específicamente en Laponia. Este perro robusto y resistente fue criado para ser un perro de trabajo versátil, capaz de soportar las duras condiciones del Ártico. Aunque su apariencia puede recordar a la de un lobo, el Lapphund finlandés es conocido por su temperamento amigable y su lealtad hacia su familia humana.
+      <br>
+      <br>
+      El Lapphund finlandés es un perro de tamaño mediano, con machos que miden entre 46 y 52 cm de altura y hembras que miden entre 41 y 47 cm. Su peso puede variar entre 15 y 24 kg. Esta raza es conocida por su pelaje espeso y resistente al agua, que es especialmente útil para soportar las frías temperaturas del norte de Europa. El pelaje es más largo y abundante alrededor del cuello y la parte posterior de las patas traseras, dando al Lapphund finlandés una apariencia distintiva. El color del pelaje puede variar, pero los colores más comunes son el negro, el marrón y el blanco.
+      <br>
+      <br>
+      El Lapphund finlandés es una raza inteligente y adaptable, conocida por su capacidad para aprender rápidamente y su disposición para trabajar. Originalmente, estos perros eran utilizados por los sami, un pueblo indígena de Laponia, para ayudar con el manejo de los renos. Aunque todavía se utilizan en algunos lugares para este propósito, el Lapphund finlandés también ha encontrado un lugar como perro de compañía en muchos hogares alrededor del mundo.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Lapphund finlandés es conocido por ser amigable y sociable. Aunque pueden ser un poco reservados al principio con los extraños, suelen ser muy afectuosos con su familia humana y se llevan bien con otros perros. También son conocidos por ser buenos con los niños, lo que los convierte en una excelente opción para familias.
+      <br>
+      <br>
+      A pesar de su resistencia y energía, el Lapphund finlandés no es una raza que requiera una cantidad excesiva de ejercicio. Unas cuantas caminatas diarias y tiempo para jugar deberían ser suficientes para mantener a este perro feliz y saludable. Sin embargo, como perro de trabajo, el Lapphund finlandés se beneficia de tener tareas que realizar y problemas que resolver, por lo que el entrenamiento de agilidad y obediencia puede ser una excelente opción para esta raza.
+      <br>
+      <br>
+      En cuanto a su salud, el Lapphund finlandés es generalmente una raza saludable, aunque hay algunas condiciones a las que puede ser propenso, incluyendo la displasia de cadera y ciertos problemas oculares. Como con todas las razas, es importante llevar a cabo chequeos veterinarios regulares y mantener al día las vacunas y desparasitaciones.
+      <br>
+      <br>
+      En resumen, el Lapphund finlandés es una raza de perro resistente, inteligente y amigable que puede ser un excelente compañero para una amplia variedad de hogares. Su capacidad para adaptarse a diferentes entornos y situaciones, junto con su naturaleza amigable y su disposición para trabajar, hacen que sea una raza de perro muy versátil. Ya sea que necesites un perro de trabajo para ayudar con tareas en una granja o un perro de compañía para un hogar en la ciudad, el Lapphund finlandés puede ser una excelente opción.
+    `,
+    history: `
+      La historia del Lapphund finlandés, también conocido como el Pastor de Laponia, es tan antigua como la propia Laponia. Esta raza de perro, resistente y adaptable, ha sido durante mucho tiempo un pilar en las vidas de los pueblos sami, los habitantes indígenas de Laponia, una región que se extiende por el norte de Noruega, Suecia, Finlandia y la península de Kola en Rusia.
+      <br>
+      <br>
+      Los sami han dependido durante siglos de los renos como fuente principal de sustento, y los Lapphunds finlandeses han desempeñado un papel crucial en el manejo de estos rebaños. Los perros eran utilizados para mantener a los renos juntos y para protegerlos de los depredadores. Su resistencia y su capacidad para soportar las duras condiciones del Ártico los hacían perfectamente adecuados para este trabajo.
+      <br>
+      <br>
+      A medida que la sociedad sami comenzó a cambiar y a depender menos de los renos, el papel del Lapphund finlandés también comenzó a cambiar. Aunque todavía se utilizan en algunos lugares para el manejo de los renos, muchos Lapphunds finlandeses han encontrado un nuevo papel como perros de compañía. Su inteligencia, su disposición para trabajar y su temperamento amigable los han hecho populares en este papel.
+      <br>
+      <br>
+      La raza fue reconocida oficialmente en Finlandia en 1945, y el primer estándar de la raza fue establecido en 1948. Sin embargo, no fue hasta 1967 cuando la raza fue reconocida como una raza distinta y no simplemente como una variante del perro de Laponia. Desde entonces, la popularidad del Lapphund finlandés ha crecido tanto en Finlandia como en otros lugares.
+      <br>
+      <br>
+      A pesar de los cambios en su papel a lo largo de los años, el Lapphund finlandés sigue siendo fiel a sus raíces como perro de trabajo. Ya sea que estén trabajando en una granja, compitiendo en pruebas de agilidad o simplemente disfrutando de la vida como un amado miembro de la familia, estos perros son conocidos por su inteligencia, su energía y su amor por la vida.
+      <br>
+      <br>
+      En resumen, la historia del Lapphund finlandés es una historia de adaptabilidad y resistencia. Desde las frías llanuras de Laponia hasta los hogares de todo el mundo, estos perros han demostrado una y otra vez su capacidad para enfrentar cualquier desafío y prosperar.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Buen perro de trabajo',
@@ -9734,6 +9767,48 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Problemas de piel',
     ],
+    searchTerms: [
+      'Lapphund finlandés',
+      'Perro de pastoreo',
+      "Lapphund",
+      "Finlandés",
+      "Pastor de Laponia",
+      "Perro de Laponia",
+      "Perro finlandés",
+      "Perro de reno",
+      "Perro de trabajo",
+      "Perro de frío",
+      "Perro de nieve",
+      "Perro de familia",
+      "Perro de compañía",
+      "Perro resistente",
+      "Perro inteligente",
+      "Perro amigable",
+      "Perro de granja",
+      "Perro de agilidad",
+      "Perro de Laponia",
+      "Perro sami",
+      "Perro de rebaño",
+      "Perro de protección",
+      "Perro de clima frío",
+      "Perro de clima ártico",
+      "Perro de Finlandia",
+      "Perro de pastoreo",
+      "Perro de pastoreo finlandés",
+      "Perro de pastoreo de Laponia",
+      "Perro de pastoreo de renos",
+      "Perro de pastoreo sami",
+      "Perro de pastoreo ártico"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": ["https://en.wikipedia.org/wiki/Finnish_Lapphund", "https://www.dogbreedinfo.com/finnishlapphund.htm"]
   },
   79: {
     weight: {
@@ -9765,12 +9840,40 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 417,
       url: 'https://cdn2.thedogapi.com/images/3PjHlQbkV.jpg',
     },
-    searchTerms: ['Spitz finlandés', 'Perro no deportivo'],
     country_code: 'FI',
-    description:
-      'El Spitz finlandés es una raza de perro antigua, que se originó en Finlandia y fue utilizada para la caza. Es conocido por su inteligencia, su espíritu independiente y su naturaleza vocal. Este perro es leal a su familia y es excelente con los niños, pero puede ser reservado con los extraños.',
-    history:
-      'El Spitz finlandés es una raza de perro antigua, con raíces que se remontan a más de 2,000 años. Se cree que los antiguos pobladores de Finlandia trajeron a estos perros con ellos como compañía y para ayudar en la caza. A lo largo de los siglos, la raza se adaptó al clima frío y las condiciones difíciles de Finlandia, lo que resultó en el resistente y adaptable Spitz finlandés que conocemos hoy.',
+    description: `
+      El Spitz finlandés, también conocido como el perro nacional de Finlandia, es una raza que destaca por su belleza y su vivacidad. Su apariencia es similar a la de un zorro, con un pelaje rojo-dorado que puede variar desde un tono miel pálido hasta un auburn profundo. Este pelaje es especialmente denso y largo en la cola y en la parte posterior de los muslos, lo que le da un aspecto muy distintivo.
+      <br>
+      <br>
+      Este perro es de tamaño mediano, con una estructura cuadrada y bien equilibrada. Los machos son claramente más grandes que las hembras, pero ambos sexos tienen una apariencia robusta y fuerte. Sus ojos son de tamaño medio, de forma almendrada y de preferencia oscuros, lo que le da una expresión viva y alerta. Sus orejas son pequeñas, puntiagudas y muy móviles, lo que añade a su expresión alerta.
+      <br>
+      <br>
+      El Spitz finlandés es conocido por su energía y su carácter amigable. Es un perro activo, vivaz, amistoso, ansioso y leal. Es valiente, pero cauteloso, lo que lo convierte en un excelente perro de compañía y de trabajo. Su naturaleza activa requiere de ejercicio regular para mantenerlo saludable y feliz.
+      <br>
+      <br>
+      En cuanto a su origen, el Spitz finlandés es una raza antigua y establecida, con un estándar de raza escrito desde 1812. Fue utilizado principalmente como perro de caza, una herencia que honra hasta el día de hoy. De hecho, a menudo se le llama el "perro de caza ladrador" debido a su característico ladrido continuo mientras está en la pista.
+      <br>
+      <br>
+      En resumen, el Spitz finlandés es un perro de gran belleza y carácter vivaz. Su apariencia distintiva y su personalidad amigable lo convierten en un excelente compañero para cualquier hogar. Su energía y su necesidad de ejercicio también lo hacen una excelente opción para aquellos que disfrutan de actividades al aire libre y buscan un compañero canino para compartir esas aventuras.
+    `,
+    history: `
+      El Spitz finlandés, también conocido como el perro nacional de Finlandia, tiene una historia rica y fascinante que se remonta a siglos atrás. Esta raza es antigua y establecida, con un estándar de raza escrito que data de 1812. A lo largo de los años, el Spitz finlandés ha mantenido su relevancia y popularidad, y sigue siendo una raza muy apreciada en su país de origen.
+      <br>
+      <br>
+      Los primeros registros de esta raza se remontan a los antiguos cazadores y recolectores de Finlandia, que valoraban a estos perros por su habilidad para cazar una variedad de animales, desde pequeños roedores hasta osos. Los Spitz finlandeses eran conocidos por su habilidad para rastrear el juego y luego mantenerlo a raya con su ladrido distintivo hasta que los cazadores llegaban. De hecho, el Spitz finlandés a menudo se conoce como el "perro de caza que ladra" debido a su tendencia a ladrar continuamente mientras está en la pista.
+      <br>
+      <br>
+      A lo largo de los siglos, el Spitz finlandés ha mantenido su instinto de caza, aunque hoy en día se le valora más como un compañero de familia y un perro de exhibición. Sin embargo, su inteligencia, agilidad y resistencia, junto con su ladrido distintivo, hacen que todavía sea un perro de caza eficaz en las circunstancias adecuadas.
+      <br>
+      <br>
+      A pesar de su antigüedad, la raza no fue reconocida oficialmente hasta el siglo XIX. En 1892, Hugo Roos, un cazador y entusiasta de los perros, notó que la raza pura estaba desapareciendo debido a los cruces con otras razas. Roos decidió rescatar al Spitz finlandés y dedicó los siguientes 30 años a hacerlo, criando solo los perros que consideraba los mejores ejemplares de la raza. Gracias a sus esfuerzos, el Spitz finlandés fue reconocido oficialmente como una raza en Finlandia.
+      <br>
+      <br>
+      En 1979, el Spitz finlandés fue declarado el perro nacional de Finlandia, un testimonio de su importancia y estima en la cultura finlandesa. Aunque no es tan conocido fuera de Finlandia, la raza ha ganado seguidores en todo el mundo, incluyendo en los Estados Unidos, donde fue reconocido por el American Kennel Club en 1988.
+      <br>
+      <br>
+      Hoy en día, el Spitz finlandés es apreciado por su inteligencia, su naturaleza amigable y su hermoso pelaje rojo dorado. Aunque todavía puede ser un perro de caza eficaz, es más probable que se le encuentre como un amado miembro de la familia. Su historia como perro de caza ha dado forma a muchas de las características que amamos en el Spitz finlandés hoy en día, incluyendo su agudo sentido de la audición, su energía inagotable y su amor por el juego.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Bueno para la caza',
@@ -9794,6 +9897,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Problemas de piel',
     ],
+    searchTerms: [
+      'Spitz finlandés',
+      'Perro no deportivo',
+      "Spitz finlandes",
+      "Spitz de Finlandia",
+      "Perro finlandés",
+      "Perro de Finlandia",
+      "Perro Spitz",
+      "Spitz",
+      "Perro nórdico",
+      "Perro de caza",
+      "Perro de caza finlandés",
+      "Perro de caza de Finlandia",
+      "Perro ladrador",
+      "Perro de ladrido",
+      "Perro de ladrido finlandés",
+      "Perro de ladrido de Finlandia",
+      "Perro de familia",
+      "Perro familiar",
+      "Perro para niños",
+      "Perro para familias",
+      "Perro para el hogar",
+      "Perro de compañía",
+      "Perro de compañia",
+      "Perro de compañía finlandés",
+      "Perro de compañia de Finlandia",
+      "Perro de pelo largo",
+      "Perro de pelo rojo",
+      "Perro de pelo rojizo",
+      "Perro de clima frío",
+      "Perro de clima frio",
+      "Perro resistente al frío",
+      "Perro resistente al frio"
+    ],
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+    "https://en.wikipedia.org/wiki/Finnish_Spitz",
+    "https://www.akc.org/dog-breeds/finnish-spitz/",
+    "https://www.dogbreedinfo.com/finnishspitz.htm"
+    ]
   },
   80: {
     weight: {
@@ -9829,12 +9979,55 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 430,
       url: 'https://cdn2.thedogapi.com/images/HyWNfxc47.jpg',
     },
-    searchTerms: ['Bulldog francés', 'Perro no deportivo'],
     country_code: 'FR',
-    description:
-      'El Bulldog francés es una raza de perro pequeña originaria de Francia. Se le conoce por su personalidad juguetona y afectuosa, lo que lo hace un excelente perro de compañía. Aunque es pequeño, es atlético y requiere ejercicio regular. Es conocido por ser sociable y fácil de llevar, pero también alerta, lo que lo hace un buen perro guardián.',
-    history:
-      'El Bulldog francés se originó en Francia en el siglo XIX, principalmente como un perro faldero para complementar el estilo de vida de sus dueños. Fueron criados a partir de Bulldogs en miniatura de Inglaterra y pronto ganaron popularidad en toda Europa y más allá. Hoy en día, son amados por su apariencia distintiva y su carácter amistoso.',
+    description: `
+      El Bulldog Francés es una raza de perro que se ha ganado el corazón de muchos dueños de mascotas en todo el mundo debido a su apariencia única y su personalidad encantadora. Este perro pequeño pero robusto es conocido por su cabeza grande y cuadrada, sus orejas de murciélago y su cuerpo musculoso. Aunque su apariencia puede parecer intimidante para algunos, en realidad son criaturas muy cariñosas y amigables que disfrutan de la compañía de las personas.
+      <br>
+      <br>
+      El Bulldog Francés es una raza que se originó en Francia, aunque sus raíces se remontan a los Bulldogs en miniatura de Inglaterra. Fueron criados originalmente por encajeros ingleses que se trasladaron a Francia en busca de trabajo, y pronto se convirtieron en una raza popular entre los trabajadores de los mercados parisinos, los carniceros y los cocheros. Con el tiempo, su popularidad se extendió a la alta sociedad y al mundo artístico debido a su apariencia y carácter únicos.
+      <br>
+      <br>
+      Estos perros son conocidos por su naturaleza afectuosa y sociable. Son animados y juguetones, pero no son bulliciosos. A pesar de su tamaño pequeño, son perros poderosos y activos, con una musculatura bien desarrollada. Son perros inteligentes, y aunque pueden ser un poco tercos a veces, también son ansiosos por complacer y son conocidos por su lealtad hacia sus dueños.
+      <br>
+      <br>
+      El Bulldog Francés tiene un pelaje corto, suave y brillante que es fácil de cuidar. Aunque pueden tener una variedad de colores de pelaje, los colores más comunes son el leonado y el atigrado. Algunos también pueden tener marcas blancas. Su piel es suave y suelta, formando pliegues alrededor de la cabeza y los hombros.
+      <br>
+      <br>
+      Uno de los rasgos más distintivos del Bulldog Francés es sus orejas, que se describen como "orejas de murciélago". Son amplias en la base y redondas en la parte superior, y se llevan erguidas, lo que les da una apariencia alerta y curiosa.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Bulldog Francés es conocido por ser un perro tranquilo y amigable. Son excelentes compañeros y se llevan bien con otros perros y mascotas. Aunque pueden ser un poco reservados con los extraños al principio, una vez que se sienten cómodos, son muy amigables y sociables. Son perros que disfrutan de la compañía de las personas y les encanta ser el centro de atención.
+      <br>
+      <br>
+      El Bulldog Francés es un perro de tamaño pequeño a mediano. Los machos suelen medir entre 10 y 14 pulgadas de altura, mientras que las hembras suelen medir entre 9 y 12 pulgadas. En cuanto al peso, los machos suelen pesar entre 20 y 31 libras, mientras que las hembras suelen pesar entre 18 y 29 libras.
+      <br>
+      <br>
+      A pesar de su apariencia robusta, el Bulldog Francés es un perro bastante activo y necesita una cantidad moderada de ejercicio para mantenerse saludable. Les encanta jugar y pueden ser bastante enérgicos, pero también disfrutan de sus siestas y son bastante propensos a la relajación. No son perros que necesiten grandes espacios para vivir, por lo que son una excelente opción para aquellos que viven en apartamentos o casas pequeñas.
+      <br>
+      <br>
+      El Bulldog Francés es un perro que se adapta bien a diferentes estilos de vida. Son perros que pueden ser felices tanto en un hogar tranquilo como en uno más activo. Sin embargo, es importante recordar que, como cualquier perro, necesitan atención, cuidado y socialización adecuados para ser felices y saludables.
+      <br>
+      <br>
+      En cuanto a su salud, el Bulldog Francés es generalmente un perro saludable, pero como todas las razas, pueden ser propensos a ciertos problemas de salud. Algunos de los problemas de salud más comunes en los Bulldogs Franceses incluyen problemas respiratorios debido a su hocico corto, problemas de piel, problemas oculares y problemas de cadera. Es importante tener en cuenta que no todos los Bulldogs Franceses tendrán estos problemas, pero es importante estar consciente de ellos si estás considerando esta raza.
+      <br>
+      <br>
+      En resumen, el Bulldog Francés es un perro encantador y cariñoso que puede ser un gran compañero. Son perros que aman la compañía de las personas y son conocidos por su naturaleza amigable y su personalidad juguetona. Aunque pueden tener algunos problemas de salud potenciales, con el cuidado y la atención adecuados, pueden ser perros saludables y felices que pueden brindar mucha alegría a sus dueños.
+    `,
+    history: `
+      La historia del Bulldog Francés es una narrativa fascinante que se entrelaza con la historia de la industrialización y la moda en Europa. Aunque su nombre sugiere un origen francés, la raza en realidad tiene sus raíces en Inglaterra. Durante la Revolución Industrial en el siglo XIX, muchos trabajadores de encaje en Nottingham, Inglaterra, se encontraron desplazados por las nuevas máquinas de encaje. Algunos de estos trabajadores emigraron a Francia, donde su oficio todavía estaba en demanda, y llevaron consigo a sus pequeños Bulldogs, que eran mascotas populares entre los trabajadores de encaje.
+      <br>
+      <br>
+      Una vez en Francia, estos Bulldogs Ingleses miniatura se cruzaron con varias razas locales. Aunque no se sabe con certeza qué razas se utilizaron, se cree que los Terriers y los Pugs pueden haber jugado un papel. El resultado fue un perro más pequeño y más ligero con orejas grandes y erectas, una característica que no se ve en los Bulldogs Ingleses. Estos nuevos Bulldogs se convirtieron en una sensación en París, especialmente entre los trabajadores de los mercados de París, los carniceros y los cocheros. Su popularidad creció rápidamente y pronto se ganaron el favor de la alta sociedad y el mundo artístico.
+      <br>
+      <br>
+      El primer club de la raza se formó en París en 1880, y el primer estándar de la raza se estableció en 1898, el mismo año en que el Kennel Club francés reconoció la raza. Durante este tiempo, la raza también comenzó a ganar popularidad en América y en otros lugares. Los Bulldogs Franceses se exhibieron en la exposición canina de Westminster en Nueva York en 1896, y el French Bulldog Club of America se formó poco después, en 1897.
+      <br>
+      <br>
+      A lo largo de los años, el Bulldog Francés ha continuado ganando corazones en todo el mundo con su apariencia única y su personalidad encantadora. Aunque la raza ha experimentado algunos desafíos de salud debido a su conformación física, los criadores dedicados han trabajado duro para garantizar la salud y el bienestar de estos perros adorables.
+      <br>
+      <br>
+      Hoy en día, el Bulldog Francés es una de las razas de perros más populares en muchos países, incluidos los Estados Unidos, el Reino Unido y Australia. Su tamaño manejable, su naturaleza afectuosa y su apariencia distintiva los convierten en una opción popular para una variedad de hogares. Aunque su historia puede haber comenzado en las calles de París, el Bulldog Francés ha dejado una huella indeleble en el mundo de los perros y continúa deleitando a los amantes de los perros en todo el mundo.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno como perro de compañía',
@@ -9858,6 +10051,61 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas respiratorios',
       'Problemas de piel',
     ],
+    searchTerms: [
+      'Bulldog francés',
+      'Perro no deportivo',
+      "Bulldog Frances",
+      "Bulldog",
+      "Frances",
+      "Francés",
+      "Buldog Frances",
+      "Buldog Francés",
+      "Bulldog frances",
+      "Bulldog frances",
+      "Bulldog franses",
+      "Bulldog fransés",
+      "Bulldog franses",
+      "Bulldog fransés",
+      "Bulldog de Francia",
+      "Perro francés",
+      "Perro de Francia",
+      "Bulldog de Paris",
+      "Bulldog Paris",
+      "Bulldog de París",
+      "Bulldog París",
+      "Perro de compañía",
+      "Perro de apartamento",
+      "Perro pequeño",
+      "Perro cariñoso",
+      "Perro amigable",
+      "Perro para niños",
+      "Perro para familia",
+      "Perro para la ciudad",
+      "Perro para interior",
+      "Perro de raza pequeña"
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Stella',
+        caso: 'Perro de la serie de televisión "Modern Family"'
+      },
+      {
+        nombre: 'Manny',
+        caso: 'Uno de los perros más seguidos en Instagram'
+      }
+    ],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/French_Bulldog",
+      "https://www.dogbreedinfo.com/frenchbulldog.htm",
+      "https://www.ukcdogs.com/french-bulldog"
+    ]
   },
   81: {
     weight: {
@@ -9889,12 +10137,40 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 480,
       url: 'https://cdn2.thedogapi.com/images/B1u4zgqE7.jpg',
     },
-    searchTerms: ['Pinscher alemán', 'Perro de trabajo'],
     country_code: 'DE',
-    description:
-      'El Pinscher alemán es una raza de perro de tamaño mediano que se originó en Alemania. Son conocidos por su inteligencia y su naturaleza vivaz. Aunque son perros de trabajo, también son cariñosos y hacen buenas mascotas familiares. A pesar de su tamaño, son perros enérgicos y necesitan ejercicio regular.',
-    history:
-      'El Pinscher alemán se originó en Alemania como perro de trabajo, utilizado para cazar alimañas en las granjas. Son una de las razas de perros más antiguas de Alemania y la base para muchas otras razas de Pinscher. A pesar de su historia de trabajo, han ganado popularidad como mascotas familiares debido a su naturaleza cariñosa y su inteligencia.',
+    description: `
+      El Pinscher alemán es una raza de perro de tamaño mediano que se originó en Alemania. Esta raza es conocida por su elegancia, su musculatura bien desarrollada y su apariencia poderosa y cuadrada. Aunque son perros de tamaño mediano, los Pinschers alemanes son extremadamente fuertes y ágiles, lo que los hace excelentes perros de trabajo.
+      <br>
+      <br>
+      Los Pinschers alemanes son perros bien equilibrados con líneas elegantes y fluidas. Tienen una cabeza fuerte pero no pesada, que se asemeja a una cuña roma cuando se ve desde arriba y desde el lado. Sus ojos son oscuros y ovalados, y siempre están atentos y mirando hacia adelante. Sus orejas pueden ser cortadas o dejadas naturales, pero en cualquier caso, se colocan altas en la cabeza.
+      <br>
+      <br>
+      Estos perros tienen un pelaje corto y denso que se ajusta suavemente a su cuerpo. El pelaje es brillante y no tiene manchas calvas. Los colores sólidos varían desde el leonado (Isabella) hasta el rojo ciervo, en varios tonos. También se pueden encontrar en colores bicolor, como el negro con marcas rojizas/marrones y el azul con marcas rojizas/marrones.
+      <br>
+      <br>
+      Los Pinschers alemanes son perros juguetones, de buen carácter, leales, vigilantes, valientes y seguros de sí mismos. Son conocidos por ser perros de trabajo, y su nivel de energía es alto. Necesitan mucho ejercicio y estimulación mental para mantenerse felices y saludables. A pesar de su tamaño, son perros muy activos que necesitan mucho espacio para correr y jugar.
+      <br>
+      <br>
+      Estos perros son conocidos por su inteligencia y su deseo de complacer. Son fáciles de entrenar y están dispuestos a aprender cosas nuevas. Sin embargo, también pueden ser un poco tercos a veces, por lo que es importante ser consistente y firme en el entrenamiento.
+      <br>
+      <br>
+      En cuanto a su relación con los niños y otros perros, los Pinschers alemanes pueden ser un poco reservados. No son la mejor opción para las familias con niños pequeños, ya que pueden ser un poco nerviosos y protectores. Sin embargo, si se socializan adecuadamente desde una edad temprana, pueden llevarse bien con los niños y otros perros.
+      <br>
+      <br>
+      En resumen, el Pinscher alemán es un perro fuerte, activo y leal que necesita un dueño que pueda proporcionarle suficiente ejercicio y estimulación mental. Son perros inteligentes y entrenables, pero también pueden ser un poco tercos. Con la socialización y el entrenamiento adecuados, pueden ser excelentes compañeros de familia.
+    `,
+    history: `
+      La historia del Pinscher alemán es una historia de resiliencia y supervivencia. Esta raza, reconocida en Alemania, su país de origen, desde 1879, estuvo al borde de la extinción después de la Segunda Guerra Mundial. Fue Werner Jung, un criador alemán, quien se propuso revivir la raza. Durante un período en el que no se registraron camadas de Pinscher alemán entre 1949 y 1957, Jung comenzó a trabajar con una hembra de pura raza de edad avanzada, Kitti v. Bodestrand, y utilizó Pinscher miniatura de mayor tamaño para reestablecer la raza. Todos los Pinscher alemanes actuales descienden de esta "madre fundadora".
+      <br>
+      <br>
+      El Pinscher alemán fue reconocido por el United Kennel Club en marzo de 1991, marcando un hito importante en la historia de esta raza. A pesar de los desafíos y las dificultades, el Pinscher alemán ha sobrevivido y prosperado, manteniendo su lugar como una raza de perro apreciada y respetada en todo el mundo.
+      <br>
+      <br>
+      A lo largo de su historia, el Pinscher alemán ha sido valorado por su naturaleza alerta, su buen carácter, su espíritu juguetón y su lealtad. Estos perros son conocidos por ser vigilantes y valientes, siempre dispuestos a proteger a su familia. A pesar de su tamaño mediano, son perros poderosos y bien musculados, con una apariencia elegante y líneas fluidas.
+      <br>
+      <br>
+      La historia del Pinscher alemán es un testimonio de la dedicación y el compromiso de los criadores para preservar y mejorar la raza. A través de su trabajo, esta raza ha sido capaz de superar la adversidad y continuar siendo una raza de perro querida y respetada en todo el mundo.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Bueno como perro de vigilancia',
@@ -9919,6 +10195,48 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Cataratas',
       'Problemas de la piel',
     ],
+    searchTerms: [
+      'Pinscher alemán',
+      'Perro de trabajo',
+      "Pinscher aleman",
+      "Pinscher",
+      "Aleman",
+      "Perro aleman",
+      "Perro de trabajo",
+      "Perro de compañía",
+      "Perro guardián",
+      "Perro de familia",
+      "Pinscher de Alemania",
+      "Pinscher de alemania",
+      "Pinscher Germano",
+      "Pinscher germano",
+      "Perro mediano",
+      "Perro musculoso",
+      "Perro elegante",
+      "Perro de pelo corto",
+      "Perro de orejas puntiagudas",
+      "Perro de cola corta",
+      "Perro de lomo recto",
+      "Perro de pecho ancho",
+      "Perro de patas fuertes",
+      "Perro de patas traseras musculosas",
+      "Perro de patas delanteras rectas",
+      "Perro de cabeza en forma de cuña",
+      "Perro de hocico fuerte",
+      "Perro de ojos oscuros",
+      "Perro de mirada viva",
+      "Perro de expresión alerta",
+      "Perro de movimientos ágiles"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": ["https://en.wikipedia.org/wiki/German_Pinscher", "https://www.akc.org/dog-breeds/german-pinscher/", "https://www.dogbreedinfo.com/germanpinscher.htm", "https://www.ukcdogs.com/german-pinscher"]
   },
   82: {
     weight: {
@@ -9952,12 +10270,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 425,
       url: 'https://cdn2.thedogapi.com/images/SJyBfg5NX.jpg',
     },
-    searchTerms: ['Pastor alemán', 'Perro de pastoreo'],
     country_code: 'DE',
-    description:
-      'El Pastor alemán es una raza de perro grande conocida por su inteligencia y versatilidad como perro de trabajo. Su carácter es leal, confiable y se asocia a menudo con roles en la policía, la búsqueda y el rescate, así como con perros de servicio. Es una raza altamente activa y disfruta de tener un trabajo que hacer.',
-    history:
-      'El Pastor alemán se originó en Alemania a finales del siglo XIX, inicialmente como perro de pastoreo. Su inteligencia, obediencia y versatilidad rápidamente lo llevaron a ser usado en muchos otros roles, incluyendo como perro de trabajo para la policía y el ejército. Es una de las razas más populares en el mundo.',
+    description: `
+
+    `,
+    history: `
+
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Altamente inteligente y versátil',
@@ -9983,6 +10302,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de codo',
       'Miocardiopatía',
     ],
+    searchTerms: [
+      'Pastor alemán',
+      'Perro de pastoreo',
+
+    ],
+
   },
   83: {
     weight: {
