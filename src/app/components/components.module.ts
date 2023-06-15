@@ -8,7 +8,6 @@ import { BgVideoComponent } from './bg-video/bg-video.component';
 import { ClippedSectionWithBgImgComponent } from './clipped-section-with-bg-img/clipped-section-with-bg-img.component';
 import { FlippingCardComponent } from './flipping-card/flipping-card.component';
 import { TestimonialCardComponent } from './testimonial-card/testimonial-card.component';
-import { PetCardComponent } from './pet-card/pet-card.component';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { PipesModule } from '../pipes/pipes.module';
 import { BgImageCardComponent } from './bg-image-card/bg-image-card.component';
@@ -46,7 +45,6 @@ import { ExpandableTextComponent } from './expandable-text/expandable-text.compo
     ClippedSectionWithBgImgComponent,
     FlippingCardComponent,
     TestimonialCardComponent,
-    PetCardComponent,
     SpinnerComponent,
     BgImageCardComponent,
     AccordionComponent,
@@ -83,7 +81,6 @@ import { ExpandableTextComponent } from './expandable-text/expandable-text.compo
     ClippedSectionWithBgImgComponent,
     FlippingCardComponent,
     TestimonialCardComponent,
-    PetCardComponent,
     SpinnerComponent,
     BgImageCardComponent,
     AccordionComponent,

@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, TransferState, makeStateKey } from '@angular/core';
 import { PerrosService } from 'src/app/services/perros.service';
 import { UtilitiesService } from 'src/app/services/utilities.service';
 
@@ -16,13 +16,38 @@ export class RecentArticleCardComponent implements OnInit {
 
   selectedImage: string = '';
 
-  constructor(private utilitiesSrv: UtilitiesService, private perrosService: PerrosService) {}
+  constructor(
+    private utilitiesSrv: UtilitiesService,
+    private perrosService: PerrosService,
+    private transferState: TransferState
+  ) {}
 
   ngOnInit() {
+    this.setBackgroundImage();
+  }
 
-    if (this.type === 'dog') {  this.selectedImage = this.perrosService.setDogBreedImage(this.title, this.type) }
-    else if (this.type === 'cat') { this.selectedImage = this.setCatBreedImage() }
-    else { this.selectedImage =  this.utilitiesSrv.selectImage( this.type ) }
+  private setBackgroundImage() {
+    const IMAGE_KEY = makeStateKey<string>('recent-article-card-bg-image');
+
+    // Estoy del lado del cliente
+    if (this.transferState.hasKey(IMAGE_KEY))
+    {
+
+      this.selectedImage = this.transferState.get(IMAGE_KEY, this.utilitiesSrv.selectImage( this.type ));
+      this.transferState.remove(IMAGE_KEY);
+
+    }
+
+    else
+    {
+
+      if (this.type === 'dog') {  this.selectedImage = this.perrosService.setDogBreedImage(this.title, this.type) }
+      else if (this.type === 'cat') { this.selectedImage = this.setCatBreedImage() }
+      else { this.selectedImage =  this.utilitiesSrv.selectImage( this.type ) }
+
+      this.transferState.set(IMAGE_KEY, this.selectedImage);
+
+    }
 
   }
 

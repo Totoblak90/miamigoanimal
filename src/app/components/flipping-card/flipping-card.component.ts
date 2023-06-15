@@ -1,5 +1,5 @@
 import { isPlatformBrowser } from '@angular/common';
-import { OnInit, AfterViewInit, Component, ElementRef, Input, ViewChild, OnDestroy, PLATFORM_ID, Inject } from '@angular/core';
+import { OnInit, AfterViewInit, Component, ElementRef, Input, ViewChild, OnDestroy, PLATFORM_ID, Inject, makeStateKey, TransferState } from '@angular/core';
 import { UtilitiesService } from 'src/app/services/utilities.service';
 
 @Component({
@@ -36,17 +36,43 @@ export class FlippingCardComponent implements OnInit, AfterViewInit, OnDestroy {
     }
   }
 
-  constructor(private utilitiesSrv: UtilitiesService, @Inject(PLATFORM_ID) private platformId: Object) {}
+  constructor(
+    private utilitiesSrv: UtilitiesService,
+    private transferState: TransferState,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {}
 
   ngOnInit() {
-    if (this.providedImg) { this.selectedImage = this.utilitiesSrv.selectImage( this.type, this.providedImg, false ) }
+    this.setBackgroundImage();
+  }
+
+  private setBackgroundImage() {
+    const IMAGE_KEY = makeStateKey<string>('flipping-card-bg-image');
+
+    // Estoy del lado del cliente
+    if (this.transferState.hasKey(IMAGE_KEY))
+    {
+
+      this.selectedImage = this.transferState.get(IMAGE_KEY, this.utilitiesSrv.selectImage( this.type ));
+      this.transferState.remove(IMAGE_KEY);
+
+    }
 
     else
     {
-      this.selectedImage =  this.type === 'cat' ? this.utilitiesSrv.selectImage( this.type ) :
-                            this.type === 'dog' ? this.utilitiesSrv.selectImage( this.type ) :
-                            ''
+
+      if (this.providedImg) { this.selectedImage = this.utilitiesSrv.selectImage( this.type, this.providedImg, false ) }
+
+      else
+      {
+        this.selectedImage =  this.type === 'cat' ? this.utilitiesSrv.selectImage( this.type ) :
+                              this.type === 'dog' ? this.utilitiesSrv.selectImage( this.type ) :
+                              ''
+      }
+
+      this.transferState.set(IMAGE_KEY, this.selectedImage);
     }
+
   }
 
   ngAfterViewInit() {

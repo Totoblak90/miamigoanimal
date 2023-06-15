@@ -109,13 +109,14 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
 
   private setBackgroundImage() {
-    const IMAGE_KEY = makeStateKey<string>('selectedImage');
+    const IMAGE_KEY = makeStateKey<string>('hero-section-background-image');
 
     // Estoy del lado del cliente
     if (this.transferState.hasKey(IMAGE_KEY))
     {
 
-      this.selectedImage = this.transferState.get(IMAGE_KEY, 'https://esferamascota.b-cdn.net/alimentacion-hero.webp');
+      const type = this.bckColour === 'cat' ? 'cat' : this.bckColour === 'dog' ? 'dog' : 'extra';
+      this.selectedImage = this.transferState.get(IMAGE_KEY, this.utilitiesSrv.selectImage( type ));
       this.transferState.remove(IMAGE_KEY);
 
     }
