@@ -85,7 +85,7 @@ export class BuscadorComponent implements OnDestroy {
 
         let selectedImage: string | undefined;
 
-        if (articleType === 'dog') selectedImage = this.perrosService.setDogBreedImage(article.recent_card_title, articleType, true)
+        if (articleType === 'dog') selectedImage = this.perrosService.setDogBreedImage(article.recent_card_title)
 
         return {
           title: article.recent_card_title,

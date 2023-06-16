@@ -42,13 +42,15 @@ export class RecentArticleCardComponent implements OnInit {
     }
 
     // Estoy del lado del servidor
-    else { this.transferState.set(IMAGE_KEY, this.selectedImage); }
+    else {
+      this.transferState.set(IMAGE_KEY, this.selectedImage);
+    }
 
   }
 
   private setSelectedImage() {
 
-    if (this.type === 'dog') {  this.selectedImage = this.perrosService.setDogBreedImage(this.title, this.type) }
+    if (this.type === 'dog') {  this.selectedImage = this.perrosService.setDogBreedImage(this.title) }
     else if (this.type === 'cat') { this.selectedImage = this.setCatBreedImage() }
     else { this.selectedImage =  this.utilitiesSrv.selectImage( this.type ) }
 

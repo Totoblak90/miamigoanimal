@@ -61,21 +61,6 @@
       clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
       border-top-left-radius: 3px;
       border-top-right-radius: 3px;
-
-      &--cat {
-          background-image: linear-gradient(to right bottom, $color-cat-light, $color-cat-dark),
-          url(https://esferamascota.b-cdn.net/destacados-gatos.webp);
-      }
-
-      &--extra {
-          background-image: linear-gradient(to right bottom, $color-extra-light, $color-extra-dark),
-          url(https://esferamascota.b-cdn.net/destacados-extra.webp);
-      }
-
-      &--dog {
-          background-image: linear-gradient(to right bottom, $color-dog-light, $color-dog-dark),
-          url(https://esferamascota.b-cdn.net/destacados-perros.webp);
-      }
   }
 
   &__heading {
