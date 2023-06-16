@@ -7,7 +7,6 @@ import { ArticlesService } from 'src/app/services/articles.service';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
 import { PerrosService } from 'src/app/services/perros.service';
-import { UtilitiesService } from 'src/app/services/utilities.service';
 
 @Component({
   selector: 'aaa-article-search',
@@ -45,6 +44,7 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
         searchResults = searchResults.filter(article => this.articlesService.filterArticleList(article, this.searchForm.get('searchTerm')?.value));
       }
 
+      // Ordeno los artículos por destacados y luego por fecha de creación
       const highlightedArticles = searchResults.filter(article => article.destacado).sort((a, b) => new Date(a.creation) > new Date(b.creation) ? 1 : -1);
       const notHighlitedArticles = searchResults.filter(article => !article.destacado).sort((a, b) => new Date(a.creation) > new Date(b.creation) ? 1 : -1);
       const sortedArticles = [...highlightedArticles, ...notHighlitedArticles]
@@ -53,8 +53,9 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
 
         const articleType = article.categories.includes('Perros') ? 'dog' : 'cat';
         let selectedImage: string = '';
-        if (articleType === 'dog') selectedImage = this.perrosService.setDogBreedImage(article.recent_card_title, undefined, true)
 
+        // Si el título del artículo tiene el nombre de una raza, se usa esa imagen
+        if (articleType === 'dog') selectedImage = this.perrosService.setDogBreedImage(article.recent_card_title, undefined, true)
 
         return {
           title: article['card-heading'],
@@ -108,20 +109,24 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
     private perrosService: PerrosService,
     private fb: FormBuilder,
     private activatedRoute: ActivatedRoute,
-    private utilitiesService: UtilitiesService,
   ) {
-    const preselectedSearchType = this.activatedRoute.snapshot.queryParams['type'];
-    if (preselectedSearchType === 'articulos' || preselectedSearchType === 'razas')
-       { this.searchForm.get('searchType')?.setValue(preselectedSearchType); }
 
     this._setMetaTags();
+    this.checkQueryParams();
     this.navigationService.navigationBg.set('extra');
     this.subscribeToSearchTermChange();
     this.subscribeToSearchTypeChange();
+
   }
 
   ngOnInit() {
     this.updatePage();
+  }
+
+  private checkQueryParams() {
+    const preselectedSearchType = this.activatedRoute.snapshot.queryParams['type'];
+    if (preselectedSearchType === 'articulos' || preselectedSearchType === 'razas')
+       { this.searchForm.get('searchType')?.setValue(preselectedSearchType); }
   }
 
   private _setMetaTags() {
