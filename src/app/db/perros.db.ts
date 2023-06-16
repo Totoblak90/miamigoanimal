@@ -15509,9 +15509,9 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Feliz',
     ],
     origin: 'Reino Unido',
-    reference_image_id: 'perros-jack-russell.webp',
+    reference_image_id: 'razas-jack-russell.webp',
     image: {
-      id: 'perros-jack-russell.webp',
+      id: 'razas-jack-russell.webp',
       width: 1920,
       height: 1280,
       url: 'https://esferamascota.b-cdn.net/perros-jack-russell.webp',
