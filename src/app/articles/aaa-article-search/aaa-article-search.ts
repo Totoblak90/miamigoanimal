@@ -7,6 +7,7 @@ import { ArticlesService } from 'src/app/services/articles.service';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
 import { PerrosService } from 'src/app/services/perros.service';
+import { UtilitiesService } from 'src/app/services/utilities.service';
 
 @Component({
   selector: 'aaa-article-search',
@@ -49,9 +50,11 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
       const sortedArticles = [...highlightedArticles, ...notHighlitedArticles]
 
       return sortedArticles.map(article => {
+
         const articleType = article.categories.includes('Perros') ? 'dog' : 'cat';
-        let selectedImage: string | undefined;
-        if (articleType === 'dog') selectedImage = this.perrosService.setDogBreedImage(article.recent_card_title, articleType, true)
+        let selectedImage: string = '';
+        if (articleType === 'dog') selectedImage = this.perrosService.setDogBreedImage(article.recent_card_title, undefined, true)
+
 
         return {
           title: article['card-heading'],
@@ -85,7 +88,7 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
           type: breed.type as 'cat' | 'dog',
           href: ['/perros', breed.id],
           queryParams: { raza: breed.name.split(' ').join('-').toLocaleLowerCase() },
-          img: breed.image.url || '',
+          img: breed.image.url,
           defaultRedirect: false
         }
       })
@@ -104,7 +107,8 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
     private articlesService: ArticlesService,
     private perrosService: PerrosService,
     private fb: FormBuilder,
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private utilitiesService: UtilitiesService,
   ) {
     const preselectedSearchType = this.activatedRoute.snapshot.queryParams['type'];
     if (preselectedSearchType === 'articulos' || preselectedSearchType === 'razas')
