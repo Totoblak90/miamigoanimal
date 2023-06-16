@@ -134,7 +134,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
       if (this.bckColour === 'dog') {
 
-        const dog = this.findADog();
+        const dog = this.findADogByBreedName();
         this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour, dog?.image?.url || undefined )
       }
 
@@ -145,7 +145,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
   }
 
-  private findADog(): Dog | undefined {
+  private findADogByBreedName(): Dog | undefined {
 
     const perros = Object.values(this.perrosService.dogListSignal());
 
