@@ -9,14 +9,15 @@ import { NavigationService } from 'src/app/services/navigation.service';
 })
 export class PerritasAdorablesTodoLoQueNecesitasSaberSobreEstasTiernasMascotasComponent {
 
-  title = ' Todo lo que necesitas saber sobre las tiernas perritas adorables! 🐶'
+  title = 'Todo lo que necesitas saber sobre las tiernas perritas adorables! 🐶'
   description = '¡Bienvenido al artículo "Perritas adorables" de EsferaMascota! Aquí hay consejos para cuidar un nuevo perro, razas, alimentación, mascota pequeña y más ¡Descúbrelo!'
+  keywords = "perritas adorables, cuidado de perros, razas de perros, alimentación de perros, mascota pequeña, pomerania, shar pei, bichón maltés, samoyedo, chow chow, pug, nombres para perras, consejos para cuidar a un nuevo perro, alimentación canina, ejercicio para perros, personalidades de perros, mascotas pequeñas, personalidades juguetonas, mascotas para apartamentos, perros y niños, seguridad con mascotas, carlinos, salud de los carlinos, entrenamiento de carlinos, compromiso con las mascotas"
 
   constructor(
     private meta: MetaService,
     private navigationService: NavigationService
   ) {
-    this.meta.setMetaTags(this.title, this.description)
+    this.meta.setMetaTags(this.title, this.description, '', true, 'Tobias Blaksley', this.keywords)
     this.navigationService.navigationBg.set('dog');
   }
 

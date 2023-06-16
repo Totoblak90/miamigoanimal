@@ -23,6 +23,23 @@ NO ME DES UN RESÚMEN DEL ARTÍCULO SIMPLEMENTE CUMPLÍ CON LO QUE TE PIDO ARRIB
 El artículo es el siguiente:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PROMPT PARA KEYWWORDS
+
+Hola!
+
+Tengo un blog de perros y gatos, quiero agregar la meta etiqueta de keywords para SEO de cada artículo y quiero que me ayudes con eso.
+Mi blog lo estoy desarrollando con angular universal. Yo te voy a pasar el meta title del artículo, la meta descripción del mismo y el artículo en sí.
+Quiero que me digas si la relación entre el título y la meta descripción es correcta con el contenido del artículo y luego que me des un listado de keywords
+para armar la meta tag.
+
+Para las keywords quiero que me retornes un string con todas las palabras dentro, separadas por coma.
+
+Puede ser?
+
+Los datos son los siguientes:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
  */
 
 @Injectable({

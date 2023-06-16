@@ -11,12 +11,13 @@ export class AdoptaALosGatitosMasTiernosYJuguetonesEncuentraTuCompaneroFelinoIde
 
   title = 'Adopta los Gatitos más Tiernos y Juguetones | esferaMascota 🐱'
   description = '¡Conoce a los gatitos más tiernos y juguetones! Visita EsferaMascota para encontrar a tu compañero felino ideal✨.'
+  keywords = 'Adopción de gatos, Gatitos tiernos y juguetones, Cuidado de gatos, EsferaMascota, Refugios para gatos, Proceso de adopción de gatos, Costes de adopción de gatos, Requisitos para adoptar gatos, Beneficios de tener gatos, Asociaciones de protección de felinos, Gatos en Madrid, Gatos y salud, Razas de gatos, SOS Felinos Madrid, Vínculo con gatos'
 
   constructor(
     private meta: MetaService,
     private navigationService: NavigationService,
   ) {
-    this.meta.setMetaTags(this.title, this.description)
+    this.meta.setMetaTags(this.title, this.description, '', true, 'Tobias Blaksley', this.keywords)
     this.navigationService.navigationBg.set('cat');
   }
 }

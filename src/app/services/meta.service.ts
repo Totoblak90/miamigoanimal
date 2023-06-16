@@ -18,7 +18,7 @@ export class MetaService {
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
 
-  setMetaTags( title = '', description = '', canonical = '', follow = true, author = 'Tobias Blaksley', )
+  setMetaTags( title = '', description = '', canonical = '', follow = true, author = 'Tobias Blaksley', keywords = '')
   {
 
     if (!title) { title = 'Esfera mascota - Consejos y Guías Detalladas para tus Mascotas'}
@@ -34,10 +34,11 @@ export class MetaService {
 
   }
 
-  private addBasicTags(title: string, description: string, author: string, follow: boolean) {
+  private addBasicTags(title: string, description: string, author: string, follow: boolean, keywords?: string) {
     this.title.setTitle(title);
     this.meta.updateTag({ name: 'description', content: description })
     this.meta.updateTag({ name: 'author', content: author || 'Tobias Blaksley' })
+    if (keywords) this.meta.updateTag({ name: 'keywords', content: keywords})
 
     if (follow) { this.meta.updateTag({ name: 'robots', content: 'index, follow' }) }
     else { this.meta.updateTag({ name: 'robots', content: 'noindex, follow' }) }

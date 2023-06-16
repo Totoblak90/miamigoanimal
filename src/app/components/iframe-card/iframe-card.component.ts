@@ -13,7 +13,7 @@ export class IframeCardComponent {
   videoLoaded: boolean = false;
 
   get videoUrl() {
-    return `https://www.youtube.com/embed/${this.videoId}?autoplay=1&mute=1`;
+    return `https://www.youtube.com/embed/${this.videoId}?autoplay=1`;
   }
 
   get thumbnailUrl() {

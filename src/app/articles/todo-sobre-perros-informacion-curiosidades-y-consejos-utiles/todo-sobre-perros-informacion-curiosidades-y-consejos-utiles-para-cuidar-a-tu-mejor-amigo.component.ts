@@ -11,12 +11,13 @@ export class TodoSobrePerrosInformacionCuriosidadesYConsejosUtilesParaCuidarATuM
 
   title = 'Perros: información curiosidades y consejos útiles para cuidar a tu mejor amigo'
   description = '¡Somos expertos en perros! ¡Nuestra guía te contará curiosidades, consejos útiles y toda la información que necesitas para cuidar a tu mejor amigo!'
+  keywords = "perros, cuidado de perros, información sobre perros, consejos para perros, elegir raza de perro, salud del perro, nutrición del perro, adiestramiento de perros, socialización de perros, consejos para el cuidado del perro, ejercicio para perros, tiempo de juego para perros, problemas médicos comunes en perros, tratamientos para perros, viajar con perros"
 
   constructor(
     private meta: MetaService,
     private navigationService: NavigationService
   ) {
-    this.meta.setMetaTags(this.title, this.description)
+    this.meta.setMetaTags(this.title, this.description, '', true, 'Tobias Blaksley', this.keywords)
     this.navigationService.navigationBg.set('dog');
   }
 
