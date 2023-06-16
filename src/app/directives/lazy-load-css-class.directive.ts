@@ -1,35 +1,33 @@
 import { isPlatformBrowser } from '@angular/common';
-import { Directive, ElementRef, Inject, Input, PLATFORM_ID } from '@angular/core';
+import { AfterViewInit, Directive, ElementRef, Inject, Input, OnDestroy, PLATFORM_ID } from '@angular/core';
+import { LazyLoadingService } from '../services/lazy-loading.service';
 
 @Directive({
   selector: '[LazyLoadCssClass]'
 })
-export class LazyLoadCssClassDirective {
+export class LazyLoadCssClassDirective implements AfterViewInit, OnDestroy {
 
   @Input('lazyLoadClass') className: string = '';
 
-  constructor(private el: ElementRef,  @Inject(PLATFORM_ID) private platformId: Object) {
+  private intersectionHandler: () => void;
+
+  constructor(
+    private el: ElementRef,
+    private lazyLoadingService: LazyLoadingService,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {
+    this.intersectionHandler = () => this.loadClass();
   }
 
   ngAfterViewInit() {
-
-    if (isPlatformBrowser(this.platformId)) { this.manageObserver() }
-
+    if (isPlatformBrowser(this.platformId)) {
+      this.el.nativeElement.addEventListener('intersecting', this.intersectionHandler);
+      this.lazyLoadingService.observe(this.el.nativeElement);
+    }
   }
 
-  private manageObserver() {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(({ isIntersecting }) => {
-        if (isIntersecting) {
-          this.loadClass();
-          observer.disconnect();
-        }
-      });
-    }, {
-      rootMargin: '300px 0px'
-    });
-
-    observer.observe(this.el.nativeElement);
+  ngOnDestroy() {
+    this.el.nativeElement.removeEventListener('intersecting', this.intersectionHandler);
   }
 
   private loadClass() {

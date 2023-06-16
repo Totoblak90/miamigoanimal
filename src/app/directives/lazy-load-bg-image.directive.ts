@@ -1,42 +1,42 @@
 import { isPlatformBrowser } from '@angular/common';
-import { Directive, ElementRef, Inject, Input, PLATFORM_ID } from '@angular/core';
+import { AfterViewInit, Directive, ElementRef, Inject, Input, OnDestroy, PLATFORM_ID } from '@angular/core';
+import { LazyLoadingService } from '../services/lazy-loading.service';
 
 @Directive({
   selector: '[LazyLoadBgImage]'
 })
-export class LazyLoadBgImageDirective {
+export class LazyLoadBgImageDirective implements AfterViewInit, OnDestroy {
 
   @Input('lazyLoad') backgroundImage: string = '';
   @Input('onlyUrl') onlyUrl: boolean = false;
 
-  constructor(private el: ElementRef,  @Inject(PLATFORM_ID) private platformId: Object) {
+  private intersectionHandler: () => void;
+
+  constructor(
+    private el: ElementRef,
+    private lazyLoadingService: LazyLoadingService,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {
+    this.intersectionHandler = () => this.loadImage();
   }
 
   ngAfterViewInit() {
-
-    if (isPlatformBrowser(this.platformId)) { this.manageObserver() }
-
+    if (isPlatformBrowser(this.platformId)) {
+      this.el.nativeElement.addEventListener('intersecting', this.intersectionHandler);
+      this.lazyLoadingService.observe(this.el.nativeElement);
+    }
   }
 
-  private manageObserver() {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(({ isIntersecting }) => {
-        if (isIntersecting) {
-          this.loadImage();
-          observer.disconnect();
-        }
-      });
-    }, {
-      rootMargin: '300px 0px'
-    });
-
-    observer.observe(this.el.nativeElement);
+  ngOnDestroy() {
+    this.el.nativeElement.removeEventListener('intersecting', this.intersectionHandler);
   }
 
   private loadImage() {
-    if (this.onlyUrl) { this.el.nativeElement.style.backgroundImage = `url(${this.backgroundImage})`; }
-
-    else { this.el.nativeElement.style.backgroundImage = this.backgroundImage; }
+    if (this.onlyUrl) {
+      this.el.nativeElement.style.backgroundImage = `url(${this.backgroundImage})`;
+    } else {
+      this.el.nativeElement.style.backgroundImage = this.backgroundImage;
+    }
   }
 
 }
