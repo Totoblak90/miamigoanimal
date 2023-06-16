@@ -1,5 +1,5 @@
 import { DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { Component, Inject, Input, OnDestroy, OnInit, PLATFORM_ID, Renderer2, makeStateKey, TransferState } from '@angular/core';
+import { Component, Inject, Input, OnDestroy, OnInit, PLATFORM_ID, Renderer2, makeStateKey, TransferState, ViewChild, ElementRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subject, Subscription, skip, takeUntil } from 'rxjs';
 import { PerrosService } from 'src/app/services/perros.service';
@@ -11,6 +11,9 @@ import { UtilitiesService } from 'src/app/services/utilities.service';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit, OnDestroy {
+
+  @ViewChild('headerContainerRef') headerContainerRef: ElementRef<HTMLElement> | undefined;
+
   @Input() mainTitle: string = '';
   @Input() secondaryTitle = '';
   @Input() cta?: string = '';
@@ -70,42 +73,48 @@ export class HeaderComponent implements OnInit, OnDestroy {
     this.subscribeToRouteChange();
   }
 
-    // Configuración para cambiar la imágen del header si es una raza de perro y se encuentra en la misma ruta
-    private subscribeToRouteChange() {
-      if (isPlatformBrowser(this.platformId))
-      {
+  // Configuración para cambiar la imágen del header si es una raza de perro y se encuentra en la misma ruta
+  private subscribeToRouteChange() {
+    if (isPlatformBrowser(this.platformId))
+    {
 
-        // Me suscribo a cambios en las rutas
-        this.activatedRoute.params
-        .pipe( takeUntil(this._destroy$) )
-        .subscribe(params => {
-          // Aquí es donde puedes manejar los cambios en los parámetros de la ruta.
-          // Por ejemplo, podrías llamar a un método para obtener los datos de la nueva raza de perro.
-          const id = params['id'];
+      // Me suscribo a cambios en las rutas
+      this.activatedRoute.params
+      .pipe( takeUntil(this._destroy$) )
+      .subscribe(params => {
+        // Aquí es donde puedes manejar los cambios en los parámetros de la ruta.
+        const id = params['id'];
+        this.changeImagesWhenParamsChange(id);
 
-          // Acá hay un perro
-          if (Number(id))
-          {
-            const dog = this.perrosService.dogListSignal()[+id];
+        // Tengo que setear manualmente la imágen porque aplique la directiva de lazy loading
+        if (this.headerContainerRef) { this.headerContainerRef.nativeElement.style.backgroundImage = this.selectedImage; }
 
-            if (dog)
-            {
-              this.bckColour = 'dog';
-              this.providedImg = dog.image.url;
-              this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour, this.providedImg )
-            }
-          }
+      });
 
-          else
-          {
-            // Acá va ir la lógica de gatos
-
-          }
-
-        });
-
-      }
     }
+  }
+
+  private changeImagesWhenParamsChange(id: string) {
+        // Acá hay un perro
+        if (Number(id))
+        {
+          const dog = this.perrosService.dogListSignal()[+id];
+
+          if (dog)
+          {
+            this.bckColour = 'dog';
+            this.providedImg = dog.image.url;
+            this.setSelectedImage();
+
+          }
+        }
+
+        else
+        {
+          // Acá va ir la lógica de gatos
+          this.setSelectedImage();
+        }
+  }
 
 
   private setBackgroundImage() {
