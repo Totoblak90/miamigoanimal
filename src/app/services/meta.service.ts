@@ -25,7 +25,7 @@ export class MetaService {
     if (!description) { description = `Ya sea que seas un nuevo dueño de mascota o un experto, aquí encontrarás todo lo que necesitas saber sobre el perros y gatos. Descubre nuestros recursos y únete a nuestra comunidad de amantes de las mascotas.` }
     if (!canonical) { canonical = 'https://esferamascota.com' + this.router.url }
 
-    this.addBasicTags(title, description, author, follow);
+    this.addBasicTags(title, description, author, follow, keywords);
     this.addTwitterTags(title, description);
     this.addFacebookTags(title, description, canonical);
 
@@ -38,6 +38,7 @@ export class MetaService {
     this.title.setTitle(title);
     this.meta.updateTag({ name: 'description', content: description })
     this.meta.updateTag({ name: 'author', content: author || 'Tobias Blaksley' })
+    console.log(keywords)
     if (keywords) this.meta.updateTag({ name: 'keywords', content: keywords})
 
     if (follow) { this.meta.updateTag({ name: 'robots', content: 'index, follow' }) }
