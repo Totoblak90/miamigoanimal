@@ -159,9 +159,8 @@ export class UtilitiesService {
     img?: string,
     onlyImage?: boolean
   ): string {
-    if (!isPlatformBrowser(this.platformID)) {
-      return '';
-    }
+
+
 
     type = type || 'default';
 
@@ -173,12 +172,19 @@ export class UtilitiesService {
 
     let images: string[];
 
-    if (window.innerWidth <= 600) {
+    if (isPlatformBrowser(this.platformID))
+    {
+      if (window.innerWidth <= 600) {
+        images = imageSet.images.mobile;
+      } else if (window.innerWidth <= 1200) {
+        images = imageSet.images.tablet;
+      } else {
+        images = imageSet.images.default;
+      }
+    }
+    else
+    {
       images = imageSet.images.mobile;
-    } else if (window.innerWidth <= 1200) {
-      images = imageSet.images.tablet;
-    } else {
-      images = imageSet.images.default;
     }
 
     const selectedImage = images[Math.floor(Math.random() * images.length)];

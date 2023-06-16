@@ -17,7 +17,23 @@
       to right bottom,
       rgba($color-cat-light, 0.8),
       rgba($color-cat-dark, 0.8)),
-  url(https://esferamascota.b-cdn.net/clipped-section-cat.webp);
+      url(https://esferamascota.b-cdn.net/clipped-section-cat.webp);
+
+  @include respond(tab-land) {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-cat-light, 0.8),
+      rgba($color-cat-dark, 0.8)),
+      url(https://esferamascota.b-cdn.net/clipped-section-cat-tablet.webp);
+  }
+
+  @include respond(phone) {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-cat-light, 0.8),
+      rgba($color-cat-dark, 0.8)),
+      url(https://esferamascota.b-cdn.net/clipped-section-cat-mobile.webp);
+  }
 }
 
 .bg-dog {
@@ -25,7 +41,23 @@
       to right bottom,
       rgba($color-dog-light, 0.8),
       rgba($color-dog-dark, 0.8)),
-  url(https://esferamascota.b-cdn.net/clipped-section-dog.webp);
+      url(https://esferamascota.b-cdn.net/clipped-section-dog.webp);
+
+  @include respond(tab-land) {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-dog-light, 0.8),
+      rgba($color-dog-dark, 0.8)),
+      url(https://esferamascota.b-cdn.net/clipped-section-dog-tablet.webp);
+  }
+
+  @include respond(phone) {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-dog-light, 0.8),
+      rgba($color-dog-dark, 0.8)),
+      url(https://esferamascota.b-cdn.net/clipped-section-dog-mobile.webp);
+  }
 }
 
 .bg-health {
@@ -33,7 +65,23 @@
       to right bottom,
       rgba($color-health-light, 0.8),
       rgba($color-health-dark, 0.8)),
-  url(https://esferamascota.b-cdn.net/health-pomerania-1.webp);
+      url(https://esferamascota.b-cdn.net/health-pomerania-1.webp);
+
+  @include respond(tab-land) {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-health-light, 0.8),
+      rgba($color-health-dark, 0.8)),
+      url(https://esferamascota.b-cdn.net/health-pomerania-1-tablet.webp);
+  }
+
+  @include respond(phone) {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-health-light, 0.8),
+      rgba($color-health-dark, 0.8)),
+      url(https://esferamascota.b-cdn.net/health-pomerania-1-mobile.webp);
+  }
 }
 
 .bg-food {
@@ -41,7 +89,23 @@
       to right bottom,
       rgba($color-food-light, 0.8),
       rgba($color-food-dark, 0.8)),
-  url(https://esferamascota.b-cdn.net/alimentacion-hero.webp);
+      url(https://esferamascota.b-cdn.net/alimentacion-hero.webp);
+
+  @include respond(tab-land) {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-food-light, 0.8),
+      rgba($color-food-dark, 0.8)),
+      url(https://esferamascota.b-cdn.net/alimentacion-hero-tablet.webp);
+  }
+
+  @include respond(phone) {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-food-light, 0.8),
+      rgba($color-food-dark, 0.8)),
+      url(https://esferamascota.b-cdn.net/alimentacion-hero-mobile.webp);
+  }
 }
 
 .bg-train {
@@ -49,7 +113,23 @@
       to right bottom,
       rgba($color-training-light, 0.8),
       rgba($color-training-dark, 0.8)),
-  url(https://esferamascota.b-cdn.net/training-2.webp);
+      url(https://esferamascota.b-cdn.net/training-2.webp);
+
+  @include respond(tab-land) {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-training-light, 0.8),
+      rgba($color-training-dark, 0.8)),
+      url(https://esferamascota.b-cdn.net/training-2-tablet.webp);
+  }
+
+  @include respond(phone) {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-training-light, 0.8),
+      rgba($color-training-dark, 0.8)),
+      url(https://esferamascota.b-cdn.net/training-2-mobile.webp);
+  }
 }
 
 .bg-default {
@@ -57,7 +137,23 @@
       to right bottom,
       rgba($color-extra-light, 0.8),
       rgba($color-extra-dark, 0.8)),
-  url(https://esferamascota.b-cdn.net/destacados-extra.webp);
+      url(https://esferamascota.b-cdn.net/destacados-extra.webp);
+
+  @include respond(tab-land) {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-extra-light, 0.8),
+      rgba($color-extra-dark, 0.8)),
+      url(ttps://esferamascota.b-cdn.net/destacados-extra-tablet.webp);
+  }
+
+  @include respond(phone) {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-extra-light, 0.8),
+      rgba($color-extra-dark, 0.8)),
+      url(ttps://esferamascota.b-cdn.net/destacados-extra-mobile.webp);
+  }
 }
 
 .skew-up {

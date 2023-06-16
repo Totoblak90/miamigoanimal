@@ -1,24 +1,14 @@
 <div #popupFoodRations class="popup">
   <div class="popup__content">
       <div class="popup__left">
-        <img srcset="
-            https://esferamascota.b-cdn.net/clipped-section-dog-mobile.webp 300w,
-            https://esferamascota.b-cdn.net/clipped-section-dog-tablet.webp 1000w,
-            https://esferamascota.b-cdn.net/clipped-section-dog.webp 2000w
-          "
-          sizes="(max-width: 600px) 300px, (max-width: 1200px) 1000px, 2000px"
+        <img
           alt="Un Pug Carlino con un abrigo y con la correa colocada, en una vereda, mirando fijamente la cámara"
           class="popup__img"
           src="https://esferamascota.b-cdn.net/clipped-section-dog-mobile.webp"
           loading="lazy"
         >
 
-      <img srcset="
-          https://esferamascota.b-cdn.net/clipped-section-cat-mobile.webp 300w,
-          https://esferamascota.b-cdn.net/clipped-section-cat-tablet.webp 1000w,
-          https://esferamascota.b-cdn.net/clipped-section-cat.webp 2000w
-        "
-        sizes="(max-width: 600px) 300px, (max-width: 1200px) 1000px, 2000px"
+      <img
         alt="Gato lamiendose una mano recostado en un sillón"
         class="popup__img"
         src="https://esferamascota.b-cdn.net/clipped-section-cat-mobile.webp"
@@ -27,7 +17,7 @@
 
       </div>
       <div class="popup__right">
-          <button (click)="closePopup()" class="popup__close">&times;</button>
+          <button (click)="closePopup()" class="popup__close u-pointer">&times;</button>
           <p class="paragraph u-margin-bottom-small"> Raciones Diarias Recomendadas: {{ rations() }} gramos (aprox)</p>
 
           <p class="paragraph">
