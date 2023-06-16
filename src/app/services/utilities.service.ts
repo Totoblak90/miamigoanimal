@@ -58,7 +58,7 @@ export class UtilitiesService {
       color: `linear-gradient(to right bottom, rgba(211, 211, 211, 0.8), rgba(105, 105, 105, 0.8))`,
       images: {
         default: [
-          'https://esferamascota.b-cdn.net/destacados-gatos.webp',
+          'https://esferamascota.b-cdn.net/destacados-gato.webp',
           'https://esferamascota.b-cdn.net/clipped-section-cat.webp',
           'https://esferamascota.b-cdn.net/gato-en-sillon.webp',
           'https://esferamascota.b-cdn.net/gato-negro-en-taza.webp',
@@ -72,7 +72,7 @@ export class UtilitiesService {
           'https://esferamascota.b-cdn.net/gatos-7.webp',
         ],
         tablet: [
-          'https://esferamascota.b-cdn.net/destacados-gatos-tablet.webp',
+          'https://esferamascota.b-cdn.net/destacados-gato-tablet.webp',
           'https://esferamascota.b-cdn.net/clipped-section-cat-tablet.webp',
           'https://esferamascota.b-cdn.net/gato-en-sillon-tablet.webp',
           'https://esferamascota.b-cdn.net/gato-negro-en-taza-tablet.webp',
@@ -86,7 +86,7 @@ export class UtilitiesService {
           'https://esferamascota.b-cdn.net/gatos-7-tablet.webp',
         ],
         mobile: [
-          'https://esferamascota.b-cdn.net/destacados-gatos-mobile.webp',
+          'https://esferamascota.b-cdn.net/destacados-gato-mobile.webp',
           'https://esferamascota.b-cdn.net/clipped-section-cat-mobile.webp',
           'https://esferamascota.b-cdn.net/gato-en-sillon-mobile.webp',
           'https://esferamascota.b-cdn.net/gato-negro-en-taza-mobile.webp',
