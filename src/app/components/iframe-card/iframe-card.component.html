@@ -1,5 +1,20 @@
-<div class="youtube-card" *ngIf="!videoError">
+<!-- <div class="youtube-card" *ngIf="!videoError">
   <iframe
+    [src]="videoUrl | safeUrl: 'resourceUrl'"
+    [title]="videoDescription"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    (error)="handleError()"
+    loading="lazy"
+  ></iframe>
+</div> -->
+
+<div class="youtube-card" *ngIf="!videoError">
+  <div *ngIf="!videoLoaded" class="youtube-card__thumbnail u-pointer" LazyLoadBgImage [lazyLoad]="thumbnailUrl" [onlyUrl]="true" (click)="loadVideo()">
+    <i class="fa-solid fa-circle-play youtube-card__thumbnail--icon"></i>
+  </div>
+  <iframe *ngIf="videoLoaded"
     [src]="videoUrl | safeUrl: 'resourceUrl'"
     [title]="videoDescription"
     frameborder="0"
