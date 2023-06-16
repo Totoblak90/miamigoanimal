@@ -15,7 +15,7 @@ export class PopupDisclaimerComponent implements AfterViewInit {
 
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
-    @Inject(DOCUMENT) private document: any,
+    @Inject(DOCUMENT) private document: Document,
   ) {}
 
 
@@ -32,8 +32,12 @@ export class PopupDisclaimerComponent implements AfterViewInit {
       if (popup)
       {
         const content = popup.querySelector('.popup__content') as HTMLDivElement;
+
+        // POPUP
         popup.style.opacity = '1';
         popup.style.visibility = 'visible';
+
+        // CONTENT
         content.style.opacity = '1';
         content.style.visibility = 'visible';
         content.style.transform = `translate(-50%, -50%) scale(0.9)`;
@@ -53,9 +57,13 @@ export class PopupDisclaimerComponent implements AfterViewInit {
       if (popup)
       {
         const content = popup.querySelector('.popup__content') as HTMLDivElement;
+
+        // POPUP
         popup.style.opacity = '0';
         popup.style.visibility = 'hidden';
         popup.style.display = 'none';
+
+        // CONTENT
         content.style.opacity = '0';
         content.style.visibility = 'hidden';
         content.style.display = 'none';

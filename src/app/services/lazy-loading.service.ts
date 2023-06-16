@@ -24,11 +24,5 @@ export class LazyLoadingService {
     }
   }
 
-  private initObserver() {
-     return
-  }
-
-  observe(target: Element) {
-    this.observer!.observe(target);
-  }
+  observe(target: Element) { this.observer ? this.observer.observe(target) : null; }
 }
