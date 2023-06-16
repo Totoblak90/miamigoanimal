@@ -1,4 +1,4 @@
-<header #headerContainerRef class="header" LazyLoadBgImage [lazyLoad]="selectedImage"  LazyLoadCssClass [lazyLoadClass]="backgroundColour">
+<header #headerContainerRef class="header" LazyLoadBgImage [lazyLoad]="selectedImage"  [ngClass]="backgroundColour">
 
   <!-- Para un futuro -->
   <div class="header__search-box" *ngIf="showBuscador">
