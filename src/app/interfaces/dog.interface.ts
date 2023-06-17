@@ -87,7 +87,6 @@ export interface PerrosFamosos {
 
 PROMPT PARA SOLO DESCRIPCIÓN
 
-Estoy trabajando en la raza de perro "".
 Si no te menciono la raza de perro no respondas nada, solo mencioname q no te la mencione y listo.
 Para esta consulta SI quiero que navegues por internet.
 Para esta consulta NO me interesa que me retornes fuentes.
@@ -101,11 +100,12 @@ VUELVO A INSISTIR QUE LA DESCRIPCIÓN DE LA RAZA DEBE SER MUY MUY LARGA. ES INDI
 Escribí el texto de manera tal que el usuario quede cautivado por el mismo y le den muchas ganas de continuar leyendo.
 Retorname la descripción en formato de texto unicamente
 
+Estoy trabajando en la raza de perro "".
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 PROMPT PARA SOLO HISTORIA
 
-Estoy trabajando en la raza de perro "".
 Si no te menciono la raza de perro no respondas nada, solo mencioname q no te la mencione y listo.
 Para esta consulta SI quiero que navegues por internet.
 Para esta consulta NO me interesa que me retornes fuentes.
@@ -119,11 +119,11 @@ VUELVO A INSISTIR QUE LA HISTORIA DE LA RAZA DEBE SER MUY MUY LARGA. ES INDISPEN
 Escribí el texto de manera tal que el usuario quede cautivado por el mismo y le den muchas ganas de continuar leyendo.
 Retorname la historia en formato de texto unicamente
 
+Estoy trabajando en la raza de perro "".
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 PROMPT PARA TÉRMINOS DE BÚSQUEDA
-
-Estoy trabajando en la raza de perro "".
 
 Necesito que, para acelerar mi trabajo, toda la información me la retornes en el formto de typescript que te solicito más abajo.
 
@@ -163,11 +163,11 @@ Ejemplo de términos de búsqueda para el perro "Bóxer": searchTerms: ['Boxer',
   searchTerms: string[]
 }
 
+Estoy trabajando en la raza de perro "".
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 PROMPT PARA CARACTERÍSTICAS
-
-Estoy trabajando en la raza de perro "".
 
 Necesito que, para acelerar mi trabajo, toda la información me la retornes en el formto de typescript que te solicito más abajo.
 
@@ -218,6 +218,8 @@ Por último quiero que agregues en un array de strings las urls de las fuentes q
   casos_famosos: [{nombre: string, caso:string}] o un array vacío si no se encontraron casos
   fuentes: string[]
 }
+
+Estoy trabajando en la raza de perro "".
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 PROMPT PARA CONTINUAR

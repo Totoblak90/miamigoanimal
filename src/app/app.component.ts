@@ -1,6 +1,5 @@
 import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
 
 // Creo el tipado
 type googleScript = {
@@ -8,6 +7,7 @@ type googleScript = {
   async: boolean,
   innerHtml: string,
   crossOrigin: string,
+  id: string
 }
 
 @Component({
@@ -19,11 +19,9 @@ export class AppComponent implements OnInit {
 
   showPopupDisclaimer = false;
 
-  title = 'esferamascota';
-
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
-    @Inject(DOCUMENT) private document: Document,
+    @Inject(DOCUMENT) private document: Document
     ) {}
 
   ngOnInit(): void { this.toggleDisclaimer(); }
@@ -83,33 +81,22 @@ export class AppComponent implements OnInit {
       // Agregar Google Analytics y Google Ads scripts
       const scriptGoogleTagManager: googleScript = {
         url: 'https://www.googletagmanager.com/gtag/js?id=G-H7X6015BYD',
-        async: true,
+        async: false,
         innerHtml: '',
         crossOrigin: '',
+        id: 'google-tag-manager'
       }
 
       const scriptGooglesyndication: googleScript = {
         url: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5105612698885287',
-        async: true,
+        async: false,
         innerHtml: '',
         crossOrigin: 'anonymous',
-      }
-
-      const scriptAnalytics: googleScript = {
-        url: '',
-        async: true,
-        innerHtml: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-H7X6015BYD');
-        `,
-        crossOrigin: '',
+        id: 'google-adsense'
       }
 
       this.apendScripts(scriptGoogleTagManager);
       this.apendScripts(scriptGooglesyndication);
-      this.apendScripts(scriptAnalytics);
     }
   }
 
@@ -117,13 +104,81 @@ export class AppComponent implements OnInit {
     const script = document.createElement('script');
 
     script.src = scriptObj.url;
+    script.type = 'text/javascript';
     script.async = scriptObj.async;
     script.innerHTML = scriptObj.innerHtml;
+    script.id = scriptObj.id;
 
     if (scriptObj.crossOrigin) { script.crossOrigin = scriptObj.crossOrigin; }
 
+    script.onload = () => { if (script.id === 'google-tag-manager') { this.configureGtag(); } }
+
     this.document.head.appendChild(script);
+
   }
 
+  private configureGtag() {
+    // @ts-ignore
+    window.dataLayer = window.dataLayer || [];
+    // @ts-ignore
+    function gtag(){dataLayer.push(arguments);}
+    // @ts-ignore
+    gtag('js', new Date());
+    // @ts-ignore
+    gtag('config', 'G-H7X6015BYD');
+
+    // DEJO TODO ESTO PARA DESPUÉS POR SI ANALYTICS NO LO CONFIGURA SOLO
+    // // Eventos para vista de página
+    // // @ts-ignore
+    // gtag('event', 'page_view', {
+    //   'page_path': this.router.url,
+    //   'page_title': this.titleSrv.getTitle(),
+    //   'page_location': window.location.href
+    // })
+
+
+    // // Eventos para botones
+    // // @ts-ignore
+    // Array.from(this.document.getElementsByTagName('button')).forEach((button, index) => {
+    //   button.addEventListener('click', function(ev) {
+    //     // Usa el texto del botón como etiqueta del evento
+    //     const eventLabel = this.innerText || `button_${index}`;
+    //     console.log(`button event label: ${eventLabel}`)
+    //     // @ts-ignore
+    //     gtag('event', 'click', {
+    //       'event_category': 'button',
+    //       'event_label': eventLabel
+    //     });
+    //   });
+    // });
+
+    // // Eventos para formularios
+    // // @ts-ignore
+    // Array.from(this.document.getElementsByTagName('form')).forEach((form, index) => {
+    //   form.addEventListener('submit', function(ev) {
+    //     // Usa el índice del formulario como etiqueta del evento
+    //     const eventLabel = `form_${index}`;
+    //     // @ts-ignore
+    //     gtag('event', 'submit', {
+    //       'event_category': 'form',
+    //       'event_label': eventLabel
+    //     });
+    //   });
+    // });
+
+    // // Eventos para enlaces
+    // // @ts-ignore
+    // Array.from(this.document.getElementsByTagName('a')).forEach((form, index) => {
+    //   form.addEventListener('click', function(ev) {
+    //     // Usa el índice del enlace como etiqueta del evento
+    //     const eventLabel = `anchor_${index}`;
+    //     // @ts-ignore
+    //     gtag('event', 'submit', {
+    //       'event_category': 'form',
+    //       'event_label': eventLabel
+    //     });
+    //   });
+    // });
+  }
 
 }

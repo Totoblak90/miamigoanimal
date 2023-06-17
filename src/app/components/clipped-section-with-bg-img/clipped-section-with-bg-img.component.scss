@@ -144,7 +144,7 @@
       to right bottom,
       rgba($color-extra-light, 0.8),
       rgba($color-extra-dark, 0.8)),
-      url(ttps://esferamascota.b-cdn.net/destacados-extra-tablet.webp);
+      url(https://esferamascota.b-cdn.net/destacados-extra-tablet.webp);
   }
 
   @include respond(phone) {
@@ -152,7 +152,7 @@
       to right bottom,
       rgba($color-extra-light, 0.8),
       rgba($color-extra-dark, 0.8)),
-      url(ttps://esferamascota.b-cdn.net/destacados-extra-mobile.webp);
+      url(https://esferamascota.b-cdn.net/destacados-extra-mobile.webp);
   }
 }
 

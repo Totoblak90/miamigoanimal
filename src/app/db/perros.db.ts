@@ -10557,12 +10557,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 600,
       url: 'https://cdn2.thedogapi.com/images/H1NIzlcV7.jpg',
     },
-    searchTerms: ['Schnauzer Gigante', 'Perro de trabajo'],
     country_code: 'DE',
-    description:
-      'El Schnauzer Gigante es una raza de perro grande y poderosa conocida por su temperamento fuerte y su voluntad. Son leales y amables, pero también pueden ser dominantes e inteligentes. Este perro es excelente para el pastoreo y la guarda debido a su instinto natural de proteger a su familia y su hogar.',
-    history:
-      'El Schnauzer Gigante se originó en Alemania y fue criado inicialmente para el pastoreo y la guarda. Aunque son la raza de Schnauzer más grande, comparten muchas características con las otras dos razas de Schnauzer, el Schnauzer Estándar y el Schnauzer Miniatura. Sin embargo, el Schnauzer Gigante es conocido por ser más dominante y poderoso que sus contrapartes más pequeñas.',
+    description: `
+      El Schnauzer Gigante, también conocido como Riesenschnauzer, es una raza de perro que se destaca por su tamaño imponente y su apariencia robusta. Originario de Alemania, este perro es la versión más grande y poderosa de la familia Schnauzer, que también incluye al Schnauzer estándar y al miniatura.
+      <br>
+      <br>
+      El Schnauzer Gigante es un perro de trabajo por excelencia, conocido por su fuerza, resistencia y habilidades de protección. Su apariencia es distintiva, con un pelaje denso y resistente a la intemperie que puede ser de color negro o sal y pimienta. Su cuerpo es cuadrado y robusto, con una estructura muscular fuerte que refleja su capacidad para el trabajo físico.
+      <br>
+      <br>
+      El rostro del Schnauzer Gigante es igualmente distintivo, con una cabeza larga y rectangular, y una barba prominente que le da un aire de dignidad. Sus ojos son oscuros y vivaces, y sus orejas, que pueden ser naturales o cortadas, están en proporción con su cabeza.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Schnauzer Gigante es conocido por su buen carácter, temperamento equilibrado y lealtad hacia su familia. Su inteligencia y capacidad de entrenamiento, junto con su resistencia natural a las enfermedades, lo hacen ideal como perro de compañía, utilidad y trabajo.
+      <br>
+      <br>
+      El Schnauzer Gigante es un perro activo y enérgico que requiere mucho ejercicio y estimulación mental. A pesar de su tamaño, es ágil y flexible, con un andar elegante y un poco elástico. Este perro está siempre listo para la acción y disfruta de las actividades físicas y los desafíos mentales.
+      <br>
+      <br>
+      En cuanto a su relación con las personas, el Schnauzer Gigante puede ser reservado con los extraños, pero es muy afectuoso con los miembros de su familia y las personas que conoce bien. Su tendencia a ladrar puede variar, pero es conocido por ser un excelente perro guardián, siempre alerta a cualquier amenaza potencial.
+      <br>
+      <br>
+      El cuidado del Schnauzer Gigante implica un aseo regular para mantener su pelaje en buen estado. Su pelaje es duro y denso, con un buen subpelo y un pelo externo no demasiado corto que se adhiere al cuerpo. El pelo en las piernas tiende a ser menos grueso, y el pelo en la frente y las orejas es corto.
+      <br>
+      <br>
+      En resumen, el Schnauzer Gigante es un perro impresionante tanto en apariencia como en habilidades. Su combinación de fuerza, inteligencia, lealtad y resistencia lo convierte en un compañero excepcional y un trabajador incansable. Ya sea como perro de trabajo, perro de compañía o ambos, el Schnauzer Gigante es una raza que deja una impresión duradera en todos los que tienen la suerte de conocerlo.
+    `,
+    history: `
+      La historia del Schnauzer Gigante es tan robusta y fascinante como la raza misma. Originario de Alemania, este perro fue desarrollado en el siglo XVII para ser un trabajador incansable. Su propósito original era ser un perro de trabajo, específicamente un perro de conducción para el ganado y las ovejas. Su resistente pelaje fue influenciado por las duras condiciones climáticas, diseñado para protegerlo de los elementos.
+      <br>
+      <br>
+      El Schnauzer Gigante es una raza distinta del Schnauzer Miniatura y Estándar. Aunque comparten un nombre, cada uno fue criado con un propósito específico en mente. El Schnauzer Gigante fue criado para ser más grande y más fuerte, capaz de manejar tareas más exigentes físicamente.
+      <br>
+      <br>
+      La creación de la raza Schnauzer Gigante implicó la mezcla de varias razas diferentes. Entre ellas se incluyen el Schnauzer Estándar, el Gran Danés, los perros pastores de pelo áspero y posiblemente el Bouvier des Flandres. Cada una de estas razas contribuyó con características únicas que ayudaron a formar el Schnauzer Gigante que conocemos hoy.
+      <br>
+      <br>
+      El Schnauzer Gigante no era muy conocido hasta la Primera Guerra Mundial, cuando se utilizó para el entrenamiento de la policía. Su inteligencia, fuerza y resistencia lo hicieron ideal para este tipo de trabajo. Desde entonces, la raza ha ganado popularidad y se ha extendido por todo el mundo.
+      <br>
+      <br>
+      A pesar de su tamaño y fuerza, el Schnauzer Gigante es conocido por su buen carácter y su lealtad hacia su familia. Son perros inteligentes y adaptables que pueden manejar una variedad de tareas y situaciones. Su resistencia natural a las enfermedades y su longevidad también los hacen atractivos para muchos dueños de perros.
+      <br>
+      <br>
+      El Schnauzer Gigante es una raza que ha resistido la prueba del tiempo. A través de los siglos, ha demostrado ser un trabajador incansable, un guardián leal y un compañero cariñoso. Su historia es un testimonio de su versatilidad y resistencia, y sigue siendo una raza popular y respetada en la actualidad.
+    `,
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Excelente perro de trabajo y guarda',
@@ -10588,6 +10625,58 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de piel',
       'Inflamación del estómago',
     ],
+    searchTerms: [
+      'Schnauzer Gigante',
+      'Perro de trabajo',
+      "Schnauzer grande",
+      "Giant Schnauzer",
+      "Schnauzer",
+      "Schnauzer gigante",
+      "Schnauzer alemán",
+      "Schnauzer aleman",
+      "Schnauzer de trabajo",
+      "Shnauzer",
+      "Snauzer",
+      "Snauser",
+      "Schnauser",
+      "Shnauser",
+      "Perro de trabajo",
+      "Perro guardián",
+      "Perro guardian",
+      "Perro de protección",
+      "Perro de proteccion",
+      "Perro de familia",
+      "Perro para niños",
+      "Perro para ninos",
+      "Perro robusto",
+      "Perro fuerte",
+      "Perro resistente",
+      "Perro de pelo duro",
+      "Perro de pelo áspero",
+      "Perro de pelo aspero",
+      "Perro alemán",
+      "Perro aleman",
+      "Perro de gran tamaño",
+      "Perro de gran tamano",
+      "Perro grande",
+      "Perro inteligente",
+      "Perro leal",
+      "Perro versátil",
+      "Perro versatil"
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Giant_Schnauzer",
+      "https://www.dogbreedinfo.com/giantschnauzer.htm",
+      "https://www.ukcdogs.com/giant-schnauzer"
+    ]
   },
   85: {
     weight: {
@@ -10615,12 +10704,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 380,
       url: 'https://cdn2.thedogapi.com/images/H1oLMe94m.jpg',
     },
-    searchTerms: ['Terrier del Glen de Imaal', 'Perro de caza'],
     country_code: 'IE',
-    description:
-      'El Terrier del Glen de Imaal es un perro animado, ágil y leal, conocido por su habilidad para cazar tejones y zorros y por su capacidad para eliminar plagas de los hogares y las granjas. A pesar de su pequeño tamaño, este perro es valiente y activo, con un fuerte instinto de caza.',
-    history:
-      'Originario de Irlanda, el Terrier del Glen de Imaal fue criado para ser un perro de caza y de granja. Su tamaño pequeño y su temperamento valiente lo hacían ideal para cazar tejones y zorros, y también para eliminar plagas de los hogares y las granjas.',
+    description: `
+      El Terrier del Glen de Imaal es una raza de perro de tamaño mediano, originaria del condado de Wicklow en Irlanda, y lleva el nombre del valle (glen) de Imaal. Aunque no es muy conocida, esta raza es muy antigua y ha sido ignorada durante mucho tiempo. Fue desarrollada como un perro de trabajo para eliminar la presencia de alimañas, especialmente tejones.
+      <br>
+      <br>
+      Este terrier tiene un cuerpo más largo que alto y está cerca del suelo, lo que le permite moverse con un paso libre y no acelerado. La imagen de la raza es de gran fortaleza, dando la impresión de máxima sustancia para el tamaño del perro. Su pelaje es de longitud media y tiene una doble capa: una capa exterior resistente a las inclemencias del tiempo y una capa interior suave. Los colores aceptables incluyen el atigrado, el azul y el trigo. Los cachorros suelen nacer fieles al tipo en color, azul, trigo, rojizo.
+      <br>
+      <br>
+      El Terrier del Glen de Imaal es conocido por su inteligencia y su rápida capacidad de aprendizaje. En cuanto a su temperamento, la raza es activa y ágil, con un gran coraje cuando se le llama. De lo contrario, es gentil y dócil. Es característicamente silencioso cuando trabaja, lo que es una ventaja para un perro de trabajo.
+      <br>
+      <br>
+      Este terrier tiene una cabeza bastante larga, con un stop pronunciado. Sus ojos son de tamaño mediano, redondos y de color marrón. Las orejas son pequeñas, de rosa o semi-erguidas cuando está alerta, y se echan hacia atrás cuando está en reposo. Su nariz es negra y su cola es fuerte en la raíz y llevada alegremente.
+      <br>
+      <br>
+      En cuanto a su tamaño, la altura máxima para los machos es de catorce pulgadas (35,5 cm), medida en la cruz. Las hembras pueden ser un poco más pequeñas. El peso para los machos es de treinta y cinco libras (16 kg). Las hembras pueden pesar un poco menos.
+      <br>
+      <br>
+      En resumen, el Terrier del Glen de Imaal es una raza de perro fuerte, inteligente y valiente, con un carácter amable y dócil. Su tamaño mediano y su resistencia lo hacen ideal para el trabajo, pero también es un compañero familiar maravilloso gracias a su temperamento gentil y su inteligencia.
+    `,
+    history: `
+      El Terrier del Glen de Imaal es una raza de perro que lleva el nombre del valle de Imaal, ubicado en el condado de Wicklow, Irlanda. Aunque no es muy conocida, esta raza es antigua y ha sido ignorada durante mucho tiempo. Fue desarrollada como un perro de trabajo para eliminar la alimaña, especialmente el tejón.
+      <br>
+      <br>
+      Este terrier de tamaño medio tiene un pelaje de longitud media, un cuerpo más largo que alto y está cerca del suelo. Se mueve con un paso libre y no acortado. La imagen de la raza es de gran fortaleza, con la impresión de máxima sustancia para el tamaño del perro.
+      <br>
+      <br>
+      El Terrier del Glen de Imaal es conocido por su inteligencia y rapidez para aprender. En temperamento, la raza es animada y enérgica, con gran coraje cuando se le llama. De lo contrario, es gentil y dócil.
+      <br>
+      <br>
+      El Glen de Imaal Terrier tiene una cabeza bastante larga, con un stop pronunciado. El cráneo es ancho y el hocico es potente, disminuyendo en anchura desde los ojos hasta la nariz. Los ojos son de tamaño medio, redondos y están bien separados. Son de color marrón. Las orejas son pequeñas, de rosa o semi-erguidas cuando están alerta, y se echan hacia atrás cuando están en reposo. Las orejas completamente caídas o erguidas son indeseables.
+      <br>
+      <br>
+      El cuerpo del Glen de Imaal Terrier es profundo y largo, y más largo que alto. La línea superior es recta. Los lomos son fuertes. El pecho es ancho y fuerte, con costillas bien arqueadas. El pelaje de la raza es doble. El pelaje exterior resistente al clima es de longitud media. El subpelo es suave. El pelaje puede ser arreglado para presentar un contorno ordenado y la apariencia natural "áspera y lista", pero nunca debe ser sobre aseado.
+      <br>
+      <br>
+      Los colores aceptables incluyen el atigrado, el azul y el trigo. El azul no debe tonificar hacia el negro. El trigo varía desde un color trigo claro hasta una sombra dorada rojiza. Los cachorros suelen nacer fieles al tipo en color, azul, trigo, rojizo. Puede haber una máscara azul oscuro y una raya de azul en la espalda, en la cola y en las orejas. Estas marcas más oscuras se aclaran con la madurez.
+      <br>
+      <br>
+      El Terrier del Glen de Imaal es un perro activo y ágil que es característicamente silencioso cuando trabaja. En cuanto a su temperamento, la raza es animada y enérgica, con gran coraje cuando se le llama. De lo contrario, es gentil y dócil. Es conocido por su inteligencia y es rápido para aprender.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Buen cazador y exterminador de plagas',
@@ -10643,6 +10766,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de piel',
       'Atrofia retinal progresiva',
     ],
+    searchTerms: [
+      'Terrier del Glen de Imaal',
+      'Perro de caza',
+      "Terrier de Imaal",
+      "Glen de Imaal",
+      "Terrier irlandés",
+      "Perro de Irlanda",
+      "Perro terrier",
+      "Perro cazador de tejones",
+      "Perro de trabajo",
+      "Perro de compañía",
+      "Perro de tamaño medio",
+      "Perro de pelo duro",
+      "Perro de pelo corto",
+      "Perro de pelo largo",
+      "Perro de doble capa",
+      "Perro de clima frío",
+      "Perro de clima cálido",
+      "Perro de energía alta",
+      "Perro inteligente",
+      "Perro de aprendizaje rápido",
+      "Perro valiente",
+      "Perro gentil",
+      "Perro dócil",
+      "Perro activo",
+      "Perro ágil",
+      "Perro silencioso",
+      "Perro de color azul",
+      "Perro de color trigo",
+      "Perro de color rojizo",
+      "Perro de color dorado",
+      "Perro de color claro"
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+    "https://en.wikipedia.org/wiki/Glen_of_Imaal_Terrier",
+    "https://www.dogbreedinfo.com/glenofimaalterrier.htm",
+    "https://www.akc.org/dog-breeds/glen-of-imaal-terrier/",
+    "https://www.ukcdogs.com/glen-of-imaal-terrier"
+    ]
   },
   86: {
     weight: {
