@@ -3,7 +3,7 @@ import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { Cookies } from './interfaces/cookies.interface';
 
 // Creo el tipado
-type googleScript = {
+export type googleScript = {
   url: string,
   async: boolean,
   innerHtml: string,
@@ -48,6 +48,11 @@ export class AppComponent implements OnInit {
 
     if (isPlatformServer(this.platformId)) { return; }
 
+    const routesToHideDisclaimer = ['cookies', 'politicas', 'terminos', 'gestionar-cookies'];
+    const hiddenRoute = routesToHideDisclaimer.some(route => window.location.href.includes(route));
+
+    if (hiddenRoute) { return; }
+
     // Busco en el localstorage lo que el usuario aceptó
     const cookiesString = localStorage.getItem('disclaimer');
 
@@ -70,14 +75,18 @@ export class AppComponent implements OnInit {
         return;
       }
 
-      // Si pasaron 6 meses de la aceptación se le vuelve a mostrar al usuario el popup
-      // Si no se aceptaron algunas de las cookies vuelvo a mostrar el banner para q acepte todas
-      const sixMonthsFromAccepted = new Date(acceptedDate.setMonth(acceptedDate.getMonth() + 6));
+      // Si la fecha actual es mayor a la fecha límite muestro el popup
+      let limitAfterAccepted;
+
+      if (!this.cookiesObj.acceptedGoogleAds || !this.cookiesObj.acceptedGoogleAnalytics)
+        limitAfterAccepted = new Date(acceptedDate.setDate(acceptedDate.getDate() + 1));
+
+      else
+        limitAfterAccepted = new Date(acceptedDate.setMonth(acceptedDate.getMonth() + 6));
+
       const currentDate = new Date();
 
-      this.showPopupDisclaimer =  currentDate >= sixMonthsFromAccepted ||
-                                  !this.cookiesObj.acceptedGoogleAds ||
-                                  !this.cookiesObj.acceptedGoogleAnalytics;
+      this.showPopupDisclaimer =  currentDate >= limitAfterAccepted;
 
       // Acá el usuario ya tiene las cookies aceptadas entonces agrego los scripts
       if (!this.showPopupDisclaimer) { this.createScripts(); }

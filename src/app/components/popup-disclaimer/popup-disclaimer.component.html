@@ -18,8 +18,8 @@
       </strong>.
     </p>
     <div class="buttons-container">
-      <button (click)="closePopup()" class="btn btn--green">Aceptar</button>
-      <a routerLink="/gestionar-cookies" class="btn btn--white">Administrar cookies</a>
+      <button class="btn btn--green" (click)="disclaimerAccepted.emit(true)">Aceptar</button>
+      <a routerLink="/gestionar-cookies" class="btn btn--white" (click)="navigatedToManageCookies.emit(true)">Administrar cookies</a>
     </div>
   </div>
 </div>

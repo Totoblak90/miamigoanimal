@@ -11,6 +11,7 @@ import { CookiesComponent } from './cookies/cookies.component';
 import { RouterModule } from '@angular/router';
 import { DirectivesModule } from '../directives/directives.module';
 import { GestionarCookiesComponent } from './gestionar-cookies/gestionar-cookies.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { GestionarCookiesComponent } from './gestionar-cookies/gestionar-cookies
     PagesRoutingModule,
     ComponentsModule,
     RouterModule,
-    DirectivesModule
+    DirectivesModule,
+    ReactiveFormsModule
   ]
 })
 export class PagesModule { }

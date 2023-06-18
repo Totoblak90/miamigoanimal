@@ -1,1 +1,59 @@
-<p>gestionar-cookies works!</p>
+<app-header mainTitle="Gestionar cookies"></app-header>
+<main class="u-margin-bottom-big u-margin-top-small">
+
+  <section class="gestionar-cookies-form-container">
+    <div class="row">
+      <div class="form-container">
+        <div class="form-container__form">
+          <form [formGroup]="cookiesForm" class="form" (ngSubmit)="setSelectedCookies()">
+
+            <div class="u-margin-bottom-medium u-break-word">
+              <h2 class="heading-secondary">Cookies</h2>
+            </div>
+
+            <div class="form__group">
+
+              <div class="form__radio-group">
+
+                <input
+                  type="checkbox"
+                  class="form__radio-input u-bradius-none"
+                  id="google_analytics_control"
+                  name="google_analytics_control"
+                  formControlName="google_analytics"
+                  [value]="true"
+                />
+
+                <label for="google_analytics_control" class="form__radio-label"> <span class="form__radio-button"></span> Google analytics </label>
+
+              </div>
+
+              <div class="form__radio-group">
+
+                <input
+                  type="checkbox"
+                  class="form__radio-input u-bradius-none"
+                  id="google_ads_control"
+                  name="google_ads_control"
+                  formControlName="google_ads"
+                  [value]="true"
+                />
+
+                <label for="google_ads_control" class="form__radio-label"> <span class="form__radio-button"></span> Google Ads </label>
+
+              </div>
+
+            </div>
+
+            <div class="form__group">
+              <button type="submit" class="btn btn--green">
+                Aceptar &rarr;
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
