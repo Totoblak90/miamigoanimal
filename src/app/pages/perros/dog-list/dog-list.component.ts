@@ -11,7 +11,7 @@ import { PerrosService } from 'src/app/services/perros.service';
   styleUrls: ['./dog-list.component.scss']
 })
 export class DogListComponent implements OnInit, OnDestroy {
-
+  private originalDogList: {[key: number]: Dog} = {};
   dogList: {[key: number]: Dog} = this.perrosService.dogListSignal()
 
   searchDogForm: FormGroup = this.formBuilder.group({ searchTerm: '' })
@@ -49,6 +49,7 @@ export class DogListComponent implements OnInit, OnDestroy {
 
 
   ngOnInit(): void {
+    this.originalDogList = {...this.dogList};  // Hacer una copia de la lista original de perros
     this.totalPages = Math.ceil(Object.keys(this.dogList).length / 3)
   }
 
@@ -81,13 +82,11 @@ export class DogListComponent implements OnInit, OnDestroy {
   }
 
   private searchDogsByBreedName(searchTerm: string) {
-
     this.errorMessage = '';
-    const dogArray = Object.values(this.dogList);
+    const dogArray = Object.values(this.originalDogList);  // Usar la lista original de perros para la búsqueda
     const filteredDogs = this.filterBySearchTerm(dogArray, searchTerm)
     this.dogList = filteredDogs.reduce((obj: {[key: number]: Dog} , dog) => (obj[dog.id] = dog, obj), {});
     this.errorMessage = !filteredDogs.length ? 'Sin resultados' : '';
-
   }
 
   prevPage() {
