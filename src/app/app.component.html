@@ -1,5 +1,5 @@
 <app-navigation></app-navigation>
 <router-outlet (activate)="this.toggleDisclaimer();"></router-outlet>
 <app-footer></app-footer>
-<popup-disclaimer *ngIf="showPopupDisclaimer" (disclaimerAccepted)="saveLocalhost()"></popup-disclaimer>
+<popup-disclaimer *ngIf="showPopupDisclaimer" (disclaimerAccepted)="acceptedAllCookies()"></popup-disclaimer>
 <go-up></go-up>

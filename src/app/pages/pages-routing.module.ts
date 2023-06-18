@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { TerminosComponent } from './terminos/terminos.component';
 import { PoliticasComponent } from './politicas/politicas.component';
 import { CookiesComponent } from './cookies/cookies.component';
+import { GestionarCookiesComponent } from './gestionar-cookies/gestionar-cookies.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'gatos',
     loadChildren: () => import('./gatos/gatos.module').then(m => m.GatosModule)
+  },
+  {
+    path: 'gestionar-cookies',
+    component: GestionarCookiesComponent
   },
   {
     path: 'perros/:id',

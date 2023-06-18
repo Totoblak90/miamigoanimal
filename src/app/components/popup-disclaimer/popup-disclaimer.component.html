@@ -1,24 +1,27 @@
-<div #popupDisclaimer class="popup" id="popup-disclaimer">
-  <div class="popup__content">
-    <div class="popup__right">
-      <h2 class="heading-secondary u-margin-bottom-small">Descargo de responsabilidad y política de cookies</h2>
-      <h3 class="heading-tertiary u-margin-bottom-small">
-        Importante &ndash; Leer antes de ingresar a la página
-      </h3>
-      <p class="paragraph">
-        El contenido de esta página, generado por IA y revisado por expertos, es información general.
-        Consulte con un profesional antes de tomar decisiones basadas en nuestra información.
-        La salud de su mascota debe ser supervisada por un profesional.
-        Este sitio utiliza cookies para mejorar su experiencia de navegación y para recopilar datos analíticos.
-        Haga clic en el enlace para obtener más información sobre nuestra <a href="cookies" target="_blank">política de cookies</a>.
-        <br>
-        <strong>
-          Si continúa navegando, está dando su consentimiento para la aceptación de estas cookies y la aceptación de nuestra política de cookies
-          y que ha leído y comprendido este descargo de responsabilidad.
-        </strong>.
-      </p>
+
+<div class="disclaimer-container">
+  <div class="row">
+    <h2 class="heading-tertiary u-margin-bottom-medium">Descargo de responsabilidad y política de cookies</h2>
+    <h3 class="heading-tertiary u-margin-bottom-small">
+      Importante &ndash; Leer antes de ingresar a la página
+    </h3>
+    <p class="paragraph">
+      El contenido de esta página, generado por IA y revisado por expertos, es información general.
+      Consulte con un profesional antes de tomar decisiones basadas en nuestra información.
+      La salud de su mascota debe ser supervisada por un profesional.
+      Este sitio utiliza cookies para mejorar su experiencia de navegación y para recopilar datos analíticos.
+      Haga clic en el enlace para obtener más información sobre nuestra <a href="cookies" target="_blank">política de cookies</a>.
+      <br>
+      <strong>
+        Si continúa navegando, está dando su consentimiento para la aceptación de estas cookies y la aceptación de nuestra política de cookies
+        y que ha leído y comprendido este descargo de responsabilidad.
+      </strong>.
+    </p>
+    <div class="buttons-container">
       <button (click)="closePopup()" class="btn btn--green">Aceptar</button>
+      <a routerLink="/gestionar-cookies" class="btn btn--white">Administrar cookies</a>
     </div>
   </div>
 </div>
+
 

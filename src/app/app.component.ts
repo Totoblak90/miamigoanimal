@@ -1,5 +1,6 @@
-import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { DOCUMENT, isPlatformBrowser, isPlatformServer } from '@angular/common';
 import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
+import { Cookies } from './interfaces/cookies.interface';
 
 // Creo el tipado
 type googleScript = {
@@ -19,6 +20,8 @@ export class AppComponent implements OnInit {
 
   showPopupDisclaimer = false;
 
+  cookiesObj: Cookies | null = null;
+
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
     @Inject(DOCUMENT) private document: Document
@@ -26,77 +29,102 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void { this.toggleDisclaimer(); }
 
-  toggleDisclaimer() {
-
-    if (!isPlatformBrowser(this.platformId)) { return; }
-
-    const excludedRoutes = ['cookies', 'politicas', 'terminos', 'sobre-mi'];
-    const currentUrl = window.location.href;
-
-    // Si la ruta actual está excluida no se muestra el popup
-    if (excludedRoutes.some(route => currentUrl.includes(route))) { return; }
-
-    // Si no se aceptaron las cookies se le muestra al usuario el popup
-    const termsAccepted = localStorage.getItem('disclaimer');
-    if (!termsAccepted) {
-      this.showPopupDisclaimer = true;
-      return;
-    }
-
-    // Si no se guardó bien el objeto se le vuelve a mostrar al usuario el popup
-    const acceptedDate = new Date(JSON.parse(termsAccepted).date);
-    if (!acceptedDate) {
-      this.showPopupDisclaimer = true;
-      return;
-    }
-
-    // Si pasaron 6 meses de la aceptación se le vuelve a mostrar al usuario el popup
-    const sixMonthsFromAccepted = new Date(acceptedDate.setMonth(acceptedDate.getMonth() + 6));
-    const currentDate = new Date();
-    this.showPopupDisclaimer = currentDate >= sixMonthsFromAccepted;
-
-    // Acá el usuario ya tiene las cookies aceptadas entonces agrego los scripts
-    if (!this.showPopupDisclaimer) { this.createScripts(); }
-  }
-
-  saveLocalhost() {
+  acceptedAllCookies() {
+    // El usuario aceptó todas las cookies, se agregan todos los scripts
     if (isPlatformBrowser(this.platformId))
     {
 
       localStorage.setItem('disclaimer', JSON.stringify({
-        accepted: true,
+        acceptedGoogleAds: true,
+        acceptedGoogleAnalytics: true,
         date: new Date()
       }));
 
-      // El usuario aceptó las cookies, se agregan los scripts
-      this.createScripts();
+      this.toggleDisclaimer();
     }
   }
 
+  toggleDisclaimer() {
 
+    if (isPlatformServer(this.platformId)) { return; }
+
+    // Busco en el localstorage lo que el usuario aceptó
+    const cookiesString = localStorage.getItem('disclaimer');
+
+    // Si el usuario ya aceptó las cookies se le agregan los scripts
+    if (cookiesString)
+    {
+
+      this.cookiesObj = JSON.parse(cookiesString) as Cookies;
+
+      if (!this.cookiesObj) {
+        this.showPopupDisclaimer = true;
+        return;
+      }
+
+
+      // Si no se guardó bien el objeto se le vuelve a mostrar al usuario el popup
+      const acceptedDate = new Date(this.cookiesObj.date)
+      if (!acceptedDate) {
+        this.showPopupDisclaimer = true;
+        return;
+      }
+
+      // Si pasaron 6 meses de la aceptación se le vuelve a mostrar al usuario el popup
+      // Si no se aceptaron algunas de las cookies vuelvo a mostrar el banner para q acepte todas
+      const sixMonthsFromAccepted = new Date(acceptedDate.setMonth(acceptedDate.getMonth() + 6));
+      const currentDate = new Date();
+
+      this.showPopupDisclaimer =  currentDate >= sixMonthsFromAccepted ||
+                                  !this.cookiesObj.acceptedGoogleAds ||
+                                  !this.cookiesObj.acceptedGoogleAnalytics;
+
+      // Acá el usuario ya tiene las cookies aceptadas entonces agrego los scripts
+      if (!this.showPopupDisclaimer) { this.createScripts(); }
+
+    }
+
+    // Si el usuario no aceptó las cookies se le muestra el popup
+    else { this.showPopupDisclaimer = true; }
+
+  }
 
   createScripts() {
     if (isPlatformBrowser(this.platformId))
     {
-      // Agregar Google Analytics y Google Ads scripts
-      const scriptGoogleTagManager: googleScript = {
-        url: 'https://www.googletagmanager.com/gtag/js?id=G-H7X6015BYD',
-        async: false,
-        innerHtml: '',
-        crossOrigin: '',
-        id: 'google-tag-manager'
+      // Si se aceptaron las cookies de google adsense se agrega el script
+      if (this.cookiesObj?.acceptedGoogleAds)
+      {
+
+        const scriptGooglesyndication: googleScript = {
+          url: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5105612698885287',
+          async: false,
+          innerHtml: '',
+          crossOrigin: 'anonymous',
+          id: 'google-adsense-tag'
+        }
+
+        this.apendScripts(scriptGooglesyndication);
+
       }
 
-      const scriptGooglesyndication: googleScript = {
-        url: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5105612698885287',
-        async: false,
-        innerHtml: '',
-        crossOrigin: 'anonymous',
-        id: 'google-adsense'
+      // Si se aceptaron las cookies de google analytics se agrega el script
+      if (this.cookiesObj?.acceptedGoogleAnalytics)
+      {
+
+        const scriptGoogleTagManager: googleScript = {
+          url: 'https://www.googletagmanager.com/gtag/js?id=G-H7X6015BYD',
+          async: false,
+          innerHtml: '',
+          crossOrigin: '',
+          id: 'google-tag-manager'
+        }
+
+        this.apendScripts(scriptGoogleTagManager);
+
       }
 
-      this.apendScripts(scriptGoogleTagManager);
-      this.apendScripts(scriptGooglesyndication);
+
     }
   }
 
@@ -111,9 +139,12 @@ export class AppComponent implements OnInit {
 
     if (scriptObj.crossOrigin) { script.crossOrigin = scriptObj.crossOrigin; }
 
+    // Una vez que el script de google analytics se cargue se configura
     script.onload = () => { if (script.id === 'google-tag-manager') { this.configureGtag(); } }
 
     this.document.head.appendChild(script);
+
+    this.showPopupDisclaimer = false;
 
   }
 

@@ -10,6 +10,7 @@ import { PoliticasComponent } from './politicas/politicas.component';
 import { CookiesComponent } from './cookies/cookies.component';
 import { RouterModule } from '@angular/router';
 import { DirectivesModule } from '../directives/directives.module';
+import { GestionarCookiesComponent } from './gestionar-cookies/gestionar-cookies.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { DirectivesModule } from '../directives/directives.module';
     TerminosComponent,
     PoliticasComponent,
     CookiesComponent,
+    GestionarCookiesComponent,
   ],
   imports: [
     CommonModule,
