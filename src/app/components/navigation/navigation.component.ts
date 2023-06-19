@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { AfterViewInit, Component, ElementRef, Inject, OnDestroy, PLATFORM_ID, ViewChild } from '@angular/core';
 import { NavigationService } from 'src/app/services/navigation.service';
 
 @Component({
@@ -6,7 +7,11 @@ import { NavigationService } from 'src/app/services/navigation.service';
   templateUrl: './navigation.component.html',
   styleUrls: ['./navigation.component.scss']
 })
-export class NavigationComponent {
+export class NavigationComponent implements AfterViewInit, OnDestroy {
+  @ViewChild('naviToggle') naviToggle: ElementRef<HTMLInputElement> | undefined;
+
+  private naviToggleListener: () => void;
+
   get navigationBgGradient() {
 
     const cssClass = {
@@ -22,6 +27,42 @@ export class NavigationComponent {
 
   }
 
-  constructor(private navigationService: NavigationService) {}
+  constructor(
+    private navigationService: NavigationService,
+    @Inject(DOCUMENT) private document: Document,
+    @Inject(PLATFORM_ID) private platformId: Object,
+
+  ) {
+
+    this.naviToggleListener = () => {}
+
+  }
+
+
+  ngAfterViewInit(): void {
+    if (isPlatformBrowser(this.platformId))
+    {
+
+      this.naviToggleListener = () => {
+        if (this.naviToggle === undefined) return;
+
+        if (this.naviToggle.nativeElement.checked) {
+          this.document.body.style.overflow = 'hidden';
+        } else {
+          this.document.body.style.overflow = 'auto';
+        }
+      };
+
+      if (this.naviToggle)
+        this.naviToggle.nativeElement.addEventListener('change', this.naviToggleListener);
+
+    }
+
+  }
+
+  ngOnDestroy(): void {
+    if (this.naviToggle)
+      this.naviToggle.nativeElement.removeEventListener('change', this.naviToggleListener);
+  }
 
 }

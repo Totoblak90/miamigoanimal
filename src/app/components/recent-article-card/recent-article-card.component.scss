@@ -28,7 +28,17 @@
       padding: 2rem;
   }
 
+  @include respond(phone) {
+    width: 100%;
+  }
+
   &:hover {
       transform: translateY(-1.5rem) scale(1.03);
   }
+}
+
+@include respond(phone) {
+ a.btn-none {
+  width: 100%;
+ }
 }
