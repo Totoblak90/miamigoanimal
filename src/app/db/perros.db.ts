@@ -15684,7 +15684,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       id: 'razas-jack-russell.webp',
       width: 1920,
       height: 1280,
-      url: 'https://esferamascota.b-cdn.net/perros-jack-russell.webp',
+      url: 'https://esferamascota.b-cdn.net/razas-jack-russell.webp',
     },
     searchTerms: ['Jack Russell', 'Terrier', 'Caza de zorros'],
     country_code: 'GB',
