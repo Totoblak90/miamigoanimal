@@ -1,1 +1,6 @@
+@import "../../../../theme/abstracts/mixins";
+@import "../../../../theme/abstracts/variables";
 
+.heading-secondary {
+  transform: skewY(3deg);
+}

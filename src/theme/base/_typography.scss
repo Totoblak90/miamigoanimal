@@ -1,7 +1,6 @@
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    /*font-size: 16px;*/
     line-height: 1.7;
     color: $color-grey-dark;
 }
@@ -27,10 +26,7 @@ body {
             letter-spacing: 1rem;
             font-family: 4rem;
         }
-        /*
-        animation-delay: 3s;
-        animation-iteration-count: 3;
-        */
+
     }
 
     &--sub {
@@ -67,8 +63,12 @@ body {
     }
 
     &:hover {
-        // transform: skewY(0.1deg) skewX(15deg) scale(1.02);
+        transform: scale(1.01);
         text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+    }
+
+    &--red {
+      background-image: linear-gradient(to right, $color-health-light, $color-health-dark) !important;
     }
 }
 
