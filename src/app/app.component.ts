@@ -49,9 +49,9 @@ export class AppComponent implements OnInit {
     if (isPlatformServer(this.platformId)) { return; }
 
     const routesToHideDisclaimer = ['cookies', 'politicas', 'terminos', 'gestionar-cookies'];
-    const hiddenRoute = routesToHideDisclaimer.some(route => window.location.href.includes(route));
+    const isHiddenRoute = routesToHideDisclaimer.some(route => window.location.href.includes(route));
 
-    if (hiddenRoute) { return; }
+    if (isHiddenRoute) { return; }
 
     // Busco en el localstorage lo que el usuario aceptó
     const cookiesString = localStorage.getItem('disclaimer');

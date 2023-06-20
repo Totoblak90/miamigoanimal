@@ -23,7 +23,7 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
   allArticles = this.articlesService.articlesDB();
   breedArticles = Object.values(this.perrosService.dogListSignal()).map(breed => ({...breed, type: 'dog'})).sort((a, b) => a.name > b.name ? 1 : -1);
 
-  pageSize = 12; // Número de artículos por página
+  pageSize = 6; // Número de artículos por página
   currentPage = 0; // Página actual
   pagedArticles: any[] = []; // Artículos de la página actual
 
