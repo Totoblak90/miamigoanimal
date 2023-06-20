@@ -10844,12 +10844,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 652,
       url: 'https://cdn2.thedogapi.com/images/HJ7Pzg5EQ.jpg',
     },
-    searchTerms: ['Golden Retriever', 'Perro de recuperación'],
     country_code: 'UK',
-    description:
-      'El Golden Retriever es un perro inteligente, amable y confiable, conocido por su habilidad para recuperar y su temperamento amigable. Son excelentes compañeros familiares y se llevan bien con los niños y otros animales.',
-    history:
-      'Originario del Reino Unido, el Golden Retriever fue criado originalmente para recuperar aves de caza en tierra y agua. Su pelo dorado resistente al agua y su naturaleza amigable lo han hecho una de las razas de perros más populares para las familias.',
+    description: `
+      El Golden Retriever es una raza de perro que se destaca por su amigable y devota personalidad, su inteligencia y su hermoso pelaje dorado. Esta raza es originaria de Escocia, donde fue desarrollada en el siglo XIX para la caza y recuperación de aves acuáticas. Los Golden Retrievers son perros de tamaño mediano, con una altura promedio de 23-24 pulgadas para los machos y 21.5-22.5 pulgadas para las hembras. Los machos suelen pesar entre 65 y 75 libras, mientras que las hembras suelen pesar entre 55 y 65 libras.
+      <br>
+      <br>
+      Los Golden Retrievers son conocidos por su pelaje denso y resistente al agua, que puede ser liso o ondulado. Este pelaje, que puede variar en tonos de dorado, es una de las características más distintivas de la raza. Los Golden Retrievers también tienen una cabeza ancha con ojos amigables e inteligentes, orejas cortas y un hocico recto. Cuando están en movimiento, se desplazan con un andar suave y poderoso, y su cola, cubierta de plumas, se lleva con una "acción alegre".
+      <br>
+      <br>
+      Los Golden Retrievers son perros extrovertidos, confiables y ansiosos por complacer, lo que los hace relativamente fáciles de entrenar. Mantienen un enfoque alegre y juguetón hacia la vida y conservan este comportamiento de cachorro hasta la edad adulta. Son perros energéticos y poderosos que disfrutan del juego al aire libre. Como raza construida para recuperar aves acuáticas durante horas, la natación y la búsqueda son pasatiempos naturales para ellos.
+      <br>
+      <br>
+      Además de su belleza y su amigable personalidad, los Golden Retrievers son trabajadores serios en la caza y el trabajo de campo, como guías para ciegos y en búsqueda y rescate. También disfrutan de la obediencia y otros eventos competitivos. Su amor por la vida es evidente tanto en el trabajo como en el juego.
+      <br>
+      <br>
+      Los Golden Retrievers son perros generalmente saludables, pero los criadores responsables examinarán a sus perros para detectar condiciones de salud como la displasia de codo y cadera, condiciones oculares como cataratas juveniles, uveítis pigmentaria y atrofia retinal progresiva, y ciertas enfermedades cardíacas, incluyendo la estenosis aórtica subvalvular. Los oídos del Golden deben ser revisados semanalmente en busca de signos de infección, y los dientes deben ser cepillados con frecuencia.
+      <br>
+      <br>
+      En cuanto a su alimentación, una comida de alta calidad adecuada para la edad del perro (cachorro, adulto o anciano) tendrá todos los nutrientes que la raza necesita. Algunos Golden Retrievers pueden tener sobrepeso, por lo que es importante vigilar el consumo de calorías y el nivel de peso de su perro. Si decides darle a tu perro golosinas, hazlo con moderación. Las golosinas pueden ser una ayuda importante en el entrenamiento, pero dar demasiadas puede causar obesidad.
+      <br>
+      <br>
+      En resumen, los Golden Retrievers son una raza de perro maravillosa que es conocida por su amigable personalidad, su inteligencia y su belleza física. Son perros de tamaño mediano a grande, con una cabeza amplia, ojos oscuros y orejas cortas que cuelgan cerca de las mejillas. Su pelaje es denso y resistente al agua, que puede ser liso o ondulado, y varía en tonos de dorado.
+    `,
+    history: `
+      La historia del Golden Retriever es tan dorada como su pelaje. Esta raza fue desarrollada en Escocia e Inglaterra a finales del siglo XIX, y su creación fue un esfuerzo meticuloso para producir un perro que fuera tan capaz en el campo como en la casa. Los Golden Retrievers son el resultado de la cría selectiva de Flat- y Wavy-coated Retrievers, Tweed Water Spaniels y un Setter rojo.
+      <br>
+      <br>
+      El Golden Retriever fue criado por la aristocracia británica para ser un perro de doble propósito, capaz de recuperar aves acuáticas y de caza en tierra, y también de ser un compañero. Lord Tweedmouth, un noble británico, produjo algunas de las primeras existencias de la raza al aparear a un Retriever de pelo ondulado amarillo llamado Nous con su Tweed Water Spaniel, Belle.
+      <br>
+      <br>
+      El Golden Retriever es un perro de trabajo, y su historia está profundamente arraigada en su capacidad para realizar tareas. Desde sus primeros días, estos perros fueron valorados por su habilidad para recuperar aves de caza, tanto en tierra como en agua, y su disposición amigable y su alta capacidad de entrenamiento los hicieron populares entre los cazadores y los dueños de casas por igual.
+      <br>
+      <br>
+      A lo largo del siglo XX, la popularidad del Golden Retriever creció, y la raza se extendió más allá de las fronteras del Reino Unido. En 1956, el Golden Retriever fue reconocido por el United Kennel Club, una organización canina internacional.
+      <br>
+      <br>
+      Hoy en día, los Golden Retrievers son una de las razas más populares en los Estados Unidos. Se pueden encontrar en competencias de campo y en exposiciones caninas, en hogares familiares y en hogares de ancianos, guiando a los ciegos y sirviendo como oídos o manos para personas con discapacidades.
+      <br>
+      <br>
+      A lo largo de su historia, el Golden Retriever ha demostrado ser un perro versátil y adaptable, capaz de desempeñar una variedad de roles con entusiasmo y competencia. Ya sea como perro de trabajo, perro de terapia, perro guía o simplemente como un amado miembro de la familia, el Golden Retriever ha dejado una huella indeleble en el corazón de las personas que han tenido el placer de conocer a uno de estos perros dorados.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente perro de familia y de compañía',
@@ -10874,6 +10908,61 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Cataratas',
       'Hipotiroidismo',
     ],
+    searchTerms: [
+      'Golden Retriever',
+      'Perro de recuperación',
+      "Golden",
+      "Retriever",
+      "Retriever dorado",
+      "Golden Retriber",
+      "Golden Retriver",
+      "Retriever de oro",
+      "Perro dorado",
+      "Perro de familia",
+      "Perro guía",
+      "Perro de asistencia",
+      "Perro de terapia",
+      "Perro de caza",
+      "Perro de recuperación",
+      "Perro de agua",
+      "Perro amigable",
+      "Perro inteligente",
+      "Perro obediente",
+      "Perro leal",
+      "Perro de trabajo",
+      "Perro de compañía",
+      "Perro de rescate",
+      "Perro de búsqueda",
+      "Perro de servicio",
+      "Perro de terapia",
+      "Perro de competencia",
+      "Perro de exposición",
+      "Perro de show",
+      "Perro de raza pura",
+      "Perro de raza grande"
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Buddy',
+        caso: 'Buddy fue el perro estrella de la película "Air Bud".'
+      },
+      {
+        nombre: 'Liberty',
+        caso: 'Liberty fue el perro del presidente Gerald Ford.'
+      }
+    ],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Golden_Retriever',
+      'https://www.dogbreedinfo.com/goldenretriever.htm',
+      'https://www.ukcdogs.com/golden-retriever'
+    ]
   },
   87: {
     weight: {
@@ -10905,12 +10994,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 467,
       url: 'https://cdn2.thedogapi.com/images/SJ5vzx5NX.jpg',
     },
-    searchTerms: ['Setter Gordon', 'Perro de caza'],
     country_code: 'UK',
-    description:
-      'El Setter Gordon es un perro de caza conocido por su habilidad para buscar y señalar aves de caza. Son leales y confiables, con una personalidad alerta y alegre. Necesitan ejercicio regular para mantener su energía y son excelentes compañeros para actividades al aire libre.',
-    history:
-      'Originario del Reino Unido, el Setter Gordon fue criado originalmente para buscar y señalar aves de caza. Es una de las razas de perros de caza más antiguas y apreciadas, conocida por su habilidad para trabajar en diferentes terrenos y condiciones.',
+    description: `
+      El Setter Gordon es una raza de perro que irradia elegancia y majestuosidad, con su pelaje negro y castaño brillante y su porte altivo. Originario de Escocia, es el único perro de caza desarrollado en este país, y su historia se remonta a los años 1770 a 1820, cuando fue estabilizado por Alexander, el cuarto duque de Gordon, y originalmente se le conocía como el Setter del Castillo de Gordon.
+      <br>
+      <br>
+      El Setter Gordon es un perro de tamaño mediano a grande, con machos que pesan entre 55 y 80 libras y miden de 24 a 27 pulgadas de altura, y hembras que pesan entre 45 y 70 libras y miden de 23 a 26 pulgadas de altura. Su pelaje es de longitud media, bastante plano y lo más libre posible de rizos o ondas. El color del pelaje es un negro profundo y brillante, con marcas de color castaño rojizo rico.
+      <br>
+      <br>
+      Este perro es conocido por su resistencia y su habilidad para trabajar en terrenos difíciles, lo que lo convierte en un excelente perro de caza. Aunque puede ser un poco más lento que otros setters, como el Setter Inglés, es un trabajador incansable y un cazador eficaz. Sin embargo, no es solo su habilidad para la caza lo que hace que el Setter Gordon sea tan apreciado. También es un perro de familia maravilloso, conocido por su naturaleza afectuosa y su lealtad hacia su familia humana.
+      <br>
+      <br>
+      El Setter Gordon tiene una personalidad equilibrada y es generalmente de buen carácter. Aunque puede ser reservado con los extraños al principio, una vez que se siente cómodo, es amigable y acogedor. Este perro es inteligente y ansioso por complacer, lo que lo hace relativamente fácil de entrenar. Sin embargo, también puede ser bastante independiente y puede tener una racha obstinada, por lo que se beneficia de un entrenamiento firme y consistente.
+      <br>
+      <br>
+      En cuanto a su salud, el Setter Gordon es generalmente una raza saludable, pero como todos los perros, puede ser propenso a ciertas condiciones de salud. Estos pueden incluir displasia de cadera, problemas oculares y enfermedades de la piel. Es importante que los Setter Gordon reciban suficiente ejercicio para mantenerlos en forma y saludables, ya que son perros activos que disfrutan de la actividad física.
+      <br>
+      <br>
+      En resumen, el Setter Gordon es un perro de caza capaz y un compañero de familia afectuoso. Su belleza, inteligencia y lealtad lo convierten en una elección popular para muchas personas. Ya sea en el campo persiguiendo aves o en casa relajándose con su familia, el Setter Gordon es un perro verdaderamente versátil y encantador.
+    `,
+    history: `
+      La historia del Setter Gordon es tan intrigante como la raza misma, llena de nobleza y tradición. Esta raza de perro es la única raza de perro de caza desarrollada en Escocia, y se estabilizó gracias a Alexander, el cuarto duque de Gordon, entre los años 1770 y 1820. Originalmente, se le conocía como el Setter del Castillo de Gordon.
+      <br>
+      <br>
+      El duque de Gordon tenía una visión clara de lo que quería en su raza de perros: un setter más pesado de conformación agradable, con un gran poder de olfato y bien adaptado a su entorno escocés. Entre las razas mencionadas en la ascendencia del perro se encuentran el "colley" y el sabueso, lo que podría explicar el color del perro.
+      <br>
+      <br>
+      El Setter Gordon puede ser un cazador más lento que el Setter inglés, pero hay menos variación dentro del tipo de banco y campo del Gordon que entre el tipo de banco y campo de los Setters inglés e irlandés. Esto es un crédito para los criadores de la raza.
+      <br>
+      <br>
+      Aunque el Setter Gordon fue reconocido por el United Kennel Club en 1949, su historia se remonta mucho más atrás. Durante el siglo XIX, la raza se hizo popular en Gran Bretaña y América del Norte debido a su habilidad para cazar en diversos terrenos y condiciones climáticas. A lo largo de los años, la raza ha mantenido su reputación como un perro de caza excepcional, pero también ha ganado reconocimiento como una maravillosa mascota familiar.
+      <br>
+      <br>
+      El Setter Gordon es una raza que ha resistido la prueba del tiempo, manteniendo su propósito original mientras se adapta a las necesidades cambiantes de la sociedad. Aunque su popularidad puede haber fluctuado a lo largo de los años, la raza sigue siendo un favorito entre los cazadores y las familias por igual. Su historia es un testimonio de la dedicación y el amor de los criadores y propietarios que han trabajado incansablemente para preservar y mejorar esta raza única.
+      <br>
+      <br>
+      Hoy en día, el Setter Gordon es apreciado tanto por su habilidad en el campo como por su temperamento amigable y leal. Aunque puede que no sea tan conocido como algunas otras razas de perros de caza, aquellos que tienen la suerte de compartir su vida con un Setter Gordon saben que esta raza tiene una rica historia y un carácter que es verdaderamente inigualable.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente perro de caza',
@@ -10931,6 +11051,48 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    searchTerms: [
+      'Setter Gordon',
+      'Perro de caza',
+      "Gordon Setter",
+      "Setters Gordones",
+      "Gordon",
+      "Setter",
+      "Perro de caza",
+      "Perro escocés",
+      "Cazador",
+      "Perro de campo",
+      "Perro de trabajo",
+      "Perro de familia",
+      "Perro de compañía",
+      "Perro de raza pura",
+      "Perro de pelo largo",
+      "Perro grande",
+      "Perro activo",
+      "Perro energético",
+      "Perro leal",
+      "Perro inteligente",
+      "Perro amigable",
+      "Perro de caza escocés",
+      "Perro de caza británico",
+      "Perro de caza de aves",
+      "Perro de caza de pelo largo",
+      "Perro de caza grande",
+      "Perro de caza activo",
+      "Perro de caza energético",
+      "Perro de caza leal",
+      "Perro de caza inteligente",
+      "Perro de caza amigable"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": ["https://en.wikipedia.org/wiki/Gordon_Setter", "https://www.dogbreedinfo.com/gordonsetter.htm", "https://www.ukcdogs.com/gordon-setter"]
   },
   88: {
     weight: {
@@ -10962,12 +11124,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 732,
       url: 'https://cdn2.thedogapi.com/images/B1Edfl9NX.jpg',
     },
-    searchTerms: ['Gran Danés', 'Perro guardian'],
     country_code: 'DE',
-    description:
-      'El Gran Danés es una raza conocida por su gran tamaño y personalidad amistosa y devota. Son excelentes perros guardianes y fueron originalmente criados para cazar y retener jabalíes. A pesar de su tamaño, son conocidos por ser gentiles y amorosos con sus familias.',
-    history:
-      'El Gran Danés se originó en Alemania, donde se crió para cazar jabalíes y actuar como un perro guardián. A pesar de su nombre, no tiene ninguna relación con Dinamarca. Esta raza es famosa por su gran tamaño y por ser una de las razas de perros más altas del mundo.',
+    description: `
+      El Gran Danés, también conocido como el "Apolo de los perros", es una raza que combina un tamaño impresionante con una dignidad y elegancia inigualables. Este gigante amigable y dependiente es conocido por su personalidad cariñosa y su apariencia regia.
+      <br>
+      <br>
+      El Gran Danés es un perro de gran tamaño con una musculatura suave y bien definida. Su cuerpo es cuadrado, aunque las hembras pueden ser un poco más largas que los machos. La longitud de la pata delantera (medida desde el punto del codo hasta el suelo) es aproximadamente igual a la mitad de la altura del perro a la cruz. La cabeza es larga, rectangular y finamente cincelada. Las orejas son de tamaño medio, de inserción alta y pueden ser caídas o cortadas. La cola es una extensión natural de la columna vertebral, gruesa en la base y afinándose hacia la punta.
+      <br>
+      <br>
+      El Gran Danés es un perro de gran tamaño, con un pelaje corto y grueso que tiene un aspecto suave y brillante. Los colores permitidos son el atigrado, el dorado, el azul, el negro, el arlequín, el manto y el merle.
+      <br>
+      <br>
+      El Gran Danés es un perro de naturaleza estable y tranquila, que prefiere descansar en el sofá cerca de un ser querido a casi cualquier otra actividad. Son buenos con los niños, pero su gran tamaño los hace más adecuados para niños mayores y adolescentes. Los Gran Danés son fácilmente entrenables pero necesitan consistencia.
+      <br>
+      <br>
+      El Gran Danés, a pesar de su tamaño, es conocido por ser uno de los "gigantes gentiles" del mundo canino. Su temperamento es a menudo tranquilo y amable, y aunque puede ser reservado con los extraños, tiende a llevarse bien con otras mascotas y animales. Este perro es un verdadero "perro faldero" en el sentido de que ama la compañía de su familia y prefiere estar donde están ellos. No es raro ver a un Gran Danés acurrucado en el sofá con su cabeza en el regazo de su dueño, completamente inconsciente de su tamaño.
+      <br>
+      <br>
+      Los Gran Danés son perros inteligentes y receptivos que responden bien al entrenamiento. Sin embargo, debido a su tamaño, es importante comenzar el entrenamiento y la socialización desde una edad temprana para asegurarse de que se conviertan en perros bien ajustados y manejables cuando crezcan. Aunque son perros grandes, los Gran Danés son bastante sensibles y responden mejor a los métodos de entrenamiento positivos y alentadores.
+      <br>
+      <br>
+      A pesar de su tamaño, los Gran Danés no son perros particularmente activos. No necesitan grandes cantidades de ejercicio y a menudo se les ve disfrutando de una siesta en un lugar cómodo. Sin embargo, necesitan paseos diarios y tiempo para estirar las piernas en un área segura y cerrada. Aunque pueden vivir en apartamentos si se les proporciona suficiente ejercicio, un hogar con un patio grande es ideal.
+      <br>
+      <br>
+      Los Gran Danés son conocidos por su lealtad hacia su familia. Son protectores por naturaleza y harán todo lo posible para mantener a salvo a sus seres queridos. Aunque no son perros agresivos, su tamaño y su presencia pueden ser un fuerte disuasivo para cualquier posible amenaza.
+      <br>
+      <br>
+      En resumen, el Gran Danés es un perro maravilloso y cariñoso que hace una excelente mascota para aquellos que tienen el espacio para acomodarlo. Su temperamento tranquilo y su amor por la compañía humana lo convierten en un excelente compañero para la familia. Sin embargo, es importante recordar que, como cualquier perro, los Gran Danés requieren un compromiso de tiempo y energía para asegurarse de que están saludables, felices y bien ajustados.
+      `,
+    history: `
+      El Gran Danés, también conocido como el "Apolo de los perros", es una raza que combina gran tamaño con dignidad y elegancia. Aunque su nombre podría sugerir lo contrario, el Gran Danés es una raza originaria de Alemania, no de Dinamarca.
+      <br>
+      <br>
+      La historia de esta raza se remonta a los antiguos mastines británicos y posiblemente a los lebreles, que fueron llevados a Europa primero por los romanos y luego por los aristócratas alemanes que buscaban mejorar sus perros de caza. Durante los siglos XV y XVI, los bosques alemanes estaban llenos de caza, y la caza del jabalí con perros era un pasatiempo favorito de la nobleza alemana. Cada señor mantenía un gran número de perros de caza de jabalíes, que criaban cuidadosamente para mejorar su tamaño, potencia y resistencia.
+      <br>
+      <br>
+      Cuando el juego en los bosques comenzó a disminuir, las grandes perreras de cría desaparecieron, pero el Gran Danés continuó siendo un favorito entre los aristócratas alemanes. Los Gran Danés fueron exhibidos en la primera exposición canina alemana en 1863, y los primeros Daneses fueron importados a los Estados Unidos poco tiempo después. En este país, los Gran Danés son populares compañeros de familia para las personas que admiran su apariencia regia y personalidades afectuosas.
+      <br>
+      <br>
+      El Gran Danés es un perro de trabajo gigante y siempre debe aparecer bien proporcionado para su tamaño. Un macho maduro puede no ser menos de 30 pulgadas en el hombro. Una hembra madura puede no ser menos de 28 pulgadas, aunque se prefiere 30 pulgadas o más.
+      <br>
+      <br>
+      El Gran Danés es un perro de espíritu, valiente, amigable y confiable. Los Gran Danés son perros tranquilos, cariñosos con los miembros de la familia y seguros de sí mismos con los extraños. El Gran Danés tiene una naturaleza estable y tranquila, prefiriendo descansar en el sofá cerca de un ser querido a casi cualquier otro pasatiempo. Son buenos con los niños, pero su gran tamaño los hace más adecuados para niños mayores y adolescentes. Los Gran Danés se entrenan fácilmente pero necesitan consistencia.
+      <br>
+      <br>
+      El Gran Danés es una raza que ha dejado una huella imborrable en la historia canina, y su legado continúa hoy en día, siendo un perro de compañía amado y respetado en todo el mundo.
+    `,
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Excelente perro guardián',
@@ -10989,6 +11191,61 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Dilatación gástrica volvulus',
     ],
+    searchTerms: [
+      'Gran Danés',
+      'Perro guardian',
+      "Gran Dane",
+      "Danes",
+      "Dane",
+      "Gigante gentil",
+      "Perro gigante",
+      "Perro grande",
+      "Perro faldero",
+      "Perro de compañía",
+      "Perro de familia",
+      "Perro protector",
+      "Perro tranquilo",
+      "Perro amable",
+      "Perro leal",
+      "Perro de sofá",
+      "Perro cariñoso",
+      "Perro para niños",
+      "Perro para familias",
+      "Perro para casa grande",
+      "Perro para patio grande",
+      "Perro de raza grande",
+      "Perro de raza gigante",
+      "Perro de raza danés",
+      "Perro de raza Gran Danés",
+      "Perro de raza Gran Dane",
+      "Perro de raza Danes",
+      "Perro de raza Dane",
+      "Perro de raza gigante gentil",
+      "Perro de raza gigante tranquilo",
+      "Perro de raza gigante amable"
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Scooby Doo',
+        caso: 'Personaje principal de la serie animada "Scooby-Doo" de Hanna-Barbera'
+      },
+      {
+        nombre: 'Marmaduke',
+        caso: 'Personaje principal del cómic y película "Marmaduke"'
+      }
+    ],
+    fuentes: [
+      "https://en.wikipedia.org/wiki/Great_Dane",
+      "https://www.dogbreedinfo.com/greatdane.htm",
+      "https://www.ukcdogs.com/great-dane"
+    ]
   },
   89: {
     weight: {
