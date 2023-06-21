@@ -12145,7 +12145,19 @@ export const DOG_LIST: { [key: number]: Dog } = {
       En resumen, el Terrier Irlandés es un perro lleno de vida, inteligencia y coraje. Su lealtad y afecto hacia las personas, combinado con su resistencia y agilidad, hacen de esta raza una excelente opción para aquellos que buscan un perro activo y cariñoso.
     `,
     history: `
-
+      La historia del Terrier Irlandés es tan rica y fascinante como la tierra de la que proviene. Este perro, uno de los cuatro terrier que se originaron en Irlanda, puede ser la raza más antigua de su tipo en la región. En sus primeros días, el Terrier Irlandés era un perro de la gente común, utilizado como un perro de granja versátil y cazador. En aquel entonces, los Terrier Irlandeses podían ser de color negro y fuego, atigrado, así como rojo. Sin embargo, para el siglo XX, la raza se había estandarizado para ser solo de color rojo.
+      <br>
+      <br>
+      El Terrier Irlandés tiene la distinción de ser la primera raza reconocida por el Kennel Club inglés como una raza nativa de Irlanda. Este reconocimiento llegó en un momento en que la raza ya estaba bien establecida y apreciada en su tierra natal. Pero fue durante la Primera Guerra Mundial cuando el Terrier Irlandés realmente demostró su valía. Fueron utilizados como perros mensajeros durante la guerra de trincheras, demostrando su inteligencia y utilidad en las condiciones más difíciles.
+      <br>
+      <br>
+      Después de la guerra, la popularidad del Terrier Irlandés continuó creciendo. Fueron reconocidos por el United Kennel Club en 1932, y desde entonces han sido apreciados tanto por su habilidad en diversas actividades caninas como por su carácter leal y afectuoso.
+      <br>
+      <br>
+      A lo largo de los años, el Terrier Irlandés ha mantenido su espíritu independiente y su valentía. Aunque son perros de tamaño mediano, son conocidos por su disposición valiente y su disposición a luchar con gran coraje cuando se les provoca. Sin embargo, también son perros fácilmente entrenables, de temperamento equilibrado y mascotas gentiles, lo que los convierte en una excelente opción para muchos hogares.
+      <br>
+      <br>
+      La historia del Terrier Irlandés es un testimonio de la resistencia y el espíritu de la raza. Desde sus humildes comienzos como perros de granja en Irlanda hasta su papel en la guerra y su estatus actual como una raza apreciada en todo el mundo, el Terrier Irlandés ha demostrado ser un perro verdaderamente excepcional. Su historia es una parte integral de su encanto, y es una de las muchas razones por las que la gente sigue siendo atraída por estos perros rojos audaces y hermosos.
     `,
     categoria_de_tamanio: 'Mediano',
     perks: [
@@ -12164,8 +12176,48 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas de la vista'],
-    searchTerms: ['Terrier Irlandés', 'Perro de caza pequeño'],
-
+    searchTerms: [
+      'Terrier Irlandés',
+      'Perro de caza pequeño',
+      "Terrier Irlandes",
+      "Irish Terrier",
+      "Terrier de Irlanda",
+      "Perro de Irlanda",
+      "Perro Irlandés",
+      "Terrier",
+      "Perro rojo",
+      "Perro de trabajo",
+      "Perro de caza",
+      "Perro de granja",
+      "Perro de compañía",
+      "Perro valiente",
+      "Perro audaz",
+      "Perro leal",
+      "Perro equilibrado",
+      "Perro gentil",
+      "Perro para niños",
+      "Perro para familias",
+      "Perro para primerizos",
+      "Perro resistente",
+      "Perro inteligente",
+      "Perro de pelo rojo",
+      "Perro de pelo duro",
+      "Perro de tamaño mediano",
+      "Perro de guerra",
+      "Perro mensajero",
+      "Perro de trincheras",
+      "Perro de la Primera Guerra Mundial",
+      "Perro de la Segunda Guerra Mundial"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": ["https://en.wikipedia.org/wiki/Irish_Terrier", "https://www.akc.org/dog-breeds/irish-terrier/", "https://www.dogbreedinfo.com/irishterrier.htm"]
   },
   96: {
     weight: {

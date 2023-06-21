@@ -1,4 +1,4 @@
-import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { DOCUMENT, isPlatformBrowser, isPlatformServer } from '@angular/common';
 import { Inject, Injectable, PLATFORM_ID, Renderer2, RendererFactory2 } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { Router } from '@angular/router';
@@ -13,7 +13,8 @@ export class MetaService {
   private renderer: Renderer2 = this.rendererFactory.createRenderer(null, null);
 
   constructor(
-    private title: Title, private meta: Meta,
+    private title: Title,
+    private meta: Meta,
     private rendererFactory: RendererFactory2,
     private router: Router,
     private utilitiesService: UtilitiesService,
@@ -33,56 +34,78 @@ export class MetaService {
     this.addTwitterTags(title, description);
     this.addFacebookTags(title, description, canonical);
 
-    this.removeCanonical('rel=\'canonical\'');
+    this.removeCanonical({rel: 'canonical'});
     this.addCanonical({ rel: 'canonical', href: canonical })
 
   }
 
   private addBasicTags(title: string, description: string, author: string, follow: boolean, keywords?: string) {
+
     this.title.setTitle(title);
     this.meta.updateTag({ name: 'description', content: description })
     this.meta.updateTag({ name: 'author', content: author || 'Tobias Blaksley' })
-    console.log(keywords)
+
     if (keywords) this.meta.updateTag({ name: 'keywords', content: keywords})
 
     if (follow) { this.meta.updateTag({ name: 'robots', content: 'index, follow' }) }
     else { this.meta.updateTag({ name: 'robots', content: 'noindex, follow' }) }
+
   }
 
   private addTwitterTags(title: string, description: string) {
     const selectedImage = this.selectImage(title);
-    this.meta.addTag({ name: 'twitter:card', content: 'summary' })
-    this.meta.addTag({ name: 'twitter:site', content: '@EsferaMascota' })
-    this.meta.addTag({ name: 'twitter:title', content: title })
-    this.meta.addTag({ name: 'twitter:description', content: description })
-    this.meta.addTag({ name: 'twitter:image', content: selectedImage || this.utilitiesService.selectImage('default') })
+    this.meta.updateTag({ name: 'twitter:card', content: 'summary' })
+    this.meta.updateTag({ name: 'twitter:site', content: '@EsferaMascota' })
+    this.meta.updateTag({ name: 'twitter:title', content: title })
+    this.meta.updateTag({ name: 'twitter:description', content: description })
+    this.meta.updateTag({ name: 'twitter:image', content: selectedImage || this.utilitiesService.selectImage('default') })
   }
 
   private addFacebookTags(title: string, description: string, canonical: string) {
-        const selectedImage = this.selectImage(title);
-        this.meta.addTag({ property: 'og:type', content: 'website' })
-        this.meta.addTag({ property: 'og:url', content: canonical })
-        this.meta.addTag({ property: 'og:title', content: title })
-        this.meta.addTag({ property: 'og:description', content: description })
-        this.meta.addTag({ property: 'og:image', content: selectedImage || this.utilitiesService.selectImage('default') })
+    const selectedImage = this.selectImage(title);
+    this.meta.updateTag({ property: 'og:type', content: 'website' })
+    this.meta.updateTag({ property: 'og:url', content: canonical })
+    this.meta.updateTag({ property: 'og:title', content: title })
+    this.meta.updateTag({ property: 'og:description', content: description })
+    this.meta.updateTag({ property: 'og:image', content: selectedImage || this.utilitiesService.selectImage('default') })
   }
 
   private selectImage(title: string) {
-    const dogImage = this.perrosService.setDogBreedImage(title, '', true);
+    const dogImage = this.setDogBreedImage(title);
 
     if (dogImage) { return dogImage }
     else {
 
       if (title.toLocaleLowerCase().includes('perro') || title.toLocaleLowerCase().includes('perros'))
-        { return this.utilitiesService.selectImage('dog') }
+        { return this.utilitiesService.selectImage('dog', '', true) }
 
       else if (title.toLocaleLowerCase().includes('gato') || title.toLocaleLowerCase().includes('gatos'))
-        { return this.utilitiesService.selectImage('cat') }
+        { return this.utilitiesService.selectImage('cat', '', true) }
 
-      else { return this.utilitiesService.selectImage('default') }
+      else { return this.utilitiesService.selectImage('default', '', true) }
 
     }
 
+  }
+
+  private setDogBreedImage(title: string) {
+    const perrosList = Object.values(this.perrosService.dogListSignal());
+
+    // Elimina los signos de puntuación del título
+    const titleWithoutPunctuation = title.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+
+    for (let i = 0; i < perrosList.length; i++)
+    {
+      // Elimina los signos de puntuación del título
+      const nameWithoutPunctuation = perrosList[i].name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+
+      if ( titleWithoutPunctuation.includes(nameWithoutPunctuation) )
+      {
+        return perrosList[i].image.url
+      }
+    }
+
+    return ''
   }
 
   private addCanonical(tag: any) {
@@ -96,7 +119,7 @@ export class MetaService {
     }
   }
 
-  private removeCanonical(attrs: any) {
+  private removeCanonical(attrs: {rel: 'canonical'}) {
     if (isPlatformBrowser(this.platformId))
     {
       const linkElements = this.document.head.getElementsByTagName('link');
@@ -105,7 +128,7 @@ export class MetaService {
 
         let match = true;
 
-        Object.keys(attrs).forEach(key => { if (linkElements[i].getAttribute(key) !== attrs[key]) { match = false; } });
+        Object.keys(attrs).forEach(key => { if (linkElements[i].getAttribute(key) !== attrs.rel) { match = false; } });
 
         if (match) { this.renderer.removeChild(this.document.head, linkElements[i]); }
 
