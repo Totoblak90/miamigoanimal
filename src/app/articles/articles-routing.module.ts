@@ -24,6 +24,8 @@ import { DescubreLasMejoresRazasDePerrosPequeniosGuiaCompletaComponent } from '.
 import { GranDanesCaracteristicasCuidadosYCuriosidadesComponent } from './gran-danes-caracteristicas-cuidados-ycuriosidades/gran-danes-caracteristicas-cuidados-ycuriosidades.component';
 import { GatoSiamesCaracteristicasCuidadosYCuriosidadesComponent } from './gato-siames-caracteristicas-cuidados-ycuriosidades/gato-siames-caracteristicas-cuidados-ycuriosidades.component';
 import { TodoLoQueDebesSaberSobreElPomeraniaComponent } from './todo-lo-que-debes-saber-sobre-el-pomerania/todo-lo-que-debes-saber-sobre-el-pomerania.component';
+import { AprendeTodoSobreElCanicheCaracteristicasCuidadosYCuriosidadesComponent } from './aprende-todo-sobre-el-caniche-caracteristicas-cuidados-ycuriosidades/aprende-todo-sobre-el-caniche-caracteristicas-cuidados-ycuriosidades.component';
+import { DescubreLosMejoresAlimentosParaPerrosEnNuestraGuiaCompletaComponent } from './descubre-los-mejores-alimentos-para-perros-en-nuestra-guia-completa/descubre-los-mejores-alimentos-para-perros-en-nuestra-guia-completa.component';
 
 const routes: Routes = [
   {
@@ -97,6 +99,14 @@ const routes: Routes = [
   {
     path: 'todo-lo-que-debes-saber-sobre-el-pomerania',
     component: TodoLoQueDebesSaberSobreElPomeraniaComponent
+  },
+  {
+    path: 'aprende-todo-sobre-el-caniche-caracteristicas-cuidados-ycuriosidades',
+    component: AprendeTodoSobreElCanicheCaracteristicasCuidadosYCuriosidadesComponent
+  },
+  {
+    path: 'descubre-los-mejores-alimentos-para-perros-en-nuestra-guia-completa',
+    component: DescubreLosMejoresAlimentosParaPerrosEnNuestraGuiaCompletaComponent
   },
 
   {

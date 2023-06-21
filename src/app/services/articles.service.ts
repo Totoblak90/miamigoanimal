@@ -472,6 +472,28 @@ export class ArticlesService {
       buscador: ["Pomerania", "Cuidado pomerania", "Historia pomerania", "Características pomerania", "Salud pomerania", "Aseo pomerania", "Ejercicio pomerania", "Adopción pomerania", "Personalidad pomerania", "Raza pomerania"],
     },
 
+    {
+      url: 'aprende-todo-sobre-el-caniche-caracteristicas-cuidados-ycuriosidades',
+      categories: ['Perros'],
+      'card-heading': 'Caniche',
+      sections: ["Historia", "Características", "Nutrición", "Aseo", "Adiestramiento", "Socialización", "Ejercicio", "Salud", "Cuidado"],
+      destacado: false,
+      creation: '6/21/2023, 15:52:00',
+      recent_card_title: '¡Aprende todo sobre el Caniche!: Características, Cuidados y Curiosidades 🐶',
+      buscador: ["Raza Caniche", "Historia Caniche", "Características Caniche", "Nutrición Caniche", "Aseo Caniche", "Adiestramiento Caniche", "Socialización Caniche", "Ejercicio Caniche", "Salud Caniche", "Cuidado Caniche"],
+    },
+
+    {
+      url: 'descubre-los-mejores-alimentos-para-perros-en-nuestra-guia-completa',
+      categories: ['Perros', 'Alimentacion'],
+      'card-heading': 'Mejores alimentos',
+      sections: ["Comida", "Pienso", "Nutrición", "Ingredientes", "Alergias", "Razas", "Cachorros", "Necesidades", "Consejos", "Guía"],
+      destacado: true,
+      creation: '6/21/2023, 16:05:00',
+      recent_card_title: '🐶 Descubre los Mejores Alimentos para Perros en nuestra Guía Completa 🐕',
+      buscador: ["Comida para perros", "Pienso", "Dieta Canina", "Ingredientes saludables", "Evitar alérgenos", "Comida para razas específicas", "Nutrición perros", "Alergias caninas", "Alimentación cachorros", "Necesidades nutricionales"],
+    },
+
   ]);
 
   constructor() {}
