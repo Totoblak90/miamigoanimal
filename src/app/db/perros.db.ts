@@ -12241,7 +12241,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Sociable',
       'Inteligente',
     ],
-    origin: 'Italia', // Añadido basándose en el nombre
+    origin: 'Italia',
     reference_image_id: 'SJAnzg9NX',
     image: {
       id: 'SJAnzg9NX',
@@ -12249,12 +12249,40 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 377,
       url: 'https://cdn2.thedogapi.com/images/SJAnzg9NX.jpg',
     },
-    searchTerms: ['Galgo Italiano', 'Perro pequeño', 'Perro de juguete'],
-    country_code: 'IT', // Añadido basándose en el nombre
-    description:
-      'El Galgo Italiano es una raza pequeña conocida por su agilidad y atletismo. Aunque son enérgicos y disfrutan de un buen juego, también son muy afectuosos y disfrutan del tiempo de regazo con sus dueños.',
-    history:
-      'El Galgo Italiano es una de las razas de perros más antiguas, con un linaje que se remonta a miles de años. Originalmente criados para la caza y compañía de la nobleza, han permanecido populares debido a su naturaleza cariñosa y su tamaño manejable.',
+    country_code: 'IT',
+    description: `
+    El Galgo Italiano, también conocido como Piccolo Levriero Italiano, es una raza de perro que combina la elegancia y la gracia de un galgo con el tamaño compacto y manejable de un perro de compañía. Aunque son pequeños, estos perros son verdaderos galgos en miniatura, con la misma estructura delgada y aerodinámica y el mismo amor por la velocidad que sus parientes más grandes.
+    <br>
+    <br>
+    Originarios de la antigua Egipto, los Galgos Italianos fueron desarrollados aún más por los romanos después de su llegada a la península italiana alrededor del siglo V a.C. Su gran popularidad en Italia y otros países mediterráneos durante la Edad Media y el Renacimiento les dio el nombre de la raza que llevan hoy. A lo largo de la historia, los Galgos Italianos han sido apreciados por la nobleza, y hoy en día son valorados principalmente como amorosos compañeros de familia.
+    <br>
+    <br>
+    Estos perros son conocidos por su elegancia y gracia, con un cuerpo delgado y esbelto y largas patas finas. Aunque son perros de compañía, los Galgos Italianos son verdaderos lebreles y tienen un fuerte instinto de persecución. Son perros alertas y juguetones, pero también pueden ser sensibles y reservados con los extraños.
+    <br>
+    <br>
+    El Galgo Italiano tiene un pelaje corto, brillante y satinado que es suave al tacto. Pueden venir en todos los colores y marcas, con la excepción de las marcas atigradas y las marcas de color canela que se encuentran en los perros negros y canela de otras razas.
+    <br>
+    <br>
+    En cuanto a su personalidad, los Galgos Italianos son inteligentes y afectuosos. Aunque pueden ser reservados con los extraños, son perros muy leales y amorosos con sus familias. A pesar de su apariencia delicada, los Galgos Italianos son perros robustos y resistentes que han sobrevivido a los cambios de dos milenios.
+    <br>
+    <br>
+    Estos perros son activos y necesitan ejercicio regular. Aunque son perros de compañía, los Galgos Italianos son verdaderos lebreles y disfrutan de la oportunidad de correr y jugar. Sin embargo, debido a su instinto de persecución, no deben ser dejados sin correa en áreas abiertas a menos que estén bien entrenados y supervisados.
+    <br>
+    <br>
+    En resumen, el Galgo Italiano es una raza de perro elegante y afectuosa que combina la gracia y la velocidad de un galgo con el tamaño y la manejabilidad de un perro de compañía. Son perros leales y amorosos que hacen excelentes compañeros de familia, pero también son perros activos que necesitan ejercicio regular. Con su elegante apariencia y su amoroso temperamento, no es de extrañar que los Galgos Italianos hayan sido apreciados por la nobleza a lo largo de la historia y sigan siendo una raza de perro popular hoy en día.
+    `,
+    history: `
+    La historia del Galgo Italiano es tan antigua como fascinante, remontándose a los pequeños lebreles del antiguo Egipto. Los romanos, después de la llegada de la raza a la península italiana alrededor del siglo V a.C., la desarrollaron aún más. Su gran popularidad en Italia y otros países mediterráneos durante la Edad Media y el Renacimiento le dio a la raza su nombre actual.
+    <br>
+    <br>
+    Los Galgos Italianos han sido apreciados por la nobleza a lo largo de la historia. En la antigüedad, se cree que estos perros eran tan valorados que a menudo se les representaba en pinturas y mosaicos, y se les enterraba con sus dueños para proporcionar compañía en el más allá. A lo largo de los siglos, la raza ha sido un favorito de varias familias reales, incluyendo la consorte del rey James I de Inglaterra, Anne de Dinamarca; Mary Beatrice d'Este de Modena, la consorte italiana de James II; Federico el Grande de Prusia; Catalina la Grande de Rusia, y la Reina Victoria.
+    <br>
+    <br>
+    La raza fue reconocida por el American Kennel Club en 1886 y por el United Kennel Club en 1948. A pesar de su apariencia delicada, los Galgos Italianos son perros robustos y rápidos que han sobrevivido a los trastornos de dos milenios. La evidencia arqueológica sugiere que los Galgos Italianos fueron criados como nobles compañeros hace unos 2.000 años en la región que ahora es Grecia y Turquía.
+    <br>
+    <br>
+    Hoy en día, el Galgo Italiano es un pequeño lebrel que se valora principalmente como un amoroso compañero. Aunque son perros de compañía por excelencia, también son verdaderos lebreles y mantienen su instinto de caza. Su elegancia y gracia, junto con su inteligencia y afecto, han hecho que la raza sea querida por los dueños de perros en todo el mundo.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Ideal para la vida en apartamento',
@@ -12262,7 +12290,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Perro de compañía cariñoso y apegado',
       'Bueno para dueños de perros por primera vez',
     ],
-    color: ['Negro', 'Gris', 'Blanco'], // Asumiendo estos son los colores más comunes
+    color: ['Negro', 'Gris', 'Blanco'],
     nivel_de_energia: 'Moderado',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
@@ -12277,6 +12305,54 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Fracturas de las patas',
       'Problemas de piel',
     ],
+    searchTerms: [
+      'Galgo Italiano',
+      'Perro pequeño',
+      'Perro de juguete',
+      "Italian Greyhound",
+      "Pequeño lebrel italiano",
+      "Lebrel italiano",
+      "Piccolo Levriero Italiano",
+      "Galgo",
+      "Lebrel",
+      "Perro italiano",
+      "Perro de compañía",
+      "Perro de carreras",
+      "Perro de caza",
+      "Perro de velocidad",
+      "Perro elegante",
+      "Perro de familia",
+      "Perro de casa",
+      "Perro pequeño",
+      "Perro de raza pequeña",
+      "Perro de raza italiana",
+      "Perro de lujo",
+      "Perro de realeza",
+      "Perro de nobleza",
+      "Perro antiguo",
+      "Perro de Egipto",
+      "Perro de Roma",
+      "Perro de Grecia",
+      "Perro de Turquía",
+      "Perro de carreras pequeño",
+      "Perro de carreras italiano",
+      "Perro de carreras antiguo",
+      "Perro de carreras elegante"
+    ],
+    "tendencia_a_ladrar": "Baja",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Baja",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Italian_Greyhound",
+    "https://www.akc.org/dog-breeds/italian-greyhound/",
+    "https://www.dogbreedinfo.com/italiangreyhound.htm",
+    "https://www.ukcdogs.com/italian-greyhound"
+    ]
   },
   97: {
     weight: {

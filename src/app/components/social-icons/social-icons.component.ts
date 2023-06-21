@@ -37,7 +37,7 @@ export class SocialIconsComponent {
     const descriptionTagContent = this.meta.getTag('name=description')?.content ||
                                   `Para todos los amantes de las mascotas, descubre todo sobre perros y gatos. Explora nuestros recursos y únete a nuestra comunidad.`;
 
-                                  const titleTagContent = this.titleSrv.getTitle();
+    const titleTagContent = this.titleSrv.getTitle();
 
     this.title = titleTagContent || this.title;
     this.description = descriptionTagContent || this.description;

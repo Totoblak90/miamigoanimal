@@ -32,7 +32,7 @@ export class MetaService {
 
     this.addBasicTags(title, description, author, follow, keywords);
     this.addTwitterTags(title, description);
-    this.addFacebookTags(title, description, canonical);
+    this.addOgTags(title, description);
 
     this.removeCanonical({rel: 'canonical'});
     this.addCanonical({ rel: 'canonical', href: canonical })
@@ -61,10 +61,10 @@ export class MetaService {
     this.meta.updateTag({ name: 'twitter:image', content: selectedImage || this.utilitiesService.selectImage('default') })
   }
 
-  private addFacebookTags(title: string, description: string, canonical: string) {
+  private addOgTags(title: string, description: string) {
     const selectedImage = this.selectImage(title);
     this.meta.updateTag({ property: 'og:type', content: 'website' })
-    this.meta.updateTag({ property: 'og:url', content: canonical })
+    this.meta.updateTag({ property: 'og:url', content: 'https://esferamascota.com' + this.router.url })
     this.meta.updateTag({ property: 'og:title', content: title })
     this.meta.updateTag({ property: 'og:description', content: description })
     this.meta.updateTag({ property: 'og:image', content: selectedImage || this.utilitiesService.selectImage('default') })
