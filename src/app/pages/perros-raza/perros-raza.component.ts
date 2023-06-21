@@ -321,7 +321,11 @@ export class PerrosRazaComponent implements OnDestroy {
   private setMetaTags() {
     this.metaService.setMetaTags(
       `Aprendé todo sobre la raza "${this.dog.name}" - esferamascota.com`,
-      `Descubre todo sobre la raza de perro ${this.dog.name}: acerca de la raza, su historia, datos clave, rasgos y más. ¡Conviértete en el mejor amigo de tu perro con nuestra guía!`
+      `Descubre todo sobre la raza de perro ${this.dog.name}: acerca de la raza, su historia, datos clave, rasgos y más. ¡Conviértete en el mejor amigo de tu perro con nuestra guía!`,
+      '',
+      true,
+      'Tobias Blaksley',
+      `${this.dog.name}, raza ${this.dog.name}, raza de perro ${this.dog.name}`,
     )
 
   }

@@ -9770,45 +9770,48 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: [
       'Lapphund finlandés',
       'Perro de pastoreo',
-      "Lapphund",
-      "Finlandés",
-      "Pastor de Laponia",
-      "Perro de Laponia",
-      "Perro finlandés",
-      "Perro de reno",
-      "Perro de trabajo",
-      "Perro de frío",
-      "Perro de nieve",
-      "Perro de familia",
-      "Perro de compañía",
-      "Perro resistente",
-      "Perro inteligente",
-      "Perro amigable",
-      "Perro de granja",
-      "Perro de agilidad",
-      "Perro de Laponia",
-      "Perro sami",
-      "Perro de rebaño",
-      "Perro de protección",
-      "Perro de clima frío",
-      "Perro de clima ártico",
-      "Perro de Finlandia",
-      "Perro de pastoreo",
-      "Perro de pastoreo finlandés",
-      "Perro de pastoreo de Laponia",
-      "Perro de pastoreo de renos",
-      "Perro de pastoreo sami",
-      "Perro de pastoreo ártico"
+      'Lapphund',
+      'Finlandés',
+      'Pastor de Laponia',
+      'Perro de Laponia',
+      'Perro finlandés',
+      'Perro de reno',
+      'Perro de trabajo',
+      'Perro de frío',
+      'Perro de nieve',
+      'Perro de familia',
+      'Perro de compañía',
+      'Perro resistente',
+      'Perro inteligente',
+      'Perro amigable',
+      'Perro de granja',
+      'Perro de agilidad',
+      'Perro de Laponia',
+      'Perro sami',
+      'Perro de rebaño',
+      'Perro de protección',
+      'Perro de clima frío',
+      'Perro de clima ártico',
+      'Perro de Finlandia',
+      'Perro de pastoreo',
+      'Perro de pastoreo finlandés',
+      'Perro de pastoreo de Laponia',
+      'Perro de pastoreo de renos',
+      'Perro de pastoreo sami',
+      'Perro de pastoreo ártico',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": ["https://en.wikipedia.org/wiki/Finnish_Lapphund", "https://www.dogbreedinfo.com/finnishlapphund.htm"]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Finnish_Lapphund',
+      'https://www.dogbreedinfo.com/finnishlapphund.htm',
+    ],
   },
   79: {
     weight: {
@@ -9900,36 +9903,36 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: [
       'Spitz finlandés',
       'Perro no deportivo',
-      "Spitz finlandes",
-      "Spitz de Finlandia",
-      "Perro finlandés",
-      "Perro de Finlandia",
-      "Perro Spitz",
-      "Spitz",
-      "Perro nórdico",
-      "Perro de caza",
-      "Perro de caza finlandés",
-      "Perro de caza de Finlandia",
-      "Perro ladrador",
-      "Perro de ladrido",
-      "Perro de ladrido finlandés",
-      "Perro de ladrido de Finlandia",
-      "Perro de familia",
-      "Perro familiar",
-      "Perro para niños",
-      "Perro para familias",
-      "Perro para el hogar",
-      "Perro de compañía",
-      "Perro de compañia",
-      "Perro de compañía finlandés",
-      "Perro de compañia de Finlandia",
-      "Perro de pelo largo",
-      "Perro de pelo rojo",
-      "Perro de pelo rojizo",
-      "Perro de clima frío",
-      "Perro de clima frio",
-      "Perro resistente al frío",
-      "Perro resistente al frio"
+      'Spitz finlandes',
+      'Spitz de Finlandia',
+      'Perro finlandés',
+      'Perro de Finlandia',
+      'Perro Spitz',
+      'Spitz',
+      'Perro nórdico',
+      'Perro de caza',
+      'Perro de caza finlandés',
+      'Perro de caza de Finlandia',
+      'Perro ladrador',
+      'Perro de ladrido',
+      'Perro de ladrido finlandés',
+      'Perro de ladrido de Finlandia',
+      'Perro de familia',
+      'Perro familiar',
+      'Perro para niños',
+      'Perro para familias',
+      'Perro para el hogar',
+      'Perro de compañía',
+      'Perro de compañia',
+      'Perro de compañía finlandés',
+      'Perro de compañia de Finlandia',
+      'Perro de pelo largo',
+      'Perro de pelo rojo',
+      'Perro de pelo rojizo',
+      'Perro de clima frío',
+      'Perro de clima frio',
+      'Perro resistente al frío',
+      'Perro resistente al frio',
     ],
     tendencia_a_ladrar: 'Alta',
     necesidad_de_aseo: 'Moderada',
@@ -9940,10 +9943,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-    "https://en.wikipedia.org/wiki/Finnish_Spitz",
-    "https://www.akc.org/dog-breeds/finnish-spitz/",
-    "https://www.dogbreedinfo.com/finnishspitz.htm"
-    ]
+      'https://en.wikipedia.org/wiki/Finnish_Spitz',
+      'https://www.akc.org/dog-breeds/finnish-spitz/',
+      'https://www.dogbreedinfo.com/finnishspitz.htm',
+    ],
   },
   80: {
     weight: {
@@ -10054,35 +10057,35 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: [
       'Bulldog francés',
       'Perro no deportivo',
-      "Bulldog Frances",
-      "Bulldog",
-      "Frances",
-      "Francés",
-      "Buldog Frances",
-      "Buldog Francés",
-      "Bulldog frances",
-      "Bulldog frances",
-      "Bulldog franses",
-      "Bulldog fransés",
-      "Bulldog franses",
-      "Bulldog fransés",
-      "Bulldog de Francia",
-      "Perro francés",
-      "Perro de Francia",
-      "Bulldog de Paris",
-      "Bulldog Paris",
-      "Bulldog de París",
-      "Bulldog París",
-      "Perro de compañía",
-      "Perro de apartamento",
-      "Perro pequeño",
-      "Perro cariñoso",
-      "Perro amigable",
-      "Perro para niños",
-      "Perro para familia",
-      "Perro para la ciudad",
-      "Perro para interior",
-      "Perro de raza pequeña"
+      'Bulldog Frances',
+      'Bulldog',
+      'Frances',
+      'Francés',
+      'Buldog Frances',
+      'Buldog Francés',
+      'Bulldog frances',
+      'Bulldog frances',
+      'Bulldog franses',
+      'Bulldog fransés',
+      'Bulldog franses',
+      'Bulldog fransés',
+      'Bulldog de Francia',
+      'Perro francés',
+      'Perro de Francia',
+      'Bulldog de Paris',
+      'Bulldog Paris',
+      'Bulldog de París',
+      'Bulldog París',
+      'Perro de compañía',
+      'Perro de apartamento',
+      'Perro pequeño',
+      'Perro cariñoso',
+      'Perro amigable',
+      'Perro para niños',
+      'Perro para familia',
+      'Perro para la ciudad',
+      'Perro para interior',
+      'Perro de raza pequeña',
     ],
     tendencia_a_ladrar: 'Baja',
     necesidad_de_aseo: 'Baja',
@@ -10094,18 +10097,18 @@ export const DOG_LIST: { [key: number]: Dog } = {
     casos_famosos: [
       {
         nombre: 'Stella',
-        caso: 'Perro de la serie de televisión "Modern Family"'
+        caso: 'Perro de la serie de televisión "Modern Family"',
       },
       {
         nombre: 'Manny',
-        caso: 'Uno de los perros más seguidos en Instagram'
-      }
+        caso: 'Uno de los perros más seguidos en Instagram',
+      },
     ],
     fuentes: [
-      "https://en.wikipedia.org/wiki/French_Bulldog",
-      "https://www.dogbreedinfo.com/frenchbulldog.htm",
-      "https://www.ukcdogs.com/french-bulldog"
-    ]
+      'https://en.wikipedia.org/wiki/French_Bulldog',
+      'https://www.dogbreedinfo.com/frenchbulldog.htm',
+      'https://www.ukcdogs.com/french-bulldog',
+    ],
   },
   81: {
     weight: {
@@ -10198,45 +10201,50 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: [
       'Pinscher alemán',
       'Perro de trabajo',
-      "Pinscher aleman",
-      "Pinscher",
-      "Aleman",
-      "Perro aleman",
-      "Perro de trabajo",
-      "Perro de compañía",
-      "Perro guardián",
-      "Perro de familia",
-      "Pinscher de Alemania",
-      "Pinscher de alemania",
-      "Pinscher Germano",
-      "Pinscher germano",
-      "Perro mediano",
-      "Perro musculoso",
-      "Perro elegante",
-      "Perro de pelo corto",
-      "Perro de orejas puntiagudas",
-      "Perro de cola corta",
-      "Perro de lomo recto",
-      "Perro de pecho ancho",
-      "Perro de patas fuertes",
-      "Perro de patas traseras musculosas",
-      "Perro de patas delanteras rectas",
-      "Perro de cabeza en forma de cuña",
-      "Perro de hocico fuerte",
-      "Perro de ojos oscuros",
-      "Perro de mirada viva",
-      "Perro de expresión alerta",
-      "Perro de movimientos ágiles"
+      'Pinscher aleman',
+      'Pinscher',
+      'Aleman',
+      'Perro aleman',
+      'Perro de trabajo',
+      'Perro de compañía',
+      'Perro guardián',
+      'Perro de familia',
+      'Pinscher de Alemania',
+      'Pinscher de alemania',
+      'Pinscher Germano',
+      'Pinscher germano',
+      'Perro mediano',
+      'Perro musculoso',
+      'Perro elegante',
+      'Perro de pelo corto',
+      'Perro de orejas puntiagudas',
+      'Perro de cola corta',
+      'Perro de lomo recto',
+      'Perro de pecho ancho',
+      'Perro de patas fuertes',
+      'Perro de patas traseras musculosas',
+      'Perro de patas delanteras rectas',
+      'Perro de cabeza en forma de cuña',
+      'Perro de hocico fuerte',
+      'Perro de ojos oscuros',
+      'Perro de mirada viva',
+      'Perro de expresión alerta',
+      'Perro de movimientos ágiles',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": ["https://en.wikipedia.org/wiki/German_Pinscher", "https://www.akc.org/dog-breeds/german-pinscher/", "https://www.dogbreedinfo.com/germanpinscher.htm", "https://www.ukcdogs.com/german-pinscher"]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/German_Pinscher',
+      'https://www.akc.org/dog-breeds/german-pinscher/',
+      'https://www.dogbreedinfo.com/germanpinscher.htm',
+      'https://www.ukcdogs.com/german-pinscher',
+    ],
   },
   82: {
     weight: {
@@ -10335,35 +10343,35 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: [
       'Pastor alemán',
       'Perro de pastoreo',
-      "Pastor Aleman",
-      "Perro pastor alemán",
-      "Perro pastor aleman",
-      "Pastor aleman",
-      "Pastor aleman",
-      "Pastor aleman",
-      "Perro aleman",
-      "Perro de trabajo",
-      "Perro de protección",
-      "Perro de guardia",
-      "Perro de servicio",
-      "Perro de policía",
-      "Perro de rescate",
-      "Perro de busqueda",
-      "Perro de rastreo",
-      "Perro de familia",
-      "Perro para niños",
-      "Perro inteligente",
-      "Perro leal",
-      "Perro fuerte",
-      "Perro de tamaño grande",
-      "Perro de pelo largo",
-      "Perro de pelo corto",
-      "Perro de orejas grandes",
-      "Perro de nariz negra",
-      "Perro de cola larga",
-      "Perro de cuerpo musculoso",
-      "Perro de patas fuertes",
-      "Perro de ojos oscuros"
+      'Pastor Aleman',
+      'Perro pastor alemán',
+      'Perro pastor aleman',
+      'Pastor aleman',
+      'Pastor aleman',
+      'Pastor aleman',
+      'Perro aleman',
+      'Perro de trabajo',
+      'Perro de protección',
+      'Perro de guardia',
+      'Perro de servicio',
+      'Perro de policía',
+      'Perro de rescate',
+      'Perro de busqueda',
+      'Perro de rastreo',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro inteligente',
+      'Perro leal',
+      'Perro fuerte',
+      'Perro de tamaño grande',
+      'Perro de pelo largo',
+      'Perro de pelo corto',
+      'Perro de orejas grandes',
+      'Perro de nariz negra',
+      'Perro de cola larga',
+      'Perro de cuerpo musculoso',
+      'Perro de patas fuertes',
+      'Perro de ojos oscuros',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Moderada',
@@ -10375,18 +10383,18 @@ export const DOG_LIST: { [key: number]: Dog } = {
     casos_famosos: [
       {
         nombre: 'Rin Tin Tin',
-        caso: 'Rin Tin Tin fue un famoso perro de la raza Pastor Alemán que apareció en muchos programas de televisión y películas en los años 20 y 30 del siglo XX.'
+        caso: 'Rin Tin Tin fue un famoso perro de la raza Pastor Alemán que apareció en muchos programas de televisión y películas en los años 20 y 30 del siglo XX.',
       },
       {
         nombre: 'Max von Stephanitz',
-        caso: 'Max von Stephanitz es conocido como el padre de la raza Pastor Alemán. Creó la raza a partir de una variedad de perros pastores alemanes con el objetivo de tener un perro de trabajo eficiente.'
-      }
+        caso: 'Max von Stephanitz es conocido como el padre de la raza Pastor Alemán. Creó la raza a partir de una variedad de perros pastores alemanes con el objetivo de tener un perro de trabajo eficiente.',
+      },
     ],
     fuentes: [
-    "https://en.wikipedia.org/wiki/German_Shepherd",
-    "https://www.dogbreedinfo.com/germanshepherd.htm",
-    "https://www.ukcdogs.com/german-shepherd-dog"
-    ]
+      'https://en.wikipedia.org/wiki/German_Shepherd',
+      'https://www.dogbreedinfo.com/germanshepherd.htm',
+      'https://www.ukcdogs.com/german-shepherd-dog',
+    ],
   },
   83: {
     weight: {
@@ -10483,35 +10491,35 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: [
       'Braco alemán',
       'Perro de caza',
-      "Braco Aleman de Pelo Corto",
-      "Braco alemán pelo corto",
-      "Braco aleman pelo corto",
-      "braco aleman",
-      "braco alemán",
-      "braco",
-      "aleman",
-      "alemán",
-      "pelo corto",
-      "braco de pelo corto",
-      "braco aleman corto",
-      "braco alemán corto",
-      "braco corto",
-      "braco aleman pelo",
-      "braco alemán pelo",
-      "braco pelo",
-      "braco aleman de",
-      "braco alemán de",
-      "braco de",
-      "perro braco",
-      "perro alemán",
-      "perro pelo corto",
-      "perro braco aleman",
-      "perro braco alemán",
-      "perro aleman pelo corto",
-      "perro alemán pelo corto",
-      "cazador",
-      "perro de caza",
-      "perro cazador"
+      'Braco Aleman de Pelo Corto',
+      'Braco alemán pelo corto',
+      'Braco aleman pelo corto',
+      'braco aleman',
+      'braco alemán',
+      'braco',
+      'aleman',
+      'alemán',
+      'pelo corto',
+      'braco de pelo corto',
+      'braco aleman corto',
+      'braco alemán corto',
+      'braco corto',
+      'braco aleman pelo',
+      'braco alemán pelo',
+      'braco pelo',
+      'braco aleman de',
+      'braco alemán de',
+      'braco de',
+      'perro braco',
+      'perro alemán',
+      'perro pelo corto',
+      'perro braco aleman',
+      'perro braco alemán',
+      'perro aleman pelo corto',
+      'perro alemán pelo corto',
+      'cazador',
+      'perro de caza',
+      'perro cazador',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Baja',
@@ -10522,10 +10530,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-    "https://en.wikipedia.org/wiki/German_Shorthaired_Pointer",
-    "https://www.dogbreedinfo.com/germanshorthairedpointer.htm",
-    "https://www.ukcdogs.com/german-shorthaired-pointer"
-    ]
+      'https://en.wikipedia.org/wiki/German_Shorthaired_Pointer',
+      'https://www.dogbreedinfo.com/germanshorthairedpointer.htm',
+      'https://www.ukcdogs.com/german-shorthaired-pointer',
+    ],
   },
   84: {
     weight: {
@@ -10628,41 +10636,41 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: [
       'Schnauzer Gigante',
       'Perro de trabajo',
-      "Schnauzer grande",
-      "Giant Schnauzer",
-      "Schnauzer",
-      "Schnauzer gigante",
-      "Schnauzer alemán",
-      "Schnauzer aleman",
-      "Schnauzer de trabajo",
-      "Shnauzer",
-      "Snauzer",
-      "Snauser",
-      "Schnauser",
-      "Shnauser",
-      "Perro de trabajo",
-      "Perro guardián",
-      "Perro guardian",
-      "Perro de protección",
-      "Perro de proteccion",
-      "Perro de familia",
-      "Perro para niños",
-      "Perro para ninos",
-      "Perro robusto",
-      "Perro fuerte",
-      "Perro resistente",
-      "Perro de pelo duro",
-      "Perro de pelo áspero",
-      "Perro de pelo aspero",
-      "Perro alemán",
-      "Perro aleman",
-      "Perro de gran tamaño",
-      "Perro de gran tamano",
-      "Perro grande",
-      "Perro inteligente",
-      "Perro leal",
-      "Perro versátil",
-      "Perro versatil"
+      'Schnauzer grande',
+      'Giant Schnauzer',
+      'Schnauzer',
+      'Schnauzer gigante',
+      'Schnauzer alemán',
+      'Schnauzer aleman',
+      'Schnauzer de trabajo',
+      'Shnauzer',
+      'Snauzer',
+      'Snauser',
+      'Schnauser',
+      'Shnauser',
+      'Perro de trabajo',
+      'Perro guardián',
+      'Perro guardian',
+      'Perro de protección',
+      'Perro de proteccion',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro para ninos',
+      'Perro robusto',
+      'Perro fuerte',
+      'Perro resistente',
+      'Perro de pelo duro',
+      'Perro de pelo áspero',
+      'Perro de pelo aspero',
+      'Perro alemán',
+      'Perro aleman',
+      'Perro de gran tamaño',
+      'Perro de gran tamano',
+      'Perro grande',
+      'Perro inteligente',
+      'Perro leal',
+      'Perro versátil',
+      'Perro versatil',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Alta',
@@ -10673,10 +10681,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-      "https://en.wikipedia.org/wiki/Giant_Schnauzer",
-      "https://www.dogbreedinfo.com/giantschnauzer.htm",
-      "https://www.ukcdogs.com/giant-schnauzer"
-    ]
+      'https://en.wikipedia.org/wiki/Giant_Schnauzer',
+      'https://www.dogbreedinfo.com/giantschnauzer.htm',
+      'https://www.ukcdogs.com/giant-schnauzer',
+    ],
   },
   85: {
     weight: {
@@ -10769,35 +10777,35 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: [
       'Terrier del Glen de Imaal',
       'Perro de caza',
-      "Terrier de Imaal",
-      "Glen de Imaal",
-      "Terrier irlandés",
-      "Perro de Irlanda",
-      "Perro terrier",
-      "Perro cazador de tejones",
-      "Perro de trabajo",
-      "Perro de compañía",
-      "Perro de tamaño medio",
-      "Perro de pelo duro",
-      "Perro de pelo corto",
-      "Perro de pelo largo",
-      "Perro de doble capa",
-      "Perro de clima frío",
-      "Perro de clima cálido",
-      "Perro de energía alta",
-      "Perro inteligente",
-      "Perro de aprendizaje rápido",
-      "Perro valiente",
-      "Perro gentil",
-      "Perro dócil",
-      "Perro activo",
-      "Perro ágil",
-      "Perro silencioso",
-      "Perro de color azul",
-      "Perro de color trigo",
-      "Perro de color rojizo",
-      "Perro de color dorado",
-      "Perro de color claro"
+      'Terrier de Imaal',
+      'Glen de Imaal',
+      'Terrier irlandés',
+      'Perro de Irlanda',
+      'Perro terrier',
+      'Perro cazador de tejones',
+      'Perro de trabajo',
+      'Perro de compañía',
+      'Perro de tamaño medio',
+      'Perro de pelo duro',
+      'Perro de pelo corto',
+      'Perro de pelo largo',
+      'Perro de doble capa',
+      'Perro de clima frío',
+      'Perro de clima cálido',
+      'Perro de energía alta',
+      'Perro inteligente',
+      'Perro de aprendizaje rápido',
+      'Perro valiente',
+      'Perro gentil',
+      'Perro dócil',
+      'Perro activo',
+      'Perro ágil',
+      'Perro silencioso',
+      'Perro de color azul',
+      'Perro de color trigo',
+      'Perro de color rojizo',
+      'Perro de color dorado',
+      'Perro de color claro',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Moderada',
@@ -10808,11 +10816,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-    "https://en.wikipedia.org/wiki/Glen_of_Imaal_Terrier",
-    "https://www.dogbreedinfo.com/glenofimaalterrier.htm",
-    "https://www.akc.org/dog-breeds/glen-of-imaal-terrier/",
-    "https://www.ukcdogs.com/glen-of-imaal-terrier"
-    ]
+      'https://en.wikipedia.org/wiki/Glen_of_Imaal_Terrier',
+      'https://www.dogbreedinfo.com/glenofimaalterrier.htm',
+      'https://www.akc.org/dog-breeds/glen-of-imaal-terrier/',
+      'https://www.ukcdogs.com/glen-of-imaal-terrier',
+    ],
   },
   86: {
     weight: {
@@ -10911,35 +10919,35 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: [
       'Golden Retriever',
       'Perro de recuperación',
-      "Golden",
-      "Retriever",
-      "Retriever dorado",
-      "Golden Retriber",
-      "Golden Retriver",
-      "Retriever de oro",
-      "Perro dorado",
-      "Perro de familia",
-      "Perro guía",
-      "Perro de asistencia",
-      "Perro de terapia",
-      "Perro de caza",
-      "Perro de recuperación",
-      "Perro de agua",
-      "Perro amigable",
-      "Perro inteligente",
-      "Perro obediente",
-      "Perro leal",
-      "Perro de trabajo",
-      "Perro de compañía",
-      "Perro de rescate",
-      "Perro de búsqueda",
-      "Perro de servicio",
-      "Perro de terapia",
-      "Perro de competencia",
-      "Perro de exposición",
-      "Perro de show",
-      "Perro de raza pura",
-      "Perro de raza grande"
+      'Golden',
+      'Retriever',
+      'Retriever dorado',
+      'Golden Retriber',
+      'Golden Retriver',
+      'Retriever de oro',
+      'Perro dorado',
+      'Perro de familia',
+      'Perro guía',
+      'Perro de asistencia',
+      'Perro de terapia',
+      'Perro de caza',
+      'Perro de recuperación',
+      'Perro de agua',
+      'Perro amigable',
+      'Perro inteligente',
+      'Perro obediente',
+      'Perro leal',
+      'Perro de trabajo',
+      'Perro de compañía',
+      'Perro de rescate',
+      'Perro de búsqueda',
+      'Perro de servicio',
+      'Perro de terapia',
+      'Perro de competencia',
+      'Perro de exposición',
+      'Perro de show',
+      'Perro de raza pura',
+      'Perro de raza grande',
     ],
     tendencia_a_ladrar: 'Baja',
     necesidad_de_aseo: 'Moderada',
@@ -10951,18 +10959,18 @@ export const DOG_LIST: { [key: number]: Dog } = {
     casos_famosos: [
       {
         nombre: 'Buddy',
-        caso: 'Buddy fue el perro estrella de la película "Air Bud".'
+        caso: 'Buddy fue el perro estrella de la película "Air Bud".',
       },
       {
         nombre: 'Liberty',
-        caso: 'Liberty fue el perro del presidente Gerald Ford.'
-      }
+        caso: 'Liberty fue el perro del presidente Gerald Ford.',
+      },
     ],
     fuentes: [
       'https://en.wikipedia.org/wiki/Golden_Retriever',
       'https://www.dogbreedinfo.com/goldenretriever.htm',
-      'https://www.ukcdogs.com/golden-retriever'
-    ]
+      'https://www.ukcdogs.com/golden-retriever',
+    ],
   },
   87: {
     weight: {
@@ -11054,45 +11062,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: [
       'Setter Gordon',
       'Perro de caza',
-      "Gordon Setter",
-      "Setters Gordones",
-      "Gordon",
-      "Setter",
-      "Perro de caza",
-      "Perro escocés",
-      "Cazador",
-      "Perro de campo",
-      "Perro de trabajo",
-      "Perro de familia",
-      "Perro de compañía",
-      "Perro de raza pura",
-      "Perro de pelo largo",
-      "Perro grande",
-      "Perro activo",
-      "Perro energético",
-      "Perro leal",
-      "Perro inteligente",
-      "Perro amigable",
-      "Perro de caza escocés",
-      "Perro de caza británico",
-      "Perro de caza de aves",
-      "Perro de caza de pelo largo",
-      "Perro de caza grande",
-      "Perro de caza activo",
-      "Perro de caza energético",
-      "Perro de caza leal",
-      "Perro de caza inteligente",
-      "Perro de caza amigable"
+      'Gordon Setter',
+      'Setters Gordones',
+      'Gordon',
+      'Setter',
+      'Perro de caza',
+      'Perro escocés',
+      'Cazador',
+      'Perro de campo',
+      'Perro de trabajo',
+      'Perro de familia',
+      'Perro de compañía',
+      'Perro de raza pura',
+      'Perro de pelo largo',
+      'Perro grande',
+      'Perro activo',
+      'Perro energético',
+      'Perro leal',
+      'Perro inteligente',
+      'Perro amigable',
+      'Perro de caza escocés',
+      'Perro de caza británico',
+      'Perro de caza de aves',
+      'Perro de caza de pelo largo',
+      'Perro de caza grande',
+      'Perro de caza activo',
+      'Perro de caza energético',
+      'Perro de caza leal',
+      'Perro de caza inteligente',
+      'Perro de caza amigable',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": ["https://en.wikipedia.org/wiki/Gordon_Setter", "https://www.dogbreedinfo.com/gordonsetter.htm", "https://www.ukcdogs.com/gordon-setter"]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Gordon_Setter',
+      'https://www.dogbreedinfo.com/gordonsetter.htm',
+      'https://www.ukcdogs.com/gordon-setter',
+    ],
   },
   88: {
     weight: {
@@ -11194,35 +11206,35 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: [
       'Gran Danés',
       'Perro guardian',
-      "Gran Dane",
-      "Danes",
-      "Dane",
-      "Gigante gentil",
-      "Perro gigante",
-      "Perro grande",
-      "Perro faldero",
-      "Perro de compañía",
-      "Perro de familia",
-      "Perro protector",
-      "Perro tranquilo",
-      "Perro amable",
-      "Perro leal",
-      "Perro de sofá",
-      "Perro cariñoso",
-      "Perro para niños",
-      "Perro para familias",
-      "Perro para casa grande",
-      "Perro para patio grande",
-      "Perro de raza grande",
-      "Perro de raza gigante",
-      "Perro de raza danés",
-      "Perro de raza Gran Danés",
-      "Perro de raza Gran Dane",
-      "Perro de raza Danes",
-      "Perro de raza Dane",
-      "Perro de raza gigante gentil",
-      "Perro de raza gigante tranquilo",
-      "Perro de raza gigante amable"
+      'Gran Dane',
+      'Danes',
+      'Dane',
+      'Gigante gentil',
+      'Perro gigante',
+      'Perro grande',
+      'Perro faldero',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro protector',
+      'Perro tranquilo',
+      'Perro amable',
+      'Perro leal',
+      'Perro de sofá',
+      'Perro cariñoso',
+      'Perro para niños',
+      'Perro para familias',
+      'Perro para casa grande',
+      'Perro para patio grande',
+      'Perro de raza grande',
+      'Perro de raza gigante',
+      'Perro de raza danés',
+      'Perro de raza Gran Danés',
+      'Perro de raza Gran Dane',
+      'Perro de raza Danes',
+      'Perro de raza Dane',
+      'Perro de raza gigante gentil',
+      'Perro de raza gigante tranquilo',
+      'Perro de raza gigante amable',
     ],
     tendencia_a_ladrar: 'Baja',
     necesidad_de_aseo: 'Baja',
@@ -11234,18 +11246,18 @@ export const DOG_LIST: { [key: number]: Dog } = {
     casos_famosos: [
       {
         nombre: 'Scooby Doo',
-        caso: 'Personaje principal de la serie animada "Scooby-Doo" de Hanna-Barbera'
+        caso: 'Personaje principal de la serie animada "Scooby-Doo" de Hanna-Barbera',
       },
       {
         nombre: 'Marmaduke',
-        caso: 'Personaje principal del cómic y película "Marmaduke"'
-      }
+        caso: 'Personaje principal del cómic y película "Marmaduke"',
+      },
     ],
     fuentes: [
-      "https://en.wikipedia.org/wiki/Great_Dane",
-      "https://www.dogbreedinfo.com/greatdane.htm",
-      "https://www.ukcdogs.com/great-dane"
-    ]
+      'https://en.wikipedia.org/wiki/Great_Dane',
+      'https://www.dogbreedinfo.com/greatdane.htm',
+      'https://www.ukcdogs.com/great-dane',
+    ],
   },
   89: {
     weight: {
@@ -11277,12 +11289,40 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 550,
       url: 'https://cdn2.thedogapi.com/images/B12uzg9V7.png',
     },
-    searchTerms: ['Gran Pirineo', 'Perro guardian de ovejas'],
     country_code: 'FR',
-    description:
-      'El Gran Pirineo es conocido por su resistencia y valentía en el cuidado de las ovejas. Su temperamento fuerte, afectuoso y paciente hace que sea una excelente elección para un perro guardián. Su tamaño grande y su fuerte voluntad pueden ser intimidantes, pero debajo de esa apariencia, son gentiles y amorosos con su familia.',
-    history:
-      'El Gran Pirineo se originó en Francia y fue criado con el propósito de ser un perro guardián de ovejas. Son conocidos por su valentía y resistencia para proteger a las ovejas de los depredadores. Esta raza tiene una larga historia que se remonta a varios siglos atrás.',
+    description: `
+      El Gran Pirineo, una raza de perro de gran tamaño y majestuosidad, es conocido por su inteligencia aguda, su expresión amable, su belleza inigualable y una cierta elegancia. Son fuertes pero ágiles, con un pelaje denso y doble que es bastante largo y plano con una sensación crujiente alrededor de los hombros y la espalda. El pelo es más largo en la cola y en el cuello, donde puede ser ligeramente ondulado. El pelaje de los pantalones, que es fino y lanoso, es muy grueso. El color del pelaje es blanco sólido, o blanco con parches de color que son gris (tejón o lobo), amarillo pálido o naranja (tonos de bronceado). Los parches aparecen en la cabeza, las orejas, la base de la cola y a veces en el cuerpo.
+      <br>
+      <br>
+      El Gran Pirineo tiene una historia rica y fascinante. Descendiente del antiguo Mastín Tibetano y, más recientemente, de sus descendientes, los Mollossian Hounds traídos a España por los romanos, se establecieron en las montañas de los Pirineos en la frontera entre Francia y España, donde se criaron en forma aislada durante unos 1.000 años. Históricamente, el Gran Pirineo ha sido utilizado como perro guardián en su tierra natal, además de su función original como perro guardián de rebaños.
+      <br>
+      <br>
+      El Gran Pirineo es una raza con una propensión a la independencia y un sentido de autoridad debido a su historia de ser dejado solo para proteger los rebaños. La raza tiene una gentileza innata y se vuelve muy apegada a aquellos a los que está protegiendo. La cabeza del Gran Pirineo no es demasiado grande en comparación con el tamaño general del perro. Es bastante plana en los lados. El hocico es amplio y bien lleno debajo de los ojos, y se estrecha suavemente desde el stop hasta la punta, formando una cuña roma cuando se ve desde arriba. Es ligeramente más corto en longitud que el cráneo. Los labios cubren la línea de la mandíbula inferior sin holgura.
+      <br>
+      <br>
+      El Gran Pirineo es un perro de gran tamaño, con una altura que varía entre 27,5 y 31,5 pulgadas para los machos y entre 25,5 y 29,5 pulgadas para las hembras. El cuerpo es ligeramente más largo que la altura a la cruz. El pecho en su punto más profundo es aproximadamente, pero nunca más que, la mitad de la altura a la cruz. El pecho llega a, pero no cae por debajo del nivel de los codos. La espalda es fuerte y nivelada. La grupa es suavemente inclinada con las ancas bastante prominentes. Las costillas están ligeramente redondeadas y hay muy poco recogimiento.
+      <br>
+      <br>
+      El Gran Pirineo tiene un andar poderoso y libre, extendido más que rápido y mostrando una cierta flexibilidad y elegancia. Es una raza de perro que sin duda captura la atención y el corazón de todos los que tienen la suerte de conocerla.
+    `,
+    history: `
+      La historia del Gran Pirineo es tan antigua como fascinante, y se remonta a los tiempos de los mastines tibetanos antiguos. Estos mastines, que son algunos de los perros más antiguos conocidos por la humanidad, viajaron a través de las vastas extensiones de Asia y Europa, y se cree que llegaron a las montañas de los Pirineos, entre España y Francia, hace más de mil años. Aquí, en el aislamiento de las altas montañas y los valles profundos, la raza que ahora conocemos como el Gran Pirineo comenzó a tomar forma.
+      <br>
+      <br>
+      Los Gran Pirineos fueron criados para ser perros de trabajo, y su tarea principal era proteger a las ovejas de los depredadores. Su tamaño, fuerza y valentía los hacían perfectamente adecuados para esta tarea, y pronto se ganaron una reputación como protectores inigualables. Pero no eran solo su tamaño y fuerza lo que los hacía tan buenos en su trabajo. Los Gran Pirineos también son conocidos por su inteligencia y su capacidad para trabajar de forma independiente. Estos perros tenían que tomar decisiones rápidas y actuar en ellas para proteger a las ovejas, y lo hacían con una habilidad que asombraba a los pastores.
+      <br>
+      <br>
+      A lo largo de los siglos, la raza se mantuvo pura y prácticamente sin cambios. Los pastores valoraban a estos perros por su habilidad para hacer su trabajo, y no tenían interés en cambiarlos. Así, los Gran Pirineos que vemos hoy son muy similares a los perros que trabajaban en las montañas de los Pirineos hace cientos de años.
+      <br>
+      <br>
+      La raza comenzó a ser conocida fuera de los Pirineos en el siglo XVII, cuando Luis XIV de Francia declaró al Gran Pirineo el "Perro Real de Francia". Esto llevó a la raza a los hogares de la nobleza francesa, y desde allí su fama solo creció. A finales del siglo XIX, los Gran Pirineos habían llegado a Inglaterra, y a principios del siglo XX, la raza había cruzado el Atlántico hasta los Estados Unidos.
+      <br>
+      <br>
+      Hoy en día, el Gran Pirineo es amado en todo el mundo no solo por su habilidad para el trabajo, sino también por su temperamento gentil y su lealtad. Aunque ya no se les necesita para proteger a las ovejas en muchas partes del mundo, estos perros aún mantienen su valentía, su inteligencia y su amor por el trabajo. Y aunque pueden ser un puñado para entrenar debido a su independencia, aquellos que conocen y aman a la raza no la cambiarían por nada del mundo.
+      <br>
+      <br>
+      En resumen, la historia del Gran Pirineo es una historia de supervivencia y éxito, de una raza que ha resistido la prueba del tiempo sin cambiar, y que sigue siendo tan valiosa y amada hoy como lo era hace mil años. Es una raza que ha trabajado duro para ganarse su lugar en el mundo, y que sigue demostrando su valor cada día.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente perro guardián',
@@ -11290,7 +11330,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Amigable y amoroso con la familia',
       'Requiere ejercicio moderado',
     ],
-    color: ['Blanco', 'Gris', 'Tricolor'], // assuming these are the 3 most common colors
+    color: ['Blanco', 'Gris', 'Tricolor'],
     nivel_de_energia: 'Moderado',
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
@@ -11301,6 +11341,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    searchTerms: [
+      'Gran Pirineo',
+      'Perro guardian de ovejas',
+      'Gran Pirineos',
+      'Gran Pirineu',
+      'Gran Pirineus',
+      'Pirineo',
+      'Pirineos',
+      'Pirineu',
+      'Pirineus',
+      'Perro de montaña',
+      'Perro de montañas',
+      'Perro protector',
+      'Perro guardián',
+      'Perro de trabajo',
+      'Perro grande',
+      'Perro blanco',
+      'Perro de pelo largo',
+      'Perro de pelo largo blanco',
+      'Perro de raza grande',
+      'Perro de raza grande blanco',
+      'Perro de raza grande pelo largo',
+      'Perro de raza grande pelo largo blanco',
+      'Perro de raza grande protector',
+      'Perro de raza grande guardián',
+      'Perro de raza grande trabajo',
+      'Perro de raza grande montaña',
+      'Perro de raza grande montañas',
+      'Perro de raza grande Pirineo',
+      'Perro de raza grande Pirineos',
+      'Perro de raza grande Pirineu',
+      'Perro de raza grande Pirineus',
+    ],
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Great_Pyrenees',
+      'https://www.akc.org/dog-breeds/great-pyrenees/',
+      'https://www.dogbreedinfo.com/greatpyrenees.htm',
+    ],
   },
   90: {
     weight: {
@@ -11324,7 +11410,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Tranquilo',
       'Temperamento estable',
     ],
-    origin: 'Egipto', // adding the origin of the breed
+    origin: 'Egipto',
     reference_image_id: 'ryNYMx94X',
     image: {
       id: 'ryNYMx94X',
@@ -11332,19 +11418,56 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 681,
       url: 'https://cdn2.thedogapi.com/images/ryNYMx94X.jpg',
     },
-    searchTerms: ['Galgo', 'Cazar liebres', 'Perro rápido'],
-    country_code: 'EG', // adding the country code of origin
-    description:
-      'El Galgo es conocido por su velocidad y agilidad. Son perros cariñosos y suaves, pero también son extremadamente atléticos y disfrutan de la actividad física. Su naturaleza tranquila los convierte en excelentes compañeros de hogar.',
-    history:
-      'El Galgo tiene una larga historia que se remonta a los antiguos egipcios. Fueron criados originalmente para cazar liebres debido a su velocidad y agilidad. A lo largo de los años, han sido apreciados por su atletismo y su naturaleza cariñosa.',
+    country_code: 'EG',
+    description: `
+      El Galgo, conocido también como Greyhound, es una raza de perro que es sinónimo de velocidad, elegancia y nobleza. Su figura esbelta y aerodinámica, junto con su poderoso impulso muscular, lo convierten en el corredor supremo del mundo canino. Pero más allá de su impresionante físico, el Galgo es un perro de personalidad encantadora, conocido por su temperamento tranquilo, su inteligencia y su afecto hacia sus dueños.
+      <br>
+      <br>
+      El Galgo es una raza antigua, con una historia que se remonta a miles de años. Se cree que es una de las razas de perros más antiguas que existen, con estimaciones que sugieren que puede tener hasta 4.000 años de antigüedad. A lo largo de su historia, el Galgo ha sido apreciado por su velocidad y habilidad para la caza, pero también por su lealtad y su carácter amigable.
+      <br>
+      <br>
+      El cuerpo del Galgo es una maravilla de la naturaleza diseñada para la velocidad. Su cabeza es larga y estrecha, su cuello es fuerte y arqueado, y su pecho es profundo, lo que le permite tener una gran capacidad pulmonar para mantener su ritmo rápido. Sus patas son largas y fuertes, y su cola es larga y delgada, lo que le ayuda a mantener el equilibrio durante sus rápidas carreras.
+      <br>
+      <br>
+      A pesar de su apariencia atlética, el Galgo es sorprendentemente un perro de casa. Son conocidos por ser perros tranquilos y relajados en el hogar, disfrutando de largas siestas y de la compañía de sus dueños. Son perros inteligentes y sensibles, y aunque pueden ser un poco reservados al principio, una vez que se sienten cómodos con alguien, forman vínculos fuertes y afectuosos.
+      <br>
+      <br>
+      El Galgo es una raza que requiere ejercicio regular para mantener su salud y felicidad. Aunque son conocidos por su velocidad, no necesitan correr largas distancias todos los días. De hecho, se les conoce como "los atletas de 40 km/h del mundo del sofá" debido a su amor por la comodidad del hogar. Sin embargo, disfrutan de la oportunidad de estirar sus patas en un entorno seguro, y un par de carreras cortas y rápidas al día suelen ser suficientes para mantenerlos felices y saludables.
+      <br>
+      <br>
+      En cuanto a su pelaje, es corto y fino, y requiere poco mantenimiento más allá de un cepillado regular para mantenerlo en buen estado. Vienen en una variedad de colores, desde el negro, blanco, rojo, azul, fawn, hasta el atigrado.
+      <br>
+      <br>
+      En resumen, el Galgo es una raza de perro maravillosa y versátil. Ya sea que estés buscando un compañero de carrera o un amigo tranquilo y cariñoso para relajarte en casa, el Galgo puede ser la elección perfecta. Con su combinación de velocidad, elegancia, inteligencia y afecto, es fácil ver por qué esta raza antigua ha sido apreciada durante miles de años.
+    `,
+    history: `
+      La historia del Galgo, también conocido como Greyhound, es tan antigua como fascinante. Se considera que el Galgo es la raza pura más antigua que existe. Aunque hay teorías que estiman que podría tener hasta 7,000 años de antigüedad, generalmente se acepta que tiene alrededor de 4,000 años. Desde tiempos pre-cristianos, el Galgo se había convertido en un viajero mundial, habiendo sido llevado a Europa, incluyendo Inglaterra, a lo largo de Grecia y al Oriente.
+      <br>
+      <br>
+      El Galgo ha sido utilizado para la caza desde el comienzo de la historia registrada, y ha conservado su forma y habilidad hasta el día de hoy. La raza fue reconocida por el United Kennel Club en 1914.
+      <br>
+      <br>
+      El Galgo es un atleta; poderoso, equilibrado y elegante, con una cabeza y cuello largos, hombros limpios, pecho profundo, lomo arqueado y patas y pies sólidos. La raza posee una velocidad, agilidad y resistencia notables. Son inteligentes, afectuosos, gentiles y de temperamento uniforme.
+      <br>
+      <br>
+      El Galgo es una raza que ha sido apreciada y respetada a lo largo de la historia. Su velocidad y agilidad, combinadas con su elegancia y gracia, han hecho de esta raza un favorito tanto en el campo como en el hogar. A lo largo de los siglos, los Galgos han sido venerados por su habilidad para cazar y su lealtad hacia sus dueños.
+      <br>
+      <br>
+      A lo largo de su historia, el Galgo ha sido utilizado para una variedad de propósitos. En la antigüedad, los Galgos eran utilizados para la caza de liebres y otros animales pequeños. Su velocidad y agilidad los hacían perfectos para este tipo de caza. En la Edad Media, los Galgos eran a menudo propiedad de la nobleza y eran utilizados tanto para la caza como para el deporte.
+      <br>
+      <br>
+      En la época moderna, los Galgos han encontrado un nuevo propósito en las carreras de perros. Su velocidad y resistencia los hacen perfectos para este deporte, y muchos Galgos retirados de las carreras son adoptados como mascotas.
+      <br>
+      <br>
+      A pesar de su larga historia y su variedad de usos, el Galgo sigue siendo una raza amada y respetada. Su elegancia, velocidad y lealtad los hacen una raza única y especial. Ya sea en el campo, en la pista de carreras o en el hogar, el Galgo sigue siendo un testamento a la belleza y la gracia de la raza canina.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Perro muy rápido y atlético',
       'Tranquilo y suave en casa',
       'Inteligente y fácil de entrenar',
     ],
-    color: ['Negro', 'Blanco', 'Atigrado'], // assuming these are the 3 most common colors
+    color: ['Negro', 'Blanco', 'Atigrado'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
@@ -11355,6 +11478,54 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Osteosarcoma', 'Problemas cardíacos'],
+    searchTerms: [
+      'Galgo',
+      'Cazar liebres',
+      'Perro rápido',
+      'Greyhound',
+      'Galgo inglés',
+      'Perro de carreras',
+      'Perro rápido',
+      'Perro de caza',
+      'Perro de liebres',
+      'Perro delgado',
+      'Perro alto',
+      'Perro de pista',
+      'Perro de competición',
+      'Perro de velocidad',
+      'Perro de resistencia',
+      'Perro elegante',
+      'Perro leal',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro tranquilo',
+      'Perro cariñoso',
+      'Perro de pelo corto',
+      'Perro de orejas caídas',
+      'Perro de nariz larga',
+      'Perro de cuerpo delgado',
+      'Perro de patas largas',
+      'Perro de raza antigua',
+      'Perro de raza pura',
+      'Perro de raza grande',
+      'Perro de raza rápida',
+      'Perro de raza delgada',
+      'Perro de raza alta',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Baja',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Moderada',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.dogbreedinfo.com/g/greyhound.htm',
+      'https://www.akc.org/dog-breeds/greyhound/',
+      'https://en.wikipedia.org/wiki/Greyhound',
+      'https://www.ukcdogs.com/greyhound',
+    ],
   },
   91: {
     weight: {
@@ -11368,7 +11539,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     id: 91,
     name: 'Grifón de Bruselas',
     bred_for: ['Caza y eliminación de alimañas en establos'],
-    breed_group: ['Toy'], // as per Dog API, not provided in the original object
+    breed_group: ['Toy'],
     life_span: '10 – 15 años',
     temperament: [
       'Auto-importante',
@@ -11378,7 +11549,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Sensible',
       'Vigilante',
     ],
-    origin: 'Bélgica', // added as per Dog API
+    origin: 'Bélgica',
     reference_image_id: 'ryoYGec4Q',
     image: {
       id: 'ryoYGec4Q',
@@ -11386,19 +11557,68 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 380,
       url: 'https://cdn2.thedogapi.com/images/ryoYGec4Q.jpg',
     },
-    searchTerms: ['Grifón de Bruselas', 'Caza de alimañas', 'Perro pequeño'],
-    country_code: 'BE', // added as per Dog API
-    description:
-      'El Grifón de Bruselas es una raza de perro pequeña y robusta, conocida por su pelaje rojo y su distintivo rostro cuadrado. Tienen un espíritu curioso y son excelentes compañeros de familia debido a su naturaleza amigable y vigilante.',
-    history:
-      'El Grifón de Bruselas tiene sus raíces en Bélgica, donde se criaba para cazar y eliminar alimañas en los establos. Con el tiempo, su atractivo físico y su naturaleza cariñosa los hicieron populares como mascotas de la familia y se han mantenido así hasta el día de hoy.',
+    country_code: 'BE',
+    description: `
+      El Grifón de Bruselas es una raza de perro pequeña pero robusta, llena de personalidad y carácter. Este perro de juguete, que no pesa más de 12 libras, tiene una personalidad tan grande que parece tener suficiente para 10 perros ordinarios. Es inteligente, devoto y cómicamente autocomplaciente, lo que lo convierte en un compañero sensible para los adultos exigentes.
+      <br>
+      <br>
+      Una mirada a sus grandes ojos, casi humanos, y te enamorarás. Los Grifones vienen en cuatro colores: rojo, negro y rojo-marrón (llamado belga), negro y canela, y negro. Tienen dos tipos de pelaje, liso (como un Pug) o áspero (como un Schnauzer). Su hocico negro y sus bigotes les valieron el apodo de "perros barbudos" en las viejas canciones populares. Los grandes ojos negros del Grifón, descritos como "casi humanos", junto con una barba y un bigote que cubren su hocico corto, le dan el aire de un filósofo de habla francesa y de gran experiencia en el mundo.
+      <br>
+      <br>
+      El cuerpo del Grifón es robusto y resistente, y se mueve con el trote decidido de alguien que sabe lo que quiere. Los Grifones son alertas, sociables y fácilmente entrenables. Aunque son juguetones y enérgicos, su pequeño tamaño y su naturaleza sensible los hacen una mala elección como compañeros de juegos bruscos para los niños. Tienen un bajo umbral para la soledad y se mantendrán cerca de su humano especial, proporcionando años de amor y risas.
+      <br>
+      <br>
+      El Grifón de Bruselas es una raza muy antigua, documentada desde el siglo XV en una pintura de Jan Van Eyck, "El matrimonio de Giovanni Arnolfini". Desarrollada en Bélgica, se cree que los antepasados de la raza eran perros ratoneros alemanes. Inicialmente utilizados como "rateros" de establos, los Grifones de Bruselas se hicieron populares como guardianes de los carruajes tirados por caballos. Se cree que el Grifón de Bruselas original se cruzó con el Pug, el Affenpinscher y el King Charles Spaniel Ruby a principios del siglo XIX para producir la raza tal como la conocemos hoy. La raza encontró el favor de la nobleza, y esto ayudó a difundir su popularidad en Inglaterra y otras partes del mundo.
+      <br>
+      <br>
+      En cuanto a su pelaje, existen dos tipos distintos: áspero y liso. El pelaje áspero es denso y doble, lo suficientemente largo como para poder sentir su textura áspera, pero no tanto como para oscurecer el contorno del perro. En la cabeza, el pelo forma una barba, bigote y cejas. Un pelaje sedoso o lanudo es considerado un defecto grave. En el pelaje liso, el pelo es corto, áspero, plano y brillante.
+      <br>
+      <br>
+      Los colores aceptables del pelaje, tanto en los perros de pelo áspero como en los de pelo liso, incluyen: marrón rojizo; se permite también el negro, el negro y tostado, y el gris. Los patrones de color pueden variar, y algunos Grifones pueden tener marcas blancas. Sin embargo, es importante recordar que el color del pelaje no afecta a la personalidad o a la salud del perro.
+      <br>
+      <br>
+      Los Grifones de Bruselas son perros de compañía excepcionales. Son leales y forman fuertes lazos con sus dueños. Son conocidos por su inteligencia y su capacidad para aprender rápidamente, lo que los hace excelentes en actividades como la obediencia y la agilidad. Aunque son pequeños, son valientes y no tienen miedo de enfrentarse a perros más grandes si se sienten amenazados.
+      <br>
+      <br>
+      A pesar de su pequeño tamaño, los Grifones de Bruselas son perros robustos y activos. Necesitan ejercicio diario para mantenerse saludables y felices. Esto puede incluir paseos cortos, juegos en el jardín o incluso sesiones de juego en el interior. Sin embargo, debido a su pequeño tamaño, no son adecuados para vivir al aire libre y deben ser considerados como perros de interior.
+      <br>
+      <br>
+      En cuanto a su temperamento, los Grifones de Bruselas son conocidos por ser amigables y sociables. Les encanta estar con su familia y pueden llevarse bien con otros perros y mascotas si se les presenta adecuadamente. Sin embargo, también pueden ser un poco tercos a veces, por lo que es importante establecer reglas claras y consistentes desde una edad temprana.
+      <br>
+      <br>
+      En resumen, el Grifón de Bruselas es un perro pequeño con una gran personalidad. Son leales, inteligentes y llenos de carácter. Con su pelaje distintivo y su expresión casi humana, son verdaderamente una raza única. Ya sea que estés buscando un compañero leal o un perro con una personalidad que te haga reír, el Grifón de Bruselas puede ser la elección perfecta para ti.
+    `,
+    history: `
+      La historia del Grifón de Bruselas es tan fascinante como la raza misma. Esta raza tiene una antigüedad documentada que se remonta hasta el siglo XV, apareciendo en una pintura de Jan Van Eyck titulada "El matrimonio de Giovanni Arnolfini". Originario de Bélgica, se cree que los antepasados de la raza eran perros ratoneros alemanes. Inicialmente utilizados como "rateros" en establos, los Grifones de Bruselas se popularizaron como guardianes de los carruajes tirados por caballos.
+      <br>
+      <br>
+      Es probable que el Grifón de Bruselas original se cruzara con el Pug, el Affenpinscher y el King Charles Spaniel de color rubí a principios del siglo XIX para producir la raza tal como la conocemos hoy. La raza encontró el favor de la nobleza, y esto ayudó a difundir su popularidad en Inglaterra y otras partes del mundo.
+      <br>
+      <br>
+      El Grifón de Bruselas es una raza muy antigua, documentada desde el siglo XV en una pintura de Jan Van Eyck, "El matrimonio de Giovanni Arnolfini". Desarrollada en Bélgica, se cree que los antepasados de la raza eran perros ratoneros alemanes. Inicialmente utilizados como "rateros" de establo, el Grifón de Bruselas se hizo popular como guardianes de los carruajes tirados por caballos. Se cree que el Grifón de Bruselas original se cruzó con el Pug, el Affenpinscher y el King Charles Spaniel de color rubí a principios del siglo XIX para producir la raza tal como la conocemos hoy. La raza encontró el favor de la nobleza, y esto ayudó a difundir su popularidad en Inglaterra y otras partes del mundo.
+      <br>
+      <br>
+      El Grifón de Bruselas, con su distintiva apariencia y su carácter encantador, pronto se convirtió en un favorito entre la nobleza belga. Su tamaño pequeño y su personalidad vivaz lo hicieron perfecto para la vida en los palacios y las mansiones, y su habilidad para cazar ratas también lo hizo útil en los establos y las cocinas.
+      <br>
+      <br>
+      A medida que la raza se fue difundiendo, su popularidad también creció en Inglaterra. Durante el siglo XIX, la reina Victoria de Inglaterra se convirtió en una entusiasta de la raza después de adquirir un Grifón de Bruselas durante una visita a Bélgica. Esto impulsó aún más la popularidad de la raza, y los Grifones de Bruselas comenzaron a aparecer en los hogares de la alta sociedad y en las exposiciones caninas de todo el país.
+      <br>
+      <br>
+      A pesar de su popularidad en Europa, la raza tardó un poco más en llegar a América. No fue hasta principios del siglo XX que los Grifones de Bruselas comenzaron a aparecer en los Estados Unidos. Aunque la raza nunca ha alcanzado el mismo nivel de popularidad en los Estados Unidos que en Europa, sigue siendo una raza querida por muchos por su personalidad única y su apariencia distintiva.
+      <br>
+      <br>
+      A lo largo de los años, la raza ha sufrido algunos cambios debido a las diferentes influencias de cría. Sin embargo, los criadores han trabajado duro para mantener las características que hacen que el Grifón de Bruselas sea tan especial. A pesar de los desafíos, la raza ha logrado mantener su encanto y carácter distintivo a lo largo de los siglos.
+      <br>
+      <br>
+      Hoy en día, el Grifón de Bruselas es apreciado tanto como perro de compañía como por su historia y linaje. Su personalidad vivaz y su apariencia única lo convierten en una raza inolvidable. Aunque no es tan conocido como algunas otras razas, aquellos que tienen la suerte de compartir su vida con un Grifón de Bruselas saben que son verdaderamente especiales.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Excelente perro de compañía',
       'Buen perro de alerta',
       'Necesita ejercicio moderado',
     ],
-    color: ['Rojo', 'Negro', 'Negro y marrón'], // assuming these are the 3 most common colors
+    color: ['Rojo', 'Negro', 'Negro y marrón'],
     nivel_de_energia: 'Moderado',
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
@@ -11411,6 +11631,51 @@ export const DOG_LIST: { [key: number]: Dog } = {
     enfermedades_comunes: [
       'Problemas de luxación de rótula',
       'Problemas oculares',
+    ],
+    searchTerms: [
+      'Grifón de Bruselas',
+      'Caza de alimañas',
+      'Perro pequeño',
+      'Grifon de Bruselas',
+      'Grifón',
+      'Grifon',
+      'Bruselas',
+      'Perro de Bruselas',
+      'Perro belga',
+      'Belga',
+      'Grifón belga',
+      'Grifon belga',
+      'Perro pequeño',
+      'Perro de compañía',
+      'Perro de palacio',
+      'Perro de la realeza',
+      'Perro de la nobleza',
+      'Perro de caza de ratas',
+      'Caza de ratas',
+      'Perro de pelo áspero',
+      'Perro de pelo liso',
+      'Pelo áspero',
+      'Pelo liso',
+      'Perro de cara plana',
+      'Cara plana',
+      'Perro de orejas erguidas',
+      'Orejas erguidas',
+      'Perro de ciudad',
+      'Perro urbano',
+      'Perro para apartamento',
+      'Perro para familia',
+      'Perro para niños',
+    ],
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/brussels-griffon/',
+      'https://en.wikipedia.org/wiki/Brussels_Griffon',
     ],
   },
   92: {
@@ -11435,7 +11700,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Tolerante',
       'Activo',
     ],
-    origin: 'Reino Unido', // added as per Dog API
+    origin: 'Reino Unido',
     reference_image_id: 'B1IcfgqE7',
     image: {
       id: 'B1IcfgqE7',
@@ -11443,19 +11708,65 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1080,
       url: 'https://cdn2.thedogapi.com/images/B1IcfgqE7.jpg',
     },
-    searchTerms: ['Harrier', 'Caza de liebres', 'Perro activo'],
-    country_code: 'UK', // added as per Dog API
-    description:
-      'El Harrier es una raza de perro que se parece a un Beagle de tamaño grande. Son conocidos por su resistencia y su habilidad para rastrear liebres. Son perros activos, amigables y alegres, lo que los hace buenos compañeros para la familia.',
-    history:
-      'Originario del Reino Unido, el Harrier se criaba para rastrear liebres. Esta raza se ha mantenido como un favorito entre los cazadores y los dueños de perros familiares debido a su naturaleza amigable y su resistencia.',
+    country_code: 'UK',
+    description: `
+      El Harrier es una raza de perro que se originó en Inglaterra con el propósito de cazar liebres en manadas. Aunque su historia es un poco difusa, se cree que la raza Harrier es simplemente una versión más pequeña del Foxhound inglés, habiendo sido criada a partir de la raza más grande a través de la cría selectiva. Los Harriers han sido utilizados en América para la caza desde la época colonial.
+      <br>
+      <br>
+      El Harrier es un perro sólido y fuerte, con una altura que varía entre 19 y 21 pulgadas en la cruz. Aunque es más pequeño que el Foxhound inglés, el Harrier está construido para tener tanta sustancia y hueso como sea posible sin ser tosco o pesado. Su pelaje es corto, denso, duro y brillante, y puede ser de cualquier color que sea típico de los perros de caza.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Harrier es un perro de manada, lo que significa que la agresividad hacia otros perros no es tolerada. Su temperamento es amigable y extrovertido. A pesar de su tamaño y fortaleza, el Harrier es conocido por ser un perro juguetón y enérgico. Aunque son perros de trabajo, también disfrutan de la compañía de sus dueños y son conocidos por ser buenos con los niños.
+      <br>
+      <br>
+      El Harrier tiene una cabeza de tamaño mediano con un buen y audaz frente. Sus ojos son oscuros y bien abiertos, dando una expresión franca, viva e inteligente. Sus orejas son en forma de V, bastante cortas, casi planas y colocadas bastante altas en la cabeza.
+      <br>
+      <br>
+      El cuerpo del Harrier es ligeramente más largo que alto. Su pecho es profundo, con costillas bien arqueadas que se extienden bien hacia atrás. Su espalda es recta y muscular, y su lomo es fuerte y ligeramente arqueado. A pesar de su construcción robusta, el Harrier es un perro ágil y capaz de moverse con rapidez y eficacia.
+      <br>
+      <br>
+      En resumen, el Harrier es un perro de trabajo resistente y enérgico que es amigable y sociable. Aunque son perros de caza, también son conocidos por ser buenos perros de compañía y se llevan bien con los niños. Su tamaño mediano y su naturaleza amigable los hacen adecuados para una variedad de hogares y estilos de vida.
+    `,
+    history: `
+      La historia del Harrier es un poco misteriosa y está llena de teorías contradictorias. Algunas fuentes sostienen que la raza se originó a partir de cruces entre el Bloodhound, el Talbot Hound y el Basset Hound. Otras fuentes sugieren que la raza se desarrolló a partir de cruces entre el Foxhound inglés, el Fox Terrier y el Greyhound. Sin embargo, hay quienes consideran al Harrier simplemente como una versión reducida del Foxhound inglés.
+      <br>
+      <br>
+      Lo que sí es seguro es que el Harrier, que se encuentra entre el Beagle y el Foxhound inglés en tamaño, fue desarrollado principalmente para cazar liebres, aunque también se ha utilizado en la caza del zorro. El nombre "Harrier" revela la especialidad de la raza, ya que se puede comparar con "harehound", que significa "perro de liebres".
+      <br>
+      <br>
+      El Harrier tiene una larga historia de popularidad como perro de trabajo en Inglaterra. En la era victoriana, el Harrier fue incluido en el libro de registro original del Kennel Club (1874) como una de las únicas 40 razas reconocidas por el documento. La última vez que los Harriers fueron mostrados en una exposición del Kennel Club o ingresados en su libro de registro fue en 1915. La última vez que se mostraron en Crufts fue en 1898.
+      <br>
+      <br>
+      Durante la Primera Guerra Mundial y hasta después de la Segunda, hubo un declive significativo no solo en los Harriers, sino en la mayoría de las razas, tanto en los perros de trabajo como en las mascotas. Solo los Foxhounds recibieron apoyo gubernamental para la alimentación con el fin de controlar la población de zorros. Al mismo tiempo, muchas jaurías de Harriers propiedad de dueños de grandes fincas fueron disueltas.
+      <br>
+      <br>
+      A mediados del siglo XX, había menos de 50 jaurías de Harriers y la Asociación de Maestros de Harriers y Beagles (AMHB) prohibió la venta de Harriers registrados y controló estrictamente la cría de perros y la venta de Harriers fuera de otras jaurías registradas, lo que resultó en que prácticamente desaparecieran fuera de la comunidad de cazadores. El Kennel Club finalmente retiró el reconocimiento de la raza a principios de los años 70.
+      <br>
+      <br>
+      En Francia y Estados Unidos, los entusiastas del Harrier mantuvieron viva la raza. Los franceses son los únicos que han logrado el reconocimiento mundial con dos perros, Iran des Coutas en 1974 y Alicien en 2011. En Estados Unidos, Emmy fue la Mejor de la Raza en la Exposición Canina de Westminster en 2018 y Whisper fue la Mejor de la Raza en 2020.
+      <br>
+      <br>
+      El Harrier fue reconocido nuevamente por el Kennel Club del Reino Unido en enero de 2020 y a partir de 2022, hay más de 50 Harriers de raza pura registrados con el KC. En la Exposición Canina Mundial 2021, el Harrier británico, Ross Demon for Evforce, fue galardonado con el título de Ganador Mundial, convirtiéndose solo en el tercer Harrier en ser galardonado con este título (Iran de Coutas WW1974, Alician de Coutas WW1974, Alician en 2011).
+      <br>
+      <br>
+      A pesar de su larga historia y su reconocimiento en varias organizaciones caninas, el Harrier sigue siendo una raza rara tanto en el Reino Unido como en Estados Unidos. Sin embargo, los entusiastas de la raza están trabajando arduamente para mantener viva la raza y aumentar su popularidad. Los Harriers son apreciados por su resistencia, su habilidad para trabajar en grupo y su temperamento amigable y sociable.
+      <br>
+      <br>
+      En la actualidad, los Harriers son utilizados tanto para la caza como para compañía. Aunque su instinto de caza sigue siendo fuerte, también son conocidos por ser excelentes mascotas familiares. Son perros amigables, sociables y buenos con los niños. Además, su tamaño mediano los hace adecuados para vivir tanto en casas con jardín como en apartamentos, siempre y cuando se les proporcione suficiente ejercicio.
+      <br>
+      <br>
+      A pesar de los desafíos que ha enfrentado la raza a lo largo de los años, el Harrier ha demostrado ser una raza resistente y adaptable. Con el apoyo continuo de los criadores y los entusiastas de la raza, el futuro del Harrier parece prometedor. La raza continúa capturando los corazones de aquellos que valoran su combinación única de habilidades de trabajo, temperamento amigable y apariencia atractiva.
+      <br>
+      <br>
+      La historia del Harrier es un testimonio de la resistencia y la adaptabilidad de esta raza. A pesar de los desafíos y las dificultades, el Harrier ha sobrevivido y prosperado, demostrando ser un perro de trabajo capaz y una mascota familiar encantadora. Con su historia rica y variada, el Harrier es verdaderamente una raza digna de admiración y respeto.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de caza',
       'Requiere mucho ejercicio',
       'Buen perro para familias',
     ],
-    color: ['Tricolor', 'Bicolor', 'Sólido'], // assuming these are the 3 most common colors
+    color: ['Tricolor', 'Bicolor', 'Sólido'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
@@ -11466,6 +11777,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas de tiroides'],
+    searchTerms: [
+      'Harrier',
+      'Caza de liebres',
+      'Perro activo',
+      'Harier',
+      'Harriers',
+      'Harri',
+      'Perro Harrier',
+      'Raza Harrier',
+      'Sabueso Harrier',
+      'Sabueso',
+      'Perro de caza',
+      'Caza',
+      'Cazador',
+      'Perro cazador',
+      'Perro de trabajo',
+      'Trabajo',
+      'Perro de campo',
+      'Campo',
+      'Perro de compañía',
+      'Compañía',
+      'Perro de rastreo',
+      'Rastreo',
+      'Perro de olfato',
+      'Olfato',
+      'Perro de raza británica',
+      'Británico',
+      'Raza británica',
+      'Perro de raza inglesa',
+      'Inglés',
+      'Raza inglesa',
+      'Perro de tamaño mediano',
+      'Tamaño mediano',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: ['https://www.akc.org/dog-breeds/harrier/'],
   },
   93: {
     weight: {
@@ -11489,7 +11843,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Suave',
       'Inteligente',
     ],
-    origin: 'Cuba', // añadido según API Dog
+    origin: 'Cuba',
     reference_image_id: 'rkXiGl9V7',
     image: {
       id: 'rkXiGl9V7',
@@ -11497,19 +11851,59 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 507,
       url: 'https://cdn2.thedogapi.com/images/rkXiGl9V7.jpg',
     },
-    searchTerms: ['Havanés', 'Compañía', 'Perro pequeño'],
-    country_code: 'CU', // añadido según API Dog
-    description:
-      'El Havanés es una raza pequeña de perro de compañía. Son conocidos por su pelaje largo y sedoso, y su naturaleza cariñosa y juguetona. Son perros inteligentes y receptivos, lo que los hace excelentes compañeros de familia.',
-    history:
-      'Originario de Cuba, el Havanés fue criado para ser un perro de compañía. Su pelaje largo y sedoso y su temperamento amigable y juguetón lo han hecho un favorito entre los dueños de perros pequeños.',
+    country_code: 'CU',
+    description: `
+      El Havanés, también conocido como "Bichon Havanais" o "Havana Silk Dog", es una raza de perro pequeña y encantadora que se ha ganado el corazón de muchos dueños de mascotas en todo el mundo. Originario de Cuba, el Havanés es el representante cubano de la familia Bichon, una colección de razas de perros pequeños, de pelo largo y orejas caídas, que son apreciados como compañeros devotos.
+      <br>
+      <br>
+      El Havanés es un perro de tamaño moderado, con un marco ligero pero robusto que transmite una sensación de refinamiento sin parecer frágil. Los machos son ligeramente más musculosos que las hembras. Su pelaje es extremadamente variado en colores, lo que añade a su encanto único. El pelaje doble y profuso del Havanés es muy suave, y tiende a formar secciones estrechas o "mechas", que muestran el efecto único de "encaje" o trenzado cuando el pelo está mojado. Este efecto de onda distintivo tiene un amplio rango de expresión, desde "bastante relajado" hasta "muy apretado", que puede ser cordado.
+      <br>
+      <br>
+      El Havanés tiene una disposición tranquila y gentil, pero disfruta de las sesiones de juego ruidosas. Son afectuosos, prefiriendo estar al lado de su dueño o en la misma habitación, y alertarán a su dueño de la llegada de extraños. Disfrutan de la compañía de otros Havanés y son inteligentes, fáciles de entrenar y atentos a su manejador.
+      <br>
+      <br>
+      El Havanés tiene una expresión alerta y gentil producida por la combinación de ojos grandes y oscuros, orejas caídas, pelo largo y una costumbre encantadora de inclinar la cabeza cuando escuchan. Son perros de compañía ideales, ya que son conocidos por su inteligencia, su facilidad de entrenamiento y su atención a su manejador.
+      <br>
+      <br>
+      El Havanés es un perro que se adapta bien a una variedad de estilos de vida. Pueden vivir cómodamente en un apartamento en la ciudad o en una casa con un gran patio en el campo. Aunque son pequeños, son sorprendentemente resistentes y disfrutan de una buena cantidad de ejercicio. Les encanta jugar y son conocidos por su habilidad para aprender trucos y complacer a sus dueños.
+      <br>
+      <br>
+      A pesar de su tamaño pequeño, el Havanés es un perro robusto y saludable. Son conocidos por su longevidad, y muchos viven hasta bien entrada la adolescencia. Sin embargo, como todas las razas, pueden ser propensos a ciertas condiciones de salud, por lo que es importante llevarlos a chequeos regulares con el veterinario y mantener al día sus vacunas y tratamientos preventivos.
+      <br>
+      <br>
+      El Havanés es una raza de perro que requiere un cuidado regular del pelaje para mantener su apariencia y salud. Su pelaje largo y sedoso puede enredarse fácilmente, por lo que se recomienda cepillarlo diariamente. Aunque su pelaje puede parecer de alto mantenimiento, muchos dueños de Havanés disfrutan de la rutina de cuidado del pelaje y encuentran que es una excelente manera de vincularse con su mascota.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Havanés es conocido por su personalidad alegre y amigable. Son perros muy sociales que se llevan bien con las personas y otros animales. Son especialmente buenos con los niños y pueden ser excelentes mascotas para las familias. Sin embargo, también pueden ser un poco tímidos con los extraños, por lo que es importante socializarlos desde una edad temprana.
+      <br>
+      <br>
+      En resumen, el Havanés es un perro pequeño con un gran corazón. Su personalidad encantadora, su inteligencia y su apariencia adorable los hacen una excelente opción para cualquier persona que busque un compañero canino leal y amoroso. Ya sea que estés buscando un perro que pueda acompañarte en aventuras al aire libre o simplemente un amigo peludo para acurrucarte en el sofá, el Havanés podría ser la raza perfecta para ti.
+    `,
+    history: `
+      La historia del Havanés es tan rica y fascinante como la cultura de la isla de la que proviene, Cuba. Conocido también como "Bichon Havanais" o "Havana Silk Dog", el Havanés es considerado un descendiente de los antiguos Bichones, pequeños perros de compañía que se desarrollaron en diferentes regiones del Imperio Español. Se cree que el Havanés es el Bichón de Cuba, una variante que se desarrolló y prosperó en la isla caribeña.
+      <br>
+      <br>
+      Aunque todas las teorías publicadas sobre su origen y desarrollo parecen basarse en especulaciones, es seguro decir que siempre fueron una raza pequeña que era propiedad exclusiva de las clases sociales más altas. Durante siglos, estos perros fueron criados y mimados por la aristocracia cubana, quienes los valoraban por su belleza, su temperamento amigable y su inteligencia.
+      <br>
+      <br>
+      La historia del Havanés está intrínsecamente ligada a la historia de Cuba. Durante el siglo XVIII, Cuba se convirtió en un próspero centro de comercio y cultura, y los Havanese se convirtieron en una raza de moda entre la élite cubana. Estos perros eran tan apreciados que incluso se les permitía dormir en las camas de sus dueños, una costumbre que se mantiene hasta el día de hoy.
+      <br>
+      <br>
+      A medida que la popularidad de la raza crecía, los Havanese comenzaron a ser exportados a Europa, donde fueron igualmente apreciados por la nobleza y la alta sociedad. Sin embargo, a pesar de su popularidad en el extranjero, la raza siempre se mantuvo fiel a sus raíces cubanas.
+      <br>
+      <br>
+      El siglo XIX trajo cambios significativos para Cuba y para la raza Havanese. La isla se independizó de España y entró en un período de inestabilidad política y social. Durante este tiempo, la población de Havanese disminuyó drásticamente. Sin embargo, a pesar de las dificultades, la raza logró sobrevivir gracias a la dedicación de un pequeño grupo de criadores.
+      <br>
+      <br>
+      En el siglo XX, la raza Havanese comenzó a ganar reconocimiento internacional. Fue reconocida oficialmente por el United Kennel Club en julio de 1991. Desde entonces, la raza ha crecido en popularidad en todo el mundo, tanto por su belleza como por su temperamento amigable e inteligente.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Buen perro de compañía',
       'Requiere cuidado regular del pelaje',
       'Adecuado para vivir en apartamentos',
     ],
-    color: ['Negro', 'Blanco', 'Chocolate'], // asumiendo estos son los 3 colores más comunes
+    color: ['Negro', 'Blanco', 'Chocolate'],
     nivel_de_energia: 'Moderado',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
@@ -11520,6 +11914,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Problemas de piel', 'Problemas oculares'],
+    searchTerms: [
+      'Havanés',
+      'Compañía',
+      'Perro pequeño',
+      'Havanes',
+      'Havanese',
+      'Habanes',
+      'Habanés',
+      'Habanes',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro de la Habana',
+      'Perro cubano',
+      'Perro de Cuba',
+      'Bichón Havanés',
+      'Bichon Havanes',
+      'Bichon Habanés',
+      'Bichon Habanes',
+      'Perro pequeño',
+      'Perro de pelo largo',
+      'Perro de pelo sedoso',
+      'Perro juguetón',
+      'Perro amigable',
+      'Perro sociable',
+      'Perro para niños',
+      'Perro para ancianos',
+      'Perro para apartamento',
+      'Perro para ciudad',
+      'Perro para interior',
+      'Perro para exteriores',
+      'Perro resistente al calor',
+      'Perro resistente al frío',
+      'Perro de clima templado',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Havanese',
+      'https://www.ukcdogs.com/havanese',
+    ],
   },
   94: {
     weight: {
@@ -11543,7 +11983,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Juguetón',
       'Compañero',
     ],
-    origin: 'Irlanda', // añadido según API Dog
+    origin: 'Irlanda',
     reference_image_id: 'S1osGeqVm',
     image: {
       id: 'S1osGeqVm',
@@ -11551,19 +11991,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 522,
       url: 'https://cdn2.thedogapi.com/images/S1osGeqVm.jpg',
     },
-    searchTerms: ['Setter Irlandés', 'Perro de caza', 'Perro grande'],
-    country_code: 'IE', // añadido según API Dog
-    description:
-      'El Setter Irlandés es un perro grande, de grupo deportivo, conocido por su pelaje rojo y su naturaleza energética. Son perros cariñosos, juguetones y compañeros, lo que los hace excelentes perros de familia y compañía.',
-    history:
-      'Originario de Irlanda, el Setter Irlandés fue criado para señalar y recuperar aves. Son perros de trabajo con una gran cantidad de energía y requieren un ejercicio regular y significativo para mantenerlos felices y saludables.',
+    country_code: 'IE',
+    description: `
+      El Setter Irlandés es una raza de perro que irradia elegancia y energía en cada uno de sus movimientos. Su pelaje de un color rojo caoba o castaño rico es una de sus características más llamativas, pero lo que realmente cautiva a las personas es su personalidad vivaz y amigable.
+      <br>
+      <br>
+      Este perro de tamaño mediano a grande es conocido por su apariencia distintiva, con un cuerpo largo y musculoso que se mueve con gracia y agilidad. Su cabeza es larga y delgada, con una expresión suave pero alerta en sus ojos almendrados de color marrón oscuro a medio. Sus orejas son largas y caídas, y su cola es fuerte en la base y se estrecha hasta un punto fino.
+      <br>
+      <br>
+      El Setter Irlandés tiene un pelaje moderadamente largo y plano que es corto y fino en la cabeza, la parte delantera de las patas y las puntas de las orejas. En el resto del cuerpo y en la parte trasera de las patas, el pelo es de longitud moderada y lo más liso posible. El pelaje tiene un aspecto sedoso y puede tener una ligera ondulación.
+      <br>
+      <br>
+      Pero lo que realmente distingue a los Setter Irlandeses es su personalidad. Son perros energéticos, amigables e inteligentes, conocidos por su personalidad juguetona y su amor por la vida. Son perros que aman jugar y estar activos, y necesitan mucho ejercicio para mantenerse felices y saludables. A pesar de su energía, también son perros muy cariñosos y disfrutan de la compañía de sus familias humanas.
+      <br>
+      <br>
+      Los Setter Irlandeses son perros de trabajo, originalmente criados para ser perros de caza. Son excelentes perros de caza y tienen un fuerte instinto de caza. A pesar de su herencia de trabajo, también son perros de familia maravillosos y se llevan bien con los niños y otros perros.
+      <br>
+      <br>
+      En cuanto a su cuidado, los Setter Irlandeses requieren un aseo regular para mantener su pelaje en buen estado. También necesitan mucho ejercicio, ya que son perros activos y enérgicos. Sin embargo, son perros adaptables que pueden vivir en una variedad de entornos, siempre y cuando se les dé suficiente ejercicio y estimulación mental.
+      <br>
+      <br>
+      En resumen, el Setter Irlandés es un perro hermoso, enérgico y cariñoso que puede ser un maravilloso compañero para la persona o familia adecuada. Su personalidad vivaz y su amor por la vida los hacen una raza de perro verdaderamente especial.
+    `,
+    history: `
+      La historia del Setter Irlandés es tan rica y vibrante como su distintivo pelaje de color caoba. Esta raza de perro de trabajo se originó en Irlanda, donde se desarrolló probablemente a través de una combinación de spaniels, otros setters, pointers y el Terrier Irlandés. En sus primeros días, los Setters Irlandeses estaban en la misma familia que los Setters Rojos y Blancos de Irlanda, pero se separaron en una raza individual en la década de 1800.
+      <br>
+      <br>
+      A lo largo de los años, la raza se dividió entre perros de campo y perros de exposición. Los perros de campo eran apreciados por su agudo sentido de olfato y su habilidad para trabajar en silencio, mientras que los perros de exposición eran valorados por su apariencia elegante y su pelaje largo y sedoso. Sin embargo, en la actualidad se está haciendo un esfuerzo por unir la habilidad de campo y la belleza del Setter Irlandés.
+      <br>
+      <br>
+      El Setter Irlandés fue reconocido por el United Kennel Club en 1914, marcando su lugar en la historia de las razas de perros. A lo largo de los años, la raza ha sido apreciada tanto por su habilidad en el campo como por su temperamento amigable y su apariencia atractiva.
+      <br>
+      <br>
+      La historia del Setter Irlandés es un testimonio de la versatilidad y la adaptabilidad de esta raza. Aunque originalmente se criaron como perros de trabajo, los Setters Irlandeses han demostrado ser igualmente capaces en una variedad de roles, desde compañeros de familia hasta perros de terapia y competidores en eventos de obediencia y agilidad.
+      <br>
+      <br>
+      A pesar de los cambios en su papel a lo largo de los años, una cosa ha permanecido constante en la historia del Setter Irlandés: su reputación como un perro amigable, inteligente y de buen carácter. Ya sea que estén trabajando en el campo o relajándose en casa con su familia, los Setters Irlandeses son conocidos por su personalidad alegre y su amor por la vida.
+      <br>
+      <br>
+      Hoy en día, el Setter Irlandés sigue siendo una raza popular tanto para la caza como para la compañía. Su combinación única de habilidades de trabajo, apariencia atractiva y personalidad amigable asegura que esta raza tenga un lugar en los corazones de los amantes de los perros en todo el mundo.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Buen perro de caza',
       'Requiere ejercicio regular',
       'Se lleva bien con niños y otros perros',
     ],
-    color: ['Rojo'], // asumiendo este es el color más común
+    color: ['Rojo'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
@@ -11574,6 +12048,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas de la vista'],
+    searchTerms: [
+      'Setter Irlandés',
+      'Perro de caza',
+      'Perro grande',
+      "Setter Irlandes",
+      "Perro de caza",
+      "Perro de campo",
+      "Perro de muestra",
+      "Perro de pelo largo",
+      "Perro de pelo rojo",
+      "Perro de Irlanda",
+      "Perro para niños",
+      "Perro activo",
+      "Perro atlético",
+      "Perro de compañía",
+      "Perro de familia",
+      "Perro amigable",
+      "Perro inteligente",
+      "Perro de trabajo",
+      "Perro de raza pura",
+      "Perro de raza grande",
+      "Perro de energía alta",
+      "Perro de caza de aves",
+      "Perro de caza de pluma",
+      "Perro de caza de pelo",
+      "Perro de caza de campo",
+      "Perro de muestra irlandés",
+      "Perro de muestra de pelo largo",
+      "Perro de muestra de pelo rojo",
+      "Perro de muestra de raza pura",
+      "Perro de muestra de raza grande",
+      "Perro de muestra de energía alta",
+      "Perro de muestra de caza de aves"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": ["https://en.wikipedia.org/wiki/Irish_Setter", "https://www.dogbreedinfo.com/irishsetter.htm", "https://www.ukcdogs.com/irish-setter"]
   },
   95: {
     weight: {
@@ -11605,12 +12122,31 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 626,
       url: 'https://cdn2.thedogapi.com/images/By-hGecVX.jpg',
     },
-    searchTerms: ['Terrier Irlandés', 'Perro de caza pequeño'],
     country_code: 'IE',
-    description:
-      'El Terrier Irlandés es un perro de tamaño mediano, de grupo terrier, conocido por su pelaje rojo y su naturaleza vivaz. Son perros inteligentes, protectores y muy adiestrables, lo que los hace excelentes perros de familia y compañía.',
-    history:
-      'Originario de Irlanda, el Terrier Irlandés fue criado para la caza de ratas y otros animales pequeños. Son perros de trabajo con una gran cantidad de energía y requieren un ejercicio regular y significativo para mantenerlos felices y saludables.',
+    description: `
+      El Terrier Irlandés es una raza de perro que combina velocidad, resistencia y potencia. Son fuertes, pero a la vez ágiles y gráciles, presentando un contorno bastante deportivo. No son ni toscos ni pesados en su construcción, lo que les permite moverse con una elegancia innata.
+      <br>
+      <br>
+      Estos perros son extremadamente leales y afectuosos con las personas. Lucharán con gran coraje cuando sean atacados, pero son fácilmente entrenables, de temperamento equilibrado y una mascota gentil. Su cabeza es larga y limpia, con un stop apenas perceptible. Sus ojos son pequeños y no prominentes, de color marrón oscuro, y transmiten una expresión intensa llena de vida, fuego e inteligencia.
+      <br>
+      <br>
+      El Terrier Irlandés tiene un pelaje denso y de textura áspera. Tiene un aspecto desordenado, pero aún así se adhiere al cuerpo. Los pelos crecen tan juntos y fuertemente que, cuando se separan con los dedos, la piel es apenas visible. El pelaje es libre de suavidad o sedosidad; no es tan largo como para alterar el contorno del cuerpo, particularmente en los cuartos traseros.
+      <br>
+      <br>
+      Estos perros son de un solo color: rojo, trigo rojo o rojo amarillento. Se permite una pequeña mancha blanca en el pecho, pero no es deseable. Su altura ideal para ambos sexos es de aproximadamente 18 pulgadas. El peso ideal para los machos es de 27 libras, para las hembras 25 libras.
+      <br>
+      <br>
+      El Terrier Irlandés es uno de los cuatro terriers desarrollados en Irlanda, y puede ser el más antiguo. Originalmente, era un perro común, utilizado como perro de granja y cazador. Durante la Primera Guerra Mundial, fueron utilizados como perros mensajeros durante la guerra de trincheras, demostrando su inteligencia y utilidad.
+      <br>
+      <br>
+      En cuanto a su personalidad, estos perros son extremadamente leales y afectuosos con las personas. Lucharán con gran coraje cuando sean atacados, pero son fácilmente entrenables, de temperamento equilibrado y una mascota gentil. Son perros que requieren una cantidad moderada de ejercicio y estimulación mental para mantenerse felices y saludables. Son perros que disfrutan de la rutina, pero también son altamente adaptables a los cambios.
+      <br>
+      <br>
+      En resumen, el Terrier Irlandés es un perro lleno de vida, inteligencia y coraje. Su lealtad y afecto hacia las personas, combinado con su resistencia y agilidad, hacen de esta raza una excelente opción para aquellos que buscan un perro activo y cariñoso.
+    `,
+    history: `
+
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Bueno para la caza de animales pequeños',
@@ -11628,6 +12164,8 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas de la vista'],
+    searchTerms: ['Terrier Irlandés', 'Perro de caza pequeño'],
+
   },
   96: {
     weight: {

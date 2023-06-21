@@ -2,6 +2,8 @@ import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { Inject, Injectable, PLATFORM_ID, Renderer2, RendererFactory2 } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { Router } from '@angular/router';
+import { UtilitiesService } from './utilities.service';
+import { PerrosService } from './perros.service';
 
 @Injectable({
   providedIn: 'root'
@@ -14,6 +16,8 @@ export class MetaService {
     private title: Title, private meta: Meta,
     private rendererFactory: RendererFactory2,
     private router: Router,
+    private utilitiesService: UtilitiesService,
+    private perrosService: PerrosService,
     @Inject(DOCUMENT) private document: Document,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
@@ -30,7 +34,7 @@ export class MetaService {
     this.addFacebookTags(title, description, canonical);
 
     this.removeCanonical('rel=\'canonical\'');
-    if (isPlatformBrowser(this.platformId)) { this.addCanonical({ rel: 'canonical', href: canonical }) }
+    this.addCanonical({ rel: 'canonical', href: canonical })
 
   }
 
@@ -46,19 +50,39 @@ export class MetaService {
   }
 
   private addTwitterTags(title: string, description: string) {
+    const selectedImage = this.selectImage(title);
     this.meta.addTag({ name: 'twitter:card', content: 'summary' })
     this.meta.addTag({ name: 'twitter:site', content: '@EsferaMascota' })
     this.meta.addTag({ name: 'twitter:title', content: title })
     this.meta.addTag({ name: 'twitter:description', content: description })
-    this.meta.addTag({ name: 'twitter:image', content: 'https://esferamascota.b-cdn.net/destacados-extra.webp' })
+    this.meta.addTag({ name: 'twitter:image', content: selectedImage || this.utilitiesService.selectImage('default') })
   }
 
   private addFacebookTags(title: string, description: string, canonical: string) {
+        const selectedImage = this.selectImage(title);
         this.meta.addTag({ property: 'og:type', content: 'website' })
         this.meta.addTag({ property: 'og:url', content: canonical })
         this.meta.addTag({ property: 'og:title', content: title })
         this.meta.addTag({ property: 'og:description', content: description })
-        this.meta.addTag({ property: 'og:image', content: 'https://esferamascota.b-cdn.net/destacados-extra.webp'})
+        this.meta.addTag({ property: 'og:image', content: selectedImage || this.utilitiesService.selectImage('default') })
+  }
+
+  private selectImage(title: string) {
+    const dogImage = this.perrosService.setDogBreedImage(title, '', true);
+
+    if (dogImage) { return dogImage }
+    else {
+
+      if (title.toLocaleLowerCase().includes('perro') || title.toLocaleLowerCase().includes('perros'))
+        { return this.utilitiesService.selectImage('dog') }
+
+      else if (title.toLocaleLowerCase().includes('gato') || title.toLocaleLowerCase().includes('gatos'))
+        { return this.utilitiesService.selectImage('cat') }
+
+      else { return this.utilitiesService.selectImage('default') }
+
+    }
+
   }
 
   private addCanonical(tag: any) {
