@@ -1,0 +1,53 @@
+@import "../../../theme/abstracts/mixins";
+@import "../../../theme/abstracts/variables";
+
+.carousel-container {
+  display: flex;
+  overflow: hidden; // Esto esconde cualquier parte de la imagen que no encaje en el contenedor
+  position: relative;
+  height: 100%; // Esto hace que el contenedor ocupe todo el alto disponible
+}
+
+.carousel-content {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; // Esto hace que el carrusel se desplace en "incrementos"
+  width: 100%;
+  height: 100%; // Esto hace que el contenido del carrusel ocupe todo el alto del contenedor
+
+  > * {
+    flex: 1 1 auto; // Esto hace que cada diapositiva crezca para llenar el contenedor
+    display: flex; // Esto hace que la diapositiva sea un flexbox
+    overflow: hidden; // Esto esconde cualquier parte de la imagen que no encaje en la diapositiva
+    position: relative;
+
+    img {
+      object-fit: cover; // Esto hace que la imagen mantenga su relación de aspecto
+      object-position: center; // Esto hace que la imagen se posicione en el centro de la diapositiva
+      width: 100%; // Esto hace que la imagen ocupe todo el ancho de la diapositiva
+      height: 100%; // Esto hace que la imagen ocupe todo el alto de la diapositiva
+    }
+  }
+}
+
+.carousel-button {
+  background-color: $color-white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 1000px;
+  cursor: pointer;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.carousel-button--prev {
+  left: 0;
+}
+
+.carousel-button--next {
+  right: 0;
+}

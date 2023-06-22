@@ -4,16 +4,18 @@ import { CommonModule } from '@angular/common';
 import { PerrosRazaRoutingModule } from './perros-raza-routing.module';
 import { PerrosRazaComponent } from './perros-raza.component';
 import { ComponentsModule } from 'src/app/components/components.module';
+import { DirectivesModule } from 'src/app/directives/directives.module';
 
 
 @NgModule({
   declarations: [
-    PerrosRazaComponent
+    PerrosRazaComponent,
   ],
   imports: [
     CommonModule,
     PerrosRazaRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    DirectivesModule
   ]
 })
 export class PerrosRazaModule { }

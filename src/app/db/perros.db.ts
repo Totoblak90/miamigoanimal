@@ -86,6 +86,17 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/affenpinscher.htm',
       'https://www.ukcdogs.com/affenpinscher',
     ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/BJa4kxc4X_390x256.jpg',
+      'https://cdn2.thedogapi.com/images/Dkqdl0c6N.jpg',
+      'https://cdn2.thedogapi.com/images/mhikcBw9U.jpg',
+      'https://cdn2.thedogapi.com/images/lGy5M4Ps2.jpg',
+      'https://cdn2.thedogapi.com/images/WYKqUtgMB.png',
+      'https://cdn2.thedogapi.com/images/RX0knn4z4.jpg',
+      'https://cdn2.thedogapi.com/images/hd1iiHXjK.jpg',
+      'https://cdn2.thedogapi.com/images/0LJiOVlxp.jpg',
+      'https://cdn2.thedogapi.com/images/ttTgbx8Fu.jpg',
+    ],
   },
   2: {
     weight: {
@@ -166,6 +177,18 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/afghan-hound/',
       'https://www.royalcanin.com/us/dogs/breeds/breed-library/afghan-hound',
       'https://www.ukcdogs.com/afghan-hound',
+    ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/rkVB1x9E7_390x256.jpg',
+      'https://cdn2.thedogapi.com/images/zqTumVT7e.jpg',
+      'https://cdn2.thedogapi.com/images/hMyT4CDXR.jpg',
+      'https://cdn2.thedogapi.com/images/cLWrIOUqE.jpg',
+      'https://cdn2.thedogapi.com/images/tChrH8dDJ.jpg',
+      'https://cdn2.thedogapi.com/images/VTbymwKqG.jpg',
+      'https://cdn2.thedogapi.com/images/WIf5o1E8h.jpg',
+      'https://cdn2.thedogapi.com/images/k4vWnFdL2.jpg',
+      'https://cdn2.thedogapi.com/images/12nMI642l.jpg',
+      'https://cdn2.thedogapi.com/images/4WiUpv_4W.jpg',
     ],
   },
   3: {
@@ -262,6 +285,14 @@ export const DOG_LIST: { [key: number]: Dog } = {
     para_primerizos: '-',
     casos_famosos: [],
     fuentes: ['https://en.wikipedia.org/wiki/African_Hunting_Dog'],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/rkiByec47_390x256.jpg',
+      'https://cdn2.thedogapi.com/images/n5GhfG7uv.jpg',
+      'https://cdn2.thedogapi.com/images/Z8LiOtceX.jpg',
+      'https://cdn2.thedogapi.com/images/y2G5sMFrS.jpg',
+      'https://cdn2.thedogapi.com/images/7SvcbMRCC.jpg',
+      'https://cdn2.thedogapi.com/images/FQpFX5-UR.jpg',
+    ],
   },
   4: {
     weight: {
@@ -379,6 +410,15 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.royalcanin.com/us/dogs/breeds/breed-library/airedale-terrier',
       'https://www.ukcdogs.com/airedale-terrier',
     ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/SJZIJgqEX_390x256.jpg',
+      'https://cdn2.thedogapi.com/images/1-7cgoZSh.jpg',
+      'https://cdn2.thedogapi.com/images/lNnWNU4qU.jpg',
+      'https://cdn2.thedogapi.com/images/dcFcTU2vY.jpg',
+      'https://cdn2.thedogapi.com/images/h0vltXvfC.jpg',
+      'https://cdn2.thedogapi.com/images/QWRBrrIvB.jpg',
+      'https://cdn2.thedogapi.com/images/PG8UPLSVU.jpg',
+    ],
   },
   5: {
     weight: {
@@ -464,6 +504,22 @@ export const DOG_LIST: { [key: number]: Dog } = {
     para_primerizos: '-',
     casos_famosos: [],
     fuentes: ['https://en.wikipedia.org/wiki/Akbash'],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/SyfsC19NQ_390x256.jpg',
+      'https://cdn2.thedogapi.com/images/njDSq3gRF.jpg',
+      'https://cdn2.thedogapi.com/images/GYC8Oeux6.jpg',
+      'https://cdn2.thedogapi.com/images/W93JBCUzz.jpg',
+      'https://cdn2.thedogapi.com/images/C3KfxN2DG.jpg',
+      'https://cdn2.thedogapi.com/images/w1Cal_vrT.jpg',
+      'https://cdn2.thedogapi.com/images/Asut5CUgQ.jpg',
+      'https://cdn2.thedogapi.com/images/fIXRDcKzn.jpg',
+      'https://cdn2.thedogapi.com/images/QIZB_XEt5.jpg',
+      'https://cdn2.thedogapi.com/images/FTQ1C29sk.jpg',
+      'https://cdn2.thedogapi.com/images/5i89L75D9.jpg',
+      'https://cdn2.thedogapi.com/images/26pHT3Qk7.jpg',
+      'https://cdn2.thedogapi.com/images/WVawT4Gap.jpg',
+      'https://cdn2.thedogapi.com/images/Z9Lf_Zihc.jpg',
+    ],
   },
   6: {
     weight: {
@@ -580,6 +636,20 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/akita.htm',
       'https://www.ukcdogs.com/akita',
     ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/S1_8kx5Nm_390x256.jpg',
+      'https://cdn2.thedogapi.com/images/NaMI1H-PZ.jpg',
+      'https://cdn2.thedogapi.com/images/IyR0sT3yy.jpg',
+      'https://cdn2.thedogapi.com/images/H6UCIZJsc.jpg',
+      'https://cdn2.thedogapi.com/images/rqUG1kbaT.jpg',
+      'https://cdn2.thedogapi.com/images/iNX25KsSX.jpg',
+      'https://cdn2.thedogapi.com/images/fQSunHvl8.jpg',
+      'https://cdn2.thedogapi.com/images/MUGiNcu_Z.jpg',
+      'https://cdn2.thedogapi.com/images/40bvxOUyl.jpg',
+      'https://cdn2.thedogapi.com/images/lq5gBjy4s.jpg',
+      'https://cdn2.thedogapi.com/images/36TXlWMDf.jpg',
+      'https://cdn2.thedogapi.com/images/BFRYBufpm.jpg',
+    ],
   },
   7: {
     weight: {
@@ -688,6 +758,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
     fuentes: [
       'https://en.wikipedia.org/wiki/Alapaha_Blue_Blood_Bulldog',
       'https://www.akc.org/dog-breeds/alapaha-blue-blood-bulldog/',
+    ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/33mJ-V3RX.jpg',
+      'https://cdn2.thedogapi.com/images/H_9Mcf3yk.jpg',
+      'https://cdn2.thedogapi.com/images/rTwAJOvf4.jpg',
+      'https://cdn2.thedogapi.com/images/5hQo-doWf.jpg',
+      'https://cdn2.thedogapi.com/images/kuvpGHCzm.jpg',
     ],
   },
   8: {
@@ -812,6 +889,15 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.royalcanin.com/us/dogs/breeds/breed-library/alaskan-malamute',
       'https://www.dogbreedinfo.com/alaskanhusky.htm',
       'https://www.ukcdogs.com/alaskan-husky',
+    ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/BJE_kx5VQ_390x256.jpg',
+      'https://cdn2.thedogapi.com/images/Nk8cSr_aj.jpg',
+      'https://cdn2.thedogapi.com/images/uEPB98jBS.jpg',
+      'https://cdn2.thedogapi.com/images/NxTFaEvsq.jpg',
+      'https://cdn2.thedogapi.com/images/LMjrDDwSJ.jpg',
+      'https://cdn2.thedogapi.com/images/ryqWuE_1T.jpg',
+      'https://cdn2.thedogapi.com/images/-HgpNnGXl.jpg',
     ],
   },
   9: {
@@ -946,6 +1032,21 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.royalcanin.com/us/dogs/breeds/breed-library/alaskan-malamute',
       'https://www.dogbreedinfo.com/alaskanmalamute.htm',
       'https://www.ukcdogs.com/alaskan-malamute',
+    ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/rJqd1ecV7_390x256.jpg',
+      'https://cdn2.thedogapi.com/images/BbMFS3bU-.jpg',
+      'https://cdn2.thedogapi.com/images/A3mLu3WQ2.jpg',
+      'https://cdn2.thedogapi.com/images/GhtSdrW29.jpg',
+      'https://cdn2.thedogapi.com/images/aREFAmi5H.jpg',
+      'https://cdn2.thedogapi.com/images/zEQtlI8h1.jpg',
+      'https://cdn2.thedogapi.com/images/dW5UucTIW.jpg',
+      'https://cdn2.thedogapi.com/images/pB43UCgl4.jpg',
+      'https://cdn2.thedogapi.com/images/8ogZCsDcp.jpg',
+      'https://cdn2.thedogapi.com/images/42QrDrylc.jpg',
+      'https://cdn2.thedogapi.com/images/P44Wk6wSj.jpg',
+      'https://cdn2.thedogapi.com/images/0rx5_e-Ur.jpg',
+      'https://cdn2.thedogapi.com/images/BIZiWPLqX.jpg',
     ],
   },
   10: {
@@ -1105,6 +1206,22 @@ export const DOG_LIST: { [key: number]: Dog } = {
       El Bulldog Americano moderno continúa sirviendo como un perro de trabajo multifuncional; un perro guardián valiente y constante; y un leal compañero de familia. Gracias a los esfuerzos de John D. Johnson y otros, el Bulldog Americano existe hoy en día.
     `,
     fuentes: [],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/SkZY1e9NQ_390x256.jpg',
+      'https://cdn2.thedogapi.com/images/NXPv27lGs.jpg',
+      'https://cdn2.thedogapi.com/images/r9CSG0CWk.jpg',
+      'https://cdn2.thedogapi.com/images/xQRazPrRB.jpg',
+      'https://cdn2.thedogapi.com/images/chQC0QwHn.jpg',
+      'https://cdn2.thedogapi.com/images/_bdHCzK_u.jpg',
+      'https://cdn2.thedogapi.com/images/hdERN5n5z.jpg',
+      'https://cdn2.thedogapi.com/images/jDnFo8MXy.jpg',
+      'https://cdn2.thedogapi.com/images/iIgf9U3bv.jpg',
+      'https://cdn2.thedogapi.com/images/-WmEa4zCU.jpg',
+      'https://cdn2.thedogapi.com/images/t4pZFktBB.jpg',
+      'https://cdn2.thedogapi.com/images/Atmf2iDb0.jpg',
+      'https://cdn2.thedogapi.com/images/pk1AAdloG.jpg',
+      'https://cdn2.thedogapi.com/images/AcXu5OATT.jpg',
+    ],
   },
   11: {
     weight: {
@@ -1234,6 +1351,20 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bueno_con_ninos: '-',
     casos_famosos: [],
     fuentes: [],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/SkFt1gc47_390x256.jpg',
+      'https://cdn2.thedogapi.com/images/PTBCQmT0h.jpg',
+      'https://cdn2.thedogapi.com/images/Vsyiy9oyS.jpg',
+      'https://cdn2.thedogapi.com/images/kRw7OfClb.jpg',
+      'https://cdn2.thedogapi.com/images/bhF8zbrRq.jpg',
+      'https://cdn2.thedogapi.com/images/cEt0LCueL.jpg',
+      'https://cdn2.thedogapi.com/images/UDciB__0I.jpg',
+      'https://cdn2.thedogapi.com/images/34v9aKCct.jpg',
+      'https://cdn2.thedogapi.com/images/sqQJDtbpY.jpg',
+      'https://cdn2.thedogapi.com/images/srEbgkWEe.jpg',
+      'https://cdn2.thedogapi.com/images/KcUu-6YV0.jpg',
+      'https://cdn2.thedogapi.com/images/aENh7kMis.jpg',
+    ],
   },
   12: {
     weight: {
@@ -1359,6 +1490,15 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.royalcanin.com/us/dogs/breeds/breed-library/american-eskimo',
       'https://www.dogbreedinfo.com/americaneskimo.htm',
       'https://www.ukcdogs.com/american-eskimo-dog',
+    ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/Bymjyec4m_390x256.jpg',
+      'https://cdn2.thedogapi.com/images/EB8A5HQHX.jpg',
+      'https://cdn2.thedogapi.com/images/A3iocPBuU.jpg',
+      'https://cdn2.thedogapi.com/images/20ILpw3eY.jpg',
+      'https://cdn2.thedogapi.com/images/FXigpiT_A.jpg',
+      'https://cdn2.thedogapi.com/images/rVOHQ6r1R.jpg',
+      'https://cdn2.thedogapi.com/images/aG5NsYZvQ.jpg',
     ],
   },
   13: {
@@ -12052,45 +12192,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Setter Irlandés',
       'Perro de caza',
       'Perro grande',
-      "Setter Irlandes",
-      "Perro de caza",
-      "Perro de campo",
-      "Perro de muestra",
-      "Perro de pelo largo",
-      "Perro de pelo rojo",
-      "Perro de Irlanda",
-      "Perro para niños",
-      "Perro activo",
-      "Perro atlético",
-      "Perro de compañía",
-      "Perro de familia",
-      "Perro amigable",
-      "Perro inteligente",
-      "Perro de trabajo",
-      "Perro de raza pura",
-      "Perro de raza grande",
-      "Perro de energía alta",
-      "Perro de caza de aves",
-      "Perro de caza de pluma",
-      "Perro de caza de pelo",
-      "Perro de caza de campo",
-      "Perro de muestra irlandés",
-      "Perro de muestra de pelo largo",
-      "Perro de muestra de pelo rojo",
-      "Perro de muestra de raza pura",
-      "Perro de muestra de raza grande",
-      "Perro de muestra de energía alta",
-      "Perro de muestra de caza de aves"
+      'Setter Irlandes',
+      'Perro de caza',
+      'Perro de campo',
+      'Perro de muestra',
+      'Perro de pelo largo',
+      'Perro de pelo rojo',
+      'Perro de Irlanda',
+      'Perro para niños',
+      'Perro activo',
+      'Perro atlético',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro amigable',
+      'Perro inteligente',
+      'Perro de trabajo',
+      'Perro de raza pura',
+      'Perro de raza grande',
+      'Perro de energía alta',
+      'Perro de caza de aves',
+      'Perro de caza de pluma',
+      'Perro de caza de pelo',
+      'Perro de caza de campo',
+      'Perro de muestra irlandés',
+      'Perro de muestra de pelo largo',
+      'Perro de muestra de pelo rojo',
+      'Perro de muestra de raza pura',
+      'Perro de muestra de raza grande',
+      'Perro de muestra de energía alta',
+      'Perro de muestra de caza de aves',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": ["https://en.wikipedia.org/wiki/Irish_Setter", "https://www.dogbreedinfo.com/irishsetter.htm", "https://www.ukcdogs.com/irish-setter"]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Irish_Setter',
+      'https://www.dogbreedinfo.com/irishsetter.htm',
+      'https://www.ukcdogs.com/irish-setter',
+    ],
   },
   95: {
     weight: {
@@ -12179,45 +12323,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
     searchTerms: [
       'Terrier Irlandés',
       'Perro de caza pequeño',
-      "Terrier Irlandes",
-      "Irish Terrier",
-      "Terrier de Irlanda",
-      "Perro de Irlanda",
-      "Perro Irlandés",
-      "Terrier",
-      "Perro rojo",
-      "Perro de trabajo",
-      "Perro de caza",
-      "Perro de granja",
-      "Perro de compañía",
-      "Perro valiente",
-      "Perro audaz",
-      "Perro leal",
-      "Perro equilibrado",
-      "Perro gentil",
-      "Perro para niños",
-      "Perro para familias",
-      "Perro para primerizos",
-      "Perro resistente",
-      "Perro inteligente",
-      "Perro de pelo rojo",
-      "Perro de pelo duro",
-      "Perro de tamaño mediano",
-      "Perro de guerra",
-      "Perro mensajero",
-      "Perro de trincheras",
-      "Perro de la Primera Guerra Mundial",
-      "Perro de la Segunda Guerra Mundial"
+      'Terrier Irlandes',
+      'Irish Terrier',
+      'Terrier de Irlanda',
+      'Perro de Irlanda',
+      'Perro Irlandés',
+      'Terrier',
+      'Perro rojo',
+      'Perro de trabajo',
+      'Perro de caza',
+      'Perro de granja',
+      'Perro de compañía',
+      'Perro valiente',
+      'Perro audaz',
+      'Perro leal',
+      'Perro equilibrado',
+      'Perro gentil',
+      'Perro para niños',
+      'Perro para familias',
+      'Perro para primerizos',
+      'Perro resistente',
+      'Perro inteligente',
+      'Perro de pelo rojo',
+      'Perro de pelo duro',
+      'Perro de tamaño mediano',
+      'Perro de guerra',
+      'Perro mensajero',
+      'Perro de trincheras',
+      'Perro de la Primera Guerra Mundial',
+      'Perro de la Segunda Guerra Mundial',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": ["https://en.wikipedia.org/wiki/Irish_Terrier", "https://www.akc.org/dog-breeds/irish-terrier/", "https://www.dogbreedinfo.com/irishterrier.htm"]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Irish_Terrier',
+      'https://www.akc.org/dog-breeds/irish-terrier/',
+      'https://www.dogbreedinfo.com/irishterrier.htm',
+    ],
   },
   96: {
     weight: {
@@ -12309,50 +12457,50 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Galgo Italiano',
       'Perro pequeño',
       'Perro de juguete',
-      "Italian Greyhound",
-      "Pequeño lebrel italiano",
-      "Lebrel italiano",
-      "Piccolo Levriero Italiano",
-      "Galgo",
-      "Lebrel",
-      "Perro italiano",
-      "Perro de compañía",
-      "Perro de carreras",
-      "Perro de caza",
-      "Perro de velocidad",
-      "Perro elegante",
-      "Perro de familia",
-      "Perro de casa",
-      "Perro pequeño",
-      "Perro de raza pequeña",
-      "Perro de raza italiana",
-      "Perro de lujo",
-      "Perro de realeza",
-      "Perro de nobleza",
-      "Perro antiguo",
-      "Perro de Egipto",
-      "Perro de Roma",
-      "Perro de Grecia",
-      "Perro de Turquía",
-      "Perro de carreras pequeño",
-      "Perro de carreras italiano",
-      "Perro de carreras antiguo",
-      "Perro de carreras elegante"
+      'Italian Greyhound',
+      'Pequeño lebrel italiano',
+      'Lebrel italiano',
+      'Piccolo Levriero Italiano',
+      'Galgo',
+      'Lebrel',
+      'Perro italiano',
+      'Perro de compañía',
+      'Perro de carreras',
+      'Perro de caza',
+      'Perro de velocidad',
+      'Perro elegante',
+      'Perro de familia',
+      'Perro de casa',
+      'Perro pequeño',
+      'Perro de raza pequeña',
+      'Perro de raza italiana',
+      'Perro de lujo',
+      'Perro de realeza',
+      'Perro de nobleza',
+      'Perro antiguo',
+      'Perro de Egipto',
+      'Perro de Roma',
+      'Perro de Grecia',
+      'Perro de Turquía',
+      'Perro de carreras pequeño',
+      'Perro de carreras italiano',
+      'Perro de carreras antiguo',
+      'Perro de carreras elegante',
     ],
-    "tendencia_a_ladrar": "Baja",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Baja",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Italian_Greyhound",
-    "https://www.akc.org/dog-breeds/italian-greyhound/",
-    "https://www.dogbreedinfo.com/italiangreyhound.htm",
-    "https://www.ukcdogs.com/italian-greyhound"
-    ]
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Baja',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Italian_Greyhound',
+      'https://www.akc.org/dog-breeds/italian-greyhound/',
+      'https://www.dogbreedinfo.com/italiangreyhound.htm',
+      'https://www.ukcdogs.com/italian-greyhound',
+    ],
   },
   97: {
     weight: {
@@ -12384,12 +12532,58 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 581,
       url: 'https://cdn2.thedogapi.com/images/r1H6feqEm.jpg',
     },
-    searchTerms: ['Chin Japonés', 'Perro pequeño', 'Perro de juguete'],
     country_code: 'JP', // Añadido basándose en el nombre
-    description:
-      'El Chin Japonés es una raza pequeña conocida por su naturaleza independiente y su comportamiento similar al de un gato. Son leales y amorosos con sus familias, pero pueden ser reservados con los extraños.',
-    history:
-      'El Chin Japonés es una antigua raza de perro de regazo que se originó en Japón. Fueron criados para la compañía y se mantuvieron en la corte imperial. Su porte elegante y su comportamiento tranquilo los hicieron populares entre la nobleza.',
+    description: `
+      El Chin Japonés, también conocido como Spaniel Japonés, es una raza de perro que cautiva por su apariencia y personalidad. Este perro de raza toy, pequeño pero lleno de carácter, tiene una herencia antigua y distinguida que se remonta a las cortes imperiales de Asia. Originario de China, el Chin Japonés se hizo popular en Japón y posteriormente en Occidente, incluyendo Europa y los Estados Unidos.
+      <br>
+      <br>
+      El aspecto físico del Chin Japonés es inconfundible. Su cara achatada y grande, sus ojos separados y sus largas orejas caídas le confieren una expresión de ternura y curiosidad que es difícil de resistir. Su pelaje es largo, liso y sedoso, y puede presentarse en una variedad de colores y patrones, aunque los más comunes son el negro y blanco o el rojo y blanco. Su porte elegante y aristocrático, junto con su pelaje suave y sedoso, le dan un aire de distinción que es difícil de ignorar.
+      <br>
+      <br>
+      Pero el Chin Japonés no es solo una cara bonita. Este perro es conocido por su temperamento equilibrado y su lealtad hacia sus dueños. A menudo se le describe como un perro "gatuno" debido a su comportamiento independiente y su tendencia a trepar y jugar. Son perros inteligentes, juguetones y cariñosos, que hacen excelentes compañeros de vida. A pesar de su tamaño pequeño, son excelentes vigilantes y no dudarán en alertar a sus dueños ante cualquier situación inusual.
+      <br>
+      <br>
+      El Chin Japonés es un perro social que se lleva bien con las personas y otros animales cuando se le presenta adecuadamente. Aunque le encantan los niños, es mejor que viva en un hogar con niños mayores debido a su tamaño pequeño y su naturaleza delicada. Este perro es adecuado para dueños sin experiencia, ya que es alegre, amable y cariñoso. Sin embargo, es importante recordar que, como cualquier perro, necesita atención y cuidados adecuados.
+      <br>
+      <br>
+      En cuanto a su cuidado, el Chin Japonés tiene necesidades moderadas de ejercicio y se le debe pasear a un ritmo tranquilo, ya que tiene una resistencia baja. Su pelaje requiere un cepillado regular, pero es relativamente fácil de mantener en comparación con otras razas de pelo largo. Sin embargo, debido a su hocico corto, es importante tener cuidado en climas calurosos, ya que puede tener problemas de tolerancia al calor.
+      <br>
+      <br>
+      En términos de salud, el Chin Japonés es propenso a algunos problemas de salud, incluyendo la luxación de rótula, problemas oculares, soplos cardíacos, epilepsia y GM2 gangliosidosis. Por lo tanto, es crucial proporcionarle una dieta saludable y controlada para prevenir la obesidad y realizar chequeos veterinarios regulares para detectar cualquier problema de salud a tiempo.
+      <br>
+      <br>
+      El Chin Japonés es un perro que se adapta bien a diferentes estilos de vida y es adecuado tanto para vivir en apartamentos como en casas con jardín. Sin embargo, es importante tener en cuenta que puede tener dificultades con las condiciones climáticas extremas debido a su pelaje y su hocico corto. Por lo tanto, es importante proporcionarle un ambiente cómodo y seguro donde pueda prosperar.
+      <br>
+      <br>
+      En cuanto a su entrenamiento, el Chin Japonés es un perro inteligente y altamente entrenable. Sin embargo, puede requerir paciencia y un enfoque positivo y motivador para el entrenamiento. A pesar de su inteligencia, puede ser un poco terco a veces, por lo que es importante ser consistente y paciente durante las sesiones de entrenamiento.
+      <br>
+      <br>
+      En términos de personalidad, el Chin Japonés tiene un carácter alegre y feliz. Son perros inteligentes, traviesos y juguetones, que disfrutan de la compañía de sus dueños y de realizar actividades divertidas. Tienen un sentido del humor único y una voz distintiva, lo que los hace aún más encantadores. A pesar de su tamaño pequeño, tienen una gran personalidad y seguramente te harán reír con sus travesuras y su comportamiento juguetón.
+      <br>
+      <br>
+      En resumen, el Chin Japonés es un perro encantador y leal que hará las delicias de cualquier hogar con su personalidad alegre y su apariencia elegante. Sin embargo, como cualquier perro, requiere atención, cuidado y amor para prosperar. Si estás considerando añadir un Chin Japonés a tu familia, es importante que investigues a fondo y busques consejos de otros propietarios para asegurarte de que puedes proporcionarle el hogar y el cuidado que necesita.
+    `,
+    history: `
+      La historia del Chin Japonés, también conocido como Spaniel Japonés, es tan fascinante como la raza misma. Este pequeño perro, con su apariencia elegante y su carácter encantador, tiene raíces que se remontan a las cortes imperiales de Asia, y su historia está llena de misterio, intriga y aventura.
+      <br>
+      <br>
+      Aunque el Chin Japonés es conocido por su asociación con Japón, sus raíces ancestrales se encuentran en China. Históricamente, esta raza era propiedad exclusiva de la nobleza, y era ilegal que los plebeyos los poseyeran. Los monjes y la nobleza en China y Tíbet desarrollaron varias variedades de pequeños perros de compañía durante siglos para palacios y monasterios. Entre estas razas se encontraban el Pekinés, el Shih Tzu y el Lhasa Apso. Estos pequeños perros eran muy valorados y costosos, a menudo se comerciaban a lo largo de las rutas de la Ruta de la Seda. Los monasterios a lo largo de la Ruta de la Seda intercambiaban frecuentemente estos perros con las caravanas de seda. A través del comercio y la donación, estos perros de diversas regiones se unieron y eventualmente se convirtieron en los ancestros del Chin Japonés.
+      <br>
+      <br>
+      El Pekinés/Chin Japonés ganó rápidamente popularidad entre la nobleza y los monjes chinos. La propiedad y venta de estos perros estaban restringidas a la nobleza y las clases religiosas, y se consideraban tesoros. La nobleza japonesa favorecía una pequeña raza nativa que se parecía al Spaniel Toy Continental de Europa antes de la llegada del Pekinés. Cuando el Pekinés con sus características braquicéfalas (cara plana) llegó, se cruzó con la raza nativa japonesa, dando como resultado el Chin Japonés. La raza era distinta de otras razas de perros japoneses como el Akita Inu, el Shiba Inu y el Tosa Inu. El Chin Japonés estaba estrictamente reservado para la nobleza y las clases religiosas, con restricciones de propiedad y venta.
+      <br>
+      <br>
+      Esta situación persistió hasta la llegada de los primeros europeos a Japón. Después de un breve período de contacto con comerciantes portugueses y holandeses, Japón cerró sus fronteras a la influencia extranjera. Solo se permitieron unos pocos pequeños puestos de comercio, y hay evidencia inconclusa de que los comerciantes portugueses llevaron algunos Chins Japoneses a Portugal en los siglos XVII o XVIII.
+      <br>
+      <br>
+      Los primeros Chins Japoneses conocidos que abandonaron Japón lo hicieron en 1854, cuando el almirante Matthew C. Perry llegó con barcos de guerra modernos y obligó a Japón a abrir sus fronteras a los extranjeros. Estos Chins Japoneses fueron dados como regalos, y solo un par sobrevivió al viaje, con los otros cuatro perros presumiblemente perdidos. Perry regaló sus dos perros a su hija, y uno de ellos llegó aAugust Belmont, quien más tarde se desempeñó como presidente del American Kennel Club (AKC). En 1858, se establecieron tratados comerciales entre Japón y las naciones americanas y europeas, lo que llevó a que el Chin Japonés se convirtiera en una mercancía comercial popular. Algunos perros fueron regalados de manera tradicional, mientras que otros fueron robados por trabajadores del palacio y soldados ansiosos por venderlos a los extranjeros. El viaje por mar fue un desafío para estos delicados perros, y muchos murieron a bordo. Los perros más pequeños eran considerados deseables para la exportación debido a los largos viajes por mar.
+      <br>
+      <br>
+      El Chin Japonés se volvió increíblemente de moda entre la nobleza europea y las clases altas americanas. Ya no permaneció como la posesión exclusiva de los ricos y poderosos, convirtiéndose en mascotas muy queridas de los marineros y sus esposas también. La reina Alexandra jugó un papel significativo en la popularización de la raza. Como princesa danesa que se casó con el rey Eduardo VII de Gran Bretaña, recibió su primer Chin Japonés como regalo de la familia real en 1863. Enamorándose de la raza, importó varios más desde el Este y los popularizó entre las clases altas en Gran Bretaña y en toda Europa.
+      <br>
+      <br>
+      La historia del Chin Japonés es un testimonio de la fascinación y el amor que esta raza ha inspirado a lo largo de los siglos. Desde las cortes imperiales de Asia hasta las casas de la nobleza europea y las familias americanas, el Chin Japonés ha dejado una huella indeleble en la historia de la cría de perros. Con su elegancia, su encanto y su personalidad única, no es de extrañar que el Chin Japonés continúe siendo una raza de perro muy querida y valorada en todo el mundo.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Ideal para la vida en apartamento',
@@ -12408,6 +12602,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas de corazón', 'Problemas de oído'],
+    searchTerms: [
+      'Chin Japonés',
+      'Perro pequeño',
+      'Perro de juguete',
+      'Chin Japones',
+      'Spaniel Japonés',
+      'Spaniel Japones',
+      'Chin',
+      'Spaniel',
+      'Japonés',
+      'Japones',
+      'Perro Japonés',
+      'Perro Japones',
+      'Perro de compañía',
+      'Perro pequeño',
+      'Perro de raza pequeña',
+      'Perro de raza toy',
+      'Toy',
+      'Perro oriental',
+      'Perro asiático',
+      'Perro de la corte imperial',
+      'Perro aristocrático',
+      'Perro elegante',
+      'Perro de pelo largo',
+      'Perro de cara plana',
+      'Perro de ojos grandes',
+      'Perro de orejas caídas',
+      'Perro gatuno',
+      'Perro para apartamento',
+      'Perro para niños mayores',
+      'Perro cariñoso',
+      'Perro leal',
+      'Perro inteligente',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.decaninos.com/spaniel-japones-chin/',
+      'https://www.hillspet.com.mx/dog-care/dog-breeds/japanese-chin',
+      'https://www.purina.es/encuentra-mascota/razas-de-perro/chin-japones',
+    ],
   },
   98: {
     weight: {
@@ -12439,12 +12680,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 351,
       url: 'https://cdn2.thedogapi.com/images/HksaMxqNX.jpg',
     },
-    searchTerms: ['Spitz Japonés', 'Perro mediano', 'Perro compañero'],
     country_code: 'JP', // Añadido basándose en el nombre
-    description:
-      'El Spitz Japonés es conocido por su afectuosidad y su naturaleza juguetona. Son excelentes compañeros de familia y se llevan bien con otros animales y niños. Aunque pequeños, tienen una personalidad grande y orgullosa.',
-    history:
-      'El Spitz Japonés es una raza originaria de Japón y se cree que desciende de los perros Spitz blancos más grandes de Siberia. Fueron criados principalmente para ser perros de compañía y son muy populares en Japón por su tamaño manejable y su naturaleza amigable.',
+    description: `
+      El Spitz Japonés es una raza de perro que se caracteriza por su apariencia elegante y su pelaje blanco puro. Este perro de tamaño mediano tiene una estructura ósea sólida y un cuerpo bien balanceado. Su cabeza es proporcional al cuerpo, con orejas pequeñas y puntiagudas que se mantienen erguidas, y ojos oscuros y ovalados que expresan una mirada viva y alerta. El hocico es puntiagudo y la cola es larga y llevada sobre la espalda, cubierta de pelo largo y denso.
+      <br>
+      <br>
+      El pelaje del Spitz Japonés es una de sus características más notables. Es doble, con una capa externa de pelo largo, recto y áspero, y una capa interna de pelo corto, suave y denso. Este pelaje le proporciona una protección eficaz contra las condiciones climáticas adversas. Aunque el color blanco es el más común y preferido, también se pueden encontrar en otros colores como crema, negro y marrón.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Spitz Japonés es conocido por su carácter alegre, su inteligencia y su lealtad hacia su familia. Son perros muy sociables que disfrutan de la compañía de las personas y se llevan bien con otros perros y animales. A pesar de su tamaño, son perros valientes y pueden ser buenos guardianes de la casa, ya que no dudarán en ladrar para alertar de la presencia de extraños.
+      <br>
+      <br>
+      El Spitz Japonés es un perro activo y juguetón que necesita ejercicio diario para mantenerse en forma y saludable. Les encanta jugar al aire libre y son excelentes compañeros para los niños. A pesar de su energía, también disfrutan de los momentos de tranquilidad y son felices descansando en casa con su familia.
+      <br>
+      <br>
+      En cuanto a su cuidado, el Spitz Japonés requiere un cepillado regular para mantener su pelaje limpio y libre de enredos. Aunque no son propensos a tener problemas de salud graves, es importante llevarlos al veterinario para chequeos regulares y mantener al día sus vacunas.
+      <br>
+      <br>
+      El Spitz Japonés es una raza de perro que se adapta bien a diferentes estilos de vida. Pueden vivir en apartamentos siempre y cuando se les proporcione suficiente ejercicio. Son perros que disfrutan de la compañía de su familia y no les gusta estar solos durante largos períodos de tiempo.
+      <br>
+      <br>
+      En resumen, el Spitz Japonés es un perro encantador con una personalidad alegre y un hermoso pelaje blanco. Son perros leales, inteligentes y sociables que hacen excelentes compañeros para todo tipo de familias.
+    `,
+    history: `
+      El Spitz Japonés es una raza de perro que, aunque relativamente nueva, ha ido ganando popularidad en todo el mundo debido a su temperamento amigable y otras características atractivas. Esta raza es reconocida por la mayoría de los principales clubes de razas de perros, excepto el American Kennel Club, debido a su similitud con el Pomerania, el Perro Esquimal Americano y el Samoyedo.
+      <br>
+      <br>
+      Aunque su origen exacto es incierto, se cree que el Spitz Japonés puede haber descendido del Samoyedo o del Gran Spitz Alemán. Fue introducido al mundo en las décadas de 1920 y 1930, y desde entonces ha experimentado un crecimiento constante en su popularidad.
+      <br>
+      <br>
+      El Spitz Japonés se caracteriza por su cuerpo compacto y equilibrado, que mide entre 30 y 38 cm de altura y pesa hasta 10 kg. Tiene una cabeza de tamaño mediano con orejas triangulares y ojos oscuros. Su característica más distintiva es su magnífico pelaje blanco, denso y esponjoso, que le da una apariencia muy atractiva.
+      <br>
+      <br>
+      Estos perros son conocidos por su naturaleza afectuosa y juguetona. Son extremadamente leales a sus familias, lo que los convierte en excelentes compañeros y los hace adecuados para familias con niños. La raza es curiosa, inteligente y fácil de entrenar desde una edad temprana.
+      <br>
+      <br>
+      Aunque requieren un aseo regular para mantener su apariencia esponjosa, no se conocen problemas de salud hereditarios asociados con esta raza. Sin embargo, se debe tener cuidado durante el ejercicio para prevenir la sobrecarga debido a su pequeño tamaño. Una nutrición adecuada, ya sea a través de alimentos comerciales de alta calidad o una dieta casera equilibrada, es importante para su bienestar general.
+      <br>
+      <br>
+      Cuando se busca agregar un Spitz Japonés a la familia, es aconsejable encontrar un criador de buena reputación que priorice la salud, el temperamento y la socialización. El precio de un cachorro de Spitz Japonés puede variar dependiendo del pedigrí y la calidad, oscilando entre 700 y 1700 euros o 800-1800 dólares. Asegurarse de que el cachorro esté sano y bien cuidado es esencial, y un criador de confianza proporcionará las vacunas necesarias y un certificado veterinario.
+      <br>
+      <br>
+      Con todas estas consideraciones en mente, puedes embarcarte en el viaje de encontrar a tu nuevo amigo de cuatro patas. Sin duda, el Spitz Japonés, con su encanto y lealtad, hará una maravillosa adición a cualquier hogar.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Se adapta bien a la vida en apartamentos',
@@ -12463,6 +12741,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas oculares', 'Displasia de cadera'],
+    searchTerms: [
+      'Spitz Japonés',
+      'Perro mediano',
+      'Perro compañero',
+      'Spitz Japones',
+      'Spitz de Japón',
+      'Spitz de Japon',
+      'Perro Japonés',
+      'Perro Japones',
+      'Perro de Japón',
+      'Perro de Japon',
+      'Nihon Supittsu',
+      'Perro blanco',
+      'Perro esponjoso',
+      'Perro pequeño',
+      'Perro compañía',
+      'Perro familiar',
+      'Perro inteligente',
+      'Perro juguetón',
+      'Perro leal',
+      'Perro amigable',
+      'Perro para niños',
+      'Perro para apartamento',
+      'Perro para casa pequeña',
+      'Perro de pelo largo',
+      'Perro de pelo blanco',
+      'Perro de raza pequeña',
+      'Perro de raza mediana',
+      'Perro de raza japonesa',
+      'Perro de raza Spitz',
+      'Perro de energía moderada',
+      'Perro de vida larga',
+      'Perro saludable',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://es.wikipedia.org/wiki/Spitz_japon%C3%A9s',
+      'https://mascotaleal.net/spitz-japones/',
+      'https://www.micachorro.net/spitz-japones-criadores-precio-y-cachorros/',
+    ],
   },
   99: {
     weight: {
@@ -12494,12 +12819,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 683,
       url: 'https://cdn2.thedogapi.com/images/S1GAGg9Vm.jpg',
     },
-    searchTerms: ['Keeshond', 'Perro mediano', 'Perro guardián'],
     country_code: 'NL', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Keeshond es una raza ágil y robusta conocida por su habilidad para ser un eficiente perro guardián de barcazas. Son animales juguetones y obedientes, con una inteligencia brillante que los hace rápidos para aprender y adaptarse.',
-    history:
-      'El Keeshond es originario de los Países Bajos, donde se utilizaban como perros guardián de barcazas. Esta raza se ha ganado un lugar en los hogares por su carácter amigable y su naturaleza juguetona.',
+    description: `
+      El Keeshond, también conocido como el Perro de Barcaza Holandés o Spitz Alemán, es un perro de tamaño mediano con características distintivas como una melena leonina, marcas de gafas, orejas pequeñas y triangulares, y un grueso pelaje doble. Originario de los Países Bajos, el Keeshond tiene una apariencia de spitz, una cabeza en forma de cuña y una cola rizada. Su denso pelaje doble requiere un aseo regular, y el color de la raza es una mezcla de gris, negro y blanco.
+      <br>
+      <br>
+      Los Keeshonden son juguetones, inteligentes y rápidos para aprender, a menudo sobresaliendo en agilidad y obediencia. Son conocidos por su lealtad, amor por los niños y afinidad por sus dueños. Como perros de vigilancia, tienen un ladrido fuerte pero generalmente no son agresivos hacia los visitantes. La formación adecuada y la estimulación mental son esenciales para su bienestar, ya que pueden aburrirse y participar en comportamientos destructivos si se dejan desocupados. Los Keeshonden prosperan en un ambiente estructurado con métodos de entrenamiento consistentes y justos, y prefieren estar cerca de sus compañeros humanos en lugar de ser dejados solos en un canil o patio trasero.
+      <br>
+      <br>
+      El Keeshond es una raza de tamaño mediano con un notable pelaje esponjoso. Es bien conocido por las distintivas marcas de "gafas" en su cara, que recuerdan a las de un zorro. Originalmente visto en barcazas de canales en los Países Bajos, el Keeshond tiene un papel significativo como símbolo del patriotismo holandés.
+      <br>
+      <br>
+      Los Keeshonds son conocidos por sus ladridos fuertes y ojos vigilantes, así como por sus personalidades amigables y leales. Hacen excelentes compañeros y se llevan bien con los niños, otras mascotas y extraños. La raza tiene una rica historia, estando asociada con las barcazas y sirviendo como un símbolo de patriotismo. Los Keeshonds son inteligentes y relativamente fáciles de entrenar, pero requieren ejercicio regular y estimulación mental. El aseo del pelaje denso es relativamente de bajo mantenimiento, y la raza tiene un patrón de muda moderado. Los Keeshonds son susceptibles a ciertas condiciones de salud, incluyendo la displasia de cadera y las cataratas. Una dieta adecuada y la nutrición son importantes para mantener su salud general. Los Keeshonds pueden ser adoptados de rescates específicos de la raza o obtenidos de criadores de buena reputación.
+      <br>
+      <br>
+      En resumen, el Keeshond es una raza de perro de tamaño mediano, conocida por su pelaje esponjoso y sus marcas distintivas de "gafas". Son perros leales, amigables y juguetones, que se llevan bien con los niños y otros animales. Aunque requieren un aseo regular debido a su pelaje denso, son relativamente fáciles de cuidar y son una excelente opción para familias y dueños de perros por primera vez.
+    `,
+    history: `
+      El Keeshond, también conocido como el Perro de Barcaza Holandés, es una raza de perro de tamaño mediano con un distintivo pelaje doble grueso, que parece una melena de león, y marcas en su cara que recuerdan a unas gafas. Esta raza desciende de antiguos perros del Ártico y está estrechamente relacionada con las razas de spitz alemanas.
+      <br>
+      <br>
+      La historia del Keeshond se remonta a los Países Bajos, donde la raza ganó popularidad y se convirtió en una presencia común en las barcazas que viajaban por los canales. Los Keeshonden no solo eran apreciados por su compañía, sino que también eran valorados por su habilidad para servir como perros de vigilancia en estas embarcaciones. Con su ladrido distintivo y su naturaleza vigilante, eran excelentes para alertar a sus dueños de cualquier intruso o peligro potencial.
+      <br>
+      <br>
+      Pero el Keeshond no solo es conocido por su papel en las barcazas holandesas. Durante un período de agitación política en los Países Bajos antes de la Revolución Francesa, el Keeshond se convirtió en el símbolo de la facción Patriota. Esta facción estaba en oposición a la Casa de Orange, y el Keeshond, con su pelaje gris, blanco y negro, se convirtió en un emblema de su causa.
+      <br>
+      <br>
+      A finales del siglo XIX, la raza fue desarrollada aún más en Inglaterra utilizando perros importados de los Países Bajos y Alemania. Fue durante este tiempo que el Keeshond como lo conocemos hoy comenzó a tomar forma, con su apariencia de spitz, cabeza en forma de cuña, orejas pequeñas y puntiagudas, y cola rizada.
+      <br>
+      <br>
+      El Keeshond es conocido por su naturaleza juguetona, su inteligencia y su capacidad para aprender rápidamente. Son excelentes perros de familia, se llevan bien con los niños y otros perros, y pueden ser entrenados para la agilidad y la obediencia. A menudo se utilizan como perros de consuelo y tienen la tendencia a formar fuertes vínculos con sus dueños. Aunque son perros de vigilancia y tienen un ladrido distintivo, no son agresivos, lo que los convierte en buenos perros guardianes.
+      <br>
+      <br>
+      El entrenamiento y la socialización adecuados son importantes para esta raza, ya que responden mal a los métodos de fuerza. Los Keeshonden requieren contacto diario con sus dueños y mucha estimulación física y mental para prevenir el aburrimiento y los problemas de comportamiento. A pesar de su abundante pelaje, el cuidado del Keeshond es relativamente sencillo, aunque requiere un cepillado regular para mantener su pelaje en buen estado.
+      <br>
+      <br>
+      En resumen, el Keeshond es una raza con una rica historia y una personalidad encantadora. Ya sea en una barcaza en los canales de los Países Bajos, como símbolo de una causa política, o como un amado miembro de la familia, el Keeshond ha dejado su huella en la historia de la cría de perros. Con su apariencia distintiva y su naturaleza amigabley leal, no es de extrañar que esta raza continúe siendo popular en todo el mundo
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Bueno para la vigilancia debido a su historia como perro guardián',
@@ -12517,6 +12873,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas de tiroides'],
+    searchTerms: [
+      'Keeshond',
+      'Perro mediano',
+      'Perro guardián',
+      'Kees',
+      'Perro de Barcaza Holandés',
+      'Perro Holandés',
+      'Perro de Barcaza',
+      'Perro de vigilancia',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro inteligente',
+      'Perro juguetón',
+      'Perro leal',
+      'Perro de pelo grueso',
+      'Perro de doble capa',
+      'Perro de clima frío',
+      'Perro de clima templado',
+      'Perro de tamaño mediano',
+      'Perro de raza mediana',
+      'Perro de raza Spitz',
+      'Spitz Holandés',
+      'Perro de raza antigua',
+      'Perro de raza europea',
+      'Perro de raza del norte de Europa',
+      'Perro de raza de los Países Bajos',
+      'Perro de raza de Holanda',
+      'Perro de raza de Alemania',
+      'Perro de raza de Inglaterra',
+      'Perro de raza de Reino Unido',
+      'Perro de raza del Reino Unido',
+      'Perro de raza de Gran Bretaña',
+      'Perro de raza británica',
+    ],
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.thesprucepets.com/keeshond-dog-breed-profile-4771819',
+      'https://en.wikipedia.org/wiki/Keeshond',
+      'https://www.akc.org/dog-breeds/keeshond/',
+    ],
   },
   100: {
     weight: {
@@ -12540,7 +12943,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Activo',
       'Territorial',
     ],
-    origin: 'Países Bajos', // Añadido basándose en el origen conocido de la raza
+    origin: 'Países Bajos',
     reference_image_id: 'kOMy84GQE',
     image: {
       id: 'kOMy84GQE',
@@ -12548,12 +12951,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1080,
       url: 'https://cdn2.thedogapi.com/images/kOMy84GQE.jpg',
     },
-    searchTerms: ['Kooikerhondje', 'Perro mediano', 'Perro deportivo'],
-    country_code: 'NL', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Kooikerhondje es una raza activa y ágil, conocida por su habilidad para atraer patos a las trampas. Son perros inteligentes y alertas, con una actitud benevolente y un fuerte sentido territorial.',
-    history:
-      'El Kooikerhondje es originario de los Países Bajos, donde se utilizaba para atraer patos a las trampas. Esta práctica, conocida como "tolling", ha sido un rasgo definitorio de esta raza.',
+    country_code: 'NL',
+    description: `
+      El Kooikerhondje es una raza de perro fascinante y llena de historia. Originario de los Países Bajos, este perro de tamaño mediano es conocido por su pelaje distintivo y su personalidad encantadora. Su nombre, que se pronuncia "koy-ker-hondt-yeh", se traduce aproximadamente como "perro de cazador de patos pequeño" en holandés, un guiño a su pasado como perro de trabajo en los canales y ríos de los Países Bajos.
+      <br>
+      <br>
+      El Kooikerhondje es un perro de aspecto atractivo y distintivo. Su tamaño mediano, junto con su pelaje largo y sedoso, le da una apariencia elegante y deportiva. El pelaje es de color blanco con manchas rojas, y la cola lleva una pluma blanca que se agita alegremente cuando el perro está en movimiento. Una característica única de la raza es la "oreja de joya", que es una punta negra en las orejas que se considera muy deseable en los estándares de la raza.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Kooikerhondje es conocido por su carácter amigable y su inteligencia aguda. Son perros activos y enérgicos que disfrutan de una buena cantidad de ejercicio diario. A pesar de su energía, también son perros muy equilibrados y se adaptan bien a la vida familiar. Son conocidos por ser buenos con los niños y se llevan bien con otros animales, lo que los convierte en una excelente opción para una mascota familiar.
+      <br>
+      <br>
+      El Kooikerhondje es también un perro inteligente y receptivo, lo que lo hace relativamente fácil de entrenar. Responden bien a los métodos de entrenamiento positivos y son rápidos para aprender nuevos comandos y trucos. Sin embargo, también pueden ser un poco independientes a veces, por lo que es importante establecer un liderazgo firme y consistente desde una edad temprana.
+      <br>
+      <br>
+      En términos de cuidado, el Kooikerhondje requiere un aseo regular para mantener su pelaje en buen estado. Aunque su pelaje es bastante fácil de cuidar, se beneficiarán de un cepillado regular para evitar que se formen enredos y para mantener su pelaje luciendo su mejor aspecto. También son una raza relativamente saludable, aunque, como todos los perros, pueden ser propensos a ciertas condiciones de salud genéticas.
+      <br>
+      <br>
+      En resumen, el Kooikerhondje es una raza de perro encantadora y atractiva que puede hacer una maravillosa mascota para la persona o familia adecuada. Con su combinación de buen aspecto, personalidad amigable y naturaleza adaptable, no es de extrañar que esta raza esté ganando popularidad fuera de su país de origen. Ya sea que estés buscando un compañero activo para aventuras al aire libre o un perro familiar cariñoso, el Kooikerhondje puede ser la elección perfecta.
+    `,
+    history: `
+      El Kooikerhondje, también conocido como Spaniel Holandés, es una raza de perro pequeña y de tipo spaniel originaria de los Países Bajos. Su historia se remonta a varios siglos atrás, y su nombre, que se traduce como "pequeño perro cazador de patos", refleja su papel original como perro de trabajo en los canales y ríos de los Países Bajos.
+      <br>
+      <br>
+      La historia del Kooikerhondje se remonta a antes del siglo XVI, cuando fue desarrollado en los Países Bajos como una raza específicamente utilizada para atraer o engañar a los patos en trampas. Los perros, conocidos como "sabuesos de Kooiker", eran empleados por los Kooikers (cazadores de patos) para atraer a los patos a canales con trampas llamadas "kooien". Durante los siglos XVII y XVIII, la raza fue muy popular y se puede ver en pinturas de artistas renombrados como Rembrandt y Jan Steen.
+      <br>
+      <br>
+      El Kooikerhondje fue inicialmente criado como un perro de trabajo en reclamos de patos para atraer y atraer a los patos. Su cola, adornada con una pluma de plumas blancas, se utilizaba para atraer y guiar a los patos hacia sistemas de trampas de estanques elaborados conocidos como Eendenkooi. Su pelaje es de color naranja y blanco, y su cola lleva una pluma de plumas blancas que se agita alegremente cuando el perro está en movimiento.
+      <br>
+      <br>
+      A pesar de su popularidad inicial, la raza enfrentó la extinción durante la Segunda Guerra Mundial. Sin embargo, gracias a los esfuerzos de la baronesa van Hardenbroek van Ammerstol, la raza fue salvada. La baronesa se dedicó a buscar y criar Kooikerhondjes, y gracias a sus esfuerzos, la raza fue reconocida oficialmente por el Kennel Club holandés en 1971.
+      <br>
+      <br>
+      Desde entonces, el Kooikerhondje ha sido importado a otros países y ha ganado reconocimiento en varias organizaciones caninas en todo el mundo. Aunque todavía es relativamente desconocido fuera de los Países Bajos, el Kooikerhondje está ganando popularidad en los Estados Unidos, Canadá y Escandinavia.
+      <br>
+      <br>
+      En términos de temperamento, los Kooikerhondjes son conocidos por su naturaleza alegre, amigable y bien comportada. Son inteligentes, atentos y ansiosos por complacer a sus dueños. Aunque pueden ser inicialmente reservados con los extraños, una vez que se calientan con alguien, desarrollan una confianza de por vida.
+      <br>
+      <br>
+      En resumen, el Kooikerhondje es una raza de perro única y cautivadora con una rica historia arraigada en su papel como perro señuelo de patos. Su apariencia llamativa, su temperamento amable y su adaptabilidad lo convierten en un gran compañero para los amantes de los perros que aprecian su encanto y su patrimonio.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro deportivo con agilidad y energía',
@@ -12571,6 +13008,55 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Enfermedades oculares'],
+    searchTerms: [
+      'Kooikerhondje',
+      'Perro mediano',
+      'Perro deportivo',
+      'Kooikerhondje',
+      'Koikerhondje',
+      'Koiker',
+      'Kooiker',
+      'Spaniel Holandés',
+      'Spaniel Holandes',
+      'SpanielHolandes',
+      'SpanielHolandés',
+      'Perro de los Países Bajos',
+      'Perro de los Paises Bajos',
+      'Perro de los PaisesBajos',
+      'Perro de los PaísesBajos',
+      'Perro Holandés',
+      'Perro Holandes',
+      'PerroHolandes',
+      'PerroHolandés',
+      'Perro de caza',
+      'Perro de caza holandés',
+      'Perro de caza holandes',
+      'Perro de cazaHolandes',
+      'Perro de cazaHolandés',
+      'Perro de agua',
+      'Perro de agua holandés',
+      'Perro de agua holandes',
+      'Perro de aguaHolandes',
+      'Perro de aguaHolandés',
+      'Perro de patos',
+      'Perro de patos holandés',
+      'Perro de patos holandes',
+      'Perro de patosHolandes',
+      'Perro de patosHolandés',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Kooikerhondje',
+      'https://www.thesprucepets.com/kooikerhondje-dog-breed-profile-4774020',
+      'https://www.akc.org/expert-advice/dog-breeds/9-things-you-dont-know-kooikerhondje/',
+    ],
   },
   101: {
     weight: {
@@ -12594,7 +13080,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Inteligente',
       'Protector',
     ],
-    origin: 'Hungría', // Añadido basándose en el origen conocido de la raza
+    origin: 'Hungría',
     reference_image_id: 'BykZ7ecVX',
     image: {
       id: 'BykZ7ecVX',
@@ -12602,19 +13088,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 768,
       url: 'https://cdn2.thedogapi.com/images/BykZ7ecVX.jpg',
     },
-    searchTerms: ['Kuvasz', 'Perro grande', 'Perro de trabajo'],
-    country_code: 'HU', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Kuvasz es una raza leal y protectora, conocida por su independencia y su inteligencia. Aunque pueden ser cómicos y pacientes, también son perros grandes y fuertes, capaces de cazar animales grandes y actuar como guardias.',
-    history:
-      'El Kuvasz es originario de Hungría, donde se criaba para ser un perro de caza y guardián. A pesar de su gran tamaño, el Kuvasz es conocido por su carácter cómico y su lealtad hacia sus dueños.',
+    country_code: 'HU',
+    description: `
+      El Kuvasz es una raza de perro de trabajo de gran tamaño originaria de Hungría, conocida por su naturaleza protectora y su sólido pelaje blanco. Su historia se remonta a la antigua Mesopotamia alrededor del año 1300 a.C., pero fue en Hungría donde se desarrolló y se consolidó como la raza que conocemos hoy. El rey Matías I de Hungría tuvo un papel fundamental en este desarrollo, ya que consideraba a estos perros como sus leales guardaespaldas. Además de su función como protectores, los Kuvasz también se utilizaban para la caza de animales de gran tamaño.
+      <br>
+      <br>
+      El Kuvasz es un perro imponente y majestuoso, con una altura que puede llegar a los 76 centímetros en los machos y un peso que ronda los 52 kilogramos. Las hembras suelen ser un poco más pequeñas. Su pelaje es de color blanco, de longitud media y espeso, lo que resulta en una muda intensa durante ciertas temporadas del año. Este pelaje requiere un cuidado moderado, ya que su textura gruesa permite que el barro y la suciedad se cepillen fácilmente.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Kuvasz es un perro inteligente, independiente y extremadamente leal. Como perros de guardia, pueden ser cautelosos con los extraños y muy protectores con su familia y su hogar. A pesar de su tamaño y su instinto de protección, tienen un sentido del humor notable y pueden ser bastante juguetones. Sin embargo, su independencia requiere de una educación firme y una socialización extensa. Algunos Kuvasz pueden ser agresivos y estarían mejor adaptados como guardianes de ganado. Tienen la tendencia a vagar hasta que establecen sus límites.
+      <br>
+      <br>
+      Cuando se crían como parte de la familia, los Kuvasz asumen la protección de los niños y son gentiles y protectores con ellos. Sin embargo, no son la raza ideal para los dueños de perros primerizos y pueden exhibir comportamientos destructivos si no se les proporciona suficiente contacto humano o estímulos. Necesitan ejercicio y socialización, y su naturaleza atlética los convierte en perros enérgicos.
+      <br>
+      <br>
+      En términos de salud, el Kuvasz tiene una esperanza de vida de alrededor de 8 a 10 años, aunque algunos individuos han vivido hasta 14 años. Son "fáciles de mantener" y requieren relativamente poca comida considerando su tamaño. Sin embargo, como todas las razas, pueden presentar ciertos problemas de salud, como la displasia de cadera, la atrofia progresiva de la retina, enfermedades de la tiroides y la dilatación gástrica-vólvulo.
+      <br>
+      <br>
+      En la actualidad, los Kuvasz trabajan como guardianes de ganado, protegiendo los rebaños de los depredadores. También han ganado cierta notoriedad en la cultura popular, como en la película de Disney "Homeward Bound II", donde un personaje llamado Delilah es un Kuvasz.
+      <br>
+      <br>
+      En resumen, el Kuvasz es una raza de perro antigua y noble, conocida por su lealtad, su inteligencia y su instinto protector. Su tamaño imponente y su pelaje blanco hacen que sea fácilmente reconocible.
+    `,
+    history: `
+      La historia del Kuvasz es tan antigua como fascinante, remontándose a la época de la migración y la conquista del Cuenca de los Cárpatos por los húngaros. Se cree que los magiares, los antiguos húngaros, trajeron consigo ovejas y perros cuando establecieron su cultura pastoral en las llanuras húngaras. Entre estos perros, se encontraba el antecesor del Kuvasz, un perro de pastor y guardián de rebaños.
+      <br>
+      <br>
+      El Kuvasz, como raza distinta, comenzó a ser seleccionado y criado a finales del siglo XIX. Su nombre, que significa "protector" en turco, refleja su papel como perro guardián de rebaños y protector de propiedades. Su lealtad, inteligencia y tamaño lo convirtieron en un excelente perro de trabajo, capaz de proteger a las ovejas de los depredadores y de vigilar las propiedades de sus dueños.
+      <br>
+      <br>
+      Pero el Kuvasz no solo era un perro de trabajo. También se ganó un lugar en la corte real húngara. Durante el reinado de Matías Corvino en el siglo XV, el Kuvasz se convirtió en un perro de guardia real. Se dice que el rey Matías confiaba más en sus perros Kuvasz que en sus propios consejeros de la corte.
+      <br>
+      <br>
+      La raza fue oficialmente reconocida por la Fédération Cynologique Internationale en 1934. Sin embargo, la Segunda Guerra Mundial casi lleva a la raza a la extinción en Hungría. Los soldados alemanes y soviéticos a menudo apuntaban a estos perros, ya que su lealtad a sus dueños los convertía en protectores feroces. Después de la guerra, los criadores dedicados ayudaron a repoblar el Kuvasz en Hungría, aunque la base genética era limitada.
+      <br>
+      <br>
+      Hoy en día, el Kuvasz sigue siendo un perro de trabajo en Hungría, pero también se ha ganado un lugar como perro de compañía en muchos hogares alrededor del mundo. Su impresionante tamaño, su hermoso pelaje blanco o marfil y su inteligencia lo hacen un perro notable. Aunque generalmente es saludable, el Kuvasz puede ser propenso a problemas óseos en desarrollo.
+      <br>
+      <br>
+      En resumen, la historia del Kuvasz es una historia de supervivencia y adaptación. Desde los antiguos magiares hasta los modernos criadores de perros, esta raza ha sido apreciada por su lealtad, su inteligencia y su habilidad para proteger. A pesar de los desafíos que ha enfrentado, el Kuvasz sigue siendo un testimonio de la rica historia canina de Hungría.
+    `,
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Excelente perro guardián',
       'Independiente y requiere menos atención que otras razas',
       'Inteligente y fácil de entrenar con paciencia',
     ],
-    color: ['Blanco'], // Asumiendo que este es el color más común
+    color: ['Blanco'],
     nivel_de_energia: 'Moderado',
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
@@ -12625,6 +13145,58 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Enfermedades de la piel'],
+    searchTerms: [
+      'Kuvasz',
+      'Perro grande',
+      'Perro de trabajo',
+      'Kuvas',
+      'Cuvaz',
+      'Cubaz',
+      'Guardián',
+      'Perro de trabajo',
+      'Perro húngaro',
+      'Perro de caza',
+      'Perro de protección',
+      'Perro de rebaño',
+      'Perro blanco',
+      'Perro grande',
+      'Perro fuerte',
+      'Perro leal',
+      'Perro inteligente',
+      'Perro independiente',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro de granja',
+      'Perro pastor',
+      'Perro de ganado',
+      'Perro de guardia',
+      'Perro de defensa',
+      'Perro de seguridad',
+      'Perro de vigilancia',
+      'Perro de servicio',
+      'Perro de rescate',
+      'Perro de terapia',
+      'Perro de asistencia',
+      'Perro de ayuda',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Delilah',
+        caso: 'Personaje de la película "Homeward Bound II"',
+      },
+    ],
+    fuentes: [
+      'https://www.thesprucepets.com/kuvasz-dog-breed-profile-4772861',
+      'https://www.akc.org/dog-breeds/kuvasz/',
+      'https://www.hillspet.com/dog-care/dog-breeds/kuvasz',
+    ],
   },
   102: {
     weight: {
@@ -12649,7 +13221,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Confiable',
       'Temperamento uniforme',
     ],
-    origin: 'Reino Unido', // Añadido basándose en el origen conocido de la raza
+    origin: 'Reino Unido',
     reference_image_id: 'B1uW7l5VX',
     image: {
       id: 'B1uW7l5VX',
@@ -12657,19 +13229,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 667,
       url: 'https://cdn2.thedogapi.com/images/B1uW7l5VX.jpg',
     },
-    searchTerms: ['Labrador Retriever', 'Perro mediano', 'Perro deportivo'],
-    country_code: 'UK', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Labrador Retriever es una raza amable y sociable, conocida por su inteligencia y habilidad para recuperar objetos en el agua. Son perros gentiles y confiables, con un temperamento uniforme que los hace excelentes mascotas familiares.',
-    history:
-      'Originario del Reino Unido, el Labrador Retriever fue criado inicialmente para recuperar objetos en el agua. Su inteligencia, agilidad y temperamento uniforme los convierten en una opción popular para muchas familias y también se utilizan frecuentemente como perros guía y de servicio.',
+    country_code: 'UK',
+    description: `
+      El Labrador Retriever es una de las razas de perros más populares y queridas en todo el mundo. Originario de Terranova, en Canadá, este perro fue criado inicialmente para ayudar a los pescadores a recuperar redes y peces. Su habilidad para recuperar, su amor por el agua y su excelente temperamento hicieron que la raza fuera perfecta para esta tarea. Con el tiempo, los Labradores fueron llevados a Inglaterra donde su popularidad creció y se desarrollaron aún más como perros de caza y recuperación.
+      <br>
+      <br>
+      El Labrador Retriever es un perro de tamaño mediano a grande, con machos que suelen pesar entre 29 y 36 kilogramos y hembras entre 25 y 32 kilogramos. Son conocidos por su pelaje corto y denso que puede venir en tres colores: negro, amarillo y chocolate. Este pelaje es también resistente al agua, una característica que heredaron de sus días de trabajo en el frío Atlántico norte.
+      <br>
+      <br>
+      Los Labradores son perros increíblemente amigables y sociables. Son conocidos por su temperamento equilibrado y su amor por las personas. Esta raza es famosa por su inteligencia, lo que los hace excelentes perros de trabajo. Son utilizados en una variedad de roles, incluyendo perros guía para personas con discapacidades visuales, perros de terapia y perros de búsqueda y rescate. Su inteligencia también significa que son perros muy entrenables y a menudo se destacan en competencias de obediencia y agilidad.
+      <br>
+      <br>
+      A pesar de su tamaño, los Labradores son perros muy activos y requieren mucho ejercicio. Les encanta jugar y son conocidos por su amor por la natación. Sin suficiente ejercicio, un Labrador puede volverse destructivo o hiperactivo. Esta raza también es conocida por su amor por la comida, lo que puede llevar a problemas de sobrepeso si no se controla su dieta.
+      <br>
+      <br>
+      Los Labradores son perros muy saludables, pero como todas las razas, pueden ser propensos a ciertas condiciones de salud. Algunas de las condiciones más comunes en los Labradores incluyen displasia de cadera y de codo, problemas oculares y enfermedades del corazón. Es importante comprar a un criador responsable que pruebe a sus perros reproductores para estas y otras condiciones de salud.
+      <br>
+      <br>
+      En resumen, el Labrador Retriever es un perro amigable, activo e inteligente que hace un gran perro de familia. Su amor por las personas y su deseo de complacer hacen que sea un placer vivir con ellos. Ya sea que estés buscando un compañero de juegos para los niños, un perro de trabajo dedicado o simplemente un amigo leal, el Labrador Retriever es una excelente elección.
+    `,
+    history: `
+      El Labrador Retriever es una raza de perro que se ha ganado el corazón de millones de personas en todo el mundo. Su historia es tan rica y variada como la raza misma, y se remonta a la región de Terranova en Canadá.
+      <br>
+      <br>
+      Los antiguos Labradores no eran como los conocemos hoy. Eran perros de trabajo utilizados por los pescadores para ayudar a recuperar redes y peces. Estos perros, conocidos como perros de San Juan o Terranova Menor, eran invaluables para los pescadores, ya que estaban equipados con un pelaje resistente al agua y una cola que se asemeja a la de una nutria, lo que les permitía moverse eficientemente en el agua.
+      <br>
+      <br>
+      En el siglo XIX, estos perros fueron importados a Inglaterra, donde su lealtad, habilidades acuáticas e instintos de recuperación llamaron la atención de los aristócratas. Fue aquí donde se inició la cría selectiva para refinar la raza, y el nombre "Labrador Retriever" fue acuñado por el Conde de Malmesbury. El tercer Conde de Malmesbury y el sexto Duque de Buccleuch jugaron roles fundamentales en la preservación de la raza y el establecimiento de pedigríes.
+      <br>
+      <br>
+      El reconocimiento oficial como raza llegó en 1903 por parte del Kennel Club (Reino Unido) y en 1917 por parte del American Kennel Club. Desde entonces, la popularidad del Labrador Retriever ha crecido exponencialmente, tanto que hoy en día es una de las razas de perros más populares en muchos países.
+      <br>
+      <br>
+      Los Labradores son conocidos por su amabilidad, inteligencia y lealtad. Son excelentes perros de trabajo, utilizados en una variedad de roles, incluyendo perros guía para personas con discapacidades visuales, perros de terapia, perros de búsqueda y rescate, y en actividades competitivas como obediencia y agilidad.
+      <br>
+      <br>
+      A pesar de su popularidad, la raza ha enfrentado algunos desafíos de salud. Los Labradores pueden ser propensos a ciertas condiciones de salud, como la displasia de cadera y de codo, trastornos oculares y colapso inducido por el ejercicio. Sin embargo, con la atención veterinaria adecuada y un estilo de vida saludable, estos perros pueden llevar una vida larga y feliz.
+      <br>
+      <br>
+      La historia del Labrador Retriever es un testimonio del compromiso de los entusiastas de la raza para preservar sus rasgos y asegurar su supervivencia. Desde sus humildes comienzos como perros de trabajo en las frías aguas de Canadá hasta su estatus actual como una de las razas de perros más queridas del mundo, el Labrador Retriever ha dejado una huella indeleble en el corazón de las personas en todo el mundo.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de familia',
       'Altamente inteligente y fácil de entrenar',
       'Necesita ejercicio regular y disfruta de actividades acuáticas',
     ],
-    color: ['Negro', 'Amarillo', 'Chocolate'], // Asumiendo que estos son los colores más comunes
+    color: ['Negro', 'Amarillo', 'Chocolate'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
@@ -12680,6 +13286,62 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    searchTerms: [
+      'Labrador Retriever',
+      'Perro mediano',
+      'Perro deportivo',
+      'Labrador',
+      'Retriever',
+      'Lab',
+      'Labrador inglés',
+      'Labrador americano',
+      'Perro de caza',
+      'Perro de agua',
+      'Perro de compañía',
+      'Perro guía',
+      'Perro de asistencia',
+      'Perro de rescate',
+      'Perro de terapia',
+      'Perro familiar',
+      'Perro para niños',
+      'Perro activo',
+      'Perro inteligente',
+      'Perro amigable',
+      'Perro obediente',
+      'Perro de pelo corto',
+      'Labrador negro',
+      'Labrador chocolate',
+      'Labrador amarillo',
+      'Labrador dorado',
+      'Perro de Terranova',
+      'Perro británico',
+      'Perro canadiense',
+      'Perro de trabajo',
+      'Perro de campo',
+      'Perro de muestra',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Endal',
+        caso: 'Fue un perro de asistencia que se hizo famoso por su habilidad para ayudar a su dueño en muchas tareas, incluyendo operar un cajero automático y un ascensor.',
+      },
+      {
+        nombre: 'Jake',
+        caso: 'Un Labrador Retriever que sirvió como perro de búsqueda y rescate durante los ataques del 11 de septiembre y el huracán Katrina.',
+      },
+    ],
+    fuentes: [
+      'https://www.britannica.com/animal/Labrador-retriever',
+      'https://www.akc.org/expert-advice/lifestyle/8-facts-about-labrador-retrievers/',
+      'https://www.akc.org/expert-advice/dog-breeds/labrador-retriever-history-behind-the-breed/',
+    ],
   },
   103: {
     weight: {
@@ -12711,12 +13373,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1200,
       url: 'https://cdn2.thedogapi.com/images/ryzzmgqE7.jpg',
     },
-    searchTerms: ['Lagotto Romagnolo', 'Perro mediano', 'Perro deportivo'],
     country_code: 'IT', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Lagotto Romagnolo es una raza entusiasta y leal, conocida por su habilidad para recuperar objetos en el agua. Son perros sociables y amorosos, con un temperamento activo y adiestrable que los hace excelentes mascotas familiares.',
-    history:
-      'Originario de Italia, el Lagotto Romagnolo fue criado inicialmente para recuperar objetos en los pantanos de Romagna. Su lealtad, sociabilidad y habilidad para ser adiestrados los convierten en una opción popular para muchas familias.',
+    description: `
+      El Lagotto Romagnolo es una raza de perro que se originó en Italia, más precisamente en la región de Romagna, de donde toma su nombre. Este perro es conocido por ser el único perro de agua italiano y es famoso por su habilidad para buscar trufas, una habilidad que ha sido apreciada y utilizada durante siglos en su tierra natal.
+      <br>
+      <br>
+      El Lagotto Romagnolo es un perro de tamaño mediano, con una estructura sólida y robusta que le permite moverse con agilidad y resistencia. Su pelaje es rizado, denso y lanoso, lo que le proporciona una excelente protección contra el agua y el frío. Los colores del pelaje pueden variar, pero los más comunes son el blanco, el marrón y el naranja, o una combinación de estos.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Lagotto Romagnolo es conocido por ser un perro muy leal, afectuoso y amigable. Son perros inteligentes y enérgicos, que disfrutan de la actividad física y mental. A pesar de su energía, también son perros muy equilibrados y tranquilos, lo que los hace excelentes compañeros de familia.
+      <br>
+      <br>
+      El Lagotto Romagnolo es un perro muy versátil. Aunque originalmente se utilizaba para la caza de aves acuáticas y la búsqueda de trufas, hoy en día se utiliza en una variedad de roles, incluyendo perro de terapia, perro de búsqueda y rescate, y perro de compañía. Su inteligencia y su deseo de complacer hacen que sea fácil de entrenar, y su naturaleza amigable y sociable lo convierte en un excelente perro de compañía.
+      <br>
+      <br>
+      A pesar de su resistencia y energía, el Lagotto Romagnolo es un perro que requiere un cuidado y mantenimiento regulares. Su pelaje rizado necesita ser cepillado regularmente para evitar que se formen nudos y enredos, y también necesita ser recortado de vez en cuando para mantenerlo limpio y manejable. Además, debido a su alta energía y necesidad de estimulación mental, el Lagotto Romagnolo necesita mucho ejercicio y actividades para mantenerse feliz y saludable.
+      <br>
+      <br>
+      En cuanto a su salud, el Lagotto Romagnolo es generalmente un perro sano y resistente. Sin embargo, como todas las razas, puede ser propenso a ciertas condiciones genéticas, incluyendo la displasia de cadera y ciertos problemas oculares. Por lo tanto, es importante que los propietarios potenciales busquen criadores responsables que realicen pruebas de salud a sus perros para garantizar que están criando perros sanos y fuertes.
+      <br>
+      <br>
+      En resumen, el Lagotto Romagnolo es un perro maravilloso que puede hacer un gran compañero para la persona o familia adecuada. Su inteligencia, lealtad y amabilidad, combinadas con su resistencia y versatilidad, hacen de él un perro verdaderamente único y especial.
+    `,
+    history: `
+      La historia del Lagotto Romagnolo es tan rica y fascinante como la raza misma. Originario de la región de Romagna en Italia, el Lagotto Romagnolo es una raza antigua que ha existido durante siglos. Su nombre se traduce literalmente como "perro de agua de Romagna", un nombre que refleja tanto su lugar de origen como su amor por el agua.
+      <br>
+      <br>
+      El Lagotto Romagnolo es conocido por ser el perro de agua italiano por excelencia y es famoso por su habilidad para buscar trufas. De hecho, es la única raza de perro que se ha seleccionado y criado específicamente para esta tarea. Las trufas, que son un tipo de hongo muy valorado por su sabor y aroma únicos, crecen bajo tierra en las raíces de ciertos árboles. Los perros de la raza Lagotto Romagnolo tienen un sentido del olfato excepcionalmente agudo que les permite encontrar estas trufas ocultas.
+      <br>
+      <br>
+      La historia de la raza se remonta a la época en que los perros eran utilizados por los pescadores en la región de Romagna. Estos perros eran valorados por su habilidad para trabajar en el agua, recuperando redes y ayudando en la pesca. Con el tiempo, a medida que la pesca se volvió menos prevalente en la región y la búsqueda de trufas se volvió más popular, la raza se adaptó a su nuevo papel.
+      <br>
+      <br>
+      A lo largo de los siglos, el Lagotto Romagnolo ha mantenido su apariencia y habilidades distintivas. A pesar de los cambios en su papel y en la sociedad en general, la raza ha permanecido fiel a sus raíces. Hoy en día, el Lagotto Romagnolo sigue siendo un perro de trabajo altamente valorado en su Italia natal, así como en otras partes del mundo.
+      <br>
+      <br>
+      En el siglo XX, la raza comenzó a ganar reconocimiento fuera de Italia. En 1995, el Lagotto Romagnolo fue reconocido oficialmente por la Federación Cinológica Internacional, la organización canina internacional. Desde entonces, la raza ha ganado popularidad en otros países, tanto por su habilidad para buscar trufas como por su temperamento amigable y su apariencia atractiva.
+      <br>
+      <br>
+      A pesar de su creciente popularidad, el Lagotto Romagnolo sigue siendo una raza relativamente rara fuera de Italia. Sin embargo, aquellos que tienen la suerte de conocer a uno de estos perros únicos a menudo se enamoran de su inteligencia, su lealtad y su amor por la vida. Con su rica historia y su carácter encantador, no es de extrañar que el Lagotto Romagnolo siga cautivando a los amantes de los perros en todo el mundo.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Perro de familia entusiasta y amoroso',
@@ -12734,6 +13430,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Enfermedades de la piel'],
+    searchTerms: [
+      'Lagotto Romagnolo',
+      'Perro mediano',
+      'Perro deportivo',
+      'Lagotto',
+      'Romagnolo',
+      'Perro de agua italiano',
+      'Perro de trufas',
+      'Perro de Romagna',
+      'Lagoto Romagnolo',
+      'Lagotto romagnolo',
+      'Lagoto romagnolo',
+      'Lagotto Romagnolo trufa',
+      'Perro trufa',
+      'Perro italiano',
+      'Perro Romagna',
+      'Lagotto Romagnolo italiano',
+      'Lagotto Romagnolo trufas',
+      'Lagotto Romagnolo agua',
+      'Lagotto Romagnolo caza',
+      'Lagotto Romagnolo perro',
+      'Lagotto Romagnolo raza',
+      'Lagotto Romagnolo pelo rizado',
+      'Lagotto Romagnolo perro de agua',
+      'Lagotto Romagnolo perro de trufas',
+      'Lagotto Romagnolo perro de caza',
+      'Lagotto Romagnolo perro italiano',
+      'Lagotto Romagnolo perro de Romagna',
+      'Lagotto Romagnolo perro de trabajo',
+      'Lagotto Romagnolo perro de familia',
+      'Lagotto Romagnolo perro activo',
+      'Lagotto Romagnolo perro inteligente',
+      'Lagotto Romagnolo perro amigable',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.petful.com/breeds/breed-profile-lagotto-romagnolo/',
+      'https://www.dailypaws.com/dogs-puppies/dog-breeds/lagotto-romagnolo',
+      'https://www.thesprucepets.com/lagotto-romagnolo-dog-breed-profile-4773008',
+    ],
   },
   104: {
     weight: {
@@ -12751,10 +13494,10 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Caza de ratas',
       'Conducción de ganado al mercado',
     ],
-    breed_group: ['Grupo de trabajo'], // Añadido basándose en las características de la raza
+    breed_group: ['Grupo de trabajo'],
     life_span: '12 – 15 años',
     temperament: ['Astuto', 'Amigable', 'Alerta', 'Inteligente'],
-    origin: 'Reino Unido', // Añadido basándose en el origen conocido de la raza
+    origin: 'Reino Unido',
     reference_image_id: 'S1RGml5Em',
     image: {
       id: 'S1RGml5Em',
@@ -12762,19 +13505,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 453,
       url: 'https://cdn2.thedogapi.com/images/S1RGml5Em.jpg',
     },
-    searchTerms: ['Lancashire Heeler', 'Perro pequeño', 'Perro de trabajo'],
-    country_code: 'UK', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Lancashire Heeler es una raza inteligente y amigable, conocida por su astucia y alerta. Son perros trabajadores y hacen un excelente trabajo en el pastoreo de ganado, caza de ratas y conducción de ganado al mercado.',
-    history:
-      'Originario del Reino Unido, el Lancashire Heeler se utilizaba tradicionalmente para el pastoreo de ganado y para llevar al ganado al mercado. Su inteligencia y alerta los hacen ideales para este tipo de trabajo.',
+    country_code: 'UK',
+    description: `
+      El Lancashire Heeler es una raza de perro pequeña pero robusta y atlética que se originó en Inglaterra. Conocidos por su apariencia amigable y su sonrisa característica, estos perros son una mezcla de energía, inteligencia y afecto. Su pelaje corto y denso, que puede ser negro o hígado con marcas de color canela, junto con sus ojos en forma de almendra y sus orejas erguidas o inclinadas, les dan una apariencia encantadora y amigable.
+      <br>
+      <br>
+      A pesar de su tamaño pequeño, los Lancashire Heelers son perros fuertes y atléticos, conocidos por su agilidad y su capacidad para adaptarse a diversas actividades. Son perros muy inteligentes y altamente entrenables, lo que los hace excelentes para participar en actividades como pruebas de agilidad para perros, obediencia y rally de obediencia.
+      <br>
+      <br>
+      Los Lancashire Heelers son perros muy afectuosos y enérgicos, conocidos por su alto nivel de amistad tanto con los humanos como con otras mascotas. Son perros generalmente felices y juguetones, que disfrutan de la compañía de sus dueños y de participar en actividades al aire libre. Sin embargo, también pueden ser un poco vocales y tercos en ocasiones, lo que puede requerir un entrenamiento y socialización tempranos para manejar.
+      <br>
+      <br>
+      La historia de la raza Lancashire Heeler se remonta a la década de 1600, aunque su origen exacto no está claro. Se sabe que fueron utilizados para el pastoreo de ganado y como exterminadores de alimañas en las granjas. La cría formal de Lancashire Heelers comenzó en la década de 1900, y la raza ganó reconocimiento del Kennel Club en 1981.
+      <br>
+      <br>
+      Aunque generalmente son perros saludables, los Lancashire Heelers pueden ser propensos a algunos problemas de salud hereditarios, como la luxación primaria del cristalino y la anomalía ocular del collie. Por lo tanto, una dieta equilibrada y un cuidado veterinario regular son importantes para su bienestar.
+      <br>
+      <br>
+      Los Lancashire Heelers son perros familiares afectuosos y adaptables, pero también pueden ser un poco vocales y tercos en ocasiones. Pueden adaptarse a la vida en un apartamento si se satisfacen sus necesidades de ejercicio, pero sus tendencias vocales deben ser tomadas en consideración. La raza es rara, con una población estimada de alrededor de 5,000 en todo el mundo.
+      <br>
+      <br>
+      En resumen, el Lancashire Heeler es un perro pequeño pero resistente, lleno de energía y afecto. Con su inteligencia y su capacidad para adaptarse a diversas actividades, es un compañero maravilloso para aquellos que pueden satisfacer sus necesidades de ejercicio y estimulación mental.
+    `,
+    history: `
+      La historia del Lancashire Heeler es tan fascinante como la raza misma. Aunque su origen exacto es incierto, se cree que la raza se remonta a la década de 1600 en Inglaterra. Estos perros pequeños pero robustos y atléticos fueron utilizados principalmente para el pastoreo de ganado y como exterminadores de alimañas en las granjas. Su tamaño compacto, su agilidad y su inteligencia los hacían perfectos para estas tareas.
+      <br>
+      <br>
+      El Lancashire Heeler es originario del condado de Lancashire en Inglaterra, de donde toma su nombre. Aunque su historia temprana es un poco nebulosa, se cree que un tipo de Welsh Corgi fue utilizado en su desarrollo. Los Corgis eran conocidos por su habilidad para pastorear ganado, y es probable que estas habilidades se transmitieran al Lancashire Heeler.
+      <br>
+      <br>
+      A pesar de su utilidad y su encanto, la raza enfrentó la extinción en varias ocasiones. Sin embargo, gracias a los esfuerzos de los criadores y los amantes de la raza, el Lancashire Heeler fue capaz de sobrevivir. La cría formal de Lancashire Heelers comenzó en la década de 1900, y la raza ganó reconocimiento del Kennel Club en 1981.
+      <br>
+      <br>
+      Durante más de un siglo y medio, el Lancashire Heeler ha servido como un perro de granja versátil, capaz de ratting y pastoreo de ganado. A pesar de su tamaño pequeño, estos perros son conocidos por su resistencia y su capacidad para trabajar duro. Su inteligencia y su disposición amigable también los han hecho populares como perros de compañía.
+      <br>
+      <br>
+      Hoy en día, el Lancashire Heeler es una raza rara, con una población estimada de alrededor de 5,000 en todo el mundo. A pesar de su rareza, la raza ha ganado un seguimiento devoto de propietarios y criadores que aprecian su inteligencia, su carácter afectuoso y su habilidad para adaptarse a una variedad de tareas.
+      <br>
+      <br>
+      En resumen, la historia del Lancashire Heeler es una de supervivencia y adaptabilidad. A pesar de los desafíos, esta raza ha logrado perdurar y prosperar, gracias a su versatilidad, su encanto y la dedicación de aquellos que aman la raza.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Perro trabajador inteligente y amigable',
       'Bueno en el pastoreo y la caza de ratas',
       'Necesita ejercicio regular y estimulación mental',
     ],
-    color: ['Negro', 'Marrón', 'Blanco'], // Asumiendo que estos son los colores más comunes
+    color: ['Negro', 'Marrón', 'Blanco'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
@@ -12785,6 +13562,51 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    searchTerms: [
+      'Lancashire Heeler',
+      'Perro pequeño',
+      'Perro de trabajo',
+      'Lancashire Heeler',
+      'Lancashire',
+      'Heeler',
+      'Perro de Lancashire',
+      'Perro Heeler',
+      'Lancashire-Heeler',
+      'Perro de pastoreo',
+      'Perro de granja',
+      'Perro inglés',
+      'Perro de rebaño',
+      'Perro pequeño',
+      'Perro compacto',
+      'Perro robusto',
+      'Perro atlético',
+      'Perro amigable',
+      'Perro juguetón',
+      'Perro inteligente',
+      'Perro de compañía',
+      'Perro de exterminio de alimañas',
+      'Perro de pelo corto',
+      'Perro de pelo denso',
+      'Perro sonriente',
+      'Perro de energía moderada',
+      'Perro de energía alta',
+      'Perro de trabajo',
+      'Perro de campo',
+      'Perro de granja inglés',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.expertoanimal.com/razas-de-perros/lancashire-heeler.html',
+      'https://www.thesprucepets.com/lancashire-heeler-dog-breed-profile-4773060',
+      'https://www.purina.es/encuentra-mascota/razas-de-perro/lancashire-heeler',
+    ],
   },
   105: {
     weight: {
@@ -12808,7 +13630,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Adaptable',
       'Amoroso',
     ],
-    origin: 'Alemania', // Añadido basándose en el origen conocido de la raza
+    origin: 'Alemania',
     reference_image_id: 'ByrmQlqVm',
     image: {
       id: 'ByrmQlqVm',
@@ -12816,19 +13638,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 694,
       url: 'https://cdn2.thedogapi.com/images/ByrmQlqVm.jpg',
     },
-    searchTerms: ['Leonberger', 'Perro grande', 'Perro de trabajo'],
-    country_code: 'DE', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Leonberger es una raza de perro grande y fuerte, conocida por su temperamento obediente, valiente y amoroso. Son perros de trabajo, excelentes guardianes y son apreciados por su hermosa apariencia.',
-    history:
-      'Originario de Alemania, el Leonberger se crió para ser un perro guardián. Con su apariencia imponente y su lealtad hacia su familia, ha ganado popularidad en todo el mundo.',
+    country_code: 'DE',
+    description: `
+      El Leonberger es una raza de perro majestuosa y poderosa, conocida por su tamaño gigante y su pelaje abundante y lujoso. Originario de la ciudad de Leonberg en Alemania, de donde toma su nombre, este perro fue criado originalmente en el siglo XIX con el objetivo de parecerse al león del escudo de armas de la ciudad.
+      <br>
+      <br>
+      Los Leonbergers son perros impresionantes, con machos que pueden alcanzar una altura de hasta 80 cm y un peso de hasta 75 kg. Las hembras son ligeramente más pequeñas, pero igualmente imponentes. Su pelaje es largo, denso y resistente al agua, lo que les proporciona una excelente protección contra el frío. Los colores del pelaje pueden variar, pero generalmente son una mezcla de dorado, rojo, marrón y negro.
+      <br>
+      <br>
+      Además de su apariencia física, los Leonbergers son conocidos por su carácter amable y su temperamento equilibrado. Son perros inteligentes, leales y extremadamente versátiles. A pesar de su tamaño, son sorprendentemente ágiles y disfrutan de una variedad de actividades, desde nadar hasta hacer senderismo y participar en deportes caninos como la obediencia y la agilidad.
+      <br>
+      <br>
+      Los Leonbergers son perros de compañía excelentes y se llevan bien con las personas y otros animales. Son especialmente buenos con los niños y a menudo se les describe como "gentiles gigantes". Sin embargo, debido a su tamaño, deben ser supervisados cuando están cerca de niños pequeños para evitar accidentes.
+      <br>
+      <br>
+      A pesar de su tamaño y fuerza, los Leonbergers son perros tranquilos y tranquilos en casa. No son propensos a ladrar sin motivo y generalmente son fáciles de entrenar. Sin embargo, necesitan mucho ejercicio y estimulación mental para mantenerse felices y saludables. También requieren un aseo regular para mantener su pelaje en buen estado.
+      <br>
+      <br>
+      En cuanto a la salud, los Leonbergers son generalmente perros saludables, pero como todas las razas grandes, pueden ser propensos a ciertas condiciones, incluyendo la displasia de cadera y codo, y ciertos tipos de cáncer. Es importante que sean examinados regularmente por un veterinario y que se les proporcione una dieta equilibrada y ejercicio regular para mantener su salud.
+      <br>
+      <br>
+      En resumen, el Leonberger es una raza de perro verdaderamente única y maravillosa. Con su apariencia majestuosa, su temperamento amable y su versatilidad, es fácil ver por qué esta raza ha ganado tantos admiradores en todo el mundo. Sin embargo, estos perros requieren un dueño comprometido que esté dispuesto a dedicar tiempo y esfuerzo a su cuidado y entrenamiento. Para aquellos que están dispuestos a hacer este compromiso, el Leonberger puede ser un compañero leal y amoroso que aportará mucha alegría y felicidad a su vida.
+    `,
+    history: `
+      La historia del Leonberger es tan majestuosa como la raza misma. Este perro gigante, conocido por su pelaje espeso y suave y su porte noble, tiene sus raíces en la ciudad de Leonberg, en Alemania, de donde toma su nombre.
+      <br>
+      <br>
+      La raza fue desarrollada en el siglo XIX por un hombre llamado Heinrich Essig, un concejal de la ciudad de Leonberg. Essig era un amante de los animales y un criador de perros con una visión: quería crear un perro que se pareciera al león que aparece en el escudo de armas de la ciudad de Leonberg. Para lograrlo, Essig cruzó una variedad de razas, incluyendo el San Bernardo, el Terranova y el Gran Pirineo. El resultado fue el Leonberger, un perro de gran tamaño, fuerza y belleza, con un pelaje espeso y leonado y una expresión noble y amable.
+      <br>
+      <br>
+      Desde el principio, los Leonbergers fueron apreciados por su versatilidad. Aunque eran lo suficientemente grandes y fuertes como para trabajar en la granja o tirar de un carro, también eran lo suficientemente gentiles y amables como para ser excelentes perros de compañía. Además, su apariencia impresionante los hacía muy populares como perros de exhibición.
+      <br>
+      <br>
+      A pesar de su popularidad inicial, la raza sufrió durante las dos guerras mundiales, cuando la cría de perros se detuvo en gran medida y muchos perros murieron debido a la escasez de alimentos y al conflicto. De hecho, después de la Segunda Guerra Mundial, se pensó que la raza estaba extinta. Sin embargo, un grupo de criadores dedicados trabajó duro para revivir la raza, utilizando los pocos Leonbergers que quedaban y cruzándolos con otras razas para mantener la línea viva.
+      <br>
+      <br>
+      Hoy en día, el Leonberger es una raza reconocida en todo el mundo y es apreciado por su temperamento amable, su inteligencia y su versatilidad. Aunque no son tan comunes como algunas otras razas, los Leonbergers son muy queridos por aquellos que tienen la suerte de tener uno en su vida.
+      <br>
+      <br>
+      En resumen, la historia del Leonberger es una historia de dedicación y amor por una raza de perro verdaderamente única. A través de los esfuerzos de criadores apasionados y dueños de perros dedicados, esta raza ha sobrevivido a tiempos difíciles y ha florecido para convertirse en el perro majestuoso y amado que es hoy.
+    `,
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Perro de trabajo leal y obediente',
       'Excelente como perro guardián',
       'Requiere ejercicio regular y estimulación mental',
     ],
-    color: ['Marrón', 'Negro', 'Blanco'], // Asumiendo que estos son los colores más comunes
+    color: ['Marrón', 'Negro', 'Blanco'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
@@ -12840,6 +13696,53 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Displasia de codo'],
+    searchTerms: [
+      'Leonberger',
+      'Perro grande',
+      'Perro de trabajo',
+      'Leonberguer',
+      'Leonberge',
+      'Leonber',
+      'Perro Leon',
+      'Perro grande',
+      'Perro de trabajo',
+      'Perro de rescate',
+      'Perro de terapia',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro para niños',
+      'Perro protector',
+      'Perro de montaña',
+      'Perro alemán',
+      'Raza alemana',
+      'Perro de pelo largo',
+      'Perro de clima frío',
+      'Perro robusto',
+      'Perro fuerte',
+      'Perro resistente',
+      'Perro amigable',
+      'Perro cariñoso',
+      'Perro tranquilo',
+      'Perro leal',
+      'Perro inteligente',
+      'Perro obediente',
+      'Perro de gran tamaño',
+      'Perro gigante',
+      'Perro de raza pura',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/leonberger/',
+      'https://www.dogbreedinfo.com/leonberger.htm',
+      'https://www.ukcdogs.com/leonberger',
+    ],
   },
   106: {
     weight: {
@@ -12869,7 +13772,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Juguetón',
       'Inteligente',
     ],
-    origin: 'Tíbet', // Añadido basándose en el origen conocido de la raza
+    origin: 'Tíbet',
     reference_image_id: 'SJp7Qe5EX',
     image: {
       id: 'SJp7Qe5EX',
@@ -12877,12 +13780,13 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 444,
       url: 'https://cdn2.thedogapi.com/images/SJp7Qe5EX.jpg',
     },
-    searchTerms: ['Lhasa Apso', 'Perro pequeño', 'Perro de compañía'],
-    country_code: 'CN', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Lhasa Apso es una pequeña raza de perro conocida por su carácter amigable, devoto y juguetón. Su papel tradicional es ser un perro guardián en el hogar, y son perros llenos de energía y vivacidad.',
-    history:
-      'Originario del Tíbet, el Lhasa Apso fue criado para ser un perro guardián en los monasterios y los hogares. Es una raza antigua y venerada, y sigue siendo un popular perro de compañía en todo el mundo.',
+    country_code: 'CN',
+    description: `
+
+    `,
+    history: `
+
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Buen perro guardián en el hogar',
@@ -12903,6 +13807,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Atrofia progresiva de la retina',
       'Problemas de piel y alergias',
     ],
+    searchTerms: ['Lhasa Apso', 'Perro pequeño', 'Perro de compañía'],
   },
   107: {
     weight: {

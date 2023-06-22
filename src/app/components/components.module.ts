@@ -32,6 +32,7 @@ import { RouterModule } from '@angular/router';
 import { GoUpComponent } from './go-up/go-up.component';
 import { ExpandableTextComponent } from './expandable-text/expandable-text.component';
 import { DirectivesModule } from '../directives/directives.module';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 
@@ -65,6 +66,7 @@ import { DirectivesModule } from '../directives/directives.module';
     PopupFoodRationsComponent,
     GoUpComponent,
     ExpandableTextComponent,
+    CarouselComponent,
   ],
   imports: [
     CommonModule,
@@ -101,7 +103,8 @@ import { DirectivesModule } from '../directives/directives.module';
     CalculadoraDeRacionesComponent,
     PopupFoodRationsComponent,
     GoUpComponent,
-    ExpandableTextComponent
+    ExpandableTextComponent,
+    CarouselComponent,
   ]
 })
 export class ComponentsModule { }

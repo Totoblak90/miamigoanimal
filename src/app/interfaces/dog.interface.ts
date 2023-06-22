@@ -20,6 +20,7 @@ export interface Dog {
   color:                                 string[];
   enfermedades_comunes:                  string[];
   fuentes?:                               string[];
+  gallery?:                               string[];
   para_primerizos?:                       'Baja' | 'Moderada' | 'Alta' | '-';
   bueno_con_ninos?:                       'Baja' | 'Moderada' | 'Alta' | '-';
   compatibilidad_con_otros_animales:     'Baja' | 'Moderada' | 'Alta' | '-';

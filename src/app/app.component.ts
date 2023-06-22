@@ -2,6 +2,7 @@ import { DOCUMENT, isPlatformBrowser, isPlatformServer } from '@angular/common';
 import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { Cookies } from './interfaces/cookies.interface';
 
+
 // Creo el tipado
 export type googleScript = {
   url: string,

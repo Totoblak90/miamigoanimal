@@ -1,7 +1,9 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, map, switchMap } from 'rxjs';
+import { Observable, map, switchMap, tap } from 'rxjs';
 import { Cat } from '../interfaces/cat.interface';
+import { PerrosService } from './perros.service';
+import { Dog } from '../interfaces/dog.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -14,9 +16,31 @@ export class GatosService {
     'x-api-key': 'live_IMSkHCnLKaMGNb3cwXwplyqpgA2TRFnQmcpJXrDhVjY6bxImsfHKXRkwskW7AQU6'
   })
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private perrosService: PerrosService) { }
 
   getCatBreeds(page = 0): Observable<Cat[]> {
+    return this.http.get<any[]>(`https://api.thedogapi.com/v1/breeds?limit=3&page=${page}`, { headers: this.headers })
+        .pipe(
+          tap(
+            dogList => {
+              // @ts-ignore
+              dogList.forEach((dog: Dog) => {
+                this.perrosService.searchBreedImages(dog.id).subscribe(imagesList => {
+
+                  const list: {[key:string]: any[]} = {}
+                  imagesList.forEach(image => {
+                    if (list[image.breeds[0].name] === undefined) list[image.breeds[0].name] = [image.url]
+                    else {
+                      list[image.breeds[0].name].push(image.url)
+                    }
+                  })
+                  console.log(list)
+                })
+              })
+            }
+          )
+        )
+
     return this.http.get<Cat[]>(`${this.apiUrl}breeds?limit=3&page=${page}`, { headers: this.headers })
       .pipe( switchMap(async (cats: Cat[]) => await this.searchForImages(cats)) );
   }

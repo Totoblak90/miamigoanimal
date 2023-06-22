@@ -61,6 +61,8 @@ export class PerrosRazaComponent implements OnDestroy {
     tolerancia_a_la_soledad: '-',
   };
 
+  dogGallery1: { url: string; altText: string; }[] = [];
+  dogGallery2: { url: string; altText: string; }[] = [];
 
   get compatibilidadConOtrosAnimalesPercentage() {
 
@@ -313,7 +315,9 @@ export class PerrosRazaComponent implements OnDestroy {
   ) {
 
     this.dog = this.activatedRoute.snapshot.data['raza'];
+
     this.setMetaTags();
+    this.setDogGalleries();
     this.subscribeToRouteChange();
 
   }
@@ -345,12 +349,47 @@ export class PerrosRazaComponent implements OnDestroy {
         {
           this.dog = this.perrosService.dogListSignal()[+id];
           this.setMetaTags();
+          this.setDogGalleries();
         }
         else { this.router.navigate(['perros']) }
+
 
       });
 
     }
+  }
+
+  private setDogGalleries() {
+
+    if (this.dog.gallery)
+    {
+
+      const galleryHalf = this.dog.gallery.length / 2;
+
+      this.dogGallery1 = this.dog.gallery
+                            .slice(0, galleryHalf + 1)
+                            .map(
+                              (imageUrl, index) =>  {
+                                return {
+                                  url: imageUrl,
+                                  altText: this.dog.name + ': Foto n° ' + (index + 1)
+                                }
+                              }
+                            )
+
+      this.dogGallery2 = this.dog.gallery
+                            .slice(galleryHalf + 1, this.dog.gallery.length)
+                            .map(
+                              (imageUrl, index) =>  {
+                                return {
+                                  url: imageUrl,
+                                  altText: this.dog.name + ': Foto n° ' + (index + 1)
+                                }
+                              }
+                            )
+
+     }
+
   }
 
   ngOnDestroy(): void {

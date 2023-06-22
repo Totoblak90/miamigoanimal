@@ -4,6 +4,20 @@
 
   <section class="row">
 
+    <article class="u-margin-bottom-big breed-image-container" *ngIf="dogGallery1.length;">
+      <article class="u-margin-bottom-big">
+        <carousel>
+          <img
+            class="breed-image-container__img"
+            *ngFor="let img of dogGallery1"
+            [src]="img.url"
+            [alt]="dog.name"
+            loading="lazy"
+          />
+        </carousel>
+      </article>
+    </article>
+
     <article class="u-margin-bottom-big">
       <index [collapsed]="true"></index>
     </article>
@@ -24,7 +38,7 @@
       </div>
     </article>
 
-    <article class="u-margin-bottom-big breed-image-container">
+    <article class="u-margin-bottom-big breed-image-container" *ngIf="!dogGallery1.length;">
       <img class="breed-image-container__img" [src]="dog.image.url" [alt]="dog.name" [width]="dog.image.width" [height]="dog.image.height" loading="lazy"/>
     </article>
 
@@ -89,6 +103,18 @@
         </div>
       </div>
 
+    </article>
+
+    <article class="u-margin-bottom-big" *ngIf="dogGallery2.length">
+      <carousel>
+        <img
+          class="breed-image-container__img"
+          *ngFor="let img of dogGallery2"
+          [src]="img.url"
+          [alt]="dog.name"
+          loading="lazy"
+        />
+      </carousel>
     </article>
 
     <article class="u-margin-bottom-big">

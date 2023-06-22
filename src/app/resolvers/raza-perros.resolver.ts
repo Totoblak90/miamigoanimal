@@ -54,7 +54,6 @@ export class razaPerrosResolver implements Resolve<Observable<any>>  {
       }
 
       else
-
       {
         this.router.navigate(['perros'])
         return of(null);
