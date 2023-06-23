@@ -14,13 +14,6 @@ export class PerrosService {
 
   constructor(private http: HttpClient, private utilitiesService: UtilitiesService) {}
 
-  searchBreedImages(breedID: number) {
-    const headers = new HttpHeaders({
-      'x-api-key': 'live_IMSkHCnLKaMGNb3cwXwplyqpgA2TRFnQmcpJXrDhVjY6bxImsfHKXRkwskW7AQU6',
-    })
-    return this.http.get<any[]>(`https://api.thedogapi.com/v1/images/search?breed_ids=${breedID}&size=small&limit=25&has_breeds=1&include_breeds=1`, { headers })
-  }
-
 
   filterBySearchTerm(perrosActiclesList: Dog[], searchTerm: string) {
     const searchTermWithoutPunctuation = searchTerm.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
