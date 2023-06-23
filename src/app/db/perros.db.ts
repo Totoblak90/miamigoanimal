@@ -1625,6 +1625,15 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.ukcdogs.com/american-eskimo-dog',
     ],
     casos_famosos: [],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/HJq5ke5Nm_390x256.jpg',
+      'https://cdn2.thedogapi.com/images/_gn8GLrE6.jpg',
+      'https://cdn2.thedogapi.com/images/kg9CXjYml.jpg',
+      'https://cdn2.thedogapi.com/images/0yxSqpNj4.jpg',
+      'https://cdn2.thedogapi.com/images/RG55aK2bn.jpg',
+      'https://cdn2.thedogapi.com/images/wPIaaiYOy.jpg',
+      'https://cdn2.thedogapi.com/images/8jjWfmjNt.jpg',
+    ],
   },
   14: {
     weight: {
@@ -1739,6 +1748,17 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/americanfoxhound.htm',
     ],
     casos_famosos: [],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/S14n1x9NQ_390x256.jpg',
+      'https://cdn2.thedogapi.com/images/quiHq2FiB.jpg',
+      'https://cdn2.thedogapi.com/images/2xUswk2y8.jpg',
+      'https://cdn2.thedogapi.com/images/p4xvDeEpW.jpg',
+      'https://cdn2.thedogapi.com/images/uISezUGDV.jpg',
+      'https://cdn2.thedogapi.com/images/qBYpfkZr1.jpg',
+      'https://cdn2.thedogapi.com/images/ikfu-FNqJ.jpg',
+      'https://cdn2.thedogapi.com/images/LvKF3cSkb.jpg',
+      'https://cdn2.thedogapi.com/images/ajJCO_lDC.jpg',
+    ],
   },
   15: {
     weight: {
@@ -1866,6 +1886,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/american-pit-bull-terrier/',
       'https://www.ukcdogs.com/american-pit-bull-terrier',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HkC31gcNm_390x256.png'],
   },
   16: {
     weight: {
@@ -1979,6 +2000,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       },
     ],
     fuentes: ['https://www.akc.org/dog-breeds/american-staffordshire-terrier/'],
+    gallery: ['https://cdn2.thedogapi.com/images/rJIakgc4m_390x256.jpg'],
   },
   17: {
     weight: {
@@ -2102,6 +2124,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/American_Water_Spaniel',
       'https://www.yourpurebredpuppy.com/reviews/americanwaterspaniels.html',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SkmRJl9VQ_390x256.jpg'],
   },
   18: {
     weight: {
@@ -2212,6 +2235,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/appenzeller-sennenhund/',
       'https://en.wikipedia.org/wiki/Appenzeller_Sennenhund',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HkNkxlqEX_390x256.jpg'],
   },
   19: {
     weight: {
@@ -2323,6 +2347,21 @@ export const DOG_LIST: { [key: number]: Dog } = {
     fuentes: [
       'https://en.wikipedia.org/wiki/Australian_Shepherd',
       'https://www.akc.org/dog-breeds/australian-shepherd/',
+    ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/kzcMOroSg.jpg',
+      'https://cdn2.thedogapi.com/images/ZxP-viFTK.jpg',
+      'https://cdn2.thedogapi.com/images/aBlkZ0fo0.jpg',
+      'https://cdn2.thedogapi.com/images/x-LJYrq37.jpg',
+      'https://cdn2.thedogapi.com/images/3NC7vIjMR.jpg',
+      'https://cdn2.thedogapi.com/images/IBkYVm4v1.jpg',
+      'https://cdn2.thedogapi.com/images/9AXHhr6LG.jpg',
+      'https://cdn2.thedogapi.com/images/g8KDO0Yvd.jpg',
+      'https://cdn2.thedogapi.com/images/mdjFBMjtk.jpg',
+      'https://cdn2.thedogapi.com/images/XWzQsmrmX.jpg',
+      'https://cdn2.thedogapi.com/images/Lx1N_UKFS.jpg',
+      'https://cdn2.thedogapi.com/images/oTWQDw9C9.jpg',
+      'https://cdn2.thedogapi.com/images/xAo4Tfbyg.jpg',
     ],
   },
   20: {
@@ -2452,6 +2491,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/australian-kelpie/',
       'https://www.yourpurebredpuppy.com/reviews/australiankelpies.html',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/Hyq1ge9VQ_390x256.jpg'],
   },
   22: {
     weight: {
@@ -2575,6 +2615,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/australian-terrier/',
       'https://www.yourpurebredpuppy.com/reviews/australianterriers.html',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/r1Ylge5Vm_390x256.jpg'],
   },
   23: {
     weight: {
@@ -2689,6 +2730,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Azawakh',
       'https://www.akc.org/dog-breeds/azawakh/',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SkvZgx94m_390x256.jpg'],
   },
   24: {
     weight: {
@@ -2795,6 +2837,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: ['https://en.wikipedia.org/wiki/Barbet_(dog)'],
+    gallery: ['https://cdn2.thedogapi.com/images/HyWGexcVQ_390x256.jpg'],
   },
   25: {
     weight: {
@@ -2909,6 +2952,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Basenji',
       'https://www.akc.org/dog-breeds/basenji/',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/H1dGlxqNQ_390x256.jpg'],
   },
   26: {
     weight: {
@@ -3013,6 +3057,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Blue_Gascony_Basset',
       'https://www.akc.org/dog-breeds/basset-hound/',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/BkMQll94X_390x256.jpg'],
   },
   27: {
     weight: {
@@ -3133,6 +3178,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Basset_Hound',
       'https://www.akc.org/dog-breeds/basset-hound/',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/Sy57xx9EX_390x256.jpg'],
   },
   28: {
     weight: {
@@ -3265,6 +3311,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/beagle/',
       'https://www.royalcanin.com/us/dogs/breeds/breed-library/beagle',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/Syd4xxqEm_390x256.jpg'],
   },
   29: {
     weight: {
@@ -3379,6 +3426,33 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/bearded-collie/',
       'https://www.royalcanin.com/us/dogs/breeds/bearded-collie',
     ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/_q5yhP_X_.jpg',
+      'https://cdn2.thedogapi.com/images/M9euOJSBd.jpg',
+      'https://cdn2.thedogapi.com/images/kuw1NLcID.jpg',
+      'https://cdn2.thedogapi.com/images/Q0CNhAunM.jpg',
+      'https://cdn2.thedogapi.com/images/ARD5biBts.jpg',
+      'https://cdn2.thedogapi.com/images/ERP03yUnq.jpg',
+      'https://cdn2.thedogapi.com/images/YPDnk0_5g.jpg',
+      'https://cdn2.thedogapi.com/images/h_7oXAarE.jpg',
+      'https://cdn2.thedogapi.com/images/yxsOLj-GU.jpg',
+      'https://cdn2.thedogapi.com/images/PJvRHYfs1.jpg',
+      'https://cdn2.thedogapi.com/images/3dA-D-AIm.jpg',
+      'https://cdn2.thedogapi.com/images/UZtLVvNhE.jpg',
+      'https://cdn2.thedogapi.com/images/HlL9qjQAa.jpg',
+      'https://cdn2.thedogapi.com/images/_eGtrKB20.jpg',
+      'https://cdn2.thedogapi.com/images/eHenFc9qF.jpg',
+      'https://cdn2.thedogapi.com/images/mVr3PouoV.jpg',
+      'https://cdn2.thedogapi.com/images/BjFmVohkU.jpg',
+      'https://cdn2.thedogapi.com/images/_GKG9ahhj.jpg',
+      'https://cdn2.thedogapi.com/images/Mn2A5Urz0.jpg',
+      'https://cdn2.thedogapi.com/images/M96ZzvXqp.jpg',
+      'https://cdn2.thedogapi.com/images/B8zP8i5W5.jpg',
+      'https://cdn2.thedogapi.com/images/n3IbwcZlN.jpg',
+      'https://cdn2.thedogapi.com/images/A09F4c1qP.jpg',
+      'https://cdn2.thedogapi.com/images/iYNlO0y4T.jpg',
+      'https://cdn2.thedogapi.com/images/I3E0R2tuV.jpg',
+    ],
   },
   30: {
     weight: {
@@ -3491,6 +3565,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Beauceron',
       'https://www.akc.org/dog-breeds/beauceron/',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HJQ8ge5V7_390x256.jpg'],
   },
   31: {
     weight: {
@@ -3615,6 +3690,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/bedlington-terrier/',
       'https://www.royalcanin.com/us/dogs/breeds/bedlington-terrier',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/ByK8gx947_390x256.jpg'],
   },
   32: {
     weight: {
@@ -3746,6 +3822,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Malinois_dog',
       'https://www.akc.org/dog-breeds/belgian-malinois/',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/r1f_ll5VX_390x256.jpg'],
   },
   33: {
     weight: {
@@ -3862,6 +3939,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Belgian_Tervuren',
       'https://www.akc.org/dog-breeds/belgian-tervuren/',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/B1KdxlcNX_390x256.jpg'],
   },
   34: {
     weight: {
@@ -3986,6 +4064,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/bernese-mountain-dog/',
       'https://www.ukcdogs.com/bernese-mountain-dog',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/S1fFlx5Em_390x256.jpg'],
   },
   35: {
     weight: {
@@ -4101,6 +4180,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/bichon-frise/',
       'https://www.ukcdogs.com/bichon-frise',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HkuYlxqEQ_390x256.jpg'],
   },
   36: {
     weight: {
@@ -4217,6 +4297,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.royalcanin.com/us/dogs/breeds/breed-library/black-and-tan-coonhound',
       'https://www.dogbreedinfo.com/blackandtancoonhound.htm',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HJAFgxcNQ_390x256.jpg'],
   },
   37: {
     weight: {
@@ -4333,6 +4414,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/bloodhound.htm',
       'https://www.ukcdogs.com/bloodhound',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/Skdcgx9VX_390x256.jpg'],
   },
   38: {
     weight: {
@@ -4457,6 +4539,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/bluetick-coonhound/',
       'https://www.ukcdogs.com/bluetick-coonhound',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/rJxieg9VQ_390x256.jpg'],
   },
   39: {
     weight: {
@@ -4582,6 +4665,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Boerboel',
       'https://www.akc.org/dog-breeds/boerboel/',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HyOjge5Vm_390x256.jpg'],
   },
   40: {
     weight: {
@@ -4715,6 +4799,33 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/bordercollie.htm',
       'https://www.ukcdogs.com/border-collie',
     ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/XzvYXKK4K.jpg',
+      'https://cdn2.thedogapi.com/images/z3N-noGqn.jpg',
+      'https://cdn2.thedogapi.com/images/Kar3rW9L2.jpg',
+      'https://cdn2.thedogapi.com/images/e4Y3H4WI3.jpg',
+      'https://cdn2.thedogapi.com/images/ZfQGth6-x.jpg',
+      'https://cdn2.thedogapi.com/images/Ov_Rzma1O.jpg',
+      'https://cdn2.thedogapi.com/images/SnbUh5ntS.jpg',
+      'https://cdn2.thedogapi.com/images/BPp0qBhbV.jpg',
+      'https://cdn2.thedogapi.com/images/G2foZqvJO.jpg',
+      'https://cdn2.thedogapi.com/images/93bGwN0KL.jpg',
+      'https://cdn2.thedogapi.com/images/uFQ94lGDH.jpg',
+      'https://cdn2.thedogapi.com/images/Vh2yFrSLm.jpg',
+      'https://cdn2.thedogapi.com/images/DZzgyxMIE.jpg',
+      'https://cdn2.thedogapi.com/images/MnFVJ4XuT.jpg',
+      'https://cdn2.thedogapi.com/images/ehW1aS16H.jpg',
+      'https://cdn2.thedogapi.com/images/3s4QqsTxZ.jpg',
+      'https://cdn2.thedogapi.com/images/ViIxw1j4w.jpg',
+      'https://cdn2.thedogapi.com/images/YmHQa7tTt.jpg',
+      'https://cdn2.thedogapi.com/images/-Lbz7P9jl.jpg',
+      'https://cdn2.thedogapi.com/images/hOQCNqMDb.jpg',
+      'https://cdn2.thedogapi.com/images/pAMLu0IxZ.jpg',
+      'https://cdn2.thedogapi.com/images/Ld0_u3Ubg.jpg',
+      'https://cdn2.thedogapi.com/images/CIM1p1uFh.jpg',
+      'https://cdn2.thedogapi.com/images/4UKTN_dQ5.jpg',
+      'https://cdn2.thedogapi.com/images/NyW9yv8vj.jpg',
+    ],
   },
   41: {
     weight: {
@@ -4830,6 +4941,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/borderterrier.htm',
       'https://www.ukcdogs.com/border-terrier',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HJOpge9Em_390x256.jpg'],
   },
   42: {
     weight: {
@@ -4983,6 +5095,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/bostonterrier.htm',
       'https://www.ukcdogs.com/boston-terrier',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/rkZRggqVX_390x256.jpg'],
   },
   43: {
     weight: {
@@ -5117,6 +5230,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/bouvierdesflandres.htm',
       'https://www.ukcdogs.com/bouvier-des-flandres',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/Byd0xl5VX_390x256.jpg'],
   },
   44: {
     weight: {
@@ -5256,6 +5370,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       },
     ],
     fuentes: [],
+    gallery: ['https://cdn2.thedogapi.com/images/ry1kWe5VQ_390x256.jpg'],
   },
   45: {
     weight: {
@@ -5382,6 +5497,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Boykin_Spaniel',
       'https://www.ukcdogs.com/boykin-spaniel',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/ryHJZlcNX_390x256.jpg'],
   },
   46: {
     weight: {
@@ -5520,6 +5636,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/braccoitaliano.htm',
       'https://en.wikipedia.org/wiki/Bracco_Italiano',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/S13yZg5VQ_390x256.jpg'],
   },
   47: {
     weight: {
@@ -5652,6 +5769,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/briard.htm',
       'https://www.ukcdogs.com/briard',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/rkVlblcEQ_390x256.jpg'],
   },
   48: {
     weight: {
@@ -5784,6 +5902,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/brittany.htm',
       'https://www.ukcdogs.com/brittany',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HJWZZxc4X_390x256.jpg'],
   },
   49: {
     weight: {
@@ -5923,6 +6042,33 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/bull-terrier/',
       'https://www.dogbreedinfo.com/bullterrier.htm',
       'https://www.ukcdogs.com/bull-terrier',
+    ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/MgMspgiei.jpg',
+      'https://cdn2.thedogapi.com/images/CLRVGYoXA.jpg',
+      'https://cdn2.thedogapi.com/images/VWhafa0Av.jpg',
+      'https://cdn2.thedogapi.com/images/q3wSiFZ7m.jpg',
+      'https://cdn2.thedogapi.com/images/Y93YeHDPL.jpg',
+      'https://cdn2.thedogapi.com/images/BtMPhXN9d.jpg',
+      'https://cdn2.thedogapi.com/images/ROvy59azW.jpg',
+      'https://cdn2.thedogapi.com/images/UV2IPnwbV.jpg',
+      'https://cdn2.thedogapi.com/images/VSraIEQGd.jpg',
+      'https://cdn2.thedogapi.com/images/a5wh4Z1NJ.jpg',
+      'https://cdn2.thedogapi.com/images/8WPhRloCS.jpg',
+      'https://cdn2.thedogapi.com/images/-ipH6e7hG.jpg',
+      'https://cdn2.thedogapi.com/images/-lue5tDMo.jpg',
+      'https://cdn2.thedogapi.com/images/6qroETuH-.jpg',
+      'https://cdn2.thedogapi.com/images/S82sy7Hfz.jpg',
+      'https://cdn2.thedogapi.com/images/wop-zTLZW.jpg',
+      'https://cdn2.thedogapi.com/images/zFXKCNso1.jpg',
+      'https://cdn2.thedogapi.com/images/6Dj7tp_vB.jpg',
+      'https://cdn2.thedogapi.com/images/qXTOAloY9.jpg',
+      'https://cdn2.thedogapi.com/images/BwTUNvg4q.jpg',
+      'https://cdn2.thedogapi.com/images/E0iEH4Nof.jpg',
+      'https://cdn2.thedogapi.com/images/-C5P1HCK4.jpg',
+      'https://cdn2.thedogapi.com/images/607_FDb_p.jpg',
+      'https://cdn2.thedogapi.com/images/Tb9dDTBtT.jpg',
+      'https://cdn2.thedogapi.com/images/q6mwhzuB3.jpg',
     ],
   },
   50: {
@@ -6068,6 +6214,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/miniature-bull-terrier/',
       'https://en.wikipedia.org/wiki/Miniature_Bull_Terrier',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/BkKZWlcVX_390x256.jpg'],
   },
   51: {
     weight: {
@@ -6209,6 +6356,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/bullmastiff.htm',
       'https://www.ukcdogs.com/bullmastiff',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/r1ifZl5E7_390x256.jpg'],
   },
   52: {
     weight: {
@@ -6356,6 +6504,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/cairnterrier.htm',
       'https://www.ukcdogs.com/cairn-terrier',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/Sk7Qbg9E7_390x256.jpg'],
   },
   53: {
     weight: {
@@ -6503,6 +6652,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: ['https://www.akc.org/dog-breeds/cane-corso/'],
+    gallery: ['https://cdn2.thedogapi.com/images/r15m-lc4m_390x256.jpg'],
   },
   54: {
     weight: {
@@ -6639,6 +6789,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/cardigan-welsh-corgi/',
       'https://www.ukcdogs.com/cardigan-welsh-corgi',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SyXN-e9NX_390x256.jpg'],
   },
   55: {
     weight: {
@@ -6771,6 +6922,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: ['https://www.akc.org/dog-breeds/catahoula-leopard-dog/'],
+    gallery: ['https://cdn2.thedogapi.com/images/BJcNbec4X_390x256.jpg'],
   },
   56: {
     weight: {
@@ -6904,6 +7056,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/caucasian-shepherd-dog/',
       'https://www.ukcdogs.com/caucasian-ovcharka',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/r1rrWe5Em_390x256.jpg'],
   },
   57: {
     weight: {
@@ -7039,6 +7192,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/cavalierkingcharlesspaniel.htm',
       'https://www.ukcdogs.com/cavalier-king-charles-spaniel',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HJRBbe94Q_390x256.jpg'],
   },
   58: {
     weight: {
@@ -7170,6 +7324,25 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/chesapeake-bay-retriever/',
       'https://www.dogbreedinfo.com/chesapeakebay.htm',
       'https://www.ukcdogs.com/chesapeake-bay-retriever',
+    ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/eNM4W5f1S.jpg',
+      'https://cdn2.thedogapi.com/images/JjT27ESYT.jpg',
+      'https://cdn2.thedogapi.com/images/8vgnFmYG8.jpg',
+      'https://cdn2.thedogapi.com/images/dBrrpEGm4.jpg',
+      'https://cdn2.thedogapi.com/images/XyPrtzWMn.jpg',
+      'https://cdn2.thedogapi.com/images/5uFASRPPI.jpg',
+      'https://cdn2.thedogapi.com/images/4jvZUBiYC.jpg',
+      'https://cdn2.thedogapi.com/images/ZzK_MspO2.jpg',
+      'https://cdn2.thedogapi.com/images/omWvTh-2m.jpg',
+      'https://cdn2.thedogapi.com/images/4UcpAcdLm.jpg',
+      'https://cdn2.thedogapi.com/images/UuDd-Gb0j.jpg',
+      'https://cdn2.thedogapi.com/images/-QbEXksWV.jpg',
+      'https://cdn2.thedogapi.com/images/ILaCjZC33.jpg',
+      'https://cdn2.thedogapi.com/images/9BXwUeCc2.jpg',
+      'https://cdn2.thedogapi.com/images/-GnlzQbmR.jpg',
+      'https://cdn2.thedogapi.com/images/KlKFRG3Ko.jpg',
+      'https://cdn2.thedogapi.com/images/_kiOLmJeJ.jpg',
     ],
   },
   59: {
@@ -7311,6 +7484,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/chinesecrested.htm',
       'https://www.ukcdogs.com/chinese-crested',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/B1pDZx9Nm_390x256.jpg'],
   },
   60: {
     weight: {
@@ -7445,6 +7619,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/sharpei.htm',
       'https://www.ukcdogs.com/chinese-shar-pei',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/B1ruWl94Q_390x256.jpg'],
   },
   61: {
     weight: {
@@ -7582,6 +7757,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.ukcdogs.com/chinook',
       'https://en.wikipedia.org/wiki/Chinook_(dog)',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/Sypubg54Q_390x256.jpg'],
   },
   62: {
     weight: {
@@ -7703,6 +7879,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/chowchow.htm',
       'https://www.ukcdogs.com/chow-chow',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/ry8KWgqEQ_390x256.jpg'],
   },
   63: {
     weight: {
@@ -7844,6 +8021,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/clumberspaniel.htm',
       'https://www.ukcdogs.com/clumber-spaniel',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/rkeqWgq4Q_390x256.jpg'],
   },
   64: {
     weight: {
@@ -7987,6 +8165,31 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Cocker_Spaniel',
       'https://www.akc.org/dog-breeds/cocker-spaniel/',
       'https://www.ukcdogs.com/cocker-spaniel',
+    ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/5TW4CCc9c.jpg',
+      'https://cdn2.thedogapi.com/images/_swBxzzqn.jpg',
+      'https://cdn2.thedogapi.com/images/1lFmrzECl.jpg',
+      'https://cdn2.thedogapi.com/images/4ZHgQqnSr.jpg',
+      'https://cdn2.thedogapi.com/images/Pxdz3FZQt.jpg',
+      'https://cdn2.thedogapi.com/images/BP9tUfS_h.jpg',
+      'https://cdn2.thedogapi.com/images/JfXoSp85R.jpg',
+      'https://cdn2.thedogapi.com/images/NPwhpJnSe.jpg',
+      'https://cdn2.thedogapi.com/images/H6h17XOYn.jpg',
+      'https://cdn2.thedogapi.com/images/dL8IihY5U.jpg',
+      'https://cdn2.thedogapi.com/images/R1b5gB11p.jpg',
+      'https://cdn2.thedogapi.com/images/YmGPWuI_w.jpg',
+      'https://cdn2.thedogapi.com/images/GFVvIZ0B3.jpg',
+      'https://cdn2.thedogapi.com/images/BQX_0_22x.jpg',
+      'https://cdn2.thedogapi.com/images/yddakJGig.jpg',
+      'https://cdn2.thedogapi.com/images/WSHowxXDo.jpg',
+      'https://cdn2.thedogapi.com/images/aJ6N5Kf-l.jpg',
+      'https://cdn2.thedogapi.com/images/gW4R5SWbV.jpg',
+      'https://cdn2.thedogapi.com/images/MDo8TFF2I.jpg',
+      'https://cdn2.thedogapi.com/images/zGnoHL8B8.jpg',
+      'https://cdn2.thedogapi.com/images/PGu6NhvGG.jpg',
+      'https://cdn2.thedogapi.com/images/_upbHYcnO.jpg',
+      'https://cdn2.thedogapi.com/images/2v2nAUTLB.jpg',
     ],
   },
   65: {
@@ -8132,6 +8335,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/American_Cocker_Spaniel',
       'https://www.dogbreedinfo.com/americancocker.htm',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HkRcZe547_390x256.jpg'],
   },
   66: {
     weight: {
@@ -8275,6 +8479,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/cotondetulear.htm',
       'https://www.ukcdogs.com/coton-de-tulear',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SyviZlqNm_390x256.jpg'],
   },
   67: {
     weight: {
@@ -8428,6 +8633,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/dalmatian.htm',
       'https://www.ukcdogs.com/dalmatian',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SkJ3blcN7_390x256.jpg'],
   },
   68: {
     weight: {
@@ -8574,6 +8780,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.ukcdogs.com/doberman-pinscher',
       'https://www.akc.org/dog-breeds/doberman-pinscher/',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HyL3bl94Q_390x256.jpg'],
   },
   69: {
     weight: {
@@ -8708,6 +8915,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/dogo-argentino/',
       'https://www.ukcdogs.com/dogo-argentino',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/S1nhWx94Q_390x256.jpg'],
   },
   70: {
     weight: {
@@ -8845,6 +9053,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/dutchshepherd.htm',
       'https://www.ukcdogs.com/dutch-shepherd',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/BkE6Wg5E7_390x256.jpg'],
   },
   71: {
     weight: {
@@ -8987,6 +9196,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/englishsetter.htm',
       'https://www.ukcdogs.com/english-setter',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/By4A-eqVX_390x256.jpg'],
   },
   72: {
     weight: {
@@ -9133,6 +9343,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/oldenglishsheepdog.htm',
       'https://www.ukcdogs.com/old-english-sheepdog',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/H1QyMe5EQ_390x256.jpg'],
   },
   73: {
     weight: {
@@ -9271,6 +9482,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/english-springer-spaniel/',
       'https://www.dogbreedinfo.com/englishspringerspaniel.htm',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/Hk0Jfe5VQ_390x256.jpg'],
   },
   74: {
     weight: {
@@ -9411,6 +9623,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/King_Charles_Spaniel',
       'https://www.ukcdogs.com/english-toy-spaniel',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SkIgzxqNQ_390x256.jpg'],
   },
   75: {
     weight: {
@@ -9552,6 +9765,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/English_Toy_Terrier_(Black_%26_Tan)',
       'https://www.akc.org/dog-breeds/english-toy-terrier/',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SJ6eMxqEQ_390x256.jpg'],
   },
   76: {
     weight: {
@@ -9685,6 +9899,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/eurasier/',
       'https://www.ukcdogs.com/eurasier',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/S1VWGx9Nm_390x256.jpg'],
   },
   77: {
     weight: {
@@ -9820,6 +10035,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/fieldspaniel.htm',
       'https://www.ukcdogs.com/field-spaniel',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SkJfGecE7_390x256.jpg'],
   },
   78: {
     weight: {
@@ -9952,6 +10168,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Finnish_Lapphund',
       'https://www.dogbreedinfo.com/finnishlapphund.htm',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/S1KMGg5Vm_390x256.jpg'],
   },
   79: {
     weight: {
@@ -10086,6 +10303,33 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Finnish_Spitz',
       'https://www.akc.org/dog-breeds/finnish-spitz/',
       'https://www.dogbreedinfo.com/finnishspitz.htm',
+    ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/aQkrp7YWk.jpg',
+      'https://cdn2.thedogapi.com/images/G5f0AcBsF.jpg',
+      'https://cdn2.thedogapi.com/images/3PjHlQbkV.jpg',
+      'https://cdn2.thedogapi.com/images/buxVXCo9V.jpg',
+      'https://cdn2.thedogapi.com/images/1tLAP4Eo4.jpg',
+      'https://cdn2.thedogapi.com/images/fbl5hbwrc.jpg',
+      'https://cdn2.thedogapi.com/images/CdiMsSZgT.jpg',
+      'https://cdn2.thedogapi.com/images/Aoj2M3iqH.jpg',
+      'https://cdn2.thedogapi.com/images/gwZ3amqat.jpg',
+      'https://cdn2.thedogapi.com/images/SuF176CZ8.jpg',
+      'https://cdn2.thedogapi.com/images/E585lUflj.jpg',
+      'https://cdn2.thedogapi.com/images/t558lhehG.jpg',
+      'https://cdn2.thedogapi.com/images/J5xkGtEU3.jpg',
+      'https://cdn2.thedogapi.com/images/-c6didgTY.jpg',
+      'https://cdn2.thedogapi.com/images/hS_-gIE3G.jpg',
+      'https://cdn2.thedogapi.com/images/ZjYBMDnO9.jpg',
+      'https://cdn2.thedogapi.com/images/SwxIgmxlN.jpg',
+      'https://cdn2.thedogapi.com/images/7pTie4t9y.jpg',
+      'https://cdn2.thedogapi.com/images/OYFKZ848K.jpg',
+      'https://cdn2.thedogapi.com/images/pSoC1qW8n.jpg',
+      'https://cdn2.thedogapi.com/images/0BCb5tCrx.jpg',
+      'https://cdn2.thedogapi.com/images/BW9WnXl3E.jpg',
+      'https://cdn2.thedogapi.com/images/6euYVVE_u.jpg',
+      'https://cdn2.thedogapi.com/images/gJA_mt09Q.jpg',
+      'https://cdn2.thedogapi.com/images/9FHGALKJC.png',
     ],
   },
   80: {
@@ -10249,6 +10493,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/frenchbulldog.htm',
       'https://www.ukcdogs.com/french-bulldog',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HyWNfxc47_390x256.jpg'],
   },
   81: {
     weight: {
@@ -10385,6 +10630,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/germanpinscher.htm',
       'https://www.ukcdogs.com/german-pinscher',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/B1u4zgqE7_390x256.jpg'],
   },
   82: {
     weight: {
@@ -10535,6 +10781,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/germanshepherd.htm',
       'https://www.ukcdogs.com/german-shepherd-dog',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SJyBfg5NX_390x256.jpg'],
   },
   83: {
     weight: {
@@ -10674,6 +10921,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/germanshorthairedpointer.htm',
       'https://www.ukcdogs.com/german-shorthaired-pointer',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SJqBMg5Nm_390x256.jpg'],
   },
   84: {
     weight: {
@@ -10825,6 +11073,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/giantschnauzer.htm',
       'https://www.ukcdogs.com/giant-schnauzer',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/H1NIzlcV7_390x256.jpg'],
   },
   85: {
     weight: {
@@ -10961,6 +11210,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/glen-of-imaal-terrier/',
       'https://www.ukcdogs.com/glen-of-imaal-terrier',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/H1oLMe94m_390x256.jpg'],
   },
   86: {
     weight: {
@@ -11111,6 +11361,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/goldenretriever.htm',
       'https://www.ukcdogs.com/golden-retriever',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HJ7Pzg5EQ_390x256.jpg'],
   },
   87: {
     weight: {
@@ -11245,6 +11496,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/gordonsetter.htm',
       'https://www.ukcdogs.com/gordon-setter',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SJ5vzx5NX_390x256.jpg'],
   },
   88: {
     weight: {
@@ -11398,6 +11650,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/greatdane.htm',
       'https://www.ukcdogs.com/great-dane',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/B1Edfl9NX_390x256.jpg'],
   },
   89: {
     weight: {
@@ -11527,6 +11780,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/great-pyrenees/',
       'https://www.dogbreedinfo.com/greatpyrenees.htm',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/B12uzg9V7_390x256.png'],
   },
   90: {
     weight: {
@@ -11666,6 +11920,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Greyhound',
       'https://www.ukcdogs.com/greyhound',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/ryNYMx94X_390x256.jpg'],
   },
   91: {
     weight: {
@@ -11817,6 +12072,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/brussels-griffon/',
       'https://en.wikipedia.org/wiki/Brussels_Griffon',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/ryoYGec4Q_390x256.jpg'],
   },
   92: {
     weight: {
@@ -11960,6 +12216,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: ['https://www.akc.org/dog-breeds/harrier/'],
+    gallery: ['https://cdn2.thedogapi.com/images/B1IcfgqE7_390x256.jpg'],
   },
   93: {
     weight: {
@@ -12100,6 +12357,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Havanese',
       'https://www.ukcdogs.com/havanese',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/rkXiGl9V7_390x256.jpg'],
   },
   94: {
     weight: {
@@ -12235,6 +12493,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/irishsetter.htm',
       'https://www.ukcdogs.com/irish-setter',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/S1osGeqVm_390x256.jpg'],
   },
   95: {
     weight: {
@@ -12366,6 +12625,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/irish-terrier/',
       'https://www.dogbreedinfo.com/irishterrier.htm',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/By-hGecVX_390x256.jpg'],
   },
   96: {
     weight: {
@@ -12501,6 +12761,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/italiangreyhound.htm',
       'https://www.ukcdogs.com/italian-greyhound',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SJAnzg9NX_390x256.jpg'],
   },
   97: {
     weight: {
@@ -12649,6 +12910,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.hillspet.com.mx/dog-care/dog-breeds/japanese-chin',
       'https://www.purina.es/encuentra-mascota/razas-de-perro/chin-japones',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/r1H6feqEm_390x256.jpg'],
   },
   98: {
     weight: {
@@ -12788,6 +13050,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://mascotaleal.net/spitz-japones/',
       'https://www.micachorro.net/spitz-japones-criadores-precio-y-cachorros/',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HksaMxqNX_390x256.jpg'],
   },
   99: {
     weight: {
@@ -12920,6 +13183,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Keeshond',
       'https://www.akc.org/dog-breeds/keeshond/',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/S1GAGg9Vm_390x256.jpg'],
   },
   100: {
     weight: {
@@ -13056,6 +13320,33 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Kooikerhondje',
       'https://www.thesprucepets.com/kooikerhondje-dog-breed-profile-4774020',
       'https://www.akc.org/expert-advice/dog-breeds/9-things-you-dont-know-kooikerhondje/',
+    ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/np1LyfUrh.jpg',
+      'https://cdn2.thedogapi.com/images/YbXK-k96Y.jpg',
+      'https://cdn2.thedogapi.com/images/xk7F_W6PK.jpg',
+      'https://cdn2.thedogapi.com/images/0etOz_CUv.jpg',
+      'https://cdn2.thedogapi.com/images/tbAyBgK6L.jpg',
+      'https://cdn2.thedogapi.com/images/abEQrziLx.jpg',
+      'https://cdn2.thedogapi.com/images/bfTfztTZt.jpg',
+      'https://cdn2.thedogapi.com/images/edERTTfL0.jpg',
+      'https://cdn2.thedogapi.com/images/HUp3BZLeW.jpg',
+      'https://cdn2.thedogapi.com/images/WsN7xOoRZ.jpg',
+      'https://cdn2.thedogapi.com/images/ooXgHah90.jpg',
+      'https://cdn2.thedogapi.com/images/niZ0b1nHu.jpg',
+      'https://cdn2.thedogapi.com/images/A14tIGT8d.jpg',
+      'https://cdn2.thedogapi.com/images/VOmeXxwUp.jpg',
+      'https://cdn2.thedogapi.com/images/mAdKLn7Rv.jpg',
+      'https://cdn2.thedogapi.com/images/2GdKwnTON.jpg',
+      'https://cdn2.thedogapi.com/images/zImrLbJN_.png',
+      'https://cdn2.thedogapi.com/images/omhpknDX6.jpg',
+      'https://cdn2.thedogapi.com/images/S9a_qUna4.jpg',
+      'https://cdn2.thedogapi.com/images/LrXQhXhmb.jpg',
+      'https://cdn2.thedogapi.com/images/L0kFU8jaZ.jpg',
+      'https://cdn2.thedogapi.com/images/kamfrLKTl.jpg',
+      'https://cdn2.thedogapi.com/images/kOMy84GQE.jpg',
+      'https://cdn2.thedogapi.com/images/gY60Q7XXX.jpg',
+      'https://cdn2.thedogapi.com/images/4CUZk1TCM.jpg',
     ],
   },
   101: {
@@ -13197,6 +13488,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/dog-breeds/kuvasz/',
       'https://www.hillspet.com/dog-care/dog-breeds/kuvasz',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/BykZ7ecVX_390x256.jpg'],
   },
   102: {
     weight: {
@@ -13342,6 +13634,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.akc.org/expert-advice/lifestyle/8-facts-about-labrador-retrievers/',
       'https://www.akc.org/expert-advice/dog-breeds/labrador-retriever-history-behind-the-breed/',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/B1uW7l5VX_390x256.jpg'],
   },
   103: {
     weight: {
@@ -13477,6 +13770,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dailypaws.com/dogs-puppies/dog-breeds/lagotto-romagnolo',
       'https://www.thesprucepets.com/lagotto-romagnolo-dog-breed-profile-4773008',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/ryzzmgqE7_390x256.jpg'],
   },
   104: {
     weight: {
@@ -13607,6 +13901,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.thesprucepets.com/lancashire-heeler-dog-breed-profile-4773060',
       'https://www.purina.es/encuentra-mascota/razas-de-perro/lancashire-heeler',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/S1RGml5Em_390x256.jpg'],
   },
   105: {
     weight: {
@@ -13743,7 +14038,9 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.dogbreedinfo.com/leonberger.htm',
       'https://www.ukcdogs.com/leonberger',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/ByrmQlqVm_390x256.jpg'],
   },
+  // Checkpoint
   106: {
     weight: {
       imperial: '12 - 18',
@@ -13808,6 +14105,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de piel y alergias',
     ],
     searchTerms: ['Lhasa Apso', 'Perro pequeño', 'Perro de compañía'],
+    gallery: ['https://cdn2.thedogapi.com/images/SJp7Qe5EX_390x256.jpg'],
   },
   107: {
     weight: {
@@ -13868,6 +14166,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Problemas dentales', 'Luxación de la rótula'],
+    gallery: ['https://cdn2.thedogapi.com/images/B1SV7gqN7_390x256.jpg'],
   },
   108: {
     weight: {
@@ -13921,6 +14220,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    gallery: ['https://cdn2.thedogapi.com/images/BkHHQgcN7_390x256.jpg'],
   },
   109: {
     weight: {
@@ -13977,6 +14277,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Problemas dentales', 'Luxación de rótula'],
+    gallery: ['https://cdn2.thedogapi.com/images/Hy3H7g94X_390x256.jpg'],
   },
   110: {
     weight: {
@@ -14033,6 +14334,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Problemas dentales', 'Problemas oculares'],
+    gallery: ['https://cdn2.thedogapi.com/images/SJIUQl9NX_390x256.jpg'],
   },
   111: {
     weight: {
@@ -14082,6 +14384,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas cardíacos'],
+    gallery: ['https://cdn2.thedogapi.com/images/Sk4DXl54m_390x256.jpg'],
   },
   112: {
     weight: {
@@ -14143,6 +14446,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas dentales', 'Problemas cardíacos'],
+    gallery: ['https://cdn2.thedogapi.com/images/B1ADQg94X_390x256.jpg'],
   },
   113: {
     weight: {
@@ -14203,6 +14507,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas dentales', 'Problemas cardíacos'],
+    gallery: ['https://cdn2.thedogapi.com/images/BkgKXlqE7_390x256.jpg'],
   },
   114: {
     weight: {
@@ -14262,6 +14567,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    gallery: ['https://cdn2.thedogapi.com/images/SyYtQe5V7_390x256.jpg'],
   },
   115: {
     weight: {
@@ -14328,6 +14634,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de vista',
       'Problemas de sordera',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HkZ57lq4m_390x256.jpg'],
   },
   116: {
     weight: {
@@ -14388,6 +14695,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de piel',
       'Problemas respiratorios',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/B1d5me547_390x256.jpg'],
   },
   117: {
     weight: {
@@ -14448,6 +14756,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas dentales',
       'Problemas de oído debido a su pelaje largo',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SkJj7e547_390x256.jpg'],
   },
   118: {
     weight: {
@@ -14506,6 +14815,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas respiratorios debido a su cara achatada',
       'Problemas de piel',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/ByIiml9Nm_390x256.jpg'],
   },
   119: {
     weight: {
@@ -14564,6 +14874,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Obesidad',
       'Problemas oculares',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/rJ6iQeqEm_390x256.jpg'],
   },
   120: {
     weight: {
@@ -14625,6 +14936,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de corazón',
       'Obesidad',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/S1V3Qeq4X_390x256.jpg'],
   },
   121: {
     weight: {
@@ -14683,6 +14995,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de oído',
       'Alergias',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/Byz6mgqEQ_390x256.jpg'],
   },
   122: {
     weight: {
@@ -14734,6 +15047,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de oído',
       'Alergias',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/B1i67l5VQ_390x256.jpg'],
   },
   123: {
     weight: {
@@ -14792,6 +15106,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Luxación de rótula',
       'Problemas cardíacos',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HJd0XecNX_390x256.jpg'],
   },
   124: {
     weight: {
@@ -14850,6 +15165,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de piel',
       'Displasia de cadera',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/Hkxk4ecVX_390x256.jpg'],
   },
   125: {
     weight: {
@@ -14908,6 +15224,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de piel',
       'Displasia de cadera',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/rJFJVxc4m_390x256.jpg'],
   },
   126: {
     weight: {
@@ -14969,6 +15286,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Pug Dog Encephalitis',
       'Luxación patelar',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HyJvcl9N7_390x256.jpg'],
   },
   127: {
     weight: {
@@ -15028,6 +15346,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Atrofia retiniana progresiva',
       'Cataratas',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/ryPgVl5N7_390x256.jpg'],
   },
   128: {
     weight: {
@@ -15083,6 +15402,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    gallery: ['https://cdn2.thedogapi.com/images/SyRe4xcN7_390x256.jpg'],
   },
   129: {
     weight: {
@@ -15142,6 +15462,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Alergias',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HkXWNl9E7_390x256.jpg'],
   },
   130: {
     weight: {
@@ -15206,6 +15527,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas de la piel',
       'Obesidad',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HJMzEl5N7_390x256.jpg'],
   },
   131: {
     weight: {
@@ -15261,6 +15583,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas de tiroides'],
+    gallery: ['https://cdn2.thedogapi.com/images/By9zNgqE7_390x256.jpg'],
   },
   132: {
     weight: {
@@ -15327,6 +15650,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas cardiacos'],
+    gallery: ['https://cdn2.thedogapi.com/images/r1xXEgcNX_390x256.jpg'],
   },
   133: {
     weight: {
@@ -15375,6 +15699,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas dentales', 'Luxación de la rótula'],
+    gallery: ['https://cdn2.thedogapi.com/images/HkP7Vxc4Q_390x256.jpg'],
   },
   134: {
     weight: {
@@ -15424,6 +15749,33 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas cardíacos'],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/AQN0VFXV0.jpg',
+      'https://cdn2.thedogapi.com/images/YNDcKGXbi.jpg',
+      'https://cdn2.thedogapi.com/images/t7FefmYNk.jpg',
+      'https://cdn2.thedogapi.com/images/Sh2s-ZKMS.jpg',
+      'https://cdn2.thedogapi.com/images/Q6H9UcRZB.jpg',
+      'https://cdn2.thedogapi.com/images/SLDsIjTd-.jpg',
+      'https://cdn2.thedogapi.com/images/KjD15MOuM.jpg',
+      'https://cdn2.thedogapi.com/images/_Qf9nfRzL.png',
+      'https://cdn2.thedogapi.com/images/Fw1MZmoRL.png',
+      'https://cdn2.thedogapi.com/images/uE8zkHahk.jpg',
+      'https://cdn2.thedogapi.com/images/V8ZEfQ69m.jpg',
+      'https://cdn2.thedogapi.com/images/1d4rlnsPt.jpg',
+      'https://cdn2.thedogapi.com/images/YQX57Kz3X.jpg',
+      'https://cdn2.thedogapi.com/images/YnI54_KH9.jpg',
+      'https://cdn2.thedogapi.com/images/ihTQ9wvul.jpg',
+      'https://cdn2.thedogapi.com/images/DbcfkQrav.jpg',
+      'https://cdn2.thedogapi.com/images/jtrRacj_g.jpg',
+      'https://cdn2.thedogapi.com/images/hSiQkXG2s.jpg',
+      'https://cdn2.thedogapi.com/images/_8II0snsl.jpg',
+      'https://cdn2.thedogapi.com/images/WWmA1kutH.jpg',
+      'https://cdn2.thedogapi.com/images/K9nzmg0TL.jpg',
+      'https://cdn2.thedogapi.com/images/pxtkPmg3b.jpg',
+      'https://cdn2.thedogapi.com/images/KozrdsGZv.jpg',
+      'https://cdn2.thedogapi.com/images/6CFLgAYVH.jpg',
+      'https://cdn2.thedogapi.com/images/0V7KO5BZ0.jpg',
+    ],
   },
   135: {
     weight: {
@@ -15473,6 +15825,31 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas cardíacos', 'Problemas oculares'],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/tFQkJi_-6.jpg',
+      'https://cdn2.thedogapi.com/images/B35dV8-1_.jpg',
+      'https://cdn2.thedogapi.com/images/12GTwG4Bj.jpg',
+      'https://cdn2.thedogapi.com/images/k4WVD0wfC.jpg',
+      'https://cdn2.thedogapi.com/images/lDBxtskPl.jpg',
+      'https://cdn2.thedogapi.com/images/4aJ37urBz.jpg',
+      'https://cdn2.thedogapi.com/images/q8XC_2pym.jpg',
+      'https://cdn2.thedogapi.com/images/ZjkHW13DK.jpg',
+      'https://cdn2.thedogapi.com/images/6jNaXEFxv.jpg',
+      'https://cdn2.thedogapi.com/images/k0WvkHMmP.jpg',
+      'https://cdn2.thedogapi.com/images/sNtR0_fdu.jpg',
+      'https://cdn2.thedogapi.com/images/6kOWrryau.jpg',
+      'https://cdn2.thedogapi.com/images/sHPfcmVsV.jpg',
+      'https://cdn2.thedogapi.com/images/VlVgulZgs.jpg',
+      'https://cdn2.thedogapi.com/images/GtX_Z2Stg.jpg',
+      'https://cdn2.thedogapi.com/images/GR68e1Aob.jpg',
+      'https://cdn2.thedogapi.com/images/bEQBV6y9Q.jpg',
+      'https://cdn2.thedogapi.com/images/vPQGloamD.jpg',
+      'https://cdn2.thedogapi.com/images/Mncs8eeby.jpg',
+      'https://cdn2.thedogapi.com/images/Q72V090BS.jpg',
+      'https://cdn2.thedogapi.com/images/VdUHW9aaz.jpg',
+      'https://cdn2.thedogapi.com/images/xGuSVhi28.jpg',
+      'https://cdn2.thedogapi.com/images/fjFIuehNo.jpg',
+    ],
   },
   136: {
     weight: {
@@ -15533,6 +15910,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Diabetes',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/S1T8Ee9Nm_390x256.jpg'],
   },
   137: {
     weight: {
@@ -15585,6 +15963,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     necesidades_especiales: ['Requiere ejercicio regular'],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas oculares', 'Epilepsia', 'Hipotiroidismo'],
+    gallery: ['https://cdn2.thedogapi.com/images/SyBvVgc47_390x256.jpg'],
   },
   138: {
     weight: {
@@ -15630,6 +16009,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     necesidades_especiales: ['Requiere mucho espacio para correr'],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas cardíacos', 'Torsión gástrica'],
+    gallery: ['https://cdn2.thedogapi.com/images/SkNjqx9NQ_390x256.jpg'],
   },
   139: {
     weight: {
@@ -15685,6 +16065,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas de piel', 'Displasia de cadera'],
+    gallery: ['https://cdn2.thedogapi.com/images/Bklnce5NX_390x256.jpg'],
   },
   140: {
     weight: {
@@ -15746,6 +16127,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas de tiroides'],
+    gallery: ['https://cdn2.thedogapi.com/images/rJa29l9E7_390x256.jpg'],
   },
   141: {
     weight: {
@@ -15798,6 +16180,33 @@ export const DOG_LIST: { [key: number]: Dog } = {
     necesidades_especiales: ['Necesidad de ejercicio físico y mental'],
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Alergias'],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/hweK6aOl9.jpg',
+      'https://cdn2.thedogapi.com/images/xcrQRb4IQ.jpg',
+      'https://cdn2.thedogapi.com/images/a4dzJ1h49.jpg',
+      'https://cdn2.thedogapi.com/images/YAMPxIL4c.jpg',
+      'https://cdn2.thedogapi.com/images/y6pby3qx8.jpg',
+      'https://cdn2.thedogapi.com/images/mufxR-Px7.jpg',
+      'https://cdn2.thedogapi.com/images/VRUwbGjVP.jpg',
+      'https://cdn2.thedogapi.com/images/hNa0pli30.jpg',
+      'https://cdn2.thedogapi.com/images/xv365V4P_.jpg',
+      'https://cdn2.thedogapi.com/images/Lilx1EKTI.jpg',
+      'https://cdn2.thedogapi.com/images/Z0MReRD8G.jpg',
+      'https://cdn2.thedogapi.com/images/5TKMTrS09.jpg',
+      'https://cdn2.thedogapi.com/images/MOIDBgbt_.jpg',
+      'https://cdn2.thedogapi.com/images/VyBXzOjjR.jpg',
+      'https://cdn2.thedogapi.com/images/GZbsnFkqD.jpg',
+      'https://cdn2.thedogapi.com/images/OSujkkRUn.jpg',
+      'https://cdn2.thedogapi.com/images/duYK7C91Q.jpg',
+      'https://cdn2.thedogapi.com/images/qwqPTppkA.jpg',
+      'https://cdn2.thedogapi.com/images/nwpd32sdl.jpg',
+      'https://cdn2.thedogapi.com/images/zXi6Z5ugC.jpg',
+      'https://cdn2.thedogapi.com/images/mJmXgDfcW.jpg',
+      'https://cdn2.thedogapi.com/images/E2LqZL-dv.jpg',
+      'https://cdn2.thedogapi.com/images/MCQEc8Oc-.jpg',
+      'https://cdn2.thedogapi.com/images/NoSR1FFPx.jpg',
+      'https://cdn2.thedogapi.com/images/hKXTfH70r.jpg',
+    ],
   },
   142: {
     weight: {
@@ -15859,6 +16268,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     necesidades_especiales: ['Necesita aseo regular debido a su largo pelaje'],
     popularidad: 'Alta',
     enfermedades_comunes: ['Problemas oculares', 'Displasia de cadera'],
+    gallery: ['https://cdn2.thedogapi.com/images/BkrJjgcV7_390x256.jpg'],
   },
   143: {
     weight: {
@@ -15912,6 +16322,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     necesidades_especiales: ['Necesita mucho ejercicio y estimulación mental'],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas de la tiroides'],
+    gallery: ['https://cdn2.thedogapi.com/images/SJJxjecEX_390x256.jpg'],
   },
   144: {
     weight: {
@@ -15959,6 +16370,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    gallery: ['https://cdn2.thedogapi.com/images/S17ZilqNm_390x256.jpg'],
   },
   145: {
     weight: {
@@ -16014,6 +16426,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas de piel', 'Displasia de cadera'],
+    gallery: ['https://cdn2.thedogapi.com/images/ByzGsl5Nm_390x256.jpg'],
   },
   146: {
     weight: {
@@ -16073,6 +16486,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Problemas oculares',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/Syszjx9Em_390x256.jpg'],
   },
   147: {
     weight: {
@@ -16132,6 +16546,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Displasia de cadera',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HJHmix5NQ_390x256.jpg'],
   },
   148: {
     weight: {
@@ -16185,6 +16600,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     necesidades_especiales: ['Requiere ejercicio regular', 'Le gusta nadar'],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    gallery: ['https://cdn2.thedogapi.com/images/HJf4jl9VX_390x256.jpg'],
   },
   149: {
     weight: {
@@ -16234,6 +16650,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    gallery: ['https://cdn2.thedogapi.com/images/rk5Eoe5Nm_390x256.jpg'],
   },
   150: {
     weight: {
@@ -16290,6 +16707,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Cataratas', 'Alergias'],
+    gallery: ['https://cdn2.thedogapi.com/images/H1zSie9V7_390x256.jpg'],
   },
   151: {
     weight: {
@@ -16349,64 +16767,22 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Alergias',
     ],
-  },
-  152: {
-    weight: {
-      imperial: '30 - 50',
-      metric: '14 - 23',
-    },
-    height: {
-      imperial: '17.5 - 19.5',
-      metric: '44 - 50',
-    },
-    id: 152,
-    name: 'Schnauzer Estándar',
-    bred_for: ['Caza de ratas', 'Guarda'],
-    breed_group: ['Trabajador'],
-    life_span: '13 - 15 años',
-    temperament: [
-      'Adiestrable',
-      'De buen carácter',
-      'Devoto',
-      'Vivaz',
-      'Juguetón',
-      'Inteligente',
-    ],
-    origin: 'Alemania',
-    reference_image_id: 'tmzeu6ID_',
-    image: {
-      id: 'tmzeu6ID_',
-      width: 650,
-      height: 585,
-      url: 'https://cdn2.thedogapi.com/images/tmzeu6ID_.jpg',
-    },
-    searchTerms: ['Schnauzer Estándar', 'Perro de trabajo', 'Caza de ratas'],
-    country_code: 'DE',
-    description:
-      'El Schnauzer Estándar es una raza que destaca por su naturaleza juguetona y su capacidad de entrenamiento. De tamaño mediano, estos perros se adaptan bien a una variedad de entornos y son conocidos por su inteligencia y devoción. De buen carácter y lleno de energía, el Schnauzer Estándar es una excelente opción para familias activas.',
-    history:
-      'Originario de Alemania, el Schnauzer Estándar fue inicialmente criado para la caza de ratas y tareas de guarda. A lo largo del tiempo, estos perros se han ganado un lugar en los hogares como mascotas familiares debido a su amigable naturaleza y habilidades para el juego. Su habilidad para el trabajo y la guardia aún persiste, haciendo de ellos perros de trabajo excepcionales.',
-    categoria_de_tamanio: 'Mediano',
-    perks: [
-      'Requiere de ejercicio regular',
-      'Excelente con los niños',
-      'Adiestrable',
-      'Requiere socialización temprana',
-    ],
-    color: ['Negro', 'Gris', 'Blanco'],
-    nivel_de_energia: 'Moderado',
-    facilidad_de_entrenamiento: 'Alto',
-    salud_general: 'Excelente',
-    compatibilidad_con_otros_animales: 'Alta',
-    necesidades_especiales: [
-      'Necesita ejercicio regular',
-      'Requiere socialización',
-    ],
-    popularidad: 'Moderada',
-    enfermedades_comunes: [
-      'Displasia de cadera',
-      'Problemas de la piel',
-      'Alergias',
+    gallery: [
+      'https://cdn2.thedogapi.com/images/SMa0dyTLx.jpg',
+      'https://cdn2.thedogapi.com/images/dtz9b2Lrz.jpg',
+      'https://cdn2.thedogapi.com/images/Dtxn7vdC0.jpg',
+      'https://cdn2.thedogapi.com/images/TqHc0-BCd.jpg',
+      'https://cdn2.thedogapi.com/images/cmVJgX9tx.jpg',
+      'https://cdn2.thedogapi.com/images/SbgZjfjVs.jpg',
+      'https://cdn2.thedogapi.com/images/-qOqBA-Un.jpg',
+      'https://cdn2.thedogapi.com/images/tmzeu6ID_.jpg',
+      'https://cdn2.thedogapi.com/images/YrCbmNAvH.jpg',
+      'https://cdn2.thedogapi.com/images/GZeDDro7-.jpg',
+      'https://cdn2.thedogapi.com/images/v-08PkHgP.jpg',
+      'https://cdn2.thedogapi.com/images/YHlx6uL2w.jpg',
+      'https://cdn2.thedogapi.com/images/RvLX2NmBZ.jpg',
+      'https://cdn2.thedogapi.com/images/VU6TmJM8z.jpg',
+      'https://cdn2.thedogapi.com/images/XLVd7vTZw.jpg',
     ],
   },
   153: {
@@ -16471,6 +16847,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Atrofia retinal progresiva',
       'Luxación de rótula',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HJ-Dix94Q_390x256.jpg'],
   },
   154: {
     weight: {
@@ -16529,6 +16906,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Dermatitis por alergia a las pulgas',
       'Displasia de cadera',
       'Problemas de la piel',
+    ],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/0mUBUQ68p.jpg',
+      'https://cdn2.thedogapi.com/images/0zRjpLfPg.jpg',
+      'https://cdn2.thedogapi.com/images/iU-rWvOYA.jpg',
+      'https://cdn2.thedogapi.com/images/zv89hR-O8.jpg',
     ],
   },
   155: {
@@ -16590,6 +16973,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Hipotiroidismo',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SkM9sec47_390x256.jpg'],
   },
   156: {
     weight: {
@@ -16647,6 +17031,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas oculares', 'Luxación de rótula'],
+    gallery: ['https://cdn2.thedogapi.com/images/Hyjcol947_390x256.jpg'],
   },
   157: {
     weight: {
@@ -16710,6 +17095,24 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
+    gallery: [
+      'https://cdn2.thedogapi.com/images/ZrJ_J-FIY.jpg',
+      'https://cdn2.thedogapi.com/images/b-_AIs741.jpg',
+      'https://cdn2.thedogapi.com/images/ZRQ0TYzz6.jpg',
+      'https://cdn2.thedogapi.com/images/YavuF9onG.jpg',
+      'https://cdn2.thedogapi.com/images/14MaKTcUX.jpg',
+      'https://cdn2.thedogapi.com/images/1SMdT_hVW.jpg',
+      'https://cdn2.thedogapi.com/images/YYIflhgK0.jpg',
+      'https://cdn2.thedogapi.com/images/wRP-CQQJy.jpg',
+      'https://cdn2.thedogapi.com/images/tmj_UmLCS.jpg',
+      'https://cdn2.thedogapi.com/images/ESfx2lGoC.jpg',
+      'https://cdn2.thedogapi.com/images/72Ttvx0Iz.jpg',
+      'https://cdn2.thedogapi.com/images/ZkpNcWUTY.jpg',
+      'https://cdn2.thedogapi.com/images/8zOFznijs.jpg',
+      'https://cdn2.thedogapi.com/images/O9aaUjez3.jpg',
+      'https://cdn2.thedogapi.com/images/TZwbGR2T6.jpg',
+      'https://cdn2.thedogapi.com/images/6f5n_42mB.jpg',
+    ],
   },
   158: {
     weight: {
@@ -16766,6 +17169,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas dentales', 'Luxación de rótula'],
+    gallery: ['https://cdn2.thedogapi.com/images/B17ase9V7_390x256.jpg'],
   },
   159: {
     weight: {
@@ -16830,6 +17234,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Otitis',
       'Problemas de obesidad',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SkRpsgc47_390x256.jpg'],
   },
   160: {
     weight: {
@@ -16882,6 +17287,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Atrofia progresiva de retina',
       'Epilepsia',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/r1o0jx9Em_390x256.jpg'],
   },
   161: {
     weight: {
@@ -16948,6 +17354,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Dilatación gástrica volvulus',
       'Distiquiasis',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/SyU12l9V7_390x256.jpg'],
   },
   162: {
     weight: {
@@ -17012,6 +17419,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Otitis',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/BJ1gnx5Vm_390x256.jpg'],
   },
   163: {
     weight: {
@@ -17075,6 +17483,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Enfermedad de Legg-Calvé-Perthes',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/Bkdx2g5Em_390x256.jpg'],
   },
   164: {
     weight: {
@@ -17134,6 +17543,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas cardiacos',
       'Problemas oculares',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/Hyv-ne94m_390x256.jpg'],
   },
   165: {
     weight: {
@@ -17193,6 +17603,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Problemas oculares',
       'Alergias',
     ], // Asumiendo por la raza
+    gallery: ['https://cdn2.thedogapi.com/images/r14M3e9E7_390x256.jpg'],
   },
   166: {
     weight: {
@@ -17253,6 +17664,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Enfermedad de Legg-Calvé-Perthes',
       'Luxación de rótula',
     ], // Enfermedades comunes para la raza
+    gallery: ['https://cdn2.thedogapi.com/images/SJ6f2g9EQ_390x256.jpg'],
   },
   167: {
     weight: {
@@ -17313,6 +17725,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Atrofia retinal progresiva'],
+    gallery: ['https://cdn2.thedogapi.com/images/Bkam2l9Vm_390x256.jpg'],
   },
   168: {
     weight: {
@@ -17362,6 +17775,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Atrofia retinal progresiva'],
+    gallery: ['https://cdn2.thedogapi.com/images/r1I4hl5Em_390x256.jpg'],
   },
   169: {
     weight: {
@@ -17428,6 +17842,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Displasia de cadera',
       'Alergias',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/HkNS3gqEm_390x256.jpg'],
   },
   170: {
     weight: {
@@ -17483,6 +17898,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Luxación de rótula',
       'Hipoglucemia',
     ],
+    gallery: ['https://cdn2.thedogapi.com/images/B12BnxcVQ_390x256.jpg'],
   },
   171: {
     weight: {
@@ -17540,6 +17956,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     salud_general: 'Buena',
     nivel_de_energia: 'Alto',
     popularidad: 'Alta',
+    gallery: ['https://esferamascota.b-cdn.net/razas-jack-russell.webp'],
   },
   172: {
     weight: {
@@ -17606,6 +18023,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     salud_general: 'Buena',
     nivel_de_energia: 'Alto',
     popularidad: 'Alta',
+    gallery: ['https://esferamascota.b-cdn.net/razas-perro-salchicha.webp'],
   },
   173: {
     weight: {
@@ -17669,6 +18087,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     salud_general: 'Buena',
     nivel_de_energia: 'Moderado',
     popularidad: 'Moderada',
+    gallery: ['https://esferamascota.b-cdn.net/razas-boyero-de-berna.webp'],
   },
 };
 

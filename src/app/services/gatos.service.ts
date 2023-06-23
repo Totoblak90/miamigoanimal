@@ -19,28 +19,6 @@ export class GatosService {
   constructor(private http: HttpClient, private perrosService: PerrosService) { }
 
   getCatBreeds(page = 0): Observable<Cat[]> {
-    return this.http.get<any[]>(`https://api.thedogapi.com/v1/breeds?limit=3&page=${page}`, { headers: this.headers })
-        .pipe(
-          tap(
-            dogList => {
-              // @ts-ignore
-              dogList.forEach((dog: Dog) => {
-                this.perrosService.searchBreedImages(dog.id).subscribe(imagesList => {
-
-                  const list: {[key:string]: any[]} = {}
-                  imagesList.forEach(image => {
-                    if (list[image.breeds[0].name] === undefined) list[image.breeds[0].name] = [image.url]
-                    else {
-                      list[image.breeds[0].name].push(image.url)
-                    }
-                  })
-                  console.log(list)
-                })
-              })
-            }
-          )
-        )
-
     return this.http.get<Cat[]>(`${this.apiUrl}breeds?limit=3&page=${page}`, { headers: this.headers })
       .pipe( switchMap(async (cats: Cat[]) => await this.searchForImages(cats)) );
   }

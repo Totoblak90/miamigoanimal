@@ -1,15 +1,8 @@
 <app-header bckColour="dog" [mainTitle]="dog.name" [providedImg]="dog.image.url || ''"></app-header>
 
-<main class="separate-section">
+<main class="u-margin-top-medium">
 
   <section class="row">
-
-    <!-- Carousel 1 -->
-    <article class="u-margin-bottom-big u-margin-top-medium" *ngIf="dogGallery1.length;">
-      <article class="u-margin-bottom-big">
-        <carousel [images]="dogGallery1"></carousel>
-      </article>
-    </article>
 
     <!-- Indice -->
     <article class="u-margin-bottom-big">
@@ -33,9 +26,9 @@
       </div>
     </article>
 
-    <!-- Imágen de respaldo si no hay carousel -->
-    <article class="u-margin-bottom-big breed-image-container" *ngIf="!dogGallery1.length;">
-      <img class="breed-image-container__img" [src]="dog.image.url" [alt]="dog.name" [width]="dog.image.width" [height]="dog.image.height" loading="lazy"/>
+    <!-- Carousel -->
+    <article class="u-margin-bottom-big" *ngIf="dogGallery?.length">
+      <carousel [images]="dogGallery"></carousel>
     </article>
 
     <!-- Rasgos -->
@@ -100,11 +93,6 @@
         </div>
       </div>
 
-    </article>
-
-    <!-- Carousel 2 -->
-    <article class="u-margin-bottom-big" *ngIf="dogGallery2.length">
-      <carousel [images]="dogGallery2"></carousel>
     </article>
 
   <!-- Datos clave -->

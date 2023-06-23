@@ -61,8 +61,7 @@ export class PerrosRazaComponent implements OnDestroy {
     tolerancia_a_la_soledad: '-',
   };
 
-  dogGallery1: { url: string; altText: string; }[] = [];
-  dogGallery2: { url: string; altText: string; }[] = [];
+  dogGallery: { url: string; altText: string; }[] = [];
 
   get compatibilidadConOtrosAnimalesPercentage() {
 
@@ -364,11 +363,7 @@ export class PerrosRazaComponent implements OnDestroy {
     if (this.dog.gallery)
     {
 
-      const galleryHalf = Math.round(this.dog.gallery.length / 2);
-      const galleryCopy = [...this.dog.gallery];
-
-      this.dogGallery1 = galleryCopy
-                            .slice(0, galleryHalf + 1)
+      this.dogGallery = this.dog.gallery
                             .map(
                               (imageUrl, index) =>  {
                                 return {
@@ -378,16 +373,6 @@ export class PerrosRazaComponent implements OnDestroy {
                               }
                             )
 
-      this.dogGallery2 = galleryCopy
-                            .slice(galleryHalf + 1, galleryCopy.length)
-                            .map(
-                              (imageUrl, index) =>  {
-                                return {
-                                  url: imageUrl,
-                                  altText: this.dog.name + ': Foto n° ' + (index + 1)
-                                }
-                              }
-                            )
      }
 
   }
