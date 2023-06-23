@@ -59,6 +59,7 @@ export class PerrosRazaComponent implements OnDestroy {
     soporta_clima_frio: '-',
     tendencia_a_ladrar: '-',
     tolerancia_a_la_soledad: '-',
+    gallery: []
   };
 
   dogGallery: { url: string; altText: string; }[] = [];
@@ -360,20 +361,12 @@ export class PerrosRazaComponent implements OnDestroy {
 
   private setDogGalleries() {
 
-    if (this.dog.gallery)
-    {
-
-      this.dogGallery = this.dog.gallery
-                            .map(
-                              (imageUrl, index) =>  {
-                                return {
-                                  url: imageUrl,
-                                  altText: this.dog.name + ': Foto n° ' + (index + 1)
-                                }
-                              }
-                            )
-
-     }
+      this.dogGallery = this.dog.gallery.map((imageUrl, index) =>  {
+        return {
+          url: imageUrl,
+          altText: this.dog.name + ': Foto n° ' + (index + 1)
+        }
+      })
 
   }
 

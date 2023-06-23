@@ -1,16 +1,16 @@
 <div class="carousel-container">
-  <button class="carousel-button carousel-button--prev" (click)="prev()">
+  <button *ngIf="!shouldHideControls" class="carousel-button carousel-button--prev" (click)="prev()">
     <i class="fa-solid fa-chevron-left"></i>
   </button>
-  <div class="carousel-content no-scrollbar" #carousel (scroll)="onScroll($event)">
+  <div class="carousel-content no-scrollbar" [ngStyle]="{'justify-content': shouldHideControls ? 'center' : 'flex-start'}" #carousel (scroll)="onScroll($event)">
     <div class="carousel-slide" *ngFor="let image of images; let i = index">
       <img [src]="image.url" [alt]="image.altText" loading="lazy">
     </div>
   </div>
-  <button class="carousel-button carousel-button--next" (click)="next()">
+  <button *ngIf="!shouldHideControls" class="carousel-button carousel-button--next" (click)="next()">
     <i class="fa-solid fa-chevron-right"></i>
   </button>
-  <div class="carousel-indicators">
+  <div *ngIf="!shouldHideControls" class="carousel-indicators">
     <div class="indicator u-pointer" *ngFor="let n of slideIndicators; let i = index;"
          [class.active]="i === activeIndex" (click)="goToSlide(i, $event)"></div>
   </div>

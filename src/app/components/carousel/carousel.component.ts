@@ -1,12 +1,13 @@
 import { isPlatformBrowser } from '@angular/common';
-import { Component, ViewChild, ElementRef, Input, HostListener, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, ViewChild, ElementRef, Input, HostListener, Inject, OnChanges, SimpleChanges, PLATFORM_ID } from '@angular/core';
+
 
 @Component({
   selector: 'carousel',
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.scss']
 })
-export class CarouselComponent {
+export class CarouselComponent implements OnChanges {
 
   @ViewChild('carousel') carousel?: ElementRef;
 
@@ -23,7 +24,20 @@ export class CarouselComponent {
     return Array(Math.ceil(this.images.length / this.imagesPerView)).fill(0);
   }
 
+  get shouldHideControls(): boolean {
+    return this.images.length <= this.imagesPerView;
+  }
+
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes['images'] && changes['images'].currentValue !== changes['images'].previousValue && this.carousel) {
+      setTimeout(() => {
+        this.carousel!.nativeElement.scrollTo({ left: 0, behavior: 'smooth' });
+        this.activeIndex = 0;
+      }, 0);
+    }
+  }
 
   calculateImagesPerView() {
     if (isPlatformBrowser(this.platformId))
