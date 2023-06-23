@@ -1,6 +1,4 @@
-import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable, signal } from '@angular/core';
-import { Observable, switchMap } from 'rxjs';
 import { Dog } from '../interfaces/dog.interface';
 import { DOG_LIST } from '../db/perros.db';
 import { UtilitiesService } from './utilities.service';
@@ -12,7 +10,7 @@ export class PerrosService {
 
   dogListSignal = signal(DOG_LIST);
 
-  constructor(private http: HttpClient, private utilitiesService: UtilitiesService) {}
+  constructor(private utilitiesService: UtilitiesService) {}
 
 
   filterBySearchTerm(perrosActiclesList: Dog[], searchTerm: string) {
