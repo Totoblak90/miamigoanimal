@@ -1,7 +1,6 @@
 import { isPlatformBrowser } from '@angular/common';
 import { Component, ViewChild, ElementRef, Input, HostListener, Inject, OnChanges, SimpleChanges, PLATFORM_ID } from '@angular/core';
 
-
 @Component({
   selector: 'carousel',
   templateUrl: './carousel.component.html',
@@ -12,7 +11,8 @@ export class CarouselComponent implements OnChanges {
   @ViewChild('carousel') carousel?: ElementRef;
 
   @Input() images: { url: string, altText: string}[] = [];
-  activeIndex = 0; // índice activo para los indicadores
+  activeIndex = 0;
+  windowSize?: number;
 
   private _imagesPerView = this.calculateImagesPerView();
 
@@ -21,14 +21,30 @@ export class CarouselComponent implements OnChanges {
   }
 
   get slideIndicators(): number[] {
-    return Array(Math.ceil(this.images.length / this.imagesPerView)).fill(0);
+
+    if (isPlatformBrowser(this.platformId)) {
+      let imagesPerGroup = 1;
+      if (this.windowSize || 0 > 900) {
+        imagesPerGroup = 3;
+      } else if (this.windowSize || 0 > 600) {
+        imagesPerGroup = 2;
+      }
+
+      return Array(Math.ceil(this.images.length / imagesPerGroup)).fill(0);
+    }
+
+    return [];
   }
 
   get shouldHideControls(): boolean {
     return this.images.length <= this.imagesPerView;
   }
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {
+    if (isPlatformBrowser(this.platformId)) {
+      this.windowSize = window.innerWidth;
+    }
+  }
 
   ngOnChanges(changes: SimpleChanges) {
     if (changes['images'] && changes['images'].currentValue !== changes['images'].previousValue && this.carousel) {
@@ -45,11 +61,11 @@ export class CarouselComponent implements OnChanges {
 
       const width = window.innerWidth;
 
-      if (width <= 900) { // Si el ancho es <= 600px, mostrar 1 imagen a la vez
+      if (width <= 900) {
         return 1;
-      } else if (width <= 1200) { // Si el ancho es <= 900px, mostrar 2 imágenes a la vez
+      } else if (width <= 1200) {
         return 2;
-      } else { // Si el ancho es > 900px, mostrar 3 imágenes a la vez
+      } else {
         return 3;
       }
 
@@ -59,15 +75,13 @@ export class CarouselComponent implements OnChanges {
   }
 
   onScroll(event: any) {
-    const percentage = Math.round(
-      (event.target.scrollLeft / event.target.scrollWidth) * (this.images.length / this.imagesPerView)
-    );
-    this.activeIndex = percentage; // Actualiza el índice activo cuando se desplaza
+    const indicatorIndex = Math.round((event.target.scrollLeft / event.target.scrollWidth) * this.slideIndicators.length);
+    this.activeIndex = indicatorIndex;
   }
 
   goToSlide(index: number, ev: Event) {
     ev.stopPropagation();
-    const scrollPosition = this.carousel?.nativeElement.clientWidth * index * this.imagesPerView;
+    const scrollPosition = this.carousel?.nativeElement.clientWidth * index;
     this.carousel?.nativeElement.scrollTo({
       left: scrollPosition,
       behavior: 'smooth'
@@ -77,6 +91,7 @@ export class CarouselComponent implements OnChanges {
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
     this._imagesPerView = this.calculateImagesPerView();
+    this.windowSize = window.innerWidth;
   }
 
   prev() {
