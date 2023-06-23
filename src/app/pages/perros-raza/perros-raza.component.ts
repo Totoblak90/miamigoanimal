@@ -364,9 +364,10 @@ export class PerrosRazaComponent implements OnDestroy {
     if (this.dog.gallery)
     {
 
-      const galleryHalf = this.dog.gallery.length / 2;
+      const galleryHalf = Math.round(this.dog.gallery.length / 2);
+      const galleryCopy = [...this.dog.gallery];
 
-      this.dogGallery1 = this.dog.gallery
+      this.dogGallery1 = galleryCopy
                             .slice(0, galleryHalf + 1)
                             .map(
                               (imageUrl, index) =>  {
@@ -377,8 +378,8 @@ export class PerrosRazaComponent implements OnDestroy {
                               }
                             )
 
-      this.dogGallery2 = this.dog.gallery
-                            .slice(galleryHalf + 1, this.dog.gallery.length)
+      this.dogGallery2 = galleryCopy
+                            .slice(galleryHalf + 1, galleryCopy.length)
                             .map(
                               (imageUrl, index) =>  {
                                 return {
@@ -387,7 +388,6 @@ export class PerrosRazaComponent implements OnDestroy {
                                 }
                               }
                             )
-
      }
 
   }

@@ -3,31 +3,61 @@
 
 .carousel-container {
   display: flex;
-  overflow: hidden; // Esto esconde cualquier parte de la imagen que no encaje en el contenedor
+  overflow: hidden;
   position: relative;
-  height: 100%; // Esto hace que el contenedor ocupe todo el alto disponible
+  height: 100%;
+  border-radius: 3px;
 }
 
 .carousel-content {
   display: flex;
   overflow-x: auto;
-  scroll-snap-type: x mandatory; // Esto hace que el carrusel se desplace en "incrementos"
+  scroll-snap-type: x mandatory;
   width: 100%;
-  height: 100%; // Esto hace que el contenido del carrusel ocupe todo el alto del contenedor
+  height: 100%;
+}
 
-  > * {
-    flex: 1 1 auto; // Esto hace que cada diapositiva crezca para llenar el contenedor
-    display: flex; // Esto hace que la diapositiva sea un flexbox
-    overflow: hidden; // Esto esconde cualquier parte de la imagen que no encaje en la diapositiva
-    position: relative;
+.carousel-slide {
+  position: relative;
 
-    img {
-      object-fit: cover; // Esto hace que la imagen mantenga su relación de aspecto
-      object-position: center; // Esto hace que la imagen se posicione en el centro de la diapositiva
-      width: 100%; // Esto hace que la imagen ocupe todo el ancho de la diapositiva
-      height: 100%; // Esto hace que la imagen ocupe todo el alto de la diapositiva
-    }
+  flex: 0 0 33.33%; // Esto asegura que las diapositivas no crezcan para llenar el contenedor y que haya 3 diapositivas en ordenadores
+  width: 33.33%; // Esto hace que cada diapositiva ocupe el 33.33% del ancho del contenedor
+  display: flex;
+  justify-content: center; // Esto centra la imagen horizontalmente
+  align-items: center; // Esto centra la imagen verticalmente
+  scroll-snap-align: start; // Esto ayuda con el desplazamiento suave
+  height: 300px; // Esto hace que cada diapositiva ocupe 300px de alto
+  overflow: hidden;
+  border-radius: 3px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  transition: transform 0.3s ease-out;
+
+  pointer-events: none;
+
+  &:not(:last-child) {
+    margin-right: 1rem;
   }
+
+  @include respond(tab-land) {
+    flex: 0 0 50%; // 2 imágenes
+    width: 50%;
+  }
+
+  @include respond(tab-port) {
+    flex: 0 0 100%; // 1 imágen
+    width: 100%;
+    margin-right: 0;
+  }
+
+}
+
+.carousel-slide img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
 }
 
 .carousel-button {
@@ -42,6 +72,12 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 1000;
+
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $color-grey-light-2;
+  }
 }
 
 .carousel-button--prev {
@@ -50,4 +86,27 @@
 
 .carousel-button--next {
   right: 0;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carousel-indicators .indicator {
+  width: 10px;
+  height: 10px;
+  background-color: $color-grey-dark; /* color que deseas cuando está inactivo */
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-indicators .indicator.active {
+  background-color: $color-extra; /* color que deseas cuando está activo */
 }
