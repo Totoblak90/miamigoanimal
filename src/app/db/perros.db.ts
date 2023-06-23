@@ -14040,7 +14040,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
     ],
     gallery: ['https://cdn2.thedogapi.com/images/ByrmQlqVm_390x256.jpg'],
   },
-  // Checkpoint
   106: {
     weight: {
       imperial: '12 - 18',
@@ -14079,10 +14078,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     country_code: 'CN',
     description: `
-
+      El Lhasa Apso es una raza de perro pequeña pero robusta, originaria de las montañas del Himalaya, en el Tíbet. Durante siglos, estos perros han sido guardianes de palacios y monasterios, una tarea que han desempeñado con gran dedicación y eficacia. Esta raza es conocida por su inteligencia, confianza y personalidad multifacética, que se manifiesta en una variedad de comportamientos y actitudes.
+      <br>
+      <br>
+      Los Lhasa Apsos son perros de tamaño pequeño, con una altura que oscila entre los 22 y 28 cm y un peso que ronda entre los 6 y 8 kg. Su cuerpo está bien equilibrado, con una cola enroscada sobre la espalda y una cabeza erguida que siempre se mantiene alta. Sus ojos oscuros y ovalados están siempre alerta, observando su entorno con una mirada penetrante.
+      <br>
+      <br>
+      El pelaje del Lhasa Apso es uno de sus rasgos más característicos. Largo, denso y sedoso, este pelaje puede presentar una variedad de colores. Aunque es de baja muda, requiere de un cuidado y aseo regular para mantenerlo en las mejores condiciones. Muchos dueños optan por cortarles el pelo para facilitar su cuidado, pero un Lhasa Apso con su pelaje largo y bien cuidado es una vista impresionante.
+      <br>
+      <br>
+      En cuanto a su personalidad, los Lhasa Apsos son perros inteligentes y confiados, que a menudo muestran un comportamiento cómico que alegra a sus familias. Sin embargo, también pueden ser reservados con los extraños, manteniendo una actitud digna y distante hacia las personas que no conocen. Esta dualidad en su naturaleza, siendo a la vez perros guardianes y compañeros cariñosos, es uno de los aspectos más fascinantes de la raza.
+      <br>
+      <br>
+      Los Lhasa Apsos son perros activos que requieren un ejercicio moderado para mantenerse saludables y felices. A pesar de su tamaño, disfrutan de los paseos y de la oportunidad de explorar su entorno. Sin embargo, también son perros que pueden adaptarse bien a la vida en un apartamento, siempre y cuando se les proporcione suficiente actividad física y mental.
+      <br>
+      <br>
+      En cuanto a su salud, los Lhasa Apsos son generalmente perros saludables, aunque pueden ser propensos a ciertos problemas de salud hereditarios. Una dieta de alta calidad es importante para mantener su pelaje espeso y saludable, así como para prevenir problemas de salud relacionados con la alimentación.
+      <br>
+      <br>
+      La historia del Lhasa Apso se remonta a su desarrollo en el Tíbet, donde eran asociados con el budismo y los sacerdotes tibetanos. Esta raza de perro es considerada sagrada en su tierra natal, y se cree que los Lhasa Apsos son la reencarnación de los lamas tibetanos.
+      <br>
+      <br>
+      En resumen, el Lhasa Apso es una raza de perro pequeña pero llena de personalidad, que puede ser un gran añadido para la familia adecuada. Su inteligencia, su lealtad y su carácter juguetón hacen de ellos excelentes compañeros, mientras que su actitud reservada y digna los convierte en eficaces perros guardianes. Sin embargo, también son perros que requieren de un cuidado y atención constantes, especialmente en lo que respecta a su pelaje. Con el cuidado y el amor adecuados, un Lhasa Apso puede ser un amigo leal y un miembro valioso de cualquier familia.
     `,
     history: `
-
+      El Lhasa Apso es una raza de perro de pequeño tamaño, originaria del Tíbet, una región que se encuentra en las alturas del Himalaya. Su historia es tan antigua como fascinante, y se remonta a más de 2000 años atrás, alrededor del 800 a.C. Durante siglos, estos perros han sido los guardianes de los palacios y monasterios tibetanos, siempre alerta ante la presencia de extraños y dispuestos a dar la alarma en caso de peligro. En su tierra natal, los Lhasa Apsos son considerados símbolos de suerte y se les tiene en alta estima.
+      <br>
+      <br>
+      El nombre de la raza, Lhasa Apso, tiene un significado muy especial. Lhasa es la capital del Tíbet, mientras que Apso significa "perro lanudo". Por lo tanto, el nombre completo de la raza podría traducirse como "perro lanudo de Lhasa". Este nombre hace referencia a su característico pelaje largo y denso, que les sirve para protegerse de las bajas temperaturas y de la radiación solar en las altitudes del Himalaya.
+      <br>
+      <br>
+      Los Lhasa Apsos son perros pequeños pero robustos, con una estructura sólida y un cuerpo que tiende a ser más largo que alto. Su peso suele rondar los 8-9 kg, y su altura ideal en la cruz es de unos 25-28 cm. Su cola es alta y está cubierta de pelo, al igual que el resto de su cuerpo. Su pelaje puede presentar una amplia variedad de colores, incluyendo arena, miel, oro, negro, gris, blanco, o parti-color (blanco combinado con otro color), siendo el dorado el más común.
+      <br>
+      <br>
+      En cuanto a su temperamento, los Lhasa Apsos son perros alerta, alegres, juguetones, orientados a la comida, tercos y algo desconfiados con los extraños. Tardan en hacer amigos, pero una vez que lo hacen, el vínculo que forman suele ser muy fuerte. Son perros vigilantes que protegen su hogar y alertan a sus dueños ante cualquier cosa inusual. Por esta razón, es importante socializarlos desde una edad temprana para prevenir problemas de dominancia con otros perros.
+      <br>
+      <br>
+      La historia del Lhasa Apso está llena de misticismo y espiritualidad. En el Tíbet, se considera que estos perros son amuletos de la suerte y se les tiene en alta estima. Los monjes budistas a menudo los regalaban a altos funcionarios de otros países como muestra de respeto y buena voluntad. A pesar de haber estado al borde de la extinción debido a la Segunda Guerra Mundial y al cierre de fronteras en el Tíbet, la raza pudo recuperarse y encontrar popularidad en el Reino Unido y Estados Unidos. Hoy en día, el Lhasa Apso es una de las razas más demandadas como animal de compañía, apreciado por su lealtad, su carácter afable y su aspecto distintivo.
     `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
@@ -14104,8 +14136,22 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Atrofia progresiva de la retina',
       'Problemas de piel y alergias',
     ],
-    searchTerms: ['Lhasa Apso', 'Perro pequeño', 'Perro de compañía'],
+    searchTerms: [
+      'Lhasa Apso',
+      'Perro pequeño',
+      'Perro de compañía',
+      "Lhasa Apso", "Lasa Apso", "Lhasa", "Apso", "Lasa", "Perro tibetano", "Perro de compañía", "Perro de alerta", "Perro lanudo", "Perro de pelo largo", "Perro pequeño", "Perro robusto", "Perro guardián", "Perro de palacio", "Perro de monasterio", "Perro de la suerte", "Perro sagrado", "Perro de regalo", "Perro de montaña", "Perro de altura", "Perro de frio", "Perro de sol", "Perro de pelo denso", "Perro de pelo dorado", "Perro de pelo arena", "Perro de pelo miel", "Perro de pelo negro", "Perro de pelo gris", "Perro de pelo blanco", "Perro de pelo parti-color"
+    ],
     gallery: ['https://cdn2.thedogapi.com/images/SJp7Qe5EX_390x256.jpg'],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Alta",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": ["https://en.wikipedia.org/wiki/Lhasa_Apso", "https://www.hillspet.com/dog-care/dog-breeds/lhasa-apso"]
   },
   107: {
     weight: {
@@ -14142,12 +14188,43 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 453,
       url: 'https://cdn2.thedogapi.com/images/B1SV7gqN7.jpg',
     },
-    searchTerms: ['Maltés', 'Perro pequeño', 'Perro de regazo'],
     country_code: 'MT', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El maltés es una pequeña raza de perro conocida por su pelaje blanco y lujoso. Son perros juguetones y cariñosos, conocidos por ser excelentes perros de regazo.',
-    history:
-      'Los malteses son una de las razas más antiguas, con una historia que se remonta a más de 2000 años. Originarios del Mediterráneo central, eran valorados por su compañía y se consideraban un signo de estatus y lujo.',
+    description: `
+      El Maltés es una raza de perro pequeña, aristocrática y de tipo juguete, que se distingue por sus ojos oscuros y su largo y sedoso pelaje blanco puro. Su tamaño no suele superar los 25 cm de altura y su peso oscila entre 1.8 y 2.7 kg. Esta raza es conocida por su naturaleza expresiva y su alerta constante. Aunque puede ser un ladrador, el Maltés puede ser entrenado para no ladrar innecesariamente.
+      <br>
+      <br>
+      El Maltés es una raza adecuada para propietarios inexpertos y requiere un entrenamiento básico. Disfruta de paseos suaves de unos treinta minutos al día. Este perro es considerado un mini perro de tamaño juguete con una mínima tendencia a babear. Su pelaje largo e hipoalergénico requiere un aseo diario. A pesar de su pequeño tamaño, el Maltés es conocido por ser un buen compañero para otras mascotas y es un perro orientado a la familia.
+      <br>
+      <br>
+      El Maltés es una de las razas más antiguas conocidas, con sus orígenes que se remontan a 6000 a.C. según Charles Darwin. Pertenece a la familia de los bichones, perros originarios de la región mediterránea. Se dice que Publio, el gobernador romano de Malta en el siglo I d.C., tenía un perro tipo Maltés llamado Issa. A lo largo de la historia, la raza ha sido muy valorada por la realeza y la aristocracia, apareciendo en retratos de la reina Isabel I de Inglaterra y otros miembros de la realeza. Según la leyenda, la reina María de Escocia tenía un Maltés escondido bajo sus faldas cuando fue decapitada.
+      <br>
+      <br>
+      El Maltés es un perro sociable, inteligente y cariñoso, lo que lo convierte en un excelente compañero. Es adecuado para hogares con niños mayores, requiere un ejercicio mínimo y se beneficia de paseos diarios. Los métodos de entrenamiento con refuerzo positivo funcionan bien con ellos, y son ideales para la terapia canina. Aunque se adaptan a la vida en apartamentos, disfrutan de las actividades al aire libre. El cuidado incluye proporcionar una dieta nutritiva y un aseo adecuado, especialmente durante su etapa de cachorro.
+      <br>
+      <br>
+      El Maltés tiene un cuerpo compacto, pesa entre 3 y 4 kilogramos, y posee un largo y sedoso pelaje blanco con algunas manchas. Tienen una cabeza de tamaño medio, nariz negra, ojos grandes y marrones oscuros, orejas caídas y una cola curvada cubierta de abundante pelo. Aunque se consideran hipoalergénicos, requieren mantenimiento. La raza es generalmente saludable, pero puede tener problemas de rodilla y ojo. La esperanza de vida media es de alrededor de 12.3 años, siendo el cáncer, los problemas relacionados con la edad y las enfermedades del corazón las causas más comunes de muerte.
+      <br>
+      <br>
+      En resumen, el Maltés es un perro pequeño, de apariencia distinguida, con un pelaje largo y blanco que requiere cuidados regulares.
+    `,
+    history: `
+      La historia del Maltés es tan antigua como fascinante, y se remonta a más de 28 siglos. Esta raza es una de las más antiguas y ha sido muy apreciada a lo largo de la historia por su belleza y su encanto. El Maltés tiene sus raíces en la región del Mediterráneo central, y se asocia con frecuencia con Italia y, en particular, con la isla de Malta, de la que toma su nombre.
+      <br>
+      <br>
+      Los primeros registros de esta raza se remontan a la antigüedad, con referencias que aparecen en escritos de académicos y artistas griegos y egipcios. Se cree que los perros de tipo maltés existían ya en el 6000 a.C., y que fueron criados por los egipcios, que los consideraban animales sagrados. Los perros malteses también se mencionan en los escritos de Aristóteles, que los describió como pequeños perros "nubeculares", una referencia a su pelaje blanco y esponjoso que se asemeja a las nubes.
+      <br>
+      <br>
+      A lo largo de la historia, el Maltés ha sido muy valorado por la realeza y la aristocracia. Se dice que Publio, el gobernador romano de Malta en el siglo I d.C., tenía un perro de tipo maltés llamado Issa, al que adoraba tanto que encargó un retrato y escribió poemas sobre ella. Durante la época del Renacimiento, los perros malteses eran muy populares entre la nobleza europea, y aparecen en retratos de la reina Isabel I de Inglaterra y otros miembros de la realeza. Según la leyenda, la reina María de Escocia tenía un Maltés escondido bajo sus faldas cuando fue decapitada.
+      <br>
+      <br>
+      En el siglo XIX, la raza estuvo al borde de la extinción debido a los intentos de criar perros cada vez más pequeños. Sin embargo, gracias a los esfuerzos de los criadores, que cruzaron la raza con otros perros pequeños como los Spaniels y los Poodles en miniatura, la raza se salvó y se estableció el estándar de la raza que conocemos hoy.
+      <br>
+      <br>
+      El Maltés fue reconocido oficialmente por el American Kennel Club en 1888, y desde entonces ha sido una raza popular en todo el mundo, tanto en exposiciones caninas como en hogares. A pesar de su pequeño tamaño, el Maltés es conocido por su valentía y su lealtad, y a menudo se le describe como un "perro grande en un cuerpo pequeño".
+      <br>
+      <br>
+      Hoy en día, el Maltés es apreciado como un perro de compañía por su carácter afectuoso, su inteligencia y su hermoso pelaje blanco. Aunque requiere un cuidado regular del pelaje y un compromiso con su socialización y entrenamiento, el Maltés es un perro encantador que aporta alegría y compañía a muchos hogares en todo el mundo.
+    `,
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Buen perro de regazo',
@@ -14167,6 +14244,57 @@ export const DOG_LIST: { [key: number]: Dog } = {
     popularidad: 'Alta',
     enfermedades_comunes: ['Problemas dentales', 'Luxación de la rótula'],
     gallery: ['https://cdn2.thedogapi.com/images/B1SV7gqN7_390x256.jpg'],
+    searchTerms: [
+      'Maltés',
+      'Perro pequeño',
+      'Perro de regazo',
+      'Maltes',
+      'Maltez',
+      'Maltese',
+      'Bichón Maltés',
+      'Bichon Maltes',
+      'Bichon Maltez',
+      'Bichón Maltez',
+      'Perro Maltés',
+      'Perro Maltes',
+      'Perro Maltez',
+      'Perro Bichón Maltés',
+      'Perro Bichon Maltes',
+      'Perro Bichon Maltez',
+      'Perro Bichón Maltez',
+      'Perro pequeño',
+      'Perro de compañía',
+      'Perro para familia',
+      'Perro para niños',
+      'Perro para interior',
+      'Perro para apartamento',
+      'Perro blanco',
+      'Perro de pelo largo',
+      'Perro hipoalergénico',
+      'Perro juguetón',
+      'Perro cariñoso',
+      'Perro inteligente',
+      'Perro sociable',
+      'Perro de Malta',
+      'Perro Mediterráneo'
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+    {
+    nombre: 'Issa',
+    caso: 'Perro de Publius, el gobernador romano de Malta en el siglo I d.C.'
+    }
+    ],
+    fuentes: [
+    'https://en.wikipedia.org/wiki/Maltese_dog',
+    'https://www.akc.org/expert-advice/dog-breeds/maltese-toy-dog-myth-legend/'
+    ]
   },
   108: {
     weight: {
@@ -14191,16 +14319,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 640,
       url: 'https://cdn2.thedogapi.com/images/BkHHQgcN7.jpg',
     },
-    searchTerms: [
-      'Pastor Americano Miniatura',
-      'Perro pastor',
-      'Perro inteligente',
-    ],
     country_code: 'US', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Pastor Americano Miniatura es una raza de perro de pastoreo activa y enérgica. Son inteligentes y fáciles de entrenar, lo que los hace excelentes perros de trabajo y compañía.',
-    history:
-      'El Pastor Americano Miniatura se originó en los Estados Unidos en la década de 1980 como una versión más pequeña del Pastor Australiano. Se crían para el pastoreo y todavía son muy valorados por sus habilidades de trabajo.',
+    description: `
+      El Pastor Americano Miniatura, también conocido como Pastor Australiano Miniatura o Mini Aussie, es una raza de perro de tamaño pequeño a mediano que se originó a partir de los Pastores Australianos. A pesar de compartir similitudes con el Pastor Australiano, es reconocido como una raza independiente.
+      <br>
+      <br>
+      Desarrollado en California a finales de la década de 1960, el Pastor Americano Miniatura tiene un cuerpo compacto, extremidades fuertes y una cola larga y espesa. Su cabeza es pequeña, con orejas triangulares de tamaño medio y ojos de forma almendrada. El pelaje de esta raza es de doble capa, viene en varios colores y requiere un aseo regular.
+      <br>
+      <br>
+      Con su temperamento sociable e inteligente, el Pastor Americano Miniatura prospera con dueños activos que proporcionan ejercicio, tiempo de juego y estimulación mental. El cuidado adecuado incluye una dieta equilibrada, aseo regular y atención a la salud de los oídos, los ojos y los dientes. Aunque generalmente es una raza saludable, puede ser propensa a ciertas condiciones.
+      <br>
+      <br>
+      El Pastor Americano Miniatura es un perro cariñoso, activo e inteligente que disfruta pasando tiempo con sus dueños y participando en actividades al aire libre. Fue desarrollado para crear una versión más pequeña del Pastor Australiano. Tiene un cuerpo largo, pesa entre 9 y 14 kg y tiene una altura de 30-43 cm para las hembras y 35-45 cm para los machos. La raza tiene un cuello fuerte, vientre compacto, pecho ancho y extremidades bien equilibradas.
+      <br>
+      <br>
+      La cola del Pastor Americano Miniatura es naturalmente larga y espesa. Tiene una cabeza pequeña con una nariz que coincide con el color de su pelaje, orejas triangulares de tamaño medio y ojos de forma almendrada. El pelaje de la raza es de doble capa, de longitud media a larga y denso, con más pelo en las patas y la cola. Los colores aceptados incluyen negro, merle azul, rojo, hígado, merle rojo y merle hígado, con varios patrones.
+      <br>
+      <br>
+      El Pastor Americano Miniatura tiene un temperamento sociable, activo, inteligente, cariñoso, leal y protector. Requiere un dueño activo que pueda proporcionar ejercicio diario, tiempo de juego y estimulación mental. El entrenamiento es relativamente fácil debido a su inteligencia y disposición para aprender, y se recomiendan métodos de refuerzo positivo. El cuidado adecuado incluye ejercicio regular, una dieta equilibrada, aseo, higiene de los oídos, ojos y dientes, y chequeos veterinarios regulares. La raza es generalmente saludable pero puede ser propensa a ciertas condiciones.
+      <br>
+      <br>
+      Son perros amigables y aventureros que se llevan bien con los niños y otras mascotas. Su pelaje de longitud media requiere un cepillado regular. Estos perros altamente inteligentes prosperan con la estimulación mental y el ejercicio. Las preocupaciones de salud comunes incluyen la displasia de cadera, la atrofia progresiva de la retina (PRA) y la sensibilidad a los medicamentos. La alimentación debe ser medida para prevenir la obesidad, y la orientación de los criadores o veterinarios es beneficiosa. La raza es adecuada para los deportes caninos y puede ser un gran perro de familia, pero requiere estimulación mental y ejercicio para prevenir el comportamiento destructivo.
+      <br>
+      <br>
+      En resumen, el Pastor Americano Miniatura es una raza de perro versátil y adaptable que hace un excelente compañero. Son perros que requieren un dueño comprometido y activo para satisfacer sus necesidades. A pesar de su tamaño pequeño, son perros valientes y llenos de energía, siempre listos para una aventura. Su inteligencia y su deseo de complacer hacen que el entrenamiento sea una tarea gratificante. Con el cuidado y el amor adecuados, un Pastor Americano Miniatura puede ser un maravilloso añadido a cualquier hogar.
+    `,
+    history: `
+      El Pastor Americano Miniatura, también conocido como Pastor Australiano Miniatura o Mini Aussie, es una raza de perro de tamaño pequeño que se originó a partir de los Pastores Australianos. Aunque comparte similitudes con el Pastor Australiano, es reconocido como una raza independiente por varias organizaciones.
+      <br>
+      <br>
+      Este perro activo e inteligente disfruta pasando tiempo con sus cuidadores y participando en actividades al aire libre. La raza tiene una constitución muscular, una cabeza pequeña y orejas triangulares de tamaño medio. Su pelaje es de longitud media a larga, denso y viene en varios colores. El Pastor Americano Miniatura tiene un temperamento sociable, cariñoso y protector y requiere una socialización y entrenamiento adecuados. El aseo regular, la higiene dental y el ejercicio son esenciales para su bienestar. Tienen una esperanza de vida de hasta 14 años y pueden ser propensos a ciertos problemas de salud. Las opciones de adopción se pueden encontrar en las Américas, y los futuros propietarios deben estar comprometidos a satisfacer sus necesidades para una compañía feliz y satisfactoria.
+      <br>
+      <br>
+      El Pastor Americano Miniatura es una pequeña raza de pastoreo desarrollada en los Estados Unidos a partir de Pastores Australianos más pequeños. Son perros enérgicos, versátiles e inteligentes con un pelaje distintivo en varios colores. Los Pastores Americanos Miniatura tienen una expresión alerta e inteligente, sobresalen en disciplinas deportivas y se convierten en compañeros juguetones una vez que se familiarizan. Son adecuados para la vida urbana pero requieren ejercicio regular. Los criadores responsables priorizan las pruebas de salud. El aseo implica un cepillado regular. La raza es altamente entrenable y se beneficia de una socialización temprana. Prosperan en varios eventos caninos. La compatibilidad con los niños, otras mascotas y la vida en apartamentos depende del temperamento individual y la socialización. La raza se caracteriza por su versatilidad, inteligencia y amabilidad con los niños. Tiene un cuerpo compacto, pelaje de longitud media y movimiento fluido. Las desviaciones de los criterios estándar se consideran faltas, con faltas descalificantes que incluyen agresión y tamaño incorrecto. Los perros saludables con conformación típica deben ser utilizados para la cría.
+      <br>
+      <br>
+      El Pastor Americano Miniatura es una raza que se originó en los Estados Unidos a partir del Pastor Australiano estándar. Fue desarrollado criando Pastores Australianos más pequeños para crear una versión más pequeña de la raza mientras se mantenía su adorable carácter, inteligencia y actividad. La raza es reconocida por el American Kennel Club (AKC) y la Fédération Cynologique Internationale (FCI). Los Pastores Americanos Miniatura son perros versátiles que sobresalen en varios deportes y actividades, incluyendo agilidad, obediencia y pastoreo. Son sociables, inteligentes, ágiles, cariñosos y amigables. El ejercicio diario y la estimulación mental son esenciales para esta raza enérgica. La raza es generalmente saludable pero puede ser propensa a ciertas condiciones como el defecto MDR1, la anomalía del ojo del collie, las cataratas y la atrofia progresiva de la retina. Se siguen prácticas de cría responsables para mantener el estándar de la raza y garantizar la salud de los perros. Los Pastores Americanos Miniatura tienen una apariencia similar a los Pastores Australianos estándar pero son más pequeños en tamaño. Vienen en varios colores, y su pelaje de longitud media es fácil de cuidar. La altura de la raza varía de 33 a 46 cm, y pueden pesar hasta 14 kg. La esperanza de vida promedio del Pastor Americano Miniatura es de alrededor de 13 años. La raza es conocida por su compatibilidad con los niños y otros animales y es adecuada para individuos o familias activas.
+      <br>
+      <br>
+      En resumen, el Pastor Americano Miniatura es una raza de perro que ha evolucionado a lo largo del tiempo, adaptándose a las necesidades cambiantes de los dueños de perros. Aunque su origen se encuentra en los Pastores Australianos, ha sido reconocido como una raza independiente debido a sus características únicas. A lo largo de su historia, el Pastor Americano Miniatura ha demostrado ser un perro versátil, capaz de adaptarse a una variedad de roles, desde perro de trabajo hasta compañero de familia. Su inteligencia, su disposición amigable y su tamaño manejable han contribuido a su popularidad y continúan haciéndolo una opción atractiva para los dueños de perros hoy en día.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Perro de pastoreo',
@@ -14221,6 +14379,55 @@ export const DOG_LIST: { [key: number]: Dog } = {
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
     gallery: ['https://cdn2.thedogapi.com/images/BkHHQgcN7_390x256.jpg'],
+    searchTerms: [
+      'Pastor Americano Miniatura',
+      'Perro pastor',
+      'Perro inteligente',
+      'Pastor Americano Miniatura',
+      'Pastor americano miniatura',
+      'pastor americano miniatura',
+      'Pastor Americano miniatura',
+      'pastor Americano Miniatura',
+      'Pastor americano Miniatura',
+      'pastor americano Miniatura',
+      'Pastor americano',
+      'pastor americano',
+      'Pastor Americano',
+      'pastor Americano',
+      'Miniatura',
+      'miniatura',
+      'Pastor',
+      'pastor',
+      'Americano',
+      'americano',
+      'Pastor miniatura',
+      'pastor miniatura',
+      'Pastor Miniatura',
+      'pastor Miniatura',
+      'Americano miniatura',
+      'americano miniatura',
+      'Americano Miniatura',
+      'americano Miniatura',
+      'Perro pastor',
+      'perro pastor',
+      'Perro Pastor',
+      'perro Pastor',
+      'Perro miniatura',
+      'perro miniatura'
+    ],
+    tendencia_a_ladrar: 'Moderada',
+necesidad_de_aseo: 'Moderada',
+soporta_clima_frio: 'Alta',
+soporta_clima_calido: 'Moderada',
+para_primerizos: 'Alta',
+bueno_con_ninos: 'Alta',
+tolerancia_a_la_soledad: 'Baja',
+casos_famosos: [],
+fuentes: [
+'https://www.expertoanimal.com/razas-de-perros/pastor-americano-miniatura-o-pastor-australiano-miniatura.html',
+'https://pt.wikipedia.org/wiki/Pastor_americano_miniatura',
+'https://smylepets.com/perros/razas/pastor-americano-miniatura/'
+]
   },
   109: {
     weight: {
@@ -14252,12 +14459,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1125,
       url: 'https://cdn2.thedogapi.com/images/Hy3H7g94X.jpg',
     },
-    searchTerms: ['Pinscher Miniatura', 'Perro juguete', 'Perro inteligente'],
     country_code: 'DE', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Pinscher Miniatura es una raza de perro pequeña y enérgica. Son inteligentes, juguetones y amigables, lo que los hace excelentes compañeros de familia y mascotas.',
-    history:
-      'El Pinscher Miniatura se originó en Alemania para cazar pequeñas plagas. A pesar de su tamaño pequeño, son valientes y tienen un gran instinto de caza.',
+    description: `
+      El Pinscher Miniatura es una raza de perro pequeña y robusta, originaria de Alemania. A pesar de su tamaño compacto, estos perros son conocidos por su energía y su espíritu valiente. Son una raza muy antigua, con raíces que se remontan a varios cientos de años. Aunque su nombre pueda sugerir que son simplemente una versión más pequeña del Doberman Pinscher, en realidad, el Pinscher Miniatura es una raza distinta y más antigua.
+      <br>
+      <br>
+      El Pinscher Miniatura es un perro de estructura cuadrada, lo que significa que su altura y longitud son aproximadamente iguales. Su peso varía entre 4 y 6 kilogramos, y su altura a la cruz es de unos 25 a 30 centímetros. A pesar de su pequeño tamaño, estos perros son fuertes y musculosos, con una apariencia elegante y una postura orgullosa.
+      <br>
+      <br>
+      La cabeza del Pinscher Miniatura es alargada y estrecha, con un hocico fuerte y una mordida de tijera. Sus ojos son oscuros y ovalados, y sus orejas pueden ser naturales o cortadas, dependiendo de las regulaciones de bienestar animal en el país en que se encuentren. En muchos lugares, el corte de orejas y cola ya no se permite.
+      <br>
+      <br>
+      El pelaje del Pinscher Miniatura es corto, liso y pegado al cuerpo. Aunque el color más común es el negro con marcas fuego, también pueden ser de un color rojo sólido. Este pelaje requiere un mínimo de aseo, aunque los baños regulares ayudarán a mantener su brillo.
+      <br>
+      <br>
+      En cuanto a su personalidad, los Pinscher Miniatura son perros vivaces y enérgicos, conocidos por su actitud alerta y su valentía. A pesar de su pequeño tamaño, no tienen miedo de enfrentarse a desafíos mucho más grandes que ellos. Son perros inteligentes y aprenden rápidamente, pero también pueden ser un poco obstinados. La socialización temprana y el entrenamiento de obediencia son esenciales para asegurar que crezcan para ser perros equilibrados y bien comportados.
+      <br>
+      <br>
+      Los Pinscher Miniatura son perros activos que requieren ejercicio regular para mantenerse felices y saludables. Les encanta jugar y correr, y son excelentes compañeros para las actividades al aire libre. A pesar de su energía, también son bastante adaptables y pueden vivir felizmente en un apartamento siempre y cuando se les dé suficiente ejercicio.
+      <br>
+      <br>
+      En cuanto a su salud, los Pinscher Miniatura son generalmente una raza saludable, pero pueden ser propensos a ciertas condiciones genéticas, incluyendo problemas de rodilla, enfermedades cardíacas y problemas de tiroides. Es importante comprar a un criador responsable que haga pruebas de salud a sus perros para minimizar el riesgo de estas condiciones.
+      <br>
+      <br>
+      En resumen, el Pinscher Miniatura es un perro pequeño con una gran personalidad. Son valientes, enérgicos y leales, y hacen excelentes compañeros para las personas que pueden darles el ejercicio y la estimulación mental que necesitan. Aunque pueden ser un poco tercos a veces, con la socialización y el entrenamiento adecuados, son una raza maravillosa y gratificante para tener.
+    `,
+    history: `
+      El Pinscher Miniatura, también conocido como Zwergpinscher y Mini Pin, es una raza de perro pequeña que se originó en Alemania. Aunque a menudo se le confunde con una versión en miniatura del Doberman Pinscher, en realidad son razas distintas con historias y características propias.
+      <br>
+      <br>
+      La historia del Pinscher Miniatura se remonta a varios siglos atrás en Alemania. Aunque los registros precisos de su desarrollo son escasos, se cree que sus antepasados pueden incluir al Pinscher Alemán, los Galgos Italianos y los Dachshunds. Estos perros fueron probablemente criados por su habilidad para cazar ratas y otros pequeños animales, una habilidad que el Pinscher Miniatura todavía posee hoy en día.
+      <br>
+      <br>
+      A lo largo de los siglos, estos perros fueron criados para ser cada vez más pequeños, hasta que finalmente se convirtieron en la raza compacta y enérgica que conocemos hoy. A pesar de su pequeño tamaño, el Pinscher Miniatura es un perro robusto y resistente, conocido por su presencia vivaz y su espíritu independiente.
+      <br>
+      <br>
+      El Pinscher Miniatura fue reconocido oficialmente como una raza por el American Kennel Club a principios del siglo XX, y desde entonces ha ganado popularidad en todo el mundo. Aunque sigue siendo una raza relativamente rara, es muy apreciado por su personalidad encantadora y su apariencia elegante.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Pinscher Miniatura es un perro valiente y seguro de sí mismo, con una personalidad que a menudo se describe como "más grande que su tamaño". Son perros inteligentes y alertas, con una fuerte voluntad y un deseo de independencia. Aunque pueden ser un poco tercos a veces, también son muy leales y cariñosos con sus familias.
+      <br>
+      <br>
+      El Pinscher Miniatura es un perro activo que requiere mucho ejercicio para mantenerse feliz y saludable. Les encanta jugar y correr, y son excelentes compañeros para las actividades al aire libre. A pesar de su energía, también son bastante adaptables y pueden vivir felizmente en un apartamento siempre y cuando se les dé suficiente ejercicio.
+      <br>
+      <br>
+      En resumen, la historia del Pinscher Miniatura es la de una raza de perro pequeña pero valiente, que ha sido apreciada durante siglos por su habilidad para cazar ratas y su personalidad encantadora. Aunque pueden ser un poco tercos a veces, con la socialización y el entrenamiento adecuados, son una raza maravillosa y gratificante para tener.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno para familias',
@@ -14278,7 +14525,56 @@ export const DOG_LIST: { [key: number]: Dog } = {
     popularidad: 'Alta',
     enfermedades_comunes: ['Problemas dentales', 'Luxación de rótula'],
     gallery: ['https://cdn2.thedogapi.com/images/Hy3H7g94X_390x256.jpg'],
+    searchTerms: [
+      'Pinscher Miniatura',
+      'Perro juguete',
+      'Perro inteligente',
+      'Pinscher miniatura',
+      'pinscher miniatura',
+      'Pinscher',
+      'pinscher',
+      'Miniatura',
+      'miniatura',
+      'Zwergpinscher',
+      'zwergpinscher',
+      'Mini Pin',
+      'mini pin',
+      'Pinscher Aleman',
+      'pinscher aleman',
+      'Perro Aleman',
+      'perro aleman',
+      'Perro pequeño',
+      'perro pequeño',
+      'Perro de compañía',
+      'perro de compañía',
+      'Perro guardián',
+      'perro guardián',
+      'Perro activo',
+      'perro activo',
+      'Perro energético',
+      'perro energético',
+      'Perro valiente',
+      'perro valiente',
+      'Perro seguro',
+      'perro seguro',
+      'Perro leal',
+      'perro leal'
+    ],
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+    'https://www.expertoanimal.com/razas-de-perros/pinscher-miniatura.html',
+    'https://www.zooplus.es/magazine/perros/razas-de-perro/pinscher-miniatura',
+    'https://www.hillspet.com.mx/dog-care/dog-breeds/miniature-pinscher'
+    ]
   },
+  // Checkpoint
   110: {
     weight: {
       imperial: '11 - 20',
@@ -14309,7 +14605,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 533,
       url: 'https://cdn2.thedogapi.com/images/SJIUQl9NX.jpg',
     },
-    searchTerms: ['Schnauzer Miniatura', 'Perro terrier', 'Perro inteligente'],
     country_code: 'DE', // Añadido basándose en el origen conocido de la raza
     description:
       'El Schnauzer Miniatura es una raza de perro pequeña y enérgica. Son inteligentes, obedientes y amigables, lo que los hace excelentes compañeros de familia y mascotas.',
@@ -14335,6 +14630,12 @@ export const DOG_LIST: { [key: number]: Dog } = {
     popularidad: 'Alta',
     enfermedades_comunes: ['Problemas dentales', 'Problemas oculares'],
     gallery: ['https://cdn2.thedogapi.com/images/SJIUQl9NX_390x256.jpg'],
+    searchTerms: [
+      'Schnauzer Miniatura',
+      'Perro terrier',
+      'Perro inteligente',
+
+    ],
   },
   111: {
     weight: {
