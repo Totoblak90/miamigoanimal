@@ -1,6 +1,3 @@
-import { Injectable, signal } from '@angular/core';
-import { Article } from '../interfaces/articles.interface';
-
 /**
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 PROMPT PARA ARTÍCULOS
@@ -30,8 +27,7 @@ Hola!
 
 Tengo un blog de perros y gatos, quiero agregar la meta etiqueta de keywords para SEO de cada artículo y quiero que me ayudes con eso.
 Mi blog lo estoy desarrollando con angular universal. Yo te voy a pasar el meta title del artículo, la meta descripción del mismo y el artículo en sí.
-Quiero que me digas si la relación entre el título y la meta descripción es correcta con el contenido del artículo y luego que me des un listado de keywords
-para armar la meta tag.
+Quiero que me des un listado de keywords para armar la meta tag.
 
 Para las keywords quiero que me retornes un string con todas las palabras dentro, separadas por coma.
 
@@ -40,7 +36,27 @@ Puede ser?
 Los datos son los siguientes:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PROMT PARA CALIDAD DE CONTENIDO Y SEO:
+
+Estoy haciendo un blog sobre perros y gatos. Te voy a dar una url, quiero que analices todo el html de la misma, incluidos el metatitle, la meta descripción y todo el contenido y quiero que me hagas análisis de SEO de los mismos, a tener en cuenta:
+
+- quiero que me digas si el contenido es relevante o no o si es simplemente un relleno de palabras clave
+- si las palabras claves estan siendo bien utilizadas en el texto o no,
+- si se podría considerar que el artículo cataloga como palabras clave de cola larga y cualquier
+- quiero que me hagas un analisis de la calidad del contenido, si te parece que el texto es atractivo o no para la experiencia de usuario
+- Están la meta descripción, el mata título y el contenido bien relacionados entre si?
+- Es el contenido lo suficientemente largo para SEO?
+- Cualquier otra información que consideres relevante para el posicionamiento y experiencia de usuario es bienvenida
+
+La url es la siguiente:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
  */
+
+import { Injectable, signal } from '@angular/core';
+import { Article } from '../interfaces/articles.interface';
 
 @Injectable({
   providedIn: 'root',
