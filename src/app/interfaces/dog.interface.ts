@@ -91,12 +91,12 @@ El objeto con el que hay q trabajar es el siguiente:
 PROMPT PARA SOLO DESCRIPCIÓN
 
 Si no te menciono la raza de perro no respondas nada, solo mencioname q no te la mencione y listo.
-Para esta consulta SI quiero que navegues por internet.
-Para esta consulta NO me interesa que me retornes fuentes.
 
-Necesito una descripción detallada de esta raza. Asegúrate de que la información que proveas sea precisa y verídica. Es MUY IMPORTANTE que los textos que me proporciones sean muy extensos, brindando toda la información posible ya que esta información va a ser la información de la raza en mi blog.
+Necesito una descripción detallada de esta raza. No agregues información histórica de la raza, solo descriptiva.
 
-No cites solamente una fuente, cita varias fuentes de internet si es posible, te paso un par de opciones: "https://en.wikipedia.org/", "https://www.akc.org/dog-breeds/", "https://www.ukcdogs.com". Podes de consultar otras fuentes de relevancia que vos conozcas. También agrega información que vos tengas. ES MUY IMPORTANTE QUE LE PONGAS TU IMPORTNTA AL TEXTO Y NO COPIES Y PEGUES LO QUE SACASTE DE LAS FUENTES!!!
+Asegúrate de que la información que proveas sea precisa y verídica.
+Es MUY IMPORTANTE que los textos que me proporciones sean muy extensos,
+brindando toda la información posible ya que esta información va a ser la información de la raza en mi blog.
 
 VUELVO A INSISTIR QUE LA DESCRIPCIÓN DE LA RAZA DEBE SER MUY MUY LARGA. ES INDISPENSABLE!!!
 
@@ -110,12 +110,11 @@ Estoy trabajando en la raza de perro "".
 PROMPT PARA SOLO HISTORIA
 
 Si no te menciono la raza de perro no respondas nada, solo mencioname q no te la mencione y listo.
-Para esta consulta SI quiero que navegues por internet.
-Para esta consulta NO me interesa que me retornes fuentes.
 
-Necesito la historia de esta raza. Asegúrate de que la información que proveas sea precisa y verídica. Es MUY IMPORTANTE que los textos que me proporciones sean muy extensos, brindando toda la información posible ya que esta información va a ser la información de la raza en mi blog.
-
-No cites solamente una fuente, cita varias fuentes de internet si es posible, te paso un par de opciones: "https://en.wikipedia.org/", "https://www.akc.org/dog-breeds/", "https://www.ukcdogs.com". Podes de consultar otras fuentes de relevancia que vos conozcas. También agrega información que vos tengas de la historia. ES MUY IMPORTANTE QUE LE PONGAS TU IMPORTNTA AL TEXTO Y NO COPIES Y PEGUES LO QUE SACASTE DE LAS FUENTES!!!
+Necesito la historia de esta raza. No agregues acá información descriptiva de la raza, solo sobre la historia.
+Asegúrate de que la información que proveas sea precisa y verídica.
+Es MUY IMPORTANTE que los textos que me proporciones sean muy extensos,
+brindando toda la información posible ya que esta información va a ser la información de la raza en mi blog.
 
 VUELVO A INSISTIR QUE LA HISTORIA DE LA RAZA DEBE SER MUY MUY LARGA. ES INDISPENSABLE!!!
 
@@ -132,7 +131,6 @@ Necesito que, para acelerar mi trabajo, toda la información me la retornes en e
 
 Si no te menciono la raza de perro no respondas nada, solo mencioname q no te la mencione y listo.
 
-A TENER EN CUENTA: Para esta tarea NO quiero que consultes internet, usa la información que ya tenes disponible en tu entrenamiento
 IMPORTANTE EN CUANTO A LOS TÉRMINOS DE BÚSQUEDA, NO COLOQUES MÁS DE 30 DE ELLOS EN EL ARRAY Y LOS TÉRMINOS DE BÚSQUEDA DEBEN ESTAR ÚNICAMENTE EN CASTELLANO!!!
 
 Dame términos de búsqueda para la raza del perro. Para los términos de búsqueda tené en cuenta todas las diferentes formas que se te ocurran que una persona

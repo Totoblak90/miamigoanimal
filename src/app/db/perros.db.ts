@@ -15439,28 +15439,37 @@ fuentes: [
     },
     country_code: 'GB', // Añadido basándose en el origen conocido de la raza
     description: `
-    El Bulldog Inglés, también conocido simplemente como Bulldog, es una raza de perro que se originó en el Reino Unido. Su antepasado, el antiguo Bulldog Inglés, fue utilizado en la práctica del cebo de toros hasta que esta fue prohibida en 1835. Hoy en día, el Bulldog es uno de los símbolos de Inglaterra, y su apariencia distintiva y su carácter amigable lo han convertido en una de las razas de perro más queridas en todo el mundo.
-
-    El Bulldog Inglés se caracteriza por su apariencia robusta y poderosa. Tiene unos hombros gruesos, una cabeza grande y redonda, y pliegues de piel en la frente. Su hocico es corto, lo que le da una cara "aplastada", y sus labios son colgantes y presentan dientes puntiagudos. Sus ojos son oscuros y sus mejillas son prominentes. El cuello es corto y grueso, los hombros son musculosos y anchos, y el pecho es profundo. Las patas son cortas pero fuertes, y la cola puede ser recta o enroscada. Su pelaje es corto y viene en varios colores, y su piel es suelta, con arrugas y pliegues en la cara.
-
-    En cuanto a su temperamento, el Bulldog Inglés es un perro dulce, confiable y excelente como compañero de familia. Aunque pueden ser buenos perros guardianes, pueden mostrar agresividad hacia perros desconocidos. Son adecuados para vivir en apartamentos y no necesitan mucho ejercicio. Tienen una mayor sensibilidad a las temperaturas extremas y pueden babear y roncar.
-
-    El Bulldog Inglés requiere cuidados específicos para su salud. Debido a su cara plana, pueden experimentar dificultades respiratorias y son sensibles al calor. Se recomienda un ejercicio moderado, evitando el calor extremo y nunca dejándolos en un coche cerrado. Los Bulldogs Ingleses necesitan paseos diarios y deben vivir en interiores debido a su sensibilidad a las condiciones climáticas y su necesidad de compañía. Su pelaje requiere un cepillado regular y una limpieza de las arrugas.
-
-    Esta raza puede ser propensa a enfermedades hereditarias y problemas de salud como la displasia de cadera y codo, problemas respiratorios, cataratas y torsión gástrica. La dificultad respiratoria es común debido a su cara plana. La reproducción puede requerir asistencia humana durante el apareamiento y el parto.
-
-    En resumen, el Bulldog Inglés es una raza de perro que combina una apariencia única y poderosa con un carácter dulce y confiable. A pesar de sus necesidades de cuidado específicas y su sensibilidad a ciertas condiciones, es una raza que puede ofrecer mucha alegría y compañía a aquellos que están dispuestos a dedicarle el tiempo y el cuidado que necesita.
+      El Bulldog Inglés, también conocido simplemente como Bulldog, es una raza de perro que se originó en el Reino Unido. Su antepasado, el antiguo Bulldog Inglés, fue utilizado en la práctica del cebo de toros hasta que esta fue prohibida en 1835. Hoy en día, el Bulldog es uno de los símbolos de Inglaterra, y su apariencia distintiva y su carácter amigable lo han convertido en una de las razas de perro más queridas en todo el mundo.
+      <br>
+      <br>
+      El Bulldog Inglés se caracteriza por su apariencia robusta y poderosa. Tiene unos hombros gruesos, una cabeza grande y redonda, y pliegues de piel en la frente. Su hocico es corto, lo que le da una cara "aplastada", y sus labios son colgantes y presentan dientes puntiagudos. Sus ojos son oscuros y sus mejillas son prominentes. El cuello es corto y grueso, los hombros son musculosos y anchos, y el pecho es profundo. Las patas son cortas pero fuertes, y la cola puede ser recta o enroscada. Su pelaje es corto y viene en varios colores, y su piel es suelta, con arrugas y pliegues en la cara.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Bulldog Inglés es un perro dulce, confiable y excelente como compañero de familia. Aunque pueden ser buenos perros guardianes, pueden mostrar agresividad hacia perros desconocidos. Son adecuados para vivir en apartamentos y no necesitan mucho ejercicio. Tienen una mayor sensibilidad a las temperaturas extremas y pueden babear y roncar.
+      <br>
+      <br>
+      El Bulldog Inglés requiere cuidados específicos para su salud. Debido a su cara plana, pueden experimentar dificultades respiratorias y son sensibles al calor. Se recomienda un ejercicio moderado, evitando el calor extremo y nunca dejándolos en un coche cerrado. Los Bulldogs Ingleses necesitan paseos diarios y deben vivir en interiores debido a su sensibilidad a las condiciones climáticas y su necesidad de compañía. Su pelaje requiere un cepillado regular y una limpieza de las arrugas.
+      <br>
+      <br>
+      Esta raza puede ser propensa a enfermedades hereditarias y problemas de salud como la displasia de cadera y codo, problemas respiratorios, cataratas y torsión gástrica. La dificultad respiratoria es común debido a su cara plana. La reproducción puede requerir asistencia humana durante el apareamiento y el parto.
+      <br>
+      <br>
+      En resumen, el Bulldog Inglés es una raza de perro que combina una apariencia única y poderosa con un carácter dulce y confiable. A pesar de sus necesidades de cuidado específicas y su sensibilidad a ciertas condiciones, es una raza que puede ofrecer mucha alegría y compañía a aquellos que están dispuestos a dedicarle el tiempo y el cuidado que necesita.
     `,
     history: `
-    El Bulldog Inglés, también conocido simplemente como Bulldog, es una raza de perro que se originó en el Reino Unido. Su antepasado, el antiguo Bulldog Inglés, fue utilizado en la práctica del cebo de toros hasta que esta fue prohibida en 1835. Desde entonces, el Bulldog ha pasado por una serie de cambios a través de la cría selectiva, transformándose de un perro de trabajo robusto y resistente en el amigable y cariñoso compañero que conocemos hoy.
-
-    La historia del Bulldog Inglés se remonta al siglo XVI, cuando se utilizaba para controlar el ganado y participar en el cebo de toros, una práctica en la que un perro se enfrentaba a un toro como forma de entretenimiento. Esta práctica, aunque brutal, ayudó a dar forma a las características físicas y temperamentales del Bulldog. Los Bulldogs de esta época eran perros fuertes, valientes y tenaces, capaces de soportar el dolor y la adversidad.
-
-    Con la prohibición del cebo de toros en 1835, el Bulldog perdió su propósito original. Sin embargo, en lugar de desaparecer, la raza comenzó a transformarse. Los criadores comenzaron a seleccionar perros que eran más dóciles y amigables, y con el tiempo, el Bulldog se convirtió en un perro de compañía popular.
-
-    El Bulldog de hoy es conocido por su apariencia distintiva y su naturaleza amable. Tiene hombros gruesos, una cabeza grande, piel arrugada y un hocico corto. A pesar de su apariencia robusta, los Bulldogs son conocidos por su inteligencia y su naturaleza gentil. Sin embargo, debido a sus características físicas, los Bulldogs son propensos a varios problemas de salud, incluyendo golpes de calor, problemas respiratorios y obesidad. Por lo tanto, requieren cuidados veterinarios regulares, ejercicio y una dieta equilibrada para mantener su bienestar.
-
-    La historia del Bulldog Inglés es un testimonio de la resiliencia y la adaptabilidad de esta raza. A pesar de los desafíos y cambios que ha enfrentado a lo largo de los siglos, el Bulldog ha logrado no solo sobrevivir, sino prosperar. Hoy en día, es una de las razas de perro más queridas y reconocibles del mundo, y continúa siendo un símbolo de tenacidad y coraje.
+      El Bulldog Inglés, también conocido simplemente como Bulldog, es una raza de perro que se originó en el Reino Unido. Su antepasado, el antiguo Bulldog Inglés, fue utilizado en la práctica del cebo de toros hasta que esta fue prohibida en 1835. Desde entonces, el Bulldog ha pasado por una serie de cambios a través de la cría selectiva, transformándose de un perro de trabajo robusto y resistente en el amigable y cariñoso compañero que conocemos hoy.
+      <br>
+      <br>
+      La historia del Bulldog Inglés se remonta al siglo XVI, cuando se utilizaba para controlar el ganado y participar en el cebo de toros, una práctica en la que un perro se enfrentaba a un toro como forma de entretenimiento. Esta práctica, aunque brutal, ayudó a dar forma a las características físicas y temperamentales del Bulldog. Los Bulldogs de esta época eran perros fuertes, valientes y tenaces, capaces de soportar el dolor y la adversidad.
+      <br>
+      <br>
+      Con la prohibición del cebo de toros en 1835, el Bulldog perdió su propósito original. Sin embargo, en lugar de desaparecer, la raza comenzó a transformarse. Los criadores comenzaron a seleccionar perros que eran más dóciles y amigables, y con el tiempo, el Bulldog se convirtió en un perro de compañía popular.
+      <br>
+      <br>
+      El Bulldog de hoy es conocido por su apariencia distintiva y su naturaleza amable. Tiene hombros gruesos, una cabeza grande, piel arrugada y un hocico corto. A pesar de su apariencia robusta, los Bulldogs son conocidos por su inteligencia y su naturaleza gentil. Sin embargo, debido a sus características físicas, los Bulldogs son propensos a varios problemas de salud, incluyendo golpes de calor, problemas respiratorios y obesidad. Por lo tanto, requieren cuidados veterinarios regulares, ejercicio y una dieta equilibrada para mantener su bienestar.
+      <br>
+      <br>
+      La historia del Bulldog Inglés es un testimonio de la resiliencia y la adaptabilidad de esta raza. A pesar de los desafíos y cambios que ha enfrentado a lo largo de los siglos, el Bulldog ha logrado no solo sobrevivir, sino prosperar. Hoy en día, es una de las razas de perro más queridas y reconocibles del mundo, y continúa siendo un símbolo de tenacidad y coraje.
     `,
     categoria_de_tamanio: 'Mediano',
     perks: [
@@ -15561,12 +15570,49 @@ fuentes: [
       height: 765,
       url: 'https://cdn2.thedogapi.com/images/SkJj7e547.jpg',
     },
-    searchTerms: ['Papillón', 'Perro faldero', 'Juguete'],
     country_code: 'FR', // Código de país basado en el origen conocido de la raza
-    description:
-      'El Papillón es un perro resistente, amigable, energético, alerta, inteligente y feliz. A pesar de su tamaño pequeño, es conocido por su resistencia y su energía.',
-    history:
-      'El Papillón, también conocido como el Spaniel de Mariposa, es una de las razas de perros de juguete más antiguas de Europa. Su nombre, que significa "mariposa" en francés, se refiere a sus distintivas orejas peludas que se asemejan a las alas de una mariposa.',
+    description: `
+      El Papillón, también conocido como el Spaniel enano continental, es una raza de perro pequeña y elegante que se distingue por sus orejas grandes y en forma de mariposa. El nombre "Papillón" proviene del francés y significa "mariposa", un apodo apropiado dado por la apariencia distintiva de sus orejas. Este perro es conocido por su pelaje largo y sedoso, que es blanco con manchas de cualquier color, a menudo rojo o marrón.
+      <br>
+      <br>
+      El Papillón es una raza antigua que ha sido representada en pinturas y tapices desde el siglo XVI. A lo largo de los siglos, estos perros han sido populares entre la nobleza europea, incluyendo a la reina María Antonieta de Francia. Aunque su apariencia puede sugerir que son perros de regazo, los Papillones son en realidad perros activos y enérgicos que disfrutan de la actividad física y mental.
+      <br>
+      <br>
+      Los Papillones son perros pequeños, pero son robustos y no son frágiles. Tienen cuerpos ligeramente más largos que altos, y sus colas están cubiertas de pelo largo y se curvan sobre sus espaldas. Su pelaje es abundante pero no excesivo, lo que les da una apariencia elegante pero no exagerada. Aunque su pelaje es largo, no es especialmente difícil de cuidar y sólo requiere un cepillado regular para mantenerlo en buen estado.
+      <br>
+      <br>
+      En cuanto a su personalidad, los Papillones son perros inteligentes y amigables que se llevan bien con las personas y otros animales. Son conocidos por su naturaleza alerta y curiosa, y a menudo se les describe como perros grandes en cuerpos pequeños debido a su confianza y valentía. A pesar de su tamaño, los Papillones son perros activos que disfrutan de los juegos y el ejercicio. También son perros muy inteligentes que disfrutan de los desafíos mentales y son conocidos por su habilidad en deportes caninos como la agilidad y la obediencia.
+      <br>
+      <br>
+      Los Papillones son perros generalmente saludables, pero como todas las razas, pueden ser propensos a ciertas condiciones de salud. Algunas de las condiciones a las que pueden ser propensos incluyen problemas dentales, problemas de corazón y problemas de rodilla. Sin embargo, con cuidados veterinarios regulares y una dieta y estilo de vida saludables, muchos Papillones pueden vivir vidas largas y saludables.
+      <br>
+      <br>
+      En resumen, el Papillón es una raza de perro pequeña pero activa y enérgica que es conocida por su apariencia distintiva y su personalidad amigable e inteligente. Aunque pueden parecer perros de regazo, los Papillones son perros robustos y activos que disfrutan de la actividad física y mental. Con su pelaje largo y sedoso y sus orejas en forma de mariposa, los Papillones son perros verdaderamente únicos y encantadores.
+    `,
+    history: `
+      La historia del Papillón es tan colorida y encantadora como la raza misma. Este perro, cuyo nombre significa "mariposa" en francés, es una raza antigua que ha cautivado a los amantes de los perros durante siglos con su elegancia, inteligencia y encanto.
+      <br>
+      <br>
+      El Papillón, también conocido como el Spaniel enano continental, tiene sus raíces en Europa, y es una de las razas de spaniels enanas más antiguas. Aunque su país de origen exacto es un tema de debate, la mayoría de los historiadores de perros están de acuerdo en que la raza se desarrolló en gran parte en Francia y Bélgica.
+      <br>
+      <br>
+      Los primeros antepasados del Papillón eran perros de compañía populares en las cortes reales europeas. Estos perros, conocidos como "spaniels enanos", eran perros de regazo muy apreciados por la nobleza y la realeza. Aunque estos primeros spaniels enanos tenían las orejas caídas, en lugar de las orejas erectas que vemos en los Papillones de hoy, compartían muchas de las mismas características que amamos en los Papillones, incluyendo su tamaño pequeño, su pelaje largo y sedoso, y su personalidad amigable y vivaz.
+      <br>
+      <br>
+      El Papillón como lo conocemos hoy comenzó a tomar forma en el siglo XVI, cuando los criadores comenzaron a seleccionar perros con las orejas erectas que son la marca registrada de la raza. Se cree que el nombre "Papillón" fue adoptado en este momento debido a la semejanza de las orejas del perro con las alas de una mariposa.
+      <br>
+      <br>
+      Durante los siglos XVII y XVIII, los Papillones se convirtieron en una raza de moda en las cortes reales de toda Europa. Fueron especialmente populares en Francia, donde la reina María Antonieta supuestamente tenía un Papillón como mascota. Aunque la historia de que María Antonieta llevó a su Papillón con ella al cadalso es probablemente un mito, no hay duda de que los Papillones eran perros muy apreciados por la realeza francesa.
+      <br>
+      <br>
+      A lo largo de los siglos XIX y XX, la popularidad del Papillón continuó creciendo. La raza fue reconocida oficialmente por el American Kennel Club en 1915, y desde entonces ha sido un competidor popular en las exposiciones caninas, especialmente en las competencias de obediencia y agilidad, donde su inteligencia y energía brillan.
+      <br>
+      <br>
+      A pesar de su larga historia, el Papillón sigue siendo una raza relativamente rara hoy en día. Sin embargo, aquellos que tienen la suerte de compartir sus vidas con estos perros encantadores y vivaces saben que un Papillón es algo muy especial.
+      <br>
+      <br>
+      En resumen, la historia del Papillón es una historia de elegancia y encanto, de cortes reales y mariposas. Es la historia de una raza que, a pesar de su pequeño tamaño, ha dejado una gran huella en el mundo de los perros. Y con su inteligencia, su encanto y su espíritu vivaz, no hay duda de que el Papillón seguirá cautivando a los amantes de los perros durante mucho más tiempo.
+    `,
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Excelente perro de compañía',
@@ -15591,6 +15637,45 @@ fuentes: [
       'Problemas de oído debido a su pelaje largo',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/SkJj7e547_390x256.jpg'],
+    searchTerms: [
+      'Papillón',
+      'Perro faldero',
+      'Juguete',
+      "Papillon",
+      "Papilon",
+      "Papillon dog",
+      "Perro Papillón",
+      "Perro Papillon",
+      "Spaniel enano continental",
+      "Perro mariposa",
+      "Mariposa",
+      "Perro de compañía",
+      "Perro de raza pequeña",
+      "Perro de orejas grandes",
+      "Perro de orejas como mariposa",
+      "Perro de raza francesa",
+      "Perro de raza belga",
+      "Perro de raza europea",
+      "Perro para familias",
+      "Perro para niños",
+      "Perro inteligente",
+      "Perro activo",
+      "Perro de pelo largo",
+      "Perro de pelo sedoso",
+      "Perro de raza antigua",
+      "Perro de la realeza",
+      "Perro de la nobleza",
+      "Perro de la corte real"
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: ['https://www.dogbreedinfo.com', 'https://www.ukcdogs.com', 'https://en.wikipedia.org']
   },
   118: {
     weight: {
@@ -15622,12 +15707,52 @@ fuentes: [
       height: 640,
       url: 'https://cdn2.thedogapi.com/images/ByIiml9Nm.jpg',
     },
-    searchTerms: ['Pekinés', 'Perro faldero', 'Juguete'],
     country_code: 'CN', // Código de país basado en el origen conocido de la raza
-    description:
-      'El Pekinés es un perro opinativo, de buen carácter, terco, cariñoso, agresivo e inteligente. Son conocidos por su pequeño tamaño y su actitud fuerte y decidida.',
-    history:
-      'El Pekinés es una raza antigua de juguete que se originó en China. Fueron los perros de la realeza y se consideraban un tesoro nacional. Su diseño y personalidad reflejan su estatus real.',
+    description: `
+      El Pekinés es una raza de perro pequeña pero con una personalidad que supera con creces su tamaño. Originarios de China, estos perros fueron una vez la mascota preferida de la realeza y se les consideraba sagrados. Esta historia real se refleja en su comportamiento digno y a veces distante.
+      <br>
+      <br>
+      El Pekinés es un perro compacto con un cuerpo bajo y pesado, y una estructura ósea pesada. Su cuerpo es más largo que alto, con una línea superior nivelada. A pesar de su pequeño tamaño, no hay nada delicado en un Pekinés. Son perros robustos y resistentes con una gran resistencia.
+      <br>
+      <br>
+      Una de las características más notables del Pekinés es su hermosa melena de pelo que recuerda a un león. Tienen un pelaje doble, con una capa externa larga y recta y una capa interna espesa y suave. El pelo en el cuello y los hombros es especialmente largo, dando la apariencia de una melena. El pelaje puede venir en una variedad de colores y patrones, incluyendo negro, blanco, crema, fawn, gris, y una mezcla de estos.
+      <br>
+      <br>
+      La cara del Pekinés es igualmente distintiva. Tienen una cabeza grande en proporción al cuerpo, con un hocico plano y ancho. Sus ojos son grandes, redondos y muy oscuros, dando una expresión alerta e inteligente. Las orejas son en forma de corazón y están cubiertas de pelo largo y sedoso. La cola del Pekinés es alta y arqueada, llevada sobre la espalda y adornada con plumas de pelo largo.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Pekinés es conocido por ser valiente, leal y un poco reservado. Son perros independientes que pueden ser un poco distantes con los extraños, pero son extremadamente devotos a su familia. A pesar de su pequeño tamaño, no tienen miedo de enfrentarse a perros mucho más grandes que ellos si sienten que su familia está amenazada.
+      <br>
+      <br>
+      El Pekinés es un perro de compañía excelente. Aunque pueden ser un poco tercos en ocasiones, también son increíblemente leales y amorosos con sus dueños. Les encanta pasar tiempo con su familia, ya sea jugando o simplemente acurrucándose en el sofá. Aunque no son tan activos como otras razas, disfrutan de paseos cortos y tiempo de juego.
+      <br>
+      <br>
+      En cuanto a su salud, el Pekinés es generalmente una raza saludable, pero como todos los perros, son propensos a ciertas condiciones de salud. Los problemas respiratorios pueden ser comunes debido a su cara plana, y también pueden ser propensos a problemas oculares y de piel. Es importante mantener su pelaje bien cuidado para evitar problemas de piel y asegurarse de que no se sobrecalienten en climas cálidos.
+      <br>
+      <br>
+      En resumen, el Pekinés es un perro pequeño con una gran personalidad. Su hermoso pelaje y su comportamiento digno hacen que sea un perro de compañía maravilloso y un verdadero amigo para la vida. Aunque pueden ser un poco reservados al principio, una vez que un Pekinés te acepta como su familia, tendrás un amigo leal y amoroso para toda la vida.
+    `,
+    history: `
+      La historia del Pekinés es tan antigua y fascinante como la civilización que le dio origen. Este pequeño pero digno perro tiene sus raíces en la antigua China, donde era considerado un animal sagrado y era propiedad exclusiva de la realeza.
+      <br>
+      <br>
+      La leyenda cuenta que el Pekinés es el producto de un amor prohibido entre un león y una mona. El león, enamorado de la mona, acudió al dios Ah Chu y le pidió que lo redujera de tamaño pero que le permitiera conservar su corazón de león. El resultado fue un perro pequeño con la melena de un león, el Pekinés.
+      <br>
+      <br>
+      Más allá de las leyendas, los registros históricos y las obras de arte chinas demuestran que los perros similares al Pekinés han existido en China durante más de 2000 años. Se cree que fueron criados en miniatura por la nobleza china y vivían vidas de gran lujo en la corte imperial. Los Pekineses eran tan valorados que se les daba su propio personal de sirvientes y se les llevaba en pequeñas carretillas cuando la corte salía a pasear.
+      <br>
+      <br>
+      El Pekinés era considerado un perro sagrado y un símbolo de la regla budista en China. Se creía que los Pekineses tenían la capacidad de repeler espíritus malignos, y por lo tanto, se les mantenía en los templos y palacios como guardianes espirituales. La posesión de un Pekinés era un privilegio reservado a la realeza, y el robo de uno de estos perros sagrados era un delito que se castigaba con la muerte.
+      <br>
+      <br>
+      La raza permaneció prácticamente desconocida fuera de China hasta la mitad del siglo XIX. Durante la Segunda Guerra del Opio en 1860, las fuerzas británicas y francesas saquearon el Palacio de Verano en Pekín. Cuando las tropas entraron en el palacio, encontraron que la emperatriz y su corte habían huido, dejando atrás a sus Pekineses. Cinco de estos perros fueron llevados de vuelta a Inglaterra y presentados a la Reina Victoria, quien los nombró "Pekineses" en honor a la ciudad de la que procedían.
+      <br>
+      <br>
+      Desde entonces, la popularidad del Pekinés se ha extendido por todo el mundo. A pesar de su pequeño tamaño, estos perros son conocidos por su valentía y su dignidad, características que reflejan su noble linaje. A lo largo de los años, la raza ha sido apreciada por su belleza única y su lealtad hacia sus dueños.
+      <br>
+      <br>
+      Hoy en día, el Pekinés es un perro de compañía amado en todo el mundo. Aunque ya no viven en palacios ni son atendidos por sirvientes, estos pequeños perros aún llevan consigo la gracia y la dignidad de su herencia real. Su historia es un testimonio de su resistencia y su encanto perdurable, y son un recordatorio viviente de una época pasada.
+    `,
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Bueno para la vida en apartamentos',
@@ -15650,6 +15775,58 @@ fuentes: [
       'Problemas de piel',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/ByIiml9Nm_390x256.jpg'],
+    searchTerms: [
+      'Pekinés',
+      'Perro faldero',
+      'Juguete',
+      "Pekines",
+      "Pequinés",
+      "Pequines",
+      "Perro de Pekín",
+      "Perro de Pequin",
+      "Perro chino",
+      "Perro imperial",
+      "Perro de la corte",
+      "Perro león",
+      "Perro de compañía",
+      "Perro pequeño",
+      "Perro de pelo largo",
+      "Perro de raza antigua",
+      "Perro de raza pequeña",
+      "Perro de raza toy",
+      "Perro de raza miniatura",
+      "Perro de raza china",
+      "Perro de raza asiática",
+      "Perro de raza oriental",
+      "Perro de raza exótica",
+      "Perro de raza rara",
+      "Perro de raza exclusiva",
+      "Perro de raza real",
+      "Perro de raza noble",
+      "Perro de raza digna",
+      "Perro de raza valiente",
+      "Perro de raza leal",
+      "Perro de raza fiel",
+      "Perro de raza cariñosa"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Alta",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Baja",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Baja",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Sun Yat-Sen",
+    "caso": "Uno de los tres perros que sobrevivieron al hundimiento del Titanic, acompañando a sus dueños, Henry y Myra Sleeper[3]."
+    }
+    ],
+    "fuentes": [
+    "https://www.expertoanimal.com/razas-de-perros/el-perro-pekines.html",
+    "https://www.hillspet.cl/dog-care/dog-breeds/pekingese",
+    "https://www.feelcats.com/razas-perros/pequines/"
+    ]
   },
   119: {
     weight: {
@@ -15681,12 +15858,49 @@ fuentes: [
       height: 720,
       url: 'https://cdn2.thedogapi.com/images/rJ6iQeqEm.jpg',
     },
-    searchTerms: ['Corgi Galés de Pembroke', 'Perro de pastoreo', 'Corgi'],
     country_code: 'GB', // Código de país basado en el origen conocido de la raza
-    description:
-      'El Corgi Galés de Pembroke es un perro tenaz, extrovertido, amigable, audaz, juguetón y protector. Son conocidos por su pequeño tamaño y su actitud decidida.',
-    history:
-      'El Corgi Galés de Pembroke es una raza que se originó en Gales, Reino Unido. Fueron utilizados para conducir ganado al mercado. Son perros de pastoreo eficientes y activos, a pesar de su pequeño tamaño.',
+    description: `
+      El Corgi Galés de Pembroke es una raza de perro que se distingue por su apariencia única y encantadora. Son perros pequeños pero fuertes, con cuerpos largos y patas cortas que les dan una apariencia baja y robusta. Pero no te dejes engañar por su tamaño pequeño, estos perros son sorprendentemente ágiles y enérgicos, con una resistencia que rivaliza con la de razas más grandes.
+      <br>
+      <br>
+      La cabeza del Pembroke es similar a la de un zorro en apariencia, con orejas grandes y puntiagudas que se mantienen erguidas y ojos oscuros y expresivos que siempre parecen estar llenos de curiosidad. Su pelaje es de longitud media, grueso y resistente a la intemperie, lo que les permite soportar una variedad de condiciones climáticas. Los colores del pelaje pueden variar, pero los más comunes son el rojo, el sable, el cervatillo y el negro y tostado, a menudo con marcas blancas.
+      <br>
+      <br>
+      Uno de los rasgos más distintivos del Pembroke es su cola, que es naturalmente corta o puede ser cortada. En algunos países, sin embargo, la práctica de cortar la cola está prohibida.
+      <br>
+      <br>
+      En cuanto a su personalidad, los Corgis Galeses de Pembroke son conocidos por su inteligencia y su naturaleza amigable y juguetona. Son perros muy sociables que disfrutan de la compañía de las personas y se llevan bien con los niños. También son conocidos por ser bastante vocales y no dudarán en ladrar para alertar a sus dueños de cualquier cosa que les parezca sospechosa.
+      <br>
+      <br>
+      A pesar de su tamaño pequeño, los Pembrokes son perros trabajadores y necesitan mucho ejercicio para mantenerse felices y saludables. Les encanta jugar y correr, y son especialmente buenos en deportes caninos como la agilidad y el pastoreo. De hecho, su historia como perros de pastoreo significa que tienen un fuerte instinto de rebaño y pueden intentar pastorear a las personas o a otros animales si se les da la oportunidad.
+      <br>
+      <br>
+      En términos de cuidado, los Pembrokes requieren un aseo regular para mantener su pelaje en buen estado. Su pelaje se muda bastante, especialmente durante las estaciones de cambio, por lo que es posible que necesiten ser cepillados con más frecuencia durante estos períodos.
+      <br>
+      <br>
+      En general, el Corgi Galés de Pembroke es una raza de perro encantadora y versátil que puede ser un gran compañero para una variedad de hogares. Su tamaño pequeño los hace adecuados para la vida en apartamentos, siempre y cuando se les dé suficiente ejercicio. Su naturaleza amigable y sociable los hace excelentes perros de familia, y su inteligencia y disposición para complacer los hacen muy entrenables. Sin embargo, como con cualquier raza, es importante recordar que cada perro es un individuo y puede variar en personalidad y comportamiento.
+    `,
+    history: `
+      La historia del Corgi Galés de Pembroke es tan fascinante y única como la raza misma. Esta raza tiene una historia que se remonta a más de mil años, lo que la convierte en una de las razas de perros más antiguas que aún existen hoy en día.
+      <br>
+      <br>
+      Los Corgis Galeses de Pembroke tienen sus raíces en el país de Gales, en el Reino Unido. Aunque su origen exacto es un tanto misterioso, se cree que los antiguos perros de tipo Corgi fueron llevados a Gales por los vikingos y los celtas alrededor del siglo X. Estos perros fueron criados para ser perros de pastoreo, y se dice que eran tan buenos en su trabajo que los galeses creían que eran regalos mágicos de los elfos y las hadas. De hecho, la palabra "Corgi" en galés significa "perro enano", lo que refleja su pequeño tamaño y su lugar en la mitología galesa.
+      <br>
+      <br>
+      A lo largo de los siglos, los Corgis Galeses de Pembroke se convirtieron en una parte integral de la vida en las granjas galesas. Eran valorados por su inteligencia, su agilidad y su habilidad para pastorear ganado. Su pequeño tamaño era en realidad una ventaja en este trabajo, ya que les permitía moverse rápidamente y evitar las patadas de las vacas.
+      <br>
+      <br>
+      La raza como la conocemos hoy en día comenzó a tomar forma en el siglo XIX, cuando se introdujeron perros de otras razas en la línea de sangre del Corgi. Se cree que los Pembrokes modernos son el resultado de la mezcla de los antiguos perros Corgi con razas como el Terrier Galés y el Cardigan Galés.
+      <br>
+      <br>
+      El Corgi Galés de Pembroke ganó reconocimiento internacional gracias a la Reina Isabel II del Reino Unido. La Reina Isabel II recibió su primer Corgi, llamado Dookie, cuando era una niña, y ha tenido más de 30 Corgis desde entonces. Su amor por la raza ha ayudado a aumentar la popularidad de los Pembrokes en todo el mundo.
+      <br>
+      <br>
+      A pesar de su popularidad, los Corgis Galeses de Pembroke siguen siendo fieles a sus raíces como perros de trabajo. Aunque hoy en día son más conocidos como mascotas y compañeros de familia, todavía tienen el instinto de pastoreo y la inteligencia que los hizo tan valiosos para los granjeros galeses hace siglos.
+      <br>
+      <br>
+      En resumen, la historia del Corgi Galés de Pembroke es una mezcla de mitología, historia y realeza. Desde sus orígenes misteriosos en el antiguo país de Gales hasta su lugar en el corazón de la Reina Isabel II, los Pembrokes han dejado una huella indeleble en la historia de la cría de perros. Y con su inteligencia, su encanto y su espíritu trabajador, es probable que esta raza siga siendo popular durante muchos años más.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno para familias activas',
@@ -15709,6 +15923,63 @@ fuentes: [
       'Problemas oculares',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/rJ6iQeqEm_390x256.jpg'],
+    searchTerms: [
+      'Corgi Galés de Pembroke',
+      'Perro de pastoreo',
+      'Corgi',
+      'Corgi Gales de Pembroke',
+      'Corgi',
+      'Pembroke',
+      'Corgi Galés',
+      'Corgi Gales',
+      'Corgui',
+      'Corgi de Pembroke',
+      'Corgi de la Reina',
+      'Perro de la Reina',
+      'Perro enano',
+      'Perro pastor',
+      'Perro de Gales',
+      'Perro de trabajo',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro pequeño',
+      'Perro de raza pequeña',
+      'Perro de raza antigua',
+      'Perro de raza británica',
+      'Perro británico',
+      'Perro de raza real',
+      'Perro real',
+      'Perro de raza de la realeza',
+      'Perro de la realeza',
+      'Perro de raza de pastoreo',
+      'Perro de pastoreo',
+      'Perro de raza inteligente',
+      'Perro inteligente',
+      'Perro de raza activa'
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+    {
+    nombre: 'Dookie',
+    caso: 'Fue el primer Corgi de la Reina Isabel II.'
+    },
+    {
+    nombre: 'Susan',
+    caso: 'Fue un regalo para el 18º cumpleaños de la Reina Isabel II, y es la matriarca de la línea de Corgis de la Reina.'
+    }
+    ],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/pembroke-welsh-corgi/',
+      'https://www.thesprucepets.com/breed-profile-pembroke-welsh-corgi-1117956',
+      'https://www.yourpurebredpuppy.com/reviews/pembrokewelshcorgis.html',
+      'https://www.dogbreedinfo.com/pembroke.htm'
+    ]
   },
   120: {
     weight: {
@@ -15739,16 +16010,58 @@ fuentes: [
       height: 483,
       url: 'https://cdn2.thedogapi.com/images/S1V3Qeq4X.jpg',
     },
-    searchTerms: [
-      'Perro de Presa Canario',
-      'Perro de Trabajo',
-      'Perro Guardián',
-    ],
     country_code: 'ES', // Código de país basado en el origen conocido de la raza
-    description:
-      'El Perro de Presa Canario es una raza fuerte y dominante, conocida por su voluntad y su temperamento calmado. Son perros grandes y potentes, ideales para el trabajo de protección y como perros de ganado.',
-    history:
-      'El Perro de Presa Canario se originó en las Islas Canarias, donde se utilizaba para trabajar con el ganado y como perro guardián. Son conocidos por su fuerza y coraje, y son muy apreciados en su tierra natal.',
+    description: `
+      El Perro de Presa Canario, también conocido como Dogo Canario, es una raza majestuosa y poderosa que proviene de las Islas Canarias en España. Este perro grande y robusto es conocido por su fuerza, su coraje y su lealtad inquebrantable hacia su familia. Aunque su apariencia puede ser intimidante, el Presa Canario es un perro amable y cariñoso con su familia, pero también es un guardián natural que protegerá su hogar y a sus seres queridos con valentía y determinación.
+      <br>
+      <br>
+      El Presa Canario tiene un cuerpo fuerte y musculoso, con un pecho ancho y una espalda recta y fuerte. Su cabeza es grande y cuadrada, con un hocico ancho y fuerte y unas mandíbulas poderosas. Sus ojos son de tamaño mediano y de color marrón oscuro, y transmiten una expresión de alerta y seriedad. Las orejas del Presa Canario son de tamaño mediano y caen a los lados de la cabeza, aunque a veces se las recorta para darle un aspecto más alerta.
+      <br>
+      <br>
+      El pelaje del Presa Canario es corto y grueso, y puede venir en una variedad de colores, incluyendo el atigrado y el leonado, a menudo con una máscara negra. Aunque su pelaje es relativamente fácil de cuidar, este perro es un mudador estacional y puede requerir un cepillado más frecuente durante estos períodos.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Presa Canario es un perro tranquilo y seguro de sí mismo. Aunque puede ser reservado con los extraños, es extremadamente leal y afectuoso con su familia. Este perro es inteligente y aprende rápidamente, pero también puede ser bastante terco y dominante, por lo que necesita un dueño que pueda proporcionarle una formación y socialización adecuadas desde una edad temprana.
+      <br>
+      <br>
+      El Presa Canario es un perro activo que necesita mucho ejercicio para mantenerse sano y feliz. Disfruta de largas caminatas, carreras y juegos de recuperación, y también puede ser un excelente perro de trabajo o de deporte canino. Sin embargo, debido a su tamaño y nivel de energía, puede no ser la mejor opción para vivir en un apartamento o en un hogar sin un patio grande y seguro.
+      <br>
+      <br>
+      En resumen, el Perro de Presa Canario es una raza impresionante que combina fuerza y lealtad con una naturaleza cariñosa y protectora. Aunque puede ser un desafío para los dueños de perros por primera vez, con la formación y socialización adecuadas, el Presa Canario puede ser un compañero leal y amoroso para la familia adecuada.
+    `,
+    history: `
+      La historia del Perro de Presa Canario es tan rica y variada como la de las Islas Canarias, el archipiélago español en el Atlántico donde se originó la raza. Esta raza de perro, también conocida como Dogo Canario, tiene una historia que se remonta a varios siglos, y ha desempeñado un papel importante en la vida y la cultura de las Islas Canarias.
+      <br>
+      <br>
+      El origen exacto del Perro de Presa Canario es un tema de debate, pero la mayoría de los expertos en la raza están de acuerdo en que sus antepasados probablemente incluyen a los perros traídos a las Islas Canarias por los conquistadores españoles en el siglo XV. Estos perros, que incluían a los mastines españoles y a otras razas de perros de presa, se cruzaron con los perros nativos de las islas para producir una raza robusta y versátil que podía desempeñar una variedad de roles.
+      <br>
+      <br>
+      Durante siglos, el Perro de Presa Canario fue utilizado en las Islas Canarias como perro de trabajo, perro de guardia y perro de caza. Su fuerza, resistencia y valentía lo hicieron ideal para trabajar en las duras condiciones de las islas, y su lealtad y temperamento protector lo convirtieron en un excelente perro de guardia para las granjas y las casas. También se utilizó en peleas de perros, una práctica que, aunque ahora está prohibida, contribuyó a la reputación de la raza como perro de presa.
+      <br>
+      <br>
+      A pesar de su importancia en las Islas Canarias, el Perro de Presa Canario estuvo al borde de la extinción en el siglo XX. La urbanización, las peleas de perros y la importación de otras razas de perros llevaron a una disminución en el número de Presa Canarios y a una dilución de la pureza de la raza. Sin embargo, en la década de 1970, un grupo de entusiastas de la raza en las Islas Canarias comenzó un esfuerzo concertado para revivir y preservar la raza. Utilizando los pocos Presa Canarios puros que quedaban y cruzándolos con perros de razas similares, lograron rescatar a la raza de la extinción y establecer las bases del Perro de Presa Canario que conocemos hoy.
+      <br>
+      <br>
+      Desde entonces, el Perro de Presa Canario ha ganado reconocimiento y popularidad en todo el mundo. Fue reconocido oficialmente por el gobierno español en 1982, y por la Federación Cinológica Internacional en 1989. En los Estados Unidos, la raza fue reconocida por el United Kennel Club en 2003, aunque aún no ha sido reconocida por el American Kennel Club.
+      <br>
+      <br>
+      Hoy en día, el Perro de Presa Canario es apreciado tanto por su habilidad como perro de trabajo y guardián, como por su lealtad y afecto hacia su familia. Aunque la raza ha recorrido un largo camino desde sus humildes comienzos en las Islas Canarias, el Presa Canario de hoy sigue siendo un testimonio de la resistencia, la valentía y la lealtad que han caracterizado a la raza a lo largo de suhistoria.
+      <br>
+      <br>
+      A lo largo de los siglos, el Perro de Presa Canario ha demostrado ser un perro de trabajo increíblemente versátil. En las Islas Canarias, estos perros eran utilizados para una variedad de tareas, incluyendo el pastoreo de ganado, la caza de animales salvajes y la protección de las granjas y las casas. Su fuerza y resistencia los hacían ideales para trabajar en el terreno accidentado y montañoso de las islas, y su inteligencia y lealtad los convertían en compañeros de trabajo valiosos para los agricultores y cazadores.
+      <br>
+      <br>
+      A pesar de su fuerza y valentía, el Perro de Presa Canario también es conocido por su temperamento tranquilo y su afecto por su familia. Aunque pueden ser reservados con los extraños, son extremadamente leales a sus seres queridos y harán todo lo posible para protegerlos. Esta combinación de fuerza y lealtad ha hecho del Perro de Presa Canario un perro de guardia muy apreciado, tanto en las Islas Canarias como en otras partes del mundo.
+      <br>
+      <br>
+      La historia del Perro de Presa Canario no ha estado exenta de dificultades. En el siglo XX, la raza estuvo al borde de la extinción debido a una serie de factores, incluyendo la urbanización de las Islas Canarias, la prohibición de las peleas de perros y la importación de otras razas de perros. Sin embargo, gracias a los esfuerzos de un grupo de entusiastas de la raza, el Perro de Presa Canario fue rescatado de la extinción y su población ha ido en aumento desde entonces.
+      <br>
+      <br>
+      Hoy en día, el Perro de Presa Canario es una raza reconocida y apreciada en todo el mundo. Aunque todavía no es tan conocida como algunas otras razas de perros, su popularidad ha ido en aumento en los últimos años, y cada vez más personas están descubriendo las muchas cualidades que hacen del Perro de Presa Canario un perro tan especial.
+      <br>
+      <br>
+      En resumen, la historia del Perro de Presa Canario es una historia de resistencia y supervivencia. A pesar de los desafíos que ha enfrentado, esta raza ha logrado prosperar y seguir siendo un testimonio de la fuerza, la valentía y la lealtad que la han caracterizado a lo largo de los siglos. Ya sea como perro de trabajo, perro de guardia o simplemente como un miembro leal y cariñoso de la familia, el Perro de Presa Canario sigue siendo una raza de perro verdaderamente única y valiosa.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente guardián y protector',
@@ -15771,6 +16084,53 @@ fuentes: [
       'Obesidad',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/S1V3Qeq4X_390x256.jpg'],
+    searchTerms: [
+      'Perro de Presa Canario',
+      'Perro de Trabajo',
+      'Perro Guardián',
+      "Presa Canario",
+      "Dogo Canario",
+      "Canario",
+      "Perro de Presa",
+      "Presa",
+      "Perro Canario",
+      "Perro de las Islas Canarias",
+      "Perro de trabajo",
+      "Perro de guardia",
+      "Perro protector",
+      "Perro fuerte",
+      "Perro leal",
+      "Perro de gran tamaño",
+      "Perro de raza grande",
+      "Perro de presa",
+      "Perro de caza",
+      "Perro de protección",
+      "Perro de compañía",
+      "Perro de familia",
+      "Perro de defensa",
+      "Perro de seguridad",
+      "Perro de servicio",
+      "Perro de rescate",
+      "Perro de terapia",
+      "Perro de asistencia",
+      "Perro de utilidad",
+      "Perro de vigilancia",
+      "Perro de patrulla",
+      "Perro de policía"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.dogbreedinfo.com/presacanario.htm",
+    "https://www.akc.org/dog-breeds/perro-de-presa-canario/",
+    "https://www.ukcdogs.com/perro-de-presa-canario"
+    ]
   },
   121: {
     weight: {
@@ -15794,7 +16154,7 @@ fuentes: [
       'Activo',
       'Entrenable',
     ],
-    origin: 'Egipto', // Origen conocido de la raza
+    origin: 'Egipto',
     reference_image_id: 'Byz6mgqEQ',
     image: {
       id: 'Byz6mgqEQ',
@@ -15802,19 +16162,56 @@ fuentes: [
       height: 2938,
       url: 'https://cdn2.thedogapi.com/images/Byz6mgqEQ.jpg',
     },
-    searchTerms: ['Perro del Faraón', 'Sabueso', 'Caza de Conejos'],
-    country_code: 'EG', // Código de país basado en el origen conocido de la raza
-    description:
-      'El Perro del Faraón es una raza activa y juguetona, conocida por su inteligencia y su facilidad de entrenamiento. Son perros cariñosos y sociables que adoran la compañía de sus dueños.',
-    history:
-      'El Perro del Faraón se originó en Egipto, donde se usaba para la caza de conejos. Son conocidos por su velocidad y agilidad, así como por su instinto de caza agudo.',
+    country_code: 'EG',
+    description: `
+      El Perro del Faraón es una raza de perro que es tan antigua como la civilización misma. Aunque su nombre puede sugerir que la raza se originó en Egipto, en realidad proviene de Malta y es reconocida como la raza nacional del país. A pesar de su nombre, no hay evidencia concluyente de que los perros representados en los artefactos del antiguo Egipto sean de esta raza.
+      <br>
+      <br>
+      El Perro del Faraón es una raza de tamaño mediano, con machos que miden entre 56 y 63 cm y hembras que miden entre 53 y 61 cm. Los perros de esta raza suelen pesar entre 18 y 27 kg. Son perros delgados y elegantes, con un cuerpo que es ligeramente más largo que alto. Tienen una cabeza cincelada y noble, con ojos almendrados de color ámbar que están llenos de inteligencia. Sus orejas son grandes y erectas, y su cola es larga y llevada alta cuando el perro está en movimiento.
+      <br>
+      <br>
+      El pelaje del Perro del Faraón es corto y brillante, y viene en una variedad de colores que van desde el blanco hasta el rojo dorado, a menudo con marcas blancas. Aunque su pelaje es corto, mudan moderadamente y requieren un cepillado regular para mantener su pelaje en las mejores condiciones.
+      <br>
+      <br>
+      Los Perros del Faraón son conocidos por su inteligencia y su naturaleza independiente. Son perros muy activos que requieren mucho ejercicio para mantenerse felices y saludables. A pesar de su necesidad de actividad, también son perros muy adaptables que pueden vivir cómodamente en una variedad de entornos, siempre y cuando se les proporcione suficiente ejercicio.
+      <br>
+      <br>
+      Esta raza es conocida por su lealtad y su fuerte vínculo con su familia. Son perros muy cariñosos que disfrutan de la compañía de sus seres queridos. Aunque pueden ser reservados con los extraños, una vez que llegan a conocer a alguien, se convierten en amigos rápidos. Son perros muy sensibles que responden mejor a los métodos de entrenamiento positivos.
+      <br>
+      <br>
+      Aunque son perros independientes, los Perros del Faraón no les va bien cuando se les deja solos durante largos períodos de tiempo. Pueden volverse ansiosos y destructivos si se aburren o se sienten solos. Esta raza también es conocida por su habilidad para saltar, por lo que un patio seguro y bien cercado es esencial.
+      <br>
+      <br>
+      En cuanto a la salud, los Perros del Faraón son generalmente una raza saludable con una esperanza de vida de 11 a 14 años. Sin embargo, como todas las razas, son propensos a ciertas condiciones de salud. Algunas de las condiciones de salud que pueden afectar a los Perros del Faraón incluyen la displasia de cadera, la luxación de la rótula, la alergia a las picaduras de insectos y varias enfermedades oculares.
+      <br>
+      <br>
+      En resumen, el Perro del Faraón es una raza antigua y noble que es conocida por su inteligencia, su lealtad y su naturaleza activa.
+    `,
+    history: `
+      La historia del Perro del Faraón es una que se remonta a miles de años, a los tiempos de los faraones y las pirámides. Aunque el nombre de la raza puede sugerir que se originó en Egipto, en realidad, se cree que la raza se originó en Malta, donde se le conoce como "Kelb tal-Fenek", que se traduce como "perro de conejo". Sin embargo, la raza ha sido asociada con Egipto desde la antigüedad, y las representaciones de perros que se parecen mucho a los Perros del Faraón se pueden encontrar en artefactos egipcios que datan de hace más de 4.000 años.
+      <br>
+      <br>
+      Los perros que se parecen al Perro del Faraón se pueden ver en los frescos y las esculturas de la antigua civilización minoica en Creta, que datan del 2000 al 1500 a.C. Se cree que estos perros fueron llevados a Malta por los fenicios, una antigua civilización marítima que comerciaba por todo el Mediterráneo.
+      <br>
+      <br>
+      En Malta, el Perro del Faraón ha sido valorado durante siglos por su habilidad para cazar. Son conocidos por su velocidad, agilidad y habilidad para cazar en silencio, lo que los hace excelentes cazadores de conejos, de ahí su nombre maltés, "Kelb tal-Fenek". A lo largo de los siglos, los malteses han trabajado para preservar la raza y mantener su habilidad para la caza.
+      <br>
+      <br>
+      A pesar de su larga historia, el Perro del Faraón no fue reconocido por el Kennel Club británico hasta 1928, y no fue hasta 1974 que la raza fue reconocida por el American Kennel Club. Aunque la raza no es tan conocida como otras, ha ganado un grupo de seguidores dedicados que aprecian su inteligencia, su lealtad y su naturaleza activa.
+      <br>
+      <br>
+      A lo largo de los años, el Perro del Faraón ha sido representado en numerosas obras de arte, desde las antiguas esculturas egipcias hasta las pinturas modernas. A pesar de su antigüedad, la raza ha cambiado muy poco a lo largo de los siglos, y los Perros del Faraón de hoy se parecen mucho a sus antiguos antepasados.
+      <br>
+      <br>
+      En resumen, la historia del Perro del Faraón es una que se remonta a miles de años, a través de civilizaciones antiguas y modernas. Aunque la raza puede no ser tan conocida como otras, su antigua historia y su lealtad y habilidad para la caza la han hecho apreciada por aquellos que la conocen.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente para la caza y el seguimiento',
       'Bueno con las familias y disfruta de jugar',
       'Requiere ejercicio regular y estimulación mental',
     ],
-    color: ['Canela', 'Blanco', 'Rojo'], // Los colores más comunes de la raza
+    color: ['Canela', 'Blanco', 'Rojo'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
@@ -15830,6 +16227,53 @@ fuentes: [
       'Alergias',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/Byz6mgqEQ_390x256.jpg'],
+    searchTerms: [
+      'Perro del Faraón',
+      'Sabueso',
+      'Caza de Conejos',
+      "Perro del Farao",
+      "Perro del Farón",
+      "Perro del Faraon",
+      "Pharaoh Hound",
+      "Kelb tal-Fenek",
+      "Perro de Malta",
+      "Perro Maltés",
+      "Perro de caza",
+      "Perro antiguo",
+      "Perro egipcio",
+      "Perro de los faraones",
+      "Perro de conejo",
+      "Perro de raza antigua",
+      "Perro de raza rara",
+      "Perro de raza pura",
+      "Perro de raza grande",
+      "Perro de orejas grandes",
+      "Perro de ojos ámbar",
+      "Perro de pelo corto",
+      "Perro de color rojo",
+      "Perro de color castaño",
+      "Perro de color tostado",
+      "Perro de color canela",
+      "Perro de color dorado",
+      "Perro de color cobrizo",
+      "Perro de color marrón",
+      "Perro de color beige",
+      "Perro de color miel",
+      "Perro de color caramelo"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Alta",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Pharaoh_Hound",
+    "https://www.dogbreedinfo.com/pharaohhound.htm",
+    "https://www.ukcdogs.com/pharaoh-hound"
+    ]
   },
   122: {
     weight: {
@@ -15846,7 +16290,7 @@ fuentes: [
     breed_group: ['Sabueso'],
     life_span: '12 - 14 años',
     temperament: ['Audaz', 'Alerta', 'Leal', 'Inteligente'],
-    origin: 'Estados Unidos', // Origen conocido de la raza
+    origin: 'Estados Unidos',
     reference_image_id: 'B1i67l5VQ',
     image: {
       id: 'B1i67l5VQ',
@@ -15854,19 +16298,59 @@ fuentes: [
       height: 480,
       url: 'https://cdn2.thedogapi.com/images/B1i67l5VQ.jpg',
     },
-    searchTerms: ['Plott', 'Sabueso', 'Caza de jabalí'],
-    country_code: 'US', // Código de país basado en el origen conocido de la raza
-    description:
-      'El Plott es una raza de perro audaz y alerta, conocida por su lealtad e inteligencia. Son excelentes cazadores de grandes animales como el jabalí y necesitan un dueño que pueda proporcionarles suficiente ejercicio físico y mental.',
-    history:
-      'El Plott se originó en Estados Unidos, donde se usaba principalmente para la caza de grandes animales como el jabalí. Esta raza fue criada para ser valiente, leal e inteligente, características que aún conserva hoy en día.',
+    country_code: 'US',
+    description: `
+      El Plott es una raza de perro que se destaca por su fuerza, agilidad y resistencia. Este perro de tamaño mediano a grande tiene una apariencia poderosa y atlética, con un cuerpo musculoso y una cabeza fuerte y expresiva. Su pelaje es corto y denso, proporcionando una protección adecuada contra los elementos. Los colores del pelaje pueden variar, pero los más comunes son el negro, el brindle y el marrón.
+      <br>
+      <br>
+      Los ojos del Plott son de color marrón o avellana, y expresan una mirada de inteligencia y determinación. Sus orejas son de tamaño mediano, colgantes y de forma redondeada en los extremos. La cola es de longitud media, llevada alta cuando el perro está en acción, pero de lo contrario se mantiene en una posición más relajada.
+      <br>
+      <br>
+      El Plott es un perro de trabajo por excelencia, conocido por su habilidad para rastrear y cazar. Es valiente, tenaz y extremadamente leal, lo que lo convierte en un excelente perro de caza, pero también en un maravilloso compañero de familia. Aunque puede ser reservado con los extraños, es amigable y afectuoso con su familia, incluyendo a los niños.
+      <br>
+      <br>
+      En términos de temperamento, el Plott es conocido por ser inteligente, valiente y enérgico. Aunque puede ser un poco terco a veces, responde bien a un entrenamiento firme y consistente. Este perro necesita mucho ejercicio y disfruta de actividades como correr, nadar y jugar a buscar. También es un excelente perro de senderismo, capaz de manejar terrenos difíciles con facilidad.
+      <br>
+      <br>
+      A pesar de su energía y necesidad de ejercicio, el Plott es sorprendentemente adaptable. Puede vivir en una variedad de entornos, desde una casa con un gran patio hasta un apartamento, siempre y cuando se le proporcione suficiente ejercicio diario. Sin embargo, debido a su instinto de caza, debe ser mantenido en un área segura y cercada o bajo control en todo momento.
+      <br>
+      <br>
+      En cuanto a su salud, el Plott es generalmente una raza saludable con pocos problemas genéticos. Sin embargo, como todos los perros, puede ser propenso a ciertas condiciones como la displasia de cadera, problemas de oído y ciertas alergias. Con una alimentación adecuada, suficiente ejercicio y cuidados veterinarios regulares, el Plott puede vivir hasta 12-14 años.
+      <br>
+      <br>
+      En resumen, el Plott es un perro de trabajo fuerte y resistente que también puede ser un maravilloso compañero de familia. Su inteligencia, lealtad y energía hacen de él una raza única y amada por muchos.
+    `,
+    history: `
+      La historia del Plott es una historia de perseverancia, habilidad y lealtad. Esta raza de perro, que lleva el nombre de la familia que la desarrolló, tiene sus raíces en la Alemania del siglo XVIII, pero su verdadera historia comienza en las montañas de Carolina del Norte, en los Estados Unidos.
+      <br>
+      <br>
+      Johannes Plott, un inmigrante alemán, llegó a América en 1750 con cinco perros de caza. Estos perros, que se cree que eran una mezcla de razas de sabuesos alemanes, fueron criados por su habilidad para rastrear y cazar jabalíes, una tarea que requiere tanto resistencia como valentía. Johannes se estableció en lo que hoy es Carolina del Norte, donde comenzó a criar y desarrollar lo que eventualmente se convertiría en la raza Plott.
+      <br>
+      <br>
+      Durante las siguientes décadas, la familia Plott continuó criando estos perros, seleccionándolos por su habilidad para rastrear y cazar, así como por su resistencia y valentía. Aunque la raza se desarrolló principalmente como perro de caza, también se valoraba por su lealtad y su habilidad para proteger el hogar y la familia.
+      <br>
+      <br>
+      A lo largo de los años, la raza se mantuvo relativamente pura, con poca o ninguna introducción de otras razas. Esto se debió en gran parte a la ubicación remota de la familia Plott en las montañas de Carolina del Norte, que limitaba la disponibilidad de otros perros. Como resultado, el Plott se desarrolló con una apariencia y habilidades únicas que lo distinguen de otras razas de sabuesos.
+      <br>
+      <br>
+      El Plott fue reconocido oficialmente como una raza por el United Kennel Club (UKC) en 1946, y es la única raza de perro coonhound que es originaria de los Estados Unidos. Sin embargo, no fue hasta 2006 que la raza fue reconocida por el American Kennel Club (AKC).
+      <br>
+      <br>
+      A pesar de su reconocimiento oficial, el Plott sigue siendo una raza relativamente desconocida fuera de las regiones de montaña del sureste de los Estados Unidos. Sin embargo, aquellos que conocen la raza la valoran por su habilidad para rastrear y cazar, así como por su lealtad y valentía.
+      <br>
+      <br>
+      Hoy en día, el Plott sigue siendo utilizado como perro de caza, especialmente para la caza de jabalíes. Sin embargo, también se está ganando una reputación como un excelente perro de familia, gracias a su lealtad, inteligencia y disposición amigable.
+      <br>
+      <br>
+      En resumen, la historia del Plott es una historia de habilidad, resistencia y lealtad. Desde sus humildes comienzos en las montañas de Carolina del Norte hasta su reconocimiento oficial como raza, el Plott ha demostrado ser un perro de trabajo excepcional y un compañero de familia leal.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente para la caza y el seguimiento de grandes animales',
       'Perro leal y protector, bueno como perro guardián',
       'Requiere ejercicio físico y mental regular',
     ],
-    color: ['Negro', 'Marrón', 'Brindle'], // Los colores más comunes de la raza
+    color: ['Negro', 'Marrón', 'Brindle'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
@@ -15882,6 +16366,53 @@ fuentes: [
       'Alergias',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/B1i67l5VQ_390x256.jpg'],
+    searchTerms: [
+      'Plott',
+      'Sabueso',
+      'Caza de jabalí',
+      "Plott Hound",
+      "Sabueso Plott",
+      "Perro de caza",
+      "Perro de rastreo",
+      "Perro de Carolina del Norte",
+      "Perro de montaña",
+      "Perro de trabajo",
+      "Perro de jabalí",
+      "Perro de caza mayor",
+      "Perro de resistencia",
+      "Perro valiente",
+      "Perro leal",
+      "Perro de familia",
+      "Perro coonhound",
+      "Perro de raza pura",
+      "Perro de raza americana",
+      "Perro de raza reconocida",
+      "Perro de raza UKC",
+      "Perro de raza AKC",
+      "Perro de raza desconocida",
+      "Perro de raza única",
+      "Perro de raza rara",
+      "Perro de raza de montaña",
+      "Perro de raza de caza",
+      "Perro de raza de trabajo",
+      "Perro de raza de resistencia",
+      "Perro de raza de valentía",
+      "Perro de raza de lealtad",
+      "Perro de raza de familia"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.akc.org/dog-breeds/plott/",
+    "https://www.dogbreedinfo.com/plott.htm",
+    "https://www.ukcdogs.com/plott"
+    ]
   },
   123: {
     weight: {
@@ -15905,7 +16436,7 @@ fuentes: [
       'Inteligente',
       'Activo',
     ],
-    origin: 'Alemania', // Origen conocido de la raza
+    origin: 'Alemania',
     reference_image_id: 'HJd0XecNX',
     image: {
       id: 'HJd0XecNX',
@@ -15913,19 +16444,50 @@ fuentes: [
       height: 532,
       url: 'https://cdn2.thedogapi.com/images/HJd0XecNX.jpg',
     },
-    searchTerms: ['Pomerania', 'Juguete', 'Compañía'],
-    country_code: 'DE', // Código de país basado en el origen conocido de la raza
-    description:
-      'El Pomerania es una raza de perro extrovertida y amigable. Son juguetones, inteligentes y muy activos. A pesar de su tamaño pequeño, tienen una gran personalidad y son excelentes como perros de compañía.',
-    history:
-      'El Pomerania se originó en Alemania, donde se criaron para ser perros de compañía. Esta raza ha sido popular durante mucho tiempo debido a su tamaño pequeño, su personalidad encantadora y su hermoso pelaje.',
+    country_code: 'DE',
+    description: `
+      El Pomerania, también conocido como Pom o Pom Pom, es una raza de perro pequeña pero poderosa, famosa por su abundante y esponjoso pelaje que recuerda a una pequeña bola de algodón. Este pelaje, que puede venir en una variedad de colores, desde el blanco puro hasta el negro, pasando por el naranja, el crema, el azul, el marrón y el sable, es una de las características más distintivas de la raza. El pelaje doble del Pomerania consta de una capa exterior larga y recta y una capa interior corta y suave que juntas forman un manto espeso y esponjoso.
+      <br>
+      <br>
+      Los Pomeranias son perros compactos y robustos. A pesar de su pequeño tamaño, son perros fuertes y musculosos con una espalda recta y patas cortas pero fuertes. Su cabeza es proporcional a su cuerpo, con una expresión alerta y curiosa. Sus ojos son oscuros y almendrados, y sus orejas son pequeñas y puntiagudas, siempre en estado de alerta. La cola del Pomerania es otra de sus características distintivas, ya que se curva sobre su espalda formando una especie de pluma.
+      <br>
+      <br>
+      En cuanto a su personalidad, los Pomeranias son conocidos por su naturaleza vivaz y enérgica. Son perros inteligentes y curiosos que disfrutan de la compañía de sus dueños y están siempre dispuestos a jugar. A pesar de su pequeño tamaño, son perros valientes que no temen enfrentarse a perros mucho más grandes que ellos. Son perros muy expresivos que no dudarán en hacer saber sus sentimientos, ya sea con ladridos o con su lenguaje corporal.
+      <br>
+      <br>
+      Los Pomeranias son perros muy adaptables que pueden vivir felizmente tanto en apartamentos como en casas con jardín. Sin embargo, necesitan ejercicio regular para mantenerse saludables y felices. A pesar de su abundante pelaje, los Pomeranias no son perros que requieran una gran cantidad de aseo. Un cepillado regular para evitar los enredos y mantener su pelaje esponjoso es generalmente suficiente.
+      <br>
+      <br>
+      En resumen, el Pomerania es un perro pequeño con una gran personalidad. Su apariencia adorable y su naturaleza vivaz y cariñosa lo convierten en una excelente mascota para una amplia variedad de hogares. Sin embargo, como cualquier raza, los Pomeranias requieren un cuidado y una atención adecuados para asegurar su salud y felicidad.
+    `,
+    history: `
+      La historia del Pomerania es fascinante y se remonta a varios siglos atrás. Esta raza lleva el nombre de la región de Pomerania, que se encuentra en la actual Polonia y Alemania, y es una de las razas más pequeñas del grupo de perros Spitz, que incluye razas como el Husky Siberiano, el Alaskan Malamute y el Samoyedo.
+      <br>
+      <br>
+      Los antepasados del Pomerania eran perros de trineo y pastoreo mucho más grandes que trabajaban en las duras condiciones del Ártico. Se cree que estos perros llegaron a la región de Pomerania a través de las migraciones de los vikingos y los eslavos. En Pomerania, estos perros grandes y resistentes fueron criados selectivamente para reducir su tamaño, mientras mantenían su resistencia y su pelaje espeso para resistir los fríos inviernos.
+      <br>
+      <br>
+      El Pomerania como lo conocemos hoy en día comenzó a tomar forma en el siglo XIX, cuando la reina Victoria de Inglaterra se enamoró de la raza durante una visita a Italia. Trajo un Pomerania llamado Marco a Inglaterra y comenzó a criar estos perros, seleccionando específicamente los ejemplares más pequeños. Durante el reinado de la reina Victoria, la popularidad de los Pomeranias creció enormemente, tanto en Inglaterra como en el resto del mundo.
+      <br>
+      <br>
+      La reina Victoria no fue la única figura histórica que amaba a los Pomeranias. Mozart, Chopin y Michelangelo también tenían Pomeranias. De hecho, se dice que Michelangelo esculpió la Capilla Sixtina con su Pomerania a su lado, y Mozart dedicó una de sus arias a su Pomerania, Pimperl.
+      <br>
+      <br>
+      A lo largo de los años, los Pomeranias han sido criados para ser cada vez más pequeños, pero han mantenido su valentía y su espíritu de perro grande. A pesar de su pequeño tamaño, los Pomeranias son conocidos por su valentía y su disposición a enfrentarse a perros mucho más grandes que ellos.
+      <br>
+      <br>
+      En el siglo XX, los Pomeranias se convirtieron en una de las razas de perros más populares y reconocibles del mundo. Han aparecido en numerosas películas y programas de televisión, y han sido la mascota de elección de numerosas celebridades. A pesar de su fama, los Pomeranias han mantenido su naturaleza cariñosa y leal, y siguen siendo una excelente opción para aquellos que buscan un compañero canino.
+      <br>
+      <br>
+      Hoy en día, los Pomeranias son apreciados por su apariencia adorable, su personalidad vivaz y su lealtad hacia sus dueños. Aunque su historia se remonta a los perros de trabajo del Ártico, los Pomeranias de hoy en día son más felices como perros de compañía, disfrutando de la comodidad de la vida hogareña mientras mantienen su espíritu valiente y enérgico.
+    `,
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Excelente compañía',
       'Ideal para familias o individuos que buscan un perro amigable y juguetón',
       'Requiere ejercicio regular, pero no tanto como las razas más grandes',
     ],
-    color: ['Naranja', 'Negro', 'Marrón'], // Los colores más comunes de la raza
+    color: ['Naranja', 'Negro', 'Marrón'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
@@ -15941,6 +16503,62 @@ fuentes: [
       'Problemas cardíacos',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/HJd0XecNX_390x256.jpg'],
+    searchTerms: [
+      'Pomerania',
+      'Juguete',
+      'Compañía',
+      "Pomeranias",
+      "Pomeranio",
+      "Pomeranios",
+      "Pom",
+      "Poms",
+      "Spitz enano",
+      "Spitz pequeño",
+      "Spitz",
+      "Perro de la reina Victoria",
+      "Perro de compañía",
+      "Perro de familia",
+      "Perro pequeño",
+      "Perro de pelo largo",
+      "Perro de pelo espeso",
+      "Perro de raza pequeña",
+      "Perro de raza toy",
+      "Perro toy",
+      "Perro miniatura",
+      "Perro de raza miniatura",
+      "Perro de raza pura",
+      "Perro de raza",
+      "Perro de raza pura pequeña",
+      "Perro de raza pura toy",
+      "Perro de raza pura miniatura",
+      "Perro de raza pura con pelo largo",
+      "Perro de raza pura con pelo espeso",
+      "Perro de raza pura para familia",
+      "Perro de raza pura para niños",
+      "Perro de raza pura para compañía"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Alta",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Baja",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Boo",
+    "caso": "Boo fue un Pomerania que se hizo famoso en las redes sociales, siendo apodado 'El perro más lindo del mundo'."
+    },
+    {
+    "nombre": "Hatchi",
+    "caso": "Hatchi es un Pomerania que pertenece a la cantante Perrie Edwards de la banda Little Mix."
+    }
+    ],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Pomeranian_(dog)",
+    "https://www.dogbreedinfo.com/pomeranian.htm",
+    "https://www.ukcdogs.com/pomeranian"
+    ]
   },
   124: {
     weight: {
@@ -15971,12 +16589,52 @@ fuentes: [
       height: 853,
       url: 'https://cdn2.thedogapi.com/images/Hkxk4ecVX.jpg',
     },
-    searchTerms: ['Caniche Miniatura', 'Caniche', 'Miniatura'],
     country_code: 'FR', // Código de país basado en el origen conocido de la raza
-    description:
-      'El Caniche Miniatura es una raza de perro inteligente y amigable. Son leales, llenos de energía y muy entrenables, lo que los hace excelentes compañeros para cualquier familia o individuo.',
-    history:
-      'El Caniche Miniatura se originó en Francia y ha sido un perro de compañía popular durante siglos. Son famosos por su inteligencia y su capacidad para aprender rápidamente.',
+    description: `
+      El Caniche Miniatura, también conocido como Poodle Miniatura, es una versión más pequeña de la raza de Caniche Estándar, pero con todas las características y cualidades que han hecho de los Caniches una de las razas de perros más populares y queridas en todo el mundo. Este perro es un paquete de energía y personalidad en un cuerpo pequeño y elegante, y es conocido por su inteligencia, su pelaje rizado y su espíritu juguetón.
+      <br>
+      <br>
+      El Caniche Miniatura mide entre 28 y 38 centímetros de altura a la cruz y pesa entre 4 y 7 kilogramos. Aunque es pequeño, este perro es todo menos frágil. Tiene un cuerpo bien proporcionado y musculoso, con una espalda corta y fuerte y patas rectas y paralelas. Su cabeza es larga y recta, con un hocico fuerte y una mordida de tijera. Los ojos son oscuros y ovalados, y las orejas son largas y colgantes, cubiertas de pelo rizado.
+      <br>
+      <br>
+      El pelaje del Caniche Miniatura es quizás su característica más distintiva. Es denso, rizado y resistente al agua, y puede ser de una variedad de colores, incluyendo blanco, negro, marrón, gris, albaricoque y crema. Este pelaje requiere un cuidado regular para evitar los enredos y las esteras, y muchos propietarios optan por cortes de pelo profesionales para mantener a su Caniche Miniatura luciendo su mejor aspecto.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Caniche Miniatura es conocido por su inteligencia y su disposición animada. Son perros vivaces y juguetones que aman la atención y disfrutan de la compañía de su familia humana. Son excelentes con los niños y se llevan bien con otros perros y mascotas. A pesar de su pequeño tamaño, son perros valientes y pueden ser protectores de su hogar y su familia.
+      <br>
+      <br>
+      El Caniche Miniatura es también un perro muy inteligente y altamente entrenable. Responden bien al entrenamiento de obediencia y pueden aprender una amplia variedad de trucos y comandos. Son perros activos que disfrutan de una buena cantidad de ejercicio diario, incluyendo paseos, juegos y tiempo para correr en un área segura y cerrada.
+      <br>
+      <br>
+      En resumen, el Caniche Miniatura es un perro pequeño con una gran personalidad. Son inteligentes, juguetones, cariñosos y leales, y hacen excelentes mascotas para una amplia variedad de hogares. Ya sea que estés buscando un compañero de juegos para tus hijos, un perro que pueda vivir cómodamente en un apartamento, o simplemente un amigo peludo que siempre esté a tu lado, el Caniche Miniatura puede ser la elección perfecta para ti.
+    `,
+    history: `
+      La historia del Caniche Miniatura es fascinante y está llena de glamour, inteligencia y una pizca de misterio. Aunque la raza es conocida en todo el mundo por su elegancia y su pelaje rizado, su origen y su historia son un poco más difíciles de rastrear.
+      <br>
+      <br>
+      El Caniche Miniatura es una de las tres variedades reconocidas de la raza Caniche, junto con el Caniche Estándar y el Caniche Toy. Aunque estas tres variedades son distintas en tamaño, todas son consideradas parte de la misma raza y comparten una historia común.
+      <br>
+      <br>
+      La raza Caniche tiene sus raíces en Europa, y aunque hay un debate sobre si su origen se encuentra en Francia o Alemania, la Federación Cinológica Internacional reconoce a Francia como el país de origen de la raza. El nombre "Caniche" proviene de la palabra alemana "Pudel", que significa "chapoteador en el agua", y esto nos da una pista sobre los primeros trabajos de estos perros.
+      <br>
+      <br>
+      Los Caniches fueron originalmente utilizados como perros de agua, ayudando a los cazadores a recuperar aves acuáticas. Su pelaje rizado y resistente al agua era ideal para este trabajo, y su inteligencia y habilidad para el entrenamiento los hacían excelentes trabajadores. El corte de pelo "leonado" que a menudo se asocia con los Caniches no es sólo por estética, sino que era una forma práctica de mantener a los perros calientes en el agua fría, protegiendo sus órganos vitales y articulaciones, mientras que el resto del cuerpo estaba cortado para facilitar el movimiento en el agua.
+      <br>
+      <br>
+      Con el tiempo, los Caniches se hicieron populares entre la nobleza y la realeza europea, especialmente en Francia, donde fueron adoptados como el perro nacional. Su inteligencia, su personalidad encantadora y su apariencia distintiva los hicieron favoritos en la corte, y pronto se convirtieron en perros de compañía en lugar de trabajadores.
+      <br>
+      <br>
+      El Caniche Miniatura surgió durante este período de popularidad entre la nobleza. Los criadores comenzaron a criar Caniches más pequeños para la compañía, y estos perros más pequeños se convirtieron en los Caniches Miniatura que conocemos hoy en día. Aunque son más pequeños en tamaño, los Caniches Miniatura mantienen todas las características y cualidades que hacen a los Caniches tan queridos.
+      <br>
+      <br>
+      En el siglo XIX, los Caniches Miniatura se hicieron populares en los circos debido a su inteligencia y facilidad de entrenamiento. Eran conocidos por su habilidad para aprender trucos complejos y por su disposición agradable, lo que los hacía perfectos para el entretenimiento.
+      <br>
+      <br>
+      Hoy en día, el Caniche Miniatura es amado en todo el mundo como mascota y como perro de exposición. Aunque ya no se utilizan para la caza o el trabajo en el agua, su inteligencia, su personalidad encantadora y su apariencia distintiva los han mantenido como una de las razas de perros más populares y queridas en el mundo.
+      <br>
+      <br>
+      En resumen, la historia del Caniche Miniatura es una historia de trabajo, de glamour, de inteligencia y de amor. Desde sus días como perros de agua hasta su tiempo en la corte real y en el circo, estos perros pequeños y elegantes han dejado su huella en el mundo canino. Y aunque su historia puede ser un poco misteriosa, una cosa es segura: el Caniche Miniatura ha conquistado los corazones de las personas en todo el mundo, y seguirá haciéndolo durante muchos años más.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Gran compañero de la familia',
@@ -16000,6 +16658,58 @@ fuentes: [
       'Displasia de cadera',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/Hkxk4ecVX_390x256.jpg'],
+    searchTerms: [
+      'Caniche Miniatura',
+      'Caniche',
+      'Miniatura',
+      "Caniche mini",
+      "Mini Caniche",
+      "Caniche",
+      "Mini Poodle",
+      "Poodle Miniatura",
+      "Poodle mini",
+      "Caniche enano",
+      "Poodle enano",
+      "Perro de compañía",
+      "Perro de circo",
+      "Perro elegante",
+      "Perro inteligente",
+      "Perro de pelo rizado",
+      "Perro de agua",
+      "Perro francés",
+      "Perro de corte leonado",
+      "Perro de caza",
+      "Perro de la realeza",
+      "Perro de la nobleza",
+      "Perro de exposición",
+      "Perro de raza pequeña",
+      "Perro de raza mini",
+      "Perro de raza miniatura",
+      "Perro para niños",
+      "Perro para familias",
+      "Perro para primerizos",
+      "Perro para apartamentos",
+      "Perro para interiores",
+      "Perro de pelo hipoalergénico"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Alta",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Alta",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Fifi",
+    "caso": "Fifi, el Caniche Miniatura, es la mascota virtual de la franquicia de videojuegos 'Nintendogs'."
+    }
+    ],
+    "fuentes": [
+    "https://www.dogbreedinfo.com/miniaturepoodle.htm",
+    "https://www.akc.org/dog-breeds/poodle-miniature/",
+    "https://www.ukcdogs.com/poodle-miniature"
+    ]
   },
   125: {
     weight: {
@@ -16030,12 +16740,46 @@ fuentes: [
       height: 403,
       url: 'https://cdn2.thedogapi.com/images/rJFJVxc4m.jpg',
     },
-    searchTerms: ['Caniche Juguete', 'Caniche', 'Juguete'],
     country_code: 'FR', // Código de país basado en el origen conocido de la raza
-    description:
-      'El Caniche Juguete es una versión más pequeña del Caniche, famoso por su inteligencia y personalidad amigable. Son perros de compañía ideales para la vida en apartamentos y hogares más pequeños.',
-    history:
-      'Originario de Francia, el Caniche Juguete ha sido un favorito en las casas de todo el mundo debido a su tamaño pequeño y su personalidad encantadora. Aunque se crían principalmente como perros de compañía, también han demostrado ser excelentes en la obediencia y la agilidad.',
+    description: `
+      El Caniche Juguete, también conocido como Toy Poodle, es una versión diminuta del popular Caniche, una raza conocida por su inteligencia, su personalidad vivaz y su distintivo pelaje rizado. Aunque pequeño en tamaño, el Caniche Juguete no es en absoluto un perro de juguete en términos de personalidad y energía. Este pequeño paquete de alegría es tan inteligente, activo y juguetón como sus parientes más grandes, el Caniche Estándar y el Caniche Miniatura.
+      <br>
+      <br>
+      El Caniche Juguete mide generalmente menos de 25 centímetros de altura y pesa entre 2 y 3 kilogramos, lo que lo convierte en un compañero ideal para aquellos que viven en apartamentos o casas con espacio limitado. A pesar de su tamaño pequeño, este perro es robusto y bien proporcionado, con un cuerpo cuadrado y una cabeza redondeada. Sus ojos son oscuros y llenos de inteligencia y curiosidad, mientras que sus orejas caen cerca de la cabeza y están cubiertas de pelo rizado.
+      <br>
+      <br>
+      El pelaje del Caniche Juguete es quizás su característica más distintiva. Es denso, rizado y puede venir en una variedad de colores, incluyendo negro, blanco, marrón, gris, albaricoque y crema. Este pelaje requiere un cuidado regular para mantenerlo limpio y saludable, incluyendo el cepillado diario y el recorte regular.
+      <br>
+      <br>
+      El Caniche Juguete es un perro lleno de energía y le encanta jugar. A pesar de su tamaño, es un perro ágil y rápido, y disfruta de una variedad de actividades, desde buscar hasta correr y saltar. También es un perro muy inteligente y se destaca en una variedad de deportes caninos, incluyendo la obediencia, la agilidad y el rally.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Caniche Juguete es conocido por ser amigable, sociable y afectuoso. Le encanta estar con su familia y es conocido por formar fuertes lazos con sus dueños. Aunque puede ser un poco reservado con los extraños al principio, generalmente se calienta rápidamente una vez que se siente cómodo. Este perro también se lleva bien con los niños y otros animales, siempre y cuando se le presente correctamente y se le trate con respeto.
+      <br>
+      <br>
+      En resumen, el Caniche Juguete es un perro pequeño con una gran personalidad. Es inteligente, activo, amigable y lleno de vida, y hace un maravilloso compañero para una amplia variedad de hogares. Aunque requiere un cuidado regular de su pelaje y necesita una buena cantidad de ejercicio y estimulación mental, su amor y lealtad hacia su familia hacen que valga la pena el esfuerzo.
+    `,
+    history: `
+      La historia del Caniche Juguete es fascinante y está intrínsecamente ligada a la del Caniche en general. Aunque hoy en día se le conoce principalmente como un perro de compañía de lujo, el Caniche tiene sus raíces en un pasado mucho más práctico y laborioso.
+      <br>
+      <br>
+      El Caniche, en todas sus variedades, incluyendo el Estándar, el Miniatura y el Juguete, se originó en Alemania, aunque la raza se desarrolló y se popularizó en Francia. El nombre "Caniche" proviene de la palabra alemana "Pudel", que significa "chapoteador en el agua", y es un reflejo de los primeros días de la raza como perro de agua. Los Caniches eran utilizados por los cazadores para recuperar aves acuáticas, y su distintivo pelaje rizado les proporcionaba una excelente protección contra el frío del agua.
+      <br>
+      <br>
+      A medida que la raza se fue desarrollando, los criadores comenzaron a criar Caniches de diferentes tamaños para diferentes propósitos. El Caniche Estándar continuó siendo utilizado como perro de agua, mientras que el Caniche Miniatura y el Caniche Juguete fueron criados principalmente como perros de compañía para la nobleza y la burguesía.
+      <br>
+      <br>
+      El Caniche Juguete, en particular, se convirtió en un favorito entre la realeza y la alta sociedad. Su pequeño tamaño lo hacía perfecto para la vida en palacios y mansiones, y su inteligencia y personalidad encantadora lo convertían en un excelente compañero. Durante el siglo XVIII, el Caniche Juguete era un accesorio común en los tribunales reales de toda Europa, y era frecuentemente retratado en pinturas y esculturas de la época.
+      <br>
+      <br>
+      A pesar de su popularidad entre la élite, el Caniche Juguete no se convirtió en una raza reconocida oficialmente hasta el siglo XX. La Federación Cinológica Internacional (FCI) reconoció oficialmente al Caniche Juguete como una variedad distinta del Caniche en 1936, y el American Kennel Club (AKC) hizo lo mismo en 1943.
+      <br>
+      <br>
+      Desde entonces, el Caniche Juguete ha continuado siendo una raza popular tanto en los espectáculos caninos como en los hogares de todo el mundo. Su inteligencia, su personalidad encantadora y su pequeño tamaño lo convierten en un excelente perro de compañía, y su distintivo pelaje rizado lo hace destacar en los anillos de los espectáculos.
+      <br>
+      <br>
+      En resumen, aunque el Caniche Juguete puede ser pequeño en tamaño, su historia es grande y llena de interés. Desde sus humildes comienzos como perro de agua hasta su estatus como favorito de la realeza y la alta sociedad, el Caniche Juguete ha dejado una huella indeleble en la historia canina.
+    `,
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Ideal para la vida en apartamentos',
@@ -16059,6 +16803,62 @@ fuentes: [
       'Displasia de cadera',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/rJFJVxc4m_390x256.jpg'],
+    searchTerms: [
+      'Caniche Juguete',
+      'Caniche',
+      'Juguete',
+      "Caniche Toy",
+      "Poodle Toy",
+      "Poodle Juguete",
+      "Caniche mini",
+      "Caniche pequeño",
+      "Caniche enano",
+      "Caniche para niños",
+      "Caniche para familia",
+      "Caniche para apartamento",
+      "Caniche para ciudad",
+      "Caniche inteligente",
+      "Caniche cariñoso",
+      "Caniche sociable",
+      "Caniche amigable",
+      "Caniche de compañía",
+      "Caniche de lujo",
+      "Caniche de realeza",
+      "Caniche de alta sociedad",
+      "Caniche de espectáculo",
+      "Caniche de concurso",
+      "Caniche de pelo rizado",
+      "Caniche de pelo largo",
+      "Caniche de pelo suave",
+      "Caniche de pelo hipoalergénico",
+      "Caniche de pelo no cae",
+      "Caniche de pelo no suelta",
+      "Caniche de pelo no alergia",
+      "Caniche de pelo no alérgico",
+      "Caniche de pelo no alergias"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Alta",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Alta",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Fifi",
+    "caso": "Fifi, el Caniche Toy, es una de las estrellas de la película de animación 'Open Season'."
+    },
+    {
+    "nombre": "Mimí",
+    "caso": "Mimí, un Caniche Toy, es la mascota de la famosa cantante y actriz francesa Mistinguett."
+    }
+    ],
+    "fuentes": [
+    "https://www.dogbreedinfo.com/toypoodle.htm",
+    "https://www.akc.org/dog-breeds/toy-poodle/",
+    "https://www.ukcdogs.com/toy-poodle"
+    ]
   },
   126: {
     weight: {
@@ -16092,12 +16892,49 @@ fuentes: [
       height: 600,
       url: 'https://cdn2.thedogapi.com/images/HyJvcl9N7.jpg',
     },
-    searchTerms: ['Pug', 'Mops', 'Carlino'],
     country_code: 'CN',
-    description:
-      'El Pug es una raza de perro con rostro arrugado y un cuerpo pequeño y robusto. Son conocidos por su temperamento alegre y su personalidad amigable y tranquila.',
-    history:
-      'El Pug es una de las razas de perros más antiguas, originaria de China antes de 400 a.C. Fueron criados como perros de compañía para las clases altas y recibieron un trato real.',
+    description: `
+      El Pug es una raza de perro que se caracteriza por su rostro arrugado y su cuerpo pequeño pero robusto. Esta raza es conocida por su personalidad encantadora y su apariencia distintiva, que ha ganado el corazón de muchos amantes de los perros en todo el mundo.
+      <br>
+      <br>
+      El Pug es un perro de tamaño pequeño a mediano, con un cuerpo compacto y musculoso. Su peso puede variar entre 6 y 8 kilogramos, y su altura a la cruz suele ser de unos 25 a 30 centímetros. A pesar de su tamaño pequeño, el Pug es un perro fuerte y resistente, capaz de soportar juegos rudos y actividades físicas moderadas.
+      <br>
+      <br>
+      La cabeza del Pug es una de sus características más distintivas. Es grande en relación con el cuerpo, redonda y no alargada. La frente está llena de arrugas profundas y bien definidas, que se acentúan cuando el perro está alerta o emocionado. Los ojos son grandes, redondos y oscuros, con una expresión dulce y un poco melancólica. Las orejas son pequeñas y finas, y pueden ser de dos tipos: "orejas de rosa", que son pequeñas y se pliegan hacia atrás, o "orejas de botón", que se pliegan hacia adelante cerca de la cabeza.
+      <br>
+      <br>
+      El pelaje del Pug es corto, suave y brillante. Los colores más comunes son el leonado, que puede variar desde un tono claro hasta un tono más oscuro, y el negro. Algunos Pugs pueden tener una pequeña mancha blanca en el pecho, conocida como "estrella". Una característica importante del pelaje del Pug es la "máscara", una zona de color más oscuro que cubre el hocico y las arrugas de la cara.
+      <br>
+      <br>
+      El Pug es un perro de temperamento equilibrado, amigable y cariñoso. Es conocido por su naturaleza sociable y su amor por la compañía humana. A pesar de su apariencia un poco seria, el Pug es un perro alegre y juguetón, que disfruta de los juegos y las actividades con su familia. Es un perro inteligente, pero también puede ser un poco terco, por lo que necesita una educación firme pero cariñosa.
+      <br>
+      <br>
+      En cuanto a su salud, el Pug es una raza generalmente saludable, pero puede ser propenso a ciertos problemas de salud, como la displasia de cadera, problemas oculares y problemas respiratorios debido a su hocico corto. También puede tener tendencia a la obesidad, por lo que es importante controlar su alimentación y asegurarse de que haga suficiente ejercicio.
+      <br>
+      <br>
+      En resumen, el Pug es un perro encantador y cariñoso, perfecto para aquellos que buscan un compañero leal y divertido. Su apariencia única y su personalidad alegre lo convierten en una raza muy especial que seguro cautivará a cualquier amante de los perros.
+    `,
+    history: `
+      La historia del Pug es una de las más antiguas y fascinantes en el mundo canino. Esta raza, conocida por su rostro arrugado y su cuerpo compacto, tiene una historia que se remonta a más de 2000 años, y ha sido la favorita de emperadores, reyes y reinas a lo largo de los siglos.
+      <br>
+      <br>
+      Los orígenes del Pug se pueden rastrear hasta la antigua China, donde se cree que fueron criados por primera vez alrededor del año 400 a.C. Los antiguos chinos valoraban a los perros de cara plana, y criaban Pugs junto con otras razas como el Pequinés y el Shih Tzu. En aquel entonces, los Pugs eran considerados un lujo que solo podían poseer los emperadores y la nobleza. Vivían en lujosos palacios y tenían sus propios sirvientes. Incluso se dice que algunos Pugs eran guardados por soldados, ya que eran considerados un tesoro valioso.
+      <br>
+      <br>
+      El Pug fue introducido en Europa en el siglo XVI, cuando los comerciantes holandeses de la Compañía Holandesa de las Indias Orientales trajeron a estos perros desde China. Los Pugs se convirtieron rápidamente en favoritos de la realeza europea. En particular, el Pug se convirtió en el perro oficial de la Casa de Orange en los Países Bajos después de que un Pug llamado Pompey supuestamente salvó la vida del príncipe Guillermo de Orange al alertarlo de un ataque de españoles en 1572.
+      <br>
+      <br>
+      Cuando Guillermo III y María II de la Casa de Orange ascendieron al trono de Inglaterra en 1688, trajeron sus Pugs con ellos, introduciendo la raza en el Reino Unido. Los Pugs se convirtieron en una sensación en la corte inglesa, y fueron criados y mimados por la nobleza.
+      <br>
+      <br>
+      Durante el siglo XIX, la reina Victoria de Inglaterra desarrolló una gran afición por los Pugs, lo que aumentó aún más su popularidad. La reina Victoria tenía muchos Pugs a lo largo de su vida, y ella misma se involucró en su cría. Durante este tiempo, se realizaron esfuerzos para criar Pugs más pequeños, lo que resultó en la creación de la variedad "Pug Toy" o "Pug Miniatura".
+      <br>
+      <br>
+      En el siglo XX, los Pugs continuaron siendo populares en todo el mundo. Fueron llevados a Estados Unidos en el siglo XIX, y el American Kennel Club reconoció la raza en 1885. Hoy en día, el Pug es una de las razas de perros más queridas y reconocibles del mundo.
+      <br>
+      <br>
+      A lo largo de su historia, el Pug ha sido valorado por su personalidad encantadora y su apariencia distintiva. A pesar de su pequeño tamaño, este perro tiene una gran personalidad y es conocido por su naturaleza amigable y su amor por la diversión. Con su rica historia y su estatus como favorito de la realeza, el Pug ha dejado una huella indeleble en la historia de la cría de perros.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Se lleva bien con niños y otras mascotas',
@@ -16121,6 +16958,64 @@ fuentes: [
       'Luxación patelar',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/HyJvcl9N7_390x256.jpg'],
+    searchTerms: [
+      'Pug',
+      'Mops',
+      'Carlino',
+      "Pugs",
+      "Pug chino",
+      "Perro Pug",
+      "Pug carlino",
+      "Doguillo",
+      "Perro de compañía",
+      "Perro de regazo",
+      "Perro pequeño",
+      "Perro arrugado",
+      "Perro de cara plana",
+      "Perro de nariz chata",
+      "Perro de la realeza",
+      "Perro de la reina Victoria",
+      "Perro de la Casa de Orange",
+      "Perro de la antigua China",
+      "Perro amigable",
+      "Perro sociable",
+      "Perro para niños",
+      "Perro para familia",
+      "Perro para apartamento",
+      "Perro para principiantes",
+      "Perro robusto",
+      "Perro resistente",
+      "Perro de pelo corto",
+      "Perro de bajo mantenimiento",
+      "Perro de poca energía",
+      "Perro tranquilo"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Baja",
+    "soporta_clima_calido": "Baja",
+    "para_primerizos": "Alta",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Frank",
+    "caso": "Frank es un Pug que aparece en la serie de películas de 'Men in Black'. Es un personaje cómico que aporta alivio cómico a las películas."
+    },
+    {
+    "nombre": "Percy",
+    "caso": "Percy es un Pug que aparece en la película de Disney 'Pocahontas'. Es la mascota del villano, el Gobernador Ratcliffe."
+    },
+    {
+    "nombre": "Otis",
+    "caso": "Otis es un Pug que aparece en la película 'The Adventures of Milo and Otis'. Es un personaje principal que vive varias aventuras junto a su amigo Milo, un gato atigrado."
+    }
+    ],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Pug",
+    "https://www.dogbreedinfo.com/pug.htm",
+    "https://www.ukcdogs.com/pug"
+    ]
   },
   127: {
     weight: {
@@ -16152,12 +17047,49 @@ fuentes: [
       height: 829,
       url: 'https://cdn2.thedogapi.com/images/ryPgVl5N7.jpg',
     },
-    searchTerms: ['Puli', 'Perro pastor húngaro', 'Pulik'],
     country_code: 'HU',
-    description:
-      'El Puli es un perro de tamaño mediano, famoso por su pelaje de cordones único que puede parecerse a las rastas. Son extremadamente inteligentes y ágiles, lo que los hace excelentes perros de trabajo y de compañía.',
-    history:
-      'El Puli es una raza antigua de perros de pastoreo de Hungría, conocida desde el siglo IX. Fueron utilizados principalmente por los pastores para cuidar y guiar al ganado, y aún hoy son muy valorados por sus habilidades de pastoreo.',
+    description: `
+      El Puli es una raza de perro que es tan única como fascinante. Con su distintivo pelaje de cordones, este perro es inmediatamente reconocible y a menudo causa asombro y curiosidad a primera vista. Pero más allá de su apariencia, el Puli es un perro lleno de personalidad y encanto que se gana el corazón de todos los que tiene la suerte de conocer.
+      <br>
+      <br>
+      El Puli es un perro de tamaño mediano, pero no dejes que su tamaño te engañe. Este perro es todo músculo y agilidad, con una resistencia que puede sorprender incluso a los más enérgicos de los dueños de perros. Su cuerpo compacto y bien proporcionado le permite moverse con una gracia y velocidad impresionantes, lo que lo convierte en un excelente perro de trabajo y de deportes caninos.
+      <br>
+      <br>
+      El rasgo más distintivo del Puli es, sin duda, su pelaje. Este perro tiene un manto doble que se desarrolla en cordones apretados y retorcidos que pueden llegar hasta el suelo. Este pelaje no sólo le da al Puli su aspecto característico, sino que también es funcional. Los cordones proporcionan una excelente protección contra las inclemencias del tiempo y los depredadores, y también ayudan a regular la temperatura corporal del perro.
+      <br>
+      <br>
+      El color del pelaje del Puli puede variar, aunque los colores más comunes son el negro, el blanco y varios tonos de gris. A pesar de su apariencia voluminosa, el pelaje del Puli es sorprendentemente ligero y requiere un cuidado especial para mantener su forma y salud.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Puli es un perro inteligente, enérgico y leal. Este perro es conocido por su agudo intelecto y su capacidad para resolver problemas, lo que lo convierte en un excelente perro de trabajo. El Puli es también un perro muy activo que requiere mucho ejercicio y estimulación mental para mantenerse feliz y saludable.
+      <br>
+      <br>
+      A pesar de su energía y entusiasmo, el Puli también es un perro muy leal y afectuoso. Este perro forma fuertes lazos con su familia y es conocido por su devoción y su deseo de estar cerca de sus seres queridos. El Puli es también un excelente perro guardián, siempre alerta y dispuesto a proteger a su familia si es necesario.
+      <br>
+      <br>
+      En resumen, el Puli es un perro verdaderamente único y maravilloso. Con su distintivo pelaje, su inteligencia aguda y su lealtad inquebrantable, este perro es una raza que deja una impresión duradera. Ya sea que estés buscando un perro de trabajo capaz, un compañero de deportes caninos o simplemente un amigo leal y cariñoso, el Puli es una raza que merece ser considerada.
+    `,
+    history: `
+      La historia del Puli es tan fascinante como su apariencia. Esta raza de perro, conocida por su distintivo pelaje en forma de cordones, tiene una historia que se remonta a más de mil años, y su legado está profundamente arraigado en la cultura y la historia de Hungría.
+      <br>
+      <br>
+      El Puli es una de las razas de perros pastor más antiguas del mundo. Se cree que los antiguos magiares, que se establecieron en la región que hoy conocemos como Hungría alrededor del año 800 d.C., trajeron consigo a los antepasados del Puli. Estos perros eran valorados por su habilidad para pastorear y proteger rebaños de ovejas, y se convirtieron en una parte integral de la vida agrícola en la región.
+      <br>
+      <br>
+      Los primeros Pulis eran perros de trabajo duros y resistentes, criados por su inteligencia, agilidad y habilidad para pastorear. Su distintivo pelaje en forma de cordones no era sólo una característica estética, sino que también tenía un propósito práctico. Los cordones proporcionaban protección contra las inclemencias del tiempo y los depredadores, y también ayudaban a distinguir a los perros del rebaño que estaban pastoreando.
+      <br>
+      <br>
+      Durante siglos, el Puli fue una raza de perro pastor esencial en Hungría, y su importancia en la vida agrícola de la región se reflejaba en la cultura y la literatura. Sin embargo, con el paso del tiempo y los cambios en las prácticas agrícolas, el número de Pulis comenzó a disminuir.
+      <br>
+      <br>
+      A principios del siglo XX, la raza estuvo al borde de la extinción. Sin embargo, gracias a los esfuerzos de los entusiastas de la raza, el Puli fue rescatado y su población comenzó a recuperarse. Se establecieron programas de cría para preservar y promover la raza, y el Puli comenzó a ganar reconocimiento más allá de las fronteras de Hungría.
+      <br>
+      <br>
+      En la actualidad, el Puli es una raza de perro apreciada tanto por su habilidad para el trabajo como por su personalidad única y su apariencia distintiva. Aunque ya no se utiliza comúnmente como perro pastor en Hungría, la raza ha encontrado un nuevo papel como compañero de familia y competidor en deportes caninos.
+      <br>
+      <br>
+      La historia del Puli es un testimonio de la resistencia y la adaptabilidad de esta raza. A pesar de los desafíos y los cambios a lo largo de los siglos, el Puli ha perdurado y sigue siendo una raza de perro amada y valorada en todo el mundo. Su legado como perro pastor sigue vivo en su agilidad, inteligencia y lealtad, y su distintivo pelaje en forma de cordones sigue siendo un símbolo de su rica historia y patrimonio.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Altamente inteligente y fácil de entrenar',
@@ -16181,6 +17113,56 @@ fuentes: [
       'Cataratas',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/ryPgVl5N7_390x256.jpg'],
+    searchTerms: [
+      'Puli',
+      'Perro pastor húngaro',
+      'Pulik',
+      'Perro de cordones',
+      'Perro de Hungría',
+      'Perro pastor',
+      'Perro de trabajo',
+      'Perro de rebaño',
+      'Perro de pelo rizado',
+      'Perro de pelo en cordones',
+      'Perro de compañía',
+      'Perro de agilidad',
+      'Perro inteligente',
+      'Perro leal',
+      'Perro resistente',
+      'Perro activo',
+      'Perro de tamaño mediano',
+      'Perro de raza antigua',
+      'Perro de raza pura',
+      'Perro de raza rara',
+      'Perro de raza húngara',
+      'Perro de raza europea',
+      'Perro de raza pastor',
+      'Perro de raza de trabajo',
+      'Perro de raza de compañía',
+      'Perro de raza de agilidad',
+      'Perro de raza inteligente',
+      'Perro de raza leal',
+      'Perro de raza resistente',
+      'Perro de raza activa'
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+    {
+    nombre: 'Mark Zuckerberg',
+    caso: 'El fundador de Facebook, Mark Zuckerberg, tiene un Puli llamado Beast que tiene su propia página de Facebook.'
+    }
+    ],
+    fuentes: [
+    'https://www.akc.org/dog-breeds/puli/',
+    'https://www.dogbreedinfo.com/puli.htm',
+    'https://www.ukcdogs.com/puli'
+    ]
   },
   128: {
     weight: {
@@ -16212,12 +17194,52 @@ fuentes: [
       height: 391,
       url: 'https://cdn2.thedogapi.com/images/SyRe4xcN7.jpg',
     },
-    searchTerms: ['Pumi', 'Perro pastor húngaro', 'Pumik'],
     country_code: 'HU',
-    description:
-      'El Pumi es un perro de tamaño mediano, conocido por su personalidad vivaz y su apariencia distintiva con orejas erguidas y pelo rizado. Son perros inteligentes y activos, excelentes para el trabajo de pastoreo.',
-    history:
-      'El Pumi se originó en Hungría y se utilizó principalmente para el pastoreo de ovejas y ganado. Esta raza se desarrolló a partir de la mezcla de varias razas de perros de pastoreo húngaras y extranjeras.',
+    description: `
+      El Pumi es una raza de perro de tamaño mediano que se destaca por su apariencia única y su personalidad vivaz. Originario de Hungría, este perro es conocido por su pelaje rizado y su rostro expresivo, que a menudo se describe como "sonriente". Pero no te dejes engañar por su apariencia adorable, el Pumi es un trabajador nato con una energía inagotable y una inteligencia aguda.
+      <br>
+      <br>
+      El cuerpo del Pumi es ligeramente más largo que alto, lo que le da una apariencia rectangular. Su cabeza es larga y estrecha, con orejas erguidas que terminan en una punta redondeada. Los ojos oscuros y almendrados del Pumi le dan una expresión alerta y curiosa, siempre listo para la acción.
+      <br>
+      <br>
+      El pelaje del Pumi es una de sus características más distintivas. Es de longitud media, con rizos apretados que cubren todo su cuerpo. Este pelaje no solo le da al Pumi su aspecto distintivo, sino que también es práctico, ya que proporciona protección contra las inclemencias del tiempo y los parásitos. El pelaje puede venir en una variedad de colores, incluyendo negro, gris de varios tonos, blanco y fawn.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Pumi es un perro lleno de energía y entusiasmo. Son perros muy activos que necesitan mucho ejercicio y estimulación mental para mantenerse felices y saludables. Son inteligentes y aprenden rápidamente, lo que los hace excelentes para una variedad de actividades caninas, como la agilidad, el pastoreo y la obediencia.
+      <br>
+      <br>
+      El Pumi es también un perro muy sociable que disfruta de la compañía de su familia humana. Son leales y cariñosos con sus seres queridos, y pueden ser buenos con los niños si se socializan correctamente. Sin embargo, pueden ser reservados con los extraños y pueden ladrar para alertar a su familia de la presencia de alguien desconocido.
+      <br>
+      <br>
+      A pesar de su tamaño mediano, el Pumi es un perro robusto y resistente. Son perros saludables en general, pero como todas las razas, pueden ser propensos a ciertas condiciones de salud. Es importante para los propietarios potenciales estar al tanto de estas posibles preocupaciones de salud y asegurarse de que su Pumi reciba atención veterinaria regular.
+      <br>
+      <br>
+      En resumen, el Pumi es un perro lleno de vida y personalidad. Su apariencia única, su inteligencia aguda y su naturaleza activa y sociable hacen de esta raza una excelente opción para aquellos que buscan un compañero canino que sea tanto un amigo leal como un trabajador incansable. Sin embargo, también requieren un compromiso de tiempo y energía por parte de sus dueños para asegurarse de que sus necesidades de ejercicio y estimulación mental se satisfacen adecuadamente. Con el cuidado y la atención adecuados, un Pumi puede ser un maravilloso y gratificante miembro de la familia.
+    `,
+    history: `
+      La historia del Pumi es una historia de trabajo y adaptabilidad, una raza que ha evolucionado a lo largo de los siglos para convertirse en el perro versátil y enérgico que conocemos hoy.
+      <br>
+      <br>
+      El Pumi tiene sus raíces en Hungría, donde se desarrolló a partir de una mezcla de razas de perros de pastoreo locales y extranjeros. Aunque no se sabe exactamente cuándo se originó la raza, se cree que el Pumi ha existido en Hungría desde al menos el siglo XVII o XVIII. Durante este tiempo, los pastores húngaros comenzaron a criar perros que podían ayudarles en sus tareas diarias, como el pastoreo y la protección del ganado. Estos perros necesitaban ser inteligentes, ágiles y capaces de trabajar durante largos períodos de tiempo, cualidades que se han mantenido en el Pumi hasta el día de hoy.
+      <br>
+      <br>
+      El Pumi fue criado para ser un perro de trabajo versátil, capaz de realizar una variedad de tareas. No sólo eran excelentes perros de pastoreo, sino que también se utilizaban para cazar roedores y como perros de guardia. Su tamaño mediano, su agilidad y su inteligencia los hacían perfectos para estas tareas, y pronto se convirtieron en una parte integral de la vida agrícola en Hungría.
+      <br>
+      <br>
+      A pesar de su popularidad en Hungría, el Pumi permaneció relativamente desconocido fuera de su país de origen durante muchos años. No fue hasta el siglo XX que la raza comenzó a ganar reconocimiento internacional. En 1920, el Pumi fue reconocido oficialmente como una raza por la Federación Cinológica Internacional. Sin embargo, no fue hasta décadas más tarde que la raza comenzó a ganar popularidad en otros países.
+      <br>
+      <br>
+      En los años 70 y 80, los Pumis fueron importados a países como Finlandia y Suecia, donde se ganaron el corazón de los amantes de los perros con su personalidad encantadora y su apariencia única. Desde entonces, la raza ha continuado creciendo en popularidad en todo el mundo.
+      <br>
+      <br>
+      En 2016, el Pumi fue reconocido oficialmente por el American Kennel Club, lo que marcó un hito importante para la raza en los Estados Unidos. Aunque todavía no es tan conocido como otras razas de perros de pastoreo, el Pumi está ganando reconocimiento y aprecio por su inteligencia, su versatilidad y su personalidad encantadora.
+      <br>
+      <br>
+      Hoy en día, el Pumi sigue siendo un perro de trabajo en Hungría, donde se utiliza en granjas y ranchos para pastorear y proteger el ganado. Sin embargo, también se ha ganado un lugar en los hogares y los corazones de los amantes de los perros en todo el mundo. Ya sea como perro de trabajo, competidor en deportes caninos o simplemente como un compañero leal y cariñoso, el Pumi ha demostrado ser una raza verdaderamente versátil y amada.
+      <br>
+      <br>
+      La historia del Pumi es un testimonio de la adaptabilidad y la resistencia de esta raza. A través de los siglos, han evolucionado y se han adaptado a las necesidades cambiantes de sus dueños, manteniendo siempre su inteligencia, su energía y su amor por el trabajo. Aunque la raza ha recorrido un largo camino desde sus humildes comienzos en las granjas de Hungría, el Pumi sigue siendo un perro de pastoreo en el corazón, siempre listo para un desafío y siempre dispuesto a trabajar.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Perro de trabajo inteligente y activo',
@@ -16237,6 +17259,53 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
     gallery: ['https://cdn2.thedogapi.com/images/SyRe4xcN7_390x256.jpg'],
+    searchTerms: [
+      'Pumi',
+      'Perro pastor húngaro',
+      'Pumik',
+      "Pumik",
+      "Perro húngaro",
+      "Perro de pastoreo",
+      "Perro de trabajo",
+      "Perro de granja",
+      "Perro de caza de roedores",
+      "Perro de tamaño mediano",
+      "Perro de pelo rizado",
+      "Perro de orejas erguidas",
+      "Perro activo",
+      "Perro inteligente",
+      "Perro versátil",
+      "Perro de compañía",
+      "Perro de familia",
+      "Perro de agilidad",
+      "Perro de obediencia",
+      "Perro de terapia",
+      "Perro de servicio",
+      "Perro de rescate",
+      "Perro de alerta",
+      "Perro de guardia",
+      "Perro de protección",
+      "Perro de vigilancia",
+      "Perro de deporte",
+      "Perro de competencia",
+      "Perro de exposición",
+      "Perro de show",
+      "Perro de concurso",
+      "Perro de raza pura"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Pumi_(dog)",
+    "https://www.dogbreedinfo.com/pumi.htm",
+    "https://www.ukcdogs.com/pumi"
+    ]
   },
   129: {
     weight: {
@@ -16268,12 +17337,55 @@ fuentes: [
       height: 689,
       url: 'https://cdn2.thedogapi.com/images/HkXWNl9E7.jpg',
     },
-    searchTerms: ['Terrier Rata', 'Rat Terrier', 'Terrier americano'],
     country_code: 'US',
-    description:
-      'El Terrier Rata es un perro de tamaño pequeño a mediano, conocido por su naturaleza enérgica y su habilidad para cazar ratas. Son perros inteligentes y afectuosos, lo que los hace excelentes mascotas para la familia.',
-    history:
-      'El Terrier Rata se originó en Estados Unidos y se utilizó principalmente para cazar ratas y otros roedores. Esta raza es una mezcla de varias razas de terrier, incluyendo el Fox Terrier y el Bull Terrier.',
+    description: `
+      El Terrier Rata es una raza de perro que, a pesar de su nombre, cautiva a las personas con su encanto y personalidad. Son perros pequeños pero robustos, con una apariencia distintiva que refleja su naturaleza enérgica y su historia de trabajo.
+      <br>
+      <br>
+      El Terrier Rata tiene un cuerpo compacto y musculoso, que denota fuerza y agilidad. Su tamaño puede variar, pero generalmente se encuentran en el rango de los 25 a los 35 centímetros de altura a la cruz, y su peso puede oscilar entre los 6 y los 8 kilogramos. A pesar de su pequeño tamaño, son perros fuertes y resistentes, capaces de mantener un ritmo de trabajo durante largos períodos de tiempo.
+      <br>
+      <br>
+      La cabeza del Terrier Rata es de tamaño proporcional al cuerpo, con una expresión alerta y viva. Sus ojos son oscuros y brillantes, y sus orejas pueden ser erectas o semi-erectas, lo que le da una apariencia de constante atención. El hocico es fuerte y termina en una nariz negra.
+      <br>
+      <br>
+      El pelaje del Terrier Rata es corto, denso y áspero al tacto. Puede venir en una variedad de colores, incluyendo negro, azul, rojo, crema, y combinaciones de estos. A pesar de su pelaje corto, el Terrier Rata es conocido por ser un perro de muda moderada, por lo que requiere un cepillado regular para mantener su pelaje en buen estado.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Terrier Rata es un perro lleno de energía y entusiasmo. Son perros inteligentes y curiosos, siempre dispuestos a explorar su entorno y a participar en nuevas actividades. Son conocidos por su valentía y su disposición a enfrentarse a desafíos, lo que refleja su pasado como perros de trabajo.
+      <br>
+      <br>
+      A pesar de su tamaño, el Terrier Rata es un perro que necesita mucho ejercicio. Les encanta correr, jugar y explorar, por lo que necesitan mucho tiempo al aire libre. También son perros muy inteligentes, por lo que disfrutan de los juegos y actividades que desafían su mente.
+      <br>
+      <br>
+      En cuanto a su relación con las personas, el Terrier Rata es un perro leal y afectuoso. Son buenos con los niños y pueden llevarse bien con otros perros si se socializan adecuadamente desde una edad temprana. Sin embargo, debido a su instinto de caza, pueden no llevarse bien con animales más pequeños.
+      <br>
+      <br>
+      En resumen, el Terrier Rata es un perro pequeño con una gran personalidad. Son perros activos, inteligentes y leales, que pueden ser una maravillosa adición a cualquier hogar que pueda satisfacer sus necesidades de ejercicio y estimulación mental. Su tamaño compacto y su naturaleza resistente los hacen adecuados para una variedad de estilos de vida, desde la vida en la ciudad hasta la vida en el campo. Con el cuidado y la socialización adecuados, el Terrier Rata puede ser un compañero maravilloso y lleno de vida.
+    `,
+    history: `
+      El Terrier Rata es una raza de perro con una historia rica y fascinante que se remonta a la Inglaterra del siglo XIX. Aunque su nombre pueda sugerir una imagen menos que atractiva, la historia de esta raza es una de valentía, resistencia y una habilidad inigualable para el trabajo para el que fue criada.
+      <br>
+      <br>
+      La historia del Terrier Rata comienza en la Inglaterra industrial del siglo XIX. Durante este tiempo, las ciudades estaban plagadas de ratas, y se necesitaban perros para controlar la población de roedores. Los Terriers Rat, con su tamaño pequeño y su agilidad, eran perfectos para esta tarea. Eran lo suficientemente pequeños para entrar en las madrigueras y lo suficientemente rápidos y ágiles para atrapar a las ratas.
+      <br>
+      <br>
+      El Terrier Rata fue criado específicamente para este propósito, a partir de una mezcla de varias razas de terrier, incluyendo el Terrier de Manchester, el Terrier de Fox y el Terrier de Bull. El resultado fue un perro pequeño, robusto y ágil, con una gran resistencia y una fuerte voluntad de trabajar.
+      <br>
+      <br>
+      Pero el Terrier Rata no solo era valorado por su habilidad para cazar ratas. También se convirtió en un participante popular en el deporte de la época conocido como "rat-baiting". En estos eventos, se colocaba a un Terrier Rata en un foso con un número determinado de ratas, y se apostaba sobre cuánto tiempo tardaría el perro en matar a todas las ratas. Aunque esta práctica puede parecer cruel e inhumana hoy en día, era una forma popular de entretenimiento en la época victoriana.
+      <br>
+      <br>
+      A medida que avanzaba el siglo XIX, las condiciones sanitarias en las ciudades mejoraron y la necesidad de perros rateros disminuyó. Sin embargo, el Terrier Rata se había ganado un lugar en los corazones de la gente, y la raza continuó siendo popular como perro de compañía.
+      <br>
+      <br>
+      En el siglo XX, el Terrier Rata fue llevado a América, donde continuó siendo apreciado por su habilidad para cazar ratas y otros pequeños roedores. Aunque nunca ha alcanzado la popularidad de algunas otras razas de terrier, el Terrier Rata ha mantenido un grupo de seguidores leales que aprecian su inteligencia, su energía y su personalidad encantadora.
+      <br>
+      <br>
+      Hoy en día, el Terrier Rata es una raza reconocida por el Kennel Club del Reino Unido y el American Kennel Club, entre otros. Aunque ya no se le necesita para cazar ratas en las calles de la ciudad, el Terrier Rata sigue siendo un perro de trabajo en el corazón, y disfruta de actividades que le permiten utilizar su inteligencia y su energía.
+      <br>
+      <br>
+      En resumen, la historia del Terrier Rata es una de adaptabilidad y supervivencia. Aunque su papel en la sociedad ha cambiado a lo largo de los años, esta raza ha demostrado una y otra vez su capacidad para sobresalir en cualquier tarea que se le presente. Desde las calles de la Inglaterra victoriana hasta los hogares modernos de hoy, el Terrier Rata ha dejado una huella indeleble enel mundo canino.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Perro inteligente y enérgico',
@@ -16297,6 +17409,53 @@ fuentes: [
       'Alergias',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/HkXWNl9E7_390x256.jpg'],
+    searchTerms: [
+      'Terrier Rata',
+      'Rat Terrier',
+      'Terrier americano',
+      "Rat Terrier",
+      "Terrier de Rata",
+      "Terrier Ratón",
+      "Ratonero",
+      "Terrier",
+      "Perro cazador de ratas",
+      "Perro ratero",
+      "Perro pequeño",
+      "Perro de compañía",
+      "Perro de trabajo",
+      "Perro activo",
+      "Perro inteligente",
+      "Perro ágil",
+      "Perro resistente",
+      "Perro de caza",
+      "Perro de granja",
+      "Perro de familia",
+      "Perro para niños",
+      "Perro para principiantes",
+      "Perro para exteriores",
+      "Perro para interiores",
+      "Perro para apartamento",
+      "Perro para casa",
+      "Perro para jardín",
+      "Perro para campo",
+      "Perro para ciudad",
+      "Perro para deportes caninos",
+      "Perro para agilidad",
+      "Perro para obediencia"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Alta",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.dogbreedinfo.com/ratterrier.htm",
+    "https://www.akc.org/dog-breeds/rat-terrier/",
+    "https://www.ukcdogs.com/rat-terrier"
+    ]
   },
   130: {
     weight: {
@@ -16333,12 +17492,49 @@ fuentes: [
       height: 1323,
       url: 'https://cdn2.thedogapi.com/images/HJMzEl5N7.jpg',
     },
-    searchTerms: ['Sabueso Rojo', 'Redbone Coonhound'],
     country_code: 'US',
-    description:
-      'El Sabueso Rojo es un perro de tamaño mediano a grande, conocido por su pelaje rojo y su habilidad para cazar. A pesar de su independencia, son perros afectuosos y se llevan bien con las familias.',
-    history:
-      'Originario de Estados Unidos, el Sabueso Rojo se desarrolló para la caza de mapaches, ciervos, osos y pumas. Su resistencia y su olfato agudo lo convierten en un cazador excepcional.',
+    description: `
+      El Sabueso Rojo, también conocido como Redbone Coonhound, es una raza de perro que destaca por su elegante apariencia y su impresionante capacidad para el trabajo. Su pelaje corto y liso es de un color rojo intenso que le da su nombre, y su cuerpo es fuerte y bien proporcionado, mostrando una gran resistencia y agilidad.
+      <br>
+      <br>
+      La cabeza del Sabueso Rojo es larga y estrecha, con un hocico que se estrecha hacia la nariz. Sus ojos son oscuros, de forma almendrada y transmiten una expresión de determinación y alerta. Las orejas son largas y caídas, llegando hasta la nariz cuando se estiran hacia adelante. El pecho es profundo y amplio, y el cuerpo muestra una línea dorsal recta que desciende suavemente hacia la cola, que es llevada alta y en constante movimiento cuando el perro está trabajando.
+      <br>
+      <br>
+      El Sabueso Rojo es un perro de tamaño medio a grande, con los machos midiendo entre 56 y 68 centímetros a la cruz y las hembras un poco más pequeñas. Su peso puede variar entre 23 y 32 kilogramos, dependiendo del tamaño y el sexo del perro.
+      <br>
+      <br>
+      El temperamento del Sabueso Rojo es tan impresionante como su apariencia. Son perros extremadamente inteligentes, con una gran capacidad para resolver problemas y una increíble determinación para seguir un rastro. Son perros de trabajo por naturaleza, y necesitan una cantidad significativa de ejercicio físico y mental para mantenerse felices y saludables.
+      <br>
+      <br>
+      A pesar de su intensa concentración en el trabajo, el Sabueso Rojo es también un perro muy amigable y afectuoso. Son conocidos por su lealtad hacia su familia y su amor por los niños. Son perros sociales que disfrutan de la compañía de otros perros y personas, y a menudo se llevan bien con otros animales de la casa.
+      <br>
+      <br>
+      En cuanto a su cuidado, el Sabueso Rojo es una raza relativamente fácil de mantener. Su pelaje corto y liso requiere un cepillado semanal para mantenerlo limpio y brillante. Son perros limpios por naturaleza y no suelen tener un olor fuerte. Sin embargo, como todos los perros, necesitan cuidados regulares de las uñas, los oídos y los dientes.
+      <br>
+      <br>
+      En resumen, el Sabueso Rojo es un perro de trabajo excepcional y un compañero familiar cariñoso. Su inteligencia, determinación y afecto hacen de esta raza una excelente elección para aquellos que buscan un perro activo y amigable. Sin embargo, su necesidad de ejercicio y estimulación mental significa que no son adecuados para todos los hogares. Necesitan un dueño que pueda proporcionarles el tiempo, la energía y el compromiso que necesitan para prosperar.
+    `,
+    history: `
+      La historia del Sabueso Rojo, también conocido como Redbone Coonhound, es una historia de adaptación, resistencia y dedicación a un propósito. Esta raza, que se originó en los Estados Unidos, es un testimonio de la habilidad de los criadores para desarrollar un perro que no solo es hermoso a la vista, sino también altamente funcional y adaptado a las necesidades específicas de su entorno.
+      <br>
+      <br>
+      La historia del Sabueso Rojo comienza en el siglo XVIII, cuando los colonos europeos trajeron a América una variedad de perros de caza para ayudarles en su nueva vida. Entre estos perros se encontraban los sabuesos de Foxhound y Bloodhound, conocidos por su agudo sentido del olfato y su habilidad para seguir un rastro. Estos perros se cruzaron con una variedad de otras razas para producir un perro que pudiera manejar el terreno accidentado y el clima variable de las regiones del sur de los Estados Unidos.
+      <br>
+      <br>
+      En el siglo XIX, un criador de Georgia llamado George F.L. Birdsong comenzó a trabajar en el desarrollo de una raza de sabueso que fuera rápida, ágil y capaz de cazar tanto de día como de noche. Birdsong importó y crió una serie de sabuesos rojos de Escocia e Irlanda, conocidos por su velocidad y resistencia, así como por su pelaje rojo distintivo. Estos perros se cruzaron con los sabuesos locales para producir lo que se convertiría en el Sabueso Rojo.
+      <br>
+      <br>
+      El Sabueso Rojo fue criado específicamente para cazar mapaches, una tarea que requiere una combinación de velocidad, resistencia y un agudo sentido del olfato. Los mapaches son animales nocturnos que pueden trepar a los árboles y nadar, por lo que los perros necesitaban ser capaces de seguir un rastro a través de una variedad de terrenos y condiciones. El Sabueso Rojo demostró ser excepcionalmente bueno en esta tarea, y pronto se convirtió en una raza favorita entre los cazadores de mapaches.
+      <br>
+      <br>
+      A lo largo del siglo XX, el Sabueso Rojo continuó siendo una raza popular en el sur de los Estados Unidos, tanto para la caza como para la compañía. Su naturaleza amigable y su apariencia atractiva también lo hicieron popular como mascota. Sin embargo, no fue hasta 2001 que la raza fue reconocida oficialmente por el American Kennel Club.
+      <br>
+      <br>
+      Hoy en día, el Sabueso Rojo sigue siendo una raza popular tanto para la caza como para la compañía. Su agudo sentido del olfato, su resistencia y su habilidad para trabajar tanto de día como de noche lo hacen muy valorado como perro de caza. Al mismo tiempo, su naturaleza amigable y su apariencia atractiva lo hacen un favorito como mascota y compañero de familia.
+      <br>
+      <br>
+      La historia del Sabueso Rojo es un testimonio de la habilidad y dedicación de los criadores para desarrollar una raza que no solo es hermosa a la vista, sino también altamente funcional y adaptada a las necesidades específicas de su entorno. Es una raza que realmente representa la diversidad y la adaptabilidad del perro como especie.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente cazador',
@@ -16362,6 +17558,56 @@ fuentes: [
       'Obesidad',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/HJMzEl5N7_390x256.jpg'],
+    searchTerms: [
+      'Sabueso Rojo',
+      'Redbone Coonhound',
+      "Sabueso",
+      "Rojo",
+      "Sabueso de color rojo",
+      "Perro de caza",
+      "Cazador de mapaches",
+      "Perro de rastreo",
+      "Perro de trabajo",
+      "Perro de olfato agudo",
+      "Perro de resistencia",
+      "Perro de compañía",
+      "Perro familiar",
+      "Perro amigable",
+      "Perro de Estados Unidos",
+      "Perro americano",
+      "Perro de Georgia",
+      "Perro de caza nocturna",
+      "Perro de caza diurna",
+      "Perro de caza versátil",
+      "Perro de pelaje rojo",
+      "Perro de raza grande",
+      "Perro de raza pura",
+      "Perro de raza reconocida",
+      "Perro de raza oficial",
+      "Perro de raza AKC",
+      "Perro de raza de trabajo",
+      "Perro de raza de caza",
+      "Perro de raza de compañía",
+      "Perro de raza de familia"
+    ],
+    "tendencia_a_ladrar": "Alta",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Alta",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Sounder",
+    "caso": "Sounder es un Sabueso Rojo famoso que aparece en la novela 'Sounder' de William H. Armstrong, que luego fue adaptada en una película de 1972. Sounder es un perro leal y trabajador que ayuda a su familia a sobrevivir en el Sur rural durante la Gran Depresión."
+    }
+    ],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Redbone_Coonhound",
+    "https://www.dogbreedinfo.com/r/redbonecoonhound.htm",
+    "https://www.akc.org/dog-breeds/redbone-coonhound/"
+    ]
   },
   131: {
     weight: {
@@ -16393,12 +17639,55 @@ fuentes: [
       height: 667,
       url: 'https://cdn2.thedogapi.com/images/By9zNgqE7.jpg',
     },
-    searchTerms: ['Rhodesian Ridgeback', 'Perro Crestado Rodesiano'],
     country_code: 'ZW',
-    description:
-      'El Rhodesian Ridgeback es un perro de gran tamaño, conocido por su cresta de pelo que corre a lo largo de su espalda en dirección opuesta al resto de su pelaje. Son perros leales y dignos, con una fuerte voluntad y una naturaleza algo traviesa.',
-    history:
-      'Originario de Zimbabwe, el Rhodesian Ridgeback se desarrolló para la caza de animales grandes y como perro de guardia. Su cresta distintiva es una característica única que los distingue de otras razas.',
+    description: `
+      El Rhodesian Ridgeback es una raza de perro verdaderamente única, reconocible a primera vista por la distintiva cresta de pelo que corre a lo largo de su espalda en dirección opuesta al resto de su pelaje. Esta "cresta" es la característica definitoria de la raza y es la que le da su nombre. Pero hay mucho más en el Rhodesian Ridgeback que su distintiva cresta.
+      <br>
+      <br>
+      El Rhodesian Ridgeback es un perro de tamaño grande, con los machos que alcanzan una altura de 63 a 69 cm y las hembras un poco más pequeñas, de 61 a 66 cm. Son perros fuertes y musculosos, construidos para la velocidad y la resistencia. Su pelaje es corto y denso, proporcionando una protección adecuada contra las inclemencias del tiempo, y viene en una variedad de colores que van desde el trigo claro hasta el rojo trigo.
+      <br>
+      <br>
+      Los Ridgebacks tienen una apariencia noble y digna, con una cabeza larga y plana, una frente amplia y ojos redondos y brillantes que son de color oscuro en los perros de color más oscuro y pueden ser de color ámbar en los perros de color más claro. Sus orejas son de tamaño mediano, de alta inserción y caen cerca de la cabeza. La cola es fuerte en la base y se estrecha hacia la punta, y se lleva con una ligera curva hacia arriba.
+      <br>
+      <br>
+      Pero el Rhodesian Ridgeback no es solo un perro bonito. Son perros inteligentes y versátiles que han sido utilizados para una variedad de tareas a lo largo de los años, desde la caza de leones en su África natal hasta la protección del hogar y la familia. Son perros valientes y leales, conocidos por su valentía en el campo y su devoción a su familia.
+      <br>
+      <br>
+      A pesar de su tamaño y fuerza, los Ridgebacks son perros sorprendentemente sensibles. Son conocidos por su afecto hacia sus familias y su deseo de estar involucrados en todas las actividades familiares. Son buenos con los niños y pueden llevarse bien con otros perros si se socializan adecuadamente.
+      <br>
+      <br>
+      En cuanto a su temperamento, los Rhodesian Ridgebacks son perros tranquilos y equilibrados. No son propensos a la agresión sin provocación, pero defenderán a su familia si es necesario. Son perros inteligentes y aprenden rápidamente, pero también pueden ser algo obstinados, por lo que necesitan un dueño que pueda proporcionar una formación firme y consistente.
+      <br>
+      <br>
+      En términos de cuidado, los Rhodesian Ridgebacks son perros de bajo mantenimiento. Su pelaje corto y denso requiere poco más que un cepillado regular para mantenerlo en buen estado. Son perros activos que requieren mucho ejercicio para mantenerse sanos y felices. Esto puede incluir largas caminatas, carreras en un patio seguro o juegos de buscar y traer.
+      <br>
+      <br>
+      En resumen, el Rhodesian Ridgeback es un perro magnífico y versátil que puede ser un maravilloso compañero para la persona o familia adecuada. Su combinación de fuerza, velocidad, inteligencia y lealtad los hace únicos en el mundo canino.
+    `,
+    history: `
+      La historia del Rhodesian Ridgeback es tan única y fascinante como la raza misma. Esta raza de perro, conocida por su distintiva cresta de pelo que corre a lo largo de su espalda, tiene sus raíces en el sur de África, donde fue criada para ser un cazador versátil y un guardián leal.
+      <br>
+      <br>
+      La historia del Rhodesian Ridgeback comienza con los colonos europeos en el sur de África en el siglo XVII. Estos colonos trajeron consigo una variedad de perros, incluyendo mastines, galgos, terriers y sabuesos, que se cruzaron con los perros semi-domesticados de los pueblos indígenas de la región. El resultado de estos cruces fue una raza de perro resistente y versátil que podía soportar el clima extremo y las duras condiciones de África.
+      <br>
+      <br>
+      Los primeros Ridgebacks eran valorados por su habilidad para rastrear y acorralar a la caza grande, incluyendo leones, lo que les valió el apodo de "perro león". A pesar de este nombre, los Ridgebacks no eran utilizados para matar leones, sino para rastrearlos y mantenerlos a raya hasta que llegaran los cazadores humanos.
+      <br>
+      <br>
+      En el siglo XIX, un cazador y criador llamado Cornelius van Rooyen comenzó a seleccionar y criar estos perros por su cresta distintiva, su resistencia y su habilidad para la caza. Van Rooyen cruzó sus perros con el sabueso de pelo liso, lo que resultó en la raza que conocemos hoy como el Rhodesian Ridgeback.
+      <br>
+      <br>
+      La raza fue reconocida oficialmente por el Kennel Union of Southern Africa en 1922, y el primer estándar de la raza fue redactado en 1924. El Rhodesian Ridgeback fue llevado a los Estados Unidos en la década de 1930, y fue reconocido por el American Kennel Club en 1955.
+      <br>
+      <br>
+      A lo largo de los años, el Rhodesian Ridgeback ha mantenido su reputación como un cazador y guardián capaz. Aunque ya no se utilizan para cazar leones, los Ridgebacks todavía son valorados por su valentía, su inteligencia y su lealtad. También han encontrado éxito en una variedad de deportes caninos, incluyendo la obediencia, el seguimiento, la agilidad y la búsqueda y rescate.
+      <br>
+      <br>
+      La historia del Rhodesian Ridgeback es un testimonio de la adaptabilidad y versatilidad de esta raza. Criados en las duras condiciones de África para ser cazadores y guardianes, estos perros han demostrado ser capaces de mucho más. Ya sea en el campo, en el ring de exposiciones, o en el hogar como un amado miembro de la familia, el Rhodesian Ridgeback es un perro que verdaderamente lo tiene todo.
+      <br>
+      <br>
+      Hoy en día, el Rhodesian Ridgeback es una raza de perro popular en todo el mundo, conocida y amada por su lealtad, su inteligencia y su distintiva cresta. Aunque su papel puede haber cambiado desde los días en que cazaban leones en las llanuras de África, su espíritu valiente y su devoción a su familia siguen siendo tan fuertes como siempre.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Bueno como perro de guardia',
@@ -16418,6 +17707,57 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas de tiroides'],
     gallery: ['https://cdn2.thedogapi.com/images/By9zNgqE7_390x256.jpg'],
+    searchTerms: [
+      'Rhodesian Ridgeback',
+      'Perro Crestado Rodesiano',
+      "Rhodesian",
+      "Ridgeback",
+      "Rodhesian Ridgeback",
+      "Rhodesiano",
+      "Ridgeback Rhodesiano",
+      "Perro León",
+      "Perro de caza",
+      "Perro africano",
+      "Perro de guardia",
+      "Perro de compañía",
+      "Perro de rastreo",
+      "Perro de Sudáfrica",
+      "Perro de Zimbabwe",
+      "Perro resistente",
+      "Perro leal",
+      "Perro valiente",
+      "Perro inteligente",
+      "Perro con cresta",
+      "Perro para familia",
+      "Perro para protección",
+      "Perro para caza",
+      "Perro para deportes caninos",
+      "Perro para búsqueda y rescate",
+      "Perro para obediencia",
+      "Perro para agilidad",
+      "Perro para seguimiento",
+      "Perro para exposiciones",
+      "Perro para el hogar",
+      "Perro para el campo"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Alta",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Man Eaters of Kumaon",
+    "caso": "Un libro de Jim Corbett donde se menciona a un Rhodesian Ridgeback como un perro de caza de tigres."
+    }
+    ],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Rhodesian_Ridgeback",
+    "https://www.dogbreedinfo.com/rhodesianridgeback.htm",
+    "https://www.ukcdogs.com/rhodesian-ridgeback"
+    ]
   },
   132: {
     weight: {
@@ -16460,12 +17800,98 @@ fuentes: [
       'Rottwailer',
       'Rott',
       'Rottie',
+      "Rotweiler",
+      "Rotwailer",
+      "Rot",
+      "Perro de trabajo",
+      "Perro guardián",
+      "Perro de protección",
+      "Perro fuerte",
+      "Perro alemán",
+      "Perro de carnicero",
+      "Perro de carnicero de Rottweil",
+      "Perro de rescate",
+      "Perro de policía",
+      "Perro de servicio",
+      "Perro de terapia",
+      "Perro de búsqueda",
+      "Perro de rastreo",
+      "Perro leal",
+      "Perro inteligente",
+      "Perro de familia",
+      "Perro de compañía",
+      "Perro de gran tamaño",
+      "Perro robusto",
+      "Perro resistente",
+      "Perro de pelo corto",
+      "Perro negro",
+      "Perro negro y fuego",
+      "Perro musculoso"
     ],
     country_code: 'DE',
-    description:
-      'El Rottweiler es una raza de perro conocida por su tamaño considerable y su capacidad como perro de trabajo, guardián y guía. Son perros seguros de sí mismos, tranquilos y valientes, conocidos por su devoción y obediencia.',
-    history:
-      'Originarios de Alemania, los Rottweilers fueron utilizados originalmente para conducir ganado y como perros de tiro. Su fuerza, resistencia y confiabilidad los hicieron ideales para estas tareas.',
+    description: `
+    El Rottweiler es una raza de perro robusta, poderosa y de gran tamaño, conocida por su apariencia imponente y su personalidad leal y protectora. Este perro de trabajo es uno de los más antiguos, y su historia se remonta a los tiempos del Imperio Romano. Sin embargo, en esta sección nos centraremos en describir sus características físicas y temperamentales, dejando la historia para otra sección.
+    <br>
+    <br>
+    El Rottweiler es un perro de constitución sólida, con un cuerpo compacto y musculoso que denota gran fuerza, agilidad y resistencia. Los machos suelen medir entre 61 y 69 cm a la cruz, mientras que las hembras son ligeramente más pequeñas, con una altura que oscila entre los 56 y 63 cm. En cuanto al peso, los machos pueden llegar a pesar entre 50 y 60 kg, y las hembras entre 35 y 48 kg.
+    <br>
+    <br>
+    La cabeza del Rottweiler es de tamaño medio y ancha entre las orejas, con una frente moderadamente arqueada y surcos nasofrontales bien marcados. Sus ojos son de tamaño mediano, almendrados y de color marrón oscuro, transmitiendo una expresión de nobleza y serenidad. Las orejas son de tamaño medio, colgantes y llevadas hacia delante cuando el perro está alerta.
+    <br>
+    <br>
+    El pelaje del Rottweiler es de longitud media, denso y liso, con un subpelo que puede no ser visible a través del pelo de cobertura. El color es siempre negro, con marcas bien definidas de un tono rojo óxido en las mejillas, el hocico, el pecho, las patas y por debajo de la cola.
+    <br>
+    <br>
+    En cuanto al temperamento, el Rottweiler es un perro tranquilo y seguro de sí mismo, con una disposición natural para proteger a su familia y su hogar. Son perros extremadamente inteligentes y versátiles, capaces de desempeñar una variedad de roles, desde perros de terapia hasta perros de búsqueda y rescate. Aunque pueden ser reservados con los extraños, suelen ser muy afectuosos con su familia, y su lealtad es inquebrantable.
+    <br>
+    <br>
+    Los Rottweilers son perros activos que requieren mucho ejercicio físico y mental para mantenerse sanos y felices. Disfrutan de largas caminatas, juegos de recuperación y actividades de entrenamiento de agilidad. También son perros muy inteligentes que disfrutan de los desafíos mentales y se destacan en las competencias de obediencia.
+    <br>
+    <br>
+    Aunque su apariencia puede ser intimidante, los Rottweilers son perros increíblemente cariñosos y leales con su familia. Son excelentes con los niños y suelen llevarse bien con otros animales si se socializan adecuadamente desde una edad temprana. Sin embargo, debido a su tamaño y fuerza, siempre deben ser supervisados cuando están cerca de niños pequeños.
+    <br>
+    <br>
+    El Rottweiler es un perro que necesita un propietario que pueda manejar su tamaño y fuerza, y que esté dispuesto a dedicar tiempo a su entrenamiento y socialización. Son perros que necesitan una guía firme y consistente desde una edad temprana para asegurar que crezcan para ser perros equilibrados y bien comportados.
+    <br>
+    <br>
+    A pesar de su tamaño y apariencia intimidante, los Rottweilers son perros increíblemente dulces y afectuosos con su familia. Son conocidos por su lealtad y su deseo de proteger a su hogar y a su familia, y a menudo se les describe como "perros de un solo dueño" debido a su fuerte apego a su familia.
+    <br>
+    <br>
+    Los Rottweilers son perros inteligentes y versátiles que se destacan en una variedad de roles. Son excelentes perros de trabajo y se utilizan en una variedad de campos, incluyendo la búsqueda y rescate, la terapia y el servicio, y el trabajo policial y militar. También son excelentes perros de compañía y se destacan en una variedad de deportes caninos, incluyendo la obediencia, la agilidad y el rastreo.
+    <br>
+    <br>
+    En resumen, el Rottweiler es un perro valiente, leal y dedicado que puede ser un maravilloso compañero para la persona o familia adecuada. Su inteligencia, versatilidad y disposición a trabajar los hacen adecuados para una variedad de roles, desde perros de compañía hasta perros de trabajo. Sin embargo,necesitan un dueño que esté dispuesto a dedicar tiempo y esfuerzo a su entrenamiento y socialización para asegurar que crezcan para ser perros equilibrados y bien comportados. El Rottweiler es un perro leal, dedicado y trabajador que puede ser un maravilloso compañero para la persona o familia adecuada. Sin embargo, requieren un dueño que esté dispuesto a dedicar tiempo y esfuerzo a su entrenamiento y socialización, y que pueda manejar su tamaño y fuerza. Con el cuidado y la formación adecuados, un Rottweiler puede ser un maravilloso añadido a la familia y un valioso miembro de la comunidad.
+    `,
+    history: `
+      La historia del Rottweiler es tan antigua y fascinante como la raza misma. Este perro poderoso y resistente tiene raíces que se remontan a la época del Imperio Romano, y su evolución a lo largo de los siglos refleja los cambios en la sociedad y la cultura humanas.
+      <br>
+      <br>
+      Los antiguos romanos eran famosos por su habilidad para construir carreteras, y a medida que su imperio se expandía, necesitaban perros fuertes y resistentes para conducir y proteger a sus rebaños de ganado, que eran una fuente vital de alimentos para las legiones romanas en marcha. Los perros que utilizaban para este propósito eran antiguos molosos, los antepasados de muchas de las razas de perros grandes y poderosos que conocemos hoy en día.
+      <br>
+      <br>
+      A medida que los romanos avanzaban hacia el norte a través de Europa, sus perros se cruzaban con las razas locales, y en la región que hoy conocemos como Alemania, estos perros molosos romanos se cruzaron con los perros locales para producir una raza que finalmente se conocería como el Rottweiler.
+      <br>
+      <br>
+      El nombre "Rottweiler" proviene de la antigua ciudad romana de Rottweil, que fue uno de los muchos asentamientos romanos en la región. Rottweil era un importante centro de comercio de ganado, y los perros que se desarrollaron en esta región se convirtieron en invaluables para los carniceros locales, que los utilizaban para conducir y proteger a sus rebaños de ganado. Estos perros también eran conocidos por su habilidad para tirar de carros pesados, una tarea para la que su fuerza y resistencia los hacían perfectamente adecuados.
+      <br>
+      <br>
+      Durante el siglo XIX, con el advenimiento del ferrocarril y la disminución de la conducción de ganado, la necesidad de los Rottweilers comenzó a disminuir. Sin embargo, su inteligencia, versatilidad y disposición a trabajar pronto encontraron nuevos usos para la raza. Los Rottweilers fueron algunos de los primeros perros en ser utilizados en roles de trabajo policial y militar, y su valentía y lealtad los hicieron excelentes perros guardianes y de protección.
+      <br>
+      <br>
+      El Rottweiler fue reconocido oficialmente como raza en Alemania en 1901, y el primer estándar de la raza fue producido por el Club Alemán del Rottweiler. La raza fue introducida en los Estados Unidos en la década de 1920, y el American Kennel Club reconoció al Rottweiler en 1931.
+      <br>
+      <br>
+      Durante el siglo XX, el Rottweiler creció en popularidad tanto en Europa como en América. A pesar de su reputación como perro de trabajo y protección, los Rottweilers también han demostrado ser excelentes perros de compañía, y su inteligencia y versatilidad los han hecho destacar en una variedad de deportes caninos, incluyendo la obediencia, la agilidad y el rastreo.
+      <br>
+      <br>
+      Hoy en día, el Rottweiler es apreciado en todo el mundo por su lealtad, su valentía y su disposición a trabajar. Aunque su apariencia puede ser intimidante
+      <br>
+      <br>
+      para algunos, aquellos que conocen y aman la raza saben que un Rottweiler bien criado y bien entrenado es un compañero leal y amoroso que es tan feliz protegiendo a su familia como lo es acurrucándose en el sofá para una noche de relajación.
+      <br>
+      <br>
+      La historia del Rottweiler es un testimonio de la resistencia y la versatilidad de esta raza. Desde sus orígenes como perros de trabajo en el Imperio Romano hasta su papel moderno como perros de compañía, protectores y competidores en deportes caninos, los Rottweilers han demostrado una y otra vez su capacidad adaptarse.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente perro guardián',
@@ -16485,6 +17911,28 @@ fuentes: [
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas cardiacos'],
     gallery: ['https://cdn2.thedogapi.com/images/r1xXEgcNX_390x256.jpg'],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Jake",
+    "caso": "Jake fue un Rottweiler que trabajó en el sitio del World Trade Center después de los ataques del 11 de septiembre. Fue uno de los primeros perros en el lugar y trabajó 17 días consecutivos buscando y rescatando a las víctimas."
+    },
+    {
+    "nombre": "Max",
+    "caso": "Max es un Rottweiler famoso en las redes sociales, conocido por su increíble habilidad para realizar trucos y su amor por el agua."
+    }
+    ],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Rottweiler",
+    "https://www.dogbreedinfo.com/rottweiler.htm",
+    "https://www.ukcdogs.com/rottweiler"
+    ]
   },
   133: {
     weight: {
@@ -16509,12 +17957,49 @@ fuentes: [
       height: 380,
       url: 'https://cdn2.thedogapi.com/images/HkP7Vxc4Q.jpg',
     },
-    searchTerms: ['Juguete Ruso', 'Russian Toy'],
     country_code: 'RU',
-    description:
-      'El Juguete Ruso es una raza pequeña y ligera con una personalidad animada y sociable. Son perros inteligentes y adaptables que se llevan bien en una variedad de hogares y situaciones.',
-    history:
-      'Originario de Rusia, el Juguete Ruso fue criado inicialmente como un perro de compañía en la alta sociedad rusa. Su tamaño pequeño y su carácter amigable los hicieron muy populares.',
+    description: `
+      El Juguete Ruso, también conocido como Russkiy Toy, es una raza de perro pequeña, elegante y de aspecto delicado, pero que esconde una personalidad fuerte y un espíritu vivaz. Su tamaño compacto y su apariencia adorable pueden engañar a algunos, pero estos perros son todo menos frágiles. Son valientes, enérgicos y siempre están listos para la acción.
+      <br>
+      <br>
+      El Juguete Ruso es un perro de compañía por excelencia. Su tamaño pequeño y su naturaleza amigable hacen que sea un compañero perfecto para la vida en un apartamento o en una casa con un jardín pequeño. A pesar de su tamaño, estos perros son muy activos y disfrutan de los juegos y las actividades físicas. Son perros que requieren ejercicio regular para mantener su salud y felicidad, pero también son capaces de adaptarse a un estilo de vida más tranquilo si se les proporciona suficiente estimulación mental.
+      <br>
+      <br>
+      El pelaje del Juguete Ruso es corto, liso y pegado al cuerpo, lo que le da un aspecto elegante y refinado. Esta raza viene en una variedad de colores, incluyendo negro, azul, marrón y rojo, a menudo con marcas de color crema o blanco. Su cabeza es pequeña y redonda, con ojos oscuros y brillantes que siempre están llenos de curiosidad. Sus orejas son grandes y erectas, lo que añade a su expresión alerta y atenta.
+      <br>
+      <br>
+      El Juguete Ruso es conocido por su inteligencia y su capacidad para aprender rápidamente. Son perros que disfrutan de los desafíos mentales y que se destacan en actividades como la obediencia y la agilidad. Aunque pueden ser un poco tercos a veces, responden bien a los métodos de entrenamiento positivos y disfrutan de la oportunidad de complacer a sus dueños.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Juguete Ruso es un perro amigable y sociable que se lleva bien con las personas y con otros animales. Son perros leales y cariñosos que forman fuertes lazos con sus familias humanas. Aunque pueden ser un poco reservados con los extraños, rápidamente se calientan con las nuevas personas una vez que se sienten cómodos.
+      <br>
+      <br>
+      En resumen, el Juguete Ruso es un perro pequeño con una gran personalidad. Su tamaño compacto y su naturaleza amigable hacen que sea un excelente compañero para una variedad de hogares. Con su inteligencia, su energía y su amor por la vida, este pequeño perro seguramente traerá mucha alegría y diversión a cualquier hogar.
+    `,
+    history: `
+      La historia del Juguete Ruso, o Russkiy Toy, es una historia de resiliencia y adaptación. Esta raza de perro pequeña y elegante tiene sus raíces en la Rusia del siglo XX, y su desarrollo está estrechamente ligado a los cambios políticos y sociales que han moldeado la historia de este país.
+      <br>
+      <br>
+      El antecesor del Juguete Ruso es el Terrier Inglés de Juguete, una raza que fue muy popular en Inglaterra durante el siglo XIX y que fue llevada a Rusia por los comerciantes y los viajeros. Estos perros pequeños y elegantes se convirtieron en un accesorio de moda entre la nobleza rusa, y se criaron para ser aún más pequeños y delicados.
+      <br>
+      <br>
+      Sin embargo, la Revolución Rusa de 1917 y los cambios políticos y sociales que siguieron tuvieron un impacto significativo en la cría de perros en Rusia. Las razas extranjeras cayeron en desgracia, y la cría de perros de raza pura fue en gran medida abandonada. Como resultado, el Terrier Inglés de Juguete casi desapareció en Rusia.
+      <br>
+      <br>
+      No fue hasta la década de 1950 que los criadores rusos comenzaron a reconstruir la raza a partir de los pocos Terriers Ingleses de Juguete que quedaban. Sin embargo, debido a la falta de perros de raza pura, se vieron obligados a cruzarlos con otros perros pequeños. Con el tiempo, estos perros comenzaron a desarrollar características distintas y a diferenciarse de sus antepasados ingleses.
+      <br>
+      <br>
+      En 1958, un perro llamado Chikki, que tenía las características distintivas de un Terrier de Juguete pero era significativamente más pequeño, fue presentado en una exposición canina en Moscú. Chikki y sus descendientes se convirtieron en la base de la nueva raza, que fue oficialmente reconocida como el Juguete Ruso en 2000.
+      <br>
+      <br>
+      El Juguete Ruso ha sido criado en dos variedades: de pelo corto y de pelo largo. Ambas variedades son reconocidas por la Federación Cinológica Internacional y otras organizaciones caninas, y comparten el mismo estándar de raza, con la excepción de la longitud del pelaje.
+      <br>
+      <br>
+      A pesar de su popularidad en Rusia, el Juguete Ruso sigue siendo una raza relativamente desconocida fuera de su país de origen. Sin embargo, su tamaño pequeño, su temperamento amigable y su apariencia elegante están empezando a ganarle admiradores en todo el mundo.
+      <br>
+      <br>
+      La historia del Juguete Ruso es un testimonio de la capacidad de adaptación y supervivencia de esta raza. A pesar de los desafíos y las dificultades, estos perros pequeños y valientes han logrado prosperar y encontrar su lugar en el mundo de los perros de raza pura. Su historia es un reflejo de su carácter: resiliente, adaptable y siempre dispuesto a enfrentar cualquier desafío con valentía y determinación.
+    `,
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Excelente perro de compañía',
@@ -16534,6 +18019,52 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas dentales', 'Luxación de la rótula'],
     gallery: ['https://cdn2.thedogapi.com/images/HkP7Vxc4Q_390x256.jpg'],
+    searchTerms: [
+      'Juguete Ruso',
+      'Russian Toy',
+      "Russkiy Toy",
+      "Perro pequeño",
+      "Perro de compañía",
+      "Perro de juguete",
+      "Perro de Rusia",
+      "Perro elegante",
+      "Perro de apartamento",
+      "Perro para la familia",
+      "Perro amigable",
+      "Perro de pelo corto",
+      "Perro de pelo largo",
+      "Perro de ciudad",
+      "Perro sociable",
+      "Perro cariñoso",
+      "Perro tranquilo",
+      "Perro para niños",
+      "Perro para ancianos",
+      "Perro adaptable",
+      "Perro resistente",
+      "Perro saludable",
+      "Perro de interior",
+      "Perro de exterior",
+      "Perro activo",
+      "Perro juguetón",
+      "Perro leal",
+      "Perro inteligente",
+      "Perro obediente",
+      "Perro alerta",
+      "Perro de terapia"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Alta",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.dogbreedinfo.com/r/russiantoyterrier.htm",
+    "https://en.wikipedia.org/wiki/Russian_Toy",
+    "https://www.ukcdogs.com/russian-toy"
+    ]
   },
   134: {
     weight: {
@@ -16558,12 +18089,52 @@ fuentes: [
       height: 1084,
       url: 'https://cdn2.thedogapi.com/images/_Qf9nfRzL.png',
     },
-    searchTerms: ['San Bernardo', 'Saint Bernard'],
     country_code: 'CH',
-    description:
-      'El San Bernardo es una raza grande y poderosa, conocida por su amabilidad y paciencia. Son excelentes perros de trabajo y son famosos por su papel en las operaciones de búsqueda y rescate en la montaña.',
-    history:
-      'El San Bernardo se originó en Suiza y fue criado originalmente por monjes en el Hospicio del Gran San Bernardo para ayudar en las operaciones de búsqueda y rescate. Su resistencia y su naturaleza amigable los hicieron perfectos para este papel.',
+    description: `
+      El San Bernardo es una raza de perro que es conocida y amada en todo el mundo por su tamaño imponente y su naturaleza amable y gentil. Son perros grandes y poderosos, con cuerpos musculosos y robustos. A pesar de su tamaño, son conocidos por su temperamento tranquilo y su naturaleza amigable.
+      <br>
+      <br>
+      Los San Bernardos tienen una cabeza grande y expresiva, con ojos oscuros y amigables que a menudo transmiten una mirada de sabiduría y comprensión. Sus orejas son de tamaño mediano, se ubican altas y caen a los lados de la cabeza. Su hocico es ancho y fuerte, y su cola es larga y pesada, que suele llevar baja cuando está en reposo.
+      <br>
+      <br>
+      El pelaje del San Bernardo es denso y puede ser de dos tipos: de pelo corto o de pelo largo. El pelo corto es liso y pegado al cuerpo, mientras que el pelo largo es ligeramente ondulado pero no rizado. Ambos tipos de pelaje son muy resistentes a las condiciones climáticas extremas, lo que hace que estos perros sean adecuados para vivir en climas fríos. Los colores del pelaje son generalmente una combinación de blanco y rojo o marrón, a menudo con manchas blancas en el pecho, los pies, la punta de la cola, la nariz y la frente.
+      <br>
+      <br>
+      Los San Bernardos son perros de trabajo y fueron criados originalmente para realizar tareas de rescate en los Alpes suizos. A pesar de su tamaño, son perros increíblemente ágiles y resistentes, capaces de moverse a través de la nieve profunda con facilidad. Son conocidos por su resistencia y su capacidad para trabajar durante largos períodos de tiempo sin cansarse.
+      <br>
+      <br>
+      En cuanto a su personalidad, los San Bernardos son perros amables, gentiles y amigables. Son conocidos por su paciencia y su amor por los niños, lo que los convierte en excelentes perros de familia. A pesar de su tamaño, a menudo se les conoce como "gentiles gigantes" debido a su naturaleza amable y tranquila.
+      <br>
+      <br>
+      Los San Bernardos son perros inteligentes y ansiosos por complacer, lo que los hace relativamente fáciles de entrenar. Sin embargo, debido a su tamaño, es importante que se les enseñe buenos modales y obediencia desde una edad temprana para evitar problemas a medida que crecen.
+      <br>
+      <br>
+      En resumen, el San Bernardo es un perro impresionante tanto en tamaño como en personalidad. Su combinación de fuerza, resistencia, inteligencia y gentileza los convierte en una raza verdaderamente única y amada en todo el mundo. Ya sea que estén trabajando duro en la nieve o acurrucándose con su familia en casa, los San Bernardos son perros leales y amorosos que son verdaderos compañeros para aquellos afortunados de tener uno en su vida.
+    `,
+    history: `
+      La historia del San Bernardo es tan impresionante como la raza misma. Su historia se remonta a más de mil años, y está llena de heroísmo, resistencia y una devoción inquebrantable a la humanidad.
+      <br>
+      <br>
+      La historia del San Bernardo comienza en los Alpes suizos, en el famoso paso del Gran San Bernardo, que ha sido una ruta importante a través de las montañas durante miles de años. En el siglo XI, el monje benedictino Bernard de Menthon fundó un monasterio y un hospicio en este paso para proporcionar refugio y seguridad a los viajeros que atravesaban las peligrosas montañas. Los monjes del hospicio pronto comenzaron a criar perros para ayudarles en su trabajo.
+      <br>
+      <br>
+      Los primeros perros del hospicio eran perros de montaña suizos, que se criaban por su tamaño, su fuerza y su resistencia a las duras condiciones de las montañas. Estos perros eran vitales para los monjes, ayudándoles a encontrar y rescatar a los viajeros perdidos en la nieve. Los perros también servían como compañía y protección para los monjes en el aislado monasterio.
+      <br>
+      <br>
+      Con el tiempo, los monjes comenzaron a criar estos perros para mejorar sus habilidades de rescate. Seleccionaron perros que tenían un excelente sentido de la orientación, una gran resistencia y una notable capacidad para detectar avalanchas y otros peligros. El resultado de esta cría selectiva fue el San Bernardo, un perro que combinaba la fuerza y la resistencia de los perros de montaña con un agudo sentido de la orientación y una increíble habilidad para detectar peligros.
+      <br>
+      <br>
+      Durante los siglos siguientes, los San Bernardos se convirtieron en una parte vital del trabajo del hospicio. Se dice que estos perros han salvado la vida de más de 2000 viajeros a lo largo de los años. Uno de los San Bernardos más famosos fue un perro llamado Barry, que vivió en el hospicio a principios del siglo XIX y es famoso por haber salvado la vida de más de 40 personas.
+      <br>
+      <br>
+      A finales del siglo XIX, la raza fue reconocida oficialmente y se estableció el estándar de la raza. Los San Bernardos se hicieron famosos en todo el mundo, tanto por su heroísmo en los Alpes como por su temperamento amable y su lealtad. La raza fue llevada a Inglaterra y a América, donde se crió para ser aún más grande y fuerte.
+      <br>
+      <br>
+      En el siglo XX, los San Bernardos se convirtieron en perros de familia populares en todo el mundo. Su tamaño, su temperamento amable y su lealtad los convirtieron en una elección popular para las familias. También se han utilizado en una variedad de roles, desde perros de terapia hasta perros de búsqueda y rescate.
+      <br>
+      <br>
+      Hoy en día, los San Bernardos son amados en todo el mundo, tanto por su historia heroica como por su naturaleza amable y leal. Aunque ya no se utilizan para el rescate en los Alpes, su legado perdura, y siguen siendo un símbolo de resistencia, heroísmo y devoción a la humanidad.
+    `,
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Excelente perro de rescate y trabajo',
@@ -16610,6 +18181,61 @@ fuentes: [
       'https://cdn2.thedogapi.com/images/6CFLgAYVH.jpg',
       'https://cdn2.thedogapi.com/images/0V7KO5BZ0.jpg',
     ],
+    searchTerms: [
+      'San Bernardo',
+      'Saint Bernard',
+      "Sanber",
+      "San Bernado",
+      "Sanbernar",
+      "Bernardo",
+      "Perro de rescate",
+      "Perro de montaña",
+      "Perro suizo",
+      "Perro de nieve",
+      "Perro de avalancha",
+      "Perro de trabajo",
+      "Perro de familia",
+      "Perro grande",
+      "Perro fuerte",
+      "Perro leal",
+      "Perro amigable",
+      "Perro de compañía",
+      "Perro de terapia",
+      "Perro de búsqueda y rescate",
+      "Perro protector",
+      "Perro de guardia",
+      "Perro para niños",
+      "Perro para familias",
+      "Perro para el frío",
+      "Perro para la nieve",
+      "Perro para montañas",
+      "Perro para exteriores",
+      "Perro para caminatas",
+      "Perro para senderismo",
+      "Perro para aventuras"
+    ],
+    "tendencia_a_ladrar": "Baja",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Baja",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Barry",
+    "caso": "Barry fue un famoso San Bernardo que vivió en el Hospicio del Gran San Bernardo en los Alpes suizos en el siglo XIX, y es conocido por haber salvado entre 40 y 100 vidas durante su vida."
+    },
+    {
+    "nombre": "Beethoven",
+    "caso": "Beethoven es el personaje principal de la serie de películas de comedia familiar 'Beethoven', donde interpreta a un travieso pero adorable San Bernardo."
+    }
+    ],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/St.Bernard(dog)",
+    "https://www.dogbreedinfo.com/saintbernard.htm",
+    "https://www.ukcdogs.com/saint-bernard"
+    ]
   },
   135: {
     weight: {
@@ -16634,12 +18260,52 @@ fuentes: [
       height: 450,
       url: 'https://cdn2.thedogapi.com/images/fjFIuehNo.jpg',
     },
-    searchTerms: ['Saluki'],
     country_code: 'ME',
-    description:
-      'El Saluki es una raza antigua, conocida por su velocidad y resistencia. A menudo se les ve en las carreras de galgos y son excelentes perros de caza debido a su agudo sentido de la vista.',
-    history:
-      'El Saluki es una de las razas de perros más antiguas del mundo, con una historia que se remonta a los tiempos antiguos en el Medio Oriente. Fueron valorados por su velocidad y resistencia, lo que los convirtió en excelentes perros de caza.',
+    description: `
+      El Saluki es una raza de perro que se distingue por su elegancia y gracia, a menudo comparada con la de un ciervo. Esta raza es conocida por su apariencia distintiva, que combina fuerza y resistencia con una impresionante velocidad y agilidad.
+      <br>
+      <br>
+      El Saluki es un perro de tamaño mediano a grande, con machos que miden entre 58 y 71 centímetros a la cruz y hembras un poco más pequeñas. Su peso puede variar entre 18 y 30 kilogramos, dependiendo del tamaño y el sexo del perro. Los Salukis tienen un cuerpo delgado y musculoso que está diseñado para la velocidad. Su pecho es profundo y estrecho, lo que les permite tener una gran capacidad pulmonar para la carrera.
+      <br>
+      <br>
+      La cabeza del Saluki es larga y estrecha, con una expresión suave y gentil. Sus ojos son de tamaño mediano y de forma ovalada, generalmente de color marrón oscuro o avellana. Las orejas son largas y colgantes, cubiertas de pelo largo y sedoso. La cola del Saluki es larga y curvada, llevada baja cuando el perro está en reposo y en alto cuando está emocionado o en movimiento.
+      <br>
+      <br>
+      El pelaje del Saluki es suave y sedoso, con una variedad de colores y patrones. Los colores más comunes son el blanco, crema, fawn, dorado, rojo, negro y bronceado, y tricolor. Hay dos variedades de pelaje en la raza: la variedad de pelo liso y la de pelo plumoso. La variedad de pelo liso tiene un pelaje corto y suave en todo el cuerpo, mientras que la variedad de pelo plumoso tiene flecos de pelo largo en las orejas, la cola y las patas traseras.
+      <br>
+      <br>
+      Los Salukis son perros increíblemente rápidos y ágiles, capaces de alcanzar velocidades de hasta 69 kilómetros por hora. Son excelentes cazadores y tienen una vista aguda, lo que les permite detectar presas a gran distancia. A pesar de su velocidad y agilidad, los Salukis son perros tranquilos y reservados en casa. Son conocidos por ser independientes y un poco reservados, pero también son leales y afectuosos con sus familias.
+      <br>
+      <br>
+      En cuanto a su salud, los Salukis son generalmente una raza saludable con una esperanza de vida de 12 a 14 años. Sin embargo, como todas las razas, son propensos a ciertas condiciones de salud, incluyendo problemas cardíacos, hipotiroidismo y ciertos tipos de cáncer. Es importante para los propietarios de Salukis mantener a sus perros en un peso saludable y proporcionarles suficiente ejercicio para mantener su salud y felicidad.
+      <br>
+      <br>
+      En resumen, el Saluki es una raza de perro única y fascinante, conocida por su velocidad, agilidad y elegancia. Su apariencia distintiva y su personalidad reservada pero afectuosa hacen de esta raza una opción maravillosa para las personas que pueden proporcionarles el cuidado y el ejercicio que necesitan.
+    `,
+    history: `
+      La historia del Saluki es tan antigua y fascinante como las civilizaciones que lo veneraban. Esta raza, que se cree que es una de las más antiguas del mundo, tiene una historia que se remonta a miles de años y se entrelaza con las antiguas civilizaciones del Medio Oriente.
+      <br>
+      <br>
+      El Saluki, también conocido como el Galgo Persa, tiene sus raíces en la región de Fertile Crescent, que abarca partes de los modernos países de Irak, Siria, Líbano, Jordania, Israel y Egipto. Las primeras representaciones de perros que se asemejan al Saluki se pueden encontrar en tumbas y templos de la antigua Mesopotamia, datando de alrededor del 2100 a.C. Estos perros eran apreciados por su velocidad y habilidad para cazar, y se utilizaban para perseguir una variedad de presas, incluyendo gacelas, liebres y zorros.
+      <br>
+      <br>
+      Los Salukis no solo eran valorados por su habilidad para cazar, sino que también eran venerados como animales sagrados y símbolos de la realeza. En el antiguo Egipto, se creía que los Salukis eran regalos de los dioses y se les trataba con un respeto y una reverencia especiales. Los faraones a menudo eran enterrados con estatuas de Salukis para acompañarlos en el más allá, y las momias de Salukis han sido encontradas en tumbas faraónicas.
+      <br>
+      <br>
+      La raza también se menciona en la Biblia, en el libro de Isaías, donde se hace referencia a un perro de caza veloz, que muchos creen que es el Saluki. Además, se dice que el profeta Mahoma tenía un Saluki llamado Al Muhallal, al que consideraba un regalo de Dios.
+      <br>
+      <br>
+      A lo largo de los siglos, el Saluki se extendió por todo el Medio Oriente y Asia, llevado por los nómadas beduinos y los comerciantes de la Ruta de la Seda. Los beduinos valoraban especialmente a los Salukis por su habilidad para cazar en el duro desierto y los consideraban miembros de la familia. A menudo, los Salukis dormían en las tiendas con sus dueños para protegerse del frío del desierto.
+      <br>
+      <br>
+      En el siglo XIX, los Salukis fueron llevados a Europa, donde captaron la atención de los entusiastas de los perros por su belleza y elegancia. La raza fue reconocida oficialmente por el Kennel Club del Reino Unido en 1923 y por el American Kennel Club en 1927.
+      <br>
+      <br>
+      Hoy en día, el Saluki sigue siendo una raza apreciada tanto por su habilidad para cazar como por su apariencia distinguida. Aunque ya no se utilizan tanto para la caza, los Salukis siguen siendo populares en eventos de campo y de lure coursing, donde pueden mostrar su increíble velocidad y agilidad.
+      <br>
+      <br>
+      En resumen, la historia del Saluki es una historia de antigüedad, reverencia y supervivencia. Desde las antiguas civilizaciones del Medio Oriente hasta los modernos anillos de exhibición de perros, el Saluki ha dejado una huella indeleble en la historia canina y continúa cautivando a los amantes de los perros con su elegancia y gracia.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Muy rápido y ágil',
@@ -16684,6 +18350,51 @@ fuentes: [
       'https://cdn2.thedogapi.com/images/xGuSVhi28.jpg',
       'https://cdn2.thedogapi.com/images/fjFIuehNo.jpg',
     ],
+    searchTerms: [
+      'Saluki',
+      "Galgo Persa",
+      "Perro de caza",
+      "Perro rápido",
+      "Perro antiguo",
+      "Perro de Egipto",
+      "Perro de Medio Oriente",
+      "Perro de desierto",
+      "Perro de carreras",
+      "Perro de la Ruta de la Seda",
+      "Perro de los faraones",
+      "Perro de los beduinos",
+      "Perro de la Biblia",
+      "Perro de Mahoma",
+      "Perro elegante",
+      "Perro de campo",
+      "Perro de lure coursing",
+      "Perro de exhibición",
+      "Perro de pelo corto",
+      "Perro de orejas largas",
+      "Perro de cola larga",
+      "Perro de cuerpo delgado",
+      "Perro de patas largas",
+      "Perro de ojos almendrados",
+      "Perro de nariz negra",
+      "Perro de piel suave",
+      "Perro de temperamento reservado",
+      "Perro de temperamento leal",
+      "Perro de temperamento tranquilo",
+      "Perro de temperamento independiente"
+    ],
+    "tendencia_a_ladrar": "Baja",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Alta",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Saluki",
+    "https://www.dogbreedinfo.com/saluki.htm",
+    "https://www.ukcdogs.com/saluki"
+    ]
   },
   136: {
     weight: {
@@ -16715,12 +18426,43 @@ fuentes: [
       height: 797,
       url: 'https://cdn2.thedogapi.com/images/S1T8Ee9Nm.jpg',
     },
-    searchTerms: ['Samoyedo'],
     country_code: 'RU',
-    description:
-      'El Samoyedo es una raza versátil, capaz de pastorear, tirar de trineos y ser un compañero leal. Son conocidos por su pelaje blanco y esponjoso, así como por su naturaleza amigable y juguetón.',
-    history:
-      'Los Samoyedos se originaron en Rusia y fueron criados por la tribu nómada Samoyedic. Se utilizaban para pastorear renos, cazar y tirar de trineos. Son una de las razas de perros más antiguas.',
+    description: `
+      El Samoyedo es una raza de perro que se caracteriza por su belleza y su encanto inigualable. Su apariencia es de un perro grande, fuerte y musculoso, pero a la vez elegante y ágil. Su pelaje es uno de sus rasgos más distintivos: es denso, doble y de un blanco puro o crema que brilla bajo el sol. Este pelaje no solo es hermoso, sino que también es funcional, ya que fue diseñado para proteger a estos perros del frío extremo en su Siberia natal.
+      <br>
+      <br>
+      El Samoyedo tiene una cabeza fuerte y ancha, con ojos oscuros y expresivos que son en forma de almendra y están ligeramente inclinados. Sus orejas son pequeñas, gruesas y están cubiertas de pelo; se mantienen erguidas y ligeramente inclinadas hacia adelante. La cola es otro rasgo distintivo de la raza: es larga y frondosa, y se lleva curvada sobre la espalda o los costados cuando el perro está alerta o en movimiento.
+      <br>
+      <br>
+      En cuanto a su tamaño, los Samoyedos son perros grandes. Los machos suelen medir entre 53 y 60 centímetros de altura a la cruz, mientras que las hembras suelen ser un poco más pequeñas, con una altura que varía entre 48 y 53 centímetros. En cuanto al peso, los machos suelen pesar entre 20 y 30 kilogramos, y las hembras entre 16 y 20 kilogramos.
+      <br>
+      <br>
+      Pero el Samoyedo no es solo una cara bonita y un pelaje hermoso. Esta raza es conocida por su inteligencia, su energía y su carácter amigable. Son perros muy inteligentes y aprenden rápidamente, aunque a veces pueden ser un poco obstinados. Son perros muy activos y necesitan mucho ejercicio para mantenerse sanos y felices. Les encanta jugar y correr, y son excelentes compañeros para las personas activas.
+      <br>
+      <br>
+      En cuanto a su carácter, los Samoyedos son perros muy amigables y sociables. Les encanta estar con su familia humana y son muy afectuosos. También se llevan bien con los niños y pueden ser excelentes perros de familia. Sin embargo, también son perros muy independientes y pueden ser un poco reservados con los extraños.
+      <br>
+      <br>
+      En resumen, el Samoyedo es una raza de perro hermosa, inteligente y amigable. Son perros grandes y fuertes, pero también elegantes y ágiles. Su pelaje blanco y frondoso es uno de sus rasgos más distintivos, pero también son conocidos por su inteligencia, su energía y su carácter amigable. Son perros que necesitan mucho ejercicio y compañía, pero a cambio ofrecen mucho amor y lealtad a sus familias humanas.
+    `,
+    history: `
+      La historia del Samoyedo es tan fascinante como la raza misma. Su origen se remonta a miles de años atrás, en las frías tierras de Siberia, donde fueron criados por los pueblos nómadas Samoyedos, de quienes toman su nombre. Estos pueblos indígenas de la región norte de Rusia y Siberia utilizaban a estos perros para una variedad de tareas, lo que demuestra su versatilidad y resistencia.
+      <br>
+      <br>
+      Los Samoyedos eran perros de trabajo, utilizados para tirar de trineos, cazar y pastorear renos, e incluso para mantener calientes a los niños y a los ancianos durante las frías noches siberianas. Su resistencia al frío extremo se debe a su denso pelaje, que fue diseñado para soportar las duras condiciones del Ártico. A pesar de las duras condiciones en las que vivían y trabajaban, los Samoyedos eran considerados miembros de la familia y se les trataba con mucho cariño y respeto.
+      <br>
+      <br>
+      La historia de la raza cambió en el siglo XIX, cuando los exploradores europeos llegaron a Siberia y se encontraron con estos hermosos y amigables perros. Quedaron impresionados por su resistencia, su habilidad para el trabajo y su amigable temperamento, y comenzaron a llevarlos de vuelta a Europa. En 1889, el explorador británico Robert Scott llevó a Inglaterra a algunos Samoyedos que había adquirido en sus viajes. Estos perros se convirtieron en la base de la raza en Europa.
+      <br>
+      <br>
+      En los años siguientes, la raza se hizo cada vez más popular en Europa y América. Los Samoyedos fueron utilizados en varias expediciones al Polo Norte y al Polo Sur debido a su resistencia y habilidad para el trabajo en condiciones extremas. Sin embargo, también se convirtieron en perros de compañía muy apreciados debido a su amigable temperamento y su hermoso aspecto.
+      <br>
+      <br>
+      A pesar de su popularidad, los criadores de Samoyedos han trabajado duro para mantener las características originales de la raza. Aunque hoy en día los Samoyedos son principalmente perros de compañía, todavía conservan su resistencia, su habilidad para el trabajo y su amigable temperamento.
+      <br>
+      <br>
+      La historia del Samoyedo es una historia de supervivencia y adaptación. Desde las frías tierras de Siberia hasta los hogares de Europa y América, estos perros han demostrado ser versátiles, resistentes y siempre amigables. A pesar de los cambios en su vida y su entorno, los Samoyedos han mantenido su espíritu y su encanto, y continúan siendo una raza muy apreciada en todo el mundo.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Amigable y sociable',
@@ -16745,6 +18487,60 @@ fuentes: [
       'Diabetes',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/S1T8Ee9Nm_390x256.jpg'],
+    searchTerms: [
+      'Samoyedo',
+      "Samoyed",
+      "Samoyedo blanco",
+      "Perro de trineo",
+      "Perro nórdico",
+      "Perro de Siberia",
+      "Perro de nieve",
+      "Perro sonriente",
+      "Perro de trabajo",
+      "Perro de compañía",
+      "Perro familiar",
+      "Perro amigable",
+      "Perro resistente al frío",
+      "Perro de pelo largo",
+      "Perro de pelo blanco",
+      "Perro grande",
+      "Perro de raza pura",
+      "Perro de raza grande",
+      "Perro para niños",
+      "Perro para familias",
+      "Perro para climas fríos",
+      "Perro para exteriores",
+      "Perro activo",
+      "Perro de energía alta",
+      "Perro de caza",
+      "Perro de pastoreo",
+      "Perro de trineo",
+      "Perro de rescate",
+      "Perro de montaña",
+      "Perro de la tundra"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Alta",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Baja",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Etah",
+    "caso": "Etah fue el primer Samoyedo que llegó a Inglaterra en 1889. Fue un regalo de la expedición Jackson-Harmsworth a la Reina Alexandra."
+    },
+    {
+    "nombre": "Antarctic Buck",
+    "caso": "Antarctic Buck fue un Samoyedo que participó en la expedición antártica de Ernest Shackleton en 1901."
+    }
+    ],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Samoyed_dog",
+    "https://www.dogbreedinfo.com/samoyed.htm",
+    "https://www.ukcdogs.com/samoyed"
+    ]
   },
   137: {
     weight: {
@@ -16776,12 +18572,46 @@ fuentes: [
       height: 681,
       url: 'https://cdn2.thedogapi.com/images/SyBvVgc47.jpg',
     },
-    searchTerms: ['Schipperke'],
     country_code: 'BE',
-    description:
-      'El Schipperke es un pequeño perro belga conocido por su curiosidad, confianza y temperamento fiel. Aunque pequeños, son valientes y hacen excelentes perros vigilantes.',
-    history:
-      'Originario de Bélgica, el Schipperke se utilizaba como perro de vigilancia en las barcazas que navegaban por los canales del país. Su nombre significa "pequeño capitán" en flamenco.',
+    description: `
+      El Schipperke es una raza de perro pequeña y robusta, originaria de Bélgica, que se destaca por su personalidad vivaz, su inteligencia aguda y su apariencia distintiva. Su nombre, Schipperke, se traduce aproximadamente como "pequeño capitán" en flamenco, un apodo que refleja su historia como compañero de los barqueros en los canales de Bélgica.
+      <br>
+      <br>
+      El Schipperke es un perro de tamaño pequeño a mediano, con los machos midiendo generalmente entre 28 y 33 cm de altura y las hembras un poco más pequeñas. A pesar de su tamaño compacto, estos perros son sorprendentemente fuertes y musculosos, con un cuerpo bien proporcionado que denota agilidad y resistencia. Su peso puede variar entre 5 y 9 kg.
+      <br>
+      <br>
+      Uno de los rasgos más distintivos del Schipperke es su pelaje negro y espeso. El pelo es corto y liso en la cabeza y la parte delantera del cuerpo, y más largo y abundante en el cuello, el pecho y la parte trasera, creando una apariencia de "melena" y "faldón" que es característica de la raza. Este pelaje doble les proporciona una excelente protección contra el frío y la humedad, pero también requiere un cuidado regular para mantenerlo en buen estado.
+      <br>
+      <br>
+      La cabeza del Schipperke es pequeña y zorruna, con orejas puntiagudas y erectas y ojos oscuros y redondos que desprenden una expresión alerta y curiosa. Su cola es generalmente cortada, lo que da a su cuerpo una forma cónica distintiva, aunque en algunos países la amputación de la cola está prohibida por ley.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Schipperke es conocido por su energía inagotable, su curiosidad y su espíritu independiente. Son perros muy inteligentes y adaptables, que disfrutan de la estimulación mental y física y se destacan en una variedad de actividades, desde la obediencia y la agilidad hasta el rastreo y la terapia de mascotas. A pesar de su tamaño pequeño, el Schipperke es un perro guardián natural, siempre alerta y dispuesto a proteger a su familia y su hogar.
+      <br>
+      <br>
+      El Schipperke es también un perro muy sociable y afectuoso, que se lleva bien con las personas y disfruta de la compañía de su familia humana. Sin embargo, su naturaleza independiente y su tendencia a ser un poco terco pueden hacer que el entrenamiento sea un desafío, por lo que esta raza puede no ser la mejor opción para los dueños de perros primerizos. Con la socialización y el entrenamiento adecuados, sin embargo, el Schipperke puede ser un compañero leal y amoroso que aportará mucha alegría y diversión a su hogar.
+    `,
+    history: `
+      La historia del Schipperke es tan fascinante como la raza misma. Originario de Bélgica, el Schipperke tiene una larga y rica historia que se remonta a varios siglos atrás. Aunque su nombre exacto y su propósito original han sido objeto de debate, lo que es indiscutible es que esta raza ha dejado una huella indeleble en la historia de los perros.
+      <br>
+      <br>
+      El Schipperke es una de las razas más antiguas de Europa, y se cree que sus raíces se remontan al siglo XV o incluso antes. Aunque no se sabe con certeza, se cree que el Schipperke desciende del Leauvenaar, un perro de pastor belga de mayor tamaño. Los criadores seleccionaban los ejemplares más pequeños para crear una versión en miniatura que pudiera desempeñar diversas funciones en la ciudad y en el hogar.
+      <br>
+      <br>
+      El nombre "Schipperke" se traduce a menudo como "pequeño barquero", lo que refleja la historia de la raza como perro de los barqueros en los canales de Bélgica. Los Schipperkes eran valorados por su habilidad para cazar ratas y otros roedores, protegiendo así las mercancías de los barcos. También servían como perros de alarma, alertando a sus dueños de cualquier intruso o peligro inminente.
+      <br>
+      <br>
+      Sin embargo, el Schipperke no se limitaba a los barcos y los canales. También eran populares entre los zapateros de la ciudad de Bruselas, que los mantenían como mascotas y perros de compañía. De hecho, en el siglo XIX, los zapateros de Bruselas celebraban competencias de Schipperke, en las que los perros lucían collares de latón elaboradamente decorados hechos por sus dueños.
+      <br>
+      <br>
+      El Schipperke fue reconocido oficialmente como raza en Bélgica en 1882, y el primer club de la raza, el Club du Schipperke, fue fundado en 1888. La raza fue llevada a los Estados Unidos a finales del siglo XIX, y el American Kennel Club (AKC) reconoció al Schipperke en 1904.
+      <br>
+      <br>
+      A lo largo del siglo XX, el Schipperke continuó ganando popularidad en todo el mundo, tanto por su habilidad para el trabajo como por su carácter afectuoso y su apariencia distintiva. Aunque ya no se utilizan comúnmente como perros de barco, los Schipperkes siguen siendo valorados como perros de compañía y se destacan en una variedad de actividades caninas, desde la obediencia y la agilidad hasta el rastreo y la terapia de mascotas.
+      <br>
+      <br>
+      Hoy en día, el Schipperke es una raza querida en muchos países, conocida por su inteligencia, su energía inagotable y su lealtad hacia su familia. Aunque no son tan conocidos como algunas otras razas, los Schipperkes han dejado una huella duradera en la historia de los perros, y continúan cautivando a los amantes de los perros con su espíritu independiente y su personalidad vivaz.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno para la vigilancia',
@@ -16797,7 +18627,52 @@ fuentes: [
     necesidades_especiales: ['Requiere ejercicio regular'],
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas oculares', 'Epilepsia', 'Hipotiroidismo'],
-    gallery: ['https://cdn2.thedogapi.com/images/SyBvVgc47_390x256.jpg'],
+    gallery: ['https://cdn2.thedogapi.com/images/SyBvVgc47.jpg'],
+    searchTerms: [
+      'Schipperke',
+      'Schip',
+      'Ship',
+      'Shipp',
+      'Skip',
+      'Skipp',
+      "Skipperke",
+      "Schipper",
+      "Barquero pequeño",
+      "Perro de barco",
+      "Perro belga",
+      "Perro de Bélgica",
+      "Perro de caza de ratas",
+      "Perro de alarma",
+      "Perro de compañía",
+      "Perro de zapatero",
+      "Perro de pastor",
+      "Perro de pastor belga",
+      "Perro de pastor en miniatura",
+      "Perro de trabajo",
+      "Perro de familia",
+      "Perro activo",
+      "Perro leal",
+      "Perro inteligente",
+      "Perro energético",
+      "Perro independiente",
+      "Perro vivaz",
+      "Perro pequeño",
+      "Perro negro",
+      "Perro de pelo corto"
+    ],
+    "tendencia_a_ladrar": "Alta",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.dogbreedinfo.com/schipperke.htm",
+    "https://www.akc.org/dog-breeds/schipperke/",
+    "https://www.ukcdogs.com/schipperke"
+    ]
   },
   138: {
     weight: {
@@ -16822,12 +18697,52 @@ fuentes: [
       height: 480,
       url: 'https://cdn2.thedogapi.com/images/SkNjqx9NQ.jpg',
     },
-    searchTerms: ['Lebrel Escocés'],
     country_code: 'GB',
-    description:
-      'El Lebrel Escocés es una raza de perro grande y amigable conocida por su habilidad para la caza de ciervos. Son perros dóciles y gentiles, conocidos por su dignidad y amabilidad.',
-    history:
-      'El Lebrel Escocés, como su nombre indica, es originario de Escocia. Fueron criados para la caza de ciervos, lo que requiere velocidad, resistencia y un buen sentido del olfato.',
+    description: `
+      El Lebrel Escocés, también conocido como Deerhound, es una raza de perro que destaca por su apariencia majestuosa y su porte noble. Este perro de gran tamaño, con una altura que puede alcanzar hasta los 76 cm y un peso que oscila entre los 34 y 50 kg, es un verdadero gigante gentil, conocido por su temperamento tranquilo y su carácter afectuoso.
+      <br>
+      <br>
+      El cuerpo del Lebrel Escocés es de construcción fuerte y robusta, con una estructura ósea sólida y una musculatura bien desarrollada. Su pecho es profundo y amplio, y su espalda larga y ligeramente arqueada, lo que le proporciona una gran capacidad pulmonar y cardiovascular, esencial para su desempeño como perro de caza.
+      <br>
+      <br>
+      La cabeza del Deerhound es larga y estrecha, con una expresión amable y ojos oscuros que transmiten una mirada inteligente y alerta. Sus orejas son pequeñas y replegadas, aunque se levantan cuando el perro está atento. La cola es larga y curvada, llevada baja cuando el perro está en reposo.
+      <br>
+      <br>
+      El pelaje del Lebrel Escocés es uno de sus rasgos más característicos. Es áspero y algo desgreñado, especialmente en el cuello y la parte superior del cuerpo, donde forma una melena que le da un aspecto leonino. El color del pelaje puede variar desde el gris azulado hasta el gris pardo, pasando por el gris oscuro y el gris claro.
+      <br>
+      <br>
+      Pero más allá de su apariencia física, lo que realmente hace especial al Lebrel Escocés es su carácter. A pesar de su pasado como perro de caza, el Deerhound es un perro tranquilo y amigable, que disfruta de la compañía de su familia humana y se lleva bien con otros perros y mascotas. Es un perro paciente y tolerante, lo que lo hace ideal para familias con niños.
+      <br>
+      <br>
+      El Lebrel Escocés es un perro inteligente y receptivo, aunque puede mostrar cierta independencia. Aprecia la tranquilidad del hogar, pero también necesita ejercicio regular para mantenerse en forma. A pesar de su tamaño, puede adaptarse a vivir en un apartamento siempre y cuando se le proporcionen paseos diarios y oportunidades para correr y jugar en espacios abiertos.
+      <br>
+      <br>
+      En resumen, el Lebrel Escocés es una raza de perro que combina la fuerza y la resistencia de un perro de caza con la dulzura y la tranquilidad de un perro de compañía. Su apariencia noble y su carácter amable lo convierten en una excelente opción para aquellos que buscan un perro grande, tranquilo y afectuoso.
+    `,
+    history: `
+      La historia del Lebrel Escocés, también conocido como Deerhound, es tan antigua y fascinante como las tierras de Escocia de las que proviene. Este perro majestuoso, con su porte noble y su pelaje áspero, ha sido durante siglos un símbolo de la aristocracia escocesa y un testigo de la historia de este país.
+      <br>
+      <br>
+      Los orígenes exactos del Lebrel Escocés se pierden en la bruma del tiempo. Se cree que los antiguos celtas ya contaban con perros de características similares al Deerhound actual, que utilizaban para la caza de ciervos, de ahí su nombre. Estos perros eran valorados por su fuerza, su resistencia y su habilidad para perseguir y derribar a la presa.
+      <br>
+      <br>
+      Durante la Edad Media, el Deerhound se convirtió en el perro de caza por excelencia de la nobleza escocesa. Los señores feudales mantenían grandes jaurías de estos perros, que utilizaban en sus cacerías de ciervos. La posesión de un Deerhound era considerada un signo de estatus y solo las personas de rango noble podían poseerlos.
+      <br>
+      <br>
+      La popularidad del Lebrel Escocés entre la nobleza escocesa fue tal que la raza estuvo a punto de extinguirse durante las Guerras Jacobitas del siglo XVIII. Muchos de los nobles que mantenían jaurías de Deerhounds fueron desposeídos de sus tierras y sus perros fueron exterminados. Sin embargo, algunos ejemplares sobrevivieron en las Tierras Altas de Escocia y gracias a los esfuerzos de criadores apasionados, la raza fue recuperada.
+      <br>
+      <br>
+      En el siglo XIX, la reina Victoria de Inglaterra se convirtió en una entusiasta de la raza, lo que contribuyó a aumentar su popularidad. Durante este período, el Deerhound también comenzó a ser apreciado como perro de compañía, gracias a su carácter tranquilo y afectuoso.
+      <br>
+      <br>
+      A lo largo de su historia, el Lebrel Escocés ha sido protagonista de numerosas obras literarias. Sir Walter Scott, uno de los escritores más famosos de Escocia, era un gran admirador de la raza y la menciona en varias de sus novelas. En su obra "The Talisman", describe al Deerhound como "la más perfecta criatura de los cielos".
+      <br>
+      <br>
+      En el siglo XX, la raza continuó siendo apreciada tanto por su habilidad para la caza como por su carácter como perro de compañía. Aunque ya no se utiliza para cazar ciervos, el Deerhound sigue siendo un perro activo y enérgico que disfruta de la actividad física.
+      <br>
+      <br>
+      Hoy en día, el Lebrel Escocés es una raza relativamente poco común, pero sigue siendo muy apreciada por aquellos que conocen y aman a estos perros. Su historia milenaria, su noble apariencia y su carácter amable y tranquilo lo convierten en una raza verdaderamente única y especial.
+    `,
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Bueno para la caza',
@@ -16844,6 +18759,52 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas cardíacos', 'Torsión gástrica'],
     gallery: ['https://cdn2.thedogapi.com/images/SkNjqx9NQ_390x256.jpg'],
+    searchTerms: [
+      'Lebrel Escocés',
+      "Lebrel Escoces",
+      "Deerhound",
+      "Perro de caza escocés",
+      "Perro de caza",
+      "Perro escocés",
+      "Perro de los ciervos",
+      "Perro de los ciervos escocés",
+      "Perro de los ciervos escoces",
+      "Perro de los ciervos escoses",
+      "Perro de los ciervos escoses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses",
+      "Perro de los ciervos escoceses"
+    ],
+    "tendencia_a_ladrar": "Baja",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Baja",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.dogbreedinfo.com/scottishdeerhound.htm",
+    "https://www.akc.org/dog-breeds/scottish-deerhound/",
+    "https://en.wikipedia.org/wiki/Scottish_Deerhound"
+    ]
   },
   139: {
     weight: {
@@ -16875,12 +18836,46 @@ fuentes: [
       height: 976,
       url: 'https://cdn2.thedogapi.com/images/Bklnce5NX.jpg',
     },
-    searchTerms: ['Terrier Escocés'],
     country_code: 'GB',
-    description:
-      'El Terrier Escocés es una raza pequeña pero robusta, conocida por su personalidad animada y su habilidad para cazar alimañas. Son perros independientes, juguetones y seguros de sí mismos, con un pelaje característicamente duro y denso.',
-    history:
-      'El Terrier Escocés es una raza antigua que se originó en Escocia para la caza de alimañas. Su pequeño tamaño y su valentía los hacían ideales para cazar en las rocosas tierras altas escocesas.',
+    description: `
+      El Terrier Escocés, también conocido como Scottie, es una raza de perro pequeña y robusta, famosa por su distintiva silueta y su personalidad audaz y vivaz. Originario de Escocia, como su nombre indica, este perro es un verdadero terrier en todos los sentidos, con una tenacidad y una valentía que desafían su tamaño compacto.
+      <br>
+      <br>
+      El Scottie es un perro de estructura sólida y bien musculada, con una altura que oscila entre los 25 y los 28 centímetros y un peso que varía entre los 8,5 y los 10 kilogramos. Su cuerpo es corto y compacto, lo que le da una apariencia fuerte y resistente. Su cabeza es larga en proporción a su tamaño, con una expresión aguda y alerta en sus ojos oscuros y penetrantes. Sus orejas son pequeñas, puntiagudas y siempre están erguidas, lo que añade a su expresión alerta y vivaz.
+      <br>
+      <br>
+      El pelaje del Terrier Escocés es una de sus características más distintivas. Tiene un doble pelaje, con una capa superior áspera y resistente al agua y una capa inferior suave y densa. Los colores del pelaje pueden variar, pero los más comunes son el negro, el brindle y el trigo. El pelaje requiere un cuidado regular para mantener su apariencia y salud, incluyendo cepillados frecuentes y recortes periódicos.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Terrier Escocés es conocido por su espíritu independiente y su naturaleza valiente. Son perros inteligentes y leales, pero también pueden ser tercos y necesitan una socialización y entrenamiento adecuados desde una edad temprana. A pesar de su tamaño pequeño, el Scottie es un perro valiente y siempre está dispuesto a enfrentarse a cualquier desafío. Son excelentes perros guardianes y siempre están alerta a cualquier actividad sospechosa.
+      <br>
+      <br>
+      Aunque son perros enérgicos y activos, los Terrier Escoceses también disfrutan de sus momentos de tranquilidad y son felices pasando tiempo en casa con su familia. Son perros muy leales y forman fuertes vínculos con sus dueños. Aunque pueden ser reservados con los extraños, son muy cariñosos con su familia y disfrutan de la compañía de las personas que conocen y en las que confían.
+      <br>
+      <br>
+      En resumen, el Terrier Escocés es un perro pequeño con una gran personalidad. Su apariencia distintiva, su naturaleza valiente y leal, y su espíritu independiente hacen de esta raza una opción popular para muchas personas. Ya sea que estés buscando un perro guardián, un compañero de juegos o simplemente un amigo leal, el Terrier Escocés puede ser la elección perfecta para ti.
+    `,
+    history: `
+      La historia del Terrier Escocés, también conocido como Scottie, es tan robusta y fascinante como la raza misma. Este perro pequeño pero valiente tiene sus raíces en las tierras altas de Escocia, donde se le valoraba por su habilidad para cazar y eliminar plagas.
+      <br>
+      <br>
+      El Terrier Escocés es una de las razas de terrier más antiguas que existen. Aunque los detalles exactos de su origen son un poco borrosos, se cree que los primeros Scotties surgieron en Escocia en el siglo XVII. Estos perros fueron criados para ser trabajadores incansables, capaces de cazar ratas y otros roedores en las granjas y en el campo. Su tamaño pequeño y su cuerpo compacto les permitían meterse en madrigueras y otros espacios estrechos, lo que los hacía especialmente eficaces en su trabajo.
+      <br>
+      <br>
+      A lo largo de los siglos, los Terrier Escoceses fueron seleccionados no solo por su habilidad para la caza, sino también por su resistencia y su valentía. A pesar de su pequeño tamaño, estos perros no tenían miedo de enfrentarse a adversarios mucho más grandes que ellos, lo que los hacía muy valiosos para los granjeros y los cazadores.
+      <br>
+      <br>
+      El Scottie como lo conocemos hoy en día comenzó a tomar forma en el siglo XIX, cuando los criadores empezaron a seleccionar perros con características específicas para crear una raza más uniforme. En 1879, el primer club de Terrier Escocés se formó en Escocia, y la raza fue reconocida oficialmente por el Kennel Club del Reino Unido en 1881.
+      <br>
+      <br>
+      El Terrier Escocés llegó a América a finales del siglo XIX y fue reconocido por el American Kennel Club en 1885. La raza se hizo popular rápidamente, gracias en parte a su apariencia distintiva y su personalidad encantadora. A lo largo del siglo XX, los Scotties se convirtieron en una de las razas de terrier más populares en los Estados Unidos.
+      <br>
+      <br>
+      Los Terrier Escoceses también han tenido su parte de fama. Quizás el Scottie más famoso de todos los tiempos es Fala, el perro del presidente Franklin D. Roosevelt. Fala era un compañero constante de Roosevelt y a menudo se le veía en fotos con el presidente. Otros Scotties famosos incluyen a Barney y Miss Beazley, los perros de la familia Bush durante su tiempo en la Casa Blanca.
+      <br>
+      <br>
+      Hoy en día, el Terrier Escocés sigue siendo una raza popular tanto en el Reino Unido como en los Estados Unidos. Aunque ya no se utilizan tanto para la caza, estos perros siguen siendo apreciados por su personalidad valiente y leal, su apariencia distintiva y su amor por la diversión. La historia del Terrier Escocés es un testimonio de la resistencia y la tenacidad de esta raza, y estos pequeños perros seguramente seguirán cautivando los corazones de las personas durante muchos años más.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno para la caza de alimañas',
@@ -16900,6 +18895,60 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas de piel', 'Displasia de cadera'],
     gallery: ['https://cdn2.thedogapi.com/images/Bklnce5NX_390x256.jpg'],
+    searchTerms: [
+      'Terrier Escocés',
+      "Scottie",
+      "Terrier Escoces",
+      "Scottish Terrier",
+      "Terrier de Escocia",
+      "Perro de Escocia",
+      "Perro escocés",
+      "Terrier",
+      "Perro pequeño",
+      "Perro de caza",
+      "Perro valiente",
+      "Perro leal",
+      "Perro de compañía",
+      "Perro de familia",
+      "Perro para niños",
+      "Perro de pelo duro",
+      "Perro de pelo negro",
+      "Perro de pelo gris",
+      "Perro de pelo brindle",
+      "Perro de patas cortas",
+      "Perro de orejas puntiagudas",
+      "Perro de cola corta",
+      "Perro de Fala",
+      "Perro de Roosevelt",
+      "Perro de la Casa Blanca",
+      "Perro de la familia Bush",
+      "Perro de granja",
+      "Perro cazador de ratas",
+      "Perro cazador de roedores",
+      "Perro de madriguera"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Fala",
+    "caso": "Fala fue el famoso Terrier Escocés del presidente de los Estados Unidos Franklin D. Roosevelt. Fala vivió en la Casa Blanca y fue una figura muy conocida en la administración de Roosevelt."
+    },
+    {
+    "nombre": "Barney y Miss Beazley",
+    "caso": "Barney y Miss Beazley fueron los Terrier Escoceses de la familia Bush durante la presidencia de George W. Bush. Ambos perros eran figuras frecuentes en los eventos de la Casa Blanca."
+    }
+    ],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Scottish_Terrier",
+    "https://www.dogbreedinfo.com/scottishterrier.htm",
+    "https://www.ukcdogs.com/scottish-terrier"
+    ]
   },
   140: {
     weight: {
@@ -16937,12 +18986,55 @@ fuentes: [
       height: 640,
       url: 'https://cdn2.thedogapi.com/images/rJa29l9E7.jpg',
     },
-    searchTerms: ['Pastor de Shetland'],
     country_code: 'GB',
-    description:
-      'El Pastor de Shetland es una raza inteligente y activa, reconocida por su habilidad para el pastoreo de ovejas. Son perros cariñosos y leales, pero también pueden ser reservados. Tienen una naturaleza juguetona y gentil, lo que los hace ideales como perros de familia.',
-    history:
-      'El Pastor de Shetland es originario de las Islas Shetland de Escocia. Fueron criados para ser perros pastores eficientes, capaces de manejar el duro clima y las condiciones difíciles de las islas. Su tamaño más pequeño les permitía moverse rápidamente y requerir menos comida que las razas de perros pastores más grandes.',
+    description: `
+      El Pastor de Shetland, también conocido como Sheltie, es una raza de perro que, a primera vista, puede recordarte a un Rough Collie en miniatura. Sin embargo, aunque comparten ancestros y ciertas características, el Sheltie es una raza única con su propio conjunto de cualidades y encantos.
+      <br>
+      <br>
+      Los Shelties son perros pequeños a medianos, con una altura que oscila entre 33 y 41 cm en la cruz. Su peso puede variar entre 6 y 14 kg, dependiendo del tamaño y el sexo del perro. A pesar de su tamaño relativamente pequeño, son perros robustos y bien proporcionados, con una estructura ósea sólida y una musculatura bien desarrollada.
+      <br>
+      <br>
+      El Sheltie tiene una cabeza en forma de cuña, con un cráneo plano y un hocico que se estrecha hacia la nariz. Sus ojos son de tamaño mediano, almendrados y de un color oscuro, aunque los Shelties merle pueden tener ojos azules o heterocromía. Sus orejas son pequeñas y flexibles, con la mitad superior caída hacia adelante en un pliegue característico.
+      <br>
+      <br>
+      El pelaje del Sheltie es una de sus características más distintivas. Es largo y abundante, con una capa externa resistente al agua y una capa interna suave y densa. Los colores más comunes son el sable (que puede variar desde el dorado claro hasta el caoba), el negro y el azul merle. Muchos Shelties tienen marcas blancas y/o tostadas.
+      <br>
+      <br>
+      Los Shelties son perros inteligentes, enérgicos y dispuestos a complacer. Son conocidos por su agilidad y velocidad, lo que los hace excelentes en actividades como la agilidad canina, el flyball y el pastoreo. A pesar de su tamaño, son perros trabajadores y necesitan una cantidad moderada de ejercicio diario para mantenerse felices y saludables.
+      <br>
+      <br>
+      En cuanto a su temperamento, los Shelties son a menudo reservados con los extraños, pero son extremadamente leales y afectuosos con su familia. Son buenos con los niños y pueden llevarse bien con otros perros y mascotas si se socializan adecuadamente desde una edad temprana. Su inteligencia y su deseo de complacer hacen que sean relativamente fáciles de entrenar, aunque pueden ser un poco tercos a veces.
+      <br>
+      <br>
+      Los Shelties son perros saludables en general, pero como todas las razas, son propensos a ciertas condiciones de salud. Algunas de las más comunes incluyen la displasia de cadera, problemas de tiroides, enfermedades oculares y la dermatitis alérgica. Es importante comprar a un criador responsable que haga pruebas de salud a sus perros para minimizar el riesgo de estas condiciones.
+      <br>
+      <br>
+      En resumen, el Pastor de Shetland es un perro pequeño con un gran corazón y una personalidad aún mayor. Su inteligencia, lealtad y energía hacen de él un compañero maravilloso para aquellos dispuestos a dedicarle el tiempo y la atención que necesita.
+    `,
+    history: `
+      La historia del Pastor de Shetland, o Sheltie como se le conoce cariñosamente, es una historia de adaptación y supervivencia en las duras condiciones de las Islas Shetland, un archipiélago situado al norte de Escocia. Este perro, que hoy en día es amado en todo el mundo por su inteligencia, belleza y lealtad, tiene sus raíces en un lugar remoto y aislado, donde fue criado para ser un trabajador incansable y un fiel compañero.
+      <br>
+      <br>
+      Las Islas Shetland son conocidas por su clima frío y ventoso, y su terreno rocoso y accidentado. Los primeros habitantes de estas islas eran granjeros y pescadores que necesitaban perros que pudieran adaptarse a estas duras condiciones y ayudarles en sus tareas diarias. Los perros que se desarrollaron en estas islas eran pequeños, ágiles y tenaces, capaces de pastorear ovejas en terrenos difíciles y de soportar el frío y el viento.
+      <br>
+      <br>
+      Los primeros antepasados del Sheltie eran probablemente una mezcla de perros de trabajo escoceses y perros traídos a las islas por los pescadores. Estos perros se criaron por su habilidad para trabajar, no por su apariencia, y como resultado, eran bastante variados en tamaño y color. Sin embargo, todos compartían una inteligencia aguda, una gran capacidad de trabajo y una fuerte lealtad hacia sus dueños.
+      <br>
+      <br>
+      A finales del siglo XIX, el Rough Collie se hizo muy popular en Gran Bretaña gracias a la reina Victoria, que tenía varios de estos perros. Los criadores de las Islas Shetland comenzaron a cruzar sus perros locales con Rough Collies para mejorar su apariencia y hacerlos más atractivos para el mercado de mascotas. Sin embargo, estos cruces también hicieron que los perros aumentaran de tamaño, lo que no era deseable para los granjeros que necesitaban perros pequeños y ágiles para el trabajo de pastoreo.
+      <br>
+      <br>
+      Para mantener el tamaño pequeño, los criadores de Shelties comenzaron a seleccionar y criar específicamente los perros más pequeños. Con el tiempo, esto llevó al desarrollo de una raza distinta, el Pastor de Shetland, que conservaba la inteligencia y la capacidad de trabajo de sus antepasados, pero en un paquete más pequeño y manejable.
+      <br>
+      <br>
+      El Pastor de Shetland fue reconocido oficialmente como una raza por el Kennel Club del Reino Unido en 1909. En los Estados Unidos, la raza fue reconocida por el American Kennel Club en 1911. Desde entonces, el Sheltie ha ganado popularidad en todo el mundo, tanto como perro de trabajo como de compañía.
+      <br>
+      <br>
+      A lo largo de su historia, el Sheltie ha demostrado ser un perro increíblemente versátil. Aunque todavía se utilizan para el pastoreo en las Islas Shetland y en otros lugares, también han tenido éxito en una variedad de otras áreas. Son excelentes en deportes caninos como la agilidad, el rally y la obediencia, y también han sido utilizados como perros de terapia y de servicio.
+      <br>
+      <br>
+      En resumen, la historia del Pastor de Shetland es una historia de adaptacióny supervivencia. Criados en las duras condiciones de las Islas Shetland, estos perros se han convertido en una raza amada y respetada en todo el mundo. Aunque su apariencia puede haber cambiado con el tiempo, su inteligencia, su capacidad de trabajo y su lealtad nunca han flaqueado. Ya sea pastoreando ovejas en un terreno accidentado, compitiendo en un evento de agilidad o simplemente acurrucándose en el sofá con su familia, el Sheltie es un testimonio de la resistencia y la versatilidad de los perros de trabajo.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Bueno para el pastoreo',
@@ -16962,6 +19054,51 @@ fuentes: [
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas de tiroides'],
     gallery: ['https://cdn2.thedogapi.com/images/rJa29l9E7_390x256.jpg'],
+    searchTerms: [
+      'Pastor de Shetland',
+      "Sheltie",
+      "Shetland Sheepdog",
+      "Pastor Shetland",
+      "Perro de Shetland",
+      "Perro pastor de Shetland",
+      "Shetland",
+      "Perro de ovejas de Shetland",
+      "Perro pastor",
+      "Perro de trabajo",
+      "Perro inteligente",
+      "Perro de familia",
+      "Perro para niños",
+      "Perro de compañía",
+      "Perro de agilidad",
+      "Perro de obediencia",
+      "Perro de terapia",
+      "Perro de servicio",
+      "Perro de tamaño pequeño",
+      "Perro de pelo largo",
+      "Perro de Escocia",
+      "Perro de las Islas Shetland",
+      "Perro de clima frío",
+      "Perro resistente",
+      "Perro leal",
+      "Perro de raza pura",
+      "Perro de raza Shetland",
+      "Perro pastor pequeño",
+      "Perro de pastoreo",
+      "Perro de raza británica"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Alta",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.dogbreedinfo.com/shetlandsheepdog.htm",
+    "https://www.akc.org/dog-breeds/shetland-sheepdog/",
+    "https://www.ukcdogs.com/shetland-sheepdog"
+    ]
   },
   141: {
     weight: {
@@ -16993,12 +19130,67 @@ fuentes: [
       height: 1080,
       url: 'https://cdn2.thedogapi.com/images/Zn3IjPX3f.jpg',
     },
-    searchTerms: ['Shiba Inu'],
     country_code: 'JP',
-    description:
-      'El Shiba Inu es una raza de perro encantadora y confiada originaria de Japón. Son intrépidos y apasionados, lo que los convierte en excelentes perros de caza. Son alertas y fieles, lo que también los hace buenos perros de alerta. A pesar de ser no deportivos, los Shiba Inu son activos y disfrutan de los ejercicios físicos.',
-    history:
-      'El Shiba Inu es una de las razas de perros más antiguas y pequeñas de Japón. Originalmente se criaron para cazar en las montañas de Japón. Aunque su población disminuyó durante la Segunda Guerra Mundial, los esfuerzos de reproducción han restaurado la raza y ahora es uno de los perros más populares de Japón y se está volviendo cada vez más popular en todo el mundo.',
+    description: `
+      El Shiba Inu es una raza de perro pequeña y compacta, originaria de Japón, que se ha ganado el corazón de muchos amantes de los perros en todo el mundo. Su nombre, "Shiba Inu", se traduce aproximadamente como "perro pequeño" en japonés, un nombre apropiado para esta raza que es la más pequeña de las seis razas de perros nativas de Japón.
+      <br>
+      <br>
+      El Shiba Inu es un perro de aspecto distintivo, con una expresión casi zorruna que refleja su inteligencia aguda y su naturaleza alerta. Tiene una cabeza proporcionalmente grande con ojos oscuros y triangulares que están ligeramente inclinados, lo que le da una expresión de confianza y audacia. Sus orejas también son triangulares y se mantienen erguidas, lo que añade a su apariencia alerta y atenta.
+      <br>
+      <br>
+      El cuerpo del Shiba Inu es compacto y musculoso, con una estructura ósea fuerte que le da una apariencia robusta a pesar de su tamaño pequeño. Su cola es uno de sus rasgos más distintivos: es gruesa y llevada alta, a menudo enroscada sobre su espalda en un rizo apretado o en forma de hoz.
+      <br>
+      <br>
+      El pelaje del Shiba Inu es doble, con una capa externa rígida y recta y una capa interna suave y densa que le proporciona una excelente protección contra las inclemencias del tiempo. Los colores del pelaje pueden variar e incluyen rojo, negro y fuego, sésamo (mezcla de pelos negros, rojos y blancos), y crema o blanco, aunque este último no es preferido en los estándares de la raza.
+      <br>
+      <br>
+      El Shiba Inu es un perro lleno de energía y vivacidad. Es conocido por su espíritu independiente y su inteligencia, lo que puede hacer que sea un desafío para entrenar en ocasiones. Sin embargo, también es conocido por su lealtad y su fuerte deseo de complacer a su dueño, lo que puede ayudar en el proceso de entrenamiento.
+      <br>
+      <br>
+      Este perro es muy adaptable y puede vivir cómodamente tanto en un apartamento en la ciudad como en una casa con un gran patio en el campo. Aunque es un perro pequeño, necesita mucho ejercicio para mantenerse feliz y saludable. Los paseos diarios, los juegos de buscar y las sesiones de juego en un patio seguro son excelentes maneras de mantener a un Shiba Inu físicamente activo.
+      <br>
+      <br>
+      El Shiba Inu es un perro que disfruta de la compañía de su familia y puede ser muy cariñoso con aquellos a quienes conoce y en quienes confía. Sin embargo, también puede ser reservado con los extraños y puede ser territorial en su hogar. A pesar de su tamaño, puede hacer un buen perro guardián debido a su naturaleza alerta y su desconfianza hacia los extraños.
+      <br>
+      <br>
+      En resumen, el Shiba Inu es un perro pequeño con una gran personalidad. Su apariencia distintiva, su inteligencia aguda y su naturaleza leal y cariñosa lo convierten en una excelente opción para aquellos que buscan un perro de compañía que sea tanto un desafío como una alegría de tener.
+    `,
+    history: `
+      La historia del Shiba Inu es una historia de supervivencia y resiliencia, que se remonta a miles de años atrás en el país del sol naciente, Japón. Esta raza, que es la más pequeña y antigua de las seis razas de perros nativas de Japón, ha superado numerosos desafíos para convertirse en el perro amado que es hoy.
+      <br>
+      <br>
+      El Shiba Inu tiene una historia que se remonta al 300 a.C., durante el período Jomon en Japón. Los arqueólogos han descubierto restos de perros pequeños que se parecen mucho al Shiba Inu en los sitios de esta antigua cultura. Se cree que estos perros fueron utilizados para la caza, ayudando a sus dueños humanos a rastrear y capturar presas pequeñas en las densas selvas y montañas de Japón.
+      <br>
+      <br>
+      Durante siglos, el Shiba Inu se mantuvo como un perro de caza apreciado, valorado por su agilidad, su valentía y su habilidad para moverse rápidamente a través del terreno accidentado. Sin embargo, la raza se mantuvo relativamente aislada del resto del mundo, ya que Japón estaba cerrado a la influencia extranjera durante gran parte de su historia.
+      <br>
+      <br>
+      El verdadero desafío para la supervivencia del Shiba Inu llegó en el siglo XX. Durante la Segunda Guerra Mundial, la raza estuvo al borde de la extinción debido a la escasez de alimentos y a la devastación causada por los bombardeos. Después de la guerra, la raza se vio amenazada por un brote de moquillo, una enfermedad canina altamente contagiosa y a menudo mortal.
+      <br>
+      <br>
+      Afortunadamente, los esfuerzos de los criadores dedicados lograron salvar a la raza. Se llevaron a cabo programas de cría para restaurar la población de Shiba Inu, utilizando los pocos perros que habían sobrevivido. Estos esfuerzos fueron exitosos, y la raza fue capaz de recuperarse.
+      <br>
+      <br>
+      En 1936, el Shiba Inu fue declarado un monumento natural de Japón, lo que ayudó a proteger la raza y a preservar su linaje puro. Desde entonces, el Shiba Inu ha crecido en popularidad, no sólo en Japón, sino también en todo el mundo.
+      <br>
+      <br>
+      El Shiba Inu fue llevado a los Estados Unidos por primera vez en la década de 1950 por militares estadounidenses que estaban estacionados en Japón. Sin embargo, no fue hasta la década de 1980 que la raza comenzó a ganar popularidad en los Estados Unidos. En 1992, el Shiba Inu fue reconocido oficialmente por el American Kennel Club.
+      <br>
+      <br>
+      Hoy en día, el Shiba Inu es una raza de perro popular tanto en su Japón natal como en todo el mundo. A pesar de los desafíos que ha enfrentado a lo largo de su historia, el Shiba Inu ha demostrado ser una raza resistente y adaptable, capaz de sobrevivir y prosperar en medio de la adversidad. Su historia es un testimonio de su fortaleza y resiliencia, y es una de las razones por las que esta raza estan querida y respetada hoy en día.
+      <br>
+      <br>
+      La historia del Shiba Inu es también una historia de la relación entre los perros y los humanos. A lo largo de los siglos, estos perros han trabajado junto a los humanos, cazando en las montañas y bosques de Japón, y han formado vínculos estrechos con sus dueños. Esta relación ha sido fundamental para la supervivencia y el éxito de la raza.
+      <br>
+      <br>
+      A pesar de su antigüedad, el Shiba Inu ha demostrado ser increíblemente adaptable. Desde sus orígenes como perro de caza en las montañas de Japón, ha logrado encontrar su lugar en la vida moderna, tanto en las zonas rurales como en las urbanas. Aunque todavía conserva su fuerte instinto de caza, también ha demostrado ser un excelente perro de compañía, conocido por su lealtad y su carácter afectuoso.
+      <br>
+      <br>
+      El Shiba Inu también ha dejado su huella en la cultura popular. En los últimos años, ha ganado fama en internet gracias a su expresión facial única y su personalidad encantadora. El "Doge" meme, que presenta a un Shiba Inu con reflexiones internas escritas en inglés roto, se ha vuelto viral, aumentando aún más la popularidad de la raza.
+      <br>
+      <br>
+      En resumen, la historia del Shiba Inu es una historia de supervivencia, adaptabilidad y la relación duradera entre los perros y los humanos. A pesar de los desafíos que ha enfrentado, esta raza ha logrado prosperar y ganarse un lugar en los corazones de las personas de todo el mundo. Con su personalidad encantadora y su espíritu resistente, no es de extrañar que el Shiba Inu continúe siendo una raza de perro tan popular y querida.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Excelente perro de caza',
@@ -17041,6 +19233,56 @@ fuentes: [
       'https://cdn2.thedogapi.com/images/NoSR1FFPx.jpg',
       'https://cdn2.thedogapi.com/images/hKXTfH70r.jpg',
     ],
+    searchTerms: [
+      'Shiba Inu',
+      "Shiba",
+      "Inu",
+      "Perro japonés",
+      "Perro de caza",
+      "Perro pequeño",
+      "Perro de compañía",
+      "Perro de ciudad",
+      "Perro de montaña",
+      "Perro independiente",
+      "Perro leal",
+      "Perro alerta",
+      "Perro activo",
+      "Perro inteligente",
+      "Perro de tamaño pequeño",
+      "Perro de pelo corto",
+      "Perro de raza pura",
+      "Perro de raza antigua",
+      "Perro resistente",
+      "Perro adaptable",
+      "Perro de familia",
+      "Perro para niños",
+      "Perro para adultos",
+      "Perro para ancianos",
+      "Perro para principiantes",
+      "Perro para expertos",
+      "Perro para casas",
+      "Perro para apartamentos",
+      "Perro para climas fríos",
+      "Perro para climas calurosos"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Kabosu",
+    "caso": "Kabosu es una Shiba Inu que se convirtió en un meme de Internet conocido como 'Doge'. Su rostro expresivo se ha utilizado en numerosos memes y ha ayudado a popularizar la raza."
+    }
+    ],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Shiba_Inu",
+    "https://www.dogbreedinfo.com/shibainu.htm",
+    "https://www.ukcdogs.com/shiba-inu"
+    ]
   },
   142: {
     weight: {
@@ -17081,12 +19323,43 @@ fuentes: [
       height: 600,
       url: 'https://cdn2.thedogapi.com/images/BkrJjgcV7.jpg',
     },
-    searchTerms: ['Shih Tzu'],
     country_code: 'CN',
-    description:
-      'El Shih Tzu es una raza de perro lista y animada originaria de China. Son conocidos por ser extrovertidos, amistosos y cariñosos. Son perros vivos, leales e independientes. A pesar de ser una raza de perro de juguete, los Shih Tzu son activos y disfrutan de jugar. Son valientes, dulces y felices, lo que los convierte en excelentes compañeros.',
-    history:
-      'El Shih Tzu es una de las razas de perros más antiguas de China. Fueron criados originalmente como perros falderos para la nobleza china. Son conocidos por su pelaje largo y sedoso, que es a menudo peinado en un estilo distintivo. Aunque pequeños, los Shih Tzu son conocidos por ser valientes y valientes.',
+    description: `
+      El Shih Tzu es una raza de perro pequeña pero robusta, conocida por su pelaje largo y sedoso que, en su estado más natural, fluye hasta el suelo, recordándonos a una manta de pelo. Este pelaje puede presentarse en una variedad de colores, incluyendo negro, blanco, azul, dorado, plata y brindle, a menudo con marcas blancas distintivas. Aunque este pelaje es hermoso, requiere un cuidado y mantenimiento regulares para mantenerlo en su mejor estado. Muchos propietarios optan por cortar el pelo de su Shih Tzu en un "corte de cachorro" más manejable.
+      <br>
+      <br>
+      El rostro del Shih Tzu es uno de sus rasgos más distintivos, con ojos oscuros y redondos que son grandes y muy expresivos. Su hocico es corto y cuadrado, y está cubierto con pelo que a menudo se ata en un topknot para evitar que caiga en los ojos del perro. Las orejas del Shih Tzu son grandes y caídas, cubiertas con pelo largo que se mezcla con el resto de su pelaje.
+      <br>
+      <br>
+      El cuerpo del Shih Tzu es compacto y sólido, con una espalda recta y patas cortas y musculosas. A pesar de su pequeño tamaño, son perros sorprendentemente resistentes y pueden ser bastante activos. Su cola es alta y se curva sobre su espalda, a menudo adornada con una pluma de pelo largo.
+      <br>
+      <br>
+      En cuanto a su personalidad, los Shih Tzus son conocidos por ser cariñosos, alegres y amigables. Son excelentes compañeros de familia y se llevan bien con niños y otros animales. Aunque pueden ser un poco tercos a veces, en general son bastante fáciles de entrenar y ansiosos por complacer. Son perros inteligentes y curiosos que disfrutan de juegos y rompecabezas mentales.
+      <br>
+      <br>
+      Los Shih Tzus son perros adaptables que pueden vivir cómodamente tanto en apartamentos como en casas con jardín. Aunque disfrutan de paseos y juegos, no requieren tanto ejercicio como algunas otras razas. Sin embargo, es importante recordar que son perros de compañía y necesitan interacción humana regular para ser felices.
+      <br>
+      <br>
+      En general, el Shih Tzu es un perro encantador y atractivo que hace un maravilloso compañero de familia. Su tamaño manejable, su personalidad amigable y su hermoso pelaje hacen de esta raza una opción popular para muchas personas. Sin embargo, su pelaje requiere un cuidado considerable, por lo que los posibles propietarios deben estar preparados para dedicar tiempo a su mantenimiento. Con el cuidado y el amor adecuados, un Shih Tzu puede ser un amigo leal y amoroso durante muchos años.
+    `,
+    history: `
+      La historia del Shih Tzu es tan exótica y misteriosa como la raza misma. Su nombre, que significa "perro león" en chino, es un indicativo de su antiguo linaje y su estrecha relación con la nobleza china. Aunque la raza tal como la conocemos hoy en día se desarrolló principalmente en China, sus raíces se remontan a los perros tibetanos de hace más de mil años.
+      <br>
+      <br>
+      El Shih Tzu es una de las razas más antiguas que existen, con evidencias arqueológicas que sugieren que estos perros podrían haber existido ya en el año 8000 a.C. Se cree que la raza es descendiente de perros de la corte tibetana, que fueron regalados a la corte china como tributo. Estos perros tibetanos, probablemente una mezcla de Lhasa Apso y Pekinés, se cruzaron con perros chinos para crear la raza que ahora conocemos como Shih Tzu.
+      <br>
+      <br>
+      Durante muchos siglos, los Shih Tzus fueron altamente valorados por la nobleza china. Eran considerados perros sagrados y a menudo se les representaba en pinturas, esculturas y tapices. Los emperadores y emperatrices chinos adoraban a estos perros y los mantenían en la corte como mascotas de lujo. Se dice que la emperatriz Dowager Cixi, que gobernó China en el siglo XIX, tenía un gran amor por los Shih Tzus y trabajó para perfeccionar y preservar la raza.
+      <br>
+      <br>
+      A pesar de su popularidad en la corte china, los Shih Tzus eran prácticamente desconocidos fuera de China hasta el siglo XX. Después de la muerte de la emperatriz Dowager Cixi en 1908, la cría de Shih Tzus en la corte china disminuyó y la raza estuvo a punto de extinguirse. Sin embargo, unos pocos ejemplares fueron llevados a Inglaterra y Noruega por diplomáticos y visitantes extranjeros, y estos perros se convirtieron en la base de la población de Shih Tzus fuera de China.
+      <br>
+      <br>
+      La cría de Shih Tzus en Occidente comenzó en serio en la década de 1930, y la raza fue reconocida por el Kennel Club de Inglaterra en 1940. Después de la Segunda Guerra Mundial, los soldados estadounidenses llevaron Shih Tzus a los Estados Unidos desde Europa, y la raza comenzó a ganar popularidad en América. El American Kennel Club reconoció al Shih Tzu como raza en 1969.
+      <br>
+      <br>
+      Hoy en día, el Shih Tzu es una de las razas de perros más populares en todo el mundo, conocida por su personalidad amigable y su hermoso pelaje largo. Aunque ya no son los perros de la realeza, los Shih Tzus todavía llevan consigo la elegancia y el encanto de su noble herencia. Su historia es un testimonio de su resistencia y atractivo perdurable, y estos "perros león" continúan cautivando los corazones de los amantes de los perros en todo el mundo.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Excelente perro de compañía',
@@ -17103,6 +19376,55 @@ fuentes: [
     popularidad: 'Alta',
     enfermedades_comunes: ['Problemas oculares', 'Displasia de cadera'],
     gallery: ['https://cdn2.thedogapi.com/images/BkrJjgcV7_390x256.jpg'],
+    searchTerms: [
+      'Shih Tzu',
+      "Shitzu",
+      "Shihtzu",
+      "Shi Tzu",
+      "Perro león",
+      "Perro chino",
+      "Perro de compañía",
+      "Perro de regazo",
+      "Perro pequeño",
+      "Perro de pelo largo",
+      "Perro de la realeza",
+      "Perro de la corte china",
+      "Perro de la emperatriz",
+      "Perro para niños",
+      "Perro para familia",
+      "Perro para ancianos",
+      "Perro tranquilo",
+      "Perro amigable",
+      "Perro cariñoso",
+      "Perro de interior",
+      "Perro de apartamento",
+      "Perro de ciudad",
+      "Perro de raza antigua",
+      "Perro de raza pequeña",
+      "Perro de raza toy",
+      "Perro de raza miniatura",
+      "Perro de raza asiática",
+      "Perro de raza tibetana",
+      "Perro de raza china"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Alta",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Alta",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Ch. Wenrick's Don't Stop Believing",
+    "caso": "Shih Tzu que ganó el Best in Show en el Westminster Kennel Club Dog Show en 2014."
+    }
+    ],
+    "fuentes": [
+      "https://www.akc.org/dog-breeds/shih-tzu/",
+      "https://www.dogbreedinfo.com/shihtzu.htm",
+      "https://www.ukcdogs.com/shih-tzu"
+    ]
   },
   143: {
     weight: {
@@ -17134,12 +19456,49 @@ fuentes: [
       height: 803,
       url: 'https://cdn2.thedogapi.com/images/SJJxjecEX.jpg',
     },
-    searchTerms: ['Pastor de Shiloh'],
     country_code: 'US',
-    description:
-      'El Pastor de Shiloh es una raza de perro extrovertida y leal, conocida por ser sociable, dulce y amorosa. Son entrenables, y se les conoce por su amor a actividades como la natación y el porte de mochilas. Son grandes perros de trabajo, conocidos por su habilidad para tirar de carros y trineos.',
-    history:
-      'El Pastor de Shiloh se desarrolló en los Estados Unidos a finales del siglo XX. Fueron criados selectivamente para parecerse a las versiones más antiguas del Pastor Alemán, pero con temperamento más suave y cuerpo más grande. Son excelentes perros de trabajo y disfrutan de tareas que les permiten aprovechar su fuerza y resistencia.',
+    description: `
+      El Pastor de Shiloh es una raza de perro que destaca por su belleza, su porte majestuoso y su carácter amigable y leal. Son perros de gran tamaño, con machos que pueden alcanzar hasta 71 centímetros de altura y pesar hasta 59 kilogramos, y hembras que pueden llegar a medir 66 centímetros y pesar hasta 41 kilogramos. Su cuerpo es fuerte y musculoso, con una estructura ósea sólida que les proporciona una apariencia robusta y poderosa.
+      <br>
+      <br>
+      El pelaje del Pastor de Shiloh es uno de sus rasgos más característicos. Es doble, con una capa externa densa y recta y una capa interna suave y lanosa que les proporciona una excelente protección contra las inclemencias del tiempo. El pelaje puede ser de varios colores, incluyendo negro, dorado, rojo, plateado, marrón y crema, y puede ser sólido, bicolor o tricolor.
+      <br>
+      <br>
+      La cabeza del Pastor de Shiloh es amplia y noble, con un hocico fuerte y una expresión alerta y amigable. Sus ojos son de tamaño mediano y pueden ser de color marrón o azul. Las orejas son de tamaño mediano, de inserción alta y llevadas erguidas cuando el perro está alerta.
+      <br>
+      <br>
+      El Pastor de Shiloh es un perro de carácter equilibrado y amigable. Son conocidos por su lealtad y su fuerte vínculo con su familia humana. Son perros inteligentes y receptivos, que disfrutan de la compañía de las personas y son excelentes con los niños. A pesar de su tamaño, son perros tranquilos y bien comportados en casa, aunque necesitan ejercicio regular para mantenerse en forma y saludables.
+      <br>
+      <br>
+      En cuanto a su comportamiento con otros animales, los Pastores de Shiloh suelen llevarse bien con otros perros y pueden convivir pacíficamente con otras mascotas si se les socializa adecuadamente desde una edad temprana. Sin embargo, su instinto de pastoreo puede hacer que sean propensos a perseguir a animales más pequeños.
+      <br>
+      <br>
+      En términos de salud, el Pastor de Shiloh es una raza generalmente saludable, pero como todos los perros de gran tamaño, puede ser propenso a ciertas condiciones, como la displasia de cadera y de codo, problemas cardíacos y trastornos de la piel. Es importante proporcionarles una alimentación equilibrada y mantenerlos en un peso saludable para evitar problemas de salud.
+      <br>
+      <br>
+      En resumen, el Pastor de Shiloh es un perro majestuoso y leal, que combina la fuerza y la resistencia de un perro de trabajo con la amabilidad y la sociabilidad de un perro de compañía. Su belleza, su inteligencia y su carácter amigable hacen de esta raza una excelente elección para aquellos que buscan un perro grande y amigable que sea un miembro leal y cariñoso de la familia.
+    `,
+    history: `
+      La historia del Pastor de Shiloh es una historia de pasión, dedicación y amor por los perros. Esta raza es relativamente nueva y fue desarrollada en los Estados Unidos durante la segunda mitad del siglo XX con el objetivo de crear un perro que combinara la belleza y la inteligencia del Pastor Alemán con un temperamento más suave y una mayor longevidad.
+      <br>
+      <br>
+      La historia del Pastor de Shiloh comienza con una criadora de Pastores Alemanes llamada Tina Barber. Tina había crecido con Pastores Alemanes y tenía un profundo amor y respeto por la raza. Sin embargo, a lo largo de los años, comenzó a notar que muchos Pastores Alemanes estaban desarrollando problemas de salud y temperamento. Estos problemas, creía Tina, eran el resultado de la cría selectiva para ciertos rasgos físicos, a menudo a expensas de la salud y el bienestar del perro.
+      <br>
+      <br>
+      En la década de 1970, Tina decidió tomar medidas para preservar las cualidades que amaba del Pastor Alemán y al mismo tiempo mejorar su salud y temperamento. Comenzó a criar Pastores Alemanes con un enfoque en la salud, la longevidad y un temperamento suave y equilibrado. A estos perros los llamó Pastores de Shiloh, en honor a la granja de su familia en Shiloh, Pensilvania.
+      <br>
+      <br>
+      Para desarrollar la raza, Tina utilizó una variedad de perros, incluyendo Pastores Alemanes de líneas de trabajo y de exposición, así como perros de otras razas que poseían las cualidades que ella buscaba. El resultado fue un perro que conservaba la belleza y la inteligencia del Pastor Alemán, pero con un temperamento más suave y una mayor longevidad.
+      <br>
+      <br>
+      En 1991, Tina fundó el International Shiloh Shepherd Dog Club (ISSDC) para promover la raza y establecer un estándar de raza. Desde entonces, la raza ha ganado popularidad y ha sido reconocida por varias organizaciones de registro de razas de perros.
+      <br>
+      <br>
+      A pesar de su popularidad, la raza todavía es relativamente rara y los criadores de Pastores de Shiloh se esfuerzan por mantener altos estándares de cría para preservar la salud y el temperamento de la raza. Los Pastores de Shiloh son valorados por su lealtad, su inteligencia y su temperamento equilibrado, y son utilizados en una variedad de roles, incluyendo perros de terapia, perros de búsqueda y rescate, y como amados miembros de la familia.
+      <br>
+      <br>
+      La historia del Pastor de Shiloh es un testimonio del amor y la dedicación de una mujer por los perros y su deseo de preservar y mejorar una raza que ella amaba. A través de su trabajo, Tina Barber dejó un legado duradero en la forma del Pastor de Shiloh, una raza que continúa deleitando y cautivando a los amantes de los perros en todo el mundo.
+    `,
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Excelente perro de trabajo',
@@ -17157,6 +19516,51 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas de la tiroides'],
     gallery: ['https://cdn2.thedogapi.com/images/SJJxjecEX_390x256.jpg'],
+    searchTerms: [
+      'Pastor de Shiloh',
+      "Shiloh Shepherd",
+      "Shiloh",
+      "Pastor",
+      "Perro de trabajo",
+      "Perro de familia",
+      "Perro de terapia",
+      "Perro de búsqueda y rescate",
+      "Perro grande",
+      "Perro leal",
+      "Perro inteligente",
+      "Perro equilibrado",
+      "Pastor Shiloh",
+      "Shilohs",
+      "Pastores Shiloh",
+      "Pastor de Shilo",
+      "Shilo Shepherd",
+      "Pastor Shilo",
+      "Perro de Shiloh",
+      "Perro de Shilo",
+      "Perro pastor",
+      "Perro pastor de Shiloh",
+      "Perro pastor de Shilo",
+      "Perro de compañía",
+      "Perro de asistencia",
+      "Perro de servicio",
+      "Perro de rescate",
+      "Perro de terapia de Shiloh",
+      "Perro de terapia de Shilo",
+      "Perro de búsqueda de Shiloh"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.dogbreedinfo.com/shilohshepherd.htm",
+    "https://en.wikipedia.org/wiki/Shiloh_Shepherd",
+    "https://www.ukcdogs.com/shiloh-shepherd"
+    ]
   },
   144: {
     weight: {
@@ -17181,12 +19585,46 @@ fuentes: [
       height: 1280,
       url: 'https://cdn2.thedogapi.com/images/S17ZilqNm.jpg',
     },
-    searchTerms: ['Husky Siberiano'],
     country_code: 'RU',
-    description:
-      'El Husky Siberiano es una raza de perro extrovertida y amigable, conocida por su agudo sentido de la inteligencia y su dulzura. Son muy buenos tirando de trineos y son considerados perros de trabajo. A menudo se les ve en competiciones de trineos debido a su resistencia y determinación.',
-    history:
-      'Originario de Siberia, Rusia, el Husky Siberiano fue criado por el pueblo Chukchi para ser perros de trineo y compañía en los duros inviernos. Se criaron para ser resilientes, lo que los hace capaces de soportar las temperaturas extremas de su tierra natal.',
+    description: `
+      El Husky Siberiano es una raza de perro que se destaca por su belleza impresionante y su espíritu aventurero. Son perros de tamaño mediano, con una constitución fuerte y musculosa, diseñados para la resistencia y la velocidad. Su pelaje es denso y viene en una variedad de colores y patrones, incluyendo negro, gris, rojo y blanco. Uno de los rasgos más notables de los Huskies Siberianos son sus ojos, que pueden ser azules, marrones o una combinación de ambos, a menudo resultando en una mirada hipnotizante y cautivadora.
+      <br>
+      <br>
+      Los Huskies Siberianos tienen una cabeza proporcional al cuerpo, con una expresión amigable y alerta. Sus orejas son de tamaño mediano, triangulares y están muy juntas, mientras que su cola es peluda y generalmente se lleva en alto, a menudo curvada sobre la espalda en una forma de "sable".
+      <br>
+      <br>
+      El pelaje del Husky Siberiano es uno de sus rasgos más distintivos. Tienen un doble pelaje, con una capa inferior densa y suave que les proporciona aislamiento en climas fríos, y una capa superior más larga y gruesa que es recta y algo áspera al tacto. Este pelaje requiere un cuidado regular para mantenerlo saludable y libre de enredos, especialmente durante las temporadas de muda, cuando los Huskies Siberianos pueden perder grandes cantidades de pelo.
+      <br>
+      <br>
+      En cuanto a su personalidad, los Huskies Siberianos son conocidos por ser perros amigables, sociables y buenos con los niños. Son perros inteligentes y curiosos, pero también pueden ser un poco obstinados y desafiantes, lo que puede hacer que el entrenamiento sea un desafío para los dueños de perros primerizos. A pesar de esto, son perros leales y cariñosos que se llevan bien con las personas y otros perros.
+      <br>
+      <br>
+      Los Huskies Siberianos son perros activos y enérgicos que requieren mucho ejercicio para mantenerse felices y saludables. Les encanta correr y jugar, y son excelentes compañeros para las actividades al aire libre como el senderismo y el jogging. Sin embargo, debido a su historia como perros de trineo, tienen un fuerte instinto de correr y pueden ser propensos a vagar si no se les proporciona un espacio seguro y cerrado.
+      <br>
+      <br>
+      En resumen, el Husky Siberiano es una raza de perro hermosa, activa y sociable que puede ser un maravilloso compañero para las personas adecuadas. Su belleza impresionante, su personalidad amigable y su espíritu aventurero los hacen una opción popular para muchos amantes de los perros. Sin embargo, también requieren un compromiso significativo en términos de cuidado, ejercicio y entrenamiento, por lo que son más adecuados para los dueños de perros que están dispuestos y capaces de satisfacer sus necesidades.
+    `,
+    history: `
+      La historia del Husky Siberiano es una narración fascinante que se remonta a miles de años y se entrelaza con la supervivencia y las tradiciones de los pueblos indígenas del extremo norte de Siberia.
+      <br>
+      <br>
+      Los Huskies Siberianos son descendientes directos de los perros originales de trineo utilizados por los Chukchi, un grupo étnico que ha habitado en la península de Chukotka, en el extremo noreste de Siberia, durante miles de años. Los Chukchi son un pueblo nómada que dependía de los perros de trineo para el transporte y, a veces, para el calor en las duras condiciones del Ártico. Los perros que criaron, que eventualmente se conocerían como Huskies Siberianos, eran una parte integral de su vida y supervivencia.
+      <br>
+      <br>
+      Los Chukchi necesitaban perros que pudieran tirar de cargas ligeras a velocidades moderadas durante largas distancias en las condiciones más duras y frías. Los perros también necesitaban tener una eficiencia metabólica que les permitiera sobrevivir con una dieta mínima durante los largos inviernos. Los Huskies Siberianos fueron criados selectivamente durante generaciones para cumplir con estos requisitos.
+      <br>
+      <br>
+      En el siglo XIX, durante la fiebre del oro de Alaska, la demanda de perros de trineo aumentó enormemente. Los perros de trineo eran el principal medio de transporte en las zonas de minería de oro del Ártico, y los perros fuertes y resistentes eran muy valorados. En 1908, un comerciante de pieles ruso llamado William Goosak trajo un equipo de estos perros a Nome, Alaska, para competir en las carreras de trineos tirados por perros. Aunque eran más pequeños que los perros de trineo típicos de Alaska, los Huskies Siberianos demostraron ser sorprendentemente rápidos y resistentes, y pronto se hicieron populares.
+      <br>
+      <br>
+      El Husky Siberiano ganó fama internacional en 1925 durante la famosa carrera del suero a Nome. Un equipo de Huskies Siberianos liderado por el perro de trineo Balto llevó un suero antitoxina diftérica a través de casi 700 millas de terreno helado para llegar a la ciudad de Nome, que estaba sufriendo una epidemia de difteria. El viaje normalmente tomaba 25 días, pero los equipos de perros de trineo lograron hacerlo en solo 5 días y medio en condiciones extremas. Esta hazaña heroica fue ampliamente publicitada y Balto se convirtió en un héroe nacional.
+      <br>
+      <br>
+      En 1930, el Kennel Club Americano reconoció oficialmente al Husky Siberiano como una raza. Desde entonces, la raza ha crecido en popularidad, tanto para el trabajo como para la compañía. Aunque ya no son necesarios para el transporte en la mayoría de las áreas, los Huskies Siberianos todavía se utilizan en algunas partes del mundo para tirar de trineos y también son populares en las carreras de trineos de perros.
+      <br>
+      <br>
+      La historia del Husky Siberiano es un testimonio de la resistencia, la adaptabilidad y la estrecha relación entrelos humanos y los perros. A lo largo de los siglos, estos perros han sido compañeros, trabajadores y héroes, y han dejado una huella indeleble en la historia de las regiones árticas. Su legado continúa hoy, ya sea en las pistas de carreras de trineos, en los hogares como amados miembros de la familia, o en la pantalla grande y pequeña, donde su belleza y carisma los han convertido en estrellas. A pesar de los cambios en la sociedad y la tecnología, el Husky Siberiano sigue siendo un símbolo de la resistencia, la valentía y el espíritu indomable del norte.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Altamente resistente al frío',
@@ -17205,6 +19643,60 @@ fuentes: [
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
     gallery: ['https://cdn2.thedogapi.com/images/S17ZilqNm_390x256.jpg'],
+    searchTerms: [
+      'Husky Siberiano',
+      "Husky",
+      "Siberiano",
+      "Perro de trineo",
+      "Perro de nieve",
+      "Perro de trabajo",
+      "Perro de carreras",
+      "Perro de Alaska",
+      "Perro de ojos azules",
+      "Perro de pelo largo",
+      "Perro resistente al frío",
+      "Perro activo",
+      "Perro energético",
+      "Perro de compañía",
+      "Perro familiar",
+      "Perro amigable",
+      "Perro de resistencia",
+      "Perro de fuerza",
+      "Perro de velocidad",
+      "Perro de Siberia",
+      "Perro de Chukchi",
+      "Perro de Balto",
+      "Perro de Nome",
+      "Perro de carrera del suero",
+      "Perro de fiebre del oro",
+      "Perro de pelaje espeso",
+      "Perro de orejas erguidas",
+      "Perro de cola enroscada",
+      "Perro de doble capa",
+      "Perro de clima frío"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Baja",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Balto",
+    "caso": "Balto fue un famoso Husky Siberiano que lideró el equipo de perros de trineo en la última etapa de la carrera del suero de 1925 a Nome, en la que los perros de trineo transportaron el suero antitoxina diftérica a través de condiciones extremas para salvar a la población de Nome, Alaska, de una epidemia."
+    },
+    {
+    "nombre": "Togo",
+    "caso": "Togo fue otro Husky Siberiano que jugó un papel crucial en la carrera del suero de 1925 a Nome. Aunque Balto a menudo recibe más reconocimiento, Togo lideró su equipo en la etapa más larga y peligrosa de la carrera."
+    }
+    ],
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Siberian_Husky",
+      "https://www.dogbreedinfo.com/siberianhusky.htm",
+      "https://www.ukcdogs.com/siberian-husky"
+    ]
   },
   145: {
     weight: {
@@ -17236,12 +19728,49 @@ fuentes: [
       height: 1142,
       url: 'https://cdn2.thedogapi.com/images/ByzGsl5Nm.jpg',
     },
-    searchTerms: ['Terrier Sedoso'],
     country_code: 'AU',
-    description:
-      'El Terrier Sedoso es una raza de perro amigable y receptiva, conocida por su curiosidad y alegría. Son excelentes cazadores de pequeños roedores y también son maravillosos compañeros. Este perro alerta y rápido es parte del grupo de juguetes, indicando su pequeño tamaño pero gran personalidad.',
-    history:
-      'El Terrier Sedoso es originario de Australia, donde se crió originalmente para la caza de pequeños roedores y como perros de compañía. Es una raza distintiva por su pelaje largo y sedoso, que requiere cuidado regular para mantener su apariencia.',
+    description: `
+      El Terrier Sedoso, también conocido como Silky Terrier, es un perro pequeño pero robusto, lleno de energía y personalidad. Su nombre proviene de su pelaje distintivo, que es fino, sedoso y brillante, similar al cabello humano. Este pelaje es recto y largo, cayendo a ambos lados del cuerpo desde una raya que se extiende desde la trufa hasta la base de la cola. Los colores del pelaje pueden variar desde el azul y el fuego hasta el gris plateado, con marcas de fuego en la cara, las orejas, los pies, las patas y la cola.
+      <br>
+      <br>
+      El Terrier Sedoso es un perro de tamaño pequeño, con una altura que oscila entre los 23 y los 26 centímetros y un peso que varía entre los 3,5 y los 4,5 kilogramos. A pesar de su pequeño tamaño, es un perro fuerte y ágil, con una estructura corporal bien proporcionada. Su cabeza es más larga que ancha, con un hocico fuerte y una mordida de tijera. Sus ojos son de tamaño mediano, de forma almendrada y de color oscuro, dando una expresión de inteligencia y vivacidad. Las orejas son pequeñas, en forma de V y se mantienen erectas.
+      <br>
+      <br>
+      El Terrier Sedoso es un perro activo y enérgico, que disfruta de los juegos y las actividades físicas. A pesar de su tamaño, necesita ejercicio regular para mantenerse saludable y feliz. Le encanta jugar a buscar, correr en un patio seguro y participar en actividades como la agilidad canina. Sin embargo, también disfruta de los momentos de tranquilidad y es feliz acurrucándose en el regazo de su dueño.
+      <br>
+      <br>
+      Este perro es conocido por su inteligencia y su naturaleza curiosa. Es un aprendiz rápido y responde bien al entrenamiento basado en recompensas. Sin embargo, también puede ser un poco terco a veces, por lo que necesita un dueño que sea firme y consistente en su entrenamiento. A pesar de su pequeño tamaño, el Terrier Sedoso puede ser un buen perro guardián, ya que es alerta y tiene una fuerte voz de ladrido.
+      <br>
+      <br>
+      El Terrier Sedoso es un perro sociable que se lleva bien con las personas. Sin embargo, puede ser un poco reservado con los extraños al principio, pero una vez que se siente cómodo, es amigable y afectuoso. Este perro se lleva bien con los niños, especialmente si se cría con ellos. Sin embargo, debido a su pequeño tamaño, es importante enseñar a los niños a manejarlo con cuidado para evitar cualquier daño accidental.
+      <br>
+      <br>
+      En cuanto al cuidado, el Terrier Sedoso requiere un aseo regular para mantener su pelaje en buen estado. Esto incluye cepillados regulares para evitar los enredos y los nudos, así como baños regulares para mantener su pelaje limpio y saludable. También es importante revisar regularmente sus oídos, dientes y uñas como parte de su rutina de cuidado.
+      <br>
+      <br>
+      En resumen, el Terrier Sedoso es un perro pequeño con una gran personalidad. Su naturaleza activa, su inteligencia y su afecto lo convierten en un maravilloso compañero para una variedad de hogares. Sin embargo, necesitaun dueño que esté dispuesto a dedicar tiempo a su ejercicio y aseo, así como a proporcionarle el amor y la atención que necesita. Con el cuidado y el entrenamiento adecuados, el Terrier Sedoso puede ser un maravilloso y leal amigo para toda la vida.
+    `,
+    history: `
+      La historia del Terrier Sedoso es una mezcla de culturas y continentes, una historia que se extiende desde las costas de Inglaterra hasta las vastas extensiones de Australia. Esta raza es un testimonio de la dedicación y el amor de los criadores por crear un perro que no solo es hermoso, sino también inteligente, valiente y leal.
+      <br>
+      <br>
+      La historia del Terrier Sedoso comienza en el siglo XIX en Australia, donde los criadores estaban interesados en desarrollar un perro de compañía de pequeño tamaño pero con la robustez y la energía de un terrier. Para lograr esto, cruzaron dos razas que habían sido traídas desde Gran Bretaña: el Terrier Australiano y el Yorkshire Terrier. El resultado fue un perro con el pelaje largo y sedoso del Yorkshire Terrier, pero con el cuerpo más robusto y la personalidad vivaz del Terrier Australiano.
+      <br>
+      <br>
+      En los primeros días de la cría, no había una distinción clara entre el Terrier Australiano y el Terrier Sedoso. De hecho, los cachorros de una misma camada podían ser registrados como diferentes razas dependiendo de su apariencia. No fue hasta principios del siglo XX que los criadores comenzaron a hacer una distinción más clara entre las dos razas, con el Terrier Sedoso siendo criado para tener un pelaje más largo y sedoso y un tamaño más pequeño que el Terrier Australiano.
+      <br>
+      <br>
+      El Terrier Sedoso fue reconocido oficialmente como una raza separada en Australia en 1955. Sin embargo, la raza ya había comenzado a ganar popularidad en otros países. En los Estados Unidos, el Terrier Sedoso fue reconocido por el American Kennel Club en 1959, y en el Reino Unido, la raza fue reconocida por el Kennel Club en 1945.
+      <br>
+      <br>
+      A lo largo de los años, el Terrier Sedoso ha mantenido su popularidad como perro de compañía. Su tamaño pequeño y su pelaje sedoso lo hacen atractivo para aquellos que buscan un perro que sea fácil de cuidar y que se adapte bien a la vida en un apartamento o en una casa con un pequeño jardín. Sin embargo, a pesar de su apariencia delicada, el Terrier Sedoso mantiene la energía y la valentía de sus antepasados terrier, lo que lo convierte en un perro de compañía animado y divertido.
+      <br>
+      <br>
+      A lo largo de su historia, el Terrier Sedoso ha demostrado ser un perro versátil. Aunque fue criado principalmente como perro de compañía, también ha demostrado tener habilidades en áreas como la obediencia, la agilidad y la búsqueda y rescate. Su inteligencia y su deseo de complacer a su dueño lo hacen fácil de entrenar, y su naturaleza amigable y sociable lo convierte en un gran perro para familias y personas de todas las edades.
+      <br>
+      <br>
+      En resumen, la historia del Terrier Sedoso es una historia de dedicación y amor por parte de los criadores para crear un perro que es a la vez hermoso y robusto, inteligente y valiente. Aunque la raza ha recorrido un largo camino desde sus inicios en Australia, el Terrier Sedoso sigue siendo un testimonio de la visión de sus criadores originales.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno para cazar pequeños roedores',
@@ -17261,6 +19790,51 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas de piel', 'Displasia de cadera'],
     gallery: ['https://cdn2.thedogapi.com/images/ByzGsl5Nm_390x256.jpg'],
+    searchTerms: [
+      'Terrier Sedoso',
+      "Terrier Silky",
+      "Silky Terrier",
+      "Terier Sedoso",
+      "Terrier Sedozo",
+      "Terrier Sedodo",
+      "Terrier de pelo sedoso",
+      "Terrier australiano",
+      "Terrier pequeño",
+      "Terrier de compañía",
+      "Terrier para familia",
+      "Terrier para niños",
+      "Terrier juguetón",
+      "Terrier activo",
+      "Terrier inteligente",
+      "Terrier valiente",
+      "Terrier de apartamento",
+      "Terrier de casa",
+      "Terrier de ciudad",
+      "Terrier de pelo largo",
+      "Terrier de pelo suave",
+      "Terrier de pelo brillante",
+      "Terrier fácil de entrenar",
+      "Terrier sociable",
+      "Terrier amigable",
+      "Terrier leal",
+      "Terrier obediente",
+      "Terrier alegre",
+      "Terrier enérgico",
+      "Terrier vivaz"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Alta",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Silky_Terrier",
+    "https://www.dogbreedinfo.com/silkyterrier.htm",
+    "https://www.ukcdogs.com/silky-terrier"
+    ]
   },
   146: {
     weight: {
@@ -17292,12 +19866,49 @@ fuentes: [
       height: 1031,
       url: 'https://cdn2.thedogapi.com/images/Syszjx9Em.jpg',
     },
-    searchTerms: ['Fox Terrier de Pelo Liso'],
     country_code: 'GB',
-    description:
-      'El Fox Terrier de Pelo Liso es una raza de perro valiente y cariñosa, conocida por su alerta y naturaleza juguetona. Son inteligentes, activos y excelentes en la ahuyentar zorros, lo que les hace excelentes perros de trabajo en su Inglaterra natal.',
-    history:
-      'Originario de Inglaterra, el Fox Terrier de Pelo Liso fue criado para ahuyentar zorros durante la caza. Su tamaño manejable y su carácter activo y juguetón les han hecho muy populares como mascotas además de perros de trabajo.',
+    description: `
+      El Fox Terrier de Pelo Liso es una raza de perro que se distingue por su energía inagotable, su agilidad y su valentía. Originario de Inglaterra, este perro es conocido por su naturaleza activa y su espíritu aventurero. Su cuerpo compacto y elegante, junto con su pelaje corto y denso, le dan una apariencia distintiva que es a la vez atractiva y funcional.
+      <br>
+      <br>
+      El Fox Terrier de Pelo Liso tiene un peso que oscila entre los 6.8 y 8.2 kilogramos, lo que lo convierte en un perro de tamaño pequeño a mediano. Su pelaje es predominantemente blanco, aunque puede tener marcas negras y marrones. Este pelaje es suave al tacto, pero también es denso y resistente, lo que le permite soportar las inclemencias del tiempo.
+      <br>
+      <br>
+      Uno de los rasgos más distintivos del Fox Terrier de Pelo Liso es su cabeza. Tiene un cráneo estrecho, ojos oscuros y vivaces, y orejas pequeñas en forma de "V" que caen hacia adelante. Su expresión es alerta y curiosa, reflejando su naturaleza inquisitiva y su agudo sentido de la observación.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Fox Terrier de Pelo Liso es un perro vivaz, inteligente y amigable. Aunque puede mostrar cierta asertividad hacia las razas más grandes, generalmente se lleva bien con otros perros y personas. Su naturaleza enérgica y alerta, heredada de sus días como perro de caza, todavía está muy presente, por lo que necesita mucho ejercicio y estimulación mental para mantenerse feliz y saludable.
+      <br>
+      <br>
+      El cuidado del Fox Terrier de Pelo Liso es relativamente sencillo. Su pelaje requiere un cepillado regular para mantenerlo limpio y saludable, pero no necesita ser cortado. Sin embargo, es importante tener en cuenta que este perro muda regularmente, por lo que puede no ser la mejor opción para las personas con alergias. Además, como cualquier otra raza, el Fox Terrier de Pelo Liso necesita cuidados dentales regulares, así como un control regular de sus uñas.
+      <br>
+      <br>
+      Aunque el Fox Terrier de Pelo Liso es generalmente una raza saludable, puede ser propenso a ciertos problemas de salud, como la sordera, la luxación de la rótula y del hombro, diversos trastornos oculares, miastenia gravis, epilepsia y bocio. Sin embargo, con la atención veterinaria adecuada y un cuidado regular, estos perros pueden tener una vida útil de 12 a 15 años o incluso más.
+      <br>
+      <br>
+      En resumen, el Fox Terrier de Pelo Liso es un perro encantador y enérgico que puede ser un maravilloso compañero para las personas activas. Su naturaleza amigable, su inteligencia y su espíritu aventurero lo convierten en un perro maravilloso para tener en cualquier hogar.
+    `,
+    history: `
+      La historia del Fox Terrier de Pelo Liso es tan fascinante como la raza misma. Esta raza tiene sus raíces en Inglaterra, donde se desarrolló a partir de una variedad de terriers con el objetivo principal de cazar zorros, una actividad muy popular en la Inglaterra del siglo XIX.
+      <br>
+      <br>
+      El Fox Terrier de Pelo Liso es uno de los terriers más antiguos, y su desarrollo se remonta a la década de 1860. Fue en 1862 cuando se presentó por primera vez en la Exposición Nacional de Perros en Birmingham, Inglaterra. En aquel entonces, los Fox Terriers de Pelo Liso y de Pelo Duro se consideraban la misma raza, y no fue hasta 1875 cuando el Kennel Club de Inglaterra los reconoció como razas separadas.
+      <br>
+      <br>
+      El Fox Terrier de Pelo Liso se desarrolló a partir de una serie de cruces entre diferentes tipos de terriers. Entre ellos se encontraban el Black and Tan Terrier, el Bull Terrier, el Foxhound, el Beagle, el Dachshund alemán y el Greyhound inglés. El objetivo era crear un perro que fuera lo suficientemente pequeño para meterse en las madrigueras de los zorros, pero también lo suficientemente valiente y enérgico para enfrentarse a estos animales.
+      <br>
+      <br>
+      El estándar oficial para el Fox Terrier de Pelo Liso se estableció en 1876, y desde entonces la raza ha mantenido su popularidad. Aunque originalmente se criaba para la caza, hoy en día el Fox Terrier de Pelo Liso se mantiene principalmente como perro de compañía, aunque todavía conserva su naturaleza enérgica y alerta.
+      <br>
+      <br>
+      A lo largo de los años, el Fox Terrier de Pelo Liso ha demostrado ser un perro versátil y capaz. Ha tenido éxito en una variedad de roles, desde perro de caza hasta perro de compañía, y ha demostrado ser un competidor formidable en una variedad de deportes caninos, incluyendo la obediencia, la agilidad y el earthdog.
+      <br>
+      <br>
+      La raza también ha tenido su parte de fama. Uno de los Fox Terriers de Pelo Liso más famosos es Asta, el perro que aparece en las películas de la serie Thin Man. Otro Fox Terrier de Pelo Liso famoso es Nipper, el perro que aparece en el famoso logotipo de la compañía de grabación RCA.
+      <br>
+      <br>
+      Hoy en día, el Fox Terrier de Pelo Liso sigue siendo una raza popular tanto en el Reino Unido como en otros lugares. Su combinación de inteligencia, energía y personalidad amigable lo convierten en un maravilloso perro de compañía para aquellos que pueden mantenerse al día con su nivel de actividad. Aunque ya no se utiliza tanto para la caza, el Fox Terrier de Pelo Liso sigue siendo un perro valiente y capaz que está siempre listo para la próxima aventura.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente para ahuyentar zorros',
@@ -17321,6 +19932,47 @@ fuentes: [
       'Problemas oculares',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/Syszjx9Em_390x256.jpg'],
+    searchTerms: [
+      'Fox Terrier de Pelo Liso',
+      "Fox Terrier",
+      "Terrier",
+      "Terrier de Pelo Liso",
+      "Foxterrier",
+      "Foxterrier de Pelo Liso",
+      "Perro de caza",
+      "Perro inglés",
+      "Perro de compañía",
+      "Perro activo",
+      "Perro valiente",
+      "Perro enérgico",
+      "Perro pequeño",
+      "Perro blanco",
+      "Perro de pelo liso",
+      "Perro de pelo corto",
+      "Perro de raza pequeña",
+      "Perro de raza terrier",
+      "Perro para familias",
+      "Perro para niños",
+      "Perro para adultos",
+      "Perro para ancianos",
+      "Perro para casa",
+      "Perro para apartamento",
+      "Perro para jardín",
+      "Perro para exteriores",
+      "Perro para interiores",
+      "Perro para principiantes",
+      "Perro para expertos",
+      "Perro para todos"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": ["https://www.expertoanimal.com/razas-de-perros/fox-terrier-de-pelo-liso.html", "https://es.wikipedia.org/wiki/Fox_terrier_de_pelo_liso", "https://www.wikiwand.com/es/Fox_terrier_de_pelo_liso"]
   },
   147: {
     weight: {
@@ -17352,12 +20004,43 @@ fuentes: [
       height: 800,
       url: 'https://cdn2.thedogapi.com/images/HJHmix5NQ.jpg',
     },
-    searchTerms: ['Terrier Irlandés de Trigo Suave'],
     country_code: 'IE',
-    description:
-      'El Terrier Irlandés de Trigo Suave es una raza de perro amigable y activa. Son conocidos por su pelaje suave y de color trigo, y por su lealtad hacia sus dueños. Son excelentes cazadores de alimañas y también son conocidos por ser grandes ayudantes en la granja.',
-    history:
-      'Originario de Irlanda, esta raza era comúnmente utilizada como perros de granja, para la caza de alimañas y para la protección de la propiedad. Aunque son excelentes perros de trabajo, también son amigables y cariñosos, lo que los hace populares como mascotas.',
+    description: `
+      El Terrier Irlandés de Trigo Suave, también conocido como Wheaten Terrier, es una raza de perro que se distingue por su pelaje suave y sedoso de color trigo. Este perro de tamaño mediano, originario de Irlanda, es conocido por su personalidad amigable, su energía inagotable y su lealtad hacia su familia.
+      <br>
+      <br>
+      El cuerpo del Wheaten Terrier es fuerte y bien proporcionado, lo que refleja su historia como perro de trabajo. Su altura oscila entre 43 y 50 centímetros y su peso entre 16 y 20 kilogramos, lo que lo sitúa en la categoría de perros de tamaño mediano. Su pelaje es su distintivo más notable, de textura suave y sedosa, y de color trigo, como su nombre indica. Este pelaje no solo es hermoso, sino también hipoalergénico, lo que hace que esta raza sea una excelente opción para las personas con alergias.
+      <br>
+      <br>
+      El Terrier Irlandés de Trigo Suave es un perro lleno de energía y siempre dispuesto a jugar. Son perros muy activos que necesitan mucho ejercicio diario para mantenerse saludables y felices. Les encanta correr, saltar y jugar a buscar, por lo que un jardín donde puedan desfogarse es ideal para ellos. Sin embargo, también se adaptan bien a la vida en apartamentos, siempre y cuando se les proporcione suficiente ejercicio.
+      <br>
+      <br>
+      En cuanto a su temperamento, los Wheaten Terriers son conocidos por su amabilidad y su naturaleza cariñosa. Son perros muy sociables que se llevan bien con las personas y otros animales. Son especialmente buenos con los niños y suelen ser muy pacientes con ellos. A pesar de su naturaleza amigable, también son perros valientes y no dudarán en proteger a su familia si lo consideran necesario.
+      <br>
+      <br>
+      En cuanto al cuidado de su pelaje, aunque no sueltan pelo, requieren un cepillado regular para evitar que su pelo se enrede y para mantenerlo luciendo su mejor aspecto. También necesitan baños regulares para mantener su pelaje limpio y saludable.
+      <br>
+      <br>
+      En resumen, el Terrier Irlandés de Trigo Suave es un perro amigable, enérgico y leal que puede ser un maravilloso compañero para cualquier familia. Su personalidad encantadora, combinada con su hermoso pelaje y su naturaleza activa, hacen de esta raza una excelente opción para aquellos que buscan un perro que sea tanto un compañero de juegos como un fiel amigo.
+    `,
+    history: `
+      La historia del Terrier Irlandés de Trigo Suave, o Wheaten Terrier, se remonta a más de 200 años en la verde Irlanda. Esta raza es una de las cuatro variedades de terrier irlandeses, siendo las otras el Terrier Irlandés, el Terrier Irlandés de Glen de Imaal y el Kerry Blue Terrier. Aunque la raza es antigua, no fue reconocida oficialmente hasta bastante tarde.
+      <br>
+      <br>
+      El Terrier Irlandés de Trigo Suave se desarrolló como un perro de granja multiusos. Los granjeros irlandeses necesitaban un perro que pudiera desempeñar una variedad de tareas, y el Wheaten Terrier cumplía con todos los requisitos. Eran perros de trabajo que se utilizaban para cazar ratas y otros pequeños animales, para pastorear ovejas y ganado, y para proteger la granja. A pesar de su tamaño mediano, estos perros eran conocidos por su valentía y su habilidad para enfrentarse a cualquier desafío.
+      <br>
+      <br>
+      Durante mucho tiempo, el Terrier Irlandés de Trigo Suave fue el secreto mejor guardado de Irlanda. La raza no fue reconocida por el Irish Kennel Club hasta 1937, y no fue hasta 1943 que el Kennel Club del Reino Unido concedió el reconocimiento oficial a la raza. En los Estados Unidos, la raza fue reconocida por el American Kennel Club en 1973.
+      <br>
+      <br>
+      La popularidad de la raza creció lentamente al principio. Los primeros ejemplares de la raza llegaron a los Estados Unidos en la década de 1940, pero no fue hasta la década de 1970 que la raza comenzó a ganar popularidad. Hoy en día, el Terrier Irlandés de Trigo Suave es una raza querida tanto en Irlanda como en el extranjero.
+      <br>
+      <br>
+      A lo largo de su historia, el Terrier Irlandés de Trigo Suave ha mantenido su encanto y su versatilidad. Aunque ya no se utilizan tanto como perros de trabajo, siguen siendo perros activos y enérgicos que disfrutan de la actividad física. Su personalidad amigable y su hermoso pelaje de color trigo los han convertido en una opción popular para las familias y los amantes de los perros en todo el mundo.
+      <br>
+      <br>
+      En resumen, la historia del Terrier Irlandés de Trigo Suave es la de una raza que ha evolucionado de ser un perro de trabajo en las granjas de Irlanda a ser un amado compañero de familia. Aunque la raza ha recorrido un largo camino desde sus humildes comienzos, sigue siendo fiel a su herencia, manteniendo su valentía, su energía y su encanto.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Perro de granja versátil',
@@ -17381,6 +20064,51 @@ fuentes: [
       'Displasia de cadera',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/HJHmix5NQ_390x256.jpg'],
+    searchTerms: [
+      'Terrier Irlandés de Trigo Suave',
+      "Wheaten Terrier",
+      "Terrier de Trigo",
+      "Terrier Irlandés",
+      "Terrier de Irlanda",
+      "Perro de trigo",
+      "Perro suave",
+      "Perro irlandés",
+      "Perro de pelo suave",
+      "Perro de pelo de trigo",
+      "Perro de granja",
+      "Perro de trabajo",
+      "Perro de compañía",
+      "Perro familiar",
+      "Perro para niños",
+      "Perro activo",
+      "Perro enérgico",
+      "Perro valiente",
+      "Perro amigable",
+      "Perro de pelo largo",
+      "Perro de tamaño mediano",
+      "Perro de caza",
+      "Perro de pastoreo",
+      "Perro de protección",
+      "Perro de pelo suave",
+      "Perro de pelo sedoso",
+      "Perro de pelo liso",
+      "Perro de pelo brillante",
+      "Perro de pelo claro",
+      "Perro de pelo dorado"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+      "https://www.akc.org/dog-breeds/soft-coated-wheaten-terrier/",
+      "https://www.dogbreedinfo.com/softcoatedwheatenterrier.htm",
+      "https://www.yourpurebredpuppy.com/reviews/softcoatedwheatenterriers.html"
+    ]
   },
   148: {
     weight: {
@@ -17412,12 +20140,49 @@ fuentes: [
       height: 922,
       url: 'https://cdn2.thedogapi.com/images/HJf4jl9VX.jpg',
     },
-    searchTerms: ['Perro de Agua Español'],
     country_code: 'ES',
-    description:
-      'El Perro de Agua Español es una raza versátil, de tamaño mediano, que ha sido utilizada para pastorear, cazar y como perro de compañía. Son muy inteligentes, aprenden rápidamente y son excelentes nadadores.',
-    history:
-      'Originario de la Península Ibérica, esta raza ha estado presente durante siglos en España y ha sido utilizada para una variedad de tareas agrícolas, incluyendo el pastoreo y la caza.',
+    description: `
+      El Perro de Agua Español, también conocido como el "Turco Andaluz", es una raza de perro excepcionalmente versátil y bien adaptada a una variedad de tareas. Esta raza es conocida por su inteligencia, su energía y su lealtad, lo que la convierte en una excelente opción para una variedad de roles, desde perro de trabajo hasta compañero de familia.
+      <br>
+      <br>
+      El Perro de Agua Español es de tamaño mediano, con un cuerpo fuerte y musculoso que refleja su historia como perro de trabajo. Los machos suelen pesar entre 18 y 22 kilogramos, mientras que las hembras suelen pesar entre 14 y 18 kilogramos. La altura a la cruz varía entre 44 y 50 centímetros en los machos y entre 40 y 46 centímetros en las hembras.
+      <br>
+      <br>
+      Uno de los rasgos más distintivos de esta raza es su pelaje. El Perro de Agua Español tiene un pelo rizado y lanoso que es resistente al agua. El pelaje puede ser de una variedad de colores, incluyendo blanco, negro, marrón, beige, y una mezcla de estos. Este pelaje único no sólo le da a la raza su apariencia característica, sino que también la protege del frío y la humedad, lo que es esencial para un perro que ha sido criado para trabajar en el agua.
+      <br>
+      <br>
+      El Perro de Agua Español es conocido por su inteligencia y su capacidad para aprender rápidamente. Esta raza es muy receptiva al entrenamiento y puede ser entrenada para realizar una variedad de tareas. A lo largo de su historia, el Perro de Agua Español ha sido utilizado para una variedad de roles, incluyendo la caza, la pesca, el pastoreo y la búsqueda y rescate.
+      <br>
+      <br>
+      Además de su inteligencia, el Perro de Agua Español es conocido por su energía y su amor por el juego. Esta raza necesita mucho ejercicio y disfruta de actividades como correr, nadar y jugar a buscar. Sin suficiente ejercicio, el Perro de Agua Español puede volverse inquieto y destructivo.
+      <br>
+      <br>
+      A pesar de su energía y su amor por el trabajo, el Perro de Agua Español también es conocido por su lealtad y su amor por su familia. Esta raza es muy afectuosa y disfruta de pasar tiempo con su familia. Son excelentes con los niños y suelen llevarse bien con otros perros y mascotas.
+      <br>
+      <br>
+      En resumen, el Perro de Agua Español es una raza de perro versátil y enérgica que es perfecta para una variedad de roles. Ya sea que estés buscando un perro de trabajo, un compañero de familia o simplemente un amigo leal, el Perro de Agua Español es una excelente opción.
+    `,
+    history: `
+      La historia del Perro de Agua Español es tan rica y variada como la raza misma. Esta raza, también conocida como "Turco Andaluz", tiene una larga historia en España, donde ha sido valorada por su versatilidad y habilidades de trabajo.
+      <br>
+      <br>
+      El Perro de Agua Español tiene sus raíces en la región de Andalucía, en el sur de España. Aunque los detalles exactos de su origen son desconocidos, se cree que la raza se desarrolló a partir de perros pastores antiguos que fueron llevados a la región por los moros durante la ocupación musulmana de la península ibérica en la Edad Media.
+      <br>
+      <br>
+      Durante siglos, el Perro de Agua Español ha sido utilizado en Andalucía como perro de trabajo, ayudando a los pastores en el manejo del ganado y a los pescadores en la captura de peces. La raza es conocida por su habilidad para trabajar tanto en tierra como en agua, una característica que es rara entre las razas de perros de trabajo.
+      <br>
+      <br>
+      A lo largo de los años, el Perro de Agua Español ha demostrado ser una raza increíblemente versátil. Además de su uso en el pastoreo y la pesca, la raza también ha sido utilizada en una variedad de otros roles, incluyendo la caza, la búsqueda y rescate, y como perro de terapia. Su inteligencia y su capacidad para aprender rápidamente han hecho que la raza sea muy valorada en estos roles.
+      <br>
+      <br>
+      A pesar de su larga historia en España, el Perro de Agua Español no fue reconocido oficialmente como raza hasta finales del siglo XX. La Federación Cinológica Internacional reconoció oficialmente al Perro de Agua Español como raza en 1990, y desde entonces la raza ha ganado popularidad tanto en España como en el extranjero.
+      <br>
+      <br>
+      Hoy en día, el Perro de Agua Español es apreciado tanto por su habilidad para trabajar como por su carácter amigable y leal. Aunque la raza sigue siendo relativamente desconocida fuera de España, su popularidad está creciendo a medida que más personas descubren las muchas cualidades que hacen que esta raza sea tan especial.
+      <br>
+      <br>
+      En resumen, la historia del Perro de Agua Español es una historia de versatilidad y adaptabilidad. Desde sus orígenes en Andalucía hasta su reconocimiento como raza en el siglo XX, el Perro de Agua Español ha demostrado una y otra vez su valor como perro de trabajo y como compañero leal. A medida que la raza continúa ganando popularidad, no cabe duda de que el Perro de Agua Español seguirá dejando su huella en la historia de las razas de perros.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Bueno para pastorear',
@@ -17435,6 +20200,52 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
     gallery: ['https://cdn2.thedogapi.com/images/HJf4jl9VX_390x256.jpg'],
+    searchTerms: [
+      'Perro de Agua Español',
+      "Perro de Agua",
+      "Perro Español",
+      "Agua Español",
+      "Perro de agua",
+      "Perro espanol",
+      "Agua espanol",
+      "Turco Andaluz",
+      "Perro Andaluz",
+      "Perro de trabajo",
+      "Perro de pesca",
+      "Perro de pastoreo",
+      "Perro de rescate",
+      "Perro de terapia",
+      "Perro inteligente",
+      "Perro versátil",
+      "Perro de agua andaluz",
+      "Perro andaluz de agua",
+      "Perro de agua de España",
+      "Perro de España",
+      "Perro de agua de Andalucía",
+      "Perro de Andalucía",
+      "Perro de agua andaluz",
+      "Perro andaluz de agua",
+      "Perro de agua de pesca",
+      "Perro de pesca español",
+      "Perro de agua de pastoreo",
+      "Perro de pastoreo español",
+      "Perro de agua de rescate",
+      "Perro de rescate español",
+      "Turco Andaluz"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Alta",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Spanish_Water_Dog",
+    "https://www.dogbreedinfo.com/spanishwaterdog.htm",
+    "https://www.ukcdogs.com/spanish-water-dog"
+    ]
   },
   149: {
     weight: {
@@ -17459,12 +20270,49 @@ fuentes: [
       height: 772,
       url: 'https://cdn2.thedogapi.com/images/rk5Eoe5Nm.jpg',
     },
-    searchTerms: ['Spinone Italiano'],
     country_code: 'IT',
-    description:
-      'El Spinone Italiano es una raza antigua conocida por su resistencia en el campo y su fácil adaptación a diversos terrenos. Son perros amigables, cariñosos y muy apegados a su familia.',
-    history:
-      'El Spinone Italiano es una de las razas de perros de muestra más antiguas, con raíces que se remontan al 500 a.C. Originarios de Italia, han sido valorados por su resistencia y su habilidad para cazar en diferentes terrenos.',
+    description: `
+      El Spinone Italiano es una raza de perro que se distingue por su apariencia robusta y su pelaje denso y resistente. Este perro de tamaño grande tiene una estatura que varía entre 58 y 70 cm, y un peso que oscila entre 28 y 39 kg, dependiendo del sexo y la genética individual. Su cuerpo fuerte y musculoso está diseñado para resistir las condiciones más difíciles, lo que lo convierte en un perro de trabajo excepcionalmente resistente.
+      <br>
+      <br>
+      El pelaje del Spinone Italiano es una de sus características más notables. Es denso y resistente, diseñado para proteger al perro de las espinas y las zarzas durante su trabajo en el campo. El pelaje puede ser blanco, blanco y naranja, o naranja ruano, y es áspero al tacto, lo que le da al perro una apariencia ligeramente desaliñada pero encantadora.
+      <br>
+      <br>
+      La cabeza del Spinone Italiano es grande y redondeada, con una expresión dulce y amigable. Sus ojos son de color amarillo oscuro o marrón, y transmiten una mirada de inteligencia y curiosidad. Las orejas son largas y caídas, y están cubiertas con pelo más corto que el resto del cuerpo. La cola se suele cortar a la mitad de su longitud natural para evitar lesiones durante el trabajo.
+      <br>
+      <br>
+      El Spinone Italiano es conocido por su temperamento amigable y su disposición tranquila. Son perros leales y afectuosos que disfrutan de la compañía de su familia humana. A pesar de su tamaño, son perros muy gentiles y se llevan bien con los niños. También son conocidos por llevarse bien con otros animales, lo que los convierte en una excelente opción para hogares con múltiples mascotas.
+      <br>
+      <br>
+      En cuanto a su nivel de actividad, el Spinone Italiano es un perro de trabajo y, como tal, requiere mucho ejercicio para mantenerse feliz y saludable. Les encanta correr y jugar, y son excelentes nadadores. A pesar de su amor por la actividad, también son conocidos por ser perros bastante relajados en casa, y disfrutan de los momentos de descanso y relajación.
+      <br>
+      <br>
+      En términos de salud, el Spinone Italiano es generalmente una raza saludable con una esperanza de vida de 12 a 14 años. Sin embargo, como todas las razas, pueden ser propensos a ciertas condiciones de salud, incluyendo displasia de cadera, atrofia retinal progresiva y enfermedad cardíaca. Es importante realizar chequeos veterinarios regulares y mantener al perro en un peso saludable para minimizar el riesgo de problemas de salud.
+      <br>
+      <br>
+      En resumen, el Spinone Italiano es un perro de trabajo robusto y resistente que es conocido por su temperamento amigable y su amor por la actividad. Su apariencia única y su personalidad encantadora lo convierten en una excelente opción para aquellos que buscan un perro de compañía leal y afectuoso.
+    `,
+    history: `
+      La historia del Spinone Italiano es un testimonio de la resistencia y la versatilidad de esta raza. A pesar de los desafíos que ha enfrentado a lo largo de los siglos, el Spinone Italiano ha perdurado y sigue siendo una raza apreciada por su habilidad para la caza y su temperamento amigable. Su historia es un recordatorio de la rica herencia y la diversidad de losperros de caza, y de cómo estas razas han sido moldeadas y refinadas a lo largo de los siglos para cumplir con las necesidades y los deseos de sus humanos.
+      <br>
+      <br>
+      El Spinone Italiano es un perro que ha sido apreciado en su país de origen durante siglos, no sólo por su habilidad para la caza, sino también por su carácter amigable y su lealtad hacia su familia humana. A lo largo de su historia, ha demostrado ser un perro de trabajo excepcionalmente versátil, capaz de adaptarse a una variedad de roles y tareas.
+      <br>
+      <br>
+      Durante el Renacimiento, el Spinone Italiano fue incluso retratado en obras de arte, lo que demuestra su estatus y su valor en la sociedad italiana de la época. Los Spinoni aparecen en pinturas y frescos de artistas como Andrea Mantegna y Jacopo Bassano, lo que demuestra que estos perros eran apreciados no sólo como cazadores, sino también como compañeros.
+      <br>
+      <br>
+      A lo largo de los siglos, el Spinone Italiano ha sido un testigo silencioso de la historia de Italia, acompañando a sus humanos en la caza, en la guerra y en la vida cotidiana. A pesar de los cambios en la sociedad y en las prácticas de cría de perros, el Spinone ha mantenido su carácter distintivo y su habilidad para la caza, lo que demuestra la resistencia y la adaptabilidad de esta raza.
+      <br>
+      <br>
+      En el siglo XX, el Spinone Italiano enfrentó su mayor desafío con las devastaciones de las Guerras Mundiales. Sin embargo, a pesar de las dificultades, los criadores de Spinone se dedicaron a preservar y proteger a esta raza, asegurando su supervivencia para las generaciones futuras. Este compromiso con la raza es un testimonio de la pasión y la dedicación de estos criadores, y es una parte importante de la historia del Spinone Italiano.
+      <br>
+      <br>
+      Hoy en día, el Spinone Italiano es una raza que es apreciada en todo el mundo, no sólo por su habilidad para la caza, sino también por su temperamento amigable y su lealtad. Aunque no es tan conocido como algunas otras razas de perros de caza, aquellos que tienen la suerte de conocer a un Spinone Italiano a menudo se enamoran de su carácter amigable y su espíritu resistente.
+      <br>
+      <br>
+      La historia del Spinone Italiano es una historia de supervivencia y resistencia, de adaptabilidad y lealtad. Es una raza que ha resistido la prueba del tiempo, y que sigue siendo apreciada hoy en día por sus muchas cualidades. A medida que miramos hacia el futuro, podemos estar seguros de que el Spinone Italiano seguirá siendo una raza querida y valorada, tanto en su Italia natal como en todo el mundo.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Bueno para cazar',
@@ -17485,6 +20333,51 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
     gallery: ['https://cdn2.thedogapi.com/images/rk5Eoe5Nm_390x256.jpg'],
+    searchTerms: [
+      'Spinone Italiano',
+      "Spinone",
+      "Italiano",
+      "Perro de caza italiano",
+      "Perro italiano",
+      "Spinoni",
+      "Perro de muestra italiano",
+      "Cazador italiano",
+      "Perro de muestra",
+      "Perro de caza",
+      "Perro resistente",
+      "Perro amigable",
+      "Perro de trabajo",
+      "Perro de familia",
+      "Perro para niños",
+      "Perro de pelo duro",
+      "Perro de pelo rizado",
+      "Perro de nariz poderosa",
+      "Perro de resistencia",
+      "Perro de terreno difícil",
+      "Perro de caza de aves",
+      "Perro de caza de pelo duro",
+      "Perro de caza resistente",
+      "Perro de caza de resistencia",
+      "Perro de caza de terreno difícil",
+      "Perro de caza de nariz poderosa",
+      "Perro de caza amigable",
+      "Perro de caza para niños",
+      "Perro de caza de familia",
+      "Perro de caza de trabajo"
+    ],
+    "tendencia_a_ladrar": "Baja",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Alta",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.akc.org/dog-breeds/spinone-italiano/",
+    "https://www.dogbreedinfo.com/s/spinoneitaliano.htm",
+    "https://www.ukcdogs.com/spinone-italiano"
+    ]
   },
   150: {
     weight: {
@@ -17517,12 +20410,52 @@ fuentes: [
       height: 852,
       url: 'https://cdn2.thedogapi.com/images/H1zSie9V7.jpg',
     },
-    searchTerms: ['Staffordshire Bull Terrier'],
     country_code: 'GB',
-    description:
-      'El Staffordshire Bull Terrier es una raza de perro de tamaño medio conocida por su carácter intrépido y su devoción hacia su familia. A pesar de su apariencia robusta y su historia como perro de pelea, la mayoría de los Staffies son amables y afectuosos.',
-    history:
-      'El Staffordshire Bull Terrier se originó en el Reino Unido y se utilizaba inicialmente para la lucha con toros y osos. Sin embargo, con el tiempo, se ha convertido en una raza de perro de compañía muy popular gracias a su temperamento afectuoso y su lealtad.',
+    description: `
+      El Staffordshire Bull Terrier, a menudo abreviado como "Staffie", es una raza de perro que es tan valiente como es cariñosa, y tan enérgica como es amigable. Este perro compacto y musculoso tiene una presencia que no se puede ignorar, y una personalidad que es tan grande como su corazón.
+      <br>
+      <br>
+      El Staffie es un perro de tamaño mediano, con una altura que oscila entre los 36 y los 41 cm y un peso que varía entre los 11 y los 17 kg. Su cuerpo es fuerte y musculoso, con una espalda corta y ancha y un pecho profundo. Su cabeza es corta y ancha, con un hocico corto y mandíbulas fuertes. Sus ojos son oscuros y redondos, y sus orejas son de tamaño medio y se mantienen erguidas.
+      <br>
+      <br>
+      El pelaje del Staffie es corto, liso y denso, y puede venir en una variedad de colores, incluyendo negro, azul, rojo, atigrado, blanco y cualquier combinación de estos. A pesar de su pelaje corto, los Staffies pueden ser bastante pesados en la muda, por lo que se recomienda un cepillado regular para mantener su pelaje en las mejores condiciones.
+      <br>
+      <br>
+      Los Staffies son perros increíblemente enérgicos y necesitan mucho ejercicio para mantenerse felices y saludables. Les encanta jugar y correr, y son excelentes para actividades como el agility y el flyball. A pesar de su energía, también son perros muy afectuosos y les encanta pasar tiempo con su familia humana. Son conocidos por su amor por los niños y a menudo se les llama "perros niñera" debido a su paciencia y gentileza con los más pequeños.
+      <br>
+      <br>
+      Aunque los Staffies son perros amigables y cariñosos, también son valientes y leales, y no dudarán en proteger a su familia si sienten que están en peligro. Esto, combinado con su fuerza y energía, significa que necesitan una socialización y entrenamiento adecuados desde una edad temprana para asegurarse de que son perros equilibrados y bien comportados.
+      <br>
+      <br>
+      En cuanto a su salud, los Staffies son generalmente una raza bastante saludable, pero pueden ser propensos a ciertas condiciones, incluyendo problemas de piel, cataratas y displasia de cadera. Es importante asegurarse de que cualquier Staffie que se traiga a casa provenga de un criador responsable que haga pruebas de salud a sus perros.
+      <br>
+      <br>
+      En resumen, el Staffordshire Bull Terrier es un perro lleno de amor, energía y valentía. Son perros que requieren un compromiso de tiempo y energía, pero a cambio, ofrecen una lealtad y un amor inigualables. Con el entrenamiento y la socialización adecuados, un Staffie puede hacer un maravilloso y leal compañero para cualquier familia.
+    `,
+    history: `
+      La historia del Staffordshire Bull Terrier es una historia de transformación, de un perro criado para la lucha a un amado compañero de familia. Esta raza tiene sus raíces en la Inglaterra del siglo XIX, en una época en la que los deportes de sangre, como las peleas de toros y perros, eran populares. Los criadores buscaban un perro que fuera fuerte y valiente, pero también ágil y rápido. Para lograr esto, cruzaron el Bulldog, conocido por su fortaleza y tenacidad, con varios terriers, que eran rápidos y ágiles.
+      <br>
+      <br>
+      El resultado fue el Bull and Terrier, un antepasado del Staffordshire Bull Terrier. Estos perros eran valientes y tenaces, capaces de soportar el dolor y seguir luchando. Sin embargo, a pesar de su reputación en el ring, estos perros también eran conocidos por su temperamento amigable y su lealtad hacia sus dueños.
+      <br>
+      <br>
+      En 1835, las peleas de toros y perros fueron prohibidas en Inglaterra. Sin embargo, esto no puso fin a las peleas de perros. En cambio, las peleas se trasladaron a lugares ocultos y se hicieron más clandestinas. Durante este tiempo, el Bull and Terrier se dividió en dos razas: el Staffordshire Bull Terrier y el Bull Terrier.
+      <br>
+      <br>
+      El Staffordshire Bull Terrier fue criado para ser más pequeño y más manejable que su primo el Bull Terrier. A pesar de su tamaño más pequeño, estos perros eran igual de valientes y tenaces en el ring. Sin embargo, también eran conocidos por su temperamento amigable y su lealtad hacia sus dueños.
+      <br>
+      <br>
+      A medida que las peleas de perros comenzaron a desaparecer en el siglo XX, el Staffordshire Bull Terrier comenzó a ser apreciado más como un perro de compañía que como un perro de pelea. Su valentía y tenacidad se combinaban con un temperamento amigable y una lealtad inquebrantable, lo que los hacía excelentes perros de familia.
+      <br>
+      <br>
+      En 1935, la raza fue reconocida por el Kennel Club en el Reino Unido. A pesar de su pasado como perro de pelea, el Staffordshire Bull Terrier fue descrito en el estándar de la raza como "totalmente fiable" y "particularmente afectuoso hacia los niños".
+      <br>
+      <br>
+      El Staffordshire Bull Terrier fue llevado a los Estados Unidos y fue reconocido por el American Kennel Club en 1974. Hoy en día, la raza es apreciada en todo el mundo por su valentía, su lealtad y su amor por las personas, especialmente los niños.
+      <br>
+      <br>
+      La historia del Staffordshire Bull Terrier es un testimonio de la capacidad de una raza para superar su pasado y transformarse en algo completamente diferente. Aunque estos perros fueron criados originalmente para luchar, hoy en día son amados por su amabilidad, su lealtad y su amor por las personas. Son un ejemplo perfecto de cómo la crianza y el entorno pueden superar la genética, y de cómo incluso los perros criados para la violencia pueden convertirse en los más amables y leales compañeros.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Protector',
@@ -17542,6 +20475,56 @@ fuentes: [
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Cataratas', 'Alergias'],
     gallery: ['https://cdn2.thedogapi.com/images/H1zSie9V7_390x256.jpg'],
+    searchTerms: [
+      'Staffordshire Bull Terrier',
+      "Staffordshire",
+      "Bull Terrier",
+      "Staffy",
+      "Staffie",
+      "Staffy Bull",
+      "Nanny Dog",
+      "Stafford",
+      "Stafforshire",
+      "Bull Terrier Staffordshire",
+      "Terrier Staffordshire",
+      "Terrier de Staffordshire",
+      "Staffordshire Terrier",
+      "Staffordshire Bull",
+      "Staffordshire Terrier Bull",
+      "Staffordshire Bull Terier",
+      "Staffordshire Terrier Ingles",
+      "Staffordshire Ingles",
+      "Terrier Ingles",
+      "Bull Terrier Ingles",
+      "Staffordshire Bull Ingles",
+      "Staffordshire Terrier Bull Ingles",
+      "Perro de familia",
+      "Perro para niños",
+      "Perro de compañía",
+      "Perro leal",
+      "Perro valiente",
+      "Perro fuerte",
+      "Perro de guardia",
+      "Perro protector"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Sergeant Stubby",
+    "caso": "Sergeant Stubby fue un Staffordshire Bull Terrier que sirvió en la Primera Guerra Mundial en el 102º Regimiento de Infantería del Ejército de los Estados Unidos. Stubby es reconocido como el perro de guerra más condecorado de la historia estadounidense."
+    }
+    ],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Staffordshire_Bull_Terrier",
+    "https://www.dogbreedinfo.com/staffordshirebullterrier.htm",
+    "https://www.ukcdogs.com/staffordshire-bull-terrier"
+    ]
   },
   151: {
     weight: {
@@ -17573,12 +20556,52 @@ fuentes: [
       height: 585,
       url: 'https://cdn2.thedogapi.com/images/tmzeu6ID_.jpg',
     },
-    searchTerms: ['Schnauzer Estándar'],
     country_code: 'DE',
-    description:
-      'El Schnauzer Estándar es conocido por su temperamento juguetón y su habilidad para ser entrenado. Son perros de tamaño medio que se adaptan bien a varios entornos y son conocidos por su inteligencia y su naturaleza devota.',
-    history:
-      'El Schnauzer Estándar se originó en Alemania y fue criado inicialmente para la caza de ratas y como perro guardián. Con el tiempo, la raza ha evolucionado para ser una excelente mascota familiar gracias a su naturaleza amigable y juguetona.',
+    description: `
+      El Schnauzer Estándar es una raza de perro que se distingue por su apariencia robusta y su distintiva barba y cejas. Originario de Alemania, este perro de tamaño mediano es conocido por su inteligencia, su energía y su lealtad hacia su familia humana.
+      <br>
+      <br>
+      El Schnauzer Estándar tiene un cuerpo fuerte y compacto, con una altura que varía entre 45 y 50 centímetros en las hembras y entre 47 y 52 centímetros en los machos. Su peso oscila entre los 14 y los 20 kilogramos, dependiendo del sexo y la constitución individual del perro. Su pelaje es duro y denso, de longitud media, y puede ser de color sal y pimienta, negro, blanco o una mezcla de estos colores.
+      <br>
+      <br>
+      La cabeza del Schnauzer Estándar es fuerte y rectangular, con un hocico que termina en una barba prominente que le da a la raza su aspecto característico. Sus ojos son oscuros y ovalados, y expresan una mirada alerta y vivaz. Las orejas, que pueden ser naturales o recortadas, se mantienen erectas cuando el perro está alerta. La cola, que puede ser natural o cortada, se lleva alta.
+      <br>
+      <br>
+      El pelaje del Schnauzer Estándar requiere un cuidado regular para mantener su apariencia. Esto incluye cepillados frecuentes para evitar que el pelo se enrede y recortes periódicos para mantener la forma característica de la raza. Aunque el Schnauzer Estándar no es una raza que pierda mucho pelo, su pelaje puede albergar suciedad y escombros, por lo que los baños regulares también son necesarios.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Schnauzer Estándar es conocido por su inteligencia y su naturaleza enérgica. Son perros muy activos que requieren ejercicio diario para mantenerse saludables y felices. Son excelentes compañeros de juego para los niños y se llevan bien con otros perros, aunque pueden ser reservados con los extraños. A pesar de su tamaño, el Schnauzer Estándar es un perro valiente que no dudará en proteger a su familia si lo considera necesario.
+      <br>
+      <br>
+      El Schnauzer Estándar es también un perro muy inteligente, lo que hace que sea relativamente fácil de entrenar. Responden bien a los métodos de entrenamiento positivos y disfrutan de las actividades que les desafían mentalmente. Sin embargo, también pueden ser un poco tercos, por lo que es importante establecer una relación de liderazgo firme y consistente desde una edad temprana.
+      <br>
+      <br>
+      En resumen, el Schnauzer Estándar es un perro leal, inteligente y enérgico que puede ser un maravilloso compañero para una familia activa. Su apariencia distintiva, su personalidad encantadora y su devoción hacia su familia hacen de esta raza una opción popular para muchas personas.
+    `,
+    history: `
+      La historia del Schnauzer Estándar es tan fascinante como la raza misma. Esta raza de perro, con su distintiva barba y cejas, tiene sus raíces en Alemania, donde ha existido desde al menos la Edad Media. Aunque la historia temprana de la raza no está bien documentada, se cree que el Schnauzer Estándar es una de las razas más antiguas de Europa.
+      <br>
+      <br>
+      El Schnauzer Estándar, como su nombre indica, es la raza original de la que se derivan las otras dos variedades de Schnauzer: el Miniatura y el Gigante. El término "Schnauzer" proviene de la palabra alemana "schnauze", que significa "hocico", una referencia a la característica barba y bigotes de la raza.
+      <br>
+      <br>
+      Los primeros Schnauzers eran perros de granja versátiles, utilizados para una variedad de tareas. Eran excelentes cazadores de roedores, protegían la propiedad de los granjeros y también eran útiles como perros de conducción de ganado. Su tamaño mediano, su resistencia y su inteligencia los hacían perfectamente adecuados para estas tareas.
+      <br>
+      <br>
+      El Schnauzer Estándar comenzó a ganar reconocimiento más allá de las granjas alemanas en el siglo XIX. En 1851, la raza fue exhibida por primera vez en una exposición canina en Hannover, Alemania. En 1880, se fundó el primer club de la raza, el Pinscher-Schnauzer Klub, y se estableció el primer estándar de la raza.
+      <br>
+      <br>
+      A finales del siglo XIX y principios del XX, el Schnauzer Estándar comenzó a ser utilizado en roles más especializados. Su inteligencia y su agudo sentido del olfato los hicieron excelentes perros de trabajo para la policía y el ejército. Durante la Primera y la Segunda Guerra Mundial, los Schnauzers Estándar fueron utilizados como perros mensajeros y de búsqueda y rescate.
+      <br>
+      <br>
+      La popularidad del Schnauzer Estándar comenzó a crecer fuera de Alemania a principios del siglo XX. La raza fue reconocida por el American Kennel Club (AKC) en 1904, y el primer Schnauzer Estándar campeón en los Estados Unidos fue coronado en 1925. Desde entonces, la raza ha ganado popularidad en todo el mundo, tanto en el ring de exposiciones como en los hogares.
+      <br>
+      <br>
+      A lo largo de su historia, el Schnauzer Estándar ha demostrado ser una raza de perro increíblemente versátil. Ya sea como cazador de roedores, protector de la propiedad, perro de trabajo para la policía y el ejército, o simplemente como un amado compañero de familia, el Schnauzer Estándar ha demostrado una y otra vez su valor y su encanto.
+      <br>
+      <br>
+      Hoy en día, el Schnauzer Estándar sigue siendo una raza popular, apreciada por su inteligencia, su personalidad encantadora y su apariencia distintiva. Aunque ya no se utilizan comúnmente como perros de trabajo, los Schnauzers Estándar siguen demostrando su versatilidad y su inteligencia en una variedad de actividades caninas, incluyendo la obediencia, la agilidad y el trabajo de terapia.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Bueno para la familia',
@@ -17618,6 +20641,51 @@ fuentes: [
       'https://cdn2.thedogapi.com/images/VU6TmJM8z.jpg',
       'https://cdn2.thedogapi.com/images/XLVd7vTZw.jpg',
     ],
+    searchTerms: [
+      'Schnauzer Estándar',
+      "Schnauzer Estandar",
+      "Schnauzer",
+      "Perro de barba",
+      "Perro alemán",
+      "Perro de granja",
+      "Perro de trabajo",
+      "Perro de compañía",
+      "Perro de exposición",
+      "Perro de terapia",
+      "Perro de bigotes",
+      "Perro de pelo duro",
+      "Perro de tamaño mediano",
+      "Perro inteligente",
+      "Perro versátil",
+      "Perro resistente",
+      "Perro leal",
+      "Perro afectuoso",
+      "Perro con barba",
+      "Perro con cejas",
+      "Perro de hocico",
+      "Perro de Alemania",
+      "Perro de obediencia",
+      "Perro de agilidad",
+      "Perro de búsqueda y rescate",
+      "Perro de policía",
+      "Perro de ejército",
+      "Perro de granja alemán",
+      "Perro de Hannover",
+      "Perro de Pinscher-Schnauzer Klub"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Alta",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.akc.org/dog-breeds/standard-schnauzer/",
+    "https://www.dogbreedinfo.com/standardschnauzer.htm",
+    "https://www.ukcdogs.com/standard-schnauzer"
+    ]
   },
   153: {
     weight: {
@@ -17649,16 +20717,49 @@ fuentes: [
       height: 851,
       url: 'https://cdn2.thedogapi.com/images/HJ-Dix94Q.jpg',
     },
-    searchTerms: [
-      'Perro de los Visigodos Sueco',
-      'Perro de pastoreo',
-      'Energético',
-    ],
     country_code: 'SE',
-    description:
-      'El Perro de los Visigodos Sueco es una raza pequeña, pero robusta y enérgica, conocida por sus habilidades de pastoreo. Son perros inteligentes y alertas, con una naturaleza intrépida. Estos perros son amistosos y se llevan bien con las personas y otros animales. Son animales de compañía ideales para familias activas y pueden ser excelentes perros de trabajo.',
-    history:
-      'El Perro de los Visigodos Sueco, como su nombre indica, es originario de Suecia y tiene una larga historia que se remonta a la época de los vikingos. Originalmente, fueron utilizados para el pastoreo de ganado y ovejas. A pesar de su pequeño tamaño, son perros valientes y decididos que se enfrentan a cualquier desafío que se les presente.',
+    description: `
+      El Perro de los Visigodos Sueco, también conocido como Swedish Vallhund o Västgötaspets en su tierra natal, es una raza de perro pequeña pero robusta que irradia energía, inteligencia y resistencia. Este perro, que parece una mezcla entre un corgi y un lobo, tiene una personalidad tan grande como su historia.
+      <br>
+      <br>
+      El cuerpo del Perro de los Visigodos Sueco es compacto y poderoso, con una estructura ósea sólida. Su tamaño puede ser pequeño, pero no se deje engañar, estos perros son fuertes y ágiles, perfectos para el trabajo de pastoreo para el que fueron originalmente criados. Su altura a la cruz varía entre los 31 y los 35 cm para los machos, y entre los 31 y los 33 cm para las hembras. Su peso oscila entre los 9 y los 14 kg, dependiendo del sexo y la constitución individual del perro.
+      <br>
+      <br>
+      Estos perros tienen una cabeza de tamaño proporcional al cuerpo, con un cráneo ligeramente plano y un hocico que se estrecha hacia la nariz. Sus ojos son de tamaño mediano, ovalados y de color marrón oscuro, transmitiendo una expresión alerta e inteligente. Las orejas son de tamaño mediano, puntiagudas y erectas, lo que añade a su apariencia de lobo en miniatura.
+      <br>
+      <br>
+      El pelaje del Perro de los Visigodos Sueco es de doble capa, con una capa superior densa y dura y una capa inferior suave y espesa. Esto les proporciona una excelente protección contra las condiciones climáticas adversas. Los colores del pelaje pueden variar desde el gris al rojo o una combinación de ambos, y a menudo tienen marcas más claras en el hocico, las mejillas, la garganta, el pecho, el vientre, las patas, los pies y debajo de la cola.
+      <br>
+      <br>
+      En cuanto a su personalidad, los Perros de los Visigodos Suecos son conocidos por su temperamento alegre y amigable. Son perros inteligentes y receptivos, lo que los hace relativamente fáciles de entrenar. Son leales a su familia y tienden a llevarse bien con los niños y otros animales, aunque su instinto de pastoreo puede hacer que intenten "pastorear" a los niños o a otros animales de la casa. Son perros activos que requieren ejercicio regular para mantener su salud y felicidad. A pesar de su tamaño, son excelentes perros de trabajo y disfrutan de actividades que estimulan su mente y su cuerpo.
+      <br>
+      <br>
+      El Perro de los Visigodos Sueco es una raza saludable con pocos problemas de salud genéticos. Sin embargo, como todos los perros, requieren cuidados regulares, incluyendo una alimentación adecuada, ejercicio regular, chequeos veterinarios y aseo.
+      <br>
+      <br>
+      En resumen, el Perro de los Visigodos Sueco es una raza de perro pequeña pero resistente, con una personalidad grande y un corazón aún más grande. Su inteligencia, lealtad y energía los hacen excelentes compañeros para una variedad de hogares y estilos de vida.
+    `,
+    history: `
+      La historia del Perro de los Visigodos Sueco, o Swedish Vallhund, es tan antigua como fascinante. Esta raza, que ha estado presente en Suecia durante más de mil años, tiene una historia que se remonta a la época de los vikingos y los visigodos, y ha desempeñado un papel importante en la historia y la cultura de Suecia.
+      <br>
+      <br>
+      El Swedish Vallhund, también conocido en su tierra natal como Västgötaspets, que significa "Spitz de Västergötland", es una raza de perro de pastoreo que se cree que fue criada por los vikingos. Västergötland es una región de Suecia que fue una vez el hogar de los antiguos visigodos, de ahí el nombre de "Perro de los Visigodos Sueco".
+      <br>
+      <br>
+      Los vikingos valoraban a estos perros por su habilidad para el pastoreo y la vigilancia. Los perros eran utilizados para mantener a las ovejas y el ganado en línea, y también para alertar a los vikingos de cualquier intruso. Aunque pequeños en tamaño, estos perros eran valientes y tenaces, características que los hacían perfectos para el trabajo en las duras condiciones de la Escandinavia de la época.
+      <br>
+      <br>
+      A pesar de su antigüedad, la raza estuvo a punto de extinguirse en el siglo XX. En la década de 1940, el número de Swedish Vallhunds había disminuido drásticamente debido a la urbanización y a la disminución de la necesidad de perros de pastoreo. Sin embargo, gracias a los esfuerzos de dos hombres, el conde Björn von Rosen y Karl-Gustav Zettersten, la raza fue rescatada de la extinción. Viajaron por Suecia buscando ejemplares de la raza para criar y, finalmente, lograron revivir la población de Swedish Vallhunds.
+      <br>
+      <br>
+      En 1943, el Kennel Club Sueco reconoció oficialmente al Swedish Vallhund como una raza. Desde entonces, la raza ha ganado popularidad no sólo en Suecia, sino también en todo el mundo. Fue reconocida por el Kennel Club del Reino Unido en 1984 y por el American Kennel Club en 2007.
+      <br>
+      <br>
+      A lo largo de los años, el Swedish Vallhund ha mantenido su instinto de pastoreo y su valentía, pero también se ha adaptado a la vida como perro de compañía. Aunque todavía se utilizan en algunas partes de Suecia para el pastoreo, la mayoría de los Swedish Vallhunds hoy en día son queridos miembros de la familia.
+      <br>
+      <br>
+      La historia del Perro de los Visigodos Sueco es un testimonio de la resistencia y la adaptabilidad. Desde sus días con los vikingos hasta su casi extinción y posterior resurgimiento, esta raza ha demostrado una y otra vez su valor y su encanto. Con su rica historia y su personalidad encantadora, no es de extrañar que el Swedish Vallhund continúe ganando corazones en todo el mundo.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Requiere de ejercicio regular',
@@ -17682,6 +20783,53 @@ fuentes: [
       'Luxación de rótula',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/HJ-Dix94Q_390x256.jpg'],
+    searchTerms: [
+      'Perro de los Visigodos Sueco',
+      'Perro de pastoreo',
+      'Energético',
+      "Perro de los visigodos sueco",
+      "perro de los Visigodos Sueco",
+      "perro de los visigodos sueco",
+      "Perro de los Visigodos",
+      "Perro de los visigodos",
+      "perro de los Visigodos",
+      "perro de los visigodos",
+      "Visigodos Sueco",
+      "visigodos Sueco",
+      "Visigodos sueco",
+      "visigodos sueco",
+      "Swedish Vallhund",
+      "swedish Vallhund",
+      "Swedish vallhund",
+      "swedish vallhund",
+      "Västgötaspets",
+      "västgötaspets",
+      "Perro vikingo",
+      "perro vikingo",
+      "Perro de pastoreo",
+      "perro de pastoreo",
+      "Perro sueco",
+      "perro sueco",
+      "Perro vikingo sueco",
+      "perro vikingo sueco",
+      "Perro de pastoreo sueco",
+      "perro de pastoreo sueco",
+      "Perro de los vikingos",
+      "perro de los vikingos"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.akc.org/dog-breeds/swedish-vallhund/",
+    "https://www.dogbreedinfo.com/swedishvallhund.htm",
+    "https://en.wikipedia.org/wiki/Swedish_Vallhund"
+    ]
   },
   154: {
     weight: {
@@ -17713,12 +20861,49 @@ fuentes: [
       height: 720,
       url: 'https://cdn2.thedogapi.com/images/zv89hR-O8.jpg',
     },
-    searchTerms: ['Ridgeback Tailandés', 'Perro de caza', 'Protector'],
     country_code: 'TH',
-    description:
-      'El Ridgeback Tailandés es una raza única que se distingue por la cresta distintiva de pelo que corre a lo largo de su espalda en dirección opuesta al resto de su pelaje. Son perros leales e inteligentes con un fuerte sentido de independencia. Su comportamiento protector los convierte en excelentes perros guardianes, pero también son amorosos y familiares, lo que los hace buenos compañeros de hogar.',
-    history:
-      'Originario de Tailandia, el Ridgeback Tailandés ha sido durante mucho tiempo un perro de trabajo en su tierra natal, utilizado para la caza y como perro guardián. Son conocidos por su habilidad para subir y saltar alturas increíbles, lo que los convierte en excelentes cazadores. Su distintiva cresta de pelo ha sido una característica de la raza desde hace siglos.',
+    description: `
+      El Ridgeback Tailandés es una raza de perro única y fascinante, conocida por su distintiva línea de pelo que corre a lo largo de su espalda en la dirección opuesta al resto de su pelaje, de ahí su nombre "Ridgeback". Esta característica distintiva es un reflejo de su herencia genética única y es la característica definitoria de la raza.
+      <br>
+      <br>
+      El Ridgeback Tailandés es un perro de tamaño mediano a grande, con una altura que varía entre 51 y 61 centímetros en la cruz y un peso que oscila entre 16 y 34 kilogramos. Su cuerpo es musculoso y ágil, construido para la velocidad y la resistencia. Su cabeza es de tamaño mediano, en proporción con el cuerpo, con orejas de tamaño mediano que se llevan erguidas. Los ojos son de color ámbar o marrón oscuro y tienen una expresión alerta e inteligente.
+      <br>
+      <br>
+      El pelaje del Ridgeback Tailandés es corto y liso, y viene en una variedad de colores que incluyen rojo, negro, azul y plateado. La característica más distintiva de su pelaje, sin embargo, es la cresta o "ridge" que corre a lo largo de su espalda. Esta cresta está formada por pelos que crecen en la dirección opuesta al resto del pelaje, y a menudo tiene un patrón distintivo que puede incluir marcas en forma de espiral, ovaladas o en forma de lira.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Ridgeback Tailandés es conocido por ser leal, valiente y protector. Son perros inteligentes y aprenden rápidamente, pero también pueden ser un poco tercos y necesitan un dueño que pueda proporcionarles una formación y socialización adecuadas. Son perros activos que necesitan mucho ejercicio para mantenerse felices y saludables. A pesar de su tamaño, son bastante ágiles y disfrutan de actividades como correr, saltar y jugar.
+      <br>
+      <br>
+      El Ridgeback Tailandés es también un perro muy social que disfruta de la compañía de su familia humana. Son buenos con los niños y pueden llevarse bien con otros perros si se les socializa adecuadamente desde una edad temprana. Sin embargo, debido a su instinto de caza, pueden no llevarse bien con animales más pequeños.
+      <br>
+      <br>
+      En cuanto a su salud, el Ridgeback Tailandés es generalmente una raza saludable con pocos problemas de salud hereditarios. Sin embargo, como todos los perros, pueden ser propensos a ciertas condiciones como la displasia de cadera, problemas de tiroides y alergias de la piel. Es importante proporcionarles una dieta equilibrada y mantenerlos en un peso saludable para evitar problemas de salud.
+      <br>
+      <br>
+      En resumen, el Ridgeback Tailandés es un perro único y fascinante que puede hacer un maravilloso compañero para la persona o familia adecuada. Su combinación de lealtad, inteligencia y energía hacen de esta raza una opción maravillosa para aquellos que buscan un perro activo y cariñoso.
+    `,
+    history: `
+      La historia del Ridgeback Tailandés, también conocido como Thai Ridgeback, es tan única y fascinante como la raza misma. Esta raza es una de las pocas razas de perros verdaderamente puras que quedan en el mundo, con una historia que se remonta a varios cientos de años en la región de Tailandia.
+      <br>
+      <br>
+      El Ridgeback Tailandés es una raza muy antigua, y aunque no se sabe exactamente cuándo o cómo se desarrolló, se cree que ha existido en Tailandia durante varios cientos de años. Los primeros registros de perros con características similares a las del Ridgeback Tailandés datan de hace más de 350 años, lo que indica que la raza ha estado presente en la región durante bastante tiempo.
+      <br>
+      <br>
+      La raza se desarrolló en las regiones aisladas de Tailandia Oriental y del Noreste, donde los perros tenían que ser fuertes y versátiles para sobrevivir. Se utilizaban para una variedad de tareas, incluyendo la caza, la protección de los hogares y la eliminación de plagas. Su habilidad para cazar se destacó especialmente, ya que eran capaces de cazar una variedad de animales, desde pequeños roedores hasta presas más grandes como los ciervos. Su distintiva cresta de pelo en la espalda se cree que es el resultado de una mutación genética natural que se ha mantenido en la raza debido a su aislamiento.
+      <br>
+      <br>
+      Durante mucho tiempo, el Ridgeback Tailandés permaneció relativamente desconocido fuera de su país de origen. Fue sólo en las últimas décadas del siglo XX cuando la raza comenzó a ganar reconocimiento internacional. En 1993, la raza fue reconocida oficialmente por el Kennel Club de Tailandia, y en 1995, la Federación Cinológica Internacional (FCI) también reconoció al Ridgeback Tailandés.
+      <br>
+      <br>
+      A pesar de este reconocimiento, la raza sigue siendo bastante rara fuera de Tailandia. Sin embargo, ha ganado un número creciente de seguidores en todo el mundo, gracias a su apariencia única y su carácter leal y valiente.
+      <br>
+      <br>
+      La historia del Ridgeback Tailandés es un testimonio de la resistencia y la adaptabilidad de esta raza. A pesar de los desafíos y las dificultades, estos perros han sobrevivido y prosperado, manteniendo las características que los hacen únicos. Hoy en día, aunque todavía son relativamente desconocidos en comparación con otras razas, los Ridgebacks Tailandeses están empezando a hacerse un nombre en el mundo canino, tanto en el ring de exposiciones como en los hogares de los amantes de los perros.
+      <br>
+      <br>
+      En resumen, la historia del Ridgeback Tailandés es una de resistencia, adaptabilidad y supervivencia. Estos perros, que una vez cazaron en las selvas de Tailandia, ahora están encontrando su lugar en el mundo moderno, mientras mantienen las características únicas que los hacen tan especiales.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro guardián',
@@ -17747,6 +20932,53 @@ fuentes: [
       'https://cdn2.thedogapi.com/images/iU-rWvOYA.jpg',
       'https://cdn2.thedogapi.com/images/zv89hR-O8.jpg',
     ],
+    searchTerms: [
+      'Ridgeback Tailandés',
+      'Perro de caza',
+      'Protector',
+      "Ridgeback Tailandes",
+      "Ridgeback de Tailandia",
+      "Thai Ridgeback",
+      "Perro de Tailandia",
+      "Perro tailandés",
+      "Perro tailandes",
+      "Perro de cresta",
+      "Perro cazador",
+      "Perro guardián",
+      "Perro de protección",
+      "Perro de compañía",
+      "Perro exótico",
+      "Raza rara",
+      "Raza pura",
+      "Raza antigua",
+      "Raza oriental",
+      "Perro oriental",
+      "Perro asiático",
+      "Raza asiática",
+      "Perro de pelo corto",
+      "Perro de clima cálido",
+      "Perro resistente",
+      "Perro fuerte",
+      "Perro leal",
+      "Perro valiente",
+      "Perro de trabajo",
+      "Perro de caza",
+      "Perro de exterminio de plagas",
+      "Perro de familia"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Alta",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.dogbreedinfo.com/thairidgeback.htm",
+    "https://en.wikipedia.org/wiki/Thai_Ridgeback",
+    "https://www.ukcdogs.com/thai-ridgeback"
+    ]
   },
   155: {
     weight: {
@@ -17778,12 +21010,55 @@ fuentes: [
       height: 1375,
       url: 'https://cdn2.thedogapi.com/images/SkM9sec47.jpg',
     },
-    searchTerms: ['Mastín Tibetano', 'Perro de protección', 'Perro guardián'],
     country_code: 'CN',
-    description:
-      'El Mastín Tibetano es una raza de perro de trabajo muy antigua, conocida por su fuerza y coraje. Son perros de gran tamaño con una personalidad fuerte y voluntariosa. Son tenaces y pueden ser distantes y tercos a veces, pero también son inteligentes y extremadamente protectores de sus familias.',
-    history:
-      'Originario del Tíbet, el Mastín Tibetano es una de las razas más antiguas que existen. Durante miles de años, estos perros han sido utilizados para proteger el ganado y las propiedades en las duras condiciones de la cordillera del Himalaya. Su tamaño impresionante y su valentía natural los hacen perfectos para esta tarea.',
+    description: `
+      El Mastín Tibetano es una raza de perro verdaderamente impresionante, conocida por su tamaño gigante, su pelaje abundante y su presencia imponente. Este perro es un espectáculo para la vista y un compañero leal para aquellos que tienen la suerte de tener uno en su familia.
+      <br>
+      <br>
+      El Mastín Tibetano es un perro de gran tamaño, con machos que pueden alcanzar alturas de hasta 83 centímetros y pesar entre 45 y 72 kilogramos. Las hembras son un poco más pequeñas, pero aún así son perros grandes y fuertes. Su tamaño es solo una de las características que los hacen destacar, pero es su pelaje el que realmente llama la atención. Tienen un doble pelaje denso y pesado que puede ser de cualquier color, desde negro, gris y dorado hasta crema y rojo. Este pelaje es especialmente grueso alrededor del cuello, donde forma una melena que recuerda a la de un león.
+      <br>
+      <br>
+      El rostro del Mastín Tibetano es igualmente impresionante, con una expresión noble y ojos oscuros y profundos. Sus orejas son medianas, colgantes y cubiertas de pelo. Su cola es otro rasgo característico, ya que es larga, está cubierta de pelo largo y se enrosca sobre su espalda cuando el perro está en alerta.
+      <br>
+      <br>
+      Pero el Mastín Tibetano no es solo un perro bonito. Esta raza es conocida por su fuerza y resistencia. Originalmente criados para ser perros de guardia de rebaños en las altas montañas del Tíbet, estos perros son capaces de soportar las condiciones más duras y aún así realizar su trabajo con eficacia. Son perros robustos y saludables, con una gran resistencia y una increíble capacidad para adaptarse a diferentes climas y entornos.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Mastín Tibetano es un perro independiente y protector. Son leales a su familia y desconfiados con los extraños, lo que los convierte en excelentes perros guardianes. Sin embargo, también son conocidos por ser tranquilos y reservados. No son perros que ladren sin motivo, sino que prefieren observar en silencio y solo actuar cuando sea necesario.
+      <br>
+      <br>
+      A pesar de su tamaño y su aspecto intimidante, el Mastín Tibetano puede ser un perro cariñoso y afectuoso con su familia. Son conocidos por ser especialmente buenos con los niños, mostrándose pacientes y gentiles. Sin embargo, debido a su tamaño, siempre se debe supervisar su interacción con los niños pequeños.
+      <br>
+      <br>
+      El Mastín Tibetano es un perro que necesita mucho ejercicio y espacio para moverse. No son adecuados para vivir en apartamentos o casas sin jardín. Necesitan largos paseos diarios y tiempo para correr y jugar en un espacio seguro y cerrado.
+      <br>
+      <br>
+      En resumen, el Mastín Tibetano es una raza de perro única y fascinante. Su tamaño, su pelaje y su presencia imponente los hacen destacar, pero es su lealtad, su fuerza y su carácter tranquilo lo que realmente los hace especiales. Son perros que requieren un dueño experimentado y comprometido, pero para aquellos que están dispuestos a dedicar el tiempo y el esfuerzo necesarios, el Mastín Tibetano es una elección excelente.
+    `,
+    history: `
+      La historia del Mastín Tibetano es tan antigua y fascinante como la región montañosa del Himalaya donde se originó. Esta raza, que se cree que es una de las más antiguas del mundo, tiene una historia que se remonta a miles de años y está profundamente entrelazada con la cultura y las tradiciones del Tíbet.
+      <br>
+      <br>
+      El Mastín Tibetano, conocido en Tíbet como "Do-Khyi" o "perro de puerta atada", ha sido durante mucho tiempo un componente esencial de la vida en las altas montañas del Himalaya. Durante siglos, estos perros han sido utilizados por los nómadas tibetanos para proteger sus rebaños de lobos, leopardos y otros depredadores. Su tamaño imponente, su fuerza y su valentía los hacen perfectamente adaptados para este papel.
+      <br>
+      <br>
+      La historia del Mastín Tibetano está llena de leyendas y mitos. Se dice que estos perros eran los compañeros de los antiguos guerreros tibetanos y que se utilizaban en la batalla. También se cree que los mastines tibetanos fueron los perros guardianes de los monasterios tibetanos, protegiendo estos lugares sagrados de los intrusos.
+      <br>
+      <br>
+      A lo largo de los siglos, el Mastín Tibetano ha sido muy apreciado por su habilidad para trabajar y por su lealtad. Los nómadas tibetanos consideraban a estos perros como un miembro valioso de su comunidad, y se decía que un buen mastín tibetano valía tanto como un caballo.
+      <br>
+      <br>
+      La raza se mantuvo relativamente aislada en el Tíbet hasta el siglo XIX, cuando los exploradores y viajeros occidentales comenzaron a visitar la región. Estos visitantes quedaron impresionados por los mastines tibetanos y algunos llevaron perros de vuelta a Europa y América, donde la raza comenzó a ganar popularidad.
+      <br>
+      <br>
+      A pesar de su antigüedad, el Mastín Tibetano no fue reconocido oficialmente por el American Kennel Club hasta 2006. Sin embargo, desde entonces, la raza ha ganado un seguimiento dedicado de aficionados que aprecian su historia única, su apariencia impresionante y su lealtad.
+      <br>
+      <br>
+      Hoy en día, el Mastín Tibetano sigue siendo una raza relativamente rara fuera de su tierra natal. Sin embargo, estos perros continúan desempeñando su papel tradicional en el Tíbet como protectores de rebaños y hogares. Y para aquellos que tienen la suerte de compartir su vida con un Mastín Tibetano, estos perros ofrecen una conexión con una antigua tradición y una raza de perros que ha resistido la prueba del tiempo.
+      <br>
+      <br>
+      En resumen, la historia del Mastín Tibetano es una de resistencia y lealtad. Desde las altas montañas del Himalaya hasta los hogares de los amantes de los perros en todo el mundo, estos perros han dejado una huella indeleble con su fuerza, su coraje y su devoción. Aunque la raza puede haber cambiado un poco con el tiempo, el espíritu del Mastín Tibetano sigue siendo el mismo: un perro valiente y leal, siempre dispuesto a proteger a aquellos que ama.
+    `,
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Excelente perro guardián',
@@ -17808,6 +21083,53 @@ fuentes: [
       'Hipotiroidismo',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/SkM9sec47_390x256.jpg'],
+    searchTerms: [
+      'Mastín Tibetano',
+      'Perro de protección',
+      'Perro guardián',
+      "Mastin Tibetano",
+      "Mastín tibetano",
+      "mastin tibetano",
+      "Mastín del Tíbet",
+      "Mastin del Tibet",
+      "Mastín del Tibet",
+      "mastin del tibet",
+      "Do-Khyi",
+      "Do Khyi",
+      "Perro de montaña",
+      "Perro guardian",
+      "Perro de trabajo",
+      "Perro protector",
+      "Perro del Himalaya",
+      "Perro tibetano",
+      "Perro grande",
+      "Perro fuerte",
+      "Perro leal",
+      "Perro valiente",
+      "Perro de rebaño",
+      "Perro de pastoreo",
+      "Perro de compañía",
+      "Perro de familia",
+      "Perro antiguo",
+      "Perro raro",
+      "Perro exótico",
+      "Perro resistente",
+      "Perro de pelo largo",
+      "Perro de clima frío"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Baja",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Moderada",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Tibetan_Mastiff",
+    "https://www.dogbreedinfo.com/tibetanmastiff.htm",
+    "https://www.ukcdogs.com/tibetan-mastiff"
+    ]
   },
   156: {
     weight: {
@@ -17840,12 +21162,46 @@ fuentes: [
       height: 825,
       url: 'https://cdn2.thedogapi.com/images/Hyjcol947.jpg',
     },
-    searchTerms: ['Spaniel Tibetano', 'Perro de compañía'],
     country_code: 'CN',
-    description:
-      'El Spaniel Tibetano es una raza de perro pequeña y animada, conocida por su carácter juguetón e inteligente. A pesar de su tamaño, son asertivos y pueden ser bastante caprichosos. Son perros independientes, pero también son felices y aman jugar y pasar tiempo con sus familias.',
-    history:
-      'Originario del Tíbet, el Spaniel Tibetano fue criado como un perro de compañía en los monasterios budistas. También fueron utilizados como perros de guardia, alertando a los monjes de cualquier intruso. Su tamaño pequeño y su naturaleza vivaz los hicieron populares tanto en el Tíbet como más allá.',
+    description: `
+      El Spaniel Tibetano es una raza de perro pequeña pero robusta, originaria de las montañas del Tíbet. Este perro es conocido por su pelaje largo y sedoso, que puede variar en colores desde el blanco, crema, dorado, gris, humo, negro y una mezcla de estos. Su pelaje es doble, con una capa interna suave y densa para protegerse del frío, y una capa externa más larga y fina. Los Spaniels Tibetanos tienen una cola enroscada que se posa sobre su espalda, y orejas caídas cubiertas de pelo largo.
+      <br>
+      <br>
+      El Spaniel Tibetano tiene una cara expresiva, con ojos oscuros y redondos que transmiten una mirada inteligente y alerta. Su hocico es de tamaño mediano y su nariz es negra. Este perro tiene una altura de entre 25 a 28 cm y un peso que oscila entre los 4 y los 7 kg, lo que lo hace un perro pequeño pero compacto y fuerte.
+      <br>
+      <br>
+      En cuanto a su personalidad, los Spaniels Tibetanos son conocidos por ser perros alegres, inteligentes y cariñosos. Son muy leales a su familia y disfrutan de la compañía de las personas. Aunque pueden ser un poco reservados con los extraños, una vez que se sienten cómodos son muy amigables. Son perros que se adaptan bien a la vida en apartamentos, siempre y cuando se les proporcione suficiente ejercicio y estimulación mental.
+      <br>
+      <br>
+      Los Spaniels Tibetanos son perros activos y juguetones, y disfrutan de paseos diarios y juegos de recuperación. A pesar de su tamaño, son perros ágiles y pueden ser buenos en deportes caninos como la agilidad y el rally. También son perros inteligentes y responden bien al entrenamiento basado en recompensas.
+      <br>
+      <br>
+      En cuanto a su salud, los Spaniels Tibetanos son generalmente una raza saludable con una esperanza de vida de 12 a 15 años. Sin embargo, como todas las razas, pueden ser propensos a ciertas condiciones de salud, como problemas oculares, displasia de cadera y enfermedades dentales. Es importante llevar a estos perros a chequeos veterinarios regulares y mantener sus vacunas al día.
+      <br>
+      <br>
+      En resumen, el Spaniel Tibetano es un perro pequeño con una gran personalidad. Su apariencia encantadora, su naturaleza cariñosa y su inteligencia hacen de esta raza una excelente opción para aquellos que buscan un compañero canino leal y afectuoso.
+    `,
+    history: `
+      La historia del Spaniel Tibetano es tan antigua y misteriosa como la región montañosa del Himalaya de donde proviene. Esta raza, que ha existido durante miles de años, es considerada una de las más antiguas y puras de todas las razas caninas.
+      <br>
+      <br>
+      Los Spaniels Tibetanos, también conocidos como "pequeños leones" debido a su parecido con los leones asiáticos en miniatura en las antiguas obras de arte budistas, tienen una historia profundamente arraigada en la cultura y la religión tibetana. Se cree que estos perros fueron criados en los monasterios budistas tibetanos para ser compañeros de los monjes y, a veces, para girar las ruedas de oración.
+      <br>
+      <br>
+      El Tíbet ha sido históricamente una región aislada, lo que ha permitido que la raza se desarrolle con poca influencia externa durante siglos. Los perros eran considerados sagrados y se creía que las almas de los monjes y lamas (maestros espirituales) que no alcanzaban la iluminación se reencarnaban en ellos. Por esta razón, los Spaniels Tibetanos eran altamente valorados y rara vez se vendían. En cambio, se regalaban como signos de gran respeto y estima.
+      <br>
+      <br>
+      La raza llegó a Europa en el siglo XIX, cuando los británicos colonizaron la India y comenzaron a explorar el Tíbet. Los Spaniels Tibetanos eran a menudo regalados a los visitantes extranjeros como gesto de buena voluntad. La primera vez que se registró la llegada de un Spaniel Tibetano a Europa fue en 1880, cuando el Vicario de Tibet le regaló un par de estos perros a la Reina Victoria de Inglaterra.
+      <br>
+      <br>
+      En el siglo XX, la raza comenzó a ganar popularidad en el mundo occidental. El Spaniel Tibetano fue reconocido oficialmente por el Kennel Club del Reino Unido en 1934 y por el American Kennel Club en 1960. A pesar de su reconocimiento oficial, la raza sigue siendo relativamente rara fuera de su Tíbet natal.
+      <br>
+      <br>
+      A lo largo de su historia, el Spaniel Tibetano ha mantenido su apariencia y temperamento característicos. Aunque pequeños en tamaño, estos perros son conocidos por su valentía, inteligencia y lealtad, cualidades que los han hecho valiosos compañeros a lo largo de los siglos.
+      <br>
+      <br>
+      En resumen, la historia del Spaniel Tibetano es una de antigüedad, aislamiento y reverencia. Estos "pequeños leones" han sido durante mucho tiempo un tesoro en su Tíbet natal y continúan siendo apreciados en todo el mundo por su belleza, su carácter y su encanto.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno para vivir en apartamentos',
@@ -17866,6 +21222,52 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas oculares', 'Luxación de rótula'],
     gallery: ['https://cdn2.thedogapi.com/images/Hyjcol947_390x256.jpg'],
+    searchTerms: [
+      'Spaniel Tibetano',
+      'Perro de compañía',
+      "Spaniel del Tíbet",
+      "Spaniel",
+      "Tibetano",
+      "Perro tibetano",
+      "Perro del Tíbet",
+      "Perro monasterio",
+      "Perro budista",
+      "Pequeño león",
+      "Perro sagrado",
+      "Perro de compañía",
+      "Perro de regazo",
+      "Perro de familia",
+      "Perro de montaña",
+      "Perro de clima frío",
+      "Perro de pelo largo",
+      "Perro tranquilo",
+      "Perro leal",
+      "Perro inteligente",
+      "Perro valiente",
+      "Perro resistente",
+      "Perro de tamaño pequeño",
+      "Perro de raza antigua",
+      "Perro de raza pura",
+      "Perro de raza rara",
+      "Perro de raza exótica",
+      "Perro de raza asiática",
+      "Perro de raza oriental",
+      "Perro de raza de lujo",
+      "Perro de raza de regalo"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.dogbreedinfo.com/t/tibetanspaniel.htm",
+    "https://en.wikipedia.org/wiki/Tibetan_Spaniel",
+    "https://www.ukcdogs.com/tibetan-spaniel"
+    ]
   },
   157: {
     weight: {
@@ -17903,12 +21305,49 @@ fuentes: [
       height: 1226,
       url: 'https://cdn2.thedogapi.com/images/6f5n_42mB.jpg',
     },
-    searchTerms: ['Terrier Tibetano', 'Perro de compañía'],
     country_code: 'CN',
-    description:
-      'El Terrier Tibetano es una raza de perro mediana y enérgica, conocida por su personalidad cariñosa y amigable. A pesar de su energía, son gentiles y sensibles, y pueden ser reservados. Son perros amigables que disfrutan de la compañía de su familia y son excelentes mascotas.',
-    history:
-      'El Terrier Tibetano se originó en el Tíbet y se crió como un amuleto de buena suerte, mascota, perro guardián y perro de pastoreo. Son perros enérgicos que fueron valorados por su habilidad para trabajar y su buen carácter. Su personalidad cariñosa y amigable los hizo populares como mascotas tanto en el Tíbet como en otros lugares.',
+    description: `
+      El Terrier Tibetano es una raza de perro pequeña pero robusta, originaria del Tíbet. Su apariencia es la de un perro de montaña resistente, bien equilibrado y de tamaño compacto. Su pelaje es doble, con una capa interna suave y lanuda y una capa externa más larga y áspera que puede ser de cualquier color o combinación de colores. Este pelaje no solo le da al Terrier Tibetano un aspecto distintivo, sino que también le proporciona protección contra las duras condiciones climáticas de su tierra natal.
+      <br>
+      <br>
+      El Terrier Tibetano tiene una altura de entre 35 y 40 centímetros y un peso que oscila entre los 8 y los 14 kilogramos. Su cuerpo es ligeramente más largo que alto, lo que le da una apariencia rectangular. La cabeza es de tamaño medio, con un hocico fuerte y una expresión alerta y amigable. Los ojos son oscuros y ovalados, y las orejas son en forma de V, colgantes y cubiertas de pelo. La cola es de inserción alta, llevada enroscada sobre la espalda y cubierta de pelo.
+      <br>
+      <br>
+      El Terrier Tibetano es conocido por su agilidad y resistencia. A pesar de su tamaño pequeño, es un perro muy activo y necesita ejercicio regular para mantenerse feliz y saludable. Le encanta jugar y correr, y es especialmente bueno en deportes caninos como la agilidad y el rally. También disfruta de las caminatas largas y las excursiones al aire libre.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Terrier Tibetano es conocido por ser alegre, inteligente y seguro de sí mismo. Es un perro muy sociable que disfruta de la compañía de las personas y se lleva bien con otros perros. Aunque puede ser un poco reservado con los extraños al principio, una vez que se siente cómodo, es amigable y acogedor. El Terrier Tibetano es también un perro muy leal y apegado a su familia. Le encanta pasar tiempo con sus seres queridos y es conocido por ser especialmente bueno con los niños.
+      <br>
+      <br>
+      A pesar de su pequeño tamaño, el Terrier Tibetano es un perro valiente y alerta. Tiene un fuerte instinto de protección y no dudará en defender a su familia si siente que están en peligro. Sin embargo, no es un perro agresivo y generalmente se lleva bien con todos, siempre que se le socialice adecuadamente desde una edad temprana.
+      <br>
+      <br>
+      En resumen, el Terrier Tibetano es un perro pequeño con una gran personalidad. Su combinación de resistencia física, inteligencia y lealtad lo convierte en un compañero maravilloso para una amplia variedad de hogares. Ya sea que esté buscando un compañero de juegos enérgico, un perro de terapia afectuoso o simplemente un amigo leal y cariñoso, el Terrier Tibetano puede ser la elección perfecta para usted.
+    `,
+    history: `
+      La historia del Terrier Tibetano es tan antigua y misteriosa como la región montañosa del Himalaya donde se originó. Esta raza, que es una de las más antiguas y puras del mundo, tiene una historia que se remonta a miles de años y está profundamente entrelazada con la cultura y las tradiciones del Tíbet.
+      <br>
+      <br>
+      El Terrier Tibetano, conocido en su tierra natal como "Tsang Apso", que se traduce aproximadamente como "perro barbudo del Tsang", se crió en los monasterios tibetanos por los monjes budistas. Los monjes consideraban a estos perros como encarnaciones de los monjes y lamas fallecidos, y se les trataba con gran respeto y veneración. No solo eran compañeros y mascotas, sino que también cumplían funciones prácticas como perros guardianes y pastores de rebaños.
+      <br>
+      <br>
+      Los Terriers Tibetanos eran valorados por su inteligencia, su agilidad y su resistencia, cualidades que eran esenciales para sobrevivir en el duro clima y el terreno accidentado del Tíbet. Su pelaje largo y espeso les proporcionaba protección contra el frío extremo, mientras que su tamaño pequeño les permitía moverse con facilidad por las montañas.
+      <br>
+      <br>
+      A lo largo de los siglos, los Terriers Tibetanos se mantuvieron relativamente aislados del resto del mundo canino, lo que permitió que la raza conservara su pureza genética. No fue hasta finales del siglo XIX y principios del XX que los Terriers Tibetanos comenzaron a aparecer en Occidente. Se dice que los primeros Terriers Tibetanos llegaron a Europa como regalos de los monjes tibetanos a los visitantes extranjeros.
+      <br>
+      <br>
+      En 1922, el Dr. A.R.H. Greig de Inglaterra recibió un Terrier Tibetano como regalo de un paciente agradecido. Fascinado por la raza, el Dr. Greig comenzó a criar Terriers Tibetanos y es en gran parte responsable de establecer la raza en Occidente. En 1930, el Kennel Club de Inglaterra reconoció oficialmente al Terrier Tibetano como una raza distinta.
+      <br>
+      <br>
+      En los Estados Unidos, el Terrier Tibetano fue reconocido por el American Kennel Club en 1973. Desde entonces, la raza ha ganado popularidad en todo el mundo, tanto por su atractivo físico como por su personalidad encantadora.
+      <br>
+      <br>
+      A pesar de su creciente popularidad, el Terrier Tibetano sigue siendo una raza relativamente rara. Sin embargo, aquellos que tienen la suerte de compartir su vida con un Terrier Tibetano a menudo describen a la raza como un tesoro escondido, valorando su lealtad, su inteligencia y su espíritu alegre.
+      <br>
+      <br>
+      La historia del Terrier Tibetano es un testimonio de la resistencia y la adaptabilidad de esta raza. A pesar de los cambios y desafíos a lo largo de los siglos, el Terrier Tibetano ha conservado su carácter distintivo y su encanto. Ya sea en los monasterios del Tíbet o en los hogares modernos de todo el mundo, el Terrier Tibetano sigue siendo un compañero amado y valorado.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Bueno para vivir en casas con jardín',
@@ -17947,6 +21386,52 @@ fuentes: [
       'https://cdn2.thedogapi.com/images/TZwbGR2T6.jpg',
       'https://cdn2.thedogapi.com/images/6f5n_42mB.jpg',
     ],
+    searchTerms: [
+      'Terrier Tibetano',
+      'Perro de compañía',
+      "Terrier del Tíbet",
+      "Terrier tibetano",
+      "Terrier del tibet",
+      "Terrier de Tibet",
+      "Terrier de tibet",
+      "Tibet Terrier",
+      "tibet terrier",
+      "Tibetan Terrier",
+      "tibetan terrier",
+      "Terrier",
+      "terrier",
+      "Tibetano",
+      "tibetano",
+      "Tíbet",
+      "tíbet",
+      "Tibet",
+      "tibet",
+      "Perro de compañía",
+      "perro de compañía",
+      "Perro de montaña",
+      "perro de montaña",
+      "Perro del Himalaya",
+      "perro del himalaya",
+      "Perro de los monjes",
+      "perro de los monjes",
+      "Perro sagrado",
+      "perro sagrado",
+      "Perro barbudo",
+      "perro barbudo"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Tibetan_Terrier",
+    "https://www.dogbreedinfo.com/tibetanterrier.htm",
+    "https://www.ukcdogs.com/tibetan-terrier"
+    ]
   },
   158: {
     weight: {
@@ -17978,12 +21463,49 @@ fuentes: [
       height: 1024,
       url: 'https://cdn2.thedogapi.com/images/B17ase9V7.jpg',
     },
-    searchTerms: ['Terrier Toy Fox', 'Perro de compañía', 'Perro juguetón'],
     country_code: 'US',
-    description:
-      'El Terrier Toy Fox es un perro pequeño, amigable y juguetón. Son inteligentes y leales a sus dueños, y hacen grandes mascotas para la familia. A pesar de su tamaño pequeño, son alerta y pueden hacer buenos perros guardianes. Aman jugar y son excelentes compañeros para los niños.',
-    history:
-      'El Terrier Toy Fox es una raza de perro que se originó en los Estados Unidos. Son una versión más pequeña del Fox Terrier, y fueron criados para ser perros de compañía. Su tamaño pequeño los hizo populares como perros de juguete, y son conocidos por su personalidad amigable y juguetona.',
+    description: `
+      El Terrier Toy Fox, también conocido como el "Amfox" o "TFT", es una raza de perro pequeña pero poderosa que combina la energía y la audacia de un terrier con el tamaño manejable y el carácter afectuoso de un perro de juguete. Esta raza es conocida por su inteligencia, su agilidad y su espíritu vivaz, lo que la convierte en una excelente compañera para una variedad de hogares y estilos de vida.
+      <br>
+      <br>
+      El Terrier Toy Fox es un perro pequeño, con un peso que oscila entre los 3,5 y los 7 libras, y una altura que varía entre 8,5 y 11,5 pulgadas. A pesar de su pequeño tamaño, estos perros son fuertes y musculosos, con una estructura ósea sólida que refleja su herencia terrier. Tienen un cuerpo compacto y bien proporcionado, con una cabeza elegante, orejas puntiagudas y ojos oscuros y brillantes que desprenden una expresión inteligente y alerta.
+      <br>
+      <br>
+      El pelaje del Terrier Toy Fox es corto, fino y brillante, lo que le da un aspecto elegante y pulcro. Los colores del pelaje pueden variar, pero los más comunes son el blanco, el negro y el tostado, a menudo con marcas distintivas en la cara y el cuerpo. Su cola puede ser larga o corta, dependiendo de si ha sido cortada o no.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Terrier Toy Fox es un perro vivaz, inteligente y juguetón. Son conocidos por su agilidad y su amor por los juegos, lo que los convierte en excelentes compañeros para los niños y los adultos activos. A pesar de su tamaño, estos perros son valientes y no tienen miedo de enfrentarse a desafíos más grandes que ellos mismos. Son perros muy inteligentes y aprenden rápidamente, lo que los hace excelentes para el entrenamiento de obediencia y los deportes caninos.
+      <br>
+      <br>
+      Aunque son perros activos y enérgicos, el Terrier Toy Fox también disfruta de los momentos de tranquilidad y es muy afectuoso con su familia. Son perros leales y dedicados que forman fuertes lazos con sus dueños. Aunque pueden ser un poco reservados con los extraños al principio, suelen ser amigables una vez que se sienten cómodos.
+      <br>
+      <br>
+      En cuanto a su salud, el Terrier Toy Fox es generalmente una raza saludable con pocos problemas de salud genéticos. Sin embargo, como todos los perros, pueden ser propensos a ciertas condiciones, como las alergias, los problemas dentales y las enfermedades de la piel. Es importante proporcionarles una dieta equilibrada, ejercicio regular y chequeos veterinarios regulares para mantenerlos en la mejor salud posible.
+      <br>
+      <br>
+      En resumen, el Terrier Toy Fox es una raza de perro pequeña pero enérgica y valiente, con una personalidad vivaz y un amor por la diversión. Son perros inteligentes, afectuosos y leales que hacen excelentes compañeros para una variedad de hogares. Ya sea que estés buscando un compañero de juegos enérgico, un perro de terapia afectuoso o simplemente un amigo leal y dedicado, el Terrier Toy Fox podría ser tu mejor elección.
+    `,
+    history: `
+      La historia del Terrier Toy Fox es una fascinante mezcla de ingenio, adaptabilidad y evolución cuidadosa. Esta raza, aunque pequeña en tamaño, tiene una historia rica y variada que se extiende a lo largo de varias décadas y continentes.
+      <br>
+      <br>
+      El Terrier Toy Fox tiene sus raíces en el Fox Terrier de pelo liso, una raza de perro de trabajo de Inglaterra que se utilizaba para cazar zorros y otros pequeños animales de caza. Los Fox Terriers eran perros valientes y enérgicos, conocidos por su agilidad y su habilidad para seguir a los zorros hasta sus madrigueras. Sin embargo, algunos criadores querían un perro con las mismas habilidades de caza y la misma personalidad vivaz, pero en un paquete más pequeño y manejable.
+      <br>
+      <br>
+      A principios del siglo XX, estos criadores comenzaron a cruzar Fox Terriers de pelo liso con varias razas de perros de juguete, incluyendo el Chihuahua y el Pinscher Miniatura. El objetivo era crear un perro que tuviera el tamaño y el temperamento de un perro de juguete, pero que aún conservara la audacia y la energía de un terrier. El resultado fue el Terrier Toy Fox, un perro pequeño pero robusto que combinaba lo mejor de ambos mundos.
+      <br>
+      <br>
+      El Terrier Toy Fox fue reconocido oficialmente como una raza distinta por el American Kennel Club (AKC) en 2003, aunque ya había sido reconocido por otros clubes de razas caninas mucho antes. Desde entonces, la raza ha ganado popularidad tanto en los Estados Unidos como en otros lugares, gracias a su combinación única de tamaño pequeño, personalidad vivaz y habilidades de caza.
+      <br>
+      <br>
+      A lo largo de los años, el Terrier Toy Fox ha demostrado ser un perro increíblemente versátil. Aunque originalmente se criaron para cazar, estos perros también han demostrado ser excelentes en una variedad de otras áreas. Son conocidos por su habilidad en los deportes caninos, incluyendo la agilidad, la obediencia y el flyball. También son excelentes perros de terapia, gracias a su temperamento amigable y su capacidad para formar fuertes lazos con las personas.
+      <br>
+      <br>
+      A pesar de su pequeño tamaño, el Terrier Toy Fox ha demostrado una y otra vez que es capaz de grandes cosas. Desde sus humildes comienzos como un perro de caza en miniatura hasta su estatus actual como una raza de perro amada y respetada, el Terrier Toy Fox ha demostrado ser un verdadero testimonio de la adaptabilidad y el ingenio canino.
+      <br>
+      <br>
+      Hoy en día, el Terrier Toy Fox sigue siendo una raza popular, apreciada por su tamaño manejable, su personalidad encantadora y su espíritu valiente. Aunque puede ser pequeño, este perro tiene un corazón enorme y una historia que es verdaderamente digna de ser contada.
+    `,
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Perfecto para la vida en apartamentos',
@@ -18004,6 +21526,53 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas dentales', 'Luxación de rótula'],
     gallery: ['https://cdn2.thedogapi.com/images/B17ase9V7_390x256.jpg'],
+    searchTerms: [
+      'Terrier Toy Fox',
+      'Perro de compañía',
+      'Perro juguetón',
+      "Toy Fox Terrier",
+      "Terrier de juguete",
+      "Fox Terrier de juguete",
+      "Terrier pequeño",
+      "Terrier miniatura",
+      "Perro de compañía",
+      "Perro de familia",
+      "Perro para niños",
+      "Perro de terapia",
+      "Perro de agilidad",
+      "Perro de obediencia",
+      "Perro de flyball",
+      "Perro de caza pequeño",
+      "Perro de caza de juguete",
+      "Perro de caza miniatura",
+      "Perro de caza en miniatura",
+      "Perro de trabajo pequeño",
+      "Perro de trabajo de juguete",
+      "Perro de trabajo miniatura",
+      "Perro de trabajo en miniatura",
+      "Perro de raza pequeña",
+      "Perro de raza de juguete",
+      "Perro de raza miniatura",
+      "Perro de raza en miniatura",
+      "Perro de raza americana",
+      "Perro de raza de los Estados Unidos",
+      "Perro de raza de EE.UU.",
+      "Perro de raza de EEUU",
+      "Perro de raza de USA"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Alta",
+    "para_primerizos": "Alta",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+      "https://www.akc.org/dog-breeds/toy-fox-terrier/",
+      "https://www.dogbreedinfo.com/toyfoxterrier.htm",
+      "https://www.ukcdogs.com/toy-fox-terrier"
+    ]
   },
   159: {
     weight: {
