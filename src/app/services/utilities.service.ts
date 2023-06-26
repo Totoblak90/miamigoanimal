@@ -104,9 +104,9 @@ export class UtilitiesService {
     train: {
       color: `linear-gradient( to right bottom, rgba(173, 216, 230, 0.8), rgba(0, 0, 205, 0.8))`,
       images: {
-        default: ['https://esferamascota.b-cdn.net/health-hero.webp'],
-        tablet: ['https://esferamascota.b-cdn.net/health-hero-tablet.webp'],
-        mobile: ['https://esferamascota.b-cdn.net/health-hero-mobile.webp']
+        default: ['https://esferamascota.b-cdn.net/training-1.webp'],
+        tablet: ['https://esferamascota.b-cdn.net/training-1-tablet.webp'],
+        mobile: ['https://esferamascota.b-cdn.net/training-1-mobile.webp']
       }
     },
     health: {

@@ -14574,7 +14574,6 @@ fuentes: [
     'https://www.hillspet.com.mx/dog-care/dog-breeds/miniature-pinscher'
     ]
   },
-  // Checkpoint
   110: {
     weight: {
       imperial: '11 - 20',
@@ -14597,7 +14596,7 @@ fuentes: [
       'Obediente',
       'Inteligente',
     ],
-    origin: 'Alemania', // Añadido basándose en el origen conocido de la raza
+    origin: 'Alemania',
     reference_image_id: 'SJIUQl9NX',
     image: {
       id: 'SJIUQl9NX',
@@ -14605,11 +14604,49 @@ fuentes: [
       height: 533,
       url: 'https://cdn2.thedogapi.com/images/SJIUQl9NX.jpg',
     },
-    country_code: 'DE', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Schnauzer Miniatura es una raza de perro pequeña y enérgica. Son inteligentes, obedientes y amigables, lo que los hace excelentes compañeros de familia y mascotas.',
-    history:
-      'El Schnauzer Miniatura se originó en Alemania para la caza de ratas. A pesar de su tamaño pequeño, son valientes y tienen un gran instinto de caza.',
+    country_code: 'DE',
+    description: `
+      El Schnauzer Miniatura, también conocido como Zwergschnauzer, es una raza de perro pequeña, pero llena de energía y personalidad. Originario de Alemania, este perro compacto y musculoso es una réplica exacta de las razas de Schnauzer más grandes, pero en un tamaño más pequeño. A pesar de su pequeño tamaño, los Schnauzers Miniatura son conocidos por su valentía y talento, características que originalmente los hicieron excelentes cazadores de ratas.
+      <br>
+      <br>
+      El Schnauzer Miniatura tiene un cuerpo cuadrado y robusto, con una cabeza alargada y fuerte. Sus características distintivas incluyen una nariz negra, orejas en forma de V que se pliegan sobre la cara y ojos ovalados que expresan una mirada confiada y vivaz. Su pelaje es áspero al tacto y consta de dos capas: un suave subpelo y una capa exterior corta y áspera. Los colores reconocidos incluyen blanco, negro, sal y pimienta, y negro y plata. Todos los perros de esta raza tienen una máscara facial.
+      <br>
+      <br>
+      Los Schnauzers Miniatura son conocidos por su personalidad alerta y amigable. Son inteligentes, leales y hacen excelentes perros guardianes. La formación y socialización son importantes desde una edad temprana. Se clasifican en el puesto 12 en inteligencia entre las razas de perros y son admirados por su valentía. La historia de la raza se refleja en obras de arte como la pintura de Albrecht Dürer "VIRGEN CON ANIMALES".
+      <br>
+      <br>
+      En cuanto a su salud, los Schnauzers Miniatura son generalmente saludables, pero pueden ser propensos a ciertos problemas de salud específicos, incluyendo cataratas, piedras en los riñones y diabetes. Se considera que son hipoalergénicos y se recomiendan para personas con alergias respiratorias.
+      <br>
+      <br>
+      En cuanto a su cuidado, el pelaje del Schnauzer Miniatura requiere un aseo regular. A pesar de su pelaje áspero, la raza pierde pelo mínimamente con el mantenimiento adecuado. Necesitan ejercicio diario y disfrutan de actividades como correr y jugar a buscar. La socialización y el entrenamiento adecuados desde una edad temprana son esenciales, y la participación en actividades como el entrenamiento de agilidad puede ayudar a mantenerlos mentalmente estimulados.
+      <br>
+      <br>
+      Los Schnauzers Miniatura son perros familiares ideales que se adaptan bien tanto a las casas como a los apartamentos. Se llevan bien con los niños, pero deben ser supervisados alrededor de animales pequeños debido a su instinto natural de presa. Son perros valientes, altamente inteligentes y entrenables.
+      <br>
+      <br>
+      En resumen, el Schnauzer Miniatura es una raza de perro encantadora y llena de vida. Con su apariencia encantadora, su rica historia y su personalidad vivaz, el Schnauzer Miniatura es una raza de perro maravillosa para considerar para un hogar amoroso.
+    `,
+    history: `
+      La historia del Schnauzer Miniatura es tan fascinante como la raza misma. Originario de Alemania en el siglo XIX, el Schnauzer Miniatura es una versión más pequeña de la raza Schnauzer, que se remonta a los siglos XV y XVI. Aunque es difícil determinar con precisión los orígenes exactos de la raza, se cree que el Schnauzer Miniatura es el resultado de cruces entre los Schnauzers estándar más pequeños y otras razas pequeñas como los Caniches, los Pinscher Miniatura y los Affenpinscher.
+      <br>
+      <br>
+      El Schnauzer Miniatura fue criado originalmente en las granjas alemanas para combatir las ratas y proporcionar compañía. Su tamaño más pequeño lo hacía ideal para este propósito, ya que podía entrar en espacios estrechos para cazar roedores. A pesar de su pequeño tamaño, el Schnauzer Miniatura es conocido por su temperamento "vivaz" y sus buenos instintos de guardia, lo que lo convierte en un excelente perro de trabajo y compañía.
+      <br>
+      <br>
+      La apariencia distintiva del Schnauzer Miniatura, con su larga barba y pelo en las patas, es una característica definitoria de la raza. Aunque la práctica de cortar las orejas y la cola es controvertida y está prohibida en muchos países, estas características han sido tradicionalmente parte de la apariencia del Schnauzer Miniatura.
+      <br>
+      <br>
+      El Schnauzer Miniatura tiene una constitución compacta y musculosa, con un tamaño que varía entre 30 y 35 cm y un peso de entre 5 y 9 kg. Su pelaje es áspero y requiere un cuidado regular. Los colores reconocidos incluyen blanco, negro sólido, sal y pimienta, y negro y plata.
+      <br>
+      <br>
+      En cuanto a su temperamento, los Schnauzers Miniatura son conocidos por ser alerta, amigables, inteligentes y leales. Son buenos perros guardianes y requieren entrenamiento y socialización desde una edad temprana. De hecho, se clasifican en el puesto 12 en el ranking de inteligencia de Stanley Coren. Además, se recomiendan para personas con asma y alergias respiratorias debido a su pelaje que no se desprende.
+      <br>
+      <br>
+      A lo largo de los años, el Schnauzer Miniatura ha ganado popularidad en todo el mundo, tanto por su apariencia distintiva como por su personalidad encantadora. Aunque originalmente fue criado para cazar ratas en las granjas alemanas, hoy en día es apreciado como una mascota de compañía y es conocido por su habilidad para adaptarse a la vida familiar.
+      <br>
+      <br>
+      En resumen, la historia del Schnauzer Miniatura es una mezcla de adaptabilidad, inteligencia y valentía. Desde sus orígenes en las granjas alemanas hasta su popularidad en todo el mundo, el Schnauzer Miniatura ha demostrado ser una raza de perro verdaderamente única y encantadora.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Bueno para familias',
@@ -14618,7 +14655,7 @@ fuentes: [
       'Enérgico',
       'Obediente',
     ],
-    color: ['Negro', 'Plata', 'Sal y pimienta'], // Añadido basándose en los colores comunes de la raza
+    color: ['Negro', 'Plata', 'Sal y pimienta'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
@@ -14634,8 +14671,49 @@ fuentes: [
       'Schnauzer Miniatura',
       'Perro terrier',
       'Perro inteligente',
-
+      'Schnauzer miniatura',
+      'schnauzer miniatura',
+      'schnauzerminiatura',
+      'schnauzer mini',
+      'mini schnauzer',
+      'schnauzer chico',
+      'schnauzer pequeño',
+      'schnauzer enano',
+      'schnauzer aleman',
+      'schnauzer alemán',
+      'perro schnauzer mini',
+      'perro mini schnauzer',
+      'perro schnauzer miniatura',
+      'perro miniatura schnauzer',
+      'schnauzer miniatura aleman',
+      'schnauzer miniatura alemán',
+      'schnauzer mini aleman',
+      'schnauzer mini alemán',
+      'schnauzer miniatura terrier',
+      'schnauzer mini terrier',
+      'schnauzer miniatura caza',
+      'schnauzer mini caza',
+      'schnauzer miniatura familia',
+      'schnauzer mini familia',
+      'schnauzer miniatura niños',
+      'schnauzer mini niños',
+      'schnauzer miniatura apartamento',
+      'schnauzer mini apartamento',
+      'schnauzer miniatura inteligente'
     ],
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+    'https://www.hillspet.co/dog-care/dog-breeds/miniature-schnauzer',
+    'https://wakyma.com/blog/perro-raza-schnauzar-miniatura/',
+    'https://www.bekiamascotas.com/articulos/diferencias-schanuzer-miniatura-estandar-gigante-elegir-mascota/'
+    ]
   },
   111: {
     weight: {
@@ -14660,12 +14738,49 @@ fuentes: [
       height: 986,
       url: 'https://cdn2.thedogapi.com/images/Sk4DXl54m.jpg',
     },
-    searchTerms: ['Terranova', 'Perro de trabajo', 'Perro entrenable'],
     country_code: 'CA', // Añadido basándose en el origen conocido de la raza
-    description:
-      'Los perros de la raza Terranova son conocidos por su buen carácter, amabilidad y capacidad de entrenamiento. Son excelentes perros de trabajo, especialmente en agua.',
-    history:
-      'El Terranova se originó en Canadá como perro de agua multipropósito y asistente en pesca. Son famosos por su fuerza y su capacidad para nadar.',
+    description: `
+      El Terranova es una raza de perro majestuosa y poderosa, conocida por su tamaño gigante y su temperamento amable y gentil. Originarios de la isla de Terranova, en Canadá, estos perros fueron criados para trabajar en el agua, ayudando a los pescadores a arrastrar redes y recuperar peces que se habían escapado. Su pelaje denso y resistente al agua, junto con sus patas palmeadas, los hacen excelentes nadadores, capaces de resistir las frías aguas del Atlántico Norte.
+      <br>
+      <br>
+      Los Terranova son perros grandes, con machos que pueden llegar a pesar hasta 150 libras (68 kg) y alcanzar una altura de hasta 28 pulgadas (71 cm) en el hombro. Las hembras suelen ser un poco más pequeñas, pero aún así son perros de gran tamaño. Su pelaje es grueso y resistente al agua, y puede ser de color negro, marrón, gris o blanco y negro (también conocido como "Landseer").
+      <br>
+      <br>
+      A pesar de su gran tamaño, los Terranova son conocidos por su temperamento dulce y gentil. Son perros extremadamente leales y protectores, y se llevan bien con los niños. De hecho, a menudo se les llama "el niñero de la naturaleza" debido a su paciencia y cuidado con los niños. Son perros inteligentes y receptivos, lo que los hace relativamente fáciles de entrenar.
+      <br>
+      <br>
+      Los Terranova son perros activos que requieren mucho ejercicio. A pesar de su tamaño, son bastante ágiles y disfrutan de actividades como nadar, correr y jugar a buscar. Sin embargo, también son perros bastante relajados en casa y disfrutan de acurrucarse con su familia.
+      <br>
+      <br>
+      En cuanto a su salud, los Terranova son generalmente perros saludables, pero como todas las razas grandes, pueden ser propensos a ciertas condiciones de salud. Estas pueden incluir displasia de cadera, problemas cardíacos y torsión gástrica. Es importante que los Terranova reciban chequeos regulares con un veterinario y se mantengan en un peso saludable para minimizar el riesgo de estos problemas de salud.
+      <br>
+      <br>
+      En cuanto al cuidado de su pelaje, los Terranova requieren un aseo regular para mantener su pelaje limpio y saludable. Su pelaje puede mudar bastante, especialmente en las estaciones de cambio, por lo que el cepillado regular es importante para mantener el pelaje y la piel saludables.
+      <br>
+      <br>
+      En resumen, el Terranova es un perro maravilloso que combina la fuerza y la resistencia con un temperamento dulce y amable. Son perros leales y cariñosos que hacen excelentes mascotas para familias activas. Sin embargo, debido a su tamaño, requieren mucho espacio y no son adecuados para vivir en apartamentos pequeños. Con el cuidado y el entrenamiento adecuados, un Terranova puede ser un compañero maravilloso y leal.
+    `,
+    history: `
+      El Terranova es una raza de perro que se originó en la isla de Terranova, en Canadá. Esta raza es conocida por su tamaño gigante, su fuerza y su temperamento tranquilo y leal. Los Terranova fueron criados originalmente para trabajar con los pescadores en Terranova, y son excelentes nadadores gracias a su grueso pelaje doble y sus patas palmeadas, lo que los hace especialmente adecuados para el rescate en el agua.
+      <br>
+      <br>
+      La historia de los Terranova se remonta a los perros nativos de la isla de Terranova y los perros que fueron traídos por los vikingos. Se cree que estos perros se cruzaron y eventualmente dieron lugar a la raza Terranova. A lo largo de los años, los Terranova han sido valorados por su habilidad para trabajar en el agua, ayudando a los pescadores a arrastrar redes y recuperar peces que se habían escapado. También han sido utilizados para tirar de carros y realizar otras tareas de trabajo.
+      <br>
+      <br>
+      Los Terranova comparten similitudes con otras razas de mastín y tienen una rica historia como perros de trabajo. De hecho, jugaron un papel en el desarrollo de otras razas de rescate acuático, como el Leonberger. A lo largo de los años, los Terranova han sido reconocidos por su valentía y han sido inmortalizados en el arte y la literatura.
+      <br>
+      <br>
+      Hay varios Terranova famosos en la historia. Por ejemplo, Seaman, el Terranova que acompañó a Lewis y Clark en su expedición a través de América. También está Boatswain, el querido Terranova del poeta Lord Byron, y Sable Chief, la mascota del Regimiento Real de Terranova.
+      <br>
+      <br>
+      A pesar de su tamaño, los Terranova son conocidos por su temperamento gentil. Son perros extremadamente leales y protectores, y se llevan bien con los niños. Sin embargo, debido a su tamaño, siempre se debe supervisar su interacción con los niños pequeños.
+      <br>
+      <br>
+      En cuanto a su salud, los Terranova son generalmente perros saludables, pero como todas las razas grandes, pueden ser propensos a ciertas condiciones de salud. Estas pueden incluir displasia de cadera, problemas cardíacos y torsión gástrica. Es importante que los Terranova reciban chequeos regulares con un veterinario y se mantengan en un peso saludable para minimizar el riesgo de estos problemas de salud.
+      <br>
+      <br>
+      En resumen, la historia del Terranova es la de una raza de perro que ha sido valorada por su fuerza, su habilidad para trabajar en el agua y su lealtad. Aunque originalmente fueron criados para trabajar con los pescadores en Terranova, hoy en día son amados como mascotas y son conocidos por su temperamento gentil y su lealtad.
+    `,
     categoria_de_tamanio: 'Muy grande',
     perks: [
       'Buen nadador',
@@ -14686,6 +14801,62 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas cardíacos'],
     gallery: ['https://cdn2.thedogapi.com/images/Sk4DXl54m_390x256.jpg'],
+    searchTerms: [
+      'Terranova',
+      'Perro de trabajo',
+      'Perro entrenable',
+      'Terra nova',
+      'Terra-nova',
+      'Terrranova',
+      'Terra-nueva',
+      'Perro Terranova',
+      'Perro de Terranova',
+      'Perro canadiense',
+      'Perro de agua',
+      'Perro de rescate',
+      'Perro de trabajo',
+      'Perro de pesca',
+      'Perro de gran tamaño',
+      'Perro gigante',
+      'Perro fuerte',
+      'Perro leal',
+      'Perro nadador',
+      'Perro de pelo largo',
+      'Perro de doble capa',
+      'Perro de patas palmeadas',
+      'Perro de clima frío',
+      'Perro de clima húmedo',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro para niños',
+      'Perro protector',
+      'Perro gentil',
+      'Perro tranquilo',
+      'Perro de Newfoundland',
+      'Perro de Nueva Escocia'
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+    {
+    nombre: 'Seaman',
+    caso: 'Mascota del explorador Meriwether Lewis'
+    },
+    {
+    nombre: 'Boatswain',
+    caso: 'Mascota del poeta Lord Byron'
+    }
+    ],
+    fuentes: [
+    'https://es.wikipedia.org/wiki/Terranova_(perro)',
+    'https://www.dogbreedinfo.com',
+    'https://www.ukcdogs.com'
+    ]
   },
   112: {
     weight: {
@@ -14709,7 +14880,7 @@ fuentes: [
       'Feliz',
       'Adorable',
     ],
-    origin: 'Reino Unido', // Añadido basándose en el origen conocido de la raza
+    origin: 'Reino Unido',
     reference_image_id: 'B1ADQg94X',
     image: {
       id: 'B1ADQg94X',
@@ -14717,17 +14888,43 @@ fuentes: [
       height: 1092,
       url: 'https://cdn2.thedogapi.com/images/B1ADQg94X.jpg',
     },
-    searchTerms: [
-      'Norfolk Terrier',
-      'Terrier',
-      'Caza de ratas',
-      'Salida de zorros',
-    ],
-    country_code: 'GB', // Añadido basándose en el origen conocido de la raza
-    description:
-      'Los Norfolk Terrier son perros seguros de sí mismos, intrépidos y animados. Son perros pequeños, pero tienen un espíritu valiente y son conocidos por su habilidad para la caza de ratas y la salida de zorros.',
-    history:
-      'El Norfolk Terrier se originó en el Reino Unido y fue criado principalmente para la caza de ratas y la salida de zorros. A pesar de su pequeño tamaño, es valiente y tiene un temperamento animado.',
+    country_code: 'GB',
+    description: `
+      El Norfolk Terrier es una raza de perro pequeña, adorable y devota con rasgos de terrier. A pesar de su tamaño compacto, poseen una naturaleza enérgica y segura de sí mismos, siendo robustos y listos para cualquier aventura. Pueden disfrutar acurrucándose en tu regazo, pero no deben ser confundidos con perros falderos.
+      <br>
+      <br>
+      Originarios del Reino Unido, los Norfolk Terriers fueron criados originalmente para la caza de ratas y zorros. Poseen un cuerpo bien equilibrado con ojos oscuros y ovalados y pequeñas orejas caídas. Su temperamento es amigable y optimista, siendo afectuosos con su familia y abiertos a conocer a extraños. Con una alta energía y una tendencia a ladrar, requieren ejercicio moderado y un entrenamiento temprano.
+      <br>
+      <br>
+      Los Norfolk Terriers tienen un pelaje de baja muda que requiere cepillado semanal y despojo manual unas pocas veces al año. Son generalmente saludables pero propensos a algunos problemas de salud hereditarios. Una dieta equilibrada nutricionalmente y un aseo regular son importantes para su bienestar. Cuando se adopta o se compra un Norfolk Terrier, se recomienda consultar los refugios de animales locales, las organizaciones de rescate o los criadores de confianza. Hacen compañeros afectuosos y adaptables, pero pueden exhibir un fuerte instinto de presa y terquedad. Es crucial entender sus necesidades específicas antes de llevar uno a casa.
+      <br>
+      <br>
+      El Norfolk Terrier es una raza de perro valiente e inteligente que originalmente se utilizaba para la caza de ratas y zorros. Hoy en día, se valora por su compañía y sus habilidades como perro de exposición. Originarios de Inglaterra en el siglo XIX, los Norfolk Terriers se desarrollaron a través de cruces y ganaron popularidad como perros de compañía, particularmente entre los estudiantes de la Universidad de Cambridge. Después de ser reconocidos por el Kennel Club inglés, la raza se dividió en Norwich Terriers (orejas puntiagudas) y Norfolk Terriers (orejas caídas). Los Norfolk Terriers jugaron un papel crucial en el control de las poblaciones de ratas y más tarde se convirtieron en queridos compañeros de hogar.
+      <br>
+      <br>
+      La raza se caracteriza por su pequeño tamaño, rasgos distintivos y varios colores de pelaje. Son enérgicos, juguetones y requieren ejercicio moderado. Los Norfolk Terriers son independientes y obstinados, pero pueden ser entrenados con refuerzo positivo. Generalmente son compatibles con otros animales y son adecuados para familias con niños mayores. Un aseo, ejercicio y nutrición adecuados son importantes para su bienestar. Mientras que los Norfolk Terriers son buenos perros guardianes, no son ideales como perros de guardia debido a su tamaño. Se recomienda realizar evaluaciones de cadera y codo para posibles problemas de salud. En general, los Norfolk Terriers son compañeros leales y animados que requieren atención y cuidado.
+    `,
+    history: `
+      La historia del Norfolk Terrier es fascinante y está llena de giros y vueltas. Esta raza de perro pequeña y adorable, originaria del Reino Unido, tiene una historia que se remonta a varios siglos atrás. Aunque hoy en día son conocidos por ser excelentes compañeros y mascotas familiares, los Norfolk Terriers fueron criados originalmente con un propósito muy diferente.
+      <br>
+      <br>
+      Los Norfolk Terriers tienen sus raíces en la Inglaterra del siglo XIX, donde fueron desarrollados para la caza de ratas y zorros. Su tamaño pequeño y su naturaleza enérgica los hacían perfectos para este tipo de trabajo. Eran lo suficientemente pequeños para meterse en madrigueras y lo suficientemente valientes para enfrentarse a animales mucho más grandes que ellos. A lo largo de los años, estos perros demostraron ser trabajadores incansables y se ganaron la reputación de ser excelentes cazadores.
+      <br>
+      <br>
+      A medida que la raza se desarrollaba, los Norfolk Terriers se hicieron populares entre los estudiantes de la Universidad de Cambridge. Los estudiantes apreciaban la naturaleza amigable y juguetona de estos perros, y los Norfolk Terriers pronto se convirtieron en una especie de mascota no oficial de la universidad. Esta popularidad entre los estudiantes universitarios ayudó a aumentar la visibilidad de la raza y contribuyó a su creciente popularidad.
+      <br>
+      <br>
+      A pesar de su creciente popularidad, la raza no fue reconocida oficialmente hasta principios del siglo XX. En ese momento, la raza se dividió en dos: los Norwich Terriers, que tienen las orejas puntiagudas, y los Norfolk Terriers, que tienen las orejas caídas. Aunque estas dos razas son muy similares en apariencia y temperamento, se consideran razas separadas.
+      <br>
+      <br>
+      A lo largo de los años, los Norfolk Terriers han demostrado ser perros versátiles y adaptables. Aunque ya no se utilizan para la caza de ratas y zorros, siguen siendo perros trabajadores y están dispuestos a asumir cualquier tarea que se les presente. Son conocidos por su inteligencia y su capacidad para aprender rápidamente, lo que los hace excelentes perros de terapia y de servicio.
+      <br>
+      <br>
+      Hoy en día, los Norfolk Terriers son apreciados por su temperamento amigable y su naturaleza juguetona. Son excelentes perros de compañía y se llevan bien con los niños y otros animales. Aunque pueden ser un poco tercos a veces, su amor y lealtad hacia sus familias es inigualable.
+      <br>
+      <br>
+      En resumen, la historia del Norfolk Terrier es una historia de adaptabilidad y resistencia. Desde sus humildes comienzos como cazadores de ratas y zorros hasta su estatus actual como queridos perros de compañía, los Norfolk Terriers han demostrado una y otra vez que son una raza verdaderamente especial.
+    `,
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Bueno para familias',
@@ -14735,7 +14932,7 @@ fuentes: [
       'Requiere poco mantenimiento del pelaje',
       'Energético y juguetón',
     ],
-    color: ['Rojo', 'Negro y tostado', 'Grisáceo'], // Añadido basándose en los colores comunes de la raza
+    color: ['Rojo', 'Negro y tostado', 'Grisáceo'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
@@ -14748,6 +14945,54 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas dentales', 'Problemas cardíacos'],
     gallery: ['https://cdn2.thedogapi.com/images/B1ADQg94X_390x256.jpg'],
+    searchTerms: [
+      'Norfolk Terrier',
+      'Terrier',
+      'Caza de ratas',
+      'Salida de zorros',
+      'Norfolk',
+      'Terrier',
+      'Terrier Norfolk',
+      'Norfolc Terrier',
+      'Norfolc',
+      'Terrier Norfolc',
+      'Terrier de Norfolk',
+      'Perro Norfolk',
+      'Perro de Norfolk',
+      'Perro Terrier Norfolk',
+      'Perro Norfolk Terrier',
+      'Perro Terrier de Norfolk',
+      'Perro de Norfolk Terrier',
+      'Raza Norfolk',
+      'Raza Norfolk Terrier',
+      'Raza de Norfolk',
+      'Raza de Norfolk Terrier',
+      'Raza Terrier Norfolk',
+      'Raza Terrier de Norfolk',
+      'Perro pequeño',
+      'Perro de tamaño pequeño',
+      'Perro compacto',
+      'Perro de pelo duro',
+      'Perro cazador de ratas',
+      'Perro de caza',
+      'Perro británico',
+      'Perro del Reino Unido',
+      'Perro inglés',
+      'Perro de Inglaterra'
+    ],
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+    'https://www.thesprucepets.com/norfolk-terrier-dog-breed-profile-4781285',
+    'https://en.wikipedia.org/wiki/Norfolk_Terrier',
+    'https://www.hillspet.com/dog-care/dog-breeds/norfolk-terrier'
+    ]
   },
   113: {
     weight: {
@@ -14770,7 +15015,7 @@ fuentes: [
       'Sensible',
       'Inteligente',
     ],
-    origin: 'Reino Unido', // Añadido basándose en el origen conocido de la raza
+    origin: 'Reino Unido',
     reference_image_id: 'BkgKXlqE7',
     image: {
       id: 'BkgKXlqE7',
@@ -14778,17 +15023,49 @@ fuentes: [
       height: 640,
       url: 'https://cdn2.thedogapi.com/images/BkgKXlqE7.jpg',
     },
-    searchTerms: [
-      'Terrier de Norwich',
-      'Terrier',
-      'Caza de ratas',
-      'Caza de zorros',
-    ],
-    country_code: 'GB', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Terrier de Norwich es conocido por ser resistente, cariñoso, energético, sensible e inteligente. A pesar de su pequeño tamaño, es un excelente cazador y puede ser un maravilloso compañero de hogar.',
-    history:
-      'El Terrier de Norwich se originó en el Reino Unido y fue criado principalmente para la caza de ratas y zorros. A pesar de su pequeño tamaño, es resistente y tiene un temperamento cariñoso y enérgico.',
+    country_code: 'GB',
+    description: `
+      El Terrier de Norwich es una raza de perro que se distingue por su pequeño tamaño, su espíritu vivaz y su carácter amigable. Originarios del Reino Unido, estos perros son conocidos por su valentía y su disposición para enfrentarse a cualquier desafío, a pesar de su pequeño tamaño.
+      <br>
+      <br>
+      El Terrier de Norwich es un perro compacto, con una estructura sólida y fuerte. Su altura a la cruz suele ser de unos 25 a 26 centímetros, y su peso oscila entre los 5 y los 5,5 kilogramos. A pesar de su pequeño tamaño, estos perros son robustos y bien proporcionados, con una apariencia que denota fuerza y resistencia.
+      <br>
+      <br>
+      La cabeza del Terrier de Norwich es amplia y ligeramente redondeada, con unos ojos oscuros y brillantes que expresan inteligencia y vivacidad. Sus orejas, que son una de sus características más distintivas, son pequeñas, erectas y puntiagudas, lo que le da al perro una expresión alerta y despierta.
+      <br>
+      <br>
+      El pelaje del Terrier de Norwich es duro, denso y de longitud media, lo que le proporciona una buena protección contra las inclemencias del tiempo. El color del pelaje puede variar, siendo los más comunes el rojo, el negro y tostado, el trigo y el grisáceo.
+      <br>
+      <br>
+      En cuanto a su carácter, el Terrier de Norwich es conocido por su temperamento alegre y su naturaleza amigable. Son perros que se llevan bien con las personas, incluyendo a los niños, y que también pueden convivir pacíficamente con otros animales. A pesar de su pequeño tamaño, son perros valientes que no dudarán en enfrentarse a cualquier desafío.
+      <br>
+      <br>
+      El Terrier de Norwich es un perro activo y enérgico, que necesita ejercicio regular para mantenerse en forma. A pesar de su tamaño, son perros que disfrutan de largas caminatas y de juegos al aire libre. También son perros inteligentes, que disfrutan de los desafíos mentales y que se benefician de la formación y la socialización temprana.
+      <br>
+      <br>
+      En cuanto a su salud, el Terrier de Norwich es generalmente un perro saludable, aunque puede ser propenso a ciertas condiciones genéticas, como la luxación de rótula y ciertos problemas oculares. Sin embargo, con los cuidados adecuados y una alimentación equilibrada, estos perros pueden vivir hasta los 14 años o más.
+      <br>
+      <br>
+      En resumen, el Terrier de Norwich es un perro pequeño con un gran corazón. Su carácter amigable, su inteligencia y su valentía hacen de él un excelente compañero para cualquier tipo de familia. Ya sea que viva en un apartamento en la ciudad o en una casa con un gran jardín, este perro se adaptará a su entorno y llenará su hogar de alegría y diversión.
+    `,
+    history: `
+      El Terrier de Norwich es una raza de perro que tiene sus raíces en el siglo XIX en East Anglia, Inglaterra. Originalmente, estos perros eran utilizados como terriers de trabajo, destacándose en la caza de ratones en los establos y zorros en sus madrigueras. Además de su función como cazadores, los Terrier de Norwich también eran apreciados como compañeros de familia, gracias a su carácter afectuoso y su disposición amigable.
+      <br>
+      <br>
+      Se cree que los Terrier de Norwich descienden de pequeños terriers rojos, posiblemente del Irish Terrier o del Trumpington Terrier, una raza que ya se encuentra extinta. En sus primeros años, la raza era conocida como Jones Terrier y Cantab Terrier, y también se convirtió en la mascota de los estudiantes de la Universidad de Cambridge, lo que contribuyó a su popularidad.
+      <br>
+      <br>
+      Desde su reconocimiento como raza, los Terrier de Norwich presentaban dos variedades en cuanto a la forma de sus orejas: una con orejas erectas, que es la que conocemos hoy como Norwich Terrier, y otra con orejas caídas, que se conoce como Norfolk Terrier. Ambos tipos eran permitidos en las exposiciones caninas hasta que se prohibió recortar las orejas caídas.
+      <br>
+      <br>
+      Esta situación generó controversia en la comunidad canina, ya que se debatía si se debían permitir los perros con orejas caídas en las exposiciones y si la diferencia entre las dos variedades era solo en las orejas o también en aspectos más profundos, como la estructura y personalidad de los perros.
+      <br>
+      <br>
+      A partir de la década de 1930, se realizaron esfuerzos para distinguir ambas razas. Aunque los Norfolk Terrier y Norwich Terrier se cruzaron durante un tiempo, ahora se consideran dos razas distintas. En 1964, el Kennel Club reconoció oficialmente a los Norfolk Terrier como una raza aparte, y esta diferenciación fue reconocida por otras organizaciones caninas en años posteriores.
+      <br>
+      <br>
+      En 2006, el Norwich Terrier fue catalogado como una de las razas más raras y vulnerables de las Islas Británicas debido al bajo número de registros de cachorros, especialmente en 2004 cuando solo se registraron 124 cachorros. A pesar de esta situación, la raza sigue siendo apreciada por su carácter amigable y su valentía, y continúa siendo una opción popular para aquellos que buscan un perro de compañía que sea pequeño, activo y lleno de personalidad.
+    `,
     categoria_de_tamanio: 'Muy pequeño',
     perks: [
       'Bueno para familias',
@@ -14796,7 +15073,7 @@ fuentes: [
       'Requiere poco mantenimiento del pelaje',
       'Energético y juguetón',
     ],
-    color: ['Rojo', 'Negro y tostado', 'Grisáceo'], // Añadido basándose en los colores comunes de la raza
+    color: ['Rojo', 'Negro y tostado', 'Grisáceo'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
@@ -14809,6 +15086,54 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Problemas dentales', 'Problemas cardíacos'],
     gallery: ['https://cdn2.thedogapi.com/images/BkgKXlqE7_390x256.jpg'],
+    searchTerms: [
+      'Terrier de Norwich',
+      'Terrier',
+      'Caza de ratas',
+      'Caza de zorros',
+      'Norwich Terrier',
+      'Terrier Norwich',
+      'Norwich',
+      'Terrier',
+      'Terrier de caza',
+      'Perro de caza',
+      'Perro pequeño',
+      'Perro compañía',
+      'Perro activo',
+      'Perro valiente',
+      'Perro amigable',
+      'Perro para niños',
+      'Perro para familia',
+      'Perro para casa',
+      'Perro para apartamento',
+      'Perro inglés',
+      'Perro de Inglaterra',
+      'Perro británico',
+      'Perro de Reino Unido',
+      'Perro de East Anglia',
+      'Perro cazador de ratones',
+      'Perro cazador de zorros',
+      'Perro de pelo corto',
+      'Perro de pelo duro',
+      'Perro de doble capa',
+      'Perro de orejas erectas',
+      'Perro de orejas paradas',
+      'Perro de tamaño pequeño',
+      'Perro de raza pequeña'
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+    'https://es.wikipedia.org/wiki/Terrier_de_Norwich',
+    'https://www.royalcanin.com/es/dogs/breeds/breed-library/norwich-terrier',
+    'https://www.petdarling.com/terrier-de-norwich/'
+    ]
   },
   114: {
     weight: {
@@ -14821,7 +15146,7 @@ fuentes: [
     },
     id: 114,
     name: 'Retriever de Nueva Escocia',
-    bred_for: ['Recuperación de aves acuáticas'], // Añadido basándose en el propósito conocido de la raza
+    bred_for: ['Recuperación de aves acuáticas'],
     breed_group: ['Deportivo'],
     life_span: '12 - 14 años',
     temperament: [
@@ -14831,7 +15156,7 @@ fuentes: [
       'Inteligente',
       'Amoroso',
     ],
-    origin: 'Canadá', // Añadido basándose en el origen conocido de la raza
+    origin: 'Canadá',
     reference_image_id: 'SyYtQe5V7',
     image: {
       id: 'SyYtQe5V7',
@@ -14839,16 +15164,40 @@ fuentes: [
       height: 420,
       url: 'https://cdn2.thedogapi.com/images/SyYtQe5V7.jpg',
     },
-    searchTerms: [
-      'Retriever de Nueva Escocia',
-      'Deportivo',
-      'Recuperación de aves acuáticas',
-    ],
-    country_code: 'CA', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Retriever de Nueva Escocia es una raza de perro extrovertida, alerta, paciente, inteligente y amorosa. Son conocidos por su habilidad para recuperar aves acuáticas y su amor por el agua.',
-    history:
-      'Originario de Canadá, el Retriever de Nueva Escocia se utilizó originalmente para recuperar aves acuáticas en la caza. A pesar de su tamaño medio, son fuertes nadadores y tienen una gran resistencia.',
+    country_code: 'CA',
+    description: `
+      El Retriever de Nueva Escocia, también conocido como Toller Retriever, es una raza de perro de caza de tamaño medio originaria del suroeste de Nueva Escocia, Canadá. Esta raza es la más pequeña entre los retrievers y es reconocida por su habilidad para atraer aves acuáticas dentro del alcance de tiro. Los Tollers se utilizaban para la caza de patos con señuelos vivos y para la recuperación de presas.
+      <br>
+      <br>
+      Físicamente, los Tollers son proporcionados y musculosos, con huesos relativamente pesados pero gran agilidad. Poseen un pelaje doble resistente al agua que puede presentarse en varios tonos de rojo o naranja. Este pelaje, junto con su resistencia y habilidades de natación, les permite sobresalir en la recuperación tanto en tierra como en agua.
+      <br>
+      <br>
+      En cuanto a su temperamento, los Tollers son perros altamente inteligentes, entrenables y enérgicos. Son alertas y tercos, mostrando una intensa concentración y emoción cuando trabajan. Estas características los hacen adecuados para diversas competencias y tareas. Además, son conocidos por ser juguetones, lo que los convierte en excelentes compañeros para cualquier familia.
+      <br>
+      <br>
+      A pesar de ser generalmente saludables, los Tollers pueden ser propensos a trastornos genéticos como la Atrofia Progresiva de la Retina (PRA), incluyendo el tipo conocido como Ojo de Cereza, que causa la degeneración de las células de la retina y eventual ceguera. La Anomalía del Ojo del Collie, problemas de tiroides, epilepsia y displasia de cadera también son preocupaciones en la raza. La enfermedad de Addison afecta a un pequeño porcentaje de perros y presenta síntomas como letargo, disminución del apetito, vómitos, debilidad, temblores y aumento del consumo de agua. Existen pruebas de salud disponibles para estas condiciones.
+      <br>
+      <br>
+      En resumen, el Retriever de Nueva Escocia es un perro resistente con un fuerte instinto de recuperación y un amor por el agua. Su inteligencia, energía y habilidades de trabajo los hacen ideales para una variedad de roles, desde compañeros de familia hasta perros de trabajo en la caza y recuperación. Su esperanza de vida promedio es de 10 a 14 años, lo que refleja su resistencia y fortaleza.
+    `,
+    history: `
+      El Retriever de Nueva Escocia, también conocido como Toller, tiene una historia fascinante que se remonta a los primeros colonos de Nueva Escocia, una provincia en el este de Canadá. Esta raza única fue desarrollada en el siglo XIX en la región de Little River Harbour en Yarmouth County, Nueva Escocia, de ahí su nombre.
+      <br>
+      <br>
+      Los primeros colonos de la región necesitaban un perro que pudiera soportar las duras condiciones climáticas, que fuera lo suficientemente pequeño para ser fácil de transportar en barco y que tuviera la habilidad de atraer y recuperar aves acuáticas. Para lograr esto, se cree que los Tollers son el resultado de cruces selectivos entre perros de trabajo locales y razas importadas. Aunque los detalles exactos de su linaje son desconocidos, se piensa que los perros de agua, los spaniels de campo y los retrievers de trabajo pueden haber jugado un papel en su desarrollo.
+      <br>
+      <br>
+      El Toller fue criado específicamente para una técnica de caza única conocida como "tolling". El término "tolling" proviene de la antigua palabra inglesa "tollen", que significa "atraer". En la caza, los Tollers se utilizaban para atraer a las aves acuáticas a la orilla con su juego animado y su pelaje de color zorro. Una vez que las aves estaban al alcance, el cazador las disparaba y el Toller las recuperaba.
+      <br>
+      <br>
+      A pesar de su eficacia como perro de caza, el Toller permaneció relativamente desconocido fuera de Nueva Escocia hasta principios del siglo XX. Fue en 1945 cuando la Canadian Kennel Club reconoció oficialmente a la raza, aunque en ese momento se le conocía como el "Little River Duck Dog". No fue hasta 1980 que la raza fue renombrada como el "Nova Scotia Duck Tolling Retriever".
+      <br>
+      <br>
+      Desde entonces, la popularidad del Toller ha crecido tanto en Canadá como en el extranjero. Aunque sigue siendo una raza relativamente rara, los Tollers se han ganado un lugar en los hogares y los corazones de muchos dueños de perros gracias a su inteligencia, su energía y su carácter afectuoso. Además de su papel tradicional como perro de caza, los Tollers también han demostrado ser excelentes en una variedad de actividades caninas, incluyendo la obediencia, la agilidad y la búsqueda y rescate.
+      <br>
+      <br>
+      En resumen, la historia del Retriever de Nueva Escocia es una historia de adaptabilidad y versatilidad. Desde sus humildes comienzos en las costas de Nueva Escocia hasta su reconocimiento internacional como una raza de perro distinta, el Toller ha demostrado ser un perro de trabajo excepcional y un compañero leal. Con su inteligencia, su energía y su amor por el agua, no hay duda de que el Toller continuará cautivando a los amantes de los perros en los años venideros.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Bueno para familias',
@@ -14856,7 +15205,7 @@ fuentes: [
       'Requiere ejercicio regular',
       'Ama el agua',
     ],
-    color: ['Rojo', 'Naranja'], // Añadido basándose en los colores comunes de la raza
+    color: ['Rojo', 'Naranja'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
@@ -14869,6 +15218,51 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas oculares'],
     gallery: ['https://cdn2.thedogapi.com/images/SyYtQe5V7_390x256.jpg'],
+    searchTerms: [
+      'Retriever de Nueva Escocia',
+      'Deportivo',
+      'Recuperación de aves acuáticas',
+      'Retriever de nueva escocia',
+      'retriever de Nueva Escocia',
+      'retriever de nueva escocia',
+      'Retriever Nueva Escocia',
+      'Retriever nueva escocia',
+      'retriever Nueva Escocia',
+      'retriever nueva escocia',
+      'Nueva Escocia Retriever',
+      'nueva escocia retriever',
+      'Nueva escocia Retriever',
+      'nueva Escocia retriever',
+      'Toller',
+      'toller',
+      'Nova Scotia Duck Tolling Retriever',
+      'nova scotia duck tolling retriever',
+      'Nova scotia duck tolling retriever',
+      'nova Scotia duck tolling retriever',
+      'Perro de agua',
+      'perro de agua',
+      'Perro de caza',
+      'perro de caza',
+      'Perro canadiense',
+      'perro canadiense',
+      'Perro de Nueva Escocia',
+      'perro de nueva escocia',
+      'Perro de nueva escocia',
+      'perro de Nueva Escocia'
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://es.wikipedia.org/wiki/Retriever_de_Nueva_Escocia',
+      'https://www.wikiwand.com/es/Retriever_de_Nueva_Escocia',
+      'https://www.royalcanin.com/ec/dogs/breeds/breed-library/nova-scotia-duck-tolling-retriever'
+    ]
   },
   115: {
     weight: {
@@ -14892,7 +15286,7 @@ fuentes: [
       'Inteligente',
       'Amoroso',
     ],
-    origin: 'Inglaterra', // Añadido basándose en el origen conocido de la raza
+    origin: 'Inglaterra',
     reference_image_id: 'HkZ57lq4m',
     image: {
       id: 'HkZ57lq4m',
@@ -14900,17 +15294,40 @@ fuentes: [
       height: 889,
       url: 'https://cdn2.thedogapi.com/images/HkZ57lq4m.jpg',
     },
-    searchTerms: [
-      'Pastor Inglés Antiguo',
-      'Pastoreo',
-      'Manejo de ovejas',
-      'Manejo de ganado',
-    ],
-    country_code: 'GB', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Pastor Inglés Antiguo es un perro sociable, efervescente, juguetón, adaptable, inteligente y amoroso. Es conocido por su habilidad para manejar ovejas y ganado.',
-    history:
-      'El Pastor Inglés Antiguo es originario de Inglaterra, donde se utilizó principalmente para manejar ovejas y ganado. Con su pelaje largo y abundante, este perro robusto y fuerte es un trabajador nato.',
+    country_code: 'GB',
+    description: `
+      El Pastor Inglés Antiguo, también conocido como Bobtail, es una raza de perro que se distingue por su abundante pelaje y su cola naturalmente corta o inexistente. Originario de Inglaterra, este perro de trabajo se utilizaba principalmente para el pastoreo de ovejas y ganado. Su pelaje espeso y resistente al agua le proporcionaba protección contra las inclemencias del tiempo en las colinas y montañas británicas.
+      <br>
+      <br>
+      El Pastor Inglés Antiguo es un perro de gran tamaño, con un cuerpo robusto y fuerte. Su cabeza es grande y cuadrada, con ojos oscuros y orejas pequeñas que caen a los lados de la cabeza. Pero lo más destacado de esta raza es su pelaje, que es largo, espeso y ligeramente ondulado. Los colores más comunes son el gris, el azul, el negro y el blanco, aunque también pueden presentar tonos marrones y cremas.
+      <br>
+      <br>
+      El Pastor Inglés Antiguo es conocido por su temperamento equilibrado y su naturaleza amigable. Son perros inteligentes, leales y muy buenos con los niños, lo que los convierte en excelentes mascotas familiares. A pesar de su tamaño, son perros bastante tranquilos y disfrutan de la compañía de su familia humana. Sin embargo, también son perros de trabajo y necesitan ejercicio regular para mantenerse sanos y felices.
+      <br>
+      <br>
+      En cuanto a su salud, el Pastor Inglés Antiguo es generalmente una raza saludable, pero puede ser propenso a ciertas condiciones genéticas. Entre ellas se incluyen la displasia de cadera, una afección común en las razas de perros grandes, y ciertos problemas oculares. Es importante realizar chequeos veterinarios regulares y mantener al día las vacunas para asegurar la salud de estos perros.
+      <br>
+      <br>
+      En resumen, el Pastor Inglés Antiguo es un perro de trabajo leal y amigable, conocido por su pelaje espeso y su naturaleza tranquila. Son excelentes mascotas familiares y se llevan bien con los niños y otros animales. Aunque requieren un cuidado regular del pelaje y ejercicio regular, su naturaleza amigable y su lealtad hacen que cualquier esfuerzo valga la pena.
+    `,
+    history: `
+      El Pastor Inglés Antiguo, también conocido como Bobtail, es una raza de perro que tiene una historia rica y fascinante. Su origen se remonta al siglo XVIII en Inglaterra, donde se desarrolló a partir de perros de granja traídos por colonos ingleses y escoceses. Estos perros eran apreciados por su versatilidad y habilidad para realizar diversas tareas, como el pastoreo de ganado, la caza y el control de plagas. Sin embargo, lo que realmente distingue a esta raza es su apariencia única, con su cuerpo robusto y su largo y lanudo pelaje.
+      <br>
+      <br>
+      El Pastor Inglés Antiguo fue criado para ser un perro de trabajo, y su resistencia y habilidades de pastoreo se pusieron a prueba en las colinas y montañas de Inglaterra. Su pelaje espeso y resistente al agua le proporcionaba protección contra las inclemencias del tiempo, mientras que su inteligencia y agilidad le permitían manejar rebaños de ovejas y ganado con facilidad. A pesar de su tamaño, estos perros eran conocidos por su energía y resistencia, y se les requería trabajar largas horas en el campo.
+      <br>
+      <br>
+      El apodo de "Bobtail" proviene de una curiosa historia en la que las colas de los perros de pastoreo exentos de impuestos se cortaban (bobbed) en la Inglaterra del siglo XVIII. Este rasgo distintivo se ha mantenido en la raza hasta el día de hoy, y es una de las características que más la distinguen.
+      <br>
+      <br>
+      A lo largo de los años, el Pastor Inglés Antiguo ha demostrado ser un perro de trabajo excepcionalmente capaz. Sin embargo, también se ha ganado un lugar en los hogares y los corazones de las personas debido a su naturaleza amigable y leal. Son perros inteligentes y cariñosos, conocidos por su paciencia y su buen comportamiento con los niños. A pesar de su energía y su necesidad de ejercicio, también son perros tranquilos que disfrutan de la compañía de su familia humana.
+      <br>
+      <br>
+      Aunque la popularidad del Pastor Inglés Antiguo ha disminuido en las últimas décadas, la raza sigue siendo apreciada por su versatilidad, su inteligencia y su temperamento equilibrado. Hoy en día, estos perros se pueden encontrar en todo el mundo, tanto en granjas como en hogares, donde continúan demostrando su habilidad para trabajar y su amor por la familia.
+      <br>
+      <br>
+      En resumen, la historia del Pastor Inglés Antiguo es una de adaptabilidad y resistencia. Desde sus orígenes como perro de trabajo en las colinas de Inglaterra hasta su lugar en los hogares modernos, esta raza ha demostrado una y otra vez su valor y su carácter único. Con su pelaje espeso y su cola bobbed, el Pastor Inglés Antiguo es un perro inolvidable con una historia igualmente inolvidable.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Bueno para familias',
@@ -14936,6 +15353,59 @@ fuentes: [
       'Problemas de sordera',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/HkZ57lq4m_390x256.jpg'],
+    searchTerms: [
+      'Pastor Inglés Antiguo',
+      'Pastoreo',
+      'Manejo de ovejas',
+      'Manejo de ganado',
+      'Pastor Ingles Antiguo',
+      'Pastor inglés antiguo',
+      'Pastor ingles antiguo',
+      'Bobtail',
+      'bob tail',
+      'Viejo Pastor Inglés',
+      'Viejo pastor inglés',
+      'Viejo Pastor Ingles',
+      'Viejo pastor ingles',
+      'Perro pastor',
+      'Perro de trabajo',
+      'Perro de granja',
+      'Perro de rebaño',
+      'Perro de pastoreo',
+      'Perro de familia',
+      'Perro de compañía',
+      'Perro guardián',
+      'Perro grande',
+      'Perro lanudo',
+      'Perro pelo largo',
+      'Perro resistente',
+      'Perro robusto',
+      'Perro fuerte',
+      'Perro activo',
+      'Perro energético',
+      'Perro inteligente',
+      'Perro adaptable',
+      'Perro confiable',
+      'Perro paciente'
+    ],
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+    {
+    nombre: 'Fernville Lord Digby',
+    caso: 'Famoso por ser el perro de la publicidad de pinturas Dulux desde la década de 1960'
+    }
+    ],
+    fuentes: [
+    'https://en.wikipedia.org/wiki/Old_English_Sheepdog',
+    'https://www.akc.org/dog-breeds/old-english-sheepdog/',
+    'https://www.akc.org/expert-advice/dog-breeds/10-interesting-facts-about-the-old-english-sheepdog/'
+    ]
   },
   116: {
     weight: {
@@ -14967,12 +15437,31 @@ fuentes: [
       height: 546,
       url: 'https://cdn2.thedogapi.com/images/B1d5me547.jpg',
     },
-    searchTerms: ['Antiguo Bulldog Inglés', 'Molosoide', 'Guardia', 'Compañía'],
     country_code: 'GB', // Añadido basándose en el origen conocido de la raza
-    description:
-      'El Antiguo Bulldog Inglés es un perro amigable, alerta, confiado, amoroso, valiente y fuerte. Es conocido por su lealtad y su aptitud como mascota de familia.',
-    history:
-      'El Antiguo Bulldog Inglés es una reinvención de la raza original del Bulldog Inglés que fue criada para ser más saludable y tener un temperamento más estable.',
+    description: `
+    El Bulldog Inglés, también conocido simplemente como Bulldog, es una raza de perro que se originó en el Reino Unido. Su antepasado, el antiguo Bulldog Inglés, fue utilizado en la práctica del cebo de toros hasta que esta fue prohibida en 1835. Hoy en día, el Bulldog es uno de los símbolos de Inglaterra, y su apariencia distintiva y su carácter amigable lo han convertido en una de las razas de perro más queridas en todo el mundo.
+
+    El Bulldog Inglés se caracteriza por su apariencia robusta y poderosa. Tiene unos hombros gruesos, una cabeza grande y redonda, y pliegues de piel en la frente. Su hocico es corto, lo que le da una cara "aplastada", y sus labios son colgantes y presentan dientes puntiagudos. Sus ojos son oscuros y sus mejillas son prominentes. El cuello es corto y grueso, los hombros son musculosos y anchos, y el pecho es profundo. Las patas son cortas pero fuertes, y la cola puede ser recta o enroscada. Su pelaje es corto y viene en varios colores, y su piel es suelta, con arrugas y pliegues en la cara.
+
+    En cuanto a su temperamento, el Bulldog Inglés es un perro dulce, confiable y excelente como compañero de familia. Aunque pueden ser buenos perros guardianes, pueden mostrar agresividad hacia perros desconocidos. Son adecuados para vivir en apartamentos y no necesitan mucho ejercicio. Tienen una mayor sensibilidad a las temperaturas extremas y pueden babear y roncar.
+
+    El Bulldog Inglés requiere cuidados específicos para su salud. Debido a su cara plana, pueden experimentar dificultades respiratorias y son sensibles al calor. Se recomienda un ejercicio moderado, evitando el calor extremo y nunca dejándolos en un coche cerrado. Los Bulldogs Ingleses necesitan paseos diarios y deben vivir en interiores debido a su sensibilidad a las condiciones climáticas y su necesidad de compañía. Su pelaje requiere un cepillado regular y una limpieza de las arrugas.
+
+    Esta raza puede ser propensa a enfermedades hereditarias y problemas de salud como la displasia de cadera y codo, problemas respiratorios, cataratas y torsión gástrica. La dificultad respiratoria es común debido a su cara plana. La reproducción puede requerir asistencia humana durante el apareamiento y el parto.
+
+    En resumen, el Bulldog Inglés es una raza de perro que combina una apariencia única y poderosa con un carácter dulce y confiable. A pesar de sus necesidades de cuidado específicas y su sensibilidad a ciertas condiciones, es una raza que puede ofrecer mucha alegría y compañía a aquellos que están dispuestos a dedicarle el tiempo y el cuidado que necesita.
+    `,
+    history: `
+    El Bulldog Inglés, también conocido simplemente como Bulldog, es una raza de perro que se originó en el Reino Unido. Su antepasado, el antiguo Bulldog Inglés, fue utilizado en la práctica del cebo de toros hasta que esta fue prohibida en 1835. Desde entonces, el Bulldog ha pasado por una serie de cambios a través de la cría selectiva, transformándose de un perro de trabajo robusto y resistente en el amigable y cariñoso compañero que conocemos hoy.
+
+    La historia del Bulldog Inglés se remonta al siglo XVI, cuando se utilizaba para controlar el ganado y participar en el cebo de toros, una práctica en la que un perro se enfrentaba a un toro como forma de entretenimiento. Esta práctica, aunque brutal, ayudó a dar forma a las características físicas y temperamentales del Bulldog. Los Bulldogs de esta época eran perros fuertes, valientes y tenaces, capaces de soportar el dolor y la adversidad.
+
+    Con la prohibición del cebo de toros en 1835, el Bulldog perdió su propósito original. Sin embargo, en lugar de desaparecer, la raza comenzó a transformarse. Los criadores comenzaron a seleccionar perros que eran más dóciles y amigables, y con el tiempo, el Bulldog se convirtió en un perro de compañía popular.
+
+    El Bulldog de hoy es conocido por su apariencia distintiva y su naturaleza amable. Tiene hombros gruesos, una cabeza grande, piel arrugada y un hocico corto. A pesar de su apariencia robusta, los Bulldogs son conocidos por su inteligencia y su naturaleza gentil. Sin embargo, debido a sus características físicas, los Bulldogs son propensos a varios problemas de salud, incluyendo golpes de calor, problemas respiratorios y obesidad. Por lo tanto, requieren cuidados veterinarios regulares, ejercicio y una dieta equilibrada para mantener su bienestar.
+
+    La historia del Bulldog Inglés es un testimonio de la resiliencia y la adaptabilidad de esta raza. A pesar de los desafíos y cambios que ha enfrentado a lo largo de los siglos, el Bulldog ha logrado no solo sobrevivir, sino prosperar. Hoy en día, es una de las razas de perro más queridas y reconocibles del mundo, y continúa siendo un símbolo de tenacidad y coraje.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro guardián',
@@ -14997,6 +15486,50 @@ fuentes: [
       'Problemas respiratorios',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/B1d5me547_390x256.jpg'],
+    searchTerms: [
+      'Antiguo Bulldog Inglés',
+      'Molosoide',
+      'Guardia',
+      'Compañía',
+      "Bulldog Ingles",
+      "Bulldog",
+      "Ingles",
+      "Perro Ingles",
+      "Perro Bulldog",
+      "Bulldog de Inglaterra",
+      "Bulldog de inglaterra",
+      "Bulldog de Inglaterra",
+      "Bulldog de inglaterra",
+      "Bulldog británico",
+      "Bulldog britanico",
+      "Perro británico",
+      "Perro britanico",
+      "Perro de compañía",
+      "Perro de compania",
+      "Perro familiar",
+      "Perro robusto",
+      "Perro fuerte",
+      "Perro compacto",
+      "Perro arrugado",
+      "Perro de raza",
+      "Raza Bulldog",
+      "Raza de perro Bulldog",
+      "Raza de perro Ingles",
+      "Raza de perro ingles",
+      "Raza de perro Bulldog Ingles",
+      "Raza de perro Bulldog ingles",
+      "Raza de perro Bulldog Inglés",
+      "Raza de perro Bulldog Ingles"
+    ],
+    "tendencia_a_ladrar": "Baja",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Baja",
+    "para_primerizos": "Alta",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": ["https://www.thesprucepets.com/bulldog-4584344", "https://www.hillspet.com/dog-care/dog-breeds/english-bulldog"]
   },
   117: {
     weight: {

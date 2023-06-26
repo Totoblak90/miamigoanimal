@@ -168,58 +168,6 @@ export class AppComponent implements OnInit {
     // @ts-ignore
     gtag('config', 'G-H7X6015BYD');
 
-    // DEJO TODO ESTO PARA DESPUÉS POR SI ANALYTICS NO LO CONFIGURA SOLO
-    // // Eventos para vista de página
-    // // @ts-ignore
-    // gtag('event', 'page_view', {
-    //   'page_path': this.router.url,
-    //   'page_title': this.titleSrv.getTitle(),
-    //   'page_location': window.location.href
-    // })
-
-
-    // // Eventos para botones
-    // // @ts-ignore
-    // Array.from(this.document.getElementsByTagName('button')).forEach((button, index) => {
-    //   button.addEventListener('click', function(ev) {
-    //     // Usa el texto del botón como etiqueta del evento
-    //     const eventLabel = this.innerText || `button_${index}`;
-    //     console.log(`button event label: ${eventLabel}`)
-    //     // @ts-ignore
-    //     gtag('event', 'click', {
-    //       'event_category': 'button',
-    //       'event_label': eventLabel
-    //     });
-    //   });
-    // });
-
-    // // Eventos para formularios
-    // // @ts-ignore
-    // Array.from(this.document.getElementsByTagName('form')).forEach((form, index) => {
-    //   form.addEventListener('submit', function(ev) {
-    //     // Usa el índice del formulario como etiqueta del evento
-    //     const eventLabel = `form_${index}`;
-    //     // @ts-ignore
-    //     gtag('event', 'submit', {
-    //       'event_category': 'form',
-    //       'event_label': eventLabel
-    //     });
-    //   });
-    // });
-
-    // // Eventos para enlaces
-    // // @ts-ignore
-    // Array.from(this.document.getElementsByTagName('a')).forEach((form, index) => {
-    //   form.addEventListener('click', function(ev) {
-    //     // Usa el índice del enlace como etiqueta del evento
-    //     const eventLabel = `anchor_${index}`;
-    //     // @ts-ignore
-    //     gtag('event', 'submit', {
-    //       'event_category': 'form',
-    //       'event_label': eventLabel
-    //     });
-    //   });
-    // });
   }
 
 }
