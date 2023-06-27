@@ -22444,58 +22444,58 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Sabueso',
       'Perro tranquilo',
       'Perro afectuoso',
-      "Guipet",
-      "Whipp",
-      "Perro de carreras",
-      "Perro de caza",
-      "Perro de velocidad",
-      "Perro de compañía",
-      "Perro de exposición",
-      "Perro de agilidad",
-      "Perro de lure",
-      "Perro de flyball",
-      "Perro de raza pequeña",
-      "Perro de raza mediana",
-      "Perro de raza inglesa",
-      "Perro de raza británica",
-      "Perro de raza del Reino Unido",
-      "Perro de raza del norte de Inglaterra",
-      "Perro de raza de mineros",
-      "Perro de raza de carreras de trapo",
-      "Perro de raza de caza de conejos",
-      "Perro de raza de competencia",
-      "Perro de raza de competidor deportivo",
-      "Perro de raza de competidor de agilidad",
-      "Perro de raza de competidor de lure",
-      "Perro de raza de competidor de flyball",
-      "Perro de raza de competidor de carreras",
-      "Perro de raza de competidor de caza",
-      "Perro de raza de competidor de exposición",
-      "Perro de raza de competidor de compañía",
-      "Perro de raza de competidor de velocidad",
-      "uipet",
-      "wipet",
-      "uippet",
-      "wippet"
+      'Guipet',
+      'Whipp',
+      'Perro de carreras',
+      'Perro de caza',
+      'Perro de velocidad',
+      'Perro de compañía',
+      'Perro de exposición',
+      'Perro de agilidad',
+      'Perro de lure',
+      'Perro de flyball',
+      'Perro de raza pequeña',
+      'Perro de raza mediana',
+      'Perro de raza inglesa',
+      'Perro de raza británica',
+      'Perro de raza del Reino Unido',
+      'Perro de raza del norte de Inglaterra',
+      'Perro de raza de mineros',
+      'Perro de raza de carreras de trapo',
+      'Perro de raza de caza de conejos',
+      'Perro de raza de competencia',
+      'Perro de raza de competidor deportivo',
+      'Perro de raza de competidor de agilidad',
+      'Perro de raza de competidor de lure',
+      'Perro de raza de competidor de flyball',
+      'Perro de raza de competidor de carreras',
+      'Perro de raza de competidor de caza',
+      'Perro de raza de competidor de exposición',
+      'Perro de raza de competidor de compañía',
+      'Perro de raza de competidor de velocidad',
+      'uipet',
+      'wipet',
+      'uippet',
+      'wippet',
     ],
-    "tendencia_a_ladrar": "Baja",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Alta",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Jim the Whippet",
-    "caso": "Jim the Whippet fue un famoso perro de carreras en el Reino Unido durante la década de 1960. Ganó numerosas competencias y estableció varios récords de velocidad."
-    }
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Jim the Whippet',
+        caso: 'Jim the Whippet fue un famoso perro de carreras en el Reino Unido durante la década de 1960. Ganó numerosas competencias y estableció varios récords de velocidad.',
+      },
     ],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Whippet",
-    "https://www.dogbreedinfo.com/whippet.htm",
-    "https://www.ukcdogs.com/whippet"
-    ]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Whippet',
+      'https://www.dogbreedinfo.com/whippet.htm',
+      'https://www.ukcdogs.com/whippet',
+    ],
   },
   165: {
     weight: {
@@ -22598,49 +22598,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Pastor',
       'Entusiasta',
       'Alerta',
-      "Pastor Blanco Suizo",
-      "Pastor Blanco Americano",
-      "Pastor Blanco Canadiense",
-      "Perro de pastor",
-      "Perro de trabajo",
-      "Perro de servicio",
-      "Perro de terapia",
-      "Perro de rescate",
-      "Perro de búsqueda",
-      "Perro de pastoreo",
-      "Perro inteligente",
-      "Perro leal",
-      "Perro versátil",
-      "Perro de familia",
-      "Perro con niños",
-      "Perro protector",
-      "Perro guardián",
-      "Pastor",
-      "Blanco",
-      "Suizo",
-      "Americano",
-      "Canadiense",
-      "Perro grande",
-      "Perro activo",
-      "Perro atlético",
-      "Perro de pelo largo",
-      "Perro de pelo blanco",
-      "Perro de ojos claros",
-      "Perro de ojos oscuros"
+      'Pastor Blanco Suizo',
+      'Pastor Blanco Americano',
+      'Pastor Blanco Canadiense',
+      'Perro de pastor',
+      'Perro de trabajo',
+      'Perro de servicio',
+      'Perro de terapia',
+      'Perro de rescate',
+      'Perro de búsqueda',
+      'Perro de pastoreo',
+      'Perro inteligente',
+      'Perro leal',
+      'Perro versátil',
+      'Perro de familia',
+      'Perro con niños',
+      'Perro protector',
+      'Perro guardián',
+      'Pastor',
+      'Blanco',
+      'Suizo',
+      'Americano',
+      'Canadiense',
+      'Perro grande',
+      'Perro activo',
+      'Perro atlético',
+      'Perro de pelo largo',
+      'Perro de pelo blanco',
+      'Perro de ojos claros',
+      'Perro de ojos oscuros',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-      "https://www.dogbreedinfo.com/whitegermanshepherd.htm",
-      "https://www.akc.org/dog-breeds/berger-blanc-suisse/",
-      "https://www.ukcdogs.com/berger-blanc-suisse"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.dogbreedinfo.com/whitegermanshepherd.htm',
+      'https://www.akc.org/dog-breeds/berger-blanc-suisse/',
+      'https://www.ukcdogs.com/berger-blanc-suisse',
+    ],
   },
   166: {
     weight: {
@@ -22744,54 +22744,54 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Terrier',
       'Rápido',
       'Alerta',
-      "Fox Terrier",
-      "Terrier de Pelo Duro",
-      "Terrier",
-      "Fox Terrier Duro",
-      "Terrier Duro",
-      "Perro de caza",
-      "Perro cazador",
-      "Perro de madriguera",
-      "Perro británico",
-      "Perro inglés",
-      "Perro de compañía",
-      "Perro de exposición",
-      "Perro valiente",
-      "Perro enérgico",
-      "Perro inteligente",
-      "Perro de pelo áspero",
-      "Perro resistente",
-      "Perro para niños",
-      "Perro para familia",
-      "Perro activo",
-      "Perro de trabajo",
-      "Perro guardián",
-      "Perro de pelo duro",
-      "Perro de pelo resistente",
-      "Perro de raza pura",
-      "Perro de pedigree",
-      "Perro de raza",
-      "Perro de raza Fox Terrier",
-      "Perro de raza Terrier"
+      'Fox Terrier',
+      'Terrier de Pelo Duro',
+      'Terrier',
+      'Fox Terrier Duro',
+      'Terrier Duro',
+      'Perro de caza',
+      'Perro cazador',
+      'Perro de madriguera',
+      'Perro británico',
+      'Perro inglés',
+      'Perro de compañía',
+      'Perro de exposición',
+      'Perro valiente',
+      'Perro enérgico',
+      'Perro inteligente',
+      'Perro de pelo áspero',
+      'Perro resistente',
+      'Perro para niños',
+      'Perro para familia',
+      'Perro activo',
+      'Perro de trabajo',
+      'Perro guardián',
+      'Perro de pelo duro',
+      'Perro de pelo resistente',
+      'Perro de raza pura',
+      'Perro de pedigree',
+      'Perro de raza',
+      'Perro de raza Fox Terrier',
+      'Perro de raza Terrier',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Asta",
-    "caso": "Asta es un Fox Terrier de Pelo Duro que apareció en varias películas de la serie Thin Man en la década de 1930 y 1940."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Asta',
+        caso: 'Asta es un Fox Terrier de Pelo Duro que apareció en varias películas de la serie Thin Man en la década de 1930 y 1940.',
+      },
     ],
-    "fuentes": [
-    "https://www.dogbreedinfo.com/wirefoxterrier.htm",
-    "https://www.akc.org/dog-breeds/wire-fox-terrier/",
-    "https://en.wikipedia.org/wiki/Wire_Fox_Terrier"
-    ]
+    fuentes: [
+      'https://www.dogbreedinfo.com/wirefoxterrier.htm',
+      'https://www.akc.org/dog-breeds/wire-fox-terrier/',
+      'https://en.wikipedia.org/wiki/Wire_Fox_Terrier',
+    ],
   },
   167: {
     weight: {
@@ -22890,49 +22890,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Deportivo',
       'Entrenable',
       'Leal',
-      "Grifon de Puntero de Pelo Duro",
-      "Grifón de Puntero",
-      "Grifon de Puntero",
-      "Puntero de Pelo Duro",
-      "Grifón Korthals",
-      "Grifon Korthals",
-      "Korthals",
-      "Perro de caza",
-      "Perro de pelo duro",
-      "Grifón",
-      "Grifon",
-      "Perro de caza versátil",
-      "Perro resistente",
-      "Perro inteligente",
-      "Perro de caza resistente",
-      "Perro de caza inteligente",
-      "Perro de trabajo",
-      "Perro de campo",
-      "Perro de rastreo",
-      "Perro de recuperación",
-      "Perro de agua",
-      "Perro de tierra",
-      "Perro de terreno difícil",
-      "Perro de clima frío",
-      "Perro de clima cálido",
-      "Perro de familia",
-      "Perro de compañía",
-      "Perro activo",
-      "Perro enérgico"
+      'Grifon de Puntero de Pelo Duro',
+      'Grifón de Puntero',
+      'Grifon de Puntero',
+      'Puntero de Pelo Duro',
+      'Grifón Korthals',
+      'Grifon Korthals',
+      'Korthals',
+      'Perro de caza',
+      'Perro de pelo duro',
+      'Grifón',
+      'Grifon',
+      'Perro de caza versátil',
+      'Perro resistente',
+      'Perro inteligente',
+      'Perro de caza resistente',
+      'Perro de caza inteligente',
+      'Perro de trabajo',
+      'Perro de campo',
+      'Perro de rastreo',
+      'Perro de recuperación',
+      'Perro de agua',
+      'Perro de tierra',
+      'Perro de terreno difícil',
+      'Perro de clima frío',
+      'Perro de clima cálido',
+      'Perro de familia',
+      'Perro de compañía',
+      'Perro activo',
+      'Perro enérgico',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.dogbreedinfo.com/wirehairedpointinggriffon.htm",
-    "https://www.akc.org/dog-breeds/wirehaired-pointing-griffon/",
-    "https://www.ukcdogs.com/wirehaired-pointing-griffon"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.dogbreedinfo.com/wirehairedpointinggriffon.htm',
+      'https://www.akc.org/dog-breeds/wirehaired-pointing-griffon/',
+      'https://www.ukcdogs.com/wirehaired-pointing-griffon',
+    ],
   },
   // Checkpoint
   168: {
@@ -22946,11 +22946,11 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     id: 168,
     name: 'Vizsla de Pelo Duro',
-    bred_for: ['Perro de caza', 'Puntero', 'Recuperación'], // Suponiendo, ya que son usados comúnmente para estos propósitos
+    bred_for: ['Perro de caza', 'Puntero', 'Recuperación'],
     breed_group: ['Deportivo'],
     life_span: '12 - 14 años',
-    temperament: ['Cariñoso', 'Energético', 'Leal', 'Tranquilo'], // Suponiendo, ya que estas son características comunes de la raza
-    origin: 'Hungría', // Suponiendo, ya que es una raza de origen húngaro
+    temperament: ['Cariñoso', 'Energético', 'Leal', 'Tranquilo'],
+    origin: 'Hungría',
     reference_image_id: 'r1I4hl5Em',
     image: {
       id: 'r1I4hl5Em',
@@ -22960,10 +22960,46 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     country_code: 'HU',
     description: `
-
+      El Vizsla de Pelo Duro, también conocido como Wirehaired Vizsla, es una raza de perro de tamaño medio a grande que se distingue por su distintivo pelaje de alambre. Este pelaje, que le da su nombre, es denso, áspero al tacto y de longitud media, proporcionando una excelente protección contra los elementos y la vegetación áspera. El color del pelaje es generalmente de un tono dorado a marrón rojizo, a menudo descrito como "color de oro oscuro".
+      <br>
+      <br>
+      Los Vizslas de Pelo Duro son perros atléticos y bien musculados, construidos para la resistencia y la velocidad. Tienen cuerpos ligeramente más largos que altos, con pechos profundos y fuertes patas traseras. Sus cabezas son nobles y bien proporcionadas, con orejas medianas que cuelgan cerca de las mejillas y ojos de color marrón oscuro que expresan una mirada inteligente y alerta.
+      <br>
+      <br>
+      El Vizsla de Pelo Duro es conocido por su energía y su entusiasmo por la vida. Son perros activos que requieren mucho ejercicio y estimulación mental para mantenerse felices y saludables. Son excelentes compañeros para las actividades al aire libre y son conocidos por su habilidad para el trabajo en el campo, la caza y el seguimiento.
+      <br>
+      <br>
+      A pesar de su energía y su amor por el trabajo, los Vizslas de Pelo Duro también son perros cariñosos y leales que forman fuertes vínculos con sus familias. Son conocidos por su naturaleza amigable y su deseo de estar cerca de sus dueños. Son perros sociales que disfrutan de la compañía de otros perros y personas, y a menudo se llevan bien con los niños.
+      <br>
+      <br>
+      Los Vizslas de Pelo Duro son perros inteligentes y altamente entrenables. Responden bien a los métodos de entrenamiento positivos y son conocidos por su deseo de complacer. Sin embargo, también pueden ser un poco tercos a veces, por lo que es importante ser consistente y paciente durante el entrenamiento.
+      <br>
+      <br>
+      En cuanto a su salud, los Vizslas de Pelo Duro son generalmente perros saludables con una esperanza de vida de 12 a 14 años. Sin embargo, como todas las razas, pueden ser propensos a ciertas condiciones de salud, incluyendo displasia de cadera, enfermedades oculares y alergias de la piel.
+      <br>
+      <br>
+      En resumen, el Vizsla de Pelo Duro es una raza de perro activa, inteligente y cariñosa que puede hacer un maravilloso compañero para la persona o familia adecuada. Su energía, su amor por el trabajo y su lealtad a su familia hacen de esta raza una elección popular para aquellos que buscan un perro que pueda mantenerse al día con un estilo de vida activo y al aire libre.
     `,
     history: `
-
+      La historia del Vizsla de Pelo Duro, o Wirehaired Vizsla, es una historia de pasión por la caza, la cría selectiva y la supervivencia. Esta raza, originaria de Hungría, es relativamente nueva en comparación con muchas otras razas de perros, habiendo sido desarrollada en la década de 1930. Sin embargo, su linaje se remonta a los antiguos perros de caza que han sido valorados en Hungría durante siglos.
+      <br>
+      <br>
+      La historia del Vizsla de Pelo Duro comienza con el Vizsla de Pelo Corto, una raza de perro de caza muy apreciada en Hungría por su habilidad para trabajar en el campo, el bosque y el agua. Los Vizslas de Pelo Corto son conocidos por su pelaje dorado, su agilidad y su excelente nariz, y han sido utilizados en Hungría para la caza de aves y pequeños mamíferos desde la Edad Media.
+      <br>
+      <br>
+      En la década de 1930, un cazador y criador húngaro llamado Vasas József decidió desarrollar una nueva raza que combinara las excelentes habilidades de caza del Vizsla con un pelaje más resistente al clima y a la vegetación áspera. Para lograr esto, cruzó a sus Vizslas de Pelo Corto con un Pointer de Pelo Duro Alemán, una raza conocida por su pelaje resistente y su habilidad para la caza.
+      <br>
+      <br>
+      El resultado de estos cruces fue el Vizsla de Pelo Duro. Esta nueva raza conservó la habilidad para la caza, la inteligencia y la lealtad del Vizsla de Pelo Corto, pero con un pelaje más resistente y una constitución ligeramente más robusta gracias a la influencia del Pointer de Pelo Duro Alemán.
+      <br>
+      <br>
+      El desarrollo de la raza no fue fácil. La Segunda Guerra Mundial y la posterior ocupación soviética de Hungría amenazaron la supervivencia de la raza. Muchos Vizslas de Pelo Duro fueron llevados fuera de Hungría durante este tiempo para proteger la raza. Gracias a los esfuerzos de los criadores húngaros y extranjeros, la raza logró sobrevivir a estos tiempos difíciles.
+      <br>
+      <br>
+      En las décadas siguientes, el Vizsla de Pelo Duro fue reconocido gradualmente por los clubes de perros y las organizaciones de caza de todo el mundo. Aunque sigue siendo una raza relativamente rara, especialmente en comparación con el Vizsla de Pelo Corto, el Vizsla de Pelo Duro ha ganado seguidores en todo el mundo por su habilidad para la caza, su inteligencia y su lealtad.
+      <br>
+      <br>
+      Hoy en día, el Vizsla de Pelo Duro es apreciado tanto como perro de caza como de compañía. Su inteligencia y su deseo de complacer hacen que sea un excelente candidato para una variedad de actividades caninas, desde la caza y el seguimiento hasta la obediencia y la agilidad. A pesar de los desafíos que ha enfrentado a lo largo de su historia, el Vizsla de Pelo Duro ha demostrado ser una raza resistente y adaptable.
     `,
     categoria_de_tamanio: 'Mediano',
     perks: [
@@ -22972,7 +23008,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Bueno para actividades al aire libre',
       'Cariñoso y leal',
     ],
-    color: ['Marrón', 'Dorado', 'Russet'], // Suponiendo, ya que estas son los colores más comunes de la raza
+    color: ['Marrón', 'Dorado', 'Russet'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
@@ -22990,7 +23026,48 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Deportivo',
       'Cariñoso',
       'Energético',
-
+      'Vizsla de pelo duro',
+      'vizsla de pelo duro',
+      'Vizsla de Pelo duro',
+      'Vizsla',
+      'vizsla',
+      'Vizla de Pelo Duro',
+      'Vizla de pelo duro',
+      'vizla de pelo duro',
+      'Vizla de Pelo duro',
+      'Vizla',
+      'vizla',
+      'Perro de caza',
+      'perro de caza',
+      'Perro húngaro',
+      'perro húngaro',
+      'Perro resistente',
+      'perro resistente',
+      'Perro leal',
+      'perro leal',
+      'Perro inteligente',
+      'perro inteligente',
+      'Perro de pelo duro',
+      'perro de pelo duro',
+      'Perro de trabajo',
+      'perro de trabajo',
+      'Perro de compañía',
+      'perro de compañía',
+      'Perro de campo',
+      'perro de campo',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/wirehaired-vizsla/',
+      'https://www.dogbreedinfo.com/w/wirehairedvizsla.htm',
+      'https://www.ukcdogs.com/wirehaired-vizsla',
     ],
   },
   169: {
@@ -23004,7 +23081,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
     },
     id: 169,
     name: 'Xoloitzcuintli',
-    bred_for: ['Compañía', 'Caza de pequeños animales'], // Suponiendo, ya que son usados comúnmente para estos propósitos
+    bred_for: ['Compañía', 'Caza de pequeños animales'],
     breed_group: ['No deportivo'],
     life_span: '12 - 14 años',
     temperament: [
@@ -23015,7 +23092,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Protector',
       'Tranquilo',
     ],
-    origin: 'México', // Es una raza de origen mexicano
+    origin: 'México',
     reference_image_id: 'HkNS3gqEm',
     image: {
       id: 'HkNS3gqEm',
@@ -23023,18 +23100,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1350,
       url: 'https://cdn2.thedogapi.com/images/HkNS3gqEm.jpg',
     },
-    searchTerms: [
-      'Xoloitzcuintli',
-      'Perro Azteca',
-      'No deportivo',
-      'Alegre',
-      'Protector',
-    ],
     country_code: 'MX',
-    description:
-      'El Xoloitzcuintli, también conocido como el perro azteca, es una raza de perro muy antigua conocida por ser alegre, alerta y protectora. Este perro es sociable y inteligente, y puede ser un excelente perro de compañía. Son animales tranquilos pero pueden ser protectores cuando se trata de su familia.',
-    history:
-      'El Xoloitzcuintli es una de las razas de perros más antiguas del mundo. Originario de México, este perro fue considerado sagrado por los aztecas, mayas, toltecas y otras civilizaciones precolombinas. Su nombre proviene de Xólotl, el dios azteca de la muerte y la resurrección, y "itzcuintli", que significa perro en náhuatl.',
+    description: `
+      El Xoloitzcuintli, también conocido como Xolo o perro azteca, es una raza de perro verdaderamente única y fascinante. Originario de México, el Xoloitzcuintli es una de las razas de perros más antiguas y raras del mundo. Su nombre proviene de la palabra azteca para dios, "Xolotl", y "itzcuintli", que significa perro.
+      <br>
+      <br>
+      El Xoloitzcuintli es conocido por su apariencia distintiva. La característica más notable de esta raza es su piel suave y caliente al tacto, que está casi completamente desprovista de pelo. Esta piel desnuda, que se siente similar al cuero humano al tacto, puede variar en color desde un negro carbón hasta un gris pizarra, un bronceado rojizo o incluso un dorado pálido. Algunos Xolos tienen una pequeña cantidad de pelo corto en la cabeza y la cola, mientras que otros están completamente desprovistos de pelo.
+      <br>
+      <br>
+      Los Xolos vienen en tres tamaños: toy, miniatura y estándar. Los Xolos de tamaño toy miden entre 23 y 26 cm de altura, los miniaturas entre 36 y 45 cm, y los estándar entre 46 y 60 cm. Independientemente del tamaño, todos los Xolos comparten una apariencia elegante y atlética, con cuerpos bien musculados, patas largas y delgadas, y una postura orgullosa y erguida.
+      <br>
+      <br>
+      Los Xolos tienen una expresión alerta y pensativa en sus rostros, con ojos oscuros y almendrados que están llenos de inteligencia. Sus orejas son grandes y de pie, lo que añade a su apariencia alerta. Tienen una mordida de tijera y un hocico que se estrecha hacia la nariz. Su cola es larga y se lleva ya sea en un bucle o en un arco, dependiendo de su estado de ánimo.
+      <br>
+      <br>
+      A pesar de su apariencia exótica, los Xoloitzcuintli son conocidos por ser perros cariñosos y leales. Son inteligentes y aprenden rápidamente, lo que los hace relativamente fáciles de entrenar. Son perros tranquilos y tranquilos en casa, pero también son juguetones y disfrutan de la actividad física. Son conocidos por formar fuertes vínculos con sus familias humanas y a menudo son reservados con los extraños.
+      <br>
+      <br>
+      Los Xoloitzcuintli son perros robustos y saludables con pocas preocupaciones de salud genéticas. Su piel desnuda requiere un cuidado especial para evitar quemaduras solares y acné, pero aparte de eso, son perros de bajo mantenimiento. No son propensos a los problemas de salud comunes en muchas otras razas, como la displasia de cadera o las enfermedades cardíacas.
+      <br>
+      <br>
+      En resumen, el Xoloitzcuintli es una raza de perro única y fascinante con una rica historia y una personalidad encantadora. Su apariencia exótica puede hacer que se destaque, pero es su lealtad, inteligencia y carácter afectuoso lo que realmente los hace especiales. Ya sea que estés buscando un compañero leal, un perro de trabajo inteligente o simplemente un amigo peludo con una apariencia única.
+    `,
+    history: `
+      La historia del Xoloitzcuintli, también conocido como Xolo o perro azteca, es tan antigua como la civilización misma. Esta raza de perro, una de las más antiguas del mundo, tiene una historia que se remonta a más de 3.000 años, y está profundamente entrelazada con la historia y la cultura de México.
+      <br>
+      <br>
+      El Xoloitzcuintli es una raza de perro verdaderamente precolombina, que se originó en México hace más de 3.000 años. Los antiguos aztecas, mayas y toltecas valoraban mucho a estos perros, tanto por su utilidad práctica como por su significado espiritual. Los Xolos eran a menudo utilizados como perros de caza y guardia, pero también tenían un papel importante en las creencias religiosas y los rituales de estas culturas.
+      <br>
+      <br>
+      En la mitología azteca, el dios Xolotl, del que toma su nombre la raza, creó al Xoloitzcuintli a partir de un fragmento del Hueso de la Vida, el hueso que también se utilizó para crear a todos los seres humanos. Xolotl dio a los Xolos a la humanidad como un regalo, con la instrucción de que debían ser guardados y cuidados a cambio de su guía y protección.
+      <br>
+      <br>
+      Los Xolos eran considerados sagrados y se creía que tenían poderes de curación. Se pensaba que dormir con un Xolo podía curar enfermedades y dolencias, y que los perros absorbían la enfermedad de su dueño. También se creía que los Xolos podían proteger a los hogares de los espíritus malignos y la mala suerte.
+      <br>
+      <br>
+      En el más allá, se creía que los Xolos guiaban a las almas de los muertos a través del inframundo. Por esta razón, a menudo se enterraba a los perros con sus dueños para que pudieran servir de guías en la vida futura. Los perros que eran sacrificados para este propósito eran considerados como un gran honor.
+      <br>
+      <br>
+      A pesar de su estatus sagrado, la población de Xolos disminuyó drásticamente con la llegada de los colonizadores españoles en el siglo XVI. Los españoles trajeron consigo sus propias razas de perros y consideraban a los Xolos como primitivos y supersticiosos. Durante varios siglos, la raza estuvo al borde de la extinción.
+      <br>
+      <br>
+      Sin embargo, en el siglo XX, hubo un renovado interés en la raza y se hicieron esfuerzos para preservarla. En 1956, el Xoloitzcuintli fue declarado oficialmente patrimonio cultural de la nación por el gobierno mexicano. Desde entonces, la raza ha experimentado un renacimiento y ahora es apreciada tanto por su historia y significado cultural como por su temperamento y apariencia únicos.
+      <br>
+      <br>
+      Hoy en día, el Xoloitzcuintli es reconocido y apreciado en todo el mundo, tanto por su apariencia única como por su rica historia. Aunque la raza sigue siendo rara, los Xolos están ganando popularidad y reconocimiento, y continúan siendo un símbolo orgulloso de la historia y la cultura de México.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Bueno para compañía',
@@ -23042,7 +23153,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Inteligente',
       'Tranquilo',
     ],
-    color: ['Negro', 'Café', 'Rubio'], // Suponiendo, ya que estas son los colores más comunes de la raza
+    color: ['Negro', 'Café', 'Rubio'],
     nivel_de_energia: 'Moderado',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
@@ -23059,6 +23170,60 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Alergias',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/HkNS3gqEm_390x256.jpg'],
+    searchTerms: [
+      'Xoloitzcuintli',
+      'Perro Azteca',
+      'No deportivo',
+      'Alegre',
+      'Protector',
+      'Xolo',
+      'Perro azteca',
+      'Xoloitzcuintle',
+      'Xoloitzquintle',
+      'Xoloitzcuintli mexicano',
+      'Perro mexicano sin pelo',
+      'Perro sagrado azteca',
+      'Xólotl',
+      'Itzcuintli',
+      'Perro precolombino',
+      'Perro antiguo',
+      'Perro de compañía',
+      'Perro de terapia',
+      'Perro guía',
+      'Perro de caza',
+      'Perro guardián',
+      'Perro sin pelo',
+      'Perro caliente',
+      'Perro de piel',
+      'Perro de cuero',
+      'Perro de la vida',
+      'Perro del inframundo',
+      'Perro de la muerte',
+      'Perro de la curación',
+      'Perro de la protección',
+      'Perro de la suerte',
+      'Perro de la salud',
+      'Perro de la familia',
+      'Perro de los niños',
+    ],
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Baja',
+    soporta_clima_calido: 'Alta',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Papi',
+        caso: "Papi es un Xoloitzcuintli que aparece en la película de Disney 'Beverly Hills Chihuahua'.",
+      },
+    ],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/xoloitzcuintli/',
+      'https://www.dogbreedinfo.com/x/xoloitzcuintle.htm',
+      'https://www.ukcdogs.com/xoloitzcuintli',
+    ],
   },
   170: {
     weight: {
@@ -23089,12 +23254,87 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 683,
       url: 'https://cdn2.thedogapi.com/images/B12BnxcVQ.jpg',
     },
-    searchTerms: ['Yorkshire Terrier', 'Juguete', 'Audaz', 'Independiente'],
+    searchTerms: [
+      'Yorkshire Terrier',
+      'Juguete',
+      'Audaz',
+      'Independiente',
+      'Yorkshire',
+      'Terrier',
+      'Yorkie',
+      'Yorqui',
+      'Yorshire',
+      'Yorki',
+      'Yorkshire Terrier mini',
+      'Terrier Yorkshire',
+      'Perro Yorkshire',
+      'Perro Yorkie',
+      'Raza Yorkshire',
+      'Raza Yorkie',
+      'Perro pequeño',
+      'Perro de compañía',
+      'Perro de pelo largo',
+      'Perro de raza pequeña',
+      'Perro para niños',
+      'Perro para familia',
+      'Perro para departamento',
+      'Perro para interior',
+      'Perro de interior',
+      'Perro de raza Terrier',
+      'Perro británico',
+      'Perro inglés',
+      'Perro de Inglaterra',
+      'Perro de raza inglesa',
+      'Perro de raza británica',
+      'Perro para primerizos',
+      'Perro fácil de entrenar',
+    ],
     country_code: 'GB',
-    description:
-      'El Yorkshire Terrier es una pequeña raza de perro audaz e independiente. Son conocidos por su inteligencia y su valentía. A pesar de su tamaño, estos perros son seguros y no tienen miedo de enfrentarse a desafíos. Son excelentes cazadores de pequeñas plagas.',
-    history:
-      'El Yorkshire Terrier se originó en Inglaterra en el siglo XIX. Fueron criados para cazar pequeñas plagas en las minas y fábricas, y pronto se hicieron populares como mascotas debido a su pequeño tamaño y su audaz temperamento. Hoy en día, son una de las razas más queridas del mundo.',
+    description: `
+      El Yorkshire Terrier, a menudo conocido simplemente como "Yorkie", es una raza de perro pequeña pero con una personalidad grande. Su apariencia elegante y su actitud segura hacen que sea una raza muy popular en todo el mundo.
+      <br>
+      <br>
+      El Yorkie es un perro de tamaño pequeño, pero no dejes que su tamaño te engañe. Son conocidos por su valentía y su actitud audaz. A pesar de su pequeño tamaño, a menudo se comportan como perros grandes, sin miedo a enfrentarse a desafíos o a perros más grandes. Su tamaño compacto los hace ideales para la vida en apartamentos y para aquellos que viven en áreas urbanas.
+      <br>
+      <br>
+      El pelaje del Yorkshire Terrier es una de sus características más distintivas. Tienen un pelaje largo y sedoso que es a menudo de un color azul acero y tostado. Este pelaje no solo es hermoso, sino que también es hipoalergénico, lo que significa que es menos probable que cause reacciones alérgicas en las personas. Sin embargo, este hermoso pelaje requiere un cuidado regular para mantenerlo en buen estado. Esto incluye cepillados frecuentes para evitar enredos y posibles visitas al peluquero canino.
+      <br>
+      <br>
+      En cuanto a su personalidad, los Yorkies son conocidos por ser perros vivaces y afectuosos. Son extremadamente leales a sus dueños y disfrutan de pasar tiempo con su familia humana. Son perros inteligentes y a menudo se les puede enseñar una variedad de trucos y comandos. Sin embargo, también pueden ser un poco tercos a veces, por lo que la paciencia y la consistencia son clave cuando se trata de su entrenamiento.
+      <br>
+      <br>
+      A pesar de su pequeño tamaño, los Yorkies tienen un nivel de energía moderado y disfrutan de los paseos diarios y del juego. Sin embargo, también están contentos de acurrucarse en el sofá con sus dueños. Son perros adaptables que pueden estar contentos tanto en un hogar tranquilo como en uno lleno de actividad.
+      <br>
+      <br>
+      Los Yorkies también son conocidos por ser perros vocales. A menudo ladrarán para alertar a sus dueños de cualquier cosa fuera de lo común, lo que los convierte en excelentes perros guardianes. Sin embargo, esto también puede convertirse en un problema si no se controla, por lo que es importante enseñarles cuándo es apropiado ladrar.
+      <br>
+      <br>
+      En resumen, el Yorkshire Terrier es un perro pequeño con una gran personalidad. Son leales, afectuosos y llenos de vida. Su hermoso pelaje y su actitud segura los hacen destacar en cualquier multitud. Aunque requieren un cuidado regular de su pelaje y pueden ser un poco tercos a veces, su amor y lealtad hacia sus dueños hacen que cualquier esfuerzo valga la pena.
+    `,
+    history: `
+      La historia del Yorkshire Terrier es una historia de transformación. Esta raza, que comenzó como una humilde trabajadora en las fábricas de la Inglaterra del siglo XIX, se ha convertido en una de las razas de perros de compañía más queridas y populares del mundo.
+      <br>
+      <br>
+      La historia del Yorkshire Terrier comienza en la época de la Revolución Industrial en Inglaterra. Durante este tiempo, Escocia estaba experimentando cambios económicos significativos y muchos escoceses se mudaron al sur, a las ciudades industriales de Inglaterra, en busca de trabajo. Trajeron consigo varios tipos de terriers, incluyendo el Clydesdale Terrier (también conocido como Paisley Terrier), el Skye Terrier, el Black and Tan Terrier y el Dandie Dinmont Terrier. Estos perros eran trabajadores, utilizados para cazar y matar ratas en las fábricas y molinos.
+      <br>
+      <br>
+      En algún momento, estos terriers escoceses comenzaron a ser criados selectivamente para crear un nuevo tipo de terrier que sería especialmente bueno para cazar ratas. El resultado fue el Yorkshire Terrier, llamado así por el condado de Yorkshire en Inglaterra, donde la raza fue desarrollada.
+      <br>
+      <br>
+      Los primeros Yorkies eran perros más grandes que los Yorkies de hoy en día, pesando alrededor de 6 a 7 kilos. Eran valorados por su habilidad para cazar ratas, pero también comenzaron a ser apreciados por su apariencia atractiva. Su pelaje largo y sedoso era especialmente admirado.
+      <br>
+      <br>
+      En 1865, un Yorkshire Terrier llamado Huddersfield Ben nació. Ben es considerado el padre de la raza moderna de Yorkshire Terrier. Ganó más de 70 premios en exposiciones caninas y fue descrito como "el mejor perro de su raza". Aunque murió a la temprana edad de 6 años, tuvo un impacto significativo en la raza, y muchos Yorkies modernos pueden rastrear su linaje hasta él.
+      <br>
+      <br>
+      A finales del siglo XIX, el Yorkshire Terrier había llegado a América. La raza fue reconocida por el American Kennel Club (AKC) en 1885. En las décadas siguientes, la popularidad de la raza fluctuó. Sin embargo, después de la Segunda Guerra Mundial, la popularidad del Yorkie comenzó a aumentar de nuevo. Los soldados estadounidenses estacionados en Europa habían tenido la oportunidad de ver a estos pequeños y atractivos perros y muchos trajeron Yorkies a casa con ellos.
+      <br>
+      <br>
+      Desde entonces, el Yorkshire Terrier ha continuado siendo una raza popular tanto en los Estados Unidos como en todo el mundo. Son valorados por su tamaño compacto, su personalidad encantadora y su hermoso pelaje. Aunque ya no se utilizan para cazar ratas, los Yorkies modernos aún conservan algo de la tenacidad y el coraje de sus antepasados trabajadores.
+      <br>
+      <br>
+      En resumen, la historia del Yorkshire Terrier es una historia de transformación, desde un perro trabajador en las fábricas de la Inglaterra del siglo XIX hasta uno de los perros de compañía más queridos del mundo. A través de los años, el Yorkie ha demostrado ser un perro adaptable y encantador, capaz de ganarse el corazón de las personas en todo el mundo.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Excelente cazador de pequeñas plagas',
@@ -23115,6 +23355,28 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Hipoglucemia',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/B12BnxcVQ_390x256.jpg'],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Smoky',
+        caso: 'Smoky fue un Yorkshire Terrier que sirvió en la Segunda Guerra Mundial. Fue encontrada en un zorro en Nueva Guinea y se convirtió en la mascota de un soldado. Smoky se convirtió en una heroína de guerra cuando ayudó a tender un cable telefónico a través de un conducto de 21 metros de largo.',
+      },
+      {
+        nombre: 'Pasha',
+        caso: 'Pasha fue el Yorkshire Terrier de la Primera Dama de los Estados Unidos, Patricia Nixon. Pasha vivió en la Casa Blanca durante la presidencia de Richard Nixon.',
+      },
+    ],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Yorkshire_Terrier',
+      'https://www.dogbreedinfo.com/yorkshireterrier.htm',
+      'https://www.ukcdogs.com/yorkshire-terrier',
+    ],
   },
   171: {
     weight: {
@@ -23146,12 +23408,58 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1280,
       url: 'https://esferamascota.b-cdn.net/razas-jack-russell.webp',
     },
-    searchTerms: ['Jack Russell', 'Terrier', 'Caza de zorros'],
     country_code: 'GB',
-    description:
-      'El Jack Russell Terrier es una raza pequeña, enérgica y extremadamente versátil. Son perros inteligentes, audaces y amigables con mucha personalidad.',
-    history:
-      'Originario de Inglaterra, se crió por primera vez a mediados del siglo XIX para cazar zorros. Su nombre se deriva de un reverendo llamado John "Jack" Russell, que era un entusiasta de la caza de zorros.',
+    description: `
+      El Jack Russell Terrier es una raza de perro pequeña pero robusta, conocida por su energía inagotable y su espíritu intrépido. Este perro compacto y atlético es un paquete de energía, listo para la acción en todo momento. Su cuerpo es ligeramente más largo que alto, lo que le da una apariencia equilibrada. Su peso puede variar entre 6 y 8 kilogramos, y su altura oscila entre 25 y 30 centímetros.
+      <br>
+      <br>
+      El pelaje del Jack Russell puede ser liso, áspero o de pelo quebrado, y siempre es resistente a la intemperie. Los colores predominantes son el blanco con marcas negras, marrones o ambas. El blanco debe ser el color predominante, cubriendo más del 51% del cuerpo. Este pelaje no solo es atractivo, sino que también es práctico, ya que fue diseñado para proteger al perro de los elementos y permitirle ser visto fácilmente durante la caza.
+      <br>
+      <br>
+      La cabeza del Jack Russell es plana y de tamaño proporcional al cuerpo, con una parada bien definida. Sus ojos son oscuros, almendrados y llenos de vida, siempre listos para la acción. Las orejas son en forma de V, cayendo hacia adelante cerca de las mejillas. La cola es generalmente cortada a una longitud que le da equilibrio al resto del cuerpo, y se lleva alegremente en alto cuando el perro está en acción.
+      <br>
+      <br>
+      El Jack Russell es un perro de trabajo por excelencia. Fue criado para cazar zorros y otros animales pequeños, y su instinto de caza sigue siendo fuerte. Este perro es valiente, tenaz y extremadamente inteligente. Es conocido por su habilidad para resolver problemas y su disposición para enfrentarse a desafíos.
+      <br>
+      <br>
+      A pesar de su pequeño tamaño, el Jack Russell tiene una gran personalidad. Es audaz, confiado y siempre está listo para la aventura. Este perro es extremadamente leal a su familia y es un excelente perro guardián. Sin embargo, su naturaleza independiente y su inteligencia pueden hacer que sea un desafío para los dueños primerizos.
+      <br>
+      <br>
+      El Jack Russell es un perro muy activo que requiere mucho ejercicio. Le encanta correr, saltar y jugar, y necesita mucho espacio para quemar su energía. Este perro disfruta de juegos de buscar, de agilidad y de cualquier actividad que le permita correr y explorar.
+      <br>
+      <br>
+      En cuanto a su salud, el Jack Russell es generalmente una raza saludable con pocos problemas genéticos. Sin embargo, como todos los perros, puede ser propenso a ciertas condiciones, como problemas oculares y de piel, así como a la sordera. Es importante llevar a este perro al veterinario para chequeos regulares y mantenerlo bien alimentado y ejercitado.
+      <br>
+      <br>
+      En resumen, el Jack Russell Terrier es un perro pequeño con una gran personalidad. Su energía, inteligencia y valentía lo hacen un compañero inolvidable. Sin embargo, esta raza no es para todos. Necesita un dueño que pueda manejar su energía y su mente aguda, y que esté dispuesto a dedicar tiempo y esfuerzo a su entrenamiento y cuidado. Para el dueño adecuado, el JackRussell Terrier puede ser un amigo leal y un compañero de aventuras inigualable.
+    `,
+    history: `
+      La historia del Jack Russell Terrier es una narrativa fascinante que se remonta al siglo XIX en Inglaterra. Esta raza lleva el nombre de su creador, el reverendo John "Jack" Russell, un clérigo y cazador apasionado que deseaba un perro que pudiera mantenerse al día con los caballos durante la caza y luego entrar en las madrigueras para expulsar o atrapar a los zorros.
+      <br>
+      <br>
+      John Russell nació en 1795 en Dartmouth, en el suroeste de Inglaterra. Desde joven, Russell mostró un gran interés por la caza y los perros. Cuando era estudiante en la Universidad de Oxford, adquirió su primer terrier, una perra blanca llamada Trump. Se dice que Trump tenía las características ideales que Russell buscaba en un perro de caza: agilidad, resistencia, valentía y, sobre todo, un instinto de caza agudo.
+      <br>
+      <br>
+      Inspirado por Trump, Russell comenzó a criar terriers con el objetivo de desarrollar una raza que fuera ideal para la caza de zorros. No estaba interesado en la apariencia del perro, sino en su habilidad para cazar. Quería un perro que fuera lo suficientemente pequeño para rastrear a los zorros en sus madrigueras, pero lo suficientemente ágil y rápido para mantenerse al día con los caballos. Además, el perro debía ser valiente, pero no agresivo; su trabajo era expulsar a los zorros, no matarlos.
+      <br>
+      <br>
+      Durante más de 40 años, Russell crió terriers que cumplían con estas características. Aunque no hay registros de sus métodos de cría, se cree que cruzó sus perros con varias razas, incluyendo el Fox Terrier de pelo liso, el Beagle y el Bull Terrier, para lograr sus objetivos. El resultado fue un perro enérgico, valiente y resistente que pronto se hizo conocido como el Terrier de Jack Russell.
+      <br>
+      <br>
+      Después de la muerte de Russell en 1883, la raza continuó siendo popular entre los cazadores y los entusiastas de los terriers. Sin embargo, no fue hasta 1976 que la Jack Russell Terrier Club of America (JRTCA) fue fundada para preservar la raza tal como Russell la había concebido. La JRTCA se resistió a la idea de que la raza fuera reconocida por los clubes de kennel, temiendo que la énfasis en la conformación sobre la habilidad de trabajo pudiera diluir las características de caza de la raza.
+      <br>
+      <br>
+      A pesar de esto, un grupo de criadores formó la Jack Russell Terrier Breeders Association y comenzó a trabajar para el reconocimiento de la raza. En 2000, el American Kennel Club reconoció oficialmente a la raza, pero bajo el nombre de Parson Russell Terrier para evitar conflictos con la JRTCA. En el Reino Unido, la raza fue reconocida como el Parson Jack Russell Terrier en 1983, y luego simplemente como el Parson Russell Terrier en 1999.
+      <br>
+      <br>
+      Hoy en día, el Jack Russell Terrier es amado por su personalidad enérgica y su valentía. Aunque todavía se utiliza para la caza de zorros en algunas partes del mundo, también es popular como perro de compañía y ha demostrado ser un competidor exitoso en una variedad de deportes caninos, incluyendo agilidad, obediencia y terrier trials.
+      <br>
+      <br>
+      A lo largo de los años, el Jack Russell Terrier ha aparecido en varias películas y programas de televisión, lo que ha aumentado su popularidad. Uno de los Jack Russells más famosos es Uggie, que apareció en la película ganadora del Oscar "The Artist", y otro es Moose, que interpretó a Eddie en la popular serie de televisión "Frasier".
+      <br>
+      <br>
+      A pesar de los cambios en su nombre y las controversias en torno a su reconocimiento oficial, el Jack Russell Terrier ha mantenido las características que John Russell valoraba: valentía, energía y un fuerte instinto de caza. Estos pequeños perros son un testimonio de la visión de su creador y continúan siendo una elección popular para aquellos que buscan un perro de compañía enérgico y aventurero.
+    `,
     necesidades_especiales: [
       'Necesita mucha actividad física y mental',
       'Requiere entrenamiento constante',
@@ -23173,6 +23481,64 @@ export const DOG_LIST: { [key: number]: Dog } = {
     nivel_de_energia: 'Alto',
     popularidad: 'Alta',
     gallery: ['https://esferamascota.b-cdn.net/razas-jack-russell.webp'],
+    searchTerms: [
+      'Jack Russell',
+      'Terrier',
+      'Caza de zorros',
+      'Fede moronell',
+      'Ramona',
+      'Jack Russell',
+      'Russell Terrier',
+      'Terrier Jack Russell',
+      'Terrier Russell',
+      'JRT',
+      'Jack',
+      'Russell',
+      'Terrier',
+      'Perro cazador',
+      'Cazador de zorros',
+      'Perro de caza',
+      'Perro activo',
+      'Perro enérgico',
+      'Perro valiente',
+      'Perro pequeño',
+      'Perro de tamaño pequeño',
+      'Perro de compañía',
+      'Perro para niños',
+      'Perro para familia',
+      'Perro para primerizos',
+      'Perro para principiantes',
+      'Perro de pelo corto',
+      'Perro de pelo liso',
+      'Perro de pelo duro',
+      'Perro blanco y marrón',
+      'Perro blanco y negro',
+      'Perro tricolor',
+      'Perro de raza pura',
+      'Perro de raza',
+    ],
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Uggie',
+        caso: "Uggie fue un Jack Russell Terrier que se hizo famoso por su papel en la película 'The Artist'. Su actuación fue tan aclamada que se creó una campaña para que pudiera ser considerado para un premio de la Academia.",
+      },
+      {
+        nombre: 'Moose',
+        caso: "Moose, otro Jack Russell Terrier, es conocido por su papel como Eddie en la serie de televisión 'Frasier'. Su popularidad en el programa fue tal que recibía más fan mail que cualquiera de los actores humanos.",
+      },
+    ],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Jack_Russell_Terrier',
+      'https://www.dogbreedinfo.com/jackrussellterrier.htm',
+      'https://www.ukcdogs.com/jack-russell-terrier',
+    ],
   },
   172: {
     weight: {
@@ -23203,25 +23569,49 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1280,
       url: 'https://esferamascota.b-cdn.net/razas-perro-salchicha.webp',
     },
-    searchTerms: ['Perro Salchicha', 'Dachshund', 'Caza de tejones', 'Teckel'],
     country_code: 'DE',
-    description: `El Dachshund, también conocido como "Perro Salchicha" debido a su aspecto único, es una raza de perro muy amada y reconocible a nivel mundial.
-      Originarios de Alemania, estos perros son famosos por su personalidad animada y su pequeño tamaño. Sin embargo, no te dejes engañar por su tamaño:
-      son perros valientes y decididos con un espíritu enorme. Los Dachshunds son perros de bajo cuerpo, cortos en estatura, con patas cortas y un tronco alargado.
-      Sus cabezas son largas y estrechas, con orejas colgantes a los lados, lo que les da una apariencia de alerta.
-      Su piel es tensa y su pelaje puede ser corto, largo o duro, dependiendo de la variedad, y viene en una amplia gama de colores y patrones.
-      El temperamento de los Dachshunds puede describirse como amigable, curioso y valiente.
-      Son conocidos por ser perros juguetones y les encanta participar en juegos y actividades con sus dueños.
-      Sin embargo, también tienen una fuerte tendencia a la obstinación, por lo que la paciencia puede ser clave al entrenarlos.
-      Aunque son pequeños, los Dachshunds tienen una gran voz y no dudarán en usarla cuando sientan la necesidad de proteger su hogar.
-      Dadas sus necesidades de ejercicio moderado, los Dachshunds pueden ser una buena elección para la vida en apartamentos,
-      siempre y cuando se les proporcione suficiente estimulación física y mental. Su pelaje de mantenimiento bajo también es una ventaja para los propietarios
-      que buscan un perro que no requiera mucha preparación. Sin embargo, su cuerpo alargado puede ser propenso a problemas de espalda,
-      por lo que es importante tener cuidado al manejarlos y asegurarse de que mantienen un peso saludable.`,
-    history: `El Dachshund es una raza con una rica y fascinante historia. Su origen se remonta a Alemania en el siglo XV, donde fueron criados por cazadores para rastrear y cazar tejones. Su nombre, de hecho, proviene de las palabras alemanas "Dachs", que significa tejón, y "Hund", que significa perro.
-      La forma única del Dachshund fue cuidadosamente diseñada para ayudarlo en su función de caza. Su cuerpo largo y bajo les permitía adentrarse en las madrigueras de los tejones y su audaz temperamento les daba la valentía necesaria para enfrentarse a estos animales. Además, sus fuertes patas delanteras eran perfectas para excavar y sus pechos profundos proporcionaban una buena capacidad pulmonar, útil para su trabajo en las madrigueras.
-      Con el tiempo, la raza se dividió en dos tamaños: el tamaño estándar, que continuó siendo utilizado para cazar tejones y jabalíes, y el tamaño miniatura, que se utilizó para cazar animales de madriguera más pequeños como conejos. La raza fue llevada a América en el siglo XIX, donde rápidamente se ganó la popularidad y el afecto del público.
-      A lo largo de los años, los Dachshunds han demostrado ser mucho más que perros de caza. Han participado en numerosos roles, incluyendo perros de terapia, perros de servicio, e incluso han sido mascotas de famosos y de la realeza. Aunque su papel principal en la actualidad es el de compañero amado, los Dachshunds aún retienen su valentía, curiosidad y amor por la caza que los hicieron tan populares en primer lugar.`,
+    description: `
+      El Perro Salchicha, también conocido como Dachshund o Teckel, es una raza de perro que se caracteriza por su cuerpo alargado y sus patas cortas. Este diseño único, que a menudo se compara con la forma de una salchicha o un hot dog, es el resultado de una especialización genética que ha hecho de esta raza un cazador subterráneo eficaz.
+      <br>
+      <br>
+      El Dachshund es un perro pequeño, pero no dejes que su tamaño te engañe. Estos perros son conocidos por su espíritu valiente y su personalidad vivaz. Son perros enérgicos y juguetones, que disfrutan de la interacción con sus dueños y de la oportunidad de explorar su entorno. A pesar de su tamaño, son perros robustos y resistentes, capaces de mantener un ritmo de actividad elevado durante largos periodos de tiempo.
+      <br>
+      <br>
+      El pelaje del Dachshund puede ser corto, largo o de pelo duro. Los de pelo corto tienen un pelaje liso y brillante, mientras que los de pelo largo tienen un pelaje suave y sedoso. Los Dachshunds de pelo duro tienen un pelaje más áspero y espeso. En cuanto al color, los Dachshunds pueden ser de una amplia variedad de colores y patrones, incluyendo unicolor (rojo o crema), bicolor (negro, chocolate, gris o fawn con marcas de fuego), o incluso tricolor (con marcas de fuego y áreas blancas).
+      <br>
+      <br>
+      Los Dachshunds tienen una cabeza alargada y estrecha, con orejas largas y caídas a los lados. Sus ojos son de tamaño medio, ovalados y de color oscuro, y expresan una mirada vivaz y amigable. Su cola, que se extiende en línea con la espalda, suele llevarse en alto, especialmente cuando el perro está en movimiento.
+      <br>
+      <br>
+      En cuanto a su temperamento, los Dachshunds son perros inteligentes y valientes, con una gran personalidad. Son conocidos por su lealtad hacia sus dueños y su deseo de estar siempre en medio de la acción. A pesar de su tamaño, son perros valientes que no dudarán en enfrentarse a animales más grandes si sienten que su familia está en peligro. También son perros bastante independientes, lo que puede hacer que a veces sean un poco obstinados.
+      <br>
+      <br>
+      Los Dachshunds son perros sociales que disfrutan de la compañía de las personas y de otros perros. Sin embargo, su instinto de caza puede hacer que persigan a animales más pequeños, por lo que es importante socializarlos adecuadamente desde una edad temprana. A pesar de su energía, también disfrutan de los momentos de relax y no dudarán en acurrucarse en el sofá para una siesta.
+      <br>
+      <br>
+      En resumen, el Dachshund es un perro pequeño con una gran personalidad. Su apariencia única, junto con su espíritu valiente y su personalidad vivaz, hacen de esta raza una opción popular para muchos amantes de los perros. Ya sea jugando en el parque, explorando el jardín o simplemente relajándose en casa, un Dachshund siempre está listo para llenar tu vida de alegría y diversión.
+    `,
+    history: `
+      La historia del Perro Salchicha, o Dachshund como se le conoce en muchos lugares, es una historia que se remonta a varios siglos atrás, y que está llena de evolución, adaptación y un espíritu inquebrantable.
+      <br>
+      <br>
+      El origen exacto de los Dachshunds es un tema de debate entre los historiadores caninos, pero la mayoría está de acuerdo en que esta raza tiene sus raíces en Alemania. Los primeros registros de perros similares a los Dachshunds datan del siglo XV, aunque la raza tal como la conocemos hoy no comenzó a tomar forma hasta el siglo XVI.
+      <br>
+      <br>
+      Los Dachshunds fueron criados originalmente para ser perros de caza. Su nombre en alemán significa literalmente "perro tejón", lo que refleja su propósito original: cazar tejones y otros animales de madriguera. Su cuerpo alargado y sus patas cortas les permitían adentrarse en las madrigueras de los tejones y enfrentarse a ellos en su propio territorio. Además, su valentía y su tenacidad les permitían enfrentarse a animales mucho más grandes que ellos, como los jabalíes.
+      <br>
+      <br>
+      Durante los siglos XVII y XVIII, los Dachshunds se convirtieron en una raza popular entre la nobleza europea, especialmente en Alemania. Se criaron en una variedad de tamaños para adaptarse a diferentes tipos de caza. Los Dachshunds más grandes se utilizaban para cazar jabalíes, mientras que los más pequeños se utilizaban para cazar animales de madriguera como los tejones y los conejos.
+      <br>
+      <br>
+      En el siglo XIX, los Dachshunds comenzaron a ser exportados a otros países, incluyendo Gran Bretaña y Estados Unidos. En estos países, la raza se hizo popular tanto como perro de caza como de compañía. Sin embargo, la popularidad de los Dachshunds disminuyó durante las dos Guerras Mundiales debido a su asociación con Alemania. A pesar de esto, la raza logró sobrevivir y recuperar su popularidad en las décadas posteriores.
+      <br>
+      <br>
+      En la actualidad, los Dachshunds son una de las razas más queridas y reconocibles del mundo. Aunque ya no se utilizan tanto para la caza, su valentía y su espíritu inquebrantable siguen siendo una parte integral de su personalidad. Además, su apariencia única y su personalidad encantadora los han convertido en una opción popular para las familias y los individuos de todo el mundo.
+      <br>
+      <br>
+      A lo largo de su historia, los Dachshunds han demostrado ser una raza adaptable y resistente. Ya sea cazando tejones en las madrigueras, acompañando a la nobleza en sus cacerías, o simplemente siendo un amigo leal y cariñoso en el hogar, los Dachshunds han dejado una huella indeleble en el mundo canino. Su historia es un testimonio de su resistencia, su valentía y su encanto inigualable.
+    `,
     necesidades_especiales: [
       'Requiere mucho ejercicio',
       'Necesita cuidados especiales debido a su espina dorsal larga',
@@ -23240,6 +23630,60 @@ export const DOG_LIST: { [key: number]: Dog } = {
     nivel_de_energia: 'Alto',
     popularidad: 'Alta',
     gallery: ['https://esferamascota.b-cdn.net/razas-perro-salchicha.webp'],
+    searchTerms: [
+      'Perro Salchicha',
+      'Dachshund',
+      'Caza de tejones',
+      'Teckel',
+      'Salchicha',
+      'Dachshund',
+      'Teckel',
+      'Perro Tejonero',
+      'Perro de madriguera',
+      'Perro de caza',
+      'Salchichón',
+      'Salchichita',
+      'Salchichón alemán',
+      'Perro vienes',
+      'Perro salchicha mini',
+      'Salchicha miniatura',
+      'Salchicha estándar',
+      'Salchicha pelo corto',
+      'Salchicha pelo largo',
+      'Salchicha pelo duro',
+      'Perro salchicha pelo duro',
+      'Perro salchicha pelo largo',
+      'Perro salchicha pelo corto',
+      'Perro salchicha miniatura',
+      'Perro salchicha estándar',
+      'Perro salchicha alemán',
+      'Perro vienes miniatura',
+      'Perro vienes estándar',
+      'Perro vienes pelo corto',
+      'Perro vienes pelo largo',
+      'Perro vienes pelo duro',
+      'Perro vienes alemán',
+      'Perro salchicha para niños',
+      'aleman',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Crusoe',
+        caso: 'Crusoe es un perro salchicha que se ha vuelto famoso en las redes sociales. Tiene su propio blog y canal de YouTube, donde sus dueños publican videos de sus aventuras.',
+      },
+    ],
+    fuentes: [
+      'https://www.dogbreedinfo.com/dachshund.htm',
+      'https://www.akc.org/dog-breeds/dachshund/',
+      'https://www.ukcdogs.com/dachshund',
+    ],
   },
   173: {
     weight: {
@@ -23264,23 +23708,57 @@ export const DOG_LIST: { [key: number]: Dog } = {
       height: 1280,
       url: 'https://esferamascota.b-cdn.net/razas-boyero-de-berna.webp',
     },
-    searchTerms: [
-      'Boyero de Berna',
-      'Bernese Mountain Dog',
-      'Perro de montaña',
-    ],
     country_code: 'CH',
     description: `
-      El Boyero de Berna, conocido también como Bernese Mountain Dog, es una raza de perro grande y robusta originaria de Suiza. Con su pelaje tricolor denso y brillante, su expresión gentil y su temperamento amigable, estos perros son fácilmente reconocibles y muy queridos por muchos.
-      El cuerpo del Boyero de Berna es fuerte y musculoso, diseñado para el trabajo duro. Su cabeza es plana en la parte superior con una frente moderada, y sus orejas medianas, triangulares y altas, se redondean ligeramente en los extremos. Sus ojos oscuros y brillantes expresan inteligencia y amabilidad.
-      Este perro es conocido por su personalidad tranquila, su lealtad y su deseo de complacer. Son excelentes con los niños y se llevan bien con otros animales. Aunque pueden ser un poco reservados con los extraños, no son naturalmente agresivos.
-      El Boyero de Berna necesita mucho ejercicio, y le encantará acompañarte en largas caminatas o sesiones de juego en el jardín. Sin embargo, también disfrutan de sus momentos de relax y son felices durmiendo a tus pies después de un día activo.
+      El Boyero de Berna, también conocido como Bernese Mountain Dog en inglés, es una raza de perro que se destaca por su impresionante tamaño y su pelaje tricolor brillante. Esta raza es conocida por su apariencia majestuosa y su temperamento amigable y tranquilo, lo que la convierte en una excelente opción para familias y dueños de perros por primera vez.
+      <br>
+      <br>
+      El Boyero de Berna es un perro grande, robusto y fuerte, con una altura que varía entre 58 y 70 cm y un peso que puede llegar hasta los 50 kg en los machos. Su cuerpo es ligeramente más largo que alto, dando la impresión de gran potencia sin ser tosco. Su cabeza es fuerte y plana en la parte superior, con una expresión inteligente y ojos oscuros y ovalados. Las orejas son medianas, triangulares y se ubican altas, cayendo cerca de la cabeza cuando el perro está en reposo.
+      <br>
+      <br>
+      El pelaje del Boyero de Berna es uno de sus rasgos más distintivos. Es largo, liso o ligeramente ondulado, y tiene una textura brillante y sedosa. El color es tricolor, con una base de negro sólido, marcas de óxido en las mejillas, encima de los ojos, en los cuatro pies y en los lados del pecho, y marcas blancas en la cabeza, pecho, pies y punta de la cola. Este patrón de colores es muy característico y da al Boyero de Berna una apariencia única y atractiva.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Boyero de Berna es conocido por ser tranquilo, amigable y muy leal a su familia. Son perros que disfrutan de la compañía de las personas y se llevan bien con los niños. A pesar de su tamaño, son perros muy gentiles y pacientes, lo que los hace excelentes compañeros de juego para los más pequeños de la casa. También se llevan bien con otros animales, especialmente si se crían juntos desde cachorros.
+      <br>
+      <br>
+      El Boyero de Berna es un perro inteligente y fácil de entrenar. Responden bien a los métodos de entrenamiento basados en el refuerzo positivo y son capaces de aprender una amplia variedad de comandos y trucos. Sin embargo, debido a su tamaño y fuerza, es importante que reciban una socialización y un entrenamiento de obediencia adecuados desde una edad temprana.
+      <br>
+      <br>
+      En cuanto a su salud, el Boyero de Berna es generalmente un perro saludable, pero como todas las razas, puede ser propenso a ciertas condiciones genéticas. Entre las más comunes se encuentran la displasia de cadera y de codo, problemas oculares y ciertos tipos de cáncer. Es importante que los perros de esta raza reciban chequeos veterinarios regulares y se mantengan en un peso saludable para minimizar el riesgo de problemas de salud.
+      <br>
+      <br>
+      En resumen, el Boyero de Berna es un perro majestuoso y amigable, con una personalidad tranquila y leal. Su tamaño y fuerza, combinados con su inteligencia y su disposición amigable, hacen de esta raza una excelente opción para una amplia variedad de hogares. Ya sea que estés buscando un compañero de juego para tus hijos, un perro de trabajo para tu granja, o simplemente un amigo leal y cariñoso, el Boyero de Berna puede ser la elección perfecta para ti.
     `,
     history: `
-      La historia del Boyero de Berna está íntimamente ligada a las regiones montañosas de Suiza. Se cree que son descendientes de los mastines traidos a Suiza por los romanos hace más de 2000 años.
-      Estos perros se hicieron indispensables para los granjeros suizos, quienes los utilizaban como perros de trabajo. Su fuerza y resistencia les permitía conducir el ganado, tirar de carros y actuar como perros de guardia.
-      Con el tiempo, la industrialización redujo la necesidad de perros de trabajo, y la población de Boyeros de Berna disminuyó significativamente. Fue a principios del siglo XX cuando un criador llamado Franz Schertenleib trabajó para revivir la raza.
-      Los Boyeros de Berna llegaron a Estados Unidos en 1926 y al Reino Unido en la década de 1970. Desde entonces, se han convertido en populares mascotas en todo el mundo, conocidas y amadas por su belleza, su temperamento amigable y su devoción a sus familias humanas.
+      La historia del Boyero de Berna, también conocido como Bernese Mountain Dog, es rica y fascinante, y se remonta a la época de los romanos. Esta raza, que es una de las cuatro razas de perros de montaña suizos, tiene una larga historia de trabajo en las granjas y los campos de Suiza, y su herencia se puede rastrear a través de los siglos.
+      <br>
+      <br>
+      La historia del Boyero de Berna comienza con la invasión romana de Suiza alrededor del año 58 a.C. Los romanos trajeron consigo una variedad de perros de trabajo, incluyendo mastines, que se utilizaron para tareas de guardia y conducción de ganado. Estos mastines se cruzaron con los perros nativos de las regiones alpinas de Suiza, dando lugar a una serie de razas de perros de trabajo que se adaptaron bien al clima frío y a las difíciles condiciones de montaña.
+      <br>
+      <br>
+      Durante siglos, estos perros, que más tarde se conocerían como Boyeros de Berna, trabajaron en las granjas suizas, conduciendo el ganado, protegiendo la propiedad y tirando de carros de leche. Eran valorados por su fuerza, su resistencia y su habilidad para trabajar en terrenos difíciles. A pesar de su tamaño, eran perros ágiles y capaces, y se ganaron la reputación de ser trabajadores incansables.
+      <br>
+      <br>
+      El Boyero de Berna como lo conocemos hoy comenzó a tomar forma en el siglo XIX, cuando los criadores suizos comenzaron a seleccionar perros que no sólo eran fuertes y capaces, sino que también tenían un temperamento amigable y un pelaje distintivo tricolor. Sin embargo, la raza estuvo a punto de desaparecer a finales del siglo XIX, ya que los cambios en las prácticas agrícolas y la llegada de nuevas razas de perros de trabajo llevaron a una disminución en la demanda de los Boyeros de Berna.
+      <br>
+      <br>
+      La salvación de la raza vino de la mano de un criador suizo llamado Franz Schertenleib, que se propuso encontrar y preservar los mejores ejemplares de Boyeros de Berna. Con la ayuda de un profesor de la Universidad de Berna llamado Albert Heim, Schertenleib comenzó a buscar en las regiones rurales de Suiza perros que representaran el tipo ideal de Boyero de Berna. Los perros que encontraron fueron criados selectivamente, y en 1907 se formó el Club Suizo del Boyero de Berna para preservar y promover la raza.
+      <br>
+      <br>
+      El Boyero de Berna fue reconocido oficialmente por el Kennel Club Suizo en 1913, y la raza comenzó a ganar popularidad fuera de Suiza en la década de 1930. Los primeros Boyeros de Berna llegaron a Estados Unidos en 1926, y la raza fue reconocida por el American Kennel Club en 1937.
+      <br>
+      <br>
+      Desde entonces, el Boyero de Berna ha crecido en popularidad en todo el mundo, tanto como perro de trabajo como de compañía. Aunque todavía son capaces de realizar las tareas para las que fueron criados originalmente, hoy en día son más conocidos como mascotas leales y amigables, y son especialmenteapreciados por su paciencia y su buen carácter con los niños.
+      <br>
+      <br>
+      A pesar de los cambios en la agricultura y las prácticas de cría de perros, el Boyero de Berna ha logrado mantener su lugar en el corazón de los amantes de los perros en todo el mundo. Su combinación de fuerza, lealtad y amabilidad ha asegurado que la raza siga siendo popular, y su historia como trabajador incansable en las montañas suizas sigue siendo una parte importante de su atractivo.
+      <br>
+      <br>
+      A lo largo de los años, el Boyero de Berna ha demostrado ser un perro versátil y capaz, igualmente en casa en la granja, en el ring de exposiciones, o en el sofá de la sala de estar. Aunque la raza ha recorrido un largo camino desde sus días de trabajo en las montañas suizas, el Boyero de Berna sigue siendo un testimonio de la resistencia, la dedicación y el amor por el trabajo que definen a los perros de trabajo.
+      <br>
+      <br>
+      Hoy en día, los Boyeros de Berna son amados por su temperamento amigable, su lealtad y su hermoso pelaje tricolor. Son una raza que ha resistido la prueba del tiempo, manteniendo su relevancia y popularidad a pesar de los cambios en la sociedad y la cría de perros. La historia del Boyero de Berna es una de adaptabilidad y supervivencia, y es una raza que sin duda seguirá cautivando a los amantes de los perros durante muchos años más.
     `,
     necesidades_especiales: [
       'Necesita mucho ejercicio',
@@ -23304,7 +23782,52 @@ export const DOG_LIST: { [key: number]: Dog } = {
     nivel_de_energia: 'Moderado',
     popularidad: 'Moderada',
     gallery: ['https://esferamascota.b-cdn.net/razas-boyero-de-berna.webp'],
+    searchTerms: [
+      'Boyero de Berna',
+      'Bernese Mountain Dog',
+      'Perro de montaña',
+      'Boyero',
+      'Berna',
+      'Perro de montaña',
+      'Perro suizo',
+      'Perro de trabajo',
+      'Perro de granja',
+      'Perro de trineo',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro grande',
+      'Perro de pelo largo',
+      'Perro tricolor',
+      'Perro de clima frío',
+      'Perro de montaña suizo',
+      'Perro de Berna',
+      'Boyero de montaña',
+      'Perro de ganado',
+      'Perro de granja suizo',
+      'Perro de tracción',
+      'Perro de compañía',
+      'Perro de gran tamaño',
+      'Perro robusto',
+      'Perro fuerte',
+      'Perro leal',
+      'Perro amigable',
+      'Perro paciente',
+      'Perro tranquilo',
+      'Perro de pelo largo tricolor',
+      'Perro de montaña de Berna',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.dogbreedinfo.com/bernese.htm',
+      'https://www.ukcdogs.com/bernese-mountain-dog',
+      'https://en.wikipedia.org/wiki/Bernese_Mountain_Dog',
+    ],
   },
 };
-
-// Tenga en cuenta que los colores y las enfermedades comunes se seleccionaron basándose en la información generalmente asociada con estas razas. La información exacta puede variar y debería consultarse con un especialista en razas de perros o un veterinario para obtener información más precisa.
