@@ -1,11 +1,14 @@
-import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, Inject, OnDestroy, PLATFORM_ID, ViewChild } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { NavigationService } from 'src/app/services/navigation.service';
 
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
-  styleUrls: ['./navigation.component.scss']
+  styleUrls: ['./navigation.component.scss'],
+  standalone: true,
+  imports: [CommonModule, RouterModule]
 })
 export class NavigationComponent implements AfterViewInit, OnDestroy {
   @ViewChild('naviToggle') naviToggle: ElementRef<HTMLInputElement> | undefined;

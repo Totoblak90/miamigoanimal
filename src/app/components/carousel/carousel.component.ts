@@ -1,10 +1,12 @@
-import { isPlatformBrowser } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { Component, ViewChild, ElementRef, Input, HostListener, Inject, OnChanges, SimpleChanges, PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'carousel',
   templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.scss']
+  styleUrls: ['./carousel.component.scss'],
+  standalone: true,
+  imports: [CommonModule]
 })
 export class CarouselComponent implements OnChanges {
 

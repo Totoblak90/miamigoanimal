@@ -1,15 +1,19 @@
-import { isPlatformBrowser } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { Component, Inject, Input, OnDestroy, OnInit, PLATFORM_ID, makeStateKey, TransferState, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subject, takeUntil } from 'rxjs';
 import { Dog } from 'src/app/interfaces/dog.interface';
 import { PerrosService } from 'src/app/services/perros.service';
 import { UtilitiesService } from 'src/app/services/utilities.service';
+import { BuscadorComponent } from '../buscador/buscador.component';
+import { SocialIconsComponent } from '../social-icons/social-icons.component';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  styleUrls: ['./header.component.scss'],
+  standalone: true,
+  imports: [BuscadorComponent, CommonModule, SocialIconsComponent]
 })
 export class HeaderComponent implements OnInit, OnDestroy {
 

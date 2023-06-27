@@ -1,10 +1,13 @@
+import { CommonModule } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, Input, QueryList, ViewChildren } from '@angular/core';
 import { Faqs } from 'src/app/interfaces/accordion.interface';
 
 @Component({
   selector: 'accordion',
   templateUrl: './accordion.component.html',
-  styleUrls: ['./accordion.component.scss']
+  styleUrls: ['./accordion.component.scss'],
+  standalone: true,
+  imports: [CommonModule]
 })
 export class AccordionComponent {
   activeIndex: number = -1;

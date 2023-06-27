@@ -2,11 +2,16 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { GatosRoutingModule } from './gatos-routing.module';
-import { ComponentsModule } from 'src/app/components/components.module';
 import { GatosComponent } from './gatos.component';
 import { CatListComponent } from './cat-list/cat-list.component';
 import { InfoComponent } from './info/info.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HeaderComponent } from 'src/app/components/header/header.component';
+import { IndexComponent } from 'src/app/components/index/index.component';
+import { RecentArticlesSectionComponent } from 'src/app/components/recent-articles-section/recent-articles-section.component';
+import { HighlitedArticlesSectionComponent } from 'src/app/components/highlited-articles-section/highlited-articles-section.component';
+import { FlippingCardComponent } from 'src/app/components/flipping-card/flipping-card.component';
+import { SpinnerComponent } from 'src/app/components/spinner/spinner.component';
 
 
 @NgModule({
@@ -18,9 +23,13 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     GatosRoutingModule,
-    ComponentsModule,
-    ComponentsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HeaderComponent,
+    IndexComponent,
+    RecentArticlesSectionComponent,
+    HighlitedArticlesSectionComponent,
+    FlippingCardComponent,
+    SpinnerComponent
   ],
 })
 export class GatosModule { }

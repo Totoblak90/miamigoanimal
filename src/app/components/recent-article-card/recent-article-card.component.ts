@@ -1,11 +1,16 @@
+import { CommonModule } from '@angular/common';
 import { Component, Input, OnInit, TransferState, makeStateKey } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { DirectivesModule } from 'src/app/directives/directives.module';
 import { PerrosService } from 'src/app/services/perros.service';
 import { UtilitiesService } from 'src/app/services/utilities.service';
 
 @Component({
   selector: 'recent-article-card',
   templateUrl: './recent-article-card.component.html',
-  styleUrls: ['./recent-article-card.component.scss']
+  styleUrls: ['./recent-article-card.component.scss'],
+  standalone: true,
+  imports: [CommonModule, DirectivesModule, RouterModule]
 })
 export class RecentArticleCardComponent implements OnInit {
 

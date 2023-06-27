@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ComponentsModule } from './components/components.module';
 import { HttpClientModule } from '@angular/common/http';
+import { NavigationComponent } from './components/navigation/navigation.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { PopupDisclaimerComponent } from './components/popup-disclaimer/popup-disclaimer.component';
+import { GoUpComponent } from './components/go-up/go-up.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +16,13 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ComponentsModule,
-    HttpClientModule
+    HttpClientModule,
+    NavigationComponent,
+    FooterComponent,
+    PopupDisclaimerComponent,
+    GoUpComponent
   ],
-  providers: [],
+  providers: [provideClientHydration()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

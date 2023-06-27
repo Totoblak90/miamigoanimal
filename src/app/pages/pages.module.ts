@@ -1,17 +1,17 @@
-import { Directive, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { PagesRoutingModule } from './pages-routing.module';
+import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
-import { ComponentsModule } from '../components/components.module';
+import { DirectivesModule } from '../directives/directives.module';
+import { PagesRoutingModule } from './pages-routing.module';
 
 import { TerminosComponent } from './terminos/terminos.component';
 import { PoliticasComponent } from './politicas/politicas.component';
 import { CookiesComponent } from './cookies/cookies.component';
-import { RouterModule } from '@angular/router';
-import { DirectivesModule } from '../directives/directives.module';
+import { HeaderComponent } from '../components/header/header.component';
 import { GestionarCookiesComponent } from './gestionar-cookies/gestionar-cookies.component';
-import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -24,10 +24,10 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     PagesRoutingModule,
-    ComponentsModule,
     RouterModule,
     DirectivesModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HeaderComponent
   ]
 })
 export class PagesModule { }

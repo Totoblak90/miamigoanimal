@@ -1,11 +1,13 @@
-import { DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { AfterViewInit, Component, ElementRef, Inject, Input, OnInit, PLATFORM_ID, ViewChild } from '@angular/core';
+import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { AfterViewInit, Component, ElementRef, Inject, PLATFORM_ID, ViewChild } from '@angular/core';
 import { AlimentacionService } from 'src/app/services/alimentacion.service';
 
 @Component({
   selector: 'popup-food-rations',
   templateUrl: './popup-food-rations.component.html',
-  styleUrls: ['./popup-food-rations.component.scss']
+  styleUrls: ['./popup-food-rations.component.scss'],
+  standalone: true,
+  imports: [CommonModule]
 })
 export class PopupFoodRationsComponent implements AfterViewInit {
 

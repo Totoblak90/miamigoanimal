@@ -2,8 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { SobreMiRoutingModule } from './sobre-mi-routing.module';
-import { ComponentsModule } from 'src/app/components/components.module';
 import { SobreMiComponent } from './sobre-mi.component';
+import { HeaderComponent } from 'src/app/components/header/header.component';
+import { BgImageCardComponent } from 'src/app/components/bg-image-card/bg-image-card.component';
 
 
 @NgModule({
@@ -11,7 +12,9 @@ import { SobreMiComponent } from './sobre-mi.component';
   imports: [
     CommonModule,
     SobreMiRoutingModule,
-    ComponentsModule
+    HeaderComponent,
+    BgImageCardComponent,
+    
   ]
 })
 export class SobreMiModule { }

@@ -1,10 +1,12 @@
-import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { Component, Inject, Input, OnInit, PLATFORM_ID, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'index',
   templateUrl: './index.component.html',
   styleUrls: ['./index.component.scss'],
+  standalone: true,
+  imports: [CommonModule]
 })
 export class IndexComponent implements OnInit {
   @Input() collapsed = false;

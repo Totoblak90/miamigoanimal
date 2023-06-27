@@ -1,6 +1,7 @@
+import { CommonModule } from '@angular/common';
 import { Component, ElementRef, HostListener, OnDestroy } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
-import { Router } from '@angular/router';
+import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { Router, RouterModule } from '@angular/router';
 import { Subject, takeUntil } from 'rxjs';
 import { SearchResult } from 'src/app/interfaces/buscador.interface';
 import { ArticlesService } from 'src/app/services/articles.service';
@@ -10,7 +11,9 @@ import { UtilitiesService } from 'src/app/services/utilities.service';
 @Component({
   selector: 'buscador',
   templateUrl: './buscador.component.html',
-  styleUrls: ['./buscador.component.scss']
+  styleUrls: ['./buscador.component.scss'],
+  standalone: true,
+  imports: [ReactiveFormsModule, CommonModule, RouterModule]
 })
 export class BuscadorComponent implements OnDestroy {
 

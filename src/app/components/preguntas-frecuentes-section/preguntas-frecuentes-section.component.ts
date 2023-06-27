@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { Faqs } from 'src/app/interfaces/accordion.interface';
 import { AccordionComponent } from '../accordion/accordion.component';
@@ -5,7 +6,9 @@ import { AccordionComponent } from '../accordion/accordion.component';
 @Component({
   selector: 'preguntas-frecuentes-section',
   templateUrl: './preguntas-frecuentes-section.component.html',
-  styleUrls: ['./preguntas-frecuentes-section.component.scss']
+  styleUrls: ['./preguntas-frecuentes-section.component.scss'],
+  standalone: true,
+  imports: [CommonModule, AccordionComponent]
 })
 export class PreguntasFrecuentesSectionComponent {
 

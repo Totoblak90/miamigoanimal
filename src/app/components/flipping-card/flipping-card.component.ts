@@ -1,11 +1,15 @@
-import { isPlatformBrowser } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { OnInit, AfterViewInit, Component, ElementRef, Input, ViewChild, OnDestroy, PLATFORM_ID, Inject, makeStateKey, TransferState } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { DirectivesModule } from 'src/app/directives/directives.module';
 import { UtilitiesService } from 'src/app/services/utilities.service';
 
 @Component({
   selector: 'flipping-card',
   templateUrl: './flipping-card.component.html',
-  styleUrls: ['./flipping-card.component.scss']
+  styleUrls: ['./flipping-card.component.scss'],
+  standalone: true,
+  imports: [CommonModule, DirectivesModule, RouterModule]
 })
 export class FlippingCardComponent implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild('scrollContainer') scrollContainer: ElementRef | undefined;

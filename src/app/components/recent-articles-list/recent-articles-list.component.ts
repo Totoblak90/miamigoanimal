@@ -1,10 +1,14 @@
 import { Component, Input } from '@angular/core';
 import { ArticlesService } from 'src/app/services/articles.service';
+import { RecentArticleCardComponent } from '../recent-article-card/recent-article-card.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'recent-articles-list',
   templateUrl: './recent-articles-list.component.html',
-  styleUrls: ['./recent-articles-list.component.scss']
+  styleUrls: ['./recent-articles-list.component.scss'],
+  standalone: true,
+  imports: [RecentArticleCardComponent, CommonModule]
 })
 export class LastArticlesComponent {
   @Input() filters: ('Gatos' | 'Perros' | 'Salud' | 'Adiestramiento' | 'Alimentacion')[] = [];

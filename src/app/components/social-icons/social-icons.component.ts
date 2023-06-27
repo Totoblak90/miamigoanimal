@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component, ElementRef, Input, Renderer2, ViewChild } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { Router } from '@angular/router';
@@ -6,7 +7,9 @@ import { NavigationService } from 'src/app/services/navigation.service';
 @Component({
   selector: 'social-icons',
   templateUrl: './social-icons.component.html',
-  styleUrls: ['./social-icons.component.scss']
+  styleUrls: ['./social-icons.component.scss'],
+  standalone: true,
+  imports: [CommonModule]
 })
 export class SocialIconsComponent {
 

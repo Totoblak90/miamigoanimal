@@ -1,10 +1,14 @@
+import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { ArticlesService } from 'src/app/services/articles.service';
+import { FlippingCardComponent } from '../flipping-card/flipping-card.component';
 
 @Component({
   selector: 'highlited-articles-for-posts',
   templateUrl: './highlited-articles-posts.component.html',
-  styleUrls: ['./highlited-articles-posts.component.scss']
+  styleUrls: ['./highlited-articles-posts.component.scss'],
+  standalone: true,
+  imports: [CommonModule, FlippingCardComponent]
 })
 export class HighlitedArticlesPostsComponent {
 

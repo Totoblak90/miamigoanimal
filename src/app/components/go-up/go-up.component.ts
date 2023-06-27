@@ -1,10 +1,12 @@
-import { isPlatformBrowser } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'go-up',
   templateUrl: './go-up.component.html',
-  styleUrls: ['./go-up.component.scss']
+  styleUrls: ['./go-up.component.scss'],
+  standalone: true,
+  imports: [CommonModule]
 })
 export class GoUpComponent {
 

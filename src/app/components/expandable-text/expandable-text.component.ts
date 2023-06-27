@@ -1,10 +1,12 @@
-import { isPlatformBrowser } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { Component, Input, ViewChild, ElementRef, Inject, PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'expandable-text',
   templateUrl: './expandable-text.component.html',
-  styleUrls: ['./expandable-text.component.scss']
+  styleUrls: ['./expandable-text.component.scss'],
+  standalone: true,
+  imports: [CommonModule]
 })
 export class ExpandableTextComponent {
 

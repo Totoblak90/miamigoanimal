@@ -1,12 +1,15 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnDestroy } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Subject, takeUntil, tap } from 'rxjs';
 import { ContactFormService } from 'src/app/services/contact-form.service';
 
 @Component({
   selector: 'contact-form',
   templateUrl: './contact-form.component.html',
-  styleUrls: ['./contact-form.component.scss']
+  styleUrls: ['./contact-form.component.scss'],
+  standalone: true,
+  imports: [ReactiveFormsModule, CommonModule]
 })
 export class ContactFormComponent implements OnDestroy {
   private emailPattern: string = "^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$";
