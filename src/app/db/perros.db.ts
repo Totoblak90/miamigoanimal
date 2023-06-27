@@ -14140,18 +14140,50 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Lhasa Apso',
       'Perro pequeño',
       'Perro de compañía',
-      "Lhasa Apso", "Lasa Apso", "Lhasa", "Apso", "Lasa", "Perro tibetano", "Perro de compañía", "Perro de alerta", "Perro lanudo", "Perro de pelo largo", "Perro pequeño", "Perro robusto", "Perro guardián", "Perro de palacio", "Perro de monasterio", "Perro de la suerte", "Perro sagrado", "Perro de regalo", "Perro de montaña", "Perro de altura", "Perro de frio", "Perro de sol", "Perro de pelo denso", "Perro de pelo dorado", "Perro de pelo arena", "Perro de pelo miel", "Perro de pelo negro", "Perro de pelo gris", "Perro de pelo blanco", "Perro de pelo parti-color"
+      'Lhasa Apso',
+      'Lasa Apso',
+      'Lhasa',
+      'Apso',
+      'Lasa',
+      'Perro tibetano',
+      'Perro de compañía',
+      'Perro de alerta',
+      'Perro lanudo',
+      'Perro de pelo largo',
+      'Perro pequeño',
+      'Perro robusto',
+      'Perro guardián',
+      'Perro de palacio',
+      'Perro de monasterio',
+      'Perro de la suerte',
+      'Perro sagrado',
+      'Perro de regalo',
+      'Perro de montaña',
+      'Perro de altura',
+      'Perro de frio',
+      'Perro de sol',
+      'Perro de pelo denso',
+      'Perro de pelo dorado',
+      'Perro de pelo arena',
+      'Perro de pelo miel',
+      'Perro de pelo negro',
+      'Perro de pelo gris',
+      'Perro de pelo blanco',
+      'Perro de pelo parti-color',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/SJp7Qe5EX_390x256.jpg'],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Alta",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": ["https://en.wikipedia.org/wiki/Lhasa_Apso", "https://www.hillspet.com/dog-care/dog-breeds/lhasa-apso"]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Lhasa_Apso',
+      'https://www.hillspet.com/dog-care/dog-breeds/lhasa-apso',
+    ],
   },
   107: {
     weight: {
@@ -14276,7 +14308,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Perro inteligente',
       'Perro sociable',
       'Perro de Malta',
-      'Perro Mediterráneo'
+      'Perro Mediterráneo',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Alta',
@@ -14286,15 +14318,15 @@ export const DOG_LIST: { [key: number]: Dog } = {
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [
-    {
-    nombre: 'Issa',
-    caso: 'Perro de Publius, el gobernador romano de Malta en el siglo I d.C.'
-    }
+      {
+        nombre: 'Issa',
+        caso: 'Perro de Publius, el gobernador romano de Malta en el siglo I d.C.',
+      },
     ],
     fuentes: [
-    'https://en.wikipedia.org/wiki/Maltese_dog',
-    'https://www.akc.org/expert-advice/dog-breeds/maltese-toy-dog-myth-legend/'
-    ]
+      'https://en.wikipedia.org/wiki/Maltese_dog',
+      'https://www.akc.org/expert-advice/dog-breeds/maltese-toy-dog-myth-legend/',
+    ],
   },
   108: {
     weight: {
@@ -14413,21 +14445,21 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'Perro Pastor',
       'perro Pastor',
       'Perro miniatura',
-      'perro miniatura'
+      'perro miniatura',
     ],
     tendencia_a_ladrar: 'Moderada',
-necesidad_de_aseo: 'Moderada',
-soporta_clima_frio: 'Alta',
-soporta_clima_calido: 'Moderada',
-para_primerizos: 'Alta',
-bueno_con_ninos: 'Alta',
-tolerancia_a_la_soledad: 'Baja',
-casos_famosos: [],
-fuentes: [
-'https://www.expertoanimal.com/razas-de-perros/pastor-americano-miniatura-o-pastor-australiano-miniatura.html',
-'https://pt.wikipedia.org/wiki/Pastor_americano_miniatura',
-'https://smylepets.com/perros/razas/pastor-americano-miniatura/'
-]
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.expertoanimal.com/razas-de-perros/pastor-americano-miniatura-o-pastor-australiano-miniatura.html',
+      'https://pt.wikipedia.org/wiki/Pastor_americano_miniatura',
+      'https://smylepets.com/perros/razas/pastor-americano-miniatura/',
+    ],
   },
   109: {
     weight: {
@@ -14558,7 +14590,7 @@ fuentes: [
       'Perro seguro',
       'perro seguro',
       'Perro leal',
-      'perro leal'
+      'perro leal',
     ],
     tendencia_a_ladrar: 'Alta',
     necesidad_de_aseo: 'Baja',
@@ -14569,10 +14601,10 @@ fuentes: [
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-    'https://www.expertoanimal.com/razas-de-perros/pinscher-miniatura.html',
-    'https://www.zooplus.es/magazine/perros/razas-de-perro/pinscher-miniatura',
-    'https://www.hillspet.com.mx/dog-care/dog-breeds/miniature-pinscher'
-    ]
+      'https://www.expertoanimal.com/razas-de-perros/pinscher-miniatura.html',
+      'https://www.zooplus.es/magazine/perros/razas-de-perro/pinscher-miniatura',
+      'https://www.hillspet.com.mx/dog-care/dog-breeds/miniature-pinscher',
+    ],
   },
   110: {
     weight: {
@@ -14699,7 +14731,7 @@ fuentes: [
       'schnauzer mini niños',
       'schnauzer miniatura apartamento',
       'schnauzer mini apartamento',
-      'schnauzer miniatura inteligente'
+      'schnauzer miniatura inteligente',
     ],
     tendencia_a_ladrar: 'Alta',
     necesidad_de_aseo: 'Alta',
@@ -14710,10 +14742,10 @@ fuentes: [
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-    'https://www.hillspet.co/dog-care/dog-breeds/miniature-schnauzer',
-    'https://wakyma.com/blog/perro-raza-schnauzar-miniatura/',
-    'https://www.bekiamascotas.com/articulos/diferencias-schanuzer-miniatura-estandar-gigante-elegir-mascota/'
-    ]
+      'https://www.hillspet.co/dog-care/dog-breeds/miniature-schnauzer',
+      'https://wakyma.com/blog/perro-raza-schnauzar-miniatura/',
+      'https://www.bekiamascotas.com/articulos/diferencias-schanuzer-miniatura-estandar-gigante-elegir-mascota/',
+    ],
   },
   111: {
     weight: {
@@ -14833,7 +14865,7 @@ fuentes: [
       'Perro gentil',
       'Perro tranquilo',
       'Perro de Newfoundland',
-      'Perro de Nueva Escocia'
+      'Perro de Nueva Escocia',
     ],
     tendencia_a_ladrar: 'Baja',
     necesidad_de_aseo: 'Alta',
@@ -14843,20 +14875,20 @@ fuentes: [
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [
-    {
-    nombre: 'Seaman',
-    caso: 'Mascota del explorador Meriwether Lewis'
-    },
-    {
-    nombre: 'Boatswain',
-    caso: 'Mascota del poeta Lord Byron'
-    }
+      {
+        nombre: 'Seaman',
+        caso: 'Mascota del explorador Meriwether Lewis',
+      },
+      {
+        nombre: 'Boatswain',
+        caso: 'Mascota del poeta Lord Byron',
+      },
     ],
     fuentes: [
-    'https://es.wikipedia.org/wiki/Terranova_(perro)',
-    'https://www.dogbreedinfo.com',
-    'https://www.ukcdogs.com'
-    ]
+      'https://es.wikipedia.org/wiki/Terranova_(perro)',
+      'https://www.dogbreedinfo.com',
+      'https://www.ukcdogs.com',
+    ],
   },
   112: {
     weight: {
@@ -14978,7 +15010,7 @@ fuentes: [
       'Perro británico',
       'Perro del Reino Unido',
       'Perro inglés',
-      'Perro de Inglaterra'
+      'Perro de Inglaterra',
     ],
     tendencia_a_ladrar: 'Alta',
     necesidad_de_aseo: 'Moderada',
@@ -14989,10 +15021,10 @@ fuentes: [
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-    'https://www.thesprucepets.com/norfolk-terrier-dog-breed-profile-4781285',
-    'https://en.wikipedia.org/wiki/Norfolk_Terrier',
-    'https://www.hillspet.com/dog-care/dog-breeds/norfolk-terrier'
-    ]
+      'https://www.thesprucepets.com/norfolk-terrier-dog-breed-profile-4781285',
+      'https://en.wikipedia.org/wiki/Norfolk_Terrier',
+      'https://www.hillspet.com/dog-care/dog-breeds/norfolk-terrier',
+    ],
   },
   113: {
     weight: {
@@ -15119,7 +15151,7 @@ fuentes: [
       'Perro de orejas erectas',
       'Perro de orejas paradas',
       'Perro de tamaño pequeño',
-      'Perro de raza pequeña'
+      'Perro de raza pequeña',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Moderada',
@@ -15130,10 +15162,10 @@ fuentes: [
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
     fuentes: [
-    'https://es.wikipedia.org/wiki/Terrier_de_Norwich',
-    'https://www.royalcanin.com/es/dogs/breeds/breed-library/norwich-terrier',
-    'https://www.petdarling.com/terrier-de-norwich/'
-    ]
+      'https://es.wikipedia.org/wiki/Terrier_de_Norwich',
+      'https://www.royalcanin.com/es/dogs/breeds/breed-library/norwich-terrier',
+      'https://www.petdarling.com/terrier-de-norwich/',
+    ],
   },
   114: {
     weight: {
@@ -15248,7 +15280,7 @@ fuentes: [
       'Perro de Nueva Escocia',
       'perro de nueva escocia',
       'Perro de nueva escocia',
-      'perro de Nueva Escocia'
+      'perro de Nueva Escocia',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Moderada',
@@ -15261,8 +15293,8 @@ fuentes: [
     fuentes: [
       'https://es.wikipedia.org/wiki/Retriever_de_Nueva_Escocia',
       'https://www.wikiwand.com/es/Retriever_de_Nueva_Escocia',
-      'https://www.royalcanin.com/ec/dogs/breeds/breed-library/nova-scotia-duck-tolling-retriever'
-    ]
+      'https://www.royalcanin.com/ec/dogs/breeds/breed-library/nova-scotia-duck-tolling-retriever',
+    ],
   },
   115: {
     weight: {
@@ -15386,7 +15418,7 @@ fuentes: [
       'Perro inteligente',
       'Perro adaptable',
       'Perro confiable',
-      'Perro paciente'
+      'Perro paciente',
     ],
     tendencia_a_ladrar: 'Alta',
     necesidad_de_aseo: 'Alta',
@@ -15396,16 +15428,16 @@ fuentes: [
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [
-    {
-    nombre: 'Fernville Lord Digby',
-    caso: 'Famoso por ser el perro de la publicidad de pinturas Dulux desde la década de 1960'
-    }
+      {
+        nombre: 'Fernville Lord Digby',
+        caso: 'Famoso por ser el perro de la publicidad de pinturas Dulux desde la década de 1960',
+      },
     ],
     fuentes: [
-    'https://en.wikipedia.org/wiki/Old_English_Sheepdog',
-    'https://www.akc.org/dog-breeds/old-english-sheepdog/',
-    'https://www.akc.org/expert-advice/dog-breeds/10-interesting-facts-about-the-old-english-sheepdog/'
-    ]
+      'https://en.wikipedia.org/wiki/Old_English_Sheepdog',
+      'https://www.akc.org/dog-breeds/old-english-sheepdog/',
+      'https://www.akc.org/expert-advice/dog-breeds/10-interesting-facts-about-the-old-english-sheepdog/',
+    ],
   },
   116: {
     weight: {
@@ -15500,45 +15532,48 @@ fuentes: [
       'Molosoide',
       'Guardia',
       'Compañía',
-      "Bulldog Ingles",
-      "Bulldog",
-      "Ingles",
-      "Perro Ingles",
-      "Perro Bulldog",
-      "Bulldog de Inglaterra",
-      "Bulldog de inglaterra",
-      "Bulldog de Inglaterra",
-      "Bulldog de inglaterra",
-      "Bulldog británico",
-      "Bulldog britanico",
-      "Perro británico",
-      "Perro britanico",
-      "Perro de compañía",
-      "Perro de compania",
-      "Perro familiar",
-      "Perro robusto",
-      "Perro fuerte",
-      "Perro compacto",
-      "Perro arrugado",
-      "Perro de raza",
-      "Raza Bulldog",
-      "Raza de perro Bulldog",
-      "Raza de perro Ingles",
-      "Raza de perro ingles",
-      "Raza de perro Bulldog Ingles",
-      "Raza de perro Bulldog ingles",
-      "Raza de perro Bulldog Inglés",
-      "Raza de perro Bulldog Ingles"
+      'Bulldog Ingles',
+      'Bulldog',
+      'Ingles',
+      'Perro Ingles',
+      'Perro Bulldog',
+      'Bulldog de Inglaterra',
+      'Bulldog de inglaterra',
+      'Bulldog de Inglaterra',
+      'Bulldog de inglaterra',
+      'Bulldog británico',
+      'Bulldog britanico',
+      'Perro británico',
+      'Perro britanico',
+      'Perro de compañía',
+      'Perro de compania',
+      'Perro familiar',
+      'Perro robusto',
+      'Perro fuerte',
+      'Perro compacto',
+      'Perro arrugado',
+      'Perro de raza',
+      'Raza Bulldog',
+      'Raza de perro Bulldog',
+      'Raza de perro Ingles',
+      'Raza de perro ingles',
+      'Raza de perro Bulldog Ingles',
+      'Raza de perro Bulldog ingles',
+      'Raza de perro Bulldog Inglés',
+      'Raza de perro Bulldog Ingles',
     ],
-    "tendencia_a_ladrar": "Baja",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Baja",
-    "para_primerizos": "Alta",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": ["https://www.thesprucepets.com/bulldog-4584344", "https://www.hillspet.com/dog-care/dog-breeds/english-bulldog"]
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.thesprucepets.com/bulldog-4584344',
+      'https://www.hillspet.com/dog-care/dog-breeds/english-bulldog',
+    ],
   },
   117: {
     weight: {
@@ -15641,31 +15676,31 @@ fuentes: [
       'Papillón',
       'Perro faldero',
       'Juguete',
-      "Papillon",
-      "Papilon",
-      "Papillon dog",
-      "Perro Papillón",
-      "Perro Papillon",
-      "Spaniel enano continental",
-      "Perro mariposa",
-      "Mariposa",
-      "Perro de compañía",
-      "Perro de raza pequeña",
-      "Perro de orejas grandes",
-      "Perro de orejas como mariposa",
-      "Perro de raza francesa",
-      "Perro de raza belga",
-      "Perro de raza europea",
-      "Perro para familias",
-      "Perro para niños",
-      "Perro inteligente",
-      "Perro activo",
-      "Perro de pelo largo",
-      "Perro de pelo sedoso",
-      "Perro de raza antigua",
-      "Perro de la realeza",
-      "Perro de la nobleza",
-      "Perro de la corte real"
+      'Papillon',
+      'Papilon',
+      'Papillon dog',
+      'Perro Papillón',
+      'Perro Papillon',
+      'Spaniel enano continental',
+      'Perro mariposa',
+      'Mariposa',
+      'Perro de compañía',
+      'Perro de raza pequeña',
+      'Perro de orejas grandes',
+      'Perro de orejas como mariposa',
+      'Perro de raza francesa',
+      'Perro de raza belga',
+      'Perro de raza europea',
+      'Perro para familias',
+      'Perro para niños',
+      'Perro inteligente',
+      'Perro activo',
+      'Perro de pelo largo',
+      'Perro de pelo sedoso',
+      'Perro de raza antigua',
+      'Perro de la realeza',
+      'Perro de la nobleza',
+      'Perro de la corte real',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Moderada',
@@ -15675,7 +15710,11 @@ fuentes: [
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [],
-    fuentes: ['https://www.dogbreedinfo.com', 'https://www.ukcdogs.com', 'https://en.wikipedia.org']
+    fuentes: [
+      'https://www.dogbreedinfo.com',
+      'https://www.ukcdogs.com',
+      'https://en.wikipedia.org',
+    ],
   },
   118: {
     weight: {
@@ -15779,54 +15818,54 @@ fuentes: [
       'Pekinés',
       'Perro faldero',
       'Juguete',
-      "Pekines",
-      "Pequinés",
-      "Pequines",
-      "Perro de Pekín",
-      "Perro de Pequin",
-      "Perro chino",
-      "Perro imperial",
-      "Perro de la corte",
-      "Perro león",
-      "Perro de compañía",
-      "Perro pequeño",
-      "Perro de pelo largo",
-      "Perro de raza antigua",
-      "Perro de raza pequeña",
-      "Perro de raza toy",
-      "Perro de raza miniatura",
-      "Perro de raza china",
-      "Perro de raza asiática",
-      "Perro de raza oriental",
-      "Perro de raza exótica",
-      "Perro de raza rara",
-      "Perro de raza exclusiva",
-      "Perro de raza real",
-      "Perro de raza noble",
-      "Perro de raza digna",
-      "Perro de raza valiente",
-      "Perro de raza leal",
-      "Perro de raza fiel",
-      "Perro de raza cariñosa"
+      'Pekines',
+      'Pequinés',
+      'Pequines',
+      'Perro de Pekín',
+      'Perro de Pequin',
+      'Perro chino',
+      'Perro imperial',
+      'Perro de la corte',
+      'Perro león',
+      'Perro de compañía',
+      'Perro pequeño',
+      'Perro de pelo largo',
+      'Perro de raza antigua',
+      'Perro de raza pequeña',
+      'Perro de raza toy',
+      'Perro de raza miniatura',
+      'Perro de raza china',
+      'Perro de raza asiática',
+      'Perro de raza oriental',
+      'Perro de raza exótica',
+      'Perro de raza rara',
+      'Perro de raza exclusiva',
+      'Perro de raza real',
+      'Perro de raza noble',
+      'Perro de raza digna',
+      'Perro de raza valiente',
+      'Perro de raza leal',
+      'Perro de raza fiel',
+      'Perro de raza cariñosa',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Alta",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Baja",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Baja",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Sun Yat-Sen",
-    "caso": "Uno de los tres perros que sobrevivieron al hundimiento del Titanic, acompañando a sus dueños, Henry y Myra Sleeper[3]."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Baja',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Sun Yat-Sen',
+        caso: 'Uno de los tres perros que sobrevivieron al hundimiento del Titanic, acompañando a sus dueños, Henry y Myra Sleeper[3].',
+      },
     ],
-    "fuentes": [
-    "https://www.expertoanimal.com/razas-de-perros/el-perro-pekines.html",
-    "https://www.hillspet.cl/dog-care/dog-breeds/pekingese",
-    "https://www.feelcats.com/razas-perros/pequines/"
-    ]
+    fuentes: [
+      'https://www.expertoanimal.com/razas-de-perros/el-perro-pekines.html',
+      'https://www.hillspet.cl/dog-care/dog-breeds/pekingese',
+      'https://www.feelcats.com/razas-perros/pequines/',
+    ],
   },
   119: {
     weight: {
@@ -15955,7 +15994,7 @@ fuentes: [
       'Perro de pastoreo',
       'Perro de raza inteligente',
       'Perro inteligente',
-      'Perro de raza activa'
+      'Perro de raza activa',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Moderada',
@@ -15965,21 +16004,21 @@ fuentes: [
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [
-    {
-    nombre: 'Dookie',
-    caso: 'Fue el primer Corgi de la Reina Isabel II.'
-    },
-    {
-    nombre: 'Susan',
-    caso: 'Fue un regalo para el 18º cumpleaños de la Reina Isabel II, y es la matriarca de la línea de Corgis de la Reina.'
-    }
+      {
+        nombre: 'Dookie',
+        caso: 'Fue el primer Corgi de la Reina Isabel II.',
+      },
+      {
+        nombre: 'Susan',
+        caso: 'Fue un regalo para el 18º cumpleaños de la Reina Isabel II, y es la matriarca de la línea de Corgis de la Reina.',
+      },
     ],
     fuentes: [
       'https://www.akc.org/dog-breeds/pembroke-welsh-corgi/',
       'https://www.thesprucepets.com/breed-profile-pembroke-welsh-corgi-1117956',
       'https://www.yourpurebredpuppy.com/reviews/pembrokewelshcorgis.html',
-      'https://www.dogbreedinfo.com/pembroke.htm'
-    ]
+      'https://www.dogbreedinfo.com/pembroke.htm',
+    ],
   },
   120: {
     weight: {
@@ -16088,49 +16127,49 @@ fuentes: [
       'Perro de Presa Canario',
       'Perro de Trabajo',
       'Perro Guardián',
-      "Presa Canario",
-      "Dogo Canario",
-      "Canario",
-      "Perro de Presa",
-      "Presa",
-      "Perro Canario",
-      "Perro de las Islas Canarias",
-      "Perro de trabajo",
-      "Perro de guardia",
-      "Perro protector",
-      "Perro fuerte",
-      "Perro leal",
-      "Perro de gran tamaño",
-      "Perro de raza grande",
-      "Perro de presa",
-      "Perro de caza",
-      "Perro de protección",
-      "Perro de compañía",
-      "Perro de familia",
-      "Perro de defensa",
-      "Perro de seguridad",
-      "Perro de servicio",
-      "Perro de rescate",
-      "Perro de terapia",
-      "Perro de asistencia",
-      "Perro de utilidad",
-      "Perro de vigilancia",
-      "Perro de patrulla",
-      "Perro de policía"
+      'Presa Canario',
+      'Dogo Canario',
+      'Canario',
+      'Perro de Presa',
+      'Presa',
+      'Perro Canario',
+      'Perro de las Islas Canarias',
+      'Perro de trabajo',
+      'Perro de guardia',
+      'Perro protector',
+      'Perro fuerte',
+      'Perro leal',
+      'Perro de gran tamaño',
+      'Perro de raza grande',
+      'Perro de presa',
+      'Perro de caza',
+      'Perro de protección',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro de defensa',
+      'Perro de seguridad',
+      'Perro de servicio',
+      'Perro de rescate',
+      'Perro de terapia',
+      'Perro de asistencia',
+      'Perro de utilidad',
+      'Perro de vigilancia',
+      'Perro de patrulla',
+      'Perro de policía',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.dogbreedinfo.com/presacanario.htm",
-    "https://www.akc.org/dog-breeds/perro-de-presa-canario/",
-    "https://www.ukcdogs.com/perro-de-presa-canario"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.dogbreedinfo.com/presacanario.htm',
+      'https://www.akc.org/dog-breeds/perro-de-presa-canario/',
+      'https://www.ukcdogs.com/perro-de-presa-canario',
+    ],
   },
   121: {
     weight: {
@@ -16231,49 +16270,49 @@ fuentes: [
       'Perro del Faraón',
       'Sabueso',
       'Caza de Conejos',
-      "Perro del Farao",
-      "Perro del Farón",
-      "Perro del Faraon",
-      "Pharaoh Hound",
-      "Kelb tal-Fenek",
-      "Perro de Malta",
-      "Perro Maltés",
-      "Perro de caza",
-      "Perro antiguo",
-      "Perro egipcio",
-      "Perro de los faraones",
-      "Perro de conejo",
-      "Perro de raza antigua",
-      "Perro de raza rara",
-      "Perro de raza pura",
-      "Perro de raza grande",
-      "Perro de orejas grandes",
-      "Perro de ojos ámbar",
-      "Perro de pelo corto",
-      "Perro de color rojo",
-      "Perro de color castaño",
-      "Perro de color tostado",
-      "Perro de color canela",
-      "Perro de color dorado",
-      "Perro de color cobrizo",
-      "Perro de color marrón",
-      "Perro de color beige",
-      "Perro de color miel",
-      "Perro de color caramelo"
+      'Perro del Farao',
+      'Perro del Farón',
+      'Perro del Faraon',
+      'Pharaoh Hound',
+      'Kelb tal-Fenek',
+      'Perro de Malta',
+      'Perro Maltés',
+      'Perro de caza',
+      'Perro antiguo',
+      'Perro egipcio',
+      'Perro de los faraones',
+      'Perro de conejo',
+      'Perro de raza antigua',
+      'Perro de raza rara',
+      'Perro de raza pura',
+      'Perro de raza grande',
+      'Perro de orejas grandes',
+      'Perro de ojos ámbar',
+      'Perro de pelo corto',
+      'Perro de color rojo',
+      'Perro de color castaño',
+      'Perro de color tostado',
+      'Perro de color canela',
+      'Perro de color dorado',
+      'Perro de color cobrizo',
+      'Perro de color marrón',
+      'Perro de color beige',
+      'Perro de color miel',
+      'Perro de color caramelo',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Alta",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Pharaoh_Hound",
-    "https://www.dogbreedinfo.com/pharaohhound.htm",
-    "https://www.ukcdogs.com/pharaoh-hound"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Pharaoh_Hound',
+      'https://www.dogbreedinfo.com/pharaohhound.htm',
+      'https://www.ukcdogs.com/pharaoh-hound',
+    ],
   },
   122: {
     weight: {
@@ -16370,49 +16409,49 @@ fuentes: [
       'Plott',
       'Sabueso',
       'Caza de jabalí',
-      "Plott Hound",
-      "Sabueso Plott",
-      "Perro de caza",
-      "Perro de rastreo",
-      "Perro de Carolina del Norte",
-      "Perro de montaña",
-      "Perro de trabajo",
-      "Perro de jabalí",
-      "Perro de caza mayor",
-      "Perro de resistencia",
-      "Perro valiente",
-      "Perro leal",
-      "Perro de familia",
-      "Perro coonhound",
-      "Perro de raza pura",
-      "Perro de raza americana",
-      "Perro de raza reconocida",
-      "Perro de raza UKC",
-      "Perro de raza AKC",
-      "Perro de raza desconocida",
-      "Perro de raza única",
-      "Perro de raza rara",
-      "Perro de raza de montaña",
-      "Perro de raza de caza",
-      "Perro de raza de trabajo",
-      "Perro de raza de resistencia",
-      "Perro de raza de valentía",
-      "Perro de raza de lealtad",
-      "Perro de raza de familia"
+      'Plott Hound',
+      'Sabueso Plott',
+      'Perro de caza',
+      'Perro de rastreo',
+      'Perro de Carolina del Norte',
+      'Perro de montaña',
+      'Perro de trabajo',
+      'Perro de jabalí',
+      'Perro de caza mayor',
+      'Perro de resistencia',
+      'Perro valiente',
+      'Perro leal',
+      'Perro de familia',
+      'Perro coonhound',
+      'Perro de raza pura',
+      'Perro de raza americana',
+      'Perro de raza reconocida',
+      'Perro de raza UKC',
+      'Perro de raza AKC',
+      'Perro de raza desconocida',
+      'Perro de raza única',
+      'Perro de raza rara',
+      'Perro de raza de montaña',
+      'Perro de raza de caza',
+      'Perro de raza de trabajo',
+      'Perro de raza de resistencia',
+      'Perro de raza de valentía',
+      'Perro de raza de lealtad',
+      'Perro de raza de familia',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.akc.org/dog-breeds/plott/",
-    "https://www.dogbreedinfo.com/plott.htm",
-    "https://www.ukcdogs.com/plott"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/plott/',
+      'https://www.dogbreedinfo.com/plott.htm',
+      'https://www.ukcdogs.com/plott',
+    ],
   },
   123: {
     weight: {
@@ -16507,58 +16546,58 @@ fuentes: [
       'Pomerania',
       'Juguete',
       'Compañía',
-      "Pomeranias",
-      "Pomeranio",
-      "Pomeranios",
-      "Pom",
-      "Poms",
-      "Spitz enano",
-      "Spitz pequeño",
-      "Spitz",
-      "Perro de la reina Victoria",
-      "Perro de compañía",
-      "Perro de familia",
-      "Perro pequeño",
-      "Perro de pelo largo",
-      "Perro de pelo espeso",
-      "Perro de raza pequeña",
-      "Perro de raza toy",
-      "Perro toy",
-      "Perro miniatura",
-      "Perro de raza miniatura",
-      "Perro de raza pura",
-      "Perro de raza",
-      "Perro de raza pura pequeña",
-      "Perro de raza pura toy",
-      "Perro de raza pura miniatura",
-      "Perro de raza pura con pelo largo",
-      "Perro de raza pura con pelo espeso",
-      "Perro de raza pura para familia",
-      "Perro de raza pura para niños",
-      "Perro de raza pura para compañía"
+      'Pomeranias',
+      'Pomeranio',
+      'Pomeranios',
+      'Pom',
+      'Poms',
+      'Spitz enano',
+      'Spitz pequeño',
+      'Spitz',
+      'Perro de la reina Victoria',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro pequeño',
+      'Perro de pelo largo',
+      'Perro de pelo espeso',
+      'Perro de raza pequeña',
+      'Perro de raza toy',
+      'Perro toy',
+      'Perro miniatura',
+      'Perro de raza miniatura',
+      'Perro de raza pura',
+      'Perro de raza',
+      'Perro de raza pura pequeña',
+      'Perro de raza pura toy',
+      'Perro de raza pura miniatura',
+      'Perro de raza pura con pelo largo',
+      'Perro de raza pura con pelo espeso',
+      'Perro de raza pura para familia',
+      'Perro de raza pura para niños',
+      'Perro de raza pura para compañía',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Alta",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Baja",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Boo",
-    "caso": "Boo fue un Pomerania que se hizo famoso en las redes sociales, siendo apodado 'El perro más lindo del mundo'."
-    },
-    {
-    "nombre": "Hatchi",
-    "caso": "Hatchi es un Pomerania que pertenece a la cantante Perrie Edwards de la banda Little Mix."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Boo',
+        caso: "Boo fue un Pomerania que se hizo famoso en las redes sociales, siendo apodado 'El perro más lindo del mundo'.",
+      },
+      {
+        nombre: 'Hatchi',
+        caso: 'Hatchi es un Pomerania que pertenece a la cantante Perrie Edwards de la banda Little Mix.',
+      },
     ],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Pomeranian_(dog)",
-    "https://www.dogbreedinfo.com/pomeranian.htm",
-    "https://www.ukcdogs.com/pomeranian"
-    ]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Pomeranian_(dog)',
+      'https://www.dogbreedinfo.com/pomeranian.htm',
+      'https://www.ukcdogs.com/pomeranian',
+    ],
   },
   124: {
     weight: {
@@ -16662,54 +16701,54 @@ fuentes: [
       'Caniche Miniatura',
       'Caniche',
       'Miniatura',
-      "Caniche mini",
-      "Mini Caniche",
-      "Caniche",
-      "Mini Poodle",
-      "Poodle Miniatura",
-      "Poodle mini",
-      "Caniche enano",
-      "Poodle enano",
-      "Perro de compañía",
-      "Perro de circo",
-      "Perro elegante",
-      "Perro inteligente",
-      "Perro de pelo rizado",
-      "Perro de agua",
-      "Perro francés",
-      "Perro de corte leonado",
-      "Perro de caza",
-      "Perro de la realeza",
-      "Perro de la nobleza",
-      "Perro de exposición",
-      "Perro de raza pequeña",
-      "Perro de raza mini",
-      "Perro de raza miniatura",
-      "Perro para niños",
-      "Perro para familias",
-      "Perro para primerizos",
-      "Perro para apartamentos",
-      "Perro para interiores",
-      "Perro de pelo hipoalergénico"
+      'Caniche mini',
+      'Mini Caniche',
+      'Caniche',
+      'Mini Poodle',
+      'Poodle Miniatura',
+      'Poodle mini',
+      'Caniche enano',
+      'Poodle enano',
+      'Perro de compañía',
+      'Perro de circo',
+      'Perro elegante',
+      'Perro inteligente',
+      'Perro de pelo rizado',
+      'Perro de agua',
+      'Perro francés',
+      'Perro de corte leonado',
+      'Perro de caza',
+      'Perro de la realeza',
+      'Perro de la nobleza',
+      'Perro de exposición',
+      'Perro de raza pequeña',
+      'Perro de raza mini',
+      'Perro de raza miniatura',
+      'Perro para niños',
+      'Perro para familias',
+      'Perro para primerizos',
+      'Perro para apartamentos',
+      'Perro para interiores',
+      'Perro de pelo hipoalergénico',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Alta",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Alta",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Fifi",
-    "caso": "Fifi, el Caniche Miniatura, es la mascota virtual de la franquicia de videojuegos 'Nintendogs'."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Fifi',
+        caso: "Fifi, el Caniche Miniatura, es la mascota virtual de la franquicia de videojuegos 'Nintendogs'.",
+      },
     ],
-    "fuentes": [
-    "https://www.dogbreedinfo.com/miniaturepoodle.htm",
-    "https://www.akc.org/dog-breeds/poodle-miniature/",
-    "https://www.ukcdogs.com/poodle-miniature"
-    ]
+    fuentes: [
+      'https://www.dogbreedinfo.com/miniaturepoodle.htm',
+      'https://www.akc.org/dog-breeds/poodle-miniature/',
+      'https://www.ukcdogs.com/poodle-miniature',
+    ],
   },
   125: {
     weight: {
@@ -16807,58 +16846,58 @@ fuentes: [
       'Caniche Juguete',
       'Caniche',
       'Juguete',
-      "Caniche Toy",
-      "Poodle Toy",
-      "Poodle Juguete",
-      "Caniche mini",
-      "Caniche pequeño",
-      "Caniche enano",
-      "Caniche para niños",
-      "Caniche para familia",
-      "Caniche para apartamento",
-      "Caniche para ciudad",
-      "Caniche inteligente",
-      "Caniche cariñoso",
-      "Caniche sociable",
-      "Caniche amigable",
-      "Caniche de compañía",
-      "Caniche de lujo",
-      "Caniche de realeza",
-      "Caniche de alta sociedad",
-      "Caniche de espectáculo",
-      "Caniche de concurso",
-      "Caniche de pelo rizado",
-      "Caniche de pelo largo",
-      "Caniche de pelo suave",
-      "Caniche de pelo hipoalergénico",
-      "Caniche de pelo no cae",
-      "Caniche de pelo no suelta",
-      "Caniche de pelo no alergia",
-      "Caniche de pelo no alérgico",
-      "Caniche de pelo no alergias"
+      'Caniche Toy',
+      'Poodle Toy',
+      'Poodle Juguete',
+      'Caniche mini',
+      'Caniche pequeño',
+      'Caniche enano',
+      'Caniche para niños',
+      'Caniche para familia',
+      'Caniche para apartamento',
+      'Caniche para ciudad',
+      'Caniche inteligente',
+      'Caniche cariñoso',
+      'Caniche sociable',
+      'Caniche amigable',
+      'Caniche de compañía',
+      'Caniche de lujo',
+      'Caniche de realeza',
+      'Caniche de alta sociedad',
+      'Caniche de espectáculo',
+      'Caniche de concurso',
+      'Caniche de pelo rizado',
+      'Caniche de pelo largo',
+      'Caniche de pelo suave',
+      'Caniche de pelo hipoalergénico',
+      'Caniche de pelo no cae',
+      'Caniche de pelo no suelta',
+      'Caniche de pelo no alergia',
+      'Caniche de pelo no alérgico',
+      'Caniche de pelo no alergias',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Alta",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Alta",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Fifi",
-    "caso": "Fifi, el Caniche Toy, es una de las estrellas de la película de animación 'Open Season'."
-    },
-    {
-    "nombre": "Mimí",
-    "caso": "Mimí, un Caniche Toy, es la mascota de la famosa cantante y actriz francesa Mistinguett."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Fifi',
+        caso: "Fifi, el Caniche Toy, es una de las estrellas de la película de animación 'Open Season'.",
+      },
+      {
+        nombre: 'Mimí',
+        caso: 'Mimí, un Caniche Toy, es la mascota de la famosa cantante y actriz francesa Mistinguett.',
+      },
     ],
-    "fuentes": [
-    "https://www.dogbreedinfo.com/toypoodle.htm",
-    "https://www.akc.org/dog-breeds/toy-poodle/",
-    "https://www.ukcdogs.com/toy-poodle"
-    ]
+    fuentes: [
+      'https://www.dogbreedinfo.com/toypoodle.htm',
+      'https://www.akc.org/dog-breeds/toy-poodle/',
+      'https://www.ukcdogs.com/toy-poodle',
+    ],
   },
   126: {
     weight: {
@@ -16962,60 +17001,60 @@ fuentes: [
       'Pug',
       'Mops',
       'Carlino',
-      "Pugs",
-      "Pug chino",
-      "Perro Pug",
-      "Pug carlino",
-      "Doguillo",
-      "Perro de compañía",
-      "Perro de regazo",
-      "Perro pequeño",
-      "Perro arrugado",
-      "Perro de cara plana",
-      "Perro de nariz chata",
-      "Perro de la realeza",
-      "Perro de la reina Victoria",
-      "Perro de la Casa de Orange",
-      "Perro de la antigua China",
-      "Perro amigable",
-      "Perro sociable",
-      "Perro para niños",
-      "Perro para familia",
-      "Perro para apartamento",
-      "Perro para principiantes",
-      "Perro robusto",
-      "Perro resistente",
-      "Perro de pelo corto",
-      "Perro de bajo mantenimiento",
-      "Perro de poca energía",
-      "Perro tranquilo"
+      'Pugs',
+      'Pug chino',
+      'Perro Pug',
+      'Pug carlino',
+      'Doguillo',
+      'Perro de compañía',
+      'Perro de regazo',
+      'Perro pequeño',
+      'Perro arrugado',
+      'Perro de cara plana',
+      'Perro de nariz chata',
+      'Perro de la realeza',
+      'Perro de la reina Victoria',
+      'Perro de la Casa de Orange',
+      'Perro de la antigua China',
+      'Perro amigable',
+      'Perro sociable',
+      'Perro para niños',
+      'Perro para familia',
+      'Perro para apartamento',
+      'Perro para principiantes',
+      'Perro robusto',
+      'Perro resistente',
+      'Perro de pelo corto',
+      'Perro de bajo mantenimiento',
+      'Perro de poca energía',
+      'Perro tranquilo',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Baja",
-    "soporta_clima_calido": "Baja",
-    "para_primerizos": "Alta",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Frank",
-    "caso": "Frank es un Pug que aparece en la serie de películas de 'Men in Black'. Es un personaje cómico que aporta alivio cómico a las películas."
-    },
-    {
-    "nombre": "Percy",
-    "caso": "Percy es un Pug que aparece en la película de Disney 'Pocahontas'. Es la mascota del villano, el Gobernador Ratcliffe."
-    },
-    {
-    "nombre": "Otis",
-    "caso": "Otis es un Pug que aparece en la película 'The Adventures of Milo and Otis'. Es un personaje principal que vive varias aventuras junto a su amigo Milo, un gato atigrado."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Baja',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Frank',
+        caso: "Frank es un Pug que aparece en la serie de películas de 'Men in Black'. Es un personaje cómico que aporta alivio cómico a las películas.",
+      },
+      {
+        nombre: 'Percy',
+        caso: "Percy es un Pug que aparece en la película de Disney 'Pocahontas'. Es la mascota del villano, el Gobernador Ratcliffe.",
+      },
+      {
+        nombre: 'Otis',
+        caso: "Otis es un Pug que aparece en la película 'The Adventures of Milo and Otis'. Es un personaje principal que vive varias aventuras junto a su amigo Milo, un gato atigrado.",
+      },
     ],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Pug",
-    "https://www.dogbreedinfo.com/pug.htm",
-    "https://www.ukcdogs.com/pug"
-    ]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Pug',
+      'https://www.dogbreedinfo.com/pug.htm',
+      'https://www.ukcdogs.com/pug',
+    ],
   },
   127: {
     weight: {
@@ -17143,7 +17182,7 @@ fuentes: [
       'Perro de raza inteligente',
       'Perro de raza leal',
       'Perro de raza resistente',
-      'Perro de raza activa'
+      'Perro de raza activa',
     ],
     tendencia_a_ladrar: 'Moderada',
     necesidad_de_aseo: 'Alta',
@@ -17153,16 +17192,16 @@ fuentes: [
     bueno_con_ninos: 'Alta',
     tolerancia_a_la_soledad: 'Baja',
     casos_famosos: [
-    {
-    nombre: 'Mark Zuckerberg',
-    caso: 'El fundador de Facebook, Mark Zuckerberg, tiene un Puli llamado Beast que tiene su propia página de Facebook.'
-    }
+      {
+        nombre: 'Mark Zuckerberg',
+        caso: 'El fundador de Facebook, Mark Zuckerberg, tiene un Puli llamado Beast que tiene su propia página de Facebook.',
+      },
     ],
     fuentes: [
-    'https://www.akc.org/dog-breeds/puli/',
-    'https://www.dogbreedinfo.com/puli.htm',
-    'https://www.ukcdogs.com/puli'
-    ]
+      'https://www.akc.org/dog-breeds/puli/',
+      'https://www.dogbreedinfo.com/puli.htm',
+      'https://www.ukcdogs.com/puli',
+    ],
   },
   128: {
     weight: {
@@ -17263,49 +17302,49 @@ fuentes: [
       'Pumi',
       'Perro pastor húngaro',
       'Pumik',
-      "Pumik",
-      "Perro húngaro",
-      "Perro de pastoreo",
-      "Perro de trabajo",
-      "Perro de granja",
-      "Perro de caza de roedores",
-      "Perro de tamaño mediano",
-      "Perro de pelo rizado",
-      "Perro de orejas erguidas",
-      "Perro activo",
-      "Perro inteligente",
-      "Perro versátil",
-      "Perro de compañía",
-      "Perro de familia",
-      "Perro de agilidad",
-      "Perro de obediencia",
-      "Perro de terapia",
-      "Perro de servicio",
-      "Perro de rescate",
-      "Perro de alerta",
-      "Perro de guardia",
-      "Perro de protección",
-      "Perro de vigilancia",
-      "Perro de deporte",
-      "Perro de competencia",
-      "Perro de exposición",
-      "Perro de show",
-      "Perro de concurso",
-      "Perro de raza pura"
+      'Pumik',
+      'Perro húngaro',
+      'Perro de pastoreo',
+      'Perro de trabajo',
+      'Perro de granja',
+      'Perro de caza de roedores',
+      'Perro de tamaño mediano',
+      'Perro de pelo rizado',
+      'Perro de orejas erguidas',
+      'Perro activo',
+      'Perro inteligente',
+      'Perro versátil',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro de agilidad',
+      'Perro de obediencia',
+      'Perro de terapia',
+      'Perro de servicio',
+      'Perro de rescate',
+      'Perro de alerta',
+      'Perro de guardia',
+      'Perro de protección',
+      'Perro de vigilancia',
+      'Perro de deporte',
+      'Perro de competencia',
+      'Perro de exposición',
+      'Perro de show',
+      'Perro de concurso',
+      'Perro de raza pura',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Pumi_(dog)",
-    "https://www.dogbreedinfo.com/pumi.htm",
-    "https://www.ukcdogs.com/pumi"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Pumi_(dog)',
+      'https://www.dogbreedinfo.com/pumi.htm',
+      'https://www.ukcdogs.com/pumi',
+    ],
   },
   129: {
     weight: {
@@ -17413,49 +17452,49 @@ fuentes: [
       'Terrier Rata',
       'Rat Terrier',
       'Terrier americano',
-      "Rat Terrier",
-      "Terrier de Rata",
-      "Terrier Ratón",
-      "Ratonero",
-      "Terrier",
-      "Perro cazador de ratas",
-      "Perro ratero",
-      "Perro pequeño",
-      "Perro de compañía",
-      "Perro de trabajo",
-      "Perro activo",
-      "Perro inteligente",
-      "Perro ágil",
-      "Perro resistente",
-      "Perro de caza",
-      "Perro de granja",
-      "Perro de familia",
-      "Perro para niños",
-      "Perro para principiantes",
-      "Perro para exteriores",
-      "Perro para interiores",
-      "Perro para apartamento",
-      "Perro para casa",
-      "Perro para jardín",
-      "Perro para campo",
-      "Perro para ciudad",
-      "Perro para deportes caninos",
-      "Perro para agilidad",
-      "Perro para obediencia"
+      'Rat Terrier',
+      'Terrier de Rata',
+      'Terrier Ratón',
+      'Ratonero',
+      'Terrier',
+      'Perro cazador de ratas',
+      'Perro ratero',
+      'Perro pequeño',
+      'Perro de compañía',
+      'Perro de trabajo',
+      'Perro activo',
+      'Perro inteligente',
+      'Perro ágil',
+      'Perro resistente',
+      'Perro de caza',
+      'Perro de granja',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro para principiantes',
+      'Perro para exteriores',
+      'Perro para interiores',
+      'Perro para apartamento',
+      'Perro para casa',
+      'Perro para jardín',
+      'Perro para campo',
+      'Perro para ciudad',
+      'Perro para deportes caninos',
+      'Perro para agilidad',
+      'Perro para obediencia',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Alta",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.dogbreedinfo.com/ratterrier.htm",
-    "https://www.akc.org/dog-breeds/rat-terrier/",
-    "https://www.ukcdogs.com/rat-terrier"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.dogbreedinfo.com/ratterrier.htm',
+      'https://www.akc.org/dog-breeds/rat-terrier/',
+      'https://www.ukcdogs.com/rat-terrier',
+    ],
   },
   130: {
     weight: {
@@ -17561,53 +17600,53 @@ fuentes: [
     searchTerms: [
       'Sabueso Rojo',
       'Redbone Coonhound',
-      "Sabueso",
-      "Rojo",
-      "Sabueso de color rojo",
-      "Perro de caza",
-      "Cazador de mapaches",
-      "Perro de rastreo",
-      "Perro de trabajo",
-      "Perro de olfato agudo",
-      "Perro de resistencia",
-      "Perro de compañía",
-      "Perro familiar",
-      "Perro amigable",
-      "Perro de Estados Unidos",
-      "Perro americano",
-      "Perro de Georgia",
-      "Perro de caza nocturna",
-      "Perro de caza diurna",
-      "Perro de caza versátil",
-      "Perro de pelaje rojo",
-      "Perro de raza grande",
-      "Perro de raza pura",
-      "Perro de raza reconocida",
-      "Perro de raza oficial",
-      "Perro de raza AKC",
-      "Perro de raza de trabajo",
-      "Perro de raza de caza",
-      "Perro de raza de compañía",
-      "Perro de raza de familia"
+      'Sabueso',
+      'Rojo',
+      'Sabueso de color rojo',
+      'Perro de caza',
+      'Cazador de mapaches',
+      'Perro de rastreo',
+      'Perro de trabajo',
+      'Perro de olfato agudo',
+      'Perro de resistencia',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro amigable',
+      'Perro de Estados Unidos',
+      'Perro americano',
+      'Perro de Georgia',
+      'Perro de caza nocturna',
+      'Perro de caza diurna',
+      'Perro de caza versátil',
+      'Perro de pelaje rojo',
+      'Perro de raza grande',
+      'Perro de raza pura',
+      'Perro de raza reconocida',
+      'Perro de raza oficial',
+      'Perro de raza AKC',
+      'Perro de raza de trabajo',
+      'Perro de raza de caza',
+      'Perro de raza de compañía',
+      'Perro de raza de familia',
     ],
-    "tendencia_a_ladrar": "Alta",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Alta",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Sounder",
-    "caso": "Sounder es un Sabueso Rojo famoso que aparece en la novela 'Sounder' de William H. Armstrong, que luego fue adaptada en una película de 1972. Sounder es un perro leal y trabajador que ayuda a su familia a sobrevivir en el Sur rural durante la Gran Depresión."
-    }
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Sounder',
+        caso: "Sounder es un Sabueso Rojo famoso que aparece en la novela 'Sounder' de William H. Armstrong, que luego fue adaptada en una película de 1972. Sounder es un perro leal y trabajador que ayuda a su familia a sobrevivir en el Sur rural durante la Gran Depresión.",
+      },
     ],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Redbone_Coonhound",
-    "https://www.dogbreedinfo.com/r/redbonecoonhound.htm",
-    "https://www.akc.org/dog-breeds/redbone-coonhound/"
-    ]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Redbone_Coonhound',
+      'https://www.dogbreedinfo.com/r/redbonecoonhound.htm',
+      'https://www.akc.org/dog-breeds/redbone-coonhound/',
+    ],
   },
   131: {
     weight: {
@@ -17710,54 +17749,54 @@ fuentes: [
     searchTerms: [
       'Rhodesian Ridgeback',
       'Perro Crestado Rodesiano',
-      "Rhodesian",
-      "Ridgeback",
-      "Rodhesian Ridgeback",
-      "Rhodesiano",
-      "Ridgeback Rhodesiano",
-      "Perro León",
-      "Perro de caza",
-      "Perro africano",
-      "Perro de guardia",
-      "Perro de compañía",
-      "Perro de rastreo",
-      "Perro de Sudáfrica",
-      "Perro de Zimbabwe",
-      "Perro resistente",
-      "Perro leal",
-      "Perro valiente",
-      "Perro inteligente",
-      "Perro con cresta",
-      "Perro para familia",
-      "Perro para protección",
-      "Perro para caza",
-      "Perro para deportes caninos",
-      "Perro para búsqueda y rescate",
-      "Perro para obediencia",
-      "Perro para agilidad",
-      "Perro para seguimiento",
-      "Perro para exposiciones",
-      "Perro para el hogar",
-      "Perro para el campo"
+      'Rhodesian',
+      'Ridgeback',
+      'Rodhesian Ridgeback',
+      'Rhodesiano',
+      'Ridgeback Rhodesiano',
+      'Perro León',
+      'Perro de caza',
+      'Perro africano',
+      'Perro de guardia',
+      'Perro de compañía',
+      'Perro de rastreo',
+      'Perro de Sudáfrica',
+      'Perro de Zimbabwe',
+      'Perro resistente',
+      'Perro leal',
+      'Perro valiente',
+      'Perro inteligente',
+      'Perro con cresta',
+      'Perro para familia',
+      'Perro para protección',
+      'Perro para caza',
+      'Perro para deportes caninos',
+      'Perro para búsqueda y rescate',
+      'Perro para obediencia',
+      'Perro para agilidad',
+      'Perro para seguimiento',
+      'Perro para exposiciones',
+      'Perro para el hogar',
+      'Perro para el campo',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Alta",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Man Eaters of Kumaon",
-    "caso": "Un libro de Jim Corbett donde se menciona a un Rhodesian Ridgeback como un perro de caza de tigres."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Man Eaters of Kumaon',
+        caso: 'Un libro de Jim Corbett donde se menciona a un Rhodesian Ridgeback como un perro de caza de tigres.',
+      },
     ],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Rhodesian_Ridgeback",
-    "https://www.dogbreedinfo.com/rhodesianridgeback.htm",
-    "https://www.ukcdogs.com/rhodesian-ridgeback"
-    ]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Rhodesian_Ridgeback',
+      'https://www.dogbreedinfo.com/rhodesianridgeback.htm',
+      'https://www.ukcdogs.com/rhodesian-ridgeback',
+    ],
   },
   132: {
     weight: {
@@ -17800,33 +17839,33 @@ fuentes: [
       'Rottwailer',
       'Rott',
       'Rottie',
-      "Rotweiler",
-      "Rotwailer",
-      "Rot",
-      "Perro de trabajo",
-      "Perro guardián",
-      "Perro de protección",
-      "Perro fuerte",
-      "Perro alemán",
-      "Perro de carnicero",
-      "Perro de carnicero de Rottweil",
-      "Perro de rescate",
-      "Perro de policía",
-      "Perro de servicio",
-      "Perro de terapia",
-      "Perro de búsqueda",
-      "Perro de rastreo",
-      "Perro leal",
-      "Perro inteligente",
-      "Perro de familia",
-      "Perro de compañía",
-      "Perro de gran tamaño",
-      "Perro robusto",
-      "Perro resistente",
-      "Perro de pelo corto",
-      "Perro negro",
-      "Perro negro y fuego",
-      "Perro musculoso"
+      'Rotweiler',
+      'Rotwailer',
+      'Rot',
+      'Perro de trabajo',
+      'Perro guardián',
+      'Perro de protección',
+      'Perro fuerte',
+      'Perro alemán',
+      'Perro de carnicero',
+      'Perro de carnicero de Rottweil',
+      'Perro de rescate',
+      'Perro de policía',
+      'Perro de servicio',
+      'Perro de terapia',
+      'Perro de búsqueda',
+      'Perro de rastreo',
+      'Perro leal',
+      'Perro inteligente',
+      'Perro de familia',
+      'Perro de compañía',
+      'Perro de gran tamaño',
+      'Perro robusto',
+      'Perro resistente',
+      'Perro de pelo corto',
+      'Perro negro',
+      'Perro negro y fuego',
+      'Perro musculoso',
     ],
     country_code: 'DE',
     description: `
@@ -17911,28 +17950,28 @@ fuentes: [
     popularidad: 'Alta',
     enfermedades_comunes: ['Displasia de cadera', 'Problemas cardiacos'],
     gallery: ['https://cdn2.thedogapi.com/images/r1xXEgcNX_390x256.jpg'],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Jake",
-    "caso": "Jake fue un Rottweiler que trabajó en el sitio del World Trade Center después de los ataques del 11 de septiembre. Fue uno de los primeros perros en el lugar y trabajó 17 días consecutivos buscando y rescatando a las víctimas."
-    },
-    {
-    "nombre": "Max",
-    "caso": "Max es un Rottweiler famoso en las redes sociales, conocido por su increíble habilidad para realizar trucos y su amor por el agua."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Jake',
+        caso: 'Jake fue un Rottweiler que trabajó en el sitio del World Trade Center después de los ataques del 11 de septiembre. Fue uno de los primeros perros en el lugar y trabajó 17 días consecutivos buscando y rescatando a las víctimas.',
+      },
+      {
+        nombre: 'Max',
+        caso: 'Max es un Rottweiler famoso en las redes sociales, conocido por su increíble habilidad para realizar trucos y su amor por el agua.',
+      },
     ],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Rottweiler",
-    "https://www.dogbreedinfo.com/rottweiler.htm",
-    "https://www.ukcdogs.com/rottweiler"
-    ]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Rottweiler',
+      'https://www.dogbreedinfo.com/rottweiler.htm',
+      'https://www.ukcdogs.com/rottweiler',
+    ],
   },
   133: {
     weight: {
@@ -18022,49 +18061,49 @@ fuentes: [
     searchTerms: [
       'Juguete Ruso',
       'Russian Toy',
-      "Russkiy Toy",
-      "Perro pequeño",
-      "Perro de compañía",
-      "Perro de juguete",
-      "Perro de Rusia",
-      "Perro elegante",
-      "Perro de apartamento",
-      "Perro para la familia",
-      "Perro amigable",
-      "Perro de pelo corto",
-      "Perro de pelo largo",
-      "Perro de ciudad",
-      "Perro sociable",
-      "Perro cariñoso",
-      "Perro tranquilo",
-      "Perro para niños",
-      "Perro para ancianos",
-      "Perro adaptable",
-      "Perro resistente",
-      "Perro saludable",
-      "Perro de interior",
-      "Perro de exterior",
-      "Perro activo",
-      "Perro juguetón",
-      "Perro leal",
-      "Perro inteligente",
-      "Perro obediente",
-      "Perro alerta",
-      "Perro de terapia"
+      'Russkiy Toy',
+      'Perro pequeño',
+      'Perro de compañía',
+      'Perro de juguete',
+      'Perro de Rusia',
+      'Perro elegante',
+      'Perro de apartamento',
+      'Perro para la familia',
+      'Perro amigable',
+      'Perro de pelo corto',
+      'Perro de pelo largo',
+      'Perro de ciudad',
+      'Perro sociable',
+      'Perro cariñoso',
+      'Perro tranquilo',
+      'Perro para niños',
+      'Perro para ancianos',
+      'Perro adaptable',
+      'Perro resistente',
+      'Perro saludable',
+      'Perro de interior',
+      'Perro de exterior',
+      'Perro activo',
+      'Perro juguetón',
+      'Perro leal',
+      'Perro inteligente',
+      'Perro obediente',
+      'Perro alerta',
+      'Perro de terapia',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Alta",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.dogbreedinfo.com/r/russiantoyterrier.htm",
-    "https://en.wikipedia.org/wiki/Russian_Toy",
-    "https://www.ukcdogs.com/russian-toy"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.dogbreedinfo.com/r/russiantoyterrier.htm',
+      'https://en.wikipedia.org/wiki/Russian_Toy',
+      'https://www.ukcdogs.com/russian-toy',
+    ],
   },
   134: {
     weight: {
@@ -18184,58 +18223,58 @@ fuentes: [
     searchTerms: [
       'San Bernardo',
       'Saint Bernard',
-      "Sanber",
-      "San Bernado",
-      "Sanbernar",
-      "Bernardo",
-      "Perro de rescate",
-      "Perro de montaña",
-      "Perro suizo",
-      "Perro de nieve",
-      "Perro de avalancha",
-      "Perro de trabajo",
-      "Perro de familia",
-      "Perro grande",
-      "Perro fuerte",
-      "Perro leal",
-      "Perro amigable",
-      "Perro de compañía",
-      "Perro de terapia",
-      "Perro de búsqueda y rescate",
-      "Perro protector",
-      "Perro de guardia",
-      "Perro para niños",
-      "Perro para familias",
-      "Perro para el frío",
-      "Perro para la nieve",
-      "Perro para montañas",
-      "Perro para exteriores",
-      "Perro para caminatas",
-      "Perro para senderismo",
-      "Perro para aventuras"
+      'Sanber',
+      'San Bernado',
+      'Sanbernar',
+      'Bernardo',
+      'Perro de rescate',
+      'Perro de montaña',
+      'Perro suizo',
+      'Perro de nieve',
+      'Perro de avalancha',
+      'Perro de trabajo',
+      'Perro de familia',
+      'Perro grande',
+      'Perro fuerte',
+      'Perro leal',
+      'Perro amigable',
+      'Perro de compañía',
+      'Perro de terapia',
+      'Perro de búsqueda y rescate',
+      'Perro protector',
+      'Perro de guardia',
+      'Perro para niños',
+      'Perro para familias',
+      'Perro para el frío',
+      'Perro para la nieve',
+      'Perro para montañas',
+      'Perro para exteriores',
+      'Perro para caminatas',
+      'Perro para senderismo',
+      'Perro para aventuras',
     ],
-    "tendencia_a_ladrar": "Baja",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Baja",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Barry",
-    "caso": "Barry fue un famoso San Bernardo que vivió en el Hospicio del Gran San Bernardo en los Alpes suizos en el siglo XIX, y es conocido por haber salvado entre 40 y 100 vidas durante su vida."
-    },
-    {
-    "nombre": "Beethoven",
-    "caso": "Beethoven es el personaje principal de la serie de películas de comedia familiar 'Beethoven', donde interpreta a un travieso pero adorable San Bernardo."
-    }
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Barry',
+        caso: 'Barry fue un famoso San Bernardo que vivió en el Hospicio del Gran San Bernardo en los Alpes suizos en el siglo XIX, y es conocido por haber salvado entre 40 y 100 vidas durante su vida.',
+      },
+      {
+        nombre: 'Beethoven',
+        caso: "Beethoven es el personaje principal de la serie de películas de comedia familiar 'Beethoven', donde interpreta a un travieso pero adorable San Bernardo.",
+      },
     ],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/St.Bernard(dog)",
-    "https://www.dogbreedinfo.com/saintbernard.htm",
-    "https://www.ukcdogs.com/saint-bernard"
-    ]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/St.Bernard(dog)',
+      'https://www.dogbreedinfo.com/saintbernard.htm',
+      'https://www.ukcdogs.com/saint-bernard',
+    ],
   },
   135: {
     weight: {
@@ -18352,49 +18391,49 @@ fuentes: [
     ],
     searchTerms: [
       'Saluki',
-      "Galgo Persa",
-      "Perro de caza",
-      "Perro rápido",
-      "Perro antiguo",
-      "Perro de Egipto",
-      "Perro de Medio Oriente",
-      "Perro de desierto",
-      "Perro de carreras",
-      "Perro de la Ruta de la Seda",
-      "Perro de los faraones",
-      "Perro de los beduinos",
-      "Perro de la Biblia",
-      "Perro de Mahoma",
-      "Perro elegante",
-      "Perro de campo",
-      "Perro de lure coursing",
-      "Perro de exhibición",
-      "Perro de pelo corto",
-      "Perro de orejas largas",
-      "Perro de cola larga",
-      "Perro de cuerpo delgado",
-      "Perro de patas largas",
-      "Perro de ojos almendrados",
-      "Perro de nariz negra",
-      "Perro de piel suave",
-      "Perro de temperamento reservado",
-      "Perro de temperamento leal",
-      "Perro de temperamento tranquilo",
-      "Perro de temperamento independiente"
+      'Galgo Persa',
+      'Perro de caza',
+      'Perro rápido',
+      'Perro antiguo',
+      'Perro de Egipto',
+      'Perro de Medio Oriente',
+      'Perro de desierto',
+      'Perro de carreras',
+      'Perro de la Ruta de la Seda',
+      'Perro de los faraones',
+      'Perro de los beduinos',
+      'Perro de la Biblia',
+      'Perro de Mahoma',
+      'Perro elegante',
+      'Perro de campo',
+      'Perro de lure coursing',
+      'Perro de exhibición',
+      'Perro de pelo corto',
+      'Perro de orejas largas',
+      'Perro de cola larga',
+      'Perro de cuerpo delgado',
+      'Perro de patas largas',
+      'Perro de ojos almendrados',
+      'Perro de nariz negra',
+      'Perro de piel suave',
+      'Perro de temperamento reservado',
+      'Perro de temperamento leal',
+      'Perro de temperamento tranquilo',
+      'Perro de temperamento independiente',
     ],
-    "tendencia_a_ladrar": "Baja",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Alta",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Saluki",
-    "https://www.dogbreedinfo.com/saluki.htm",
-    "https://www.ukcdogs.com/saluki"
-    ]
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Saluki',
+      'https://www.dogbreedinfo.com/saluki.htm',
+      'https://www.ukcdogs.com/saluki',
+    ],
   },
   136: {
     weight: {
@@ -18489,58 +18528,58 @@ fuentes: [
     gallery: ['https://cdn2.thedogapi.com/images/S1T8Ee9Nm_390x256.jpg'],
     searchTerms: [
       'Samoyedo',
-      "Samoyed",
-      "Samoyedo blanco",
-      "Perro de trineo",
-      "Perro nórdico",
-      "Perro de Siberia",
-      "Perro de nieve",
-      "Perro sonriente",
-      "Perro de trabajo",
-      "Perro de compañía",
-      "Perro familiar",
-      "Perro amigable",
-      "Perro resistente al frío",
-      "Perro de pelo largo",
-      "Perro de pelo blanco",
-      "Perro grande",
-      "Perro de raza pura",
-      "Perro de raza grande",
-      "Perro para niños",
-      "Perro para familias",
-      "Perro para climas fríos",
-      "Perro para exteriores",
-      "Perro activo",
-      "Perro de energía alta",
-      "Perro de caza",
-      "Perro de pastoreo",
-      "Perro de trineo",
-      "Perro de rescate",
-      "Perro de montaña",
-      "Perro de la tundra"
+      'Samoyed',
+      'Samoyedo blanco',
+      'Perro de trineo',
+      'Perro nórdico',
+      'Perro de Siberia',
+      'Perro de nieve',
+      'Perro sonriente',
+      'Perro de trabajo',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro amigable',
+      'Perro resistente al frío',
+      'Perro de pelo largo',
+      'Perro de pelo blanco',
+      'Perro grande',
+      'Perro de raza pura',
+      'Perro de raza grande',
+      'Perro para niños',
+      'Perro para familias',
+      'Perro para climas fríos',
+      'Perro para exteriores',
+      'Perro activo',
+      'Perro de energía alta',
+      'Perro de caza',
+      'Perro de pastoreo',
+      'Perro de trineo',
+      'Perro de rescate',
+      'Perro de montaña',
+      'Perro de la tundra',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Alta",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Baja",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Etah",
-    "caso": "Etah fue el primer Samoyedo que llegó a Inglaterra en 1889. Fue un regalo de la expedición Jackson-Harmsworth a la Reina Alexandra."
-    },
-    {
-    "nombre": "Antarctic Buck",
-    "caso": "Antarctic Buck fue un Samoyedo que participó en la expedición antártica de Ernest Shackleton en 1901."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Etah',
+        caso: 'Etah fue el primer Samoyedo que llegó a Inglaterra en 1889. Fue un regalo de la expedición Jackson-Harmsworth a la Reina Alexandra.',
+      },
+      {
+        nombre: 'Antarctic Buck',
+        caso: 'Antarctic Buck fue un Samoyedo que participó en la expedición antártica de Ernest Shackleton en 1901.',
+      },
     ],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Samoyed_dog",
-    "https://www.dogbreedinfo.com/samoyed.htm",
-    "https://www.ukcdogs.com/samoyed"
-    ]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Samoyed_dog',
+      'https://www.dogbreedinfo.com/samoyed.htm',
+      'https://www.ukcdogs.com/samoyed',
+    ],
   },
   137: {
     weight: {
@@ -18635,44 +18674,44 @@ fuentes: [
       'Shipp',
       'Skip',
       'Skipp',
-      "Skipperke",
-      "Schipper",
-      "Barquero pequeño",
-      "Perro de barco",
-      "Perro belga",
-      "Perro de Bélgica",
-      "Perro de caza de ratas",
-      "Perro de alarma",
-      "Perro de compañía",
-      "Perro de zapatero",
-      "Perro de pastor",
-      "Perro de pastor belga",
-      "Perro de pastor en miniatura",
-      "Perro de trabajo",
-      "Perro de familia",
-      "Perro activo",
-      "Perro leal",
-      "Perro inteligente",
-      "Perro energético",
-      "Perro independiente",
-      "Perro vivaz",
-      "Perro pequeño",
-      "Perro negro",
-      "Perro de pelo corto"
+      'Skipperke',
+      'Schipper',
+      'Barquero pequeño',
+      'Perro de barco',
+      'Perro belga',
+      'Perro de Bélgica',
+      'Perro de caza de ratas',
+      'Perro de alarma',
+      'Perro de compañía',
+      'Perro de zapatero',
+      'Perro de pastor',
+      'Perro de pastor belga',
+      'Perro de pastor en miniatura',
+      'Perro de trabajo',
+      'Perro de familia',
+      'Perro activo',
+      'Perro leal',
+      'Perro inteligente',
+      'Perro energético',
+      'Perro independiente',
+      'Perro vivaz',
+      'Perro pequeño',
+      'Perro negro',
+      'Perro de pelo corto',
     ],
-    "tendencia_a_ladrar": "Alta",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.dogbreedinfo.com/schipperke.htm",
-    "https://www.akc.org/dog-breeds/schipperke/",
-    "https://www.ukcdogs.com/schipperke"
-    ]
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.dogbreedinfo.com/schipperke.htm',
+      'https://www.akc.org/dog-breeds/schipperke/',
+      'https://www.ukcdogs.com/schipperke',
+    ],
   },
   138: {
     weight: {
@@ -18761,50 +18800,50 @@ fuentes: [
     gallery: ['https://cdn2.thedogapi.com/images/SkNjqx9NQ_390x256.jpg'],
     searchTerms: [
       'Lebrel Escocés',
-      "Lebrel Escoces",
-      "Deerhound",
-      "Perro de caza escocés",
-      "Perro de caza",
-      "Perro escocés",
-      "Perro de los ciervos",
-      "Perro de los ciervos escocés",
-      "Perro de los ciervos escoces",
-      "Perro de los ciervos escoses",
-      "Perro de los ciervos escoses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses",
-      "Perro de los ciervos escoceses"
+      'Lebrel Escoces',
+      'Deerhound',
+      'Perro de caza escocés',
+      'Perro de caza',
+      'Perro escocés',
+      'Perro de los ciervos',
+      'Perro de los ciervos escocés',
+      'Perro de los ciervos escoces',
+      'Perro de los ciervos escoses',
+      'Perro de los ciervos escoses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
+      'Perro de los ciervos escoceses',
     ],
-    "tendencia_a_ladrar": "Baja",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Baja",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.dogbreedinfo.com/scottishdeerhound.htm",
-    "https://www.akc.org/dog-breeds/scottish-deerhound/",
-    "https://en.wikipedia.org/wiki/Scottish_Deerhound"
-    ]
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.dogbreedinfo.com/scottishdeerhound.htm',
+      'https://www.akc.org/dog-breeds/scottish-deerhound/',
+      'https://en.wikipedia.org/wiki/Scottish_Deerhound',
+    ],
   },
   139: {
     weight: {
@@ -18897,58 +18936,58 @@ fuentes: [
     gallery: ['https://cdn2.thedogapi.com/images/Bklnce5NX_390x256.jpg'],
     searchTerms: [
       'Terrier Escocés',
-      "Scottie",
-      "Terrier Escoces",
-      "Scottish Terrier",
-      "Terrier de Escocia",
-      "Perro de Escocia",
-      "Perro escocés",
-      "Terrier",
-      "Perro pequeño",
-      "Perro de caza",
-      "Perro valiente",
-      "Perro leal",
-      "Perro de compañía",
-      "Perro de familia",
-      "Perro para niños",
-      "Perro de pelo duro",
-      "Perro de pelo negro",
-      "Perro de pelo gris",
-      "Perro de pelo brindle",
-      "Perro de patas cortas",
-      "Perro de orejas puntiagudas",
-      "Perro de cola corta",
-      "Perro de Fala",
-      "Perro de Roosevelt",
-      "Perro de la Casa Blanca",
-      "Perro de la familia Bush",
-      "Perro de granja",
-      "Perro cazador de ratas",
-      "Perro cazador de roedores",
-      "Perro de madriguera"
+      'Scottie',
+      'Terrier Escoces',
+      'Scottish Terrier',
+      'Terrier de Escocia',
+      'Perro de Escocia',
+      'Perro escocés',
+      'Terrier',
+      'Perro pequeño',
+      'Perro de caza',
+      'Perro valiente',
+      'Perro leal',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro de pelo duro',
+      'Perro de pelo negro',
+      'Perro de pelo gris',
+      'Perro de pelo brindle',
+      'Perro de patas cortas',
+      'Perro de orejas puntiagudas',
+      'Perro de cola corta',
+      'Perro de Fala',
+      'Perro de Roosevelt',
+      'Perro de la Casa Blanca',
+      'Perro de la familia Bush',
+      'Perro de granja',
+      'Perro cazador de ratas',
+      'Perro cazador de roedores',
+      'Perro de madriguera',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Fala",
-    "caso": "Fala fue el famoso Terrier Escocés del presidente de los Estados Unidos Franklin D. Roosevelt. Fala vivió en la Casa Blanca y fue una figura muy conocida en la administración de Roosevelt."
-    },
-    {
-    "nombre": "Barney y Miss Beazley",
-    "caso": "Barney y Miss Beazley fueron los Terrier Escoceses de la familia Bush durante la presidencia de George W. Bush. Ambos perros eran figuras frecuentes en los eventos de la Casa Blanca."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Fala',
+        caso: 'Fala fue el famoso Terrier Escocés del presidente de los Estados Unidos Franklin D. Roosevelt. Fala vivió en la Casa Blanca y fue una figura muy conocida en la administración de Roosevelt.',
+      },
+      {
+        nombre: 'Barney y Miss Beazley',
+        caso: 'Barney y Miss Beazley fueron los Terrier Escoceses de la familia Bush durante la presidencia de George W. Bush. Ambos perros eran figuras frecuentes en los eventos de la Casa Blanca.',
+      },
     ],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Scottish_Terrier",
-    "https://www.dogbreedinfo.com/scottishterrier.htm",
-    "https://www.ukcdogs.com/scottish-terrier"
-    ]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Scottish_Terrier',
+      'https://www.dogbreedinfo.com/scottishterrier.htm',
+      'https://www.ukcdogs.com/scottish-terrier',
+    ],
   },
   140: {
     weight: {
@@ -19056,49 +19095,49 @@ fuentes: [
     gallery: ['https://cdn2.thedogapi.com/images/rJa29l9E7_390x256.jpg'],
     searchTerms: [
       'Pastor de Shetland',
-      "Sheltie",
-      "Shetland Sheepdog",
-      "Pastor Shetland",
-      "Perro de Shetland",
-      "Perro pastor de Shetland",
-      "Shetland",
-      "Perro de ovejas de Shetland",
-      "Perro pastor",
-      "Perro de trabajo",
-      "Perro inteligente",
-      "Perro de familia",
-      "Perro para niños",
-      "Perro de compañía",
-      "Perro de agilidad",
-      "Perro de obediencia",
-      "Perro de terapia",
-      "Perro de servicio",
-      "Perro de tamaño pequeño",
-      "Perro de pelo largo",
-      "Perro de Escocia",
-      "Perro de las Islas Shetland",
-      "Perro de clima frío",
-      "Perro resistente",
-      "Perro leal",
-      "Perro de raza pura",
-      "Perro de raza Shetland",
-      "Perro pastor pequeño",
-      "Perro de pastoreo",
-      "Perro de raza británica"
+      'Sheltie',
+      'Shetland Sheepdog',
+      'Pastor Shetland',
+      'Perro de Shetland',
+      'Perro pastor de Shetland',
+      'Shetland',
+      'Perro de ovejas de Shetland',
+      'Perro pastor',
+      'Perro de trabajo',
+      'Perro inteligente',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro de compañía',
+      'Perro de agilidad',
+      'Perro de obediencia',
+      'Perro de terapia',
+      'Perro de servicio',
+      'Perro de tamaño pequeño',
+      'Perro de pelo largo',
+      'Perro de Escocia',
+      'Perro de las Islas Shetland',
+      'Perro de clima frío',
+      'Perro resistente',
+      'Perro leal',
+      'Perro de raza pura',
+      'Perro de raza Shetland',
+      'Perro pastor pequeño',
+      'Perro de pastoreo',
+      'Perro de raza británica',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Alta",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.dogbreedinfo.com/shetlandsheepdog.htm",
-    "https://www.akc.org/dog-breeds/shetland-sheepdog/",
-    "https://www.ukcdogs.com/shetland-sheepdog"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.dogbreedinfo.com/shetlandsheepdog.htm',
+      'https://www.akc.org/dog-breeds/shetland-sheepdog/',
+      'https://www.ukcdogs.com/shetland-sheepdog',
+    ],
   },
   141: {
     weight: {
@@ -19235,54 +19274,54 @@ fuentes: [
     ],
     searchTerms: [
       'Shiba Inu',
-      "Shiba",
-      "Inu",
-      "Perro japonés",
-      "Perro de caza",
-      "Perro pequeño",
-      "Perro de compañía",
-      "Perro de ciudad",
-      "Perro de montaña",
-      "Perro independiente",
-      "Perro leal",
-      "Perro alerta",
-      "Perro activo",
-      "Perro inteligente",
-      "Perro de tamaño pequeño",
-      "Perro de pelo corto",
-      "Perro de raza pura",
-      "Perro de raza antigua",
-      "Perro resistente",
-      "Perro adaptable",
-      "Perro de familia",
-      "Perro para niños",
-      "Perro para adultos",
-      "Perro para ancianos",
-      "Perro para principiantes",
-      "Perro para expertos",
-      "Perro para casas",
-      "Perro para apartamentos",
-      "Perro para climas fríos",
-      "Perro para climas calurosos"
+      'Shiba',
+      'Inu',
+      'Perro japonés',
+      'Perro de caza',
+      'Perro pequeño',
+      'Perro de compañía',
+      'Perro de ciudad',
+      'Perro de montaña',
+      'Perro independiente',
+      'Perro leal',
+      'Perro alerta',
+      'Perro activo',
+      'Perro inteligente',
+      'Perro de tamaño pequeño',
+      'Perro de pelo corto',
+      'Perro de raza pura',
+      'Perro de raza antigua',
+      'Perro resistente',
+      'Perro adaptable',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro para adultos',
+      'Perro para ancianos',
+      'Perro para principiantes',
+      'Perro para expertos',
+      'Perro para casas',
+      'Perro para apartamentos',
+      'Perro para climas fríos',
+      'Perro para climas calurosos',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Kabosu",
-    "caso": "Kabosu es una Shiba Inu que se convirtió en un meme de Internet conocido como 'Doge'. Su rostro expresivo se ha utilizado en numerosos memes y ha ayudado a popularizar la raza."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Kabosu',
+        caso: "Kabosu es una Shiba Inu que se convirtió en un meme de Internet conocido como 'Doge'. Su rostro expresivo se ha utilizado en numerosos memes y ha ayudado a popularizar la raza.",
+      },
     ],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Shiba_Inu",
-    "https://www.dogbreedinfo.com/shibainu.htm",
-    "https://www.ukcdogs.com/shiba-inu"
-    ]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Shiba_Inu',
+      'https://www.dogbreedinfo.com/shibainu.htm',
+      'https://www.ukcdogs.com/shiba-inu',
+    ],
   },
   142: {
     weight: {
@@ -19378,53 +19417,53 @@ fuentes: [
     gallery: ['https://cdn2.thedogapi.com/images/BkrJjgcV7_390x256.jpg'],
     searchTerms: [
       'Shih Tzu',
-      "Shitzu",
-      "Shihtzu",
-      "Shi Tzu",
-      "Perro león",
-      "Perro chino",
-      "Perro de compañía",
-      "Perro de regazo",
-      "Perro pequeño",
-      "Perro de pelo largo",
-      "Perro de la realeza",
-      "Perro de la corte china",
-      "Perro de la emperatriz",
-      "Perro para niños",
-      "Perro para familia",
-      "Perro para ancianos",
-      "Perro tranquilo",
-      "Perro amigable",
-      "Perro cariñoso",
-      "Perro de interior",
-      "Perro de apartamento",
-      "Perro de ciudad",
-      "Perro de raza antigua",
-      "Perro de raza pequeña",
-      "Perro de raza toy",
-      "Perro de raza miniatura",
-      "Perro de raza asiática",
-      "Perro de raza tibetana",
-      "Perro de raza china"
+      'Shitzu',
+      'Shihtzu',
+      'Shi Tzu',
+      'Perro león',
+      'Perro chino',
+      'Perro de compañía',
+      'Perro de regazo',
+      'Perro pequeño',
+      'Perro de pelo largo',
+      'Perro de la realeza',
+      'Perro de la corte china',
+      'Perro de la emperatriz',
+      'Perro para niños',
+      'Perro para familia',
+      'Perro para ancianos',
+      'Perro tranquilo',
+      'Perro amigable',
+      'Perro cariñoso',
+      'Perro de interior',
+      'Perro de apartamento',
+      'Perro de ciudad',
+      'Perro de raza antigua',
+      'Perro de raza pequeña',
+      'Perro de raza toy',
+      'Perro de raza miniatura',
+      'Perro de raza asiática',
+      'Perro de raza tibetana',
+      'Perro de raza china',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Alta",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Alta",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Ch. Wenrick's Don't Stop Believing",
-    "caso": "Shih Tzu que ganó el Best in Show en el Westminster Kennel Club Dog Show en 2014."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: "Ch. Wenrick's Don't Stop Believing",
+        caso: 'Shih Tzu que ganó el Best in Show en el Westminster Kennel Club Dog Show en 2014.',
+      },
     ],
-    "fuentes": [
-      "https://www.akc.org/dog-breeds/shih-tzu/",
-      "https://www.dogbreedinfo.com/shihtzu.htm",
-      "https://www.ukcdogs.com/shih-tzu"
-    ]
+    fuentes: [
+      'https://www.akc.org/dog-breeds/shih-tzu/',
+      'https://www.dogbreedinfo.com/shihtzu.htm',
+      'https://www.ukcdogs.com/shih-tzu',
+    ],
   },
   143: {
     weight: {
@@ -19518,49 +19557,49 @@ fuentes: [
     gallery: ['https://cdn2.thedogapi.com/images/SJJxjecEX_390x256.jpg'],
     searchTerms: [
       'Pastor de Shiloh',
-      "Shiloh Shepherd",
-      "Shiloh",
-      "Pastor",
-      "Perro de trabajo",
-      "Perro de familia",
-      "Perro de terapia",
-      "Perro de búsqueda y rescate",
-      "Perro grande",
-      "Perro leal",
-      "Perro inteligente",
-      "Perro equilibrado",
-      "Pastor Shiloh",
-      "Shilohs",
-      "Pastores Shiloh",
-      "Pastor de Shilo",
-      "Shilo Shepherd",
-      "Pastor Shilo",
-      "Perro de Shiloh",
-      "Perro de Shilo",
-      "Perro pastor",
-      "Perro pastor de Shiloh",
-      "Perro pastor de Shilo",
-      "Perro de compañía",
-      "Perro de asistencia",
-      "Perro de servicio",
-      "Perro de rescate",
-      "Perro de terapia de Shiloh",
-      "Perro de terapia de Shilo",
-      "Perro de búsqueda de Shiloh"
+      'Shiloh Shepherd',
+      'Shiloh',
+      'Pastor',
+      'Perro de trabajo',
+      'Perro de familia',
+      'Perro de terapia',
+      'Perro de búsqueda y rescate',
+      'Perro grande',
+      'Perro leal',
+      'Perro inteligente',
+      'Perro equilibrado',
+      'Pastor Shiloh',
+      'Shilohs',
+      'Pastores Shiloh',
+      'Pastor de Shilo',
+      'Shilo Shepherd',
+      'Pastor Shilo',
+      'Perro de Shiloh',
+      'Perro de Shilo',
+      'Perro pastor',
+      'Perro pastor de Shiloh',
+      'Perro pastor de Shilo',
+      'Perro de compañía',
+      'Perro de asistencia',
+      'Perro de servicio',
+      'Perro de rescate',
+      'Perro de terapia de Shiloh',
+      'Perro de terapia de Shilo',
+      'Perro de búsqueda de Shiloh',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.dogbreedinfo.com/shilohshepherd.htm",
-    "https://en.wikipedia.org/wiki/Shiloh_Shepherd",
-    "https://www.ukcdogs.com/shiloh-shepherd"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.dogbreedinfo.com/shilohshepherd.htm',
+      'https://en.wikipedia.org/wiki/Shiloh_Shepherd',
+      'https://www.ukcdogs.com/shiloh-shepherd',
+    ],
   },
   144: {
     weight: {
@@ -19645,58 +19684,58 @@ fuentes: [
     gallery: ['https://cdn2.thedogapi.com/images/S17ZilqNm_390x256.jpg'],
     searchTerms: [
       'Husky Siberiano',
-      "Husky",
-      "Siberiano",
-      "Perro de trineo",
-      "Perro de nieve",
-      "Perro de trabajo",
-      "Perro de carreras",
-      "Perro de Alaska",
-      "Perro de ojos azules",
-      "Perro de pelo largo",
-      "Perro resistente al frío",
-      "Perro activo",
-      "Perro energético",
-      "Perro de compañía",
-      "Perro familiar",
-      "Perro amigable",
-      "Perro de resistencia",
-      "Perro de fuerza",
-      "Perro de velocidad",
-      "Perro de Siberia",
-      "Perro de Chukchi",
-      "Perro de Balto",
-      "Perro de Nome",
-      "Perro de carrera del suero",
-      "Perro de fiebre del oro",
-      "Perro de pelaje espeso",
-      "Perro de orejas erguidas",
-      "Perro de cola enroscada",
-      "Perro de doble capa",
-      "Perro de clima frío"
+      'Husky',
+      'Siberiano',
+      'Perro de trineo',
+      'Perro de nieve',
+      'Perro de trabajo',
+      'Perro de carreras',
+      'Perro de Alaska',
+      'Perro de ojos azules',
+      'Perro de pelo largo',
+      'Perro resistente al frío',
+      'Perro activo',
+      'Perro energético',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro amigable',
+      'Perro de resistencia',
+      'Perro de fuerza',
+      'Perro de velocidad',
+      'Perro de Siberia',
+      'Perro de Chukchi',
+      'Perro de Balto',
+      'Perro de Nome',
+      'Perro de carrera del suero',
+      'Perro de fiebre del oro',
+      'Perro de pelaje espeso',
+      'Perro de orejas erguidas',
+      'Perro de cola enroscada',
+      'Perro de doble capa',
+      'Perro de clima frío',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Baja",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Balto",
-    "caso": "Balto fue un famoso Husky Siberiano que lideró el equipo de perros de trineo en la última etapa de la carrera del suero de 1925 a Nome, en la que los perros de trineo transportaron el suero antitoxina diftérica a través de condiciones extremas para salvar a la población de Nome, Alaska, de una epidemia."
-    },
-    {
-    "nombre": "Togo",
-    "caso": "Togo fue otro Husky Siberiano que jugó un papel crucial en la carrera del suero de 1925 a Nome. Aunque Balto a menudo recibe más reconocimiento, Togo lideró su equipo en la etapa más larga y peligrosa de la carrera."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Balto',
+        caso: 'Balto fue un famoso Husky Siberiano que lideró el equipo de perros de trineo en la última etapa de la carrera del suero de 1925 a Nome, en la que los perros de trineo transportaron el suero antitoxina diftérica a través de condiciones extremas para salvar a la población de Nome, Alaska, de una epidemia.',
+      },
+      {
+        nombre: 'Togo',
+        caso: 'Togo fue otro Husky Siberiano que jugó un papel crucial en la carrera del suero de 1925 a Nome. Aunque Balto a menudo recibe más reconocimiento, Togo lideró su equipo en la etapa más larga y peligrosa de la carrera.',
+      },
     ],
-    "fuentes": [
-      "https://en.wikipedia.org/wiki/Siberian_Husky",
-      "https://www.dogbreedinfo.com/siberianhusky.htm",
-      "https://www.ukcdogs.com/siberian-husky"
-    ]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Siberian_Husky',
+      'https://www.dogbreedinfo.com/siberianhusky.htm',
+      'https://www.ukcdogs.com/siberian-husky',
+    ],
   },
   145: {
     weight: {
@@ -19792,49 +19831,49 @@ fuentes: [
     gallery: ['https://cdn2.thedogapi.com/images/ByzGsl5Nm_390x256.jpg'],
     searchTerms: [
       'Terrier Sedoso',
-      "Terrier Silky",
-      "Silky Terrier",
-      "Terier Sedoso",
-      "Terrier Sedozo",
-      "Terrier Sedodo",
-      "Terrier de pelo sedoso",
-      "Terrier australiano",
-      "Terrier pequeño",
-      "Terrier de compañía",
-      "Terrier para familia",
-      "Terrier para niños",
-      "Terrier juguetón",
-      "Terrier activo",
-      "Terrier inteligente",
-      "Terrier valiente",
-      "Terrier de apartamento",
-      "Terrier de casa",
-      "Terrier de ciudad",
-      "Terrier de pelo largo",
-      "Terrier de pelo suave",
-      "Terrier de pelo brillante",
-      "Terrier fácil de entrenar",
-      "Terrier sociable",
-      "Terrier amigable",
-      "Terrier leal",
-      "Terrier obediente",
-      "Terrier alegre",
-      "Terrier enérgico",
-      "Terrier vivaz"
+      'Terrier Silky',
+      'Silky Terrier',
+      'Terier Sedoso',
+      'Terrier Sedozo',
+      'Terrier Sedodo',
+      'Terrier de pelo sedoso',
+      'Terrier australiano',
+      'Terrier pequeño',
+      'Terrier de compañía',
+      'Terrier para familia',
+      'Terrier para niños',
+      'Terrier juguetón',
+      'Terrier activo',
+      'Terrier inteligente',
+      'Terrier valiente',
+      'Terrier de apartamento',
+      'Terrier de casa',
+      'Terrier de ciudad',
+      'Terrier de pelo largo',
+      'Terrier de pelo suave',
+      'Terrier de pelo brillante',
+      'Terrier fácil de entrenar',
+      'Terrier sociable',
+      'Terrier amigable',
+      'Terrier leal',
+      'Terrier obediente',
+      'Terrier alegre',
+      'Terrier enérgico',
+      'Terrier vivaz',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Alta",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Silky_Terrier",
-    "https://www.dogbreedinfo.com/silkyterrier.htm",
-    "https://www.ukcdogs.com/silky-terrier"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Silky_Terrier',
+      'https://www.dogbreedinfo.com/silkyterrier.htm',
+      'https://www.ukcdogs.com/silky-terrier',
+    ],
   },
   146: {
     weight: {
@@ -19934,45 +19973,49 @@ fuentes: [
     gallery: ['https://cdn2.thedogapi.com/images/Syszjx9Em_390x256.jpg'],
     searchTerms: [
       'Fox Terrier de Pelo Liso',
-      "Fox Terrier",
-      "Terrier",
-      "Terrier de Pelo Liso",
-      "Foxterrier",
-      "Foxterrier de Pelo Liso",
-      "Perro de caza",
-      "Perro inglés",
-      "Perro de compañía",
-      "Perro activo",
-      "Perro valiente",
-      "Perro enérgico",
-      "Perro pequeño",
-      "Perro blanco",
-      "Perro de pelo liso",
-      "Perro de pelo corto",
-      "Perro de raza pequeña",
-      "Perro de raza terrier",
-      "Perro para familias",
-      "Perro para niños",
-      "Perro para adultos",
-      "Perro para ancianos",
-      "Perro para casa",
-      "Perro para apartamento",
-      "Perro para jardín",
-      "Perro para exteriores",
-      "Perro para interiores",
-      "Perro para principiantes",
-      "Perro para expertos",
-      "Perro para todos"
+      'Fox Terrier',
+      'Terrier',
+      'Terrier de Pelo Liso',
+      'Foxterrier',
+      'Foxterrier de Pelo Liso',
+      'Perro de caza',
+      'Perro inglés',
+      'Perro de compañía',
+      'Perro activo',
+      'Perro valiente',
+      'Perro enérgico',
+      'Perro pequeño',
+      'Perro blanco',
+      'Perro de pelo liso',
+      'Perro de pelo corto',
+      'Perro de raza pequeña',
+      'Perro de raza terrier',
+      'Perro para familias',
+      'Perro para niños',
+      'Perro para adultos',
+      'Perro para ancianos',
+      'Perro para casa',
+      'Perro para apartamento',
+      'Perro para jardín',
+      'Perro para exteriores',
+      'Perro para interiores',
+      'Perro para principiantes',
+      'Perro para expertos',
+      'Perro para todos',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": ["https://www.expertoanimal.com/razas-de-perros/fox-terrier-de-pelo-liso.html", "https://es.wikipedia.org/wiki/Fox_terrier_de_pelo_liso", "https://www.wikiwand.com/es/Fox_terrier_de_pelo_liso"]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.expertoanimal.com/razas-de-perros/fox-terrier-de-pelo-liso.html',
+      'https://es.wikipedia.org/wiki/Fox_terrier_de_pelo_liso',
+      'https://www.wikiwand.com/es/Fox_terrier_de_pelo_liso',
+    ],
   },
   147: {
     weight: {
@@ -20066,49 +20109,49 @@ fuentes: [
     gallery: ['https://cdn2.thedogapi.com/images/HJHmix5NQ_390x256.jpg'],
     searchTerms: [
       'Terrier Irlandés de Trigo Suave',
-      "Wheaten Terrier",
-      "Terrier de Trigo",
-      "Terrier Irlandés",
-      "Terrier de Irlanda",
-      "Perro de trigo",
-      "Perro suave",
-      "Perro irlandés",
-      "Perro de pelo suave",
-      "Perro de pelo de trigo",
-      "Perro de granja",
-      "Perro de trabajo",
-      "Perro de compañía",
-      "Perro familiar",
-      "Perro para niños",
-      "Perro activo",
-      "Perro enérgico",
-      "Perro valiente",
-      "Perro amigable",
-      "Perro de pelo largo",
-      "Perro de tamaño mediano",
-      "Perro de caza",
-      "Perro de pastoreo",
-      "Perro de protección",
-      "Perro de pelo suave",
-      "Perro de pelo sedoso",
-      "Perro de pelo liso",
-      "Perro de pelo brillante",
-      "Perro de pelo claro",
-      "Perro de pelo dorado"
+      'Wheaten Terrier',
+      'Terrier de Trigo',
+      'Terrier Irlandés',
+      'Terrier de Irlanda',
+      'Perro de trigo',
+      'Perro suave',
+      'Perro irlandés',
+      'Perro de pelo suave',
+      'Perro de pelo de trigo',
+      'Perro de granja',
+      'Perro de trabajo',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro para niños',
+      'Perro activo',
+      'Perro enérgico',
+      'Perro valiente',
+      'Perro amigable',
+      'Perro de pelo largo',
+      'Perro de tamaño mediano',
+      'Perro de caza',
+      'Perro de pastoreo',
+      'Perro de protección',
+      'Perro de pelo suave',
+      'Perro de pelo sedoso',
+      'Perro de pelo liso',
+      'Perro de pelo brillante',
+      'Perro de pelo claro',
+      'Perro de pelo dorado',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-      "https://www.akc.org/dog-breeds/soft-coated-wheaten-terrier/",
-      "https://www.dogbreedinfo.com/softcoatedwheatenterrier.htm",
-      "https://www.yourpurebredpuppy.com/reviews/softcoatedwheatenterriers.html"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/soft-coated-wheaten-terrier/',
+      'https://www.dogbreedinfo.com/softcoatedwheatenterrier.htm',
+      'https://www.yourpurebredpuppy.com/reviews/softcoatedwheatenterriers.html',
+    ],
   },
   148: {
     weight: {
@@ -20202,50 +20245,50 @@ fuentes: [
     gallery: ['https://cdn2.thedogapi.com/images/HJf4jl9VX_390x256.jpg'],
     searchTerms: [
       'Perro de Agua Español',
-      "Perro de Agua",
-      "Perro Español",
-      "Agua Español",
-      "Perro de agua",
-      "Perro espanol",
-      "Agua espanol",
-      "Turco Andaluz",
-      "Perro Andaluz",
-      "Perro de trabajo",
-      "Perro de pesca",
-      "Perro de pastoreo",
-      "Perro de rescate",
-      "Perro de terapia",
-      "Perro inteligente",
-      "Perro versátil",
-      "Perro de agua andaluz",
-      "Perro andaluz de agua",
-      "Perro de agua de España",
-      "Perro de España",
-      "Perro de agua de Andalucía",
-      "Perro de Andalucía",
-      "Perro de agua andaluz",
-      "Perro andaluz de agua",
-      "Perro de agua de pesca",
-      "Perro de pesca español",
-      "Perro de agua de pastoreo",
-      "Perro de pastoreo español",
-      "Perro de agua de rescate",
-      "Perro de rescate español",
-      "Turco Andaluz"
+      'Perro de Agua',
+      'Perro Español',
+      'Agua Español',
+      'Perro de agua',
+      'Perro espanol',
+      'Agua espanol',
+      'Turco Andaluz',
+      'Perro Andaluz',
+      'Perro de trabajo',
+      'Perro de pesca',
+      'Perro de pastoreo',
+      'Perro de rescate',
+      'Perro de terapia',
+      'Perro inteligente',
+      'Perro versátil',
+      'Perro de agua andaluz',
+      'Perro andaluz de agua',
+      'Perro de agua de España',
+      'Perro de España',
+      'Perro de agua de Andalucía',
+      'Perro de Andalucía',
+      'Perro de agua andaluz',
+      'Perro andaluz de agua',
+      'Perro de agua de pesca',
+      'Perro de pesca español',
+      'Perro de agua de pastoreo',
+      'Perro de pastoreo español',
+      'Perro de agua de rescate',
+      'Perro de rescate español',
+      'Turco Andaluz',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Alta",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Spanish_Water_Dog",
-    "https://www.dogbreedinfo.com/spanishwaterdog.htm",
-    "https://www.ukcdogs.com/spanish-water-dog"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Spanish_Water_Dog',
+      'https://www.dogbreedinfo.com/spanishwaterdog.htm',
+      'https://www.ukcdogs.com/spanish-water-dog',
+    ],
   },
   149: {
     weight: {
@@ -20335,49 +20378,49 @@ fuentes: [
     gallery: ['https://cdn2.thedogapi.com/images/rk5Eoe5Nm_390x256.jpg'],
     searchTerms: [
       'Spinone Italiano',
-      "Spinone",
-      "Italiano",
-      "Perro de caza italiano",
-      "Perro italiano",
-      "Spinoni",
-      "Perro de muestra italiano",
-      "Cazador italiano",
-      "Perro de muestra",
-      "Perro de caza",
-      "Perro resistente",
-      "Perro amigable",
-      "Perro de trabajo",
-      "Perro de familia",
-      "Perro para niños",
-      "Perro de pelo duro",
-      "Perro de pelo rizado",
-      "Perro de nariz poderosa",
-      "Perro de resistencia",
-      "Perro de terreno difícil",
-      "Perro de caza de aves",
-      "Perro de caza de pelo duro",
-      "Perro de caza resistente",
-      "Perro de caza de resistencia",
-      "Perro de caza de terreno difícil",
-      "Perro de caza de nariz poderosa",
-      "Perro de caza amigable",
-      "Perro de caza para niños",
-      "Perro de caza de familia",
-      "Perro de caza de trabajo"
+      'Spinone',
+      'Italiano',
+      'Perro de caza italiano',
+      'Perro italiano',
+      'Spinoni',
+      'Perro de muestra italiano',
+      'Cazador italiano',
+      'Perro de muestra',
+      'Perro de caza',
+      'Perro resistente',
+      'Perro amigable',
+      'Perro de trabajo',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro de pelo duro',
+      'Perro de pelo rizado',
+      'Perro de nariz poderosa',
+      'Perro de resistencia',
+      'Perro de terreno difícil',
+      'Perro de caza de aves',
+      'Perro de caza de pelo duro',
+      'Perro de caza resistente',
+      'Perro de caza de resistencia',
+      'Perro de caza de terreno difícil',
+      'Perro de caza de nariz poderosa',
+      'Perro de caza amigable',
+      'Perro de caza para niños',
+      'Perro de caza de familia',
+      'Perro de caza de trabajo',
     ],
-    "tendencia_a_ladrar": "Baja",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Alta",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.akc.org/dog-breeds/spinone-italiano/",
-    "https://www.dogbreedinfo.com/s/spinoneitaliano.htm",
-    "https://www.ukcdogs.com/spinone-italiano"
-    ]
+    tendencia_a_ladrar: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/spinone-italiano/',
+      'https://www.dogbreedinfo.com/s/spinoneitaliano.htm',
+      'https://www.ukcdogs.com/spinone-italiano',
+    ],
   },
   150: {
     weight: {
@@ -20477,54 +20520,54 @@ fuentes: [
     gallery: ['https://cdn2.thedogapi.com/images/H1zSie9V7_390x256.jpg'],
     searchTerms: [
       'Staffordshire Bull Terrier',
-      "Staffordshire",
-      "Bull Terrier",
-      "Staffy",
-      "Staffie",
-      "Staffy Bull",
-      "Nanny Dog",
-      "Stafford",
-      "Stafforshire",
-      "Bull Terrier Staffordshire",
-      "Terrier Staffordshire",
-      "Terrier de Staffordshire",
-      "Staffordshire Terrier",
-      "Staffordshire Bull",
-      "Staffordshire Terrier Bull",
-      "Staffordshire Bull Terier",
-      "Staffordshire Terrier Ingles",
-      "Staffordshire Ingles",
-      "Terrier Ingles",
-      "Bull Terrier Ingles",
-      "Staffordshire Bull Ingles",
-      "Staffordshire Terrier Bull Ingles",
-      "Perro de familia",
-      "Perro para niños",
-      "Perro de compañía",
-      "Perro leal",
-      "Perro valiente",
-      "Perro fuerte",
-      "Perro de guardia",
-      "Perro protector"
+      'Staffordshire',
+      'Bull Terrier',
+      'Staffy',
+      'Staffie',
+      'Staffy Bull',
+      'Nanny Dog',
+      'Stafford',
+      'Stafforshire',
+      'Bull Terrier Staffordshire',
+      'Terrier Staffordshire',
+      'Terrier de Staffordshire',
+      'Staffordshire Terrier',
+      'Staffordshire Bull',
+      'Staffordshire Terrier Bull',
+      'Staffordshire Bull Terier',
+      'Staffordshire Terrier Ingles',
+      'Staffordshire Ingles',
+      'Terrier Ingles',
+      'Bull Terrier Ingles',
+      'Staffordshire Bull Ingles',
+      'Staffordshire Terrier Bull Ingles',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro de compañía',
+      'Perro leal',
+      'Perro valiente',
+      'Perro fuerte',
+      'Perro de guardia',
+      'Perro protector',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [
-    {
-    "nombre": "Sergeant Stubby",
-    "caso": "Sergeant Stubby fue un Staffordshire Bull Terrier que sirvió en la Primera Guerra Mundial en el 102º Regimiento de Infantería del Ejército de los Estados Unidos. Stubby es reconocido como el perro de guerra más condecorado de la historia estadounidense."
-    }
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Sergeant Stubby',
+        caso: 'Sergeant Stubby fue un Staffordshire Bull Terrier que sirvió en la Primera Guerra Mundial en el 102º Regimiento de Infantería del Ejército de los Estados Unidos. Stubby es reconocido como el perro de guerra más condecorado de la historia estadounidense.',
+      },
     ],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Staffordshire_Bull_Terrier",
-    "https://www.dogbreedinfo.com/staffordshirebullterrier.htm",
-    "https://www.ukcdogs.com/staffordshire-bull-terrier"
-    ]
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Staffordshire_Bull_Terrier',
+      'https://www.dogbreedinfo.com/staffordshirebullterrier.htm',
+      'https://www.ukcdogs.com/staffordshire-bull-terrier',
+    ],
   },
   151: {
     weight: {
@@ -20643,49 +20686,49 @@ fuentes: [
     ],
     searchTerms: [
       'Schnauzer Estándar',
-      "Schnauzer Estandar",
-      "Schnauzer",
-      "Perro de barba",
-      "Perro alemán",
-      "Perro de granja",
-      "Perro de trabajo",
-      "Perro de compañía",
-      "Perro de exposición",
-      "Perro de terapia",
-      "Perro de bigotes",
-      "Perro de pelo duro",
-      "Perro de tamaño mediano",
-      "Perro inteligente",
-      "Perro versátil",
-      "Perro resistente",
-      "Perro leal",
-      "Perro afectuoso",
-      "Perro con barba",
-      "Perro con cejas",
-      "Perro de hocico",
-      "Perro de Alemania",
-      "Perro de obediencia",
-      "Perro de agilidad",
-      "Perro de búsqueda y rescate",
-      "Perro de policía",
-      "Perro de ejército",
-      "Perro de granja alemán",
-      "Perro de Hannover",
-      "Perro de Pinscher-Schnauzer Klub"
+      'Schnauzer Estandar',
+      'Schnauzer',
+      'Perro de barba',
+      'Perro alemán',
+      'Perro de granja',
+      'Perro de trabajo',
+      'Perro de compañía',
+      'Perro de exposición',
+      'Perro de terapia',
+      'Perro de bigotes',
+      'Perro de pelo duro',
+      'Perro de tamaño mediano',
+      'Perro inteligente',
+      'Perro versátil',
+      'Perro resistente',
+      'Perro leal',
+      'Perro afectuoso',
+      'Perro con barba',
+      'Perro con cejas',
+      'Perro de hocico',
+      'Perro de Alemania',
+      'Perro de obediencia',
+      'Perro de agilidad',
+      'Perro de búsqueda y rescate',
+      'Perro de policía',
+      'Perro de ejército',
+      'Perro de granja alemán',
+      'Perro de Hannover',
+      'Perro de Pinscher-Schnauzer Klub',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Alta",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.akc.org/dog-breeds/standard-schnauzer/",
-    "https://www.dogbreedinfo.com/standardschnauzer.htm",
-    "https://www.ukcdogs.com/standard-schnauzer"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/standard-schnauzer/',
+      'https://www.dogbreedinfo.com/standardschnauzer.htm',
+      'https://www.ukcdogs.com/standard-schnauzer',
+    ],
   },
   153: {
     weight: {
@@ -20787,49 +20830,49 @@ fuentes: [
       'Perro de los Visigodos Sueco',
       'Perro de pastoreo',
       'Energético',
-      "Perro de los visigodos sueco",
-      "perro de los Visigodos Sueco",
-      "perro de los visigodos sueco",
-      "Perro de los Visigodos",
-      "Perro de los visigodos",
-      "perro de los Visigodos",
-      "perro de los visigodos",
-      "Visigodos Sueco",
-      "visigodos Sueco",
-      "Visigodos sueco",
-      "visigodos sueco",
-      "Swedish Vallhund",
-      "swedish Vallhund",
-      "Swedish vallhund",
-      "swedish vallhund",
-      "Västgötaspets",
-      "västgötaspets",
-      "Perro vikingo",
-      "perro vikingo",
-      "Perro de pastoreo",
-      "perro de pastoreo",
-      "Perro sueco",
-      "perro sueco",
-      "Perro vikingo sueco",
-      "perro vikingo sueco",
-      "Perro de pastoreo sueco",
-      "perro de pastoreo sueco",
-      "Perro de los vikingos",
-      "perro de los vikingos"
+      'Perro de los visigodos sueco',
+      'perro de los Visigodos Sueco',
+      'perro de los visigodos sueco',
+      'Perro de los Visigodos',
+      'Perro de los visigodos',
+      'perro de los Visigodos',
+      'perro de los visigodos',
+      'Visigodos Sueco',
+      'visigodos Sueco',
+      'Visigodos sueco',
+      'visigodos sueco',
+      'Swedish Vallhund',
+      'swedish Vallhund',
+      'Swedish vallhund',
+      'swedish vallhund',
+      'Västgötaspets',
+      'västgötaspets',
+      'Perro vikingo',
+      'perro vikingo',
+      'Perro de pastoreo',
+      'perro de pastoreo',
+      'Perro sueco',
+      'perro sueco',
+      'Perro vikingo sueco',
+      'perro vikingo sueco',
+      'Perro de pastoreo sueco',
+      'perro de pastoreo sueco',
+      'Perro de los vikingos',
+      'perro de los vikingos',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.akc.org/dog-breeds/swedish-vallhund/",
-    "https://www.dogbreedinfo.com/swedishvallhund.htm",
-    "https://en.wikipedia.org/wiki/Swedish_Vallhund"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/swedish-vallhund/',
+      'https://www.dogbreedinfo.com/swedishvallhund.htm',
+      'https://en.wikipedia.org/wiki/Swedish_Vallhund',
+    ],
   },
   154: {
     weight: {
@@ -20936,49 +20979,49 @@ fuentes: [
       'Ridgeback Tailandés',
       'Perro de caza',
       'Protector',
-      "Ridgeback Tailandes",
-      "Ridgeback de Tailandia",
-      "Thai Ridgeback",
-      "Perro de Tailandia",
-      "Perro tailandés",
-      "Perro tailandes",
-      "Perro de cresta",
-      "Perro cazador",
-      "Perro guardián",
-      "Perro de protección",
-      "Perro de compañía",
-      "Perro exótico",
-      "Raza rara",
-      "Raza pura",
-      "Raza antigua",
-      "Raza oriental",
-      "Perro oriental",
-      "Perro asiático",
-      "Raza asiática",
-      "Perro de pelo corto",
-      "Perro de clima cálido",
-      "Perro resistente",
-      "Perro fuerte",
-      "Perro leal",
-      "Perro valiente",
-      "Perro de trabajo",
-      "Perro de caza",
-      "Perro de exterminio de plagas",
-      "Perro de familia"
+      'Ridgeback Tailandes',
+      'Ridgeback de Tailandia',
+      'Thai Ridgeback',
+      'Perro de Tailandia',
+      'Perro tailandés',
+      'Perro tailandes',
+      'Perro de cresta',
+      'Perro cazador',
+      'Perro guardián',
+      'Perro de protección',
+      'Perro de compañía',
+      'Perro exótico',
+      'Raza rara',
+      'Raza pura',
+      'Raza antigua',
+      'Raza oriental',
+      'Perro oriental',
+      'Perro asiático',
+      'Raza asiática',
+      'Perro de pelo corto',
+      'Perro de clima cálido',
+      'Perro resistente',
+      'Perro fuerte',
+      'Perro leal',
+      'Perro valiente',
+      'Perro de trabajo',
+      'Perro de caza',
+      'Perro de exterminio de plagas',
+      'Perro de familia',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Alta",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.dogbreedinfo.com/thairidgeback.htm",
-    "https://en.wikipedia.org/wiki/Thai_Ridgeback",
-    "https://www.ukcdogs.com/thai-ridgeback"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.dogbreedinfo.com/thairidgeback.htm',
+      'https://en.wikipedia.org/wiki/Thai_Ridgeback',
+      'https://www.ukcdogs.com/thai-ridgeback',
+    ],
   },
   155: {
     weight: {
@@ -21087,49 +21130,49 @@ fuentes: [
       'Mastín Tibetano',
       'Perro de protección',
       'Perro guardián',
-      "Mastin Tibetano",
-      "Mastín tibetano",
-      "mastin tibetano",
-      "Mastín del Tíbet",
-      "Mastin del Tibet",
-      "Mastín del Tibet",
-      "mastin del tibet",
-      "Do-Khyi",
-      "Do Khyi",
-      "Perro de montaña",
-      "Perro guardian",
-      "Perro de trabajo",
-      "Perro protector",
-      "Perro del Himalaya",
-      "Perro tibetano",
-      "Perro grande",
-      "Perro fuerte",
-      "Perro leal",
-      "Perro valiente",
-      "Perro de rebaño",
-      "Perro de pastoreo",
-      "Perro de compañía",
-      "Perro de familia",
-      "Perro antiguo",
-      "Perro raro",
-      "Perro exótico",
-      "Perro resistente",
-      "Perro de pelo largo",
-      "Perro de clima frío"
+      'Mastin Tibetano',
+      'Mastín tibetano',
+      'mastin tibetano',
+      'Mastín del Tíbet',
+      'Mastin del Tibet',
+      'Mastín del Tibet',
+      'mastin del tibet',
+      'Do-Khyi',
+      'Do Khyi',
+      'Perro de montaña',
+      'Perro guardian',
+      'Perro de trabajo',
+      'Perro protector',
+      'Perro del Himalaya',
+      'Perro tibetano',
+      'Perro grande',
+      'Perro fuerte',
+      'Perro leal',
+      'Perro valiente',
+      'Perro de rebaño',
+      'Perro de pastoreo',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro antiguo',
+      'Perro raro',
+      'Perro exótico',
+      'Perro resistente',
+      'Perro de pelo largo',
+      'Perro de clima frío',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Baja",
-    "para_primerizos": "Baja",
-    "bueno_con_ninos": "Moderada",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Tibetan_Mastiff",
-    "https://www.dogbreedinfo.com/tibetanmastiff.htm",
-    "https://www.ukcdogs.com/tibetan-mastiff"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Tibetan_Mastiff',
+      'https://www.dogbreedinfo.com/tibetanmastiff.htm',
+      'https://www.ukcdogs.com/tibetan-mastiff',
+    ],
   },
   156: {
     weight: {
@@ -21225,49 +21268,49 @@ fuentes: [
     searchTerms: [
       'Spaniel Tibetano',
       'Perro de compañía',
-      "Spaniel del Tíbet",
-      "Spaniel",
-      "Tibetano",
-      "Perro tibetano",
-      "Perro del Tíbet",
-      "Perro monasterio",
-      "Perro budista",
-      "Pequeño león",
-      "Perro sagrado",
-      "Perro de compañía",
-      "Perro de regazo",
-      "Perro de familia",
-      "Perro de montaña",
-      "Perro de clima frío",
-      "Perro de pelo largo",
-      "Perro tranquilo",
-      "Perro leal",
-      "Perro inteligente",
-      "Perro valiente",
-      "Perro resistente",
-      "Perro de tamaño pequeño",
-      "Perro de raza antigua",
-      "Perro de raza pura",
-      "Perro de raza rara",
-      "Perro de raza exótica",
-      "Perro de raza asiática",
-      "Perro de raza oriental",
-      "Perro de raza de lujo",
-      "Perro de raza de regalo"
+      'Spaniel del Tíbet',
+      'Spaniel',
+      'Tibetano',
+      'Perro tibetano',
+      'Perro del Tíbet',
+      'Perro monasterio',
+      'Perro budista',
+      'Pequeño león',
+      'Perro sagrado',
+      'Perro de compañía',
+      'Perro de regazo',
+      'Perro de familia',
+      'Perro de montaña',
+      'Perro de clima frío',
+      'Perro de pelo largo',
+      'Perro tranquilo',
+      'Perro leal',
+      'Perro inteligente',
+      'Perro valiente',
+      'Perro resistente',
+      'Perro de tamaño pequeño',
+      'Perro de raza antigua',
+      'Perro de raza pura',
+      'Perro de raza rara',
+      'Perro de raza exótica',
+      'Perro de raza asiática',
+      'Perro de raza oriental',
+      'Perro de raza de lujo',
+      'Perro de raza de regalo',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://www.dogbreedinfo.com/t/tibetanspaniel.htm",
-    "https://en.wikipedia.org/wiki/Tibetan_Spaniel",
-    "https://www.ukcdogs.com/tibetan-spaniel"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.dogbreedinfo.com/t/tibetanspaniel.htm',
+      'https://en.wikipedia.org/wiki/Tibetan_Spaniel',
+      'https://www.ukcdogs.com/tibetan-spaniel',
+    ],
   },
   157: {
     weight: {
@@ -21389,49 +21432,49 @@ fuentes: [
     searchTerms: [
       'Terrier Tibetano',
       'Perro de compañía',
-      "Terrier del Tíbet",
-      "Terrier tibetano",
-      "Terrier del tibet",
-      "Terrier de Tibet",
-      "Terrier de tibet",
-      "Tibet Terrier",
-      "tibet terrier",
-      "Tibetan Terrier",
-      "tibetan terrier",
-      "Terrier",
-      "terrier",
-      "Tibetano",
-      "tibetano",
-      "Tíbet",
-      "tíbet",
-      "Tibet",
-      "tibet",
-      "Perro de compañía",
-      "perro de compañía",
-      "Perro de montaña",
-      "perro de montaña",
-      "Perro del Himalaya",
-      "perro del himalaya",
-      "Perro de los monjes",
-      "perro de los monjes",
-      "Perro sagrado",
-      "perro sagrado",
-      "Perro barbudo",
-      "perro barbudo"
+      'Terrier del Tíbet',
+      'Terrier tibetano',
+      'Terrier del tibet',
+      'Terrier de Tibet',
+      'Terrier de tibet',
+      'Tibet Terrier',
+      'tibet terrier',
+      'Tibetan Terrier',
+      'tibetan terrier',
+      'Terrier',
+      'terrier',
+      'Tibetano',
+      'tibetano',
+      'Tíbet',
+      'tíbet',
+      'Tibet',
+      'tibet',
+      'Perro de compañía',
+      'perro de compañía',
+      'Perro de montaña',
+      'perro de montaña',
+      'Perro del Himalaya',
+      'perro del himalaya',
+      'Perro de los monjes',
+      'perro de los monjes',
+      'Perro sagrado',
+      'perro sagrado',
+      'Perro barbudo',
+      'perro barbudo',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Moderada",
-    "soporta_clima_frio": "Alta",
-    "soporta_clima_calido": "Moderada",
-    "para_primerizos": "Moderada",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-    "https://en.wikipedia.org/wiki/Tibetan_Terrier",
-    "https://www.dogbreedinfo.com/tibetanterrier.htm",
-    "https://www.ukcdogs.com/tibetan-terrier"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Tibetan_Terrier',
+      'https://www.dogbreedinfo.com/tibetanterrier.htm',
+      'https://www.ukcdogs.com/tibetan-terrier',
+    ],
   },
   158: {
     weight: {
@@ -21530,49 +21573,49 @@ fuentes: [
       'Terrier Toy Fox',
       'Perro de compañía',
       'Perro juguetón',
-      "Toy Fox Terrier",
-      "Terrier de juguete",
-      "Fox Terrier de juguete",
-      "Terrier pequeño",
-      "Terrier miniatura",
-      "Perro de compañía",
-      "Perro de familia",
-      "Perro para niños",
-      "Perro de terapia",
-      "Perro de agilidad",
-      "Perro de obediencia",
-      "Perro de flyball",
-      "Perro de caza pequeño",
-      "Perro de caza de juguete",
-      "Perro de caza miniatura",
-      "Perro de caza en miniatura",
-      "Perro de trabajo pequeño",
-      "Perro de trabajo de juguete",
-      "Perro de trabajo miniatura",
-      "Perro de trabajo en miniatura",
-      "Perro de raza pequeña",
-      "Perro de raza de juguete",
-      "Perro de raza miniatura",
-      "Perro de raza en miniatura",
-      "Perro de raza americana",
-      "Perro de raza de los Estados Unidos",
-      "Perro de raza de EE.UU.",
-      "Perro de raza de EEUU",
-      "Perro de raza de USA"
+      'Toy Fox Terrier',
+      'Terrier de juguete',
+      'Fox Terrier de juguete',
+      'Terrier pequeño',
+      'Terrier miniatura',
+      'Perro de compañía',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro de terapia',
+      'Perro de agilidad',
+      'Perro de obediencia',
+      'Perro de flyball',
+      'Perro de caza pequeño',
+      'Perro de caza de juguete',
+      'Perro de caza miniatura',
+      'Perro de caza en miniatura',
+      'Perro de trabajo pequeño',
+      'Perro de trabajo de juguete',
+      'Perro de trabajo miniatura',
+      'Perro de trabajo en miniatura',
+      'Perro de raza pequeña',
+      'Perro de raza de juguete',
+      'Perro de raza miniatura',
+      'Perro de raza en miniatura',
+      'Perro de raza americana',
+      'Perro de raza de los Estados Unidos',
+      'Perro de raza de EE.UU.',
+      'Perro de raza de EEUU',
+      'Perro de raza de USA',
     ],
-    "tendencia_a_ladrar": "Moderada",
-    "necesidad_de_aseo": "Baja",
-    "soporta_clima_frio": "Moderada",
-    "soporta_clima_calido": "Alta",
-    "para_primerizos": "Alta",
-    "bueno_con_ninos": "Alta",
-    "tolerancia_a_la_soledad": "Baja",
-    "casos_famosos": [],
-    "fuentes": [
-      "https://www.akc.org/dog-breeds/toy-fox-terrier/",
-      "https://www.dogbreedinfo.com/toyfoxterrier.htm",
-      "https://www.ukcdogs.com/toy-fox-terrier"
-    ]
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://www.akc.org/dog-breeds/toy-fox-terrier/',
+      'https://www.dogbreedinfo.com/toyfoxterrier.htm',
+      'https://www.ukcdogs.com/toy-fox-terrier',
+    ],
   },
   159: {
     weight: {
@@ -21604,16 +21647,34 @@ fuentes: [
       height: 1080,
       url: 'https://cdn2.thedogapi.com/images/SkRpsgc47.jpg',
     },
-    searchTerms: [
-      'Coonhound Walker de Árbol',
-      'Perro de caza',
-      'Perro adiestrable',
-    ],
     country_code: 'US',
-    description:
-      'El Coonhound Walker de Árbol es un perro grande, inteligente y cariñoso. Son seguros y son muy adiestrables, lo que los hace excelentes para la caza y los deportes de campo. A pesar de su tamaño, son perros amorosos y hacen grandes mascotas para la familia.',
-    history:
-      'El Coonhound Walker de Árbol se originó en los Estados Unidos y fue criado para cazar y rastrear. Son conocidos por su habilidad para "trepar" a los árboles en busca de presas y son populares en los deportes de campo. A pesar de su uso como perros de caza, también son mascotas familiares amorosas.',
+    description: `
+      El Coonhound Walker de Árbol es una raza de perro de caza que se originó en los Estados Unidos. Este perro es conocido por su habilidad para cazar animales pequeños como mapaches y zarigüeyas, aunque algunos cazadores también los utilizan para la caza de osos. Son rápidos, alerta, tienen un agudo sentido del olfato, gran resistencia, la capacidad de trepar a los árboles y un fuerte deseo de atrapar a su presa. Su distintivo aullido permite a los propietarios identificarlos desde largas distancias.
+      <br>
+      <br>
+      El Coonhound Walker de Árbol es una raza que requiere de propietarios experimentados, que le brinden mucho ejercicio y atención. Se caracteriza por ser inteligente, valiente, de mente abierta, amigable y curioso. No son adecuados como perros guardianes, pero se llevan bien con otros perros. No existen problemas de salud específicos relacionados con la raza, pero la displasia de cadera puede ser una preocupación. Tienen un pelaje corto y denso que les proporciona protección durante las frías noches de caza. Son musculosos, bien proporcionados, con largas orejas, marcas de color bronce, ojos marrones alerta y una cola fuerte. Los machos miden entre 63.5-68.5 cm y pesan entre 25-34 kg, mientras que las hembras son ligeramente más pequeñas. La esperanza de vida promedio es de 10 a 12 años.
+      <br>
+      <br>
+      Entre las razas de coonhound, el Coonhound Walker de Árbol es a menudo considerado el mejor para las competencias debido a su naturaleza de nariz caliente. Son cazadores versátiles que pueden trabajar solos o en manada, e incluso pueden perseguir presas más grandes como linces, pumas y osos pequeños.
+    `,
+    history: `
+      La historia del Coonhound Walker de Árbol es una narrativa fascinante que se entrelaza con la historia de la caza y la cultura del sur de los Estados Unidos. Esta raza de perro de caza se originó en los Estados Unidos y es descendiente de los foxhounds ingleses y americanos. Ha sido reconocida como una raza separada desde 1945, lo que demuestra su larga historia y desarrollo.
+      <br>
+      <br>
+      La raza fue desarrollada por Thomas Walker, un criador de perros de Virginia, en el siglo XVIII. Walker importó foxhounds ingleses en 1742 y los cruzó con un perro robado de raza desconocida llamado Tennessee Lead en el siglo XIX. El resultado fue un perro que combinaba la velocidad y resistencia del foxhound con la habilidad de rastrear y trepar a los árboles, características que eran esenciales para la caza de mapaches y otros animales pequeños en el sur de los Estados Unidos.
+      <br>
+      <br>
+      El Coonhound Walker de Árbol fue criado específicamente para "treeing", una forma de caza en la que los perros rastrean y persiguen a su presa hasta que esta se refugia en un árbol. Luego, los perros se quedan al pie del árbol ladrando para alertar a los cazadores. Esta habilidad para rastrear y trepar a los árboles es lo que le da a la raza su nombre.
+      <br>
+      <br>
+      A lo largo de los años, la raza ha sido apreciada por su agudo sentido del olfato, su velocidad y su resistencia. Estas características los han hecho populares entre los cazadores de mapaches, zarigüeyas y otros animales pequeños. Algunos cazadores incluso han utilizado a estos perros para la caza de osos, demostrando su versatilidad y valentía.
+      <br>
+      <br>
+      El Coonhound Walker de Árbol fue reconocido oficialmente por el American Kennel Club en enero de 2012, un testimonio de su popularidad y estatus en la comunidad de caza y entre los amantes de los perros en general.
+      <br>
+      <br>
+      Hoy en día, el Coonhound Walker de Árbol es una raza apreciada tanto por su habilidad en la caza como por su carácter amigable y su lealtad hacia sus dueños. Aunque su principal función sigue siendo la caza, muchos de estos perros también se han ganado un lugar en los hogares como mascotas queridas. Su historia es un testimonio de su adaptabilidad, su resistencia y su inigualable habilidad para la caza.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Bueno para la vida en el campo',
@@ -21638,6 +21699,53 @@ fuentes: [
       'Problemas de obesidad',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/SkRpsgc47_390x256.jpg'],
+    searchTerms: [
+      'Coonhound Walker de Árbol',
+      'Perro de caza',
+      'Perro adiestrable',
+      'Coonhound',
+      'Walker de Árbol',
+      'Coonhound Walker',
+      'Coonhound de Árbol',
+      'Walker Coonhound',
+      'Coonhound Walker Arbol',
+      'Coonhound Walker de Arbol',
+      'Perro de caza',
+      'Perro trepador',
+      'Perro rastreador',
+      'Perro cazador',
+      'Perro de olfato agudo',
+      'Perro de resistencia',
+      'Perro de velocidad',
+      'Perro de caza de mapaches',
+      'Perro de caza de zarigüeyas',
+      'Perro de caza de osos',
+      'Perro de caza nocturna',
+      'Perro de caza del sur de los Estados Unidos',
+      'Perro de caza americano',
+      'Perro de caza de Virginia',
+      'Perro de caza de Tennessee',
+      'Perro de caza de Thomas Walker',
+      'Perro de caza de competencia',
+      'Perro de caza de competición',
+      'Perro de caza de competencias',
+      'Perro de caza de competiciones',
+      'Perro de caza de bobcats',
+      'Perro de caza de pumas',
+    ],
+    tendencia_a_ladrar: 'Alta',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://es.wikipedia.org/wiki/Treeing_Walker_Coonhound',
+      'https://www.dogbible.com/es/razas-perros/treeing-walker-coonhound',
+      'https://www.akc.org/expert-advice/lifestyle/treeing-walker-coonhound/',
+    ],
   },
   160: {
     weight: {
@@ -21662,12 +21770,49 @@ fuentes: [
       height: 1276,
       url: 'https://cdn2.thedogapi.com/images/r1o0jx9Em.jpg',
     },
-    searchTerms: ['Vizsla', 'Perro deportivo', 'Perro cariñoso', 'Perro leal'],
     country_code: 'HU',
-    description:
-      'El Vizsla es un perro de tamaño medio conocido por su lealtad y su energía. Son cariñosos, suaves y tranquilos, y se llevan bien con los niños y otros animales. Aunque son energéticos, también pueden ser bastante tranquilos en el hogar.',
-    history:
-      'Originario de Hungría, el Vizsla fue criado para el señalamiento y rastreo. Son conocidos por su habilidad para trabajar tanto en tierra como en agua. A pesar de su uso en el campo deportivo, también son perros de familia muy queridos.',
+    description: `
+      El Vizsla es una raza de perro que se destaca por su elegancia y su energía inagotable. Originario de Hungría, este perro de caza es conocido por su pelaje corto y dorado, su cuerpo atlético y su expresión alerta y amigable. Pero más allá de su apariencia atractiva, el Vizsla es un compañero leal y afectuoso que se destaca tanto en el campo como en el hogar.
+      <br>
+      <br>
+      El Vizsla es un perro de tamaño mediano, con machos que miden entre 56 y 64 cm de altura y hembras entre 53 y 61 cm. Su cuerpo es musculoso y bien proporcionado, lo que le permite moverse con una gracia y agilidad impresionantes. Su pelaje es corto, liso y apretado, de un color dorado que varía desde el dorado claro hasta el dorado oscuro. Este color dorado es una de las características más distintivas de la raza y le da al Vizsla su apodo de "perro dorado húngaro".
+      <br>
+      <br>
+      El Vizsla tiene una cabeza noble y expresiva, con ojos de color avellana que reflejan su inteligencia y su carácter amigable. Sus orejas son largas y cuelgan cerca de las mejillas, y su cola es generalmente cortada a dos tercios de su longitud original.
+      <br>
+      <br>
+      Pero lo que realmente distingue al Vizsla es su personalidad. Este es un perro que está lleno de energía y siempre está listo para la acción. Le encanta correr, jugar y explorar, y necesita mucho ejercicio para mantenerse feliz y saludable. A pesar de su energía, el Vizsla es también un perro muy cariñoso que se apega profundamente a su familia. Le encanta estar cerca de las personas y a menudo seguirá a sus dueños de habitación en habitación, siempre buscando compañía y afecto.
+      <br>
+      <br>
+      El Vizsla es también un perro muy inteligente y altamente entrenable. Aprende rápidamente y está ansioso por complacer, lo que hace que el entrenamiento sea una experiencia gratificante para ambos, el perro y el dueño. Sin embargo, su inteligencia también significa que necesita estimulación mental regular para evitar el aburrimiento.
+      <br>
+      <br>
+      En términos de salud, el Vizsla es generalmente una raza saludable, pero como todas las razas, puede ser propenso a ciertas condiciones genéticas. Algunas de las condiciones de salud más comunes en los Vizslas incluyen la displasia de cadera, las enfermedades oculares y la epilepsia. Sin embargo, con cuidados veterinarios regulares y una dieta y estilo de vida saludables, la mayoría de los Vizslas viven vidas largas y saludables.
+      <br>
+      <br>
+      En resumen, el Vizsla es un perro hermoso, enérgico y cariñoso que puede ser un maravilloso compañero para la persona o familia adecuada. Su energía y su necesidad de compañía significan que no es la raza adecuada para todos, pero para aquellos que pueden satisfacer sus necesidades, el Vizsla puede ser un amigo leal y amoroso que aportará mucha alegría y felicidad a su vida.
+    `,
+    history: `
+      La historia del Vizsla es una que se remonta a más de mil años, entrelazada con la historia de la nación de Hungría y su gente. Este perro de caza versátil y elegante ha sido un compañero apreciado de los nobles y cazadores húngaros durante siglos, y su historia es un testimonio de su resistencia y su encanto perdurable.
+      <br>
+      <br>
+      La historia del Vizsla comienza con las tribus nómadas magiares, que se asentaron en la región que ahora conocemos como Hungría alrededor del año 895. Estos guerreros y cazadores hábiles trajeron consigo sus perros, que eran valorados por su habilidad para cazar y rastrear. Aunque no hay registros escritos de estos primeros perros, se cree que eran los antepasados de los modernos Vizslas.
+      <br>
+      <br>
+      Durante los siglos siguientes, los Vizslas se convirtieron en una parte integral de la vida húngara. Eran apreciados por su habilidad para cazar en una variedad de terrenos, desde las llanuras abiertas hasta los bosques densos. Su pelaje dorado les permitía mezclarse con los campos de trigo, y su agudo sentido del olfato y su habilidad para rastrear hacían de ellos excelentes perros de caza.
+      <br>
+      <br>
+      Los Vizslas también eran valorados por su lealtad y su compañía. Eran conocidos por su fuerte vínculo con sus dueños y su deseo de estar cerca de las personas. Esta cercanía con sus dueños llevó a los Vizslas a ser conocidos como "perros de velcro", un apodo que todavía se usa hoy en día.
+      <br>
+      <br>
+      A pesar de su popularidad en Hungría, los Vizslas permanecieron en gran medida desconocidos fuera de su país natal hasta después de la Segunda Guerra Mundial. Durante la guerra, la raza estuvo cerca de la extinción, ya que muchos Vizslas fueron asesinados o murieron de hambre. Sin embargo, un pequeño número de Vizslas fueron llevados fuera de Hungría por refugiados y soldados, y estos perros se convirtieron en la base de la población de Vizslas fuera de Hungría.
+      <br>
+      <br>
+      En las décadas siguientes, los Vizslas se extendieron por Europa y América del Norte. Fueron reconocidos oficialmente por el American Kennel Club en 1960, y desde entonces han crecido en popularidad. Hoy en día, los Vizslas son apreciados tanto por su habilidad en el campo como por su carácter amigable y leal en el hogar.
+      <br>
+      <br>
+      A lo largo de su historia, el Vizsla ha demostrado ser un perro de caza versátil, un compañero leal y un amigo cariñoso. A pesar de los desafíos y las dificultades que ha enfrentado, la raza ha perdurado y prosperado, y hoy en día el Vizsla sigue siendo un testimonio de la resistencia y el espíritu de los perros y las personas de Hungría.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Requiere mucho ejercicio',
@@ -21691,6 +21836,59 @@ fuentes: [
       'Epilepsia',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/r1o0jx9Em_390x256.jpg'],
+    searchTerms: [
+      'Vizsla',
+      'Perro deportivo',
+      'Perro cariñoso',
+      'Perro leal',
+      'Vizla',
+      'Bisla',
+      'Perro húngaro',
+      'Perro de caza',
+      'Perro de puntería',
+      'Perro de compañía',
+      'Perro de agilidad',
+      'Perro de terapia',
+      'Perro de rescate',
+      'Perro de búsqueda',
+      'Perro de nariz',
+      'Perro de rastreo',
+      'Perro de campo',
+      'Perro de trabajo',
+      'Perro de familia',
+      'Perro de velcro',
+      'Perro de pelo corto',
+      'Perro de orejas caídas',
+      'Perro de color dorado',
+      'Perro de ojos marrones',
+      'Perro de tamaño mediano',
+      'Perro de energía alta',
+      'Perro de inteligencia alta',
+      'Perro de lealtad alta',
+      'Perro de resistencia alta',
+      'Perro de velocidad alta',
+      'Perro de olfato agudo',
+      'Perro de caza de aves',
+      'Perro de caza de pequeños mamíferos',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Scooby Doo',
+        caso: 'El personaje de Scooby Doo, aunque no oficialmente un Vizsla, tiene muchas características similares a la raza.',
+      },
+    ],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Vizsla',
+      'https://www.dogbreedinfo.com/vizsla.htm',
+      'https://www.akc.org/dog-breeds/vizsla/',
+    ],
   },
   161: {
     weight: {
@@ -21724,17 +21922,49 @@ fuentes: [
       height: 954,
       url: 'https://cdn2.thedogapi.com/images/SyU12l9V7.jpg',
     },
-    searchTerms: [
-      'Weimaraner',
-      'Perro deportivo',
-      'Perro obstinado',
-      'Perro rápido',
-    ],
     country_code: 'DE',
-    description:
-      'El Weimaraner es un perro de tamaño grande conocido por su inteligencia y energía. Son perros poderosos y rápidos, con un temperamento estable pero pueden ser reservados. Aunque son obstinados, son alertas y buenos perros de trabajo.',
-    history:
-      'El Weimaraner es originario de Alemania, donde fue criado para rastrear presas grandes y ser un perro de caza versátil. Son conocidos por su velocidad y poder, así como por su habilidad para trabajar tanto en tierra como en agua.',
+    description: `
+      El Weimaraner es una raza de perro que se distingue por su elegante apariencia, su pelaje corto de color gris plateado y sus ojos hipnóticos, que pueden variar de un azul claro a un gris o incluso un ámbar brillante. Esta raza es conocida por su apariencia noble y su porte atlético, que refleja su historia como perro de caza altamente valorado.
+      <br>
+      <br>
+      Los Weimaraners son perros de tamaño grande, con los machos midiendo generalmente entre 59 y 70 cm de altura y las hembras un poco más pequeñas, entre 57 y 65 cm. A pesar de su tamaño, son perros increíblemente gráciles y ágiles, capaces de moverse con una velocidad y una agilidad sorprendentes. Su cuerpo es musculoso y bien proporcionado, lo que les permite ser excelentes corredores y nadadores.
+      <br>
+      <br>
+      El pelaje del Weimaraner es corto, suave y fácil de cuidar. Su color distintivo, que varía de un gris ratón a un gris plateado, les ha valido el apodo de "fantasmas grises". Este pelaje les ayuda a mezclarse con su entorno cuando están cazando, y también contribuye a su apariencia elegante y sofisticada.
+      <br>
+      <br>
+      Los Weimaraners son perros inteligentes y altamente energéticos que requieren mucho ejercicio y estimulación mental. Son conocidos por su resistencia y su amor por las actividades al aire libre, por lo que son una excelente opción para las personas activas que disfrutan de los deportes y las aventuras al aire libre. Sin embargo, también son perros muy apegados a su familia y adoran pasar tiempo en casa. Son conocidos por ser muy cariñosos y leales, y a menudo se les ve siguiendo a sus dueños por toda la casa.
+      <br>
+      <br>
+      A pesar de su tamaño y energía, los Weimaraners son perros increíblemente suaves y cariñosos. Son excelentes con los niños y suelen llevarse bien con otros perros, aunque su instinto de caza puede hacer que persigan a animales más pequeños. Son perros muy sociales que adoran estar con su familia y pueden sufrir de ansiedad por separación si se les deja solos durante mucho tiempo.
+      <br>
+      <br>
+      Los Weimaraners son perros inteligentes y deseosos de complacer, lo que puede facilitar su entrenamiento. Sin embargo, también son conocidos por su terquedad y pueden requerir un entrenamiento firme y consistente. Son perros muy versátiles que pueden sobresalir en una variedad de deportes y actividades caninas, desde la caza y el rastreo hasta la obediencia y la agilidad.
+      <br>
+      <br>
+      En resumen, el Weimaraner es una raza de perro hermosa, inteligente y activa que puede ser un maravilloso compañero para la persona o familia adecuada. Su energía, lealtad y amor por la vida los convierten en una raza verdaderamente especial.
+    `,
+    history: `
+      La historia del Weimaraner es tan fascinante como la raza misma. Originarios de Alemania, estos perros llevan el nombre de la ciudad de Weimar, donde fueron criados y perfeccionados por la nobleza alemana durante el siglo XIX. Los Weimaraners fueron desarrollados con el objetivo de crear un perro de caza noble que fuera inteligente, valiente y capaz de cazar una variedad de animales, desde aves hasta ciervos y jabalíes.
+      <br>
+      <br>
+      La raza fue creada por el Gran Duque Carlos Augusto de Sajonia-Weimar-Eisenach, quien quería un perro que fuera no solo un cazador excepcional, sino también un compañero leal y dedicado. Para lograr esto, se dice que cruzó perros de caza de sangre azul de Francia y Alemania con diversas razas, incluyendo el Bloodhound por su excepcional sentido del olfato, el Pointer Alemán por su velocidad y agilidad, y posiblemente el Mastín por su tamaño y fuerza.
+      <br>
+      <br>
+      Durante muchos años, los Weimaraners fueron un secreto bien guardado entre la nobleza alemana. Se dice que los criadores eran tan protectores con la raza que sólo permitían que los cachorros fueran vendidos a personas que fueran miembros del Club Alemán de Weimaraner. Esto ayudó a mantener la pureza de la raza, pero también limitó su popularidad y su distribución fuera de Alemania.
+      <br>
+      <br>
+      La situación cambió después de la Segunda Guerra Mundial, cuando los soldados estadounidenses estacionados en Alemania descubrieron a estos perros impresionantes y comenzaron a llevarlos de vuelta a los Estados Unidos. En 1943, se formó el Club de Weimaraner de América, y la raza fue reconocida oficialmente por el American Kennel Club en 1944.
+      <br>
+      <br>
+      Desde entonces, los Weimaraners han crecido en popularidad tanto en los Estados Unidos como en otros países. Aunque todavía son valorados como perros de caza, también han encontrado su lugar como perros de familia y compañeros leales. Han demostrado ser perros versátiles, sobresaliendo en una variedad de roles, desde perros de terapia y de servicio hasta perros de búsqueda y rescate y competidores en deportes caninos.
+      <br>
+      <br>
+      A lo largo de los años, los Weimaraners también han dejado su huella en la cultura popular. Quizás el más famoso es el Weimaraner que aparece en las fotografías del artista William Wegman, que ha ayudado a aumentar la visibilidad y el reconocimiento de la raza.
+      <br>
+      <br>
+      En resumen, la historia del Weimaraner es una de dedicación y cuidado en la cría, de secretismo y exclusividad, y finalmente de reconocimiento y popularidad. A través de todo esto, la raza ha mantenido su nobleza, su inteligencia y su lealtad, cualidades que la hacen tan querida hoy en día.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Requiere mucho ejercicio',
@@ -21758,6 +21988,59 @@ fuentes: [
       'Distiquiasis',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/SyU12l9V7_390x256.jpg'],
+    searchTerms: [
+      'Weimaraner',
+      'Perro deportivo',
+      'Perro obstinado',
+      'Perro rápido',
+      'Weimar',
+      'Weimaraner gris',
+      'Weimaraner plata',
+      'Weimaraner fantasma gris',
+      'Perro de Weimar',
+      'Perro de caza',
+      'Perro alemán',
+      'Perro de caza alemán',
+      'Perro de muestra',
+      'Perro de muestra alemán',
+      'Perro de caza de pelo corto',
+      'Perro de familia',
+      'Perro deportivo',
+      'Perro de competencia',
+      'Perro de terapia',
+      'Perro de servicio',
+      'Perro de búsqueda y rescate',
+      'Perro de trabajo',
+      'Perro de alta energía',
+      'Perro de alta inteligencia',
+      'Perro leal',
+      'Perro cariñoso',
+      'Perro bueno con niños',
+      'Perro bueno para correr',
+      'Perro de compañía',
+      'Perro de gran tamaño',
+      'Perro de ojos azules',
+      'Perro de pelo corto',
+      'Perro de orejas caídas',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Baja',
+    bueno_con_ninos: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Grace Kelly',
+        caso: "La actriz Grace Kelly tenía un Weimaraner llamado 'Blitz' que apareció con ella en varias fotografías.",
+      },
+    ],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Weimaraner',
+      'https://www.dogbreedinfo.com/weimaraner.htm',
+      'https://www.ukcdogs.com/weimaraner',
+    ],
   },
   162: {
     weight: {
@@ -21789,17 +22072,49 @@ fuentes: [
       height: 944,
       url: 'https://cdn2.thedogapi.com/images/BJ1gnx5Vm.jpg',
     },
-    searchTerms: [
-      'Springer Spaniel Galés',
-      'Perro deportivo',
-      'Perro obstinado',
-      'Perro juguetón',
-    ],
     country_code: 'GB',
-    description:
-      'El Springer Spaniel Galés es un perro de tamaño mediano conocido por ser amigable, cariñoso y leal. A pesar de su temperamento a veces obstinado, es un perro muy juguetón y activo que disfruta desalojar y recuperar pájaros.',
-    history:
-      'El Springer Spaniel Galés tiene su origen en Gales, y es conocido por ser uno de los perros de caza más antiguos de Gran Bretaña. Se utilizaba para desalojar pájaros y luego recuperarlos una vez que el cazador los había abatido.',
+    description: `
+      La historia del Springer Spaniel Galés es una historia de adaptación, supervivencia y finalmente, reconocimiento. Esta raza, que es una de las más antiguas de todas las razas de spaniels, ha navegado por los mares del tiempo, enfrentando desafíos y superando obstáculos para llegar a donde está hoy.
+      <br>
+      <br>
+      La historia de los Springer Spaniels Galéses se remonta a la Edad Media, cuando se cree que fueron desarrollados en Gales, Reino Unido. Aunque no hay registros escritos que confirmen exactamente cuándo y cómo se originó la raza, se cree que los Springer Spaniels Galéses son descendientes de los "Land Spaniels", un tipo de perro de caza que se utilizaba para levantar y recoger aves de caza. Estos perros eran conocidos por su habilidad para "hacer saltar" a las aves de su escondite, de ahí el nombre "Springer".
+      <br>
+      <br>
+      Durante los siglos XVII y XVIII, los Springer Spaniels Galéses se hicieron muy populares entre los cazadores de aves acuáticas y de caza menor en Gales. Eran apreciados por su resistencia, su habilidad para trabajar en diferentes terrenos y su instinto natural para la caza. Sin embargo, a pesar de su popularidad en Gales, la raza permaneció relativamente desconocida fuera de su país de origen durante muchos años.
+      <br>
+      <br>
+      A finales del siglo XIX, la raza comenzó a enfrentar desafíos significativos. Con la llegada de las armas de fuego modernas, los cazadores ya no necesitaban perros que "hicieran saltar" a las aves de su escondite. En su lugar, comenzaron a preferir razas de perros que pudieran señalar y recuperar aves de caza. Como resultado, la popularidad de los Springer Spaniels Galéses comenzó a disminuir.
+      <br>
+      <br>
+      A principios del siglo XX, la raza estuvo al borde de la extinción. Sin embargo, un grupo de criadores dedicados se propuso salvar a los Springer Spaniels Galéses. Estos criadores trabajaron arduamente para revivir la raza, y en 1902, el Kennel Club del Reino Unido reconoció oficialmente a los Springer Spaniels Galéses como una raza distinta.
+      <br>
+      <br>
+      Desde entonces, la raza ha continuado creciendo en popularidad. Aunque todavía no son tan conocidos como algunas otras razas de spaniels, los Springer Spaniels Galéses son apreciados por su inteligencia, su energía y su amabilidad. Son perros versátiles que pueden ser excelentes compañeros de familia, así como competidores en eventos de obediencia y agilidad.
+      <br>
+      <br>
+      En resumen, la historia del Springer Spaniel Galés es una historia de resiliencia y supervivencia. A pesar de los desafíos que ha enfrentado, la raza ha logrado sobrevivir y prosperar, gracias al amor y la dedicación de sus criadores y propietarios. Y aunque su historia ha sido larga, la raza sigue escribiendo nuevos capítulos, dejando su huella en el mundo de los perros.
+    `,
+    history: `
+      La historia del Springer Spaniel Galés es una historia de resistencia, adaptación y supervivencia. Esta raza, que es una de las más antiguas de todas las razas de spaniels, ha navegado por los mares del tiempo, enfrentando desafíos y superando obstáculos para llegar a donde está hoy.
+      <br>
+      <br>
+      La historia de los Springer Spaniels Galéses se remonta a la Edad Media, cuando se cree que fueron desarrollados en Gales, Reino Unido. Aunque no hay registros escritos que confirmen exactamente cuándo y cómo se originó la raza, se cree que los Springer Spaniels Galéses son descendientes de los "Land Spaniels", un tipo de perro de caza que se utilizaba para levantar y recoger aves de caza. Estos perros eran conocidos por su habilidad para "hacer saltar" a las aves de su escondite, de ahí el nombre "Springer".
+      <br>
+      <br>
+      Durante los siglos XVII y XVIII, los Springer Spaniels Galéses se hicieron muy populares entre los cazadores de aves acuáticas y de caza menor en Gales. Eran apreciados por su resistencia, su habilidad para trabajar en diferentes terrenos y su instinto natural para la caza. Sin embargo, a pesar de su popularidad en Gales, la raza permaneció relativamente desconocida fuera de su país de origen durante muchos años.
+      <br>
+      <br>
+      A finales del siglo XIX, la raza comenzó a enfrentar desafíos significativos. Con la llegada de las armas de fuego modernas, los cazadores ya no necesitaban perros que "hicieran saltar" a las aves de su escondite. En su lugar, comenzaron a preferir razas de perros que pudieran señalar y recuperar aves de caza. Como resultado, la popularidad de los Springer Spaniels Galéses comenzó a disminuir.
+      <br>
+      <br>
+      A principios del siglo XX, la raza estuvo al borde de la extinción. Sin embargo, un grupo de criadores dedicados se propuso salvar a los Springer Spaniels Galéses. Estos criadores trabajaron arduamente para revivir la raza, y en 1902, el Kennel Club del Reino Unido reconoció oficialmente a los Springer Spaniels Galéses como una raza distinta.
+      <br>
+      <br>
+      Desde entonces, la raza ha continuado creciendo en popularidad. Aunque todavía no son tan conocidos como algunas otras razas de spaniels, los Springer Spaniels Galéses son apreciados por su inteligencia, su energía y su amabilidad. Son perros versátiles que pueden ser excelentes compañeros de familia, así como competidores en eventos de obediencia y agilidad.
+      <br>
+      <br>
+      En resumen, la historia del Springer Spaniel Galés es una historia de resiliencia y supervivencia. A pesar de los desafíos que ha enfrentado, la raza ha logrado sobrevivir y prosperar, gracias al amor y la dedicación de sus criadores y propietarios. Y aunque su historia ha sido larga, la raza sigue escribiendo nuevos capítulos, dejando su huella en el mundo de los perros.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Requiere ejercicio regular',
@@ -21823,6 +22138,54 @@ fuentes: [
       'Otitis',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/BJ1gnx5Vm_390x256.jpg'],
+    searchTerms: [
+      'Springer Spaniel Galés',
+      'Perro deportivo',
+      'Perro obstinado',
+      'Perro juguetón',
+      'Springer Spaniel Gales',
+      'Spaniel Galés',
+      'Spaniel Gales',
+      'Springer Galés',
+      'Springer Gales',
+      'Spaniel',
+      'Springer',
+      'Perro Galés',
+      'Perro Gales',
+      'Perro cazador',
+      'Perro de caza',
+      'Perro de trabajo',
+      'Perro de campo',
+      'Perro de agua',
+      'Perro de familia',
+      'Perro para niños',
+      'Perro activo',
+      'Perro resistente',
+      'Perro de resistencia',
+      'Perro de energía',
+      'Perro energético',
+      'Perro amigable',
+      'Perro sociable',
+      'Perro leal',
+      'Perro fiel',
+      'Perro obediente',
+      'Perro inteligente',
+      'Perro agil',
+      'Perro de agilidad',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Moderada',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Welsh_Springer_Spaniel',
+      'https://www.dogbreedinfo.com/welshspringerspaniel.htm',
+      'https://www.ukcdogs.com/welsh-springer-spaniel',
+    ],
   },
   163: {
     weight: {
@@ -21853,17 +22216,49 @@ fuentes: [
       height: 1032,
       url: 'https://cdn2.thedogapi.com/images/Bkdx2g5Em.jpg',
     },
-    searchTerms: [
-      'West Highland White Terrier',
-      'Terrier',
-      'Perro amigable',
-      'Perro independiente',
-    ],
     country_code: 'GB',
-    description:
-      'El West Highland White Terrier, también conocido como Westie, es un perro pequeño, energético y trabajador. Son conocidos por su pelaje blanco brillante, su naturaleza amigable y su independencia. Son excelentes cazadores de zorros, tejones y ratas.',
-    history:
-      'El West Highland White Terrier se originó en Escocia, específicamente en las Tierras Altas. Originalmente se criaron para cazar zorros, tejones y ratas. Se caracterizan por su pelaje blanco, que es una diferencia notable respecto a otros terriers escoceses, que suelen ser oscuros.',
+    description: `
+      El West Highland White Terrier, también conocido como Westie, es una raza de perro pequeña pero robusta, originaria de Escocia. Este perro de aspecto adorable y personalidad encantadora es famoso por su pelaje blanco puro, que contrasta con sus ojos oscuros y su nariz negra, dándole una apariencia muy distintiva y atractiva.
+      <br>
+      <br>
+      El Westie es un perro compacto y bien equilibrado, con una altura que oscila entre los 25 y los 28 cm y un peso que varía entre los 6 y los 10 kg. Su cuerpo es ligeramente más largo que alto, lo que le da una apariencia sólida. La cabeza es proporcional al cuerpo, con una expresión inteligente y alerta. Las orejas son pequeñas, puntiagudas y siempre están erectas, lo que añade a su expresión vivaz.
+      <br>
+      <br>
+      El pelaje del Westie es una de sus características más notables. Es doble, con una capa externa dura y recta y una capa interna suave y densa. Este pelaje no solo le da al Westie su apariencia distintiva, sino que también lo protege de las condiciones climáticas adversas. El pelaje requiere un cuidado regular para mantener su apariencia y salud, incluyendo cepillados frecuentes y recortes ocasionales.
+      <br>
+      <br>
+      El Westie es un perro lleno de energía y siempre está listo para la acción. A pesar de su pequeño tamaño, es un perro valiente y seguro de sí mismo, con una gran personalidad. Es conocido por su espíritu independiente, pero también es muy leal y afectuoso con su familia. Aunque puede ser un poco reservado con los extraños, generalmente se lleva bien con las personas y puede ser un excelente perro de compañía.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Westie es un perro inteligente y rápido para aprender. Sin embargo, también puede ser un poco terco a veces, por lo que necesita una formación firme y consistente desde una edad temprana. A pesar de su tamaño, el Westie es un perro activo que necesita ejercicio regular para mantenerse feliz y saludable. Le encanta jugar y explorar, y se adapta bien a una variedad de actividades, desde paseos hasta juegos de recuperación.
+      <br>
+      <br>
+      El Westie es un perro generalmente saludable, pero como todas las razas, puede ser propenso a ciertas condiciones de salud. Es importante llevar a cabo chequeos veterinarios regulares y mantener al perro en un peso saludable para prevenir problemas de salud.
+      <br>
+      <br>
+      En resumen, el West Highland White Terrier es un perro pequeño con una gran personalidad. Su apariencia adorable, su temperamento alegre y su lealtad a su familia hacen de él un perro muy querido por muchos. Ya sea que esté jugando, explorando o simplemente pasando el rato con su familia, el Westie es un perro que siempre está lleno de vida y listo para la acción.
+    `,
+    history: `
+      La historia del West Highland White Terrier, cariñosamente conocido como Westie, es una narrativa fascinante que se remonta a varios siglos atrás, en las tierras altas y las islas occidentales de Escocia. Este perro pequeño pero resistente, con su distintivo pelaje blanco, ha sido durante mucho tiempo un favorito tanto en el campo como en el hogar, y su historia está llena de aventuras, evolución y adaptación.
+      <br>
+      <br>
+      La historia del Westie comienza en el siglo XVIII en Escocia, donde se criaron terriers para cazar y controlar las poblaciones de zorros, tejones y otros animales pequeños que eran plagas para los agricultores y los propietarios de tierras. Estos terriers escoceses eran perros pequeños, resistentes y valientes, capaces de enfrentarse a animales mucho más grandes que ellos. Sin embargo, no se distinguían por su color, y podían ser de varios colores, incluyendo negro, marrón, crema y blanco.
+      <br>
+      <br>
+      La creación del Westie como una raza distinta se atribuye a un hombre llamado Edward Donald Malcolm, del castillo de Poltalloch en Argyll, Escocia. La historia cuenta que Malcolm estaba cazando con sus terriers cuando confundió a uno de sus perros de color crema con un zorro y lo disparó accidentalmente. Devastado por la pérdida de su amado perro, Malcolm se propuso criar terriers que fueran completamente blancos para evitar tal tragedia en el futuro.
+      <br>
+      <br>
+      A partir de entonces, Malcolm y su familia comenzaron a criar selectivamente terriers blancos, que se conocieron como "Terriers Blancos de Poltalloch". Estos perros eran muy similares a los terriers escoceses de la época, pero se distinguían por su pelaje blanco puro. Aunque Malcolm es a menudo acreditado con el desarrollo de la raza, es probable que otros criadores en la región de las Tierras Altas también estuvieran criando terriers blancos al mismo tiempo.
+      <br>
+      <br>
+      En 1906, la raza fue reconocida oficialmente por el Kennel Club del Reino Unido como el West Highland White Terrier. El nombre fue elegido para reflejar la región de origen de la raza y su distintivo pelaje blanco. Desde entonces, el Westie ha ganado popularidad en todo el mundo, tanto por su habilidad como perro de trabajo como por su encanto como perro de compañía.
+      <br>
+      <br>
+      A lo largo del siglo XX, el Westie se hizo cada vez más popular como mascota y perro de exposición. Su tamaño pequeño, su personalidad encantadora y su hermoso pelaje blanco lo convirtieron en un favorito entre los amantes de los perros. Aunque la raza ha evolucionado desde sus días de caza en las Tierras Altas de Escocia, el Westie todavía conserva su valentía, su energía y su amor por la diversión que lo hacen tan querido.
+      <br>
+      <br>
+      Hoy en día, el Westie es una de las razas de terrier más populares en el mundo. Aunque ya no se utiliza para cazar, el Westie sigue siendo un perro activo y enérgico que disfruta de la compañía de su familia humana.
+    `,
     categoria_de_tamanio: 'Pequeño',
     perks: [
       'Requiere ejercicio regular',
@@ -21887,6 +22282,63 @@ fuentes: [
       'Enfermedad de Legg-Calvé-Perthes',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/Bkdx2g5Em_390x256.jpg'],
+    searchTerms: [
+      'West Highland White Terrier',
+      'Terrier',
+      'Perro amigable',
+      'Perro independiente',
+      'Westie',
+      'Terrier blanco',
+      'Terrier escocés',
+      'Terrier de las tierras altas',
+      'Perro blanco',
+      'Perro pequeño',
+      'Perro de caza',
+      'Perro de compañía',
+      'Perro familiar',
+      'Perro para niños',
+      'Perro activo',
+      'Perro de pelo blanco',
+      'Perro de raza pequeña',
+      'Perro de raza terrier',
+      'Perro de Escocia',
+      'Perro resistente',
+      'Perro valiente',
+      'Perro enérgico',
+      'Perro juguetón',
+      'Perro de las tierras altas de Escocia',
+      'Perro de raza Westie',
+      'West Highland',
+      'West Highland Terrier',
+      'Westy',
+      'Westi',
+      'Terrier de West Highland',
+      'Terrier de las tierras altas occidentales',
+      'Terrier blanco de Escocia',
+      'Terrier blanco de las tierras altas',
+    ],
+    tendencia_a_ladrar: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    para_primerizos: 'Alta',
+    bueno_con_ninos: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    casos_famosos: [
+      {
+        nombre: 'Cesar',
+        caso: "Perro de la serie de televisión 'The Suite Life of Zack & Cody'",
+      },
+      {
+        nombre: 'Snowy',
+        caso: "Perro de la serie de cómics 'The Adventures of Tintin'",
+      },
+    ],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/West_Highland_White_Terrier',
+      'https://www.dogbreedinfo.com/westhighland.htm',
+      'https://www.ukcdogs.com/west-highland-white-terrier',
+    ],
   },
   164: {
     weight: {
@@ -21918,12 +22370,52 @@ fuentes: [
       height: 1071,
       url: 'https://cdn2.thedogapi.com/images/Hyv-ne94m.jpg',
     },
-    searchTerms: ['Whippet', 'Sabueso', 'Perro tranquilo', 'Perro afectuoso'],
     country_code: 'GB',
-    description:
-      'El Whippet es una raza de perro que se originó en el Reino Unido. Son conocidos por su velocidad y agilidad, siendo populares en eventos de caza y carreras. A pesar de su naturaleza activa, los Whippets también son perros gentiles y afectuosos, lo que los hace buenos compañeros de hogar.',
-    history:
-      'El Whippet es una raza de perro que se desarrolló en el Reino Unido para la caza de liebres y carreras. Originalmente, los Whippets eran conocidos como "Snap dogs" debido a su habilidad para "romper" a las presas con rapidez y eficiencia. A pesar de su destreza para la caza y las carreras, los Whippets también son apreciados como mascotas de familia debido a su temperamento tranquilo y afectuoso.',
+    description: `
+      El Whippet es una raza de perro que se distingue por su elegancia y su velocidad. Son perros de tamaño mediano, con una altura que oscila entre los 47 y los 51 centímetros en los machos y entre los 44 y los 47 centímetros en las hembras. Su peso varía entre los 10 y los 14 kilogramos, lo que los convierte en perros ligeros y ágiles.
+      <br>
+      <br>
+      El Whippet tiene un cuerpo delgado y musculoso, diseñado para la velocidad. Su pecho es profundo, lo que le permite tener una gran capacidad pulmonar, y su cintura es muy marcada. Sus patas son largas y delgadas, pero fuertes, y terminan en pies compactos que le proporcionan un buen agarre al correr.
+      <br>
+      <br>
+      La cabeza del Whippet es larga y delgada, con un cráneo plano y un hocico afilado. Sus ojos son grandes y expresivos, de color oscuro, y sus orejas son pequeñas y se doblan hacia atrás, aunque pueden levantarse cuando el perro está alerta.
+      <br>
+      <br>
+      El pelaje del Whippet es corto, denso y muy suave al tacto. Puede presentar cualquier color o combinación de colores, aunque los más comunes son el blanco, el negro, el rojo, el azul, el fawn, el atigrado y el crema.
+      <br>
+      <br>
+      En cuanto a su carácter, los Whippets son perros tranquilos, afectuosos y muy apegados a su familia. A pesar de su apariencia frágil, son perros robustos y resistentes que disfrutan de la actividad física. Les encanta correr y jugar, y necesitan hacer ejercicio diariamente para mantenerse en forma y liberar su energía.
+      <br>
+      <br>
+      Aunque son perros veloces y ágiles, los Whippets también son conocidos por su amor a la comodidad. Les encanta descansar en lugares suaves y cálidos, y no es raro verlos acurrucados en el sofá o en la cama. Son perros muy limpios y no suelen tener mal olor, lo que los hace ideales para vivir en el interior de la casa.
+      <br>
+      <br>
+      Los Whippets son perros inteligentes y sensibles, que responden bien al entrenamiento basado en el refuerzo positivo. Son perros tranquilos y generalmente se llevan bien con otros perros y mascotas, aunque su instinto de caza puede hacer que persigan a animales pequeños.
+      <br>
+      <br>
+      En resumen, el Whippet es un perro elegante y cariñoso, que combina la velocidad y la agilidad de un galgo con la comodidad y la adaptabilidad de un perro de compañía. Su carácter tranquilo y su amor por la comodidad hacen que sea un excelente compañero para cualquier tipo de familia.
+    `,
+    history: `
+      La historia del Whippet es una narrativa fascinante que se entrelaza con la historia de la clase trabajadora en Inglaterra. Esta raza, conocida por su velocidad y agilidad, tiene sus raíces en el norte de Inglaterra, donde se crió para cazar y competir.
+      <br>
+      <br>
+      El Whippet es una raza relativamente joven en comparación con otras razas de perros. Su origen se remonta al siglo XIX, cuando los mineros del norte de Inglaterra comenzaron a criar perros para las carreras. Estos mineros, que no podían permitirse mantener perros más grandes como los Greyhounds, comenzaron a criar una versión más pequeña y manejable de estos perros de carrera. Así nació el Whippet, un perro que combinaba la velocidad y la agilidad del Greyhound con un tamaño más pequeño y manejable.
+      <br>
+      <br>
+      El nombre "Whippet" proviene de la palabra "whappet", un término antiguo del dialecto del norte de Inglaterra que significa "pequeño perro que corre rápidamente". Y eso es precisamente lo que eran estos perros: pequeños corredores rápidos que podían perseguir y atrapar presas con una velocidad impresionante.
+      <br>
+      <br>
+      Los Whippets se utilizaban para cazar conejos y otras pequeñas presas, pero también se utilizaban en las carreras de perros, un pasatiempo popular entre los mineros. Las carreras de Whippets, conocidas como "carreras de trapo", eran eventos emocionantes en los que los perros perseguían un trapo o una piel de liebre que se movía rápidamente. Los Whippets demostraron ser excelentes corredores, capaces de alcanzar velocidades de hasta 56 km/h.
+      <br>
+      <br>
+      A pesar de su popularidad en el norte de Inglaterra, el Whippet no fue reconocido como una raza oficial hasta finales del siglo XIX. La Kennel Club de Inglaterra reconoció al Whippet como una raza en 1891, y el American Kennel Club hizo lo mismo en 1888.
+      <br>
+      <br>
+      En el siglo XX, el Whippet se hizo cada vez más popular como perro de compañía. Su tamaño manejable, su naturaleza afectuosa y su apariencia elegante lo convirtieron en una opción popular para las familias y los amantes de los perros. Además, su velocidad y agilidad lo hicieron destacar en los deportes caninos, donde ha demostrado ser un competidor formidable en eventos como la carrera de lure, la agilidad y el flyball.
+      <br>
+      <br>
+      Hoy en día, el Whippet sigue siendo una raza popular tanto para las competencias como para la compañía. Aunque ya no se utiliza para cazar o correr en las minas del norte de Inglaterra, el legado de la raza como un perro rápido y ágil sigue vivo. Los Whippets siguen siendo perros activos y enérgicos que disfrutan de la oportunidad de correr y jugar, pero también son perros de compañía cariñosos y leales que se adaptan bien a la vida familiar.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de carrera y caza',
@@ -21947,6 +22439,63 @@ fuentes: [
       'Problemas oculares',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/Hyv-ne94m_390x256.jpg'],
+    searchTerms: [
+      'Whippet',
+      'Sabueso',
+      'Perro tranquilo',
+      'Perro afectuoso',
+      "Guipet",
+      "Whipp",
+      "Perro de carreras",
+      "Perro de caza",
+      "Perro de velocidad",
+      "Perro de compañía",
+      "Perro de exposición",
+      "Perro de agilidad",
+      "Perro de lure",
+      "Perro de flyball",
+      "Perro de raza pequeña",
+      "Perro de raza mediana",
+      "Perro de raza inglesa",
+      "Perro de raza británica",
+      "Perro de raza del Reino Unido",
+      "Perro de raza del norte de Inglaterra",
+      "Perro de raza de mineros",
+      "Perro de raza de carreras de trapo",
+      "Perro de raza de caza de conejos",
+      "Perro de raza de competencia",
+      "Perro de raza de competidor deportivo",
+      "Perro de raza de competidor de agilidad",
+      "Perro de raza de competidor de lure",
+      "Perro de raza de competidor de flyball",
+      "Perro de raza de competidor de carreras",
+      "Perro de raza de competidor de caza",
+      "Perro de raza de competidor de exposición",
+      "Perro de raza de competidor de compañía",
+      "Perro de raza de competidor de velocidad",
+      "uipet",
+      "wipet",
+      "uippet",
+      "wippet"
+    ],
+    "tendencia_a_ladrar": "Baja",
+    "necesidad_de_aseo": "Baja",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Alta",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Jim the Whippet",
+    "caso": "Jim the Whippet fue un famoso perro de carreras en el Reino Unido durante la década de 1960. Ganó numerosas competencias y estableció varios récords de velocidad."
+    }
+    ],
+    "fuentes": [
+    "https://en.wikipedia.org/wiki/Whippet",
+    "https://www.dogbreedinfo.com/whippet.htm",
+    "https://www.ukcdogs.com/whippet"
+    ]
   },
   165: {
     weight: {
@@ -21958,10 +22507,10 @@ fuentes: [
       metric: '56 - 64',
     },
     id: 165,
-    name: 'Pastor Blanco', // Traducción de White Shepherd
-    bred_for: ['Pastoreo', 'Guardia', 'Servicio'], // Asumiendo por la raza
-    breed_group: ['Pastor'], // Asumiendo por la raza
-    life_span: '12 – 14 años', // Ya está en español
+    name: 'Pastor Blanco',
+    bred_for: ['Pastoreo', 'Guardia', 'Servicio'],
+    breed_group: ['Pastor'],
+    life_span: '12 – 14 años',
     temperament: [
       'Seguro de sí mismo',
       'Reservado',
@@ -21969,8 +22518,8 @@ fuentes: [
       'Alerta',
       'Sociable',
       'Entusiasta',
-    ], // Traducción de los adjetivos
-    origin: 'Estados Unidos', // Asumiendo por la raza
+    ],
+    origin: 'Estados Unidos',
     reference_image_id: 'r14M3e9E7',
     image: {
       id: 'r14M3e9E7',
@@ -21978,12 +22527,49 @@ fuentes: [
       height: 800,
       url: 'https://cdn2.thedogapi.com/images/r14M3e9E7.jpg',
     },
-    searchTerms: ['Pastor Blanco', 'Pastor', 'Entusiasta', 'Alerta'],
     country_code: 'US',
-    description:
-      'El Pastor Blanco es una raza de perro grande originaria de los Estados Unidos. Se caracterizan por su valentía y confianza, con una actitud reservada pero entusiasta. Son perros muy inteligentes y alertas, lo que los hace excelentes para tareas de servicio y guardia. A pesar de su reserva, son muy sociables y disfrutan de la compañía de sus familias humanas.',
-    history:
-      'El Pastor Blanco proviene de los Pastores Alemanes de capa blanca. Fueron reconocidos como una raza distinta en los Estados Unidos en la década de 1970. Originalmente se criaron para tareas de pastoreo, pero su inteligencia y valentía los han hecho populares para otros roles como perros de servicio, perros de terapia, y perros de búsqueda y rescate.',
+    description: `
+      El Pastor Blanco, también conocido como Pastor Blanco Suizo, es una raza de perro que irradia una belleza y elegancia innegables. Con su pelaje blanco puro y su porte majestuoso, este perro es un verdadero espectáculo para la vista. Pero más allá de su apariencia, el Pastor Blanco es también un perro de gran inteligencia, lealtad y versatilidad, lo que lo convierte en un compañero excepcional para todo tipo de familias y situaciones.
+      <br>
+      <br>
+      El Pastor Blanco es un perro de tamaño mediano a grande, con un cuerpo fuerte y bien proporcionado que denota su herencia de trabajo. Su cabeza es proporcional al cuerpo, con un hocico fuerte y una expresión amigable y alerta. Sus ojos son de color oscuro y de forma almendrada, y transmiten una mirada de inteligencia y curiosidad. Sus orejas son de tamaño mediano y están siempre erguidas, lo que añade a su apariencia alerta y atenta.
+      <br>
+      <br>
+      El pelaje del Pastor Blanco es uno de sus rasgos más distintivos. Es de longitud media a larga, denso y de textura suave. La capa inferior es espesa y proporciona una excelente protección contra las inclemencias del tiempo. El color del pelaje es siempre blanco, aunque puede variar desde un blanco puro hasta un blanco crema. Este pelaje requiere un cuidado regular para mantenerlo en las mejores condiciones y evitar los enredos.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Pastor Blanco es conocido por su lealtad y su devoción hacia su familia humana. Este perro es extremadamente inteligente y receptivo, lo que lo hace altamente entrenable. De hecho, se destaca en una variedad de actividades caninas, desde la obediencia y la agilidad hasta el trabajo de servicio y terapia. Su inteligencia también significa que necesita estimulación mental regular para mantenerse feliz y saludable.
+      <br>
+      <br>
+      El Pastor Blanco es un perro muy activo y necesita mucho ejercicio para mantenerse en forma. Disfruta de largas caminatas, carreras y juegos de buscar y recoger. También le encanta jugar con otros perros y es generalmente amigable y sociable. Sin embargo, también puede ser un poco reservado con los extraños, aunque rara vez muestra agresividad sin provocación.
+      <br>
+      <br>
+      En el hogar, el Pastor Blanco es un perro cariñoso y dedicado. Tiene una fuerte conexión con su familia y le gusta estar involucrado en todas las actividades familiares. Este perro es también muy bueno con los niños y puede ser un excelente compañero de juegos para ellos. Sin embargo, debido a su tamaño y nivel de energía, debe ser supervisado cuando está cerca de niños pequeños para evitar accidentes.
+      <br>
+      <br>
+      En resumen, el Pastor Blanco es un perro de gran belleza, inteligencia y lealtad. Con el cuidado y la formación adecuados, este perro puede ser un compañero maravilloso y un miembro valioso de cualquier familia.
+    `,
+    history: `
+      La historia del Pastor Blanco es fascinante y está llena de giros y vueltas. Esta raza, también conocida como Pastor Blanco Suizo, tiene una historia que se entrelaza con la del Pastor Alemán, una raza con la que comparte muchos rasgos físicos y temperamentales.
+      <br>
+      <br>
+      La historia del Pastor Blanco comienza en Alemania a finales del siglo XIX. Durante este tiempo, los pastores alemanes eran una raza diversa, con perros de diferentes colores, tamaños y formas que se utilizaban para el pastoreo de ovejas. En 1899, un oficial de caballería alemán llamado Max von Stephanitz decidió crear una raza de perros de trabajo estandarizada a partir de estos diversos perros pastor. El perro que eligió como el ejemplar ideal para esta nueva raza fue un perro llamado Hektor Linksrhein, que más tarde fue rebautizado como Horand von Grafrath. Horand era un perro de trabajo impresionante, con un pelaje predominantemente gris y blanco.
+      <br>
+      <br>
+      A medida que la raza del Pastor Alemán comenzó a desarrollarse, los criadores se centraron cada vez más en los perros de color más oscuro. Sin embargo, los perros blancos seguían apareciendo en las camadas debido a un gen recesivo. Aunque estos perros blancos tenían las mismas habilidades y temperamento que sus hermanos de color más oscuro, comenzaron a ser vistos como menos deseables debido a su color de pelaje. En la década de 1930, la raza del Pastor Alemán estaba tan dominada por los perros de color más oscuro que los perros blancos fueron oficialmente descalificados del estándar de la raza en Alemania.
+      <br>
+      <br>
+      A pesar de esta descalificación, los Pastores Blancos continuaron siendo criados y apreciados en otras partes del mundo. En particular, en Suiza, Canadá y los Estados Unidos, los criadores continuaron valorando a estos perros por su inteligencia, habilidades de trabajo y lealtad. En 1967, un criador suizo llamado Agatha Burch comenzó un programa de cría dedicado a estos perros, y en 1991, el Pastor Blanco fue reconocido oficialmente como una raza separada en Suiza. El nombre oficial de la raza se convirtió en "Pastor Blanco Suizo", aunque en muchos países todavía se conoce simplemente como "Pastor Blanco".
+      <br>
+      <br>
+      En los Estados Unidos y Canadá, la raza también fue reconocida oficialmente, aunque bajo diferentes nombres. En los Estados Unidos, la raza es conocida como "Pastor Blanco Americano", mientras que en Canadá es conocida como "Pastor Blanco Canadiense". A pesar de las diferencias de nombre, estos perros son esencialmente la misma raza que el Pastor Blanco Suizo.
+      <br>
+      <br>
+      A lo largo de los años, el Pastor Blanco ha demostrado ser un perro de trabajo excepcional, capaz de destacar en una variedad de roles, desde el pastoreo y la búsqueda y rescate hasta el trabajo de servicio y terapia. A pesar de su historia a veces turbulenta, la raza ha perseverado y hoy en día es apreciada en todo el mundo por su inteligencia, lealtad y versatilidad.
+      <br>
+      <br>
+      En resumen, la historia del Pastor Blanco esuna historia de perseverancia y dedicación. A pesar de las dificultades y los prejuicios que enfrentaron debido a su color de pelaje, estos perros han demostrado una y otra vez su valor y habilidad. A través del trabajo de criadores dedicados en Suiza, Canadá y los Estados Unidos, la raza ha sido capaz de florecer y ganar el reconocimiento que merece. Hoy en día, el Pastor Blanco es apreciado no sólo por su belleza y elegancia, sino también por su inteligencia, lealtad y habilidades de trabajo. Sin duda, esta raza tiene una historia rica y fascinante que es un testimonio de la fortaleza y el carácter de estos perros maravillosos.
+    `,
     categoria_de_tamanio: 'Grande',
     perks: [
       'Excelente perro de servicio',
@@ -21991,8 +22577,8 @@ fuentes: [
       'Inteligente y fácil de entrenar',
       'Sociable y se lleva bien con las familias',
     ],
-    color: ['Blanco'], // Los Pastores Blancos son, por definición, blancos
-    nivel_de_energia: 'Alto', // Los Pastores Blancos son perros de trabajo activos
+    color: ['Blanco'],
+    nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
@@ -22005,8 +22591,56 @@ fuentes: [
       'Displasia de cadera',
       'Problemas oculares',
       'Alergias',
-    ], // Asumiendo por la raza
+    ],
     gallery: ['https://cdn2.thedogapi.com/images/r14M3e9E7_390x256.jpg'],
+    searchTerms: [
+      'Pastor Blanco',
+      'Pastor',
+      'Entusiasta',
+      'Alerta',
+      "Pastor Blanco Suizo",
+      "Pastor Blanco Americano",
+      "Pastor Blanco Canadiense",
+      "Perro de pastor",
+      "Perro de trabajo",
+      "Perro de servicio",
+      "Perro de terapia",
+      "Perro de rescate",
+      "Perro de búsqueda",
+      "Perro de pastoreo",
+      "Perro inteligente",
+      "Perro leal",
+      "Perro versátil",
+      "Perro de familia",
+      "Perro con niños",
+      "Perro protector",
+      "Perro guardián",
+      "Pastor",
+      "Blanco",
+      "Suizo",
+      "Americano",
+      "Canadiense",
+      "Perro grande",
+      "Perro activo",
+      "Perro atlético",
+      "Perro de pelo largo",
+      "Perro de pelo blanco",
+      "Perro de ojos claros",
+      "Perro de ojos oscuros"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Moderada",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+      "https://www.dogbreedinfo.com/whitegermanshepherd.htm",
+      "https://www.akc.org/dog-breeds/berger-blanc-suisse/",
+      "https://www.ukcdogs.com/berger-blanc-suisse"
+    ]
   },
   166: {
     weight: {
@@ -22018,10 +22652,10 @@ fuentes: [
       metric: '33 - 41',
     },
     id: 166,
-    name: 'Fox Terrier de Pelo Duro', // Traducción de Wire Fox Terrier
-    bred_for: ['Caza de alimañas', 'Correr a los zorros'], // Traducción de bred_for
-    breed_group: ['Terrier'], // Asumiendo por la raza
-    life_span: '13 – 14 años', // Ya está en español
+    name: 'Fox Terrier de Pelo Duro',
+    bred_for: ['Caza de alimañas', 'Correr a los zorros'],
+    breed_group: ['Terrier'],
+    life_span: '13 – 14 años',
     temperament: [
       'Intrépido',
       'Amigable',
@@ -22029,8 +22663,8 @@ fuentes: [
       'Agudo',
       'Alerta',
       'Rápido',
-    ], // Traducción de los adjetivos
-    origin: 'Inglaterra', // Traducción de "England"
+    ],
+    origin: 'Inglaterra',
     reference_image_id: 'SJ6f2g9EQ',
     image: {
       id: 'SJ6f2g9EQ',
@@ -22038,22 +22672,59 @@ fuentes: [
       height: 795,
       url: 'https://cdn2.thedogapi.com/images/SJ6f2g9EQ.jpg',
     },
-    searchTerms: ['Fox Terrier de Pelo Duro', 'Terrier', 'Rápido', 'Alerta'],
-    country_code: 'GB', // Inglaterra
-    description:
-      'El Fox Terrier de Pelo Duro es un perro pequeño y energético, conocido por su valentía, amabilidad y agudeza. Originalmente fueron criados para la caza de alimañas y zorros, pero su inteligencia y personalidad animada también los hacen excelentes compañeros de familia. Son rápidos y alerta, con un espíritu audaz que no siempre es consciente de su pequeño tamaño.',
-    history:
-      'El Fox Terrier de Pelo Duro tiene sus raíces en Inglaterra, donde fue criado para ayudar en la caza de zorros y alimañas. Esta raza se desarrolló para ser audaz y valiente, con la agudeza y la velocidad necesarias para seguir el ritmo de los caballos y los perros de caza. A lo largo de los años, su atractivo como perro de compañía ha crecido, gracias a su personalidad amigable y vivaz.',
-    categoria_de_tamanio: 'Pequeño', // Basado en la altura y el peso
+    country_code: 'GB',
+    description: `
+      El Fox Terrier de Pelo Duro es una raza de perro que se distingue por su energía inagotable, su inteligencia aguda y su pelaje distintivo. Este perro es de tamaño pequeño a mediano, con un peso que oscila entre los 6 y los 9 kilogramos y una altura a la cruz que varía entre los 35 y los 40 centímetros. Pero no te dejes engañar por su tamaño, estos perros son conocidos por su valentía y su espíritu indomable.
+      <br>
+      <br>
+      El rasgo más distintivo de esta raza es su pelaje. El Fox Terrier de Pelo Duro tiene un pelaje doble, con una capa externa de pelo duro y áspero y una capa interna suave y densa. Este pelaje es resistente a la intemperie y requiere un cuidado regular para mantener su apariencia característica. Los colores más comunes son el blanco, el negro y el marrón, a menudo en combinaciones.
+      <br>
+      <br>
+      La cabeza del Fox Terrier de Pelo Duro es larga y estrecha, con orejas pequeñas y dobladas hacia adelante. Sus ojos son oscuros y llenos de vida, siempre atentos a lo que sucede a su alrededor. Su cola, que tradicionalmente se cortaba, hoy en día se deja a su longitud natural en muchos lugares, y se lleva alegremente en alto.
+      <br>
+      <br>
+      En cuanto a su personalidad, el Fox Terrier de Pelo Duro es conocido por su espíritu vivaz y su inteligencia. Son perros muy activos que requieren mucho ejercicio y estimulación mental para mantenerse felices y saludables. Son perros valientes y decididos, que no dudarán en enfrentarse a retos mucho mayores que ellos mismos. Esto, combinado con su agudo instinto de caza, puede hacer que sean propensos a meterse en problemas si no se les supervisa adecuadamente.
+      <br>
+      <br>
+      A pesar de su valentía, el Fox Terrier de Pelo Duro también es conocido por su afecto y lealtad hacia su familia. Son perros muy sociables que disfrutan de la compañía de las personas y se llevan bien con los niños. Sin embargo, su energía y su naturaleza juguetona pueden ser demasiado para los niños muy pequeños. También pueden ser reservados con los extraños y pueden no llevarse bien con otros perros y animales pequeños debido a su instinto de caza.
+      <br>
+      <br>
+      En cuanto a su salud, los Fox Terriers de Pelo Duro son generalmente perros saludables con una esperanza de vida de 12 a 15 años. Sin embargo, como todas las razas, son propensos a ciertas condiciones de salud, incluyendo problemas de piel, enfermedades oculares y displasia de cadera.
+      <br>
+      <br>
+      En resumen, el Fox Terrier de Pelo Duro es un perro lleno de vida, inteligente y valiente, con un pelaje distintivo y una personalidad encantadora. Requieren un dueño que pueda proporcionarles el ejercicio y la estimulación mental que necesitan, así como un cuidado regular de su pelaje. A cambio, ofrecen lealtad, afecto y una compañía inigualable.
+    `,
+    history: `
+      La historia del Fox Terrier de Pelo Duro es una narrativa fascinante que se remonta a la Inglaterra del siglo XIX. Esta raza, como su nombre indica, fue desarrollada inicialmente para la caza del zorro, una actividad muy popular entre la nobleza y la clase alta de la época. Los cazadores necesitaban un perro valiente, ágil y enérgico que pudiera seguir a los zorros hasta sus madrigueras y sacarlos de allí, y el Fox Terrier de Pelo Duro demostró ser perfectamente adecuado para esta tarea.
+      <br>
+      <br>
+      Los primeros Fox Terriers eran perros de trabajo, criados por su habilidad y tenacidad más que por su apariencia. Sin embargo, con el tiempo, los criadores comenzaron a seleccionar perros con características físicas específicas, dando lugar a las dos variedades que conocemos hoy en día: el Fox Terrier de Pelo Duro y el Fox Terrier de Pelo Liso. Aunque ambos comparten un ancestro común, se consideran razas separadas debido a sus diferencias en el pelaje y en algunos aspectos de su temperamento.
+      <br>
+      <br>
+      El Fox Terrier de Pelo Duro, en particular, se distingue por su pelaje áspero y resistente a la intemperie, que le proporciona una protección adicional en sus incursiones en las madrigueras de los zorros. Este pelaje es el resultado de la introducción de otras razas en el linaje del Fox Terrier, incluyendo el Rough Coated Black and Tan Terrier, un perro de trabajo británico ahora extinto, y posiblemente el Airedale Terrier y el Irish Terrier.
+      <br>
+      <br>
+      A finales del siglo XIX, el Fox Terrier de Pelo Duro ya era una raza bien establecida y muy popular en Gran Bretaña. Su valentía, inteligencia y encanto personal también lo hicieron popular más allá de los círculos de caza, y pronto se convirtió en un perro de compañía apreciado. Durante este tiempo, la raza también comenzó a hacer su aparición en las exposiciones caninas, donde su apariencia distintiva y su personalidad vivaz le ganaron muchos admiradores.
+      <br>
+      <br>
+      El Fox Terrier de Pelo Duro llegó a América a finales del siglo XIX y pronto se ganó un lugar en los corazones de los amantes de los perros estadounidenses. La raza fue reconocida oficialmente por el American Kennel Club en 1885, y desde entonces ha mantenido una popularidad constante en los Estados Unidos.
+      <br>
+      <br>
+      A lo largo del siglo XX, el Fox Terrier de Pelo Duro continuó siendo un perro de trabajo en algunas partes del mundo, pero en la mayoría de los lugares se le valoraba principalmente como perro de compañía y de exposición. A pesar de los cambios en su papel, la raza ha mantenido su valentía, su energía y su inteligencia, características que la hicieron tan apreciada en sus primeros días.
+      <br>
+      <br>
+      En resumen, la historia del Fox Terrier de Pelo Duro es la historia de un perro que fue criado para ser un cazador valiente y tenaz, y que ha logrado adaptarse a los cambios en su papel sin perder su espíritu y su encanto.
+    `,
+    categoria_de_tamanio: 'Pequeño',
     perks: [
       'Energético y juguetón',
       'Bueno para cazar alimañas',
       'Amigable y sociable',
       'Inteligente y fácil de entrenar',
     ],
-    color: ['Blanco', 'Marrón', 'Negro'], // Los Fox Terrier de Pelo Duro suelen ser tricolores
-    nivel_de_energia: 'Alto', // Los Fox Terrier son perros de trabajo activos
-    facilidad_de_entrenamiento: 'Moderado', // Basado en la inteligencia y la personalidad independiente de la raza
+    color: ['Blanco', 'Marrón', 'Negro'],
+    nivel_de_energia: 'Alto',
+    facilidad_de_entrenamiento: 'Moderado',
     salud_general: 'Buena',
     compatibilidad_con_otros_animales: 'Moderada',
     necesidades_especiales: [
@@ -22066,8 +22737,61 @@ fuentes: [
       'Problemas dentales',
       'Enfermedad de Legg-Calvé-Perthes',
       'Luxación de rótula',
-    ], // Enfermedades comunes para la raza
+    ],
     gallery: ['https://cdn2.thedogapi.com/images/SJ6f2g9EQ_390x256.jpg'],
+    searchTerms: [
+      'Fox Terrier de Pelo Duro',
+      'Terrier',
+      'Rápido',
+      'Alerta',
+      "Fox Terrier",
+      "Terrier de Pelo Duro",
+      "Terrier",
+      "Fox Terrier Duro",
+      "Terrier Duro",
+      "Perro de caza",
+      "Perro cazador",
+      "Perro de madriguera",
+      "Perro británico",
+      "Perro inglés",
+      "Perro de compañía",
+      "Perro de exposición",
+      "Perro valiente",
+      "Perro enérgico",
+      "Perro inteligente",
+      "Perro de pelo áspero",
+      "Perro resistente",
+      "Perro para niños",
+      "Perro para familia",
+      "Perro activo",
+      "Perro de trabajo",
+      "Perro guardián",
+      "Perro de pelo duro",
+      "Perro de pelo resistente",
+      "Perro de raza pura",
+      "Perro de pedigree",
+      "Perro de raza",
+      "Perro de raza Fox Terrier",
+      "Perro de raza Terrier"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Moderada",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [
+    {
+    "nombre": "Asta",
+    "caso": "Asta es un Fox Terrier de Pelo Duro que apareció en varias películas de la serie Thin Man en la década de 1930 y 1940."
+    }
+    ],
+    "fuentes": [
+    "https://www.dogbreedinfo.com/wirefoxterrier.htm",
+    "https://www.akc.org/dog-breeds/wire-fox-terrier/",
+    "https://en.wikipedia.org/wiki/Wire_Fox_Terrier"
+    ]
   },
   167: {
     weight: {
@@ -22090,7 +22814,7 @@ fuentes: [
     breed_group: ['Deportivo'],
     life_span: '12 - 14 años',
     temperament: ['Leal', 'Gentil', 'Vigilante', 'Entrenable', 'Orgulloso'],
-    origin: 'Francia', // Suponiendo, ya que es una raza de origen francés
+    origin: 'Francia',
     reference_image_id: 'Bkam2l9Vm',
     image: {
       id: 'Bkam2l9Vm',
@@ -22098,17 +22822,49 @@ fuentes: [
       height: 1604,
       url: 'https://cdn2.thedogapi.com/images/Bkam2l9Vm.jpg',
     },
-    searchTerms: [
-      'Grifón de Puntero de Pelo Duro',
-      'Deportivo',
-      'Entrenable',
-      'Leal',
-    ],
     country_code: 'FR',
-    description:
-      'El Grifón de Puntero de Pelo Duro es un perro de caza de tamaño mediano a grande. Se les conoce por su habilidad para localizar y recuperar aves en los entornos más difíciles. Son perros leales, gentiles y orgullosos, y también son altamente entrenables.',
-    history:
-      'El Grifón de Puntero de Pelo Duro es una raza de perro de origen francés que fue desarrollada para la caza en terrenos difíciles. Su pelo duro y resistente al agua lo hace particularmente bueno para trabajar en pantanos y áreas húmedas.',
+    description: `
+      El Grifón de Puntero de Pelo Duro, también conocido como Korthals Grifón, es una raza de perro de caza versátil y resistente, conocida por su distintivo pelaje áspero y su habilidad para trabajar en una variedad de terrenos y condiciones climáticas. Este perro de tamaño mediano a grande tiene una apariencia robusta y rústica, con un pelaje denso y áspero que puede variar en color desde gris acerado hasta blanco y naranja o blanco y marrón.
+      <br>
+      <br>
+      El Grifón de Puntero de Pelo Duro tiene una cabeza grande y redonda con una expresión amigable y alerta. Sus ojos son grandes y redondos, generalmente de color marrón oscuro, y sus orejas son de tamaño mediano, caídas y cubiertas de pelo largo y áspero. La nariz es marrón y los labios son gruesos y bien desarrollados, dando al Grifón una expresión algo seria.
+      <br>
+      <br>
+      El cuerpo del Grifón de Puntero de Pelo Duro es fuerte y bien musculado, con un pecho profundo y costillas bien arqueadas. La espalda es recta y fuerte, y la cola, que generalmente se corta a la mitad de su longitud natural, se lleva alta. Las patas son rectas y fuertes, con pies redondos y compactos que le permiten moverse con agilidad y resistencia.
+      <br>
+      <br>
+      El pelaje del Grifón de Puntero de Pelo Duro es una de sus características más distintivas. Es denso y áspero al tacto, con una capa interna más suave que proporciona protección contra las inclemencias del tiempo. El pelaje puede ser de cualquier color, desde gris acerado hasta blanco y naranja o blanco y marrón, y a menudo tiene un aspecto despeinado.
+      <br>
+      <br>
+      En cuanto a su temperamento, el Grifón de Puntero de Pelo Duro es conocido por ser un perro inteligente, leal y amigable. Son perros de trabajo dedicados que disfrutan de la actividad física y mental, y se destacan en una variedad de deportes caninos, incluyendo la caza, el seguimiento, la agilidad y la obediencia. A pesar de su energía y entusiasmo en el campo, son perros tranquilos y relajados en casa, y se llevan bien con los niños y otros animales.
+      <br>
+      <br>
+      El Grifón de Puntero de Pelo Duro es un perro de caza versátil, capaz de rastrear, apuntar y recuperar en tierra y agua. Son perros de caza naturales con un fuerte instinto de presa, y son especialmente buenos para trabajar en terrenos difíciles debido a su resistencia y agilidad.
+      <br>
+      <br>
+      En resumen, el Grifón de Puntero de Pelo Duro es un perro de caza resistente y versátil, así como un compañero leal y amigable. Su apariencia distintiva, su inteligencia y su amor por el trabajo los hacen una elección popular para los cazadores y los amantes de los perros por igual.
+    `,
+    history: `
+      La historia del Grifón de Puntero de Pelo Duro, también conocido como el Grifón Korthals, es una historia de dedicación y pasión por la creación de la raza de perro de caza perfecta. Esta raza lleva el nombre de su creador, Eduard Karel Korthals, un criador de perros holandés que se propuso desarrollar un perro de caza versátil y resistente que pudiera trabajar en una variedad de terrenos y condiciones climáticas.
+      <br>
+      <br>
+      La historia del Grifón de Puntero de Pelo Duro comienza en la década de 1870, cuando Korthals comenzó a experimentar con la cría de diferentes razas de perros de caza. Su objetivo era crear un perro que pudiera rastrear, apuntar y recuperar tanto en tierra como en agua, y que fuera resistente a las duras condiciones climáticas y al terreno difícil. Korthals era un cazador apasionado y quería un perro que pudiera mantenerse a su lado durante largas jornadas de caza, sin importar las condiciones.
+      <br>
+      <br>
+      Korthals comenzó su programa de cría con un grupo de perros que él creía que tenían el potencial para cumplir con sus altos estándares. Estos perros eran una mezcla de varias razas de perros de caza, incluyendo el Spaniel de Agua Irlandés, el Setter Inglés, el Pointer Alemán de Pelo Duro y el Otterhound. A través de un cuidadoso proceso de selección y cría, Korthals comenzó a desarrollar una raza que tenía las características que él valoraba: resistencia, versatilidad, inteligencia y un fuerte instinto de caza.
+      <br>
+      <br>
+      El desarrollo de la raza no fue un proceso rápido. Korthals dedicó más de 20 años a la cría y selección de los perros, trabajando incansablemente para perfeccionar la raza. Durante este tiempo, Korthals enfrentó muchos desafíos, incluyendo la resistencia de otros criadores de perros que no compartían su visión. Sin embargo, Korthals se mantuvo firme en su compromiso con la raza, y finalmente, su dedicación dio sus frutos.
+      <br>
+      <br>
+      En 1887, el Grifón de Puntero de Pelo Duro fue reconocido oficialmente como una raza por el Kennel Club de los Países Bajos. Korthals vivió para ver a su amada raza ganar reconocimiento y popularidad, y murió en 1896, dejando un legado duradero en el mundo de los perros de caza.
+      <br>
+      <br>
+      Desde entonces, el Grifón de Puntero de Pelo Duro ha ganado reconocimiento en todo el mundo como una raza de perro de caza excepcional. Aunque no es tan conocido como algunas otras razas de perros de caza, el Grifón de Puntero de Pelo Duro es muy apreciado por los cazadores y los amantes de los perros por su versatilidad, resistencia e inteligencia.
+      <br>
+      <br>
+      Hoy en día, el Grifón de Puntero de Pelo Duro sigue siendo una raza popular para la caza y también se ha ganado un lugar en los hogares como un amado compañero de familia. La dedicación y la pasión de Eduard Karel Korthals por la raza sigue viva en los Grifón de Puntero de Pelo Duro de hoy, y su legado continúa en los criadores de Grifón de Puntero de Pelo Duro en todo el mundo que siguen su ejemplo de dedicación a la mejora y preservación de esta raza única.
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de caza',
@@ -22116,7 +22872,7 @@ fuentes: [
       'Bueno para trabajar en terrenos difíciles',
       'Leal y amable',
     ],
-    color: ['Marrón', 'Gris', 'Blanco'], // Suponiendo, ya que estas son los colores más comunes de la raza
+    color: ['Marrón', 'Gris', 'Blanco'],
     nivel_de_energia: 'Alto',
     facilidad_de_entrenamiento: 'Alto',
     salud_general: 'Buena',
@@ -22129,7 +22885,56 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Atrofia retinal progresiva'],
     gallery: ['https://cdn2.thedogapi.com/images/Bkam2l9Vm_390x256.jpg'],
+    searchTerms: [
+      'Grifón de Puntero de Pelo Duro',
+      'Deportivo',
+      'Entrenable',
+      'Leal',
+      "Grifon de Puntero de Pelo Duro",
+      "Grifón de Puntero",
+      "Grifon de Puntero",
+      "Puntero de Pelo Duro",
+      "Grifón Korthals",
+      "Grifon Korthals",
+      "Korthals",
+      "Perro de caza",
+      "Perro de pelo duro",
+      "Grifón",
+      "Grifon",
+      "Perro de caza versátil",
+      "Perro resistente",
+      "Perro inteligente",
+      "Perro de caza resistente",
+      "Perro de caza inteligente",
+      "Perro de trabajo",
+      "Perro de campo",
+      "Perro de rastreo",
+      "Perro de recuperación",
+      "Perro de agua",
+      "Perro de tierra",
+      "Perro de terreno difícil",
+      "Perro de clima frío",
+      "Perro de clima cálido",
+      "Perro de familia",
+      "Perro de compañía",
+      "Perro activo",
+      "Perro enérgico"
+    ],
+    "tendencia_a_ladrar": "Moderada",
+    "necesidad_de_aseo": "Moderada",
+    "soporta_clima_frio": "Alta",
+    "soporta_clima_calido": "Moderada",
+    "para_primerizos": "Baja",
+    "bueno_con_ninos": "Alta",
+    "tolerancia_a_la_soledad": "Baja",
+    "casos_famosos": [],
+    "fuentes": [
+    "https://www.dogbreedinfo.com/wirehairedpointinggriffon.htm",
+    "https://www.akc.org/dog-breeds/wirehaired-pointing-griffon/",
+    "https://www.ukcdogs.com/wirehaired-pointing-griffon"
+    ]
   },
+  // Checkpoint
   168: {
     weight: {
       imperial: '45 - 65',
@@ -22153,12 +22958,13 @@ fuentes: [
       height: 770,
       url: 'https://cdn2.thedogapi.com/images/r1I4hl5Em.jpg',
     },
-    searchTerms: ['Vizsla de Pelo Duro', 'Deportivo', 'Cariñoso', 'Energético'],
     country_code: 'HU',
-    description:
-      'El Vizsla de Pelo Duro es una raza de perro de caza de origen húngaro, conocida por su pelaje único y su excelente capacidad de trabajo. Son perros cariñosos y leales con sus familias, pero también tienen una gran cantidad de energía y necesitan mucho ejercicio.',
-    history:
-      'El Vizsla de Pelo Duro es una raza de perro que se desarrolló en Hungría para trabajar en diversos tipos de terreno, desde campos abiertos hasta zonas boscosas. Son valorados por su capacidad para localizar y recuperar presas, y son perros de caza muy versátiles.',
+    description: `
+
+    `,
+    history: `
+
+    `,
     categoria_de_tamanio: 'Mediano',
     perks: [
       'Excelente perro de caza',
@@ -22179,6 +22985,13 @@ fuentes: [
     popularidad: 'Moderada',
     enfermedades_comunes: ['Displasia de cadera', 'Atrofia retinal progresiva'],
     gallery: ['https://cdn2.thedogapi.com/images/r1I4hl5Em_390x256.jpg'],
+    searchTerms: [
+      'Vizsla de Pelo Duro',
+      'Deportivo',
+      'Cariñoso',
+      'Energético',
+
+    ],
   },
   169: {
     weight: {
