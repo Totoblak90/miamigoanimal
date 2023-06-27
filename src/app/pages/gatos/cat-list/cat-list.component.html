@@ -17,12 +17,6 @@
     </div>
   </div>
 
-  <div class="cat-pagination" *ngIf="!searchCatForm.get('searchTerm')?.value">
-    <button class="btn btn--green" (click)="prevPage()">&#xab;</button>
-    <p class="paragraph u-margin-bottom-none"> {{ currentPage + 1 }} </p>
-    <button class="btn btn--green" (click)="nextPage()">&#xbb;</button>
-  </div>
-
   <div class="cat-breeds-layout row" *ngIf="!searching">
     <ng-container *ngFor="let cat of catList">
       <flipping-card
