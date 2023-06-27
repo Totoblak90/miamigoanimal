@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { PerrosRazaRoutingModule } from './perros-raza-routing.module';
 import { PerrosRazaComponent } from './perros-raza.component';
 import { DirectivesModule } from 'src/app/directives/directives.module';
-import { IndexComponent } from 'src/app/components/index/index.component';
 import { ExpandableTextComponent } from 'src/app/components/expandable-text/expandable-text.component';
 import { CarouselComponent } from 'src/app/components/carousel/carousel.component';
 import { SimpleBoxComponent } from 'src/app/components/simple-box/simple-box.component';
@@ -21,7 +20,6 @@ import { HeaderComponent } from 'src/app/components/header/header.component';
     CommonModule,
     PerrosRazaRoutingModule,
     DirectivesModule,
-    IndexComponent,
     ExpandableTextComponent,
     CarouselComponent,
     SimpleBoxComponent,
