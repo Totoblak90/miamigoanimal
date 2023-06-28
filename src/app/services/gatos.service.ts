@@ -1,14 +1,17 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { Injectable, signal } from '@angular/core';
 import { Observable, map, switchMap, tap } from 'rxjs';
 import { Cat } from '../interfaces/cat.interface';
 import { PerrosService } from './perros.service';
 import { Dog } from '../interfaces/dog.interface';
+import { CAT_LIST } from '../db/gatos.db';
 
 @Injectable({
   providedIn: 'root'
 })
 export class GatosService {
+
+  catListSignal = signal(CAT_LIST);
 
   private apiUrl = 'https://api.thecatapi.com/v1/';
   private headers = new HttpHeaders({
@@ -16,7 +19,8 @@ export class GatosService {
     'x-api-key': 'live_IMSkHCnLKaMGNb3cwXwplyqpgA2TRFnQmcpJXrDhVjY6bxImsfHKXRkwskW7AQU6'
   })
 
-  constructor(private http: HttpClient, private perrosService: PerrosService) { }
+  constructor(private http: HttpClient, private perrosService: PerrosService) {
+  }
 
   getCatBreeds(page = 0): Observable<Cat[]> {
     return this.http.get<Cat[]>(`${this.apiUrl}breeds?limit=3&page=${page}`, { headers: this.headers })
@@ -41,6 +45,7 @@ export class GatosService {
         cat.image = images[index]![0]?.url; // Asume que la respuesta es un array y toma la primera imagen
       });
 
+      console.log(cats)
       return cats;
     }
     catch (error)

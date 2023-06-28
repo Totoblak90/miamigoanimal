@@ -3,7 +3,7 @@ export interface Dog {
   weight:                                Measurement;
   height:                                Measurement;
   image:                                 Image;
-  casos_famosos?:                         PerrosFamosos[];
+  casos_famosos:                         PerrosFamosos[];
   name:                                  string;
   life_span:                             string;
   origin:                                string;
@@ -20,18 +20,18 @@ export interface Dog {
   color:                                 string[];
   enfermedades_comunes:                  string[];
   gallery:                               string[];
-  fuentes?:                               string[];
-  para_primerizos?:                       'Baja' | 'Moderada' | 'Alta' | '-';
-  bueno_con_ninos?:                       'Baja' | 'Moderada' | 'Alta' | '-';
+  fuentes:                               string[];
+  para_primerizos:                       'Baja' | 'Moderada' | 'Alta' | '-';
+  bueno_con_ninos:                       'Baja' | 'Moderada' | 'Alta' | '-';
   compatibilidad_con_otros_animales:     'Baja' | 'Moderada' | 'Alta' | '-';
   facilidad_de_entrenamiento:            'Bajo' | 'Moderado' | 'Alto' | '-';
   nivel_de_energia:                      'Bajo' | 'Moderado' | 'Alto' | '-';
   popularidad:                           'Baja' | 'Moderada' | 'Alta' | '-';
-  tendencia_a_ladrar?:                    'Baja' | 'Moderada' | 'Alta' | '-';
-  necesidad_de_aseo?:                     'Baja' | 'Moderada' | 'Alta' | '-';
-  soporta_clima_frio?:                    'Baja' | 'Moderada' | 'Alta' | '-';
-  soporta_clima_calido?:                  'Baja' | 'Moderada' | 'Alta' | '-';
-  tolerancia_a_la_soledad?:               'Baja' | 'Moderada' | 'Alta' | '-';
+  tendencia_a_ladrar:                    'Baja' | 'Moderada' | 'Alta' | '-';
+  necesidad_de_aseo:                     'Baja' | 'Moderada' | 'Alta' | '-';
+  soporta_clima_frio:                    'Baja' | 'Moderada' | 'Alta' | '-';
+  soporta_clima_calido:                  'Baja' | 'Moderada' | 'Alta' | '-';
+  tolerancia_a_la_soledad:               'Baja' | 'Moderada' | 'Alta' | '-';
   salud_general:                         'Excelente' | 'Buena' | 'Regular' | 'Mala' | '-';
   categoria_de_tamanio:                  'Muy pequeño' | 'Pequeño' | 'Mediano' | 'Grande' | 'Muy grande' | '-';
 }
@@ -187,13 +187,13 @@ ES MUY IMPORTANTE QUE LE PONGAS TU IMPORTNTA AL TEXTO Y NO COPIES Y PEGUES LO QU
 
 Necesito completar los siguientes campos:
 
-Tendencia a ladrar: ¿Es baja, moderada o alta?
-Necesidad de aseo: ¿Es baja, moderada o alta?
-Soporta clima frío: ¿Es baja, moderada o alta?
-Soporta calor: ¿Es baja, moderada o alta?
-Tolerancia a la soledad: ¿Es baja, moderada o alta?
-Recomendado para primerizos: ¿Es baja, moderada o alta?
-recomendado para niños:  ¿Es baja, moderada o alta?
+Tendencia a ladrar: ¿Es baja, moderada o alta
+Necesidad de aseo: ¿Es baja, moderada o alta
+Soporta clima frío: ¿Es baja, moderada o alta
+Soporta calor: ¿Es baja, moderada o alta
+Tolerancia a la soledad: ¿Es baja, moderada o alta
+Recomendado para primerizos: ¿Es baja, moderada o alta
+recomendado para niños:  ¿Es baja, moderada o alta
 
 También quiero que me agregues, si es que conoces, perros famosos de la raza.
 El formato en que me vas a devolver la información de perros famosos de la raza es un array de objetos de typescript ordenado de la siguiente manera:

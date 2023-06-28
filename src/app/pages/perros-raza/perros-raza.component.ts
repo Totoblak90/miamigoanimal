@@ -59,7 +59,7 @@ export class PerrosRazaComponent implements OnDestroy {
     soporta_clima_frio: '-',
     tendencia_a_ladrar: '-',
     tolerancia_a_la_soledad: '-',
-    gallery: []
+    gallery: [],
   };
 
   dogGallery: { url: string; altText: string; }[] = [];

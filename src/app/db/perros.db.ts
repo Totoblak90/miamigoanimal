@@ -12073,6 +12073,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://en.wikipedia.org/wiki/Brussels_Griffon',
     ],
     gallery: ['https://cdn2.thedogapi.com/images/ryoYGec4Q_390x256.jpg'],
+    tendencia_a_ladrar: 'Moderada'
   },
   92: {
     weight: {
