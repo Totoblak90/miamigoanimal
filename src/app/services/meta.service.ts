@@ -45,7 +45,7 @@ export class MetaService {
     this.meta.updateTag({ name: 'description', content: description })
     this.meta.updateTag({ name: 'author', content: author || 'Tobias Blaksley' })
 
-    if (keywords) this.meta.updateTag({ name: 'keywords', content: keywords})
+    if (keywords) this.meta.updateTag({ name: 'keywords', content: keywords + ', blog, españa, spain, argentina'})
 
     if (follow) { this.meta.updateTag({ name: 'robots', content: 'index, follow' }) }
     else { this.meta.updateTag({ name: 'robots', content: 'noindex, follow' }) }

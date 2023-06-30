@@ -162,6 +162,8 @@ Las propiedades que deben ser completadas con arrays tampoco pueden ser devuelta
 
 Las propiedades de los objetos escribilas sin comillas, salvo que sea necesario.
 
+Las propiedades del objeto deben quedar como están escritas. No las traduzcas. Solo traducí los valores si es necesario
+
 Estos serán los criterios que seguirás para completar los objetos que te pases.
 
 El objeto debe ser devuelto en formato typescript, es decir, con la sintaxis de typescript.
