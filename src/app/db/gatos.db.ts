@@ -7056,6 +7056,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
       'Mantenimiento de pelaje',
       'Persa',
       'Gato persa',
+      "Gatos Persas",
       'Gato de pelo largo',
       'Gato tranquilo',
       'Gato sedado',

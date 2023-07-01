@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Input, OnInit, TransferState, makeStateKey } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { DirectivesModule } from 'src/app/directives/directives.module';
+import { GatosService } from 'src/app/services/gatos.service';
 import { PerrosService } from 'src/app/services/perros.service';
 import { UtilitiesService } from 'src/app/services/utilities.service';
 
@@ -24,6 +25,7 @@ export class RecentArticleCardComponent implements OnInit {
   constructor(
     private utilitiesSrv: UtilitiesService,
     private perrosService: PerrosService,
+    private gatosService: GatosService,
     private transferState: TransferState
   ) {}
 
@@ -56,13 +58,9 @@ export class RecentArticleCardComponent implements OnInit {
   private setSelectedImage() {
 
     if (this.type === 'dog') {  this.selectedImage = this.perrosService.setDogBreedImage(this.title) }
-    else if (this.type === 'cat') { this.selectedImage = this.setCatBreedImage() }
+    else if (this.type === 'cat') { this.selectedImage = this.gatosService.setCatBreedImage(this.title) }
     else { this.selectedImage =  this.utilitiesSrv.selectImage( this.type ) }
 
-  }
-
-  private setCatBreedImage() {
-    return this.utilitiesSrv.selectImage( this.type )
   }
 
 }

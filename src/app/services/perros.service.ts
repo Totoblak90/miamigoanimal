@@ -37,8 +37,9 @@ export class PerrosService {
     {
       // Elimina los signos de puntuación del título
       const nameWithoutPunctuation = perrosList[i].name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+      const filteredBySearchTerm = perrosList[i].searchTerms.some((term) => term.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(titleWithoutPunctuation))
 
-      if ( titleWithoutPunctuation.includes(nameWithoutPunctuation) )
+      if ( titleWithoutPunctuation.includes(nameWithoutPunctuation) || filteredBySearchTerm )
       {
         return this.utilitiesService.selectImage( 'dog', perrosList[i].image.url, onlyImage )
       }

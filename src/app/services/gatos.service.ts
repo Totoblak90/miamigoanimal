@@ -34,8 +34,9 @@ export class GatosService {
     {
       // Elimina los signos de puntuación del título
       const nameWithoutPunctuation = gatosList[i].name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+      const filteredBySearchTerm = gatosList[i].searchTerms.some((term) => term.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase().includes(titleWithoutPunctuation))
 
-      if ( titleWithoutPunctuation.includes(nameWithoutPunctuation) )
+      if ( titleWithoutPunctuation.includes(nameWithoutPunctuation) || filteredBySearchTerm )
       {
         return this.utilitiesService.selectImage( 'cat', gatosList[i].image, onlyImage )
       }

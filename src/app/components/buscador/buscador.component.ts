@@ -4,7 +4,10 @@ import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { Router, RouterModule } from '@angular/router';
 import { Subject, takeUntil } from 'rxjs';
 import { SearchResult } from 'src/app/interfaces/buscador.interface';
+import { Cat } from 'src/app/interfaces/cat.interface';
+import { Dog } from 'src/app/interfaces/dog.interface';
 import { ArticlesService } from 'src/app/services/articles.service';
+import { GatosService } from 'src/app/services/gatos.service';
 import { PerrosService } from 'src/app/services/perros.service';
 import { UtilitiesService } from 'src/app/services/utilities.service';
 
@@ -33,6 +36,7 @@ export class BuscadorComponent implements OnDestroy {
     private elementRef: ElementRef,
     private articlesService: ArticlesService,
     private perrosService: PerrosService,
+    private gatosService: GatosService,
     private utilitiesService: UtilitiesService,
     private router: Router
   ) {
@@ -101,15 +105,28 @@ export class BuscadorComponent implements OnDestroy {
   }
 
   searchByBreed(searchTerm: string) {
-    const perrosActiclesList = Object.values(this.perrosService.dogListSignal())
-    const filteredPerrosAritcleList = this.perrosService.filterBySearchTerm(perrosActiclesList, searchTerm)
+    // @ts-ignore
+    const breedsArticleList: (Cat | Dog)[] = Object.values(this.perrosService.dogListSignal()).concat(Object.values(this.gatosService.catListSignal()))
 
-    this.searchResults = filteredPerrosAritcleList.map(dog => ({
+    const filteredPerrosAritcleList = this.perrosService.filterBySearchTerm(breedsArticleList.filter(breed => typeof breed.id === 'number') as Dog[], searchTerm)
+    const filteredGatosArticleList = this.gatosService.filterBySearchTerm(breedsArticleList.filter(breed => typeof breed.id === 'string') as Cat[], searchTerm)
+
+    this.searchResults =
+      filteredPerrosAritcleList.map(dog => ({
         title: dog.name,
         url:[ '/perros', dog.id.toString()],
         queryParams: { raza: dog.name.split(' ').join('-').toLocaleLowerCase() },
         img: dog.image.url
       }))
+      .concat(
+        filteredGatosArticleList.map(cat => ({
+          title: cat.name,
+          url:[ '/gatos', cat.id],
+          queryParams: { raza: cat.name.split(' ').join('-').toLocaleLowerCase() },
+          img: cat.image
+        }))
+      )
+      .sort((a, b) => a.title > b.title ? 1 : -1)
   }
 
   onKeyUpEnter() {

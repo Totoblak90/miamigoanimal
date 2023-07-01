@@ -2,6 +2,8 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { OnInit, AfterViewInit, Component, ElementRef, Input, ViewChild, OnDestroy, PLATFORM_ID, Inject, makeStateKey, TransferState } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { DirectivesModule } from 'src/app/directives/directives.module';
+import { GatosService } from 'src/app/services/gatos.service';
+import { PerrosService } from 'src/app/services/perros.service';
 import { UtilitiesService } from 'src/app/services/utilities.service';
 
 @Component({
@@ -43,6 +45,8 @@ export class FlippingCardComponent implements OnInit, AfterViewInit, OnDestroy {
   constructor(
     private utilitiesSrv: UtilitiesService,
     private transferState: TransferState,
+    private gatosService: GatosService,
+    private perrosService: PerrosService,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {}
 
@@ -79,9 +83,16 @@ export class FlippingCardComponent implements OnInit, AfterViewInit, OnDestroy {
 
     else
     {
-      this.selectedImage =  this.type === 'cat' ? this.utilitiesSrv.selectImage( this.type ) :
-                            this.type === 'dog' ? this.utilitiesSrv.selectImage( this.type ) :
-                            ''
+
+      if (this.type === 'cat')
+        this.selectedImage = this.gatosService.setCatBreedImage( this.cardTitle )
+
+      else if (this.type === 'dog')
+        this.selectedImage = this.perrosService.setDogBreedImage( this.cardTitle )
+
+      else
+        this.selectedImage = this.utilitiesSrv.selectImage( this.type )
+
     }
 
   }

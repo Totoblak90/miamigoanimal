@@ -7,6 +7,8 @@ import { PerrosService } from 'src/app/services/perros.service';
 import { UtilitiesService } from 'src/app/services/utilities.service';
 import { BuscadorComponent } from '../buscador/buscador.component';
 import { SocialIconsComponent } from '../social-icons/social-icons.component';
+import { GatosService } from 'src/app/services/gatos.service';
+import { Cat } from 'src/app/interfaces/cat.interface';
 
 @Component({
   selector: 'app-header',
@@ -46,6 +48,7 @@ export class HeaderComponent implements OnChanges, OnDestroy {
     private utilitiesSrv: UtilitiesService,
     private router: Router,
     private perrosService: PerrosService,
+    private gatosService: GatosService
   ) {}
 
   ngOnChanges(simpleChange: SimpleChanges) {
@@ -66,6 +69,13 @@ export class HeaderComponent implements OnChanges, OnDestroy {
 
         const dog = this.findADogByBreedName();
         this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour, dog?.image?.url || undefined )
+
+      }
+
+      else if (this.bckColour === 'cat') {
+
+        const cat = this.findACatByBreedName();
+        this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour, cat?.image || undefined )
       }
 
       else { this.selectedImage = this.utilitiesSrv.selectImage( this.bckColour ) }
@@ -84,6 +94,24 @@ export class HeaderComponent implements OnChanges, OnDestroy {
 
     // Buscas en la lista de perros para ver si alguno de ellos está incluido en el título
     return perros.find(dog => {
+      // Creas una versión del nombre del perro que es todo en minúsculas y sin puntuación
+      const dogNameWithoutPunctuation = dog.name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+
+      // Compruebas si el nombre del perro está incluido en el título
+      return fullTitleWithoutPunctuation.includes(dogNameWithoutPunctuation)
+    });
+
+  }
+
+  private findACatByBreedName(): Cat | undefined {
+
+    const gatos = Object.values(this.gatosService.catListSignal());
+
+    // Creas una versión del título que es todo en minúsculas y sin puntuación
+    const fullTitleWithoutPunctuation = (this.mainTitle + ' ' + this.secondaryTitle).replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+
+    // Buscas en la lista de perros para ver si alguno de ellos está incluido en el título
+    return gatos.find(dog => {
       // Creas una versión del nombre del perro que es todo en minúsculas y sin puntuación
       const dogNameWithoutPunctuation = dog.name.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
 
