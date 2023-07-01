@@ -5891,27 +5891,2927 @@ export const CAT_LIST: { [key: string]: Cat } = {
       En resumen, la historia de la raza LaPerm es una narración cautivadora sobre una mutación genética sorprendente, una criadora curiosa, y cómo un gatito de una granja en Oregón llegó a ser el progenitor de una amada y única raza de gatos. Su historia es un recordatorio de la increíble diversidad del mundo felino y de cómo un cambio genético aparentemente pequeño puede llevar a la creación de algo verdaderamente especial.
     `,
   },
+  mcoo: {
+    weight: {
+      imperial: '12 - 18',
+      metric: '5 - 8',
+    },
+    id: 'mcoo',
+    name: 'Maine Coon',
+    cfa_url: 'http://cfa.org/Breeds/BreedsKthruR/MaineCoon.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/maine-coon',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/maine-coon',
+    temperament: 'Adaptable, Inteligente, Amoroso, Gentil, Independiente',
+    origin: 'Estados Unidos',
+    country_codes: 'US',
+    country_code: 'US',
+    life_span: '12 - 15',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Gato Coon, Gato Maine, Gato de pelo largo, Gigantes Gentiles',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 3,
+    grooming: 3,
+    health_issues: 3,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 3,
+    stranger_friendly: 5,
+    vocalisation: 1,
+    experimental: 0,
+    hairless: 0,
+    natural: 1,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Maine_Coon',
+    hypoallergenic: 0,
+    reference_image_id: 'OOD3VXAQn',
+    image: 'https://cdn2.thecatapi.com/images/LIQSvUemz.jpg',
+    perks: [
+      'Tamaño grande y presencia impresionante',
+      'Pelaje largo y lujoso',
+      'Amigable con niños y otros animales',
+      'Adaptable a diferentes estilos de vida',
+    ],
+    necesidades_especiales: [
+      'Requiere de cepillado regular debido a su pelaje largo',
+      'Necesidad moderada de ejercicio',
+      'Bueno para hogares con otros animales',
+    ],
+    color: ['Negro', 'Marrón', 'Blanco'],
+    enfermedades_comunes: [
+      'Displasia de cadera',
+      'Enfermedad del corazón - miocardiopatía hipertrófica',
+    ],
+    fuentes: [
+      'http://cfa.org/Breeds/BreedsKthruR/MaineCoon.aspx',
+      'https://vcahospitals.com/know-your-pet/cat-breeds/maine-coon',
+    ],
+    para_primerizos: 'Moderada',
+    nivel_de_energia: 'Moderado',
+    popularidad: 'Alta',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    tolerancia_a_la_soledad: 'Moderada',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Muy grande',
+    searchTerms: [
+      'Maine Coon',
+      'Gato grande',
+      'Gato de pelo largo',
+      'Gato amigable',
+      'Gato adaptable',
+      'Maine Coon',
+      'Maine Coón',
+      'Main Coon',
+      'MaineCon',
+      'Mane Coon',
+      'Gato Maine Coon',
+      'Gato grande',
+      'Gato de pelo largo',
+      'Gato gentil',
+      'Gato independiente',
+      'Gato adaptativo',
+      'Gato amigable con niños',
+      'Gato amigable con perros',
+      'Gato con pelaje lujoso',
+      'Gato estadounidense',
+      'Gato resistente al frío',
+      'Gato inteligente',
+      'Gato de compañía',
+      'Gigante gentil',
+      'Gato Maine',
+      'Coon Cat',
+      'Gato Coon',
+      'Gato norteamericano',
+      'Gato amigable',
+      'Gato de raza grande',
+      'Gato de raza natural',
+      'Gato de pelo grueso',
+      'Gato Maine Shag',
+      'Gato Snowshoe',
+      'Gato American Longhair',
+    ],
+    description: `
+      La raza de gato Maine Coon es una de las más populares y apreciadas en todo el mundo. Sus principales características físicas y su personalidad encantadora hacen de ellos unos compañeros domésticos ideales, llegando a ser considerados en muchas ocasiones como parte integral de la familia.
+      <br>
+      <br>
+      Empezaremos hablando sobre la apariencia física del Maine Coon, ya que es uno de los rasgos que más lo distingue. Estos gatos son conocidos por ser una de las razas domésticas más grandes. Un macho adulto puede llegar a pesar entre 6 y 9 kilogramos, mientras que las hembras suelen pesar entre 4 y 6 kilogramos. No obstante, algunos individuos pueden alcanzar un peso aún mayor. También son gatos muy largos y pueden llegar a medir hasta 1 metro de longitud desde la nariz hasta la punta de la cola, que es especialmente larga y peluda.
+      <br>
+      <br>
+      El Maine Coon presenta una cabeza mediana con pómulos altos y una mandíbula fuerte. Sus orejas, de tamaño grande y base ancha, están colocadas en alto y tienen una ligera inclinación hacia el exterior. Un rasgo distintivo de las orejas del Maine Coon son sus plumas en la punta, que le dan un aspecto similar al de un lince. Sus ojos, de tamaño grande y forma redonda, pueden ser de varios colores, como verde, dorado o cobre. En algunos casos, los Maine Coon pueden tener ojos azules o incluso cada ojo de un color, una condición conocida como heterocromía.
+      <br>
+      <br>
+      El cuerpo del Maine Coon es sólido y musculoso, con una estructura ósea robusta que contribuye a su gran tamaño. A pesar de su apariencia poderosa, son gatos ágiles y muy buenos escaladores. Su pelaje es largo y sedoso, aunque la longitud puede variar en distintas partes del cuerpo. Por lo general, es más corto en la cabeza y los hombros y se va alargando hacia la parte trasera. La densidad del pelaje también varía con las estaciones, siendo más espeso en invierno y más ligero en verano. Los colores y patrones de su pelaje son muy variados, desde sólidos, tabby, tortuga y carey, hasta bicolor y sombreado, en una amplia gama de colores.
+      <br>
+      <br>
+      En cuanto a su personalidad, los Maine Coon son conocidos por su carácter amigable y sociable. A pesar de su gran tamaño, suelen ser gatos muy dulces y cariñosos. Son gatos inteligentes y juguetones, que disfrutan de la interacción con las personas y pueden llevarse muy bien con otros animales. A menudo se les describe como "gentiles gigantes". También son gatos muy curiosos que aman explorar su entorno.
+      <br>
+      <br>
+      Los Maine Coon son gatos que requieren de ciertos cuidados específicos, debido a su gran tamaño y su pelaje largo. Requieren de una alimentación adecuada para mantener su salud y su pelaje en buen estado. También es necesario cepillar su pelaje regularmente para prevenir la formación de enredos y eliminar el pelo muerto.
+      <br>
+      <br>
+      En resumen, los Maine Coon son gatos de gran tamaño, con una apariencia impresionante y una personalidad encantadora. Son gatos amigables, juguetones y amorosos que se convierten en excelentes compañeros para cualquier familia. Su tamaño, su pelaje largo y su carácter dulce son los rasgos que los definen y los hacen únicos.
+    `,
+    history: `
+      La raza de gato Maine Coon tiene una historia rica y fascinante que se remonta a varios siglos atrás. Originario de Maine, Estados Unidos, este gato con su gran tamaño y apariencia única ha capturado la imaginación y el corazón de las personas durante generaciones.
+      <br>
+      <br>
+      Existen numerosas leyendas y mitos que rodean el origen del Maine Coon. Aunque algunas de estas historias son encantadoras, como la que sugiere que el Maine Coon es el producto de un cruce entre un gato y un mapache, la realidad es que eso es genéticamente imposible .
+      <br>
+      <br>
+      Otras teorías sugieren que los Maine Coon pueden ser descendientes de los gatos del Bosque de Noruega traídos a América por los vikingos, pero no hay pruebas concluyentes de esto. Lo que sí se sabe con certeza es que el Maine Coon se adaptó a las duras condiciones climáticas de Maine, lo que probablemente contribuyó a su grueso pelaje y a su tamaño.
+      <br>
+      <br>
+      El Maine Coon se convirtió en una raza muy popular en el siglo XIX en América. De hecho, fueron una de las primeras razas de gatos nativas de América en ser reconocidas oficialmente. Sin embargo, la raza experimentó un declive en popularidad a principios del siglo XX, cuando las razas de gatos exóticos importadas comenzaron a ganar favor. Afortunadamente, los entusiastas del Maine Coon se propusieron preservar y promover la raza, y en 1976 el Maine Coon fue reconocido oficialmente como una raza separada en los Estados Unidos .
+      <br>
+      <br>
+      Desde entonces, la popularidad del Maine Coon ha crecido enormemente, tanto en América como en el resto del mundo. Hoy en día, es la tercera raza de gatos más popular a nivel global .
+      <br>
+      <br>
+      Algo interesante sobre los Maine Coon es su conexión con la polidactilia, una condición que causa que los gatos tengan más dedos de lo normal. Aunque la polidactilia ha sido desalentada en la crianza de Maine Coon debido a las normas de competición, hay esfuerzos por parte de organizaciones y criadores privados para preservar este rasgo único en la raza .
+      <br>
+      <br>
+      A pesar de los desafíos que ha enfrentado, el Maine Coon ha sobrevivido y prosperado, demostrando ser tan resistente como los colonos que ayudó a acompañar a través de los duros inviernos de Maine. Con su personalidad amigable y su apariencia distinguida, no es de extrañar que el Maine Coon continúe siendo una raza de gato muy querida en todo el mundo.
+    `,
+  },
+  mala: {
+    weight: {
+      imperial: '6 - 13',
+      metric: '3 - 6',
+    },
+    id: 'mala',
+    name: 'Malayo',
+    temperament: 'Cariñoso, Interactivo, Juguetón, Social',
+    origin: 'Reino Unido',
+    country_codes: 'GB',
+    country_code: 'GB',
+    life_span: '12 - 18',
+    indoor: 0,
+    alt_names: 'Asiático',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 5,
+    grooming: 1,
+    health_issues: 1,
+    intelligence: 3,
+    shedding_level: 1,
+    social_needs: 3,
+    stranger_friendly: 3,
+    vocalisation: 5,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Asian_cat',
+    hypoallergenic: 0,
+    reference_image_id: '',
+    image: '',
+    perks: [
+      'Muy interactivo',
+      'Habla mucho',
+      'Necesita mucha atención y mimos',
+    ],
+    necesidades_especiales: [],
+    color: ['Negro', 'Blanco', 'Marrón'], // Elegido arbitrariamente en ausencia de datos
+    enfermedades_comunes: [],
+    fuentes: ['https://en.wikipedia.org/wiki/Asian_cat'],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Regular',
+    categoria_de_tamanio: 'Mediano',
+    cfa_url: '',
+    lap: 0,
+    vcahospitals_url: '',
+    vetstreet_url: '',
+    searchTerms: [
+      'Malayo',
+      'Cariñoso',
+      'Interactivo',
+      'Juguetón',
+      'Social',
+      'Asiático',
+      'Malayo',
+      'Gato Malayo',
+      'Malayano',
+      'Gato malayano',
+      'Gato del Reino Unido',
+      'Gato británico',
+      'Malayán',
+      'Gato malayán',
+      'Gato cariñoso',
+      'Gato interactivo',
+      'Gato juguetón',
+      'Gato sociable',
+      'Gato ruidoso',
+      'Gato charlatán',
+      'Gato con fuerte voluntad',
+      'Gato que pide atención',
+      'Gato que le gusta ser acariciado',
+      'Gato que le gusta ser abrazado',
+      'Gato viajero',
+      'Gato que le gusta explorar',
+      'Gato amigable con extraños',
+      'Malaya',
+      'Gato malaya',
+      'Malay',
+      'Gato malay',
+      'Malayense',
+      'Gato malayense',
+      'Gato con poco mantenimiento',
+      'Gato con pocas enfermedades',
+      'Gato con pelo corto',
+    ],
+    description: `
+      El gato malayo es una raza que atraerá tu atención a primera vista por su apariencia elegante y comportamiento refinado. Su apariencia es estilizada y atlética, combinada con una sorprendente agilidad y destreza. Su cuerpo es mediano, bien proporcionado, musculoso pero no excesivamente pesado. Su pelaje es corto y liso, con una textura sedosa al tacto que se adhiere al cuerpo, lo que da a la raza una apariencia esbelta y aerodinámica.
+      <br>
+      <br>
+      Los ojos de este felino son expresivos, de tamaño mediano y ligeramente almendrados. Los colores de ojos pueden variar, pero la mayoría de los malayos tienen ojos de color ambar a verde. La cabeza es redondeada, con orejas de tamaño mediano a grande que están bien espaciadas. Su cola es de longitud mediana, ligeramente curvada hacia la punta.
+      <br>
+      <br>
+      El gato malayo es conocido por su carácter amigable, sociable y cariñoso. A estos gatos les encanta estar en compañía de su familia humana y son especialmente buenos con los niños. A diferencia de algunas razas que pueden ser un poco distantes, los malayos tienden a ser gatos muy sociales y les gusta interactuar y jugar.
+      <br>
+      <br>
+      Además, estos gatos tienen una fuerte personalidad. Son gatos con una fuerte voluntad que, cuando se proponen algo, suelen conseguirlo. Son muy inteligentes y les gusta explorar y conocer su entorno. Tienen una gran capacidad para adaptarse a nuevas situaciones y son muy viajeros.
+      <br>
+      <br>
+      No sólo se llevan bien con los humanos, sino que también son conocidos por llevarse bien con otros animales, especialmente otros gatos. Es una raza que no suele tener problemas para convivir con otros gatos, siempre que se les presente correctamente y se les dé tiempo para acostumbrarse el uno al otro.
+      <br>
+      <br>
+      Además, los malayos son conocidos por su charla. No son gatos especialmente ruidosos, pero les encanta comunicarse con sus humanos y no dudarán en hacer oír su voz cuando quieran algo. Son gatos que demandan atención y disfrutan de las caricias y los abrazos.
+      <br>
+      <br>
+      En cuanto al cuidado, son gatos de bajo mantenimiento. Su pelo corto no requiere de un cuidado especial, basta con cepillarlo una vez a la semana para mantenerlo en buen estado. Son gatos generalmente saludables, aunque como todas las razas, pueden ser propensos a algunas condiciones genéticas.
+      <br>
+      <br>
+      En resumen, si estás buscando un gato que sea cariñoso, sociable, juguetón y que tenga una fuerte personalidad, el gato malayo puede ser la raza perfecta para ti. Son gatos que se adaptan bien a la vida en familia y que te proporcionarán mucha alegría y entretenimiento con su presencia.
+    `,
+    history: `
+      La historia de la raza de gato Malayo, también conocida como el gato Asiático, es verdaderamente intrigante y llena de avances audaces y descubrimientos inesperados. Esta raza, conocida por su variedad de patrones y colores de pelaje, tiene sus raíces en el Reino Unido y su origen se puede rastrear hasta 1981.
+      <br>
+      <br>
+      Todo comenzó con un apareamiento inusual entre un gato Persa chinchilla y un Burmés lila. Aunque este apareamiento fue considerado como un error en su momento, los criadores que observaron a los gatitos que nacieron de esta pareja se dieron cuenta de su potencial. Decidieron tomar este "error" y convertirlo en una nueva raza con su propia identidad. Este fue el comienzo del gato Malayo.
+      <br>
+      <br>
+      Tras este apareamiento inicial, los criadores trabajaron arduamente para establecer esta nueva raza, conservando el mismo fenotipo que los gatos Burmeses pero ampliando la gama de colores y variedades. El esfuerzo y la dedicación de estos criadores fue recompensado finalmente en 2003, cuando el gato Malayo alcanzó el estatus de campeonato con la Federación Internacional del Gato (GCCF).
+      <br>
+      <br>
+      A lo largo de su historia, la raza Malaya ha ido ganando reconocimiento en diferentes círculos de aficionados a los gatos. Incluso los gatitos con fenotipo Burmés, llamados Variantes Asiáticos, que no pueden ser mostrados en clases de raza, son apreciados por sus características.
+      <br>
+      <br>
+      Un aspecto crucial en la historia del gato Malayo es la importancia que se ha dado a la salud de la raza. Los criadores de esta raza han estado involucrados en la investigación de enfermedades genéticas que pueden afectar a los Malayo, como la Enfermedad Poliquística del Riñón y la atrofia progresiva de la retina. Desde 2018, es obligatorio que los gatos de cría sean sometidos a pruebas para detectar la presencia de genes relevantes para estas enfermedades o que sean declarados libres de ellos.
+      <br>
+      <br>
+      En resumen, la raza de gato Malayo es el resultado de una feliz coincidencia, seguida de años de dedicación y trabajo duro por parte de los criadores. Creado a partir de un apareamiento inusual, el gato Malayo ha logrado hacerse un lugar en el mundo de las razas de gatos y continúa cautivando a los amantes de los gatos con su hermoso pelaje y su personalidad cariñosa [1, 2]. A lo largo de su historia, la salud y el bienestar de esta raza siempre han sido prioritarios, y la raza Malaya sirve como un brillante ejemplo de cómo una "equivocación" puede convertirse en un triunfo con dedicación, esfuerzo y un poco de paciencia.
+    `,
+  },
+  manx: {
+    weight: {
+      imperial: '7 - 13',
+      metric: '3 - 6',
+    },
+    id: 'manx',
+    name: 'Manx',
+    cfa_url: 'http://cfa.org/Breeds/BreedsKthruR/Manx.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/manx',
+    vcahospitals_url: 'https://vcahospitals.com/know-your-pet/cat-breeds/manx',
+    temperament: 'Fácil de manejar, Inteligente, Leal, Juguetón, Social',
+    origin: 'Isla de Man',
+    country_codes: 'IM',
+    country_code: 'IM',
+    life_span: '12 - 14',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Manks, Stubbin, Rumpy',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 5,
+    grooming: 1,
+    health_issues: 3,
+    intelligence: 5,
+    shedding_level: 5,
+    social_needs: 5,
+    stranger_friendly: 3,
+    vocalisation: 3,
+    experimental: 0,
+    hairless: 0,
+    natural: 1,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 1,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Manx_(cat)',
+    hypoallergenic: 0,
+    reference_image_id: 'fhYh2PDcC',
+    image: 'https://cdn2.thecatapi.com/images/P2NukwZ0n.jpg',
+    perks: [
+      'Adaptabilidad alta',
+      'Excelente con niños',
+      'Amigable con perros',
+      'Nivel de inteligencia alto',
+      'Necesita mucho contacto social',
+    ],
+    necesidades_especiales: [],
+    color: ['Marrón', 'Blanco', 'Negro'],
+    enfermedades_comunes: ['Coriza', 'Obesidad'],
+    fuentes: [
+      'https://en.wikipedia.org/wiki/Manx_(cat)',
+      'http://cfa.org/Breeds/BreedsKthruR/Manx.aspx',
+    ],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Manx',
+      'Gato sin cola',
+      'Gato juguetón',
+      'Gato sociable',
+      'Manx',
+      'Man',
+      'Manks',
+      'Rumpy',
+      'Stubbin',
+      'Gato Manx',
+      'Gato de la Isla de Man',
+      'Gato sin cola',
+      'Gato leal',
+      'Gato juguetón',
+      'Gato inteligente',
+      'Gato social',
+      'Gato adaptabilidad alta',
+      'Gato amigable con perros',
+      'Gato con niños',
+      'Gato que no vive en interiores',
+      'Gato de pelo corto',
+      'Gato con alta necesidad social',
+      'Gato sin problemas de salud severos',
+      'Gato amigable con extraños',
+      'Gato no experimental',
+      'Gato natural',
+      'Gato sin patas cortas',
+      'Gato no alergénico',
+      'Gato Isla de Man',
+      'Gato buen compañero',
+      'Gato de vida larga',
+      'Gato de tamaño medio',
+      'Gato de energía alta',
+      'Gato con bajo mantenimiento',
+    ],
+    description: `
+    La raza de gato Manx, de origen británico y en particular de la Isla de Man, es una raza muy especial. Lo que distingue de inmediato a estos gatos de otras razas es la ausencia de cola, una característica que ha evolucionado naturalmente. Aunque hay Manx con colas cortas, la versión más valorada en exposiciones de gatos es la totalmente sin cola, denominada "rumpy".
+    <br><br>
+    El Manx es un gato de tamaño medio a grande, con un cuerpo sólido y compacto. Poseen una estructura ósea fuerte y musculatura bien desarrollada, dándoles una apariencia de resistencia y fortaleza. Las hembras suelen ser un poco más pequeñas que los machos, pero en ambos casos, es sorprendente la densidad y el peso que tienen cuando se levantan.
+    <br><br>
+    Estos gatos tienen una cabeza redonda y ancha, con mejillas prominentes. Sus ojos, de tamaño medio y forma redonda, pueden ser de casi cualquier color, aunque suelen armonizar con el color del pelaje. Las orejas son anchas en la base, con puntas redondeadas y ligeramente hacia los lados.
+    <br><br>
+    En cuanto al pelaje, el Manx puede presentar una variedad de colores y patrones, sin embargo, su pelo es siempre doble, con una capa externa ligeramente dura y una capa interna densa y suave. Esto les da una apariencia ligeramente esponjada y requiere un mínimo de cuidado, simplemente un cepillado semanal para mantener su brillo y evitar la formación de bolas de pelo.
+    <br><br>
+    El carácter del Manx es tan notable como su físico. Son gatos muy inteligentes y juguetones, con una notable lealtad hacia su familia humana. Disfrutan de la compañía y son famosos por seguir a sus dueños por toda la casa, deseosos de participar en cualquier actividad. Son sociables con otras mascotas y se adaptan bien a diferentes entornos y estilos de vida.
+    <br><br>
+    Los gatos Manx también son conocidos por su notable habilidad para saltar, gracias a sus patas traseras fuertes y largas, que son más largas que las delanteras y les dan una apariencia de conejo. Además, son gatos que maullan con moderación, por lo que no son muy ruidosos.
+    <br><br>
+    En términos de salud, el Manx es generalmente una raza saludable, pero hay que tener en cuenta que puede estar propenso a ciertas condiciones genéticas, como el Síndrome Manx, que está relacionado con la columna vertebral corta del gato. Sin embargo, los criadores responsables hacen todo lo posible para garantizar que sólo los gatos más sanos sean criados, minimizando la posibilidad de estos problemas.
+    <br><br>
+    Los Manx son unos compañeros maravillosos y seguramente te sorprenderán con su encanto y personalidad únicos. Sin duda alguna, tener un gato Manx en tu vida será una experiencia llena de alegría y diversión.
+    `,
+    history: `
+    La raza de gato Manx tiene una larga y fascinante historia que se remonta a varios siglos atrás. Como su nombre indica, los Manx son originarios de la Isla de Man, situada en el Mar de Irlanda, entre Inglaterra y Irlanda. Su característica más destacada, la ausencia de cola, es el resultado de una mutación genética natural que ocurrió hace muchos siglos y que se ha mantenido debido al aislamiento geográfico de la isla.
+    <br><br>
+    La Isla de Man tiene una larga tradición de historias y leyendas, y los gatos Manx no son una excepción. De acuerdo con una de estas historias, los Manx son el resultado de un naufragio de la Armada española durante el intento de invasión de Inglaterra en 1588. Se dice que muchos gatos nadaron a la orilla, y como era una isla pequeña, comenzaron a reproducirse entre sí, lo que provocó la mutación de la cola. Sin embargo, esta es solo una leyenda, y la existencia de gatos sin cola en la Isla de Man es anterior a este evento.
+    <br><br>
+    Otra leyenda popular cuenta que la madre de todos los gatos Manx era un gato que llegó tarde al Arca de Noé. Cuando finalmente saltó a bordo, la puerta del arca se cerró sobre su cola, cortándola. Desde entonces, todos sus descendientes han nacido sin cola.
+    <br><br>
+    Pero más allá de las leyendas, la ciencia tiene su explicación. La falta de cola en los Manx es el resultado de una mutación genética dominante que afecta el desarrollo de la columna vertebral. Este gen produce una gama de longitudes de cola, desde gatos con una cola normal hasta los que carecen completamente de ella.
+    <br><br>
+    Los primeros registros escritos de gatos sin cola en la Isla de Man datan del siglo XVIII, pero es probable que hayan existido mucho antes. En 1903, se fundó el primer club de gatos Manx y se establecieron estándares para la raza. Los Manx fueron una de las primeras razas reconocidas cuando se establecieron los shows de gatos, y han sido populares desde entonces, tanto en las exposiciones como en los hogares.
+    <br><br>
+    Los gatos Manx han sido criados selectivamente para mantener la característica de la falta de cola. Sin embargo, el gen responsable también puede causar problemas de salud, una condición conocida como Síndrome de Manx, que puede provocar problemas en la columna vertebral y otros problemas relacionados. Los criadores de Manx han trabajado durante años para minimizar la aparición de este síndrome y promover la salud general de la raza.
+    <br><br>
+    La popularidad de los Manx ha fluctuado a lo largo de los años, pero nunca han dejado de ser considerados una raza única y fascinante. Su personalidad encantadora, junto con su apariencia distintiva, los ha mantenido en el corazón de los amantes de los gatos en todo el mundo. Aunque su historia está llena de misterio y leyendas, lo que está claro es que los gatos Manx tienen una herencia única que los hace ser una raza realmente especial.
+    `,
+  },
+  munc: {
+    weight: {
+      imperial: '5 - 9',
+      metric: '2 - 4',
+    },
+    id: 'munc',
+    name: 'Munchkin',
+    cfa_url: '',
+    vetstreet_url: 'http://www.vetstreet.com/cats/munchkin',
+    vcahospitals_url: '',
+    temperament: 'Ágil, Tranquilo, Inteligente, Juguetón',
+    origin: 'Estados Unidos',
+    country_codes: 'US',
+    country_code: 'US',
+    life_span: '10 - 15',
+    indoor: 0,
+    lap: 1,
+    alt_names: '',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 4,
+    grooming: 2,
+    health_issues: 3,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 5,
+    stranger_friendly: 5,
+    vocalisation: 3,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 1,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Munchkin_(cat)',
+    hypoallergenic: 0,
+    reference_image_id: 'j5cVSqLer',
+    image: 'https://cdn2.thecatapi.com/images/D2J3R7sUq.jpg',
+    perks: [
+      'Gato de patas cortas pero muy ágil y rápido',
+      'Muy cariñoso y adecuado para familias',
+    ],
+    necesidades_especiales: [
+      'Requiere estimulación mental y física regular debido a su naturaleza juguetona',
+    ],
+    color: ['Atigrado', 'Bicolor', 'Sólido'],
+    enfermedades_comunes: ['Problemas de espalda debido a sus patas cortas'],
+    fuentes: ['https://en.wikipedia.org/wiki/Munchkin_(cat)'],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Pequeño',
+    searchTerms: [
+      'Munchkin',
+      'Gato juguetón',
+      'Gato de patas cortas',
+      'Munchkin',
+      'Gato munchkin',
+      'Gato de patas cortas',
+      'Gato con patas cortas',
+      'Gato ágil',
+      'Munchkin gato',
+      'Gato juguetón',
+      'Gato inteligente',
+      'Gato cariñoso',
+      'Munchquin',
+      'Munchkin sin tilde',
+      'Munchkin de patas cortas',
+      'Gato munchkin juguetón',
+      'Munchkin inteligente',
+      'Munchkin niños',
+      'Munchkin familiar',
+      'Munchkin amigable',
+      'Munchkin bueno con niños',
+      'Munchkin bueno con perros',
+      'Gato adaptable',
+      'Gato de bajo mantenimiento',
+      'Gato pequeño',
+      'Gato tamaño pequeño',
+      'Munchkin pequeño',
+      'Munchkin tamaño pequeño',
+      'Gato de raza munchkin',
+      'Raza de gato munchkin',
+      'Munchkin gato raza',
+      'Raza munchkin',
+      'Gato munchkin energético',
+    ],
+    description: `
+      La raza de gato Munchkin es famosa por sus patas inusualmente cortas, un rasgo causado por una mutación genética natural. A pesar de sus piernas cortas, los Munchkins son gatos ágiles y juguetones que pueden correr y saltar como cualquier otro gato.
+      <br><br>
+      Los Munchkins tienen un cuerpo semi-foreign, lo que significa que no son tan delgados como las razas orientales, pero tampoco tan robustos como las razas persas. Tienden a ser pequeños a medianos en tamaño. Aunque son conocidos por sus patas cortas, la longitud de estas puede variar. Algunos tienen piernas ligeramente más largas que otros, pero todas son notablemente más cortas que las de un gato promedio.
+      <br><br>
+      El pelaje de los Munchkins puede ser corto o largo, y vienen en todos los colores y patrones. Los Munchkins de pelo largo tienen una capa inferior ligeramente más espesa que la de los de pelo corto. Independientemente de la longitud del pelaje, su textura es siempre densa y lujosa al tacto.
+      <br><br>
+      Los ojos de un Munchkin son grandes, en forma de nuez y están espaciados de forma moderada. Pueden ser de cualquier color, y a menudo están en contraste con el color del pelaje. Los oídos también son grandes, con punta redondeada y en una posición más bien abierta.
+      <br><br>
+      En cuanto a su personalidad, los Munchkins son conocidos por ser extrovertidos, inteligentes y muy cariñosos. Son gatos muy juguetones y disfrutan de la interacción con los humanos y otros animales. Aunque su capacidad para saltar puede verse limitada por la longitud de sus patas, esto no parece mermar su espíritu juguetón. Los Munchkins pueden correr y jugar como cualquier otro gato, y a menudo son vistos sentados en lo que se conoce como la "posición del hurón", con las patas traseras estiradas y las patas delanteras cerca del pecho.
+      <br><br>
+      Los Munchkins son muy adaptables y suelen llevarse bien con niños y otros animales. Son sociables y les encanta ser el centro de atención. Sin embargo, también pueden ser independientes y se sienten perfectamente cómodos pasando tiempo solos.
+      <br><br>
+      A pesar de su tamaño pequeño, los Munchkins son gatos robustos con buena salud general. Sin embargo, como cualquier raza, pueden ser propensos a ciertas afecciones genéticas. Los posibles dueños deben investigar cuidadosamente y obtener gatos de criadores responsables que hagan pruebas genéticas para garantizar la salud de sus gatos.
+      <br><br>
+      En resumen, la raza Munchkin es amada por sus piernas cortas y su gran personalidad. Su apariencia única, combinada con su naturaleza amigable, juguetona y amorosa, los hace una elección popular para muchos amantes de los gatos. A pesar de su pequeño tamaño, tienen un gran corazón y mucho amor para dar. Son la raza perfecta para aquellos que buscan un gato con una apariencia única y una personalidad encantadora.
+    `,
+    history: `
+      La historia del gato Munchkin es tanto fascinante como controversial. Este gato de patas cortas, que lleva el nombre de los personajes pequeños de la popular película "El Mago de Oz", tiene una historia rica y compleja que se remonta a varias décadas.
+      <br><br>
+      La historia registrada de los Munchkins comienza en la década de 1940 en Reino Unido, cuando se informó sobre cuatro generaciones de gatos de patas cortas en un informe médico veterinario. Sin embargo, esta línea desapareció durante la Segunda Guerra Mundial y no fue hasta la década de 1980 cuando resurgieron estos peculiares gatos.
+      <br><br>
+      En 1983, una profesora de música de Luisiana, Estados Unidos, llamada Sandra Hochenedel, encontró dos gatas embarazadas debajo de un camión. Ambas gatas tenían las patas inusualmente cortas. Hochenedel llevó a las gatas a casa, las cuidó y las nombró Blueberry y Blackberry. Cuando Blackberry tuvo su camada, algunos de los gatitos también tenían patas cortas. Uno de esos gatitos, Toulouse, se convirtió en el progenitor de la línea Munchkin que conocemos hoy en día.
+      <br><br>
+      El nombre "Munchkin" fue sugerido por un amigo de Hochenedel, y se refiere a las pequeñas criaturas que aparecen en la novela "El maravilloso mago de Oz" de L. Frank Baum. Aunque se habían observado gatos de patas cortas en diferentes partes del mundo a lo largo de la historia, Hochenedel es considerada la "madre" de la raza Munchkin que conocemos hoy.
+      <br><br>
+      Los Munchkins fueron presentados al público en 1991 en un espectáculo de gatos de la TICA (The International Cat Association). Inmediatamente causaron un revuelo debido a su apariencia única. Aunque algunos estaban encantados con estos nuevos gatos, otros estaban preocupados por los posibles problemas de salud relacionados con sus patas cortas.
+      <br><br>
+      Hubo debates en la comunidad felina sobre si era ético criar gatos con patas tan cortas. Algunos argumentaban que los gatos con patas cortas podrían tener problemas de espalda y que no podrían moverse de la misma manera que otros gatos. Sin embargo, tras extensas pruebas genéticas y físicas, se demostró que los Munchkins no sufrían de los problemas de salud que plagaban a otras razas de patas cortas, como el Dachshund o el Corgi.
+      <br><br>
+      Finalmente, en 1997, la TICA aceptó a los Munchkins como raza de campeonato. Desde entonces, la popularidad de los Munchkins ha continuado creciendo. Son amados por su apariencia única y su personalidad juguetona y cariñosa. Aunque todavía enfrentan cierta controversia y no son reconocidos por todas las asociaciones de criadores de gatos, los Munchkins han encontrado un lugar en los corazones de muchos amantes de los gatos en todo el mundo.
+      <br><br>
+      En resumen, la historia de los Munchkins es un testimonio de la naturaleza única y diversa del mundo felino. Aunque la raza ha enfrentado y sigue enfrentando controversias, los Munchkins han demostrado ser gatos fuertes y saludables con mucho amor para dar. Su historia continúa evolucionando y, sin duda, estos pequeños gatos de patas cortas seguirán capturando la imaginación y el afecto de los amantes de los gatos en todo el mundo.
+    `,
+  },
+  nebe: {
+    weight: {
+      imperial: '7 - 11',
+      metric: '3 - 5',
+    },
+    id: 'nebe',
+    name: 'Nebelung',
+    cfa_url: '',
+    vetstreet_url: '',
+    vcahospitals_url: '',
+    temperament: 'Amable, Tranquilo, Tímido, Juguetón',
+    origin: 'Estados Unidos',
+    country_codes: 'US',
+    country_code: 'US',
+    life_span: '11 - 16',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Azul Ruso de pelo largo',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 4,
+    energy_level: 3,
+    grooming: 3,
+    health_issues: 2,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 3,
+    stranger_friendly: 3,
+    vocalisation: 1,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 1,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Nebelung',
+    hypoallergenic: 0,
+    reference_image_id: 'OGTWqNNOt',
+    image: 'https://cdn2.thecatapi.com/images/xObEK7X1-.jpg',
+    perks: ['Amante del regazo', 'Tranquilo', 'Ideal para familias con niños'],
+    necesidades_especiales: ['Necesita espacio para jugar'],
+    color: ['Azul'],
+    enfermedades_comunes: [],
+    fuentes: ['https://en.wikipedia.org/wiki/Nebelung'],
+    para_primerizos: 'Moderada',
+    nivel_de_energia: 'Moderado',
+    popularidad: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Amable',
+      'Tranquilo',
+      'Tímido',
+      'Juguetón',
+      'Azul Ruso de pelo largo',
+      'Nebelung gato',
+      'Gato de pelo largo',
+      'Gato tranquilo',
+      'Gato tímido',
+      'Gato amable',
+      'Gato juguetón',
+      'Gato de Estados Unidos',
+      'Azul ruso de pelo largo',
+      'Gato Nebelung',
+      'Nebelung cat',
+      'Gato amigable',
+      'Nebelungs',
+      'Gato de lap',
+      'Nebelung de lap',
+      'Nebelung azul',
+      'Gato azul',
+      'Gato raro',
+      'Gato inteligente',
+      'Nebelung inteligente',
+      'Gato adaptativo',
+      'Nebelung adaptativo',
+      'Gato saludable',
+      'Nebelung saludable',
+      'Gato amigable con niños',
+      'Nebelung amigable con niños',
+      'Gato amigable con perros',
+      'Nebelung amigable con perros',
+      'Gato de bajo vocalización',
+      'Nebelung de bajo vocalización',
+    ],
+    description: `
+      La raza de gato Nebelung, conocida por su impresionante pelaje azul y ojos brillantes color verde, tiene una belleza majestuosa que es difícil de ignorar. El nombre Nebelung significa "criatura de la niebla" en alemán, un nombre que refleja perfectamente su lujoso manto de pelo largo y azul.
+      <br><br>
+      El Nebelung es de tamaño mediano, con una estructura musculosa y bien proporcionada. Las patas son largas y esbeltas, terminando en pies redondeados y de tamaño mediano. Uno de los rasgos más notables del Nebelung es su cola, que es larga y lujosamente tupida, a menudo parece una pluma. Su cabeza es de forma cuadrada, pero suave y redondeada, con pómulos bien definidos y orejas grandes, amplias en la base y ligeramente puntiagudas en la parte superior.
+      <br><br>
+      Sin embargo, lo que realmente distingue a un Nebelung es su deslumbrante pelaje. Es de doble capa y tiene un aspecto sedoso y brillante. El color de su pelaje es de un único tono azul desde la raíz hasta la punta, con la punta del pelo ligeramente plateada, lo que le da un brillo metálico y misterioso a su apariencia. Aunque se puede encontrar un Nebelung con diferentes tonalidades de azul, los jueces de exposiciones prefieren un azul de tono medio.
+      <br><br>
+      Su cara está adornada con unos ojos grandes y expresivos, redondeados pero no perfectamente redondos, y el color de estos es un verde vibrante. Este color brillante de los ojos es un fuerte contraste con su pelaje azul, lo que hace que la mirada de un Nebelung sea cautivadora e hipnotizante.
+      <br><br>
+      El temperamento del Nebelung puede describirse como gentil, tranquilo y un poco reservado. Aunque pueden ser un poco tímidos con los extraños, una vez que se sienten cómodos, son extremadamente leales y afectuosos con sus familias humanas. Son gatos de compañía por excelencia y les encanta pasar tiempo en el regazo de sus dueños, ronroneando felizmente. Sin embargo, también valoran su independencia y no les gusta que los molesten cuando están ocupados explorando su entorno.
+      <br><br>
+      En términos de comportamiento, el Nebelung es tranquilo y equilibrado. A pesar de su naturaleza algo reservada, disfrutan jugando y persiguiendo juguetes. Aunque no son tan activos como otras razas, todavía tienen una dosis saludable de curiosidad felina y les encanta tener la oportunidad de explorar su entorno.
+      <br><br>
+      Además de ser hermosos y de tener una naturaleza amable, los Nebelungs también son conocidos por su inteligencia. Son gatos listos y alertas que disfrutan de la estimulación mental, por lo que les irá bien con juegos interactivos y rompecabezas para gatos.
+      <br><br>
+      El Nebelung también se lleva bien con otros animales, incluidos los perros, y puede convivir pacíficamente con ellos si se les presenta adecuadamente. También son gatos bastante silenciosos, no son conocidos por su vocalización excesiva, lo que significa que no tendrás que preocuparte por los maullidos fuertes o constantes.
+      <br><br>
+      En resumen, la raza Nebelung es una opción maravillosa para aquellos que buscan un gato tranquilo y afectuoso con una belleza majestuosa. Con su manto de pelo azul sedoso, sus ojos brillantes color verde, su naturaleza tranquila y su afecto hacia sus dueños, un Nebelung sin duda te robará el corazón.
+    `,
+    history: `
+      La historia de la raza Nebelung es particularmente interesante, pues esta raza de gatos es bastante reciente y tiene orígenes bastante específicos. El nombre "Nebelung" en alemán significa "criatura de la niebla", un nombre inspirado en su pelaje azul oscuro y misterioso, reminiscente de la niebla.
+      <br><br>
+      Los Nebelungs tienen sus raíces en los Estados Unidos, y la raza fue creada en la década de 1980 por una criadora llamada Cora Cobb, de la cattery Nebelheim en Denver, Colorado. Sin embargo, los antecedentes de los Nebelungs se remontan a mucho antes de su creación oficial como raza.
+      <br><br>
+      Cora Cobb y su hijo adquirieron dos gatos, un macho y una hembra, ambos de pelo largo, de la misma camada, pero con diferentes padres. La hembra, Elsa, tenía un hermoso pelaje azul y se cruzó con un gato negro de pelo largo de barrio. De esta unión nació un gatito de pelo largo y de color azul, a quien Cora nombró Siegfried.
+      <br><br>
+      Intrigada por el hermoso color y textura del pelo de Siegfried, Cora decidió criar a Elsa una vez más con el mismo gato negro de pelo largo. De esta camada nació una gatita, a la que llamó Brunhilde. Estos dos gatos, Siegfried y Brunhilde, son considerados los primeros Nebelungs.
+      <br><br>
+      Inspirada por la belleza y el carácter distintivo de Siegfried y Brunhilde, Cora decidió establecer su propio programa de cría para desarrollar y promover esta nueva raza. Comenzó a trabajar con The International Cat Association (TICA) para ganar reconocimiento oficial para los Nebelungs. Este proceso implicaba escribir un estándar de raza detallado que describiera el aspecto y el comportamiento ideal de un Nebelung, y reunir un grupo de gatos que cumplieran con este estándar.
+      <br><br>
+      La propuesta inicial de Cora para reconocer a los Nebelungs como una raza independiente fue rechazada. Sin embargo, no se desanimó y en su lugar optó por registrar a los Nebelungs como una variedad de la raza Russian Blue. A medida que aumentaba el número de Nebelungs y su popularidad, la TICA finalmente aceptó a los Nebelungs como una raza independiente en 1987.
+      <br><br>
+      A pesar de su reconocimiento oficial, los Nebelungs todavía no son una raza común y se consideran bastante raros. Sin embargo, han ganado un número creciente de admiradores en todo el mundo por su hermoso pelaje, su temperamento tranquilo y afectuoso, y su personalidad cautivadora.
+      <br><br>
+      En resumen, la historia de la raza Nebelung es una de pasión, determinación y amor por una singularidad genética que resultó en una raza de gato magníficamente hermosa y encantadora. Aunque todavía son una raza joven en comparación con muchas otras, los Nebelungs han dejado una impresión duradera en el mundo felino y están destinados a seguir creciendo en popularidad y reconocimiento.
+    `,
+  },
+  norw: {
+    weight: {
+      imperial: '8 - 16',
+      metric: '4 - 7',
+    },
+    id: 'norw',
+    name: 'Gato de los Bosques de Noruega',
+    cfa_url: 'http://cfa.org/Breeds/BreedsKthruR/NorwegianForestCat.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/norwegian-forest-cat',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/norwegian-forest-cat',
+    temperament: 'Dulce, Activo, Inteligente, Social, Juguetón, Vivo, Curioso',
+    origin: 'Noruega',
+    country_codes: 'NO',
+    country_code: 'NO',
+    life_span: '12 - 16',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Skogkatt / Skaukatt, Norsk Skogkatt / Norsk Skaukatt, Weegie',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 3,
+    grooming: 2,
+    health_issues: 3,
+    intelligence: 4,
+    shedding_level: 3,
+    social_needs: 5,
+    stranger_friendly: 5,
+    vocalisation: 1,
+    experimental: 0,
+    hairless: 0,
+    natural: 1,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://es.wikipedia.org/wiki/Bosque_de_Noruega',
+    hypoallergenic: 0,
+    reference_image_id: '06dgGmEOV',
+    image: 'https://cdn2.thecatapi.com/images/7x-75d7vB.jpg',
+    perks: [
+      'Es una raza muy cariñosa',
+      'Es una raza muy activa, ideal para familias con niños',
+      'Su pelaje requiere de un mantenimiento moderado',
+    ],
+    necesidades_especiales: ['Cepillado semanal del pelaje'],
+    color: ['Negro', 'Azul', 'Blanco'],
+    enfermedades_comunes: [
+      'Cardiomiopatía hipertrófica',
+      'Displasia de cadera',
+    ],
+    fuentes: [
+      'http://cfa.org/Breeds/BreedsKthruR/NorwegianForestCat.aspx',
+      'http://www.vetstreet.com/cats/norwegian-forest-cat',
+      'https://vcahospitals.com/know-your-pet/cat-breeds/norwegian-forest-cat',
+    ],
+    para_primerizos: 'Moderada',
+    nivel_de_energia: 'Moderado',
+    popularidad: 'Alta',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Moderada',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Grande',
+    searchTerms: [
+      'Norwegian Forest Cat',
+      'Gato de los Bosques de Noruega',
+      'Bosque de Noruega',
+      'Noruega',
+      'Gato de los Bosques de Noruega',
+      'Bosque de Noruega',
+      'Gato Noruego',
+      'Gato Noruega',
+      'Gato del bosque',
+      'Gato bosque Noruega',
+      'Norwegian Forest Cat',
+      'Gato activo',
+      'Gato cariñoso',
+      'Gato inteligente',
+      'Gato social',
+      'Gato juguetón',
+      'Gato de tamaño grande',
+      'Gato para niños',
+      'Gato para familia',
+      'Gato adaptado al frío',
+      'Gato de pelo largo',
+      'Gato Skogkatt',
+      'Gato Skaukatt',
+      'Norsk Skogkatt',
+      'Norsk Skaukatt',
+      'Weegie',
+      'Gato con buena salud',
+      'Gato tolerante',
+      'Gato amigable',
+      'Gato vikingo',
+      'Gato de montaña',
+      'Gato de clima frio',
+      'Gato robusto',
+      'Gato grande',
+    ],
+    description: `
+      El Gato de los Bosques de Noruega, también conocido como "Norsk Skogkatt", es una raza de felino que parece sacada de un cuento de hadas. Su porte majestuoso y su impresionante pelaje, suelen dejar impresionados a todos aquellos que tienen la oportunidad de conocerlos.
+      <br><br>
+      La belleza de este gato no es su único atributo, ya que es un animal que también se caracteriza por su personalidad encantadora. Estos gatos son sociables, afectuosos y disfrutan enormemente de la interacción con los humanos. No sólo se llevan bien con las personas, sino que también tienden a llevarse bien con otros animales. Si tienes otros mascotas en casa, no te sorprendas si el Gato de los Bosques de Noruega pronto se convierte en su líder. Son muy juguetones y activos, siempre están listos para una buena carrera o un juego.
+      <br><br>
+      Uno de los rasgos más impresionantes del Gato de los Bosques de Noruega es su hermoso pelaje. Tienen un pelaje doble, con una capa externa resistente al agua y una capa interna aislante que los mantiene calientes en climas fríos. Su pelaje puede variar en longitud, pero generalmente es largo y tupido. Los colores y patrones también pueden variar, pero son más conocidos por sus impresionantes marcas de tabby.
+      <br><br>
+      Estos gatos son robustos y fuertes, con cuerpos largos y músculos poderosos. Sus patas traseras son ligeramente más largas que las delanteras, lo que les da un salto impresionante. También tienen una cola larga y frondosa que puede alcanzar la longitud de su cuerpo. Su cabeza tiene la forma de un triángulo equilátero con orejas grandes y ojos en forma de almendra que pueden variar en color.
+      <br><br>
+      A pesar de su apariencia regia y su gran tamaño, los Gatos de los Bosques de Noruega son famosos por su dulzura y su actitud tranquila. Son gatos cariñosos que forman fuertes vínculos con sus dueños y familias. Aunque son independientes, no son solitarios y disfrutan de la compañía de sus seres queridos.
+      <br><br>
+      Además, son gatos muy inteligentes, siempre curiosos y listos para aprender cosas nuevas. Esta inteligencia, combinada con su naturaleza juguetona, hace que se entretengan fácilmente. Les encantan los juguetes interactivos y los juegos que desafían su mente.
+      <br><br>
+      En general, el Gato de los Bosques de Noruega es una raza maravillosa que sería una gran adición para cualquier hogar. Son amigables, cariñosos, juguetones y hermosos, todo lo que podrías desear en un felino. Ya sea que busques un gato que se lleve bien con los niños o simplemente un compañero cariñoso, el Gato de los Bosques de Noruega podría ser la raza perfecta para ti.
+    `,
+    history: `
+      La historia del Gato de los Bosques de Noruega es tan fascinante como la raza misma. La raza es una de las más antiguas y está arraigada en la mitología y las leyendas del norte de Europa.
+      <br><br>
+      Los Gatos de los Bosques de Noruega son originarios de Noruega, como su nombre indica, y se cree que han vivido en los bosques nórdicos durante miles de años. Algunos teorizan que estos gatos son descendientes de los gatos de pelo largo que llegaron a Escandinavia con los cruzados durante la Edad Media. Otros argumentan que estos gatos son descendientes de gatos salvajes que vivían en los bosques noruegos desde la prehistoria.
+      <br><br>
+      Esta raza es parte integral de la mitología y las leyendas nórdicas. Se dice que los gatos grandes y peludos como el Gato de los Bosques de Noruega tiraban del carruaje de la diosa Freya, la diosa nórdica del amor y la belleza. Estos gatos eran venerados y considerados como signos de buena fortuna.
+      <br><br>
+      Durante siglos, estos gatos se ganaron la vida como cazadores y protectores de las granjas de ratones en la rústica Noruega. Su grueso pelaje los protegía de los duros inviernos, mientras que su fuerte instinto de caza los convertía en valiosos miembros de la comunidad rural.
+      <br><br>
+      Fue sólo en la década de 1930 cuando un grupo de entusiastas de los gatos comenzó a tomar nota de estos majestuosos gatos de los bosques y a esforzarse por preservar y promover la raza. Sin embargo, su trabajo se vio interrumpido por la Segunda Guerra Mundial, lo que puso en peligro la existencia de la raza.
+      <br><br>
+      Después de la guerra, los esfuerzos para preservar la raza se reanudaron. En 1977, la Federación Internacional Felina (FIFe) reconoció oficialmente al Gato de los Bosques de Noruega como una raza. Desde entonces, la popularidad de la raza ha crecido en todo el mundo, aunque sigue siendo más común en Europa.
+      <br><br>
+      Uno de los momentos más destacados en la historia de la raza fue cuando el rey Olav V de Noruega declaró al Gato de los Bosques de Noruega como el gato nacional de Noruega. Este acto ayudó a cimentar el estatus de la raza en su país de origen y a elevar su perfil en todo el mundo.
+      <br><br>
+      En la actualidad, el Gato de los Bosques de Noruega es apreciado por su belleza, su personalidad afectuosa y su impresionante historia. Estos gatos son una parte viva de la historia y la cultura noruega y son un recordatorio del rico patrimonio felino de este país nórdico.
+      <br><br>
+      Si bien su historia es antigua y está llena de mitos y leyendas, los Gatos de los Bosques de Noruega siguen cautivando a los amantes de los gatos en todo el mundo. Su presencia es un vínculo con el pasado, una ventana a una época en la que los gatos eran venerados como seres mágicos y sagrados. Son, en muchos aspectos, una raza de gato para aquellos que aprecian la historia y la mitología, así como la belleza y la personalidad felina.
+    `,
+  },
+  ocic: {
+    weight: {
+      imperial: '7 - 15',
+      metric: '3 - 7',
+    },
+    id: 'ocic',
+    name: 'Ocicat',
+    cfa_url: 'http://cfa.org/Breeds/BreedsKthruR/Ocicat.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/ocicat',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/ocicat',
+    temperament:
+      'Activo, Ágil, Curioso, Exigente, Amistoso, Gentil, Vivo, Juguetón, Social',
+    origin: 'Estados Unidos',
+    country_codes: 'US',
+    country_code: 'US',
+    life_span: '12 - 14',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Ocicat',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 5,
+    grooming: 1,
+    health_issues: 3,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 5,
+    stranger_friendly: 5,
+    vocalisation: 3,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://es.wikipedia.org/wiki/Ocicat',
+    hypoallergenic: 1,
+    reference_image_id: 'JAx-08Y0n',
+    image: 'https://cdn2.thecatapi.com/images/JAx-08Y0n.jpg',
+    perks: [
+      'Altamente activo y juguetón',
+      'Sociable y amigable con niños y otros animales',
+      'Inteligente y fácil de entrenar',
+    ],
+    necesidades_especiales: ['Necesita mucha actividad física y mental'],
+    color: ['Plateado', 'Chocolate', 'Canela'],
+    enfermedades_comunes: ['Gingivitis', 'Calcivirus felino'],
+    fuentes: ['CFA', 'Vetstreet', 'VCA Hospitales'],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Ocicat',
+      'Activo',
+      'Social',
+      'Amigable',
+      'Inteligente',
+      'Ocicat',
+      'Gato ocicat',
+      'Gato activo',
+      'Ocicato',
+      'Gato sociable',
+      'Gato juguetón',
+      'Gato ágil',
+      'Gato de Estados Unidos',
+      'Gato cariñoso',
+      'Ocicat inteligente',
+      'Ocicat amigable',
+      'Gato adaptable',
+      'Gato para familias',
+      'Gato amigable con perros',
+      'Gato para niños',
+      'Gato curioso',
+      'Gato fácil de entrenar',
+      'Ocicat hipoalergénico',
+      'Ocicat saludable',
+      'Gato de tamaño mediano',
+      'Gato con necesidad de actividad',
+      'Gato con energía',
+      'Ocicat energético',
+      'Gato que se parece a un leopardo',
+      'Gato exótico',
+      'Gato de pelo corto',
+      'Gato que no requiere mucho aseo',
+      'Gato con personalidad de perro',
+      'Ocicat versátil',
+      'Gato para interior y exterior',
+    ],
+    description: `
+      El Ocicat es una maravilla de la naturaleza, una raza de gato que en un primer vistazo puede engañarte haciéndote pensar que estás frente a un gato salvaje, con sus manchas vivas que asemejan las de un ocelote o un leopardo. Sin embargo, en lugar de ser un felino salvaje, el Ocicat es un gato completamente doméstico que es famoso por su personalidad cariñosa y sociable.
+      <br><br>
+      El Ocicat tiene una apariencia que irradia fuerza y agilidad. El cuerpo es largo y musculoso, dotado de una fuerza sorprendente. Tiene un pecho amplio y piernas poderosas, con pies grandes y compactos. La cabeza es en forma de cuña modificada, con una ligera curva desde el perfil hacia el hocico. Sus ojos son grandes y almendrados, ubicados en un ligero ángulo y pueden variar en color de ámbar a verde, aunque no hay correlación entre el color de los ojos y el del pelaje. Sus orejas, grandes y puntiagudas, dan un matiz salvaje a su rostro.
+      <br><br>
+      El rasgo más distintivo del Ocicat es su precioso pelaje manchado. Cada pelo está decorado con una punta oscura que da la apariencia de manchas. En un gato de calidad de exposición, las manchas aparecerán en todas partes: en el cuerpo, las piernas, la cola, incluso en la cara. Hay 12 colores permitidos para el Ocicat que incluyen tonos como el tawny, chocolate, canela, azul, lavanda y fawn, y todos ellos lucen increíblemente hermosos con su patrón de manchas.
+      <br><br>
+      Pero los Ocicats no son solo belleza, también son gatos inteligentes y llenos de vida. Son gatos muy activos y juguetones, a menudo descritos como agudos y curiosos. No es raro que un Ocicat aprenda a abrir puertas o cajones, y les encanta explorar su entorno. Son muy amigables y disfrutan de la compañía de sus humanos. Son tan sociables que no les gusta estar solos durante largos períodos de tiempo, por lo que si la familia está fuera durante el día, a menudo es una buena idea tener otro gato para hacerle compañía al Ocicat.
+      <br><br>
+      A pesar de su nivel de actividad, los Ocicats también son gatos que aman la comodidad y disfrutan de pasar tiempo en el regazo de sus dueños, ronroneando contentos. Les gusta ser parte de las actividades familiares y se llevan bien con los niños y otras mascotas, incluidos los perros. Son gatos muy adaptables y pueden sentirse cómodos tanto en un apartamento como en una casa con jardín, siempre y cuando se satisfagan sus necesidades de ejercicio y estimulación mental.
+      <br><br>
+      Por último, es importante destacar que, aunque el Ocicat es una raza generalmente saludable, como todos los gatos, necesita un cuidado regular. Su pelo corto es fácil de cuidar y solo requiere un cepillado semanal para mantenerlo en buenas condiciones. Como todos los gatos, también requieren una alimentación equilibrada y controles veterinarios regulares para asegurar su salud óptima.
+      <br><br>
+      En definitiva, el Ocicat es una raza encantadora para cualquier amante de los gatos que quiera un gato cariñoso y sociable con un toque de lo exótico. Su combinación única de belleza salvaje y carácter amigable hace que sea una raza muy especial que atrae a mucha gente. Es un gato que puede llenar de vida y diversión cualquier hogar.
+    `,
+    history: `
+      La historia del Ocicat es tan fascinante como su apariencia. Aunque hoy en día es un querido gato de compañía y una estrella en las competencias felinas, su origen fue más un accidente feliz que un diseño deliberado.
+      <br><br>
+      La historia del Ocicat comienza en 1964 en Michigan, Estados Unidos, cuando la criadora Virginia Daly, asistida por su hija, intentaba producir un Siamés con abrigo de punta de Abyssinian, una raza de gato que lleva el nombre del lugar de origen del Abisinio, que es Etiopía, aunque esta raza de gato no tiene en realidad ninguna conexión con ese país. Para ello, cruzaron un Siamés seal point con una Abisinia. En la segunda generación de esta línea, un gato de color atigrado fue apareado nuevamente con una Siamés, produciendo la sorpresa: un gatito de pelo corto, dorado y manchado, al que llamaron Tonga.
+      <br><br>
+      Inmediatamente, Tonga captó la atención de todos en el hogar Daly. Su apariencia era única, similar a un ocelote, un gato salvaje que se encuentra en América del Sur y Central. Por ello, decidieron llamar a esta nueva raza "Ocicat", combinando las primeras letras de "ocelote" con "cat" (gato en inglés). Sin embargo, Tonga no sería el fundador de la raza Ocicat ya que fue esterilizado y vendido como mascota antes de que su valor se diera a conocer.
+      <br><br>
+      Pero la criadora Daly no se desanimó. Usando los mismos padres, pero en diferentes combinaciones, trabajó para reproducir los resultados sorprendentes. Su objetivo era producir un gato que tuviera todas las características deseables de un gato doméstico, pero que se pareciera a un gato salvaje.
+      <br><br>
+      En el proceso, Daly mantuvo registros meticulosos y trabajó en estrecha colaboración con el genetista Dr. Clyde Keeler, para establecer y desarrollar la raza. A lo largo de los años, Daly también incorporó al American Shorthair en la línea de sangre, para aumentar el tamaño del cuerpo y añadir una influencia de color plateado. El resultado fue un gato que no solo se parecía a un pequeño leopardo, sino que también tenía un temperamento dulce y cariñoso.
+      <br><br>
+      El primer Ocicat fue presentado al público en 1966 y, como podrías imaginar, la raza llamó la atención inmediatamente. Sin embargo, no fue hasta 1987 que la Cat Fanciers' Association (CFA) otorgó el reconocimiento de campeonato al Ocicat. Desde entonces, la raza ha crecido en popularidad, tanto en las competencias de gatos como en los hogares en todo el mundo.
+      <br><br>
+      En resumen, el Ocicat es una raza nacida de un experimento de cría que resultó en un maravilloso accidente. Aunque su apariencia puede hacer que parezca un gato salvaje, en realidad no tiene sangre de gato salvaje en su linaje. Su desarrollo es un testimonio del trabajo dedicado y cuidadoso de una criadora y su visión de lo que podría ser un gato doméstico. El hecho de que el Ocicat sea hoy en día una raza reconocida y amada por los aficionados a los gatos de todo el mundo es un testimonio de su éxito.
+    `,
+  },
+  orie: {
+    weight: {
+      imperial: '5 - 10',
+      metric: '2 - 5',
+    },
+    id: 'orie',
+    name: 'Oriental',
+    cfa_url: 'http://cfa.org/Breeds/BreedsKthruR/Oriental.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/oriental',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/oriental',
+    temperament:
+      'Energético, Afectuoso, Inteligente, Social, Juguetón, Curioso',
+    origin: 'Estados Unidos',
+    country_codes: 'US',
+    country_code: 'US',
+    life_span: '12 - 14',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Tipo extranjero',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 5,
+    grooming: 1,
+    health_issues: 3,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 5,
+    stranger_friendly: 3,
+    vocalisation: 5,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://es.wikipedia.org/wiki/Oriental_Shorthair',
+    hypoallergenic: 1,
+    reference_image_id: 'LutjkZJpH',
+    image: 'https://cdn2.thecatapi.com/images/jVu6K43F7.jpg',
+    perks: [
+      'Necesita mucha interacción social',
+      'Muy vocal y expresivo',
+      'Nivel de energía alto',
+      'Necesita estimulación mental y física regular',
+    ],
+    necesidades_especiales: [
+      'Requiere una cantidad significativa de interacción social y mental',
+    ],
+    color: ['Canela', 'Blanco', 'Negro'],
+    enfermedades_comunes: [
+      'Enfermedad periodontal',
+      'Estruvita',
+      'Cistitis idiopática felina',
+    ],
+    fuentes: ['cfa.org', 'vetstreet.com', 'vcahospitals.com'],
+    para_primerizos: 'Moderada',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Oriental',
+      'Energético',
+      'Afectuoso',
+      'Inteligente',
+      'Social',
+      'Oriental',
+      'Orientales',
+      'gato Oriental',
+      'gatos Orientales',
+      'Oriental de pelo corto',
+      'Orientales de pelo corto',
+      'Oriental Shorthair',
+      'Tipo extranjero',
+      'Extranjero',
+      'gato afectuoso',
+      'gato energético',
+      'gato inteligente',
+      'gato social',
+      'gato juguetón',
+      'gato curioso',
+      'gato vocal',
+      'gato interactivo',
+      'gato expresivo',
+      'gato alto en energía',
+      'gato estimulante',
+      'gato de interacción',
+      'gato activo',
+      'gato vocal',
+      'gato con alta socialización',
+      'gato bueno con niños',
+      'gato bueno con perros',
+      'gato para familia',
+      'gato para niños',
+      'gato de Estados Unidos',
+      'gato de US',
+    ],
+    description: `
+      Los gatos orientales, caracterizados por su esbelta elegancia y vivacidad, son una raza que verdaderamente se destaca en el mundo felino. Originarios de los Estados Unidos, estos gatos son conocidos por su energía incesante y su impresionante inteligencia, características que les confieren una personalidad única que los hace irresistibles para los amantes de los gatos.
+      <br><br>
+      Los gatos orientales poseen un cuerpo esbelto y muscular, que se combina con un cuello largo y delgado y patas largas y esbeltas, culminando en pequeñas y ovaladas pezuñas. Su cabeza es de forma cuneiforme, con un hocico largo y recto. Sus ojos, generalmente de color verde, son almendrados y tienen una mirada viva y alerta que denota su curiosidad insaciable. Las orejas son notablemente grandes y puntiagudas, aportando a su apariencia general una estética peculiar y distintiva.
+      <br><br>
+      Uno de los rasgos más notables de los gatos orientales es su pelaje corto y liso, que se ajusta a su cuerpo, mostrando su musculatura bien definida. Esta raza tiene una gama increíblemente amplia de colores y patrones de pelaje, lo que los hace aún más únicos e individualizados. Pueden presentar casi cualquier color sólido, desde el blanco puro hasta el negro azabache, así como varios patrones, incluyendo manchado, atigrado y color-point, entre otros.
+      <br><br>
+      En cuanto a su temperamento, los gatos orientales son conocidos por su afectuosidad y su amor por la interacción humana. Son gatos que establecen fuertes vínculos emocionales con sus dueños y pueden llegar a ser extremadamente dependientes de la interacción humana. No son del tipo de gatos que disfrutan de la soledad, y pueden llegar a experimentar ansiedad si se les deja solos durante largos períodos de tiempo.
+      <br><br>
+      Los gatos orientales también son muy juguetones y energéticos. Tienen una necesidad constante de actividad y estimulación, y disfrutan de los juguetes y los juegos interactivos. Debido a su inteligencia, pueden aprender rápidamente nuevos juegos y trucos, lo que los hace divertidos y desafiantes compañeros de juego.
+      <br><br>
+      A pesar de su carácter social y juguetón, los gatos orientales también son conocidos por ser extremadamente vocales. Tienen una amplia gama de maullidos, chillidos y gruñidos que utilizan para comunicar sus necesidades y deseos a sus dueños. Algunas personas pueden encontrar este comportamiento molesto, pero para muchos dueños de gatos orientales, este aspecto de su personalidad solo añade a su encanto.
+      <br><br>
+      En términos de salud, los gatos orientales son generalmente una raza saludable, aunque pueden ser propensos a ciertos problemas de salud genéticos, incluyendo la amiloidosis (una enfermedad renal), la atrofia progresiva de la retina y algunas formas de enfermedades cardíacas.
+      <br><br>
+      En general, los gatos orientales son una raza maravillosa para aquellos que buscan un gato inteligente, afectuoso y social. Sin embargo, sus altas necesidades de socialización y actividad significan que no son necesariamente la mejor opción para aquellos que no pueden dedicarles mucho tiempo. Con el cuidado y el amor adecuados, sin embargo, un gato oriental puede hacer un compañero de vida increíblemente gratificante y divertido.
+    `,
+    history: `
+      La historia de los gatos orientales, una raza fascinante y única, comienza en los Estados Unidos en los años 50 y 60 del siglo XX. Fue durante esta época que los criadores de gatos empezaron a interesarse en la idea de crear una nueva raza que combinara la apariencia elegante y estilizada de los gatos siameses con una variedad más amplia de colores y patrones de pelaje.
+      <br><br>
+      La génesis de la raza Oriental puede rastrearse hasta una serie de experimentos de cría realizados por un grupo de criadores en California y Massachusetts. Estos criadores, interesados en explorar las posibilidades genéticas inherentes a la raza siamesa, comenzaron a cruzar siameses con gatos de pelo corto americanos, así como con otras razas como los Russian Blue y British Shorthairs, con la esperanza de producir gatos con la elegante apariencia siamesa, pero en una variedad de colores y patrones más allá del tradicional punto de color siamés.
+      <br><br>
+      En los primeros años de estos experimentos, los resultados fueron variados. Sin embargo, después de años de cría selectiva y meticulosa, los criadores lograron finalmente producir una línea estable de gatos que cumplían con sus expectativas. Estos gatos, que poseían el cuerpo largo, esbelto y musculoso, los ojos almendrados y las grandes orejas de los siameses, pero venían en una amplia variedad de colores y patrones, se convirtieron en la base de la raza Oriental.
+      <br><br>
+      A lo largo de la década de 1970, la raza Oriental empezó a ganar reconocimiento y aceptación entre los entusiastas de los gatos y las organizaciones de cría. La Cat Fanciers' Association (CFA) aceptó oficialmente la raza Oriental para su registro en 1972 y la reconoció para la competición en 1977. La The International Cat Association (TICA) también aceptó la raza para competir en sus shows en 1979. A partir de ahí, la raza comenzó a ganar popularidad y a ser apreciada tanto por su apariencia única como por su carácter afectuoso y extrovertido.
+      <br><br>
+      A pesar de sus orígenes relativamente recientes, la raza Oriental ha dejado una huella significativa en el mundo felino. Hoy en día, es una de las razas de gatos más populares y queridas en todo el mundo. Los gatos orientales son apreciados por su belleza exótica, su inteligencia aguda y su apasionada devoción por sus humanos.
+      <br><br>
+      A lo largo de las décadas, la cría de gatos orientales ha seguido evolucionando, con criadores constantemente explorando nuevas combinaciones de colores y patrones. Como resultado, la raza Oriental sigue siendo una de las más diversas y variadas en términos de apariencia física.
+      <br><br>
+      En definitiva, la historia de los gatos orientales es una historia de exploración genética, de dedicación apasionada a la cría selectiva, y de un amor por la belleza, la inteligencia y la personalidad de los gatos. Con su amplia variedad de colores y patrones, su notable inteligencia y su leal carácter, la raza Oriental es un testimonio del poder de la cría selectiva y del amor incondicional que los humanos tienen por sus amigos felinos.
+    `,
+  },
+  pers: {
+    weight: {
+      imperial: '9 - 14',
+      metric: '4 - 6',
+    },
+    id: 'pers',
+    name: 'Persa',
+    cfa_url: 'http://cfa.org/Breeds/BreedsKthruR/Persian.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/persian',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/persian',
+    temperament: 'Afectuoso, leal, Sedado, Tranquilo',
+    origin: 'Irán (Persia)',
+    country_codes: 'IR',
+    country_code: 'IR',
+    life_span: '14 - 15',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Longhair, Persian Longhair, Shiraz, Shirazi',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 2,
+    dog_friendly: 2,
+    energy_level: 1,
+    grooming: 5,
+    health_issues: 3,
+    intelligence: 3,
+    shedding_level: 4,
+    social_needs: 4,
+    stranger_friendly: 2,
+    vocalisation: 1,
+    experimental: 0,
+    hairless: 0,
+    natural: 1,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Persian_(cat)',
+    hypoallergenic: 0,
+    reference_image_id: '-Zfz5z2jK',
+    image: 'https://cdn2.thecatapi.com/images/d_RzH-Zft.jpg',
+    perks: [
+      'Ideal para familias',
+      'Requiere mantenimiento de pelaje regular',
+      'Gato tranquilo y sedado',
+    ],
+    necesidades_especiales: [
+      'Necesita mantenimiento regular del pelaje',
+      'Prefiere ambientes tranquilos',
+    ],
+    color: ['Blanco', 'Negro', 'Azul'],
+    enfermedades_comunes: [
+      'Enfermedad renal poliquística',
+      'Cardiomiopatía hipertrófica',
+    ],
+    fuentes: [
+      'http://cfa.org/Breeds/BreedsKthruR/Persian.aspx',
+      'http://www.vetstreet.com/cats/persian',
+      'https://vcahospitals.com/know-your-pet/cat-breeds/persian',
+      'https://en.wikipedia.org/wiki/Persian_(cat)',
+    ],
+    para_primerizos: 'Moderada',
+    nivel_de_energia: 'Bajo',
+    popularidad: 'Alta',
+    necesidad_de_aseo: 'Alta',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Baja',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Regular',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Persa',
+      'Gato sedado',
+      'Gato tranquilo',
+      'Mantenimiento de pelaje',
+      'Persa',
+      'Gato persa',
+      'Gato de pelo largo',
+      'Gato tranquilo',
+      'Gato sedado',
+      'Gato ideal para familias',
+      'Gato casero',
+      'Gato de Irán',
+      'Gato de Persia',
+      'Gato leal',
+      'Gato afable',
+      'Gato hogareño',
+      'Persa',
+      'Gato de raza persa',
+      'Gato de familia',
+      'Pelo largo',
+      'Gato de bajo nivel de energía',
+      'Gato con alta necesidad de aseo',
+      'Persian',
+      'Perza',
+      'Perça',
+      'Perrsa',
+      'Persa Longhair',
+      'Gato Shiraz',
+      'Gato Shirazi',
+      'Gato adaptado al interior',
+      'Gato cariñoso',
+      'Gato persa cariñoso',
+      'Persa cariñoso',
+      'Gato de pelo largo cariñoso',
+    ],
+    description: `
+      El gato Persa es conocido en todo el mundo por su porte majestuoso y su pelaje excepcionalmente largo y lujoso. Los persas desprenden una gracia inigualable, una apariencia dulce y una personalidad cautivadora que los ha convertido en una de las razas de gatos más queridas y reconocidas.
+      <br>
+      <br>
+      Su largo pelaje es sedoso al tacto y a menudo está rizado o ondulado, añadiendo un volumen extra a su ya impresionante presencia. Se puede encontrar en una variedad casi infinita de colores y patrones, lo que significa que cada gato Persa puede tener un aspecto verdaderamente único. Este espectacular pelaje requiere un cuidado regular para mantener su brillo y evitar enredos, así que los dueños de un Persa deben estar preparados para un régimen de aseo diario.
+      <br>
+      <br>
+      Además de su pelaje, los Persas se caracterizan por su robusto cuerpo y sus patas cortas y fuertes. Su cabeza es grande y redonda, con mejillas anchas y una nariz corta y respingona. Pero quizás sus características más memorables son sus ojos grandes y redondos, que pueden ser de un sorprendente azul, un verde luminoso o un cobre brillante, y siempre están llenos de curiosidad y afecto.
+      <br>
+      <br>
+      Aunque su apariencia puede sugerir un temperamento altivo, los gatos Persas son famosos por su amabilidad y su apacible naturaleza. Son animales domésticos excepcionales, ya que se adaptan muy bien a la vida en interiores y a las familias tranquilas. A pesar de su tendencia a la serenidad, disfrutan de la interacción con sus seres queridos y son muy cariñosos con las personas a las que conocen y confían.
+      <br>
+      <br>
+      No son gatos que requieran mucha actividad física. Prefieren pasar su tiempo descansando en un lugar cómodo y acogedor. Sin embargo, esto no significa que no disfruten de una ocasional sesión de juego. Los juguetes que estimulan su mente son especialmente apreciados por los Persas.
+      <br>
+      <br>
+      En cuanto a su inteligencia, los Persas son bastante astutos y son capaces de resolver problemas y aprender trucos, aunque a menudo prefieren observar el mundo desde su lugar favorito en lugar de participar activamente. Este tranquilo comportamiento hace que los Persas sean ideales para las personas que buscan un compañero tranquilo y fácil de manejar.
+      <br>
+      <br>
+      Los Persas también tienen una voz suave y melódica, pero tienden a ser bastante callados. No es probable que te despierten en medio de la noche con maullidos fuertes, pero cuando deciden hablar, su voz es una melodía suave que se suma a su aura de serenidad.
+      <br>
+      <br>
+      En términos de salud, los Persas son generalmente saludables, pero su característica cara plana puede conducir a algunos problemas respiratorios y oculares. Así, los propietarios deben estar atentos a estos problemas y asegurarse de que su gato recibe atención veterinaria regular.
+      <br>
+      <br>
+      En resumen, los gatos Persas son la combinación perfecta de belleza estética y un temperamento amigable y apacible. Su carácter tranquilo y afectuoso, junto con su apariencia magnífica, hace que sean los compañeros ideales para aquellos que desean un gato que combine la belleza con un temperamento tranquilo y cariñoso. No hay duda de que un gato Persa será un adorno para cualquier hogar y una alegría para cualquier familia.
+    `,
+    history: `
+      El gato Persa, reconocido y adorado por su expresión dulce y su pelaje suntuoso, es una de las razas más antiguas y apreciadas en el mundo. Su historia, tan fascinante como su apariencia, se extiende a lo largo de siglos y continentes, a través de imperios y eras.
+      <br>
+      <br>
+      Las primeras referencias conocidas a gatos que se asemejan a lo que hoy llamamos Persas se remontan a la antigua Persia, hoy conocida como Irán. Allí, se dice, los habitantes de las altas mesetas criaban gatos de pelo largo por su lana, que era valiosa en el comercio de textiles. En esta región fría y montañosa, los gatos desarrollaron pelajes largos y densos como adaptación al clima riguroso.
+      <br>
+      <br>
+      Fue durante la era victoriana cuando la raza Persa comenzó a tomar la forma que conocemos hoy. En la década de 1800, las familias adineradas en Inglaterra comenzaron a importar "gatos de lana" de Persia y de las regiones circundantes de Turquía y Afganistán. Estos gatos, con su pelo largo y sus características exóticas, se convirtieron rápidamente en el centro de atención de la alta sociedad. Fue entonces cuando los criadores británicos comenzaron a seleccionar características específicas, como la cara más plana y el cuerpo robusto, dando forma a la apariencia del gato Persa moderno.
+      <br>
+      <br>
+      A finales del siglo XIX, la raza Persa fue introducida en Estados Unidos, donde también fue recibida con entusiasmo. En 1906, la Cat Fanciers' Association (CFA), una de las organizaciones de registro de gatos más grandes y prestigiosas del mundo, fue fundada, y el Persa fue una de las primeras razas que reconoció. Desde entonces, el gato Persa ha ocupado un lugar destacado en el mundo de los gatos de raza pura en América.
+      <br>
+      <br>
+      En la década de 1950, el gato Persa sufrió otro cambio significativo en su apariencia cuando los criadores comenzaron a favorecer una cara aún más plana. Esto llevó a la creación de dos tipos distintos dentro de la raza: el Persa tradicional, o de cara de muñeca, que tiene una cara más redondeada y una nariz más prominente, y el Persa moderno, o peke-face, que tiene la cara extremadamente plana por la que se conoce a la raza hoy en día.
+      <br>
+      <br>
+      A pesar de las variaciones en su apariencia, la popularidad de la raza Persa ha permanecido constante a lo largo de los años. Según la CFA, ha sido la raza más registrada durante más de 30 años. Los Persas han sido la raza de elección de varias personalidades famosas, entre ellas la reina Victoria de Inglaterra y Florence Nightingale. Incluso han aparecido en películas y programas de televisión, consolidando su lugar en la cultura popular.
+      <br>
+      <br>
+      En resumen, la historia de la raza Persa es una historia de evolución y adaptación, de cambio y constancia. A través de los siglos, estos gatos han viajado desde las frías montañas de Persia hasta los hogares confortables de todo el mundo. Han cambiado su apariencia para adaptarse a los gustos de la sociedad, pero han mantenido su carácter afectuoso y su distinguido porte. La historia del gato Persa es una historia de belleza, adaptación y resistencia, que solo añade a su encanto y atractivo.
+    `,
+  },
+  pixi: {
+    weight: {
+      imperial: '8 - 17',
+      metric: '4 - 8',
+    },
+    id: 'pixi',
+    name: 'Pixie-bob',
+    cfa_url: '',
+    vetstreet_url: 'http://www.vetstreet.com/cats/pixiebob',
+    vcahospitals_url: '',
+    temperament: 'Cariñoso, Social, Inteligente, Leal',
+    origin: 'Estados Unidos',
+    country_codes: 'US',
+    country_code: 'US',
+    life_span: '13 - 16',
+    indoor: 0,
+    lap: 1,
+    alt_names: '',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 4,
+    grooming: 1,
+    health_issues: 2,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 4,
+    stranger_friendly: 4,
+    vocalisation: 1,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 1,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Pixiebob',
+    hypoallergenic: 0,
+    reference_image_id: 'z7fJRNeN6',
+    image: 'https://cdn2.thecatapi.com/images/qk67_tUAZ.jpg',
+    perks: ['Leal', 'Adaptable', 'Amigable con los perros', 'Poco vocal'],
+    necesidades_especiales: ['Necesita atención y tiempo de juego'],
+    color: ['Marrón', 'Negro', 'Blanco'],
+    enfermedades_comunes: [],
+    fuentes: ['http://www.vetstreet.com/cats/pixiebob'],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Moderada',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'pixiebob',
+      'amistoso',
+      'activo',
+      'inteligente',
+      'Pixie-bob',
+      'Pixie bob',
+      'Pixiebob',
+      'Gato Pixie-bob',
+      'Gato Pixie bob',
+      'Gato Pixiebob',
+      'Pixi bob',
+      'Pixibob',
+      'Gato activo',
+      'Gato leal',
+      'Gato amigable con perros',
+      'Gato inteligente',
+      'Gato cariñoso',
+      'Gato social',
+      'Gato de Estados Unidos',
+      'Gato americano',
+      'Gato con cola corta',
+      'Gato familiar',
+      'Gato paciente',
+      'Gato de compañía',
+      'Raza Pixie-bob',
+      'Gato de tamaño mediano',
+      'Pixi-bob',
+      'Pixie bob con niños',
+      'Pixiebob con niños',
+      'Pixie bob con perros',
+      'Gato Pixie bob para familia',
+      'Gato poco vocal',
+      'Pixie bob amigable',
+      'Pixiebob cariñoso',
+    ],
+    description: `
+      El Pixie-bob es una raza de gato verdaderamente única, que capta las miradas y los corazones con su distintiva apariencia y encantador temperamento. Pero, ¿qué hace que esta raza sea tan especial? Veamos más de cerca sus características y temperamento para descubrirlo.
+      <br>
+      <br>
+      Físicamente, el Pixie-bob es un gato de tamaño mediano a grande, fuerte y robusto, con una complexión musculosa que emana una innegable sensación de potencia. Sus patas son fuertes y de longitud mediana, y terminan en pies grandes y redondos que añaden a su aire distintivo. Uno de los rasgos más notables de la raza es su cola, que es notablemente corta, a menudo sin superar los 5 centímetros de longitud, de ahí su nombre. Esta cola corta, parecida a la de un bobcat, se convierte en un rasgo que define y diferencia a la raza.
+      <br>
+      <br>
+      La cabeza del Pixie-bob también es digna de mención. Es de forma de pera, con una frente prominente y mejillas llenas. Sus ojos, por otro lado, son almendrados y de un brillante color dorado o verde, y tienen una expresión pensativa, casi misteriosa. Las orejas del Pixie-bob son de tamaño mediano, con la punta redondeada y la base ancha, y están situadas en una posición un tanto inclinada, dando a este gato un aspecto interesante y cautivador.
+      <br>
+      <br>
+      Su pelaje es otra característica encantadora. Es de longitud mediana, denso y suave, y a menudo presenta un patrón manchado que aporta un aire salvaje a su apariencia. Los colores del pelaje pueden variar, pero a menudo son de tonos tierra que van desde el marrón claro hasta el negro.
+      <br>
+      <br>
+      Pero, el Pixie-bob es mucho más que una cara bonita y un cuerpo robusto. Es su personalidad la que realmente encanta a los dueños de mascotas en todo el mundo. Los Pixie-bobs son famosos por su temperamento cariñoso, leal y social. Les encanta estar con su familia humana y a menudo forman vínculos estrechos con sus dueños. Son conocidos por seguir a sus dueños por toda la casa, buscando su atención y cariño.
+      <br>
+      <br>
+      Este gato es inteligente y disfruta de los juegos que desafían su mente. No es raro ver a un Pixie-bob solucionando rompecabezas de juguetes para gatos o aprendiendo nuevos trucos. También tienen un lado activo y disfrutan de los juegos que les permiten moverse y gastar energía.
+      <br>
+      <br>
+      Otro aspecto a tener en cuenta del Pixie-bob es su tolerancia con otros animales. A menudo se llevan bien con los perros, lo que los convierte en una excelente opción para hogares con múltiples mascotas. Además, su naturaleza pacífica y amigable hace que sean buenos compañeros para los niños.
+      <br>
+      <br>
+      En resumen, el Pixie-bob es un gato que lo tiene todo: una apariencia impresionante, un temperamento encantador y un nivel de lealtad y afecto que es difícil de igualar. Son una elección excelente para cualquier persona que busca una mascota cariñosa y atractiva que pueda convertirse en una parte adorada de su hogar.
+    `,
+    history: `
+      La historia de la raza Pixie-bob es intrigante y está llena de misterio y curiosidad. Al igual que muchas razas de gatos, el Pixie-bob tiene un pasado lleno de anécdotas interesantes, y se cree que sus orígenes están arraigados en los gatos salvajes norteamericanos.
+      <br>
+      <br>
+      La fundadora de la raza, Carol Ann Brewer, compró el primer Pixie-bob en 1985. La historia cuenta que Brewer se encontró con un gato bobcat, o lince rojo, en las montañas de Cascade, Washington, y se encariñó con él. Un año después, se encontró con una camada de gatitos cuya madre era un gato doméstico de pelo corto y se cree que el padre era el mismo lince rojo. Uno de estos gatitos fue adoptado por Brewer y se llamó "Pixie". Pixie se convirtió en el fundamento de la raza Pixie-bob y por eso lleva su nombre.
+      <br>
+      <br>
+      Desde entonces, Brewer y otros entusiastas de la raza han trabajado para promover y preservar la raza Pixie-bob, criando estos gatos únicos y cautivadores. Debido a su apariencia salvaje, hay un mito persistente de que el Pixie-bob es una mezcla entre un lince rojo y un gato doméstico, aunque esto se ha desacreditado y no hay pruebas genéticas que respalden esta afirmación. Sin embargo, esta creencia ha dado al Pixie-bob un aire de misterio y fascinación.
+      <br>
+      <br>
+      A lo largo de los años, el Pixie-bob ha ido ganando reconocimiento. La raza fue reconocida por primera vez por The International Cat Association (TICA) en 1994, y desde entonces ha ganado popularidad. Aunque no es tan conocido como algunas otras razas, el Pixie-bob ha ganado un seguimiento leal de entusiastas de los gatos que aprecian su personalidad única y su impresionante apariencia.
+      <br>
+      <br>
+      A pesar de la relativa novedad de la raza, los Pixie-bobs han demostrado tener un impacto duradero en el mundo de los gatos. Estos gatos intrigantes y maravillosos han sido criados para tener una apariencia similar a la del lince rojo, con una estructura corporal robusta, una cola corta, y una personalidad encantadora y social.
+      <br>
+      <br>
+      A día de hoy, la raza Pixie-bob sigue cautivando a los amantes de los gatos con su aspecto salvaje y su naturaleza afectuosa. Los criadores continúan trabajando para mantener y mejorar las características de la raza, y el Pixie-bob sigue encontrando su camino en más hogares en todo el mundo. A medida que más personas descubren el atractivo único de esta raza, es seguro decir que el futuro del Pixie-bob parece brillante.
+      <br>
+      <br>
+      En resumen, la historia del Pixie-bob es tan única como la raza misma. Desde su origen misterioso y fascinante hasta su estatus actual como una raza querida por muchos, la historia del Pixie-bob es una narración cautivadora que añade otra capa de encanto a estos gatos maravillosos. Si te encuentras con un Pixie-bob, puedes estar seguro de que estás interactuando con una raza que tiene una rica historia y un futuro emocionante.
+    `,
+  },
+  raga: {
+    weight: {
+      imperial: '8 - 20',
+      metric: '4 - 9',
+    },
+    id: 'raga',
+    name: 'Ragamuffin',
+    cfa_url: 'http://cfa.org/Breeds/BreedsKthruR/Ragamuffin.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/ragamuffin',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/ragamuffin',
+    temperament: 'Afectuoso, Amigable, Gentil, Calmo',
+    origin: 'Estados Unidos',
+    country_codes: 'US',
+    country_code: 'US',
+    life_span: '12 - 16',
+    indoor: 0,
+    lap: 1,
+    alt_names: '',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 3,
+    grooming: 3,
+    health_issues: 3,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 3,
+    stranger_friendly: 5,
+    vocalisation: 1,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://es.wikipedia.org/wiki/Ragamuffin_(gato)',
+    hypoallergenic: 0,
+    reference_image_id: 'SMuZx-bFM',
+    image: 'https://cdn2.thecatapi.com/images/SMuZx-bFM.jpg',
+    perks: [
+      'Afectuoso con todos los miembros de la familia',
+      'Adaptable a los cambios de rutina',
+      'Ideal para vivir en apartamentos',
+      'Buen compañero para niños',
+    ],
+    necesidades_especiales: [
+      'Alimentación balanceada',
+      'Espacios tranquilos',
+      'Juguetes para mantenerlo activo',
+    ],
+    color: ['Blanco', 'Negro', 'Marrón'],
+    enfermedades_comunes: [
+      'Enfermedad renal',
+      'Enfermedad del tracto urinario inferior',
+      'Obesidad',
+    ],
+    fuentes: [
+      'http://cfa.org/Breeds/BreedsKthruR/Ragamuffin.aspx',
+      'http://www.vetstreet.com/cats/ragamuffin',
+      'https://vcahospitals.com/know-your-pet/cat-breeds/ragamuffin',
+    ],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Moderado',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Moderada',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Ragamuffin',
+      'Gato',
+      'Estados Unidos',
+      'Ragamuffin',
+      'Ragamufin',
+      'Ragamuffin gato',
+      'Gato Ragamuffin',
+      'Gato amigable',
+      'Gato cariñoso',
+      'Ragamuffin de Estados Unidos',
+      'Gato tranquilo',
+      'Gato adaptable',
+      'Raza de gato amigable con niños',
+      'Gato inteligente',
+      'Gato afectuoso',
+      'Gato pacífico',
+      'Ragamuffin apto para departamentos',
+      'Raza de gato sociable',
+      'Ragamuffin tolerante',
+      'Ragamufin cariñoso',
+      'Gato de compañía ideal',
+      'Gato para familia',
+      'Raza de gato paciente',
+      'Ragamufin apto para niños',
+      'Raza de gato con buen temperamento',
+      'Ragamuffin amigable',
+      'Ragamufin de buen temperamento',
+      'Gato Ragamufin',
+    ],
+    description: `
+      Los gatos Ragamuffin son de las razas más peculiares y cautivantes en el mundo de los felinos. A primera vista, es difícil no quedar impresionado por su aspecto magnífico. Son gatos grandes, sólidos y musculosos, con un pelaje de pelo semi largo que puede variar en color y patrón. Este manto denso y peludo es de textura sedosa y requiere de un cepillado regular para mantenerlo en su mejor estado. Sus ojos son de un tamaño considerable y suelen ser de un color verde vivo, aunque también pueden ser dorados, cobre o azul. La apariencia suave y encantadora de estos gatos es tan atractiva que uno no puede evitar sentirse atraído por ellos.
+      <br>
+      <br>
+      El Ragamuffin es un gato muy cariñoso y amigable. Le encanta estar con las personas y es muy afectuoso, tanto que a menudo se le describe como un gato "tipo perro". Siguen a sus dueños por la casa, se acurrucan en sus regazos y les encanta ser acariciados y abrazados. Son excelentes compañeros de cama y sofá, y están siempre dispuestos a participar en actividades familiares.
+      <br>
+      <br>
+      Uno de los aspectos más distintivos de la personalidad del Ragamuffin es su temperamento tranquilo y amigable. No son de los gatos que se suben por las cortinas o corren por la casa como locos. Más bien, son tranquilos y apacibles, aunque también tienen sus momentos de juego y diversión. Su tolerancia y paciencia los hace ideales para hogares con niños, ya que disfrutan de la compañía de los más pequeños y son tolerantes con sus caricias y juegos.
+      <br>
+      <br>
+      El Ragamuffin es también una raza de gato muy inteligente. Son rápidos para aprender trucos y se adaptan fácilmente a nuevas situaciones y entornos. Son sociables y disfrutan de la compañía de otras mascotas, por lo que se llevan bien en hogares con otros animales.
+      <br>
+      <br>
+      A pesar de su tamaño, el Ragamuffin no es un gato que requiera mucho ejercicio. Son felices simplemente acurrucados en un lugar cálido, aunque disfrutan de una sesión de juego ocasional. También son conocidos por su amor a los juguetes y pueden pasar horas jugando con sus favoritos.
+      <br>
+      <br>
+      En términos de salud, el Ragamuffin es generalmente una raza saludable, aunque puede ser propenso a algunas afecciones genéticas. Es importante llevar a cabo chequeos veterinarios regulares y mantener al día sus vacunas para asegurarse de que se mantengan saludables.
+      <br>
+      <br>
+      En resumen, el Ragamuffin es un gato de apariencia impresionante, con un temperamento afectuoso y tranquilo. Su dulzura, inteligencia y sociabilidad hacen de ellos excelentes mascotas y compañeros para cualquier hogar. Ya sea que busques un compañero tranquilo para relajarte en el sofá, o un amigo peludo con quien jugar y compartir tus días, el Ragamuffin es una elección ideal.
+    `,
+    history: `
+      La historia de la raza Ragamuffin es tan intrigante y cautivadora como los propios gatos. La raza es relativamente joven en el mundo felino y tiene raíces en otro gato famoso: el Ragdoll. Para entender completamente la historia del Ragamuffin, necesitamos remontarnos a los inicios del Ragdoll en la década de 1960.
+      <br>
+      <br>
+      Todo comenzó con una criadora de gatos llamada Ann Baker en Riverside, California. Baker era dueña de una gata doméstica de pelo blanco llamada Josephine y notó que sus crías eran excepcionalmente mimosas y relajadas, tanto que sus cuerpos se volvían flojos y flexibles cuando eran levantados, de ahí el nombre "Ragdoll". A través de una selección cuidadosa y una cría selectiva, Baker estableció la raza Ragdoll.
+      <br>
+      <br>
+      En la década de 1990, un grupo de criadores de Ragdoll decidió separarse de la asociación original establecida por Baker debido a desacuerdos sobre la gestión de la raza y los derechos de cría. Este grupo de criadores decidió crear una nueva raza de gato que mantuviera las características amadas del Ragdoll pero que permitiera más variaciones en términos de colores y patrones de pelaje. Fue así como nació la raza Ragamuffin.
+      <br>
+      <br>
+      El proceso para obtener el reconocimiento formal para la raza fue un desafío. Los criadores tuvieron que demostrar que el Ragamuffin era genéticamente distinto del Ragdoll. Además, tuvieron que superar la resistencia de aquellos que estaban preocupados por la posibilidad de que la nueva raza diluyera la pureza del Ragdoll. Pero los criadores del Ragamuffin estaban decididos y se mantuvieron firmes en su compromiso con la raza.
+      <br>
+      <br>
+      Finalmente, en 2003, la Cat Fanciers' Association (CFA) reconoció oficialmente al Ragamuffin como una raza distinta. Esto fue un hito importante para los criadores de Ragamuffin, ya que la CFA es una de las organizaciones de registro de gatos más grandes y respetadas del mundo. El reconocimiento de la CFA dio al Ragamuffin la credibilidad y el estatus que los criadores habían estado buscando.
+      <br>
+      <br>
+      Desde entonces, la raza Ragamuffin ha crecido en popularidad. Aunque no son tan conocidos como algunas de las razas de gatos más antiguas, los Ragamuffins han ganado un lugar especial en los corazones de los amantes de los gatos en todo el mundo. Su naturaleza dulce y su hermoso pelaje los hacen irresistibles para muchos.
+      <br>
+      <br>
+      La historia del Ragamuffin es una de determinación y dedicación. Los criadores que trabajaron para establecer la raza enfrentaron obstáculos y desafíos, pero nunca dejaron que eso les desanimara. En su lugar, trabajaron incansablemente para garantizar que estos maravillosos gatos recibieran el reconocimiento que merecen. La historia del Ragamuffin continúa hoy, con cada nueva generación de gatos y criadores que trabajan para preservar y promover esta raza única.
+    `,
+  },
+  ragd: {
+    weight: {
+      imperial: '12 - 20',
+      metric: '5 - 9',
+    },
+    id: 'ragd',
+    name: 'Ragdoll',
+    cfa_url: 'http://cfa.org/Breeds/BreedsKthruR/Ragdoll.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/ragdoll',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/ragdoll',
+    temperament: 'Afectuoso, Amigable, Gentil, Silencioso, Tranquilo',
+    origin: 'Estados Unidos',
+    country_codes: 'US',
+    country_code: 'US',
+    life_span: '12 - 17',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Muñeca de trapo',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 3,
+    grooming: 2,
+    health_issues: 3,
+    intelligence: 3,
+    shedding_level: 3,
+    social_needs: 5,
+    stranger_friendly: 3,
+    vocalisation: 1,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Ragdoll',
+    hypoallergenic: 0,
+    reference_image_id: 'oGefY4YoG',
+    image: 'https://cdn2.thecatapi.com/images/qBqs3R_w4.jpg',
+    perks: [
+      'Gato ideal para el regazo',
+      'Baja vocalización',
+      'Altamente adaptable',
+      'Amigable con los niños y los perros',
+    ],
+    necesidades_especiales: ['Requiere socialización frecuente'],
+    color: ['Blanco', 'Azul', 'Chocolate'],
+    enfermedades_comunes: ['Cardiomiopatía hipertrófica', 'Distrofia muscular'],
+    fuentes: [
+      'http://cfa.org/Breeds/BreedsKthruR/Ragdoll.aspx',
+      'https://vcahospitals.com/know-your-pet/cat-breeds/ragdoll',
+      'https://en.wikipedia.org/wiki/Ragdoll',
+    ],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Moderado',
+    popularidad: 'Alta',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Grande',
+    searchTerms: [
+      'Ragdoll',
+      'Muñeca de trapo',
+      'Gato de regazo',
+      'Gato tranquilo',
+      'Ragdoll',
+      'Rag doll',
+      'Muñeca de trapo',
+      'Gato Ragdoll',
+      'Ragdol',
+      'Ragdoll gato',
+      'Gato amigable',
+      'Gato afectuoso',
+      'Gato gentil',
+      'Gato silencioso',
+      'Gato tranquilo',
+      'Gato ideal para el regazo',
+      'Gato grande',
+      'Gato de Estados Unidos',
+      'Gato para familia',
+      'Gato amigable con perros',
+      'Ragdool',
+      'Ragdoll de pelo largo',
+      'Gato de pelo largo',
+      'Gato social',
+      'Gato adaptable',
+      'Ragdoll amigable',
+      'Gato Ragdoll blanco',
+      'Gato Ragdoll azul',
+      'Gato Ragdoll chocolate',
+      'Gato cariñoso',
+      'Ragdoll cariñoso',
+      'Ragdoll para niños',
+      'Gato para niños',
+      'Gato de compañía',
+    ],
+    description: `
+      El Ragdoll, cuyo nombre se traduce literalmente como "muñeca de trapo", es una raza de gato que fascina a todos con su naturaleza encantadora y su pelaje excepcionalmente suave y sedoso. Con su elegante apariencia y una personalidad excepcionalmente amigable, este felino se ha ganado el corazón de muchos amantes de los gatos alrededor del mundo.
+      <br>
+      <br>
+      Esta raza es grande y musculosa, lo que le da una presencia muy imponente. Los machos pueden pesar entre 6 a 9 kilogramos, mientras que las hembras suelen ser un poco más pequeñas, pesando entre 4 a 6 kilogramos. Pero su tamaño es suavizado por su pelaje semi-largo, que es espeso y suave al tacto, añadiendo una sensación de magnificencia a su apariencia. El pelaje es generalmente más largo alrededor del cuello y la cola, dándoles una apariencia similar a la de un león.
+      <br>
+      <br>
+      El patrón de color más comúnmente asociado con los Ragdoll es el colorpoint, donde las orejas, la cara, las patas y la cola son de un color más oscuro que el resto del cuerpo. Sin embargo, también pueden venir en otros patrones y colores, como el bicolor y el mitted, que presentan variaciones interesantes y hermosas.
+      <br>
+      <br>
+      Lo que realmente distingue a los Ragdoll de otras razas de gatos es su temperamento inusualmente dócil. Estos gatos son famosos por su tendencia a relajarse y a "desplomarse" en los brazos de sus dueños, de ahí su nombre. Son muy amigables, a menudo siguiendo a sus dueños de habitación en habitación para estar cerca de ellos. Tienen un temperamento calmado y tranquilo, a menudo se les describe como "gatos perro" debido a su tendencia a buscar la compañía de las personas y su facilidad para ser manejados.
+      <br>
+      <br>
+      A pesar de su apariencia majestuosa, los Ragdoll son gatos muy juguetones y disfrutan de actividades que involucran interacción con sus dueños. Aunque no son conocidos por sus habilidades de trepar, les encanta jugar con juguetes y pueden aprender a traer juguetes de vuelta para seguir jugando.
+      <br>
+      <br>
+      El Ragdoll es un gato ideal para familias, ya que se lleva bien con los niños y otros animales. Son pacientes y tolerantes, y su naturaleza sociable los hace muy compatibles con un hogar lleno de actividad. Son gatos ideales para tener en interiores ya que su personalidad calmada y su bajo nivel de energía los hacen menos propensos a los problemas de comportamiento asociados con la falta de estímulo exterior.
+      <br>
+      <br>
+      En cuanto a su salud, los Ragdoll son generalmente gatos sanos, pero como todas las razas, pueden ser susceptibles a ciertas condiciones genéticas. Por lo tanto, siempre es recomendable obtener a estos gatos de criadores responsables que hagan pruebas genéticas a sus gatos para asegurar que están produciendo gatos sanos.
+      <br>
+      <br>
+      En resumen, los Ragdoll son una raza de gato realmente encantadora, tanto por su apariencia como por su personalidad. Su naturaleza amigable y relajada, junto con su hermoso pelaje, los convierten en excelentes compañeros. Ya sea que estés buscando un gato para una familia, o simplemente un compañero cariñoso para compartir tu hogar, el Ragdoll podría ser la elección perfecta.
+    `,
+    history: `
+      La historia del gato Ragdoll es fascinante y misteriosa a partes iguales, un viaje que comienza en la década de 1960 en Riverside, California, con una criadora llamada Ann Baker. La leyenda de esta raza única se construye alrededor de Baker y de una gata blanca de pelo semilargo llamada Josephine.
+      <br>
+      <br>
+      Josephine era una gata callejera de características ordinarias, pero Baker notó que poseía una naturaleza excepcionalmente dócil y un pelaje especialmente suave. Cuando Josephine dio a luz a una camada de gatitos, Baker observó que estos gatitos parecían compartir la misma dulzura y el mismo pelo sedoso que su madre. Esta observación fue el inicio del desarrollo de la raza Ragdoll.
+      <br>
+      <br>
+      Baker, fascinada por las características de estos gatitos, empezó un programa de cría selectiva con la descendencia de Josephine. Comenzó a seleccionar los gatitos con los rasgos que más le gustaban: la dulzura, la relajación física extrema y el pelaje suave. Al cruzar estos gatitos con gatos de otras razas que tenían características similares, empezó a obtener las características que ahora asociamos con la raza Ragdoll.
+      <br>
+      <br>
+      Los Ragdolls se ganaron su nombre debido a su tendencia a relajarse y volverse "blandos como un muñeco de trapo" cuando se les levanta o se les mima. Baker afirmaba que esta característica era el resultado de una mutación genética en la raza. Además, durante la creación de la raza, Baker afirmó muchas cosas extravagantes sobre estos gatos, desde que tenían una resistencia al dolor hasta que su relajación física era el resultado de los experimentos genéticos realizados en extraterrestres. Estas afirmaciones no tenían base científica y fueron ampliamente refutadas, pero añadieron un aire de misterio a la raza que sigue siendo una parte curiosa de su historia.
+      <br>
+      <br>
+      A pesar de las extrañas afirmaciones de Baker, la raza Ragdoll comenzó a ganar popularidad. En 1971, Baker fundó el International Ragdoll Cat Association (IRCA) para promover la raza y establecer su estándar. Sin embargo, sus métodos de cría y sus estrictas restricciones de registro y venta de Ragdolls crearon controversia entre los criadores.
+      <br>
+      <br>
+      En la década de 1980, un grupo de criadores decidió separarse de Baker y del IRCA. Estos criadores, deseosos de ver la raza reconocida por las principales organizaciones de felinos, formaron la Ragdoll Fanciers Club International y empezaron a trabajar para obtener el reconocimiento de la raza. Después de años de trabajo y de superar la controversia asociada a los primeros días de la raza, los Ragdolls fueron finalmente reconocidos por la Cat Fanciers' Association (CFA) y la The International Cat Association (TICA) en la década de 1990.
+      <br>
+      <br>
+      Desde entonces, la raza Ragdoll ha continuado creciendo en popularidad. Hoy en día, estos gatos se conocen y se aman en todo el mundo por su increíble temperamento y su magnífico pelaje. La fascinante historia de la raza, llena de misterio y controversia, es solo una parte más de lo que hace a los Ragdolls tan únicos.
+    `,
+  },
+  rblu: {
+    weight: {
+      imperial: '5 - 11',
+      metric: '2 - 5',
+    },
+    id: 'rblu',
+    name: 'Azul Ruso',
+    cfa_url: 'http://cfa.org/Breeds/BreedsKthruR/RussianBlue.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/russian-blue-nebelung',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/russian-blue',
+    temperament:
+      'Activo, Dependiente, Tranquilo, Suave, Inteligente, Leal, Juguetón, Silencioso',
+    origin: 'Rusia',
+    country_codes: 'RU',
+    country_code: 'RU',
+    life_span: '10 - 16',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Azul Archangel, Gato Archangel',
+    adaptability: 3,
+    affection_level: 3,
+    child_friendly: 3,
+    dog_friendly: 3,
+    energy_level: 3,
+    grooming: 3,
+    health_issues: 1,
+    intelligence: 3,
+    shedding_level: 3,
+    social_needs: 3,
+    stranger_friendly: 1,
+    vocalisation: 1,
+    experimental: 0,
+    hairless: 0,
+    natural: 1,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Russian_Blue',
+    hypoallergenic: 1,
+    reference_image_id: 'Rhj-JsTLP',
+    image: 'https://cdn2.thecatapi.com/images/tHKLZkKZG.jpg',
+    perks: [
+      'No es muy vocal',
+      'Compatible con otros animales',
+      'Necesita una buena cantidad de ejercicio',
+    ],
+    necesidades_especiales: [],
+    color: ['Azul', 'Plateado'],
+    enfermedades_comunes: [],
+    fuentes: [
+      'http://cfa.org/Breeds/BreedsKthruR/RussianBlue.aspx',
+      'https://vcahospitals.com/know-your-pet/cat-breeds/russian-blue',
+    ],
+    para_primerizos: 'Moderada',
+    nivel_de_energia: 'Moderado',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Moderada',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Azul Ruso',
+      'Gato tranquilo',
+      'Gato juguetón',
+      'Gato leal',
+      'Azul Ruso',
+      'Gato Azul Ruso',
+      'Ruso Azul',
+      'Azulruso',
+      'Azul de Rusia',
+      'Ruso de Azul',
+      'Azul ruso',
+      'Gato de Rusia',
+      'Gato Ruso',
+      'Gato azul',
+      'Gato tranquilo',
+      'Gato silencioso',
+      'Gato juguetón',
+      'Gato leal',
+      'Gato de pelo corto',
+      'Gato de buen salud',
+      'Gato hipoalergénico',
+      'Azul Archangel',
+      'Gato Archangel',
+      'Gato amigable',
+      'Gato para familia',
+      'Gato para niños',
+      'Gato adaptable',
+      'Gato para departamento',
+      'Gato de interior',
+      'Gato inteligente',
+      'Gato activo',
+      'Gato con alta expectativa de vida',
+      'Gato de tamaño mediano',
+      'Gato con ojos verdes',
+      'Russian Blue',
+      'Blue',
+      'Russian',
+      'Azul',
+      'Ruso',
+    ],
+    description: `
+      El Azul Ruso, es una raza de gato que como su nombre indica, se originó en Rusia, pero que ha conquistado corazones alrededor del mundo con su manto elegante de un azul plateado y sus ojos de color verde esmeralda. La raza es conocida por su naturaleza afectuosa, su elegante apariencia y su astucia. No solo son atractivos, sino que también son compañeros maravillosos.
+      <br>
+      <br>
+      La belleza del Azul Ruso no es solo superficial. Estos gatos son notables por su maravillosa personalidad. Son conocidos por su lealtad y por formar vínculos estrechos con sus dueños. Son afectuosos y tiernos, a menudo siguiendo a sus dueños de una habitación a otra y acurrucándose en sus regazos para disfrutar de un poco de tiempo de calidad. A pesar de este amor por la compañía, los Azules Rusos son gatos discretos y tranquilos, no son muy ruidosos ni exigen demasiada atención.
+      <br>
+      <br>
+      Estos gatos son famosos por su inteligencia, son rápidos para aprender nuevos trucos y pueden resolver problemas complejos con facilidad. Disfrutan de los juguetes interactivos y los rompecabezas, los cuales son una excelente manera de mantener su mente ocupada y comprometida. Es importante proporcionarles un entorno estimulante para mantenerlos mentalmente satisfechos.
+      <br>
+      <br>
+      El Azul Ruso tiene una apariencia única que lo distingue de otras razas de gatos. Su pelaje es de un color azul-gris plateado, que es corto, denso y muy suave al tacto. Poseen una estructura corporal musculosa, pero su pelaje denso puede darles una apariencia más rechoncha. Su cabeza tiene forma de cuña con un cráneo plano, y sus ojos son grandes y redondos de un color verde brillante que contrasta maravillosamente con su pelaje azul. Las orejas son grandes y anchas en la base, y su cola es larga y afinándose hacia la punta.
+      <br>
+      <br>
+      En términos de salud, los Azules Rusos son generalmente una raza sana. No tienen ninguna predisposición genética conocida a las enfermedades específicas de la raza. Sin embargo, suelen tener un buen apetito, lo que puede llevar a problemas de sobrepeso si no se controla su dieta y se asegura que tienen suficiente ejercicio.
+      <br>
+      <br>
+      En cuanto a su cuidado, el pelaje del Azul Ruso es relativamente bajo mantenimiento. No es propenso a enmarañarse o formar nudos, pero se beneficiará de un cepillado regular para eliminar los pelos sueltos y mantener su pelaje luciendo lo mejor posible. Además, esto ayuda a minimizar la cantidad de pelo que pueden soltar en la casa.
+      <br>
+      <br>
+      El Azul Ruso es una raza maravillosa que puede ser un gran complemento para una variedad de hogares. Ya sea que estés buscando un compañero tranquilo y leal, o un gato juguetón e inteligente, el Azul Ruso puede ser la elección perfecta. Son gatos que se adaptan bien a la vida en interiores y pueden llevarse bien con otras mascotas y niños, siempre que se les introduzca correctamente y se les trate con respeto. Sin duda, es una raza que brinda un equilibrio perfecto entre la diversión y la tranquilidad, y su atractivo es tan profundo como el color de su pelaje.
+    `,
+    history: `
+      La historia de la raza de gatos Azul Ruso es fascinante y se extiende a lo largo de muchos siglos, con un aura de misterio que aún perdura hasta nuestros días. Estos elegantes gatos, con su pelaje azul-gris y sus intensos ojos verdes, tienen sus raíces en la Madre Rusia, más específicamente en el puerto de Arkhangelsk, al norte de Rusia, que es también conocido como "Archangel". De ahí que, en ocasiones, a estos gatos también se les llame "Gatos Arcángeles".
+      <br>
+      <br>
+      Los primeros registros del Azul Ruso se remontan a finales del siglo XVIII y principios del siglo XIX, cuando los navegantes británicos que comerciaban con Rusia trajeron a estos gatos únicos a Inglaterra. Se dice que estos marineros estaban tan cautivados por la belleza y el temperamento sereno de estos gatos que decidieron llevarlos de vuelta a casa como mascotas exóticas. Estos gatos se hicieron populares rápidamente entre la aristocracia británica, y comenzaron a aparecer en las primeras exposiciones de gatos a finales del siglo XIX. En 1875, un Azul Ruso llamado "Kola" fue exhibido en la Crystal Palace Cat Show en Londres, marcando el debut oficial de la raza en la escena de las exposiciones de gatos.
+      <br>
+      <br>
+      A pesar de su popularidad inicial, la raza Azul Ruso experimentó un declive a principios del siglo XX, especialmente durante las Guerras Mundiales, cuando la cría de gatos no era una prioridad y muchas razas de gatos estuvieron al borde de la extinción. Después de la Segunda Guerra Mundial, la población de Azules Rusos era tan baja que los criadores tuvieron que cruzarlos con gatos Siameses y Azules Británicos para mantener la raza viva. Como resultado, el estándar de la raza cambió, y los Azules Rusos adquirieron un tipo de cuerpo más elegante y una cabeza más angular.
+      <br>
+      <br>
+      Sin embargo, a finales de la década de 1960, los criadores de gatos en Escandinavia y el Reino Unido comenzaron a trabajar para preservar la "antigua" línea del Azul Ruso, criando gatos que tenían las características originales de la raza. Esta iniciativa fue exitosa, y hoy en día existen dos variedades distintas del Azul Ruso: la variedad "moderna", que es más delgada y angular, y la variedad "tradicional", que es más robusta y tiene una cabeza más redondeada.
+      <br>
+      <br>
+      En los Estados Unidos, el Azul Ruso fue reconocido por la Cat Fanciers' Association (CFA) en 1949, y ha disfrutado de un lugar en el corazón de los amantes de los gatos americanos desde entonces. Aunque la raza no es tan común como otras, como el Persa o el Maine Coon, el Azul Ruso es muy apreciado por su hermoso pelaje, su personalidad afectuosa y su interesante historia.
+      <br>
+      <br>
+      La historia del Azul Ruso es un testamento de la resiliencia y la adaptabilidad de esta raza. A pesar de los desafíos que ha enfrentado a lo largo de los siglos, el Azul Ruso ha resistido el paso del tiempo y continúa cautivando a los amantes de los gatos en todo el mundo con su encanto único. Este gato digno y misterioso, con sus raíces en las tierras heladas del norte de Rusia, ha viajado por todo el mundo para encontrar su lugar en nuestros hogares y nuestros corazones. Y su historia sigue siendo escrita con cada gato Azul Ruso que trae alegría y belleza a la vida de sus dueños.
+    `,
+  },
+  sava: {
+    weight: {
+      imperial: '8 - 25',
+      metric: '4 - 11',
+    },
+    id: 'sava',
+    name: 'Savannah',
+    cfa_url: '',
+    vetstreet_url: 'http://www.vetstreet.com/cats/savannah',
+    vcahospitals_url: '',
+    temperament:
+      'Curioso, Social, Inteligente, Leal, Extrovertido, Aventurero, Afectuoso',
+    origin: 'Estados Unidos',
+    country_codes: 'US',
+    country_code: 'US',
+    life_span: '17 - 20',
+    indoor: 0,
+    lap: 1,
+    alt_names: '',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 5,
+    grooming: 1,
+    health_issues: 1,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 5,
+    stranger_friendly: 5,
+    vocalisation: 1,
+    experimental: 1,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Savannah_cat',
+    hypoallergenic: 0,
+    reference_image_id: 'a8nIYvs6S',
+    image: 'https://cdn2.thecatapi.com/images/ctHlkAH3L.jpg',
+    perks: [
+      'Leal',
+      'Social',
+      'Inteligente',
+      'Aventurero',
+      'Requiere poca atención en el pelaje',
+    ],
+    necesidades_especiales: [],
+    color: ['Marrón', 'Negro', 'Plata'],
+    enfermedades_comunes: [],
+    fuentes: ['https://en.wikipedia.org/wiki/Savannah_cat'],
+    para_primerizos: 'Moderada',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    tolerancia_a_la_soledad: 'Moderada',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Grande',
+    searchTerms: [
+      'Savannah',
+      'Gato Savannah',
+      'Gato Grande',
+      'Gato Leal',
+      'Gato Aventurero',
+      'Savannah',
+      'Sabana',
+      'Savanna',
+      'Savana',
+      'Gato Savannah',
+      'Gato Sabana',
+      'Gato de gran tamaño',
+      'Gato aventurero',
+      'Gato inteligente',
+      'Gato leal',
+      'Gato social',
+      'Gato curioso',
+      'Gato afectuoso',
+      'Gato con alta energía',
+      'Gato originario de Estados Unidos',
+      'Gato de raza Savannah',
+      'Gato de pelo corto',
+      'Gato adaptado para clima cálido',
+      'Gato para familias',
+      'Gato resistente',
+      'Gato amigable con perros',
+      'Gato amigable con niños',
+      'Savannah cat',
+      'Raza de gato Savannah',
+      'Raza de gato Sabana',
+      'Sabannah',
+      'Saavannah',
+      'Gato de gran adaptabilidad',
+      'Gato con poca necesidad de aseo',
+      'Gato de vida larga',
+    ],
+    description: `
+      La raza de gato Savannah se destaca por su presencia majestuosa y su apariencia similar a la de un leopardo. Con sus manchas vibrantes, su estructura corporal atlética y su tamaño grande, esta raza capta la atención y conquista los corazones de los amantes de los gatos en todo el mundo.
+      <br>
+      <br>
+      El gato Savannah es una de las razas más grandes de gatos domésticos. Los gatos machos pueden llegar a pesar hasta 11 kilogramos, mientras que las hembras suelen ser un poco más pequeñas. Su cuerpo es largo, delgado y extremadamente ágil. Los Savannah son conocidos por su increíble habilidad para saltar, a menudo pueden alcanzar alturas de hasta dos metros.
+      <br>
+      <br>
+      Su pelaje es corto y fácil de mantener, tiene una textura ligeramente más gruesa en comparación con otras razas de gatos. El patrón más comúnmente asociado con la raza Savannah es el moteado, similar a los guepardos africanos. Las manchas varían en color desde el negro sólido hasta el marrón oscuro, mientras que el fondo puede ser dorado, crema o incluso blanco.
+      <br>
+      <br>
+      El gato Savannah tiene una cabeza en forma de cuña, con orejas grandes y puntiagudas que están ubicadas justo en la parte superior. Sus ojos son generalmente verdes, y tienen una forma ligeramente almendrada que se acentúa aún más por las oscuras "líneas de maquillaje" que a menudo se encuentran alrededor de los ojos y en las esquinas de los párpados.
+      <br>
+      <br>
+      Uno de los rasgos más distintivos de los Savannah es su temperamento. A pesar de su apariencia salvaje, son gatos extremadamente sociables y afectuosos. Les encanta jugar y necesitan mucha estimulación física y mental para mantenerse felices y saludables. Son muy inteligentes, y a menudo se les puede enseñar trucos e incluso a jugar a buscar como los perros. Son gatos leales que forman vínculos profundos con sus dueños.
+      <br>
+      <br>
+      Son gatos que disfrutan de la compañía de sus familias humanas y a menudo seguirán a sus dueños de habitación en habitación. También se llevan bien con otros animales, lo que los hace ideales para hogares con otros gatos o incluso perros.
+      <br>
+      <br>
+      El Savannah es una raza de gato muy vocal y a menudo se comunicará con sus dueños a través de una serie de chirridos, silbidos y maullidos. Este comportamiento de comunicación es una parte fascinante de su personalidad y algo que realmente los distingue de otras razas.
+      <br>
+      <br>
+      En resumen, la raza de gato Savannah es una raza excepcionalmente única con una apariencia impresionante y una personalidad encantadora. Con su tamaño grande, su pelaje exótico, su personalidad social y su inteligencia aguda, el Savannah ofrece una combinación de rasgos que son verdaderamente inigualables.
+    `,
+    history: `
+      La historia de la raza de gato Savannah es tan intrigante y fascinante como los propios gatos. Esta raza de gato, conocida por su tamaño imponente y su apariencia similar a la de los felinos salvajes, tiene sus raíces en un cruce experimental que une el mundo de los gatos domésticos con el de los felinos exóticos.
+      <br>
+      <br>
+      La raza Savannah es relativamente nueva y su historia comienza a finales del siglo XX. Fue en 1986 cuando una criadora de gatos de Pennsylvania, Judee Frank, tuvo la curiosidad de cruzar un macho de serval, un felino salvaje de origen africano, con una gata doméstica siamesa. El resultado de este cruce experimental fue una hembra a la que se llamó Savannah. Es por eso que la raza lleva este nombre en honor a la primera gata de su tipo.
+      <br>
+      <br>
+      La hazaña de Judee Frank captó la atención de Patrick Kelley, un entusiasta de los gatos, quien decidió que quería tener un gato como Savannah. Kelley se convirtió en el primer propietario registrado de un gato Savannah y comenzó a abogar por su aceptación como una nueva raza de gato.
+      <br>
+      <br>
+      Kelley no estaba solo en su interés por estos gatos únicos. Se asoció con Joyce Sroufe, otra criadora de gatos, y juntos comenzaron a promover la raza Savannah y a trabajar en su desarrollo. Fue Sroufe quien escribió la primera descripción estándar de la raza y quien realmente puso a los Savannah en el mapa.
+      <br>
+      <br>
+      En 1996, la Asociación Internacional de Gatos (TICA, por sus siglas en inglés) aceptó el estándar de la raza Savannah propuesto por Sroufe y Kelley y admitió a la raza en su registro. Sin embargo, no fue hasta el año 2001 que los Savannah se registraron oficialmente como una raza nueva en TICA.
+      <br>
+      <br>
+      Desde ese momento, la popularidad de los Savannah ha crecido de forma exponencial. Los criadores de todo el mundo han mostrado interés en esta raza y han trabajado para preservar y mejorar las características distintivas de los Savannah. Debido a su origen híbrido, los Savannah se dividen en generaciones, siendo la F1 la más cercana al serval original y cada generación subsiguiente es el resultado de cruzar un Savannah con otro Savannah o con otro gato doméstico.
+      <br>
+      <br>
+      Cabe destacar que, aunque los Savannah son conocidos por su tamaño y apariencia exóticos, la raza ha sido criada para tener el temperamento de un gato doméstico. Esta combinación de apariencia salvaje y naturaleza amigable es lo que realmente hace a los Savannah únicos.
+      <br>
+      <br>
+      Hoy en día, los Savannah son amados y apreciados en todo el mundo por su apariencia única y su personalidad encantadora. Son una prueba viviente de lo que se puede lograr a través de la crianza cuidadosa y considerada, y son un verdadero testimonio de la belleza y diversidad del mundo de los gatos. Aunque son relativamente nuevos en la escena felina, los Savannah han dejado una marca indeleble y han cautivado los corazones de los amantes de los gatos en todo el mundo.
+    `,
+  },
+  sfol: {
+    weight: {
+      imperial: '5 - 11',
+      metric: '2 - 5',
+    },
+    id: 'sfol',
+    name: 'Fold Escocés',
+    cfa_url: 'http://cfa.org/Breeds/BreedsSthruT/ScottishFold.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/scottish-fold-highland-fold',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/scottish-fold',
+    temperament:
+      'Afectuoso, Inteligente, Leal, Juguetón, Social, Dulce, Amoroso',
+    origin: 'Reino Unido',
+    country_codes: 'GB',
+    country_code: 'GB',
+    life_span: '11 - 14',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Scot Fold',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 3,
+    grooming: 1,
+    health_issues: 4,
+    intelligence: 3,
+    shedding_level: 3,
+    social_needs: 3,
+    stranger_friendly: 3,
+    vocalisation: 1,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://es.wikipedia.org/wiki/Scottish_Fold',
+    hypoallergenic: 0,
+    reference_image_id: 'o9t0LDcsa',
+    image: 'https://cdn2.thecatapi.com/images/JVITS8pXF.jpg',
+    perks: [
+      'Afectuoso',
+      'Dulce',
+      'Apto para niños',
+      'Amigable con perros',
+      'No requiere mucho aseo',
+    ],
+    necesidades_especiales: [],
+    color: ['Gris', 'Blanco', 'Crema'],
+    enfermedades_comunes: [
+      'Cardiomiopatía hipertrófica',
+      'Osteocondrodisplasia',
+    ],
+    fuentes: [
+      'http://cfa.org/Breeds/BreedsSthruT/ScottishFold.aspx',
+      'https://vcahospitals.com/know-your-pet/cat-breeds/scottish-fold',
+      'https://es.wikipedia.org/wiki/Scottish_Fold',
+    ],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Moderado',
+    popularidad: 'Alta',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Regular',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Fold Escocés',
+      'Gato afectuoso',
+      'Gato amigable con perros',
+      'Gato británico',
+      'Fold Escocés',
+      'Fold Escoces',
+      'Escocés Fold',
+      'Escoces Fold',
+      'Gato escocés',
+      'Gato escoces',
+      'Scot Fold',
+      'Gato de Escocia',
+      'Gato de escocia',
+      'Gato amigable',
+      'Gato cariñoso',
+      'Gato bueno con niños',
+      'Gato bueno con perros',
+      'Gato juguetón',
+      'Gato social',
+      'Gato dulce',
+      'Gato leal',
+      'Gato inteligente',
+      'Gato de baja energía',
+      'Gato con bajo mantenimiento',
+      'Gato de pelo corto',
+      'Gato amoroso',
+      'Gato afectuoso',
+      'Gato para familia',
+      'Gato para niños',
+      'Gato de vida interior',
+      'Gato de tamaño medio',
+      'Gato con problemas de salud',
+      'Gato de Reino Unido',
+      'Gato británico',
+    ],
+    description: `
+      El Fold Escocés, conocido también como Scottish Fold, es una raza de gato que se caracteriza principalmente por sus orejas únicas que, a diferencia de la mayoría de las razas de gatos, se doblan hacia adelante y hacia abajo, dando al gato una apariencia muy distintiva, casi como de búho. Este encanto inusual y atractivo es lo que a menudo atrae a las personas hacia la raza.
+      <br>
+      <br>
+      Su cuerpo es de tamaño mediano, con un buen desarrollo muscular que le otorga una sorprendente robustez. Poseen una estructura ósea sólida que, a pesar de su aparente delicadeza, es bastante fuerte y resistente. Sus patas son moderadamente largas y proporcionadas con el cuerpo, terminando en pies redondeados con almohadillas firmes.
+      <br>
+      <br>
+      El pelaje del Fold Escocés es de longitud corta a media, suave y sedoso al tacto, y puede presentarse en una amplia variedad de colores y patrones, incluyendo sólidos, tabbies, tortugas y colores de punta. Este gato es excepcionalmente bueno en mantener su pelaje limpio, por lo que requiere un mínimo de aseo.
+      <br>
+      <br>
+      Los ojos del Fold Escocés son grandes y bien separados, de forma redonda y de color brillante. La variedad de colores que los ojos pueden tener es amplia, pero siempre está en sintonía con el color del pelaje, dando un aspecto armónico al conjunto de su cara.
+      <br>
+      <br>
+      El Fold Escocés es muy conocido por su carácter afectuoso y equilibrado. Son gatos muy sociables, que disfrutan de la compañía de su familia humana y se llevan bien con niños y otros animales de compañía. Su temperamento amigable y sociable los hace una excelente opción para las familias. Aman jugar y pueden ser bastante traviesos, pero también saben apreciar un buen rato de descanso en el regazo de sus dueños.
+      <br>
+      <br>
+      Aunque les gusta jugar, no son gatos excesivamente activos, y su nivel de energía se describe como moderado. Son gatos inteligentes y curiosos que disfrutan de juguetes interactivos y desafíos mentales. Se sabe que adoptan posiciones inusuales al dormir, como acostarse de espaldas, lo que solo añade a su encanto.
+      <br>
+      <br>
+      A pesar de su naturaleza amigable y afectuosa, también son conocidos por su independencia y pueden pasar tiempo solos sin problemas, siempre y cuando no sea por períodos prolongados. Son leales a su familia y forman fuertes vínculos con sus dueños, por lo que pueden sufrir si se les deja solos por mucho tiempo.
+      <br>
+      <br>
+      Debido a su peculiar estructura de las orejas, el Fold Escocés puede ser propenso a problemas de salud específicos, por lo que se requiere una atención veterinaria regular y un enfoque cuidadoso hacia su salud.
+      <br>
+      <br>
+      En resumen, el Fold Escocés es un gato encantador, afectuoso y de fácil cuidado que puede ser un maravilloso compañero para una variedad de hogares. Su apariencia única y su personalidad amigable y juguetona seguramente cautivarán los corazones de todos los que tengan el placer de conocerlos.
+    `,
+    history: `
+      La fascinante historia del Fold Escocés se inicia en una granja en los Trossachs de Escocia, cerca de Coupar Angus, en el año 1961. En este lugar, una gata blanca de granja de nombre Susie fue descubierta con una peculiar mutación genética que provocaba que sus orejas se doblaran hacia adelante y hacia abajo. Esta característica única otorgaba a Susie una apariencia muy distintiva, similar a la de un búho, que atrajo la atención de un pastor local y amante de los gatos, William Ross.
+      <br>
+      <br>
+      Ross quedó fascinado con Susie y, al descubrir que la gata esperaba una camada, acordó con los dueños de la granja que le permitieran tener uno de sus gatitos si este heredaba las inusuales orejas dobladas. De esta manera, Ross y su esposa Mary adquirieron a Snooks, una gatita que heredó la peculiar característica de su madre.
+      <br>
+      <br>
+      Con Snooks como gata fundadora, los Ross comenzaron un programa de cría con el objetivo de desarrollar una nueva raza de gatos. En este proceso, el gen que causaba las orejas dobladas fue identificado como un gen dominante, lo que significa que cualquier gato con al menos un padre Fold tendría una probabilidad del 50% de heredar las orejas dobladas.
+      <br>
+      <br>
+      En 1966, la raza, nombrada Scottish Fold en honor a su lugar de origen y a su rasgo más característico, fue presentada al público en una exposición de gatos en Londres, donde despertó gran interés. Sin embargo, los expertos en genética advirtieron que el gen de las orejas dobladas podía estar asociado a problemas óseos, lo que llevó a que los registros de gatos en el Reino Unido se negaran a reconocer la raza.
+      <br>
+      <br>
+      A pesar de la controversia en Europa, la raza fue exportada a los Estados Unidos, donde el entusiasmo por estos gatos únicos continuó creciendo. Los criadores estadounidenses trabajaron arduamente para desarrollar la raza, enfocándose en minimizar el riesgo de problemas de salud. A través de una cuidadosa selección y cría, el Fold Escocés fue refinado y mejorado, y finalmente reconocido por la Cat Fanciers Association (CFA) en 1973 y por la International Cat Association (TICA) en 1979.
+      <br>
+      <br>
+      En la actualidad, el Fold Escocés es una raza popular y querida en todo el mundo, reconocida y apreciada por su dulce temperamento y su apariencia única. Sin embargo, las discusiones sobre su salud siguen siendo un tema de debate. Algunos países, como el Reino Unido y varios países europeos, todavía se niegan a reconocer la raza debido a las preocupaciones sobre los posibles problemas de salud asociados con el gen de las orejas dobladas.
+      <br>
+      <br>
+      A pesar de las controversias y desafíos, el Fold Escocés continúa encantando a los amantes de los gatos con su dulzura y su inconfundible apariencia. Gracias al trabajo constante y cuidadoso de los criadores dedicados, la raza sigue evolucionando y mejorando, siempre con el objetivo de preservar su salud y bienestar.
+      <br>
+      <br>
+      La historia del Fold Escocés es un recordatorio de que, a veces, la naturaleza tiene una manera única de sorprendernos y de que, con responsabilidad y cuidado, podemos ayudar a que estas maravillosas sorpresas sean compartidas y disfrutadas por muchos.
+    `,
+  },
+  srex: {
+    weight: {
+      imperial: '6 - 16',
+      metric: '3 - 7',
+    },
+    id: 'srex',
+    name: 'Selkirk Rex',
+    cfa_url: 'http://cfa.org/Breeds/BreedsSthruT/SelkirkRex.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/selkirk-rex',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/selkirk-rex',
+    temperament:
+      'Activo, Afectuoso, Dependiente, Suave, Paciente, Juguetón, Callado, Social',
+    origin: 'Estados Unidos',
+    country_codes: 'US',
+    country_code: 'US',
+    life_span: '14 - 15',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Gato Pastor',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 3,
+    grooming: 2,
+    health_issues: 4,
+    intelligence: 3,
+    shedding_level: 1,
+    social_needs: 3,
+    stranger_friendly: 3,
+    vocalisation: 3,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 1,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Selkirk_Rex',
+    hypoallergenic: 1,
+    reference_image_id: 'II9dOZmrw',
+    image: 'https://cdn2.thecatapi.com/images/l-LrP1VY4.jpg',
+    perks: [
+      'Afectuoso',
+      'Amigable con niños y perros',
+      'Necesita nivel moderado de aseo',
+    ],
+    necesidades_especiales: ['Necesita interacción social moderada'],
+    color: ['Gris', 'Blanco', 'Negro'],
+    enfermedades_comunes: ['Problemas óseos'],
+    fuentes: ['https://vcahospitals.com/know-your-pet/cat-breeds/selkirk-rex'],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Moderado',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Rex Selkirk',
+      'Gato de pelo rizado',
+      'Gato Pastor',
+      'Selkirk Rex',
+      'Selkirk',
+      'Rex',
+      'Gato Selkirk Rex',
+      'Rex Selkirk',
+      'Selkir Rex', // posibles errores ortográficos
+      'Selkirk Reks',
+      'Gato de pelo rizado', // características de la raza
+      'Gato rizado',
+      'Gato con rizos',
+      'Gato suave',
+      'Gato de los Estados Unidos', // origen
+      'Gato americano',
+      'Gato juguetón', // temperamento
+      'Gato cariñoso',
+      'Gato social',
+      'Gato paciente',
+      'Gato para niños', // buena relación con los niños
+      'Gato para familia',
+      'Gato amigable',
+      'Gato amigable con perros', // buena relación con perros
+      'Gato de Shepherd', // nombre alternativo
+      'Shepherd Cat',
+      'Gato Pastor',
+      'Raza Selkirk',
+      'Raza Rex',
+      'Gato de raza Selkirk Rex',
+      'Gato hipoalergénico', // características de la raza
+      'Gato para alérgicos',
+    ],
+    description: `
+      El Selkirk Rex es una raza verdaderamente fascinante, que capta inmediatamente la atención de todos con su aspecto único y atractivo. No sólo es notablemente encantador en apariencia, sino que también es amado por su personalidad cariñosa y juguetona, que lo convierte en una maravillosa compañía para cualquier hogar.
+      <br>
+      <br>
+      Quizás lo más destacado de este gato es su impresionante pelaje rizado. Este hermoso abrigo no es sólo un lujo visual, sino que también ofrece una sensación increíblemente suave y aterciopelada al tacto. Al igual que un cálido abrazo en un día frío, acariciar a un Selkirk Rex es una experiencia que despierta la comodidad y el confort. Su pelaje puede venir en una amplia gama de colores y patrones, desde sólidos hasta tabby, tortuga y colorpoint, lo que significa que cada Selkirk Rex tiene su propia apariencia distintiva y personal.
+      <br>
+      <br>
+      En cuanto a su cuerpo, el Selkirk Rex es un gato de tamaño mediano a grande, con una estructura muscular robusta y sólida. Posee unas patas fuertes y proporcionadas que terminan en pies redondeados, y una cola espesa y tupida que añade aún más a su apariencia suave y esponjosa.
+      <br>
+      <br>
+      El rostro del Selkirk Rex también es adorable, con mejillas llenas y ojos grandes y redondos que pueden ser de cualquier color. Sus orejas son de tamaño medio y están situadas bien separadas en la cabeza, dando lugar a una expresión amigable y accesible. Y, por supuesto, no podemos olvidarnos de sus encantadores bigotes rizados que hacen juego con su pelaje.
+      <br>
+      <br>
+      Pasando a su personalidad, el Selkirk Rex es un gato que disfruta tanto de la compañía como de sus propios momentos de tranquilidad. A pesar de su apariencia regordeta y suave, este gato es bastante juguetón y disfruta de una buena sesión de juegos, ya sea con sus juguetes favoritos o interactuando con su familia humana. Pero después de una buena dosis de juego, también aprecia una buena siesta en un lugar cómodo, preferiblemente en compañía de su dueño.
+      <br>
+      <br>
+      En cuanto a la convivencia, el Selkirk Rex se lleva bien con los niños y con otros animales, lo que lo convierte en un gran gato para familias o hogares con otros mascotas. Son amigables y sociables, aunque también pueden ser un poco reservados con los desconocidos al principio. Sin embargo, una vez que se sienten cómodos, son muy afectuosos y les encanta recibir y dar cariño.
+      <br>
+      <br>
+      En resumen, el Selkirk Rex es un gato asombroso que combina la belleza única de su pelaje rizado con una personalidad encantadora y amorosa. Su temperamento equilibrado y su adaptabilidad lo hacen adecuado para una variedad de hogares y estilos de vida. Ya sea que estés buscando un compañero de juegos activo o un gato suave y mimoso para acurrucarse en el sofá, el Selkirk Rex puede ser el gato perfecto para ti.
+    `,
+    history: `
+      El Selkirk Rex es una raza de gato relativamente nueva con una historia fascinante. Se distingue por su pelaje rizado, único entre las razas de gatos, que es el resultado de una mutación genética espontánea. Pero, ¿cómo llegó esta raza a ser reconocida y amada por los amantes de los gatos de todo el mundo? Bueno, eso es una historia que vale la pena contar.
+      <br>
+      <br>
+      La historia del Selkirk Rex comienza en el estado de Montana, en Estados Unidos, en el año 1987. Jeri Newman, una criadora de gatos persas, fue informada acerca de una camada de gatos nacidos en un refugio local donde uno de ellos tenía una particularidad muy llamativa: un pelaje rizado. Newman, intrigada por el pequeño gatito, lo adoptó y lo llamó Miss DePesto, en honor a un personaje de una popular serie de televisión de la época.
+      <br>
+      <br>
+      El pelaje rizado de Miss DePesto era el resultado de una mutación genética dominante, lo que significaba que al menos la mitad de sus descendientes también tendrían este pelaje rizado si se apareaba con gatos de pelo liso. Consciente de la posibilidad de crear una nueva raza de gatos, Newman decidió probar esta teoría y cruzó a Miss DePesto con un gato negro de pelo liso. El resultado fue una camada de seis gatitos, tres de los cuales tenían el pelo rizado, confirmando la teoría de Newman.
+      <br>
+      <br>
+      Newman, emocionada por el potencial de esta nueva raza, decidió nombrarla Selkirk, en honor a su padrastro, convirtiéndola en la única raza de gatos que lleva el nombre de una persona. La elección de "Rex" para el segundo nombre se debe a una convención en la denominación de los animales con pelaje rizado.
+      <br>
+      <br>
+      Una vez establecida la raza, Newman y otros criadores trabajaron durante años para expandir y perfeccionar la raza, cruzando los Selkirks con otras razas como los gatos exóticos de pelo corto, los persas, los himalayos y los británicos de pelo corto. Este amplio pool genético permitió no sólo asegurar la diversidad y la salud de la raza, sino también afinar sus características físicas y su temperamento.
+      <br>
+      <br>
+      El Selkirk Rex fue reconocido oficialmente por The International Cat Association (TICA) en 1992, sólo cinco años después de la aparición de Miss DePesto, lo cual es increíblemente rápido en el mundo de la cría de gatos. La Cat Fanciers' Association (CFA) y la American Cat Fanciers Association (ACFA) siguieron el ejemplo en 1998 y 2000, respectivamente.
+      <br>
+      <br>
+      Hoy en día, el Selkirk Rex es apreciado en todo el mundo por su apariencia distintiva y su temperamento afectuoso. A pesar de su relativa juventud como raza, el Selkirk Rex ha dejado una impresión duradera en el mundo de los gatos y continúa ganando corazones con su encantadora personalidad y su hermoso pelaje rizado. Sin duda, la historia del Selkirk Rex es un testimonio de cómo una mutación genética espontánea y un poco de curiosidad y determinación pueden dar lugar a algo verdaderamente especial.
+    `,
+  },
+  siam: {
+    weight: {
+      imperial: '8 - 15',
+      metric: '4 - 7',
+    },
+    id: 'siam',
+    name: 'Siamés',
+    cfa_url: 'http://cfa.org/Breeds/BreedsSthruT/Siamese.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/siamese',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/siamese',
+    temperament: 'Activo, Ágil, Listo, Sociable, Cariñoso, Energetico',
+    origin: 'Tailandia',
+    country_codes: 'TH',
+    country_code: 'TH',
+    life_span: '12 - 15',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Siam, Gato Thai',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 5,
+    grooming: 1,
+    health_issues: 1,
+    intelligence: 5,
+    shedding_level: 2,
+    social_needs: 5,
+    stranger_friendly: 5,
+    vocalisation: 5,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://es.wikipedia.org/wiki/Siam%C3%A9s_(gato)',
+    hypoallergenic: 1,
+    reference_image_id: 'ai6Jps4sx',
+    image: 'https://cdn2.thecatapi.com/images/-AiX8QA5I.png',
+    perks: [
+      'Maullido frecuente',
+      'Necesita ejercicio regular',
+      'Aseo mínimo requerido',
+    ],
+    necesidades_especiales: ['Necesita estimulación física y mental'],
+    color: ['Blanco', 'Crema', 'Azul'],
+    enfermedades_comunes: ['Amiloidosis', 'Estrabismo', 'Problemas dentales'],
+    fuentes: [],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Alta',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Gato siamés',
+      'Siam',
+      'Gato Thai',
+      'Siamese cat',
+      'Siamés',
+      'Siames',
+      'Siam',
+      'Gato Siamés',
+      'Gato Siames',
+      'Gato Siam',
+      'Gato Thai',
+      'Gato de Tailandia',
+      'Gato activo',
+      'Gato sociable',
+      'Gato cariñoso',
+      'Gato energético',
+      'Gato inteligente',
+      'Gato bueno con niños',
+      'Gato bueno con perros',
+      'Gato de pelo corto',
+      'Gato maullador',
+      'Gato de ojos azules',
+      'Gato de clima cálido',
+      'Gato de vida en interiores',
+      'Gato de raza antigua',
+      'Gato de lap',
+      'Gato siamés de patas cortas',
+      'Gato siamés de patas largas',
+      'Siamés de color claro',
+      'Siamés de color oscuro',
+      'Gato amigable con extraños',
+      'Gato siamés hipoalergénico',
+      'Gato siamés con puntos de color',
+      'Gato de compañía',
+    ],
+    description: `
+      La raza de gato siamés es sin duda una de las más reconocibles y apreciadas en todo el mundo, tanto por su belleza como por su carácter encantador y sociable. Esta raza de gato se distingue por su elegante apariencia y su hermoso pelaje corto que se presenta en una variedad de colores.
+      <br>
+      <br>
+      La primera característica que a menudo captura la atención de las personas cuando ven a un gato siamés es su impresionante estructura corporal. Los siameses son gatos de tamaño mediano, pero poseen una apariencia delicada y refinada que transmite una sensación de gracia y elegancia. Poseen cuerpos esbeltos y musculosos, con largas patas delgadas que terminan en pequeñas y ovaladas patas. El pecho es delgado pero firme, y el cuerpo entero posee una forma tubular muy característica.
+      <br>
+      <br>
+      En armonía con su cuerpo delgado y estilizado, la cabeza del gato siamés es una elegante cuña modificada, con una frente plana y mejillas llenas. Los rasgos faciales son finos y definidos, con una nariz larga y recta y una mandíbula firme. Las orejas son una característica sobresaliente, siendo grandes, anchas en la base y puntiagudas en la punta, lo que contribuye a la apariencia de alerta y curiosa del siamés.
+      <br>
+      <br>
+      Probablemente, el rasgo más impactante de la raza siamés son sus impresionantes ojos, que son de un azul profundo y brillante, poseen una forma almendrada y están ligeramente oblicuos. La mirada de un siamés es verdaderamente cautivadora, y estos gatos tienen la capacidad de transmitir una amplia gama de emociones a través de sus ojos.
+      <br>
+      <br>
+      El pelaje del gato siamés es corto, liso, brillante y muy pegado al cuerpo. Esta raza es famosa por su patrón de color point, lo que significa que las orejas, la cara, las patas y la cola son más oscuras que el resto del cuerpo. Los colores de los puntos pueden variar, siendo los más comunes el seal point (puntos de color marrón oscuro), blue point (puntos de color azul-gris), chocolate point (puntos de color marrón claro) y lilac point (puntos de color gris rosado). El cuerpo del siamés suele ser de un color claro, siendo el blanco crema uno de los más comunes.
+      <br>
+      <br>
+      En cuanto a su personalidad, el siamés es famoso por su temperamento extrovertido, cariñoso y comunicativo. Estos gatos son conocidos por su tendencia a formar lazos muy estrechos con sus dueños. Son criaturas inteligentes y activas que disfrutan de los juegos y la interacción humana. Su naturaleza curiosa los hace excelentes exploradores de su entorno, y siempre están dispuestos a participar en nuevas actividades y experiencias.
+      <br>
+      <br>
+      El siamés también es una raza conocida por su vocalización. Estos gatos no tienen miedo de expresar sus opiniones y necesidades a sus dueños, y su maullido puede variar desde suaves chirridos hasta estridentes gritos, según lo que quieran comunicar.
+      <br>
+      <br>
+      En resumen, el siamés es una raza fascinante, con su apariencia única, personalidad encantadora y su profunda conexión con los humanos. Ya sea que te atraiga su hermosura, su personalidad vibrante, o su increíble lealtad y afecto, el gato siamés tiene mucho que ofrecer y seguro te cautivará por completo.
+    `,
+    history: `
+      La historia de la raza de gato siamés es rica y fascinante, con sus orígenes remontándose a muchos siglos atrás, en el lejano Reino de Siam, que hoy conocemos como Tailandia. Los primeros registros escritos que mencionan a estos gatos datan del siglo XIV, en unos manuscritos llamados el "Poemas de los gatos" o "Smatra Cat-Book Poems", en los que se describen gatos con características similares a las del siamés moderno.
+      <br>
+      <br>
+      Dichos manuscritos, considerados un tesoro cultural de la antigua Tailandia, representan a los gatos siameses como animales nobles y regios, siendo a menudo la mascota preferida de la realeza y la nobleza. A estos gatos se les otorgaban poderes místicos y se creía que eran guardianes espirituales. Existía una tradición en la que un gato siamés era regalado a los monarcas en su coronación, y se decía que el espíritu del monarca reencarnaría en el gato cuando éste muriera.
+      <br>
+      <br>
+      A pesar de su popularidad y estatus en Tailandia, los gatos siameses eran prácticamente desconocidos para el mundo occidental hasta mediados del siglo XIX. La introducción de la raza en Occidente se atribuye al cónsul británico Sir Owen Gould, quien recibió un par de gatos siameses como regalo del rey de Siam. Estos gatos, llamados Pho y Mia, fueron llevados a Inglaterra alrededor de 1884 y presentados a la sociedad londinense, donde causaron sensación debido a su apariencia exótica y su comportamiento sofisticado.
+      <br>
+      <br>
+      Los gatos siameses fueron exhibidos por primera vez en la Crystal Palace Cat Show de Londres en 1885, donde atrajeron mucha atención y admiración. En las décadas siguientes, estos gatos se hicieron muy populares en Inglaterra, y muchos fueron importados desde Tailandia. La raza fue oficialmente reconocida por el UK's Governing Council of the Cat Fancy (GCCF) en 1902.
+      <br>
+      <br>
+      La popularidad de la raza siamesa pronto se extendió a Estados Unidos. El primer gato siamés registrado en América fue una hembra llamada Siam, que fue regalada al presidente Rutherford B. Hayes y a su esposa Lucy por el cónsul estadounidense en Bangkok en 1878. Sin embargo, no fue hasta la década de 1920 que los siameses empezaron a ganar popularidad en Estados Unidos. La raza fue reconocida oficialmente por la Cat Fanciers' Association (CFA) en 1906.
+      <br>
+      <br>
+      En las décadas siguientes, los gatos siameses se consolidaron como una de las razas de gatos más populares y reconocibles del mundo. Los criadores trabajaron para mantener y mejorar las características físicas y el temperamento de la raza, resultando en el siamés moderno que conocemos hoy.
+      <br>
+      <br>
+      La raza siamesa ha influido en muchas otras razas de gatos, y ha dado lugar a varias razas derivadas, como el Balinés, el Oriental Shorthair, el Himalaya y el Javanés.
+      <br>
+      <br>
+      Hoy en día, los gatos siameses son amados y apreciados por su belleza, su encanto y su compañía afectuosa. A pesar de su ascendencia regia, estos gatos se han adaptado perfectamente a la vida doméstica, formando vínculos profundos con sus dueños y brindando amor y alegría a los hogares de todo el mundo.
+    `,
+  },
+  sibe: {
+    weight: {
+      imperial: '8 - 16',
+      metric: '4 - 7',
+    },
+    id: 'sibe',
+    name: 'Siberiano',
+    cfa_url: 'http://cfa.org/Breeds/BreedsSthruT/Siberian.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/siberian',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/siberian',
+    temperament: 'Curioso, Inteligente, Leal, Dulce, Ágil, Juguetón, Afectuoso',
+    origin: 'Rusia',
+    country_codes: 'RU',
+    country_code: 'RU',
+    life_span: '12 - 15',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Moscow Semi-longhair, Siberian Forest Cat',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 5,
+    grooming: 2,
+    health_issues: 2,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 4,
+    stranger_friendly: 3,
+    vocalisation: 1,
+    experimental: 0,
+    hairless: 0,
+    natural: 1,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Siberian_(cat)',
+    hypoallergenic: 1,
+    reference_image_id: '3bkZAjRh1',
+    image: 'https://cdn2.thecatapi.com/images/e4K-lKOic.jpg',
+    perks: [
+      'Ideal para interior',
+      'Amigable con los niños',
+      'Tolera a los perros',
+      'Poco vocal',
+      'Hipoalergénico',
+    ],
+    necesidades_especiales: ['Mantenimiento de pelo semi-largo'],
+    color: ['Blanco', 'Negro', 'Marrón'],
+    enfermedades_comunes: ['Obesidad', 'Enfermedad dental'],
+    fuentes: [
+      'http://cfa.org/Breeds/BreedsSthruT/Siberian.aspx',
+      'http://www.vetstreet.com/cats/siberian',
+      'https://vcahospitals.com/know-your-pet/cat-breeds/siberian',
+      'https://en.wikipedia.org/wiki/Siberian_(cat)',
+    ],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Baja',
+    tolerancia_a_la_soledad: 'Moderada',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Siberiano',
+      'Amigable',
+      'Juguetón',
+      'Hipoalergénico',
+      'Siberiano',
+      'Siberiano sin tilde',
+      'Gato ruso',
+      'Raza rusa',
+      'Gato Siberiano',
+      'Gato friolento',
+      'Gato de bosque Siberiano',
+      'Gato de pelo largo',
+      'Gato hipoalergénico',
+      'Gato fuerte',
+      'Gato activo',
+      'Gato sociable',
+      'Gato amigable',
+      'Gato cariñoso',
+      'Gato leal',
+      'Gato juguetón',
+      'Gato de lap',
+      'Gato de interior',
+      'Gato adaptativo',
+      'Gato inteligente',
+      'Gato dulce',
+      'Gato ágil',
+      'Gato amigable con perros',
+      'Gato amigable con niños',
+      'Gato con necesidades de aseo moderadas',
+      'Gato de buen salud',
+      'Gato tamaño mediano',
+      'Gato resistente al frío',
+      'Gato bajo en vocalización',
+      'Gato de energía alta',
+    ],
+    description: `
+      El Gato Siberiano, nativo de las heladas tierras de Rusia, es una raza que combina robustez y resistencia con una increíble belleza y elegancia. Su nombre evoca imágenes de paisajes nevados, climas fríos y duros, y esta raza de gato no decepciona con su apariencia robusta y su lujoso pelaje, preparado para soportar las condiciones más frías.
+      <br>
+      <br>
+      En términos de apariencia física, el Siberiano es un gato de tamaño mediano a grande con una musculatura fuerte y una presencia poderosa. Su cuerpo es compacto y equilibrado, mostrando una combinación de fuerza y agilidad. La cola es larga y exuberante, adornada con pelos largos que se ensanchan en una punta redondeada. A menudo, parece que están envueltos en una lujosa bufanda de piel cuando la cola se envuelve alrededor de su cuerpo.
+      <br>
+      <br>
+      Lo que más se destaca de esta raza es su magnífico pelaje. Tienen una triple capa de pelo que es densa y llena, diseñada para mantenerlos calientes en climas fríos. La capa de pelo de un gato Siberiano puede variar en colores y patrones, pero todos son igualmente hermosos y suaves al tacto.
+      <br>
+      <br>
+      Su cabeza es redondeada, pero con contornos suaves y ligeramente más larga que ancha, culminando en orejas medianas que están bien espaciadas y ligeramente inclinadas hacia adelante, a menudo con mechones de pelo en la punta que se asemejan a los linces. Sus ojos, que pueden ser de color verde, dorado o incluso azul, son grandes y ligeramente oblicuos, exudando una mirada intensa pero amigable.
+      <br>
+      <br>
+      En cuanto a su temperamento, el gato Siberiano es conocido por su carácter afectuoso y su naturaleza juguetona. Son increíblemente leales a sus familias humanas y a menudo forman fuertes lazos con sus dueños. A pesar de su apariencia robusta, estos gatos son increíblemente dulces y a menudo se les encuentra acurrucados en el regazo de su dueño o siguiéndolos por toda la casa.
+      <br>
+      <br>
+      Los Siberianos son juguetones y disfrutan de una variedad de juguetes y juegos. Son ágiles y activos, a menudo exhibiendo sus habilidades atléticas al saltar a alturas impresionantes o correr a velocidades notables. No es raro ver a un gato Siberiano trepando por los árboles o explorando los rincones más altos de su hogar.
+      <br>
+      <br>
+      A pesar de su espíritu juguetón, también son tranquilos y fáciles de convivir. Son tolerantes y pacientes, lo que los hace ideales para familias con niños o con otros animales. Los Siberianos también son conocidos por su inteligencia y su curiosidad, lo que puede llevar a la necesidad de mantener sus mentes estimuladas con juegos y acertijos interactivos.
+      <br>
+      <br>
+      Es importante tener en cuenta que, debido a su grueso pelaje, los gatos Siberianos requieren un aseo regular para mantener su piel en buenas condiciones. Sin embargo, a diferencia de otras razas de pelo largo, su pelaje no se enmaraña fácilmente.
+      <br>
+      <br>
+      Otro rasgo interesante del gato Siberiano es que se considera una raza hipoalergénica. Aunque ningún gato puede ser completamente libre de alergias, los Siberianos producen menos de la proteína Fel d 1, comúnmente asociada con las reacciones alérgicas a los gatos. Esto los convierte en una opción más viable para aquellos que normalmente sufren de alergias a los gatos.
+      <br>
+      <br>
+      El Siberiano es, sin duda, una raza encantadora y cautivadora. Su combinación de belleza física, robustez y carácter amigable hacen de esta raza una elección maravillosa para aquellos que buscan un compañero felino leal, amoroso y activo. Su fortaleza y resistencia son tan notables como su dulzura y afecto, haciendo de los gatos Siberianos una raza verdaderamente única y fascinante.
+    `,
+    history: `
+      La raza de gato Siberiano lleva consigo una historia tan rica y fascinante como las vastas tierras de donde proviene: la inmensa y misteriosa Rusia. Es una raza que ha compartido sus días con la gente rusa durante siglos, enraizada en leyendas y folklore, y se ha adaptado de manera impresionante a la dura y a menudo inhóspita vida siberiana.
+      <br>
+      <br>
+      A pesar de su larga historia en Rusia, los orígenes exactos del gato Siberiano se pierden en el tiempo. No se sabe exactamente cuándo o cómo se originó esta raza, pero la creencia más extendida es que evolucionaron de forma natural a partir de gatos domésticos que vivían en Siberia, una región famosa por su clima extremadamente frío. Su lujoso pelaje triple, su musculatura robusta y su tamaño más grande son todas adaptaciones que probablemente se desarrollaron para sobrevivir a este duro entorno.
+      <br>
+      <br>
+      El gato Siberiano ha estado presente en la cultura rusa durante mucho tiempo. De hecho, se le menciona en antiguos cuentos populares rusos y fábulas que se remontan a hace cientos de años. Estos gatos, con sus capacidades de caza superiores y su resistencia a las duras condiciones climáticas, fueron valorados como grandes cazadores de roedores y fueron a menudo la única línea de defensa contra las plagas en los hogares y las tiendas de granos.
+      <br>
+      <br>
+      A lo largo de los siglos, el gato Siberiano se convirtió en una parte integral de la vida en Rusia, venerado no solo por su habilidad para cazar, sino también por su aspecto impresionante y su temperamento agradable. Aunque eran muy comunes en Rusia, no fueron reconocidos oficialmente como una raza hasta el siglo XX.
+      <br>
+      <br>
+      La crianza selectiva de los gatos Siberianos no comenzó hasta los años 80. En 1987, el Kotofei Cat Club en Moscú creó el primer estándar de raza para el gato Siberiano. Fue en esta época cuando la raza comenzó a ganar popularidad en los espectáculos de gatos y a ser reconocida oficialmente por las organizaciones felinas.
+      <br>
+      <br>
+      El gato Siberiano llegó a América del Norte en 1990, justo después de la caída del Muro de Berlín. Elizabeth Terrell, una criadora de gatos de Louisiana, fue la primera en importar gatos Siberianos a los Estados Unidos. Trajo un macho llamado Kaliostro y una hembra llamada Ofelia. Estos dos gatos son considerados los fundadores de la línea de gatos Siberianos en América.
+      <br>
+      <br>
+      Desde entonces, la raza Siberiana ha ido ganando en popularidad en todo el mundo, tanto por su hermosa apariencia como por su maravilloso temperamento. Aunque aún no son tan conocidos como otras razas de gatos en algunos países, su creciente popularidad indica que están dejando una huella en los corazones de los amantes de los gatos en todo el mundo.
+      <br>
+      <br>
+      La historia del gato Siberiano es un testimonio de su adaptabilidad y resistencia. Originaria de las gélidas tierras de Siberia, esta raza ha sabido conquistar corazones en todo el mundo, superando innumerables desafíos a lo largo de su historia. Estos gatos, una vez valorados principalmente por sus habilidades de caza, ahora son amados por su carácter amigable, su belleza majestuosa y su naturaleza robusta y resistente. El gato Siberiano es verdaderamente un ícono de la historia felina, una raza que ha resistido la prueba del tiempo y ha continuado prosperando.
+    `,
+  },
+  sing: {
+    weight: {
+      imperial: '5 - 8',
+      metric: '2 - 4',
+    },
+    id: 'sing',
+    name: 'Singapur',
+    cfa_url: 'http://cfa.org/Breeds/BreedsSthruT/Singapura.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/singapura',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/singapura',
+    temperament:
+      'Afectuoso, Curioso, Tranquilo, Inteligente, Interactivo, Vivo, Leal',
+    origin: 'Singapur',
+    country_codes: 'SP',
+    country_code: 'SP',
+    life_span: '12 - 15',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Gato de Drenaje, Kucinta, Pura',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 5,
+    grooming: 1,
+    health_issues: 1,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 5,
+    stranger_friendly: 5,
+    vocalisation: 1,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://es.wikipedia.org/wiki/Singapura_(gato)',
+    hypoallergenic: 0,
+    reference_image_id: 'Qtncp2nRe',
+    image: 'https://cdn2.thecatapi.com/images/OeOUzmQIk.jpg',
+    perks: [
+      'Es un gato que ama la atención de su familia',
+      'Es muy curioso',
+      'Es bastante activo',
+    ],
+    necesidades_especiales: [],
+    color: ['Sepia agutí'],
+    enfermedades_comunes: [],
+    fuentes: [
+      'http://cfa.org/Breeds/BreedsSthruT/Singapura.aspx',
+      'http://www.vetstreet.com/cats/singapura',
+      'https://vcahospitals.com/know-your-pet/cat-breeds/singapura',
+    ],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Pequeño',
+    searchTerms: [
+      'Singapura',
+      'Gato de Drenaje',
+      'Kucinta',
+      'Pura',
+      'Singapur',
+      'Singapura',
+      'Gato Singapur',
+      'Gato Singapura',
+      'Gato de Singapur',
+      'Gato de Singapura',
+      'Gato de Drenaje',
+      'Kucinta',
+      'Pura',
+      'Gato leal',
+      'Gato afectuoso',
+      'Gato curioso',
+      'Gato inteligente',
+      'Gato interactivo',
+      'Gato vivo',
+      'Gato pequeño',
+      'Gato de casa',
+      'Gato de familia',
+      'Gato tranquilo',
+      'Gato fácil de cuidar',
+      'Gato de pelo corto',
+      'Gato asiático',
+      'Gato adaptativo',
+      'Gato amigo de perros',
+      'Gato amigable con niños',
+      'Gato amigable',
+      'Gato sociable',
+      'Gato de bajo mantenimiento',
+      'Gato de baja vocalización',
+      'Gato activo',
+    ],
+    description: `
+    La raza de gato Singapur es verdaderamente única y cautivante. A primera vista, lo que más llama la atención de estos felinos es su tamaño compacto. Con un peso entre 2 a 4 kg, la Singapur es una de las razas más pequeñas de gatos que existen, pero lo que les falta en tamaño lo compensan con una personalidad enorme.
+    <br>
+    <br>
+    Se distinguen por su capa de pelo corto, satinado y fino, que parece pegarse al cuerpo, revelando las líneas elegantes y musculares de este gato. El color de su pelaje es siempre atigrado, un patrón que realza la belleza de su figura con la combinación de bandas más oscuras sobre un fondo más claro, que va de marfil a beige. Este patrón de color se extiende hasta su cola, que es de tamaño mediano y lleva un anillo oscuro en la punta. En cuanto a sus ojos, los del Singapur son de un verde almendra profundo que resalta contra su pelaje.
+    <br>
+    <br>
+    El cuerpo del Singapur es pequeño pero bien proporcionado. Aunque son gatos de tamaño pequeño, tienen una musculatura sorprendente que se puede apreciar en su cuerpo compacto y sus patas robustas. Sus orejas son grandes en relación con su cabeza, y su rostro es ligeramente redondo, con unos bigotes prominentes que a menudo llevan consigo un aire de curiosidad.
+    <br>
+    <br>
+    A pesar de su apariencia delicada, los Singapures son gatos increíblemente ágiles y atléticos. Disfrutan de la actividad física y a menudo se les puede encontrar corriendo y jugando. Les encanta trepar a alturas elevadas, por lo que no es raro encontrarlos en la cima de los estantes o gabinetes.
+    <br>
+    <br>
+    Pero no todo es juego y diversión con la Singapur, también son gatos que disfrutan de los momentos tranquilos y relajados. Se distinguen por ser especialmente cariñosos y leales a sus familias humanas. Les encanta recibir caricias y atenciones, a menudo demandándolas con un suave maullido. Sin embargo, a diferencia de otros gatos, la Singapur no es una raza muy vocal, por lo que sus maullidos suelen ser suaves y discretos.
+    <br>
+    <br>
+    La Singapur también es conocida por su inteligencia y curiosidad. Son gatos que siempre están listos para una nueva aventura y no temen explorar nuevos ambientes. Esta curiosidad natural también se traduce en su interacción con otros animales, pues la Singapur es una raza conocida por llevarse bien con otras mascotas, incluso con perros.
+    <br>
+    <br>
+    En cuanto al cuidado, la Singapur es una raza relativamente fácil de mantener. Su pelaje corto y liso no requiere mucho aseo, aunque siempre apreciarán una buena sesión de cepillado. No son propensos a muchas enfermedades genéticas, pero es importante mantener sus chequeos veterinarios regulares para asegurar que se mantengan saludables.
+    <br>
+    <br>
+    En resumen, la Singapur es una raza de gato que destaca por su pequeño tamaño, su pelaje sedoso y su personalidad afectuosa y juguetona. Es la compañera ideal para quienes buscan un gato que se pueda adaptar a la vida en interiores, que sea cariñoso pero independiente, y que siempre esté listo para la próxima aventura. Sin duda, la Singapur no es solo una raza de gato, es una pequeña gran sorpresa lista para conquistar el corazón de cualquier amante de los gatos.
+    `,
+    history: `
+    La historia de la raza de gato Singapur es, sin duda, tan única y cautivadora como la raza misma. La historia se remonta a la década de 1970, en la isla nación del sudeste asiático de la cual toma su nombre: Singapur. Pero, como en toda buena historia, hay más de lo que parece a primera vista.
+    <br>
+    <br>
+    En la década de 1970, un matrimonio estadounidense, Hal y Tommy Meadow, residían en Singapur por razones laborales. Durante su estancia, se encontraron con unos gatos callejeros muy particulares. Estos gatos eran pequeños, de pelaje corto y color atigrado sepia. La pareja quedó cautivada por la apariencia y la personalidad de estos gatos, tanto que decidieron llevar algunos ejemplares consigo de vuelta a los Estados Unidos.
+    <br>
+    <br>
+    Fue en Estados Unidos donde estos gatos singapurenses comenzaron a ganar notoriedad. Los Meadow trabajaron diligentemente para establecer y promover la raza, cruzando selectivamente a los gatos que habían traído de Singapur. En 1979, la raza fue reconocida oficialmente por la Federación Internacional Felina y se le dio el nombre de "Singapur", en honor a su ciudad de origen.
+    <br>
+    <br>
+    Sin embargo, la historia de la Singapur no está exenta de controversia. Durante el proceso de reconocimiento de la raza, surgieron dudas sobre el origen de los gatos. Algunos criadores y expertos en gatos sugerían que los Singapurs no eran una raza natural, sino el producto de cruces entre otras razas ya existentes, como los gatos Siameses y Burmeses. Los Meadow siempre mantuvieron que los Singapurs eran una raza natural, única de Singapur.
+    <br>
+    <br>
+    La controversia se intensificó cuando, en un esfuerzo por proteger y promover la raza, el gobierno de Singapur decidió adoptar al Singapur como su gato nacional en la década de 1990. Sin embargo, al no encontrar gatos que se asemejaran a los Singapurs en las calles de Singapur, algunos críticos afirmaban que la raza había sido creada en Estados Unidos y no era originaria de Singapur.
+    <br>
+    <br>
+    Hoy en día, aunque la controversia ha disminuido, la historia de la Singapur sigue siendo objeto de debate. A pesar de esto, la raza ha ganado popularidad y aceptación en todo el mundo. Su tamaño pequeño, su personalidad afectuosa y su pelaje único han cautivado a amantes de los gatos en todo el mundo, haciendo de la Singapur una de las razas de gatos más apreciadas.
+    <br>
+    <br>
+    La Singapur ha recorrido un largo camino desde las calles de Singapur hasta las exposiciones de gatos en Estados Unidos y otros países. Su historia, aunque rodeada de misterio y controversia, es una prueba de su singularidad y atractivo. La raza Singapur, al igual que su historia, sigue cautivando y sorprendiendo a amantes de los gatos en todo el mundo.
+    `,
+  },
+  snow: {
+    weight: {
+      imperial: '7 - 12',
+      metric: '3 - 5',
+    },
+    id: 'snow',
+    name: 'Snowshoe',
+    cfa_url: '',
+    vetstreet_url: '',
+    vcahospitals_url: '',
+    temperament: 'Afectuoso, Social, Inteligente, De buen carácter',
+    origin: 'Estados Unidos',
+    country_codes: 'US',
+    country_code: 'US',
+    life_span: '14 - 19',
+    indoor: 0,
+    lap: 1,
+    alt_names: '',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 4,
+    grooming: 3,
+    health_issues: 1,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 4,
+    stranger_friendly: 4,
+    vocalisation: 5,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Snowshoe_(cat)',
+    hypoallergenic: 0,
+    reference_image_id: 'MK-sYESvO',
+    image: 'https://cdn2.thecatapi.com/images/MK-sYESvO.jpg',
+    perks: [
+      'Es un gato que requiere de interacción constante y no le gusta la soledad',
+      'Es inteligente y le gusta jugar',
+      'Es afectuoso y se lleva bien con los niños y otros animales',
+    ],
+    necesidades_especiales: [],
+    color: ['Blanco', 'Negro', 'Azul'],
+    enfermedades_comunes: [],
+    fuentes: ['https://en.wikipedia.org/wiki/Snowshoe_(cat)'],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Excelente',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Snowshoe',
+      'Afectuoso',
+      'Social',
+      'Energético',
+      'Inteligente',
+      'Snowshoe',
+      'Snow shoe',
+      'Gato Snowshoe',
+      'Gato Snow shoe',
+      'Raza Snowshoe',
+      'Raza Snow shoe',
+      'Gato de Estados Unidos',
+      'Gato estadounidense',
+      'Gato afectuoso',
+      'Gato social',
+      'Gato inteligente',
+      'Gato de buen carácter',
+      'Gato dulce',
+      'Gato activo',
+      'Gato cariñoso',
+      'Gato para familias',
+      'Gato para niños',
+      'Gato amigable con perros',
+      'Gato de alta energía',
+      'Gato de fácil adaptación',
+      'Gato maullador',
+      'Gato de tamaño mediano',
+      'Gato saludable',
+      'Gato de pelo corto',
+      'Gato resistente al frío',
+      'Gato resistente al calor',
+      'Nieve',
+      'Zapato',
+    ],
+    description: `
+
+    `,
+    history: `
+
+    `,
+  },
 };
 
 /*
-[
-
 
     {
         "weight": {
-            "imperial": "6 - 13",
-            "metric": "3 - 6"
+            "imperial": "6 - 12",
+            "metric": "3 - 5"
         },
-        "id": "mala",
-        "name": "Malayan",
-        "temperament": "Affectionate, Interactive, Playful, Social",
-        "origin": "United Kingdom",
-        "country_codes": "GB",
-        "country_code": "GB",
-        "description": "Malayans love to explore and even enjoy traveling by way of a cat carrier. They are quite a talkative and rather loud cat with an apparent strong will. These cats will make sure that you give it the attention it seeks and always seem to want to be held and hugged. They will constantly interact with people, even strangers. They love to play and cuddle.",
-        "life_span": "12 - 18",
+        "id": "soma",
+        "name": "Somali",
+        "cfa_url": "http://cfa.org/Breeds/BreedsSthruT/Somali.aspx",
+        "vetstreet_url": "http://www.vetstreet.com/cats/somali",
+        "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/somali",
+        "temperament": "Mischievous, Tenacious, Intelligent, Affectionate, Gentle, Interactive, Loyal",
+        "origin": "Somalia",
+        "country_codes": "SO",
+        "country_code": "SO",
+        "description": "The Somali lives life to the fullest. He climbs higher, jumps farther, plays harder. Nothing escapes the notice of this highly intelligent and inquisitive cat. Somalis love the company of humans and other animals.",
+        "life_span": "12 - 16",
         "indoor": 0,
-        "alt_names": "Asian",
+        "alt_names": "Fox Cat, Long-Haired Abyssinian",
+        "adaptability": 5,
+        "affection_level": 5,
+        "child_friendly": 3,
+        "dog_friendly": 4,
+        "energy_level": 5,
+        "grooming": 3,
+        "health_issues": 2,
+        "intelligence": 5,
+        "shedding_level": 4,
+        "social_needs": 5,
+        "stranger_friendly": 5,
+        "vocalisation": 1,
+        "experimental": 0,
+        "hairless": 0,
+        "natural": 0,
+        "rare": 0,
+        "rex": 0,
+        "suppressed_tail": 0,
+        "short_legs": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Somali_(cat)",
+        "hypoallergenic": 0,
+        "reference_image_id": "EPF2ejNS0",
+        "image": "https://cdn2.thecatapi.com/images/K29_o7SGa.jpg"
+    },
+    {
+        "weight": {
+            "imperial": "6 - 12",
+            "metric": "3 - 5"
+        },
+        "id": "sphy",
+        "name": "Sphynx",
+        "cfa_url": "http://cfa.org/Breeds/BreedsSthruT/Sphynx.aspx",
+        "vetstreet_url": "http://www.vetstreet.com/cats/sphynx",
+        "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/sphynx",
+        "temperament": "Loyal, Inquisitive, Friendly, Quiet, Gentle",
+        "origin": "Canada",
+        "country_codes": "CA",
+        "country_code": "CA",
+        "description": "The Sphynx is an intelligent, inquisitive, extremely friendly people-oriented breed. Sphynx commonly greet their owners  at the front door, with obvious excitement and happiness. She has an unexpected sense of humor that is often at odds with her dour expression.",
+        "life_span": "12 - 14",
+        "indoor": 0,
+        "lap": 1,
+        "alt_names": "Canadian Hairless, Canadian Sphynx",
+        "adaptability": 5,
+        "affection_level": 5,
+        "child_friendly": 4,
+        "dog_friendly": 5,
+        "energy_level": 3,
+        "grooming": 2,
+        "health_issues": 4,
+        "intelligence": 5,
+        "shedding_level": 1,
+        "social_needs": 5,
+        "stranger_friendly": 5,
+        "vocalisation": 5,
+        "experimental": 0,
+        "hairless": 1,
+        "natural": 0,
+        "rare": 1,
+        "rex": 0,
+        "suppressed_tail": 0,
+        "short_legs": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sphynx_(cat)",
+        "hypoallergenic": 1,
+        "reference_image_id": "BDb8ZXb1v",
+        "image": "https://cdn2.thecatapi.com/images/8krfAgKYD.jpg"
+    },
+    {
+        "weight": {
+            "imperial": "6 - 12",
+            "metric": "3 - 5"
+        },
+        "id": "tonk",
+        "name": "Tonkinese",
+        "cfa_url": "http://cfa.org/Breeds/BreedsSthruT/Tonkinese.aspx",
+        "vetstreet_url": "http://www.vetstreet.com/cats/tonkinese",
+        "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/tonkinese",
+        "temperament": "Curious, Intelligent, Social, Lively, Outgoing, Playful, Affectionate",
+        "origin": "Canada",
+        "country_codes": "CA",
+        "country_code": "CA",
+        "description": "Intelligent and generous with their affection, a Tonkinese will supervise all activities with curiosity. Loving, social, active, playful, yet content to be a lap cat",
+        "life_span": "14 - 16",
+        "indoor": 0,
+        "lap": 1,
+        "alt_names": "Tonk",
         "adaptability": 5,
         "affection_level": 5,
         "child_friendly": 4,
@@ -5919,10 +8819,10 @@ export const CAT_LIST: { [key: string]: Cat } = {
         "energy_level": 5,
         "grooming": 1,
         "health_issues": 1,
-        "intelligence": 3,
-        "shedding_level": 1,
-        "social_needs": 3,
-        "stranger_friendly": 3,
+        "intelligence": 5,
+        "shedding_level": 3,
+        "social_needs": 5,
+        "stranger_friendly": 5,
         "vocalisation": 5,
         "experimental": 0,
         "hairless": 0,
@@ -5931,8 +8831,176 @@ export const CAT_LIST: { [key: string]: Cat } = {
         "rex": 0,
         "suppressed_tail": 0,
         "short_legs": 0,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Asian_cat",
-        "hypoallergenic": 0
-    }
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tonkinese_(cat)",
+        "hypoallergenic": 0,
+        "reference_image_id": "KBroiVNCM",
+        "image": "https://cdn2.thecatapi.com/images/_np7TW9Iq.jpg"
+    },
+    {
+        "weight": {
+            "imperial": "7 - 15",
+            "metric": "3 - 7"
+        },
+        "id": "toyg",
+        "name": "Toyger",
+        "vetstreet_url": "http://www.vetstreet.com/cats/toyger",
+        "temperament": "Playful, Social, Intelligent",
+        "origin": "United States",
+        "country_codes": "US",
+        "country_code": "US",
+        "description": "The Toyger has a sweet, calm personality and is generally friendly. He's outgoing enough to walk on a leash, energetic enough to play fetch and other interactive games, and confident enough to get along with other cats and friendly dogs.",
+        "life_span": "12 - 15",
+        "indoor": 0,
+        "lap": 1,
+        "alt_names": "",
+        "adaptability": 5,
+        "affection_level": 5,
+        "child_friendly": 4,
+        "dog_friendly": 5,
+        "energy_level": 5,
+        "grooming": 1,
+        "health_issues": 2,
+        "intelligence": 5,
+        "shedding_level": 3,
+        "social_needs": 3,
+        "stranger_friendly": 5,
+        "vocalisation": 5,
+        "experimental": 0,
+        "hairless": 0,
+        "natural": 0,
+        "rare": 0,
+        "rex": 0,
+        "suppressed_tail": 0,
+        "short_legs": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Toyger",
+        "hypoallergenic": 0,
+        "reference_image_id": "O3F3_S1XN",
+        "image": "https://cdn2.thecatapi.com/images/Zi4jfH3c6.jpg"
+    },
+    {
+        "weight": {
+            "imperial": "5 - 10",
+            "metric": "2 - 5"
+        },
+        "id": "tang",
+        "name": "Turkish Angora",
+        "cfa_url": "http://cfa.org/Breeds/BreedsSthruT/TurkishAngora.aspx",
+        "vetstreet_url": "http://www.vetstreet.com/cats/turkish-angora",
+        "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/turkish-angora",
+        "temperament": "Affectionate, Agile, Clever, Gentle, Intelligent, Playful, Social",
+        "origin": "Turkey",
+        "country_codes": "TR",
+        "country_code": "TR",
+        "description": "This is a smart and intelligent cat which bonds well with humans. With its affectionate and playful personality the Angora is a top choice for families. The Angora gets along great with other pets in the home, but it will make clear who is in charge, and who the house belongs to",
+        "life_span": "15 - 18",
+        "indoor": 0,
+        "alt_names": "Ankara",
+        "adaptability": 5,
+        "affection_level": 5,
+        "child_friendly": 4,
+        "dog_friendly": 5,
+        "energy_level": 5,
+        "grooming": 2,
+        "health_issues": 2,
+        "intelligence": 5,
+        "shedding_level": 2,
+        "social_needs": 5,
+        "stranger_friendly": 5,
+        "vocalisation": 3,
+        "experimental": 0,
+        "hairless": 0,
+        "natural": 1,
+        "rare": 0,
+        "rex": 0,
+        "suppressed_tail": 0,
+        "short_legs": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Turkish_Angora",
+        "hypoallergenic": 0,
+        "reference_image_id": "7CGV6WVXq",
+        "image": "https://cdn2.thecatapi.com/images/Yx3nQTUHu.jpg"
+    },
+    {
+        "weight": {
+            "imperial": "7 - 20",
+            "metric": "3 - 9"
+        },
+        "id": "tvan",
+        "name": "Turkish Van",
+        "cfa_url": "http://cfa.org/Breeds/BreedsSthruT/TurkishVan.aspx",
+        "vetstreet_url": "http://www.vetstreet.com/cats/turkish-van",
+        "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/turkish-van",
+        "temperament": "Agile, Intelligent, Loyal, Playful, Energetic",
+        "origin": "Turkey",
+        "country_codes": "TR",
+        "country_code": "TR",
+        "description": "While the Turkish Van loves to jump and climb, play with toys, retrieve and play chase, she is is big and ungainly; this is one cat who doesn’t always land on his feet. While not much of a lap cat, the Van will be happy to cuddle next to you and sleep in your bed. ",
+        "life_span": "12 - 17",
+        "indoor": 0,
+        "alt_names": "Turkish Cat, Swimming cat",
+        "adaptability": 5,
+        "affection_level": 5,
+        "child_friendly": 4,
+        "dog_friendly": 5,
+        "energy_level": 5,
+        "grooming": 2,
+        "health_issues": 1,
+        "intelligence": 5,
+        "shedding_level": 3,
+        "social_needs": 4,
+        "stranger_friendly": 4,
+        "vocalisation": 5,
+        "experimental": 0,
+        "hairless": 0,
+        "natural": 1,
+        "rare": 0,
+        "rex": 0,
+        "suppressed_tail": 0,
+        "short_legs": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Turkish_Van",
+        "hypoallergenic": 0,
+        "reference_image_id": "sxIXJax6h",
+        "image": "https://cdn2.thecatapi.com/images/Ua8Kr2RuM.jpg"
+    },
+    {
+    "weight": {
+        "imperial": "12 - 18",
+        "metric": "5 - 8"
+    },
+    "id": "ycho",
+    "name": "York Chocolate",
+    "temperament": "Playful, Social, Intelligent, Curious, Friendly",
+    "origin": "United States",
+    "country_codes": "US",
+    "country_code": "US",
+    "description": "York Chocolate cats are known to be true lap cats with a sweet temperament. They love to be cuddled and petted. Their curious nature makes them follow you all the time and participate in almost everything you do, even if it's related to water: unlike many other cats, York Chocolates love it.",
+    "life_span": "13 - 15",
+    "indoor": 0,
+    "lap": 1,
+    "alt_names": "York",
+    "adaptability": 5,
+    "affection_level": 5,
+    "child_friendly": 4,
+    "dog_friendly": 5,
+    "energy_level": 5,
+    "grooming": 3,
+    "health_issues": 1,
+    "intelligence": 5,
+    "shedding_level": 3,
+    "social_needs": 4,
+    "stranger_friendly": 4,
+    "vocalisation": 5,
+    "experimental": 0,
+    "hairless": 0,
+    "natural": 0,
+    "rare": 0,
+    "rex": 0,
+    "suppressed_tail": 0,
+    "short_legs": 0,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/York_Chocolate",
+    "hypoallergenic": 0,
+    "reference_image_id": "0SxW2SQ_S",
+    "image": "https://cdn2.thecatapi.com/images/7pCnjXd47.jpg"
+  }
+
 ]
 */

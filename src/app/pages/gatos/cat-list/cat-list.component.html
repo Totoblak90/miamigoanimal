@@ -1,45 +1,55 @@
-<section class="u-margin-bottom-big">
+<section class="u-margin-bottom-medium">
 
   <div class="u-center-text u-margin-bottom-big">
-    <h2 class="heading-secondary">Razas de gato</h2>
+    <h2 class="heading-secondary">Razas de perro</h2>
   </div>
 
   <div class="row">
     <div class="form-container">
       <div class="form-container__form">
+
         <form class="search row form" [formGroup]="searchCatForm">
           <div class="form__group">
-            <label class="form__label" for="searchTerm">Buscar raza</label>
-            <input class="form__input" type="search" placeholder="Buscar raza de gato" formControlName="searchTerm" id="searchTerm" name="searchTerm">
+
+            <label class="form__label" for="searchTerm-gatos">Buscar raza</label>
+            <input
+              class="form__input"
+              type="search"
+              placeholder="Buscar raza de gato"
+              formControlName="searchTerm"
+              name="searchTerm-gatos"
+              id="searchTerm-gatos"
+              autocomplete="off"
+            >
+
           </div>
         </form>
+
       </div>
     </div>
-  </div>
-
-  <div class="cat-breeds-layout row" *ngIf="!searching">
-    <ng-container *ngFor="let cat of catList">
-      <flipping-card
-        *ngIf="cat && cat.name && cat.temperament && cat.image"
-        [cardTitle]="(cat.name.length || ''.length) > 15 ? cat.name.slice(0, 15) + '...' : cat.name"
-        [topics]="getCatTemperaments(cat)"
-        [defaultRedirect]="false"
-        [providedImg]="cat.image || ''"
-        type="cat"
-      >
-      </flipping-card>
-    </ng-container>
-  </div>
-
-  <div *ngIf="searching" class="row flex justify-center align-center">
-    <spinner></spinner>
   </div>
 
   <div class="u-center-text row" *ngIf="errorMessage">
     <h3 class="heading-tertiary">Sin resultados</h3>
   </div>
 
-  <div class="cat-pagination" *ngIf="!searchCatForm.get('searchTerm')?.value">
+  <div class="cat-breeds-layout row">
+    <ng-container *ngFor="let cat of slicedCatList | keyvalue">
+      <flipping-card
+        *ngIf="cat && cat.value"
+        [cardTitle]="cat.value.name.length > 15 ? cat.value.name.slice(0, 15) + '...' : cat.value.name"
+        [topics]="cat.value.temperament.split(' ')"
+        [href]="['/gatos',  cat.value.id]"
+        [queryParams]="{ raza: cat.value.name.split(' ').join('-').toLowerCase() }"
+        [defaultRedirect]="false"
+        [providedImg]="cat.value.image || ''"
+        type="cat"
+      >
+      </flipping-card>
+    </ng-container>
+  </div>
+
+  <div class="cat-pagination">
     <button class="btn btn--green" (click)="prevPage()">&#xab;</button>
     <p class="paragraph u-margin-bottom-none"> {{ currentPage + 1 }} </p>
     <button class="btn btn--green" (click)="nextPage()">&#xbb;</button>

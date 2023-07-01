@@ -1,8 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
-import { Subject, catchError, debounceTime, of, switchMap, take, takeUntil } from 'rxjs';
+import { Subject, catchError, debounceTime, of, takeUntil } from 'rxjs';
 import { Dog } from 'src/app/interfaces/dog.interface';
-import { MetaService } from 'src/app/services/meta.service';
 import { PerrosService } from 'src/app/services/perros.service';
 
 @Component({
@@ -43,7 +42,7 @@ export class DogListComponent implements OnInit, OnDestroy {
 
   private _destroy$ = new Subject<void>();
 
-  constructor(private perrosService: PerrosService, private formBuilder: FormBuilder, private meta: MetaService) {
+  constructor(private perrosService: PerrosService, private formBuilder: FormBuilder) {
     this.onSearchTermChange()
   }
 
