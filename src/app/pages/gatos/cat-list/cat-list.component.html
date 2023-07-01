@@ -29,6 +29,12 @@
     </div>
   </div>
 
+  <div class="cat-pagination u-margin-bottom-big only-mobile">
+    <button class="btn btn--green" (click)="prevPage()">&#xab;</button>
+    <p class="paragraph u-margin-bottom-none"> {{ currentPage + 1 }} </p>
+    <button class="btn btn--green" (click)="nextPage()">&#xbb;</button>
+  </div>
+
   <div class="u-center-text row" *ngIf="errorMessage">
     <h3 class="heading-tertiary">Sin resultados</h3>
   </div>
@@ -37,7 +43,7 @@
     <ng-container *ngFor="let cat of slicedCatList | keyvalue">
       <flipping-card
         *ngIf="cat && cat.value"
-        [cardTitle]="cat.value.name.length > 15 ? cat.value.name.slice(0, 15) + '...' : cat.value.name"
+        [cardTitle]="cat.value.name"
         [topics]="cat.value.temperament"
         [href]="['/gatos',  cat.value.id]"
         [queryParams]="{ raza: cat.value.name.split(' ').join('-').toLowerCase() }"
