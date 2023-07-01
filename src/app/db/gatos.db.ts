@@ -12,7 +12,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/abyssinian',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/abyssinian',
-    temperament: 'Activo, Energético, Independiente, Inteligente, Gentil',
+    temperament: ['Activo', 'Energético', 'Independiente', 'Inteligente', 'Gentil'],
     origin: 'Egipto',
     country_codes: 'EG',
     country_code: 'EG',
@@ -155,7 +155,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: 'http://www.vetstreet.com/cats/aegean-cat',
     vcahospitals_url: '',
-    temperament: 'Cariñoso, Social, Inteligente, Juguetón, Activo',
+    temperament: ['Cariñoso', 'Social', 'Inteligente', 'Juguetón', 'Activo'],
     origin: 'Grecia',
     country_codes: 'GR',
     country_code: 'GR',
@@ -299,7 +299,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/american-bobtail',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/american-bobtail',
-    temperament: 'Inteligente, Interactivo, Vivaz, Juguetón, Sensible',
+    temperament: ['Inteligente', 'Interactivo', 'Vivaz', 'Juguetón', 'Sensible'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -464,7 +464,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/american-curl',
     temperament:
-      'Cariñoso, Curioso, Inteligente, Interactivo, Vivaz, Juguetón, Social',
+    ['Cariñoso', 'Curioso', 'Inteligente', 'Interactivo', 'Vivaz', 'Juguetón', 'Social'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -618,7 +618,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/american-shorthair',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/american-shorthair',
-    temperament: 'Activo, Curioso, Tranquilo, Juguetón, Calmo',
+    temperament: ['Activo', 'Curioso', 'Tranquilo', 'Juguetón', 'Calmo'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -769,7 +769,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/american-wirehair',
     vcahospitals_url: '',
     temperament:
-      'Afectuoso, Curioso, Gentil, Inteligente, Interactivo, Animado, Leal, Juguetón, Sensible, Social',
+      ['Afectuoso', 'Curioso', 'Gentil', 'Inteligente', 'Interactivo', 'Animado', 'Leal', 'Juguetón', 'Sensible', 'Social'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -908,7 +908,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: '',
     vcahospitals_url: '',
-    temperament: 'Cariñoso, Ágil, Curioso, Independiente, Juguetón, Leal',
+    temperament: ['Cariñoso', 'Ágil', 'Curioso', 'Independiente', 'Juguetón', 'Leal'],
     origin: 'Emiratos Árabes Unidos',
     country_codes: 'AE',
     country_code: 'AE',
@@ -1062,7 +1062,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: '',
     vcahospitals_url: '',
-    temperament: 'Animado, Social, Amante de la diversión, Relajado, Cariñoso',
+    temperament: ['Animado', 'Social', 'Amante de la diversión', 'Relajado', 'Cariñoso'],
     origin: 'Australia',
     country_codes: 'AU',
     country_code: 'AU',
@@ -1209,7 +1209,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/balinese',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/balinese',
-    temperament: 'Cariñoso, Inteligente, Juguetón',
+    temperament: ['Cariñoso', 'Inteligente', 'Juguetón'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -1360,7 +1360,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
   bamb: {
     id: 'bamb',
     name: 'Bambino',
-    temperament: 'Afectuoso, Vivo, Amigable, Inteligente',
+    temperament:['Afectuoso', 'Vivo', 'Amigable', 'Inteligente'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -1510,7 +1510,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/bengal',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/bengal',
-    temperament: 'Alerta, Ágil, Energético, Exigente, Inteligente',
+    temperament: ['Alerta', 'Ágil', 'Energético', 'Exigente', 'Inteligente'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -1666,7 +1666,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/birman',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/birman',
-    temperament: 'Cariñoso, Activo, Dulce, Social',
+    temperament: ['Cariñoso', 'Activo', 'Dulce', 'Social'],
     origin: 'Francia',
     country_codes: 'FR',
     country_code: 'FR',
@@ -1812,7 +1812,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/bombay',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/bombay',
-    temperament: 'Afectuoso, Dependiente, Gentil, Inteligente, Juguetón',
+    temperament: ['Afectuoso', 'Dependiente', 'Gentil', 'Inteligente', 'Juguetón'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -1954,7 +1954,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: '',
     vcahospitals_url: '',
     temperament:
-      'Afectuoso, Tranquilo, Independiente, Inteligente, Leal, Social',
+      ['Afectuoso', 'Tranquilo', 'Independiente', 'Inteligente', 'Leal', 'Social'],
     origin: 'Reino Unido',
     country_codes: 'GB',
     country_code: 'GB',
@@ -2098,7 +2098,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/british-shorthair',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/british-shorthair',
-    temperament: 'Afectuoso, Tranquilo, Gentil, Leal, Paciente, Calmo',
+    temperament: ['Afectuoso', 'Tranquilo', 'Gentil', 'Leal', 'Paciente', 'Calmo'],
     origin: 'Reino Unido',
     country_codes: 'GB',
     country_code: 'GB',
@@ -2241,7 +2241,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/burmese',
     temperament:
-      'Curioso, Inteligente, Gentil, Social, Interactivo, Juguetón, Animado',
+      ['Curioso', 'Inteligente', 'Gentil', 'Social', 'Interactivo', 'Juguetón', 'Animado'],
     origin: 'Birmania',
     country_codes: 'MM',
     country_code: 'MM',
@@ -2382,7 +2382,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/burmilla',
     vcahospitals_url: '',
     temperament:
-      'Tranquilo, Amistoso, Inteligente, Animado, Juguetón, Sociable',
+     ['Tranquilo', 'Amistoso', 'Inteligente', 'Animado', 'Juguetón', 'Sociable'],
     origin: 'Reino Unido',
     country_codes: 'GB',
     country_code: 'GB',
@@ -2524,7 +2524,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: '',
     vcahospitals_url: '',
-    temperament: 'Afectuoso, Curioso, Inteligente, Leal, Social',
+    temperament: ['Afectuoso', 'Curioso', 'Inteligente', 'Leal', 'Social'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -2666,7 +2666,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: '',
     vcahospitals_url: '',
-    temperament: 'Afectuoso, Exigente, Interactivo, Leal',
+    temperament: ['Afectuoso', 'Exigente', 'Interactivo', 'Leal'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -2807,7 +2807,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/chartreux',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/chartreux',
-    temperament: 'Afectuoso, Leal, Inteligente, Social, Vivo, Juguetón',
+    temperament: ['Afectuoso', 'Leal', 'Inteligente', 'Social', 'Vivo', 'Juguetón'],
     origin: 'Francia',
     country_codes: 'FR',
     country_code: 'FR',
@@ -2972,7 +2972,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: '',
     vcahospitals_url: '',
-    temperament: 'Cariñoso, Inteligente, Juguetón, Social',
+    temperament: ['Cariñoso', 'Inteligente', 'Juguetón', 'Social'],
     origin: 'Egipto',
     country_codes: 'EG',
     country_code: 'EG',
@@ -3114,7 +3114,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: '',
     vcahospitals_url: '',
-    temperament: 'Afectuoso, Gentil, Inteligente, Social',
+    temperament: ['Afectuoso', 'Gentil', 'Inteligente', 'Social'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -3258,7 +3258,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: '',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/colorpoint-shorthair',
-    temperament: 'Cariñoso, Inteligente, Juguetón, Social',
+    temperament: ['Cariñoso', 'Inteligente', 'Juguetón', 'Social'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -3412,7 +3412,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/cornish-rex',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/cornish-rex',
-    temperament: 'Afectuoso, Inteligente, Activo, Curioso, Juguetón',
+    temperament: ['Afectuoso', 'Inteligente', 'Activo', 'Curioso', 'Juguetón'],
     origin: 'Reino Unido',
     country_codes: 'GB',
     country_code: 'GB',
@@ -3567,7 +3567,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: 'http://www.vetstreet.com/cats/cymric',
     vcahospitals_url: '',
-    temperament: 'Amable, Leal, Inteligente, Juguetón',
+    temperament:['Amable', 'Leal', 'Inteligente', 'Juguetón'],
     origin: 'Canadá',
     country_codes: 'CA',
     country_code: 'CA',
@@ -3722,7 +3722,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: '',
     vcahospitals_url: '',
-    temperament: 'Cariñoso, Social',
+    temperament: ['Cariñoso', 'Social'],
     origin: 'Chipre',
     country_codes: 'CY',
     country_code: 'CY',
@@ -3853,7 +3853,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/devon-rex',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/devon-rex',
-    temperament: 'Altamente interactivo, Travieso, Leal, Social, Juguetón',
+    temperament: ['Altamente interactivo', 'Travieso', 'Leal', 'Social', 'Juguetón'],
     origin: 'Reino Unido',
     country_codes: 'GB',
     country_code: 'GB',
@@ -3988,7 +3988,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: '',
     vcahospitals_url: '',
-    temperament: 'Juguetón, cariñoso, leal, social',
+    temperament: ['Juguetón', 'cariñoso', 'leal', 'social'],
     origin: 'Rusia',
     country_codes: 'RU',
     country_code: 'RU',
@@ -4127,7 +4127,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     id: 'lihu',
     name: 'Dragón Li',
     vetstreet_url: 'http://www.vetstreet.com/cats/li-hua',
-    temperament: 'Inteligente, Amigable, Gentil, Cariñoso, Leal',
+    temperament: ['Inteligente', 'Amigable', 'Gentil', 'Cariñoso', 'Leal'],
     origin: 'China',
     country_codes: 'CN',
     country_code: 'CN',
@@ -4285,7 +4285,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/egyptian-mau',
     temperament:
-      'Ágil, Dependiente, Gentil, Inteligente, Vivaz, Leal, Juguetón',
+      ['Ágil', 'Dependiente', 'Gentil', 'Inteligente', 'Vivaz', 'Leal', 'Juguetón'],
     origin: 'Egipto',
     country_codes: 'EG',
     country_code: 'EG',
@@ -4434,7 +4434,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: 'http://cfa.org/Breeds/BreedsCJ/EuropeanBurmese.aspx',
     vetstreet_url: '',
     vcahospitals_url: '',
-    temperament: 'Dulce, Afectuoso, Leal',
+    temperament: ['Dulce', 'Afectuoso', 'Leal'],
     origin: 'Birmania',
     country_codes: 'MM',
     country_code: 'MM',
@@ -4583,7 +4583,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/exotic-shorthair',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/exotic-shorthair',
-    temperament: 'Cariñoso, Dulce, Leal, Tranquilo, Pacífico',
+    temperament: ['Cariñoso', 'Dulce', 'Leal', 'Tranquilo', 'Pacífico'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -4714,7 +4714,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/havana-brown',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/havana-brown',
-    temperament: 'Cariñoso, Curioso, Exigente, Amigable, Inteligente, Juguetón',
+    temperament: ['Cariñoso', 'Curioso', 'Exigente', 'Amigable', 'Inteligente', 'Juguetón'],
     origin: 'Reino Unido',
     country_codes: 'GB',
     country_code: 'GB',
@@ -4857,7 +4857,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/himalayan',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/himalayan',
-    temperament: 'Dependiente, Gentil, Inteligente, Tranquilo, Social',
+    temperament: ['Dependiente', 'Gentil', 'Inteligente', 'Tranquilo', 'Social'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -5013,7 +5013,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/japanese-bobtail',
     temperament:
-      'Activo, Ágil, Inteligente, Tranquilo, Inteligente, Vivo, Leal, Juguetón, Social',
+      ['Activo', 'Ágil', 'Inteligente', 'Tranquilo', 'Inteligente', 'Vivo', 'Leal', 'Juguetón', 'Social'],
     origin: 'Japón',
     country_codes: 'JP',
     country_code: 'JP',
@@ -5170,7 +5170,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/javanese',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/javanese',
-    temperament: 'Activo, Devoto, Inteligente, Juguetón',
+    temperament: ['Activo', 'Devoto', 'Inteligente', 'Juguetón'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -5316,7 +5316,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: 'http://cfa.org/Breeds/BreedsKthruR/KhaoManee.aspx',
     vetstreet_url: '',
     vcahospitals_url: '',
-    temperament: 'Tranquilo, Relajado, Hablador, Juguetón, Cálido',
+    temperament: ['Tranquilo', 'Relajado', 'Hablador', 'Juguetón', 'Cálido'],
     origin: 'Tailandia',
     country_codes: 'TH',
     country_code: 'TH',
@@ -5452,7 +5452,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: 'http://cfa.org/Breeds/BreedsKthruR/Korat.aspx',
     vetstreet_url: 'http://www.vetstreet.com/cats/korat',
     vcahospitals_url: 'https://vcahospitals.com/know-your-pet/cat-breeds/korat',
-    temperament: 'Activo, Leal, Altamente inteligente, Expresivo, Adiestrable',
+    temperament: ['Activo', 'Leal', 'Altamente inteligente', 'Expresivo', 'Adiestrable'],
     origin: 'Tailandia',
     country_codes: 'TH',
     country_code: 'TH',
@@ -5598,7 +5598,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/kurilian-bobtail',
     vcahospitals_url: '',
     temperament:
-      'Independiente, altamente inteligente, ingenioso, curioso, sociable, juguetón, entrenable',
+      ['Independiente', 'altamente inteligente', 'ingenioso', 'curioso', 'sociable', 'juguetón', 'entrenable'],
     origin: 'Rusia',
     country_codes: 'RU',
     country_code: 'RU',
@@ -5753,7 +5753,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/laperm',
     temperament:
-      'Afectuoso, Amigable, Gentil, Inteligente, Juguetón, Tranquilo',
+      ['Afectuoso', 'Amigable', 'Gentil', 'Inteligente', 'Juguetón', 'Tranquilo'],
     origin: 'Tailandia',
     country_codes: 'TH',
     country_code: 'TH',
@@ -5902,7 +5902,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/maine-coon',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/maine-coon',
-    temperament: 'Adaptable, Inteligente, Amoroso, Gentil, Independiente',
+    temperament: ['Adaptable', 'Inteligente', 'Amoroso', 'Gentil', 'Independiente'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -6049,7 +6049,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     },
     id: 'mala',
     name: 'Malayo',
-    temperament: 'Cariñoso, Interactivo, Juguetón, Social',
+    temperament: ['Cariñoso', 'Interactivo', 'Juguetón', 'Social'],
     origin: 'Reino Unido',
     country_codes: 'GB',
     country_code: 'GB',
@@ -6192,7 +6192,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: 'http://cfa.org/Breeds/BreedsKthruR/Manx.aspx',
     vetstreet_url: 'http://www.vetstreet.com/cats/manx',
     vcahospitals_url: 'https://vcahospitals.com/know-your-pet/cat-breeds/manx',
-    temperament: 'Fácil de manejar, Inteligente, Leal, Juguetón, Social',
+    temperament: ['Fácil de manejar', 'Inteligente', 'Leal', 'Juguetón', 'Social'],
     origin: 'Isla de Man',
     country_codes: 'IM',
     country_code: 'IM',
@@ -6325,7 +6325,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: 'http://www.vetstreet.com/cats/munchkin',
     vcahospitals_url: '',
-    temperament: 'Ágil, Tranquilo, Inteligente, Juguetón',
+    temperament: ['Ágil', 'Tranquilo', 'Inteligente', 'Juguetón'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -6455,7 +6455,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: '',
     vcahospitals_url: '',
-    temperament: 'Amable, Tranquilo, Tímido, Juguetón',
+    temperament: ['Amable', 'Tranquilo', 'Tímido', 'Juguetón'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -6584,7 +6584,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/norwegian-forest-cat',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/norwegian-forest-cat',
-    temperament: 'Dulce, Activo, Inteligente, Social, Juguetón, Vivo, Curioso',
+    temperament: ['Dulce', 'Activo', 'Inteligente', 'Social', 'Juguetón', 'Vivo', 'Curioso'],
     origin: 'Noruega',
     country_codes: 'NO',
     country_code: 'NO',
@@ -6723,7 +6723,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/ocicat',
     temperament:
-      'Activo, Ágil, Curioso, Exigente, Amistoso, Gentil, Vivo, Juguetón, Social',
+      ['Activo', 'Ágil', 'Curioso', 'Exigente', 'Amistoso', 'Gentil', 'Vivo', 'Juguetón', 'Social'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -6852,7 +6852,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/oriental',
     temperament:
-      'Energético, Afectuoso, Inteligente, Social, Juguetón, Curioso',
+      ['Energético', 'Afectuoso', 'Inteligente', 'Social', 'Juguetón', 'Curioso'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -6989,7 +6989,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/persian',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/persian',
-    temperament: 'Afectuoso, leal, Sedado, Tranquilo',
+    temperament: ['Afectuoso', 'leal', 'Sedado', 'Tranquilo'],
     origin: 'Irán (Persia)',
     country_codes: 'IR',
     country_code: 'IR',
@@ -7144,7 +7144,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: 'http://www.vetstreet.com/cats/pixiebob',
     vcahospitals_url: '',
-    temperament: 'Cariñoso, Social, Inteligente, Leal',
+    temperament: ['Cariñoso', 'Social', 'Inteligente', 'Leal'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -7282,7 +7282,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/ragamuffin',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/ragamuffin',
-    temperament: 'Afectuoso, Amigable, Gentil, Calmo',
+    temperament: ['Afectuoso', 'Amigable', 'Gentil', 'Calmo'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -7428,7 +7428,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/ragdoll',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/ragdoll',
-    temperament: 'Afectuoso, Amigable, Gentil, Silencioso, Tranquilo',
+    temperament: ['Afectuoso', 'Amigable', 'Gentil', 'Silencioso', 'Tranquilo'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -7576,7 +7576,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/russian-blue',
     temperament:
-      'Activo, Dependiente, Tranquilo, Suave, Inteligente, Leal, Juguetón, Silencioso',
+      ['Activo', 'Dependiente', 'Tranquilo', 'Suave', 'Inteligente', 'Leal', 'Juguetón', 'Silencioso'],
     origin: 'Rusia',
     country_codes: 'RU',
     country_code: 'RU',
@@ -7720,7 +7720,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/savannah',
     vcahospitals_url: '',
     temperament:
-      'Curioso, Social, Inteligente, Leal, Extrovertido, Aventurero, Afectuoso',
+      ['Curioso', 'Social', 'Inteligente', 'Leal', 'Extrovertido', 'Aventurero', 'Afectuoso'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -7869,7 +7869,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/scottish-fold',
     temperament:
-      'Afectuoso, Inteligente, Leal, Juguetón, Social, Dulce, Amoroso',
+      ['Afectuoso', 'Inteligente', 'Leal', 'Juguetón', 'Social', 'Dulce', 'Amoroso'],
     origin: 'Reino Unido',
     country_codes: 'GB',
     country_code: 'GB',
@@ -8027,7 +8027,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/selkirk-rex',
     temperament:
-      'Activo, Afectuoso, Dependiente, Suave, Paciente, Juguetón, Callado, Social',
+      ['Activo', 'Afectuoso', 'Dependiente', 'Suave', 'Paciente', 'Juguetón', 'Callado', 'Social'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',
@@ -8164,7 +8164,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/siamese',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/siamese',
-    temperament: 'Activo, Ágil, Listo, Sociable, Cariñoso, Energetico',
+    temperament: ['Activo', 'Ágil', 'Listo', 'Sociable', 'Cariñoso', 'Energetico'],
     origin: 'Tailandia',
     country_codes: 'TH',
     country_code: 'TH',
@@ -8309,7 +8309,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vetstreet_url: 'http://www.vetstreet.com/cats/siberian',
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/siberian',
-    temperament: 'Curioso, Inteligente, Leal, Dulce, Ágil, Juguetón, Afectuoso',
+    temperament:['Curioso', 'Inteligente', 'Leal', 'Dulce', 'Ágil', 'Juguetón', 'Afectuoso'],
     origin: 'Rusia',
     country_codes: 'RU',
     country_code: 'RU',
@@ -8468,7 +8468,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     vcahospitals_url:
       'https://vcahospitals.com/know-your-pet/cat-breeds/singapura',
     temperament:
-      'Afectuoso, Curioso, Tranquilo, Inteligente, Interactivo, Vivo, Leal',
+      ['Afectuoso', 'Curioso', 'Tranquilo', 'Inteligente', 'Interactivo', 'Vivo', 'Leal'],
     origin: 'Singapur',
     country_codes: 'SP',
     country_code: 'SP',
@@ -8613,7 +8613,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     cfa_url: '',
     vetstreet_url: '',
     vcahospitals_url: '',
-    temperament: 'Afectuoso, Social, Inteligente, De buen carácter',
+    temperament: ['Afectuoso', 'Social', 'Inteligente', 'De buen carácter'],
     origin: 'Estados Unidos',
     country_codes: 'US',
     country_code: 'US',

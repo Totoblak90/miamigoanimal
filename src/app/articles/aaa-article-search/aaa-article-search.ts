@@ -2,8 +2,10 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subject, debounceTime, takeUntil } from 'rxjs';
+import { Cat } from 'src/app/interfaces/cat.interface';
 import { Dog } from 'src/app/interfaces/dog.interface';
 import { ArticlesService } from 'src/app/services/articles.service';
+import { GatosService } from 'src/app/services/gatos.service';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
 import { PerrosService } from 'src/app/services/perros.service';
@@ -21,7 +23,12 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
   })
 
   allArticles = this.articlesService.articlesDB();
-  breedArticles = Object.values(this.perrosService.dogListSignal()).map(breed => ({...breed, type: 'dog'})).sort((a, b) => a.name > b.name ? 1 : -1);
+  breedArticles: any[] =
+    Object.values(this.perrosService.dogListSignal()).map(breed => ({...breed, type: 'dog'})).sort((a, b) => a.name > b.name ? 1 : -1)
+    .concat(
+      // @ts-ignore
+      Object.values(this.gatosService.catListSignal()).map(breed => ({...breed, type: 'cat'})).sort((a, b) => a.name > b.name ? 1 : -1)
+    )
 
   pageSize = 6; // Número de artículos por página
   currentPage = 0; // Página actual
@@ -56,6 +63,7 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
 
         // Si el título del artículo tiene el nombre de una raza, se usa esa imagen
         if (articleType === 'dog') selectedImage = this.perrosService.setDogBreedImage(article.recent_card_title, undefined, true)
+        else if (articleType === 'cat') selectedImage = this.gatosService.setCatBreedImage(article.recent_card_title, undefined, true);
 
         return {
           title: article['card-heading'],
@@ -76,23 +84,46 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
 
       // Filtrar los artículos si hay un término de búsqueda
       if (this.searchForm.get('searchTerm')?.value) {
-        searchResults = this.perrosService
-                  .filterBySearchTerm((searchResults as Dog[]), this.searchForm.get('searchTerm')?.value)
-                  .map(breed => ({...breed, type: 'dog'}))
+
+
+        const filteredDogs = this.perrosService
+                              .filterBySearchTerm((searchResults.filter(sr => sr.type === 'dog') as Dog[]), this.searchForm.get('searchTerm')?.value)
+                              .map(breed => ({...breed, type: 'dog'}));
+        const filteredCats = this.gatosService
+                              .filterBySearchTerm((searchResults.filter(sr => sr.type === 'cat') as Cat[]), this.searchForm.get('searchTerm')?.value)
+                              .map(breed => ({...breed, type: 'cat'}));
+
+        searchResults = [...filteredDogs, ...filteredCats].sort((a, b) => a.name > b.name ? 1 : -1)
       }
 
 
-      return searchResults.map(breed => {
-        return {
-          title: breed.name,
-          topic: breed.temperament,
-          type: breed.type as 'cat' | 'dog',
-          href: ['/perros', breed.id],
-          queryParams: { raza: breed.name.split(' ').join('-').toLocaleLowerCase() },
-          img: breed.image.url,
-          defaultRedirect: false
+      return searchResults.map((breed: any) => {
+
+        if (breed.type === 'dog') {
+          return {
+            title: breed.name,
+            topic: breed.temperament,
+            type: breed.type,
+            href: ['/perros', breed.id],
+            queryParams: { raza: breed.name.split(' ').join('-').toLocaleLowerCase() },
+            img: breed.image.url,
+            defaultRedirect: false
+          }
+        }
+        else
+        {
+          return {
+            title: breed.name,
+            topic: breed.temperament,
+            type: breed.type as 'cat',
+            href: ['/gatos', breed.id],
+            queryParams: { raza: breed.name.split(' ').join('-').toLocaleLowerCase() },
+            img: breed.image,
+            defaultRedirect: false
+          }
         }
       })
+      .sort((a, b) => a.title > b.title ? 1 : -1)
 
     }
 
@@ -107,6 +138,7 @@ export class AaaArticleSearchComponent implements OnInit, OnDestroy {
     private navigationService: NavigationService,
     private articlesService: ArticlesService,
     private perrosService: PerrosService,
+    private gatosService: GatosService,
     private fb: FormBuilder,
     private activatedRoute: ActivatedRoute,
   ) {

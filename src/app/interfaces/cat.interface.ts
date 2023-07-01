@@ -5,7 +5,7 @@ export interface Cat {
   cfa_url:            string;
   vetstreet_url:      string;
   vcahospitals_url:   string;
-  temperament:        string;
+  temperament:        string[];
   origin:             string;
   country_codes:      string;
   country_code:       string;
@@ -76,7 +76,7 @@ export interface Cat {
   cfa_url:            string;
   vetstreet_url:      string;
   vcahospitals_url:   string;
-  temperament:        string;
+  temperament:        string[];
   origin:             string;
   country_codes:      string;
   country_code:       string;

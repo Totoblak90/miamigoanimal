@@ -92,7 +92,7 @@ export class CatListComponent {
     return catList.filter(cat => {
       return  cat.name.toLowerCase().includes(searchTerm) ||
               cat.searchTerms.some(st => st.toLowerCase().includes(searchTerm)) ||
-              cat.temperament.split(' ').some(t => t.toLowerCase().includes(searchTerm)) ||
+              cat.temperament.some(t => t.toLowerCase().includes(searchTerm)) ||
               cat.categoria_de_tamanio.toLowerCase().includes(searchTerm) ||
               cat.origin.toLowerCase().includes(searchTerm)
     });

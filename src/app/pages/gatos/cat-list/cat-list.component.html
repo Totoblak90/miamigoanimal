@@ -38,7 +38,7 @@
       <flipping-card
         *ngIf="cat && cat.value"
         [cardTitle]="cat.value.name.length > 15 ? cat.value.name.slice(0, 15) + '...' : cat.value.name"
-        [topics]="cat.value.temperament.split(' ')"
+        [topics]="cat.value.temperament"
         [href]="['/gatos',  cat.value.id]"
         [queryParams]="{ raza: cat.value.name.split(' ').join('-').toLowerCase() }"
         [defaultRedirect]="false"
