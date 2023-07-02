@@ -20,6 +20,10 @@ const routes: Routes = [
     component: CookiesComponent
   },
   {
+    path: 'gatos/:gatoId',
+    loadChildren: () => import('./gatos-raza/gatos-raza.module').then(m => m.GatosRazaModule)
+  },
+  {
     path: 'gatos',
     loadChildren: () => import('./gatos/gatos.module').then(m => m.GatosModule)
   },

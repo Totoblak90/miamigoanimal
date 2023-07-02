@@ -1,0 +1,327 @@
+<app-header bckColour="cat" [mainTitle]="cat.name" [providedImg]="cat.image || ''"></app-header>
+
+<main class="u-margin-top-medium">
+
+  <section class="row">
+
+    <!-- Descripción e historia -->
+    <article class="grid-breeds u-margin-bottom-big">
+      <div class="u-margin-bottom-medium">
+        <div class="u-center-text u-margin-bottom-small">
+          <h2 #aboutTitle class="heading-secondary">Acerca de</h2>
+        </div>
+        <expandable-text [textoCompleto]="cat.description" [title]="aboutTitle"></expandable-text>
+      </div>
+
+      <div class="u-margin-bottom-medium">
+        <div class="u-center-text u-margin-bottom-small">
+          <h2 #historyTitle class="heading-secondary">Historia</h2>
+        </div>
+        <expandable-text [textoCompleto]="cat.history" [title]="historyTitle"></expandable-text>
+      </div>
+    </article>
+
+    <!-- Carousel -->
+    <!-- <article class="u-margin-bottom-big" *ngIf="dogGallery?.length">
+      <carousel [images]="dogGallery"></carousel>
+    </article> -->
+
+    <!-- Rasgos -->
+    <!-- <article class="u-margin-bottom-big">
+
+      <div class="u-center-text u-margin-bottom-small">
+        <h2 class="heading-secondary">
+          Rasgos
+        </h2>
+      </div>
+
+      <div class="row u-margin-bottom-small">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph">
+            <strong>Altura:</strong> {{ dog.height.metric }} cm | {{ dog.height.imperial }} in
+          </p>
+        </div>
+
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph">
+            <strong>Peso:</strong> {{ dog.weight.metric }} kg | {{ dog.weight.imperial }} lb
+          </p>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph">
+            <strong>Esperanza de vida:</strong> {{ dog.life_span }}
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph">
+            <strong>Colores comunes:</strong> {{ dog.color.join(', ') }}
+          </p>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph">
+            <strong>Críado para:</strong> {{ dog.bred_for.join(', ') }}
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph">
+            <strong>Temperamento:</strong> {{ dog.temperament.join(', ') }}
+          </p>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph">
+            <strong>Necesidades especiales:</strong> {{ dog.necesidades_especiales.join(', ') }}
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph">
+            <strong>Enfermedades comunes:</strong> {{ dog.enfermedades_comunes.join(', ') }}
+          </p>
+        </div>
+      </div>
+
+    </article> -->
+
+  <!-- Datos clave -->
+    <!-- <article class="u-margin-bottom-big">
+
+      <div class="u-center-text u-margin-bottom-small">
+        <h2 class="heading-secondary">
+          Datos clave
+        </h2>
+      </div>
+
+      <div class="row u-center-text u-margin-bottom-medium">
+          <p class="paragraph">
+            <strong>{{ dogPerks }}</strong>
+          </p>
+      </div>
+
+      <div class="row u-margin-bottom-small">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center;">
+            <strong>Tamaño:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text"><strong>{{ dog.categoria_de_tamanio }}</strong></div>
+          <span class="progress-bar">
+            <span [class]="categoriaDeTamanioPercentage" ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center;">
+            <strong>Compatibilidad con otros animales:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text"><strong>{{ dog.compatibilidad_con_otros_animales }}</strong></div>
+          <span class="progress-bar">
+            <span [class]="compatibilidadConOtrosAnimalesPercentage" ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center;">
+            <strong>Salud general:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text"><strong>{{ dog.salud_general }}</strong></div>
+          <span class="progress-bar">
+            <span [class]="saludGeneralPercentage" ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center;">
+            <strong>Facilidad de entrenamiento:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text"><strong>{{ dog.facilidad_de_entrenamiento }}</strong></div>
+          <span class="progress-bar">
+            <span [class]="facilidadDeEntrenamientoPercentage" ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center;">
+            <strong>Nivel de energía:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text"><strong>{{ dog.nivel_de_energia }}</strong></div>
+          <span class="progress-bar">
+            <span [class]="nivelDeEnergiaPercentage" ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center;">
+            <strong>Popularidad:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text"><strong>{{ dog.popularidad }}</strong></div>
+          <span class="progress-bar">
+            <span [class]="popularidadPercentage" ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small" *ngIf="dog.tendencia_a_ladrar">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center;">
+            <strong>Tendencia al ladrido:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text"><strong>{{ dog.tendencia_a_ladrar }}</strong></div>
+          <span class="progress-bar">
+            <span [class]="tendenciaLadridoPercentage" ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small" *ngIf="dog.necesidad_de_aseo">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center;">
+            <strong>Necesidad de aseo:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text"><strong>{{ dog.necesidad_de_aseo }}</strong></div>
+          <span class="progress-bar">
+            <span [class]="necesidadDeAseoPercentage" ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small" *ngIf="dog.soporta_clima_calido">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center;">
+            <strong>Resistencia al calor:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text"><strong>{{ dog.soporta_clima_calido }}</strong></div>
+          <span class="progress-bar">
+            <span [class]="resistenciaAlCalorPercentage" ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small" *ngIf="dog.soporta_clima_frio">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center;">
+            <strong>Resistencia al frío:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text"><strong>{{ dog.soporta_clima_frio }}</strong></div>
+          <span class="progress-bar">
+            <span [class]="resistenciaAlFrioPercentage" ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small" *ngIf="dog.tolerancia_a_la_soledad">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center;">
+            <strong>Tolerancia a la soledad:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text"><strong>{{ dog.tolerancia_a_la_soledad }}</strong></div>
+          <span class="progress-bar">
+            <span [class]="toleranciaSoledadPercentage" ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small" *ngIf="dog.bueno_con_ninos">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center;">
+            <strong>Recomendación para niños:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text"><strong>{{ dog.bueno_con_ninos }}</strong></div>
+          <span class="progress-bar">
+            <span [class]="relacionNinosPercentage" ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-medium" *ngIf="dog.para_primerizos">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center;">
+            <strong>Recomendación para primerizos:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text"><strong>{{ dog.para_primerizos }}</strong></div>
+          <span class="progress-bar">
+            <span [class]="recomendacionPrimerizosPercentage" ></span>
+          </span>
+        </div>
+      </div>
+
+    </article> -->
+
+    <!-- Fuentes -->
+    <article>
+
+      <nav class="navigation">
+
+        <hr class="u-margin-bottom-medium">
+
+        <h2 class="heading-tertiary u-margin-bottom-small">Fuentes</h2>
+
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="https://thedogapi.com/" target="_blank" class="navigation__link">The cat API</a>
+          </li>
+          <li *ngFor="let fuente of cat.fuentes" class="navigation__item">
+            <a [href]="fuente" target="_blank" class="navigation__link">{{ fuente }}</a>
+          </li>
+          <li class="navigation__item">
+            <span >Este artículo fue revisado, traducido y mejorado por inteligencia artificial</span>
+          </li>
+        </ul>
+
+        <hr class="u-margin-top-medium">
+
+      </nav>
+
+
+    </article>
+
+  </section>
+
+  <highlited-articles-section [filters]="['Gatos']"></highlited-articles-section>
+
+  <recent-articles-section [filters]="['Gatos']"></recent-articles-section>
+
+</main>
+
