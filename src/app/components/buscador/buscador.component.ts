@@ -176,8 +176,6 @@ export class BuscadorComponent implements OnDestroy {
     }
   }
 
-  // On destroy
-
   ngOnDestroy(): void {
     this._destroy$.next(true)
     this._destroy$.unsubscribe()

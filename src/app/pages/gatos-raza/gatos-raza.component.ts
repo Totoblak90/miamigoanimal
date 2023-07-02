@@ -73,6 +73,252 @@ export class GatosRazaComponent {
     tolerancia_a_la_soledad: "-"
   };
 
+  get catPerks() {
+    return this.cat.perks.join(', ').toLocaleUpperCase()
+  }
+
+  get relacionConLosPerrosPercentage(): string {
+    const map: {[key: number]: number} = {
+      0: 0,
+      1: 20,
+      2: 40,
+      3: 60,
+      4: 80,
+      5: 100
+    }
+
+    return this.cat.dog_friendly ? `progress progress__${map[this.cat.dog_friendly]}` : 'progress progress__0'
+  }
+
+  get sheddingLevelPercentage(): string {
+    const map: {[key: number]: number} = {
+      0: 0,
+      1: 20,
+      2: 40,
+      3: 60,
+      4: 80,
+      5: 100
+    }
+
+    return this.cat.shedding_level ? `progress progress__${map[this.cat.shedding_level]}` : 'progress progress__0'
+  }
+
+  get relacionConLosExtraniosPercentage(): string {
+    const map: {[key: number]: number} = {
+      0: 0,
+      1: 20,
+      2: 40,
+      3: 60,
+      4: 80,
+      5: 100
+    }
+
+    return this.cat.stranger_friendly ? `progress progress__${map[this.cat.stranger_friendly]}` : 'progress progress__0'
+  }
+
+  get necesidadesSocialesPercentage(): string {
+    const map: {[key: number]: number} = {
+      0: 0,
+      1: 20,
+      2: 40,
+      3: 60,
+      4: 80,
+      5: 100
+    }
+
+    return this.cat.social_needs ? `progress progress__${map[this.cat.social_needs]}` : 'progress progress__0'
+  }
+
+  get vocalisationPercentage(): string {
+    const map: {[key: number]: number} = {
+      0: 0,
+      1: 20,
+      2: 40,
+      3: 60,
+      4: 80,
+      5: 100
+    }
+
+    return this.cat.vocalisation ? `progress progress__${map[this.cat.vocalisation]}` : 'progress progress__0'
+  }
+
+  get childFriendlyPercentage(): string {
+    const map: {[key: number]: number} = {
+      0: 0,
+      1: 20,
+      2: 40,
+      3: 60,
+      4: 80,
+      5: 100
+    }
+
+    return this.cat.child_friendly ? `progress progress__${map[this.cat.child_friendly]}` : 'progress progress__0'
+  }
+
+  get categoriaDeTamanioPercentage() {
+    type categoriaDeTamanio = 'Muy pequeño' | 'Pequeño' | 'Mediano' | 'Grande' | 'Muy grande' | '-';
+
+    type categoriaDeTamanioMap = {
+      [K in categoriaDeTamanio]: number;
+    };
+
+    const categoriaDeTamanio: categoriaDeTamanioMap = {
+      '-': 0,
+      'Muy pequeño': 20,
+      'Pequeño': 40,
+      'Mediano': 60,
+      'Grande': 80,
+      'Muy grande': 100
+    }
+
+    return `progress progress__${categoriaDeTamanio[this.cat.categoria_de_tamanio]}`
+  }
+
+  get saludGeneralPercentage() {
+
+    type saludGeneral = 'Mala' | 'Regular' | 'Buena' | 'Excelente' | '-';
+
+    type saludGeneralMap = {
+      [K in saludGeneral]: number;
+    };
+
+    const saludGeneral: saludGeneralMap = {
+      '-': 0,
+      'Mala': 25,
+      'Regular': 50,
+      'Buena': 75,
+      'Excelente': 100
+    }
+
+    return `progress progress__${saludGeneral[this.cat.salud_general]}`
+  }
+
+  get nivelDeEnergiaPercentage() {
+
+    type nivelDeEnergia = 'Bajo' | 'Moderado' | 'Alto' | '-';
+
+    type nivelDeEnergiaMap = {
+      [K in nivelDeEnergia]: number;
+    };
+
+    const nivelDeEnergia: nivelDeEnergiaMap = {
+      '-': 0,
+      'Bajo': 33,
+      'Moderado': 66,
+      'Alto': 100
+    }
+
+    return `progress progress__${nivelDeEnergia[this.cat.nivel_de_energia]}`
+  }
+
+  get popularidadPercentage() {
+
+    type popularidad = 'Baja' | 'Moderada' | 'Alta' | '-';
+
+    type popularidadMap = {
+      [K in popularidad]: number;
+    };
+
+    const popularidad: popularidadMap = {
+      '-': 0,
+      'Baja': 33,
+      'Moderada': 66,
+      'Alta': 100
+    }
+
+    return `progress progress__${popularidad[this.cat.popularidad]}`
+  }
+
+  get necesidadDeAseoPercentage() {
+
+    type necesidadDeAseo = 'Baja' | 'Moderada' | 'Alta' | '-';
+
+    type necesidadDeAseoMap = {
+      [K in necesidadDeAseo]: number;
+    };
+
+    const necesidadDeAseo: necesidadDeAseoMap = {
+      '-': 0,
+      'Baja': 33,
+      'Moderada': 66,
+      'Alta': 100
+    }
+
+    return `progress progress__${necesidadDeAseo[this.cat.necesidad_de_aseo || '-']}`
+  }
+
+  get resistenciaAlCalorPercentage() {
+
+    type resistenciaAlCalor = 'Baja' | 'Moderada' | 'Alta' | '-';
+
+    type resistenciaAlCalorMap = {
+      [K in resistenciaAlCalor]: number;
+    };
+
+    const resistenciaAlCalor: resistenciaAlCalorMap = {
+      '-': 0,
+      'Baja': 33,
+      'Moderada': 66,
+      'Alta': 100
+    }
+
+    return `progress progress__${resistenciaAlCalor[this.cat.soporta_clima_calido || '-']}`
+  }
+
+  get resistenciaAlFrioPercentage() {
+
+    type resistenciaAlFrio = 'Baja' | 'Moderada' | 'Alta' | '-';
+
+    type resistenciaAlFrioMap = {
+      [K in resistenciaAlFrio]: number;
+    };
+
+    const resistenciaAlFrio: resistenciaAlFrioMap = {
+      '-': 0,
+      'Baja': 33,
+      'Moderada': 66,
+      'Alta': 100
+    }
+
+    return `progress progress__${resistenciaAlFrio[this.cat.soporta_clima_frio || '-']}`
+  }
+
+  get toleranciaSoledadPercentage() {
+
+    type toleranciaSoledad = 'Baja' | 'Moderada' | 'Alta' | '-';
+
+    type toleranciaSoledadMap = {
+      [K in toleranciaSoledad]: number;
+    };
+
+    const toleranciaSoledad: toleranciaSoledadMap = {
+      '-': 0,
+      'Baja': 33,
+      'Moderada': 66,
+      'Alta': 100
+    }
+
+    return `progress progress__${toleranciaSoledad[this.cat.tolerancia_a_la_soledad || '-']}`
+  }
+
+  get recomendacionPrimerizosPercentage() {
+
+    type recomendacionPrimerizos = 'Baja' | 'Moderada' | 'Alta' | '-';
+
+    type recomendacionPrimerizosMap = {
+      [K in recomendacionPrimerizos]: number;
+    };
+
+    const recomendacionPrimerizos: recomendacionPrimerizosMap = {
+      '-': 0,
+      'Baja': 33,
+      'Moderada': 66,
+      'Alta': 100
+    }
+
+    return `progress progress__${recomendacionPrimerizos[this.cat.para_primerizos || '-']}`
+  }
+
   private _destroy$: Subject<boolean> = new Subject<boolean>();
 
   constructor(
@@ -124,6 +370,19 @@ export class GatosRazaComponent {
       });
 
     }
+  }
+
+  setCategoryName(value: number): string {
+    const categoryNameMap: {[key: number]: string} = {
+      0: '-',
+      1: 'Muy Baja',
+      2: 'Baja',
+      3: 'Moderada',
+      4: 'Alta',
+      5: 'Muy Alta'
+    }
+
+    return categoryNameMap[value]
   }
 
   ngOnDestroy(): void {
