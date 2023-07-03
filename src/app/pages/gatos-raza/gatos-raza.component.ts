@@ -155,6 +155,19 @@ export class GatosRazaComponent {
     return this.cat.child_friendly ? `progress progress__${map[this.cat.child_friendly]}` : 'progress progress__0'
   }
 
+  get intelligencePercentage(): string {
+    const map: {[key: number]: number} = {
+      0: 0,
+      1: 20,
+      2: 40,
+      3: 60,
+      4: 80,
+      5: 100
+    }
+
+    return this.cat.intelligence ? `progress progress__${map[this.cat.intelligence]}` : 'progress progress__0'
+  }
+
   get categoriaDeTamanioPercentage() {
     type categoriaDeTamanio = 'Muy pequeño' | 'Pequeño' | 'Mediano' | 'Grande' | 'Muy grande' | '-';
 
@@ -231,20 +244,16 @@ export class GatosRazaComponent {
 
   get necesidadDeAseoPercentage() {
 
-    type necesidadDeAseo = 'Baja' | 'Moderada' | 'Alta' | '-';
-
-    type necesidadDeAseoMap = {
-      [K in necesidadDeAseo]: number;
-    };
-
-    const necesidadDeAseo: necesidadDeAseoMap = {
-      '-': 0,
-      'Baja': 33,
-      'Moderada': 66,
-      'Alta': 100
+    const map: {[key: number]: number} = {
+      0: 0,
+      1: 20,
+      2: 40,
+      3: 60,
+      4: 80,
+      5: 100
     }
 
-    return `progress progress__${necesidadDeAseo[this.cat.necesidad_de_aseo || '-']}`
+    return this.cat.grooming ? `progress progress__${map[this.cat.grooming]}` : 'progress progress__0'
   }
 
   get resistenciaAlCalorPercentage() {

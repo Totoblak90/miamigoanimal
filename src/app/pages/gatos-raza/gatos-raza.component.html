@@ -130,6 +130,22 @@
       <div class="row u-margin-bottom-small">
         <div class="col-1-of-2 u-margin-bottom-small">
           <p class="paragraph" style="align-content: center">
+            <strong>Inteligencia:</strong>
+          </p>
+        </div>
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <div class="u-center-text">
+            <strong>{{ setCategoryName(cat.intelligence) }}</strong>
+          </div>
+          <span class="progress-bar">
+            <span [class]="intelligencePercentage"></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="row u-margin-bottom-small">
+        <div class="col-1-of-2 u-margin-bottom-small">
+          <p class="paragraph" style="align-content: center">
             <strong>Nivel de energía:</strong>
           </p>
         </div>
@@ -239,7 +255,7 @@
         </div>
       </div>
 
-      <div class="row u-margin-bottom-small" *ngIf="cat.necesidad_de_aseo">
+      <div class="row u-margin-bottom-small">
         <div class="col-1-of-2 u-margin-bottom-small">
           <p class="paragraph" style="align-content: center">
             <strong>Necesidad de aseo:</strong>
@@ -247,7 +263,7 @@
         </div>
         <div class="col-1-of-2 u-margin-bottom-small">
           <div class="u-center-text">
-            <strong>{{ cat.necesidad_de_aseo }}</strong>
+            <strong>{{ setCategoryName(cat.grooming) }}</strong>
           </div>
           <span class="progress-bar">
             <span [class]="necesidadDeAseoPercentage"></span>
@@ -398,10 +414,17 @@
               >The cat API</a
             >
           </li>
-          <li *ngFor="let fuente of cat.fuentes" class="navigation__item">
-            <a [href]="fuente" target="_blank" class="navigation__link">{{
-              fuente
-            }}</a>
+          <li class="navigation__item" *ngIf="cat.cfa_url">
+            <a [href]="cat.cfa_url" target="_blank" class="navigation__link"> {{ cat.cfa_url }}</a>
+          </li>
+          <li class="navigation__item" *ngIf="cat.vetstreet_url">
+            <a [href]="cat.vetstreet_url" target="_blank" class="navigation__link"> {{ cat.vetstreet_url }}</a>
+          </li>
+          <li class="navigation__item" *ngIf="cat.vcahospitals_url">
+            <a [href]="cat.vcahospitals_url" target="_blank" class="navigation__link"> {{ cat.vcahospitals_url }}</a>
+          </li>
+          <li class="navigation__item" *ngIf="cat.wikipedia_url">
+            <a [href]="cat.wikipedia_url" target="_blank" class="navigation__link"> {{ cat.wikipedia_url }}</a>
           </li>
           <li class="navigation__item">
             <span

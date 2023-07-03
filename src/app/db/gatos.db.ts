@@ -61,7 +61,11 @@ export const CAT_LIST: { [key: string]: Cat } = {
       'Atrofia de la retina',
       'Gingivitis',
     ],
-    fuentes: ['cfa.org', 'vetstreet.com', 'vcahospitals.com'],
+    fuentes: [
+      'http://cfa.org/Breeds/BreedsAB/Abyssinian.aspx',
+      'http://www.vetstreet.com/cats/abyssinian',
+      'https://vcahospitals.com/know-your-pet/cat-breeds/abyssinian',
+    ],
     para_primerizos: 'Moderada',
     nivel_de_energia: 'Alto',
     popularidad: 'Moderada',
@@ -8921,309 +8925,1110 @@ export const CAT_LIST: { [key: string]: Cat } = {
       'Zapato',
     ],
     description: `
-
+      El Snowshoe, una raza de gato realmente encantadora, destaca por su maravillosa combinación de elegancia física y personalidad encantadora. Cuando uno de estos felinos entra en una habitación, es como si un pequeño rayo de luz se hubiera infiltrado, iluminando todo a su alrededor con su mera presencia.
+      <br>
+      <br>
+      Empezando por su apariencia física, los Snowshoes tienen una postura sólida y atlética. El tamaño puede variar de medio a grande, pero siempre muestran un equilibrio perfecto entre robustez y agilidad. Sus cuerpos musculosos, fuertes y alargados son poderosos y al mismo tiempo esbeltos, un reflejo perfecto de su naturaleza activa y juguetona.
+      <br>
+      <br>
+      Sus cabezas son de forma triangular, con mejillas altas y llenas. En esa cara suelen destacar sus ojos, siempre de un azul brillante y profundo, llenos de inteligencia y curiosidad. Los ojos, redondos y ligeramente inclinados, tienen una forma almendrada que añade un toque exótico a su mirada. Las orejas son de tamaño mediano a grande, con las puntas ligeramente redondeadas.
+      <br>
+      <br>
+      El patrón de su pelaje es lo que realmente hace que esta raza se distinga a simple vista. Los Snowshoes llevan un manto corto y suave, de textura sedosa, que exhibe una fascinante mezcla de colores sólidos y blancos. Este patrón de color, llamado "pointed with white", se caracteriza por las extremidades de color más oscuro (como las orejas, la cara, las patas y la cola) contrastando con áreas de blanco en la cara, el pecho, el estómago y las patas. Este equilibrio entre el color y el blanco puede variar, dando a cada Snowshoe una apariencia única.
+      <br>
+      <br>
+      Más allá de su belleza física, el verdadero encanto del Snowshoe reside en su personalidad. Son gatos llenos de vida y energía. Les encanta jugar y explorar su entorno, mostrando a veces un comportamiento travieso. Son sumamente curiosos y a menudo se les encuentra investigando cada rincón de su hogar, buscando nuevos objetos o juguetes con los que entretenerse.
+      <br>
+      <br>
+      La inteligencia del Snowshoe es un rasgo destacado. Son extremadamente listos y rápidos para aprender. No es raro que un Snowshoe aprenda a abrir puertas o armarios, o incluso a buscar y traer objetos. También son muy sensibles y perceptivos a las emociones de sus humanos, lo que los convierte en excelentes compañeros emocionales.
+      <br>
+      <br>
+      En términos de socialización, los Snowshoes son cariñosos y amigables. Disfrutan de la compañía de sus familias humanas y son muy afectuosos. A menudo se les encontrará siguiendo a sus dueños por la casa, buscando atención y cariño. A pesar de su independencia, los Snowshoes no disfrutan de la soledad y preferirán siempre estar en compañía.
+      <br>
+      <br>
+      A pesar de su nivel de actividad, los Snowshoes también disfrutan de los momentos de tranquilidad y serenidad. Son conocidos por su afición a los lugares altos y a menudo se les encuentra en la parte superior de estanterías y armarios, observando su reino desde lo alto.
+      <br>
+      <br>
+      Los Snowshoes son gatos maravillosos para tener en casa. Su mezcla de belleza física, personalidad encantadora y nivel de energía equilibrada los convierte en una excelente elección para una variedad de hogares. Sin embargo, es importante recordar que, como cualquier gato, los Snowshoes tienen necesidades y requerimientos específicos para su bienestar y felicidad. Con el cuidado y el amor adecuados, un Snowshoe puede convertirse en un miembro amado y valorado de cualquier familia.
     `,
     history: `
-
+      La historia de la raza de gato Snowshoe es tan fascinante y única como su apariencia distintiva. Aunque es relativamente nueva en comparación con otras razas, la Snowshoe ha dejado una impresión duradera en el mundo felino gracias a su carácter amigable, su inteligencia y su belleza inigualable.
+      <br>
+      <br>
+      La historia de los Snowshoes comienza en Filadelfia, Estados Unidos, en la década de 1960. A diferencia de muchas otras razas de gatos que tienen cientos de años de antigüedad, la Snowshoe es el resultado de un proyecto de cría selectiva bastante reciente. El crédito de su creación se atribuye a una criadora de gatos de Filadelfia llamada Dorothy Hinds-Daugherty.
+      <br>
+      <br>
+      Dorothy, quien ya era una criadora experimentada y reconocida de gatos Siameses, quedó fascinada por una camada de gatitos Siameses que nacieron con las patas y la parte baja de la cara blancas, en lugar del color uniforme habitual de los Siameses. Estos gatitos eran diferentes de sus hermanos y hermanas, y su aspecto único intrigó a Dorothy. Decidió que quería desarrollar una nueva raza de gatos que tuviera este patrón distintivo de color, así como los ojos azules y la personalidad afectuosa de los Siameses.
+      <br>
+      <br>
+      Para lograr esto, Dorothy emprendió un programa de cría que involucró a los Siameses y a los gatos domésticos de pelo corto con patas blancas. Con el tiempo, fue capaz de establecer y perfeccionar las características deseadas: un gato de tamaño mediano a grande con un cuerpo fuerte y atlético, patas y cara blancas, y hermosos ojos azules.
+      <br>
+      <br>
+      Después de años de trabajo arduo y dedicación, Dorothy presentó los primeros Snowshoes a la Cat Fanciers' Federation (CFF) en 1974 y la raza fue aceptada provisionalmente. Sin embargo, debido a la naturaleza recesiva de los genes que controlan el patrón de color blanco en las patas y la cara, fue un desafío mantener estas características en las futuras generaciones de Snowshoes. Esto resultó en una disminución en el número de gatos que cumplían con el estándar de la raza y, eventualmente, Dorothy tuvo que abandonar su programa de cría.
+      <br>
+      <br>
+      Afortunadamente, otras criadoras de gatos se sintieron atraídas por la belleza y el encanto de los Snowshoes y continuaron el trabajo de Dorothy. En 1977, un grupo de criadores liderado por Vicki Olander presentó la raza al American Cat Association (ACA), que la aceptó para la competencia. Más tarde, en 1983, la Snowshoe fue aceptada en el Campeonato de la Cat Fanciers' Association (CFA), la mayor organización de registro de gatos del mundo.
+      <br>
+      <br>
+      Desde entonces, la Snowshoe ha ido ganando popularidad gradualmente, aunque todavía se considera una raza rara. El patrón de color que define a la raza sigue siendo un desafío para los criadores, ya que es difícil de predecir y no todos los gatitos nacidos cumplen con los estándares de la raza. Sin embargo, esto solo ha hecho que cada Snowshoe sea aún más valorado y especial.
+      <br>
+      <br>
+      A pesar de su historia relativamente corta, la Snowshoe ha dejado una huella indeleble en el mundo felino. Esta raza encantadora y única continúa cautivando a los amantes de los gatos en todo el mundo con su belleza, su inteligencia y su afectuosidad. Mientras los criadores y los amantes de los gatos continúen valorando y apreciando estas cualidades, no cabe duda de que la Snowshoe seguirá floreciendo.
+    `,
+  },
+  soma: {
+    weight: {
+      imperial: '6 - 12',
+      metric: '3 - 5',
+    },
+    id: 'soma',
+    name: 'Somalí',
+    cfa_url: 'http://cfa.org/Breeds/BreedsSthruT/Somali.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/somali',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/somali',
+    temperament: [
+      'Travieso',
+      'Tenaz',
+      'Inteligente',
+      'Cariñoso',
+      'Amable',
+      'Interactivo',
+      'Leal',
+    ],
+    origin: 'Somalia',
+    country_codes: 'SO',
+    country_code: 'SO',
+    life_span: '12 - 16',
+    indoor: 0,
+    alt_names: 'Gato Zorro, Abisinio de Pelo Largo',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 3,
+    dog_friendly: 4,
+    energy_level: 5,
+    grooming: 3,
+    health_issues: 2,
+    intelligence: 5,
+    shedding_level: 4,
+    social_needs: 5,
+    stranger_friendly: 5,
+    vocalisation: 1,
+    experimental: 0,
+    hairless: 0,
+    lap: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Somali_(cat)',
+    hypoallergenic: 0,
+    reference_image_id: 'EPF2ejNS0',
+    image: 'https://cdn2.thecatapi.com/images/K29_o7SGa.jpg',
+    perks: [
+      'Necesita actividad física diaria',
+      'No es muy vocal',
+      'Se lleva bien con otras mascotas',
+    ],
+    necesidades_especiales: ['Alimentación balanceada', 'Juegos interactivos'],
+    color: ['Rojo', 'Azul', 'Dorado'],
+    enfermedades_comunes: ['Gingivitis', 'Amiloidosis'],
+    fuentes: [
+      'http://cfa.org/Breeds/BreedsSthruT/Somali.aspx',
+      'http://www.vetstreet.com/cats/somali',
+      'https://vcahospitals.com/know-your-pet/cat-breeds/somali',
+    ],
+    para_primerizos: 'Moderada',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Somalí',
+      'Gato activo',
+      'Pelo largo',
+      'Somalí',
+      'Somali',
+      'Gato Somalí',
+      'Gato Somali',
+      'Somalia',
+      'Gato de Somalia',
+      'Raza de gato de Somalia',
+      'Gato activo',
+      'Gato travieso',
+      'Gato inteligente',
+      'Gato cariñoso',
+      'Gato interactivo',
+      'Gato leal',
+      'Gato amable',
+      'Gato Zorro',
+      'Abisinio de pelo largo',
+      'Gato con pelo largo',
+      'Gato de pelo largo',
+      'Gato sociable',
+      'Gato para niños',
+      'Gato para familias',
+      'Gato que se lleva bien con perros',
+      'Gato de tamaño mediano',
+      'Gato de mucha energía',
+      'Gato que no es hiperalergénico',
+      'Gato de color rojo',
+      'Gato de color azul',
+      'Gato de color dorado',
+      'Gato de clima moderado',
+      'Gato que necesita juego interactivo',
+    ],
+    description: `
+      El gato Somalí es una raza que se destaca por su hermoso pelaje, su inigualable personalidad y su elegancia natural. Aunque su nombre indica un origen en Somalia, este no es realmente su lugar de nacimiento. Más bien, la raza surgió de un linaje de gatos abisinios, que dieron lugar a estos adorables felinos con pelo largo.
+      <br>
+      <br>
+      El pelaje del Somalí es de longitud media a larga, suave, denso y tiene una textura fina y sedosa. Cuenta con una exuberante melena en el cuello y una hermosa cola frondosa, similar a la de un zorro, que es una de sus características más distintivas. Este pelaje exhibe un patrón de "ticking", donde cada pelo individual está rayado con bandas alternas de color. Los colores más comunes en los gatos somalíes son el rojo, el azul, el dorado y el plateado, cada uno de ellos con una variedad de matices y profundidades que acentúan su hermoso pelo.
+      <br>
+      <br>
+      Este es un gato de tamaño mediano a grande, con machos que generalmente son más grandes que las hembras. Los machos pueden pesar entre 4,5 y 5,5 kilogramos, mientras que las hembras suelen pesar entre 3,5 y 4,5 kilogramos. Los somalíes tienen cuerpos musculosos y piernas fuertes que los hacen extremadamente ágiles y aptos para saltar y trepar. Sus ojos son grandes, almendrados y vienen en tonos de verde o dorado, mientras que sus orejas son amplias y puntiagudas, dando al Somalí una apariencia alerta y curiosa.
+      <br>
+      <br>
+      La personalidad de los gatos somalíes es alegre, juguetona y cariñosa. Son conocidos por ser gatos muy activos e inteligentes, y requieren mucho estímulo mental y físico para mantenerse felices y saludables. Les encanta explorar su entorno y a menudo se les puede ver saltando y trepando por la casa, persiguiendo juguetes o resolviendo rompecabezas de alimentos.
+      <br>
+      <br>
+      Estos gatos son muy sociables y disfrutan de la compañía de las personas. Les encanta interactuar con sus dueños y a menudo seguirán a sus personas favoritas por toda la casa. Aunque pueden ser un poco reservados con los extraños, una vez que se sienten cómodos con alguien, mostrarán su lado afectuoso y cariñoso.
+      <br>
+      <br>
+      El Somalí también se lleva bien con otros gatos y con perros, especialmente si se socializan desde una edad temprana. Esta raza también puede ser una buena opción para las familias con niños, ya que su naturaleza juguetona y afectuosa puede ser un gran complemento para un hogar lleno de energía.
+      <br>
+      <br>
+      En términos de cuidado, el gato Somalí necesita un cepillado regular para mantener su hermoso pelaje libre de enredos y en la mejor condición. Sin embargo, a diferencia de otras razas de pelo largo, su pelaje no tiende a enredarse fácilmente, por lo que el cuidado del pelaje puede ser menos exigente que en otras razas de pelo largo.
+      <br>
+      <br>
+      Es importante tener en cuenta que los somalíes son gatos activos que requieren mucha actividad física. Un árbol de gatos, juguetes interactivos y tiempo de juego regular pueden ayudar a satisfacer sus necesidades de ejercicio.
+      <br>
+      <br>
+      En general, los gatos Somalí son hermosos, juguetones y cariñosos, lo que los convierte en una maravillosa opción para aquellos que buscan un compañero felino activo y cariñoso. Ya sea que estén jugando, explorando o simplemente acurrucándose en tu regazo, los gatos Somalí seguramente aportarán mucha alegría y felicidad a tu hogar.
+    `,
+    history: `
+      La historia de los gatos Somalí es apasionante y un poco misteriosa, con hilos que se remontan a la antigüedad, pero con una identidad que realmente tomó forma en el siglo XX.
+      <br>
+      <br>
+      Si bien el nombre de la raza sugiere un origen en Somalia, la historia del gato Somalí está más ligada a la del gato Abisinio. De hecho, los Somalíes no provienen de Somalia, ni de ninguna parte de África, sino que surgieron en Occidente a partir de los gatos Abisinios. Este detalle es algo que suele sorprender a muchas personas, dado que tanto "Abisinio" como "Somalí" son nombres que sugieren un origen africano. En realidad, estos nombres se asignaron a estas razas en parte debido a la apariencia "salvaje" de estos gatos, que recuerda a las imágenes de los felinos de África.
+      <br>
+      <br>
+      Los Abisinios, que son gatos de pelo corto, son una de las razas de gatos más antiguas conocidas. Aunque hay algunas controversias y misterios en torno a los orígenes precisos de los Abisinios, una teoría popular es que estos gatos se originaron en el antiguo Egipto, ya que los gatos retratados en las antiguas pinturas murales egipcias tienen un asombroso parecido con los Abisinios modernos.
+      <br>
+      <br>
+      El gato Somalí es esencialmente un Abisinio de pelo largo. Durante la cría de Abisinios, ocasionalmente surgía un gatito de pelo largo. Estos gatitos no se ajustaban a la descripción de la raza Abisinia y, por lo tanto, a menudo se desestimaban para la cría. Sin embargo, algunos criadores quedaron fascinados por la belleza de estos gatos de pelo largo y decidieron desarrollar una nueva raza a partir de ellos.
+      <br>
+      <br>
+      La raza Somalí como la conocemos hoy comenzó a tomar forma a mediados del siglo XX. Los criadores en varios países, incluyendo Estados Unidos, Canadá, Australia y Nueva Zelanda, comenzaron a criar selectivamente Abisinios de pelo largo. En 1967, la nueva raza fue reconocida oficialmente por la Asociación de Criadores de Gatos de Nueva Zelanda con el nombre de "Somalí", en referencia a la vecindad geográfica de Somalia con Etiopía (anteriormente conocida como Abisinia). En 1972, el Somalí fue reconocido por la Cat Fanciers Association en los Estados Unidos, y poco después por otras asociaciones de criadores de gatos en todo el mundo.
+      <br>
+      <br>
+      Desde entonces, la raza Somalí ha ganado popularidad y es apreciada por su hermoso pelaje, su encantadora personalidad y su apariencia salvaje. A pesar de su corta historia como raza distinta, los Somalíes han dejado una impresión duradera en el mundo felino y continúan cautivando a los amantes de los gatos con su encanto y belleza.
+    `,
+  },
+  sphy: {
+    weight: {
+      imperial: '6 - 12',
+      metric: '3 - 5',
+    },
+    id: 'sphy',
+    name: 'Esfinx',
+    cfa_url: 'http://cfa.org/Breeds/BreedsSthruT/Sphynx.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/sphynx',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/sphynx',
+    temperament: ['Leal', 'Inquisitivo', 'Amigable', 'Tranquilo', 'Tierno'],
+    origin: 'Canadá',
+    country_codes: 'CA',
+    country_code: 'CA',
+    life_span: '12 - 14',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Canadiense sin pelo, Esfinx Canadiense',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 3,
+    grooming: 2,
+    health_issues: 4,
+    intelligence: 5,
+    shedding_level: 1,
+    social_needs: 5,
+    stranger_friendly: 5,
+    vocalisation: 5,
+    experimental: 0,
+    hairless: 1,
+    natural: 0,
+    rare: 1,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Sphynx_(cat)',
+    hypoallergenic: 1,
+    reference_image_id: 'BDb8ZXb1v',
+    image: 'https://cdn2.thecatapi.com/images/8krfAgKYD.jpg',
+    perks: [
+      'Ama a las personas',
+      'Bueno con niños y perros',
+      'Tierno y afectuoso',
+    ],
+    necesidades_especiales: [],
+    color: ['Crema', 'Azul', 'Negro'],
+    enfermedades_comunes: [
+      'Problemas dermatológicos',
+      'Enfermedades dentales',
+      'Enfermedades del corazón',
+    ],
+    fuentes: [],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Moderado',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Baja',
+    soporta_clima_calido: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Regular',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Esfinx',
+      'Gato sin pelo',
+      'Gato canadiense',
+      'Esfinx',
+      'Esphinx',
+      'Sphynx',
+      'Esfinx Canadiense',
+      'Gato sin pelo',
+      'Gato Canadiense',
+      'Gato de Canadá',
+      'Gato amigable',
+      'Gato leal',
+      'Gato inquisitivo',
+      'Gato tierno',
+      'Gato tranquilo',
+      'Gato afectuoso',
+      'Gato bueno con niños',
+      'Gato bueno con perros',
+      'Gato hipoalergénico',
+      'Gato sin alergias',
+      'Gato con alto nivel de energía',
+      'Gato social',
+      'Gato tolerante',
+      'Gato de interior',
+      'Esfinx hipoalergénico',
+      'Esfinx amigable',
+      'Esfinx tranquilo',
+      'Esfinx leal',
+      'Esfinx social',
+      'Gato de raza Esfinx',
+      'Raza Esfinx',
+      'Gato exótico',
+      'Gato raro',
+      'Esfinge',
+      'Esfinje',
+      'Esfingue',
+    ],
+    description: `
+    El Esfinx, una raza que captura la imaginación a primera vista, es realmente una obra maestra de la madre naturaleza. Es la encarnación de lo que muchos describen como un gato "extraterrestre" o "del futuro", pero al mismo tiempo, su origen es tan antiguo como el tiempo mismo.
+    <br>
+    <br>
+    La raza de gato Esfinx es singularmente notable por su ausencia casi total de pelaje. A primera vista, parecen estar completamente desnudos, pero si los tocas, descubrirás que su piel tiene una textura similar a la de un melocotón de terciopelo. Este "pelaje" casi imperceptible les proporciona una textura corporal única que es tanto una sorpresa como una delicia al tacto. Aunque parezca contradictorio, su falta de pelaje los hace sentir más cálidos al tacto que otras razas.
+    <br>
+    <br>
+    Un rasgo notable en su apariencia es su cuerpo musculoso y delgado que termina en una cola larga y fina, a menudo llamada "cola de ratón" debido a su apariencia delgada. Su piel arrugada, especialmente visible en la cabeza, las orejas y el hocico, es otra característica única que añade a su peculiar encanto.
+    <br>
+    <br>
+    Las orejas del Esfinx son grandes y abiertas, lo que añade a su apariencia atenta e inquisitiva. Sus ojos, a menudo de un verde o azul intenso, son grandes y limónidos, lo que les da una mirada que puede ser a la vez intrigante y encantadora. Sus patas son largas y delgadas, con pequeñas y ovaladas pezuñas que parecen delicadas pero son increíblemente ágiles.
+    <br>
+    <br>
+    Además de su apariencia física, la personalidad del Esfinx es realmente lo que los distingue de otras razas. Son conocidos por ser extremadamente sociables, afectuosos y leales. El Esfinx ama la compañía humana y a menudo seguirá a sus dueños por toda la casa. También son conocidos por ser extremadamente juguetones y curiosos, siempre dispuestos a explorar su entorno y a participar en juegos.
+    <br>
+    <br>
+    Son inteligentes y aprenden rápidamente, a menudo mostrando una asombrosa habilidad para resolver problemas y entender comandos. Esta inteligencia, combinada con su personalidad amistosa, los convierte en excelentes compañeros.
+    <br>
+    <br>
+    A pesar de su falta de pelaje, el Esfinx no es una raza sin mantenimiento. Necesitan ser bañados regularmente para evitar la acumulación de aceites en la piel, y requieren protección del sol para evitar quemaduras. Su temperatura corporal es también ligeramente más alta que la de otros gatos, por lo que necesitan más alimento para mantener su metabolismo.
+    <br>
+    <br>
+    Finalmente, un rasgo particularmente admirable del Esfinx es su notable adaptabilidad. Se llevan bien tanto con otros gatos como con perros, y también son buenos con los niños. Son pacientes y tolerantes, capaces de adaptarse a una variedad de entornos y circunstancias con facilidad. No es de extrañar que se hayan ganado un lugar en los corazones de los amantes de los gatos en todo el mundo. Con un Esfinx en tu vida, nunca te faltarán momentos de amor, risa y maravilla.
+    `,
+    history: `
+    La historia de la raza de gato Esfinx es fascinante y llena de matices. No se trata simplemente de una historia de cría de gatos, sino que también se entrelaza con la historia de la genética y la perseverancia humana.
+    <br>
+    <br>
+    Aunque la raza Esfinx puede parecer la creación de un futuro lejano, su historia se remonta a varias décadas atrás, y su origen se debe más a la naturaleza que a la intervención humana. A lo largo de la historia, ha habido muchos informes de gatos sin pelo que aparecen de forma natural debido a mutaciones genéticas espontáneas. Aunque estos gatos eran físicamente similares a los Esfinx que conocemos hoy en día, no se realizó ningún esfuerzo organizado para establecerlos como una raza reconocida hasta mediados del siglo XX.
+    <br>
+    <br>
+    La raza que hoy conocemos como el Esfinx tiene sus raíces en Canadá, en el año 1966. En Toronto, una gata doméstica dio a luz a un gatito sin pelo al que llamaron Prune. Este gatito era el resultado de una mutación genética natural y se convirtió en el progenitor de la raza Esfinx. Prune fue cruzado con su madre para producir más gatitos sin pelo, y estos gatitos se convirtieron en los primeros de la raza Esfinx.
+    <br>
+    <br>
+    Sin embargo, el camino para establecer la raza no fue fácil. Los primeros intentos de cría tuvieron muchos problemas. Los gatos tenían un sistema inmunológico débil y la raza tenía problemas de salud debido a la consanguinidad. Fue necesario un trabajo de cría cuidadoso y metódico para superar estos problemas.
+    <br>
+    <br>
+    A principios de la década de 1970, los criadores en Estados Unidos y Canadá comenzaron a trabajar juntos para establecer la raza. Incorporaron gatos de otras razas, como el American Shorthair, en su programa de cría para aumentar la diversidad genética y la salud de la raza. Estos esfuerzos finalmente dieron sus frutos, y la raza Esfinx comenzó a ganar reconocimiento.
+    <br>
+    <br>
+    En 1975, la Cat Fanciers Association (CFA) aceptó el Esfinx en su programa de razas en desarrollo, y en 2002, el Esfinx fue finalmente aceptado para la competición de campeonato. Desde entonces, la raza ha crecido en popularidad y ahora es amada por los amantes de los gatos de todo el mundo.
+    <br>
+    <br>
+    A pesar de sus retos iniciales, la historia del Esfinx es una historia de éxito. La raza ha demostrado ser increíblemente resistente y ha superado muchos obstáculos para llegar a donde está hoy. Cada Esfinx que vemos hoy es un testimonio del arduo trabajo y la dedicación de los criadores que trabajaron incansablemente para establecer y mantener la raza. Y aunque el Esfinx puede parecer una raza "del futuro", su historia nos recuerda que son una parte integral de nuestro presente y nuestro pasado felino.
+    `,
+  },
+  tonk: {
+    weight: {
+      imperial: '6 - 12',
+      metric: '3 - 5',
+    },
+    id: 'tonk',
+    name: 'Tonkinés',
+    cfa_url: 'http://cfa.org/Breeds/BreedsSthruT/Tonkinese.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/tonkinese',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/tonkinese',
+    temperament: [
+      'Curioso',
+      'Inteligente',
+      'Social',
+      'Vivo',
+      'Extrovertido',
+      'Juguetón',
+      'Cariñoso',
+    ],
+    origin: 'Canadá',
+    country_codes: 'CA',
+    country_code: 'CA',
+    life_span: '14 - 16',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Tonk',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 5,
+    grooming: 1,
+    health_issues: 1,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 5,
+    stranger_friendly: 5,
+    vocalisation: 5,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Tonkinese_(cat)',
+    hypoallergenic: 0,
+    reference_image_id: 'KBroiVNCM',
+    image: 'https://cdn2.thecatapi.com/images/_np7TW9Iq.jpg',
+    perks: [
+      'Muy vocal y comunicativo',
+      'Extremadamente sociable',
+      'Necesita poco aseo',
+    ],
+    necesidades_especiales: [
+      'Requiere mucha interacción social',
+      'Necesita juguetes para mantenerse estimulado',
+    ],
+    color: ['Mink', 'Point', 'Solid'], // Los tres colores más comunes del Tonkinés.
+    enfermedades_comunes: [
+      'Infecciones del tracto urinario',
+      'Problemas dentales',
+    ],
+    fuentes: [
+      'http://cfa.org/Breeds/BreedsSthruT/Tonkinese.aspx',
+      'https://vcahospitals.com/know-your-pet/cat-breeds/tonkinese',
+      'https://en.wikipedia.org/wiki/Tonkinese_(cat)',
+    ],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Tonkinés',
+      'Social',
+      'Cariñoso',
+      'Energético',
+      'Inteligente',
+      'Vocal',
+      'Tonkinés',
+      'Tonkines',
+      'Gato Tonkinés',
+      'Tonk',
+      'Gato Tonk',
+      'Gato activo',
+      'Gato cariñoso',
+      'Gato juguetón',
+      'Gato inteligente',
+      'Gato social',
+      'Gato extrovertido',
+      'Gato para niños',
+      'Gato de compañía',
+      'Gato maullador',
+      'Gato con energía',
+      'Gato canadiense',
+      'Gato Tonkinés Canadá',
+      'Tonkinés de Canadá',
+      'Tonkines canadiense',
+      'Gato con pelo corto',
+      'Gato tamaño mediano',
+      'Gato buen salud',
+      'Gato Tonkines juguetón',
+      'Tonkines cariñoso',
+      'Gato sociable',
+      'Gato Tonkinés sociable',
+      'Tonkinés para familia',
+      'Tonkinés maullador',
+      'Tonkines activo',
+      'Tonkines para niños',
+    ],
+    description: `
+    El gato Tonkinés es un ser fascinante que combina la gracia y la elegancia de las razas Siamesa y Birmana, de las cuales proviene. Al primer vistazo, estos gatos pueden parecer simplemente lindos y adorables, pero en realidad, están llenos de vitalidad, inteligencia y un encanto que puede cautivar a cualquier amante de los gatos.
+    <br>
+    <br>
+    Un rasgo muy distintivo del Tonkinés es su pelaje sedoso y lustrado, de textura media a corta, que se siente suave al tacto. Aunque puede venir en una variedad de colores, el manto de los Tonkineses a menudo presenta una mezcla hermosa y única de tonos que se funden gradualmente entre sí, generando un efecto que recuerda al agua de mosaico. Este fenómeno, conocido como sombreado de "mink" (visón), hace que los Tonkineses sean realmente especiales en el mundo felino.
+    <br>
+    <br>
+    El tamaño del Tonkinés es de mediano a pequeño, pero no te dejes engañar por su estatura compacta. Estos gatos son muy musculosos y ágiles, lo que les permite saltar alturas increíbles y desplazarse con una agilidad asombrosa. Sus ojos, de un color azul celeste a verde, brillan con curiosidad y parecen ser capaces de ver directamente en tu alma. Sus orejas son de tamaño medio, anchas en la base y puntiagudas, dando a su rostro una apariencia alerta y despierta.
+    <br>
+    <br>
+    El Tonkinés es un gato que desborda energía, curiosidad y un fuerte deseo de explorar su entorno. No es raro ver a estos gatos correr por la casa a toda velocidad, saltar a grandes alturas, o incluso trepar por los muebles. Son increíblemente juguetones y pueden pasar horas entreteniéndose con sus juguetes favoritos, o incluso con objetos domésticos comunes que encuentren interesantes.
+    <br>
+    <br>
+    Estos gatos también son famosos por su inteligencia y su ingenio. Son muy hábiles para resolver problemas y se deleitan en desafíos mentales. Podrás pasar horas de diversión enseñándoles trucos, resolviendo puzzles de gatos, o incluso jugando con aplicaciones de juegos para gatos en tu tablet.
+    <br>
+    <br>
+    El Tonkinés es un gato muy afectuoso que se une profundamente a sus familias humanas. Estos gatos disfrutan del contacto físico y a menudo buscan la compañía de sus dueños. Les encanta acurrucarse en el regazo de sus dueños y ser acariciados, y a menudo duermen junto a sus humanos favoritos. Aunque les gusta recibir afecto, también son capaces de devolverlo con creces.
+    <br>
+    <br>
+    A pesar de su amor por la actividad y la diversión, el Tonkinés también puede ser un compañero tranquilo y apacible. Disfrutan de los momentos de tranquilidad y son capaces de pasar horas simplemente descansando a tu lado mientras lees un libro o ves la televisión.
+    <br>
+    <br>
+    El Tonkinés es también un gato muy social que disfruta de la compañía de otros gatos, perros e incluso niños. Son muy tolerantes y pacíficos, y suelen llevarse bien con todos los miembros de la familia. Son excelentes compañeros de juegos para los niños y son lo suficientemente robustos para manejar el tipo de juego enérgico que los niños suelen preferir.
+    <br>
+    <br>
+    Con su belleza exótica, su personalidad encantadora y su capacidad para adaptarse a casi cualquier entorno familiar, no es de extrañar que el Tonkinés sea una raza de gato tan querida. Tener un Tonkinés en tu vida puede ser una experiencia maravillosa y enriquecedora que seguro te brindará innumerables momentos de alegría y felicidad.
+    `,
+    history: `
+    La historia del gato Tonkinés es una trama fascinante de aventura y descubrimiento, que abarca continentes y décadas. Es una historia de amor por los gatos, y cómo este amor llevó a la creación de una raza completamente nueva que ha cautivado a los amantes de los gatos en todo el mundo.
+    <br>
+    <br>
+    La raza Tonkinés tiene sus raíces en la década de 1930, cuando la primera mención registrada de un gato con características similares a las del Tonkinés moderno apareció en "The Book of the Cat", un compendio de razas de gatos editado por Frances Simpson. Sin embargo, no fue hasta los años 50 y 60 que la raza comenzó a ser desarrollada de manera más formal.
+    <br>
+    <br>
+    La verdadera historia del Tonkinés comienza con una gata Siamesa llamada Wong Mau, que fue llevada a Estados Unidos desde el sudeste asiático en 1930. Wong Mau tenía un pelaje de color "mink", una mezcla de marrón oscuro y beige que era bastante inusual para los Siameses en aquel tiempo. La gata llamó la atención de varios criadores de gatos, y una en particular, Jane Barletta, decidió trabajar con ella.
+    <br>
+    <br>
+    Con la ayuda de otros criadores, Barletta inició un programa de cría con Wong Mau, cruzándola con un Siamese Seal Point para producir una variedad de colores de pelaje. El resultado fue una mezcla de gatitos con tres colores de pelaje distintos: un color mink, similar al de Wong Mau, y dos colores más claros y oscuros. Los gatitos de color mink fueron cruzados entre sí, y el resultado fue una nueva raza de gatos: el Tonkinés.
+    <br>
+    <br>
+    A lo largo de los años 60 y 70, la raza fue refinada y mejorada. Se introdujo el gato Birmano en el programa de cría para fortalecer y estabilizar la raza. Este cruce añadió más diversidad genética a la raza, además de aumentar su robustez y vitalidad.
+    <br>
+    <br>
+    El Tonkinés fue reconocido oficialmente como raza en Canadá en 1971 y en Estados Unidos en 1974. Desde entonces, ha ganado popularidad en todo el mundo, siendo apreciado tanto por su belleza única como por su personalidad encantadora.
+    <br>
+    <br>
+    La historia del Tonkinés es un ejemplo inspirador de cómo el amor y la dedicación pueden dar lugar a algo verdaderamente especial. Aunque la raza es relativamente nueva en comparación con muchas otras razas de gatos, su historia está llena de logros y evolución. La raza Tonkinés sigue siendo una joya en la corona de la comunidad felina, y su historia continuará evolucionando a medida que criadores y dueños de todo el mundo continúen apreciando y criando estos gatos maravillosos.
+    `,
+  },
+  toyg: {
+    weight: {
+      imperial: '7 - 15',
+      metric: '3 - 7',
+    },
+    id: 'toyg',
+    name: 'Toyger',
+    vetstreet_url: 'http://www.vetstreet.com/cats/toyger',
+    temperament: ['Juguetón', 'Sociable', 'Inteligente'],
+    origin: 'Estados Unidos',
+    country_codes: 'US',
+    country_code: 'US',
+    life_span: '12 - 15',
+    indoor: 0,
+    lap: 1,
+    alt_names: '',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 5,
+    grooming: 1,
+    health_issues: 2,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 3,
+    stranger_friendly: 5,
+    vocalisation: 5,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Toyger',
+    hypoallergenic: 0,
+    reference_image_id: 'O3F3_S1XN',
+    image: 'https://cdn2.thecatapi.com/images/Zi4jfH3c6.jpg',
+    perks: [
+      'Energético',
+      'Afectuoso',
+      'Inteligente',
+      'Sociable',
+      'Amigable con niños y perros',
+    ],
+    necesidades_especiales: [],
+    color: ['Marrón', 'Negro', 'Naranja'],
+    enfermedades_comunes: ['Problemas cardíacos', 'Enfermedad renal'],
+    fuentes: ['https://en.wikipedia.org/wiki/Toyger'],
+    para_primerizos: 'Moderada',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Moderada',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Toyger',
+      'Gato',
+      'Energético',
+      'Afectuoso',
+      'Inteligente',
+      'Sociable',
+      'Amigable con niños y perros',
+      'Toyger',
+      'Tigre en miniatura',
+      'Gato con rayas de tigre',
+      'Gato activo',
+      'Gato sociable',
+      'Gato cariñoso',
+      'Gato amigable con perros',
+      'Gato amigable con niños',
+      'Gato con pelaje a rayas',
+      'Gato juguetón',
+      'Gato inteligente',
+      'Raza de gato Toyger',
+      'Toyger gato',
+      'Gato Toyger',
+      'Gato domestico parecido a un tigre',
+      'Gato raza Toyger',
+      'Gato Toyger amigable',
+      'Gato Toyger sociable',
+      'Gato Toyger juguetón',
+      'Gato Toyger inteligente',
+      'Gato Toyger cariñoso',
+      'Gato Toyger activo',
+      'Gato Toyger raza',
+      'Toyger caracteristicas',
+      'Gato Toyger pelaje rayado',
+      'Gato Toyger bueno con niños',
+      'Gato Toyger bueno con perros',
+      'Gato Toyger domestico',
+      'Gato Toyger familiar',
+      'Toyger rayas de tigre',
+    ],
+    cfa_url: '',
+    vcahospitals_url: '',
+    description: `
+      El Toyger, una de las razas de gatos más singulares y cautivadoras, es un gato doméstico con un aspecto impresionantemente parecido a un tigre de la jungla, pero con un tamaño adecuado para ser acogido en cualquier hogar. Aunque el parecido con los majestuosos felinos salvajes es innegable, el Toyger no podría estar más alejado en términos de personalidad y temperamento. Amigable, cariñoso y juguetón, este felino te cautivará con su encanto, inteligencia y afecto.
+      <br>
+      <br>
+      Este gato de tamaño mediano a grande tiene una constitución fuerte y musculosa. Pesa entre 3 y 7 kilogramos y posee una gran fuerza para su tamaño. El Toyger tiene un cuerpo largo y robusto, una cola espesa y patas de longitud moderada, proporcionando un aspecto de fuerza y agilidad. Su cabeza es de tamaño medio, de forma redonda pero alargada, con orejas pequeñas y redondeadas y ojos grandes y almendrados que son preferiblemente de color cobre o dorado.
+      <br>
+      <br>
+      Pero lo que realmente distingue a los Toygers es su pelaje distintivo. Su pelo es corto, denso y suave al tacto, pero su patrón es el verdadero espectáculo. Los Toygers tienen marcas oscuras y atigradas sobre un fondo de color naranja, imitando el pelaje del tigre asiático. Cada gato tiene su propio patrón de rayas único, lo que significa que no hay dos Toygers iguales.
+      <br>
+      <br>
+      A pesar de su apariencia feroz, el Toyger es conocido por su temperamento juguetón y cariñoso. Son gatos muy sociables y disfrutan la compañía de sus humanos. Son muy afectuosos, disfrutan del tiempo de juego y no son tímidos con los extraños. Son animales inteligentes y curiosos, por lo que les gusta explorar y son capaces de resolver problemas y aprender trucos.
+      <br>
+      <br>
+      En términos de cuidado, los Toygers son relativamente fáciles de mantener. Su pelo corto necesita ser cepillado una vez a la semana para mantenerlo limpio y saludable. Son una raza generalmente saludable, aunque como todas las razas de gatos, tienen cierta predisposición a ciertas afecciones genéticas.
+      <br>
+      <br>
+      Los Toygers son gatos bastante activos y requerirán juguetes y actividades para mantenerse estimulados. Les encanta jugar a buscar y pueden aprender a caminar con correa. Sin embargo, también disfrutan de momentos de tranquilidad y son conocidos por ser grandes acurrucadores.
+      <br>
+      <br>
+      En cuanto a su convivencia con otras mascotas y niños, los Toygers tienden a llevarse bien con todos. Son gatos amigables que pueden coexistir pacíficamente con otras mascotas, incluyendo perros. También son buenos con los niños, ya que son pacientes y tolerantes.
+      <br>
+      <br>
+      En resumen, el Toyger es un gato hermoso y único que puede añadir un toque de la jungla a cualquier hogar. Con su impresionante pelaje atigrado, personalidad juguetona y amigable, y su increíble inteligencia, esta raza tiene mucho que ofrecer. Ya sea que busques un compañero fiel, un divertido compañero de juegos o simplemente un amigo peludo con un aspecto impresionante, el Toyger es una excelente elección.
+    `,
+    history: `
+      La fascinante historia del Toyger se asemeja a una novela de aventuras, con un poco de ingenio, creatividad y determinación arrojados a la mezcla. Este felino, que lleva el grandioso nombre de 'Toyger', un portmanteau de 'tigre' y 'juguete', es una raza relativamente nueva de gatos domésticos que se desarrolló para parecerse a un pequeño tigre de la jungla.
+      <br>
+      <br>
+      El Toyger es el resultado de una meticulosa y apasionada cría selectiva, que comenzó en la década de 1980 en los Estados Unidos. Fue la criadora Judy Sugden quien ideó la idea de crear una raza de gatos domésticos con el aspecto de un tigre salvaje. Judy no era una desconocida en el mundo de la cría de gatos. Su madre, Jean Mill, fue la criadora original de los Bengalíes, una raza de gatos domésticos con el aspecto de un leopardo asiático.
+      <br>
+      <br>
+      La idea de Judy surgió cuando notó un patrón de marcas en la cabeza de uno de sus gatos domésticos de pelo mackerel tabby. Las marcas se asemejaban a las que se encuentran en la cara de los tigres salvajes. Intrigada por esta similitud, Judy comenzó su viaje para producir una raza de gatos que se asemejara lo más posible a los tigres en miniatura.
+      <br>
+      <br>
+      Los inicios de la raza Toyger se basaron en el cruce de un gato doméstico de pelo corto tabby con un gato de Bengala. Sin embargo, este fue sólo el comienzo de un largo y complejo proceso de cría selectiva. Durante años, Judy trabajó en la mejora de las características de la raza, seleccionando específicamente los gatos que mostraban las características deseadas del tigre. Esto incluía la forma del cuerpo, la cabeza y, por supuesto, el patrón de la capa. Se importaron gatos de otras partes del mundo, incluyendo gatos de la calle de Cachemira, India, para ayudar a desarrollar el patrón de rayas del Toyger.
+      <br>
+      <br>
+      En 1993, el Toyger fue reconocido por The International Cat Association (TICA) y fue aceptado para su registro. A pesar de este reconocimiento temprano, la raza todavía estaba en desarrollo. No fue hasta 2007 que el Toyger fue aceptado por completo para los títulos de campeonato en TICA, marcando un hito importante en la historia de la raza.
+      <br>
+      <br>
+      Aunque todavía es una raza en evolución, el Toyger ha ganado una considerable popularidad y reconocimiento en las últimas décadas. Los criadores de Toygers siguen trabajando en la mejora de la raza, esforzándose por perfeccionar aún más su parecido con el majestuoso tigre. Están centrados en desarrollar aún más el patrón de la capa y mejorar la musculatura y la morfología del gato.
+      <br>
+      <br>
+      En resumen, la historia del Toyger es un testimonio de la creatividad, la dedicación y la pasión de los criadores de gatos. Aunque aún es una raza joven en términos de cría de gatos, la fascinante historia del Toyger ya se ha forjado en la historia de las razas felinas. El resultado final de estos esfuerzos de cría es un gato verdaderamente deslumbrante que captura la belleza salvaje de un tigre en un paquete doméstico manejable y cariñoso.
+    `,
+  },
+  tang: {
+    weight: {
+      imperial: '5 - 10',
+      metric: '2 - 5',
+    },
+    id: 'tang',
+    name: 'Angora Turco',
+    cfa_url: 'http://cfa.org/Breeds/BreedsSthruT/TurkishAngora.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/turkish-angora',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/turkish-angora',
+    temperament: [
+      'Cariñoso',
+      'Ágil',
+      'Inteligente',
+      'Suave',
+      'Juguetón',
+      'Sociable',
+    ],
+    origin: 'Turquía',
+    country_codes: 'TR',
+    country_code: 'TR',
+    life_span: '15 - 18',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Ankara',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 5,
+    grooming: 2,
+    health_issues: 2,
+    intelligence: 5,
+    shedding_level: 2,
+    social_needs: 5,
+    stranger_friendly: 5,
+    vocalisation: 3,
+    experimental: 0,
+    hairless: 0,
+    natural: 1,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Turkish_Angora',
+    hypoallergenic: 0,
+    reference_image_id: '7CGV6WVXq',
+    image: 'https://cdn2.thecatapi.com/images/Yx3nQTUHu.jpg',
+    perks: [
+      'Inteligente y ágil',
+      'Sociable y cariñoso',
+      'Se lleva bien con otros animales',
+    ],
+    necesidades_especiales: [
+      'Necesita ejercicio',
+      'Necesita mucha interacción social',
+    ],
+    color: ['Blanco', 'Negro', 'Azul'],
+    enfermedades_comunes: ['Cardiomiopatía hipertrófica', 'Sordera'],
+    fuentes: ['cfa.org', 'vetstreet.com', 'vcahospitals.com'],
+    para_primerizos: 'Moderada',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Moderada',
+    soporta_clima_calido: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Angora Turco',
+      'Cariñoso',
+      'Sociable',
+      'Energético',
+      'Angora Turco',
+      'Angora Turco con niños',
+      'Gato Angora',
+      'Angora de Turquía',
+      'Gato de Turquía',
+      'Gato blanco',
+      'Gato juguetón',
+      'Gato cariñoso',
+      'Gato social',
+      'Gato inteligente',
+      'Gato activo',
+      'Angora',
+      'Gato sociable',
+      'Gato amigable',
+      'Gato de pelo largo',
+      'Gato de clima cálido',
+      'Gato de clima frío',
+      'Gato adaptable',
+      'Gato para familias',
+      'Ankara',
+      'Gato de Ankara',
+      'Angora Turko',
+      'Angora de Turquia',
+      'Angora Turquia',
+      'Turkish Angora',
+      'Turko Angora',
+      'Angora turco gato',
+      'Gato angora turco',
+      'Gato de angora turco',
+      'Angora de turko',
+      'Ángora',
+      'Ángora Turco',
+    ],
+    description: `
+      El Angora Turco, conocido también como Ankara o simplemente Angora, es un gato de apariencia delicada y regia, pero que esconde una personalidad dinámica y enérgica. Sus ojos expresivos, generalmente de un intenso azul, verde o ámbar, tienen una mirada penetrante y llena de curiosidad por el mundo que les rodea. A menudo, los Angora Turcos tienen ojos de colores diferentes, una característica única y cautivadora de la raza. Sus orejas puntiagudas, de gran tamaño en relación con su cabeza, están siempre atentas a los sonidos más sutiles, demostrando su increíble agudeza auditiva.
+      <br>
+      <br>
+      Su cuerpo es mediano, aunque puede parecer más grande debido a su pelaje. Estos gatos tienen una figura esbelta y musculosa, lo que refleja su agilidad y destreza física. Su cola es una de las características más impresionantes, larga y llena de pelo suave y sedoso que se va espesando hacia la punta, a menudo se describe como un plumero. Este pelaje se ve realzado por una capa inferior más suave y ligera que proporciona un aislamiento efectivo contra el frío.
+      <br>
+      <br>
+      El pelo del Angora Turco es medio-largo, sedoso y carece de subpelo, lo cual lo hace más fácil de cuidar que el de otras razas de pelo largo. Aunque son más conocidos por su color blanco puro, los Angora Turcos pueden presentar una amplia variedad de colores y patrones.
+      <br>
+      <br>
+      Respecto a su personalidad, estos gatos son muy juguetones y sociales. Disfrutan de la compañía humana y se llevan bien con otros animales, incluyendo perros. Son conocidos por su inteligencia, son muy curiosos y les encanta explorar su entorno. Son gatos que necesitan estímulos y actividad, tanto física como mental. No es raro ver a un Angora Turco correr a través de la casa persiguiendo una pelota o juguete, trepando a un árbol o mueble, o simplemente saltando y jugando con su familia humana.
+      <br>
+      <br>
+      A pesar de su apariencia delicada, el Angora Turco es una raza resistente y saludable. Aunque pueden presentar algunos problemas de salud genéticos, como la sordera en gatos blancos de ojos azules, en general son gatos robustos con una esperanza de vida promedio de 12 a 16 años.
+      <br>
+      <br>
+      Los Angora Turcos son excelentes compañeros para una amplia variedad de hogares. Si bien son activos y juguetones, también disfrutan de momentos de tranquilidad y se acurrucarán en un regazo dispuesto siempre que tengan la oportunidad. Aprecian la compañía y el afecto, por lo que no les gusta estar solos durante largos períodos de tiempo.
+      <br>
+      <br>
+      Son gatos que se adaptan bien a diferentes entornos, siempre que se les proporcione suficiente estimulación y cariño. Aunque pueden ser un poco reservados al principio, una vez que se sienten cómodos en su nuevo hogar, se convierten en miembros afectuosos y leales de la familia. Su belleza estética, personalidad cariñosa y juguetona, y su habilidad para llevarse bien con otros animales hacen del Angora Turco una opción perfecta para muchas familias.
+      <br>
+      <br>
+      En definitiva, el Angora Turco es una raza fascinante, llena de personalidad, que enamora a todo aquel que tiene la suerte de compartir su vida con uno de estos gatos. Su belleza esbelta y elegante, junto con su personalidad dinámica y cariñosa, hacen de este gato un miembro familiar excepcional, que proporcionará cariño, entretenimiento y compañía durante muchos años.
+    `,
+    history: `
+      La historia del Angora Turco, uno de los gatos más antiguos y naturales del mundo, es tan rica y cautivadora como la raza misma. Esta raza, conocida en su país de origen, Turquía, como "Ankara Kedisi", cuenta con un linaje que se remonta a varios siglos atrás.
+      <br>
+      <br>
+      Se cree que el Angora Turco surgió en la región de Ankara, anteriormente conocida como Angora, en el corazón de Turquía. Los primeros informes que se tienen de estos gatos son de la época del imperio Otomano. En aquel entonces, estos gatos de pelaje largo, esponjoso y blanco eran considerados tesoros y eran muy valorados por los sultanes y la nobleza.
+      <br>
+      <br>
+      El Angora Turco llegó a Europa alrededor del siglo XVI, donde causó sensación por su apariencia elegante y su pelaje sedoso. Los navegantes y comerciantes que visitaban Turquía a menudo regresaban a casa con estos hermosos gatos como regalos preciados. En poco tiempo, estos gatos se convirtieron en una presencia habitual en las cortes y hogares aristocráticos de toda Europa, especialmente en Francia e Inglaterra.
+      <br>
+      <br>
+      A finales del siglo XVIII y principios del XIX, el Angora Turco comenzó a perder popularidad en favor del gato Persa, una raza con un pelaje aún más largo y una apariencia más robusta. Durante un tiempo, el Angora Turco incluso estuvo en peligro de extinción. Sin embargo, los esfuerzos de los entusiastas de la raza y del zoológico de Ankara, que inició un programa de cría para preservar y proteger a estos gatos, aseguraron la supervivencia de la raza.
+      <br>
+      <br>
+      El primer Angora Turco en llegar a América del Norte fue en el siglo XX, aunque no fue reconocido oficialmente por las asociaciones de gatos hasta varias décadas más tarde. El Angora Turco fue aceptado en la competencia de la Cat Fanciers' Association (CFA) en 1968, y en 1972 la raza recibió el reconocimiento completo.
+      <br>
+      <br>
+      A pesar de que hoy en día se aceptan Angora Turcos de varios colores y patrones, los gatos blancos de ojos azules o de colores diferentes siguen siendo la imagen icónica de la raza. En Turquía, los Angora Turcos aún son considerados un tesoro nacional, y se han realizado esfuerzos considerables para preservar la pureza de la raza.
+      <br>
+      <br>
+      La historia del Angora Turco es un testimonio de la belleza y la resistencia de esta raza. A pesar de los desafíos que han enfrentado a lo largo de los siglos, estos gatos han logrado sobrevivir y prosperar, deleitando a las personas de todo el mundo con su apariencia majestuosa y su encantadora personalidad. Con su impresionante linaje y su lugar en la historia, los Angora Turcos seguirán siendo una raza de gatos apreciada y admirada por muchos años más.
+    `,
+  },
+  tvan: {
+    weight: {
+      imperial: '7 - 20',
+      metric: '3 - 9',
+    },
+    id: 'tvan',
+    name: 'Van Turco',
+    cfa_url: 'http://cfa.org/Breeds/BreedsSthruT/TurkishVan.aspx',
+    vetstreet_url: 'http://www.vetstreet.com/cats/turkish-van',
+    vcahospitals_url:
+      'https://vcahospitals.com/know-your-pet/cat-breeds/turkish-van',
+    temperament: ['Ágil', 'Inteligente', 'Leal', 'Juguetón', 'Energético'],
+    origin: 'Turquía',
+    country_codes: 'TR',
+    country_code: 'TR',
+    life_span: '12 - 17',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'Gato Turco, Gato nadador',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 5,
+    grooming: 2,
+    health_issues: 1,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 4,
+    stranger_friendly: 4,
+    vocalisation: 5,
+    experimental: 0,
+    hairless: 0,
+    natural: 1,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://es.wikipedia.org/wiki/Van_turco',
+    hypoallergenic: 0,
+    reference_image_id: 'sxIXJax6h',
+    image: 'https://cdn2.thecatapi.com/images/Ua8Kr2RuM.jpg',
+    perks: [
+      'Leal',
+      'Inteligente',
+      'Juguetón',
+      'Le gusta nadar',
+      'Necesita espacio para jugar y moverse',
+      'Maúlla bastante',
+    ],
+    necesidades_especiales: [
+      'Espacio para moverse y jugar',
+      'Atención y tiempo para jugar',
+      'Baños ocasionales debido a su gusto por el agua',
+    ],
+    color: ['Blanco', 'Castaño', 'Naranja'],
+    enfermedades_comunes: ['Cardiomiopatía', 'Obesidad'],
+    fuentes: ['Wikipedia', 'CFA', 'VCA Hospitals'],
+    para_primerizos: 'Moderada',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Moderada',
+    necesidad_de_aseo: 'Baja',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Van Turco',
+      'Gato Turco',
+      'Gato nadador',
+      'Gato de pelo semi largo',
+      'Gato blanco',
+      'Gato de alta energía',
+      'Gato de Turquía',
+      'Van Turco',
+      'Gato Van Turco',
+      'Turkish Van',
+      'Van de Turquía',
+      'Gato nadador',
+      'Gato turco',
+      'Gato de Turquía',
+      'Gato blanco',
+      'Gato cariñoso',
+      'Gato leal',
+      'Gato enérgico',
+      'Gato de alta energía',
+      'Gato grande',
+      'Gato juguetón',
+      'Gato inteligente',
+      'Gato amigable con perros',
+      'Gato para familias',
+      'Gato tolerante al frío',
+      'Gato resistente al calor',
+      'Gato de pelo semilargo',
+      'Gato que ama el agua',
+      'Gato activo',
+      'Vanturco',
+      'Gato Vanturco',
+      'Van Turco gato',
+      'Vanturco gato',
+      'Turco Van',
+      'Gato Turco Van',
+      'Van de Turquia',
+      'Turquia Van',
+    ],
+    description: `
+      El Van Turco es una raza de gato verdaderamente única y fascinante. A diferencia de muchas otras razas de gatos, el Van Turco no es producto de un meticuloso programa de cría, sino más bien de la evolución natural. Esta raza se desarrolló en el aislamiento relativo del lago Van, en la región montañosa de la moderna Turquía oriental. Es por ello que estos gatos exhiben características únicas que les permitieron sobrevivir y prosperar en este entorno montañoso.
+      <br>
+      <br>
+      Los Van Turcos son gatos de tamaño grande y están considerados entre los gatos más grandes en términos de longitud. Los machos pueden pesar entre 6 y 9 kg, y las hembras suelen ser un poco más pequeñas, de alrededor de 5 a 7 kg. Estos gatos tienen cuerpos largos y robustos, con una constitución musculosa. La raza tiene un pelaje semilargo que es increíblemente suave y sedoso al tacto. El pelo es más largo y grueso en la cola y alrededor del cuello, dándoles la apariencia de un majestuoso león en miniatura.
+      <br>
+      <br>
+      El Van Turco es conocido por su capa blanca como la nieve que, a menudo, contrasta con la coloración en su cabeza y cola. La mayoría de los Van Turcos tienen marcas de color en la cabeza y la cola, y lo más común es ver marcas de color ámbar, crema, negro, azul o tortuga. Este patrón de color es tan característico de la raza que se conoce como "patrón Van". Sus ojos pueden ser azules, ámbar o, en algunos casos, uno de cada color, un fenómeno conocido como heterocromía.
+      <br>
+      <br>
+      Pero más allá de su apariencia, los Van Turcos son quizás mejor conocidos por sus personalidades vibrantes y enérgicas. Son gatos activos, juguetones y extremadamente inteligentes. Requieren mucha estimulación mental y física, y les encanta explorar su entorno. Son muy buenos saltadores y escaladores, así que no te sorprendas si encuentras a tu Van Turco en los lugares más altos de tu casa.
+      <br>
+      <br>
+      Además, a los Van Turcos les encanta el agua, una característica inusual en los gatos. Les encanta jugar y chapotear en el agua, y algunos incluso disfrutan de nadar. Esta afición por el agua probablemente se desarrolló como una necesidad para sobrevivir en su tierra natal, rodeada de lagos y ríos.
+      <br>
+      <br>
+      A pesar de su energía y vivacidad, los Van Turcos también son increíblemente cariñosos y leales. Forman vínculos profundos con sus dueños y a menudo eligen a una persona en particular con la que formar un vínculo especial. Pueden ser un poco reservados con los extraños al principio, pero una vez que se sienten cómodos, son muy amigables y sociables.
+      <br>
+      <br>
+      En términos de salud, los Van Turcos son generalmente una raza saludable con pocos problemas de salud genéticos. Sin embargo, como todos los gatos, deben tener un cuidado dental regular, y su pelaje semilargo requiere un cepillado regular para prevenir los enredos y la formación de bolas de pelo.
+      <br>
+      <br>
+      En resumen, el Van Turco es una raza de gato verdaderamente única y cautivadora. Su mezcla de belleza física, energía juguetona, inteligencia aguda y lealtad inquebrantable lo convierte en un compañero maravilloso para cualquier amante de los gatos. Sin embargo, esta raza también requiere mucho compromiso en términos de tiempo y energía, y es más adecuada para aquellos que pueden ofrecerles el nivel de atención y actividad que necesitan para ser felices y saludables.
+    `,
+    history: `
+      La raza de gato Van Turco tiene una historia fascinante y muy antigua, que se remonta a miles de años en las tierras altas de la región de Van en Turquía. Para entender plenamente la historia del Van Turco, es necesario remontarse a un tiempo en que los gatos no eran animales domesticados, sino animales salvajes que vivían en armonía con la naturaleza y el entorno en el que se encontraban.
+      <br>
+      <br>
+      La región montañosa del lago Van, situada a una altitud de más de 1.600 metros, presenta un clima extremo, con inviernos fríos y nevados y veranos calurosos y secos. En este entorno desafiante, el Van Turco desarrolló características únicas que le permitieron sobrevivir y prosperar. Por ejemplo, su distintivo pelaje semi-largo y resistente al agua fue esencial para sobrevivir a los fríos inviernos y nadar en el lago durante los calurosos veranos.
+      <br>
+      <br>
+      La historia registrada de los Van Turcos se remonta a la época del Imperio Otomano. Aunque no se sabe exactamente cuándo comenzó la domesticación de estos gatos, hay registros de que los Van Turcos eran considerados como animales de compañía ya en el siglo XVII. En aquel entonces, eran frecuentemente retratados en miniaturas y manuscritos, y se dice que eran muy valorados por su pelaje blanco puro y sus marcas distintivas.
+      <br>
+      <br>
+      La historia moderna de la raza comenzó en los años 1950 cuando dos fotógrafas británicas, Sonia Halliday y Laura Lushington, estaban de viaje en Turquía. Se encontraron con estos hermosos gatos y se llevaron un par a Inglaterra. Lushington comenzó a criarlos y es acreditada por establecer la raza en el Reino Unido.
+      <br>
+      <br>
+      La popularidad del Van Turco creció lentamente, pero de manera constante, y finalmente fue reconocido por el GCCF (Governing Council of the Cat Fancy) en 1969. La raza fue llevada a los Estados Unidos en la década de 1970 y el CFA (Cat Fanciers' Association) la reconoció oficialmente en 1985.
+      <br>
+      <br>
+      El Van Turco es una raza muy importante en su país de origen. De hecho, es considerado un tesoro nacional en Turquía y está protegido por ley. En 1991, el Ministerio de Alimentación, Agricultura y Ganadería de Turquía inauguró un programa de cría en la Universidad de Yüzüncü Yıl en Van, para preservar la pureza de la raza.
+      <br>
+      <br>
+      La historia del Van Turco es realmente intrigante, llena de resistencia y adaptación, y tiene sus raíces en las antiguas tierras de Turquía. Aunque ya no es una raza comúnmente encontrada en su tierra natal, el Van Turco ha encontrado admiradores en todo el mundo, cautivando a los amantes de los gatos con su impresionante apariencia y personalidad vivaz. Su historia, tan antigua y rica, es un testamento a su fortaleza y a su singular belleza.
+    `,
+  },
+  ycho: {
+    weight: {
+      imperial: '12 - 18',
+      metric: '5 - 8',
+    },
+    id: 'ycho',
+    name: 'York Chocolate',
+    cfa_url: '',
+    vetstreet_url: '',
+    vcahospitals_url: '',
+    temperament: ['Juguetón', 'Social', 'Inteligente', 'Curioso', 'Amigable'],
+    origin: 'Estados Unidos',
+    country_codes: 'US',
+    country_code: 'US',
+    life_span: '13 - 15',
+    indoor: 0,
+    lap: 1,
+    alt_names: 'York',
+    adaptability: 5,
+    affection_level: 5,
+    child_friendly: 4,
+    dog_friendly: 5,
+    energy_level: 5,
+    grooming: 3,
+    health_issues: 1,
+    intelligence: 5,
+    shedding_level: 3,
+    social_needs: 4,
+    stranger_friendly: 4,
+    vocalisation: 5,
+    experimental: 0,
+    hairless: 0,
+    natural: 0,
+    rare: 0,
+    rex: 0,
+    suppressed_tail: 0,
+    short_legs: 0,
+    wikipedia_url: 'https://en.wikipedia.org/wiki/York_Chocolate',
+    hypoallergenic: 0,
+    reference_image_id: '0SxW2SQ_S',
+    image: 'https://cdn2.thecatapi.com/images/7pCnjXd47.jpg',
+    perks: [
+      'Verdaderos gatos de regazo',
+      'Naturaleza curiosa',
+      'Les gusta el agua',
+    ],
+    necesidades_especiales: [],
+    color: ['Marrón', 'Chocolate'],
+    enfermedades_comunes: [],
+    fuentes: ['https://en.wikipedia.org/wiki/York_Chocolate'],
+    para_primerizos: 'Alta',
+    nivel_de_energia: 'Alto',
+    popularidad: 'Baja',
+    necesidad_de_aseo: 'Moderada',
+    soporta_clima_frio: 'Alta',
+    soporta_clima_calido: 'Alta',
+    tolerancia_a_la_soledad: 'Baja',
+    salud_general: 'Buena',
+    categoria_de_tamanio: 'Mediano',
+    searchTerms: [
+      'Gato York Chocolate',
+      'Raza de gato York Chocolate',
+      'Gato de chocolate York',
+      'York Chocolate',
+      'York',
+      'Gato York',
+      'Raza de gato York Chocolate',
+      'Chocolate York',
+      'York de chocolate',
+      'Gato de chocolate York',
+      'Gato marrón',
+      'Gato chocolate',
+      'Gato juguetón',
+      'Gato social',
+      'Gato inteligente',
+      'Gato curioso',
+      'Gato amigable',
+      'Gato cariñoso',
+      'Gato bueno con los niños',
+      'Gato bueno con perros',
+      'Gato con alto nivel de energía',
+      'Gato de Estados Unidos',
+      'Gato de raza americana',
+      'Gato de tamaño mediano',
+      'Gato amante del agua',
+      'Gato que ama el agua',
+      'Gato que tolera el agua',
+      'Gato que no teme al agua',
+      'Gato de regazo',
+      'Gato de compañía',
+      'Gato para familias',
+      'Gato para primerizos',
+      'Gato para casa',
+    ],
+    description: `
+      El York Chocolate es una raza de gato tan atractiva y cautivante como su dulce homónimo. Imagina un pelaje de terciopelo lujoso y suave que brilla en los tonos más ricos del chocolate y las tonalidades más oscuras de marrón, y encontrarás una visión cercana a lo que es el York Chocolate. Esta raza se destaca no solo por su estética única, sino también por su personalidad cariñosa y social, y es un maravilloso agregado a cualquier hogar que valore la dulzura y la calidez de un amigo felino.
+      <br>
+      <br>
+      Uno de los rasgos más destacables del York Chocolate es su capa de pelo semi-largo. Es suave al tacto, similar al mink, y tiene una calidad satinada que resalta bajo la luz. Este lujoso pelaje, junto con los ojos color avellana o verde brillante de estos gatos, da como resultado una apariencia verdaderamente deslumbrante. La coloración de su pelaje oscila entre diferentes tonos de marrón, desde un rico chocolate hasta un marrón más claro, de ahí el nombre de la raza. Su cola es notablemente tupida y a menudo se describe como parecida a la de una pluma.
+      <br>
+      <br>
+      Las características físicas del York Chocolate, sin embargo, son solo el comienzo de su atractivo. Es su personalidad la que realmente capta el corazón de los amantes de los gatos. Son gatos amables y afectuosos que forman vínculos profundos con sus dueños. A menudo se les encuentra siguiendo a sus humanos favoritos por la casa, buscando un poco de atención y cariño. A pesar de su tendencia a ser un poco pegajosos, también son muy independientes y están perfectamente contentos de entretenerse mientras sus dueños están ocupados.
+      <br>
+      <br>
+      Estos gatos tienen una naturaleza juguetona y disfrutan de los juegos interactivos. No es raro que un York Chocolate se entretenga cazando juguetes o corriendo por la casa en un ataque de energía. Su inteligencia también brilla en su capacidad para aprender trucos y resolver problemas. Son conocidos por su curiosidad y su amor por la exploración, lo que significa que necesitan un ambiente en el que puedan saciar su deseo de descubrimiento.
+      <br>
+      <br>
+      Uno de los aspectos más curiosos de los York Chocolates es su afinidad por el agua. A diferencia de muchos gatos que detestan el agua, a los York Chocolates a menudo les encanta jugar en ella. No te sorprendas si tu York Chocolate decide unirse a ti en el baño o en la ducha, o si descubres que le gusta jugar con el agua del grifo.
+      <br>
+      <br>
+      Es importante señalar que, aunque los York Chocolates son generalmente saludables, necesitan una alimentación y cuidados adecuados para mantener su lujoso pelaje. Requieren cepillados regulares para evitar que su pelo se enrede y para mantener su brillo. Sin embargo, a diferencia de otras razas de pelo largo, los York Chocolates no son propensos a las bolas de pelo.
+      <br>
+      <br>
+      En resumen, el York Chocolate es una raza de gato verdaderamente encantadora que es tan dulce y agradable como su nombre lo sugiere. Con su hermoso pelaje, su personalidad cariñosa y juguetona, y su amor por la exploración y el agua, son una elección perfecta para aquellos que buscan un compañero felino que sea tanto un amigo cariñoso como una fuente constante de entretenimiento y deleite. Con el cuidado y el amor adecuados, un York Chocolate puede aportar una dosis diaria de alegría y afecto a cualquier hogar.
+    `,
+    history: `
+      La historia del York Chocolate, una raza relativamente nueva y cautivadora, está llena de encanto y un cierto aire de misterio. La raza comenzó con un solo gato, una gata de granja de pelo largo llamada Blacky, que dio a luz a una camada de gatitos en 1983. Entre esos gatitos había uno que se destacaba: una gata de pelo semi-largo, de color chocolate, a la que se llamó Brownie. La granja estaba ubicada en el estado de Nueva York, de ahí el nombre de la raza.
+      <br>
+      <br>
+      La dueña de la granja, Janet Chiefari, inmediatamente quedó cautivada por el color y la textura del pelo de Brownie. El pelaje, suave como el mink y brillante como el satin, y su tono distintivo, un rico y oscuro color chocolate, captaron la atención de Janet. Pero no solo la belleza física de Brownie llamó la atención de su dueña. La gata también poseía una personalidad cariñosa y amable que la hacía irresistible. Janet decidió que debía llevar a cabo un programa de cría para preservar y propagar estas características únicas.
+      <br>
+      <br>
+      A medida que Brownie creció, Janet observó más detalles encantadores en su personalidad y comportamiento. La gata tenía una inclinación particular por el agua, algo inusual en la mayoría de los gatos. Disfrutaba jugando en charcos y no tenía miedo de unirse a su dueña en la ducha. También era social, amable y juguetona, y formó fuertes vínculos con su dueña y otros gatos en la granja.
+      <br>
+      <br>
+      La raza York Chocolate se desarrolló a partir de un programa de cría cuidadoso y selectivo que comenzó con Brownie. Aunque la raza empezó como una coincidencia, Janet tomó la decisión de seleccionar específicamente gatos que mostraran las características deseadas. La raza fue reconocida oficialmente en 1990, y fue aceptada en el International Cat Association (TICA) en 1995.
+      <br>
+      <br>
+      Como raza, los York Chocolates siguen siendo relativamente raros. Como resultado, cada gato York Chocolate lleva consigo una parte de esa historia especial. Cada uno es un descendiente directo de esa gata original, Brownie, que encantó a su dueña con su dulce temperamento y su bello pelaje.
+      <br>
+      <br>
+      Pese a ser una raza nueva, los York Chocolates han logrado cautivar a los amantes de los gatos en todo el mundo con su apariencia elegante y su personalidad cariñosa. Continúan siendo un testimonio de la diversidad y la belleza de las razas de gatos, y su historia sirve como recordatorio de que, a veces, los rasgos más apreciados pueden surgir de los lugares más inesperados.
+      <br>
+      <br>
+      La historia del York Chocolate es un reflejo de la maravillosa diversidad de las razas de gatos y de cómo una gata de granja común y corriente pudo dar origen a una raza completamente nueva y distinta. Es una historia que sigue atrapando a los amantes de los gatos, haciendo que quieran saber más sobre esta raza tan singular y atractiva. En resumen, la historia del York Chocolate es tan rica y fascinante como la raza misma.
     `,
   },
 };
-
-/*
-
-    {
-        "weight": {
-            "imperial": "6 - 12",
-            "metric": "3 - 5"
-        },
-        "id": "soma",
-        "name": "Somali",
-        "cfa_url": "http://cfa.org/Breeds/BreedsSthruT/Somali.aspx",
-        "vetstreet_url": "http://www.vetstreet.com/cats/somali",
-        "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/somali",
-        "temperament": "Mischievous, Tenacious, Intelligent, Affectionate, Gentle, Interactive, Loyal",
-        "origin": "Somalia",
-        "country_codes": "SO",
-        "country_code": "SO",
-        "description": "The Somali lives life to the fullest. He climbs higher, jumps farther, plays harder. Nothing escapes the notice of this highly intelligent and inquisitive cat. Somalis love the company of humans and other animals.",
-        "life_span": "12 - 16",
-        "indoor": 0,
-        "alt_names": "Fox Cat, Long-Haired Abyssinian",
-        "adaptability": 5,
-        "affection_level": 5,
-        "child_friendly": 3,
-        "dog_friendly": 4,
-        "energy_level": 5,
-        "grooming": 3,
-        "health_issues": 2,
-        "intelligence": 5,
-        "shedding_level": 4,
-        "social_needs": 5,
-        "stranger_friendly": 5,
-        "vocalisation": 1,
-        "experimental": 0,
-        "hairless": 0,
-        "natural": 0,
-        "rare": 0,
-        "rex": 0,
-        "suppressed_tail": 0,
-        "short_legs": 0,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Somali_(cat)",
-        "hypoallergenic": 0,
-        "reference_image_id": "EPF2ejNS0",
-        "image": "https://cdn2.thecatapi.com/images/K29_o7SGa.jpg"
-    },
-    {
-        "weight": {
-            "imperial": "6 - 12",
-            "metric": "3 - 5"
-        },
-        "id": "sphy",
-        "name": "Sphynx",
-        "cfa_url": "http://cfa.org/Breeds/BreedsSthruT/Sphynx.aspx",
-        "vetstreet_url": "http://www.vetstreet.com/cats/sphynx",
-        "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/sphynx",
-        "temperament": "Loyal, Inquisitive, Friendly, Quiet, Gentle",
-        "origin": "Canada",
-        "country_codes": "CA",
-        "country_code": "CA",
-        "description": "The Sphynx is an intelligent, inquisitive, extremely friendly people-oriented breed. Sphynx commonly greet their owners  at the front door, with obvious excitement and happiness. She has an unexpected sense of humor that is often at odds with her dour expression.",
-        "life_span": "12 - 14",
-        "indoor": 0,
-        "lap": 1,
-        "alt_names": "Canadian Hairless, Canadian Sphynx",
-        "adaptability": 5,
-        "affection_level": 5,
-        "child_friendly": 4,
-        "dog_friendly": 5,
-        "energy_level": 3,
-        "grooming": 2,
-        "health_issues": 4,
-        "intelligence": 5,
-        "shedding_level": 1,
-        "social_needs": 5,
-        "stranger_friendly": 5,
-        "vocalisation": 5,
-        "experimental": 0,
-        "hairless": 1,
-        "natural": 0,
-        "rare": 1,
-        "rex": 0,
-        "suppressed_tail": 0,
-        "short_legs": 0,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Sphynx_(cat)",
-        "hypoallergenic": 1,
-        "reference_image_id": "BDb8ZXb1v",
-        "image": "https://cdn2.thecatapi.com/images/8krfAgKYD.jpg"
-    },
-    {
-        "weight": {
-            "imperial": "6 - 12",
-            "metric": "3 - 5"
-        },
-        "id": "tonk",
-        "name": "Tonkinese",
-        "cfa_url": "http://cfa.org/Breeds/BreedsSthruT/Tonkinese.aspx",
-        "vetstreet_url": "http://www.vetstreet.com/cats/tonkinese",
-        "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/tonkinese",
-        "temperament": "Curious, Intelligent, Social, Lively, Outgoing, Playful, Affectionate",
-        "origin": "Canada",
-        "country_codes": "CA",
-        "country_code": "CA",
-        "description": "Intelligent and generous with their affection, a Tonkinese will supervise all activities with curiosity. Loving, social, active, playful, yet content to be a lap cat",
-        "life_span": "14 - 16",
-        "indoor": 0,
-        "lap": 1,
-        "alt_names": "Tonk",
-        "adaptability": 5,
-        "affection_level": 5,
-        "child_friendly": 4,
-        "dog_friendly": 5,
-        "energy_level": 5,
-        "grooming": 1,
-        "health_issues": 1,
-        "intelligence": 5,
-        "shedding_level": 3,
-        "social_needs": 5,
-        "stranger_friendly": 5,
-        "vocalisation": 5,
-        "experimental": 0,
-        "hairless": 0,
-        "natural": 0,
-        "rare": 0,
-        "rex": 0,
-        "suppressed_tail": 0,
-        "short_legs": 0,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Tonkinese_(cat)",
-        "hypoallergenic": 0,
-        "reference_image_id": "KBroiVNCM",
-        "image": "https://cdn2.thecatapi.com/images/_np7TW9Iq.jpg"
-    },
-    {
-        "weight": {
-            "imperial": "7 - 15",
-            "metric": "3 - 7"
-        },
-        "id": "toyg",
-        "name": "Toyger",
-        "vetstreet_url": "http://www.vetstreet.com/cats/toyger",
-        "temperament": "Playful, Social, Intelligent",
-        "origin": "United States",
-        "country_codes": "US",
-        "country_code": "US",
-        "description": "The Toyger has a sweet, calm personality and is generally friendly. He's outgoing enough to walk on a leash, energetic enough to play fetch and other interactive games, and confident enough to get along with other cats and friendly dogs.",
-        "life_span": "12 - 15",
-        "indoor": 0,
-        "lap": 1,
-        "alt_names": "",
-        "adaptability": 5,
-        "affection_level": 5,
-        "child_friendly": 4,
-        "dog_friendly": 5,
-        "energy_level": 5,
-        "grooming": 1,
-        "health_issues": 2,
-        "intelligence": 5,
-        "shedding_level": 3,
-        "social_needs": 3,
-        "stranger_friendly": 5,
-        "vocalisation": 5,
-        "experimental": 0,
-        "hairless": 0,
-        "natural": 0,
-        "rare": 0,
-        "rex": 0,
-        "suppressed_tail": 0,
-        "short_legs": 0,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Toyger",
-        "hypoallergenic": 0,
-        "reference_image_id": "O3F3_S1XN",
-        "image": "https://cdn2.thecatapi.com/images/Zi4jfH3c6.jpg"
-    },
-    {
-        "weight": {
-            "imperial": "5 - 10",
-            "metric": "2 - 5"
-        },
-        "id": "tang",
-        "name": "Turkish Angora",
-        "cfa_url": "http://cfa.org/Breeds/BreedsSthruT/TurkishAngora.aspx",
-        "vetstreet_url": "http://www.vetstreet.com/cats/turkish-angora",
-        "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/turkish-angora",
-        "temperament": "Affectionate, Agile, Clever, Gentle, Intelligent, Playful, Social",
-        "origin": "Turkey",
-        "country_codes": "TR",
-        "country_code": "TR",
-        "description": "This is a smart and intelligent cat which bonds well with humans. With its affectionate and playful personality the Angora is a top choice for families. The Angora gets along great with other pets in the home, but it will make clear who is in charge, and who the house belongs to",
-        "life_span": "15 - 18",
-        "indoor": 0,
-        "alt_names": "Ankara",
-        "adaptability": 5,
-        "affection_level": 5,
-        "child_friendly": 4,
-        "dog_friendly": 5,
-        "energy_level": 5,
-        "grooming": 2,
-        "health_issues": 2,
-        "intelligence": 5,
-        "shedding_level": 2,
-        "social_needs": 5,
-        "stranger_friendly": 5,
-        "vocalisation": 3,
-        "experimental": 0,
-        "hairless": 0,
-        "natural": 1,
-        "rare": 0,
-        "rex": 0,
-        "suppressed_tail": 0,
-        "short_legs": 0,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Turkish_Angora",
-        "hypoallergenic": 0,
-        "reference_image_id": "7CGV6WVXq",
-        "image": "https://cdn2.thecatapi.com/images/Yx3nQTUHu.jpg"
-    },
-    {
-        "weight": {
-            "imperial": "7 - 20",
-            "metric": "3 - 9"
-        },
-        "id": "tvan",
-        "name": "Turkish Van",
-        "cfa_url": "http://cfa.org/Breeds/BreedsSthruT/TurkishVan.aspx",
-        "vetstreet_url": "http://www.vetstreet.com/cats/turkish-van",
-        "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/turkish-van",
-        "temperament": "Agile, Intelligent, Loyal, Playful, Energetic",
-        "origin": "Turkey",
-        "country_codes": "TR",
-        "country_code": "TR",
-        "description": "While the Turkish Van loves to jump and climb, play with toys, retrieve and play chase, she is is big and ungainly; this is one cat who doesn’t always land on his feet. While not much of a lap cat, the Van will be happy to cuddle next to you and sleep in your bed. ",
-        "life_span": "12 - 17",
-        "indoor": 0,
-        "alt_names": "Turkish Cat, Swimming cat",
-        "adaptability": 5,
-        "affection_level": 5,
-        "child_friendly": 4,
-        "dog_friendly": 5,
-        "energy_level": 5,
-        "grooming": 2,
-        "health_issues": 1,
-        "intelligence": 5,
-        "shedding_level": 3,
-        "social_needs": 4,
-        "stranger_friendly": 4,
-        "vocalisation": 5,
-        "experimental": 0,
-        "hairless": 0,
-        "natural": 1,
-        "rare": 0,
-        "rex": 0,
-        "suppressed_tail": 0,
-        "short_legs": 0,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Turkish_Van",
-        "hypoallergenic": 0,
-        "reference_image_id": "sxIXJax6h",
-        "image": "https://cdn2.thecatapi.com/images/Ua8Kr2RuM.jpg"
-    },
-    {
-    "weight": {
-        "imperial": "12 - 18",
-        "metric": "5 - 8"
-    },
-    "id": "ycho",
-    "name": "York Chocolate",
-    "temperament": "Playful, Social, Intelligent, Curious, Friendly",
-    "origin": "United States",
-    "country_codes": "US",
-    "country_code": "US",
-    "description": "York Chocolate cats are known to be true lap cats with a sweet temperament. They love to be cuddled and petted. Their curious nature makes them follow you all the time and participate in almost everything you do, even if it's related to water: unlike many other cats, York Chocolates love it.",
-    "life_span": "13 - 15",
-    "indoor": 0,
-    "lap": 1,
-    "alt_names": "York",
-    "adaptability": 5,
-    "affection_level": 5,
-    "child_friendly": 4,
-    "dog_friendly": 5,
-    "energy_level": 5,
-    "grooming": 3,
-    "health_issues": 1,
-    "intelligence": 5,
-    "shedding_level": 3,
-    "social_needs": 4,
-    "stranger_friendly": 4,
-    "vocalisation": 5,
-    "experimental": 0,
-    "hairless": 0,
-    "natural": 0,
-    "rare": 0,
-    "rex": 0,
-    "suppressed_tail": 0,
-    "short_legs": 0,
-    "wikipedia_url": "https://en.wikipedia.org/wiki/York_Chocolate",
-    "hypoallergenic": 0,
-    "reference_image_id": "0SxW2SQ_S",
-    "image": "https://cdn2.thecatapi.com/images/7pCnjXd47.jpg"
-  }
-
-]
-*/
