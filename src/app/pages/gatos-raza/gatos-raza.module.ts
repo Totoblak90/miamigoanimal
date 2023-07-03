@@ -7,6 +7,7 @@ import { HighlitedArticlesSectionComponent } from 'src/app/components/highlited-
 import { RecentArticlesSectionComponent } from 'src/app/components/recent-articles-section/recent-articles-section.component';
 import { HeaderComponent } from 'src/app/components/header/header.component';
 import { ExpandableTextComponent } from 'src/app/components/expandable-text/expandable-text.component';
+import { CarouselComponent } from 'src/app/components/carousel/carousel.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ExpandableTextComponent } from 'src/app/components/expandable-text/expa
     HighlitedArticlesSectionComponent,
     RecentArticlesSectionComponent,
     HeaderComponent,
-    ExpandableTextComponent
+    ExpandableTextComponent,
+    CarouselComponent
   ]
 })
 export class GatosRazaModule { }

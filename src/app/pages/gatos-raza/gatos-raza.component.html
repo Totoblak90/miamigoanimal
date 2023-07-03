@@ -30,9 +30,9 @@
     </article>
 
     <!-- Carousel -->
-    <!-- <article class="u-margin-bottom-big" *ngIf="dogGallery?.length">
-      <carousel [images]="dogGallery"></carousel>
-    </article> -->
+    <article class="u-margin-bottom-big" *ngIf="catGallery?.length">
+      <carousel [images]="catGallery || []"></carousel>
+    </article>
 
     <!-- Rasgos -->
     <article class="u-margin-bottom-big">
@@ -408,7 +408,7 @@
         <ul class="navigation__list">
           <li class="navigation__item">
             <a
-              href="https://thedogapi.com/"
+              href="https://thecatapi.com/"
               target="_blank"
               class="navigation__link"
               >The cat API</a

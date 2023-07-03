@@ -1,66 +1,80 @@
 export interface Cat {
-  weight:             Weight;
-  id:                 string;
-  name:               string;
-  cfa_url:            string;
-  vetstreet_url:      string;
-  vcahospitals_url:   string;
-  temperament:        string[];
-  origin:             string;
-  country_codes:      string;
-  country_code:       string;
-  life_span:          string;
-  indoor:             number;
-  lap:                number;
-  alt_names:          string;
-  adaptability:       number;
-  affection_level:    number;
-  child_friendly:     number;
-  dog_friendly:       number;
-  energy_level:       number;
-  grooming:           number;
-  health_issues:      number;
-  intelligence:       number;
-  shedding_level:     number;
-  social_needs:       number;
-  stranger_friendly:  number;
-  vocalisation:       number;
-  experimental:       number;
-  hairless:           number;
-  natural:            number;
-  rare:               number;
-  rex:                number;
-  suppressed_tail:    number;
-  short_legs:         number;
-  wikipedia_url:      string;
-  hypoallergenic:     number;
+  weight: Weight;
+  id: string;
+  name: string;
+  cfa_url: string;
+  vetstreet_url: string;
+  vcahospitals_url: string;
+  temperament: string[];
+  origin: string;
+  country_codes: string;
+  country_code: string;
+  life_span: string;
+  indoor: number;
+  lap: number;
+  alt_names: string;
+  adaptability: number;
+  affection_level: number;
+  child_friendly: number;
+  dog_friendly: number;
+  energy_level: number;
+  grooming: number;
+  health_issues: number;
+  intelligence: number;
+  shedding_level: number;
+  social_needs: number;
+  stranger_friendly: number;
+  vocalisation: number;
+  experimental: number;
+  hairless: number;
+  natural: number;
+  rare: number;
+  rex: number;
+  suppressed_tail: number;
+  short_legs: number;
+  wikipedia_url: string;
+  hypoallergenic: number;
   reference_image_id: string;
-  image:              string;
+  image: string;
 
-  perks:              string[];
-  necesidades_especiales:                string[];
-  color:                                 string[];
-  enfermedades_comunes:                  string[];
-  fuentes:                               string[];
-  para_primerizos:                       'Baja' | 'Moderada' | 'Alta' | '-';
-  nivel_de_energia:                      'Bajo' | 'Moderado' | 'Alto' | '-';
-  popularidad:                           'Baja' | 'Moderada' | 'Alta' | '-';
-  necesidad_de_aseo:                     'Baja' | 'Moderada' | 'Alta' | '-';
-  soporta_clima_frio:                    'Baja' | 'Moderada' | 'Alta' | '-';
-  soporta_clima_calido:                  'Baja' | 'Moderada' | 'Alta' | '-';
-  tolerancia_a_la_soledad:               'Baja' | 'Moderada' | 'Alta' | '-';
-  salud_general:                         'Excelente' | 'Buena' | 'Regular' | 'Mala' | '-';
-  categoria_de_tamanio:                  'Muy pequeño' | 'Pequeño' | 'Mediano' | 'Grande' | 'Muy grande' | '-';
-  searchTerms:                           string[];
+  perks: string[];
+  necesidades_especiales: string[];
+  color: string[];
+  enfermedades_comunes: string[];
+  fuentes: string[];
+  para_primerizos: 'Baja' | 'Moderada' | 'Alta' | '-';
+  nivel_de_energia: 'Bajo' | 'Moderado' | 'Alto' | '-';
+  popularidad: 'Baja' | 'Moderada' | 'Alta' | '-';
+  necesidad_de_aseo: 'Baja' | 'Moderada' | 'Alta' | '-';
+  soporta_clima_frio: 'Baja' | 'Moderada' | 'Alta' | '-';
+  soporta_clima_calido: 'Baja' | 'Moderada' | 'Alta' | '-';
+  tolerancia_a_la_soledad: 'Baja' | 'Moderada' | 'Alta' | '-';
+  salud_general: 'Excelente' | 'Buena' | 'Regular' | 'Mala' | '-';
+  categoria_de_tamanio:
+    | 'Muy pequeño'
+    | 'Pequeño'
+    | 'Mediano'
+    | 'Grande'
+    | 'Muy grande'
+    | '-';
+  searchTerms: string[];
 
-  description:                           string;
-  history:                              string;
+  description: string;
+  history: string;
 
+  gallery?: CatImage[];
+}
+
+export interface CatImage {
+  id: string;
+  url: string;
+  width: number;
+  height: number;
 }
 
 export interface Weight {
   imperial: string;
-  metric:   string;
+  metric: string;
 }
 
 /*

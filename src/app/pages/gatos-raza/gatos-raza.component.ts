@@ -73,6 +73,8 @@ export class GatosRazaComponent {
     tolerancia_a_la_soledad: "-"
   };
 
+  catGallery: { url: string, altText: string }[] = [];
+
   get catPerks() {
     return this.cat.perks.join(', ').toLocaleUpperCase()
   }
@@ -339,7 +341,7 @@ export class GatosRazaComponent {
   ) {
 
     this.cat = this.activatedRoute.snapshot.data['raza'];
-
+    this.setCatGallery()
     this.setMetaTags();
     this.subscribeToRouteChange();
 
@@ -372,6 +374,7 @@ export class GatosRazaComponent {
         if (id)
         {
           this.cat = this.gatosService.catListSignal()[id];
+          this.setCatGallery()
           this.setMetaTags();
         }
         else { this.router.navigate(['gatos']) }
@@ -379,6 +382,15 @@ export class GatosRazaComponent {
       });
 
     }
+  }
+
+  setCatGallery() {
+    this.catGallery = this.cat.gallery?.map(img => {
+      return {
+        url: img.url,
+        altText: this.cat.name
+      }
+    }) || []
   }
 
   setCategoryName(value: number): string {

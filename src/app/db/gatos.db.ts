@@ -154,6 +154,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       A pesar de su tumultuoso pasado, los gatos Abisinios han prosperado en el siglo XXI y son una de las razas más populares.
     `,
+    gallery: [
+      {
+        id: 'xnzzM6MBI',
+        url: 'https://cdn2.thecatapi.com/images/xnzzM6MBI.jpg',
+        width: 2592,
+        height: 1629,
+      },
+      {
+        id: 'EHG3sOpAM',
+        url: 'https://cdn2.thecatapi.com/images/EHG3sOpAM.jpg',
+        width: 1600,
+        height: 1067,
+      },
+      {
+        id: 'unPP08xOZ',
+        url: 'https://cdn2.thecatapi.com/images/unPP08xOZ.jpg',
+        width: 2136,
+        height: 2848,
+      },
+      {
+        id: 'N-94oSJ5T',
+        url: 'https://cdn2.thecatapi.com/images/N-94oSJ5T.jpg',
+        width: 1920,
+        height: 1280,
+      },
+      {
+        id: 'itfFA4NWS',
+        url: 'https://cdn2.thecatapi.com/images/itfFA4NWS.jpg',
+        width: 1280,
+        height: 914,
+      },
+      {
+        id: 'KWdLHmOqc',
+        url: 'https://cdn2.thecatapi.com/images/KWdLHmOqc.jpg',
+        width: 3114,
+        height: 2609,
+      },
+      {
+        id: '9x1zk_Qdr',
+        url: 'https://cdn2.thecatapi.com/images/9x1zk_Qdr.jpg',
+        width: 1204,
+        height: 1107,
+      },
+      {
+        id: 'TGuAku7fM',
+        url: 'https://cdn2.thecatapi.com/images/TGuAku7fM.jpg',
+        width: 1920,
+        height: 1279,
+      },
+      {
+        id: 'MJWtDz75E',
+        url: 'https://cdn2.thecatapi.com/images/MJWtDz75E.jpg',
+        width: 1024,
+        height: 1024,
+      },
+      {
+        id: 'g1j3wRjgx',
+        url: 'https://cdn2.thecatapi.com/images/g1j3wRjgx.jpg',
+        width: 1024,
+        height: 1024,
+      },
+    ],
   },
   aege: {
     weight: {
@@ -297,6 +359,38 @@ export const CAT_LIST: { [key: string]: Cat } = {
     <br>
     En definitiva, la historia de los gatos Egeo es una prueba de que no todas las razas de gatos necesitan una ascendencia noble o una crianza selectiva para ser especiales. A veces, todo lo que se necesita es una isla, un mar y miles de años para crear algo verdaderamente único.
     `,
+    gallery: [
+      {
+        id: 'ozEvzdVM-',
+        url: 'https://cdn2.thecatapi.com/images/ozEvzdVM-.jpg',
+        width: 1200,
+        height: 800,
+      },
+      {
+        id: 'h19-vtIeX',
+        url: 'https://cdn2.thecatapi.com/images/h19-vtIeX.jpg',
+        width: 4272,
+        height: 2848,
+      },
+      {
+        id: 'ks5wRxZmP',
+        url: 'https://cdn2.thecatapi.com/images/ks5wRxZmP.jpg',
+        width: 1939,
+        height: 1400,
+      },
+      {
+        id: 'uvt2Psd9O',
+        url: 'https://cdn2.thecatapi.com/images/uvt2Psd9O.jpg',
+        width: 1024,
+        height: 1024,
+      },
+      {
+        id: 'Hb2N6tYTJ',
+        url: 'https://cdn2.thecatapi.com/images/Hb2N6tYTJ.jpg',
+        width: 1024,
+        height: 1024,
+      },
+    ],
   },
   abob: {
     weight: {
@@ -467,6 +561,44 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, aunque la historia del Bobtail Americano es relativamente corta, es una raza que ha dejado una impresión duradera. Con su apariencia única, su personalidad amigable y su robusta salud, el Bobtail Americano es una raza que seguirá cautivando a los amantes de los gatos durante muchos años más.
     `,
+    gallery: [
+      {
+        id: 'd55E_KMKZ',
+        url: 'https://cdn2.thecatapi.com/images/d55E_KMKZ.jpg',
+        width: 2160,
+        height: 1284,
+      },
+      {
+        id: '8r4M61iyS',
+        url: 'https://cdn2.thecatapi.com/images/8r4M61iyS.jpg',
+        width: 4592,
+        height: 2411,
+      },
+      {
+        id: 'hBXicehMA',
+        url: 'https://cdn2.thecatapi.com/images/hBXicehMA.jpg',
+        width: 1600,
+        height: 951,
+      },
+      {
+        id: 'gVrhv_yAY',
+        url: 'https://cdn2.thecatapi.com/images/gVrhv_yAY.jpg',
+        width: 1600,
+        height: 1051,
+      },
+      {
+        id: 'vH0bd0YDH',
+        url: 'https://cdn2.thecatapi.com/images/vH0bd0YDH.jpg',
+        width: 1335,
+        height: 1206,
+      },
+      {
+        id: 'r_njVlaSz',
+        url: 'https://cdn2.thecatapi.com/images/r_njVlaSz.jpg',
+        width: 1920,
+        height: 1080,
+      },
+    ],
   },
   acur: {
     weight: {
@@ -629,6 +761,56 @@ export const CAT_LIST: { [key: string]: Cat } = {
         <br>
         En conclusión, la historia del Rizo Americano es una de mutación genética espontánea, dedicación, y colaboración científica, lo que resultó en la creación de una de las razas de gatos más únicas y queridas del mundo. Su origen reciente, su rápida aceptación por parte de las principales organizaciones felinas, y el trabajo constante para mantener su salud genética, hacen de la historia del Rizo Americano una que es tan intrigante y cautivadora como el propio gato.
       `,
+    gallery: [
+      {
+        id: 'TBA3JzB9P',
+        url: 'https://cdn2.thecatapi.com/images/TBA3JzB9P.jpg',
+        width: 1200,
+        height: 856,
+      },
+      {
+        id: 'vJB8rwfdX',
+        url: 'https://cdn2.thecatapi.com/images/vJB8rwfdX.jpg',
+        width: 1600,
+        height: 1067,
+      },
+      {
+        id: 'zeKI28A21',
+        url: 'https://cdn2.thecatapi.com/images/zeKI28A21.jpg',
+        width: 1920,
+        height: 1200,
+      },
+      {
+        id: 'xnsqonbjW',
+        url: 'https://cdn2.thecatapi.com/images/xnsqonbjW.jpg',
+        width: 1000,
+        height: 964,
+      },
+      {
+        id: 'kdfcmTWJL',
+        url: 'https://cdn2.thecatapi.com/images/kdfcmTWJL.jpg',
+        width: 1600,
+        height: 1066,
+      },
+      {
+        id: 'ji-5E0VwY',
+        url: 'https://cdn2.thecatapi.com/images/ji-5E0VwY.jpg',
+        width: 1250,
+        height: 702,
+      },
+      {
+        id: 'HVP1wfZF0',
+        url: 'https://cdn2.thecatapi.com/images/HVP1wfZF0.jpg',
+        width: 1600,
+        height: 1067,
+      },
+      {
+        id: 'ZZmFRKWZZ',
+        url: 'https://cdn2.thecatapi.com/images/ZZmFRKWZZ.jpg',
+        width: 1980,
+        height: 1355,
+      },
+    ],
   },
   asho: {
     weight: {
@@ -780,6 +962,32 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       Hoy en día, el Pelo Corto Americano es una de las razas más populares en los Estados Unidos, apreciada por su belleza, su personalidad y su robustez. A pesar de su popularidad, la raza ha mantenido muchas de las características que la hicieron tan valiosa para los primeros colonos: su fortaleza, su habilidad para cazar y su temperamento amigable. En muchos sentidos, el Pelo Corto Americano es un testimonio viviente de la historia de América y de la resistencia y el espíritu indomable de sus primeros pioneros.
     `,
+    gallery: [
+      {
+        id: 'SCHe-SekW',
+        url: 'https://cdn2.thecatapi.com/images/SCHe-SekW.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: '8NdgktL3E',
+        url: 'https://cdn2.thecatapi.com/images/8NdgktL3E.jpg',
+        width: 2716,
+        height: 1810,
+      },
+      {
+        id: 'MuEGe1-Sz',
+        url: 'https://cdn2.thecatapi.com/images/MuEGe1-Sz.jpg',
+        width: 3000,
+        height: 2002,
+      },
+      {
+        id: 'JFPROfGtQ',
+        url: 'https://cdn2.thecatapi.com/images/JFPROfGtQ.jpg',
+        width: 1600,
+        height: 1200,
+      },
+    ],
   },
   awir: {
     weight: {
@@ -930,6 +1138,32 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, la historia del gato American Wirehair es un testimonio de cómo una simple mutación genética puede dar lugar a algo verdaderamente extraordinario. Es la prueba viviente de que la diversidad genética es lo que hace que cada raza de gato sea única y especial a su manera. Y aunque la raza aún no es muy conocida, sin duda tiene un lugar en los corazones de los que la han descubierto.
   `,
+    gallery: [
+      {
+        id: 'bTo6m3PVg',
+        url: 'https://cdn2.thecatapi.com/images/bTo6m3PVg.jpg',
+        width: 2000,
+        height: 1138,
+      },
+      {
+        id: 'kxUakBB2o',
+        url: 'https://cdn2.thecatapi.com/images/kxUakBB2o.jpg',
+        width: 1250,
+        height: 650,
+      },
+      {
+        id: 'Q6TDnfM_O',
+        url: 'https://cdn2.thecatapi.com/images/Q6TDnfM_O.jpg',
+        width: 1600,
+        height: 1000,
+      },
+      {
+        id: '8D--jCd21',
+        url: 'https://cdn2.thecatapi.com/images/8D--jCd21.jpg',
+        width: 1280,
+        height: 936,
+      },
+    ],
   },
   amau: {
     weight: {
@@ -1091,6 +1325,44 @@ export const CAT_LIST: { [key: string]: Cat } = {
     <br>
     La historia del Mau Árabe es, sin duda, una historia fascinante que abarca milenios. Estos gatos han sido testigos de la evolución de la civilización humana, desde las antiguas pirámides de Egipto hasta las modernas ciudades de hoy. Con su elegancia, fortaleza y lealtad, el Mau Árabe lleva consigo el legado de las antiguas civilizaciones que lo veneraron, un testimonio de la duradera relación entre los humanos y los gatos.
   `,
+    gallery: [
+      {
+        id: 'z_k-oJ8xG',
+        url: 'https://cdn2.thecatapi.com/images/z_k-oJ8xG.jpg',
+        width: 2031,
+        height: 1217,
+      },
+      {
+        id: 'm1TeHn2dH',
+        url: 'https://cdn2.thecatapi.com/images/m1TeHn2dH.jpg',
+        width: 3555,
+        height: 2569,
+      },
+      {
+        id: 'cZHbIzC_l',
+        url: 'https://cdn2.thecatapi.com/images/cZHbIzC_l.jpg',
+        width: 1536,
+        height: 1020,
+      },
+      {
+        id: 'zlpgGWqN7',
+        url: 'https://cdn2.thecatapi.com/images/zlpgGWqN7.jpg',
+        width: 3840,
+        height: 2400,
+      },
+      {
+        id: 'k71ULYfRr',
+        url: 'https://cdn2.thecatapi.com/images/k71ULYfRr.jpg',
+        width: 2048,
+        height: 1554,
+      },
+      {
+        id: 'mnD88Lsjd',
+        url: 'https://cdn2.thecatapi.com/images/mnD88Lsjd.jpg',
+        width: 1920,
+        height: 1200,
+      },
+    ],
   },
   amis: {
     weight: {
@@ -1243,6 +1515,32 @@ export const CAT_LIST: { [key: string]: Cat } = {
     <br>
     Hoy en día, el Australian Mist sigue siendo una raza distintivamente australiana. Su desarrollo ha sido un testimonio de la visión de la Dra. Truda Straede y su compromiso con la cría responsable y ética. Aunque la raza es aún joven en términos históricos, su combinación única de belleza y personalidad asegura que tiene un futuro brillante por delante. A medida que más personas descubren la alegría de tener un Australian Mist, no cabe duda de que esta raza seguirá creciendo en popularidad y reconocimiento.
   `,
+    gallery: [
+      {
+        id: '_6x-3TiCA',
+        url: 'https://cdn2.thecatapi.com/images/_6x-3TiCA.jpg',
+        width: 1231,
+        height: 1165,
+      },
+      {
+        id: 'weHGBmpb0',
+        url: 'https://cdn2.thecatapi.com/images/weHGBmpb0.jpg',
+        width: 960,
+        height: 854,
+      },
+      {
+        id: '7-1CtKMRr',
+        url: 'https://cdn2.thecatapi.com/images/7-1CtKMRr.jpg',
+        width: 1800,
+        height: 1200,
+      },
+      {
+        id: 'zTiuUpmqf',
+        url: 'https://cdn2.thecatapi.com/images/zTiuUpmqf.jpg',
+        width: 4553,
+        height: 3036,
+      },
+    ],
   },
   bali: {
     weight: {
@@ -1402,6 +1700,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, la historia del Balinés es una historia de sorpresas genéticas, interés y dedicación por parte de los criadores, y una continua evolución para convertirse en la maravillosa raza que conocemos y amamos hoy. Aunque su nombre sugiere un origen exótico, el Balinés es realmente un producto de la cría selectiva en los Estados Unidos, que toma lo mejor del Siamese y añade un toque lujoso con su magnífico pelo largo. Este gato elegante, sociable y cariñoso seguramente seguirá deleitando a los amantes de los gatos en los años venideros.
     `,
+    gallery: [
+      {
+        id: 'DBmIBhhyv',
+        url: 'https://cdn2.thecatapi.com/images/DBmIBhhyv.jpg',
+        width: 1220,
+        height: 915,
+      },
+      {
+        id: '4ndvXwCiI',
+        url: 'https://cdn2.thecatapi.com/images/4ndvXwCiI.jpg',
+        width: 1280,
+        height: 960,
+      },
+      {
+        id: 'SwjDQ76Ix',
+        url: 'https://cdn2.thecatapi.com/images/SwjDQ76Ix.jpg',
+        width: 1620,
+        height: 1080,
+      },
+      {
+        id: 'aU69p2mTT',
+        url: 'https://cdn2.thecatapi.com/images/aU69p2mTT.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: 'OaTQfIktG',
+        url: 'https://cdn2.thecatapi.com/images/OaTQfIktG.jpg',
+        width: 1600,
+        height: 1138,
+      },
+      {
+        id: 'wEg45kYmd',
+        url: 'https://cdn2.thecatapi.com/images/wEg45kYmd.jpg',
+        width: 1620,
+        height: 1080,
+      },
+      {
+        id: 'DTcYhC380',
+        url: 'https://cdn2.thecatapi.com/images/DTcYhC380.jpg',
+        width: 1250,
+        height: 2064,
+      },
+      {
+        id: '13MkvUreZ',
+        url: 'https://cdn2.thecatapi.com/images/13MkvUreZ.jpg',
+        width: 1600,
+        height: 1000,
+      },
+      {
+        id: 'obRjvWv-e',
+        url: 'https://cdn2.thecatapi.com/images/obRjvWv-e.jpg',
+        width: 2560,
+        height: 1600,
+      },
+      {
+        id: 'mCbyxNhMR',
+        url: 'https://cdn2.thecatapi.com/images/mCbyxNhMR.jpg',
+        width: 550,
+        height: 750,
+      },
+    ],
   },
   bamb: {
     id: 'bamb',
@@ -1544,6 +1904,62 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       A medida que avanza el siglo XXI, la raza Bambino continúa creciendo en popularidad. A pesar de su corta historia, han dejado una huella duradera en el mundo de los gatos. Con su apariencia única y su carácter encantador, los gatos Bambino seguramente seguirán cautivando a los amantes de los gatos en los años venideros. La historia del Bambino es un testimonio del ingenio humano y la diversidad del mundo felino. Sin duda, esta raza continuará evolucionando y deleitando a los amantes de los gatos en todo el mundo.
     `,
+    gallery: [
+      {
+        id: 's42I_BL-a',
+        url: 'https://cdn2.thecatapi.com/images/s42I_BL-a.jpg',
+        width: 1620,
+        height: 1080,
+      },
+      {
+        id: 'Oaoo1ky3A',
+        url: 'https://cdn2.thecatapi.com/images/Oaoo1ky3A.jpg',
+        width: 3878,
+        height: 2771,
+      },
+      {
+        id: 'MizM7dBMU',
+        url: 'https://cdn2.thecatapi.com/images/MizM7dBMU.jpg',
+        width: 1200,
+        height: 800,
+      },
+      {
+        id: 'p46ys1bGF',
+        url: 'https://cdn2.thecatapi.com/images/p46ys1bGF.jpg',
+        width: 1620,
+        height: 1080,
+      },
+      {
+        id: 'jUY0Dt5iB',
+        url: 'https://cdn2.thecatapi.com/images/jUY0Dt5iB.jpg',
+        width: 1100,
+        height: 777,
+      },
+      {
+        id: 'wiHVRle1m',
+        url: 'https://cdn2.thecatapi.com/images/wiHVRle1m.jpg',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        id: 'lClcFEjwx',
+        url: 'https://cdn2.thecatapi.com/images/lClcFEjwx.jpg',
+        width: 1584,
+        height: 1000,
+      },
+      {
+        id: 'wFQIf01uy',
+        url: 'https://cdn2.thecatapi.com/images/wFQIf01uy.jpg',
+        width: 1000,
+        height: 800,
+      },
+      {
+        id: '5AdhMjeEu',
+        url: 'https://cdn2.thecatapi.com/images/5AdhMjeEu.jpg',
+        width: 1296,
+        height: 1030,
+      },
+    ],
   },
   beng: {
     weight: {
@@ -1700,6 +2116,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
     <br>
     La historia del gato Bengalí es un testimonio de la pasión, la visión y el espíritu pionero de su fundadora y de los criadores que le siguieron. A través de su arduo trabajo y dedicación, han creado una raza que combina la belleza salvaje de un felino exótico con el temperamento amoroso y afable de un gato doméstico. Y aunque la raza ha recorrido un largo camino desde sus humildes comienzos, los Bengalíes siguen capturando corazones y mentes en todo el mundo con su apariencia única y su personalidad cautivadora.
     `,
+    gallery: [
+      {
+        id: 'J2PmlIizw',
+        url: 'https://cdn2.thecatapi.com/images/J2PmlIizw.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: 'LSaDk6OjY',
+        url: 'https://cdn2.thecatapi.com/images/LSaDk6OjY.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: '8pCFG7gCV',
+        url: 'https://cdn2.thecatapi.com/images/8pCFG7gCV.jpg',
+        width: 750,
+        height: 937,
+      },
+      {
+        id: 'aaxNf4D0H',
+        url: 'https://cdn2.thecatapi.com/images/aaxNf4D0H.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: 'UhqCZ7tC4',
+        url: 'https://cdn2.thecatapi.com/images/UhqCZ7tC4.jpg',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        id: 'O3btzLlsO',
+        url: 'https://cdn2.thecatapi.com/images/O3btzLlsO.png',
+        width: 1100,
+        height: 739,
+      },
+      {
+        id: 'dN6eoeLjY',
+        url: 'https://cdn2.thecatapi.com/images/dN6eoeLjY.jpg',
+        width: 3648,
+        height: 2736,
+      },
+      {
+        id: 'H_UWbOfra',
+        url: 'https://cdn2.thecatapi.com/images/H_UWbOfra.jpg',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        id: 'NwMUoJYmT',
+        url: 'https://cdn2.thecatapi.com/images/NwMUoJYmT.jpg',
+        width: 2160,
+        height: 1440,
+      },
+      {
+        id: 'sPMOo3Jn2',
+        url: 'https://cdn2.thecatapi.com/images/sPMOo3Jn2.jpg',
+        width: 880,
+        height: 1100,
+      },
+    ],
   },
   birm: {
     weight: {
@@ -1846,6 +2324,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
     <br>
     Los gatos Birmanos de hoy llevan consigo el legado de las antiguas leyendas y el trabajo de criadores dedicados. Con su hermoso pelaje y su personalidad afectuosa, continúan cautivando los corazones de los amantes de los gatos en todo el mundo. La historia de esta raza es un testamento a la resiliencia y la belleza atemporal de estos gatos "sagrados".
   `,
+    gallery: [
+      {
+        id: 'OhTkBTPnD',
+        url: 'https://cdn2.thecatapi.com/images/OhTkBTPnD.jpg',
+        width: 1100,
+        height: 1100,
+      },
+      {
+        id: 'TzyZJUeIM',
+        url: 'https://cdn2.thecatapi.com/images/TzyZJUeIM.jpg',
+        width: 900,
+        height: 1137,
+      },
+      {
+        id: 'Dm0H1zSK1',
+        url: 'https://cdn2.thecatapi.com/images/Dm0H1zSK1.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: 'xRMeDCybn',
+        url: 'https://cdn2.thecatapi.com/images/xRMeDCybn.jpg',
+        width: 1068,
+        height: 1068,
+      },
+      {
+        id: '2LEN_GHmx',
+        url: 'https://cdn2.thecatapi.com/images/2LEN_GHmx.jpg',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        id: 'C0BNiXO0T',
+        url: 'https://cdn2.thecatapi.com/images/C0BNiXO0T.jpg',
+        width: 1526,
+        height: 2111,
+      },
+      {
+        id: 'XLLAS_R9F',
+        url: 'https://cdn2.thecatapi.com/images/XLLAS_R9F.jpg',
+        width: 1280,
+        height: 720,
+      },
+      {
+        id: 'znCxQCEp4',
+        url: 'https://cdn2.thecatapi.com/images/znCxQCEp4.jpg',
+        width: 881,
+        height: 1280,
+      },
+      {
+        id: 'Kjf-Z_8YE',
+        url: 'https://cdn2.thecatapi.com/images/Kjf-Z_8YE.jpg',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        id: 'ln1Ks7VIu',
+        url: 'https://cdn2.thecatapi.com/images/ln1Ks7VIu.jpg',
+        width: 4032,
+        height: 3024,
+      },
+    ],
   },
   bomb: {
     weight: {
@@ -1994,6 +2534,38 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia del gato Bombay es un testimonio de la dedicación, la paciencia y el amor por los gatos. Nikki Horner, con su sueño y su perseverancia, logró crear una raza completamente única y fascinante que continúa cautivando a los amantes de los gatos en todo el mundo. Es un recuerdo de que, con el tiempo y el esfuerzo adecuados, se pueden lograr grandes cosas.
     `,
+    gallery: [
+      {
+        id: 'BkksyH95Z',
+        url: 'https://cdn2.thecatapi.com/images/BkksyH95Z.jpg',
+        width: 1920,
+        height: 1080,
+      },
+      {
+        id: '5iYq9NmT1',
+        url: 'https://cdn2.thecatapi.com/images/5iYq9NmT1.jpg',
+        width: 1250,
+        height: 650,
+      },
+      {
+        id: 'Bc0CMLOjz',
+        url: 'https://cdn2.thecatapi.com/images/Bc0CMLOjz.jpg',
+        width: 944,
+        height: 1024,
+      },
+      {
+        id: 'aZii7hC77',
+        url: 'https://cdn2.thecatapi.com/images/aZii7hC77.jpg',
+        width: 1200,
+        height: 800,
+      },
+      {
+        id: 'Z6mrcccZv',
+        url: 'https://cdn2.thecatapi.com/images/Z6mrcccZv.jpg',
+        width: 1188,
+        height: 792,
+      },
+    ],
   },
   bslo: {
     weight: {
@@ -2144,6 +2716,50 @@ export const CAT_LIST: { [key: string]: Cat } = {
     <br>
     Hoy en día, el Británico de Pelo Largo es una raza reconocida y muy apreciada en todo el mundo. Aunque no es tan conocida como su primo de pelo corto, el Británico de Pelo Corto, la raza ha ganado un lugar firme en el corazón de los amantes de los gatos debido a su hermoso pelaje y su carácter afectuoso.
   `,
+    gallery: [
+      {
+        id: '7isAO4Cav',
+        url: 'https://cdn2.thecatapi.com/images/7isAO4Cav.jpg',
+        width: 960,
+        height: 960,
+      },
+      {
+        id: 'YZGOUtRQ1',
+        url: 'https://cdn2.thecatapi.com/images/YZGOUtRQ1.jpg',
+        width: 1920,
+        height: 1281,
+      },
+      {
+        id: 'JWOrjbhum',
+        url: 'https://cdn2.thecatapi.com/images/JWOrjbhum.jpg',
+        width: 768,
+        height: 1024,
+      },
+      {
+        id: 'laq3GvUgh',
+        url: 'https://cdn2.thecatapi.com/images/laq3GvUgh.jpg',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        id: 're7uO34hz',
+        url: 'https://cdn2.thecatapi.com/images/re7uO34hz.jpg',
+        width: 1600,
+        height: 2397,
+      },
+      {
+        id: 'xplMlG1PT',
+        url: 'https://cdn2.thecatapi.com/images/xplMlG1PT.jpg',
+        width: 2048,
+        height: 1132,
+      },
+      {
+        id: 'i-j1kCi3b',
+        url: 'https://cdn2.thecatapi.com/images/i-j1kCi3b.jpg',
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   bsho: {
     weight: {
@@ -2293,6 +2909,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       A pesar de los retos y las dificultades a lo largo de su historia, la raza "Británico de Pelo Corto" ha sobrevivido y prosperado, convirtiéndose en una raza de gato apreciada en todo el mundo. Esta raza, con su resistencia, su belleza y su encanto inigualable, se ha ganado un lugar en los corazones de los amantes de los gatos y sigue siendo un testamento a la resistencia y la fortaleza del espíritu felino.
     `,
+    gallery: [
+      {
+        id: 'qXypILClv',
+        url: 'https://cdn2.thecatapi.com/images/qXypILClv.jpg',
+        width: 960,
+        height: 826,
+      },
+      {
+        id: 'xNuSF5YWY',
+        url: 'https://cdn2.thecatapi.com/images/xNuSF5YWY.jpg',
+        width: 850,
+        height: 477,
+      },
+      {
+        id: 'utX9jo5EO',
+        url: 'https://cdn2.thecatapi.com/images/utX9jo5EO.jpg',
+        width: 733,
+        height: 1100,
+      },
+      {
+        id: 'N8bl5RjPG',
+        url: 'https://cdn2.thecatapi.com/images/N8bl5RjPG.jpg',
+        width: 2560,
+        height: 1707,
+      },
+      {
+        id: 'nJsljkalm',
+        url: 'https://cdn2.thecatapi.com/images/nJsljkalm.jpg',
+        width: 944,
+        height: 1024,
+      },
+      {
+        id: 'v104en-YP',
+        url: 'https://cdn2.thecatapi.com/images/v104en-YP.jpg',
+        width: 1200,
+        height: 900,
+      },
+      {
+        id: 's4wQfYoEk',
+        url: 'https://cdn2.thecatapi.com/images/s4wQfYoEk.jpg',
+        width: 1600,
+        height: 1457,
+      },
+      {
+        id: '4QlywK9_Y',
+        url: 'https://cdn2.thecatapi.com/images/4QlywK9_Y.jpg',
+        width: 2132,
+        height: 2158,
+      },
+      {
+        id: 'HYTJQgs2M',
+        url: 'https://cdn2.thecatapi.com/images/HYTJQgs2M.jpg',
+        width: 3264,
+        height: 2448,
+      },
+      {
+        id: 'vDEddqSfy',
+        url: 'https://cdn2.thecatapi.com/images/vDEddqSfy.png',
+        width: 1920,
+        height: 1080,
+      },
+    ],
   },
   bure: {
     weight: {
@@ -2442,6 +3120,32 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       Hoy en día, los Burmeses son amados en todo el mundo por su carácter afable y su apariencia única. Su historia de transformación y perseverancia los hace aún más fascinantes. Aunque el viaje de la raza ha tenido sus desafíos, la belleza y personalidad única de los gatos Burmés ha asegurado su lugar en el corazón de los amantes de los gatos en todo el mundo. A lo largo de casi un siglo de desarrollo de la raza, los Burmeses han demostrado ser una adición valiosa y amada a la familia de razas de gatos domésticos.
     `,
+    gallery: [
+      {
+        id: '92D9NZLs0',
+        url: 'https://cdn2.thecatapi.com/images/92D9NZLs0.jpg',
+        width: 3260,
+        height: 1685,
+      },
+      {
+        id: '4lXnnfxac',
+        url: 'https://cdn2.thecatapi.com/images/4lXnnfxac.jpg',
+        width: 1250,
+        height: 650,
+      },
+      {
+        id: 'hj7Oh-SRY',
+        url: 'https://cdn2.thecatapi.com/images/hj7Oh-SRY.jpg',
+        width: 1024,
+        height: 1544,
+      },
+      {
+        id: 'Mdr6QqID0',
+        url: 'https://cdn2.thecatapi.com/images/Mdr6QqID0.jpg',
+        width: 1920,
+        height: 1279,
+      },
+    ],
   },
   buri: {
     weight: {
@@ -2591,6 +3295,44 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia de la raza de gato Burmilla es un hermoso recordatorio de las sorpresas que la naturaleza y la vida nos pueden deparar. En un día normal en 1981, un encuentro accidental creó una raza de gato que ha cautivado los corazones de los amantes de los gatos de todo el mundo. Con su combinación única de belleza, gracia y personalidad amigable, los gatos Burmilla continuarán siendo un favorito entre los entusiastas de los gatos durante muchos años más.
     `,
+    gallery: [
+      {
+        id: 'r530zDuJU',
+        url: 'https://cdn2.thecatapi.com/images/r530zDuJU.jpg',
+        width: 3504,
+        height: 2336,
+      },
+      {
+        id: 'jvg3XfEdC',
+        url: 'https://cdn2.thecatapi.com/images/jvg3XfEdC.jpg',
+        width: 960,
+        height: 960,
+      },
+      {
+        id: '3Wjx1Tq7X',
+        url: 'https://cdn2.thecatapi.com/images/3Wjx1Tq7X.jpg',
+        width: 1200,
+        height: 945,
+      },
+      {
+        id: 'wgoLPWPZQ',
+        url: 'https://cdn2.thecatapi.com/images/wgoLPWPZQ.jpg',
+        width: 1200,
+        height: 931,
+      },
+      {
+        id: 'J4Jv10E7O',
+        url: 'https://cdn2.thecatapi.com/images/J4Jv10E7O.jpg',
+        width: 4608,
+        height: 3072,
+      },
+      {
+        id: 'p2U4ZXgKL',
+        url: 'https://cdn2.thecatapi.com/images/p2U4ZXgKL.jpg',
+        width: 1664,
+        height: 2099,
+      },
+    ],
   },
   cspa: {
     weight: {
@@ -2733,6 +3475,14 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, la historia de la raza California Destellado es la historia de una visión convertida en realidad. Es la historia de un hombre, Paul Arnold Casey Jr., quien se propuso recrear la apariencia de un gato salvaje al borde de la extinción, y en el proceso, creó una raza de gato que es tanto una obra de arte como un compañero de familia. La creación de la raza California Destellado es un testimonio de la dedicación, la visión y el amor por los gatos que inspiró su creación. Cada California Destellado es un recordatorio viviente de un gato salvaje que casi desaparece, y un testimonio del ingenio humano para preservar la belleza de la naturaleza en nuestras propias casas.
     `,
+    gallery: [
+      {
+        id: 'B1ERTmgph',
+        url: 'https://cdn2.thecatapi.com/images/B1ERTmgph.jpg',
+        width: 1200,
+        height: 688,
+      },
+    ],
   },
   ctif: {
     weight: {
@@ -2873,6 +3623,32 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, la historia del Chantilly-Tiffany es una historia de supervivencia contra viento y marea. A través de cambios de nombre, confusiones y casi desaparición, la raza ha demostrado ser resiliente y perdurable.
     `,
+    gallery: [
+      {
+        id: 'INXwfT_cp',
+        url: 'https://cdn2.thecatapi.com/images/INXwfT_cp.jpg',
+        width: 3264,
+        height: 2448,
+      },
+      {
+        id: 'E4j4aBDx9',
+        url: 'https://cdn2.thecatapi.com/images/E4j4aBDx9.jpg',
+        width: 2368,
+        height: 1590,
+      },
+      {
+        id: 'TR-5nAd_S',
+        url: 'https://cdn2.thecatapi.com/images/TR-5nAd_S.jpg',
+        width: 2901,
+        height: 2938,
+      },
+      {
+        id: 'XAvnPwmqZ',
+        url: 'https://cdn2.thecatapi.com/images/XAvnPwmqZ.jpg',
+        width: 1200,
+        height: 797,
+      },
+    ],
   },
   char: {
     weight: {
@@ -3046,6 +3822,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       Hoy en día, los Cartujo son una raza de gatos amada y valorada por todo el mundo. Su historia, aunque llena de misterio e incertidumbre, es testimonio de la resistencia y el carácter de estos gatos maravillosos. Desde sus posibles comienzos como compañeros de monjes hasta su reconocimiento como una raza de gato en su propio derecho, los gatos Cartujo han dejado una huella indeleble en la historia de los gatos.
     `,
+    gallery: [
+      {
+        id: 'j6oFGLpRG',
+        url: 'https://cdn2.thecatapi.com/images/j6oFGLpRG.jpg',
+        width: 768,
+        height: 1024,
+      },
+      {
+        id: 'rw09G0crt',
+        url: 'https://cdn2.thecatapi.com/images/rw09G0crt.jpg',
+        width: 2400,
+        height: 1714,
+      },
+      {
+        id: 'Y4YIOqGKb',
+        url: 'https://cdn2.thecatapi.com/images/Y4YIOqGKb.jpg',
+        width: 1728,
+        height: 1296,
+      },
+      {
+        id: 'SpioNJPsd',
+        url: 'https://cdn2.thecatapi.com/images/SpioNJPsd.jpg',
+        width: 2496,
+        height: 1664,
+      },
+      {
+        id: 'iY76694gN',
+        url: 'https://cdn2.thecatapi.com/images/iY76694gN.jpg',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        id: 'ZSV_8HqoS',
+        url: 'https://cdn2.thecatapi.com/images/ZSV_8HqoS.jpg',
+        width: 770,
+        height: 493,
+      },
+      {
+        id: '3-DZDkDGa',
+        url: 'https://cdn2.thecatapi.com/images/3-DZDkDGa.jpg',
+        width: 4272,
+        height: 2848,
+      },
+      {
+        id: 'EYtB_5RrB',
+        url: 'https://cdn2.thecatapi.com/images/EYtB_5RrB.jpg',
+        width: 1280,
+        height: 960,
+      },
+      {
+        id: 'K3eHRIQXM',
+        url: 'https://cdn2.thecatapi.com/images/K3eHRIQXM.jpg',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        id: '8cXEkQQwc',
+        url: 'https://cdn2.thecatapi.com/images/8cXEkQQwc.jpg',
+        width: 1600,
+        height: 1200,
+      },
+    ],
   },
   chau: {
     weight: {
@@ -3188,6 +4026,62 @@ export const CAT_LIST: { [key: string]: Cat } = {
     <br>
     La historia del Chausie es un testimonio de la dedicación y la pasión de los criadores de gatos que trabajaron para crear una raza de gato que es tanto visualmente impresionante como un compañero de vida perfectamente adaptado. Cada Chausie lleva en sí mismo una pequeña parte de esa historia, y es un recordatorio de los vínculos que compartimos con el mundo natural.
     `,
+    gallery: [
+      {
+        id: 'cPDuEX5tZ',
+        url: 'https://cdn2.thecatapi.com/images/cPDuEX5tZ.jpg',
+        width: 1280,
+        height: 853,
+      },
+      {
+        id: '5i_-8rPKS',
+        url: 'https://cdn2.thecatapi.com/images/5i_-8rPKS.jpg',
+        width: 1280,
+        height: 818,
+      },
+      {
+        id: 'r0s90j0I8',
+        url: 'https://cdn2.thecatapi.com/images/r0s90j0I8.jpg',
+        width: 2093,
+        height: 2105,
+      },
+      {
+        id: 'ZaZwqFsgj',
+        url: 'https://cdn2.thecatapi.com/images/ZaZwqFsgj.jpg',
+        width: 720,
+        height: 480,
+      },
+      {
+        id: 'VT9NOyJqk',
+        url: 'https://cdn2.thecatapi.com/images/VT9NOyJqk.jpg',
+        width: 3888,
+        height: 2592,
+      },
+      {
+        id: 'zly78vxmW',
+        url: 'https://cdn2.thecatapi.com/images/zly78vxmW.jpg',
+        width: 3888,
+        height: 2592,
+      },
+      {
+        id: 'snxE5_PPX',
+        url: 'https://cdn2.thecatapi.com/images/snxE5_PPX.jpg',
+        width: 3888,
+        height: 2592,
+      },
+      {
+        id: 'KLpZzAE_a',
+        url: 'https://cdn2.thecatapi.com/images/KLpZzAE_a.jpg',
+        width: 2453,
+        height: 1630,
+      },
+      {
+        id: 'vJ3lEYgXr',
+        url: 'https://cdn2.thecatapi.com/images/vJ3lEYgXr.jpg',
+        width: 1100,
+        height: 786,
+      },
+    ],
   },
   chee: {
     weight: {
@@ -3331,6 +4225,62 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia del Cheetoh es un relato fascinante de innovación y visión en el mundo de la cría de gatos. Aunque todavía es una raza nueva y en evolución, los Cheetohs han dejado una impresión duradera en el mundo felino. Representan un testimonio de lo que es posible cuando se combinan la belleza y la gracia de los gatos salvajes con el temperamento amigable y adaptabilidad de los gatos domésticos. A medida que avanzamos en el siglo XXI, es emocionante ver hacia dónde llevará el futuro a esta impresionante raza.
   `,
+    gallery: [
+      {
+        id: 'djnExlK9y',
+        url: 'https://cdn2.thecatapi.com/images/djnExlK9y.jpg',
+        width: 1080,
+        height: 810,
+      },
+      {
+        id: 'L-aDi29wP',
+        url: 'https://cdn2.thecatapi.com/images/L-aDi29wP.jpg',
+        width: 3264,
+        height: 2448,
+      },
+      {
+        id: 'hV2A_LW2n',
+        url: 'https://cdn2.thecatapi.com/images/hV2A_LW2n.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'mNOdlAkXR',
+        url: 'https://cdn2.thecatapi.com/images/mNOdlAkXR.jpg',
+        width: 1280,
+        height: 800,
+      },
+      {
+        id: 'yPmEpKmnR',
+        url: 'https://cdn2.thecatapi.com/images/yPmEpKmnR.jpg',
+        width: 1920,
+        height: 1320,
+      },
+      {
+        id: 'U-B3L9JWm',
+        url: 'https://cdn2.thecatapi.com/images/U-B3L9JWm.jpg',
+        width: 1395,
+        height: 924,
+      },
+      {
+        id: 'BjIppqbNI',
+        url: 'https://cdn2.thecatapi.com/images/BjIppqbNI.jpg',
+        width: 3264,
+        height: 2448,
+      },
+      {
+        id: 'LX9uvE3dl',
+        url: 'https://cdn2.thecatapi.com/images/LX9uvE3dl.jpg',
+        width: 1919,
+        height: 1919,
+      },
+      {
+        id: 'EhOq2RbaI',
+        url: 'https://cdn2.thecatapi.com/images/EhOq2RbaI.jpg',
+        width: 800,
+        height: 450,
+      },
+    ],
   },
   csho: {
     weight: {
@@ -3485,6 +4435,56 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, la historia de los Colorpoints de pelo corto es una de innovación, perseverancia y amor por los gatos. Los criadores que desarrollaron esta raza tuvieron que lidiar con una serie de desafíos para llevar su visión a la realidad. Pero gracias a su trabajo duro y dedicación, ahora tenemos una raza de gatos que es verdaderamente única y especial.
     `,
+    gallery: [
+      {
+        id: 'aAf-WmnRl',
+        url: 'https://cdn2.thecatapi.com/images/aAf-WmnRl.jpg',
+        width: 3960,
+        height: 1871,
+      },
+      {
+        id: 'lOl0J96On',
+        url: 'https://cdn2.thecatapi.com/images/lOl0J96On.jpg',
+        width: 2448,
+        height: 3264,
+      },
+      {
+        id: '1nOZPY4uI',
+        url: 'https://cdn2.thecatapi.com/images/1nOZPY4uI.jpg',
+        width: 640,
+        height: 480,
+      },
+      {
+        id: 'oSpqGyUDS',
+        url: 'https://cdn2.thecatapi.com/images/oSpqGyUDS.jpg',
+        width: 1363,
+        height: 1600,
+      },
+      {
+        id: 'BDMOZo668',
+        url: 'https://cdn2.thecatapi.com/images/BDMOZo668.jpg',
+        width: 1250,
+        height: 702,
+      },
+      {
+        id: 'Il3qBc63U',
+        url: 'https://cdn2.thecatapi.com/images/Il3qBc63U.jpg',
+        width: 1000,
+        height: 1000,
+      },
+      {
+        id: 'yUhSG7Vv7',
+        url: 'https://cdn2.thecatapi.com/images/yUhSG7Vv7.jpg',
+        width: 731,
+        height: 1092,
+      },
+      {
+        id: 'ohy1YBZtD',
+        url: 'https://cdn2.thecatapi.com/images/ohy1YBZtD.png',
+        width: 1920,
+        height: 1080,
+      },
+    ],
   },
   crex: {
     weight: {
@@ -3641,6 +4641,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       A lo largo de los años, el Cornish Rex ha demostrado ser una raza duradera y amada. Su pelaje rizado y su personalidad encantadora han atraído a una base de seguidores leales que disfrutan de su singularidad y su naturaleza cariñosa. Hoy en día, el Cornish Rex sigue siendo una raza popular y amada en todo el mundo, y su historia es un testamento a la sorpresa y la maravilla que puede traer la genética.
     `,
+    gallery: [
+      {
+        id: '8CuEPFNuD',
+        url: 'https://cdn2.thecatapi.com/images/8CuEPFNuD.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: 'kOAHCDEzA',
+        url: 'https://cdn2.thecatapi.com/images/kOAHCDEzA.jpg',
+        width: 2048,
+        height: 1365,
+      },
+      {
+        id: 'o81wWm6-Z',
+        url: 'https://cdn2.thecatapi.com/images/o81wWm6-Z.jpg',
+        width: 3006,
+        height: 2442,
+      },
+      {
+        id: 'DmP9GCClC',
+        url: 'https://cdn2.thecatapi.com/images/DmP9GCClC.jpg',
+        width: 2987,
+        height: 1994,
+      },
+      {
+        id: 'jdccz3ngk',
+        url: 'https://cdn2.thecatapi.com/images/jdccz3ngk.jpg',
+        width: 1140,
+        height: 1671,
+      },
+      {
+        id: '4-GdyX_fu',
+        url: 'https://cdn2.thecatapi.com/images/4-GdyX_fu.jpg',
+        width: 1048,
+        height: 1196,
+      },
+      {
+        id: 'XcoqcsVzT',
+        url: 'https://cdn2.thecatapi.com/images/XcoqcsVzT.jpg',
+        width: 1600,
+        height: 1190,
+      },
+      {
+        id: 'A5JigBZjG',
+        url: 'https://cdn2.thecatapi.com/images/A5JigBZjG.jpg',
+        width: 1040,
+        height: 1300,
+      },
+      {
+        id: 'RIRLq-8sp',
+        url: 'https://cdn2.thecatapi.com/images/RIRLq-8sp.jpg',
+        width: 1250,
+        height: 702,
+      },
+      {
+        id: '_I6AsfuMg',
+        url: 'https://cdn2.thecatapi.com/images/_I6AsfuMg.png',
+        width: 1920,
+        height: 1080,
+      },
+    ],
   },
   cymr: {
     weight: {
@@ -3796,6 +4858,56 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En definitiva, la historia del gato Cymric es una fascinante mezcla de mutación genética, cría selectiva y la apreciación de la singularidad. Aunque su viaje como raza ha estado lleno de desafíos y controversias, los Cymric han demostrado ser una raza resiliente y encantadora que ha conquistado los corazones de muchos amantes de los gatos alrededor del mundo.
     `,
+    gallery: [
+      {
+        id: 'dSiKP0JWG',
+        url: 'https://cdn2.thecatapi.com/images/dSiKP0JWG.jpg',
+        width: 1600,
+        height: 1088,
+      },
+      {
+        id: '3dbtapCWM',
+        url: 'https://cdn2.thecatapi.com/images/3dbtapCWM.jpg',
+        width: 1440,
+        height: 900,
+      },
+      {
+        id: 'WXcD6qZEn',
+        url: 'https://cdn2.thecatapi.com/images/WXcD6qZEn.jpg',
+        width: 1403,
+        height: 908,
+      },
+      {
+        id: 'OLP-tyC2i',
+        url: 'https://cdn2.thecatapi.com/images/OLP-tyC2i.jpg',
+        width: 889,
+        height: 1000,
+      },
+      {
+        id: 'GQ61BDToD',
+        url: 'https://cdn2.thecatapi.com/images/GQ61BDToD.jpg',
+        width: 3504,
+        height: 2336,
+      },
+      {
+        id: '-y_6SBPrw',
+        url: 'https://cdn2.thecatapi.com/images/-y_6SBPrw.jpg',
+        width: 1280,
+        height: 959,
+      },
+      {
+        id: 'CKVhCI0bz',
+        url: 'https://cdn2.thecatapi.com/images/CKVhCI0bz.jpg',
+        width: 1280,
+        height: 720,
+      },
+      {
+        id: 'lF3ZTucYp',
+        url: 'https://cdn2.thecatapi.com/images/lF3ZTucYp.jpg',
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   cypr: {
     weight: {
@@ -3926,6 +5038,32 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia de la raza del gato de Chipre es una narración maravillosa de supervivencia, adaptabilidad y compañerismo constante con los humanos. Estos gatos han resistido el paso del tiempo, han sobrevivido a las adversidades y han prosperado en su hogar isleño, y su historia continúa fascinando y cautivando a las personas hasta el día de hoy.
     `,
+    gallery: [
+      {
+        id: 'S97Qj5YYO',
+        url: 'https://cdn2.thecatapi.com/images/S97Qj5YYO.jpg',
+        width: 3318,
+        height: 2212,
+      },
+      {
+        id: 'tJbzb7FKo',
+        url: 'https://cdn2.thecatapi.com/images/tJbzb7FKo.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: 'cruhNBsv1',
+        url: 'https://cdn2.thecatapi.com/images/cruhNBsv1.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: '_PEqOH17A',
+        url: 'https://cdn2.thecatapi.com/images/_PEqOH17A.jpg',
+        width: 800,
+        height: 1067,
+      },
+    ],
   },
   drex: {
     weight: {
@@ -4068,6 +5206,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia del Devon Rex es un testimonio del hecho de que a veces lo inusual y lo inesperado puede dar lugar a algo verdaderamente maravilloso. Desde su descubrimiento en las calles de Devonshire hasta su estatus actual como una amada y valorada raza de gato, el Devon Rex ha dejado una marca indeleble en el mundo de los felinos. Y con cada nuevo Devon Rex que se une a una familia afortunada, esta historia fascinante continúa desarrollándose.
     `,
+    gallery: [
+      {
+        id: 'lJHXU7DlQ',
+        url: 'https://cdn2.thecatapi.com/images/lJHXU7DlQ.jpg',
+        width: 3264,
+        height: 2448,
+      },
+      {
+        id: 'jnqO9lwG2',
+        url: 'https://cdn2.thecatapi.com/images/jnqO9lwG2.jpg',
+        width: 845,
+        height: 583,
+      },
+      {
+        id: 'udJaUVCHZ',
+        url: 'https://cdn2.thecatapi.com/images/udJaUVCHZ.jpg',
+        width: 1100,
+        height: 788,
+      },
+      {
+        id: '4RzEwvyzz',
+        url: 'https://cdn2.thecatapi.com/images/4RzEwvyzz.png',
+        width: 1729,
+        height: 1160,
+      },
+      {
+        id: 'Zhv2xfZFH',
+        url: 'https://cdn2.thecatapi.com/images/Zhv2xfZFH.jpg',
+        width: 1280,
+        height: 720,
+      },
+      {
+        id: 'LT13Rnq3P',
+        url: 'https://cdn2.thecatapi.com/images/LT13Rnq3P.jpg',
+        width: 1920,
+        height: 1440,
+      },
+      {
+        id: 'yFwzO96ds',
+        url: 'https://cdn2.thecatapi.com/images/yFwzO96ds.jpg',
+        width: 1200,
+        height: 776,
+      },
+      {
+        id: '_BhPUA-L-',
+        url: 'https://cdn2.thecatapi.com/images/_BhPUA-L-.jpg',
+        width: 1000,
+        height: 667,
+      },
+      {
+        id: 'DEbrbE0_7',
+        url: 'https://cdn2.thecatapi.com/images/DEbrbE0_7.jpg',
+        width: 1600,
+        height: 1009,
+      },
+      {
+        id: 'hTswm_D5S',
+        url: 'https://cdn2.thecatapi.com/images/hTswm_D5S.jpg',
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   dons: {
     weight: {
@@ -4209,6 +5409,26 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia de la raza Donskoy es una prueba de la sorprendente diversidad y adaptabilidad de los gatos. A pesar de su apariencia inusual y su historia única, estos gatos han demostrado ser tan amorosos, cariñosos y juguetones como cualquier otra raza de gato. El amor y el cuidado que Elena Kovaleva y Irina Nemikina han mostrado hacia estos gatos ha dado como resultado una raza que es verdaderamente única y amada en todo el mundo.
     `,
+    gallery: [
+      {
+        id: 'KWVenr3Pq',
+        url: 'https://cdn2.thecatapi.com/images/KWVenr3Pq.jpg',
+        width: 1080,
+        height: 1253,
+      },
+      {
+        id: '3KG57GfMW',
+        url: 'https://cdn2.thecatapi.com/images/3KG57GfMW.jpg',
+        width: 750,
+        height: 750,
+      },
+      {
+        id: 'Z9zxhFVdw',
+        url: 'https://cdn2.thecatapi.com/images/Z9zxhFVdw.jpg',
+        width: 3789,
+        height: 2873,
+      },
+    ],
   },
   lihu: {
     weight: {
@@ -4363,6 +5583,44 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, el Dragón Li es una raza con una rica historia y una herencia cultural que la hace única. Desde sus primeras menciones en los antiguos textos chinos hasta su reconocimiento moderno como una raza distinta, estos gatos han dejado una huella indeleble en la cultura y la historia de su tierra natal.
     `,
+    gallery: [
+      {
+        id: 'DUxU01IY5',
+        url: 'https://cdn2.thecatapi.com/images/DUxU01IY5.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'KrDYENsA3',
+        url: 'https://cdn2.thecatapi.com/images/KrDYENsA3.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: 'BQMSld0A0',
+        url: 'https://cdn2.thecatapi.com/images/BQMSld0A0.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'xYLoht4o_',
+        url: 'https://cdn2.thecatapi.com/images/xYLoht4o_.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'POPfuPq8t',
+        url: 'https://cdn2.thecatapi.com/images/POPfuPq8t.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: 'mjeF1hs8v',
+        url: 'https://cdn2.thecatapi.com/images/mjeF1hs8v.jpg',
+        width: 800,
+        height: 528,
+      },
+    ],
   },
   emau: {
     weight: {
@@ -4521,6 +5779,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       Aunque el Mau Egipcio ha experimentado una resurgencia en popularidad en las últimas décadas, sigue siendo una raza relativamente rara. Sin embargo, su belleza única, su rica historia y su encantador temperamento aseguran que continúe capturando los corazones de los amantes de los gatos en todo el mundo. Los Maus son un verdadero testimonio de la duradera conexión entre los humanos y los gatos, una relación que se ha forjado a lo largo de miles de años y que continúa hasta el día de hoy.
     `,
+    gallery: [
+      {
+        id: 'TuSyTkt2n',
+        url: 'https://cdn2.thecatapi.com/images/TuSyTkt2n.jpg',
+        width: 2475,
+        height: 2147,
+      },
+      {
+        id: 'Y2MO5GWHO',
+        url: 'https://cdn2.thecatapi.com/images/Y2MO5GWHO.jpg',
+        width: 700,
+        height: 443,
+      },
+      {
+        id: '2UAyYkzVK',
+        url: 'https://cdn2.thecatapi.com/images/2UAyYkzVK.jpg',
+        width: 2890,
+        height: 2271,
+      },
+      {
+        id: 'BZ59tdOo6',
+        url: 'https://cdn2.thecatapi.com/images/BZ59tdOo6.jpg',
+        width: 1280,
+        height: 720,
+      },
+      {
+        id: 'uygraw0_D',
+        url: 'https://cdn2.thecatapi.com/images/uygraw0_D.jpg',
+        width: 680,
+        height: 764,
+      },
+      {
+        id: 'AJxcCRZeO',
+        url: 'https://cdn2.thecatapi.com/images/AJxcCRZeO.jpg',
+        width: 680,
+        height: 453,
+      },
+      {
+        id: 'EzYYrmFp7',
+        url: 'https://cdn2.thecatapi.com/images/EzYYrmFp7.jpg',
+        width: 1200,
+        height: 1679,
+      },
+      {
+        id: 'AH61b9ziS',
+        url: 'https://cdn2.thecatapi.com/images/AH61b9ziS.jpg',
+        width: 2111,
+        height: 1346,
+      },
+      {
+        id: '4_AdeyZUv',
+        url: 'https://cdn2.thecatapi.com/images/4_AdeyZUv.jpg',
+        width: 3888,
+        height: 2592,
+      },
+      {
+        id: 'oxuem0v7U',
+        url: 'https://cdn2.thecatapi.com/images/oxuem0v7U.jpg',
+        width: 1600,
+        height: 1155,
+      },
+    ],
   },
   ebur: {
     weight: {
@@ -4669,6 +5989,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       Hoy en día, el Europeo Birmano es apreciado por su apariencia elegante y su amable temperamento. Los criadores de la raza continúan trabajando para preservar las características únicas de la raza y para garantizar su salud y bienestar. Aunque no es tan conocida como otras razas, aquellos que tienen la suerte de compartir su hogar con un Europeo Birmano no tienen dudas de su singularidad y encanto.
     `,
+    gallery: [
+      {
+        id: 'DZzcGANt5',
+        url: 'https://cdn2.thecatapi.com/images/DZzcGANt5.jpg',
+        width: 2048,
+        height: 1365,
+      },
+      {
+        id: 'd8sbdRtLJ',
+        url: 'https://cdn2.thecatapi.com/images/d8sbdRtLJ.jpg',
+        width: 1050,
+        height: 1126,
+      },
+      {
+        id: '5hmYjVhib',
+        url: 'https://cdn2.thecatapi.com/images/5hmYjVhib.jpg',
+        width: 935,
+        height: 1000,
+      },
+      {
+        id: 'oLtx9gsxx',
+        url: 'https://cdn2.thecatapi.com/images/oLtx9gsxx.jpg',
+        width: 4027,
+        height: 2680,
+      },
+      {
+        id: 'YOjBThApG',
+        url: 'https://cdn2.thecatapi.com/images/YOjBThApG.jpg',
+        width: 2838,
+        height: 4518,
+      },
+      {
+        id: 'daHxeTPgZ',
+        url: 'https://cdn2.thecatapi.com/images/daHxeTPgZ.jpg',
+        width: 800,
+        height: 547,
+      },
+      {
+        id: 'uvyjW5KIG',
+        url: 'https://cdn2.thecatapi.com/images/uvyjW5KIG.jpg',
+        width: 3008,
+        height: 2000,
+      },
+      {
+        id: 'ATYs2BetM',
+        url: 'https://cdn2.thecatapi.com/images/ATYs2BetM.jpg',
+        width: 1920,
+        height: 1440,
+      },
+      {
+        id: 'GI062lGTf',
+        url: 'https://cdn2.thecatapi.com/images/GI062lGTf.png',
+        width: 680,
+        height: 656,
+      },
+      {
+        id: 'pK_t-KYIi',
+        url: 'https://cdn2.thecatapi.com/images/pK_t-KYIi.jpg',
+        width: 637,
+        height: 421,
+      },
+    ],
   },
   esho: {
     weight: {
@@ -4800,6 +6182,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
     <br>
     La historia de la raza Exótico de Pelo Corto es un testimonio del ingenio y la dedicación de los criadores para desarrollar una raza de gato que combina lo mejor de los Persas y las razas de pelo corto. Su evolución desde los primeros días de cruce hasta el gato adorable y fácil de cuidar que conocemos hoy, muestra cuánto amor y cuidado se ha dedicado a su desarrollo. En su corta historia, el Exótico de Pelo Corto ha cautivado los corazones de los amantes de los gatos de todo el mundo y, sin duda, seguirá haciéndolo durante muchos años más.
     `,
+    gallery: [
+      {
+        id: '2N4PhyqTG',
+        url: 'https://cdn2.thecatapi.com/images/2N4PhyqTG.jpg',
+        width: 800,
+        height: 600,
+      },
+      {
+        id: 'khyg1KLOZ',
+        url: 'https://cdn2.thecatapi.com/images/khyg1KLOZ.jpg',
+        width: 1682,
+        height: 2048,
+      },
+      {
+        id: 'MPnl26tDB',
+        url: 'https://cdn2.thecatapi.com/images/MPnl26tDB.jpg',
+        width: 714,
+        height: 475,
+      },
+      {
+        id: 'dnYQq6Vf3',
+        url: 'https://cdn2.thecatapi.com/images/dnYQq6Vf3.jpg',
+        width: 1110,
+        height: 730,
+      },
+      {
+        id: 'Jxl7eRfCW',
+        url: 'https://cdn2.thecatapi.com/images/Jxl7eRfCW.jpg',
+        width: 1110,
+        height: 730,
+      },
+      {
+        id: 'TuXvdAni3',
+        url: 'https://cdn2.thecatapi.com/images/TuXvdAni3.jpg',
+        width: 1500,
+        height: 895,
+      },
+      {
+        id: 'DSsW2Fl2d',
+        url: 'https://cdn2.thecatapi.com/images/DSsW2Fl2d.jpg',
+        width: 2560,
+        height: 1919,
+      },
+      {
+        id: 'KJF8fB_20',
+        url: 'https://cdn2.thecatapi.com/images/KJF8fB_20.jpg',
+        width: 820,
+        height: 1024,
+      },
+      {
+        id: 'bX5VJKzVM',
+        url: 'https://cdn2.thecatapi.com/images/bX5VJKzVM.jpg',
+        width: 960,
+        height: 1280,
+      },
+      {
+        id: 'EEf-L2ubj',
+        url: 'https://cdn2.thecatapi.com/images/EEf-L2ubj.jpg',
+        width: 1080,
+        height: 1080,
+      },
+    ],
   },
   hbro: {
     weight: {
@@ -4950,6 +6394,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       Hoy en día, los Havana Marrón son muy apreciados por los amantes de los gatos y continúan atrayendo a nuevos admiradores con su encanto y carisma. Su historia, aunque relativamente reciente en comparación con algunas otras razas de gatos, es una historia de dedicación, innovación y un amor por los gatos que es verdaderamente inspiradora. Con su hermoso color marrón chocolate y su temperamento encantador, no es de extrañar que los Havana Marrón sigan cautivando los corazones de las personas en todo el mundo.
     `,
+    gallery: [
+      {
+        id: 'njK25knLH',
+        url: 'https://cdn2.thecatapi.com/images/njK25knLH.jpg',
+        width: 1024,
+        height: 823,
+      },
+      {
+        id: 'gQggWSR5I',
+        url: 'https://cdn2.thecatapi.com/images/gQggWSR5I.jpg',
+        width: 4081,
+        height: 2721,
+      },
+      {
+        id: 'iFH9iWpDg',
+        url: 'https://cdn2.thecatapi.com/images/iFH9iWpDg.jpg',
+        width: 2048,
+        height: 1365,
+      },
+      {
+        id: 'gLfmOKHCA',
+        url: 'https://cdn2.thecatapi.com/images/gLfmOKHCA.jpg',
+        width: 1244,
+        height: 1600,
+      },
+      {
+        id: '9JisqWsnL',
+        url: 'https://cdn2.thecatapi.com/images/9JisqWsnL.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: 'L6d7rFyt1',
+        url: 'https://cdn2.thecatapi.com/images/L6d7rFyt1.jpg',
+        width: 1200,
+        height: 799,
+      },
+      {
+        id: 'wWZPyq5Jm',
+        url: 'https://cdn2.thecatapi.com/images/wWZPyq5Jm.jpg',
+        width: 1205,
+        height: 803,
+      },
+      {
+        id: '2-AuRFDa9',
+        url: 'https://cdn2.thecatapi.com/images/2-AuRFDa9.jpg',
+        width: 1250,
+        height: 650,
+      },
+      {
+        id: 'eJUcA5Wt-',
+        url: 'https://cdn2.thecatapi.com/images/eJUcA5Wt-.jpg',
+        width: 1250,
+        height: 2014,
+      },
+      {
+        id: 'bGUQ04k2E',
+        url: 'https://cdn2.thecatapi.com/images/bGUQ04k2E.jpg',
+        width: 2592,
+        height: 1936,
+      },
+    ],
   },
   hima: {
     weight: {
@@ -5111,6 +6617,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, la historia del gato Himalayo es una fascinante mezcla de ciencia, arte y dedicación a la cría de gatos. Aunque la raza se ha enfrentado a retos y controversias, ha emergido como una de las más queridas y reconocidas en el mundo. Con su apariencia hermosa, su carácter tranquilo y cariñoso, y su rica historia, el Himalayo tiene un lugar muy especial en el mundo felino.
     `,
+    gallery: [
+      {
+        id: 'To-gnSRLr',
+        url: 'https://cdn2.thecatapi.com/images/To-gnSRLr.jpg',
+        width: 1469,
+        height: 2047,
+      },
+      {
+        id: 'KBjPMWOsK',
+        url: 'https://cdn2.thecatapi.com/images/KBjPMWOsK.jpg',
+        width: 5797,
+        height: 3854,
+      },
+      {
+        id: 'PG-4j7axo',
+        url: 'https://cdn2.thecatapi.com/images/PG-4j7axo.jpg',
+        width: 1000,
+        height: 1147,
+      },
+      {
+        id: '2xlxL0oI_',
+        url: 'https://cdn2.thecatapi.com/images/2xlxL0oI_.jpg',
+        width: 2592,
+        height: 1944,
+      },
+      {
+        id: 'z77nP6EHh',
+        url: 'https://cdn2.thecatapi.com/images/z77nP6EHh.jpg',
+        width: 5184,
+        height: 3456,
+      },
+      {
+        id: 'L7z8fLkoJ',
+        url: 'https://cdn2.thecatapi.com/images/L7z8fLkoJ.jpg',
+        width: 3600,
+        height: 2400,
+      },
+      {
+        id: 'uywhSIAHr',
+        url: 'https://cdn2.thecatapi.com/images/uywhSIAHr.jpg',
+        width: 1280,
+        height: 720,
+      },
+      {
+        id: '7TcOPE3SC',
+        url: 'https://cdn2.thecatapi.com/images/7TcOPE3SC.jpg',
+        width: 750,
+        height: 410,
+      },
+      {
+        id: 'Rx_gYvR2e',
+        url: 'https://cdn2.thecatapi.com/images/Rx_gYvR2e.jpg',
+        width: 970,
+        height: 646,
+      },
+      {
+        id: 'CDhOtM-Ig',
+        url: 'https://cdn2.thecatapi.com/images/CDhOtM-Ig.jpg',
+        width: 1200,
+        height: 961,
+      },
+    ],
   },
   jbob: {
     weight: {
@@ -5278,6 +6846,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       <br>
       Hoy en día, el Bobtail Japonés sigue siendo una raza bastante rara fuera de Japón, pero cada vez más personas se enamoran de su singular cola, su carácter afectuoso y su historia milenaria. La historia del Bobtail Japonés es un testimonio del amor y la apreciación que los humanos han tenido por los gatos a lo largo de los siglos, y de cómo estos maravillosos animales han formado parte de nuestras vidas y nuestras culturas durante milenios.    `,
+    gallery: [
+      {
+        id: '-tm9-znzl',
+        url: 'https://cdn2.thecatapi.com/images/-tm9-znzl.jpg',
+        width: 1125,
+        height: 750,
+      },
+      {
+        id: 'PN0d8Zqg7',
+        url: 'https://cdn2.thecatapi.com/images/PN0d8Zqg7.jpg',
+        width: 994,
+        height: 1379,
+      },
+      {
+        id: 'R68eywp-W',
+        url: 'https://cdn2.thecatapi.com/images/R68eywp-W.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: '86jwAC0vv',
+        url: 'https://cdn2.thecatapi.com/images/86jwAC0vv.jpg',
+        width: 1384,
+        height: 1022,
+      },
+      {
+        id: 'StMwZZnDP',
+        url: 'https://cdn2.thecatapi.com/images/StMwZZnDP.jpg',
+        width: 1440,
+        height: 900,
+      },
+      {
+        id: 'Sw_EWWLW-',
+        url: 'https://cdn2.thecatapi.com/images/Sw_EWWLW-.jpg',
+        width: 3949,
+        height: 3949,
+      },
+      {
+        id: 'd8AjzQxLp',
+        url: 'https://cdn2.thecatapi.com/images/d8AjzQxLp.jpg',
+        width: 1600,
+        height: 1041,
+      },
+      {
+        id: 'VwGK1QO3m',
+        url: 'https://cdn2.thecatapi.com/images/VwGK1QO3m.jpg',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        id: 'RfdGhgEf3',
+        url: 'https://cdn2.thecatapi.com/images/RfdGhgEf3.jpg',
+        width: 1920,
+        height: 1440,
+      },
+      {
+        id: 'CrZtoDsgj',
+        url: 'https://cdn2.thecatapi.com/images/CrZtoDsgj.jpg',
+        width: 1600,
+        height: 1041,
+      },
+    ],
   },
   java: {
     weight: {
@@ -5425,6 +7055,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En la actualidad, los Javaneses son amados por su carácter dulce y amigable, su inteligencia aguda y su apariencia elegante. Aunque no sean tan famosos o populares como algunas otras razas, los que tienen la suerte de compartir sus vidas con un Javanés saben que estos gatos son verdaderamente especiales. La historia de la raza Javanesa es una prueba del ingenio humano y de lo lejos que estamos dispuestos a llegar por amor a nuestros amigos felinos.
     `,
+    gallery: [
+      {
+        id: 'BTiGuPOqW',
+        url: 'https://cdn2.thecatapi.com/images/BTiGuPOqW.jpg',
+        width: 3264,
+        height: 2448,
+      },
+      {
+        id: 'fWbeAxpQH',
+        url: 'https://cdn2.thecatapi.com/images/fWbeAxpQH.jpg',
+        width: 1100,
+        height: 733,
+      },
+      {
+        id: 'j8Z2_Alac',
+        url: 'https://cdn2.thecatapi.com/images/j8Z2_Alac.jpg',
+        width: 1000,
+        height: 1000,
+      },
+      {
+        id: 'P-Zyb-4BZ',
+        url: 'https://cdn2.thecatapi.com/images/P-Zyb-4BZ.jpg',
+        width: 1920,
+        height: 885,
+      },
+      {
+        id: 'xoI_EpOKe',
+        url: 'https://cdn2.thecatapi.com/images/xoI_EpOKe.jpg',
+        width: 1232,
+        height: 1287,
+      },
+      {
+        id: 'PgUVo_1n4',
+        url: 'https://cdn2.thecatapi.com/images/PgUVo_1n4.jpg',
+        width: 1200,
+        height: 900,
+      },
+      {
+        id: 'cua3trGPU',
+        url: 'https://cdn2.thecatapi.com/images/cua3trGPU.jpg',
+        width: 912,
+        height: 1382,
+      },
+      {
+        id: 'WAwazYKhH',
+        url: 'https://cdn2.thecatapi.com/images/WAwazYKhH.jpg',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        id: 'DsrXa-v2g',
+        url: 'https://cdn2.thecatapi.com/images/DsrXa-v2g.jpg',
+        width: 1280,
+        height: 1010,
+      },
+      {
+        id: 'O1X8xKt_H',
+        url: 'https://cdn2.thecatapi.com/images/O1X8xKt_H.jpg',
+        width: 1800,
+        height: 2700,
+      },
+    ],
   },
   khao: {
     weight: {
@@ -5561,6 +7253,20 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia del Khao Manee es un reflejo de la fascinante historia de Tailandia. Desde su papel como protectores del antiguo reino de Siam hasta su reconocimiento internacional como raza felina, los Khao Manee han llevado a cabo un viaje sorprendente. A pesar de las adversidades y los desafíos, la raza ha sobrevivido y prosperado, manteniendo su encanto y misterio únicos a lo largo de los siglos. Su fascinante historia, sumada a su incomparable belleza, sigue cautivando los corazones de los amantes de los gatos en todo el mundo, lo que confirma su lugar como una de las razas felinas más queridas y veneradas.
     `,
+    gallery: [
+      {
+        id: '165ok6ESN',
+        url: 'https://cdn2.thecatapi.com/images/165ok6ESN.jpg',
+        width: 1555,
+        height: 1037,
+      },
+      {
+        id: 'iyFN2mF8l',
+        url: 'https://cdn2.thecatapi.com/images/iyFN2mF8l.jpg',
+        width: 1858,
+        height: 1565,
+      },
+    ],
   },
   kora: {
     weight: {
@@ -5712,6 +7418,50 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, la raza de gato Korat tiene una larga y rica historia que se extiende a lo largo de siglos. Desde su origen en Tailandia, donde es considerado un símbolo de buena suerte, hasta su reconocimiento y popularidad global en la actualidad, el Korat sigue cautivando a los amantes de los gatos con su belleza única, su temperamento amable y su lealtad inquebrantable.
     `,
+    gallery: [
+      {
+        id: '1TcC-kiI1',
+        url: 'https://cdn2.thecatapi.com/images/1TcC-kiI1.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: 'k8T7xGG5O',
+        url: 'https://cdn2.thecatapi.com/images/k8T7xGG5O.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: 'CWGNkdpA7',
+        url: 'https://cdn2.thecatapi.com/images/CWGNkdpA7.jpg',
+        width: 654,
+        height: 549,
+      },
+      {
+        id: 'xPuWATvp9',
+        url: 'https://cdn2.thecatapi.com/images/xPuWATvp9.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: 'BbsNPAeop',
+        url: 'https://cdn2.thecatapi.com/images/BbsNPAeop.jpg',
+        width: 645,
+        height: 380,
+      },
+      {
+        id: 'OfIuuOv07',
+        url: 'https://cdn2.thecatapi.com/images/OfIuuOv07.jpg',
+        width: 1200,
+        height: 650,
+      },
+      {
+        id: 'DbwiefiaY',
+        url: 'https://cdn2.thecatapi.com/images/DbwiefiaY.png',
+        width: 1200,
+        height: 627,
+      },
+    ],
   },
   kuri: {
     weight: {
@@ -5873,6 +7623,14 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En conclusión, la historia de la raza de gato Kuriliano es una historia de supervivencia y adaptación, de siglos de evolución natural seguidos por un cuidadoso trabajo de cría selectiva. Es la historia de una raza que ha emergido de las remotas Islas Kuriles para cautivar los corazones de los amantes de los gatos en todo el mundo. Aunque aún no es tan conocida como otras razas, la historia del Kuriliano está llena de fascinantes giros y vueltas que hacen que esta raza sea verdaderamente única.
     `,
+    gallery: [
+      {
+        id: 'NZpO4pU56M',
+        url: 'https://cdn2.thecatapi.com/images/NZpO4pU56M.jpg',
+        width: 750,
+        height: 750,
+      },
+    ],
   },
   lape: {
     weight: {
@@ -6029,6 +7787,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, la historia de la raza LaPerm es una narración cautivadora sobre una mutación genética sorprendente, una criadora curiosa, y cómo un gatito de una granja en Oregón llegó a ser el progenitor de una amada y única raza de gatos. Su historia es un recordatorio de la increíble diversidad del mundo felino y de cómo un cambio genético aparentemente pequeño puede llevar a la creación de algo verdaderamente especial.
     `,
+    gallery: [
+      {
+        id: 'g4vhUKcZX',
+        url: 'https://cdn2.thecatapi.com/images/g4vhUKcZX.jpg',
+        width: 1136,
+        height: 852,
+      },
+      {
+        id: '4hZdbV_8E',
+        url: 'https://cdn2.thecatapi.com/images/4hZdbV_8E.jpg',
+        width: 1141,
+        height: 709,
+      },
+      {
+        id: 'fA-hvyvz1',
+        url: 'https://cdn2.thecatapi.com/images/fA-hvyvz1.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: '-d7GY-cPZ',
+        url: 'https://cdn2.thecatapi.com/images/-d7GY-cPZ.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: 'bL3lrUi1A',
+        url: 'https://cdn2.thecatapi.com/images/bL3lrUi1A.jpg',
+        width: 1280,
+        height: 720,
+      },
+      {
+        id: 'w6CQYXYjy',
+        url: 'https://cdn2.thecatapi.com/images/w6CQYXYjy.jpg',
+        width: 991,
+        height: 1000,
+      },
+      {
+        id: 'VuxDCG8hV',
+        url: 'https://cdn2.thecatapi.com/images/VuxDCG8hV.jpg',
+        width: 1920,
+        height: 902,
+      },
+      {
+        id: 'iapoHxQxL',
+        url: 'https://cdn2.thecatapi.com/images/iapoHxQxL.jpg',
+        width: 1600,
+        height: 1067,
+      },
+      {
+        id: 'MxaS9brW9',
+        url: 'https://cdn2.thecatapi.com/images/MxaS9brW9.jpg',
+        width: 1200,
+        height: 1799,
+      },
+      {
+        id: 'XWqBv4Dnh',
+        url: 'https://cdn2.thecatapi.com/images/XWqBv4Dnh.jpg',
+        width: 1024,
+        height: 1024,
+      },
+    ],
   },
   mcoo: {
     weight: {
@@ -6186,6 +8006,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       A pesar de los desafíos que ha enfrentado, el Maine Coon ha sobrevivido y prosperado, demostrando ser tan resistente como los colonos que ayudó a acompañar a través de los duros inviernos de Maine. Con su personalidad amigable y su apariencia distinguida, no es de extrañar que el Maine Coon continúe siendo una raza de gato muy querida en todo el mundo.
     `,
+    gallery: [
+      {
+        id: 'PoZIVJ124',
+        url: 'https://cdn2.thecatapi.com/images/PoZIVJ124.jpg',
+        width: 1000,
+        height: 897,
+      },
+      {
+        id: 'EwApDDFZR',
+        url: 'https://cdn2.thecatapi.com/images/EwApDDFZR.jpg',
+        width: 822,
+        height: 598,
+      },
+      {
+        id: 'VuFcqjORh',
+        url: 'https://cdn2.thecatapi.com/images/VuFcqjORh.jpg',
+        width: 577,
+        height: 900,
+      },
+      {
+        id: 'LIQSvUemz',
+        url: 'https://cdn2.thecatapi.com/images/LIQSvUemz.jpg',
+        width: 2000,
+        height: 2000,
+      },
+      {
+        id: '-8roc4viS',
+        url: 'https://cdn2.thecatapi.com/images/-8roc4viS.jpg',
+        width: 750,
+        height: 1125,
+      },
+      {
+        id: 'ftmw29QPb',
+        url: 'https://cdn2.thecatapi.com/images/ftmw29QPb.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: 'OOD3VXAQn',
+        url: 'https://cdn2.thecatapi.com/images/OOD3VXAQn.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'agwTe5TSe',
+        url: 'https://cdn2.thecatapi.com/images/agwTe5TSe.jpg',
+        width: 1200,
+        height: 996,
+      },
+      {
+        id: 'fG-wtktoL',
+        url: 'https://cdn2.thecatapi.com/images/fG-wtktoL.jpg',
+        width: 1024,
+        height: 660,
+      },
+      {
+        id: '3IWhPRL3a',
+        url: 'https://cdn2.thecatapi.com/images/3IWhPRL3a.jpg',
+        width: 1176,
+        height: 1184,
+      },
+    ],
   },
   mala: {
     weight: {
@@ -6223,7 +8105,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
     wikipedia_url: 'https://en.wikipedia.org/wiki/Asian_cat',
     hypoallergenic: 0,
     reference_image_id: '',
-    image: '',
+    image: 'https://esferamascota.b-cdn.net/destacados-gato.webp',
     perks: [
       'Muy interactivo',
       'Habla mucho',
@@ -6326,6 +8208,14 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, la raza de gato Malayo es el resultado de una feliz coincidencia, seguida de años de dedicación y trabajo duro por parte de los criadores. Creado a partir de un apareamiento inusual, el gato Malayo ha logrado hacerse un lugar en el mundo de las razas de gatos y continúa cautivando a los amantes de los gatos con su hermoso pelaje y su personalidad cariñosa [1, 2]. A lo largo de su historia, la salud y el bienestar de esta raza siempre han sido prioritarios, y la raza Malaya sirve como un brillante ejemplo de cómo una "equivocación" puede convertirse en un triunfo con dedicación, esfuerzo y un poco de paciencia.
     `,
+    gallery: [
+      {
+        url: 'https://esferamascota.b-cdn.net/destacados-gato.webp',
+        height: 600,
+        id: '',
+        width: 800,
+      },
+    ],
   },
   manx: {
     weight: {
@@ -6465,6 +8355,56 @@ export const CAT_LIST: { [key: string]: Cat } = {
     <br><br>
     La popularidad de los Manx ha fluctuado a lo largo de los años, pero nunca han dejado de ser considerados una raza única y fascinante. Su personalidad encantadora, junto con su apariencia distintiva, los ha mantenido en el corazón de los amantes de los gatos en todo el mundo. Aunque su historia está llena de misterio y leyendas, lo que está claro es que los gatos Manx tienen una herencia única que los hace ser una raza realmente especial.
     `,
+    gallery: [
+      {
+        id: 'gU5wUcOuo',
+        url: 'https://cdn2.thecatapi.com/images/gU5wUcOuo.jpg',
+        width: 1200,
+        height: 800,
+      },
+      {
+        id: 'Rscv6E1c5',
+        url: 'https://cdn2.thecatapi.com/images/Rscv6E1c5.jpg',
+        width: 1200,
+        height: 900,
+      },
+      {
+        id: 'AoDtRhYcL',
+        url: 'https://cdn2.thecatapi.com/images/AoDtRhYcL.jpg',
+        width: 1024,
+        height: 683,
+      },
+      {
+        id: 'i9HsL15nJ',
+        url: 'https://cdn2.thecatapi.com/images/i9HsL15nJ.jpg',
+        width: 3024,
+        height: 4032,
+      },
+      {
+        id: 'P2NukwZ0n',
+        url: 'https://cdn2.thecatapi.com/images/P2NukwZ0n.jpg',
+        width: 1200,
+        height: 795,
+      },
+      {
+        id: 'OXMyfVPcP',
+        url: 'https://cdn2.thecatapi.com/images/OXMyfVPcP.jpg',
+        width: 1600,
+        height: 1511,
+      },
+      {
+        id: 'oKgfW90l6',
+        url: 'https://cdn2.thecatapi.com/images/oKgfW90l6.jpg',
+        width: 1920,
+        height: 1080,
+      },
+      {
+        id: 'fhYh2PDcC',
+        url: 'https://cdn2.thecatapi.com/images/fhYh2PDcC.jpg',
+        width: 700,
+        height: 466,
+      },
+    ],
   },
   munc: {
     weight: {
@@ -6595,6 +8535,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br><br>
       En resumen, la historia de los Munchkins es un testimonio de la naturaleza única y diversa del mundo felino. Aunque la raza ha enfrentado y sigue enfrentando controversias, los Munchkins han demostrado ser gatos fuertes y saludables con mucho amor para dar. Su historia continúa evolucionando y, sin duda, estos pequeños gatos de patas cortas seguirán capturando la imaginación y el afecto de los amantes de los gatos en todo el mundo.
     `,
+    gallery: [
+      {
+        id: 'yFqH0s2H_',
+        url: 'https://cdn2.thecatapi.com/images/yFqH0s2H_.jpg',
+        width: 960,
+        height: 960,
+      },
+      {
+        id: 'uk0SrrBbQ',
+        url: 'https://cdn2.thecatapi.com/images/uk0SrrBbQ.jpg',
+        width: 2329,
+        height: 2097,
+      },
+      {
+        id: 'gLh13vDBk',
+        url: 'https://cdn2.thecatapi.com/images/gLh13vDBk.jpg',
+        width: 807,
+        height: 810,
+      },
+      {
+        id: 'wsnU-GMvB',
+        url: 'https://cdn2.thecatapi.com/images/wsnU-GMvB.jpg',
+        width: 1111,
+        height: 833,
+      },
+      {
+        id: 'D2J3R7sUq',
+        url: 'https://cdn2.thecatapi.com/images/D2J3R7sUq.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: 'wMndw0twO',
+        url: 'https://cdn2.thecatapi.com/images/wMndw0twO.jpg',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        id: 'ets_USqdE',
+        url: 'https://cdn2.thecatapi.com/images/ets_USqdE.jpg',
+        width: 1200,
+        height: 970,
+      },
+      {
+        id: 'pzIURJPra',
+        url: 'https://cdn2.thecatapi.com/images/pzIURJPra.jpg',
+        width: 1250,
+        height: 1684,
+      },
+      {
+        id: 'kSL4yIF2D',
+        url: 'https://cdn2.thecatapi.com/images/kSL4yIF2D.jpg',
+        width: 1086,
+        height: 1421,
+      },
+      {
+        id: 'mpcBi2Utm',
+        url: 'https://cdn2.thecatapi.com/images/mpcBi2Utm.jpg',
+        width: 1108,
+        height: 734,
+      },
+    ],
   },
   nebe: {
     weight: {
@@ -6723,6 +8725,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br><br>
       En resumen, la historia de la raza Nebelung es una de pasión, determinación y amor por una singularidad genética que resultó en una raza de gato magníficamente hermosa y encantadora. Aunque todavía son una raza joven en comparación con muchas otras, los Nebelungs han dejado una impresión duradera en el mundo felino y están destinados a seguir creciendo en popularidad y reconocimiento.
     `,
+    gallery: [
+      {
+        id: 'qtgE7qRvw',
+        url: 'https://cdn2.thecatapi.com/images/qtgE7qRvw.jpg',
+        width: 1366,
+        height: 768,
+      },
+      {
+        id: 'OUfeISEoi',
+        url: 'https://cdn2.thecatapi.com/images/OUfeISEoi.jpg',
+        width: 1200,
+        height: 798,
+      },
+      {
+        id: 'FTd8l4EXq',
+        url: 'https://cdn2.thecatapi.com/images/FTd8l4EXq.jpg',
+        width: 2880,
+        height: 1800,
+      },
+      {
+        id: 'FotU1pOJT',
+        url: 'https://cdn2.thecatapi.com/images/FotU1pOJT.jpg',
+        width: 956,
+        height: 959,
+      },
+      {
+        id: '8Xczzmo2j',
+        url: 'https://cdn2.thecatapi.com/images/8Xczzmo2j.jpg',
+        width: 1280,
+        height: 720,
+      },
+      {
+        id: 'GwRBXx7-w',
+        url: 'https://cdn2.thecatapi.com/images/GwRBXx7-w.jpg',
+        width: 1280,
+        height: 853,
+      },
+      {
+        id: 'Nw-PtLQuk',
+        url: 'https://cdn2.thecatapi.com/images/Nw-PtLQuk.jpg',
+        width: 1200,
+        height: 900,
+      },
+      {
+        id: '0VDLLByGi',
+        url: 'https://cdn2.thecatapi.com/images/0VDLLByGi.jpg',
+        width: 3024,
+        height: 4032,
+      },
+      {
+        id: 'Fb9fWJuJq',
+        url: 'https://cdn2.thecatapi.com/images/Fb9fWJuJq.jpg',
+        width: 1224,
+        height: 1224,
+      },
+      {
+        id: 'KpHqQPUPW',
+        url: 'https://cdn2.thecatapi.com/images/KpHqQPUPW.jpg',
+        width: 3024,
+        height: 4032,
+      },
+    ],
   },
   norw: {
     weight: {
@@ -6869,6 +8933,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br><br>
       Si bien su historia es antigua y está llena de mitos y leyendas, los Gatos de los Bosques de Noruega siguen cautivando a los amantes de los gatos en todo el mundo. Su presencia es un vínculo con el pasado, una ventana a una época en la que los gatos eran venerados como seres mágicos y sagrados. Son, en muchos aspectos, una raza de gato para aquellos que aprecian la historia y la mitología, así como la belleza y la personalidad felina.
     `,
+    gallery: [
+      {
+        id: 'wLFWzKgkf',
+        url: 'https://cdn2.thecatapi.com/images/wLFWzKgkf.jpg',
+        width: 819,
+        height: 1024,
+      },
+      {
+        id: 'JqnhXlI_b',
+        url: 'https://cdn2.thecatapi.com/images/JqnhXlI_b.jpg',
+        width: 1024,
+        height: 964,
+      },
+      {
+        id: 'ZUumV9qmY',
+        url: 'https://cdn2.thecatapi.com/images/ZUumV9qmY.jpg',
+        width: 1446,
+        height: 1600,
+      },
+      {
+        id: 'ZR9dCROV8',
+        url: 'https://cdn2.thecatapi.com/images/ZR9dCROV8.jpg',
+        width: 774,
+        height: 1024,
+      },
+      {
+        id: 'neW1xzZv4',
+        url: 'https://cdn2.thecatapi.com/images/neW1xzZv4.jpg',
+        width: 2002,
+        height: 1317,
+      },
+      {
+        id: 'IvIKQQqSP',
+        url: 'https://cdn2.thecatapi.com/images/IvIKQQqSP.jpg',
+        width: 2401,
+        height: 1803,
+      },
+      {
+        id: 'Dqtad3dGZ',
+        url: 'https://cdn2.thecatapi.com/images/Dqtad3dGZ.jpg',
+        width: 1200,
+        height: 1600,
+      },
+      {
+        id: 'bsr5KQSJ6',
+        url: 'https://cdn2.thecatapi.com/images/bsr5KQSJ6.jpg',
+        width: 2000,
+        height: 1331,
+      },
+      {
+        id: 'ORMN4W_9X',
+        url: 'https://cdn2.thecatapi.com/images/ORMN4W_9X.jpg',
+        width: 2048,
+        height: 1536,
+      },
+      {
+        id: 'rBuGgH_Wj',
+        url: 'https://cdn2.thecatapi.com/images/rBuGgH_Wj.jpg',
+        width: 3840,
+        height: 2160,
+      },
+    ],
   },
   ocic: {
     weight: {
@@ -7007,6 +9133,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br><br>
       En resumen, el Ocicat es una raza nacida de un experimento de cría que resultó en un maravilloso accidente. Aunque su apariencia puede hacer que parezca un gato salvaje, en realidad no tiene sangre de gato salvaje en su linaje. Su desarrollo es un testimonio del trabajo dedicado y cuidadoso de una criadora y su visión de lo que podría ser un gato doméstico. El hecho de que el Ocicat sea hoy en día una raza reconocida y amada por los aficionados a los gatos de todo el mundo es un testimonio de su éxito.
     `,
+    gallery: [
+      {
+        id: 'JAx-08Y0n',
+        url: 'https://cdn2.thecatapi.com/images/JAx-08Y0n.jpg',
+        width: 1280,
+        height: 853,
+      },
+      {
+        id: 'jMZuST3W6',
+        url: 'https://cdn2.thecatapi.com/images/jMZuST3W6.jpg',
+        width: 1280,
+        height: 960,
+      },
+      {
+        id: 'N9XTfbgI6',
+        url: 'https://cdn2.thecatapi.com/images/N9XTfbgI6.jpg',
+        width: 1366,
+        height: 768,
+      },
+      {
+        id: 'qzmA6FAUs',
+        url: 'https://cdn2.thecatapi.com/images/qzmA6FAUs.jpg',
+        width: 1800,
+        height: 947,
+      },
+      {
+        id: 'A_G4pf_T3',
+        url: 'https://cdn2.thecatapi.com/images/A_G4pf_T3.jpg',
+        width: 1100,
+        height: 733,
+      },
+      {
+        id: 'rLKF3Yzcf',
+        url: 'https://cdn2.thecatapi.com/images/rLKF3Yzcf.jpg',
+        width: 2062,
+        height: 1418,
+      },
+      {
+        id: 'HksHrR8-9',
+        url: 'https://cdn2.thecatapi.com/images/HksHrR8-9.jpg',
+        width: 3704,
+        height: 2469,
+      },
+      {
+        id: '0vXzg857G',
+        url: 'https://cdn2.thecatapi.com/images/0vXzg857G.jpg',
+        width: 1000,
+        height: 845,
+      },
+      {
+        id: 'imz2EwFWv',
+        url: 'https://cdn2.thecatapi.com/images/imz2EwFWv.jpg',
+        width: 1280,
+        height: 850,
+      },
+      {
+        id: '5EDC-TDcN',
+        url: 'https://cdn2.thecatapi.com/images/5EDC-TDcN.jpg',
+        width: 1600,
+        height: 1000,
+      },
+    ],
   },
   orie: {
     weight: {
@@ -7151,6 +9339,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br><br>
       En definitiva, la historia de los gatos orientales es una historia de exploración genética, de dedicación apasionada a la cría selectiva, y de un amor por la belleza, la inteligencia y la personalidad de los gatos. Con su amplia variedad de colores y patrones, su notable inteligencia y su leal carácter, la raza Oriental es un testimonio del poder de la cría selectiva y del amor incondicional que los humanos tienen por sus amigos felinos.
     `,
+    gallery: [
+      {
+        id: '0eVXT8_lb',
+        url: 'https://cdn2.thecatapi.com/images/0eVXT8_lb.jpg',
+        width: 1396,
+        height: 1080,
+      },
+      {
+        id: 'UYp1-LQxI',
+        url: 'https://cdn2.thecatapi.com/images/UYp1-LQxI.jpg',
+        width: 768,
+        height: 1024,
+      },
+      {
+        id: 'Mt-cUeiUY',
+        url: 'https://cdn2.thecatapi.com/images/Mt-cUeiUY.jpg',
+        width: 1654,
+        height: 2302,
+      },
+      {
+        id: 'U3nsHnCXU',
+        url: 'https://cdn2.thecatapi.com/images/U3nsHnCXU.jpg',
+        width: 857,
+        height: 1280,
+      },
+      {
+        id: '0iSghgPeZ',
+        url: 'https://cdn2.thecatapi.com/images/0iSghgPeZ.jpg',
+        width: 849,
+        height: 565,
+      },
+      {
+        id: 'jVu6K43F7',
+        url: 'https://cdn2.thecatapi.com/images/jVu6K43F7.jpg',
+        width: 2000,
+        height: 1423,
+      },
+      {
+        id: 'CQGI7O47l',
+        url: 'https://cdn2.thecatapi.com/images/CQGI7O47l.jpg',
+        width: 1000,
+        height: 840,
+      },
+      {
+        id: '0Z9FWHLuK',
+        url: 'https://cdn2.thecatapi.com/images/0Z9FWHLuK.jpg',
+        width: 1100,
+        height: 733,
+      },
+      {
+        id: 'NTsRW30uC',
+        url: 'https://cdn2.thecatapi.com/images/NTsRW30uC.jpg',
+        width: 900,
+        height: 600,
+      },
+      {
+        id: 'O7FnoegHR',
+        url: 'https://cdn2.thecatapi.com/images/O7FnoegHR.jpg',
+        width: 3402,
+        height: 2268,
+      },
+    ],
   },
   pers: {
     weight: {
@@ -7308,6 +9558,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, la historia de la raza Persa es una historia de evolución y adaptación, de cambio y constancia. A través de los siglos, estos gatos han viajado desde las frías montañas de Persia hasta los hogares confortables de todo el mundo. Han cambiado su apariencia para adaptarse a los gustos de la sociedad, pero han mantenido su carácter afectuoso y su distinguido porte. La historia del gato Persa es una historia de belleza, adaptación y resistencia, que solo añade a su encanto y atractivo.
     `,
+    gallery: [
+      {
+        id: '-Zfz5z2jK',
+        url: 'https://cdn2.thecatapi.com/images/-Zfz5z2jK.jpg',
+        width: 1691,
+        height: 1123,
+      },
+      {
+        id: 'AYfFc4vOB',
+        url: 'https://cdn2.thecatapi.com/images/AYfFc4vOB.jpg',
+        width: 1280,
+        height: 859,
+      },
+      {
+        id: 'e7-hS3gey',
+        url: 'https://cdn2.thecatapi.com/images/e7-hS3gey.jpg',
+        width: 1400,
+        height: 1050,
+      },
+      {
+        id: '-R_ccKPYo',
+        url: 'https://cdn2.thecatapi.com/images/-R_ccKPYo.jpg',
+        width: 1000,
+        height: 747,
+      },
+      {
+        id: 'tt01SNoSH',
+        url: 'https://cdn2.thecatapi.com/images/tt01SNoSH.png',
+        width: 4096,
+        height: 2304,
+      },
+      {
+        id: '0ugO2xZ2n',
+        url: 'https://cdn2.thecatapi.com/images/0ugO2xZ2n.jpg',
+        width: 3264,
+        height: 2448,
+      },
+      {
+        id: 'yehyXOeid',
+        url: 'https://cdn2.thecatapi.com/images/yehyXOeid.jpg',
+        width: 1920,
+        height: 1200,
+      },
+      {
+        id: 'C0YfrgcOD',
+        url: 'https://cdn2.thecatapi.com/images/C0YfrgcOD.jpg',
+        width: 1920,
+        height: 1080,
+      },
+      {
+        id: 'MjEa4UzfB',
+        url: 'https://cdn2.thecatapi.com/images/MjEa4UzfB.jpg',
+        width: 900,
+        height: 1199,
+      },
+      {
+        id: 'LOHjsZumz',
+        url: 'https://cdn2.thecatapi.com/images/LOHjsZumz.jpg',
+        width: 2000,
+        height: 1313,
+      },
+    ],
   },
   pixi: {
     weight: {
@@ -7445,6 +9757,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, la historia del Pixie-bob es tan única como la raza misma. Desde su origen misterioso y fascinante hasta su estatus actual como una raza querida por muchos, la historia del Pixie-bob es una narración cautivadora que añade otra capa de encanto a estos gatos maravillosos. Si te encuentras con un Pixie-bob, puedes estar seguro de que estás interactuando con una raza que tiene una rica historia y un futuro emocionante.
     `,
+    gallery: [
+      {
+        id: 'fAYgJmLM8',
+        url: 'https://cdn2.thecatapi.com/images/fAYgJmLM8.jpg',
+        width: 3072,
+        height: 2304,
+      },
+      {
+        id: 'vjJDjiXQQ',
+        url: 'https://cdn2.thecatapi.com/images/vjJDjiXQQ.jpg',
+        width: 1024,
+        height: 1725,
+      },
+      {
+        id: 'n6iJQcVtD',
+        url: 'https://cdn2.thecatapi.com/images/n6iJQcVtD.jpg',
+        width: 1920,
+        height: 1353,
+      },
+      {
+        id: 'HxENheThN',
+        url: 'https://cdn2.thecatapi.com/images/HxENheThN.jpg',
+        width: 1280,
+        height: 965,
+      },
+      {
+        id: 'qk67_tUAZ',
+        url: 'https://cdn2.thecatapi.com/images/qk67_tUAZ.jpg',
+        width: 1600,
+        height: 751,
+      },
+      {
+        id: 'b4paC3RGM',
+        url: 'https://cdn2.thecatapi.com/images/b4paC3RGM.jpg',
+        width: 2017,
+        height: 1344,
+      },
+      {
+        id: 'U0UIFP2CA',
+        url: 'https://cdn2.thecatapi.com/images/U0UIFP2CA.jpg',
+        width: 1280,
+        height: 960,
+      },
+      {
+        id: '4MEAQffKS',
+        url: 'https://cdn2.thecatapi.com/images/4MEAQffKS.jpg',
+        width: 1250,
+        height: 1167,
+      },
+      {
+        id: 'z7fJRNeN6',
+        url: 'https://cdn2.thecatapi.com/images/z7fJRNeN6.jpg',
+        width: 1024,
+        height: 683,
+      },
+      {
+        id: 'UFao82MoD',
+        url: 'https://cdn2.thecatapi.com/images/UFao82MoD.jpg',
+        width: 1600,
+        height: 1200,
+      },
+    ],
   },
   raga: {
     weight: {
@@ -7591,6 +9965,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia del Ragamuffin es una de determinación y dedicación. Los criadores que trabajaron para establecer la raza enfrentaron obstáculos y desafíos, pero nunca dejaron que eso les desanimara. En su lugar, trabajaron incansablemente para garantizar que estos maravillosos gatos recibieran el reconocimiento que merecen. La historia del Ragamuffin continúa hoy, con cada nueva generación de gatos y criadores que trabajan para preservar y promover esta raza única.
     `,
+    gallery: [
+      {
+        id: 'sWvKIFxBM',
+        url: 'https://cdn2.thecatapi.com/images/sWvKIFxBM.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: '--YZl1YWO',
+        url: 'https://cdn2.thecatapi.com/images/--YZl1YWO.jpg',
+        width: 1440,
+        height: 1585,
+      },
+      {
+        id: 'dEWWIiCgr',
+        url: 'https://cdn2.thecatapi.com/images/dEWWIiCgr.jpg',
+        width: 1485,
+        height: 2380,
+      },
+      {
+        id: 'zIcb1-MhH',
+        url: 'https://cdn2.thecatapi.com/images/zIcb1-MhH.jpg',
+        width: 948,
+        height: 658,
+      },
+      {
+        id: 'mK0P2HlfO',
+        url: 'https://cdn2.thecatapi.com/images/mK0P2HlfO.jpg',
+        width: 1416,
+        height: 873,
+      },
+      {
+        id: 'SMuZx-bFM',
+        url: 'https://cdn2.thecatapi.com/images/SMuZx-bFM.jpg',
+        width: 3000,
+        height: 2000,
+      },
+      {
+        id: 'YXjvj-hjW',
+        url: 'https://cdn2.thecatapi.com/images/YXjvj-hjW.jpg',
+        width: 1200,
+        height: 808,
+      },
+      {
+        id: 'jI2dXfp26',
+        url: 'https://cdn2.thecatapi.com/images/jI2dXfp26.png',
+        width: 1259,
+        height: 630,
+      },
+      {
+        id: 'nG2rFqXai',
+        url: 'https://cdn2.thecatapi.com/images/nG2rFqXai.jpg',
+        width: 914,
+        height: 1280,
+      },
+      {
+        id: 'fsEMVl7f5',
+        url: 'https://cdn2.thecatapi.com/images/fsEMVl7f5.jpg',
+        width: 1080,
+        height: 1080,
+      },
+    ],
   },
   ragd: {
     weight: {
@@ -7738,6 +10174,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       Desde entonces, la raza Ragdoll ha continuado creciendo en popularidad. Hoy en día, estos gatos se conocen y se aman en todo el mundo por su increíble temperamento y su magnífico pelaje. La fascinante historia de la raza, llena de misterio y controversia, es solo una parte más de lo que hace a los Ragdolls tan únicos.
     `,
+    gallery: [
+      {
+        id: 'HDxfaNlLj',
+        url: 'https://cdn2.thecatapi.com/images/HDxfaNlLj.jpg',
+        width: 1200,
+        height: 830,
+      },
+      {
+        id: 'aWVfoSN_K',
+        url: 'https://cdn2.thecatapi.com/images/aWVfoSN_K.jpg',
+        width: 1080,
+        height: 1076,
+      },
+      {
+        id: 'oGefY4YoG',
+        url: 'https://cdn2.thecatapi.com/images/oGefY4YoG.jpg',
+        width: 768,
+        height: 1024,
+      },
+      {
+        id: 'nqS9tUT3i',
+        url: 'https://cdn2.thecatapi.com/images/nqS9tUT3i.jpg',
+        width: 1000,
+        height: 1000,
+      },
+      {
+        id: 'smuGD4z2U',
+        url: 'https://cdn2.thecatapi.com/images/smuGD4z2U.jpg',
+        width: 960,
+        height: 799,
+      },
+      {
+        id: 'xPkUTg4-N',
+        url: 'https://cdn2.thecatapi.com/images/xPkUTg4-N.jpg',
+        width: 1277,
+        height: 850,
+      },
+      {
+        id: 'UYLI_E-SZ',
+        url: 'https://cdn2.thecatapi.com/images/UYLI_E-SZ.jpg',
+        width: 750,
+        height: 500,
+      },
+      {
+        id: 'yHZ1Cr6fd',
+        url: 'https://cdn2.thecatapi.com/images/yHZ1Cr6fd.jpg',
+        width: 680,
+        height: 1244,
+      },
+      {
+        id: 'zgVRo2pWV',
+        url: 'https://cdn2.thecatapi.com/images/zgVRo2pWV.jpg',
+        width: 1110,
+        height: 740,
+      },
+      {
+        id: '3b2FeMj3s',
+        url: 'https://cdn2.thecatapi.com/images/3b2FeMj3s.jpg',
+        width: 1920,
+        height: 1080,
+      },
+    ],
   },
   rblu: {
     weight: {
@@ -7891,6 +10389,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia del Azul Ruso es un testamento de la resiliencia y la adaptabilidad de esta raza. A pesar de los desafíos que ha enfrentado a lo largo de los siglos, el Azul Ruso ha resistido el paso del tiempo y continúa cautivando a los amantes de los gatos en todo el mundo con su encanto único. Este gato digno y misterioso, con sus raíces en las tierras heladas del norte de Rusia, ha viajado por todo el mundo para encontrar su lugar en nuestros hogares y nuestros corazones. Y su historia sigue siendo escrita con cada gato Azul Ruso que trae alegría y belleza a la vida de sus dueños.
     `,
+    gallery: [
+      {
+        id: 'xZysIjSqa',
+        url: 'https://cdn2.thecatapi.com/images/xZysIjSqa.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'zK-7AFYVn',
+        url: 'https://cdn2.thecatapi.com/images/zK-7AFYVn.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: '4B7MJpywg',
+        url: 'https://cdn2.thecatapi.com/images/4B7MJpywg.jpg',
+        width: 2000,
+        height: 1333,
+      },
+      {
+        id: 'dK0max215',
+        url: 'https://cdn2.thecatapi.com/images/dK0max215.jpg',
+        width: 3504,
+        height: 2336,
+      },
+      {
+        id: 'tmH3RG7rD',
+        url: 'https://cdn2.thecatapi.com/images/tmH3RG7rD.jpg',
+        width: 3072,
+        height: 2048,
+      },
+      {
+        id: 'Rgf43IlSd',
+        url: 'https://cdn2.thecatapi.com/images/Rgf43IlSd.jpg',
+        width: 2171,
+        height: 2366,
+      },
+      {
+        id: 'S-1YzA7-_',
+        url: 'https://cdn2.thecatapi.com/images/S-1YzA7-_.jpg',
+        width: 3888,
+        height: 2592,
+      },
+      {
+        id: 'LXgmee2q_',
+        url: 'https://cdn2.thecatapi.com/images/LXgmee2q_.jpg',
+        width: 2048,
+        height: 1360,
+      },
+      {
+        id: 'bpZGfNLW1',
+        url: 'https://cdn2.thecatapi.com/images/bpZGfNLW1.png',
+        width: 1100,
+        height: 739,
+      },
+      {
+        id: 'tHKLZkKZG',
+        url: 'https://cdn2.thecatapi.com/images/tHKLZkKZG.jpg',
+        width: 3504,
+        height: 2336,
+      },
+    ],
   },
   sava: {
     weight: {
@@ -8046,6 +10606,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       Hoy en día, los Savannah son amados y apreciados en todo el mundo por su apariencia única y su personalidad encantadora. Son una prueba viviente de lo que se puede lograr a través de la crianza cuidadosa y considerada, y son un verdadero testimonio de la belleza y diversidad del mundo de los gatos. Aunque son relativamente nuevos en la escena felina, los Savannah han dejado una marca indeleble y han cautivado los corazones de los amantes de los gatos en todo el mundo.
     `,
+    gallery: [
+      {
+        id: 'yKXeUMNZ8',
+        url: 'https://cdn2.thecatapi.com/images/yKXeUMNZ8.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: 'ctHlkAH3L',
+        url: 'https://cdn2.thecatapi.com/images/ctHlkAH3L.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: '0T0KmC8r1',
+        url: 'https://cdn2.thecatapi.com/images/0T0KmC8r1.jpg',
+        width: 1280,
+        height: 960,
+      },
+      {
+        id: 'qf6MhNS8z',
+        url: 'https://cdn2.thecatapi.com/images/qf6MhNS8z.jpg',
+        width: 4032,
+        height: 3024,
+      },
+      {
+        id: 'Od-McTDZU',
+        url: 'https://cdn2.thecatapi.com/images/Od-McTDZU.jpg',
+        width: 3195,
+        height: 2055,
+      },
+      {
+        id: 'zPterbCcd',
+        url: 'https://cdn2.thecatapi.com/images/zPterbCcd.jpg',
+        width: 2052,
+        height: 1368,
+      },
+      {
+        id: 'A54VUs7Q6',
+        url: 'https://cdn2.thecatapi.com/images/A54VUs7Q6.jpg',
+        width: 1440,
+        height: 2160,
+      },
+      {
+        id: 'xBR2jSIG7',
+        url: 'https://cdn2.thecatapi.com/images/xBR2jSIG7.jpg',
+        width: 2048,
+        height: 2048,
+      },
+      {
+        id: 'G_2zGI5Wu',
+        url: 'https://cdn2.thecatapi.com/images/G_2zGI5Wu.jpg',
+        width: 1920,
+        height: 1280,
+      },
+      {
+        id: 'ie5eM6OOa',
+        url: 'https://cdn2.thecatapi.com/images/ie5eM6OOa.jpg',
+        width: 1250,
+        height: 650,
+      },
+    ],
   },
   sfol: {
     weight: {
@@ -8211,6 +10833,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia del Fold Escocés es un recordatorio de que, a veces, la naturaleza tiene una manera única de sorprendernos y de que, con responsabilidad y cuidado, podemos ayudar a que estas maravillosas sorpresas sean compartidas y disfrutadas por muchos.
     `,
+    gallery: [
+      {
+        id: 'tOGSsMx5J',
+        url: 'https://cdn2.thecatapi.com/images/tOGSsMx5J.jpg',
+        width: 736,
+        height: 1106,
+      },
+      {
+        id: 'IOqJ6RK7L',
+        url: 'https://cdn2.thecatapi.com/images/IOqJ6RK7L.jpg',
+        width: 750,
+        height: 937,
+      },
+      {
+        id: 'JVITS8pXF',
+        url: 'https://cdn2.thecatapi.com/images/JVITS8pXF.jpg',
+        width: 1080,
+        height: 1160,
+      },
+      {
+        id: 'UrYSVFQZo',
+        url: 'https://cdn2.thecatapi.com/images/UrYSVFQZo.jpg',
+        width: 1360,
+        height: 800,
+      },
+      {
+        id: '4UTnt4f74',
+        url: 'https://cdn2.thecatapi.com/images/4UTnt4f74.jpg',
+        width: 2592,
+        height: 2592,
+      },
+      {
+        id: 'fntFSZi2V',
+        url: 'https://cdn2.thecatapi.com/images/fntFSZi2V.jpg',
+        width: 1000,
+        height: 1000,
+      },
+      {
+        id: '8Ggv2cWP_',
+        url: 'https://cdn2.thecatapi.com/images/8Ggv2cWP_.jpg',
+        width: 1185,
+        height: 1776,
+      },
+      {
+        id: 'iI8IyNGDg',
+        url: 'https://cdn2.thecatapi.com/images/iI8IyNGDg.jpg',
+        width: 1680,
+        height: 1050,
+      },
+      {
+        id: 'zmG5D_Xne',
+        url: 'https://cdn2.thecatapi.com/images/zmG5D_Xne.jpg',
+        width: 1100,
+        height: 788,
+      },
+      {
+        id: 'ng1DD91yy',
+        url: 'https://cdn2.thecatapi.com/images/ng1DD91yy.jpg',
+        width: 1265,
+        height: 858,
+      },
+    ],
   },
   srex: {
     weight: {
@@ -8357,6 +11041,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       Hoy en día, el Selkirk Rex es apreciado en todo el mundo por su apariencia distintiva y su temperamento afectuoso. A pesar de su relativa juventud como raza, el Selkirk Rex ha dejado una impresión duradera en el mundo de los gatos y continúa ganando corazones con su encantadora personalidad y su hermoso pelaje rizado. Sin duda, la historia del Selkirk Rex es un testimonio de cómo una mutación genética espontánea y un poco de curiosidad y determinación pueden dar lugar a algo verdaderamente especial.
     `,
+    gallery: [
+      {
+        id: 'l-LrP1VY4',
+        url: 'https://cdn2.thecatapi.com/images/l-LrP1VY4.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'enV_ZqSpp',
+        url: 'https://cdn2.thecatapi.com/images/enV_ZqSpp.jpg',
+        width: 2005,
+        height: 1375,
+      },
+      {
+        id: 'Z0X1tZQIt',
+        url: 'https://cdn2.thecatapi.com/images/Z0X1tZQIt.jpg',
+        width: 1138,
+        height: 1196,
+      },
+      {
+        id: 'uGWCE3F8u',
+        url: 'https://cdn2.thecatapi.com/images/uGWCE3F8u.jpg',
+        width: 1600,
+        height: 1067,
+      },
+      {
+        id: '-ATvkFxvA',
+        url: 'https://cdn2.thecatapi.com/images/-ATvkFxvA.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'kcDyctLTZ',
+        url: 'https://cdn2.thecatapi.com/images/kcDyctLTZ.jpg',
+        width: 1080,
+        height: 751,
+      },
+      {
+        id: '5dF28H7__',
+        url: 'https://cdn2.thecatapi.com/images/5dF28H7__.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'zXYdWjjy4',
+        url: 'https://cdn2.thecatapi.com/images/zXYdWjjy4.jpg',
+        width: 750,
+        height: 750,
+      },
+      {
+        id: 'xfkK4cQvp',
+        url: 'https://cdn2.thecatapi.com/images/xfkK4cQvp.jpg',
+        width: 750,
+        height: 904,
+      },
+      {
+        id: 'II9dOZmrw',
+        url: 'https://cdn2.thecatapi.com/images/II9dOZmrw.jpg',
+        width: 1920,
+        height: 902,
+      },
+    ],
   },
   siam: {
     weight: {
@@ -8509,6 +11255,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       Hoy en día, los gatos siameses son amados y apreciados por su belleza, su encanto y su compañía afectuosa. A pesar de su ascendencia regia, estos gatos se han adaptado perfectamente a la vida doméstica, formando vínculos profundos con sus dueños y brindando amor y alegría a los hogares de todo el mundo.
     `,
+    gallery: [
+      {
+        id: 'DFHMMPNcD',
+        url: 'https://cdn2.thecatapi.com/images/DFHMMPNcD.jpg',
+        width: 1080,
+        height: 1319,
+      },
+      {
+        id: 'Xwp-MBOtI',
+        url: 'https://cdn2.thecatapi.com/images/Xwp-MBOtI.jpg',
+        width: 3225,
+        height: 2419,
+      },
+      {
+        id: 'stVqmJmi7',
+        url: 'https://cdn2.thecatapi.com/images/stVqmJmi7.jpg',
+        width: 1400,
+        height: 1050,
+      },
+      {
+        id: 'Ttk_tdV4g',
+        url: 'https://cdn2.thecatapi.com/images/Ttk_tdV4g.jpg',
+        width: 1152,
+        height: 768,
+      },
+      {
+        id: 'O2Xx5d4rV',
+        url: 'https://cdn2.thecatapi.com/images/O2Xx5d4rV.jpg',
+        width: 1280,
+        height: 854,
+      },
+      {
+        id: 'nwrkX6GhX',
+        url: 'https://cdn2.thecatapi.com/images/nwrkX6GhX.jpg',
+        width: 2501,
+        height: 2216,
+      },
+      {
+        id: 'uTG1YFzJV',
+        url: 'https://cdn2.thecatapi.com/images/uTG1YFzJV.jpg',
+        width: 1080,
+        height: 809,
+      },
+      {
+        id: '2_jMGSBwb',
+        url: 'https://cdn2.thecatapi.com/images/2_jMGSBwb.jpg',
+        width: 1280,
+        height: 720,
+      },
+      {
+        id: '84-HSUBbt',
+        url: 'https://cdn2.thecatapi.com/images/84-HSUBbt.jpg',
+        width: 1200,
+        height: 800,
+      },
+      {
+        id: 'N0cPNDdpW',
+        url: 'https://cdn2.thecatapi.com/images/N0cPNDdpW.jpg',
+        width: 1920,
+        height: 1080,
+      },
+    ],
   },
   sibe: {
     weight: {
@@ -8675,6 +11483,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia del gato Siberiano es un testimonio de su adaptabilidad y resistencia. Originaria de las gélidas tierras de Siberia, esta raza ha sabido conquistar corazones en todo el mundo, superando innumerables desafíos a lo largo de su historia. Estos gatos, una vez valorados principalmente por sus habilidades de caza, ahora son amados por su carácter amigable, su belleza majestuosa y su naturaleza robusta y resistente. El gato Siberiano es verdaderamente un ícono de la historia felina, una raza que ha resistido la prueba del tiempo y ha continuado prosperando.
     `,
+    gallery: [
+      {
+        id: 'YLN2chAIF',
+        url: 'https://cdn2.thecatapi.com/images/YLN2chAIF.jpg',
+        width: 1697,
+        height: 1131,
+      },
+      {
+        id: 'aMcspzvtg',
+        url: 'https://cdn2.thecatapi.com/images/aMcspzvtg.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'HNNrk-UxN',
+        url: 'https://cdn2.thecatapi.com/images/HNNrk-UxN.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'bvG8QGrnU',
+        url: 'https://cdn2.thecatapi.com/images/bvG8QGrnU.jpg',
+        width: 750,
+        height: 937,
+      },
+      {
+        id: 'qLPz9prjF',
+        url: 'https://cdn2.thecatapi.com/images/qLPz9prjF.jpg',
+        width: 750,
+        height: 937,
+      },
+      {
+        id: 'mcHWg83Yj',
+        url: 'https://cdn2.thecatapi.com/images/mcHWg83Yj.jpg',
+        width: 1248,
+        height: 938,
+      },
+      {
+        id: 'WmBbMJmwn',
+        url: 'https://cdn2.thecatapi.com/images/WmBbMJmwn.jpg',
+        width: 2048,
+        height: 1536,
+      },
+      {
+        id: 'YmPlzWUvb',
+        url: 'https://cdn2.thecatapi.com/images/YmPlzWUvb.jpg',
+        width: 880,
+        height: 703,
+      },
+      {
+        id: 'FpGGa6-9C',
+        url: 'https://cdn2.thecatapi.com/images/FpGGa6-9C.jpg',
+        width: 1332,
+        height: 850,
+      },
+      {
+        id: 'IJyPTBLyU',
+        url: 'https://cdn2.thecatapi.com/images/IJyPTBLyU.jpg',
+        width: 5401,
+        height: 3601,
+      },
+    ],
   },
   sing: {
     weight: {
@@ -8829,6 +11699,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
     <br>
     La Singapur ha recorrido un largo camino desde las calles de Singapur hasta las exposiciones de gatos en Estados Unidos y otros países. Su historia, aunque rodeada de misterio y controversia, es una prueba de su singularidad y atractivo. La raza Singapur, al igual que su historia, sigue cautivando y sorprendiendo a amantes de los gatos en todo el mundo.
     `,
+    gallery: [
+      {
+        id: '_PH33O5FA',
+        url: 'https://cdn2.thecatapi.com/images/_PH33O5FA.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'bYlsJYWKg',
+        url: 'https://cdn2.thecatapi.com/images/bYlsJYWKg.jpg',
+        width: 1080,
+        height: 972,
+      },
+      {
+        id: 'GOvziuOyw',
+        url: 'https://cdn2.thecatapi.com/images/GOvziuOyw.jpg',
+        width: 3309,
+        height: 2482,
+      },
+      {
+        id: 'VGzO6r82_',
+        url: 'https://cdn2.thecatapi.com/images/VGzO6r82_.jpg',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        id: '6jbkliQh5',
+        url: 'https://cdn2.thecatapi.com/images/6jbkliQh5.jpg',
+        width: 2048,
+        height: 1366,
+      },
+      {
+        id: '0THCGrAZj',
+        url: 'https://cdn2.thecatapi.com/images/0THCGrAZj.jpg',
+        width: 1200,
+        height: 811,
+      },
+      {
+        id: 'YoFolZlv5',
+        url: 'https://cdn2.thecatapi.com/images/YoFolZlv5.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: '1R_sq6SyF',
+        url: 'https://cdn2.thecatapi.com/images/1R_sq6SyF.jpg',
+        width: 750,
+        height: 562,
+      },
+      {
+        id: 'j3WPHuW7A',
+        url: 'https://cdn2.thecatapi.com/images/j3WPHuW7A.jpg',
+        width: 1232,
+        height: 924,
+      },
+      {
+        id: '4Q5bRarQO',
+        url: 'https://cdn2.thecatapi.com/images/4Q5bRarQO.jpg',
+        width: 1600,
+        height: 1067,
+      },
+    ],
   },
   snow: {
     weight: {
@@ -8975,6 +11907,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       A pesar de su historia relativamente corta, la Snowshoe ha dejado una huella indeleble en el mundo felino. Esta raza encantadora y única continúa cautivando a los amantes de los gatos en todo el mundo con su belleza, su inteligencia y su afectuosidad. Mientras los criadores y los amantes de los gatos continúen valorando y apreciando estas cualidades, no cabe duda de que la Snowshoe seguirá floreciendo.
     `,
+    gallery: [
+      {
+        id: '_qUK20W2d',
+        url: 'https://cdn2.thecatapi.com/images/_qUK20W2d.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'uTFc4z0wP',
+        url: 'https://cdn2.thecatapi.com/images/uTFc4z0wP.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'S1CN1w6Bt',
+        url: 'https://cdn2.thecatapi.com/images/S1CN1w6Bt.jpg',
+        width: 1741,
+        height: 2327,
+      },
+      {
+        id: 'BB18hZT2z',
+        url: 'https://cdn2.thecatapi.com/images/BB18hZT2z.jpg',
+        width: 2909,
+        height: 2126,
+      },
+      {
+        id: 'blr4iUu-b',
+        url: 'https://cdn2.thecatapi.com/images/blr4iUu-b.jpg',
+        width: 1920,
+        height: 1440,
+      },
+      {
+        id: 'rEV4IdCH5',
+        url: 'https://cdn2.thecatapi.com/images/rEV4IdCH5.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: '7LsPJSIuO',
+        url: 'https://cdn2.thecatapi.com/images/7LsPJSIuO.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'bs1vvq8XG',
+        url: 'https://cdn2.thecatapi.com/images/bs1vvq8XG.jpg',
+        width: 1080,
+        height: 826,
+      },
+      {
+        id: 'pBRl_KzA5',
+        url: 'https://cdn2.thecatapi.com/images/pBRl_KzA5.jpg',
+        width: 750,
+        height: 878,
+      },
+      {
+        id: '013-iJFrO',
+        url: 'https://cdn2.thecatapi.com/images/013-iJFrO.jpg',
+        width: 2592,
+        height: 1944,
+      },
+    ],
   },
   soma: {
     weight: {
@@ -9128,6 +12122,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       Desde entonces, la raza Somalí ha ganado popularidad y es apreciada por su hermoso pelaje, su encantadora personalidad y su apariencia salvaje. A pesar de su corta historia como raza distinta, los Somalíes han dejado una impresión duradera en el mundo felino y continúan cautivando a los amantes de los gatos con su encanto y belleza.
     `,
+    gallery: [
+      {
+        id: 'YQtmOXP0_',
+        url: 'https://cdn2.thecatapi.com/images/YQtmOXP0_.jpg',
+        width: 1600,
+        height: 1067,
+      },
+      {
+        id: 'wUxNIew6I',
+        url: 'https://cdn2.thecatapi.com/images/wUxNIew6I.jpg',
+        width: 1280,
+        height: 1920,
+      },
+      {
+        id: 'klJJYDl2B',
+        url: 'https://cdn2.thecatapi.com/images/klJJYDl2B.jpg',
+        width: 1279,
+        height: 784,
+      },
+      {
+        id: 'v63sbirkC',
+        url: 'https://cdn2.thecatapi.com/images/v63sbirkC.jpg',
+        width: 736,
+        height: 1108,
+      },
+      {
+        id: 'z0cI0mqjr',
+        url: 'https://cdn2.thecatapi.com/images/z0cI0mqjr.jpg',
+        width: 1600,
+        height: 1207,
+      },
+      {
+        id: 'WQVXW8KXM',
+        url: 'https://cdn2.thecatapi.com/images/WQVXW8KXM.jpg',
+        width: 1600,
+        height: 751,
+      },
+      {
+        id: 'wwbZdoPTX',
+        url: 'https://cdn2.thecatapi.com/images/wwbZdoPTX.jpg',
+        width: 1088,
+        height: 800,
+      },
+      {
+        id: 'MuIB88nqJ',
+        url: 'https://cdn2.thecatapi.com/images/MuIB88nqJ.jpg',
+        width: 750,
+        height: 750,
+      },
+      {
+        id: 'pmhGxB9-m',
+        url: 'https://cdn2.thecatapi.com/images/pmhGxB9-m.jpg',
+        width: 1080,
+        height: 1239,
+      },
+      {
+        id: '35ayLP9Ql',
+        url: 'https://cdn2.thecatapi.com/images/35ayLP9Ql.jpg',
+        width: 1440,
+        height: 1080,
+      },
+    ],
   },
   sphy: {
     weight: {
@@ -9276,6 +12332,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
     <br>
     A pesar de sus retos iniciales, la historia del Esfinx es una historia de éxito. La raza ha demostrado ser increíblemente resistente y ha superado muchos obstáculos para llegar a donde está hoy. Cada Esfinx que vemos hoy es un testimonio del arduo trabajo y la dedicación de los criadores que trabajaron incansablemente para establecer y mantener la raza. Y aunque el Esfinx puede parecer una raza "del futuro", su historia nos recuerda que son una parte integral de nuestro presente y nuestro pasado felino.
     `,
+    gallery: [
+      {
+        id: 'HBWdtLpif',
+        url: 'https://cdn2.thecatapi.com/images/HBWdtLpif.jpg',
+        width: 955,
+        height: 1023,
+      },
+      {
+        id: 'cIFwPWy84',
+        url: 'https://cdn2.thecatapi.com/images/cIFwPWy84.jpg',
+        width: 1705,
+        height: 1280,
+      },
+      {
+        id: 'h8dnuSch3',
+        url: 'https://cdn2.thecatapi.com/images/h8dnuSch3.jpg',
+        width: 1080,
+        height: 809,
+      },
+      {
+        id: 'JKITuMU25',
+        url: 'https://cdn2.thecatapi.com/images/JKITuMU25.jpg',
+        width: 1440,
+        height: 1800,
+      },
+      {
+        id: 'J-vpF8e1N',
+        url: 'https://cdn2.thecatapi.com/images/J-vpF8e1N.jpg',
+        width: 750,
+        height: 562,
+      },
+      {
+        id: 'oMrk721sl',
+        url: 'https://cdn2.thecatapi.com/images/oMrk721sl.png',
+        width: 1224,
+        height: 648,
+      },
+      {
+        id: 'LHOfWpFZa',
+        url: 'https://cdn2.thecatapi.com/images/LHOfWpFZa.jpg',
+        width: 1819,
+        height: 1213,
+      },
+      {
+        id: 'XwNRjN7JF',
+        url: 'https://cdn2.thecatapi.com/images/XwNRjN7JF.jpg',
+        width: 1358,
+        height: 1280,
+      },
+      {
+        id: 'DgBqcmqpc',
+        url: 'https://cdn2.thecatapi.com/images/DgBqcmqpc.jpg',
+        width: 994,
+        height: 1350,
+      },
+      {
+        id: 'BDb8ZXb1v',
+        url: 'https://cdn2.thecatapi.com/images/BDb8ZXb1v.jpg',
+        width: 1600,
+        height: 1067,
+      },
+    ],
   },
   tonk: {
     weight: {
@@ -9441,6 +12559,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
     <br>
     La historia del Tonkinés es un ejemplo inspirador de cómo el amor y la dedicación pueden dar lugar a algo verdaderamente especial. Aunque la raza es relativamente nueva en comparación con muchas otras razas de gatos, su historia está llena de logros y evolución. La raza Tonkinés sigue siendo una joya en la corona de la comunidad felina, y su historia continuará evolucionando a medida que criadores y dueños de todo el mundo continúen apreciando y criando estos gatos maravillosos.
     `,
+    gallery: [
+      {
+        id: '_np7TW9Iq',
+        url: 'https://cdn2.thecatapi.com/images/_np7TW9Iq.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: '5qNv0jHXW',
+        url: 'https://cdn2.thecatapi.com/images/5qNv0jHXW.jpg',
+        width: 1024,
+        height: 1024,
+      },
+      {
+        id: 'GVR6HHxv-',
+        url: 'https://cdn2.thecatapi.com/images/GVR6HHxv-.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'LR5DtaA8M',
+        url: 'https://cdn2.thecatapi.com/images/LR5DtaA8M.jpg',
+        width: 750,
+        height: 750,
+      },
+      {
+        id: 'ECqe13G5B',
+        url: 'https://cdn2.thecatapi.com/images/ECqe13G5B.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: 'q95bpC4ct',
+        url: 'https://cdn2.thecatapi.com/images/q95bpC4ct.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'Vb2JphRL3',
+        url: 'https://cdn2.thecatapi.com/images/Vb2JphRL3.jpg',
+        width: 1080,
+        height: 1183,
+      },
+      {
+        id: '6vPgXY9tb',
+        url: 'https://cdn2.thecatapi.com/images/6vPgXY9tb.jpg',
+        width: 750,
+        height: 936,
+      },
+      {
+        id: 'tnxX4IOst',
+        url: 'https://cdn2.thecatapi.com/images/tnxX4IOst.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: 'ciYIfAoze',
+        url: 'https://cdn2.thecatapi.com/images/ciYIfAoze.jpg',
+        width: 1024,
+        height: 768,
+      },
+    ],
   },
   toyg: {
     weight: {
@@ -9587,6 +12767,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       En resumen, la historia del Toyger es un testimonio de la creatividad, la dedicación y la pasión de los criadores de gatos. Aunque aún es una raza joven en términos de cría de gatos, la fascinante historia del Toyger ya se ha forjado en la historia de las razas felinas. El resultado final de estos esfuerzos de cría es un gato verdaderamente deslumbrante que captura la belleza salvaje de un tigre en un paquete doméstico manejable y cariñoso.
     `,
+    gallery: [
+      {
+        id: 'O3F3_S1XN',
+        url: 'https://cdn2.thecatapi.com/images/O3F3_S1XN.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'Qjb0fsrDo',
+        url: 'https://cdn2.thecatapi.com/images/Qjb0fsrDo.jpg',
+        width: 750,
+        height: 937,
+      },
+      {
+        id: '5Esmfiggi',
+        url: 'https://cdn2.thecatapi.com/images/5Esmfiggi.jpg',
+        width: 750,
+        height: 561,
+      },
+      {
+        id: 'VsxceZVop',
+        url: 'https://cdn2.thecatapi.com/images/VsxceZVop.jpg',
+        width: 750,
+        height: 750,
+      },
+      {
+        id: '1QofNBGEu',
+        url: 'https://cdn2.thecatapi.com/images/1QofNBGEu.jpg',
+        width: 750,
+        height: 750,
+      },
+      {
+        id: 'afc0MNLCE',
+        url: 'https://cdn2.thecatapi.com/images/afc0MNLCE.jpg',
+        width: 750,
+        height: 750,
+      },
+      {
+        id: '-LIBXM5Jt',
+        url: 'https://cdn2.thecatapi.com/images/-LIBXM5Jt.png',
+        width: 1920,
+        height: 1080,
+      },
+      {
+        id: 'sDns8AQGz',
+        url: 'https://cdn2.thecatapi.com/images/sDns8AQGz.jpg',
+        width: 1500,
+        height: 1000,
+      },
+      {
+        id: 'HW1MGAuGL',
+        url: 'https://cdn2.thecatapi.com/images/HW1MGAuGL.jpg',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        id: '3FoFgV7R2',
+        url: 'https://cdn2.thecatapi.com/images/3FoFgV7R2.jpg',
+        width: 2047,
+        height: 1326,
+      },
+    ],
   },
   tang: {
     weight: {
@@ -9741,6 +12983,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia del Angora Turco es un testimonio de la belleza y la resistencia de esta raza. A pesar de los desafíos que han enfrentado a lo largo de los siglos, estos gatos han logrado sobrevivir y prosperar, deleitando a las personas de todo el mundo con su apariencia majestuosa y su encantadora personalidad. Con su impresionante linaje y su lugar en la historia, los Angora Turcos seguirán siendo una raza de gatos apreciada y admirada por muchos años más.
     `,
+    gallery: [
+      {
+        id: 'WE47Mw166',
+        url: 'https://cdn2.thecatapi.com/images/WE47Mw166.jpg',
+        width: 750,
+        height: 750,
+      },
+      {
+        id: 'DVWNJ5WIr',
+        url: 'https://cdn2.thecatapi.com/images/DVWNJ5WIr.jpg',
+        width: 750,
+        height: 937,
+      },
+      {
+        id: 'GIpj4xxPA',
+        url: 'https://cdn2.thecatapi.com/images/GIpj4xxPA.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: 'c1OwKLEdL',
+        url: 'https://cdn2.thecatapi.com/images/c1OwKLEdL.jpg',
+        width: 1329,
+        height: 851,
+      },
+      {
+        id: '58mi0uCwO',
+        url: 'https://cdn2.thecatapi.com/images/58mi0uCwO.jpg',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        id: 'cSzaNCgq2',
+        url: 'https://cdn2.thecatapi.com/images/cSzaNCgq2.jpg',
+        width: 1024,
+        height: 768,
+      },
+      {
+        id: 'KU_LUntSX',
+        url: 'https://cdn2.thecatapi.com/images/KU_LUntSX.jpg',
+        width: 2634,
+        height: 3399,
+      },
+      {
+        id: 'Vkc_4BECE',
+        url: 'https://cdn2.thecatapi.com/images/Vkc_4BECE.jpg',
+        width: 3110,
+        height: 2073,
+      },
+      {
+        id: '7CGV6WVXq',
+        url: 'https://cdn2.thecatapi.com/images/7CGV6WVXq.jpg',
+        width: 736,
+        height: 1104,
+      },
+      {
+        id: 'ZDIuYg5UZ',
+        url: 'https://cdn2.thecatapi.com/images/ZDIuYg5UZ.png',
+        width: 1100,
+        height: 739,
+      },
+    ],
   },
   tvan: {
     weight: {
@@ -9893,6 +13197,68 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia del Van Turco es realmente intrigante, llena de resistencia y adaptación, y tiene sus raíces en las antiguas tierras de Turquía. Aunque ya no es una raza comúnmente encontrada en su tierra natal, el Van Turco ha encontrado admiradores en todo el mundo, cautivando a los amantes de los gatos con su impresionante apariencia y personalidad vivaz. Su historia, tan antigua y rica, es un testamento a su fortaleza y a su singular belleza.
     `,
+    gallery: [
+      {
+        id: 'j9_ETlBMp',
+        url: 'https://cdn2.thecatapi.com/images/j9_ETlBMp.jpg',
+        width: 1090,
+        height: 1600,
+      },
+      {
+        id: 'rEHfYqWUM',
+        url: 'https://cdn2.thecatapi.com/images/rEHfYqWUM.jpg',
+        width: 1100,
+        height: 733,
+      },
+      {
+        id: 'AhN6mXcc3',
+        url: 'https://cdn2.thecatapi.com/images/AhN6mXcc3.jpg',
+        width: 750,
+        height: 750,
+      },
+      {
+        id: 'JWiXSI6QG',
+        url: 'https://cdn2.thecatapi.com/images/JWiXSI6QG.jpg',
+        width: 1009,
+        height: 1234,
+      },
+      {
+        id: 'NHiuHD4Ax',
+        url: 'https://cdn2.thecatapi.com/images/NHiuHD4Ax.jpg',
+        width: 1656,
+        height: 2208,
+      },
+      {
+        id: 'dLrzJVXo1',
+        url: 'https://cdn2.thecatapi.com/images/dLrzJVXo1.jpg',
+        width: 1600,
+        height: 1142,
+      },
+      {
+        id: '5C9ONTPeY',
+        url: 'https://cdn2.thecatapi.com/images/5C9ONTPeY.jpg',
+        width: 1482,
+        height: 1658,
+      },
+      {
+        id: 'klLnMZy3q',
+        url: 'https://cdn2.thecatapi.com/images/klLnMZy3q.jpg',
+        width: 1022,
+        height: 1024,
+      },
+      {
+        id: 'VXppGG5rK',
+        url: 'https://cdn2.thecatapi.com/images/VXppGG5rK.jpg',
+        width: 1250,
+        height: 650,
+      },
+      {
+        id: '0VVrCBf1l',
+        url: 'https://cdn2.thecatapi.com/images/0VVrCBf1l.jpg',
+        width: 1024,
+        height: 768,
+      },
+    ],
   },
   ycho: {
     weight: {
@@ -10030,5 +13396,67 @@ export const CAT_LIST: { [key: string]: Cat } = {
       <br>
       La historia del York Chocolate es un reflejo de la maravillosa diversidad de las razas de gatos y de cómo una gata de granja común y corriente pudo dar origen a una raza completamente nueva y distinta. Es una historia que sigue atrapando a los amantes de los gatos, haciendo que quieran saber más sobre esta raza tan singular y atractiva. En resumen, la historia del York Chocolate es tan rica y fascinante como la raza misma.
     `,
+    gallery: [
+      {
+        id: 'sNSYauLG8',
+        url: 'https://cdn2.thecatapi.com/images/sNSYauLG8.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: 'LzVDEMYIv',
+        url: 'https://cdn2.thecatapi.com/images/LzVDEMYIv.jpg',
+        width: 750,
+        height: 750,
+      },
+      {
+        id: 'PlvdElgfk',
+        url: 'https://cdn2.thecatapi.com/images/PlvdElgfk.jpg',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        id: 'bqTGCEECv',
+        url: 'https://cdn2.thecatapi.com/images/bqTGCEECv.jpg',
+        width: 1080,
+        height: 1349,
+      },
+      {
+        id: '7pCnjXd47',
+        url: 'https://cdn2.thecatapi.com/images/7pCnjXd47.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: 'y9e6zClik',
+        url: 'https://cdn2.thecatapi.com/images/y9e6zClik.jpg',
+        width: 1080,
+        height: 1350,
+      },
+      {
+        id: 'Yt4_Z0aDC',
+        url: 'https://cdn2.thecatapi.com/images/Yt4_Z0aDC.jpg',
+        width: 1280,
+        height: 800,
+      },
+      {
+        id: 'xIICfnlNm',
+        url: 'https://cdn2.thecatapi.com/images/xIICfnlNm.jpg',
+        width: 1696,
+        height: 2544,
+      },
+      {
+        id: '0SxW2SQ_S',
+        url: 'https://cdn2.thecatapi.com/images/0SxW2SQ_S.jpg',
+        width: 800,
+        height: 1203,
+      },
+      {
+        id: '7_rjG2-pc',
+        url: 'https://cdn2.thecatapi.com/images/7_rjG2-pc.jpg',
+        width: 1254,
+        height: 836,
+      },
+    ],
   },
 };
