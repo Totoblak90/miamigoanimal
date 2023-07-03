@@ -36,6 +36,7 @@ import { ArticleSkeletonComponent } from '../components/article-skeleton/article
 import { LasMejoresRazasDePerrosGrandesParaTenerEnCasaComponent } from './las-mejores-razas-de-perros-grandes-para-tener-en-casa/las-mejores-razas-de-perros-grandes-para-tener-en-casa.component';
 import { TodoSobreLosGatosNegrosDescubreSuPersonalidadYCaracteristicasComponent } from './todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas/todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas.component';
 import { MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent } from './mejores-alimentos-para-perros-guia-de-nutricion-canina/mejores-alimentos-para-perros-guia-de-nutricion-canina.component';
+import { TodoSobreElPastorBelgaMalinoisCaracteristicasCuidadosYAdiestramientoComponent } from './todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento/todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento.component';
 
 
 @NgModule({
@@ -64,6 +65,7 @@ import { MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent } from './mejo
     LasMejoresRazasDePerrosGrandesParaTenerEnCasaComponent,
     TodoSobreLosGatosNegrosDescubreSuPersonalidadYCaracteristicasComponent,
     MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent,
+    TodoSobreElPastorBelgaMalinoisCaracteristicasCuidadosYAdiestramientoComponent,
   ],
   imports: [
     CommonModule,

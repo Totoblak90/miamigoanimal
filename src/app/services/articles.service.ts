@@ -543,6 +543,17 @@ export class ArticlesService {
       buscador: ["Guía nutrición canina", "Ingredientes de calidad para perros", "Dieta equilibrada perros", "AAFCO", "Alergias alimentarias perros", "Proteínas animales y vegetales perros", "Evitar aditivos artificiales perros", "Omega-3 y Omega-6 para perros", "Leer etiqueta de ingredientes alimento perros", "Beneficios comida casera perros"],
     },
 
+    {
+      url: 'todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento',
+      categories: ["Perros"],
+      'card-heading': 'Pastor Belga Malinois',
+      sections: ["Pastor Belga Malinois", "inteligencia", "versátilidad", "popularidad", "Bélgica", "trabajo", "guardián", "ejercicio"],
+      destacado: false,
+      creation: '7/03/2023, 14:13:00',
+      recent_card_title: '¡Todo sobre el Pastor Belga Malinois! 🐾 Características, Cuidados y Adiestramiento',
+      buscador: ["Pastor Belga", "Malinois", "Origen", "Temperamento", "Cuidados", "Higiene", "Dieta", "Adiestramiento", "Ejercicio", "Historia"],
+    },
+
   ]);
 
   constructor() {}

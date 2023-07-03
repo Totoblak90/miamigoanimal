@@ -29,6 +29,7 @@ import { DescubreLosMejoresAlimentosParaPerrosEnNuestraGuiaCompletaComponent } f
 import { LasMejoresRazasDePerrosGrandesParaTenerEnCasaComponent } from './las-mejores-razas-de-perros-grandes-para-tener-en-casa/las-mejores-razas-de-perros-grandes-para-tener-en-casa.component';
 import { TodoSobreLosGatosNegrosDescubreSuPersonalidadYCaracteristicasComponent } from './todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas/todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas.component';
 import { MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent } from './mejores-alimentos-para-perros-guia-de-nutricion-canina/mejores-alimentos-para-perros-guia-de-nutricion-canina.component';
+import { TodoSobreElPastorBelgaMalinoisCaracteristicasCuidadosYAdiestramientoComponent } from './todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento/todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento.component';
 
 const routes: Routes = [
   {
@@ -122,6 +123,10 @@ const routes: Routes = [
   {
     path: 'mejores-alimentos-para-perros-guia-de-nutricion-canina',
     component: MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent
+  },
+  {
+    path: 'todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento',
+    component: TodoSobreElPastorBelgaMalinoisCaracteristicasCuidadosYAdiestramientoComponent
   },
 
   {
