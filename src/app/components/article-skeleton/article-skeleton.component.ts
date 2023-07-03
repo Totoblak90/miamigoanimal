@@ -3,6 +3,7 @@ import { Component, Input } from '@angular/core';
 import { SocialIconsComponent } from '../social-icons/social-icons.component';
 import { LastArticlesComponent } from '../recent-articles-list/recent-articles-list.component';
 import { HighlitedArticlesPostsComponent } from '../highlited-articles-posts/highlited-articles-posts.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'article-skeleton',
@@ -13,7 +14,8 @@ import { HighlitedArticlesPostsComponent } from '../highlited-articles-posts/hig
     CommonModule,
     SocialIconsComponent,
     LastArticlesComponent,
-    HighlitedArticlesPostsComponent
+    HighlitedArticlesPostsComponent,
+    RouterModule
   ],
 
 })

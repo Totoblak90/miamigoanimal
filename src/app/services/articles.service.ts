@@ -39,7 +39,7 @@ Los datos son los siguientes:
 
 PROMT PARA CALIDAD DE CONTENIDO Y SEO:
 
-Estoy haciendo un blog sobre perros y gatos. Te voy a dar una url, quiero que analices todo el html de la misma, incluidos el metatitle, la meta descripción y todo el contenido y quiero que me hagas análisis de SEO de los mismos, a tener en cuenta:
+Estoy haciendo un blog sobre perros y gatos.  Te voy a dar una meta descripción, un meta título y el contenido de un artículo de blog y quiero que me hagas análisis de SEO de los mismos, a tener en cuenta:
 
 - quiero que me digas si el contenido es relevante o no o si es simplemente un relleno de palabras clave
 - si las palabras claves estan siendo bien utilizadas en el texto o no,
@@ -49,7 +49,7 @@ Estoy haciendo un blog sobre perros y gatos. Te voy a dar una url, quiero que an
 - Es el contenido lo suficientemente largo para SEO?
 - Cualquier otra información que consideres relevante para el posicionamiento y experiencia de usuario es bienvenida
 
-La url es la siguiente:
+Los datos son los siguientes:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -508,6 +508,39 @@ export class ArticlesService {
       creation: '6/21/2023, 16:05:00',
       recent_card_title: '🐶 Descubre los Mejores Alimentos para Perros en nuestra Guía Completa 🐕',
       buscador: ["Comida para perros", "Pienso", "Dieta Canina", "Ingredientes saludables", "Evitar alérgenos", "Comida para razas específicas", "Nutrición perros", "Alergias caninas", "Alimentación cachorros", "Necesidades nutricionales"],
+    },
+
+    {
+      url: 'las-mejores-razas-de-perros-grandes-para-tener-de-mascota-en-casa',
+      categories: ['Perros'],
+      'card-heading': 'Mascotas grandes en casa',
+      sections: ["Razas grandes",  "Labrador Retriever", "Husky Siberiano", "Doberman Pinscher", "Bullmastiff", "Boxer", "Protección", "Características", "Hogar", "Patio", "Apartamento"],
+      destacado: false,
+      creation: '7/03/2023, 12:00:00',
+      recent_card_title: '🐕 Las Mejores Razas de Perros Grandes para Tener de Mascota en Casa',
+      buscador: ["Razas de perros grandes", "Mejores razas grandes", "Cuidados perros grandes", "Ejercicio perros grandes", "Comportamiento perros grandes", "Aseo perros grandes", "Problemas salud perros grandes", "Adiestramiento perros grandes", "Razas grandes para familias", "Razas grandes para pisos"],
+    },
+
+    {
+      url: 'todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas',
+      categories: ['Gatos'],
+      'card-heading': 'Gatos negros',
+      sections: ["Historia", "Características", "Personalidad", "Adopción", "Curiosidades", "Belleza", "Inteligencia", "Misterio", "Amistad", "Supersticiones"],
+      destacado: false,
+      creation: '7/03/2023, 12:37:00',
+      recent_card_title: 'Todo sobre los gatos negros 🐈: Descubre su personalidad y características - EsferaMascota 🐾',
+      buscador: ["Gato negro", "Rasgos gato negro", "Historia gato negro", "Adoptar gato negro", "Salud gato negro", "Gato negro personalidad", "Cuidados gato negro", "Curiosidades gato negro", "Físico gato negro", "Características gato negro"],
+    },
+
+    {
+      url: 'mejores-alimentos-para-perros-guia-de-nutricion-canina',
+      categories: ['Alimentacion', "Perros"],
+      'card-heading': 'Nutrición canina',
+      sections: ["Nutrición canina", "Dieta equilibrada", "Ingredientes de calidad", "Proteínas", "Vitaminas", "Intolerancias", "AAFCO", "Omega-3", "Omega-6", "Etiqueta de ingredientes"],
+      destacado: true,
+      creation: '7/03/2023, 12:54:00',
+      recent_card_title: '🐶 Mejores Alimentos para Perros: Guía de Nutrición Canina',
+      buscador: ["Guía nutrición canina", "Ingredientes de calidad para perros", "Dieta equilibrada perros", "AAFCO", "Alergias alimentarias perros", "Proteínas animales y vegetales perros", "Evitar aditivos artificiales perros", "Omega-3 y Omega-6 para perros", "Leer etiqueta de ingredientes alimento perros", "Beneficios comida casera perros"],
     },
 
   ]);

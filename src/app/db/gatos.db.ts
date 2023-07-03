@@ -7963,6 +7963,7 @@ export const CAT_LIST: { [key: string]: Cat } = {
       'Gato Maine Shag',
       'Gato Snowshoe',
       'Gato American Longhair',
+      "Gatos Negros"
     ],
     description: `
       La raza de gato Maine Coon es una de las más populares y apreciadas en todo el mundo. Sus principales características físicas y su personalidad encantadora hacen de ellos unos compañeros domésticos ideales, llegando a ser considerados en muchas ocasiones como parte integral de la familia.

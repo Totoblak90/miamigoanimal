@@ -26,6 +26,9 @@ import { GatoSiamesCaracteristicasCuidadosYCuriosidadesComponent } from './gato-
 import { TodoLoQueDebesSaberSobreElPomeraniaComponent } from './todo-lo-que-debes-saber-sobre-el-pomerania/todo-lo-que-debes-saber-sobre-el-pomerania.component';
 import { AprendeTodoSobreElCanicheCaracteristicasCuidadosYCuriosidadesComponent } from './aprende-todo-sobre-el-caniche-caracteristicas-cuidados-ycuriosidades/aprende-todo-sobre-el-caniche-caracteristicas-cuidados-ycuriosidades.component';
 import { DescubreLosMejoresAlimentosParaPerrosEnNuestraGuiaCompletaComponent } from './descubre-los-mejores-alimentos-para-perros-en-nuestra-guia-completa/descubre-los-mejores-alimentos-para-perros-en-nuestra-guia-completa.component';
+import { LasMejoresRazasDePerrosGrandesParaTenerEnCasaComponent } from './las-mejores-razas-de-perros-grandes-para-tener-en-casa/las-mejores-razas-de-perros-grandes-para-tener-en-casa.component';
+import { TodoSobreLosGatosNegrosDescubreSuPersonalidadYCaracteristicasComponent } from './todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas/todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas.component';
+import { MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent } from './mejores-alimentos-para-perros-guia-de-nutricion-canina/mejores-alimentos-para-perros-guia-de-nutricion-canina.component';
 
 const routes: Routes = [
   {
@@ -107,6 +110,18 @@ const routes: Routes = [
   {
     path: 'descubre-los-mejores-alimentos-para-perros-en-nuestra-guia-completa',
     component: DescubreLosMejoresAlimentosParaPerrosEnNuestraGuiaCompletaComponent
+  },
+  {
+    path: 'las-mejores-razas-de-perros-grandes-para-tener-de-mascota-en-casa',
+    component: LasMejoresRazasDePerrosGrandesParaTenerEnCasaComponent
+  },
+  {
+    path: 'todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas',
+    component: TodoSobreLosGatosNegrosDescubreSuPersonalidadYCaracteristicasComponent
+  },
+  {
+    path: 'mejores-alimentos-para-perros-guia-de-nutricion-canina',
+    component: MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent
   },
 
   {

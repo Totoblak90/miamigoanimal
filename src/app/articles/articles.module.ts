@@ -33,6 +33,9 @@ import { IndexComponent } from '../components/index/index.component';
 import { FlippingCardComponent } from '../components/flipping-card/flipping-card.component';
 import { IframeCardComponent } from '../components/iframe-card/iframe-card.component';
 import { ArticleSkeletonComponent } from '../components/article-skeleton/article-skeleton.component';
+import { LasMejoresRazasDePerrosGrandesParaTenerEnCasaComponent } from './las-mejores-razas-de-perros-grandes-para-tener-en-casa/las-mejores-razas-de-perros-grandes-para-tener-en-casa.component';
+import { TodoSobreLosGatosNegrosDescubreSuPersonalidadYCaracteristicasComponent } from './todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas/todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas.component';
+import { MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent } from './mejores-alimentos-para-perros-guia-de-nutricion-canina/mejores-alimentos-para-perros-guia-de-nutricion-canina.component';
 
 
 @NgModule({
@@ -58,6 +61,9 @@ import { ArticleSkeletonComponent } from '../components/article-skeleton/article
     TodoLoQueDebesSaberSobreElPomeraniaComponent,
     AprendeTodoSobreElCanicheCaracteristicasCuidadosYCuriosidadesComponent,
     DescubreLosMejoresAlimentosParaPerrosEnNuestraGuiaCompletaComponent,
+    LasMejoresRazasDePerrosGrandesParaTenerEnCasaComponent,
+    TodoSobreLosGatosNegrosDescubreSuPersonalidadYCaracteristicasComponent,
+    MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent,
   ],
   imports: [
     CommonModule,
