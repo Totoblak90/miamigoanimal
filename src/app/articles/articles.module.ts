@@ -37,6 +37,8 @@ import { LasMejoresRazasDePerrosGrandesParaTenerEnCasaComponent } from './las-me
 import { TodoSobreLosGatosNegrosDescubreSuPersonalidadYCaracteristicasComponent } from './todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas/todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas.component';
 import { MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent } from './mejores-alimentos-para-perros-guia-de-nutricion-canina/mejores-alimentos-para-perros-guia-de-nutricion-canina.component';
 import { TodoSobreElPastorBelgaMalinoisCaracteristicasCuidadosYAdiestramientoComponent } from './todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento/todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento.component';
+import { BeagleEnEspanaComponent } from './beagle-en-espana/beagle-en-espana.component';
+import { CanicheToyCaracteristicasCuidadosYMasDescubreloTodoAquiComponent } from './caniche-toy-caracteristicas-cuidados-y-mas-descubrelo-todo-aqui/caniche-toy-caracteristicas-cuidados-y-mas-descubrelo-todo-aqui.component';
 
 
 @NgModule({
@@ -66,6 +68,8 @@ import { TodoSobreElPastorBelgaMalinoisCaracteristicasCuidadosYAdiestramientoCom
     TodoSobreLosGatosNegrosDescubreSuPersonalidadYCaracteristicasComponent,
     MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent,
     TodoSobreElPastorBelgaMalinoisCaracteristicasCuidadosYAdiestramientoComponent,
+    BeagleEnEspanaComponent,
+    CanicheToyCaracteristicasCuidadosYMasDescubreloTodoAquiComponent,
   ],
   imports: [
     CommonModule,

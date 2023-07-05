@@ -554,6 +554,28 @@ export class ArticlesService {
       buscador: ["Pastor Belga", "Malinois", "Origen", "Temperamento", "Cuidados", "Higiene", "Dieta", "Adiestramiento", "Ejercicio", "Historia"],
     },
 
+    {
+      url: 'beagle-en-espana',
+      categories: ["Perros"],
+      'card-heading': 'Beagle en España',
+      sections: ["Historia", "Olfato", "Cuidados", "Personalidad", "Compañía"],
+      destacado: false,
+      creation: '7/05/2023, 14:45:00',
+      recent_card_title: '¡Conoce al Beagle: la popular raza de perro en España! 🐕',
+      buscador: ["Beagle", "historia Beagle", "Beagle España", "olfato Beagle", "Beagle caza", "cuidados Beagle", "Beagle compañía", "Beagle personalidad", "raza Beagle", "Beagle ejercicios"],
+    },
+
+    {
+      url: 'caniche-toy-caracteristicas-cuidados-y-mas-descubrelo-todo-aqui',
+      categories: ["Perros"],
+      'card-heading': 'Caniche Toy',
+      sections: ["Inteligencia", "Juguetón", "Socialización", "Cachorro", "Familia", "Ejercicio"],
+      destacado: false,
+      creation: '7/05/2023, 15:20:00',
+      recent_card_title: 'Caniche Toy: Características, Cuidados y Más - ¡Descúbrelo todo aquí!',
+      buscador: ["Caniche Toy", "Raza de perro", "Guía de caniches", "Cuidado de caniches", "Salud de caniches", "Personalidad de caniche", "Aspecto de caniche", "Cuidado de caniche", "Vida con caniche", "Caniche en familia"],
+    },
+
   ]);
 
   constructor() {}

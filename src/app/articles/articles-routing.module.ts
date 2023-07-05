@@ -13,7 +13,6 @@ import { BulldogInglesCaracteristicasCuidadosYCuriosidadesDeEstaRazaIconicaCompo
 import { ElBulldogInglesCaracteristicasCuidadosYCuriosidadesComponent } from './el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades/el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades.component';
 import { ConoceTodoAcercaDelPerroSanBernardoComponent } from './conoce-todo-acerca-del-perro-san-bernardo/conoce-todo-acerca-del-perro-san-bernardo.component';
 
-
 // Search
 import { AaaArticleSearchComponent } from './aaa-article-search/aaa-article-search';
 import { DescubreElBoyeroDeBernaComponent } from './descubre-el-boyero-de-berna/descubre-el-boyero-de-berna.component';
@@ -30,113 +29,134 @@ import { LasMejoresRazasDePerrosGrandesParaTenerEnCasaComponent } from './las-me
 import { TodoSobreLosGatosNegrosDescubreSuPersonalidadYCaracteristicasComponent } from './todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas/todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas.component';
 import { MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent } from './mejores-alimentos-para-perros-guia-de-nutricion-canina/mejores-alimentos-para-perros-guia-de-nutricion-canina.component';
 import { TodoSobreElPastorBelgaMalinoisCaracteristicasCuidadosYAdiestramientoComponent } from './todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento/todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento.component';
+import { BeagleEnEspanaComponent } from './beagle-en-espana/beagle-en-espana.component';
+import { CanicheToyCaracteristicasCuidadosYMasDescubreloTodoAquiComponent } from './caniche-toy-caracteristicas-cuidados-y-mas-descubrelo-todo-aqui/caniche-toy-caracteristicas-cuidados-y-mas-descubrelo-todo-aqui.component';
 
 const routes: Routes = [
-  {
-    path: 'adopta-a-los-gatitos-mas-tiernos-y-juguetones-encuentra-tu-companero-felino-ideal',
-    component: AdoptaALosGatitosMasTiernosYJuguetonesEncuentraTuCompaneroFelinoIdealComponent
-  },
-  {
-    path: 'conoce-las-mejores-razas-de-perros-guia-completa-y-actualizada',
-    component: ConoceLasMejoresRazasDePerrosGuiaCompletaYActualizadaComponent
-  },
-  {
-    path: 'descubre-los-mejores-cuidados-para-tus-perritos',
-    component: DescubreLosMejoresCuidadosParaTusPerritosComponent
-  },
-  {
-    path: 'perritas-adorables-todo-lo-que-necesitas-saber-sobre-estas-tiernas-mascotas',
-    component: PerritasAdorablesTodoLoQueNecesitasSaberSobreEstasTiernasMascotasComponent
-  },
-  {
-    path: 'todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo',
-    component: TodoSobrePerrosInformacionCuriosidadesYConsejosUtilesParaCuidarATuMejorAmigoComponent
-  },
-  {
-    path: 'todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades',
-    component: TodoLoQueNecesitasSaberSobreGatosRazasCuidadosYCuriosidadesComponent
-  },
-  {
-    path: 'bulldog-frances-todo-lo-que-necesitas-saber-sobre-esta-adorable-raza-de-perros',
-    component: BulldogFrancesTodoLoQueNecesitasSaberSobreEstaAdorableRazaDePerrosComponent
-  },
-  {
-    path: 'bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica',
-    component: BulldogInglesCaracteristicasCuidadosYCuriosidadesDeEstaRazaIconicaComponent
-  },
-  {
-    path: 'el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades',
-    component: ElBulldogInglesCaracteristicasCuidadosYCuriosidadesComponent
-  },
-  {
-    path: 'conoce-todo-acerca-del-perro-san-bernardo',
-    component: ConoceTodoAcercaDelPerroSanBernardoComponent
-  },
-  {
-    path: 'descubre-el-boyero-de-berna',
-    component: DescubreElBoyeroDeBernaComponent
-  },
-  {
-    path: 'pastor-aleman-caracteristicas-cuidados-y-curiosidades',
-    component: PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent
-  },
-  {
-    path: 'perro-salchicha-caracteristicas-cuidados-y-curiosidades',
-    component: PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent
-  },
-  {
-    path: 'descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular',
-    component: DescubreTodoSobreLosGatosPersaLaRazaMasPopularComponent
-  },
-  {
-    path: 'descubre-las-mejores-razas-de-perros-pequenos-guia-completa',
-    component: DescubreLasMejoresRazasDePerrosPequeniosGuiaCompletaComponent
-  },
-  {
-    path: 'gran-danes-caracteroisticas-cuidados-y-curiosidades',
-    component: GranDanesCaracteristicasCuidadosYCuriosidadesComponent
-  },
-  {
-    path: 'gato-siames-caracteristicas-cuidados-y-curiosidades',
-    component: GatoSiamesCaracteristicasCuidadosYCuriosidadesComponent
-  },
-  {
-    path: 'todo-lo-que-debes-saber-sobre-el-pomerania',
-    component: TodoLoQueDebesSaberSobreElPomeraniaComponent
-  },
-  {
-    path: 'aprende-todo-sobre-el-caniche-caracteristicas-cuidados-ycuriosidades',
-    component: AprendeTodoSobreElCanicheCaracteristicasCuidadosYCuriosidadesComponent
-  },
-  {
-    path: 'descubre-los-mejores-alimentos-para-perros-en-nuestra-guia-completa',
-    component: DescubreLosMejoresAlimentosParaPerrosEnNuestraGuiaCompletaComponent
-  },
-  {
-    path: 'las-mejores-razas-de-perros-grandes-para-tener-de-mascota-en-casa',
-    component: LasMejoresRazasDePerrosGrandesParaTenerEnCasaComponent
-  },
-  {
-    path: 'todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas',
-    component: TodoSobreLosGatosNegrosDescubreSuPersonalidadYCaracteristicasComponent
-  },
-  {
-    path: 'mejores-alimentos-para-perros-guia-de-nutricion-canina',
-    component: MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent
-  },
-  {
-    path: 'todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento',
-    component: TodoSobreElPastorBelgaMalinoisCaracteristicasCuidadosYAdiestramientoComponent
-  },
+   {
+      path: 'adopta-a-los-gatitos-mas-tiernos-y-juguetones-encuentra-tu-companero-felino-ideal',
+      component:
+         AdoptaALosGatitosMasTiernosYJuguetonesEncuentraTuCompaneroFelinoIdealComponent,
+   },
+   {
+      path: 'conoce-las-mejores-razas-de-perros-guia-completa-y-actualizada',
+      component: ConoceLasMejoresRazasDePerrosGuiaCompletaYActualizadaComponent,
+   },
+   {
+      path: 'descubre-los-mejores-cuidados-para-tus-perritos',
+      component: DescubreLosMejoresCuidadosParaTusPerritosComponent,
+   },
+   {
+      path: 'perritas-adorables-todo-lo-que-necesitas-saber-sobre-estas-tiernas-mascotas',
+      component:
+         PerritasAdorablesTodoLoQueNecesitasSaberSobreEstasTiernasMascotasComponent,
+   },
+   {
+      path: 'todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo',
+      component:
+         TodoSobrePerrosInformacionCuriosidadesYConsejosUtilesParaCuidarATuMejorAmigoComponent,
+   },
+   {
+      path: 'todo-lo-que-necesitas-saber-sobre-gatos-razas-cuidados-y-curiosidades',
+      component:
+         TodoLoQueNecesitasSaberSobreGatosRazasCuidadosYCuriosidadesComponent,
+   },
+   {
+      path: 'bulldog-frances-todo-lo-que-necesitas-saber-sobre-esta-adorable-raza-de-perros',
+      component:
+         BulldogFrancesTodoLoQueNecesitasSaberSobreEstaAdorableRazaDePerrosComponent,
+   },
+   {
+      path: 'bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica',
+      component:
+         BulldogInglesCaracteristicasCuidadosYCuriosidadesDeEstaRazaIconicaComponent,
+   },
+   {
+      path: 'el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades',
+      component: ElBulldogInglesCaracteristicasCuidadosYCuriosidadesComponent,
+   },
+   {
+      path: 'conoce-todo-acerca-del-perro-san-bernardo',
+      component: ConoceTodoAcercaDelPerroSanBernardoComponent,
+   },
+   {
+      path: 'descubre-el-boyero-de-berna',
+      component: DescubreElBoyeroDeBernaComponent,
+   },
+   {
+      path: 'pastor-aleman-caracteristicas-cuidados-y-curiosidades',
+      component: PastorAlemanCaracteristicasCuidadosYCuriosidadesComponent,
+   },
+   {
+      path: 'perro-salchicha-caracteristicas-cuidados-y-curiosidades',
+      component: PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent,
+   },
+   {
+      path: 'descubre-todo-sobre-los-gatos-persa-la-raza-mas-popular',
+      component: DescubreTodoSobreLosGatosPersaLaRazaMasPopularComponent,
+   },
+   {
+      path: 'descubre-las-mejores-razas-de-perros-pequenos-guia-completa',
+      component: DescubreLasMejoresRazasDePerrosPequeniosGuiaCompletaComponent,
+   },
+   {
+      path: 'gran-danes-caracteroisticas-cuidados-y-curiosidades',
+      component: GranDanesCaracteristicasCuidadosYCuriosidadesComponent,
+   },
+   {
+      path: 'gato-siames-caracteristicas-cuidados-y-curiosidades',
+      component: GatoSiamesCaracteristicasCuidadosYCuriosidadesComponent,
+   },
+   {
+      path: 'todo-lo-que-debes-saber-sobre-el-pomerania',
+      component: TodoLoQueDebesSaberSobreElPomeraniaComponent,
+   },
+   {
+      path: 'aprende-todo-sobre-el-caniche-caracteristicas-cuidados-ycuriosidades',
+      component:
+         AprendeTodoSobreElCanicheCaracteristicasCuidadosYCuriosidadesComponent,
+   },
+   {
+      path: 'descubre-los-mejores-alimentos-para-perros-en-nuestra-guia-completa',
+      component:
+         DescubreLosMejoresAlimentosParaPerrosEnNuestraGuiaCompletaComponent,
+   },
+   {
+      path: 'las-mejores-razas-de-perros-grandes-para-tener-de-mascota-en-casa',
+      component: LasMejoresRazasDePerrosGrandesParaTenerEnCasaComponent,
+   },
+   {
+      path: 'todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas',
+      component:
+         TodoSobreLosGatosNegrosDescubreSuPersonalidadYCaracteristicasComponent,
+   },
+   {
+      path: 'mejores-alimentos-para-perros-guia-de-nutricion-canina',
+      component: MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent,
+   },
+   {
+      path: 'todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento',
+      component:
+         TodoSobreElPastorBelgaMalinoisCaracteristicasCuidadosYAdiestramientoComponent,
+   },
+   {
+      path: 'beagle-en-espana',
+      component: BeagleEnEspanaComponent,
+   },
+   {
+      path: 'caniche-toy-caracteristicas-cuidados-y-mas-descubrelo-todo-aqui',
+      component:
+         CanicheToyCaracteristicasCuidadosYMasDescubreloTodoAquiComponent,
+   },
 
-  {
-    path: 'search-post',
-    component: AaaArticleSearchComponent
-  }
+   {
+      path: 'search-post',
+      component: AaaArticleSearchComponent,
+   },
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+   imports: [RouterModule.forChild(routes)],
+   exports: [RouterModule],
 })
-export class ArticlesRoutingModule { }
+export class ArticlesRoutingModule {}
