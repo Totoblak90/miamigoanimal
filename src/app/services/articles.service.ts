@@ -576,6 +576,39 @@ export class ArticlesService {
       buscador: ["Caniche Toy", "Raza de perro", "Guía de caniches", "Cuidado de caniches", "Salud de caniches", "Personalidad de caniche", "Aspecto de caniche", "Cuidado de caniche", "Vida con caniche", "Caniche en familia"],
     },
 
+    {
+      url: 'conoce-al-pug-carlino-la-raza-de-perro-mas-adorable',
+      categories: ["Perros"],
+      'card-heading': 'Pug Carlino',
+      sections: ["Problemas comunes",  "Aseo", "Cuidados", "Entrenamiento", "Historia", "Características físicas", "Personalidad", "Lealtad", "Cariño"],
+      destacado: false,
+      creation: '7/05/2023, 15:43:00',
+      recent_card_title: '¡Conoce al Pug Carlino, la Raza de Perro Más Adorable! 🐶',
+      buscador: ["Carlino", "Raza de perro", "Historia del Carlino", "Problemas comunes del Carlino", "Cuidado del Carlino", "Características del Carlino", "Personalidad del Carlino", "Aseo del Carlino", "Entrenamiento del Carlino", "Carlino y niños", "Tamaño del Carlino"],
+    },
+
+    {
+      url: 'perro-chihuahua-caracteristicas-y-cuidados',
+      categories: ["Perros"],
+      'card-heading': 'Chihuahua',
+      sections: ["Historia", "Origen", "Características", "Personalidad", "Cuidados", "Acicalamiento", "Personalidad", "Temperamento", "Rutina"],
+      destacado: false,
+      creation: '7/05/2023, 16:43:00',
+      recent_card_title: 'Perro Chihuahua: Características y Cuidados 🐕 🐶',
+      buscador: ["Chihuahua", "Raza", "Historia", "Características", "Físicas", "Personalidad", "Cuidados", "Diarios", "Temperamento", "Adiestramiento"],
+    },
+
+    {
+      url: 'perros-boxer-caracteristicas-cuidados-y-mas',
+      categories: ["Perros"],
+      'card-heading': 'Boxer',
+      sections: ["Características", "Historia", "Origen", "Físico", "Personalidad", "Problemas comunes", "Alergias", "Actividad", "Nutrición"],
+      destacado: false,
+      creation: '7/05/2023, 17:21:00',
+      recent_card_title: '🐶 Perros Bóxer: Características, Cuidados y Más',
+      buscador: ["Bóxer", "Origen bóxer", "Características bóxer", "Personalidad bóxer", "Salud bóxer", "Cuidado bóxer", "Nutrición bóxer", "Problemas de salud bóxer", "Crianza bóxer", "Historia bóxer"],
+    },
+
   ]);
 
   constructor() {}

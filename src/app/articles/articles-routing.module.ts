@@ -31,6 +31,9 @@ import { MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent } from './mejo
 import { TodoSobreElPastorBelgaMalinoisCaracteristicasCuidadosYAdiestramientoComponent } from './todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento/todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento.component';
 import { BeagleEnEspanaComponent } from './beagle-en-espana/beagle-en-espana.component';
 import { CanicheToyCaracteristicasCuidadosYMasDescubreloTodoAquiComponent } from './caniche-toy-caracteristicas-cuidados-y-mas-descubrelo-todo-aqui/caniche-toy-caracteristicas-cuidados-y-mas-descubrelo-todo-aqui.component';
+import { ConoceAlPugCarlinoLaRazaDePerroMasAdorableComponent } from './conoce-al-pug-carlino-la-raza-de-perro-mas-adorable/conoce-al-pug-carlino-la-raza-de-perro-mas-adorable.component';
+import { PerroChihuahuaCaracteristicasYCuidadosComponent } from './perro-chihuahua-caracteristicas-y-cuidados/perro-chihuahua-caracteristicas-y-cuidados.component';
+import { PerrosBoxerCaracteristicasCuidadosYMasComponent } from './perros-boxer-caracteristicas-cuidados-y-mas/perros-boxer-caracteristicas-cuidados-y-mas.component';
 
 const routes: Routes = [
    {
@@ -148,6 +151,19 @@ const routes: Routes = [
       component:
          CanicheToyCaracteristicasCuidadosYMasDescubreloTodoAquiComponent,
    },
+   {
+      path: 'conoce-al-pug-carlino-la-raza-de-perro-mas-adorable',
+      component: ConoceAlPugCarlinoLaRazaDePerroMasAdorableComponent,
+   },
+   {
+      path: 'perro-chihuahua-caracteristicas-y-cuidados',
+      component: PerroChihuahuaCaracteristicasYCuidadosComponent,
+   },
+   {
+      path: 'perros-boxer-caracteristicas-cuidados-y-mas',
+      component: PerrosBoxerCaracteristicasCuidadosYMasComponent,
+   },
+
 
    {
       path: 'search-post',

@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, OnInit, TransferState, makeStateKey } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { DirectivesModule } from 'src/app/directives/directives.module';
 import { GatosService } from 'src/app/services/gatos.service';
 import { PerrosService } from 'src/app/services/perros.service';
@@ -22,11 +22,16 @@ export class RecentArticleCardComponent implements OnInit {
 
   selectedImage: string = '';
 
+  get hideCard() {
+   return this.router.url.includes(this.url)
+  }
+
   constructor(
     private utilitiesSrv: UtilitiesService,
     private perrosService: PerrosService,
     private gatosService: GatosService,
-    private transferState: TransferState
+    private transferState: TransferState,
+    private router: Router
   ) {}
 
   ngOnInit() {
