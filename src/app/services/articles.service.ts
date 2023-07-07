@@ -610,7 +610,7 @@ export class ArticlesService {
     },
 
     {
-      url: 'mejores-alimentos-para-perros-guia-de-nutricion-canina',
+      url: 'los-mejores-alimentos-para-perros-guia-de-alimentacion-saludable',
       categories: ["Alimentacion", "Perros"],
       'card-heading': 'Alimentación saludable',
       sections: ["Ingredientes clave", "Consejos para elegir", "Comida casera", "Comida comprada", "BARF", "Dieta vegetariana", "Recomendación productos"],
