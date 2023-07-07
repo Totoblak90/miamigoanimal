@@ -42,6 +42,7 @@ import { CanicheToyCaracteristicasCuidadosYMasDescubreloTodoAquiComponent } from
 import { ConoceAlPugCarlinoLaRazaDePerroMasAdorableComponent } from './conoce-al-pug-carlino-la-raza-de-perro-mas-adorable/conoce-al-pug-carlino-la-raza-de-perro-mas-adorable.component';
 import { PerroChihuahuaCaracteristicasYCuidadosComponent } from './perro-chihuahua-caracteristicas-y-cuidados/perro-chihuahua-caracteristicas-y-cuidados.component';
 import { PerrosBoxerCaracteristicasCuidadosYMasComponent } from './perros-boxer-caracteristicas-cuidados-y-mas/perros-boxer-caracteristicas-cuidados-y-mas.component';
+import { LosMejoresAlimentosParaPerrosGuiaDeAlimentacionSaludableComponent } from './los-mejores-alimentos-para-perros-guia-de-alimentacion-saludable/los-mejores-alimentos-para-perros-guia-de-alimentacion-saludable.component';
 
 
 @NgModule({
@@ -76,6 +77,7 @@ import { PerrosBoxerCaracteristicasCuidadosYMasComponent } from './perros-boxer-
     ConoceAlPugCarlinoLaRazaDePerroMasAdorableComponent,
     PerroChihuahuaCaracteristicasYCuidadosComponent,
     PerrosBoxerCaracteristicasCuidadosYMasComponent,
+    LosMejoresAlimentosParaPerrosGuiaDeAlimentacionSaludableComponent,
   ],
   imports: [
     CommonModule,

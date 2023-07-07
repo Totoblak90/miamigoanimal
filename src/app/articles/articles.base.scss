@@ -1,0 +1,67 @@
+@import "../../theme/abstracts/mixins";
+@import "../../theme/abstracts/variables";
+
+a {
+   color: $color-extra-dark;
+}
+
+ul, ol {
+   margin-left: 3rem;
+
+   li:last-child {
+      margin-bottom: 2rem;
+   }
+
+}
+
+/* Estilo general para la tabla */
+table {
+   border-collapse: separate;
+   border-spacing: 0;
+   width: 100%;
+   border-radius: 10px;
+   border: 1px solid gray;
+   overflow: hidden; /* Esto es necesario para que los bordes redondeados se muestren correctamente */
+
+   margin: 3rem 0;
+
+   font-size: $default-font-size;
+ }
+
+ /* Estilo para las celdas de la tabla */
+ table th, table td {
+   padding: 10px;
+   text-align: left;
+ }
+
+ /* Estilo para las filas de la tabla */
+ table tr {
+   background-color: white;
+   color: darkgray;
+ }
+
+ /* Estilo para las filas de la tabla en posición par */
+ table tr:nth-child(even) {
+   background-color: darkgray;
+   color: white;
+ }
+
+ blockquote {
+   font-size: $default-font-size;
+
+   font-style: italic;
+   padding: 10px;
+   margin: 20px;
+   border-left: 3px solid #fca311;
+   background-color: #eeeeee;
+   color: #1d3557;
+   quotes: "\201C""\201D""\2018""\2019";
+ }
+
+ blockquote cite {
+   display: block;
+   text-align: right;
+   color: #457b9d;
+   font-style: normal;
+   font-size: 0.9em;
+ }
