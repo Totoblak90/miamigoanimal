@@ -609,6 +609,17 @@ export class ArticlesService {
       buscador: ["Bóxer", "Origen bóxer", "Características bóxer", "Personalidad bóxer", "Salud bóxer", "Cuidado bóxer", "Nutrición bóxer", "Problemas de salud bóxer", "Crianza bóxer", "Historia bóxer"],
     },
 
+    {
+      url: 'mejores-alimentos-para-perros-guia-de-nutricion-canina',
+      categories: ["Alimentacion", "Perros"],
+      'card-heading': 'Alimentación saludable',
+      sections: ["Ingredientes clave", "Consejos para elegir", "Comida casera", "Comida comprada", "BARF", "Dieta vegetariana", "Recomendación productos"],
+      destacado: false,
+      creation: '7/07/2023, 10:21:00',
+      recent_card_title: '🐶 Mejores Alimentos para Perros: Guía de Alimentación Saludable 🍗',
+      buscador: ["Ingredientes clave", "Consejos para elegir", "Comida casera", "Comida comprada", "BARF", "Dieta vegetariana", "Alimentación saludable", "Alimentación perros", "Alimentación canina", "Alimentación mascotas"],
+    },
+
   ]);
 
   constructor() {}
