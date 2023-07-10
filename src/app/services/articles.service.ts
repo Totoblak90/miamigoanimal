@@ -620,6 +620,28 @@ export class ArticlesService {
       buscador: ["Ingredientes clave", "Consejos para elegir", "Comida casera", "Comida comprada", "BARF", "Dieta vegetariana", "Alimentación saludable", "Alimentación perros", "Alimentación canina", "Alimentación mascotas"],
     },
 
+    {
+      url: 'el-gato-egipcio-un-analisis-completo-de-su-historia-caracteristicas-y-curiosidades',
+      categories: ["Gatos"],
+      'card-heading': 'Mau Egipcio',
+      sections: ["Historia", "Curiosidades", "Dieta", "Consejos de salud", "Adiestramiento", "Rasgos distintivos", "Personalidad"],
+      destacado: false,
+      creation: '7/10/2023, 12:38:00',
+      recent_card_title: 'Mau Egipcio: Historia, Características y Curiosidades',
+      buscador: ["Mau Egipcio", "Gato egipcio", "Raza felina", "Antiguo Egipto", "Cultura egipcia", "Características físicas", "Personalidad", "Cuidados", "Dieta", "Historia", "Leyendas"],
+    },
+
+    {
+      url: 'como-elegir-la-mascota-adecuada-para-tu-hogar',
+      categories: ["Perros", "Gatos", "Adiestramiento"],
+      'card-heading': 'Mascotas en casa',
+      sections: ["Hogar", "Mascota", "Responsabilidades", "Espacio", "Seguridad", "Ejercicio", "Departamento", "Entrenamiento", "Juguetes"],
+      destacado: false,
+      creation: '7/10/2023, 14:32:00',
+      recent_card_title: 'Cómo elegir la mascota adecuada para tu hogar 🐶',
+      buscador: ["Mascotas en casa", "Espacio para mascotas", "Seguridad mascotas", "Ejercicio mascotas", "Razas perros departamento", "Entrenamiento mascotas departamento", "Juguetes mascotas", "Problemas mascotas en casa", "Beneficios mascotas", "Juguetes interactivos mascotas"],
+    },
+
   ]);
 
   constructor() {}

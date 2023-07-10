@@ -1,12 +1,70 @@
 @import "../../theme/abstracts/mixins";
 @import "../../theme/abstracts/variables";
 
+h2 {
+   font-size: 3.5rem;
+   text-transform: uppercase;
+   font-weight: 700;
+   display: inline-block;
+   background-image: linear-gradient(to right, $color-extra-light, $color-extra-dark);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   letter-spacing: .2rem;
+   transition: all .2s;
+   width: 100%;
+
+   text-align: center;
+
+   margin-bottom: 1.5rem !important;
+
+   &:not(:first-child) {
+      margin-top: 4rem !important;
+   }
+
+   @include respond(tab-port) {
+       font-size: 3rem;
+       margin-top: 3rem !important;
+   }
+
+   @include respond(phone) {
+       font-size: 2.5rem;
+   }
+
+   &:hover {
+       transform: scale(1.01);
+       text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+   }
+
+   &--red {
+     background-image: linear-gradient(to right, $color-health-light, $color-health-dark) !important;
+   }
+}
+
+h3 {
+   font-size: $default-font-size;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+p {
+   font-size: $default-font-size;
+
+   &:not(:last-child) {
+       margin-bottom: 3rem;
+   }
+}
+
 a {
    color: $color-extra-dark;
 }
 
 ul, ol {
    margin-left: 3rem;
+
+   li {
+      font-size: $default-font-size;
+   }
 
    li:last-child {
       margin-bottom: 2rem;
@@ -20,7 +78,7 @@ table {
    border-spacing: 0;
    width: 100%;
    border-radius: 10px;
-   border: 1px solid gray;
+   border: 1px solid $color-grey-dark;
    overflow: hidden; /* Esto es necesario para que los bordes redondeados se muestren correctamente */
 
    margin: 3rem 0;
@@ -36,14 +94,14 @@ table {
 
  /* Estilo para las filas de la tabla */
  table tr {
-   background-color: white;
-   color: darkgray;
+   background-color: $color-white;
+   color: $color-grey-dark;
  }
 
  /* Estilo para las filas de la tabla en posición par */
  table tr:nth-child(even) {
-   background-color: darkgray;
-   color: white;
+   background-color: $color-grey-dark;
+   color: $color-white;
  }
 
  blockquote {
@@ -52,9 +110,9 @@ table {
    font-style: italic;
    padding: 10px;
    margin: 20px;
-   border-left: 3px solid #fca311;
-   background-color: #eeeeee;
-   color: #1d3557;
+   border-left: 3px solid $color-extra;
+   background-color: $color-grey-light-1;
+   color: $color-grey-dark;
    quotes: "\201C""\201D""\2018""\2019";
  }
 

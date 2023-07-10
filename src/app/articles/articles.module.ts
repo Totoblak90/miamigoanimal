@@ -43,6 +43,8 @@ import { ConoceAlPugCarlinoLaRazaDePerroMasAdorableComponent } from './conoce-al
 import { PerroChihuahuaCaracteristicasYCuidadosComponent } from './perro-chihuahua-caracteristicas-y-cuidados/perro-chihuahua-caracteristicas-y-cuidados.component';
 import { PerrosBoxerCaracteristicasCuidadosYMasComponent } from './perros-boxer-caracteristicas-cuidados-y-mas/perros-boxer-caracteristicas-cuidados-y-mas.component';
 import { LosMejoresAlimentosParaPerrosGuiaDeAlimentacionSaludableComponent } from './los-mejores-alimentos-para-perros-guia-de-alimentacion-saludable/los-mejores-alimentos-para-perros-guia-de-alimentacion-saludable.component';
+import { ElGatoEgipcioUnAnalisisCompletoDeSuHistoriaCaracteristicasYCuriosidadesComponent } from './el-gato-egipcio-historia-caracteristicas-y-curiosidades/el-gato-egipcio-historia-caracteristicas-y-curiosidades.component';
+import { ComoElegirLaMascotaAdecuadaParaTuHogarComponent } from './como-elegir-la-mascota-adecuada-para-tu-hogar/como-elegir-la-mascota-adecuada-para-tu-hogar.component';
 
 
 @NgModule({
@@ -78,6 +80,8 @@ import { LosMejoresAlimentosParaPerrosGuiaDeAlimentacionSaludableComponent } fro
     PerroChihuahuaCaracteristicasYCuidadosComponent,
     PerrosBoxerCaracteristicasCuidadosYMasComponent,
     LosMejoresAlimentosParaPerrosGuiaDeAlimentacionSaludableComponent,
+    ElGatoEgipcioUnAnalisisCompletoDeSuHistoriaCaracteristicasYCuriosidadesComponent,
+    ComoElegirLaMascotaAdecuadaParaTuHogarComponent,
   ],
   imports: [
     CommonModule,
