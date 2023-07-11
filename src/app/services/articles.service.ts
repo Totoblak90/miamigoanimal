@@ -5,12 +5,7 @@ PROMPT PARA ARTÍCULOS
 Hola! Quiero que me ayudes a recapitular información importante de los diferentes artículos de mi blog!
 Esto es lo que hay que considerar para todos los artículos que te pase:
 
-De este artículo que te estoy pasando creame una lista en formato de array de javascript de palabras que puedas extraer sobre lo más importante del texto
-pensá que esta lista va incluída en una card que tiene como fin llamar la atención del usuario para que lea el artículo completo, en esta lista
-no pueden incluírse las palabras "Gato", "Gatos", "Perro", "Perros", "Salud", "Alimentación", "Adiestramiento" y cualquier otra de esas familias de palabra.
-Pueden ser máximo 10 palabras.
-
-También dame otro array de palabras que se puedan poner como términos de búsqueda de un buscador.
+Dame un array de palabras que se puedan poner como términos de búsqueda de un buscador.
 
 Por otro lado, de las 5 categorías siguientes ("Gatos" | "Perros" | "Salud" | "Adiestramiento" | "Alimentacion"),
 armame otro array con las categorías en las que lo englobarías, podés elegir más de una.
@@ -640,6 +635,17 @@ export class ArticlesService {
       creation: '7/10/2023, 14:32:00',
       recent_card_title: 'Cómo elegir la mascota adecuada para tu hogar 🐶',
       buscador: ["Mascotas en casa", "Espacio para mascotas", "Seguridad mascotas", "Ejercicio mascotas", "Razas perros departamento", "Entrenamiento mascotas departamento", "Juguetes mascotas", "Problemas mascotas en casa", "Beneficios mascotas", "Juguetes interactivos mascotas"],
+    },
+
+    {
+      url: 'golden-retriever-la-raza-mas-adorable-fiel-y-juguetona',
+      categories: ["Perros", "Salud", "Adiestramiento", "Alimentacion"],
+      'card-heading': 'Golden Retriever',
+      sections: ["Historia", "Personalidad", "Cuidados", "Entrenamiento", "Socialización", "¿Es la raza para tí?", "Golden Retriever y niños", "Salud", "Nutrición", "Ideas de actividades", "Ejercicio", "Genética", "Aseo", "Beneficios terapéuticos"],
+      destacado: false,
+      creation: '7/11/2023, 13:00:00',
+      recent_card_title: 'Golden Retriever: La raza más adorable, fiel y juguetona 🐶',
+      buscador: ["Golden Retriever", "historia del Golden Retriever", "cuidado del Golden Retriever", "características físicas del Golden Retriever", "personalidad del Golden Retriever", "adiestramiento del Golden Retriever", "socialización del Golden Retriever", "perros", "razas de perros", "perros de trabajo", "perros guía", "terapias asistidas con animales", "Lord Tweedmouth", "American Kennel Club", "pelaje dorado", "cuidado de la salud del perro", "ejercicio para perros", "alimentación de perros", "cuidado del pelaje de perros"],
     },
 
   ]);

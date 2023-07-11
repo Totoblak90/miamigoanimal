@@ -289,6 +289,13 @@ const routes: Routes = [
             './como-elegir-la-mascota-adecuada-para-tu-hogar/como-elegir-la-mascota-adecuada-para-tu-hogar.component'
          ).then((sc) => sc.ComoElegirLaMascotaAdecuadaParaTuHogarComponent),
    },
+   {
+      path: 'golden-retriever-la-raza-mas-adorable-fiel-y-juguetona',
+      loadComponent: () =>
+         import(
+            './golder-retriever-la-raza-mas-adorable-fiel-y-juguetona/golder-retriever-la-raza-mas-adorable-fiel-y-juguetona.component'
+         ).then((sc) => sc.GolderRetrieverLaRazaMasAdorableFielYJuguetonaComponent),
+   },
 
    {
       path: 'search-post',
