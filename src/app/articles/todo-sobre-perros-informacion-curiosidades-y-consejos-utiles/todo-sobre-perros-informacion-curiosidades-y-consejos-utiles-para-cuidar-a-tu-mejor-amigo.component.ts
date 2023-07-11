@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo',
   templateUrl: './todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo.component.html',
-  styleUrls: ['./todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo.component.scss']
+  styleUrls: ['./todo-sobre-perros-informacion-curiosidades-y-consejos-utiles-para-cuidar-a-tu-mejor-amigo.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class TodoSobrePerrosInformacionCuriosidadesYConsejosUtilesParaCuidarATuMejorAmigoComponent {
 

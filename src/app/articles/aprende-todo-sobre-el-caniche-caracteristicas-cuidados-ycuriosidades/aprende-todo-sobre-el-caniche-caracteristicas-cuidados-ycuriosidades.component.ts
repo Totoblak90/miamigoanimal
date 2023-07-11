@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-aprende-todo-sobre-el-caniche-caracteristicas-cuidados-ycuriosidades',
   templateUrl: './aprende-todo-sobre-el-caniche-caracteristicas-cuidados-ycuriosidades.component.html',
-  styleUrls: ['./aprende-todo-sobre-el-caniche-caracteristicas-cuidados-ycuriosidades.component.scss']
+  styleUrls: ['./aprende-todo-sobre-el-caniche-caracteristicas-cuidados-ycuriosidades.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class AprendeTodoSobreElCanicheCaracteristicasCuidadosYCuriosidadesComponent {
 

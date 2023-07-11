@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica',
   templateUrl: './bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica.component.html',
-  styleUrls: ['./bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica.component.scss']
+  styleUrls: ['./bulldog-ingles-caracteristicas-cuidados-y-curiosidades-de-esta-raza-iconica.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class BulldogInglesCaracteristicasCuidadosYCuriosidadesDeEstaRazaIconicaComponent {
 

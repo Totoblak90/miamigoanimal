@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-perros-boxer-caracteristicas-cuidados-y-mas',
   templateUrl: './perros-boxer-caracteristicas-cuidados-y-mas.component.html',
-  styleUrls: ['./perros-boxer-caracteristicas-cuidados-y-mas.component.scss']
+  styleUrls: ['./perros-boxer-caracteristicas-cuidados-y-mas.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class PerrosBoxerCaracteristicasCuidadosYMasComponent {
 

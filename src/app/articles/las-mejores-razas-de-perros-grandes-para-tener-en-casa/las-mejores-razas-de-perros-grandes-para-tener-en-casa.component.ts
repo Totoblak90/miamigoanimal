@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-las-mejores-razas-de-perros-grandes-para-tener-en-casa',
   templateUrl: './las-mejores-razas-de-perros-grandes-para-tener-en-casa.component.html',
-  styleUrls: ['./las-mejores-razas-de-perros-grandes-para-tener-en-casa.component.scss']
+  styleUrls: ['./las-mejores-razas-de-perros-grandes-para-tener-en-casa.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class LasMejoresRazasDePerrosGrandesParaTenerEnCasaComponent {
 

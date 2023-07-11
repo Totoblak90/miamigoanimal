@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades',
   templateUrl: './el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades.component.html',
-  styleUrls: ['./el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades.component.scss']
+  styleUrls: ['./el-bulldog-ingles-caracteristicas-cuidados-y-curiosidades.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class ElBulldogInglesCaracteristicasCuidadosYCuriosidadesComponent {
 

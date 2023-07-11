@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-descubre-los-mejores-alimentos-para-perros-en-nuestra-guia-completa',
   templateUrl: './descubre-los-mejores-alimentos-para-perros-en-nuestra-guia-completa.component.html',
-  styleUrls: ['./descubre-los-mejores-alimentos-para-perros-en-nuestra-guia-completa.component.scss']
+  styleUrls: ['./descubre-los-mejores-alimentos-para-perros-en-nuestra-guia-completa.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class DescubreLosMejoresAlimentosParaPerrosEnNuestraGuiaCompletaComponent {
 

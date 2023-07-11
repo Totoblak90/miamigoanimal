@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas',
   templateUrl: './todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas.component.html',
-  styleUrls: ['./todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas.component.scss']
+  styleUrls: ['./todo-sobre-los-gatos-negros-descubre-su-personalidad-ycaracteristicas.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class TodoSobreLosGatosNegrosDescubreSuPersonalidadYCaracteristicasComponent {
 

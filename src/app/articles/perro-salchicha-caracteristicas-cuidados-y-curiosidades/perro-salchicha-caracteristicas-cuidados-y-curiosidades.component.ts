@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-perro-salchicha-caracteristicas-cuidados-y-curiosidades',
   templateUrl: './perro-salchicha-caracteristicas-cuidados-y-curiosidades.component.html',
-  styleUrls: ['./perro-salchicha-caracteristicas-cuidados-y-curiosidades.component.scss']
+  styleUrls: ['./perro-salchicha-caracteristicas-cuidados-y-curiosidades.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class PerroSalchichaCaracteristicasCuidadosYCuriosidadesComponent {
 

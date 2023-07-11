@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-caniche-toy-caracteristicas-cuidados-y-mas-descubrelo-todo-aqui',
   templateUrl: './caniche-toy-caracteristicas-cuidados-y-mas-descubrelo-todo-aqui.component.html',
-  styleUrls: ['./caniche-toy-caracteristicas-cuidados-y-mas-descubrelo-todo-aqui.component.scss']
+  styleUrls: ['./caniche-toy-caracteristicas-cuidados-y-mas-descubrelo-todo-aqui.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class CanicheToyCaracteristicasCuidadosYMasDescubreloTodoAquiComponent {
 

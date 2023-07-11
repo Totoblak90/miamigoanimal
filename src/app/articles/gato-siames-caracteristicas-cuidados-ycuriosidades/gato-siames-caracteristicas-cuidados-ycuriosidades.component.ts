@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-gato-siames-caracteristicas-cuidados-ycuriosidades',
   templateUrl: './gato-siames-caracteristicas-cuidados-ycuriosidades.component.html',
-  styleUrls: ['./gato-siames-caracteristicas-cuidados-ycuriosidades.component.scss']
+  styleUrls: ['./gato-siames-caracteristicas-cuidados-ycuriosidades.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class GatoSiamesCaracteristicasCuidadosYCuriosidadesComponent {
 

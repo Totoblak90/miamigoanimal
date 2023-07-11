@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-conoce-al-pug-carlino-la-raza-de-perro-mas-adorable',
   templateUrl: './conoce-al-pug-carlino-la-raza-de-perro-mas-adorable.component.html',
-  styleUrls: ['./conoce-al-pug-carlino-la-raza-de-perro-mas-adorable.component.scss']
+  styleUrls: ['./conoce-al-pug-carlino-la-raza-de-perro-mas-adorable.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class ConoceAlPugCarlinoLaRazaDePerroMasAdorableComponent {
 

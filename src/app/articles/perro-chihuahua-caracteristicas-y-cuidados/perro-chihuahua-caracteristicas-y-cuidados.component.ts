@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-perro-chihuahua-caracteristicas-y-cuidados',
   templateUrl: './perro-chihuahua-caracteristicas-y-cuidados.component.html',
-  styleUrls: ['./perro-chihuahua-caracteristicas-y-cuidados.component.scss']
+  styleUrls: ['./perro-chihuahua-caracteristicas-y-cuidados.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class PerroChihuahuaCaracteristicasYCuidadosComponent {
 

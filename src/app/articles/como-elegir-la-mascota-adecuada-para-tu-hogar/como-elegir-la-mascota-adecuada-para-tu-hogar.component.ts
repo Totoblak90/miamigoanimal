@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-como-elegir-la-mascota-adecuada-para-tu-hogar',
   templateUrl: './como-elegir-la-mascota-adecuada-para-tu-hogar.component.html',
-  styleUrls: ['./como-elegir-la-mascota-adecuada-para-tu-hogar.component.scss']
+  styleUrls: ['./como-elegir-la-mascota-adecuada-para-tu-hogar.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class ComoElegirLaMascotaAdecuadaParaTuHogarComponent {
 

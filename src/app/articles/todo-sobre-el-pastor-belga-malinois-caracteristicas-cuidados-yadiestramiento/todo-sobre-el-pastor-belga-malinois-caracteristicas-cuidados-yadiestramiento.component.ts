@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento',
   templateUrl: './todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento.component.html',
-  styleUrls: ['./todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento.component.scss']
+  styleUrls: ['./todo-sobre-el-pastor-belga-malinois-caracteristicas-cuidados-yadiestramiento.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class TodoSobreElPastorBelgaMalinoisCaracteristicasCuidadosYAdiestramientoComponent {
 

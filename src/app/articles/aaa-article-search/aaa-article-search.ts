@@ -1,7 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subject, debounceTime, takeUntil } from 'rxjs';
+import { FlippingCardComponent } from 'src/app/components/flipping-card/flipping-card.component';
+import { HeaderComponent } from 'src/app/components/header/header.component';
 import { Cat } from 'src/app/interfaces/cat.interface';
 import { Dog } from 'src/app/interfaces/dog.interface';
 import { ArticlesService } from 'src/app/services/articles.service';
@@ -13,7 +16,9 @@ import { PerrosService } from 'src/app/services/perros.service';
 @Component({
   selector: 'aaa-article-search',
   templateUrl: './aaa-article-search.component.html',
-  styleUrls: ['./aaa-article-search.component.scss']
+  styleUrls: ['./aaa-article-search.component.scss'],
+  standalone: true,
+  imports: [ReactiveFormsModule, HeaderComponent, CommonModule, FlippingCardComponent]
 })
 export class AaaArticleSearchComponent implements OnInit, OnDestroy {
 

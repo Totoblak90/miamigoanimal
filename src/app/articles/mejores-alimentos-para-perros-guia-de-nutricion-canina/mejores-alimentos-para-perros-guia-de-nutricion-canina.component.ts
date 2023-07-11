@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-mejores-alimentos-para-perros-guia-de-nutricion-canina',
   templateUrl: './mejores-alimentos-para-perros-guia-de-nutricion-canina.component.html',
-  styleUrls: ['./mejores-alimentos-para-perros-guia-de-nutricion-canina.component.scss']
+  styleUrls: ['./mejores-alimentos-para-perros-guia-de-nutricion-canina.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class MejoresAlimentosParaPerrosGuiaDeNutricionCaninaComponent {
 

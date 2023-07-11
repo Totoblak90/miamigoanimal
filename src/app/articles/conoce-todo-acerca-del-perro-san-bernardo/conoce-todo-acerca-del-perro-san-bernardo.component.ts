@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-conoce-todo-acerca-del-perro-san-bernardo',
   templateUrl: './conoce-todo-acerca-del-perro-san-bernardo.component.html',
-  styleUrls: ['./conoce-todo-acerca-del-perro-san-bernardo.component.scss']
+  styleUrls: ['./conoce-todo-acerca-del-perro-san-bernardo.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class ConoceTodoAcercaDelPerroSanBernardoComponent {
 

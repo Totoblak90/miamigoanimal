@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MetaService } from 'src/app/services/meta.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { ARTICLES_IMPORTS } from '../articles-imports';
 
 @Component({
   selector: 'app-todo-lo-que-debes-saber-sobre-el-pomerania',
   templateUrl: './todo-lo-que-debes-saber-sobre-el-pomerania.component.html',
-  styleUrls: ['./todo-lo-que-debes-saber-sobre-el-pomerania.component.scss']
+  styleUrls: ['./todo-lo-que-debes-saber-sobre-el-pomerania.component.scss'],
+  standalone: true,
+  imports: ARTICLES_IMPORTS
 })
 export class TodoLoQueDebesSaberSobreElPomeraniaComponent {
 
