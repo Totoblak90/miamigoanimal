@@ -5,6 +5,6 @@ import { ArticlesRoutingModule } from './articles-routing.module';
 
 @NgModule({
    declarations: [],
-   imports: [CommonModule, ArticlesRoutingModule],
+   imports: [ArticlesRoutingModule],
 })
 export class ArticlesModule {}
