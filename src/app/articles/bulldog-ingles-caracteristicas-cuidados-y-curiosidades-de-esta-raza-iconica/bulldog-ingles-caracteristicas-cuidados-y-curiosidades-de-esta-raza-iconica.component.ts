@@ -12,7 +12,7 @@ import { ARTICLES_IMPORTS } from '../articles-imports';
 })
 export class BulldogInglesCaracteristicasCuidadosYCuriosidadesDeEstaRazaIconicaComponent {
 
-  title = 'Bulldog Inglés - ¡Características, Cuidados y Curiosidades! 😍'
+  title = 'Bulldog Inglés: - Todo lo que necesitas saber sobre esta raza icónica 😍'
   description = 'Descubre todo lo que necesitas para conocer mejor el Bulldog Inglés: Conoce sus características, cuidados y curiosidades. ¡Esferamascota te lo cuenta todo!'
   keywords = "Bulldog Inglés, características Bulldog Inglés, cuidados Bulldog Inglés, curiosidades Bulldog Inglés, historia Bulldog Inglés, origen Bulldog Inglés, aspecto Bulldog Inglés, temperamento Bulldog Inglés, inteligencia Bulldog Inglés, socialización Bulldog Inglés, adiestramiento Bulldog Inglés, cuidados básicos Bulldog Inglés, aseo Bulldog Inglés, salud Bulldog Inglés, esperanza de vida Bulldog Inglés, raza de perros, guía de razas de perros, Esferamascota"
 

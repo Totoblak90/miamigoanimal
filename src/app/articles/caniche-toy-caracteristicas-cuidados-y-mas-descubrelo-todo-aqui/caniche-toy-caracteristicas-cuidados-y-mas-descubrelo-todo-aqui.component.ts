@@ -12,7 +12,7 @@ import { ARTICLES_IMPORTS } from '../articles-imports';
 })
 export class CanicheToyCaracteristicasCuidadosYMasDescubreloTodoAquiComponent {
 
-   title = 'Caniche Toy: Características, Cuidados y Más - ¡Descúbrelo todo en Esfera Mascota!'
+   title = 'Caniche Juguete (Toy): Características, Cuidados y Más - Esfera Mascota'
    description = 'Conoce todo sobre el Caniche Toy: características, cuidados y mucho más. ¡Entra aquí para conocerlo todo sobre esta preciosa raza de perros! ❤️'
    keywords = 'Caniche Toy, características del Caniche Toy, cuidados del Caniche Toy, raza de perros, perros adorables, perros inteligentes, pelaje hipoalergénico, personalidad juguetona, salud del Caniche Toy, requisitos de cuidados, necesidades de ejercicio, requisitos de acicalamiento, alimentación del Caniche Toy, adiestramiento y socialización, perros de juguete, tamaño pequeño, energía alta, pelaje rizado, perros leales, mascotas familiares, perros adiestrables, actividades caninas, pelaje sedoso, colores variados, corte de cachorro, perros erguidos, origen aristocrático, perros para familias, personalidad encantadora, perros para principiantes, perros cariñosos, perros sociales, perros no agresivos, perros falderos, problemas de salud del Caniche Toy, problemas dentales, alergias cutáneas, enfermedades genéticas, dieta del Caniche Toy, sobrepeso en perros, aseo del Caniche Toy, cepillado del pelaje, ejercicio físico para perros, adiestramiento de perros.'
 

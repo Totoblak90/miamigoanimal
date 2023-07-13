@@ -1,5 +1,12 @@
 /**
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+PROMPT PARA ESCRIBIR UN ARTÍCULO ENTERO
+
+- El estilo del artículo debe ser informal pero académico
+- Mis lectores son amantes de mascotas y/o futuros dueños de las mismas
+- Priorizar el uso de tablas para mostrar información importante sin abusar de las mismas
+- Uso de links de forma natural en el texto para redireccionar a /salud, /alimentacion, /adiestramiento, /perros y/o /gatos donde corresponda (Es importante aquí no perjudicar la generación de contenido para colocar un link. Hacerlo de forma natural en el contenido generado)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 PROMPT PARA ARTÍCULOS
 
 Hola! Quiero que me ayudes a recapitular información importante de los diferentes artículos de mi blog!

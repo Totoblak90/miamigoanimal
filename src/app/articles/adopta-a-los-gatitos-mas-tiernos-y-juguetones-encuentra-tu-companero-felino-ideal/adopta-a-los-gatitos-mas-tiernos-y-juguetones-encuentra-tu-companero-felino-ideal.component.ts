@@ -23,4 +23,5 @@ export class AdoptaALosGatitosMasTiernosYJuguetonesEncuentraTuCompaneroFelinoIde
     this.meta.setMetaTags(this.title, this.description, '', true, 'Tobias Blaksley', this.keywords)
     this.navigationService.navigationBg.set('cat');
   }
+
 }
