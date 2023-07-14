@@ -2,10 +2,13 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 PROMPT PARA ESCRIBIR UN ARTÍCULO ENTERO
 
-- El estilo del artículo debe ser informal pero académico
-- Mis lectores son amantes de mascotas y/o futuros dueños de las mismas
-- Priorizar el uso de tablas para mostrar información importante sin abusar de las mismas
-- Uso de links de forma natural en el texto para redireccionar a /salud, /alimentacion, /adiestramiento, /perros y/o /gatos donde corresponda (Es importante aquí no perjudicar la generación de contenido para colocar un link. Hacerlo de forma natural en el contenido generado)
+- El estilo del artículo debe ser informal pero académico.
+- Mis lectores son amantes de mascotas y/o futuros dueños de las mismas.
+- Priorizar el uso de tablas, listas ordenadas y listas desordenadas para mostrar información importante sin abusar de las mismas.
+- Uso de links de forma natural en el texto para redireccionar a /salud, /alimentacion, /adiestramiento, /perros y/o /gatos donde corresponda (Es importante aquí no perjudicar la generación de contenido para colocar un link. Hacerlo de forma natural en el contenido generado). No abusar de la práctica de colocar links
+- Incluír fuentes científicas donde se considere adecuado. No forzar el texto para incluír este tipo de datos, solo si se encuentra de forma natural.
+- Incluír frases de expertos en el texto si corresponde. Si se conoce el autor de la frase colocarlo, sino no importa. No forzar el texto para incluír este tipo de datos, solo si se encuentra de forma natural.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 PROMPT PARA ARTÍCULOS
 
@@ -570,7 +573,7 @@ export class ArticlesService {
     {
       url: 'caniche-toy-caracteristicas-cuidados-y-mas-descubrelo-todo-aqui',
       categories: ["Perros"],
-      'card-heading': 'Caniche Toy',
+      'card-heading': 'Caniche Juguete (Toy)',
       sections: ["Inteligencia", "Juguetón", "Socialización", "Cachorro", "Familia", "Ejercicio"],
       destacado: false,
       creation: '7/05/2023, 15:20:00',

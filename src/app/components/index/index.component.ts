@@ -9,7 +9,7 @@ import { Component, Inject, Input, OnInit, PLATFORM_ID, Renderer2 } from '@angul
   imports: [CommonModule]
 })
 export class IndexComponent implements OnInit {
-  @Input() collapsed = false;
+  @Input() collapsed = true;
   @Input() filters: string[] = []
 
   titleList: HTMLHeadingElement[] = [];
