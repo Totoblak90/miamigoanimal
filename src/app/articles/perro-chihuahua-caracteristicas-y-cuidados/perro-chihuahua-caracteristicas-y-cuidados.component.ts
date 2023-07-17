@@ -12,7 +12,7 @@ import { ARTICLES_IMPORTS } from '../articles-imports';
 })
 export class PerroChihuahuaCaracteristicasYCuidadosComponent {
 
-   title = 'Perro Chihuahua: Características y Cuidados 🐕 🐶'
+   title = 'Perro Chihuahua: Características, Cuidados y Curiosidades 🐕 🐶'
    description = '¡Descubre todas las características físicas y de carácter, origen y esperanza de vida del Chihuahua! Además, descubre todos los cuidados especiales que este pequeño amigo necesita.'
    keywords = 'Perro Chihuahua, características Chihuahua, cuidados Chihuahua, origen Chihuahua, esperanza de vida Chihuahua, adiestramiento Chihuahua, salud Chihuahua, acicalamiento Chihuahua, alimentación Chihuahua, personalidad Chihuahua, temperamento Chihuahua, consejos cuidados Chihuahua, raza de perro Chihuahua, Chihuahua tamaño pequeño, raza de perro pequeña, guía Chihuahua, dueño de Chihuahua, historia Chihuahua, características físicas Chihuahua, necesidades de cuidado Chihuahua, pelaje Chihuahua, enfermedades oculares Chihuahua, historia perro Chihuahua, bienestar Chihuahua, necesidades diarias Chihuahua, Chihuahua ciudad, Chihuahua apartamento, cuidados diarios Chihuahua, ejercicio Chihuahua, dieta Chihuahua, higiene Chihuahua, adiestramiento Chihuahua, socialización Chihuahua, adiestramiento en jaulas Chihuahua'
 

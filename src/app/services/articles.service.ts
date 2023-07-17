@@ -4,6 +4,7 @@ PROMPT PARA ESCRIBIR UN ARTÍCULO ENTERO
 
 - El estilo del artículo debe ser informal pero académico.
 - Mis lectores son amantes de mascotas y/o futuros dueños de las mismas.
+- Hacer buen uso de las palabras clave del título para optimización de SEO.
 - Priorizar el uso de tablas, listas ordenadas y listas desordenadas para mostrar información importante sin abusar de las mismas.
 - Uso de links de forma natural en el texto para redireccionar a /salud, /alimentacion, /adiestramiento, /perros y/o /gatos donde corresponda (Es importante aquí no perjudicar la generación de contenido para colocar un link. Hacerlo de forma natural en el contenido generado). No abusar de la práctica de colocar links
 - Incluír fuentes científicas donde se considere adecuado. No forzar el texto para incluír este tipo de datos, solo si se encuentra de forma natural.
