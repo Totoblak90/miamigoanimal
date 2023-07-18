@@ -294,7 +294,28 @@ const routes: Routes = [
       loadComponent: () =>
          import(
             './golder-retriever-la-raza-mas-adorable-fiel-y-juguetona/golder-retriever-la-raza-mas-adorable-fiel-y-juguetona.component'
-         ).then((sc) => sc.GolderRetrieverLaRazaMasAdorableFielYJuguetonaComponent),
+         ).then(
+            (sc) => sc.GolderRetrieverLaRazaMasAdorableFielYJuguetonaComponent
+         ),
+   },
+   {
+      path: 'bichon-maltes-conoce-todo-sobre-esta-raza-de-pelo-blanco',
+      loadComponent: () =>
+         import(
+            './bichon-maltes-conoce-todo-sobre-esta-raza-de-pelo-blanco/bichon-maltes-conoce-todo-sobre-esta-raza-de-pelo-blanco.component'
+         ).then(
+            (sc) => sc.BichonMaltesConoceTodoSobreEstaRazaDePeloBlancoComponent
+         ),
+   },
+   {
+      path: 'pastor-australiano-caracteristicas-cuidados-y-curiosidades',
+      loadComponent: () =>
+         import(
+            './pastor-australiano-caracteristicas-cuidados-y-curiosidades/pastor-australiano-caracteristicas-cuidados-y-curiosidades.component'
+         ).then(
+            (sc) =>
+               sc.PastorAustralianoCaracteristicasCuidadosYCuriosidadesComponent
+         ),
    },
 
    {
