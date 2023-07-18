@@ -6,6 +6,7 @@ import { Subject, takeUntil } from 'rxjs';
 import { SearchResult } from 'src/app/interfaces/buscador.interface';
 import { Cat } from 'src/app/interfaces/cat.interface';
 import { Dog } from 'src/app/interfaces/dog.interface';
+import { PipesModule } from 'src/app/pipes/pipes.module';
 import { ArticlesService } from 'src/app/services/articles.service';
 import { GatosService } from 'src/app/services/gatos.service';
 import { PerrosService } from 'src/app/services/perros.service';
@@ -16,7 +17,7 @@ import { UtilitiesService } from 'src/app/services/utilities.service';
   templateUrl: './buscador.component.html',
   styleUrls: ['./buscador.component.scss'],
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule, RouterModule]
+  imports: [ReactiveFormsModule, CommonModule, RouterModule, PipesModule]
 })
 export class BuscadorComponent implements OnDestroy {
 

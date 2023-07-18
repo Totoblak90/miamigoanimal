@@ -48,7 +48,7 @@
 
     <ul *ngIf="searchResults.length; else noResults">
       <li *ngFor="let result of searchResults">
-        <img *ngIf="result.img" [src]="result.img" alt="Imagen de {{ result.title }}" class="search-results__img">
+        <img *ngIf="result.img" [src]="result.img | cleanImageUrl" alt="Imagen de {{ result.title }}" class="search-results__img">
         <a class="btn-plain" [routerLink]="result.url" [queryParams]="result.queryParams" (click)="collapse($event)">{{ result.title }}</a>
       </li>
     </ul>
