@@ -7,10 +7,6 @@ El objetivo del artículo es darle a los lectores información relevante sobre
 - Mis lectores son amantes de mascotas y/o futuros dueños de las mismas.
 - Hacer buen uso de las palabras clave del título para optimización de SEO.
 - Priorizar el uso de tablas, listas ordenadas y listas desordenadas para mostrar información importante sin abusar de las mismas.
-- Uso de links de forma natural en el texto para redireccionar a /salud, /alimentacion, /adiestramiento, /perros y/o /gatos donde corresponda (Es importante aquí no perjudicar la generación de contenido para colocar un link. Hacerlo de forma natural en el contenido generado). No abusar de la práctica de colocar links
-- Incluír fuentes científicas donde se considere adecuado. No forzar el texto para incluír este tipo de datos, solo si se encuentra de forma natural.
-- Incluír frases de expertos en el texto si corresponde. Si se conoce el autor de la frase colocarlo, sino no importa. No forzar el texto para incluír este tipo de datos, solo si se encuentra de forma natural.
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 PROMPT PARA ARTÍCULOS
 
@@ -1117,6 +1113,108 @@ export class ArticlesService {
             'Toy',
             'Miniatura',
          ],
+      },
+
+      {
+         url: 'pitbull-blue-todo-lo-que-necesitas-saber-sobre-esta-raza-de-perros',
+         categories: ['Perros', 'Salud', 'Adiestramiento', 'Alimentacion'],
+         'card-heading': 'Pitbull Blue',
+         sections: [
+            'Historia',
+            'Actividades',
+            'Relación con otros perros',
+            'Pitbull y niños',
+            'Personalidad',
+            'Temperamento',
+            'Mucho más',
+         ],
+         destacado: false,
+         creation: '7/24/2023, 10:18:00',
+         recent_card_title: '🐶 Pitbull Blue: Todo lo que necesitas saber',
+         buscador: [
+            'Pitbull',
+            'Pit bull',
+            'Pitbull Blue',
+            'Personalidad',
+            'Cuidados',
+            'Adiestramiento',
+            'Salud',
+            'Ejercicio',
+            'Deportes',
+            'Variedad',
+         ],
+      },
+
+      {
+         url: 'es-el-pitbull-la-raza-de-perro-adecuada-para-ti',
+         categories: ['Perros', 'Salud', 'Adiestramiento', 'Alimentacion'],
+         'card-heading': 'Pitbull',
+         sections: [
+            'Historia',
+            'Mitos y verdades',
+            'Alimentación',
+            'Salud',
+            'Adiestramiento',
+            'Ejercicio',
+            'Adopción',
+            'Esterilización',
+            'Mucho más',
+         ],
+         destacado: false,
+         creation: '7/24/2023, 11:04:00',
+         recent_card_title: '🐶 Pitbull, ¿Es la raza adecuada para ti?',
+         buscador: [
+            'Pitbull',
+            'Pit bull',
+            'Pitbull',
+            'Personalidad',
+            'Cuidados',
+            'Adiestramiento',
+            'Salud',
+            'Ejercicio',
+            'Deportes',
+            'Variedad',
+         ],
+      },
+
+      {
+         url: 'mascotas-consejos-cuidados-y-curiosidades-guia-completa',
+         categories: ['Perros', 'Gatos'],
+         'card-heading': 'Mascotas en general',
+         sections: [
+            'Mascota indicada',
+            'Consejos',
+            'Cuidados',
+            'Curiosidades',
+            'Más',
+         ],
+         destacado: false,
+         creation: '7/24/2023, 11:58:00',
+         recent_card_title:
+            'Mascotas: Consejos, cuidados y curiosidades - Guía completa',
+         buscador: ['Mascotas', 'Perros', 'Gatos', 'Variedad'],
+      },
+
+      {
+         url: 'fila-brasilero-conoce-todo-sobre-esta-raza-de-perros-de-guarda',
+         categories: ['Perros'],
+         'card-heading': 'Fila Brasileño',
+         sections: [
+            'Historia',
+            'Relación con otros perros',
+            'Relación con niños',
+            'Perro de guarda',
+            "Temperamento",
+            'Características',
+            'Cuidados',
+            'Personalidad',
+            'Mucho más',
+         ],
+         destacado: false,
+         creation: '7/24/2023, 12:34:00',
+         recent_card_title:
+            '🐶 Fila Brasileño: Conocé todo sobre esta raza de perros de guarda y su temperamento',
+         buscador: ['Fila Brasileño', 'Perro de guarda'],
       },
    ]);
 

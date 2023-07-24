@@ -1770,7 +1770,7 @@ export const DOG_LIST: { [key: number]: Dog } = {
       metric: '43 - 53',
     },
     id: 15,
-    name: 'Terrier Americano Pit Bull',
+    name: 'Pitbull',
     bred_for: ['Combates'],
     breed_group: ['Terrier'],
     life_span: '10 - 15 años',

@@ -317,6 +317,43 @@ const routes: Routes = [
                sc.PastorAustralianoCaracteristicasCuidadosYCuriosidadesComponent
          ),
    },
+   {
+      path: 'pitbull-blue-todo-lo-que-necesitas-saber-sobre-esta-raza-de-perros',
+      loadComponent: () =>
+         import(
+            './pitbull-blue-todo-lo-que-necesitas-saber-sobre-esta-raza-de-perros/pitbull-blue-todo-lo-que-necesitas-saber-sobre-esta-raza-de-perros.component'
+         ).then(
+            (sc) =>
+               sc.PitbullBlueTodoLoQueNecesitasSaberSobreEstaRazaDePerrosComponent
+         ),
+   },
+   {
+      path: 'es-el-pitbull-la-raza-de-perro-adecuada-para-ti',
+      loadComponent: () =>
+         import(
+            './es-el-pitbull-la-raza-de-perro-adecuada-para-ti/es-el-pitbull-la-raza-de-perro-adecuada-para-ti.component'
+         ).then((sc) => sc.EsElPitbullLaRazaDePerroAdecuadaParaTiComponent),
+   },
+   {
+      path: 'mascotas-consejos-cuidados-y-curiosidades-guia-completa',
+      loadComponent: () =>
+         import(
+            './mascotas-consejos-cuidados-y-curiosidades-guia-completa/mascotas-consejos-cuidados-y-curiosidades-guia-completa.component'
+         ).then(
+            (sc) =>
+               sc.MascotasConsejosCuidadosYCuriosidadesGuiaCompletaComponent
+         ),
+   },
+   {
+      path: 'fila-brasilero-conoce-todo-sobre-esta-raza-de-perros-de-guarda',
+      loadComponent: () =>
+         import(
+            './fila-brasilero-conoce-todo-sobre-esta-raza-de-perros-de-guarda/fila-brasilero-conoce-todo-sobre-esta-raza-de-perros-de-guarda.component'
+         ).then(
+            (sc) =>
+               sc.FilaBrasileroConoceTodoSobreEstaRazaDePerrosDeGuardaComponent
+         ),
+   },
 
    {
       path: 'search-post',
