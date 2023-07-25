@@ -354,6 +354,26 @@ const routes: Routes = [
                sc.FilaBrasileroConoceTodoSobreEstaRazaDePerrosDeGuardaComponent
          ),
    },
+   {
+      path: 'schnauzer-miniatura-caracteristicas-cuidados-y-curiosidades',
+      loadComponent: () =>
+         import(
+            './schnauzer-miniatura-caracteristicas-cuidados-y-curiosidades/schnauzer-miniatura-caracteristicas-cuidados-y-curiosidades.component'
+         ).then(
+            (sc) =>
+               sc.SchnauzerMiniaturaCaracteristicasCuidadosYCuriosidadesComponent
+         ),
+   },
+   {
+      path: 'perros-pitbull-caracteristicas-cuidados-entrenamiento-y-mas',
+      loadComponent: () =>
+         import(
+            './perros-pitbull-caracteristicas-cuidados-entrenamiento-y-mas/perros-pitbull-caracteristicas-cuidados-entrenamiento-y-mas.component'
+         ).then(
+            (sc) =>
+               sc.PerrosPitbullCaracteristicasCuidadosEntrenamientoYMasComponent
+         ),
+   },
 
    {
       path: 'search-post',

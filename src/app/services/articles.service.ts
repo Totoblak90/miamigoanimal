@@ -1204,7 +1204,7 @@ export class ArticlesService {
             'Relación con otros perros',
             'Relación con niños',
             'Perro de guarda',
-            "Temperamento",
+            'Temperamento',
             'Características',
             'Cuidados',
             'Personalidad',
@@ -1215,6 +1215,62 @@ export class ArticlesService {
          recent_card_title:
             '🐶 Fila Brasileño: Conocé todo sobre esta raza de perros de guarda y su temperamento',
          buscador: ['Fila Brasileño', 'Perro de guarda'],
+      },
+
+      {
+         url: 'schnauzer-miniatura-caracteristicas-cuidados-y-curiosidades',
+         categories: ['Perros'],
+         'card-heading': 'Schnauzer Miniatura',
+         sections: [
+            'Relación con otros perros',
+            'Relación con niños',
+            'Ejecricio',
+            '¿Es apto para departamento?',
+            'Temperamento',
+            'Historia',
+            'Cuidados del pelo',
+            'Artículos de moda',
+            'Personalidad',
+            'Mucho más',
+         ],
+         destacado: false,
+         creation: '7/25/2023, 12:05:00',
+         recent_card_title:
+            '🐶 Schnauzer Miniatura: Características, cuidados y curiosidades',
+         buscador: ['Schnauzer', 'Schnauzer miniatura'],
+      },
+
+      {
+         url: 'perros-pitbull-caracteristicas-cuidados-entrenamiento-y-mas',
+         categories: ['Perros', 'Salud', 'Adiestramiento', 'Alimentacion'],
+         'card-heading': 'Pitbull',
+         sections: [
+            '¿Qué  hace un Pitbull tan especial?',
+            'Papel del entrenamiento',
+            'Curiosidades',
+            'Mitología y realidad',
+            'Socialización',
+            'Alimentación',
+            'Salud',
+            '¿Pitbull o American Staffordshire Terrier?',
+            'Mucho más',
+         ],
+         destacado: false,
+         creation: '7/25/2023, 12:25:00',
+         recent_card_title:
+            '🐶 Perros Pitbull: Características, cuidados, entrenamiento, curiosidades y más',
+         buscador: [
+            'Pitbull',
+            'Pit bull',
+            'Pitbull',
+            'Personalidad',
+            'Cuidados',
+            'Adiestramiento',
+            'Salud',
+            'Ejercicio',
+            'Deportes',
+            'Variedad',
+         ],
       },
    ]);
 
