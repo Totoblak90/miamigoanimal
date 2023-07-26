@@ -22935,7 +22935,6 @@ export const DOG_LIST: { [key: number]: Dog } = {
       'https://www.ukcdogs.com/wirehaired-pointing-griffon',
     ],
   },
-  // Checkpoint
   168: {
     weight: {
       imperial: '45 - 65',

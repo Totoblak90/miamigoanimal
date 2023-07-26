@@ -73,10 +73,17 @@ ul, ol {
 }
 
 /* Estilo general para la tabla */
+div.contenedor-tabla {
+   max-width: 100%;
+   overflow-x: auto;
+}
+
+
 table {
    border-collapse: separate;
    border-spacing: 0;
    width: 100%;
+   max-width: 100%;
    border-radius: 3px;
    border: 1px solid $color-grey-dark;
    overflow: hidden; /* Esto es necesario para que los bordes redondeados se muestren correctamente */
@@ -84,6 +91,11 @@ table {
    margin: 3rem 0;
 
    font-size: $default-font-size;
+ }
+
+ tbody {
+   max-width: 100%;
+   overflow-x: auto;
  }
 
  /* Estilo para las celdas de la tabla */
