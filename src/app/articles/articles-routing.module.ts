@@ -374,6 +374,25 @@ const routes: Routes = [
                sc.PerrosPitbullCaracteristicasCuidadosEntrenamientoYMasComponent
          ),
    },
+   {
+      path: 'fila-brasilero-caracteristicas-cuidados-y-curiosidades',
+      loadComponent: () =>
+         import(
+            './fila-brasilero-caracteristicas-cuidados-y-curiosidades/fila-brasilero-caracteristicas-cuidados-y-curiosidades.component'
+         ).then(
+            (sc) =>
+               sc.FilaBrasileroCaracteristicasCuidadosYCuriosidadesComponent
+         ),
+   },
+   {
+      path: 'gato-kawaii-descubre-los-secretos-de-la-ternura-felina',
+      loadComponent: () =>
+         import(
+            './gato-kawaii-descubre-los-secretos-de-la-ternura-felina/gato-kawaii-descubre-los-secretos-de-la-ternura-felina.component'
+         ).then(
+            (sc) => sc.GatoKawaiiDescubreLosSecretosDeLaTernuraFelinaComponent
+         ),
+   },
 
    {
       path: 'search-post',

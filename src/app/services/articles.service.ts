@@ -1214,7 +1214,7 @@ export class ArticlesService {
          creation: '7/24/2023, 12:34:00',
          recent_card_title:
             '🐶 Fila Brasileño: Conocé todo sobre esta raza de perros de guarda y su temperamento',
-         buscador: ['Fila Brasileño', 'Perro de guarda'],
+         buscador: ['Fila Brasileño', 'Fila', 'Perro de guarda'],
       },
 
       {
@@ -1271,6 +1271,45 @@ export class ArticlesService {
             'Deportes',
             'Variedad',
          ],
+      },
+
+      {
+         url: 'fila-brasilero-caracteristicas-cuidados-y-curiosidades',
+         categories: ['Perros'],
+         'card-heading': 'Fila Brasileño',
+         sections: [
+            'Historia',
+            'Características físicas',
+            'Cuidados',
+            'Temperamento',
+            'Cultura popular',
+            'Datos interesantes',
+            'Más',
+         ],
+         destacado: false,
+         creation: '7/26/2023, 12:05:00',
+         recent_card_title:
+            '🐶 Fila Brasileño: Características, cuidados y curiosidades',
+         buscador: ['Fila Brasileño', 'Fila', 'Perro de guarda'],
+      },
+
+      {
+         url: 'gato-kawaii-descubre-los-secretos-de-la-ternura-felina',
+         categories: ['Gatos'],
+         'card-heading': 'Kawaii',
+         sections: [
+            'Orígen del término',
+            'Como identificarlos',
+            'Ideas de nombres',
+            'Redes sociales',
+            'Curiosidades',
+            'Más'
+         ],
+         destacado: false,
+         creation: '7/26/2023, 13:02:00',
+         recent_card_title:
+            '🐱 Gato Kawaii: Descubre los secretos de la ternura felina 🐱',
+         buscador: ['Gatos Kawaii', 'Kawaii', 'Ternura', 'Tiernos', 'Secretos', 'Misterios', 'Japón'],
       },
    ]);
 
