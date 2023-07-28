@@ -393,6 +393,25 @@ const routes: Routes = [
             (sc) => sc.GatoKawaiiDescubreLosSecretosDeLaTernuraFelinaComponent
          ),
    },
+   {
+      path: 'los-gatitos-mas-adorables-descubre-el-encanto-de-los-gatitos-kawaii',
+      loadComponent: () =>
+         import(
+            './los-gatitos-mas-adorables-descubre-el-encanto-de-los-gatitos-kawaii/los-gatitos-mas-adorables-descubre-el-encanto-de-los-gatitos-kawaii.component'
+         ).then(
+            (sc) => sc.LosGatitosMasAdorablesDescubreElEncantoDeLosGatitosKawaiiComponent
+         ),
+   },
+   {
+      path: 'gatitos-bebes-adorables-companieros-de-vida-para-tu-hogar',
+      loadComponent: () =>
+         import(
+            './gatitos-bebes-adorables-companieros-de-vida-para-tu-hogar/gatitos-bebes-adorables-companieros-de-vida-para-tu-hogar.component'
+         ).then(
+            (sc) => sc.GatitosBebesAdorablesCompanierosDeVidaParaTuHogarComponent
+         ),
+   },
+
 
    {
       path: 'search-post',

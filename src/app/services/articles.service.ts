@@ -1311,6 +1311,50 @@ export class ArticlesService {
             '🐱 Gato Kawaii: Descubre los secretos de la ternura felina 🐱',
          buscador: ['Gatos Kawaii', 'Kawaii', 'Ternura', 'Tiernos', 'Secretos', 'Misterios', 'Japón'],
       },
+
+      {
+         url: 'los-gatitos-mas-adorables-descubre-el-encanto-de-los-gatitos-kawaii',
+         categories: ['Gatos'],
+         'card-heading': 'Gatos Kawaii',
+         sections: [
+            'Consejos de crianza',
+            'Alimentación y Salud',
+            'Gatos Kawaii Populares',
+            'Vestimenta/Moda felina',
+            'Impacto en la sociedad',
+            'Características comunes',
+            'Mitos asociados',
+            'Más'
+         ],
+         destacado: false,
+         creation: '7/28/2023, 13:02:00',
+         recent_card_title:
+            '🐱 Los gatitos más adorables: Descubre el encanto de los gatitos kawaii 🐱',
+         buscador: ['Gatos Kawaii', 'Kawaii', 'Ternura', 'Tiernos', 'Secretos', 'Misterios', 'Japón'],
+      },
+
+      {
+         url: 'gatitos-bebes-adorables-companieros-de-vida-para-tu-hogar',
+         categories: ['Gatos'],
+         'card-heading': 'Gatos bebes adorables',
+         sections: [
+            'Preparando el hogar',
+            'Beneficios de tener un gatito',
+            'El gatito adecuado para ti',
+            'Mejores juguetes',
+            'Problemas comunes',
+            'Como alimentarlo correctamente',
+            'Cuidado de la salud',
+            'Enseñar buenos hábitos',
+            'Castración',
+            'Más'
+         ],
+         destacado: false,
+         creation: '7/28/2023, 12:01:00',
+         recent_card_title:
+            '🐱 Gatitos bebes: Adorables companieros de vida para tu hogar 🐱',
+         buscador: ['Gatitos', 'Cachorro', 'Adorable', 'Adorables', 'Hogar', 'Compañero', 'Compañeros', 'Compañía', 'Compañías', 'Mascota', 'Mascotas'],
+      },
    ]);
 
    constructor() {}
